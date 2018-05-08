@@ -69,20 +69,19 @@ h1, h2, h3, h4, h5 {
 
 ==============================*/
 
+/* Global */
+
 h1 {
   font-size: 80px;
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
   height: 36px;
 }
 
-nav {
-  display: inline-block;
-}
-
-nav a {
-  display: inline-block;
+header nav a {
   margin: 0 60px 0 0;
   color: #aeaeae;
   line-height: 36px;
@@ -91,11 +90,11 @@ nav a {
   transition: all .3s ease-out;
 }
 
-nav a:hover {
+header nav a:hover {
   color: #333;
 }
 
-nav a:last-child {
+header nav a:last-child {
   margin: 0;
 }
 
@@ -128,65 +127,75 @@ footer {
   padding: 40px 75px;
 }
 
-.logo {
-  display: inline-block;
-  float: right;
-}
 
-.cta {
+
+/* Home */
+
+.home .cta {
+  display: flex;
   padding: 75px 0;
-  clear: both;
 }
 
-.cta-text {
-  display: inline-block;
-  width: 490px;
+.home .cta-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
   text-align: center;
-  vertical-align: middle;
 }
 
-.cta img {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.main-content {
+.home .main-content {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 40px 0;
 }
 
-.text-content {
-  display: inline-block;
+.home .text-content {
   padding: 0 20px 0 0;
 }
 
-.text-content:last-child {
+.home .text-content:last-child {
   padding: 0;
-  float: right;
 }
 
-.top-content .text-content {
+.home .top-content, .bottom-content {
+  display: flex;
+}
+
+.home .top-content .text-content {
   width: 50%;
 }
 
-.middle-img {
+.home .middle-img {
   margin: 40px 0;
-  clear: both;
 }
 
-.bottom-content .text-content {
+.home .bottom-content .text-content {
   width: 33%;
 }
 
-.contact {
+.home .contact {
   padding: 40px 0 60px;
-  clear: both;
 }
 
-.contact p:nth-last-child(2) {
+.home .contact p:nth-last-child(2) {
   margin: 18px 0;
 }
+
+
+/* Services */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
