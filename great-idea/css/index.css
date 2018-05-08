@@ -154,3 +154,12 @@ footer p {
 .service-description .topic {
 	font-size: 24px;
 }
+
+.service-choices {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 30px 0;
+}
