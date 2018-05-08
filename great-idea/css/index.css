@@ -138,3 +138,42 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+
+/* Services Page Styles */
+#services-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 1600px;
+
+}
+.services-header {
+	align-self: center;
+}
+
+.services-blurb {
+	align-self: center;
+}
+
+.services-blurb .text-content {
+	width: 1000px;
+}
+
+.middle-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	width: 1000px;
+	height: 900px;
+	align-self: center;
+}
+
+.service {
+	width: 400px;
+	height: 200px;
+	background: #e3e5e8;
+	border: 1px solid;
+	padding: 20px;
+
+}
