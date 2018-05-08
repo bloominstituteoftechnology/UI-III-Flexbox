@@ -62,3 +62,96 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+header {
+	height: 50px;
+}
+
+header nav{
+	display: inline-block;
+	vertical-align: middle;
+	height: 50x;
+}
+
+header nav a{
+	margin-right: 150px;
+	margin-left: 70px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+header .logo {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+.cta {
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.cta button{
+	font-size: 15px;
+	width: 180px;
+	height: 40px;
+}
+.cta-text {
+	font-size: 650%;
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	display: inline-block;
+}
+
+.cta img{
+	margin-left: 100px;
+	height: 500px;
+}
+
+.main-content{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black; 
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+
+.main-content .top-content .text-content{
+	display: inline-block;
+	vertical-align: top;
+	width:  800px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	font-size: 120%;
+}
+.main-content .middle-img{
+	width: 1800px;
+}
+.main-content .bottom-content .text-content{
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+	width:  580px;
+	margin-bottom: 50px;
+	font-size: 120%;
+}
+
+.contact {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+#phone {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-top: 50px;
+	margin-left: 850px;
+	margin-bottom: 120px;
+}
+
