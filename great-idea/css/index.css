@@ -224,7 +224,6 @@ footer {
   font-size: 14px;
 }
 
-.service-card h3 {}
 
 .service-card button {
   border: 1px solid black;
@@ -240,13 +239,24 @@ footer {
 .aboutServices {
   margin-top: 30px;
   display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+
 }
 
-.aboutServices ul {
+.services-text {
+	width: 320px;
+}
+
+
+.services-text ul {
   list-style: square;
 }
 
-.aboutServices ul li {
+.services-text ul li {
   padding: 10px;
   list-style-position: inside;
+}
+.aboutServices img {
+ width: 350px;
 }
