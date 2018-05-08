@@ -179,7 +179,6 @@ section.cta button {
 /* Service Content */
 
 .service-content{
-	border: 1px solid red;
 	border-top: 1px solid black;
 	margin-top: 50px;
 	padding-top: 40px;
@@ -208,6 +207,30 @@ section.cta button {
 	align-self: center;
 	border-radius: 8px;
     border: 2px solid rgb(102, 102, 102);
+}
+
+/* Services Page */
+/* Service Facts */
+.service-facts {
+	border-top: 3px solid black;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.fact-text{
+	width: 400px;
+}
+
+.fact-text p{
+	margin-bottom: 30px;
+}
+
+.fact-text ul li{
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-top: 10px;
 }
 
 /* All pages */
