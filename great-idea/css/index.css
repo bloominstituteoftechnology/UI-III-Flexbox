@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -62,3 +62,187 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+
+body{
+	width:850px;
+	margin-left: 250px;
+}
+
+.homePage header {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	align-items: center;
+}
+.homePage a{
+	margin-right: 50px;
+}
+
+a:link{
+	color: gray;
+	text-decoration: none;
+}
+
+a:visited{
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+}
+
+.cta{
+	margin-top: 80px;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.cta-text{
+	font-size: 80px;
+	text-align: center;
+	height: 300px;
+}
+
+.homePage button{
+	border: solid black 1px;
+	background: white;
+	color: black;
+	position: relative;
+	bottom: 40px;
+	padding: 5px 50px;
+	font-size: 20px;
+}
+
+button:hover{
+	color: white;
+	background: black;
+}
+
+.main-content{
+	border-top: solid black 1px;
+	margin-top: 75px;
+}
+
+h4{font-size: 20px;}
+
+.top-content{
+	display: flex;
+	margin: 50px 0px;
+}
+
+.homePage .bottom-content{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0px;
+	border-bottom: solid black 1px;
+}
+
+.bottom-content .text-content{
+	width: 270px;
+}
+
+.contact p{padding-bottom: 20px}
+
+footer {
+	text-align: center;
+	padding-bottom: 75px;
+}
+
+/* Services page */
+
+.servicesPage header {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px 0px;
+	align-items: center;
+}
+.servicesPage a{
+	margin-right: 47px;
+}
+.servicesPage .logoA {
+	margin: 0px;
+	position: relative;
+	left: 45px;
+}
+.services .cont {
+	margin: 0px;
+}
+
+.topImage {
+	width: 850px;
+	margin-bottom: 25px;
+}
+
+.servicesText {
+	padding-bottom: 30px;
+	border-bottom: solid black 1px;
+	margin-bottom: 40px;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 25px;
+	border-bottom: solid black 2px;
+	margin-bottom: 25px;
+}
+
+.services div{
+	width: 400px;
+	height: 210px;
+	padding: 5px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border: solid black 1px;
+	background: lightgray;
+}
+ .services h4 {
+	 padding-left: 10px;
+	 padding-top: 10px;
+ }
+
+ .services p {
+	 padding-left: 10px;
+	 padding-bottom: 15px;
+ }
+
+ .services button{
+	 color: black;
+	 border: solid black 1px;
+	 padding: 10px 50px;
+	 background: white;
+	 border-radius: 5px;
+ }
+
+ .services button:hover {
+	 color: white;
+	 background: black;
+ }
+
+ .bottom-content {
+	 display: flex;
+	 justify-content: space-between;
+	 margin-bottom: 100px;
+ }
+
+ .servicesPage .bottom-text {
+	 width: 400px;
+ }
+
+ .bottom-text p {
+	 margin-bottom: 25px;
+ }
+
+ ul {
+	 list-style-type: square;
+	 position: relative;
+	 left: 20px;
+ }
+
+ li {
+	 margin-bottom: 15px;
+ }
