@@ -136,7 +136,7 @@ header .logo {
   
 .main-content .top-content {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	padding: 0 10px;
 }
   
@@ -155,7 +155,7 @@ header .logo {
   
 .main-content .bottom-content {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	margin-top: 37px;
 	padding: 0 10px;
 	
@@ -173,12 +173,9 @@ header .logo {
 .contact {
 	display: flex;
 	flex-direction: column;
-	align-content: center;
-	flex-shrink: 0;
 	margin-top: 57px;
 	border-top: 1px solid black;
 	padding: 39px 10px 0;
-	background: pink;
 }
   
 .contact p {
