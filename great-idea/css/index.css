@@ -116,7 +116,6 @@ header nav a:hover {
 	padding: 5px 40px;
 	background: white;
 	border: 1px solid black;
-	font-family: 'Titillium Web', sans-serif;
 }
 
 .main-content {
@@ -149,7 +148,7 @@ header nav a:hover {
 footer {
 	text-align: center;
 	font-size: 14px;
-	margin-bottom: 60px;
+	margin: 60px 0;
 }
 
 /* Services Page Styling */
@@ -166,3 +165,52 @@ footer {
 	font-size: 30px;
 }
 
+.service-main-content{
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+	padding: 20px 0;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.service-main-content .text-content {
+	border: 1px solid black;
+	padding: 25px;
+	background: whitesmoke;
+	width: 48%;
+	margin: 15px 0;
+}
+
+.service-main-content .text-content button{
+	margin-top: 15px;
+	padding: 7px 30px;
+	border-radius: 5px;
+	border: 1.2px solid black;
+}
+
+.service-info {
+	margin: 30px 0;
+	display: flex;
+}
+
+.service-info .service-info-text {
+	width: 52%;
+}
+
+.service-info .service-info-text ul{
+	padding-left: 50px;
+	list-style: square;
+}
+
+p {
+	line-height: 20px;
+}
+
+ul {
+	line-height: 40px;
+}
+
+h4 {
+	font-size: 18px;
+}
