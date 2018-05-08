@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* start of my CSS code*/
+
+.container {
+    width: 900px;
+    margin: auto;
+    
+    height: auto;
+    
+   
+    
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    
+    
+    
+}
+
+header nav a {
+    color: gray;
+    
+    
+    
+}
+
+.logo {
+    border: 1px solid black;
+}
+
+.topPic {
+    width: 100%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.belowpic .services {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.belowpic .services h1 {
+    font-size: 30px;
+}
+
+
+.main-content {
+    border-top:2px solid black;
+    
+    display:flex;
+    
+    
+    
+    height: auto;
+    
+    
+
+    
+    
+}
+
+.main-content .top-content {
+    display: flex;
+    flex-wrap:wrap;
+    margin-top:20px;
+    height:auto;
+    margin-bottom:20px;
+    
+   
+    
+
+}
+
+.main-content .top-content .try {
+    display: flex;
+    
+}
+
+.main-content .top-content .try2 {
+    display:flex;
+}
+
+.main-content .top-content .try3 {
+    display: flex;
+}
+
+.main-content .top-content .text-content1 {
+    border:2px solid black;
+    margin-top:10px;
+    margin-right:40px;
+    margin-bottom:10px;
+    background-color: lightgray;
+    padding:10px;
+    
+}
+
+.main-content .top-content .text-content2 {
+    border: 2px solid black;
+    margin-top:10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding:10px;
+
+}
+
+.main-content .top-content .text-content3 {
+    border: 2px solid black;
+    margin-top:10px;
+    margin-right:40px;
+    margin-bottom:10px;
+    background-color: lightgray;
+    padding:10px;
+    
+}
+
+
+.main-content .top-content .text-content4 {
+    border: 2px solid black;
+    margin-top:10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding:10px;
+}
+
+.main-content .top-content .text-content5 {
+    border: 2px solid black;
+    margin-top:10px;
+    margin-right:40px;
+    margin-bottom:10px;
+    background-color: lightgray;
+    padding:10px;
+}
+
+.main-content .top-content .text-content6 {
+    border: 2px solid black;
+    margin-top:10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    background-color:lightgray;
+    padding:10px;
+}
+
+button {
+    background-color: white;
+    margin-top: 20px;
+    padding-right:30px;
+    padding-bottom:20px;
+    
+    
+}
+
+.bottom-content {
+    border-top:2px solid black;
+    
+    display: flex;
+    
+    padding-top: 20px;
+}
+
+.bottom-content .text-content {
+    
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    list-style-type: circle;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+}
+
