@@ -178,11 +178,9 @@ img {
 .cta {
   display: flex;
   margin-top: 70px;
-  border: 2px solid red;
 }
 
 .cta-text {
-  border: 1px solid blue;
   font-size: 75px;
   display: flex;
   flex-flow: column;
@@ -201,4 +199,9 @@ img {
   border: 1px solid black;
   height: 30px;
   width: 170px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
