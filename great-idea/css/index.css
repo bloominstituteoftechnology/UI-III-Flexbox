@@ -62,3 +62,82 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+.container{
+	width:950px;
+	margin:auto;
+}
+header{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+header nav{
+		display:flex;
+		justify-content: space-around;
+		margin-top: 30px;
+}
+header nav a{
+	text-decoration: none;
+	color:gray;
+	margin-right: 65px;
+	margin-left: 20px;
+}
+
+.cta {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cta-text{
+	display:flex;
+	font-size: 80px;
+	margin-left: 80px;
+	text-align: center;
+	align-items: center;
+}
+.cta button{
+	border:1px solid black;
+	-webkit-appearance: none;
+	background-color: white;
+	text-align: center;
+}
+
+.cta img{
+	display:flex;
+	align-items: flex-end;
+	margin-top: 50px;
+}
+.main-content{
+	display:flex;
+	flex-wrap:wrap;
+	align-items: center;
+}
+.top-content{
+	display:flex;
+	margin-left:20px;
+}
+
+.text-content{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.middle-img{
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.bottom-content{
+	display:flex;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.contact{
+	margin-top: 70px;
+	align-items: space-around;
+	margin-left:20px;
+}
+footer{
+	display:flex;
+	justify-content: center;
+}
