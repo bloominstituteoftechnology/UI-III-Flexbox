@@ -62,3 +62,159 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+  margin: 0px 100px;
+}
+
+header {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: gray;
+  text-decoration: none;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.cta-text {
+  font-size: 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta .cta-text h1 {
+  text-align: center;
+}
+
+.cta .cta-text button {
+  font-size: 16px;
+  border: 1px solid black;
+  padding: 5px 50px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-content {
+  display: flex;
+  padding: 40px 0px;
+}
+
+.middle-img {
+  width: 862px;
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+.contact {
+  margin: 50px 0px;
+}
+
+
+/* Services Page Styles */
+
+.services-overview {
+  display: flex;
+  flex-direction: column;
+}
+
+/* This is to avoid pixelating the image
+ * because of flexbox's default cross axis behavior */
+
+.services-overview img {
+  width: 880px;
+  align-self: center;
+}
+
+.services-overview .services-blurb {
+  padding: 40px 0px;
+}
+
+.services-overview .services-blurb h1 {
+  font-size: 30px;
+}
+
+.services {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.services .top-row,
+.services .middle-row,
+.services .bottom-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.services .card {
+  border: 1px solid black;
+  background-color: gainsboro;
+  width: 510px;
+  padding: 20px;
+  margin: 40px 0px;
+}
+
+.services .card button {
+  margin-top: 20px;
+  padding: 5px 20px;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.some-facts {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+
+.some-facts .fact-blurb {
+  width: 50%;
+}
+
+.some-facts .fact-blurb p {
+  padding: 20px 0px;
+}
+
+.fact-blurb ul {
+  list-style-type: square;  
+  margin-left: 20px;
+}
+
+.fact-blurb ul li {
+  margin-top: 10px;
+  
+}
+
+footer p {
+  text-align: center;
+  padding: 40px 0px;
+}
