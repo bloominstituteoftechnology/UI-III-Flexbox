@@ -62,3 +62,135 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* Home Page Styles */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	font-family: 'Titillium Web', sans-serif;
+	justify-content: center;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav a {
+	font-size: 16px;
+	text-decoration: none;
+	color: #CDCDCD;
+	display: flex;
+	width: 80px;
+	justify-content: space-between;
+	margin-right: 30px;
+}
+
+header .logo {
+	height: 36px;
+	margin-top: 30px;
+}
+
+.cta {
+	display: flex;
+	width: 45%;
+	height: 400px;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.cta .cta-text {
+	font-size: 72px;
+	text-align: center;
+	margin: 0px 45px;
+}
+
+.cta button {
+	display: flex;
+	width: 160px;
+	height: 36px;
+	background-color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	border: solid 1px #000000;
+	justify-content: center;
+	align-items: center;
+	margin-left: 70.055px;
+}
+
+.cta img {
+	margin: 0px 45px;
+}
+
+.main-content {
+	border-top: solid black 2px;
+	display: flex;
+	flex-direction: column;
+	margin: 0% 28%;
+}
+
+.main-content .top-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0px;
+}
+
+.main-content .top-content .text-content1 {
+	margin-right: 20px;
+}
+
+.main-content .middle-img {
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 0px;
+	padding-bottom: 40px;
+	border-bottom: solid black 2px;
+}
+
+.main-content .bottom-content .text-content1 {
+	margin-right: 20px;
+}
+
+.main-content .bottom-content .text-content2 {
+	margin-right: 20px;
+}
+
+.container .contact {
+	display: block;
+	justify-content: flex-start;
+	margin-bottom: 40px;
+	text-align: left;
+	flex-direction: column;
+	padding-right: 740px;
+}
+
+.container .contact p {
+	margin-bottom: 16px;
+}
+
+.container footer {
+	margin-bottom: 100px;
+}
