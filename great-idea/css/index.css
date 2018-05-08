@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,210 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+/* Home Page (index.html) CSS Content */
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+header nav {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-top: 35px;
+}
+
+header nav a {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	margin-right: 65px;
+	font-size: 14px
+	color: grey;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+header .logo {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 25px;
+}
+
+/* "Innovation on demand" and code globe*/
+.cta {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center:
+}
+
+.cta .cta-text {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-size: 77px;
+	margin-top: 120px;
+	padding: 0px 90px;
+}
+/* Button */
+.cta .cta-text button {
+	display: flex;
+	justify-content: center;
+	background: white;
+	margin: 6px 75px 0px 75px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+
+}
+
+.cta .cta-text button:hover{
+	background: black;
+	color: white;
+}
+
+.cta img{
+	margin-top: 69px;
+}
+
+/* The five paragraphs with code banner */
+.main-content {
+	display: flex;
+	flex-flow: column wrap;
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+}
+
+.main-content .top-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: space-between;
+	padding: 0 10px;
+}
+
+.main-content .top-centent .text-content {
+	display: flex;
+	flex-direction: column;
+	width: 410px;
+	margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+	margin-right: 0;
+}
+
+.main-content .middle-img {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-top: 45px;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: space-between;
+	margin-top: 37px;
+	padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+	display: flex;
+	flex-direction: column;
+	width: 275px;
+	margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+}
+
+/* Contact and footer */
+.contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 32px 0;
+	font-size: 14px;
+}
+/* Service Page (services.html) CSS Content */
+.banner {
+	display: flex;
+	flex-flow: column wrap;
+	align-self: center;
+	margin: 20px 0;
+}
+
+.services div h1 {
+	font-size: 25px;
+}
+
+.middle-content {
+	display: flex;
+	flex-row: row wrap;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid black;
+	margin-top: 39px;
+	padding-top: 39px;
+}
+
+.middle-content .info-content {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-start;
+	align-content: space-around;
+	border: 1px solid black;
+	background-color: rgb(237, 238, 239);
+	padding: 15px;
+}
+
+.middle-content .info-content .learn-more {
+	padding-top: 5
+	margin: 6px 75px 0px 75px;
+	padding: 8px 44px;
+}
+
+.facts {
+	display: flex;
+	margin: 39px 0 80px 0;
+	border-top: 2px solid black;
+	padding: 39px 10px 0;
+}
+
+.facts .end-content {
+	display: flex;
+	flex-direction: column;
+	align-content:space-between;
+	padding:10px;
+}
+
+.facts .end-content p {
+
+}
+
+.facts .end-content ul {
+	list-style-type: square;
+}
+
+.facts .end-content ul li {
 }
