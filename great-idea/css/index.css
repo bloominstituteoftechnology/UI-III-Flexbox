@@ -62,3 +62,94 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+header {
+	width: 100%;
+}
+
+header nav {
+	margin-top: 1.2%;
+	margin-left: 5%;
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+header nav a {
+margin-top: 1%;
+text-decoration: none;
+color: lightgrey;
+}
+
+.cta {
+	display: flex;
+	margin-top: 72px;
+	justify-content: center;
+} 
+
+.cta .cta-text{
+	display: flex;
+	font-size: 550%;
+	text-align: center;
+	flex-direction: column;
+}
+
+.cta .cta-text button {
+	border: 1px solid black;
+	font-size: 16px;
+	background: white;
+	width: 170px;
+	height: 32px;
+	align-self: center;
+}
+
+.code-snippet {
+	margin-left: 7%;
+}
+
+.main-content {
+	display: flex;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 3%;
+	margin-right: 3%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	flex-flow: column;
+}
+.top-content {
+	display: flex;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	justify-content: space-around;
+	flex-flow: row;
+}
+
+.bottom-content {
+
+	display: flex;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	justify-content: space-around;
+	flex-flow: row;
+	
+}
+
+.bottom-content .text-content {
+	display: flex;
+	flex-flow: wrap;
+	margin-right: 0.2%;
+	margin-left: 0.2%;
+}
+
+.contact {
+	margin-left: 3%;
+	display: flex;
+	flex-flow: column;
+	align-content: space-around;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 3%;
+}
