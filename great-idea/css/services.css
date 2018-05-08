@@ -95,74 +95,23 @@ h1, h2, h3, h4, h5 {
 	/* justify-content: flex-start; */
 }
 
-
-.container .cta {
-	display:flex;
-	justify-content: space-evenly;
-	align-items: center;
-	margin:50px;
-
+.container .topPicture {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px; 
 }
 
-
-.container .cta .cta-text {
-	display:flex;
-	flex-direction:column;
-	text-align:center;
-	font-size: 72px;
-	justify-content: center;
-	align-items:center;
+.container .top-content {
+    display:flex;
+    flex-direction: column;
+    border: solid red;
+    margin-bottom: 25px; 
 }
 
-.container .cta .cta-text button {
-	display:flex;
-	background-color: white;
-    color: black;
-	border: 1px solid black;
-	width: 150px;
-	padding:5px;
-	justify-content: center;
-	font-size:14px;
-}
-
-.container .cta img {
-	height: 300px;
-	width: 300px; 
-}
-
-.main-content {
-	border-top:1px solid black;
+.container .middle-content {
+    display:flex; 
+    border-top:1px solid black;
 	border-bottom:1px solid black;
 }
 
-
-.main-content .top-content {
-	display: flex;
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
-
-
-.main-content .bottom-content {
-	display: flex;
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
-
-.contact {
-	display:flex;
-	margin-top: 25px;
-	flex-direction: column;
-}
-
-.contact p {
-	display: flex;
-	margin-bottom: 20px;
-}
-
-footer {
-	display: flex;
-	justify-content: center;
-	margin:50px;
-}
-
+.container .
