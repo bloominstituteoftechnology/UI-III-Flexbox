@@ -163,15 +163,15 @@ section.cta button {
 
 /* Services Page */
 /* Services Header */
-.service-header{
+.service-header, .about-header{
 	margin-top: 25px;
 }
 
-.service-header .service-text{
+.service-text, .about-text{
 	margin-top: 50px;
 }
 
-.service-header h1{
+.service-header h1, .about-header h1{
 	font-size: 30px;
 }
 
@@ -232,6 +232,11 @@ section.cta button {
 	list-style-position: inside;
 	padding-top: 10px;
 }
+
+.about-header img{
+	width: 880px;
+}
+
 
 /* All pages */
 footer {
