@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container .logo {
-	display: inline-flex;
+	display: inline-flex; 
 	flex-direction: row-reverse;
 	/* justify-content: flex-start; */
 }
