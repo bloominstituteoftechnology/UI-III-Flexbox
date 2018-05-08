@@ -82,9 +82,15 @@ nav a {
 	color: darkgray;
 }
 
-nav a:hover {
+header nav a:hover {
 	color: #ee0c2a;
 }
+
+header .home:hover {
+	background: #ee0c2a;
+	opacity: .3;
+}
+
 
 .cta {
 	display: flex;
@@ -111,6 +117,7 @@ nav a:hover {
 .cta button:hover {
 	background-color: #ee0c2a;
 }
+
 
 .main-content .top-content{
 	border-top: 1px solid black;
