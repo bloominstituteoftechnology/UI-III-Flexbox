@@ -62,3 +62,83 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+    width: 880px;
+    margin: 0 auto;
+}
+
+header{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav a{
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+header .logo {
+    margin-top: -10px;
+}
+
+.cta {
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.cta .cta-text {
+    font-size: 77px;
+    text-align: center;
+    padding: 0px 90px;
+}
+
+.cta .cta-text button {
+    background: white;
+    vertical-align: top;
+    padding: 8px 44px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.main-content .top-content {
+    margin-top: 76px;
+    display: flex;   
+}
+
+.main-content .middle-img {
+    margin-top: 45px;
+}
+
+.main-content .bottom-content {
+    margin-top: 37px;
+    height: 200px;
+    display: flex;
+    padding: 0 10px;
+    border-bottom: 1px solid black;
+}
+
+.contact {
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.contact p {
+    margin: 20px 0;
+}
+
+footer {
+    margin: 32px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  
