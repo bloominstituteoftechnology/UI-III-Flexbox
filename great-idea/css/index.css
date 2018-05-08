@@ -62,3 +62,148 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	width: 926px;
+	padding: 25px;
+}
+
+header, nav {
+	display: flex;
+}
+
+.container header {
+	justify-content: space-between;
+}
+
+nav a {
+	padding: 10px 20px;
+	text-decoration: none;
+	color: darkgray;
+}
+
+header nav a:hover {
+	color: #ee0c2a;
+}
+
+header .home:hover {
+	background: #ee0c2a;
+	opacity: .3;
+}
+
+
+.cta {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.cta .cta-text {
+	font-size: 65px;
+	text-align: center;
+	padding-right: 70px;
+}
+
+.cta button {
+  height: 30px;
+  width: 150px;
+  position: relative;
+  top: -40px;
+  border: 1px solid black;
+  background-color: Transparent;
+}
+
+.cta button:hover {
+	background-color: #ee0c2a;
+}
+
+
+.main-content .top-content{
+	border-top: 1px solid black;
+	padding: 40px 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.main-content .bottom-content{
+	border-bottom: 1px solid black;
+	padding: 40px 0px;
+	padding-right: 10px;
+	display: flex;
+}
+
+.contact {
+  padding-top: 30px;
+}
+
+.contact p:nth-child(3) {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.services-text {
+	border-bottom: 1px solid black;
+	padding: 20px 0px;
+}
+
+.services-img {
+	padding-bottom: 20px;
+}
+
+.services-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.services-text-content {
+	width: 398px;
+	margin: 20px;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: lightgrey;
+}
+
+.services-text-content button {
+	height: 30px;
+  width: 100px;
+  position: relative;
+  top: 10px;
+  border: 1px solid black;
+	background-color: white;	
+	border-radius: 4px;
+}
+
+.services-text-content button:hover {
+	background-color: #ee0c2a;
+}
+
+.facts {
+	display: flex;
+	padding: 20px 0px;
+	border-top: 2px solid black;
+	justify-content: center;
+}
+
+.facts-text {
+	padding-right: 40px;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	list-style: inside;
+}
+
+li {
+	list-style-type: square;
+	padding-top: 15px;
+}
