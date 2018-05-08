@@ -105,15 +105,40 @@ nav a:hover {
 
 /* Features Content */
 
+section {
+	border-top: 1px solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
 section .top-content {
 	width: 100%;
 	display: flex;
-	border-top: solid 1px;
-	margin-top: 40px;
 	justify-content: center;
 }
 
-section img {
+section .bottom-content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+section .middle-img {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* Contact & Footer */
+
+section.contact p {
+	padding: 0px 0px 15px 0px;
+	vertical-align: baseline;
+}
+
+footer {
 	display: flex;
 	justify-content: center;
 }
