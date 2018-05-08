@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -84,7 +84,7 @@ header nav a {
 }
 
 header .logo {
-	margin-left: 200px;
+	margin-left: 100%;
 }
 
 /* Contact */
@@ -167,9 +167,9 @@ footer {
 /* Top Content */
 
 .services.top-content {
-	margin-top: 50px;
+	margin-top: 30px;
 	border-bottom: 1px solid black;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	font-size: 18px;
 	display: flex;
 	flex-direction: column;
@@ -180,6 +180,64 @@ footer {
 }
 
 .services.top-content h1 {
-	margin-top: 25px;
+	margin-top: 30px;
 	font-size: 25px;
 }
+
+/* Middle Content */
+
+.services.middle-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.services.box {
+	border: 1px solid black;
+	width: 40%;
+	margin: 40px 40px;
+	background-color: gainsboro;
+}
+
+.services.box h2 {
+	margin: 20px 20px;
+}
+
+.services.box p {
+	margin: 15px 20px;
+}
+
+.services.box button {
+	font-size: 12px;
+	border: 1px solid black;
+	padding: 5px 20px;
+	background-color: white;
+	border-radius: 4px;
+	margin: 15px 15px;
+}
+
+/* Bottom Content */
+
+.services.bottom-content {
+	padding: 20px 0;
+	display: flex;
+}
+
+.services.bottom-content.text {
+	padding-right: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.services.bottom-content.text ul {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.services.bottom-content.text li {
+	padding: 5px 0;
+}
+
