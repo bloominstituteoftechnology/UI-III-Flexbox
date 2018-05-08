@@ -306,7 +306,8 @@ footer p {
 
 .twin {
     display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
+	margin-bottom: 50px;
 }
 
 .twin .left-side {
@@ -315,6 +316,9 @@ footer p {
     width: 540px;
 }
 
+.twin .left-side p {
+	margin-bottom: 30px;
+}
 .twin .right-side {
     width: 540px;
 }
@@ -325,9 +329,10 @@ footer p {
 
 .twin .list {
     list-style: square;
-    padding-left: 0;
+	padding-left: 0;
 }
 
 .twin .item {
-    list-style-position: inside
+	list-style-position: inside;
+	margin: 10px;
 }
