@@ -62,3 +62,83 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* Navigation */
+.container header{
+	display: flex;
+	padding: 35px;
+}
+
+.container nav a {
+	margin: 30px;
+	color: grey;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: black;
+}
+
+.container .logo {
+	margin-left: 15px;
+	vertical-align: bottom;
+}
+
+/* Get Started & Image */
+
+.cta {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.cta .cta-text {
+	align-self: center;
+	font-size: 80px;
+	text-align: center;
+	
+}
+
+.cta .cta-text button {
+	background: white;
+}
+
+/* Features Content */
+
+section {
+	border-top: 1px solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+section .top-content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+section .bottom-content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+section .middle-img {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* Contact & Footer */
+
+section.contact p {
+	padding: 0px 0px 15px 0px;
+	vertical-align: baseline;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
