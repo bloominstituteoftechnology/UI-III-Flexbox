@@ -62,3 +62,54 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+
+.container{
+	width:863px;
+	margin:auto;
+}
+
+header{
+	display:flex;
+	width:100%;
+}
+	header nav{
+		display:flex;
+		margin-top:30px;
+		justify-content:space-between;
+		width:600px;
+	}
+
+	header nav a{
+		display:flex;
+	}
+
+	header .logo{
+		display:flex;
+		align-self: flex-end;
+		margin: 25px 0 0 90px;  
+	}
+
+  .cta{
+		display:flex;
+		border:1px;
+		border-color:red;
+	}
+
+
+	 .cta .cta-text h1{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+  .cta .cta-text img{
+display:flex;
+justify-content:center;
+}
+
+ .cta .cta-text button{
+display:flex;
+}
