@@ -159,20 +159,11 @@ section.cta button {
 	width: 280px;
 }
 
-/* Home Page */
-/* Contact Section */
-section.contact {
-	margin-top: 40px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 150px;
-}
+
 
 /* Services Page */
 /* Services Header */
 .service-header{
-	border: 1px solid red;
 	margin-top: 25px;
 }
 
@@ -184,6 +175,40 @@ section.contact {
 	font-size: 30px;
 }
 
+/* Services Page */
+/* Service Content */
+
+.service-content{
+	border: 1px solid red;
+	border-top: 1px solid black;
+	margin-top: 50px;
+	padding-top: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.service-cards{
+	width: 415px;
+	border: 1px solid black;
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: whitesmoke;
+}
+
+.service-cards p{
+	margin-bottom:20px;
+	padding-top: 10px;
+}
+
+.service-cards button {
+	width: 150px;
+	height: 40px;
+	background: white;
+	align-self: center;
+	border-radius: 8px;
+    border: 2px solid rgb(102, 102, 102);
+}
 
 /* All pages */
 footer {
