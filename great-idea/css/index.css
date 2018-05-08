@@ -80,11 +80,11 @@ header nav a {
 	color: gray;
 	text-decoration: none;
 	margin-right: 30px;
-	margin-left: 70px;
+	margin-left: 20px;
 }
 
 header .logo {
-	margin-left: 100%;
+	margin-left: 500px;
 }
 
 /* Contact */
