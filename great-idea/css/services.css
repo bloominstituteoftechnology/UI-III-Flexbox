@@ -116,7 +116,7 @@ header nav a:hover {
 
 .content-box {
 	width: 400px;
-	height: 250px;
+	height: 270px;
 	padding: 20px;
 	margin: 30px 0px;;
 	border: 2px solid black;
@@ -126,14 +126,15 @@ header nav a:hover {
 .content-box button {
 	color: black;
 	background-color: white;
-	margin-top: 10px;
-	padding: 10px 25px;
+	margin-top: 20px;
+	padding: 10px 30px;
 	border: 1px solid black;
 	border-radius: 5px;
 }
 .content-box button:hover {
 	color: white;
 	background-color: black;
+	transition: all 0.3s ease 0s;
 }
 
 .bottom-content {
