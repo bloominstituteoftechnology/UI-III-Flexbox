@@ -64,9 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* general style */
-header {
+header nav {
   display: flex;
-  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-content:
+}
+
+.logo {
+  display: flex;
 }
 
 a {
@@ -97,14 +102,10 @@ footer {
   align-content: center;
 }
 
-.container .logo {
-  display: flex;
-}
-
 .container .cta {
   padding: 50px 0 50px 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .container .cta-text {
@@ -115,41 +116,41 @@ footer {
   justify-content: center;
 }
 
-.cta-text button {
+.container button {
   text-align: center;
   height: 30px;
   width: 150px;
 
 }
 
-.main-content {
+.container .main-content {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 40px 0 40px 0;
 }
 
-.main-content .top-content {
+.container .top-content {
   display: flex;
   justify-content: space-between;
 }
 
-.top-content .text-content {
+.container .top-content .text-content {
   display: flex;
   flex-direction: column;
 }
 
-.main-content .middle-img {
+.container .middle-img {
   padding: 25px 0 25px 0;
   display: block;
   width: 100%;
 }
 
-.main-content .bottom-content {
+.container .bottom-content {
   display: flex;
   justify-content: space-between;
 }
 
-.bottom-content .text-content {
+.container .bottom-content .text-content {
   display: flex;
   flex-direction: column;
 }
@@ -187,6 +188,7 @@ footer {
 .services .top-content {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   padding-bottom: 10px;
 }
 
@@ -201,6 +203,7 @@ footer {
 
 .services .contact {
   display: flex;
+  justify-content: center;
 }
 
 .services footer {
