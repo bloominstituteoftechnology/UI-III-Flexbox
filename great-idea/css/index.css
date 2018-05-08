@@ -200,7 +200,7 @@ footer {
 ul {
 	display: flex;
 	flex-direction: column;
-	margin-left: 20px;
+	list-style: inside;
 }
 
 li {
