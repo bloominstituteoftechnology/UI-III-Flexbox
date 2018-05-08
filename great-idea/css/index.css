@@ -139,6 +139,79 @@ footer {
     margin: 32px 0;
     text-align: center;
     font-size: 14px;
-  }
+}
 
-  
+/* SERVICES.HTML */
+
+.top-section img {
+   margin-top: 15px;
+}
+
+.top-section h1 {
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+.top-section p {
+    height: 85px;
+    font-size: 17px;
+    border-bottom: 1px solid black;
+}
+
+.middle-section {
+    margin-top: 40px;
+    height: 900px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.middle-section .text-section {
+   width: 420px;
+   padding: 20px;
+   height: 250px;
+   font-size: 17px;
+   border: 1px solid black;
+}
+
+.middle-section .text-section button {
+    margin: 20px 20px 10px 0px;
+    border-radius: 8px;
+    padding: 10px 35px;
+    font-size: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.bottom-section {
+    margin-top: 40px;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bottom-section .bottom-text {
+    height: 300px;
+    width: 400px;
+    font-size: 17px;   
+}
+
+.bottom-section .bottom-text ul {
+    margin: 25px 20px;
+    
+    list-style-type: square;
+}
+
+.bottom-section .bottom-text ul li{
+    margin: 15px 0px;
+
+}
+
+
+
+
+
+
+
