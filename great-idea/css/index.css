@@ -62,3 +62,245 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* Home Page Styles */
+
+.container {
+	padding:10px;
+width:1000px;
+height: 1250px;
+}
+
+.container header {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container header nav {
+	display:flex;
+	height:50px;
+	width: 600px;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.container header nav a {
+	color: grey;
+	font-family: 'Titillium Web';
+	text-decoration: none;
+}
+
+.container header .logo {
+	display: flex;
+	align-items: center;
+}
+
+.container .cta {
+	display:flex;
+	height: 500px;
+	width: 900px;
+	justify-content: space-evenly;
+	align-items: center;
+	border-bottom: 2px solid black;
+}
+.container .cta .cta-text {
+	font-size: 80px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.container .cta .cta-text button{
+	background:white;
+	border:1px solid black;
+	font-family: Titillium Web;
+	font-size: 20px;
+	justify-content: center;
+	padding: 3px 50px;
+}
+.container .main-content {
+	height: 500px;
+}
+
+.container .main-content .top-content {
+	display:flex;
+	height: 150px;
+	width:900px;
+	justify-content: space-around;
+	padding: 10px;
+}
+.container .main-content .top-content .text-content {
+	height: 100px;
+	width:400px;
+	padding:15px;
+	margin: 10px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+
+.container .main-content .middle-img {
+	display:flex;
+	justify-content: flex-end;
+	margin: 10px 10px;
+}
+
+.container .main-content .bottom-content {
+	display:flex;
+	height: 200px;
+	width:900px;
+	justify-content: space-around;
+	padding: 10px;
+	border-bottom: solid black 2px;
+}
+
+.container .main-content .bottom-content .text-content {
+	height: 150px;
+	width:400px;
+	padding:10px;
+	margin: 15px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+.container .contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height:250px;
+	width: 300px;
+
+}
+
+.container .contact h4 {
+	display: flex;
+	height:20px;
+	width: 100px;
+
+}
+.container .contact p {
+	display: flex;
+	flex-direction: column;
+	height:40px;
+	width: 300px;
+	justify-content: space-around;
+
+
+}
+.container footer {
+	text-align:center;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+/*Services Page Styles*/
+.svc-container {
+	padding:10px;
+	width:1000px;
+	height: 1250px;
+}
+
+.svc-container header {
+	width:1000px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	border: solid blue 2px;
+	flex-wrap: wrap;
+}
+
+.svc-container header nav {
+	display:flex;
+	height:50px;
+	width: 600px;
+	justify-content: space-evenly;
+	align-items: center;
+	border: solid green 2px;
+}
+
+.svc-container header nav a {
+	display:flex;
+	color: grey;
+	font-family: 'Titillium Web';
+	text-decoration: none;
+	border: solid red 2px;
+}
+
+.svc-container header .image {
+	width: 1000px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.svc-container .main-content {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 14px;
+	height: 1250px;
+	width: 1000px;
+	justify-content: center;
+	border: solid orange 2px;
+	
+}
+
+.svc-container .main-content .top-content {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	height: 200px;
+	width:900px;
+	padding: 20px;
+	border: solid blue 1px;
+	border-bottom: black solid 2px;
+}
+.svc-container .main-content .top-content h4 {
+ font-size: 30px;
+ border: solid blueviolet 1px;
+ align-self: flex-start;
+}
+
+
+.svc-container .main-content .middle-content {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+	height: 300px;
+	width:400px;
+	margin: 10px;
+	padding: 10px;
+	border: solid black 1px;
+	background-color: lightgrey;
+	
+}
+
+.svc-container .main-content .middle-content h4{
+ display:flex;
+ align-self: flex-start;
+}
+
+/* .svc-container .main-content .middle-content .svc-button {
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 10px;
+	width:20px;
+	margin: 10px;
+	border: solid black 1px;
+	background-color: blue;
+	flex-wrap: wrap;
+} */
+
+
+
+
+
+.svc-container footer {
+	display:flex;
+	align-items: flex-start;
+	text-align:center;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border: solid gray 1px;
+}
