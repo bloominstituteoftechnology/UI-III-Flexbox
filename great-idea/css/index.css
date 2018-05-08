@@ -3,62 +3,254 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  max-height: 35px;
+  margin-top: 15px;
+}
+
+nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  color: gray;
+}
+
+.header img {
+  display: flex;
+  align-items: baseline;
+}
+
+.cta {
+  display: flex;
+  margin-top: 70px;
+}
+
+.cta-text {
+  font-size: 65px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  margin-left: 120px;
+  margin-bottom: 50px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.cta button {
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid black;
+  height: 30px;
+  width: 170px;
+}
+
+.cta img {
+  max-height: 300px;
+  margin-bottom: 60px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.top-content {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.middle-img {
+  margin-left: 10px;
+}
+
+.bottom-content {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.text-content {
+  padding-right: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
