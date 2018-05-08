@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5 {
 .index .cta{
 	display:flex;
 	justify-content:center;
-	padding-bottom:100px;
+	padding-bottom:50px;
 	align-items:center;
 }
 .index .cta .cta-text {
@@ -97,6 +97,12 @@ h1, h2, h3, h4, h5 {
 	display:flex;
 	flex-flow:column;
 	align-items:center;
+	padding-bottom:50px;
+	padding-top:50px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-top-style:solid;
+	border-top-width:1px;
 }
 .index .main-content .top-content {
 	display:flex;
@@ -117,3 +123,8 @@ h1, h2, h3, h4, h5 {
 	height:30%;
 	margin:30px 0px;
 }
+.contact {
+	display:flex;
+	flex-flow:column;
+}
+.contact
