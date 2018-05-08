@@ -62,3 +62,104 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+header {
+	display: flex;
+}
+
+header nav {
+	display: flex;
+}
+
+header nav a {
+	color: grey;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+	margin: 20px;
+}
+
+header img {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 30px;
+}
+
+.cta {
+	display: flex;
+}
+
+.cta .cta-text {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	font-size: 70px;
+	width: 500px;
+	margin: 30px;
+}
+
+.cta img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 500px;
+	margin: 30px;
+}
+
+.main-content {
+	display: flex;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.main-content .top-content {
+    display: flex;
+	flex-flow: row;
+	align-items: flex-start; 
+    margin: 20px;
+}
+
+.main-content .middle-img {
+    display: flex;
+    flex-flow: row;
+	align-self: center;
+	height: 150px;
+    width: 700px;
+    margin: 10px auto;
+}
+
+.main-content .bottom-content {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 15px;
+}
+
+.contact p {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: column;
+	align-items: flex-start;
+	margin: 10px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+}
