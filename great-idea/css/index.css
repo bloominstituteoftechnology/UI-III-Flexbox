@@ -95,7 +95,7 @@ header .logo {
 }
 
 .cta-text {
-	font-size: 78px;
+	font-size: 75px;
 	display: inline-block;
 	margin-left: 50px;
 	text-align: center;
@@ -105,10 +105,11 @@ button {
 	background: white;
   vertical-align: top;
   margin-top: 5px;
-  padding: 8px 45px;
+  padding: 8px 50px;
   font-size: 12px;
   border: 1px solid black;
 	cursor: pointer;
+	font-size: 13px;
 }
 
 .main-content {
