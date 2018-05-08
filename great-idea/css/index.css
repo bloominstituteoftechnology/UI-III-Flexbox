@@ -192,6 +192,7 @@ footer {
 
 .headerImage {
   width: 100%;
+
 }
 
 .servicesHeading h2 {
@@ -259,4 +260,37 @@ footer {
 }
 .aboutServices img {
  width: 350px;
+}
+
+/* vision.html  */
+.visionHeading {
+	margin: 30px;
+}
+.redText {
+	color: red;
+}
+
+.visionHeading h1 {
+	padding: 40px 0px 20px 0;
+	font-size: 40px;
+	text-align: center;
+}
+.visionHeading p {
+	text-align: center;
+}
+
+.visionHeading img {
+	margin-bottom: 40px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.vision-card {
+  background-color: #F8F8F8;
+  border: 1px solid black;
+  padding: 20px;
+  width: 80%;
+	margin: auto;
+  font-size: 14px;
+		text-align: center;
 }
