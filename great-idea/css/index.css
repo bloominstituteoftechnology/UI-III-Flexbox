@@ -212,7 +212,45 @@ footer {
 	padding: 15px 0px 15px 0px;
 }
 
+
 .main-content.services {
 	border: none;
+}
+
+.top-content.services {
+	width: 880px;
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 0px;
+	padding: 40px 0px;
+}
+
+.top-content.services .text-content {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 0px;
+	background-color: lightgrey;
+}
+
+.row1	{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.row2	{
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.row3	{
+	display: flex;
+}
+
+.text-content.services ul {
+	list-style-type: square;
+	list-style-position: inside;
 
 }
