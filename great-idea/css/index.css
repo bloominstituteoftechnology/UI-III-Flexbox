@@ -55,6 +55,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    line-height: 1.2;
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,3 +63,200 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/*============================
+
+  PROJECT CLASSES
+
+==============================*/
+
+/* Global */
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 36px;
+  margin: 0 0 25px 0;
+}
+
+header nav a {
+  margin: 0 60px 0 0;
+  color: #aeaeae;
+  line-height: 36px;
+  text-decoration: none;
+  text-align: center;
+  transition: all .3s ease-out;
+}
+
+header nav a:hover {
+  color: #333;
+}
+
+header nav a:last-child {
+  margin: 0;
+}
+
+header nav a.nav--active {
+  color: black;
+}
+
+button {
+  width: 174px;
+  height: 34px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  transition: all .3s ease-out;
+}
+
+button:hover {
+  color: white;
+  background-color: #333;
+}
+
+footer {
+  margin: 60px 0 0 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 1024px;
+  margin: auto;
+  padding: 40px 75px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 40px 0;
+}
+
+/* Home */
+
+.home .cta {
+  display: flex;
+  padding: 50px 0 75px;
+}
+
+.home .cta-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
+  text-align: center;
+}
+
+.home .text-content {
+  padding: 0 20px 0 0;
+}
+
+.home .text-content:last-child {
+  padding: 0;
+}
+
+.home .top-content, .bottom-content {
+  display: flex;
+}
+
+.home .top-content .text-content {
+  width: 50%;
+}
+
+.home .middle-img {
+  margin: 40px 0;
+}
+
+.home .bottom-content .text-content {
+  width: 33%;
+}
+
+.home .contact {
+  padding: 40px 0 0;
+}
+
+.home .contact p:nth-last-child(2) {
+  margin: 18px 0;
+}
+
+
+/* Services */
+
+.services .intro-text {
+  padding: 36px 0 40px;
+}
+
+.services .main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 0 0 0;
+  border-bottom: 2px solid black;
+}
+
+.services .main-content .text-content {
+  width: 420px;
+  margin: 0 0 40px 0;
+  padding: 20px;
+  background-color: #f4f3f4;
+  border: 1px solid black;
+}
+
+.services button {
+  width: 142px;
+  height: 34px;
+  margin: 25px 0 0 0;
+  color: black;
+  background-color: white;
+  font-size: 11px;
+  border-radius: 4px;
+}
+
+.services button:hover {
+  color: white;
+  background-color: #333;
+}
+
+.services .feature-content {
+  display: flex;
+  padding: 40px 0 20px;
+}
+
+.services .feature-content .text-content {
+  padding: 0 62px 0 0;
+}
+
+.services .feature-content ul {
+  margin: 25px 0 0 0;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.services .feature-content ul li {
+  margin: 0 0 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
