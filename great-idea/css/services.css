@@ -46,3 +46,11 @@ nav a {
   display: flex;
   align-items: baseline;
 }
+
+br {
+  border: 1px solid black;
+}
+.top-section {
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
