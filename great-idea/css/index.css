@@ -64,11 +64,18 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Main page CSS */
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 1700px;
+}
+
 .container header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	justify-self: center;
+	align-self: center;
 	height: 70px;
 	width: 880px;
 }
@@ -85,6 +92,8 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-around;
 	align-items: center;
 	height: 450px;
+	width: 880px;
+	align-self: center;
 }
 
 .cta .cta-text {
@@ -129,9 +138,12 @@ hr {
 
 .contact {
 	height: 150px;
+	width: 880px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+	border: 2px solid;
+	align-self: center;
 }
 
 footer {
