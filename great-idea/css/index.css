@@ -106,21 +106,21 @@ footer {
 
 /* Top Section */
 
-.homepage .cta {
+.homepage.cta {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	display: flex;
 	justify-content: center;
 }
 
-.homepage .cta-text h1 {
+.homepage.cta-text h1 {
 	font-size: 75px;
 	text-align: center;
 	margin-top: 35px;
 	margin-right: 50px;
 }
 
-.homepage .cta-text button {
+.homepage.cta-text button {
 	background-color: white;
 	border: 1px solid black;
 	padding: 3px 20px;
@@ -129,7 +129,7 @@ footer {
 
 /* Main Section */
 
-.homepage .main-content {
+.homepage.main-content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -137,27 +137,49 @@ footer {
 
 /* Top Content */
 
-.homepage .top-content {
+.homepage.top-content {
 	border-top: 1px solid black;
 	padding-top: 30px;
 	font-size: 20px;
 	display: flex;
 }
 
-.homepage .middle-img {
+.homepage.middle-img {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
 /* Bottom Content */
 
-.homepage .bottom-content {
+.homepage.bottom-content {
 	border-bottom: 1px solid black;
 	padding-bottom: 20px;
 	font-size: 20px;
 	display: flex;
 }
 
-.homepage .text-content {
+.homepage.text-content {
 	margin: 10px 20px;
+}
+
+/* Services Page */
+
+/* Top Content */
+
+.services.top-content {
+	margin-top: 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+}
+
+.services.top-content img {
+	align-self: center;
+}
+
+.services.top-content h1 {
+	margin-top: 25px;
+	font-size: 25px;
 }
