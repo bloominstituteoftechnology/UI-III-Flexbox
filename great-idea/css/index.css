@@ -68,7 +68,9 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	justify-self: center;
 	height: 70px;
+	width: 880px;
 }
 
 .container header nav {
@@ -137,6 +139,11 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
 }
 
 /* Services Page Styles */
