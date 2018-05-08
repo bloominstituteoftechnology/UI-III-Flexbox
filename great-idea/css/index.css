@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,196 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+
+
+/**************************
+  Alex McEvoy
+	User Interface Project II
+	Date: 05/08/18
+***************************/
+
+/* For whole container */
+.container {
+	width: 876px;
+}
+
+/* Header */
+.container header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	padding: 15px;
+	align-items: center;
+}
+
+.container header nav {
+	display: flex;
+	flex-grow: 5;
+	justify-content: space-around;
+	margin-right: 40px;
+}
+
+.container header nav a {
+	text-decoration: none;
+	color: grey;
+	margin: 15px;
+}
+
+header img {
+	flex-grow: 1;
+}
+
+
+
+
+/* Large area with cicular photo and Get started button */
+.cta {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.cta {
+	margin: 50px;
+}
+.cta .cta-text {
+	font-size: 70px;
+	text-align: center;
+}
+
+
+.cta .cta-text button {
+	font-size: 20px;
+	padding: 5px 40px 5px 40px;
+	background-color: transparent;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.cta button:hover{
+	color: white;
+	background-color: black;
+}
+
+
+
+
+/* Main Content, Home page */
+
+
+.main-content {
+	width: 876px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 40px;
+	padding: 10px;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 10px 20px 0px;
+	padding: 10px 20px 20px 0px;
+}
+
+.top-content .text-content p {
+	padding-right: 30px;
+}
+
+
+
+
+/* Bottom Content, Home Page */
+
+.bottom-content {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 10px 20px 0px;
+
+}
+
+.bottom-content .text-content {
+	padding: 10px 20px 20px 0px;
+}
+
+.contact {
+	display: flex;
+	flex-flow: column nowrap;
+	margin-left: 40px;
+}
+
+
+/* Contact and footer, home page */
+
+.contact p {
+	padding: 10px 0px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+
+/************************
+* Services Page
+*************************/
+
+.cta.services {
+	width: 880px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	margin: 0px 40px 0px 40px;
+	padding: 0px 0px 15px 0px;
+}
+
+.cta.services img {
+	padding: 15px 0px 15px 0px;
+}
+
+
+.main-content.services {
+	border: none;
+}
+
+.top-content.services {
+	width: 880px;
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 0px;
+	padding: 40px 0px;
+}
+
+.top-content.services .text-content {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 0px;
+	background-color: lightgrey;
+}
+
+.row1	{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.row2	{
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.row3	{
+	display: flex;
+}
+
+.text-content.services ul {
+	list-style-type: square;
+	list-style-position: inside;
+
 }
