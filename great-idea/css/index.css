@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 1000px;
 	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
 }
 
 /*Header Style*/
@@ -81,20 +85,18 @@ h1, h2, h3, h4, h5 {
 .container header nav {
 	display: flex;
 	width: 75%;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 
 .container header nav a {
 	color: grey;
 	text-decoration: none;
-
 }
 
-.container header .logo {
+.container header a {
 	display: flex;
-	align-items: center;
-	margin-right: 30px;
+	align-items: flex-end;
 }
 
 /*CTA Style*/
@@ -175,3 +177,10 @@ footer {
 
 /*Serivces Content Style*/
 
+.headertxt {
+	margin: 30px 0px;
+}
+
+.headertxt h4 {
+	font-size: 30px;
+}
