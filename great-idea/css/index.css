@@ -62,3 +62,177 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* container */
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+/* header */
+header {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin: 10px auto;
+}
+header nav {
+	display: flex;
+	width: 70%;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav a {
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+}
+header .logo {
+	align-items: center;
+}
+/* cta */
+.cta {
+	display: flex;
+	width: 100%;
+	margin: 50px auto;
+}
+.cta .cta-text {
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cta .cta-text h1 {
+	font-size: 77px;
+	text-align: center;
+}
+.cta .cta-text button {
+	background-color: white;
+	font-size: 17px;
+	border: 1px solid black;
+	padding: 8px 44px;
+}
+/* main content */
+.main-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 10px;
+}
+.main-content .top-content {
+	display: flex;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.main-content .middle-img {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.main-content .bottom-content {
+	display: flex;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.main-content .bottom-content .text-content{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/* contact */
+.contact {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.contact p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+footer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* services.html */
+/* same container */
+
+/* services header */
+.services-header {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+.services-header .services-text {
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.services-header .services-text h1 {
+	font-size: 25px;
+}
+/* services main */
+.services-main {
+	display: flex;
+	flex-flow: row wrap;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.services-main .digital-design {
+	background-color: whitesmoke;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	width: 45%;
+}
+.services-main .ux-ui {
+	background-color: whitesmoke;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	width: 45%;
+}
+.services-main .digital-marketing{
+	background-color: whitesmoke;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	width: 45%;
+}
+.services-main .web-development {
+	background-color: whitesmoke;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	width: 45%;
+}
+.services-main .ios-development{
+	background-color: whitesmoke;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	width: 45%;
+}
+.services-main .android-development{
+	background-color: whitesmoke;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	width: 45%;
+}
+.services-footer {
+	display: flex;
+	width: 100%;
+	padding-top: 50px;
+	border-top: 2px solid black;
+}
