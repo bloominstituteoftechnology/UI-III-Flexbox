@@ -106,24 +106,41 @@ header .logo {
 
 /*---Main Section----*/
 
-.main-content {
+.top-content {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
+	border-top: solid gray;
+	margin-top: 75px;
+	align-items: flex-start;
 
 }
 
 .main-content .top-content .text-content {
 	display: flex;
-	flex-direction: row;
+	justify-content: center;
+	margin-top: 30px;
+	margin: 40px;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.middle-img {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	margin: 50px;
+}
+
+
+footer {
+	display: flex;
 	justify-content: center;
 }
-
-.main-content .bottom-content .text-content{
-	display: flex;
-	align-items: flex-end;
-	justify-content: flex-end;
-}
-
 
 
 

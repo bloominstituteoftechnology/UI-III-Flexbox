@@ -85,3 +85,32 @@ header nav a {
 header .logo {
 	margin-top: 25px;
 }
+
+/*--services section-*/
+.services {
+	margin-top: 25px;
+	border: solid red;
+}
+
+.services-content {
+	display: flex;
+
+
+}
+
+.services-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.services-text .boxes{
+	background: gray;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
