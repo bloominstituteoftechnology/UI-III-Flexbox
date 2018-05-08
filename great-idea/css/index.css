@@ -62,3 +62,218 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+
+
+/*my code starts here*/
+/*page1 CSS*/
+
+ *{
+	box-sizing: border-size;
+ }
+
+
+header{
+        /*border: 1px solid red;*/
+        display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;	
+}
+
+
+a{
+	color: gray;
+	text-decoration:none;
+	padding: 40px;
+	font-size: 12px;
+}
+
+nav div {
+	width: 700px;
+	display: flex;
+        justify-content: space-evenly;
+
+}
+
+
+.cta{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.cta-text{
+        font-size: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cta img{
+	width: 20%       
+}
+
+ button{
+        height: 25px;
+        width : 120px;
+        color: gray;
+        font-size : 14px;
+        border: 1px solid black;
+        background: white;
+        font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+	text-align: center;
+
+}
+
+.main-content{
+	margin-left: 20%;
+        margin-right: 20%;
+        border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
+
+/*.main-content{
+	display: flex;
+	justify-content: space-evenly;
+
+}*/
+
+
+.top-content{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+
+.bottom-content{
+	display: flex;
+        flex-direction: row;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contact{
+       /* border-top: 1px solid black;*/
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 20px;
+}
+
+
+.contact div{
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+
+
+footer{
+        margin-top: 40px;
+        text-align: center;
+}
+
+/*page 2 CSS*/
+
+.top-image{
+	margin-left: 20%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.service{
+	/*display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;*/
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.service-paragraph{
+	font-size: 25px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.middle-main-container{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	height: auto;
+}
+
+.div-1, .div-2, .div-3, .div-4, .div-5, .div-6{
+	height: 200px;
+	width: 400px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background:  #f2f2f2;
+	padding: 10px;
+}
+
+.div-7{
+        height: 200px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /*padding: 10px;*/
+}
+
+
+
+.top-container, .mid-container, .bottom-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+
+}
+
+.bottom-container{
+	margin-bottom: 30px;
+}
+
+button{
+	border-radius: 4px;
+	color: black
+}
+
+.end-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 30px;
+}
+
+ul{
+	margin-left: 20px;
+	list-style: square;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;	
+}
+
+.bottom-image{
+	height: 200px;
+}
