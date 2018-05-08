@@ -163,13 +163,32 @@ footer {
 	justify-content: flex-start;
 	flex-flow: column-reverse wrap;
 	justify-content: space-around;
+	margin-bottom: 100px;
+	border-bottom: 2px solid black;
 }
 .serv-header img{
 	display:flex;
 	align-self: flex-start;
 	width: 70%;
+	margin-bottom: 50px;
 }
 
 .serv-header .serv-text{
 	font-size: 24px;
+	margin-bottom: 100px;
+}
+
+.main-content2 {
+	display: flex;
+	flex-flow: row wrap;
+	height: 400px;
+	width : 2000px;
+	border: 2px solid black;
+}
+
+.main-content2 .text-content2{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
 }
