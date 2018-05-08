@@ -28,37 +28,77 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header{
+	padding: 25px;
+	display: flex;
+}
+
+header nav{
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+}
+
+header .logo{
+
+}
+
+/* section.cta {
+
+}
+section .cta-text{
+
+}
+
+section .cta-text button {
+
+}
+
+section .cta-text h1 {
+
+}
+
+section .img{
+
+}
+
+section .main-content{
+
+} */ */
+
 body {
-	line-height: 1;
+line-height: 1;
+display: table-cell;
+vertical-align: middle;
 }
 ol, ul {
-	list-style: none;
+list-style: none;
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+height: 100%;
+font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+font-family: 'Bangers', cursive;
+letter-spacing: 1px;
+margin-bottom: 15px;
 }
