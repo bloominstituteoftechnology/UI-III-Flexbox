@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -62,3 +62,76 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+
+.container {
+    width: 880px;
+    margin: auto;
+}
+
+/* Header Styles */
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+/* header styles*/
+
+header nav {
+    margin-top: 40px;
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header .logo {
+    align-self: flex-end;
+    margin: 20px 60px;
+}
+
+
+.cta {
+    display: flex;
+    margin-top: 65px;
+    justify-content: flex-end;
+}
+
+.cta-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 82px;
+    align-items: center;
+    margin: 0 82px 0 0;
+    flex-flow: column;
+}
+
+.cta-text button {
+    width: 150px;
+    height: 32px;
+    cursor: pointer;
+    border: 1px double black;
+    margin-top: 5px;
+
+}
+
+.main-content {
+    border: 1px double red;
+    font-size: 18px;
+}
+
+
+
+
