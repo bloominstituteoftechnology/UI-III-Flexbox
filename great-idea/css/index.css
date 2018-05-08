@@ -207,6 +207,7 @@ h4 {
 
 .child button {
 	margin-top: 20px;
+	font-size: 14px;
 	
 }
 
@@ -223,9 +224,9 @@ h4 {
 	border-top: 1px solid black;
 	padding: 50px 0;
 }
-.service-content .bottom-content .text-content {
+.service-content .bottom-content .text-content p {
 	width: 500px;
-	border: 1px red solid;
+
 }
 
 ul {
