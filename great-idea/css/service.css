@@ -86,62 +86,31 @@ header .logo {
 	margin-top: 25px;
 }
 
-/*--cta section ---*/
-.cta {
+/*--services section-*/
+.services {
+	margin-top: 25px;
+
+}
+
+.services-content {
 	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	margin-top: 100px;
+
+
 }
 
-.cta .cta-text {
-	font-size: 80px;
-	text-align: center;
-	padding-right: 200px;
-}
-
-.cta-text button {
-	font-size: 30px;
-}
-
-/*---Main Section----*/
-
-.top-content {
+.services-text {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	border-top: solid gray;
-	margin-top: 75px;
-	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
 }
 
-.main-content .top-content .text-content {
-	display: flex;
-	justify-content: center;
-	margin-top: 30px;
-	margin: 40px;
+.services-text .boxes{
+	background: gray;
 }
-
-.bottom-content {
-	display: flex;
-	justify-content: center;
-	margin-top: 30px;
-}
-
-.middle-img {
-	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	margin: 50px;
-}
-
 
 footer {
 	display: flex;
 	justify-content: center;
 }
-
-
-
 
