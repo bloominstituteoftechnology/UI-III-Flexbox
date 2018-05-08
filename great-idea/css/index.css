@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-
+/* Home Page */
 header  {
 	display: flex;
 	justify-content: space-between;
@@ -141,3 +141,6 @@ nav a {
 footer p {
 	text-align: center;
 }
+/* Home Page ends */
+
+/* Service Page */
