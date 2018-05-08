@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .cta {
-  
+
   display: flex;
   flex-direction: column;
 	justify-content: space-evenly;
@@ -117,13 +117,13 @@ h1, h2, h3, h4, h5 {
 }
 
 	.main-content {
-
 		padding-top: 40px;
-		margin: 0px 30px 200px;
-    height: 1000px;
+		margin: 0px 30px -30px;
+    height: 950px;
 		display: flex;
     flex-flow: wrap;
-		justify-content: space-around;
+		justify-content: space-evenly;
+		align-items: space-around;
 
 	}
 
@@ -134,22 +134,30 @@ h1, h2, h3, h4, h5 {
     width: 400px;
     display: flex;
     flex-flow: column;
-    align-items: space-evenly;
+    align-items: space-around;
   }
 
 
 
-
 	.facts {
-		height: 150px;
+		border: 2px red solid;
 		display: flex;
-		flex-direction: column;
-		margin: 35px 75px 60px;
-		justify-content: space-evenly;
+		flex-flow: column;
+		width: 200px;
+
+
+}
+
+	.facts li {
+		list-style-type: square;
+	}
+
+	.facts img {
+		display: flex;
 	}
 
 	footer {
 		font-size: 14px;
 		text-align: center;
-		margin-bottom: 120px;
+
 	}
