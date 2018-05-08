@@ -180,9 +180,11 @@ h3 {
 
 .middle-content {
 	display: flex;
-	/* flex-wrap: wrap; */
+	flex-wrap: wrap;
 	/* width: 20%; */
-
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
 	padding: 20px 0px;
 	border-top: 1px solid black;
 	border-bottom: 2px solid black;
@@ -193,6 +195,9 @@ h3 {
 	border: 1px solid black;
 	padding: 10px;
 	background: lightgrey;
+	width: 400px;
+	margin-top: 13px;
+	margin-bottom: 13px;
 }
 
 .bottom-content {
