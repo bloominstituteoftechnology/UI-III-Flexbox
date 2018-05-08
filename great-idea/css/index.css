@@ -62,3 +62,68 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+* {border: 1px solid black !important;
+}
+
+.container {width: 880px;
+	margin: 0 auto; 
+	
+	}
+	header{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		
+	}
+	header nav{
+	display: flex;
+	width: 70%;
+	 margin-top: 65px;
+	 justify-content: space-between;
+	 flex-direction: row;
+
+}
+header nav a{
+	text-decoration: none;
+	color: gray;
+	
+	
+}
+
+
+.cta{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cta img{
+	margin-top: 75px;
+}
+.cta .cta-text{
+	margin-left: 100px;
+	margin-top: 75px;
+	font-size: 70px;
+	align-content: center;
+	text-align: center;
+}
+.cta .cta-text button{
+	background: white;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	margin-top: 6px;
+	padding: 8px 44px;
+}
+.main-content{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.main-content .top-content{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top: 1px solid black;
+	padding-top: 30px;
+}
