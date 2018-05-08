@@ -62,3 +62,102 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* General */
+
+.container {
+	margin: 30px 50px;
+}
+
+/* Nav */
+
+header {
+	display: flex;
+	width: 100%;
+}
+
+header nav a {
+	color: gray;
+	text-decoration: none;
+	margin-right: 30px;
+	margin-left: 70px;
+}
+
+header .logo {
+	margin-left: 200px;
+}
+
+/* Contact */
+
+.contact {
+	margin-top: 15px;
+}
+
+.contact p{
+	margin-bottom: 15px;
+}
+
+/* Footer */
+
+footer {
+	display: block;
+	text-align: center;
+}
+
+/* Top Section */
+
+.homepage .cta {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.homepage .cta-text h1 {
+	font-size: 75px;
+	text-align: center;
+	margin-top: 35px;
+	margin-right: 50px;
+}
+
+.homepage .cta-text button {
+	background-color: white;
+	border: 1px solid black;
+	padding: 3px 20px;
+	margin-left: 95px;
+}
+
+/* Main Section */
+
+.homepage .main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Top Content */
+
+.homepage .top-content {
+	border-top: 1px solid black;
+	padding-top: 30px;
+	font-size: 20px;
+	display: flex;
+}
+
+.homepage .middle-img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* Bottom Content */
+
+.homepage .bottom-content {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	font-size: 20px;
+	display: flex;
+}
+
+.homepage .text-content {
+	margin: 10px 20px;
+}
