@@ -62,3 +62,166 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* Main page CSS */
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 1700px;
+}
+
+.container header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-self: center;
+	height: 70px;
+	width: 880px;
+}
+
+.container header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 600px;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 450px;
+	width: 880px;
+	align-self: center;
+}
+
+.cta .cta-text {
+	font-size: 4rem;
+}
+
+.cta .cta-text button {
+
+}
+
+hr {
+	width: 1000px;
+}
+
+.main-content {
+	display: flex; 
+	flex-direction: column;
+	height: 700px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.main-content .top-content {
+	display: flex;
+	justify-content: space-between;
+	width: 900px;
+}
+
+.main-content .top-content .text-content {
+	width: 400px;
+}
+
+.main-content .bottom-content {
+	display: flex; 
+	justify-content: space-between;
+	width: 900px;
+}
+
+.main-content .bottom-content .text-content {
+	width: 250px;
+}
+
+.contact {
+	height: 150px;
+	width: 880px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-self: center;
+}
+
+footer {
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+/* Services Page Styles */
+#services-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 1700px;
+
+}
+.services-header {
+	align-self: center;
+}
+
+.services-blurb {
+	align-self: center;
+	width: 800px;
+}
+
+.services-blurb .text-content {
+
+}
+
+.middle-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+	width: 800px;
+	height: 900px;
+	align-self: center;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+}
+
+.service {
+	width: 380px;
+	height: 250px;
+	background: #e3e5e8;
+	border: 1px solid;
+	padding: 20px;
+
+}
+
+button {
+	width: 110px;
+	height: 30px;
+	border: 1px solid;
+	border-radius: 10%;
+	margin-top: 30px;
+}
+
+#services-container .bottom-content {
+	display: flex;
+	align-self: center;
+	justify-content: space-around; 
+	width: 800px;
+	height: 250px
+}
+
+.service-facts {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 380px;
+}
+
+li {
+	list-style: square;
+}
