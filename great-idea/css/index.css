@@ -68,7 +68,15 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+/* All pages */
+p {
+	line-height: 18px;
+}
 
+
+
+
+/* All pages */
 /* Top Navigation Bar */
 header{
 	padding-top: 50px;
@@ -95,7 +103,7 @@ nav a:hover{
 }
 
 
-
+/* Home Page */
 /* Section CTA */
 section.cta {
 	padding-top: 50px;
@@ -125,6 +133,7 @@ section.cta button {
 	align-self: center;
 }
 
+/* Home Page */
 /* Main Content */
 .main-content .top-content{
 	display:flex;
@@ -150,6 +159,7 @@ section.cta button {
 	width: 280px;
 }
 
+/* Home Page */
 /* Contact Section */
 section.contact {
 	margin-top: 40px;
@@ -159,6 +169,23 @@ section.contact {
 	height: 150px;
 }
 
+/* Services Page */
+/* Services Header */
+.service-header{
+	border: 1px solid red;
+	margin-top: 25px;
+}
+
+.service-header .service-text{
+	margin-top: 50px;
+}
+
+.service-header h1{
+	font-size: 30px;
+}
+
+
+/* All pages */
 footer {
 	margin-top: 30px;
 	text-align: center;
