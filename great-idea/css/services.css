@@ -70,50 +70,71 @@ header{
 	display: flex;
 	justify-content: space-between;
 }
+nav{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
 header nav a{
-	margin-right: 40px;
+
 	text-decoration: none;
 	font-size: 14px;
 	color: rgb(109, 109, 109);
 }
-.cta{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;	
-	margin: 8% auto;
+.section__a{
+    margin: 20px 0;
+}
+section h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+p{
+    font-size: 14px;
+}
+section img{
+    width: 100%;
+}
+.section__b{
+    padding: 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
-.cta h1{
-	font-size: 60px;
-	color: black;
+.card{
+    width: 49%;
+    background: rgb(236, 236, 236);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+.card p{
+    margin-bottom: 15px;
 }
 button{
 	color: black;
 	padding: 5px 30px;
 	border: 1px solid rgb(63, 63, 63);
 }
-.cta-text{
-	text-align: center;	
+.section__c{
+    padding: 20px 0;    
+    display: flex;
+    justify-content: space-between;    
+
 }
-.main-content{
-	padding: 30px 0;
-	border-top: 1px solid rgb(99, 99, 99);
-	border-bottom: 1px solid rgb(99, 99, 99);
+.info p{
+    margin: 10px 0;
 }
-.top-content{
-	display: flex;
-	padding: 20px 0;
+.info li{
+    list-style: circle;
+    margin-left: 40px;
+    font-weight: bold;
 }
-.main-content img{
-	width: 100%;
-}
-.bottom-content{
-	display: flex;
-	padding: 20px 0;
-}
-.text-content{
-	margin: 0 20px ;
-}
+
 .contact{
 	padding-top: 50px;
 }
