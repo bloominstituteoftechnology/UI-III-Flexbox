@@ -62,3 +62,116 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/*My Code*/
+
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/*Header Style*/
+
+.container header {
+	display: flex;
+	justify-content: space-between;
+	margin: 25px 0px;
+}
+
+.container header nav {
+	display: flex;
+	width: 75%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.container header nav a {
+	color: grey;
+	text-decoration: none;
+
+}
+
+.container header .logo {
+	display: flex;
+	align-items: center;
+	margin-right: 30px;
+}
+
+/*CTA Style*/
+
+.cta {
+	display: flex;
+	justify-content: space-around;
+	margin: 75px 0px;
+}
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cta .cta-text h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+.cta .cta-text button {
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 35px;
+}
+
+
+/*Main Content Style*/
+.main-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*Top Content Style*/
+
+.top-content {
+	border-top: 1px solid black;
+	padding: 35px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-content .text-content {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+
+/*Bottom Content Style*/
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	padding: 35px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-content .text-content {
+	display: flex;
+	flex-direction: column;
+	width: 32%;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 200px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+/*Serivces Content Style*/
+
