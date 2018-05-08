@@ -85,3 +85,29 @@ nav a {
 	text-decoration: none;
 	color: gray;
 }
+
+.cta {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+
+.cta-text h1 {
+	text-align: center;
+	font-size: 64px;
+}
+
+.cta button {
+	padding: 5px 30px;
+	color: black;
+	border: 1px solid black;
+	background: white;
+}
