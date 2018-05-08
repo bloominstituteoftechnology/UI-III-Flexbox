@@ -157,10 +157,11 @@ header {
   display: flex;
   justify-content: space-around;
   max-height: 35px;
+  margin-top: 15px;
 }
 
 nav {
-  width: 100%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
 }
@@ -170,9 +171,7 @@ nav a {
   align-items: flex-end;
 }
 
-img {
-  margin-left: 80px;
-  margin-top: 10px;
+.header img {
   display: flex;
   align-items: baseline;
 }
@@ -212,9 +211,44 @@ img {
 .main-content {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .top-content {
   margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 40px;
   display: flex;
+}
+
+.middle-img {
+  margin-left: 10px;
+}
+
+.bottom-content {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.text-content {
+  padding-right: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.contact p {
+  margin-bottom: 19px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
