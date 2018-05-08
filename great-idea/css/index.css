@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,177 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+/*Index page------------------*/
+.container {
+	width: 876px;
+	margin: auto;
+	margin-top: 10px;
+	font-size: 95%;
+}
+
+header nav {
+	display: inline-block;
+	width: 75%;
+	vertical-align: middle;
+}
+
+header nav a {
+	display: inline-block;
+  margin-right: 50px;
+	text-decoration: none;
+	color: grey;
+}
+
+header .logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 32px;
+}
+
+.cta {
+	margin-top: 50px;
+}
+
+.cta-text {
+	font-size: 75px;
+	display: inline-block;
+	margin-left: 50px;
+	text-align: center;
+}
+
+button {
+	background: white;
+  vertical-align: top;
+  margin-top: 5px;
+  padding: 8px 50px;
+  font-size: 12px;
+  border: 1px solid black;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+.main-content {
+	margin-top: 55px;
+	border-top: 1px solid black;
+	padding-top: 35px;
+}
+
+
+.cta img {
+	display: inline-block;
+	margin-left: 110px;
+}
+
+.main-content .top-content .text-content {
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 30px;
+}
+
+.main-content .bottom-content {
+	margin-top: 20px;
+}
+
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	width: 275px;
+  margin-right: 10px;
+}
+
+.bottom-content {
+	margin-bottom: 30px;
+}
+
+
+.middle-img {
+	height: 130px;
+	width: 100%;
+}
+
+.contact {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid black;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer p {
+	margin-left: 350px;
+	margin-bottom: 30px;
+}
+
+/*Services page------------------*/
+.top-picture {
+	margin-top: 20px;
+}
+
+.svcs {
+	margin-top: 26px;
+}
+
+.box {
+	height: 800px;
+	border-top: 1px solid black;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.svc h2 {
+	font-size: 1.5em;
+}
+
+.box div {
+	background-color: rgb(245,245,245);
+	width: 423px;
+	border: 1px solid black;
+	margin-top: 30px;
+	padding: 20px;
+	line-height: 1.23em;
+	height: 235px;
+}
+
+.box .first, .box .third, .box .fifth {
+	margin-right: 30px;
+}
+
+.box button {
+	background: white;
+  vertical-align: top;
+  margin-top: 20px;
+  padding: 8px 38px;
+  font-size: 12px;
+  border: 1px solid black;
+	cursor: pointer;
+	border-radius: 5px
+}
+
+.facts {
+	border-top: 1px solid black;
+	margin-top: 30px;
+	padding: 30px 0;
+	display: flex;
+}
+
+.facts-text {
+	margin-right: 40px;
+
+}
+
+.lists {
+	margin: 25px 0 0 18px;
+	list-style: square;
+}
+
+li {
+	padding-bottom: 10px;
+}
+
+footer {
+	margin-top: 50px;
 }
