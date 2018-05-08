@@ -155,7 +155,6 @@ h5 {
 }
 header {
   display: flex;
-  border: 1px solid red;
   justify-content: space-around;
 }
 
@@ -163,15 +162,30 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border: 1px solid blue;
 }
 
 nav a {
   display: flex;
   align-items: flex-end;
-  border: 1px solid green;
 }
 
 img {
   margin-left: 80px;
+}
+
+.cta {
+  display: flex;
+  margin-top: 70px;
+  border: 2px solid red;
+}
+
+.cta-text {
+  border: 1px solid blue;
+  font-size: 75px;
+}
+.cta h1 {
+  text-align: center;
+}
+.cta img {
+  border: 1px solid yellow;
 }
