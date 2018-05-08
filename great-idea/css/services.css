@@ -80,7 +80,7 @@ header nav {
 	margin-top: 30px;
 	display: flex;
 	width: 100%;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 header .logo {
 	margin-top: 25px;
@@ -95,56 +95,66 @@ header nav a:hover {
 	color: #333;
 }
 
-.cta {
-	margin: 70px 0px;
+.services {
+	margin: 20px 0px;
 	display: flex;
-	align-items: center;
-	justify-content: space-around;
 }
 
-.cta .cta-text {
-	font-size: 70px;
-	text-align: center;
-}
-.cta .cta-text h1{
-	margin-bottom: -20px;
+.services h1 {
+	font-size: 1.5em;
 }
 
-.cta .cta-text button {
-	border: 1px solid black;
-	padding: 5px 35px;
-	background-color: white;
-	color: black;
-}
-.cta .cta-text button:hover {
-	background-color: black;
-	color: white;
-}
-
-.main-content {
-	width: 880px;
+.service-boxes {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	margin: 40px 0px;
-	padding: 40px 0px;
+	border-radius: 2px;
 }
 
-.top-content {
-	margin-bottom: 30px;
-	display: flex;
+.content-box {
+	width: 400px;
+	height: 250px;
+	padding: 20px;
+	margin: 30px 0px;;
+	border: 2px solid black;
+	background-color: #eee;
+}
 
+.content-box button {
+	color: black;
+	background-color: white;
+	margin-top: 10px;
+	padding: 10px 25px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.content-box button:hover {
+	color: white;
+	background-color: black;
 }
 
 .bottom-content {
-	padding-top: 30px;
+	margin: 30px 0px;
 	display: flex;
+	justify-content: space-between;
 }
 
-.contact p:nth-child(3){
-	line-height: 3em;
+.info {
+	width: 45%;
+}
+.info ul {
+	list-style: inside;
+	padding: 15px 0px;
+}
+
+.info li {
+	padding: 5px;
 }
 
 footer {
-	margin: 50px 0;
+	margin: 50px 0px;
 	text-align: center;
 }
