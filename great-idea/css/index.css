@@ -121,7 +121,7 @@ header .logo {
 }
 
 .cta .cta-text {
-	display: inline-block;
+
 	float: left;
 	text-align: center;
 	padding: 60px 80px 60px 80px;
@@ -199,4 +199,70 @@ header .logo {
 footer {
 	text-align: center;
 	padding: 40px 0 80px 0;
+}
+
+/* services.html page */
+
+.headerImage {
+	width: 100%;
+}
+
+.servicesHeading h2 {
+	padding: 20px 0 0px 0;
+	font-size: 24px;
+}
+
+.servicesHeading p {
+	padding-bottom: 30px;
+}
+
+.services-content {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	height: 640px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	justify-content: space-between;
+	align-content: space-between;
+	padding: 20px 0 20px 0;
+
+}
+
+.service-card {
+	background-color: #F8F8F8;
+	border: 1px solid black;
+	padding: 20px;
+	width: 340px;
+	height: 185px;
+	font-size: 14px;
+}
+
+.service-card h3 {
+
+}
+
+.service-card button {
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: white;
+	color: black;
+	font-size: 11px;
+	padding: 5px 30px 5px 30px;
+	margin: 20px 0 0 0;
+	font-family: 'Titillium Web';
+}
+
+.aboutServices {
+ margin-top: 30px;
+ display: flex;
+}
+
+
+.aboutServices ul {
+	list-style: square;
+}
+.aboutServices ul li {
+	padding: 10px;
+	list-style-position: inside;
 }
