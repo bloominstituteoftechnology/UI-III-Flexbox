@@ -62,3 +62,79 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* Main page CSS */
+.container header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70px;
+}
+
+.container header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 600px;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 450px;
+}
+
+.cta .cta-text {
+	font-size: 4rem;
+}
+
+.cta .cta-text button {
+
+}
+
+hr {
+	width: 1000px;
+}
+
+.main-content {
+	display: flex; 
+	flex-direction: column;
+	height: 700px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.main-content .top-content {
+	display: flex;
+	justify-content: space-between;
+	width: 900px;
+}
+
+.main-content .top-content .text-content {
+	width: 400px;
+}
+
+.main-content .bottom-content {
+	display: flex; 
+	justify-content: space-between;
+	width: 900px;
+}
+
+.main-content .bottom-content .text-content {
+	width: 250px;
+}
+
+.contact {
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+footer {
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
