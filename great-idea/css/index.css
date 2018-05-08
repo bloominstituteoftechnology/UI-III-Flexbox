@@ -183,7 +183,7 @@ img {
 }
 
 .cta-text {
-  font-size: 75px;
+  font-size: 65px;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -191,6 +191,7 @@ img {
   align-self: center;
   text-align: center;
   margin-left: 120px;
+  margin-bottom: 50px;
   height: 300px;
   margin-top: 10px;
 }
@@ -203,7 +204,17 @@ img {
   width: 170px;
 }
 
+.cta img {
+  max-height: 300px;
+  margin-bottom: 60px;
+}
+
 .main-content {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+}
+
+.top-content {
+  margin-top: 30px;
+  display: flex;
 }
