@@ -62,3 +62,92 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+header{
+	display: flex;
+	width: 100%;
+	color: green;
+	padding-right: 50px;
+
+}
+header nav{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding-right: 30px;
+}
+header nav a {
+	color: gray;
+}
+.cta{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+}
+.cta-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 50px;
+	justify-content: center;
+}
+ 
+}
+.main-content{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction:column;
+	border-top: 5px solid red; 
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	}
+.main-content .top-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-top: 5px solid grey;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.main-content .bottom-content{
+	display: flex;
+	border-bottom: 5px solid grey;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+ .middle-img{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+footer{
+	display: flex;
+	justify-content: center;
+}
+
+		
+}
+.contact{
+	display:flex;
+	flex-direction: column;
+	padding-top: 20px;
+	justify-content: space-around;
+}
+.contact p{
+	padding-bottom: 10px;
+}
