@@ -194,3 +194,23 @@ footer p {
 	border-radius: 4px;
 	background: white;
 }
+
+.twin {
+	display: flex;
+	justify-content: space-between;
+}
+
+.twin .left-side {
+	display: flex;
+	flex-direction: column;
+	width: 540px;
+	
+}
+
+.twin .right-side {
+	width: 540px;
+}
+
+.twin .right-side img {
+	width: 100%;
+}
