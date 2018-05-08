@@ -155,3 +155,11 @@ footer {
 	margin-bottom: 120px;
 }
 
+
+/* Services page */
+
+.servHeader {
+	display:flex;
+	justify-content: center;
+}
+
