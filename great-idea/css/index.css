@@ -156,6 +156,7 @@ h5 {
 header {
   display: flex;
   justify-content: space-around;
+  max-height: 35px;
 }
 
 nav {
@@ -171,6 +172,7 @@ nav a {
 
 img {
   margin-left: 80px;
+  margin-top: 13px;
 }
 
 .cta {
