@@ -62,3 +62,161 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/*MY CODE*/
+
+/*Link Formating*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/*BODY*/
+.container {
+	width: 880px;
+	margin: auto;
+}
+
+/*NAV*/
+.container header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.container header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 600px;
+}
+
+.container header nav a {
+	color: gray;
+}
+
+/*CTA*/
+.cta {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px;
+}
+
+.cta .cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cta .cta-text h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+/*Main Content*/
+
+.main-content .top-content {
+	display: flex;
+	padding: 35px 5px;
+	border-top: 1px solid black;
+	justify-content: space-between;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	padding: 35px 5px;
+	border-bottom: 1px solid black;
+}
+
+/*Contact*/
+.contact {
+	padding: 35px 5px;
+}
+
+/*Footer*/
+footer {
+	text-align: center;
+	padding-bottom: 35px;
+}
+
+/*SERVICES*/
+
+/*Services Header*/
+.subsection-header img {
+	padding: 20px 0px;
+}
+
+.subsection-header h3 {
+	font-size: 25px;
+}
+
+.subsection-header p {
+	padding-bottom: 20px;
+}
+
+/*Services Content*/
+.services-content {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 35px 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.services-content .text-content {
+	width: 400px;
+	height: 230px;
+	background: #F0F0F0;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 20px;
+}
+
+.services-content .text-content p {
+	padding-bottom: 20px;
+}
+
+.services-content .text-content button {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	padding: 7px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+/*Services Facts*/
+.services-facts {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 35px;
+	padding-bottom: 80px;
+}
+
+.services-facts .services-facts-text {
+	width: 400px;
+}
+
+.services-facts .services-facts-text p {
+	padding-bottom: 20px;
+}
+
+.services-facts .services-facts-text ul li {
+	padding-bottom: 10px;
+}
