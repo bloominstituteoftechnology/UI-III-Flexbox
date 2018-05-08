@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,135 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+.container {
+  width: 880px;
+  margin: 0 auto;
+}
+/* my css/ header */
+header {
+	display: flex;
+}
+nav {
+display: flex;
+justify-content: space-between;
+margin-top: 35px;
+width: 65%;
+}
+nav a {
+
+	text-decoration: none;
+	color: gray;
+}
+
+.logo {
+	margin-top: 25px;
+	margin-left: 105px;
+}
+
+/* cta */
+.cta {
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+}
+.cta .cta-text {
+	font-size: 77px;
+	text-align: center;
+}
+	.cta img {
+	  margin-top: 69px;
+	}
+	button {
+	  background: white;
+	  vertical-align: top;
+	  margin-top: 6px;
+	  padding: 8px 44px;
+	  font-size: 17px;
+	  border: 1px solid black;
+	  cursor: pointer;
+	}
+/* top-content */
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+.top-content {
+	display: flex;
+}
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+/* bottom-content */
+.bottom-content {
+	margin-top: 37px;
+	display: flex;
+}
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
+/* services */
+main img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+main h1 {
+	font-size: 20px;
+}
+
+main  p {
+	margin-bottom: 40px;
+}
+
+.services {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 40px;
+	height: 800px;
+	align-items: stretch;
+	justify-content: space-between;
+}
+article {
+	width: 48%;
+	padding: 10px;
+	background-color: #F4F3F4;
+	border: solid 1px;
+	margin-top: 40px;
+}
+article button {
+	border-radius: 10px;
+	margin-top: 30px;
+}
+aside {
+	padding-top: 40px;
+	height: 400px;
+}
+.aside-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.aside-content p {
+	padding-right: 40px;
+	margin-bottom: 20px;
+}
+.aside-content ul {
+	padding-left: 20px;
+
+}
+.aside-content li {
+	margin-bottom: 9px;
 }
