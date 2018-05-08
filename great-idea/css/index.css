@@ -63,8 +63,8 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Home Page */
+/* EVERY PAGE COMPONENTS */
+/* Navbar and logo*/
 header  {
 	display: flex;
 	justify-content: space-between;
@@ -80,11 +80,23 @@ header nav {
 header img {
 	margin-right: 30px;
 }
-
 nav a {
 	text-decoration: none;
 	color: gray;
 }
+/* Navbar and logo ends */
+
+/* Footer */
+footer p {
+	text-align: center;
+}
+
+/* Footer Ends */
+
+/* EVERY PAGE COMPONENTS ENDS */
+
+
+/* Home Page */
 
 .cta {
 	display: flex;
