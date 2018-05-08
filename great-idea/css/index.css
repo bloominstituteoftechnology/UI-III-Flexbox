@@ -151,7 +151,6 @@ h5 {
 .container {
   max-width: 900px;
   margin: auto;
-  border: 1px solid green;
 }
 header {
   display: flex;
@@ -169,6 +168,8 @@ nav {
 nav a {
   display: flex;
   align-items: flex-end;
+  text-decoration: none;
+  color: gray;
 }
 
 .header img {
