@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -62,3 +62,101 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+/*MY CODE BELOW*/
+
+header {
+	border: 2px solid blue;
+	display: flex;
+	/* BELOW IS SPACE BETWEEN LINKS TO IMG */
+	/* delete this comment>>> BELOW OVER WRITTEN BY width */
+	justify-content: space-between;
+	/* BELOW CENTERS TEXT BOXES (LINKS) TO IMG */
+	align-items: center;
+}
+nav {
+	border: 2px solid black;
+	/* ADDING WIDTH FOR <nav> CONTAINER*/
+	width: 80%;
+	/* CREATING NEW FLEX BOX FOR <nav> CONTAINER */
+	display: flex;
+	justify-content: space-around;
+}
+nav a {
+	border: 1px solid red;
+	color: grey;
+	/* BELOW DOESN'T WORK WELL FOR RESIZING WINDOW */
+	/* padding: 0px 50px; */	
+}
+.logo {
+	border: 1px solid red;
+	/* RESIZING WINDOW HAS logo OVERLAP links :( */
+}
+
+
+.cta {
+	border: 2px solid blue;
+	border-bottom: 5px solid grey; /* NON-flexBox */
+	padding: 50px 0px; /* NON-flexBox */
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.cta-text {
+	border: 1px solid red;	
+	text-align: center; /* NON-flexBox */
+	font-size: 70px; /* NON-flexBox */
+	align-self: center;
+}	
+.cta img {
+	border: 1px solid red;
+}
+
+
+.top-content {
+	border: 2px solid blue;
+	padding: 50px 0px; /* NON-flexBox */
+	display: flex;
+
+}
+.top-content .text-content {
+	border: 1px solid red;
+	/* BELOW MAKES TITLE h4 SIT ABOVE <p> */
+	flex-direction: column;
+}
+.top-content .text-content h4 {
+	border: 1px solid red;
+}
+
+
+.middle-img {
+	/* CENTER IMG, USING NON-flexBox */
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bottom-content {
+	padding: 50px 0px;
+	border-bottom: 5px solid grey; /* NON-flexBox */
+
+	display: flex;
+}
+
+
+.contact {
+	padding: 30px 0px;	
+}
+footer {
+	text-align: center;	
+}
+
+
+
+
+
+
+
+
