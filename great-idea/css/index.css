@@ -60,5 +60,38 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+header nav a {
+	margin: 30px;
+}
+
+.cta {
+	display: flex;
+	margin-top: 40px;
+	justify-content: center;
+	
+}
+
+h1 {
+	font-size: 80px;
+	margin-right: 100px;
+	display: flex; 
+	align-items: center;
+}
+
+button {
+	width: 200px;
+	margin-right: 100px;
+}
+
