@@ -225,4 +225,109 @@ footer p {
 
 .twin .right-side img {
 	width: 100%;
+}   flex-flow: column;
+    padding: 30px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.main-content .top-content,
+.main-content .bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content img {
+    margin: 30px 0;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+/* Home Page ends */
+
+/* Service Page */
+
+.service-head-img {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.service-description .topic {
+    font-size: 24px;
+}
+
+.service-choices {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 30px 0;
+}
+
+.service-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 20px;
+    width: 540px;
+    height: 250px;
+    border: 1px solid black;
+    background: pink;
+}
+
+.service-container:last-child {
+    margin-bottom: 50px;
+}
+
+.service-container .topic {
+    margin: 0;
+}
+
+.service-container .description {
+    line-height: 120%;
+}
+
+.service-container .cta-learn-btn {
+    padding: 10px 40px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: white;
+}
+
+.twin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twin .left-side {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+}
+
+.twin .right-side {
+    width: 540px;
+}
+
+.twin .right-side img {
+    width: 100%;
+}
+
+.twin .list {
+    list-style: square;
+    padding-left: 0;
+}
+
+.twin .item {
+    list-style-position: inside
 }
