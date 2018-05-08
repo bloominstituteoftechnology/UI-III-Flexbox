@@ -158,8 +158,18 @@ footer {
 
 /* Services page */
 
-.servHeader {
+.serv-header {
 	display:flex;
-	justify-content: center;
+	justify-content: flex-start;
+	flex-flow: column-reverse wrap;
+	justify-content: space-around;
+}
+.serv-header img{
+	display:flex;
+	align-self: flex-start;
+	width: 70%;
 }
 
+.serv-header .serv-text{
+	font-size: 24px;
+}
