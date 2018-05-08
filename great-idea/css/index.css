@@ -139,8 +139,9 @@ button {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 160px;
+	height: 190px;
 	border-bottom: 1px black solid;
+	padding: 20px 0;
 }
 
 .bottom-content p {
@@ -165,11 +166,11 @@ footer {
 /* SERVICE PAGE */
 
 h2 {
-	font-size: 36px;
+	font-size: 30px;
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 18px;
 }
 
 
@@ -202,7 +203,7 @@ h4 {
 	padding: 20px;
 	border: 1px black solid;
 	background: lightgray;
-	width: 450px;
+	width: 420px;
 }
 
 .child button {
@@ -225,7 +226,7 @@ h4 {
 	padding: 50px 0;
 }
 .service-content .bottom-content .text-content p {
-	width: 500px;
+	width: 400px;
 
 }
 
