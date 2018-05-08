@@ -62,3 +62,18 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	width: 878px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+header nav {
+    display: flex;
+}
+
+footer {
+	margin-top: 35px;
+	text-align: center;
+}
