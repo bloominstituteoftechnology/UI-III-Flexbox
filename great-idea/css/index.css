@@ -94,11 +94,26 @@ h1, h2, h3, h4, h5 {
 	font-size:20px;
 }
 .index .main-content {
-	border-top:5px;
 	display:flex;
 	flex-flow:column;
-	flex-wrap:wrap;
+	align-items:center;
 }
 .index .main-content .top-content {
-	width:50%
+	display:flex;
+	justify-content: center;
+}
+.index .main-content .top-content .text-content {
+	width:30%;
+}
+.index .main-content .bottom-content {
+	display:flex;
+	justify-content: center;
+}
+.index .main-content .bottom-content .text-content {
+	width:20%;
+}
+.index .main-content img {
+	width:70%;
+	height:30%;
+	margin:30px 0px;
 }
