@@ -62,3 +62,43 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/*styles for the main page, denoted with the index tag*/
+.index header {
+	display:flex;
+	justify-content:center;
+}
+.index header nav a{
+	padding-left:30px;
+	text-decoration:none;
+	color:gray;
+}
+.index header img{
+	padding-left:70px;
+}
+.index .cta{
+	display:flex;
+	justify-content:center;
+	padding-bottom:100px;
+	align-items:center;
+}
+.index .cta .cta-text {
+	font-size:60px;
+	text-align:center;
+	padding-right:5%;
+}
+.index button {
+	border-bottom-style:solid;
+	background-color:white;
+	border-color:black;
+	padding:10px 50px;
+	font-size:20px;
+}
+.index .main-content {
+	border-top:5px;
+	display:flex;
+	flex-flow:column;
+	flex-wrap:wrap;
+}
+.index .main-content .top-content {
+	width:50%
+}
