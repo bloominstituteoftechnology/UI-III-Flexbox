@@ -171,3 +171,7 @@ nav a {
   align-items: flex-end;
   border: 1px solid green;
 }
+
+img {
+  margin-left: 80px;
+}
