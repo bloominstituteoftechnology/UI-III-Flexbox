@@ -182,10 +182,21 @@ img {
 .cta-text {
   border: 1px solid blue;
   font-size: 75px;
-}
-.cta h1 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
   text-align: center;
+  margin-left: 120px;
+  height: 300px;
+  margin-top: 10px;
 }
-.cta img {
-  border: 1px solid yellow;
+
+.cta button {
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid black;
+  height: 30px;
+  width: 170px;
 }
