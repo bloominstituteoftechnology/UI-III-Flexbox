@@ -75,6 +75,19 @@ header  {
 
 .cta {
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+
+
+.cta-text  {
+	font-size: 100px;
+	text-align: center;
 	justify-content: center;
 }
 
+.cta-text button {
+	font-size: 40px;
+}
