@@ -151,4 +151,28 @@ footer {
 .services .upper-section .text {
 	width:70%;
 	height:100px;
+	margin-bottom:50px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+}
+.services .main-text{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.services .main-text .group{
+	width: 25%;
+	background-color:honeydew;
+	border-width:1px;
+	border-style:solid;
+	margin:2% 5%;
+	padding: 5px;
+}
+.services .main-text button {
+	margin-top:15px;
+	background-color:white;
+	border-color:black;
+	border-style:solid;
+	height:40px;
+	width:150px;
 }
