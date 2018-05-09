@@ -85,6 +85,7 @@ nav a:hover {
 
 .container .logo {
 	margin-left: 15px;
+ 	justify-content: space-between;
  	height: 36px;
  	margin: 0 0 25px 0;
 }
@@ -149,4 +150,38 @@ footer {
 }
 
 /* Service's Page */
+
+.media {
+	display: flex;
+	min-width: 0;
+	margin: 5px;
+	padding-bottom: 40px;
+}
+.media .services-header {
+ 	width: 100%; 
+}
+
+.services-container {
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom:40px;
+	display: flex;
+}
+
+.services-content {
+	width: 100%;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.mc-one {
+	margin-left: 40px;
+	flex-grow: 1;
+	width: 45%;
+}
 
