@@ -62,3 +62,95 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+.container {
+	max-width: 900px;
+	margin: auto;
+}
+
+body {
+ display: flex;
+}
+
+header {
+	
+	
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	
+}
+
+header nav {
+	
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	
+}
+header nav a {
+	display: flex;
+	align-items: flex-end;
+}
+
+header .logo {
+	
+	margin-left: 60px;
+}
+
+.cta {
+	
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+.cta-text {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	align-self: center;
+	font-size: 70px;
+	margin-left: 70px;
+
+}
+
+.cta img {
+margin-left: 150px;
+max-height: 300px;
+	
+}
+
+.main-content {
+	display: flex;
+	flex-flow: row wrap;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+}
+.top-content {
+	display: flex;
+	margin-bottom: 20px;
+}
+.bottom-content {
+	display: flex;
+	margin-top: 20px;
+	
+}
+.text-content {
+	padding: 20px;
+}
+
+.contact {
+display: flex;
+flex-direction: column;
+
+}
+.contact p {
+	margin-bottom: 30px;
+}
+footer {
+	display: flex;
+	justify-content: center;
+}
