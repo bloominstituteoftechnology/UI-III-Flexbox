@@ -62,3 +62,40 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	max-width: 880px;
+	margin: auto;
+}
+
+header {
+	width: 100%;
+	display: flex;
+}
+
+header nav {
+	margin-top: 40px;
+	width: 600px;
+	justify-content: space-between;
+	display: flex;
+}
+
+header .logo {
+	align-self: flex-end;
+	margin: 28px 0 0 91px
+}
+
+.cta {
+	display: flex;
+	justify-content: center;
+	border: solid blue 2px;
+}
+
+.cta-text{
+	display:flex;
+	border: solid red 2px;
+	flex-direction: column;
+}
+.main-content{
+
+}
