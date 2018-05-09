@@ -89,66 +89,70 @@ header .logo {
   justify-content: flex-end;
   margin-top: 25px;
 }
-.cta {
-  display: flex;
-}
-.cta .cta-text {
-  display: flex;
-  align-items: flex-start;
-  text-align: center;
-	font-size: 77px;
-	margin-top: 120px;
-	padding: 0px 90px;
-}
-
-.cta .cta-text button {
-	background: white;
-	margin-top: 6px;
-	padding: 8px 44px;
-  font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
-  display: flex;
-  
-	  }
-	  
-.cta .cta-text button:hover {
-	background: black;
-	color: white;
-	 }
-	  
-.cta img {
+img {
 	display: flex;
-  align-self: flex-start;
+  justify-content: stretch;
 	margin-top: 69px;
 	 }
 
+.services {
+  display: flex;
+  flex-direction: row;
+}
+.services .services-text {
+  display: flex;
+  justify-content: flex-start;
+	margin-top: 20px;
+	padding: 0px 90px;
+}
+
 .main-content {
   border-top: 1px solid black;
+  border-bottom: 1px solid black;
   margin-top: 76px;
+  margin-bottom: 76px;
 	padding-top: 39px;
-}
-.main-content .top-content {
+  padding-bottom: 39px;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+}
+.main-content .text-content1 {
+  display: flex;
+  align-items: center;
   padding: 10px;
+  background: grey;
 }
-.main-content .middle-img {
+.main-content .text-content2 {
   display: flex;
-  justify-content: stretch;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
+  align-items: center;
+  padding: 10px;
+  background: grey;
 }
-.main-content .bottom-content {
+.main-content .text-content3 {
   display: flex;
-  justify-content: space-evenly;
-  column-count: 3;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  align-items: center;
+  padding: 10px;
+  background: grey;
 }
+.main-content .text-content4 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: grey;
+}
+.main-content .text-content5 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: grey;
+}
+.main-content .text-content6 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: grey;
+}
+
 .contact {
 	margin-top: 57px;
 	border-top: 1px solid black;
