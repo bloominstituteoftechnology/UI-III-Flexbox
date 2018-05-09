@@ -52,6 +52,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -188,13 +189,14 @@ footer {
 	flex-direction: row;
 	margin-left: 40px;
 	margin-right: 40px;
+	padding-bottom: 40px;
 }
 
 .mc-one {
 	display: inline-block;
-	flex: 1 1 400px;
+	flex: 1 1 380px;
 	margin: 10px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	border: 1px solid;
 	background: lightgrey;
 }
@@ -208,5 +210,30 @@ footer {
 	background: white;
 	text-decoration: none;
 	border-radius: 4px;
+}
 
+.mc-one p,h3 {
+	padding: 15px 0 0px 15px;
+}
+
+.bottom__section {
+	border-top: solid 1px;
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom__section ul {
+	padding-top: 15px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.bottom__section__text {
+	display: flex;
+	flex-direction: column;
+}
+
+.services__footer {
+	padding-top: 80px;
 }
