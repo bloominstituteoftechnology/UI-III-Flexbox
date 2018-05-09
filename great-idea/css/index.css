@@ -28,77 +28,129 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-header{
-	padding: 25px;
-	display: flex;
-}
-
-header nav{
-	flex-direction: row;
-	justify-content: space-between;
-	display: flex;
-}
-
-header .logo{
-
-}
-
-/* section.cta {
-
-}
-section .cta-text{
-
-}
-
-section .cta-text button {
-
-}
-
-section .cta-text h1 {
-
-}
-
-section .img{
-
-}
-
-section .main-content{
-
-} */ */
-
 body {
-line-height: 1;
-display: table-cell;
-vertical-align: middle;
+	line-height: 1;
 }
 ol, ul {
-list-style: none;
+	list-style: none;
 }
 blockquote, q {
-quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-content: '';
-content: none;
+	content: '';
+	content: none;
 }
 table {
-border-collapse: collapse;
-border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html, body {
-height: 100%;
-font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-font-family: 'Bangers', cursive;
-letter-spacing: 1px;
-margin-bottom: 15px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.container {
+	max-width: 900px;
+	margin: auto;
+}
+
+body {
+ display: flex;
+}
+
+header {
+	
+	
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	
+}
+
+header nav {
+	
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	
+}
+header nav a {
+	display: flex;
+	align-items: flex-end;
+}
+
+header .logo {
+	
+	margin-left: 60px;
+}
+
+.cta {
+	
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+.cta-text {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	align-self: center;
+	font-size: 70px;
+	margin-left: 70px;
+
+}
+
+.cta img {
+margin-left: 150px;
+max-height: 300px;
+	
+}
+
+.main-content {
+	display: flex;
+	flex-flow: row wrap;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+}
+.top-content {
+	display: flex;
+	margin-bottom: 20px;
+}
+.bottom-content {
+	display: flex;
+	margin-top: 20px;
+	
+}
+.text-content {
+	padding: 20px;
+}
+
+.contact {
+display: flex;
+flex-direction: column;
+
+}
+.contact p {
+	margin-bottom: 30px;
+}
+footer {
+	display: flex;
+	justify-content: center;
 }
