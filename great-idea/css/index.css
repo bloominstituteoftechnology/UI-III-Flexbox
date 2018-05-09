@@ -150,12 +150,16 @@ footer {
 }
 
 /* Service's Page */
-
+.master-width {
+	width: 1080px;
+	margin: auto;
+}
 .media {
 	display: flex;
 	min-width: 0;
 	margin: 5px;
 	padding-bottom: 40px;
+
 }
 .media .services-header {
 	 width: 100%; 
@@ -188,10 +192,21 @@ footer {
 
 .mc-one {
 	display: inline-block;
-	flex: 1 1 800px;
+	flex: 1 1 400px;
 	margin: 10px;
 	padding-bottom: 40px;
 	border: 1px solid;
 	background: lightgrey;
 }
 
+.mc-one button {
+	width: 140px;
+	border: 1px solid;
+	padding: 8px 8px 8px 8px;
+	margin-left: 10px;
+	margin-top: 20px;
+	background: white;
+	text-decoration: none;
+	border-radius: 4px;
+
+}
