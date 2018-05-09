@@ -1,64 +1,296 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* General Home Page CSS  */
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: white;
+  width: 800px;
+  padding: 0 5% 0;
+  margin: auto;
+}
+
+/* header */
+
+header {
+  display: flex;
+  height: 80px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  height: 80px;
+  padding: 20px 0 20px 0;
+  justify-content: space-around;
+  width: 70%;
+}
+
+header nav a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 11px;
+  font-family: 'Titillium Web';
+  font-weight: bold;
+}
+
+header .logo {
+  padding: 10px 0 10px 0;
+  width: 130px;
+  height: 50px;
+}
+
+/* Index.html */
+
+/* CTA Section */
+
+.cta {
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: space-around;
+}
+
+.cta .cta-text {
+  float: left;
+  text-align: center;
+  padding: 60px 80px 60px 80px;
+}
+
+.cta .cta-text h1 {
+  font-size: 50px;
+  font-family: 'Bangers';
+}
+
+.cta .cta-text button {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 25px 2px 25px;
+  font-family: 'Titillium Web';
+}
+
+.cta img {
+  padding-top: 20px;
+  width: 280px;
+  height: 280px;
+}
+
+/* Main Content Section  */
+
+.main-content {
+  padding: 20px 0 20px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.main-content .top-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content .top-content .text-content {
+  width: 47%;
+  padding-bottom: 20px;
+}
+
+.middle-img {
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+}
+
+.bottom-content .text-content {
+  width: 31%;
+}
+
+/* Contact section */
+
+.contact {
+  padding-top: 20px;
+}
+
+.contact> :nth-child(3) {
+  padding: 20px 0 20px 0;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+
+/* services.html page */
+
+.headerImage {
+  width: 100%;
+
+}
+
+.servicesHeading h2 {
+  padding: 20px 0 0px 0;
+  font-size: 24px;
+}
+
+.servicesHeading p {
+  padding-bottom: 30px;
+}
+
+.services-content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 640px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 20px 0 20px 0;
+}
+
+.service-card {
+  background-color: #F8F8F8;
+  border: 1px solid black;
+  padding: 20px;
+  width: 300px;
+  height: 185px;
+  font-size: 14px;
+}
+
+
+.service-card button {
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  font-size: 11px;
+  padding: 5px 30px 5px 30px;
+  margin: 20px 0 0 0;
+  font-family: 'Titillium Web';
+}
+
+.aboutServices {
+  margin-top: 30px;
+  display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+
+}
+
+.services-text {
+	width: 300px;
+}
+
+
+.services-text ul {
+  list-style: square;
+}
+
+.services-text ul li {
+  padding: 10px;
+  list-style-position: inside;
+}
+.aboutServices img {
+ width: 300px;
+}
+
+/* vision.html  */
+.visionHeading {
+	margin: 30px;
+}
+.redText {
+	color: red;
+}
+
+.visionHeading h1 {
+	padding: 40px 0px 20px 0;
+	font-size: 40px;
+	text-align: center;
+}
+.visionHeading p {
+	text-align: center;
+}
+
+.visionHeading img {
+	margin-bottom: 40px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.vision-card {
+  background-color: #F8F8F8;
+  border: 1px solid black;
+  padding: 20px;
+  width: 80%;
+	margin: auto;
+  font-size: 14px;
+		text-align: center;
 }
