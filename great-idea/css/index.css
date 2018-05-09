@@ -199,8 +199,8 @@ footer {
 }
 
 .service-info .service-info-text ul{
-	padding-left: 50px;
 	list-style: square;
+	list-style-position: inside;
 }
 
 p {
