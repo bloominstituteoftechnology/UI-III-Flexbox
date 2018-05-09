@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 header {
+  width: 100%;
   display: flex;
 }
 
@@ -73,15 +74,19 @@ header nav {
 	margin-top: 35px;
   }
 
-nav a {
-  display: flex;
-  color: grey;
+header nav a {
+  color: #b0b0b0;
   font-family: "Titillium Web";
   text-decoration: none;
   font-size: 14px;
   margin-right: 65px;
   justify-content: space-evenly;
-	 }
+  }
+
+header nav a:hover {
+  text-decoration: underline;
+  color: black;
+}
 
 header .logo {
   display: flex;
@@ -89,68 +94,76 @@ header .logo {
   justify-content: flex-end;
   margin-top: 25px;
 }
-img {
-	display: flex;
-  justify-content: stretch;
-	margin-top: 69px;
-	 }
 
-.services {
-  display: flex;
-  flex-direction: row;
-}
-.services .services-text {
-  display: flex;
-  justify-content: flex-start;
-	margin-top: 20px;
-	padding: 0px 90px;
+/* Services Styles */
+
+.services-content {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+line-height: 1.3;
 }
 
-.main-content {
-  border-top: 1px solid black;
+.services-content .services-header-img {
+	margin: 20px 0;
+  }
+
+.services-content h1 {
+  font-size: 26px;
+  margin: 10px 0;
+}
+.services-content .services-text {
+  margin-bottom: 20px;
+  padding-bottom: 40px;
   border-bottom: 1px solid black;
-  margin-top: 76px;
-  margin-bottom: 76px;
-	padding-top: 39px;
-  padding-bottom: 39px;
-  display: flex;
-  flex-direction: column;
 }
-.main-content .text-content1 {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  background: grey;
+
+
+.services-content .services-info {
+  padding: 20px;
+  width: 420px;
+  margin: 20px 0;
+  background: whitesmoke;
+  border: 1px solid black;
 }
-.main-content .text-content2 {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  background: grey;
+
+.services-content .services-info button {
+  padding: 10px 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid black;
 }
-.main-content .text-content3 {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  background: grey;
+
+.services-content .other-info button:hover {
+  background: black;
+  color: white;
 }
-.main-content .text-content4 {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  background: grey;
+.services-content .other-info ul {
+  margin: 20px;
 }
-.main-content .text-content5 {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  background: grey;
+
+.services-content .other-info ul li {
+  list-style: square;
+  padding: 5px;
 }
-.main-content .text-content6 {
+
+.services-content .other-info {
   display: flex;
-  align-items: center;
-  padding: 10px;
-  background: grey;
+  flex-wrap: wrap;
+  border-top: 2px solid black;
+  margin: 20px 0 35px 0;
+  padding-top: 40px;
+}
+
+.services-content .other-info .facts {
+  width: 400px;
+  margin: 0 60px 20px 0;
+}
+
+.services-content .other-info .facts p{
+  margin-bottom:20px;
 }
 
 .contact {
