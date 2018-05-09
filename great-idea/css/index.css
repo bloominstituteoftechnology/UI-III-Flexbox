@@ -62,3 +62,90 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+.container {width: 880px;
+	margin: 0 auto; 
+	
+	}
+	header{
+		display: flex;
+		flex-direction: row;
+		
+		
+	}
+	header nav{
+	display: flex;
+	width: 625px;
+	 margin-top: 65px;
+	 justify-content: space-between;
+	 
+
+}
+header nav a{
+	text-decoration: none;
+	color: gray;
+	
+	
+}
+header .logo{
+	align-self: flex-end;
+	margin: 28px 0 0 91px;
+}
+
+.cta{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cta img{
+	margin-top: 75px;
+}
+.cta .cta-text{
+	margin-left: 100px;
+	margin-top: 75px;
+	font-size: 70px;
+	align-content: center;
+	text-align: center;
+}
+.cta .cta-text button{
+	background: white;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	margin-top: 6px;
+	padding: 8px 44px;
+}
+.main-content{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.main-content .top-content{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top: 1px solid black;
+	padding-top: 30px;
+}
+.main-content .bottom-content{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+
+} .contact{
+	margin-top: 57px;
+	padding: 39px 10px 0;
+}
+.contact p{
+	margin: 20px 0;
+}
+footer{
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+}
