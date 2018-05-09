@@ -64,92 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 878px;
+    width: 880px;
+    margin-top: 35px;
 	margin-left: 50px;
-	margin-right: 50px;
+    margin-right: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header nav {
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 35px;
-	width: 680px;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
 }
 
 header nav a {
-	display: inline-block;
-	margin-right: 65px;
-	color: grey;
-	text-decoration: none;
-	font-size: 10px;
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
 }
 
-header .logo {
-	display: inline-block;
-	margin-top: 25px;
-}
-	  
-.cta {
-	display: flex;
-	margin-top: 50px;
-	justify-content: space-evenly;
-	align-items: center;
+.top-content {
+    margin-top: 20px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
 }
 
-.cta .cta-text {
-	font-size: 77px;
-	text-align: center;
+.top-content .text-content {
+    margin-top: 35px;
 }
 
-.cta button {
-	border: 1px solid black;
-	background: white;
-	font-size: 14px;
-	padding-top: 4px;
-	padding-bottom: 4px; 
-	padding-left: 35px;
-	padding-right: 35px;
-	vertical-align: top;
-}
-.main-content .top-content {
-	display: flex;
-	justify-content: space-between;
-	width: 878px;
-	border-top: 1px solid black;
-	margin-top:70px;
-	padding-top: 35px;
-	padding-bottom: 35px;
+.top-content .text-content h4 {
+    font-size: 24px;
 }
 
-.main-content .bottom-content {
-	display: flex;
-	justify-content: space-between;
+.middle-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 35px; 
+    border-bottom: 2px solid black;
 }
 
-.main-content .top-content .text-content {
-	width: 425px;
+.middle-content .text-content {
+    width: 420px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 35px;
+    background: #f2f2f2;
 }
 
-.main-content .bottom-content {
-	width: 878px;
-	border-bottom: 1px solid black;
-	padding-top: 35px;
-	padding-bottom: 35px;
+.middle-content .text-content button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 25px;
+    border-radius: 4px;
+    border: 1px solid black;
 }
 
-.main-content .bottom-content .text-content {
-	width: 290px;
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
 }
 
-.contact {
-	margin-top: 35px;
+.bottom-content .text-content {
+    width: 400px;
 }
 
-.contact p {
-	margin-top: 18px;
+.bottom-content .text-content ul {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 25px;
 }
 
-footer {
+.bottom-content .text-content ul li {
+    margin-bottom: 15px;
+}
+
+footer { 
 	margin-top: 35px;
 	text-align: center;
 }
