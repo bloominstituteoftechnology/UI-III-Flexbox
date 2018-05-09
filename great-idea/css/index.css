@@ -67,12 +67,7 @@ h1, h2, h3, h4, h5 {
 
 header  {
 	display: flex;
-	justify-content: flex-end;
-}
-
-nav {
-	justify-content: flex-start;
-	
+	justify-content: space-between;
 }
 
 
