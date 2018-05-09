@@ -64,16 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 878px;
+    width: 880px;
+    margin-top: 35px;
 	margin-left: 50px;
-	margin-right: 50px;
+    margin-right: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header nav {
     display: flex;
+    width: 600px;
+    justify-content: space-between;
 }
 
-footer {
+header nav a {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.top-content {
+    margin-top: 20px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
+}
+
+.top-content .text-content {
+    margin-top: 35px;
+}
+
+.top-content .text-content h4 {
+    font-size: 24px;
+}
+
+.middle-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 35px; 
+    border-bottom: 2px solid black;
+}
+
+.middle-content .text-content {
+    width: 420px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 35px;
+    background: #f2f2f2;
+}
+
+.middle-content .text-content button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 25px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.bottom-content .text-content {
+    width: 400px;
+}
+
+.bottom-content .text-content ul {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 25px;
+}
+
+.bottom-content .text-content ul li {
+    margin-bottom: 15px;
+}
+
+footer { 
 	margin-top: 35px;
 	text-align: center;
 }
