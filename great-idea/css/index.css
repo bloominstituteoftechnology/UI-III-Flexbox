@@ -222,13 +222,14 @@ footer {
 	display: flex;
 	flex-direction: column;
 	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 	margin: 0px;
 	padding: 40px 0px;
 }
 
-.top-content.services .text-content {
+.text-content.services {
 	border: 1px solid black;
+	max-width: 420px;
 	padding: 10px;
 	margin: 0px;
 	background-color: lightgrey;
@@ -242,15 +243,33 @@ footer {
 
 .row2	{
 	display: flex;
+	justify-content: space-between;
 	margin-bottom: 40px;
 }
 
 .row3	{
 	display: flex;
+	justify-content: space-between;
 }
 
-.text-content.services ul {
+.services_bottom {
+	display: flex;
+	padding: 40px 0px 20px 0px;
+	justify-content: space-around;
+	max-height: 300px;
+	width: 880px;
+}
+
+.services_text_content p {
+	margin-right: 30px;
+}
+
+.services_text_content ul {
 	list-style-type: square;
 	list-style-position: inside;
+	margin: 10px;
+}
 
+.services_text_content ul li {
+	padding-bottom: 10px;
 }
