@@ -217,6 +217,7 @@ footer {
 .srvcfoot {
 	border-top: 1px solid black;
 	padding-top: 35px;
+	margin-bottom: 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -229,6 +230,16 @@ footer {
 	align-items: space-between;
 }
 
+.srvcfoot .srvcfoot-text p {
+	margin-top: 15px;
+}
+
 .srvcfoot .srvcfoot-text ul {
 	list-style-type: disc;
+	list-style-position: inside;
+	margin-top: 20px;
+}
+
+.srvcfoot .srvcfoot-text ul li {
+	margin-top: 10px;
 }
