@@ -66,12 +66,14 @@ h1, h2, h3, h4, h5 {
 /* General */
 
 .container {
-	margin: 30px 50px;
+	max-width: 1024px;
+	margin: 0 auto;
 }
 
 /* Nav */
 
 header {
+	margin-top: 30px;
 	display: flex;
 	width: 100%;
 }
@@ -84,7 +86,7 @@ header nav a {
 }
 
 header .logo {
-	margin-left: 500px;
+	margin-left: 200px;
 }
 
 /* Contact */
