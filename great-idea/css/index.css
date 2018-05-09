@@ -62,19 +62,34 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-/*styles for the main page, denoted with the index tag*/
-.index header {
+/*global styles for header and footer*/
+header {
 	display:flex;
 	justify-content:center;
 }
-.index header nav a{
+header nav a{
 	padding-left:30px;
 	text-decoration:none;
 	color:gray;
 }
-.index header img{
+header img{
 	padding-left:70px;
 }
+footer {
+	display:flex;
+	justify-content:center;
+	margin-bottom:50px;
+}
+
+.contact {
+	display:flex;
+	flex-flow:column;
+}
+.contact p {
+	margin-bottom:15px;
+}
+/*styles for the main page, denoted with the index tag*/
+
 .index .cta{
 	display:flex;
 	justify-content:center;
@@ -123,10 +138,17 @@ h1, h2, h3, h4, h5 {
 	height:30%;
 	margin:30px 0px;
 }
-.contact {
+
+/* styles for the service page, using the tag services*/
+.services .upper-section {
 	display:flex;
-	flex-flow:column;
+	justify-content:center;
+	flex-wrap:wrap;
 }
-.contact p {
-	margin-bottom:15px;
+.services .upper-section img {
+	margin-bottom:50px;
+}
+.services .upper-section .text {
+	width:70%;
+	height:100px;
 }
