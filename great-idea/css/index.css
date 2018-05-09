@@ -67,8 +67,14 @@ h1, h2, h3, h4, h5 {
 
 header  {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	justify-content: flex-start;
+	
+	
 }
 
-
+.cta {
+	display: flex;
+	justify-content: center;
+}
 
