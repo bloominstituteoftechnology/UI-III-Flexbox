@@ -206,3 +206,31 @@ header {
 	width: 100%;
 	padding: 10px;
 }
+
+/* Services Page Specific CSS */
+
+header .services-header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 0px 50px 50px 50px;
+}
+
+header .header-content h1 {
+	font-size: 24px;
+}
+
+.services-main-content {
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.services-main-content .main-box {
+	display: inline-block;
+	background-color: lightgrey;
+	border: 1px solid black;
+	height: 200px;
+	width: 40%;
+	padding: 20px;
+	margin: 2.5%;
+}
