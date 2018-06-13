@@ -165,7 +165,7 @@ body {
 	padding: 74px;
 }
 
-.navBar{
+.navBar {
 	background: rgb(0, 255, 0);
 	top: 0;
 	position: fixed;
@@ -178,22 +178,18 @@ body {
 	text-align: center;
 	align-items: center;
 	padding: 0 0 0 20px;
-
 }
-
-
 
 .menuItem {
-	padding:  5px 50px 5px 0;
-
-
+	padding: 5px 50px 5px 0;
 }
-.menuItem:hover,.menuItem a:hover {
+
+.menuItem:hover,
+.menuItem a:hover {
 	color: black;
-
 }
 
-.menuItem a{
+.menuItem a {
 	text-decoration: none;
 	color: grey;
 }
@@ -202,7 +198,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin: 20px 0 60px 0;
-
 }
 
 .headerOfPageLeft {
@@ -224,9 +219,8 @@ body {
 	padding-right: 30px;
 	padding-left: 30px;
 	width: 150px;
-	margin:auto;
+	margin: auto;
 }
-
 
 .topInfoSection {
 	display: flex;
@@ -241,11 +235,6 @@ body {
 .topInfoSectionRight {
 	width: 50%;
 }
-
-
-
-
-
 
 .bottomInfoSection {
 	display: flex;
@@ -263,62 +252,49 @@ body {
 	padding: 60px;
 }
 
-.servicesPageTitle{
+.servicesPageTitle {
 	font-size: 24px;
 }
 
-.mainContentArea{
+.mainContentArea {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-between;
-
 }
 
-.linkToContent{
-
-width : 48%;
-border-style: solid;
+.linkToContent {
+	width: 48%;
+	border-style: solid;
 	border-width: 2px;
-
 	padding: 20px;
-
 	margin-bottom: 20px;
 	margin-top: 20px;
-background-color: rgb(221, 221, 221)
-
-
+	background-color: rgb(221, 221, 221)
 }
 
-.learnButton{
-
+.learnButton {
 	background-color: white;
 	border-style: solid;
 	border-width: 1px;
 	padding: 5px 30px;
 	font-size: 12px;
 	border-radius: 5px;
-
 }
 
-.bottomAreaServices{
-	display:flex;
+.bottomAreaServices {
+	display: flex;
 	margin: 40px 0 0 0;
-
 }
 
-.bottomText{
+.bottomText {}
 
-	
-}
-.bottomText ul{
-
+.bottomText ul {
 	list-style: square;
 	list-style-position: inside;
 	margin: 10px 0 0 0;
-
 }
 
-.bottomText ul li{
-margin: 0 0 10px 0;
+.bottomText ul li {
+	margin: 0 0 10px 0;
 }
