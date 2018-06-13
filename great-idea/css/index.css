@@ -64,3 +64,198 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.home{
+	display:flex;
+	flex-direction: column;
+	margin:50px 100px;
+}
+
+.services{
+	display:flex;
+	flex-direction: column;
+	margin:30px 100px;
+}	
+
+.products{
+	display:flex;
+	flex-direction: column;
+	margin:50px 100px;
+}	
+
+	section1 div{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-content: center;
+			align-items: center;
+			line-height:50px;
+			background-color: rgba(0, 25, 243, 0.897);
+			position: fixed;
+			width: 100%;
+		}
+
+		.navbar{
+				display: flex;
+				justify-content:space-around;
+				align-content:center;
+				flex-wrap: wrap;
+				color: rgb(160, 156, 156);
+		}
+
+		nav a{
+					color: white;
+					padding: 0 30px;
+					font-family: 'Pacifico';
+				}
+
+		nav a:hover{
+					background-color: rgb(240, 236, 8);
+					color: rgb(0, 0, 0);
+					font-size: 20px;
+				}
+
+			.logo{
+				padding: 5px 10px;
+				z-index: 1;
+			}
+
+
+			section2 div{
+				display: flex;
+				flex-direction:row;
+				align-content: center;
+				justify-content: space-evenly;
+				width: 100%;
+				padding: 100px 30px;
+			}
+
+				section2 div header{
+					display: flex;
+					flex-direction: column;
+					justify-content: space-around;
+					font-family: 'Bangers', cursive;
+					font-size: 80px;
+					z-index: -1;
+					text-align: center;
+				}
+
+				section2 div header box{
+					border: 1px solid black;
+					padding: 10px 30px;
+					font-family: sans-serif;
+					font-weight: normal;
+					font-size: 30px;
+				}
+				.logo2{
+					z-index: -1;
+			}
+
+		section3{
+			display:flex;
+			flex-direction: column;
+			justify-content: space-around;
+			border-top: 2px solid black;
+			padding: 30px 0;
+		}
+
+		container{
+			padding: 10px;
+		}
+
+		.columns{
+			display: flex;
+			flex-direction: row;
+		}
+
+			.middle-img{
+				width:100%;
+				align-self: center;
+			}
+
+		contact div{
+			padding: 30px 0;
+			border-top: solid 2px black;
+			font-family: Julius Sans One;
+			font-size: 15px;
+		}
+
+		contact div h2{
+			font-size: 15px;
+		}
+
+		.copy{
+			width: 100%;
+			text-align: center;
+		}
+
+		h1{
+			font-family: 'Pacifico', cursive;
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		h2{
+			font-family: 'Pacifico';
+		}
+
+		.services-header-img{
+			display:flex;
+			justify-content: center;
+			width:100%;
+			padding: 100px 50px 20px 50px;
+		}
+
+		.services-intro{
+			padding-bottom: 30px;
+			border-bottom: 1px solid black;
+		}
+
+		.services-title{
+			font-size: 30px;
+		}
+
+		.container1{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			padding: 30px 0;
+
+		}
+		
+		.content-box{
+			padding: 30px;
+			background-color: rgb(221, 217, 217);
+			border: 1px solid black;
+			width: 400px;
+		}
+
+		.learn{
+			border: 1px solid black;
+			padding: 5px 40px;
+			background-color: white;
+		}
+	
+		.columns2{
+			padding: 30px 0;
+			border-top: 2px solid black;
+		}
+
+		li{
+			list-style-type: square;
+			list-style-position: inside;
+			font-family: 'Pacifico', cursive;
+		}
+		
+		.mobile{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			width: 100%;
+		}
+
+		
+		
+		.android{
+			resize: both;
+			overflow: auto;
+		}
