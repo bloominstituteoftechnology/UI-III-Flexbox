@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,72 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+.navbar{
+	display: flex;
+	justify-content: space-around;
+
+}
+.head{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 40px 0 40px 0;
+}
+.iod{
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 0 100px;
+	font-size: 60px;
+}
+button{
+	display: flex;
+	align-self: flex-end;
+}
+.circle{
+	display: flex;
+	justify-content: flex-end;
+}
+.head3{
+	display: flex;
+}
+
+.passage{
+	display: flex;
+	justify-content: space-around;
+}
+
+.middle{
+	display: flex;
+	justify-content: center;
+	padding: 40px 0 40px 0;
+}
+.lastSection{
+	display: flex;
+}
+h3{
+	margin: 0 10px 60px 0;
+}
+
+.copy{
+	display: flex;
+	flex-direction: column;
+}
