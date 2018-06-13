@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+}
+  
+/* header */
+  
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+  
+header nav a {
+	text-decoration: none;
+	color: grey;
+}
+  
+header nav a:hover {
+	text-decoration: underline;
+}
+  
+  /* cta */
+  
+.cta {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 50px 0px;
+}
+
+.cta .cta-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 77px;
+	padding: 0px 90px;
+	text-align: center;
+}
+
+.cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+  
+.main-content {
+	border-top: 1px solid black;
+	margin-top: 20px;
+	padding-top: 39px;
+}
+  
+.main-content .top-content {
+	padding: 0 10px;
+	display: flex;
+}
+  
+.main-content .top-content .text-content {
+	
+	margin-right: 34px;
+}
+  
+.main-content .top-content .text-content:last-child {
+	margin-right: 0;
+}
+  
+.main-content .middle-img {
+	margin-top: 45px;
+}
+  
+.main-content .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+	display: flex;
+}
+  
+.main-content .bottom-content .text-content {
+	margin-right: 12px;
+}
+  
+.main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+}
+  
+.contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+}
+  
+.contact p {
+	margin: 20px 0;
+}
+  
+footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+}
