@@ -178,5 +178,94 @@ header nav a: hover {
 	margin-bottom: 120px;
 }
 .services-content .copyright p {
+	margin-top: 30px;
 	margin-bottom: 30px;
+}
+.services-content .services {
+	margin-top: 30px;
+}
+.services-content .services .services-header-img {
+	height: 200px;
+	width: 100%;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+.services-content .services h1 {
+	font-size: 36px;
+	margin-top: 30px;
+	padding-left: 130px;
+	padding-right: 80px;
+	margin-bottom: 30px;
+}
+.services-content .services p {
+	padding-bottom: 30px;
+	border-bottom: 1px solid gray;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.services-content .service-types .box {
+	margin-bottom: 10px;
+}
+
+.services-content .service-types .box h2 {
+	font-size: 24px;
+}
+.services-content .service-types .box {
+	width: 390px;
+	height: 240px;
+	border: 1px solid black;
+	background: lightgray;
+	padding-left: 10px;
+}
+.services-content .service-types .box h2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.services-content .service-types .box p {
+	padding-bottom: 10px;
+}
+.services-content .service-types { 
+	border-bottom: 2px solid black;
+	display: flex;
+	height: 1000px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.services-content .service-types .box button {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 10px;
+	height: 30px;
+	width: 110px;
+}
+
+.services-content .service-facts {
+	display: flex;
+	justify-content: space-evenly;
+}
+.services-content .service-facts .info h2 {
+	margin-top: 30px;
+}
+.services-content .service-facts div {
+	width: 50%;
+}
+.services-content .service-facts .img {
+	margin-top: 30px;
+	padding-left: 110px; 
+	display: flex;
+}
+.services-content .service-facts .info {
+	padding-left: 140px;
+	padding-right: 110px;
+}
+ul {
+	margin-top: 30px;
+	list-style-type: square;
+	padding-left: 20px;
+}
+ul li {
+	padding-bottom: 10px;
 }
