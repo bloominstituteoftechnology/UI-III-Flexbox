@@ -69,13 +69,15 @@ body {
 	width: 1024px;
 	height: 1536px;
 	padding: 36px;
-	border: 1px solid black;
+	display: flex;
+	justify-content: center;
 }
 
 nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 15px;
 }
 
 nav a {
@@ -94,6 +96,7 @@ hr {
 .footer {
 	display: flex;
 	justify-content: center;
+	margin-top: 50px;
 }
 
 /* Index Page */
@@ -141,10 +144,6 @@ hr {
 	/* display: inline-block; */
 }
 
-.index-page .page hr {
-	margin: 50px 0;
-}
-
 .index-page .page .content {
 	display: flex;
 	flex-direction: column;
@@ -178,14 +177,19 @@ hr {
 
 /* Services Page */
 
+.services-page .page hr {
+	height: 1px;
+	margin: 25px 0 0;
+}
+
 .services-page .page .content-top {
 	display: flex;
 	flex-direction: column;
 }
 
-.services-page .page * {
+/* .services-page .page * {
 	margin: 10px 0;
-}
+} */
 
 .services-page .page .content {
 	display: flex;
@@ -196,8 +200,17 @@ hr {
 .services-page .page .content .content-box {
 	width: 420px;
 	border: 1px solid black;
-	background-color: lightgray;
+	background-color: whitesmoke;
 	padding: 15px;
+	margin: 20px 0;
+}
+
+.services-page .page .content .content-box button {
+	font-size: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 30px;
 }
 
 .services-page .page .content-bottom {
@@ -208,6 +221,11 @@ hr {
 .services-page .page .content-bottom .content-bottom-text {
 	width: 420px;
 	height: 300px;
+}
+
+.services-page .page .content-bottom .content-bottom-text ul {
+	list-style-type: square;
+	list-style-position: inside;
 }
 
 /* CSS Animations */
