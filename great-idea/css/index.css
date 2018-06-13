@@ -209,11 +209,11 @@ h1
 }
 
 .services-columns {
-	background: #eee;
+	background: #f9f9f9;
 	padding: 20px;
 	margin: 0px;
 	width: 50%;
-	border: 1px solid black;
+	border: 1px solid #eee;
 }
 
 ul {
