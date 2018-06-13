@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	width: 876px;
+	width: 880px;
 	height: auto;
 	margin: 0 auto;
   }
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 
 header {
 	display:flex;
-	width: 876px;
+	width: 880px;
 	height: 36px;
 }
 
@@ -83,8 +83,9 @@ display:flex;
 line-height: 36px;
 background-color: aquamarine;
 /* position:fixed; */
-width:876px;
+width:880px;
 font-family: 'Tangerine', serif;
+
 }
 
 header nav a {
@@ -92,7 +93,8 @@ header nav a {
 	margin: 0 40px 0 0;
 	text-decoration: none;
 	display: flex;
-	justify-content: space-evenly;
+    justify-content: space-evenly;
+    
 }
 
 header .logo {
@@ -100,123 +102,74 @@ header .logo {
 	position:fixed; */
 	display: flex;
 	justify-content: flex-end;
-	}
-
-.CTA {
-	display: flex;
-	width: 876px;
-	height: 379px;
-	justify-content: space-around;
-	flex-wrap: wrap;
+    }
+    
+.services-header-img {
+ display: flex;
+ align-content: space-around;
 }
 
-.CTA .cta-content {
-	height: 379px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-
-}
-
-.CTA .cta-content h1{
-	/* vertical-align: middle; */
-	font-family: 'Bangers', cursive;
-	font-size: 60px;
-	font-weight: bolder;
-	/* margin: 10%; */
-	text-align: center;
-	align-content: center;
-	letter-spacing: 1px;
-	padding: 10px;
-	/* margin-bottom: 15px; */
-	
-	
-	
-}
-
-.CTA .top-img {
-	/* vertical-align: top; */
-	display: flex;
-	/* right: 20%; */
-	margin: 40px 50px;
-	/* position: absolute; */
-	justify-content: space-around;
-}
-
-/* .CTA a{
-	/* -webkit-transition-duration: 0.4s; /* Safari */
-	/* transition-duration: 0.4s; */ 
-	/* display: flex;
-	justify-content: space-around;
-	text-decoration: none;
-	border: 1px solid black;
-	order: 3;
-	}  */
-	
-/* .CTA .a:hover {
-		background-color: #4CAF50; /* Green */
-		/* color: white;
-	} */ 
-
-.CTA .cta-content a {
-text-decoration: none;
-border: 1px solid black;
-text-align: center;
-}
-
-.top-content {
-height: auto;
-padding: 10px;
+.top-content{
 display: flex;
-flex-direction: row
-
-}
-
-.top-content .features {
-display: flex;
-justify-content: space-evenly;
 flex-direction: column;
 }
 
-/* .top-content .features h5 {
-	flex-wrap: wrap;
-} */
-/* .top-content .about{
-display: flex;
-width: 49%;
-} */
-
-.middle-img {
-display: flex;
-justify-content: space-around;
-padding: 10px;
+.middle-content {
+    display: flex;
+    flex-direction:row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   /* width: 880; */
 }
+
+.middle-content .middle-boxes {
+display: flex;
+border: 1px solid black;
+flex-direction: column;
+width: 48%;
+margin:5px;
+padding:15px 15px;
+justify-content: space-around;
+background-color: antiquewhite;
+}
+
+.middle-content .middle-boxes a {
+    text-decoration: none;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width:35%;
+    padding: 5px;
+    background-color: aliceblue;
+    }
 
 .bottom-content{
-display: flex;
-height:auto;
-justify-content: space-evenly;
-flex-direction: row;
-padding: 10px;
-}
+    display: flex;
+    height:auto;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    padding: 10px;
+   
 
-.bottom-content .content {
-display: flex;
-flex-direction: column;
+    }
+    
+.bottom-content .verbage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+    }
+
+.bottom-content .services-info-img {
+    display: flex;
+    justify-content: space-around;
 }
-/* /
-.bottom-content .content2 {
-	display: flex;
-	}
-.bottom-content .content3 {
-	display: flex;
-	} */ 
 
 .contact{
 	display: flex;
 	padding: 10px;
 	flex-direction: column;
-
 }
 
 footer {
