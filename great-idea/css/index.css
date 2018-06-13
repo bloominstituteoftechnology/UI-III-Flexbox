@@ -63,23 +63,13 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* New Code */
+/* My Code */
+
 body {
 	width: 1024px;
 	height: 1536px;
-}
-
-.index-page {
-	margin: 36px;
-	/* display: flex;
-	flex-direction: column;
-	justify-content: space-between; */
-}
-
-.index-page .page {
-	/* display: flex;
-	flex-direction: column;
-	justify-content: space-between; */
+	padding: 36px;
+	border: 1px solid black;
 }
 
 nav {
@@ -94,9 +84,31 @@ nav a {
 	font-size: small;
 }
 
+hr {
+	border: none;
+	height: 2px;
+	background-color: black;
+	margin: 50px 0;
+}
+
 .footer {
 	display: flex;
 	justify-content: center;
+}
+
+/* Index Page */
+
+.index-page {
+	/* margin: 36px; */
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-between; */
+}
+
+.index-page .page {
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-between; */
 }
 
 .index-page .page .header {
@@ -163,6 +175,40 @@ nav a {
 /* .index-page .page .content .content-panel .sm {
 	margin-right: 10px;
 } */
+
+/* Services Page */
+
+.services-page .page .content-top {
+	display: flex;
+	flex-direction: column;
+}
+
+.services-page .page * {
+	margin: 10px 0;
+}
+
+.services-page .page .content {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.services-page .page .content .content-box {
+	width: 420px;
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 15px;
+}
+
+.services-page .page .content-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-page .page .content-bottom .content-bottom-text {
+	width: 420px;
+	height: 300px;
+}
 
 /* CSS Animations */
 	/* @keyframes fadein {
