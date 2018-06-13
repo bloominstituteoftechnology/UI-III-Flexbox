@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,269 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*
+	=====================================
+	Navigation
+	=====================================
+*/
+.primary-nav li {
+	list-style-type: none;
+	line-height: 36px;
+	transition: transform 0.2s;
+}
+.primary-nav li:last-child {
+	margin-right: 0;
+}
+.primary-nav li:hover,
+.logo:hover {
+	transform: scale(1.25);
+}
+.primary-nav a {
+	text-decoration: none;
+	color: #ccc;
+	cursor: pointer;
+}
+.primary-nav a:hover {
+	color: #ababab;
+}
+.logo {
+	transition: transform 0.2s;
+}
+.primary-nav {
+	padding: 27px 0;
+	background: #f7f7f7;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.primary-nav > .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*
+	=====================================
+	Grid
+	=====================================
+*/
+.container,
+.grid {
+	margin: 0 auto;
+	width: 872px;
+}
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.col-1-2 {
+	width: 50.0%;
+}
+.col-1-3 {
+	width: 33.33%;
+}
+
+/*
+	=====================================
+	Clearfix
+	=====================================
+*/
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+	=====================================
+	Header
+	=====================================
+*/
+.primary-header {
+	padding: 42px 0 78px 0;
+	text-align: center;
+}
+.hero-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-grow: 1;
+}
+.primary-header h1 {
+	font-size: 72px;
+	margin-bottom: 18px;
+	letter-spacing: 5px;
+	line-height: 1.05;
+}
+.hero-img {
+	float: right;
+}
+.primary-header a {
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+}
+.primary-header > .container {
+	display: flex;
+}
+
+/*
+	=====================================
+	Buttons
+	=====================================
+*/
+.btn {
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+}
+.btn-alt {
+	border: 1px solid black;
+	padding: 8px 45px;
+}
+.btn-alt:hover,
+.btn-rounded:hover {
+	background: black;
+	color: #fff;
+}
+.btn-rounded {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 40px;
+	font-size: 12px;
+}
+
+/*
+	=====================================
+  Section
+	=====================================
+*/
+.section {
+	padding: 40px 0;
+}
+.section p {
+	line-height: 17px;
+}
+
+/*
+	=====================================
+	Middle Image
+	=====================================
+*/
+.middle-img {
+	display: block;
+	width: 100%;
+	/* margin-bottom: 5px; */
+}
+
+/*
+	=====================================
+	Contact
+	=====================================
+*/
+.contact p {
+	margin-bottom: 18px;
+}
+
+/*
+	=====================================
+	Footer
+	=====================================
+*/
+footer p {
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+
+/*
+	=====================================
+	Services Page Styles
+	=====================================
+*/
+.services-header-img {
+	display: block;
+	width: 100%;
+}
+.services-main {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.services-main h2 {
+	font-size: 27px;
+}
+.services-main p {
+	line-height: 19px;
+}
+.service-detail {
+	flex-basis: 48%;
+	margin-bottom: 40px;
+	padding: 20px;
+	border: 1px solid black;
+	background-color: #f7f7f7;
+}
+.service-detail h4 {
+	line-height: 22px;
+}
+.service-detail p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.services-info-text {
+	flex-basis: 48%;
+}
+.services-info-text h4 {
+	line-height: 22px;
+}
+.services-info-text p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.services-info-text ul {
+	list-style-type: square;
+}
+.services-info-text ul > li {
+	margin-bottom: 14px;
+	margin-left: 16px;
+	padding-left: 5px;
+}
+.services-info {
+	padding-bottom: 90px;
+}
+
+/*
+	=====================================
+	Additional styles
+	=====================================
+*/
+body {
+	padding-top: 90px; /* this makes up for the fixed navbar (36px line height + (27px padding) * 2) */
+}
+
+/*
+	=====================================
+	Utility Classes
+	!!always keep these styles at the
+	bottom of the file!!
+	====================================
+*/
+.mt-1 {
+	margin-top: 10px;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+.font-size-normal {
+	font-size: 16px;
+}
