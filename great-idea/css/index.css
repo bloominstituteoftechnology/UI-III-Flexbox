@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+.home-content{
+	margin: 10%;
+}
+
+.upper{
+	display: flex;
+	flex-direction: center;
+	margin: 20px;
+}
+
+.upper nav a{
+	margin: 30px;
+	color: black;
+	background-color: lightgrey;
+}
+
+.upper nav a:hover{
+	color: grey;
+}
+
+.upper .logo{
+	height: 30px;
+	width: 100px;
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.main .title{
+	display: flex;
+	flex-direction: column;
+}
+
+.main .title h1{
+	font-size: 70px;
+	margin-top: 20px;
+	margin-left: 70px;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+}
+
+.main img{
+	height: 350px;
+	width: 350px;
+	padding: 20px;
+	margin-left: 60px;
+	margin-top: 60px;
+
+}
+
+.get-started{
+	border: 1px solid black;
+	width:  100px;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	margin-left: 170px;
+	margin-bottom: 40px;
+}
+
+.top-content{
+	height: 150px;
+	width: 48%;
+	padding: 20px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.middle-img{
+	display: block;
+	height: 150px;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom-content{
+	height: 170px;
+	width: 32%;
+	padding: 20px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.contact{
+	width: 200px;
+	padding: 20px;
+	margin: 5px;
+}
+
+.copyright{
+	width: 20%;
+	margin: 0 40%;
+}
+
+/*  ----------------------Services Styles---------------------*/
+
+.services-content{
+	margin: 10%;
+}
+
+.service-header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.services-content .services-main{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.services-content .services-main .main-content{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	margin: 20px;
+	padding: 10px;
+}
