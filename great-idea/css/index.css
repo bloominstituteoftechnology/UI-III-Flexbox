@@ -297,3 +297,89 @@ hr {
 }
 
 
+/* Products Page CSS */
+
+.products-content header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.products-content header .products-header {
+	width: 100%;
+	padding: 80px 50px 20px 50px;
+}
+
+.products-content header .header-content h1 {
+	font-size: 24px;
+}
+
+.products-content .products-main-content {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.products-content .products-main-content .product-box {
+	width:100%;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 1px black solid;
+	display: flex;
+	margin-top:5px;
+}
+
+.products-content .products-main-content .product-box img{
+	width: 300px;
+	height: 250px;
+	padding: 10px;
+}
+
+.products-content .products-main-content .product-box .product-box-content {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+}
+
+.products-content .products-main-content .product-box button {
+	background-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-top: 120px;
+}
+
+.products-content .products-main-content .product-box button:hover {
+	color: white;
+	background-color: black;
+}
+
+.products-content .products-main-content .product-box button:focus {
+	outline: 0;
+}
+
+.products-content .end {
+	display:flex;
+	justify-content: center;
+}
+
+.products-content .end .products-facts {
+	width:50%;
+}
+
+.products-content .end .products-facts-image {
+	width:; 50%;
+}
+
+.products-content .end .products-facts ul {
+	list-style-type: disc;
+	list-style-position: inside;
+	line-height: 1.6;
+}
