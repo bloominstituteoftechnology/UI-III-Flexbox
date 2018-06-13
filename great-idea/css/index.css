@@ -159,9 +159,11 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 }
 .hero-content {
-	padding-top: 60px;
-	padding-left: 40px;
-	width: 50.0%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-grow: 1;
 }
 .primary-header h1 {
 	font-size: 72px;
@@ -176,6 +178,9 @@ h1, h2, h3, h4, h5 {
 	text-decoration: none;
 	color: #000;
 	font-size: 18px;
+}
+.primary-header > .container {
+	display: flex;
 }
 
 /*
