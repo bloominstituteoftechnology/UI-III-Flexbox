@@ -275,3 +275,52 @@ ul li {
 	margin-left: 30px;
 	margin-top: 10px;
 }
+
+/* products.html */
+
+.productsheader {
+	margin-top: 0px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	height: 400px;
+	width: 876px;
+	border-bottom: 1px solid black;
+	background-image: url("../img/laptop-mobile.jpg");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.products h1 {
+	margin-top: 50px;
+}
+
+.productsbutton button {
+	margin-top: 250px;
+	position: relative;
+}
+
+.productsboxes {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 700px; 
+	border-bottom: 1px solid black;
+}
+
+.productsboxes span {
+	width: 420px;
+	height: 180px;
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.productsboxes span button {
+	margin: 120px 0 20px 0;
+}
