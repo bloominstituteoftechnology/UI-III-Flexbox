@@ -70,23 +70,20 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.container {
-	width: 900px;
-	margin: 0 auto;
-}
 
 header nav {
 	display: inline-block;
-	width: 500px;
+	width: 575px;
 	vertical-align: top;
 	margin-top: 25px;
+	margin-left: 120px;
 	height: 50px;
 
 }
 
 header nav a {
 	text-decoration: none;
-	margin-left: 15px;
+	margin-left: 45px;
 	color: gray;
 	font-size: 14px;
 }
@@ -98,15 +95,54 @@ header nav a:hover {
 header .logo {
 	display: inline-block;
 	margin-top: 20px;
-	margin-left: 120px;
+	margin-left: 30px;
 }
 
-.conatiner2 {
+.top h3 {
+	margin-top: 25px;
+	margin-left: 165px;
+}
+
+
+.top p{
+	width: 740px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid black;
+}
+
+.services-header-img {
+	width: 740px;
+	margin-left: 165px;
+}
+
+.container {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.container2 .item {
-	width: 325px;
-	height: 180px;
-	border: 1px solid red;
+
+.container .item {
+	width: 345px;
+	height: 200px;
+	border: 1px solid black;
+	margin: 25px;
+	background-color: lightgray;
+	padding: 10px;
+
+}
+
+.container .item2 {
+	width: 345px;
+	margin: 25px;
+}
+
+.services-info-img {
+	width: 345px;
+	margin: 25px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 30px;
 }
