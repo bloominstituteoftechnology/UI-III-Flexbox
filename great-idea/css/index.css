@@ -81,6 +81,7 @@ body {
 
 button {
 	background: black;
+	color: white;
 	display: block;
 	margin: 0 auto;
 	padding: 2% 10% 2% 10%;
@@ -89,18 +90,8 @@ button {
 	transition-duration: .5s;
 }
 
-button a {
-	color: white;
-}
-
 button:hover {
-	background: lightslategray;
-	text-decoration: underline;
-}
-
-button:hover a {
-	color: darkslategray;
-}
+	background: lightslategray;}
 
 footer {
 	color: white;
@@ -132,8 +123,12 @@ h3, section {
 }
 
 nav {
+	align-items: center;
 	background: lightyellow;
+	display: flex;
 	font-family: 'Sunflower';
+	height: 3.5%;
+	justify-content: space-around;
 	overflow: hidden;
 	padding-bottom: 1%;
 	position: fixed;
@@ -142,9 +137,9 @@ nav {
 	z-index: 1;
 }
 
-nav a {
+/* nav a {
 	margin: 0 4%;
-}
+} */
 
 p {
 	color: darkgray;
@@ -208,4 +203,63 @@ p {
     top: 9%;
 }
 
-/* #services  */
+#services button {
+	border-radius: 4px;
+	color: lightgray;
+	font-size: 60%;
+	margin: 3% 0 0 2%;
+}
+
+#services h1 {
+	font-size: 150%;
+	text-align: left;
+}
+
+#services ul {
+	color: darkgray;
+	list-style-type: square;
+	margin-left: 3%;
+}
+
+#services ul li {
+	margin-bottom: 2%;
+}
+
+#services .bottom {
+	align-items: center;
+	display: flex;
+}
+
+#services .content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 5%;
+}
+
+#services .content section {
+	border: 1px solid white;
+	margin-bottom: 1.5%;
+	margin-top: 1.5%;
+	padding: 2%;
+	width: 45%;
+}
+
+#services .facts {
+	margin: 0 5%;
+	width: 45%;
+}
+
+#services .facts section {
+	margin-bottom: 3%;
+	margin-right: 5%;
+}
+
+#services .info-img {
+	margin-right: 5%;
+	width: 400px;
+}
+
+#services .intro {
+	margin: 2% 5% 0;
+}
