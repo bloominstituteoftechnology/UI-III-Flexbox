@@ -63,4 +63,109 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 890px;
+	margin: 0 auto;
+}
+
+.top section {
+	display:inline-block;
+}
+
+header img {
+	border: 1px solid red;
+	width: 500px;
+	height: 200px;
+}
+
+.navigation {
+	color: red;
+	border: 1px solid red;
+	border-color: red;
+	display: inline-block;
+	padding: 0 0 0 40px;
+	word-spacing: 50px;
+	font-size: 20px;
+	
+}
+
+.logo {
+	display:inline-block;
+	margin-top: 25px;
+	width: 190px;
+	height: 40px;	
+}
+
+section {
+	display: block;
+}
+
+ div {
+	border: 1px solid blue;
+}
+
+
+.cta .cta-text {
+	display: inline-block;
+}
+
+.circle_code {
+	display: inline-block;
+	margin-top:80px;
+}
+
+.cta .cta-text .cta-titles {
+	margin: 0 0 0 50px;
+	border: 1px solid red;
+	font-size: 80px;
+	text-align: center;
+	vertical-align: center;
+	display: inline-block
+
+}
+
+.btn {
+	display: block;
+	margin: 0 0 0 50px;
+}
+
+.cta img {
+	display: inline-block;
+	margin-top: 69px; 
+}
+
+
+.tab-content {
+	display: inline-block;
+	margin-top: 80px;
+	
+
+}
+
+.upper-left , .upper-right{
+	float: left;
+	width: 50%;
+}
+
+.tab-content .middle-img {
+	display: block;
+	margin-top: 80px;
+}
+
+
+.bottom-content {
+	display: block;
+	margin-top: 80px;
+}
+
+.bottom-left , .bottom-middle , .bottom-right {
+	float: left;
+	width: 33%;
+}
+
+.contact {
+	display: block;
+	margin-top: 80px;
+	width:200px;
+	
+}
