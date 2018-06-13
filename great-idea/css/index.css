@@ -64,3 +64,147 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+  
+  /* Home styles go here */
+  
+.home-content{
+		width: 876px;
+		margin-left: 10px;
+}
+
+  .home-content header{
+	  display: flex;
+	  justify-content: space-between;
+  }
+
+  .home-content header nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  }
+
+  .home-content header nav a{
+	color: gray;
+	text-decoration: none;
+	padding: 0 30px;
+  }
+
+  .home-content header nav a:hover {
+	text-decoration: underline;
+  }
+
+  .home-content .logo{
+	  align-self: flex-end;
+}
+
+/* ......................................... */
+
+.home-content .header-one{
+	border-bottom: 1px solid black;
+	padding: 50px 0 100px;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+
+.home-content h1{
+	text-align: center;
+	width: 250px;
+	font-size: 70px;
+}
+
+  .home-content .button{
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px 0;
+	width: 140px;
+  }
+
+  .home-content .header-one .circle{
+	padding-right: 5px;
+	align-self: flex-end;
+}
+  
+.home-content .header-one .title{
+	padding-left: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+/* ......................................... */
+
+.home-content .top-content{
+	padding: 30px 0 30px 7px;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+
+.home-content .bottom-content{
+	padding: 30px 0 30px 7px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+ 
+ /* ......................................... */
+
+
+.home-content .contact{
+	padding-top: 10px;
+	text-align: left;
+	width: 20%;
+}
+
+.home-content .phone{
+	padding-top: 10px;
+	padding-bottom: 5px;	
+}
+
+.home-content .email{
+	padding-top: 5px;
+	padding-bottom: 50px;
+}
+ /* ......................................... */
+
+ .home-content footer{
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+  /* Services styles go here........................... */
+  
+.services-content header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-content header nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.services-content header nav a{
+  color: gray;
+  text-decoration: none;
+  padding: 0 30px;
+}
+
+.services-content header nav a:hover {
+  text-decoration: underline;
+}
+
+.services-content .logo{
+	align-self: flex-end;
+}
+
+/* ........................................ */
