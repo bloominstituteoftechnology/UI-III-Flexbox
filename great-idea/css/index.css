@@ -109,7 +109,7 @@ button {
 	font-size: 18px;
 	text-align: center;
 	padding:8px 40px;
-	margin: 0px;
+	margin-top: 10px;
 	border-radius: 2px;
 }
 
@@ -117,6 +117,11 @@ button:hover {
 	background: black;
 	color: white;
 	transition: 0.2s ease;
+}
+
+/* hack solution for index page */
+span button {
+	margin: 0px;
 }
 
 .main-content {
@@ -174,8 +179,6 @@ footer {
 	padding:64px;
 }
 
-
-
 /* services page css */
 
 .services-header-img {
@@ -186,6 +189,46 @@ footer {
 .one-column {
   width: 100%;
 }
-h1 {
+
+h1
+{
 	font-size: 28px;
+}
+
+.services-row {
+		/* background-color: lightgray; */
+		flex-direction: row;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		margin: 48px 0px;
+	}
+
+.services-row .margin-right {
+	margin-right: 48px;
+}
+
+.services-columns {
+	background: #eee;
+	padding: 20px;
+	margin: 0px;
+	width: 50%;
+	border: 1px solid black;
+}
+
+ul {
+	list-style-type: square;
+	line-height: 40px;
+	margin: 16px;
+}
+
+
+.services-flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+.services-img {
+   width: 450px;
+   max-width: 100%;
+   max-height: auto;
 }
