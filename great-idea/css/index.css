@@ -94,6 +94,11 @@ nav a {
 	font-size: small;
 }
 
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
 .index-page .page .header {
 	display: flex;
 	justify-content: space-evenly;
@@ -139,11 +144,11 @@ nav a {
 	justify-content: space-between;
 }
 
-.index-page .page .content .content-panel:not(:last-child) {
+.index-page .page .content .content-panel .lg:not(:last-child) {
 	padding-right: 15px;
 }
 
-.index-page .page .content .content-panel .sm:not(:last-of-type) {
+.index-page .page .content .content-panel .sm:not(:last-child) {
 	padding-right: 35px;
 }
 
@@ -158,11 +163,6 @@ nav a {
 /* .index-page .page .content .content-panel .sm {
 	margin-right: 10px;
 } */
-
-.index-page .footer {
-	display: flex;
-	justify-content: center;
-}
 
 /* CSS Animations */
 	/* @keyframes fadein {
