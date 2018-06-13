@@ -195,7 +195,8 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid black;
 	padding: 8px 45px;
 }
-.btn-alt:hover {
+.btn-alt:hover,
+.btn-rounded:hover {
 	background: black;
 	color: #fff;
 }
