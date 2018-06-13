@@ -65,10 +65,98 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+.center {
+	display: flex;
+	justify-content: center;
+}
+
 .wrap {
+	display: flex;
+	flex-direction: column;
+	width: 880px;
+	margin: 40px 0;
+}
+
+
+.header-nav {
+	display: flex;
+	flex-direction: row;	
+}
+
+.header-nav .navigation {
+	
+	
+}
+
+.header-nav .navigation a {
+	text-decoration: none;
+	font-size: 18px;
+	color: grey;
+
+}
+
+.call-to-action {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 40px 0 40px 0;
+}
+
+.call-to-action button {
+	padding: 5px 40px;
+	font-size: 16px;
+}
+
+.cta-inner-content {
+   text-align: center;
+   padding: 20px 0 20px 0;
+}
+
+.cta-inner-content h1 {
+   font-size: 70px;
+}
+
+.features-about {
+	display: flex;
+	margin: 30px 0 30px 0;
+	padding-top: 40px;
+	border-top: 1px solid black;
+
+}
+
+ .fa {
+	display: inline-block;
+	width: 49%;
+	text-align: left;
+}
+
+.services-product-vision {
+	display: flex;
+
+	margin: 30px 0 30px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+}
+.spv {
+	
+	text-align:left;
+}
+
+.contact {
+	display: flex;
+	margin: 20px 0 20px 0;
+}
+
+.copyright {
+	display:flex;
+	justify-content: center;
+	margin-top:40px;
+}
+
+/*.wrap {
 	margin: 40px auto 80px auto;
 	width: 880px;
-	border: 1px solid red;
+	
 }
 
 header {
@@ -79,18 +167,22 @@ header {
 
 header .navigation {
 	position: absolute;
-	display: flex;
-
+	display: inline-block;
 	line-height: 36px;
 }
 
 header .navigation a {
-	display: flex;
+	display: inline-block;
 	text-decoration: none;
 	margin: 0 60px 0 0;
 	color: grey;
 	font-size: 17px;
 	line-height: 36px;
+}
+
+header .navigation a:hover {
+	background: darkgrey;
+	color: white;
 }
 
 header .logo {
@@ -157,3 +249,4 @@ header .logo {
 	text-align: center;
 	margin-top:40px;
 }
+*/
