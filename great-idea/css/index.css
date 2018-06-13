@@ -63,4 +63,149 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+a {
+	color: rgb(87, 88, 90);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	background: black;
+}
+
+button {
+	background: black;
+	display: block;
+	margin: 0 auto;
+	padding: 2% 10% 2% 10%;
+	border: 1.5px solid lightslategray;
+	font-size: 100%;
+	transition-duration: .5s;
+}
+
+button a {
+	color: white;
+}
+
+button:hover {
+	background: lightslategray;
+	text-decoration: underline;
+}
+
+button:hover a {
+	color: darkslategray;
+}
+
+footer {
+	color: white;
+	font-size: 90%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+header {
+	margin: 10% auto;
+}
+
+hr {
+	margin: 5%;
+}
+
+h1 {
+	color: darkcyan;
+	font-size: 400%;
+	text-align: center;
+}
+
+h3 {
+	color: darkcyan;
+}
+
+h3, section {
+	font-size: 110%;
+}
+
+nav {
+	background: lightyellow;
+	font-family: 'Sunflower';
+	overflow: hidden;
+	padding-bottom: 1%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+nav a {
+	margin: 0 4%;
+}
+
+p {
+	color: darkgray;
+}
+
+.bottom-content {
+	display: flex;
+	margin: 3% 4% 0;
+}
+
+.center {
+	background-image: url(https://preview.ibb.co/jMzYUd/mid_page_accent.jpg);
+	background-size: cover;
+	padding: 2%;
+}
+
+.contact-info {
+	padding-left: 5%;
+}
+
+.contact-info p {
+	color: white;
+}
+
+.heading {
+	background-image: url(https://image.ibb.co/dzua9d/header_img.png);
+	background-size: cover;
+}
+
+.main-content {
+	display: flex;
+	margin: 0 4%;
+	text-align: center;
+}
+
+.middle-img {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.small-heading {
+	color: darkcyan;
+    text-align: center;
+}
+
+.top-content {
+	display: flex;
+	margin: 0 4%;
+}
+
+.top-img {
+	display: block;
+	margin: 4% 5% 0;
+	width: 90%;
+}
+
+#opener {
+	color: palevioletred;
+    position: relative;
+    top: 9%;
+}
+
+/* #services  */
