@@ -67,9 +67,9 @@ h1, h2, h3, h4, h5 {
 
 /* Top section */
 
-body {
-	display: flex;
-	margin: 5%;	
+body img {
+    margin: 2em;
+
 }
 
 .container {
@@ -139,14 +139,6 @@ button {
 
 /* Bottom Section */
 
-.contact {
-	margin-top: 50px;
-	padding: 20px 10px 0;
-}
-
-.contact p {
-	margin: 10px 0px;
-}
 
 footer {
 	text-align: center;
