@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,44 +91,210 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body {
+	width: 1024px;
+	margin: auto;
+	padding: 74px;
+}
+
+.navBar {
+	background: rgb(0, 255, 0);
+	top: 0;
+	position: fixed;
+	z-index: 5000;
+	font-family: 'Krona One';
+	font-size: 11px;
+	display: flex;
+	color: grey;
+	list-style-type: none;
+	text-align: center;
+	align-items: center;
+	padding: 0 0 0 20px;
+}
+
+.menuItem {
+	padding: 5px 50px 5px 0;
+}
+
+.menuItem:hover,
+.menuItem a:hover {
+	color: black;
+}
+
+.menuItem a {
+	text-decoration: none;
+	color: grey;
+}
+
+.headerOfPage {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0 60px 0;
+}
+
+.headerOfPageLeft {
+	vertical-align: top;
+	padding-top: 60px;
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+.headerOfPage h1 {
+	font-size: 80px;
+}
+
+.headerButton {
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px;
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 150px;
+	margin: auto;
+}
+
+.topInfoSection {
+	display: flex;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.topInfoSectionLeft {
+	width: 50%;
+}
+
+.topInfoSectionRight {
+	width: 50%;
+}
+
+.bottomInfoSection {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.bottomInfoSectionLeft {
+	width: 32%;
+}
+
+.copyRight {
+	text-align: center;
+	padding: 60px;
+}
+
+.servicesPageTitle {
+	font-size: 24px;
+}
+
+.mainContentArea {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.linkToContent {
+	width: 48%;
+	border-style: solid;
+	border-width: 2px;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-color: rgb(221, 221, 221)
+}
+
+.learnButton {
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px 30px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+
+.bottomAreaServices {
+	display: flex;
+	margin: 40px 0 0 0;
+}
+
+.bottomText {}
+
+.bottomText ul {
+	list-style: square;
+	list-style-position: inside;
+	margin: 10px 0 0 0;
+}
+
+.bottomText ul li {
+	margin: 0 0 10px 0;
+}
