@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .upper nav a{
-	margin: 30px;
+	margin: 20px;
 	color: black;
 	background-color: lightgrey;
 }
@@ -160,25 +160,31 @@ h1, h2, h3, h4, h5 {
 }
 
 .copyright{
-	width: 20%;
+	width: 30%;
 	margin: 0 40%;
 }
 
 /*  ----------------------Services Styles---------------------*/
 
 .services-content{
-	margin: 10%;
-	display: flex;
+	margin: 20%;
 }
 
 .services-header{
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
 
+.services-detail{
+	margin: 20px 0;
+}
+
+
 .services-main{
+	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -193,8 +199,29 @@ h1, h2, h3, h4, h5 {
 	padding: 10px;
 }
 
-.services-content .services-main .main-content a{
+.services-content .services-main .main-content .learn{
 	border: 1px solid black;
 	padding: 5px 10px 5px 10px;
-	margin: 5px;
+	margin: 10px 10px 5px 10px;
+}
+
+.services-content .bottom-content{
+	background-color: red;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.services-content .bottom-text{
+	height: 300px;
+	width: 250px;
+}
+
+.services-content .bottom-image .services-info{
+	height: 200px;
+	width: 250px;
+}
+
+.copyright{
+	align-self: baseline;
 }
