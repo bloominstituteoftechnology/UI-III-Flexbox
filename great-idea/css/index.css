@@ -69,56 +69,73 @@ h1, h2, h3, h4, h5 {
 }
 
 .container{
-	width: 1024px;
+	max-width: 1024px;
 	margin: 0 auto;
 	margin-left: 50px;
 	margin-right: 50px;
+
 }
 
 header {
+	display: flex;
+	flex-direction: row;
+
 	width: 100%;
 	position: fixed;
 	z-index: 2;
 	padding: 5px;
-	height: 100px;
-	padding-top: 30px;
-	margin-bottom: 50px;
+	/* padding-top: 30px;
+	margin-bottom: 50px; */
 	background-color: white;
+	justify-content: space-around;
+	border: 1px solid red;
 
-
-	/* border: 1px solid red; */
 }
 nav {
-	display: inline-block;
-}
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	border: 1px solid red;
+	width: 100%;
+ }
 
 header nav a{
-	padding-right: 40px;
-	margin: 10px;
-	vertical-align: middle;
-	display: inline-block;
+	/* padding-right: 40px; */
+	/* margin: 10px; */
+	/* vertical-align: middle; */
+	/* display: inline-block; */
 	text-decoration: none;
 	color: black;
-	/* border: 1px solid green; */
+	display: flex;
+	justify-content: center;
+	padding:5px;
+	/* justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	margin-right: 80px; */
+	border: 1px solid green;
 }
 
 header nav a:hover {
   text-decoration: underline;
 }
 
-header .logo{
-	display: inline;
+/* header .logo{
+	display: flex;
 	position: relative;
 	right: 20;
 	border: 1px solid blue;
-}
+} */
 
 .section-one{
-	/* display: inline-block; */
+
 	position: relative;
 	width: 100%;
 	padding-top: 100px;
  	z-index: 0;
+	display:flex;
+	justify-content: space-between;
+	border: 1px solid red;
 }
 
 h1 {
@@ -127,23 +144,35 @@ h1 {
 }
 
 button{
-	position: relative;
+	/* position: relative;
 	margin-left: 175px;
 	height: 25px;
-	width: 150px;
+	width: 150px; */
+	display:flex;
+	align-self: center;
 }
 
 .left, .right {
-	width: 50%;
+
 	margin: 0px;
 	display: inline-block;
-	/* border: 1px solid red; */
-	vertical-align: middle;
+	border: 1px solid red;
+
+}
+.section-one{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+.right {
+	border: 1px solid purple;
+	/* padding: 60px; */
 }
 
-.right {
-	/* border: 1px solid purple; */
-	padding: 60px;
+.left{
+	display: flex;
+	align-content: space-around;
+	flex-direction: column;
 }
 
 .line{
@@ -158,22 +187,25 @@ h2{
 }
 
 .double-textbox{
-	position: relative;
+	display: flex;
+	justify-content: space-around;
+
 	/* border: 1px solid black; */
 	width: 100%;
 }
 
 .features, .about{
-	width: 49%;
+	width: 49%; */
 	display: inline-block;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 10px;
 	padding-right: 50px;
 }
-/* .features {
+
+.features {
 	padding-right: 50px;
-} */
+}
 
 .middle-img{
 	width: 100%;
@@ -184,16 +216,17 @@ h2{
 .triple-textbox{
 		position: relative;
 		width: 100%;
-		/* border: 1px solid black; */
+		border: 1px solid black;
+		display: flex;
+		flex-direction: row;
 }
 
 .services, .product, .vision {
-	width: 33%;
-	display: inline-block;
 	padding-right: 10px;
 	margin-top: 10px;
 	margin-bottom: 20px;
-	/* border: 1px solid red; */
+	margin-right: 10px;
+	border: 1px solid red;
 }
 
 .contact{
