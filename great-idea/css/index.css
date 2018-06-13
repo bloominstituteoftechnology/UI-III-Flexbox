@@ -107,7 +107,7 @@ header nav .logo {
 	/*float: right;*/
 }
 
-.top-section {
+.home-content .top-section {
 	display: flex;
 	justify-content: flex-end;
 	/* border: 1px solid blue; */
@@ -116,7 +116,7 @@ header nav .logo {
 	margin-bottom: 20px;
 }
 
-.top-section div {
+.home-content .top-section div {
 	/*margin-top: 108.125px;*/
 	display: flex;
 	flex-direction: column;
@@ -127,17 +127,17 @@ header nav .logo {
 	/*width: 50%;*/
 }
 
-.top-section div {
+.home-content .top-section div {
 	flex-grow: 1;
 }
 
-.top-section div h1 {
+.home-content .top-section div h1 {
 	/* border: 1px solid red; */
 	font-size: 70px;
 	text-align: center;
 }
 
-.top-section div button {
+.home-content .top-section div button {
 	/*margin-left: 108.45px;*/
 	font-size: 16px;
 	font-family: 'Titillium Web', sans-serif;
@@ -147,14 +147,14 @@ header nav .logo {
 	padding: 0px 35px;
 }
 
-.top-section .circleImage {
+.home-content .top-section .circleImage {
 	/* border: 1px solid green; */
 	/*margin-left: 100px;*/
 	/*width: 49;*/
 	/*float: right;*/
 }
 
-.middle-section {
+.home-content .middle-section {
 	/* border: 1px solid red; */
 	border-top: 1px solid black;
 	display: flex;
@@ -164,19 +164,19 @@ header nav .logo {
 	margin-top: 50px;
 }
 
-.middle-section div {
+.home-content .middle-section div {
 	/* border: 1px solid blue; */
 	/*display: inline-block;
 	width: 49%;*/
 }
 
-.middle-image {
+.home-content .middle-image {
 	/* border: 1px solid red; */
 	display: flex;
 	justify-content: center;
 }
 
-.bottom-content {
+.home-content .bottom-content {
 	/* border: 1px solid red; */
 	display: flex;
 	justify-content: space-between;
@@ -185,20 +185,20 @@ header nav .logo {
 	padding-bottom: 60px;
 }
 
-.bottom-content div {
+.home-content .bottom-content div {
 	/* border: 1px solid blue; */
 	/*display: inline-block;*/
 	width: 33%;
 }
 
-.contact {
+.home-content .contact {
 	display: flex;
 	justify-content: flex-start;
 	/* border: 1px solid red; */
 	margin-top: 30px;
 }
 
-footer {
+.home-content footer {
 	/*border: 1px solid red;*/
 	display: flex;
 	justify-content: center;
