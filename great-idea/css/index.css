@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 26px;
 }
 h4 {
 	font-weight: bold;
@@ -104,7 +104,14 @@ h6 {
 	text-align: center;
 }
 p {
-	font-size: 16px;
+	font-size: 17px;
+}
+li {
+	font-size: 18px;
+}
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
 }
 
 .home-content {
@@ -185,18 +192,39 @@ p {
 	margin: 0 50px;
 }
 .services-content .about {
-	padding: 50px 10px 40px 10px;
+	padding: 30px 10px 40px 10px;
 }
 .services-content .row{
 	display: flex;
 	justify-content: space-around;
-	;
+	margin-top: 15px;
 }
 .services-content .block {
 	display: flex;
+	flex-direction: column;
 	margin: 20px;
 	padding: 20px;
 	border: 1px solid black;
 	background: lightgrey;
-	height: 200px;
+	height: 250px;
+}
+.services-content .block button {
+	width: 130px;
+	height: 50px;
+	margin-top: 20px;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 6px;
+}
+.services-content .bottom-text {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 20px 50px 10px;
+	padding: 10px;
+}
+.services-content .bottom-text .facts {
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
 }
