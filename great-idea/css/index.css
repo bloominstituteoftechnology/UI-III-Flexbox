@@ -117,14 +117,13 @@ h1 {
 .inno div {
 	border: 1px solid black;
 	padding: 5px 40px;
-	display: inline-block;
 	font-size: 18px;
 }
 
 .hr{
 	color: black;
 	width: 85%;
-	height: 5px;
+	height: 10px;
 	margin: auto;
 }
 
@@ -179,6 +178,7 @@ h3 {
 	font-size: 25px;
 }
 
+
 .bigbox {
 	display: flex;
 	justify-content: center;
@@ -204,4 +204,26 @@ h3 {
 	width: 30%;
 	display: flex;
 	justify-content: center;
+}
+
+.facts {
+	display: flex;
+}
+
+.facts div {
+	padding: 3% 0 3% 5%;
+	line-height: 130%;
+	margin-left: 4%;
+
+} 
+
+.facts img {
+	/*T R B L*/
+	margin: 4% 8% 4% 4%;
+}
+
+ul {
+	list-style-type: square;
+	margin-left: 10%;
+	line-height: 130%;
 }
