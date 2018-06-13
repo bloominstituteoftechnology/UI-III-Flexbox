@@ -13,7 +13,7 @@ Once you have finished the home page using flexbox, go build the services page b
 * Open the code with your preferred integrated development environment (IDE).
 * Start on the objectives
 
-##Objectives:
+## Objectives:
 
 - [ ] Refactor the home page layout with flexbox where `inline-block` was used before
 - [ ] In your navigation, point the services anchor tag's `href` to `services.html`
