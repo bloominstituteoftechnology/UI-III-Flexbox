@@ -107,23 +107,43 @@ header .logo {
 
 /* cta */
 
+.cta {
+	display: flex;
+	justify-content: space-evenly;
+	border: 1px solid black;
+}
+
 .cta .cta-text {
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid black;
   font-size: 77px;
+  text-align: center;
+  padding: 0px 90px; 
+	/* display: inline-block;
+  vertical-align: top;
+  
   margin-top: 120px;
   text-align: center;
-  padding: 0px 90px;
+  padding: 0px 90px; */
+}
+
+.cta .cta-text h1 {
+	border: 1px solid black;
 }
 
 .cta .cta-text button {
   background: white;
-  vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px;
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
+  margin: 0 40px;
+  padding: 8px 44px;
+  /* vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px; */
+  
 }
 
 .cta .cta-text button:hover {
@@ -132,8 +152,9 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
-  margin-top: 69px;
+	border: 1px solid black;
+	/* display: inline-block;
+  margin-top: 69px; */
 }
 
 .main-content {
