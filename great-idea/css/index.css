@@ -120,6 +120,7 @@ h3 {
 
 h3, section {
 	font-size: 110%;
+	margin: 1%;
 }
 
 nav {
@@ -169,10 +170,14 @@ p {
 	background-size: cover;
 }
 
+.lorem {
+	margin: 1%;
+}
+
 .main-content {
 	display: flex;
 	margin: 0 4%;
-	text-align: center;
+	text-align: left;
 }
 
 .middle-img {
