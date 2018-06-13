@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,148 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: flex-start space-evenly;
+	align-items: center;
+}
+.navbar nav {
+	width: 700px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.navbar nav a {
+	text-decoration: none;
+}
+.navbar nav a:hover {
+	text-decoration: underline;
+}
+
+/*home content page*/
+ .home-content {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.home-content .div2 {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 20px auto;
+}
+.home-content .div2 header {
+	width: 450px;
+	height: 379px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.home-content .div2 header .header-text {
+	text-align: center;
+}
+.home-content .div2 header .header-text h1 {
+	font-size: 40px;
+	width: 100px;
+}
+.home-content .div2 header .header-text p {
+	border: 1px solid black;
+}
+.home-content .div2 .round-img-div {
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.home-content .div2 .round-img-div img {
+margin:0 30px;
+}
+.home-content .div3 {
+	width: 100%;
+	margin: 25px 0;
+	border-top: 1px solid black;
+}
+.home-content .div3 .top-section {
+	display: flex;
+	flex-direction: row;
+}
+.home-content .div3 .top-section .top-text {
+	padding: 25px;
+}
+.home-content .middle-img {
+	margin: 20px 0;
+}
+.home-content .div3 .bottom-section {
+display: flex;
+flex-direction: row;
+}
+.home-content .div4 {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 15px 10px 0;
+}
+.home-content .contact p {
+	margin: 20px 0;
+}
+.home-content footer {
+	margin: 32px 0;
+ text-align: center;
+ font-size: 14px;
+}
+
+/*services content below*/
+.srvcs-content {
+	width: 900px;
+	margin: 0 auto;
+}
+.srvcs-content .services-intro {
+	margin: 20px 0;
+}
+.srvcs-content .services-intro h1{
+	font-size: 30px;
+}
+.srvcs-content .main-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+}
+.srvcs-content .main-content h2 {
+	font-size: 20px;
+}
+.srvcs-content .main-content .mn-cnt-box {
+	border: 1px solid black;
+	width: 410px;
+	margin:15px;
+	padding: 10px;
+}
+.srvcs-content .main-content .mn-cnt-box button {
+	margin: 15px;
+	width: 150px;
+	height: 30px;
+}
+.srvcs-content .bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+.srvcs-content .bottom-content .srvcs-facts {
+	width: 410px;
+	margin: 20px;
+}
+.srvcs-content .bottom-content .srvcs-facts ul {
+	list-style-type: disc;
+   list-style-position: inside;
+   margin-top: 15px;
+}
+.srvcs-content .bottom-content img {
+	margin-right: 20px;
+}
+footer {
+	text-align: center;
+	margin-top:15px;
+}
