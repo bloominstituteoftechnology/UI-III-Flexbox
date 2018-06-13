@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -62,5 +61,129 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+ /*------------------------------All edits start here------------------------------------- */
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h1{
+	font-size: 5em;
+}
+
+.head {
+ width: 876px;
+ position:relative;
+ text-decoration: none;
+ display: flex;
+ flex-direction: row;
+ align-content: space-around;
+ color:grey;
+ justify-content: center; 
+ margin-bottom: 40px;
+}
+
+.head nav a {
+display: flex;
+align-items: space-around;
+justify-content: space-evenly;
+
+}
+.logo{
+
+}
+#img {
+	width: 876px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
+
+#button {
+	border: 2px solid gray;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	background-color: white;
+	padding: 10px 20px 10px 20px;
+}
+
+
+#first{
+	display: inline-block;
+	margin: 1em 5em 1em 5em;
+	padding: .5em 0em .5em 0em;
+	text-align: center;
+	align-content: center;
+}
+#second {
+	display: inline-block;
+}
+
+
+#description{
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	padding: 1em 0em 1em 0em;
+	max-width: 876px;
+
+}
+
+#row1{
+display: inline-block;
+max-width: 876px;
+padding: 0em 0em 0em 0em;
+}
+
+	#Features {
+		display: inline-block;
+		width: 50%;
+		padding-right: .5em;
+	}
+
+	#About{
+		display: inline-block;
+		width:50%;
+		padding-left: .5em;
+	}
+
+.middle-img {
+display: block;
+padding: 2em 0em 2em 0em; 
+}
+
+
+	#row2{
+	display: inline-block;
+	width: 50%;
+	width: 876px;
+	}
+
+	#Services {
+		display: inline-block;
+		width:292px;
+		padding-right: .5em;
+	}
+
+	#Product {
+		display: inline-block;
+		width:292px;
+		padding-right: .5em;
+	}
+
+	#Vision {
+		display: inline-block;
+		width:292px;
+		padding-left: .5em;
+	}
+
+#close {
+	text-align: center;
+	display: block;
+}
+
+#contact{
+	display: inline-block;
+	width: 20%;
+	white-space: pre;
+}
+
