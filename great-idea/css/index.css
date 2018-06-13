@@ -176,7 +176,8 @@ justify-content: space-evenly;
   margin-right: 12px; */
   display: flex;
   flex-wrap: wrap;
-
+justify-content: flex-start;
+padding: 0 10px;
 }
 
 .main-content .bottom-content .text-content:last-child {
