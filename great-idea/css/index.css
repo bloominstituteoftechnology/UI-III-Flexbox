@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 18px;
+	color: grey;
+	margin: 45px 43px 30px;
+}
+
+.logo{
+	width: 225px;
+}
+
+.services-top{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.services-header-img{
+	width: 1080px;
+	height: 270px;
+}
+
+.services-about{
+	width: 1080px;
+	margin: 45px 0;
+}
+
+.services-about h1{
+	font-size: 30px;
+}
+
+.services-about p{
+	line-height: 1.3;
+	font-size: 19px;
+}
+
+hr{
+	border-top: 1px solid black;
+	width: 1080px;
+	margin-bottom: 50px;
+
+}
+
+.main-services{
+	margin: auto;
+	width: 1150px;
+	height: 855px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	font-size: 18px;
+}
+
+.main-services button{
+	width: 120px;
+	height: 35px;
+	margin: 20px 0 0 0;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+}
+.main-services div{
+	line-height:1.3;
+	border: 1px solid black;
+	width: 520px;
+	height: 250px;
+	padding: 20px;
+}
+
+.bottom-services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+.bottom-services div{
+	line-height:1.2;
+	margin: 0 40px 0 0;
+	font-size: 20px;
+	width: 520px;
+	height: 225px;
+}
+
+.bottom-services p{
+	margin-bottom: 15px;
+}
+
+div ul{
+	font-size: 22px;
+	list-style: inside;
+	line-height: 1.4;
+}
+
+.services-info-img{
+	width: 520px;
+}
+
+footer{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 40px;
+}
