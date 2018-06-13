@@ -71,9 +71,15 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
   
+footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+}
+/* home-content */
+
 /* header */
   
-
 header nav {
 	display: flex;
 	justify-content: space-between;
@@ -89,7 +95,7 @@ header nav a:hover {
 	text-decoration: underline;
 }
   
-  /* cta */
+/* cta */
   
 .cta {
 	display: flex;
@@ -116,7 +122,14 @@ header nav a:hover {
 	border: 1px solid black;
 	cursor: pointer;
 }
+
+.cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
   
+/* main-content */
+
 .main-content {
 	border-top: 1px solid black;
 	margin-top: 20px;
@@ -154,7 +167,9 @@ header nav a:hover {
 .main-content .bottom-content .text-content:last-child {
 	margin-right: 0;
 }
-  
+
+/* other */
+
 .contact {
 	margin-top: 57px;
 	border-top: 1px solid black;
@@ -164,9 +179,75 @@ header nav a:hover {
 .contact p {
 	margin: 20px 0;
 }
-  
-footer {
-	margin: 32px 0;
-	text-align: center;
-	font-size: 14px;
+
+/* services-content */
+
+.services-content .main-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+	padding-bottom: 39px;
+}
+
+.services-content .main-content .feature {
+	border: 1px solid black;
+	background: lightgrey;
+	margin: 10px 0; 
+	padding: 10px;
+	width: 420px;
+}
+
+.services-content .feature button {
+	background: white;
+	vertical-align: top;
+	margin: 15px 0;
+	padding: 10px 25px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.services-content .feature button:hover {
+	background: black;
+	color: white;
+}
+
+.services-content .intro {
+	margin-bottom: 40px;
+}
+
+.services-content .intro h2 {
+	font-size: 25px;
+}
+
+.services-content .intro img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.services-content .bottom-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.services-content .bottom-content .box {
+	width: 420px;
+	height: 100%;
+}
+
+.services-content .bottom-content .box ul {
+	height: 190px;
+	display: flex;
+	flex-direction: column;
+	text-align: flex-start;
+	justify-content: space-evenly;
+}
+
+.services-content .bottom-content .box ul li {
+	list-style-position: inside;
 }
