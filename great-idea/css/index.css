@@ -70,56 +70,62 @@ hr {
 	margin-right: 50px;
 }
 
-nav {
+.nav {
 	background-color: teal;
 	position: fixed;
 	width: 100%;
 	padding: 7px;
 	z-index: 1000;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
-nav .nav-text {
-	display: inline-block;
-	vertical-align: top;
-	padding: 10px 10px 10px 50px;
-	word-spacing: 50px;
-	width: 80%;
+
+.nav a {
 	font-family: 'Jua';
-}
-nav .nav-text a {
 	text-decoration: none;
 	color: white;
 }
 
-nav .nav-text a:visited {
+.nav a:visited {
 	text-decoration: none;
 	color: white;
 }
 
-nav .logo {
-	display: inline-block;
-	vertical-align: top;
+.nav .logo {
 	width: 150px;
 }
 
-header {
+.copyright {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+/* Index Page CSS */
+
+/* Index Page Header CSS */
+
+.home-content header {
 	padding: 70px 0 0 0;
+	display: flex;
+	justify-content: center;
 }
 
-.title {
-	display: inline-block;
-	width:50%;
+.home-content .title {
 	text-align: center;
-	vertical-align: top;
 	padding-top: 100px;
+	width: 50%;
+	height: 500px;
 }
 
-.title .title-text {
+.home-content .title .title-text {
 	font-size: 70px;
 	text-align: center;
 }
 
-.title button {
+.home-content .title button {
 	background-color: white;
     border: 1px solid;
     color: black;
@@ -130,124 +136,121 @@ header {
     transition-duration: 0.4s;
 }
 
-.title button:hover {
+.home-content .title button:hover {
 	color: white;
 	background-color: black;
 }
 
-.title button:focus {
+.home-content .title button:focus {
 	outline: 0;
 }
 
-.title .test {
+.home-content .title .test {
 	margin-left: 100px;
 	margin-bottom: 100px;
 }
 
-.title-logo {
-	display: inline-block;
+.home-content .title-logo {
+	height: 400px;
 	width: 50%;
 }
 
-.main-content {
-	display: inline-block;
+/* Index Page Main Content */
+
+.home-content .main-content {
+	display: flex;
 	margin-left: 50px;
 	margin-right: 50px;
 	padding: 20px 0px 20px 0px;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.main-content .features {
-	display: inline-block;
+.home-content .main-content .features {
 	width: 50%;
-	padding: 10px;
+	height: 80px;
+	padding: 0 10px;
 }
 
-.main-content .about {
-	display: inline-block;
+.home-content .main-content .about {
 	width: 50%;
-	padding: 10px;
+	height: 80px;
+	padding: 0 10px;
 }
 
-.main-content .middle-img {
-	padding: 50px 0 50px 0;
-	margin-left: auto;
-	margin-right: auto;
+.home-content .main-content .middle-img {
+	padding: 30px 20px;
 	width: 100%;
 }
 
-.main-content .services {
-	display: inline-block;
+.home-content .main-content .services {
 	width: 33%;
-	padding: 10px;
+	height: 140px;
+	padding: 0 10px;
 }
 
-.main-content .product {
-	display: inline-block;
+.home-content .main-content .product {
 	width: 33%;
-	padding: 10px;
+	height: 140px;
+	padding: 0 10px;
 }
 
-.main-content .vision {
-	display: inline-block;
+.home-content .main-content .vision {
 	width: 33%;
-	padding: 10px;
+	height: 140px;
+	padding: 0 10px;
 }
 
-.contact-info {
-	display: inline-block;
+.home-content .contact-info-container {
+	display: flex;
 	margin-left: 50px;
 	width: 200px;
 	padding: 10px;
 }
 
-.copyright {
-	display: inline-block;
-	text-align: center;
-	width: 100%;
-	padding: 10px;
-}
+
 
 /* Services Page Specific CSS */
 
-header .services-header {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	padding: 0px 50px 50px 50px;
+/* Header */
+.services-content header {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-header .header-content h1 {
+.services-content header .services-header {
+	width: 100%;
+	padding: 0px 50px 20px 50px;
+}
+
+.services-content header .header-img {
+	padding-top: 80px;
+}
+
+.services-content header .header-content h1 {
 	font-size: 24px;
 }
 
-.services-main-content {
-	display: inline-block;
+/* Main Content */
+
+.services-content .services-main-content {
+	display: flex;
+	flex-wrap: wrap;
 	margin-left: 50px;
 	margin-right: 50px;
 	padding: 20px 0px 20px 0px;
 }
 
-.services-main-content .main-box-left {
-	display: inline-block;
+.services-content .services-main-content .main-box {
 	background-color: lightgrey;
 	border: 1px solid black;
 	height: 200px;
-	width: 47.5%;
+	width: 45%;
 	padding: 20px;
-	margin: 5px 2.5% 5px 0;
+	margin: 10px 2.5%;
 }
 
-.services-main-content .main-box-right {
-	display: inline-block;
-	background-color: lightgrey;
-	border: 1px solid black;
-	height: 200px;
-	width: 47.5%;
-	padding: 20px;
-	margin: 5px 0px 5px 2.5%;
-}
-
-.services-main-content button {
+.services-content .services-main-content button {
 	background-color: white;
     border: 1px solid;
     color: black;
@@ -259,39 +262,37 @@ header .header-content h1 {
     border-radius: 4px;
 }
 
-.services-main-content button:hover {
+.services-content .services-main-content button:hover {
 	color: white;
 	background-color: black;
 }
 
-.services-main-content button:focus {
+.services-content .services-main-content button:focus {
 	outline: 0;
 }
 
-.end {
-	display: inline-block;
+.services-content .end {
+	display: flex;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 
-.services-facts {
-	display: inline-block;
+.services-content .services-facts {
 	width:50%;
-	vertical-align:top;
 	padding: 20px 20px 20px 0;
 	line-height: 1.2;
 }
 
-.services-facts ul {
+.services-content .services-facts ul {
 	list-style-type: square;
 	list-style-position: inside;
 	line-height: 1.6;
 }
 
-.services-facts-image {
+.services-content .services-facts-image {
 	display: inline-block;
-	width: 47.5%;
-	margin: 5px 0px 5px 2.5%;
+	margin: 5px 0px 5px 20px;
+	width: 50%;
 	height:300px;
 }
 
