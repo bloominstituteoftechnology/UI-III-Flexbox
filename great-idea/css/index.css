@@ -76,7 +76,7 @@ nav {
 	flex-direction: row;
 }
 
-nav p{
+nav a{
 	color: gray;
 	font-size: 14px;
 	margin: 39px 68px 0px 0px;
@@ -137,7 +137,7 @@ h1 {
 
 .middle-img {
 	display: flex;
-	padding-bottom: 5%;
+	padding-bottom: 1%;
 	margin: auto;
 }
 
@@ -145,31 +145,63 @@ h1 {
 	display: flex;
 	justify-content: center;
 	padding: 0 3%;
-	/* width: 300px;
-  	margin: 1%;
-	padding-left: 2%;
-	padding-bottom: 3%; */
 }
 
 .services{
 	padding: 3%;
 } 
 
-.product{
-	display: inline-block;
-}
-
-.vision{
- 	display: inline-block;
-}
-
 .contact{
-	margin-left: 5%;
+	margin-left: 6%;
 	padding-top: 3%;
 	padding-bottom: 3%;
+	margin-top: 2%;
 }
 
 footer{
 	text-align: center;
 	padding: 5%;
+}
+
+/* services page*/
+
+.servhead {
+	display: flex;
+	justify-content: center;
+	margin-top: 4%;
+}
+
+.servicetxt {
+	padding: 2% 7%;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.bigbox {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.boxes {
+	width: 400px;
+	margin: 2%;
+	padding: 2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: lavender;
+	line-height: 125%;
+}
+
+.learnbutton {
+	border: 1px solid black;
+	background: white;
+	border-radius: 25px;
+	padding: 1%;
+	margin-top: 2%;
+	width: 30%;
+	display: flex;
+	justify-content: center;
 }
