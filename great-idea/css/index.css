@@ -63,4 +63,56 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* Wrapper */
+.wrapper {
+	width: 900px;
+	box-sizing: border-box;
+	display: flex;
+	
+}
+
+/* Navigation Bar CSS */
+.nav-buttons {
+	position: fixed;
+	vertical-align: top;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	border: 3px solid black;
+}
+
+.nav-buttons li {
+	text-decoration: none;
+	opacity: .8;
+  	color: black;
+}
+
+.nav-buttons li a:hover {
+	background-color: grey;
+}
+
+.logo {
+   display: flex;
+}
+
+
+/* Header CSS */
+header {
+	box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Divider Content */
+
+
+/* Contact div */ 
+.contact {
+	
+}
+footer {
+}
