@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5 {
 
 body {
 	width: 1024px;
-	height: 1536px;
-	padding: 36px;
+	margin: 0 auto;
+	/* padding: 36px; */
 	display: flex;
 	justify-content: center;
 }
@@ -177,14 +177,28 @@ hr {
 
 /* Services Page */
 
+.services-page {
+}
+
 .services-page .page hr {
 	height: 1px;
-	margin: 25px 0 0;
+}
+
+.services-page .page hr:first-child {
+	margin-bottom: 0;
+}
+
+.services-page .page hr:last-child {
+	margin-top: 0;
 }
 
 .services-page .page .content-top {
 	display: flex;
 	flex-direction: column;
+}
+
+.services-page .page .content-top .content-top-text {
+	margin-top: 20px;
 }
 
 /* .services-page .page * {
