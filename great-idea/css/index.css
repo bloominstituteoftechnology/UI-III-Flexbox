@@ -68,33 +68,33 @@ h1, h2, h3, h4, h5 {
   /* Home styles go here */
   
 .home-content{
-		width: 876px;
-		margin-left: 10px;
+	width: 876px;
+	margin-left: 100px;
 }
 
-  .home-content header{
-	  display: flex;
-	  justify-content: space-between;
-  }
+.home-content header{
+	display: flex;
+	justify-content: space-between;
+}
 
-  .home-content header nav{
+.home-content header nav{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-  }
+}
 
-  .home-content header nav a{
+.home-content header nav a{
 	color: gray;
 	text-decoration: none;
 	padding: 0 30px;
-  }
+}
 
-  .home-content header nav a:hover {
+.home-content header nav a:hover {
 	text-decoration: underline;
-  }
+}
 
-  .home-content .logo{
-	  align-self: flex-end;
+.home-content .logo{
+	align-self: flex-end;
 }
 
 /* ......................................... */
@@ -113,14 +113,14 @@ h1, h2, h3, h4, h5 {
 	font-size: 70px;
 }
 
-  .home-content .button{
+.home-content .button{
 	text-align: center;
 	border: 1px solid black;
 	padding: 5px 0;
 	width: 140px;
   }
 
-  .home-content .header-one .circle{
+.home-content .header-one .circle{
 	padding-right: 5px;
 	align-self: flex-end;
 }
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5 {
 }
  /* ......................................... */
 
- .home-content footer{
+.home-content footer{
 	text-align: center;
 	padding-bottom: 100px;
 }
