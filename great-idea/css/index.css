@@ -83,6 +83,10 @@ header nav a {
 	text-decoration: none;
 }
 
+header img {
+	align-self: flex-end;
+}
+
 footer {
 	display: flex;
 	justify-content: center;
@@ -119,4 +123,10 @@ button {
 	background-color: white;
 	width: 200px;
 	padding: 10px 15px 10px 15px;
+}
+
+
+.services-content .services-header-img {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
