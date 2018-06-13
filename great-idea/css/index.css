@@ -89,15 +89,13 @@ body {
 }
 header {
 	margin-top: 20px;
-	position: relative;
 	height: 36px;
 	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
-header nav {
-	display: inline-block;
-	position: absolute;
-	line-height: 36px;
-}
+
 header nav a{
 	margin: 50px;
 	text-decoration: none;
@@ -106,19 +104,17 @@ header nav a{
 header nav a: hover {
 	text-decoration: underline;
 }
-header .logo {
-	position: absolute;
-	right: 100px;
-}
+
 .get-started {
 	margin-top: 60px;
 	height: 450px;
 	border-bottom: 1px solid gray;
 	width: 100%;
-	position: relative;
 }
 .get-started div{
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	text-align: center;
 	width: 50%;
 }
@@ -130,15 +126,20 @@ header .logo {
 	height: 35px;
 	border: 1px solid black;
 }
+.get-started {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
 .get-started img {
-	display: inline-block;
-	right:100px;
-	position: absolute;
-	width: 379px;
+	height: 379px;
+}
+.top-info {
+	display: flex;
+	justify-content: flex-start;
 }
 .top-info div {
 	width: 50%;
-	display: inline-block;
 }
 .top-info div h2 {
 	padding-top: 30px;
@@ -151,11 +152,13 @@ header .logo {
 	height: 182px;
 	margin: 0 auto;
 }
+.bottom-info {
+	display: flex;
+	justify-content: flex-start;
+}
 .bottom-info div {
 	width: 33%;
-	display: inline-block;
 	border-bottom: 1px solid gray;
-	
 }
 .bottom-info div h2 {
 	padding-top: 30px;
