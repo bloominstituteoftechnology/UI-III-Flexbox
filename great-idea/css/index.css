@@ -208,3 +208,41 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	font-size: 14px;
   }
+
+  /* Services Page Styles */
+
+  .services-header-img {
+	  margin-top: 2%;
+  }
+
+  .services-intro {
+	  display: flex;
+	  width: 880px;
+	  border-bottom: 1px solid black;
+	  flex-direction: column;
+	  padding-bottom: 4%;
+	  margin-top: 3%;
+  }
+
+  .services-intro-text {
+	  font-weight: bold;
+  }
+
+  .services-intro h1 {
+	  font-size: 28px;
+  }
+
+  .services-main {
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-content: space-around;
+
+  }
+
+  .services-main .card {
+	  border: 1px solid black;
+	  background-color: whitesmoke;
+	  width: 400px;
+	  margin: 20px;
+	  
+  }
