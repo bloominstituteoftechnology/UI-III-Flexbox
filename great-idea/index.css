@@ -67,8 +67,9 @@ h1, h2, h3, h4, h5 {
 
 /* Top section */
 
-body img {
-    margin: 2em;
+body  {
+	width: 800px;
+	margin: 0 auto;
 
 }
 
@@ -104,12 +105,7 @@ header .header-text {
 }
 
 button {
-	font-size: 20px;
-	background-color: white;
-	border: 1px solid black;
-	text-align: center;
-	margin: 10px;
-	padding: 5px 20px;
+	
 }
 
 /* Middle Section */
@@ -119,26 +115,34 @@ button {
 	justify-content: space-around;
 }
 
-.middle-content {
+hr {
+	border: none;
+	height: 2px;
+	color: black;
+	background-color: black;
+}
+
+.middle1, .middle2 , .middle3 {
 	display: flex;
-
-	padding: 2%;
-}
-
-.middle-img {
-	width: 97%;
-	padding-left: 5%;
-	padding-bottom: 2%;
-}
-
-.bottom-content {
-	display: flex;
-	justify-content: space-evenly;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 2%;
+	background-color: #D6D3D7;
+	border: 1px solid black;
+	
 
 }
+ 
+
 
 /* Bottom Section */
 
+
+.bottom {
+	display: flex;
+	justify-content: space-between;
+	padding: 5%;
+}
 
 footer {
 	text-align: center;
