@@ -130,3 +130,26 @@ button {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+
+.services-content .services-options {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.services-content .services-options .service-info {
+	background-color: #F4F3F4;
+	border: 1px solid black;
+	width: 423px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+.services-content .services-facts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-content .services-facts .facts-text {
+	width: 400px;
+	margin-top: 50px;
+}
