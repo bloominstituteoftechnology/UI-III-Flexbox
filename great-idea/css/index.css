@@ -106,8 +106,9 @@ header .logo {
 
 .top p{
 	width: 740px;
-	margin-bottom: 25px;
 	border-bottom: 1px solid black;
+	margin-left: 165px;
+	padding-bottom: 20px;
 }
 
 .services-header-img {
