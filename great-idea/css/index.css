@@ -182,7 +182,7 @@ header nav .logo {
 	justify-content: space-between;
 	margin-top: 30px;
 	border-bottom: 1px solid black;
-	padding-bottom: 30px;
+	padding-bottom: 60px;
 }
 
 .bottom-content div {
@@ -195,7 +195,7 @@ header nav .logo {
 	display: flex;
 	justify-content: flex-start;
 	/* border: 1px solid red; */
-	margin-top: 25px;
+	margin-top: 30px;
 }
 
 footer {
