@@ -187,6 +187,8 @@ h1, h2, h3, h4, h5 {
 */
 .btn {
 	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
 	display: inline-block;
 }
 .btn-alt {
@@ -196,6 +198,12 @@ h1, h2, h3, h4, h5 {
 .btn-alt:hover {
 	background: black;
 	color: #fff;
+}
+.btn-rounded {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 40px;
+	font-size: 12px;
 }
 
 /*
@@ -208,9 +216,6 @@ h1, h2, h3, h4, h5 {
 }
 .section p {
 	line-height: 17px;
-}
-.section + hr {
-	margin-top: 10px;
 }
 
 /*
@@ -246,9 +251,75 @@ footer p {
 
 /*
 	=====================================
+	Services Page Styles
+	=====================================
+*/
+.services-header-img {
+	display: block;
+	width: 100%;
+}
+.services-main {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.services-main h2 {
+	font-size: 27px;
+}
+.services-main p {
+	line-height: 19px;
+}
+.service-detail {
+	flex-basis: 48%;
+	margin-bottom: 40px;
+	padding: 20px;
+	border: 1px solid black;
+	background-color: #f7f7f7;
+}
+.service-detail h4 {
+	line-height: 22px;
+}
+.service-detail p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.services-info-text {
+	flex-basis: 48%;
+}
+.services-info-text h4 {
+	line-height: 22px;
+}
+.services-info-text p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.services-info-text ul {
+	list-style-type: square;
+}
+.services-info-text ul > li {
+	margin-bottom: 14px;
+	margin-left: 16px;
+	padding-left: 5px;
+}
+
+/*
+	=====================================
 	Additional styles
 	=====================================
 */
 body {
 	padding-top: 90px; /* this makes up for the fixed navbar (36px line height + (27px padding) * 2) */
+}
+
+/*
+	=====================================
+	Utility Classes
+	!!always keep these styles at the
+	bottom of the file!!
+	====================================
+*/
+.mt-1 {
+	margin-top: 10px;
+}
+.mb-0 {
+	margin-bottom: 0;
 }
