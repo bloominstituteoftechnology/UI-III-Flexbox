@@ -72,8 +72,6 @@ h1, h2, h3, h4, h5 {
 */
 .primary-nav li {
 	list-style-type: none;
-	display: inline-block;
-	margin-right: 6.5%;
 	line-height: 36px;
 	transition: transform 0.2s;
 }
@@ -93,7 +91,6 @@ h1, h2, h3, h4, h5 {
 	color: #ababab;
 }
 .logo {
-	float: right;
 	transition: transform 0.2s;
 }
 .primary-nav {
@@ -102,6 +99,10 @@ h1, h2, h3, h4, h5 {
 	position: fixed;
 	top: 0;
 	width: 100%;
+}
+.primary-nav > .container {
+	display: flex;
+	justify-content: space-between;
 }
 
 /*
