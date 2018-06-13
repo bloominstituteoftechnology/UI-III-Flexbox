@@ -168,26 +168,33 @@ h1, h2, h3, h4, h5 {
 
 .services-content{
 	margin: 10%;
+	display: flex;
 }
 
-.service-header{
+.services-header{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
 
-.services-content .services-main{
+.services-main{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
 }
 
-.services-content .services-main .main-content{
+.services-main .main-content{
 	height: 200px;
 	width: 300px;
 	border: 1px solid black;
 	margin: 20px;
 	padding: 10px;
+}
+
+.services-content .services-main .main-content a{
+	border: 1px solid black;
+	padding: 5px 10px 5px 10px;
+	margin: 5px;
 }
