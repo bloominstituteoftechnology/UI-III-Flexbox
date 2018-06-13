@@ -64,3 +64,163 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 876px;
+	height: auto;
+	margin: 0 auto;
+  }
+
+
+header {
+	display:flex;
+	width: 876px;
+	height: 36px;
+}
+
+header nav {
+display:flex;
+line-height: 36px;
+background-color: aquamarine;
+/* position:fixed; */
+width:876px;
+font-family: 'Tangerine', serif;
+}
+
+header nav a {
+	color: gray;
+	margin: 0 40px 0 0;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+header .logo {
+	/* right: 25%;
+	position:fixed; */
+	display: flex;
+	justify-content: flex-end;
+	}
+
+.CTA {
+	display: flex;
+	width: 876px;
+	height: 379px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.CTA .cta-content {
+	height: 379px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.CTA .cta-content h1{
+	/* vertical-align: middle; */
+	font-family: 'Bangers', cursive;
+	font-size: 60px;
+	font-weight: bolder;
+	/* margin: 10%; */
+	text-align: center;
+	align-content: center;
+	letter-spacing: 1px;
+	padding: 5px;
+	/* margin-bottom: 15px; */
+	
+	
+	
+}
+
+.CTA .top-img {
+	/* vertical-align: top; */
+	display: flex;
+	/* right: 20%; */
+	margin: 40px 50px;
+	/* position: absolute; */
+	justify-content: space-around;
+}
+
+/* .CTA a{
+	/* -webkit-transition-duration: 0.4s; /* Safari */
+	/* transition-duration: 0.4s; */ 
+	/* display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	border: 1px solid black;
+	order: 3;
+	}  */
+	
+/* .CTA .a:hover {
+		background-color: #4CAF50; /* Green */
+		/* color: white;
+	} */ 
+
+.CTA .cta-content a {
+text-decoration: none;
+border: 1px solid black;
+text-align: center;
+}
+
+.top-content {
+height: auto;
+margin:8px;
+display: flex;
+flex-direction: row
+
+}
+
+.top-content .features {
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+}
+
+/* .top-content .features h5 {
+	flex-wrap: wrap;
+} */
+/* .top-content .about{
+display: flex;
+width: 49%;
+} */
+
+.middle-img {
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.bottom-content{
+display: flex;
+height:auto;
+margin:8px;
+justify-content: space-evenly;
+flex-direction: row;
+}
+
+.bottom-content .content {
+display: flex;
+flex-direction: column;
+
+/* /
+.bottom-content .content2 {
+	display: flex;
+	}
+.bottom-content .content3 {
+	display: flex;
+	} */ 
+
+.contact{
+	display: flex;
+	margin:8px;
+	flex-direction: column;
+
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+} 
+
