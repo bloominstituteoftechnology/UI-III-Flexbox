@@ -58,12 +58,12 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Code starts here */
 
 /* Body */
 body {
@@ -74,8 +74,21 @@ body {
 	width: 100%;
 }
 
+h1 {
+	font-size: 160%;
+}
+
+h2 {
+	font-size: 120%;
+}
+
+p {
+	line-height: 120%;
+}
+
 /* Navigation */
-div.navigation {	
+
+div.navigation {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -105,92 +118,126 @@ div.navigation img {
 	width: 200px;
 }
 
-
 /* Header */
 header {
 	width: 80%;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	/* display under the nav */
-	margin-top: 150px;
-}
-
-header div {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}
-
-header div h1 {
-	padding: 20px;
-	font-size: 70px;
-	text-align: center;
-}
-
-header div button {
-	text-decoration: none;
-
-	background: white;
-	margin-top: 15px;
-	border: solid black 1px;
-	padding: 10px 50px;
-}
-
-header div button:hover {
-	transform: scale(1.2);
-	border: none;
-	color: white;
-	background: black;
-}
-
-/* Section */
-section {
-	display: flex;
-	justify-content: center;
-	width: 80%
-}
-
-section .paragraph-1{
-	padding: 30px 10px 10px 0px;
-	margin-top: 80px;
-	border-top: black solid 2px;
-}
-
-img.section-img{
-	width: 80%;
-	margin: 15px 0;
-}
-
-section .paragraph-2{
-	padding: 10px 10px 30px 0px;
-	border-bottom: black solid 2px;
-}
-
-/* Contact */
-div.contact {
-	display: flex;
 	justify-content: flex-start;
-	flex-direction: column;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+
+header img {
+	width: 100%;
+}
+
+header h1 {
+	padding: 20px 0;
+}
+
+/* Type of services */
+section.type-of-services {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 
 	width: 80%;
-	margin: 15px 0;
+	margin: 20px 0;
+	padding: 20px 0;
 }
 
-div.contact h2 {
-	padding: 10px 0;
+section div.service {
+	margin: 2% 0;
+	padding: 20px;
+	width: 48%;
+	border: 1px solid black;
+	background: rgb(200, 160, 170, 0.1);
 }
 
-div.contact p ,
-div a {
-	padding: 10px 0;
+section div.service p {
+	padding: 20px 0;
+}
+
+section div.service button {
+	padding: 10px 35px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+}
+
+/* section div.spacing-between {
+	width: 2%;
+	background: blue;
+} */
+
+/* Facts of service */
+
+section.facts-of-service {
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid blue; */
+
+	margin: 2% 0;
+
+	width: 80%;
+} 
+
+section.facts-of-service div,
+section.facts-of-service img {
+	width: 48%;
+}
+
+section.facts-of-service p {
+	padding: 20px 0;
+}
+
+section.facts-of-service li {
+	list-style: square;
+	margin-left: 4%;
 }
 
 /* Footer */
 footer {
-	margin: 30px 0;
 	display: flex;
 	justify-content: center;
 
-	width: 80%;
+	width: 100%;
+	margin: 20px 0;
 }
+
+/* iPhone 8 */
+@media only screen 
+	and (device-width : 375px) 
+	and (device-height : 667px) 
+	and (-webkit-device-pixel-ratio : 2) { 
+
+		div.navigation {
+			justify-content: center;
+		}
+
+		div.navigation a:not(:last-child) {
+			display: none;
+		}
+
+		section.type-of-services {
+			align-items: center;
+			flex-flow: column;
+		}
+
+		section div.service {
+			width: 100%;
+		}
+
+		section.facts-of-service {
+			align-items: center;
+			flex-flow: column;
+		}
+
+		section.facts-of-service div,
+		section.facts-of-service img {
+			width: 100%;
+			margin: 10px 0;
+		}
+	}
