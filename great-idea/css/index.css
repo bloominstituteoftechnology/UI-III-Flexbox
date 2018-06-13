@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.top{
+	display: flex;
+	flex-direction: row;
+	margin-left: 7%;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+}
+
+nav p{
+	color: gray;
+	font-size: 14px;
+	margin: 39px 68px 0px 0px;
+	
+}
+
+.logo {
+	right: 9.1%;
+	padding-top: 2.6%;
+	position: absolute;
+}
+
+.topmid{
+	margin-top: 3.8%;
+	margin-bottom: 7%;
+	display: flex;
+	justify-content: center;
+}
+
+.circle {
+	margin-top: 3.5%;
+	margin-left: 5%;
+
+}
+
+h1 {
+	font-size: 75px;
+	letter-spacing: 4px;
+
+}
+
+.inno {
+	text-align: center;
+	margin-left: 3%;
+	margin-top: 9.3%; 	
+}
+
+.inno div {
+	border: 1px solid black;
+	padding: 5px 40px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.hr{
+	color: black;
+	width: 85%;
+	height: 5px;
+	margin: auto;
+}
+
+.features {
+	display: flex;
+	justify-content: center;
+	margin: 1em;
+	padding: 2% 5% 3% 5%;
+}
+
+.middle-img {
+	display: flex;
+	padding-bottom: 5%;
+	margin: auto;
+}
+
+.serv{
+	display: flex;
+	justify-content: center;
+	padding: 0 3%;
+	/* width: 300px;
+  	margin: 1%;
+	padding-left: 2%;
+	padding-bottom: 3%; */
+}
+
+.services{
+	padding: 3%;
+} 
+
+.product{
+	display: inline-block;
+}
+
+.vision{
+ 	display: inline-block;
+}
+
+.contact{
+	margin-left: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+footer{
+	text-align: center;
+	padding: 5%;
+}
