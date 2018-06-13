@@ -66,8 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body{
+	margin: 0 100px;
 /*	width: 50%; */
-	margin:0 auto;
+	
 	font-family: Titillium Web;
 	
 }
@@ -75,8 +76,7 @@ header {
 
   	position: relative;
 	height: 50px;
-	margin: 0 550px;
-	border: 1px solid red;
+	margin: 0 400px;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
@@ -110,7 +110,6 @@ header nav a:hover {
   }
 
 header .logo {
-border: 1px solid red;
 display: flex;
 
 }
@@ -125,13 +124,11 @@ display: flex;
 
 }
 .header-img {
-	display: inline-block;
-	box-sizing: border-box;
-	width: 380px;
-	margin: 0px 0px 80px 560px;
-	padding: 0 0 100px 0;
-	position: absolute;
-	right: 500px;
+display:flex;
+flex-wrap: nowrap;
+
+
+
 
 
 }
@@ -157,27 +154,42 @@ button a {
 .Upper-Content {
 	position: relative;
 	border-top: 1px solid black;
-	margin: 0 auto;
-	padding: 40px 50px 40px 0px;
-	margin-top: 100px;
+	height: 200px;
+
+	display: flex;
+	align-items: center;
+	
+
+	justify-content: space-evenly;
 
 }
-.middle-img {
-	padding: 0px 0px 0px 0px;
-	margin: 0 auto;
-	display: block;
+.content .middle-img {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	box-sizing: border-box;
+
+	align-self: center;
+
+
+
 }
 .Features {
 	width: 50%;
-	display: inline-block;
-	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	margin: 0 10px 0 0;
 
 }
 
 .About {
 	width: 50%;
-	display: inline-block;
-	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 0 0px 0 10px;
+	
+	
 
 }
 
@@ -187,6 +199,12 @@ button a {
 	margin: 0 auto;
 	padding: 40px 0px 40px 0px;
 	margin-bottom: 20px;
+	position: relative;
+
+	height: 200px;
+	display: flex;
+	align-items: center;
+
 
 }
 
@@ -211,6 +229,7 @@ button a {
 
 .Contact-List {
 	padding: 10px 0px 40px 0px;
+	
 }
 
 footer {
@@ -223,18 +242,39 @@ footer {
 }
 
 .CTA button{
-	margin: 0px 20px 20px 40px;
+	
 
 }
 
 .CTA {
 
-    
-	border: 1px solid blue;
+    width: 400px;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: nowrap;
 
+}
+
+.Header-Container {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 50px 0 40px 0;
+
+
+
+}
+
+.content {
+display: flex;	
+flex-direction: column;
+
+}
+
+.Contact-Section {
+
+	
 }
