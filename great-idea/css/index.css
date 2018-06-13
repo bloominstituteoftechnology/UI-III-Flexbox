@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 876px;
+	margin: 30px 60px 30px 60px;
+  }
+
+header {
+	border: 1px solid red;
+	/*position: relative;*/
+	width: 100%;
+	/*height: 38px;*/
+}
+
+div header nav {
+	/*display: inline-block;*/
+	/*position: absolute;*/
+	/*line-height: 38px;*/
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid blue;
+	/*width: 100%;*/
+}
+
+div header nav a {
+	/*margin: 0 47px 0 0;*/
+	/*line-height: 38px;*/
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	/*display: inline-block;*/
+	border: 1px solid green;
+	/*margin-right: 50px;*/
+	color: gray;
+}
+
+header nav a:hover{
+	text-decoration: underline;
+}
+
+header nav .logo {
+	border: 1px solid red;
+	/*float: right;*/
+}
+
+.top-section {
+	display: flex;
+	justify-content: flex-end;
+	border: 1px solid blue;
+	/*height: 428.25px;*/
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.top-section div {
+	/*margin-top: 108.125px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid green;
+	/*display: inline-block;*/
+	/*width: 50%;*/
+}
+
+.top-section div {
+	flex-grow: 1;
+}
+
+.top-section div h1 {
+	border: 1px solid red;
+	font-size: 70px;
+	text-align: center;
+}
+
+.top-section div button {
+	/*margin-left: 108.45px;*/
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	background-color: #ffffff;
+	/*width:50%;*/
+	padding: 0px 35px;
+}
+
+.top-section .circleImage {
+	border: 1px solid green;
+	/*margin-left: 100px;*/
+	/*width: 49;*/
+	/*float: right;*/
+}
+
+.middle-section {
+	border: 1px solid red;
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 50px;
+}
+
+.middle-section div {
+	border: 1px solid blue;
+	/*display: inline-block;
+	width: 49%;*/
+}
+
+.bottom-content {
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+
+.bottom-content div {
+	border: 1px solid blue;
+	/*display: inline-block;
+	width: 33%;*/
+}
+
+.contact {
+	border: 1px solid red;
+	margin-top: 25px;
+}
+
+footer {
+	border: 1px solid red;
+	text-align: center;
+	margin-top: 50px;
+}
