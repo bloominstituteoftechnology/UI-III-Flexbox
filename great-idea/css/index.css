@@ -62,3 +62,141 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/*Your Code Starts Here*/
+
+.margins{
+	position: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 50px;
+	padding: 10px;
+}
+
+.navlogo{
+	display: flex;
+	justify-content: space-between; 
+	align-items: baseline;
+}
+
+.navlogo nav{
+	display: flex;
+	justify-content: space-around;
+
+}
+.navlogo nav a{
+	margin: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.heading{
+	display: flex;
+	justify-content: space-around;
+	align-items: center; 
+}
+
+.heading-a{
+	font-size: 82px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+}
+
+.button1{
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	width: 50%;
+	display: inline-block;
+}
+
+.section-1{
+	display: flex; 
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.section-1a{
+	padding: 10px;
+}
+
+.section-2{
+	display: flex; 
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.section-2a{
+	padding: 10px;
+}
+
+.section-3{
+	display: flex; 
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.section-3 div{
+	width: 175px;
+	padding: 10px;
+}
+
+.footing{
+	display: flex; 
+	flex-direction: column;
+	padding: 10px;
+}
+
+.footing-a{
+	display: flex; 
+	justify-content: center;
+	padding: 10px;
+}
+
+/*Services*/
+
+.services{
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+
+.main-services{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-around;
+
+	height: 700px;
+
+
+}
+
+.main-services div{
+	border: 1px solid black;
+	background-color: lightgrey;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 10px;
+	margin: 10px;
+	height: 200px;
+	width: 375px;
+}
+
+.about-services{
+	border-top: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+}
+
+.about-body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 20px;
+}
+
