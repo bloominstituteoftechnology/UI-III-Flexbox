@@ -210,18 +210,24 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
+	justify-content: center;
 }
 
 .services-content .bottom-text{
+	border: 1px solid red;
 	height: 300px;
-	width: 250px;
+	width: 300px;
+	margin: 20px;
 }
 
 .services-content .bottom-image .services-info{
-	height: 200px;
-	width: 250px;
+	border: 1px solid red;
+	height: 250px;
+	width: 300px;
+	margin: 20px;
 }
 
-.copyright{
+.services-content .copyright{
+	border: 1px solid red;
 	align-self: baseline;
 }
