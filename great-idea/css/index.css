@@ -168,3 +168,41 @@ footer {
 	text-align: center;
 	
 }
+
+.container4 {
+	padding: 30px 0;
+}
+
+.container5 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	padding: 20px 0;
+}
+
+.boxes {
+	border: 1px solid black;
+	height: 200px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.lastcontainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.textbox1 {
+	width: 50%;
+}
+
+h3 {
+	font-size: 25px;
+	padding-top: 10px;
+}
