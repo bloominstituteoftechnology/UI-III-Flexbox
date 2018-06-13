@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
 }
 blockquote, q {
 	quotes: none;
@@ -205,11 +205,52 @@ footer {
 
 .left-box {
   box-sizing: border-box;
-  width: 600px;
+  width: 500px;
   height: 200px;
-  background-color: gray;
+  background-color: lightgray;
   margin: auto;
   
+}
 
+.right-box {
+  box-sizing: border-box;
+  width: 500px;
+  height: 200px;
+  background-color: lightgray;
+  margin: auto;
+}
 
+.top-box {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+
+}
+
+.middle-box {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+
+}
+
+.bottom-box {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+
+}
+
+.lower-box {
+   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
 }
