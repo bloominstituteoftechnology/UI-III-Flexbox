@@ -204,4 +204,9 @@ footer {
 .services-content .services-text {
 	border-bottom: 1px solid black;
 	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+
+.services-content .card {
+	width: 420px;
 }
