@@ -185,7 +185,6 @@ padding: 2em 0em 2em 0em;
 
 #close {
 	text-align: center;
-	display: flex;
 }
 
 #contact{
@@ -226,15 +225,23 @@ CSS for services. */
 	border: solid 1px;
 	flex-direction: row;
 	width: 50%
-	padding: 10px 10px 0px 10px;
+	padding: 1px 1px 1px 1px;
+	margin: 10px 10px 10px 10px;
 	background-color: lightgrey;
 	width: 400px;
+	justify-content: space-between;
+
+}
+
+.boxhead {
+	display: flex;
+	align-self: flex-start;
 }
 
 .final {
 	display: flex;
 	flex-direction: row;
-	align-content: space-between;
+	align-content: space-evenly;
 	max-width: 880px;
 	margin: 20px 0px 0px 0px;
 }
