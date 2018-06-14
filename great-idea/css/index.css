@@ -209,4 +209,21 @@ footer {
 
 .services-content .card {
 	width: 420px;
+	padding: 20px;
+	margin: 20px 0;
+	background: whitesmoke;
+	border: 1px solid black;
 }
+
+.services-content .card button {
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 20px 0 0 0;
+	padding: 10px 40px;
+}
+
+.services-content .card button:hover {
+	background: black;
+	color: white;
+  }
