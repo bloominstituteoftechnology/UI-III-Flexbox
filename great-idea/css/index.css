@@ -15,7 +15,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin-left: : 3px;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -25,7 +25,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -73,10 +73,11 @@ h1{
  text-decoration: none;
  display: flex;
  flex-direction: row;
- align-content: space-around;
+ align-content: space-between;
  color:grey;
  justify-content: center; 
- margin-bottom: 40px;
+ margin-bottom: 10px;
+ padding: 10px;
 }
 
 .head nav a {
@@ -86,14 +87,17 @@ justify-content: space-evenly;
 
 }
 .logo{
+	height: 36px;
+	width: 183px;
 
 }
 #img {
-	width: 876px;
-	display: flex;
+	width: 876px; /*this needs to be here think */
+	display: inline-flex;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+	margin: 0px 0px 20px 0px;
 
 }
 
@@ -109,14 +113,15 @@ justify-content: space-evenly;
 
 
 #first{
-	display: inline-block;
+	display: flex;
 	margin: 1em 5em 1em 5em;
 	padding: .5em 0em .5em 0em;
 	text-align: center;
 	align-content: center;
+	flex-direction: column;
 }
 #second {
-	display: inline-block;
+	display: flex;
 }
 
 
@@ -129,61 +134,64 @@ justify-content: space-evenly;
 }
 
 #row1{
-display: inline-block;
+display: flex;
 max-width: 876px;
 padding: 0em 0em 0em 0em;
 }
 
 	#Features {
-		display: inline-block;
+		display: flex;
 		width: 50%;
 		padding-right: .5em;
+		flex-direction: column;
 	}
 
 	#About{
-		display: inline-block;
+		display: flex;
 		width:50%;
 		padding-left: .5em;
+		flex-direction: column;
 	}
 
 .middle-img {
-display: block;
+display: flex;
 padding: 2em 0em 2em 0em; 
 }
 
 
 	#row2{
-	display: inline-block;
+	display: flex;
 	width: 50%;
 	width: 876px;
 	}
 
 	#Services {
-		display: inline-block;
+		flex-direction: column;
 		width:292px;
 		padding-right: .5em;
 	}
 
 	#Product {
-		display: inline-block;
+		flex-direction: column;
 		width:292px;
 		padding-right: .5em;
 	}
 
 	#Vision {
-		display: inline-block;
+		flex-direction: column;
 		width:292px;
 		padding-left: .5em;
 	}
 
 #close {
 	text-align: center;
-	display: block;
+	display: flex;
 }
 
 #contact{
-	display: inline-block;
+	display: flex;
 	width: 20%;
 	white-space: pre;
+	flex-direction: column;
 }
 
