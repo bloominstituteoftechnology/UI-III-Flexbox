@@ -64,3 +64,235 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.home-content {
+	width: 876px;
+	margin: 30px 60px 30px 60px;
+  }
+
+.home-content header {
+	width: 100%;
+	/* border: 1px solid blue; */
+}
+
+.home-content header nav {
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid red; */
+}
+
+.home-content header nav a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: gray;
+}
+
+.home-content header nav a:hover{
+	text-decoration: underline;
+}
+
+.home-content header nav .logo {
+	/* border: 1px solid red; */
+	/*float: right;*/
+}
+
+.home-content .top-section {
+	display: flex;
+	justify-content: flex-end;
+	/* border: 1px solid blue; */
+	/*height: 428.25px;*/
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.home-content .top-section div {
+	/*margin-top: 108.125px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid green; */
+	/*display: inline-block;*/
+	/*width: 50%;*/
+}
+
+.home-content .top-section div {
+	flex-grow: 1;
+}
+
+.home-content .top-section div h1 {
+	/* border: 1px solid red; */
+	font-size: 70px;
+	text-align: center;
+}
+
+.home-content .top-section div button {
+	/*margin-left: 108.45px;*/
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	background-color: #ffffff;
+	/*width:50%;*/
+	padding: 0px 35px;
+}
+
+.home-content .top-section .circleImage {
+	/* border: 1px solid green; */
+	/*margin-left: 100px;*/
+	/*width: 49;*/
+	/*float: right;*/
+}
+
+.home-content .middle-section {
+	/* border: 1px solid red; */
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 50px;
+}
+
+.home-content .middle-section div {
+	/* border: 1px solid blue; */
+	/*display: inline-block;
+	width: 49%;*/
+}
+
+.home-content .middle-image {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: center;
+}
+
+.home-content .bottom-content {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	border-bottom: 1px solid black;
+	padding-bottom: 60px;
+}
+
+.home-content .bottom-content div {
+	/* border: 1px solid blue; */
+	/*display: inline-block;*/
+	width: 33%;
+}
+
+.home-content .contact {
+	display: flex;
+	justify-content: flex-start;
+	/* border: 1px solid red; */
+	margin-top: 30px;
+}
+
+.home-content footer {
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+/* service-content */
+
+.services-content {
+	width: 882px;
+	margin: 30px 60px 30px 60px;
+  }
+
+.services-content header {
+	width: 100%;
+	/* border: 1px solid blue; */
+}
+
+.services-content header nav {
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid red; */
+}
+
+.services-content header nav a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: gray;
+}
+
+.services-content header nav a:hover{
+	text-decoration: underline;
+}
+
+.services-content .services-header-img {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	/* border: 1px solid blue; */
+}
+
+.services-content .services-information {
+	/* border: 1px solid red; */
+	width: 100%;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.services-content .services-information h1 {
+	font-size: 26px;
+}
+
+.services-content .services-description {
+	/* border: 1px solid blue; */
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid black;
+}
+
+.services-content .services-description div {
+	border: 1px solid red;
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+}
+
+.services-content .services-description div button {
+	border: 1px solid green;
+}
+
+.services-content .services-facts {
+	/* border: 1px solid blue; */
+	display: flex;
+	margin-top: 40px;
+	width: 100%;
+}
+
+.services-content .services-facts img {
+	margin: 20px;
+}
+
+.services-content .services-facts div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.services-content .services-facts div div {
+	/* border: 1px solid blue; */
+	padding-right: 10px;
+}
+
+.services-content .services-facts div .list {
+	padding-top: 30px;
+}
+
+.services-content footer {
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
