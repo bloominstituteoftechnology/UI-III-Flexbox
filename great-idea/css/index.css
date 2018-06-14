@@ -81,13 +81,18 @@ body {
 	padding: 30px 40px 0; 
 }
 
+.service-container {
+	padding
+}
+
+
 header { /*container*/
 	display: flex;
-	justify-content: flex-end;
 	height: 50px;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap; 
+	padding-left: 0px;
 }
 
 nav a {
@@ -116,17 +121,30 @@ logo {
 	text-align:center;
 }
 
+.banner {
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+
+/* content */
+
 .top-content { /*container*/
 	display:flex;
 	border-top: black solid 1px;
 	padding-top: 30px;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 .top-content .text-content { /*flex this*/
 	width: 425px;
+}
+
+
+
+.service-blurb h1 {
+	font-size: 20px;
 }
 
 .middle-img {
