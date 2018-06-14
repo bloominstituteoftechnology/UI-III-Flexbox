@@ -152,7 +152,7 @@ p {
 }
 
 .center {
-	background-image: url(https://preview.ibb.co/jMzYUd/mid_page_accent.jpg);
+	background-image: url(../img/mid-page-accent.jpg);
 	background-size: cover;
 	padding: 2%;
 }
@@ -166,7 +166,7 @@ p {
 }
 
 .heading {
-	background-image: url(https://image.ibb.co/dzua9d/header_img.png);
+	background-image: url(../img/header-img.png);
 	background-size: cover;
 }
 
@@ -223,7 +223,7 @@ p {
 #services ul {
 	color: darkgray;
 	list-style-type: square;
-	margin-left: 3%;
+	margin-left: 4%;
 }
 
 #services ul li {
