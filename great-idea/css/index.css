@@ -64,45 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.container {
+.home-content {
 	width: 876px;
 	margin: 30px 60px 30px 60px;
   }
 
-header {
-	/* border: 1px solid red; */
-	/*position: relative;*/
+.home-content header {
 	width: 100%;
-	/*height: 38px;*/
+	/* border: 1px solid blue; */
 }
 
-div header nav {
-	/*display: inline-block;*/
-	/*position: absolute;*/
-	/*line-height: 38px;*/
+.home-content header nav {
 	display: flex;
 	justify-content: space-between;
-	/* border: 1px solid blue; */
-	/*width: 100%;*/
+	/* border: 1px solid red; */
 }
 
-div header nav a {
-	/*margin: 0 47px 0 0;*/
-	/*line-height: 38px;*/
+.home-content header nav a {
 	display: flex;
 	align-items: center;
 	text-decoration: none;
-	/*display: inline-block;*/
-	/* border: 1px solid green; */
-	/*margin-right: 50px;*/
 	color: gray;
 }
 
-header nav a:hover{
+.home-content header nav a:hover{
 	text-decoration: underline;
 }
 
-header nav .logo {
+.home-content header nav .logo {
 	/* border: 1px solid red; */
 	/*float: right;*/
 }
@@ -199,6 +188,109 @@ header nav .logo {
 }
 
 .home-content footer {
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+/* service-content */
+
+.services-content {
+	width: 882px;
+	margin: 30px 60px 30px 60px;
+  }
+
+.services-content header {
+	width: 100%;
+	/* border: 1px solid blue; */
+}
+
+.services-content header nav {
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid red; */
+}
+
+.services-content header nav a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: gray;
+}
+
+.services-content header nav a:hover{
+	text-decoration: underline;
+}
+
+.services-content .services-header-img {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	/* border: 1px solid blue; */
+}
+
+.services-content .services-information {
+	/* border: 1px solid red; */
+	width: 100%;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.services-content .services-information h1 {
+	font-size: 26px;
+}
+
+.services-content .services-description {
+	/* border: 1px solid blue; */
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid black;
+}
+
+.services-content .services-description div {
+	border: 1px solid red;
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+}
+
+.services-content .services-description div button {
+	border: 1px solid green;
+}
+
+.services-content .services-facts {
+	/* border: 1px solid blue; */
+	display: flex;
+	margin-top: 40px;
+	width: 100%;
+}
+
+.services-content .services-facts img {
+	margin: 20px;
+}
+
+.services-content .services-facts div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.services-content .services-facts div div {
+	/* border: 1px solid blue; */
+	padding-right: 10px;
+}
+
+.services-content .services-facts div .list {
+	padding-top: 30px;
+}
+
+.services-content footer {
 	/*border: 1px solid red;*/
 	display: flex;
 	justify-content: center;
