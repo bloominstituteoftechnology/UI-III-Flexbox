@@ -48,37 +48,37 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+#index * {
     box-sizing: border-box;
 }
 
-html, body {
+#index html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+#index h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-.container {
+#index .container {
 	width: 890px;
 	margin: 0 auto;
 }
 
-.top section {
+#index .top section {
 	display:inline-block;
 }
 
-header img {
+#index header img {
 	border: 1px solid red;
 	width: 500px;
 	height: 200px;
 }
 
-.navigation {
+#index .navigation {
 	color: red;
 	border: 1px solid red;
 	border-color: red;
@@ -89,32 +89,32 @@ header img {
 	
 }
 
-.logo {
+#index .logo {
 	display:inline-block;
 	margin-top: 25px;
 	width: 190px;
 	height: 40px;	
 }
 
-section {
+#index section {
 	display: block;
 }
 
- div {
+#index div {
 	border: 1px solid blue;
 }
 
 
-.cta .cta-text {
+#index .cta .cta-text {
 	display: inline-block;
 }
 
-.circle_code {
+#index .circle_code {
 	display: inline-block;
 	margin-top:80px;
 }
 
-.cta .cta-text .cta-titles {
+#index .cta .cta-text .cta-titles {
 	margin: 0 0 0 50px;
 	border: 1px solid red;
 	font-size: 80px;
@@ -124,48 +124,64 @@ section {
 
 }
 
-.btn {
+#index .btn {
 	display: block;
 	margin: 0 0 0 50px;
 }
 
-.cta img {
+#index .cta img {
 	display: inline-block;
 	margin-top: 69px; 
 }
 
 
-.tab-content {
+#index .tab-content {
 	display: inline-block;
 	margin-top: 80px;
 	
 
 }
 
-.upper-left , .upper-right{
+#index .upper-left , .upper-right{
 	float: left;
 	width: 50%;
 }
 
-.tab-content .middle-img {
+#index .tab-content .middle-img {
 	display: block;
 	margin-top: 80px;
 }
 
 
-.bottom-content {
+#index .bottom-content {
 	display: block;
 	margin-top: 80px;
 }
 
-.bottom-left , .bottom-middle , .bottom-right {
+#index .bottom-left , .bottom-middle , .bottom-right {
 	float: left;
 	width: 33%;
 }
 
-.contact {
+#index .contact {
 	display: block;
 	margin-top: 80px;
 	width:200px;
 	
+}
+
+
+
+/*Services*/
+
+#services .services-dis{
+	display: flex;
+	justify-content: center;
+}
+
+#services .box-middle {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 50%;
 }
