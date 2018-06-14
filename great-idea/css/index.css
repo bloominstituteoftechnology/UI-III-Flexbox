@@ -125,21 +125,18 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.button {
-	border: 1px solid;
-	width: 160px;
-	padding: 5px;
-	text-align: center;
+button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
-.button a {
-	text-decoration: none;
-	color: black;
-}
-
-.button a:hover {
-	text-decoration: underline;
-	color: black;
+button:hover {
+    background: black;
+    color: white;
 }
 
 .cir-image {
@@ -239,7 +236,7 @@ h2 .services-title {
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-content: space-around;
-	background: #FFF1CE;
+	background: lightsteelblue;
 	height: 252px;
 	width: 420px;
 	margin: 20px;
@@ -252,7 +249,7 @@ h2 .services-title {
 	/* margin: 15px 0px; */
 }
 
-.services-button {
+/* .services-button {
 	display: flex;
 	border: 1px solid black;
 	background: white;
@@ -262,9 +259,9 @@ h2 .services-title {
 	align-items: center;
 	margin-top: 15px;
 	border-radius: 4px;
-}
+} */
 
-.services-button a {
+/* .services-button a {
 	text-decoration: none;
 	color: black;
 }
@@ -272,6 +269,10 @@ h2 .services-title {
 .services-button a:hover {
 	text-decoration: underline;
 	background-color: gray;
+} */
+
+.services-title {
+	font-size: 26px;
 }
 
 .facts-container {
