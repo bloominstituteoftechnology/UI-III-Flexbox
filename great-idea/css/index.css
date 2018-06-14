@@ -292,8 +292,8 @@ h2{
 
 ul {
 		list-style-type: square;
-		margin-left: 15px;
-		border: 1px solid red;
+		list-style-position: inside;
+		/* border: 1px solid red; */
 }
 
 .detail-pic{
