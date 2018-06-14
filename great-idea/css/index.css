@@ -85,8 +85,6 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	position: fixed;
 	border: 2px solid goldenrod;
-	align-items: center;
-	/* width: 100%; */
 	background: #eee;
 	padding: 20px;
 }
@@ -96,6 +94,7 @@ h1, h2, h3, h4, h5 {
 	justify-content: center;
 	align-content: space-between;
 	text-decoration: none;
+	
 }
 
 .nav-bar img {
@@ -107,6 +106,8 @@ h1, h2, h3, h4, h5 {
 	align-items: center;
 	background-color: white;
 	border: 3px solid black;
+	flex-grow: 1;
+	width: 100%;
 }
 
 .nav-buttons li a:link {
@@ -127,30 +128,55 @@ header {
 	border: 2px solid teal;
 	align-items: center;
 	margin-top: 12vh;
+	text-align: center;
+	font-size: 75px;
 }
+
+header a {
+	border: 2px solid black;
+	padding: 12px 24px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+header a:hover {
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+}
+
 
 /* Section and Content */
 section {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	padding: 25px;
 }
 
 .div-top {
 	display: flex;
-	justify-content: center;
 	border-top: 2px solid black;
+	padding: 25px;
+}
+
+.sect {
+	margin-top: 100px;
+	padding: 0 20px;
 }
 
 .div-img {
 	display: flex;
 	border: 2px solid red;
+	margin-top: 20px;
 }
 .div-bottom {
 	display: flex;
 	justify-content: center;
 	border-bottom: 2px solid black;
+	/* overriding .sect margin-top */
+	margin-top: -64px;
 }
 
 /* Contact div */ 
@@ -159,13 +185,13 @@ section {
 	border: 2px solid orange;
 	justify-content: flex-start;
 	flex-direction: column;
-	padding: 25px;
+	padding-top: 95px;
 }
 
 footer {
 	display: flex;
 	justify-content: center;
-	padding: 25px;
+	padding-top: 65px;
 }
 
 /* End Home Page CSS */
