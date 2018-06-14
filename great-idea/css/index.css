@@ -58,9 +58,216 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Baloo', 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* Home Page css */
+
+/* Wrapper */
+.wrapper {
+	width: 900px;
+	box-sizing: inherit;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	margin: 0 auto;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+  }
+
+/* Navigation Bar CSS */
+.nav-bar {
+	display: flex;
+	position: fixed;
+	margin: 0 auto;
+	width: 900px;
+}
+
+.nav-bar  ul{
+	display: flex;
+	align-content: space-between;
+	text-decoration: none;
+	
+}
+
+.nav-bar img {
+	margin-left: 50px;
+}
+.nav-buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: white;
+	width: 100%;
+	padding: 25px;
+}
+
+.nav-buttons li a:link {
+	text-decoration: none;
+	opacity: .8;
+  	color: black;
+}
+
+.nav-buttons li a:hover {
+	background-color: grey;
+	text-decoration: underline;
+}
+
+/* Header CSS */
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 12vh;
+	text-align: center;
+	font-size: 75px;
+}
+
+header a {
+	border: 2px solid black;
+	padding: 12px 24px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+header a:hover {
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+}
+
+
+/* Section and Content */
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.div-top {
+	display: flex;
+	border-top: 2px solid black;
+	padding: 25px;
+}
+
+.sect {
+	margin: 100px 0 50px 0;
+	padding: 0 20px;
+}
+
+.div-img {
+	display: flex;
+	margin-top: 20px;
+}
+.div-bottom {
+	display: flex;
+	justify-content: center;
+	border-bottom: 2px solid black;
+}
+
+/* Contact div */ 
+.contact {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding-top: 95px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+/* End Home Page CSS */
+
+/* Start Service Page CSS */
+
+/* Top Section */
+.services-header-img {
+	display: flex;
+	margin-top: 12vh;
+}
+
+.top-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 25px;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: row;
+	padding-top: 50px;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+}
+.content-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+	padding: 25px;
+	margin-top: 35px;
+	width: 380px;
+	border: 1px solid black;
+}
+
+.serv-buttons {
+	padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.content-boxes a:hover {
+	padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+	border: 1px solid black;
+	background: black;
+	color: white;
+}
+
+.top-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bottom-services {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 25px;
+	margin-top: 50px;
+	border-top: 1px solid black;
+}
+
+.btm-serv-lft, .services-info-img {
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+	width: 400px;
+}
+.bottom-services li {
+	list-style: square;
+	padding: 5px;
+}
