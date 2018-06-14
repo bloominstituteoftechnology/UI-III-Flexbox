@@ -65,8 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .home-content {
-	width: 876px;
-	margin: 30px 60px 30px 60px;
+	width: 880px;
+	margin: auto;
   }
 
 .home-content header {
@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5 {
 
 .home-content header nav {
 	display: flex;
+	margin-top: 40px;
 	justify-content: space-between;
 	/* border: 1px solid red; */
 }
@@ -197,8 +198,8 @@ h1, h2, h3, h4, h5 {
 /* service-content */
 
 .services-content {
-	width: 882px;
-	margin: 30px 60px 30px 60px;
+	width: 880px;
+	margin: auto;
   }
 
 .services-content header {
@@ -208,6 +209,7 @@ h1, h2, h3, h4, h5 {
 
 .services-content header nav {
 	display: flex;
+	margin-top: 40px;
 	justify-content: space-between;
 	/* border: 1px solid red; */
 }
@@ -254,14 +256,26 @@ h1, h2, h3, h4, h5 {
 }
 
 .services-content .services-description div {
-	border: 1px solid red;
-	display: flex;
-	width: 50%;
-	flex-direction: column;
+	padding: 20px;
+    border: 1px solid black;
+    width: 420px;
+    background: whitesmoke;
+    margin: 20px 0;
 }
 
+
 .services-content .services-description div button {
-	border: 1px solid green;
+	padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.services-content .services-description div button:hover {
+    background: black;
+    color: white;
 }
 
 .services-content .services-facts {
@@ -288,6 +302,7 @@ h1, h2, h3, h4, h5 {
 
 .services-content .services-facts div .list {
 	padding-top: 30px;
+	list-style: square;
 }
 
 .services-content footer {
