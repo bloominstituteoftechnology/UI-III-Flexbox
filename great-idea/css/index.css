@@ -65,19 +65,23 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* Home Page css */
+
 /* Wrapper */
 .wrapper {
 	width: 900px;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
+	align-content: space-between;
+	/* margin: 0 auto; */
 }
 
 /* Navigation Bar CSS */
 .nav-bar  ul{
 	display: flex;
 	justify-content: space-around;
-	/* position: fixed; */
+	position: fixed;
 }
 
 .nav-buttons {
@@ -112,7 +116,6 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	
 }
 
 .div-top {
@@ -142,4 +145,20 @@ section {
 footer {
 	display: flex;
 	justify-content: center;
+}
+
+/* End Home Page CSS */
+
+/* Start Service Page CSS */
+
+/* Top Section */
+.services-header-img {
+	display: flex;
+}
+
+.top-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom: 2px solid black;
 }
