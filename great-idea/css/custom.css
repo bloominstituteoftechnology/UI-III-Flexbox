@@ -67,3 +67,25 @@ footer {
     margin: 7% 0 5% 0;
 }
 
+/* SERVICES specific styles */
+
+
+.services {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-block {
+    width:40%;
+    height:300px;
+    border: solid 1px black;
+    background: #F4F3F4;
+
+}
+
+.learn-more {
+
+}
+
