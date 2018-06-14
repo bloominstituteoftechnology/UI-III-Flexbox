@@ -65,10 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.container {
-	width: 880px;
+	.container {
+		width: 880px;
 	/* TB LR */
-	margin: 0 auto;
+		margin: auto;
   }
   
   /* header */
@@ -78,30 +78,95 @@ h1, h2, h3, h4, h5 {
   }
 
   header nav {
-	width: 691px;
-	margin-top: 35px;
+		width: 691px;
+		margin-top: 35px;
+		display: flex;
+		justify-content: space-between;
   }
   
   header nav a {
-	margin-right: 65px;
-	font-size: 14px;
-	color: gray;
-	text-decoration: none;
+		font-size: 14px;
+		color: gray;
+		text-decoration: none;
   }
   
   header nav a:hover {
-	text-decoration: underline;
-  }
-  
-  header nav a:first-child {
-	margin-left: 0;
-  }
-  
-  header nav a:last-child {
-	margin-right: 0;
+		text-decoration: underline;
   }
   
   header .logo {
-	margin-top: 25px;
-  }
-  
+		margin: 23px 0 0 91px;
+	}
+	
+	.services-header-img {
+		margin-top: 25px;
+	}
+
+	.services {
+		margin-bottom:35px;
+	}
+
+	.services h1 {
+		margin-top: 25px;
+		font-size: 25px;
+	}
+
+	.body-content {
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		padding-top: 35px;
+		padding-bottom:35px;
+		margin-bottom: 35px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.body-content .service-content {
+		padding: 20px;
+		border: 1px solid black;
+		width: 420px;
+		background: rgb(245, 242, 242);
+		margin: 20px 0;
+	}
+
+	.body-content .service-content button {
+		margin-top: 15px;
+		padding: 5px 20px 5px 20px;
+		background: rgb(248, 247, 247);
+		border: 1px solid black;
+	}
+
+	.body-content .service-content button:hover {
+		background: black;
+		color: white;
+		cursor: pointer;
+	}
+
+	.lower-content {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.lower-content .lower-content-text {
+		padding-right: 40px;
+	}
+
+	.lower-content .lower-content-text p {
+		margin-bottom: 20px;
+	}
+
+	.lower-content .lower-content-text ul {
+		list-style-type: disc;
+		list-style-position: inside;
+	}
+
+	.lower-content .lower-content-text ul li {
+		margin-bottom: 10px;
+	}
+
+	footer {
+		margin: 100px 0 0 24px;
+		text-align: center;
+	}
