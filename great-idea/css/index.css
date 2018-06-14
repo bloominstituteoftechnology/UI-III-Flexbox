@@ -72,8 +72,18 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  box-shadow: 0 1px 4px 0 hsla(212, 6%, 46%, .12);
   padding: 0 80px;
+	background: white;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: 100%;
+	z-index: 10;
+	box-shadow: 0 1px 4px 0 hsla(212, 6%, 46%, .12);
 }
 
 header nav {
@@ -126,7 +136,7 @@ span button {
 
 .main-content {
   display: flex;
-  padding-top: 80px;
+  padding-top: 160px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -173,7 +183,7 @@ footer {
 
 .services-header-img {
   width: 100%;
-  padding: 48px 0;
+  padding: 160px 0 48px 0;
 }
 
 .one-column {
