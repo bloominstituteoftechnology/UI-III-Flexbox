@@ -226,4 +226,32 @@ footer {
 .services-content .card button:hover {
 	background: black;
 	color: white;
-  }
+}
+
+.services-content .services-facts {
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 1px solid black;
+	margin: 20px 0;
+	padding-top: 40px;
+}
+
+.services-content .services-facts .services-facts-text {
+	width: 400px;
+	margin: 0 60px 20px 0;
+}
+
+.services-content .services-facts .services-facts-text p {
+	margin-bottom: 20px
+}
+
+.services-content .services-facts .services-facts-text ul li {
+	list-style: square;
+	list-style-position: inside;
+}
+
+.services-content .services-facts img {
+	height: 300px;
+	width: 420px;
+
+}
