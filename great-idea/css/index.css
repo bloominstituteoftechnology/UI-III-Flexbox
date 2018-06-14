@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5 {
 *, *:before, *:after {
 	box-sizing: inherit;
   }
-  
+
 /* Navigation Bar CSS */
 .nav-bar {
 	display: flex;
@@ -209,4 +209,30 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	border-bottom: 2px solid black;
+}
+section {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid green;
+	flex-direction: row;
+}
+
+.content-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 25px;
+	width: 300px;
+	border: 1px solid black;
+}
+
+.top-content {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid blue;
+}
+
+.bottom-services {
+	display: flex;
+	justify-content: flex-start;
 }
