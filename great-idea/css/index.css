@@ -68,7 +68,7 @@ h1{
 }
 
 .head {
- width: 876px;
+ width: 880px;
  position:relative;
  text-decoration: none;
  display: flex;
@@ -195,3 +195,51 @@ padding: 2em 0em 2em 0em;
 	flex-direction: column;
 }
 
+/*-------------------------------------------------------------------------
+---------------------------------------------------------------------------
+CSS for services. */
+
+.intro {
+	max-width: 880px;
+	display: flex;
+}
+
+.servimg {
+	display: flex;
+}
+
+.middle {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 880px;
+	justify-content: space-between;
+	border-bottom: 1px solid;
+	margin:: 10px 10px 40px 0px;
+	border-bottom: solid 1px;
+	border-top: solid 1px;
+
+
+}
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	border: solid 1px;
+	flex-direction: row;
+	width: 50%
+	padding: 10px 10px 0px 10px;
+	background-color: lightgrey;
+	width: 400px;
+}
+
+.final {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	max-width: 880px;
+	margin: 20px 0px 0px 0px;
+}
+
+.butt {
+	text-decoration: none;
+	margin: 10px 10px 10px 10px;
+}
