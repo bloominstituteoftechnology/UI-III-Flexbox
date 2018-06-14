@@ -1,66 +1,228 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+dquote, q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+  font-family: 'Archivo', serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* nav */
+
+.page-container {
+  padding: 0 80px;
+}
+
+header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 80px;
+	background: white;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: 100%;
+	z-index: 10;
+	box-shadow: 0 1px 4px 0 hsla(212, 6%, 46%, .12);
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  height: 92px;
+  flex-wrap: wrap;
+}
+
+header nav a {
+  margin: 10px 60px 0 0;
+  text-decoration: none;
+  color: #444;
+}
+
+header nav a:hover {
+  color: black;
+  transition: 0.2s ease;
+}
+
+.header-img {
+  max-width: 100%;
+}
+
+.main-content-text {
+  font-size: 72px;
+  text-align: center;
+}
+
+button {
+  border: 1px solid #444;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px 40px;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+button:hover {
+  background: black;
+  color: white;
+  transition: 0.2s ease;
+}
+
+/* hack solution for index page */
+
+span button {
+  margin: 0px;
+}
+
+.main-content {
+  display: flex;
+  padding-top: 160px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main-content .inner-content {
+  padding-bottom: 24px;
+}
+
+hr {
+  margin: 48px 0px;
+}
+
+.flex {
+  /* background-color: lightgray; */
+  flex-direction: row;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  padding: 0 30px 0 0;
+  color: #444;
+  line-height: 1.6;
+}
+
+.middle-img {
+  width: 100%;
+  padding: 40px 0px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 64px;
+}
+
+/* services page css */
+
+.services-header-img {
+  width: 100%;
+  padding: 144px 0 48px 0;
+}
+
+.one-column {
+  width: 100%;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.services-row {
+  /* background-color: lightgray; */
+  flex-direction: row;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 48px 0px;
+}
+
+.services-row .margin-right {
+  margin-right: 48px;
+}
+
+.services-columns {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 0px;
+  width: 50%;
+  border: 1px solid #eee;
+}
+
+ul {
+  list-style-type: square;
+  line-height: 40px;
+  margin: 16px;
+}
+
+.services-img {
+  width: 450px;
+  max-width: 100%;
+  max-height: auto;
+}
