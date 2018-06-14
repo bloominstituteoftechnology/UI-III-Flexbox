@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	/* margin:50px, 50px, 40px 50px; */
+	
+	margin-top: 10px;
+	margin-right: 45px;
+	margin-left: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+header{
+	display: flex;
+	justify-content: space-between; 
+	/* border: 1px solid red; */
+}
+
+header nav a{
+	/* display: flex;
+	justify-content: space-evenly; */
+	width: 100px;
+	/* border: 1px solid red; */
+	padding-right: 55px;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+a{
+	color: black;
+}
+.top{
+	margin: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 1000px;
+}
+.top .top-content p{
+	font-size: 75px;
+	text-align: center;
+	font-family: impact;
+}
+.top .top-content .btn-started{
+	border: 1px gray;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.first{
+	display: flex;
+	justify-content: space-between;
+
+}
+.middle{
+	display:flex;
+	/* justify-content: center; */
+}
+
+.second{
+	display:flex;
+	justify-content: space-between;
+}
+.last{
+	display:flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	border: 2px solid red;
+	padding-top: 10px;
+}
+footer{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+}
+/* this part of the code is working on the services page */
+
+	
+
+.container {
+	display: flex;
+	width: 900px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+ .box {
+	
+	background-color: beige;
+	border: 1px solid gray;
+	width: 400px;
+	margin: 10px;
+	
+ }
+
+
+.ending{
+	display:flex;
+	justify-content: space-between;
+	
+	
+} 
+
+li{
+	list-style-type: square;
+	padding-left: 20px;
+}
+.facts{
+	width: 400px;
+}
