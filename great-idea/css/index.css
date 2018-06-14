@@ -89,7 +89,7 @@ header {
 header nav {
   display: flex;
   align-items: center;
-  height: 108px;
+  height: 92px;
   flex-wrap: wrap;
 }
 
@@ -183,7 +183,7 @@ footer {
 
 .services-header-img {
   width: 100%;
-  padding: 160px 0 48px 0;
+  padding: 144px 0 48px 0;
 }
 
 .one-column {
