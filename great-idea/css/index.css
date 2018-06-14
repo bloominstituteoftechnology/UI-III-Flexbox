@@ -79,7 +79,81 @@ nav a{
 }
 
 .logo{
-	width: 225px;
+	width: 210px;
+}
+
+.home-top{
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 70px;
+	width: 1080px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-top h1{
+	margin-left: 130px;
+	font-size: 95px;
+	text-align: center;
+}
+
+.home-top button{
+	margin-left: 225px;
+	font-size: 20px;
+	border: 1px solid black;
+	background-color: white;
+	padding: 8px 45px;
+}
+
+#circle{
+	margin-left: 85px;
+	width: 475px;
+}
+
+.top-main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.top-main div{
+	line-height: 1.2;
+	margin: 0 10px;
+	flex-wrap: wrap;
+	width: 530px;
+	font-size: 19px;
+}
+
+.middle-img{
+	width: 1080px;
+	margin: 50px;
+}
+
+.bottom-main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.bottom-main div{
+	line-height: 1.2;
+	margin: 0 15px 60px 0;
+	flex-wrap: wrap;
+	width: 340px;
+	font-size: 19px;
+}
+
+.contact{
+	margin: auto;
+	margin-bottom: 50px;
+	width: 1080px;
+	font-size: 19px;
+}
+
+.contact p{
+	margin-bottom: 20px;
 }
 
 .services-top{
@@ -170,7 +244,7 @@ div ul{
 }
 
 footer{
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 	margin-bottom: 40px;
 }
