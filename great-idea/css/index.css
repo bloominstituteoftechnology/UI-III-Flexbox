@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -63,4 +63,222 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*start of comment out
+.nav-bar {
+	display: flex;	
+	height: 40px;
+	width:95%;	
+	margin: 10px;
+}
+.nav-bar nav {
+	align-content: center;
+	margin: auto;
+}
+.nav-bar .logo {
+	justify-content: flex-end;
+}
+.nav-bar nav a:hover {
+	color: black;
+}
+header {
+	display: inline-block;
+	align-content: center;
+	border: 1px solid black;
+	width: 100%;
+}
+header .services-header-img {
+	width: 100%;
+}
+header .top {
+	width: 100%;
+}
+header .top p {
+	font-size: 36pt;
+	font-family: 'Bangers', cursive;
+	margin: 0 30px 0 auto;
+	text-align: center;
+	width: 49%;
+	border: 1px solid black;
+
+}
+header .circle-img {
+	align-self: flex-end;
+	width: 49%;
+	border: 1px solid black;
+}
+header h1 {
+	padding: 20px 15px;
+	width: 100%;	
+	text-align: left;
+}
+.top button {
+	align-self: center;
+}
+button {
+	text-align: center;
+}
+header .services-header-img {
+	justify-content: center;
+	width: 100%;
+	padding: 20px 15px;
+}
+.main-content {
+	border-top: solid silver;
+	border-bottom: solid silver;
+	display: flex;
+	flex-flow: wrap;
+	align-items: flex-start;
+	padding: 20px 15px;	
+
+}
+.main-content .content {
+	align-content: center;
+	justify-content: center;
+	flex-flow: wrap;
+	width: 33%;
+	text-align: center;
+}
+.main-content .info {
+	align-content: center;
+	flex-flow: wrap;
+	width: 33%;
+}
+.main-content .middle-image {
+	width: 100%;
+	justify-content: center;
+	padding: 20px 15px;
+}
+.main-content .content .h1 {
+	align-content: center;
+}
+.main-content .content button {
+	align-content: center;
+}
+.bottom-content {
+	display: flex;
+	justify-content: center;
+}
+.bottom-content ul {
+	list-style-type: solid circle;
+}
+.bottom-content div {
+	align-content: center;
+	flex-flow: wrap;
+	width: 50%;
+}
+.bottom-content .contact-box {
+	align-items: flex-start;
+}
+
+
+
+footer {
+	align-items: center;
+	
+	
+}*/
+
+.nav-bar {
+	display: flex;	
+	height: 40px;
+	width:95%;	
+	margin: 10px;
+}
+.nav-bar nav {
+	align-content: center;
+	margin: auto;
+}
+.nav-bar .logo {
+	justify-content: flex-end;
+}
+.nav-bar nav a:hover {
+	color: black;
+}
+header {
+	display: inline-block;
+	width: 100%;
+}
+header .top {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+header .top div {
+	justify-content: center;
+	padding: 20px;
+	width: 50%;
+}
+header .top p {
+	font-size: 36pt;
+	font-family: 'Bangers', cursive;
+	margin: 0 30px 0 auto;
+	text-align: center;
+}
+header .button {
+	text-align: center;
+}
+.main-content {
+	border-top: solid silver;
+	border-bottom: solid silver;
+	display: flex;
+	flex-flow: wrap;
+	align-items: flex-start;
+	padding: 20px 15px;	
+}
+.main-content info {
+	display: flex;
+}
+.main-content .top {
+	justify-content: space-between;
+	width: 50%;
+}
+.middle-img {
+	width: 100%;
+}
+.main-content .bottom {
+	justify-content: flex-start;
+	width: 33%;
+}
+footer {
+	text-align: center;
+}
+
+/*services page */
+header .services-header-img {
+	width: 100%;
+}
+.services-main {
+	display: flex;
+	flex-flow: wrap;
+	align-items: flex-start;
+}
+.services-main .box {
+	align-content: center;
+	justify-content: center;
+	flex-flow: wrap;
+	width: 33%;
+	text-align: center;
+}
+.low {
+	display: flex;
+	flex-flow: wrap;
+	align-items: flex-start;
+}
+.low .facts {
+	align-content: center;
+	justify-content: flex-start;
+	width: 50%;
+}
+ul {
+	list-style-type: circle;
+}
+.low .services-info-img {
+	align-content: center;
+	justify-content: flex-end;
+	width: 50%;
+}
+
