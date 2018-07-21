@@ -63,4 +63,183 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	max-width: 1200px;
+	width: 100%;
+	font-size: 16px;
+	margin: 20px auto;
+	border: 2px solid gray;
+}
+.navbar-with-logo{
+	width:100%;
+	height:auto;
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-end;
+	padding-bottom:20px;
+}
+.nav{
+	padding: 20px;
+	width: 120px;
+	height: 30px;
+	margin:0px;
+}
+.services{
+	margin-left:50px;
+}
+a:visited{
+	color:purple;
+}
+a:hover{
+	color:blue;
+}
+a{
+	color:darkgray;
+	text-decoration:none;
+}
+.logo{
+	width: 20%;
+	height:auto;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+.cta{
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+	text-align:center;
+	width:90%;
+	height:360px;
+	margin: 20px auto;
+	border-bottom: 1px solid gray;
+}
+.cta-text{
+	display:flex;
+	flex-direction:column;
+	width:50%;
+	font-size: 4rem;
+	height:360px;
+	padding:40px;
+	margin-top:20px;
+}
+.getting-started{
+	width:30%;
+	height:30px;
+	display:flex;
+	margin:20px auto;
+	justify-content: center;
+	background-color:white;
+}
+.getting-started:hover{
+	background-color:black;
+	color:white;
+}
+.circle-pic{
+	width:25%;
+}
+.main-content{
+	margin:40px;
+}
+.top-content{
+	display:flex;
+	flex-direction:row;
+
+}
+.text-content{
+	display: flex;
+	flex-direction:column;
+	width:48%;
+	margin:10px 10px 50px 10px;
+	font-size: 1.2rem;
+}
+.middle-img{
+	width:96%;
+	display:flex;
+	justify-content: center;
+	margin:10px;
+}
+.bottom-content{
+	margin:50px auto;
+	display:flex;
+	border-bottom:1px solid black;
+}
+.bottom{
+	width:32%;
+	display:flex;
+}
+.contact{
+	margin:50px;
+}
+.address{
+	margin: 10px 0px 20px 0px;
+}
+footer{
+	text-align:center;
+	height:25px;
+}
+.services-header-img{
+	width:92%;
+	margin:50px;
+}
+.services-wrapper{
+	margin:0px 50px 50px 50px;
+}
+.services-p{
+	margin:10px 10px 25px 10px;
+	padding-bottom:40px;
+	font-size:1.3rem;
+	border-bottom: 1px solid black;
+}
+.services-h{
+	margin:10px;
+	font-size:1.3rem
+}
+.card{
+	height: 200px;
+	width: 500px;
+	background-color:#F3F3F3;
+	border: 1px solid black;
+	margin: 20px auto;
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+}
+.card-container{
+	display:flex;
+	flex-wrap: wrap;
+	padding-bottom:25px;
+	margin: 25px 50px;
+	border-bottom: 2px solid black;
+}
+.services-button{
+	width: 25%;
+	height: 35px;
+	margin:20px 20px 0px 0px;
+	background-color:#FFFFFF;
+	color: black;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+.services-bottom{
+	display:flex;
+	justify-content: space-between;
+	margin:50px;
+
+}
+.services-info-img{
+	width:500px;
+}
+.some-facts{
+	margin:0px;
+	height:auto;
+	background:white;
+	border:none;
+}
+ul{
+	list-style-type: disc;
+	margin:25px;
+	line-height:30px;
+}
+.button-title{
+	color:black;
+}
