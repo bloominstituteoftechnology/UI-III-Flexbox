@@ -1,0 +1,72 @@
+/* banner image at top of main*/
+
+.services-header-img {
+  margin-top: 100px;
+  width: 100%;
+}
+
+/* services area */
+
+#services {
+  margin: 30px auto;
+}
+
+
+/* two by three column */
+
+#twoBythree {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#twoBythree section {
+  border: 1px solid #040624;
+  padding: 10px 20px;
+  width: 48%;
+}
+
+#twoBythree section:nth-child(odd) {
+  margin: 10px 5px 10px 0;
+
+}
+#twoBythree section:nth-child(even) {
+  margin: 10px 0 10px 5px;
+}
+
+#twoBythree section button {
+  padding: 2% 10%;
+}
+
+
+/* footer list and pic */
+
+#listAndPic {
+  display: flex;
+  flex-grow: stretch;
+  justify-content: space-between;
+}
+
+#listAndPic div {
+  width: 48%;
+}
+
+.services-info-img {
+  height: 100%;
+  width: 100%;
+
+}
+#footerList {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+#footerList li {
+  list-style-type: square;
+  margin: 5px 10px;
+}
+
+footer {
+  padding-top: 30px;
+}
