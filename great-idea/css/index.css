@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+main {
+	width: 880px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+/* Nav Bar */
+
+#nav-cust {
+	display: flex;
+	justify-content: space-around;
+	height: 40px;
+	margin: 20px 0 20px 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	margin: 30px;
+}
+
+/* Main header */
+
+#wrapper {
+	display: flex;
+	margin: 0 0 50px 0;
+}
+
+.wrapper-first {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.wrapper-second {
+	display: flex;
+	margin: 0 auto;
+	align-items: flex-end;
+}
+
+button {
+	border: 2px solid black;
+	padding: 8px 50px;
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	font-size: 17px;
+}
+
+/* About */
+
+.box {
+	display: flex;
+}
+
+.little-box {
+	margin: 20px 0 20px 0;
+}
+
+/* Footer */
+
+address {
+	margin: 30px 0 30px 0;
+}
+
+.addr {
+	margin: 0 0 20px 0;
+}
+
+
+#copyright {
+	text-align: center;
+}
