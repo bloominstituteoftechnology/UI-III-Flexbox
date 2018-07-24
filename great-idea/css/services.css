@@ -228,67 +228,78 @@ h1 {
   width: 100%;
   
 }
-.box1 { background:#1abc9c;
+.box1 { background:#e4e7e9;
  
 }
-.box2 { background:#3498db;
+.box2 { background:#e4e7e9;
 }
-.box3 { background:#9b59b6;
+.box3 { background:#e4e7e9;
 }
-.box4 { background:#34495e;
+.box4 { background:#e4e7e9;
 }
-.box5 { background:#f1c40f;
+.box5 { background:#e4e7e9;
 }
-.box6 { background:#e67e22;
+.box6 { background:#e4e7e9;
 }
-.box7 { background:#e74c3c;
+.box7 { background:#e4e7e9;
 }
-.box8 { background:#bdc3c7;}
-.box9 { background:#2ecc71;}
-.box10 { background:#16a085;}
+.more1 { background:white;}
+.more2{ background:white}
+.more3 { background: white;}
+.more4 { background: white;}
+.more5 { background: white;}
+.more6 { background: white;}
+
 
 .container {
 	display:flex;
-	border: 10px solid goldenrod;
+
 	flex-wrap: wrap;
 	justify-content: space-around;
 	flex:1;
 
 
 }
+.more {
+	width: 42%;
+	border-radius: 2px;
+	padding:5px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 1px 0px;
+}
 .box {
-	width: 300px;
-	padding: 26.333px;
+	width: 38.333%;
 	margin: 50px;
+	  box-shadow: 0px 0px 1px 0px;
 	
 }
 
 .box1 {
   justify-content: space-between;
-  box-shadow: 1px 2px 6px 1px;
+  
 
 }
 .box2 {
 justify-content: space-between;
-  box-shadow: 1px 2px 6px 1px;
+
 }
 .box3 {
 	justify-content: space-between;
-	  box-shadow: 1px 2px 6px 1px;
+	
 }
 .box4 {
 		justify-content: space-between;
-	  box-shadow: 1px 2px 6px 1px;
+
 
 }
 .box5 {
 	justify-content: space-between;
-	  box-shadow: 1px 2px 6px 1px;
+
 
 }
 .box6 {
 		justify-content: space-between;
-	  box-shadow: 1px 2px 6px 1px;
+	
 }
 
 .contact a {
