@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -72,6 +70,7 @@ body {
 
 .main {
 	display: flex;
+	flex-direction: column;
 }
 
 
@@ -93,7 +92,8 @@ hr {
 	width: 880px;
 	top: 0;
 	z-index: 1;
-	
+	/*padding-bottom: 10px;*/
+
 
 }
 
@@ -118,102 +118,126 @@ nav {
 	justify-content: flex-end;
 	top: 10px;
 	margin-left: 50px;
-	transform: scale(0.60, 0.60);
+	transform: scale(0.70, 0.70);
 }
 
-/*HEADING SECTION below this line*/
+/*SERVICES SECTION below this line */
 
-h1 {
-	font-size: 56px;
+#services-header-img {
 	display: flex;
-	justify-content: center;
-}
-
-#title {
-	margin-top: 80px;
-	margin-bottom: 30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-#circle {
-	transform: scale(0.90, 0.90);
-	display: flex;
-	margin-left: 120px;	
-}
-
-#button {
-	display: flex;
-	justify-content: center;
-}
-
-button {
-	border: solid 1px gray;
-	border-radius: 0px;
-	color: gray;
-	padding: 2px 32px;	
-}
-
-/*FEATURES and ABOUT SECTIONS below this line*/
-
-
-#first-section {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 40px;
 	margin-top: 40px;
+	align-items: stretch;
+
+}
+
+#services {
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 
-span {
-	font-weight: bold;
-}
 
-/*MIDDLE BLOCK IMAGE*/
+/*INFO BOXES below this line */
 
-#middle-image {
-	display: block;
-	width: 100%;
-}
-
-/*SERVICES PRODUCT VISION below this line*/
-
-#second-section {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-.services, .product {
-	margin-right: 2.5px;
-}
-
-.product, .vision {
-	margin-left: 2.5px;
-}
-
-/*CONTACT and COPYRIGHT below this line */
-
-#address {
+#design, #ux, #marketing, #web, #ios, #android {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: flex-start;
+	border: solid 1px gray;
+	background-color: WhiteSmoke;
+	padding: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+
 }
-h3 {
+
+#block1 {
 	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
+
+#block3 {
+	margin-bottom: 30px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+
+#block2 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+button {
+	margin-top: 15px;
+	padding: 6px 35px;
+	border-radius: 5px;
+	border-color: grey;
+}
+
+/*FUN FACTS below this line */
+
+#fun {
+	display: flex;
+}
+
+#facts-and-list {
+	display: flex;
+	flex-direction: column;
+	padding-top: 15px;
+}
+
+#fun ul {
+	margin-left: 20px;
+	list-style-type: square;
+}
+
+#fun ul li {
+	margin-top: 10px;
+}
+
+.services-info-img {
+	padding: 15px;
+}
+
+/*COPYRIGHT*/
 
 #copyright {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-top: 40px;
 	font-size: 14px;	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
