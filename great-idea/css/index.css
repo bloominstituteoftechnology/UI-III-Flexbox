@@ -66,17 +66,23 @@ h1, h2, h3, h4, h5 {
 
 #main-container {
 	min-width: 100wh;
-	min-height: 100vh;
 	flex-direction: column;
+	flex: 1 1 auto;
 
 }
 
 .header {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	border: 5px solid red;
+	justify-content: space-between;
 	flex-wrap: nowrap;
+	margin-top: 30px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	max-height: 200px;
+	margin-bottom: 100px;
+	align-items: center;
+	
 
 }
 .header .nav1 {
@@ -84,9 +90,9 @@ h1, h2, h3, h4, h5 {
 	text-align: left;
 	color: grey;
 	font-size: 18px;
-	flex-grow: 5;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
+	flex-basis: 70%;
 
 }
 
@@ -94,6 +100,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	text-align: center;
 	text-decoration: none;
+	justify-content: space-evenly;
 	color: grey;
 	align-items: flex-start;
 
@@ -101,72 +108,145 @@ h1, h2, h3, h4, h5 {
 
 .header .logo {
 	display: flex;
-	flex-grow: 1;
+	max-height: 40px;
+	flex-basis: 10%;
+	align-items: flex-end;
+
 }
 
 .tandcimg {
-	display: inline-flex;
+	display: flex;
+	flex-wrap: nowrap;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+	flex-basis: fill;
 	align-items: center;
+	align-content: flex-start;
+	flex: 1 1 auto;
+	padding: 200px;
+	height: auto;
+	
 }
 
-.tandcimg .tagline {
+.tandcimg .tandnav {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
 
-	font-size: 50px;
+.tandcimg .tandnav .tagline {
+
 	text-align: center;
 	
 }
 
-.tandcimg .tagline .taglinep {
-	font-size: 12px;
+.tandcimg .tandnav .tagline .taglinep {
+	font-size: 105px;
 }
 
 .tandcimg .codeImage {
-	display: inline-flex;
+	display: flex;
+	max-height: 425px;
+	max-width: 425px;
 
 }
 
 .tandcimg .nav2 {
-	display: flex;
+	display: inline-flex;
+	flex-direction: row;
 	border: 1px solid black;
     font-size: 25px;
-    text-align: center;
 	text-decoration: none;
 	color: black;
+	max-width: 175px;
+	max-height: 40px;
+	justify-content: center;
+	align-self: center;
+	
 
+}
+
+.tandcimg .nav2 .nav2p {
+	
+	justify-content: center;
+	align-items: center;
 }
 
 .fanda {
 	display: flex;
+	flex-direction: row;
 	border-top: 2px solid black;
-}
-
-.fanda .Features {
-	display: flex;
-	font-size: 20px;
-
-}
-
-.fanda .Features .Featuresp {
-	display: flex;
-	font-size: 18px;
+	justify-content: space-between;
+	align-content: center;
+	margin-bottom: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 100px;
+	height: 200px;
 	
 }
 
-.fanda .About .Aboutp {
-	display: flex;
-	font-size: 18px;
-}
-
-.fanda .About {
+.fanda .fandp .Features {
 	display: flex;
 	font-size: 20px;
+
+}
+
+.fanda .fandp {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	height: 200px;
+	margin-bottom: 30px;
+	width: auto;
+
+}
+
+.fanda .fandp .Featuresp {
+	font-size: 18px;
+	margin-top: 10px;
+	
+}
+
+.fanda .aandp .About {
+	display: flex;
+	font-size: 20px;
+
+}
+
+.fanda .aandp {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	height: 200px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	width: auto;
+}
+
+.fanda .aandp .Aboutp {
+	font-size: 18px;
+	margin-top: 10px;
+	
 }
 
 .middle-img {
 	display: flex;
+	width: auto;
+	margin-top: 50px;
+	height: auto;
 
+}
+
+.threeps .sandp {
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	height: 200px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	width: auto;
 }
 
 .threeps .Services {
@@ -175,10 +255,20 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.threeps .Services .Servicesp {
+.threeps .sandp .Servicesp {
 	display: flex;
 	font-size: 18px;
 	
+}
+
+.threeps .pandp {
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	height: 200px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	width: auto;
 }
 
 .threeps .Product {
@@ -187,9 +277,21 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.threeps .Product .Productp {
+.threeps .pandp .Productp {
 	display: flex;
 	font-size: 18px;
+	
+}
+
+.threeps .vandp {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	padding-top: 20px;
+	height: 200px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	width: auto;
 	
 }
 
@@ -199,7 +301,7 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.threeps .Vision .Visionp {
+.threeps .vandp .Visionp {
 	display: flex;
 	font-size: 18px;
 	
@@ -207,16 +309,36 @@ h1, h2, h3, h4, h5 {
 
 .threeps {
 	display: flex;
+	flex-direction: row;
+	width: auto;
+	height: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-bottom: 210px;
+	border-bottom: 2px solid black;
 	
 }
 
-.footer .copyright {
+.footer {
 	display: flex;
 	text-align: center;
+	flex-direction: row;
+	width: auto;
+	justify-content: center;
+	align-items: flex-start;
+	height: 50px;
+	margin-top: 330px;
+	margin-bottom: 30px;
 }
 
 .contact {
-	display:flex;
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	height: 200px;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	
 }
 .contact .contactHeader {
 	font-size: 20px;
@@ -224,20 +346,23 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.contact .contactHeader .address {
+.contact .address {
 	font-size: 18px;
 	display: flex;
+	padding: 10px;
 
 }
 
-.contact .contactHeader .phoneNumber {
+.contact .phoneNumber {
 	font-size: 18px;
 	display: flex;
+	padding: 10px;
 	
 }
 
-.contact .contactHeader .email {
+.contact .email {
 	font-size: 18px;
 	display: flex;
+	padding: 10px;
 	
 }
