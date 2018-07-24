@@ -47,29 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.main-container {
-	max-width: 880px;
-  	margin: 0 auto;
-	padding: 20px;
-	align-content: center;
-}
+/* Beginning of custom code */
 nav {
     display: flex;
     justify-content: space-between;
@@ -80,49 +58,38 @@ a {
     text-decoration: none;
 }
 a:hover {
-	color: red;
+    color: red;
 }
-button {
-	margin: 0px 130px 0px 130px;
-    padding: 5px 30px;
-
+.main-container {
+	max-width: 880px;
+  	margin: 0 auto;
+	padding: 20px;
+    align-content: center;
 }
-.header-left {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-    width: 50%;
+.product-header-graphic {
+    width: 100%;
 }
-.header {
-	display: flex;
-	flex-direction: row-reverse;
+.logo {
+    margin: -9px;
 }
-
 h1 {
-	font-size: 109px;
-	text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 52px;
+    text-align: center;
+    margin: 20px;
 }
-.info {
-	border-top: 2px solid;
-	border-bottom: 2px solid;
-	margin: 20px 0px 20px 0px;
+.product {
+display: flex;
+margin: 20px 0px 20px 0px;
 }
-.full-section {
-	display: flex;
-	margin: 20px 0px 20px 0px;
+h2 {
+    margin: 0px 0px 20px 0px;
+    font-size: 25px;
 }
-.snippet {
-	display: flex;
-	flex-direction: column;
+.product-desc {
+    display: flex;
+    flex-direction: column;
 }
-.middle-img {
-	width: 840px;
-}
-.contact {
-	margin: 20px 0px 20px 0px;
-}
-footer {
-	margin: 40px 0px 20px 0px;
-	font-size: 15px;
-	text-align: center;
+.product-pic {
+    height: 160px;
 }
