@@ -179,7 +179,7 @@ header {
 }
 nav {
 	display: flex;
-
+   
 	background-color: #333;
 	overflow: hidden;
 	font-size: 15px;
@@ -229,37 +229,27 @@ h1 {
 	align-items: center;
 	align-content: center;
 	flex: 1;
-	z-index: -20;
+
 }
 
 .top-img {
 	padding: px 0 35px 0;
-	
-	z-index: -1;
+
 }
 
-a {
-	text-decoration: none;
-}
 
-.button {
-	border: 1px solid black;
-	color: black;
-	background-color: white;
-	font-family: 'Montserrat', sans-serif;
-	vertical-align: top;
-	font-size: 17px;
-	text-align: center;
-	cursor: pointer;
-	border: 1px solid black;
-	margin-top: 6px;
-	padding: 8px 69px;
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
 }
-
-.button a:hover {
-	background-color: orangered;
-}
-
+.default {background-color: #e7e7e7; color: black;
+border:1px solid black;} /* Gray */ 
+.default:hover {background: #ddd;
+cursor: pointer;}
+ 
 .features,
 .about {
 	margin-bottom: 35px;
@@ -302,15 +292,18 @@ a {
 footer {
 	display:flex;
 	flex-direction: column;
-	align-items: center;
+	
 }
 
 footer p {
-	justify-content: center;
+	align-self: center;
 	font-size: 14px;
 	line-height: 1.2px;
 }
 
 footer h3::before {
 	content: '\00A9 ';
+}
+footer h3 {
+	align-self: center;
 }
