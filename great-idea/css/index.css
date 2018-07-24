@@ -1,21 +1,89 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,44 +91,215 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* * {
+	border: 1px solid black !important;
+} */
+
+.nav-text {
+	display: flex;
+	width: 100%;
+	color: black;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav-item {
+	margin: 0 0 0 3%;
+	padding: 0 0 0 0.5%;
+	color: black;
+}
+
+.slogan-snippet {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.slogan-text {
+	width: 100%;
+	max-width: 10%;
+	font-size: 48px;
+}
+
+.snippet-img {
+	max-width: 79%;
+	max-height: 79%;
+	opacity: 0.8;
+}
+
+.logo {
+	max-width: 13%;
+	max-height: 13%;
+	padding: 0 0 0 3%;
+	top: 20%;
+}
+
+.CTAbutton {}
+
+.button-class {
+	background: transparent;
+	border: 1px solid black;
+}
+
+
+.feature-about-div {
+	display: flex ;
+	justify-content: center ;
+}
+
+.features-text {
+	width: 100%;
+	max-width: 22%;
+	font-size: 15px;
+}
+
+.about-text {
+	width: 100%;
+	max-width: 22%;
+	font-size: 15px;
+}
+
+.middle-img-div {
+	display: flex ;
+	justify-content: center ;
+
+}
+
+.middle-img {
+	
+	width: 50%;
+	max-width: 76%;
+	padding: 0 0 0 0%;
+	opacity: 0.8;
+}
+
+
+.SPV-div {
+
+	display: flex ;
+	flex-direction: row ;
+	justify-content:  center ;
+}
+.services-text {
+	padding: 9px 8px 10px 10px;
+	width: 100%;
+	max-width: 15%;
+	font-size: 15px;
+}
+
+.product-text {
+	padding: 9px 8px 8px 10px;
+	width: 100%;
+	max-width: 15%;
+	font-size: 15px;
+
+}
+
+.vision-text {
+	padding: 9px 8px 10px 10px;
+	width: 100%;
+	max-width: 15%;
+	font-size: 15px;
+
+}
+
+
+.contact-text {
+	padding: 10px 0 0 0;
+	display: inline-block;
+	vertical-align: bottom;
+	width: 10%;
+	margin: 0 0 0 25%;
+}
+
+.line-break {
+	border: 1px solid black;
+	/* border-right-width: 50%; */
+	width: 50%;
+	/* max-width: 90%; */
+	display: inline-block;
+	margin-left: 25%;
+}
+
+.copyright-text {
+	text-align: center;
+}
+
+.imgClass {
+	display: inline-block;
+	width: 100%;
+	max-width: 50%;
+	margin: 0 0 0 0;
+}
+
+h3 {
+	font-size: 18px;
+}
