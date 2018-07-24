@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+    width: 880px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 880px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    position: fixed;
+    height: 40px;
+    z-index: 10;
+}
+
+
+li {
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-area {
+    position: relative;
+    top: 40px;
+    display: flex;
+}
+
+#hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 52px;
+    width: 450px;
+    height: 200px;
+    text-align: center;
+}
+
+.hero-button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-img {
+    width: 380px;
+    height: 380px;
+}
+
+#mid-info {
+    margin-top: 80px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+#features, #about{
+    width: 48%;
+}
+
+#low-info {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#services, #product, #vision {
+    width: 30%;
+}
+
+#contact {
+    padding: 10px;
+}
+
+footer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
