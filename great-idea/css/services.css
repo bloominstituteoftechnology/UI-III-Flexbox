@@ -271,7 +271,7 @@ h1 {
 .box {
 	width: 38.333%;
 	margin: 50px;
-	  box-shadow: 0px 0px 1px 0px;
+	box-shadow: 0px 0px 1px 0px;
 	
 }
 
@@ -302,23 +302,30 @@ justify-content: space-between;
 		justify-content: space-between;
 	
 }
-.fact {
 
+.fact1{
+	
+	justify-content: space-between;
+}
+ ul li {
+	margin:20px;
+	list-style-type: disc;
+}
+.fact3 img {
+	align-content: center;
+}
+
+.bottom {
+	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-}
-.services-info-img {
-	justify-content: space-between;
+	flex:1;
+
 
 }
-.fact p{
-	align-self: flex-start;
-	width: 500px;
-	padding: 10px
-}
-ul li {
-	justify-content: space-between;
-		list-style-type: disc;
+.fact {
+	width: 46.333%;
+	margin: 6px;
+	
 }
 
 .contact a {
@@ -342,7 +349,7 @@ footer {
 }
 
 footer p {
-	justify-content: center;
+
 	font-size: 14px;
 	line-height: 1.2px;
 }
