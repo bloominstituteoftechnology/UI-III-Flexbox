@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body { 
+	width: 880px;
+	margin: auto;
+	background-image: url("img/mid-page-accent.jpg"), url("img/header-img.png");
+
+}
+
+nav {
+	width: 880px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	word-spacing: 60px;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	width: 880px;
+	height: 400px;
+	font-size: 56px;
+	padding: 40px;
+}
+
+header p {
+	border: 1px solid black;
+	font-size: 14px;
+	text-align: center;
+	padding: 5px 0px;
+	width: 125px;
+	height: 25px;
+	position: relative;
+	top: 110px;
+	left: 95px;
+}
+
+h1 {
+	
+	width: 225px;
+	height: 150px;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	left: 50px;
+}
+
+.topimg {
+	position: relative;
+	left: 400px;
+	bottom: 150px;
+	height: 350px;
+	
+}
+
+.top {
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	width: 880px;
+	padding: 40px 0;
+	margin-top: 80px;
+}
+
+.top_sections {
+	width: 49%;
+}
+
+.middle-img {
+	border-radius: 15px;
+}
+
+.bottom {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	width: 880px;
+	padding: 40px 0;
+	
+}
+
+.bottom_sections {
+	width: 32%;
+}
+
+contact {
+	position: relative;
+	width: 200px;
+	top: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+footer {
+	width: 880px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
