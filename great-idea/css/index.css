@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	display: flex;
+
 }
 
 html, body {
@@ -63,4 +64,180 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+#main-container {
+	min-width: 100wh;
+	min-height: 100vh;
+	flex-direction: column;
+
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border: 5px solid red;
+	flex-wrap: nowrap;
+
+}
+.header .nav1 {
+	display: flex;
+	text-align: left;
+	color: grey;
+	font-size: 18px;
+	flex-grow: 5;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.header .nav1 a {
+	display: flex;
+	text-align: center;
+	text-decoration: none;
+	color: grey;
+	align-items: flex-start;
+
+}
+
+.header .logo {
+	display: flex;
+	flex-grow: 1;
+}
+
+.tandcimg {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.tandcimg .tagline {
+
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+.tandcimg .tagline .taglinep {
+	font-size: 12px;
+}
+
+.tandcimg .codeImage {
+	display: inline-flex;
+
+}
+
+.tandcimg .nav2 {
+	display: flex;
+	border: 1px solid black;
+    font-size: 25px;
+    text-align: center;
+	text-decoration: none;
+	color: black;
+
+}
+
+.fanda {
+	display: flex;
+	border-top: 2px solid black;
+}
+
+.fanda .Features {
+	display: flex;
+	font-size: 20px;
+
+}
+
+.fanda .Features .Featuresp {
+	display: flex;
+	font-size: 18px;
+	
+}
+
+.fanda .About .Aboutp {
+	display: flex;
+	font-size: 18px;
+}
+
+.fanda .About {
+	display: flex;
+	font-size: 20px;
+}
+
+.middle-img {
+	display: flex;
+
+}
+
+.threeps .Services {
+	display: flex;
+	font-size: 20px;
+	
+}
+
+.threeps .Services .Servicesp {
+	display: flex;
+	font-size: 18px;
+	
+}
+
+.threeps .Product {
+	display: flex;
+	font-size: 20px;
+	
+}
+
+.threeps .Product .Productp {
+	display: flex;
+	font-size: 18px;
+	
+}
+
+.threeps .Vision {
+	display: flex;
+	font-size: 20px;
+	
+}
+
+.threeps .Vision .Visionp {
+	display: flex;
+	font-size: 18px;
+	
+}
+
+.threeps {
+	display: flex;
+	
+}
+
+.footer .copyright {
+	display: flex;
+	text-align: center;
+}
+
+.contact {
+	display:flex;
+}
+.contact .contactHeader {
+	font-size: 20px;
+	display: flex;
+	
+}
+
+.contact .contactHeader .address {
+	font-size: 18px;
+	display: flex;
+
+}
+
+.contact .contactHeader .phoneNumber {
+	font-size: 18px;
+	display: flex;
+	
+}
+
+.contact .contactHeader .email {
+	font-size: 18px;
+	display: flex;
+	
+}
