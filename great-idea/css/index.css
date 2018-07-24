@@ -63,4 +63,236 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*elements-------------------------------------------------------------*/
+
+body {
+	position: absolute; 
+	width: 100%; 
+  }
+	
+a {
+	text-decoration: none; 
+	}
+	
+h1 {
+	font-size: 80px; 
+	}
+		
+h3 {
+  width: 30%; 
+  margin: auto; 
+	text-align: center; 
+	}
+		
+h4 {
+	font-weight: bold; 
+	}
+		
+h6 {
+	text-align: center;
+	font-weight: bold;  
+	padding-bottom: 30px; 
+	}
+		
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+hr {
+	width: 80%; 
+	text-align: center;  
+  }
+	
+	/*Nav Bar------------------------------------------------------------------------*/
+
+.fixed {
+	position: fixed; 
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+	width: 100%; 
+	background-color: rgba(6, 143, 177, 0.2); 
+ }
+
+  nav {
+  	display: flex; 
+	  flex-wrap: wrap; 
+	  justify-content: center; 
+	  width: 73%; 
+	  text-align: center; 
+	  padding-top: 35px;  
+  }
+  
+  nav a {  
+	  color: grey; 
+	  text-decoration: none; 
+	  margin-left: 9%;  
+	  font-size: 14px; 
+  }
+  
+  nav a:hover {
+  	color: black; 
+	  font-weight: bold; 
+	  font-size: 16px; 
+	  transition: 0.7s; 
+  }
+  
+  
+  .navLogo {
+  	display: flex; 
+  	margin-left: 10px; 
+  	flex-wrap: wrap; 
+  	width: 24%; 
+  	padding: 25px 0px 30px 0px; 
+  }
+  
+  .button1{
+	  width: 180px; 
+  	border: 1px solid green; 
+  	margin-top: 20px; 
+  	padding: 9px; 
+  }
+  
+  .button1:hover{
+	  background-color:rgba(6, 143, 177, 0.2); 
+	  color: black; 
+	  font-weight: bold; 
+  }
+	
+	/* Header and Banner------------------------------------------------------------------*/
+	
+	.banner {
+	  display: flex; 
+  	flex-wrap: wrap; 
+  	flex-direction: column; 
+  	width: 49%; 
+  	text-align: center; 
+  	padding-top: 50px; 
+  	padding-left: 100px; 
+  }
+
+  .bannerImage{
+	  display: flex;  
+	  width: 49%; 
+  }
+  
+  header {
+	  padding-bottom: 70px; 
+	  padding-top: 130px; 
+  	display: flex;
+  	flex-wrap: wrap;
+	  justify-content: center;  
+   }
+  
+  
+	/* first row of section --------------------------------------------------*/
+
+	.container {
+		width: 82%; 
+		margin: 15px auto 15px auto;  
+		display: flex;
+		flex-wrap: wrap; 
+		justify-content: center; 
+	 }
+	
+  .features{
+  	display: flex; 
+  	flex-wrap: wrap;   
+  	width: 50%; 
+  	padding: 20px; 
+  }
+  
+  .about{
+	  display: flex; 
+	  flex-wrap: wrap; 
+  	padding: 20px; 
+  	width: 50%; 
+  }
+  
+  /*Middle Image In Container----------------------------------------------*/
+  
+  .middle-img{
+	  display: flex; 
+	  justify-content: center;  
+	  width: 80%; 
+	  margin: 20px auto 25px auto;  
+   }
+  
+	/*Second Row Of Section (Three Columns)---------------------------------------*/
+	
+  .services {
+  	width: 33%; 
+  	padding: 12px;
+   }
+  
+  .product {
+	  width: 33%; 
+	  padding: 12px;
+  }
+  
+  .vision {
+	  width: 33%; 
+	  padding: 12px; 
+	  margin-bottom: 20px; 
+   }
+	
+	 /*Address-----------------------------------------------------*/
+	
+	.address {
+	  width: 80%;  
+    padding-bottom: 50px; 
+	  padding-top: 20px; 
+	}
+	
+	address {
+	  padding: 10px; 
+	  display: flex; 
+	  flex-direction: column; 
+    margin: auto;  
+	  width: 76%; 
+	  flex-wrap: wrap;
+	}
+  
+  
+  
+  
+  
+  
+  /* page 2 ------------------------------------------------------------------------------*/
+  
+  #page2{ 
+	width: 100%; 
+	display: inline-block; 
+	vertical-align: top; 
+	margin: auto;  
+  }
+  
+  .pageLogo{
+	margin-top: 300px; 
+	width: 100%; 
+	text-align: center; 
+	display: inline-block; 
+	vertical-align: middle; 
+	animation-name: logoAnimate; 
+	animation-duration: 10s;
+  }
+  
+  
+  @keyframes logoAnimate {
+	 0%{
+	   transform: translate(-1000px, 0px); 
+	   opacity: 1; 
+	 }
+	 50%{
+	  transform: translate(0px, 0px); 
+	 }
+	 53%{
+	  transform: rotate(5040deg); 
+	 }
+	 98%{
+	   opacity: 1; 
+	 }
+	 100%{
+	  opacity: 0; 
+	 }
+  };
