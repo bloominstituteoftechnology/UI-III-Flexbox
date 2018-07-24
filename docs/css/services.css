@@ -1,0 +1,116 @@
+.flex {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+body {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.2;
+}
+
+header {
+    justify-content: space-between;
+    padding: 15px 0;
+    max-width: 880px;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    transition: .1s;
+}
+
+nav a:hover {
+    color: rgb(17, 17, 17);
+    text-decoration: underline;
+}
+
+header img {
+    /* border: 1px solid blue; */
+    padding-left: 80px;
+}
+
+.top-image {
+    margin-bottom: 30px;
+}
+
+.services {
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+    margin-bottom: 35px;
+}
+
+.row1, .row2, .row3 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.btn {
+    border: 1px solid black;
+    font-size: .8rem;
+    border-radius: 5px;
+    padding: 8px 40px;
+	color: rgb(20, 20, 20);
+    text-decoration: none;
+    background: rgb(250, 250, 250);
+    transition: .15s;
+}
+
+.btn:hover {
+	background: rgb(46, 46, 46);
+    color: white;
+}
+
+.digital-design, .ux-ui, .digital-marketing, .web-dev, .ios-dev, .android-dev {
+    border: 1px solid black;
+    border-radius: 2px;
+    background: rgb(241, 241, 243);
+    padding: 20px 25px;
+    height: 250px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bottom {
+    justify-content: space-between;
+    border-top: 2px solid black;
+    padding-top: 40px;
+}
+
+.bottom-text, .bottom-img {
+    max-width: 48%;
+}
+
+.bottom-text {
+    padding-right: 10px;
+}
+
+.bottom-text ul {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 31px;
+}
+
+.bottom-text ul li {
+    padding: 6px 0;
+}
+
+footer {
+    text-align: center;
+    margin: 70px 0 20 0;
+    font-size: .9rem;
+}
