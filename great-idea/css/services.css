@@ -266,6 +266,7 @@ h1 {
 	padding:5px;
 	border: 1px solid black;
 	box-shadow: 0px 0px 1px 0px;
+	cursor: pointer;
 }
 .box {
 	width: 38.333%;
@@ -300,6 +301,24 @@ justify-content: space-between;
 .box6 {
 		justify-content: space-between;
 	
+}
+.fact {
+
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.services-info-img {
+	justify-content: space-between;
+
+}
+.fact p{
+	align-self: flex-start;
+	width: 500px;
+	padding: 10px
+}
+ul li {
+	justify-content: space-between;
+		list-style-type: disc;
 }
 
 .contact a {
