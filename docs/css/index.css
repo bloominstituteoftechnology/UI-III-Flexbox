@@ -29,8 +29,9 @@ header {
 
 nav {
     justify-content: space-between;
-    align-items: center;
+	align-items: center;
 	flex: 1;
+	margin-right: 80px;
 }
 
 nav a {
@@ -46,7 +47,12 @@ nav a:hover {
 
 header img {
     /* border: 1px solid blue; */
-    padding-left: 80px;
+	/* padding-left: 80px; */
+	/* align-self: flex-end; */
+}
+
+header img:hover {
+	box-shadow: 8px 8px 10px black;
 }
 
 h1 {
@@ -93,6 +99,7 @@ a {
 
 .features, .about {
 	margin-bottom: 35px;
+	max-height: 150px;
 	/* border: 1px solid blue; */
 }
 

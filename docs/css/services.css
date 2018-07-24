@@ -22,6 +22,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex: 1;
+    margin-right: 80px;
 }
 
 nav a {
@@ -37,7 +38,11 @@ nav a:hover {
 
 header img {
     /* border: 1px solid blue; */
-    padding-left: 80px;
+    /* padding-left: 80px; */
+}
+
+header img:hover {
+	box-shadow: 8px 8px 10px black;
 }
 
 .top-image {
@@ -48,6 +53,7 @@ header img {
     border-bottom: 1px solid black;
     padding-bottom: 40px;
     margin-bottom: 35px;
+    max-height: 250px;
 }
 
 .row1, .row2, .row3 {
@@ -97,6 +103,7 @@ header img {
 
 .bottom-text {
     padding-right: 10px;
+    height: 250px;
 }
 
 .bottom-text ul {
