@@ -144,7 +144,7 @@ table {
 html,
 body {
 	height: 100%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1,
@@ -157,74 +157,94 @@ h5 {
 	margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
-body {
-	margin: 0;
-}
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .main {
 	display: flex;
-	align-items: center;
+}
+
+body {
 	max-width: 880px;
 	margin: 0 auto;
-	background: grey;
-	flex-direction: column;
 }
 
-.header {
-	display: flex;
+p {
+	line-height: 1;
+}
+
+header {
 	justify-content: space-between;
+	padding: 15px 0;
+	max-width: 880px;
+	margin-bottom: 20px;
+	border: 10px solid red;
 }
 
-.nav {
-	display: flex;
-	list-style-type: none;
-	padding: 5px;
+nav {
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+	background-color: orangered;
+	flex: 1;
+	margin-right: 80px;
+	top: 0;
+	overflow: hidden;
+	font-size: 15px;
+	line-height: 35px;
+	z-index: 0;
 }
 
-.nav ul {
-	display: flex;
-	list-style-type: none;
-	background-color: #333;
-}
-
-.nav li {
-	padding: 5px;
-}
-
-.header .nav a {
-	align-content: flex-end;
-	color: #f2f2f2;
+nav a {
+	color: #333;
 	text-align: center;
 	text-decoration: none;
+	margin: 0 55px 0 10px;
 	padding: 10px 5px 10px 5px;
 }
 
-.header .nav a:hover {
-	display: flex;
-	background: #ddd;
-	color: black;
-	padding: 5px;
+nav a:hover {
+	background-color: orange;
+	color: white;
+	padding: 10px 5px 10px 5px;
 }
 
-.header .logo {
-	display: inline-block;
-	position: fixed;
+.logo {
 	right: 300px;
 }
 
-.header .igs-text {
-	display: inline-block;
-	vertical-align: right;
-	font-size: 69px;
-	margin-top: 120px;
+h1 {
+	font-size: 80px;
 	text-align: center;
-	padding: 2px 35px;
 }
 
-button {
-	display: inline-block;
+.top {
+	border-bottom: 1px solid black;
+	padding-bottom: 60px;
+	margin-bottom: 35px;
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-text {
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	flex: 1;
+	z-index: -20;
+}
+
+.top-img {
+	z-index: -1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn {
+	border: 1px solid black;
+	color: black;
 	background-color: white;
 	font-family: 'Montserrat', sans-serif;
 	vertical-align: top;
@@ -236,63 +256,38 @@ button {
 	padding: 8px 69px;
 }
 
-button:hover {
+.btn:hover {
 	background-color: orangered;
 }
 
-header .header-img {
-	display: inline-block;
-	position: absolute;
-	background: url(../img/header-img.png) no-repeat;
-	width: 100%;
-	height: 100%;
-	padding: 100%;
-	margin-top: 80px;
-	margin-left: 150px;
-	z-index: -1;
+.features,
+.about {
+	margin-bottom: 35px;
+	max-height: 150px;
 }
 
-hr {
-	width: 900px;
+.fk {
+	display: flex;
+	justify-content: space-between;
 }
 
-.top-content {
-	width: 110%;
-	padding: 5px;
+.services,
+.products,
+.vision {
+	width: 32.8%;
+	margin: 35px 0;
 }
 
-.top-content .inner-content {
-	display: inline-block;
-	width: 45%;
-	padding: 5px;
-	margin-left: 0px;
-	margin-bottom: 25px;
-	margin-top: 20px;
-}
-
-.lower-content {
-	width: 130%;
-	padding: 5px;
-}
-
-.lower-content .inner-content {
-	display: inline-block;
-	width: 25%;
-	margin-left: 1px;
-	margin-bottom: 25px;
-	margin-top: 20px;
+.spv {
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
 }
 
 .contact {
-	margin: 60px 20px;
-}
-
-.contact h2 {
-	font-size: 20px;
-}
-
-.contact address {
-	margin-top: 2px;
+	border-top: 1px solid black;
+	padding-top: 35px;
+	margin-bottom: 35px;
 }
 
 .contact a {
@@ -310,19 +305,14 @@ hr {
 }
 
 footer {
-	text-align: center;
+	padding-bottom: 100px;
 }
 
-.middle-img {
-	display: inline-block;
-	width: 100%;
-	margin-left: 5px;
+footer p {
+	text-align: center;
+	font-size: 14px;
 }
 
 footer h3::before {
 	content: '\00A9 ';
-}
-
-div p {
-	font-family: 'Montserrat', sans-serif;
 }
