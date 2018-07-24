@@ -160,45 +160,61 @@ h5 {
 /* Your code starts here! */
 
 body {
-	margin: 0 auto;
+	margin: 0;
 }
 
 .main {
 	display: flex;
 	align-items: center;
+	max-width: 880px;
+	margin: 0 auto;
+	background: grey;
+	flex-direction: column;
 }
 
-header {
+.header {
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
 }
 
-header nav {
-	position: fixed;
-	align-self: center;
+.nav {
+	display: flex;
+	list-style-type: none;
+	padding: 5px;
 }
 
-header nav a {
-	float: left;
+.nav ul {
+	display: flex;
+	list-style-type: none;
+	background-color: #333;
+}
+
+.nav li {
+	padding: 5px;
+}
+
+.header .nav a {
+	align-content: flex-end;
 	color: #f2f2f2;
 	text-align: center;
 	text-decoration: none;
 	padding: 10px 5px 10px 5px;
 }
 
-header nav a:hover {
+.header .nav a:hover {
+	display: flex;
 	background: #ddd;
 	color: black;
-	padding: 10px 5px 10px 5px;
+	padding: 5px;
 }
 
-header .logo {
+.header .logo {
 	display: inline-block;
 	position: fixed;
 	right: 300px;
 }
 
-header .igs-text {
+.header .igs-text {
 	display: inline-block;
 	vertical-align: right;
 	font-size: 69px;
