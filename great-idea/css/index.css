@@ -1,56 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
 
 html, body {
     height: 100%;
@@ -63,4 +13,171 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+main{
+	max-width:880px;
+	margin: 0 auto;
+}
+nav{
+	display:inline-flex;
+	justify-content:space-around;
+	width:640px;
+	padding:10px 0px;
+}
+.logo{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	width:140px;
+	float:right;
+	margin: 0px 15px 0px 0px;
+	padding:10px 0px;
+}
+
+nav a {
+	text-decoration:none;
+	text-align:center;
+	color:grey;
+	width:70px;
+	margin:10px 20px;
+
+	
+}
+#main-title{
+	font-size:64px;
+	text-align:center;
+}
+#services-h1{
+	font-size:38px;
+}
+#gs{
+	text-align:center;
+	width:100%;
+	font-size:14px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+#circlepic{
+	width:400px;
+}
+#innova{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-around;
+	width:400px;
+}
+#main-title-section {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin: 30px auto;
+}
+h3{
+	width:150px;
+	height:35px;
+	border:1px solid black;
+	text-align:center;
+	padding: 10px 0px;
+	font-family:verdana, monospace;
+	
+}
+#firstrow{
+	display:flex;
+	justify-content:space-between;
+	margin:25px auto;
+	flex-wrap:wrap;
+}	
+#features, #about{
+	width:400px;
+}
+#secondrow{
+	display:flex;
+	justify-content:space-between;
+	margin:25px auto;
+	flex-wrap:wrap;
+}
+#services, #product, #vision{
+	width:280px;
+}
+
+h2{
+	font-size:24px;
+}
+.links{
+
+	width:200px;
+}
+
+address{
+	margin:30px 0px;
+}
+h5{
+	margin:70px auto;
+	text-align:center;
+	font-family:verdana;
+	font-size:10px;
+}
+
+/*this following code pertains to the services page*/
+.services-header-img{
+	padding:20px 0px;
+}
+
+#lm{
+	border:1px solid black;
+	width:150px;
+	height:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+.subcat{
+	width:380px;
+	height:260px;
+	border:1px solid black;
+	padding:0 20px 20px 20px;
+	
+
+}
+#row1{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+	margin:30px 0px 5px 0px;
+}
+#row2{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+	margin:30px 0px 5px 0px;
+}
+#row3{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+	margin:30px 0px 30px 0px;
+}
+
+#foot{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	margin:30px 0px 100px 0px;
+	
+}
+#factdiv{
+	width:380px;
+	
+}
+ul{
+	display:flex;
+	flex-direction:column;
+	padding:20px;
+}
