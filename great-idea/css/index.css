@@ -64,3 +64,244 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+#navagator {
+
+}
+
+#ul_nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+li {
+	padding: 20px;
+	font-color: grey;
+}
+
+/*#ul_child {
+	display: inline-flex;
+	order: 1;
+}
+
+#logo_img_child {
+	order: 2;*/
+}
+
+#headline_container_parent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+#headline_child {
+	font-size: 70px;
+	padding: 1px 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	width: 40%;
+	text-align: center;
+	display: inline-flex;
+	position: relative;
+	top: -150px;
+   	left: 20px;
+   	bottom: 50px;
+}
+
+#header_img_child {
+	height: auto;
+	display: inline-flex;
+	margin-bottom: 50px;
+	top: 79px;
+   	left: 20px;
+}
+
+/*Should be flex-edge of headline plus logo (Bottom RH corner of top stuff) */
+
+#get_started_button {
+	display: inline-flex;
+	align-self: flex-end;
+	border: 1px solid black;
+   	margin-left: 40px;
+}
+
+/*foo */
+
+#t2tb {
+	/* top two text boxes parent */
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	padding-bottom: 10px
+}
+
+#top_right_text {
+	/*child */
+	width: 50%;
+
+}
+#top_left_text {
+	/*child */
+	width: 50%;
+}
+
+
+#middle_image {
+	display: flex;
+	margin: 1em;
+	width: 90%;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+    position: relative;
+
+}
+
+#b3tb {
+/*parent */
+	display: flex;
+	flex-direction: row;
+}
+
+#bottom_text_left {
+	width: 33%;
+}
+
+#bottom_text_centre {
+	width: 33%;
+}
+
+#bottom_text_right {
+	width: 33%;
+}
+
+#copyright {
+	display: flex;
+	margin: auto;
+    justify-content: center;
+	align-items: center;
+    position: relative;
+
+}
+
+address {
+	display: flex;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+
+/*
+#top_two_text_boxes {
+	flex-direction: row;
+	display: inline-flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+}
+
+
+#header_stuff {
+	display: flex;
+
+}
+
+#headline_div {
+	font-size: 70px;
+	padding: 1px 20px;
+	margin-right: 20px;
+	margin-bottom: 150px;
+	width: 40%;
+	text-align: center;
+	display: inline-flex;
+	position: relative;
+	top: -44px;
+   	left: 20px;
+   	bottom: 50px;
+
+}
+
+#header_img_container {	
+	height: auto;
+	width: 30%;
+	display: inline-flex;
+	margin-top: -28px;
+	margin-bottom: 50px;
+	position: relative;
+	top: 79px;
+   	left: 20px;
+}
+
+
+#button {
+	border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 40px; 
+    text-decoration: none;
+	display: inline-flex;
+    font-size: 16px;
+}
+
+
+
+#bottom_three_text_boxes {
+	flex-direction: row;
+	display: inline-flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+}
+
+
+#top_left_text {
+	width: 49%;
+	display: inline-flex;
+}
+
+#top_right_text {
+	width: 49%;
+	display: inline-flex;
+}
+
+#middle_img_container {
+	padding: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#middle_img {
+	width: 95%;
+	height:	auto;
+}
+
+#bottom_left_text {
+	display: inline-block;
+
+}
+
+#bottom_center_text {
+
+	display: inline-flex;
+}
+
+#bottom_right_text {
+
+	display: inline-flex;
+}
+
+#copyright {
+	margin: auto;
+    width: 50%;
+}
+
+address {
+	margin-top: 10px;*/
+}
