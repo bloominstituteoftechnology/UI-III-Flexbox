@@ -64,3 +64,161 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* default */
+body {
+	padding-top: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 880px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/* nav */
+.navbar {
+	background-color: dodgerblue;
+	padding: 10px 0px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.navbar nav {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 36px;
+}
+
+.navbar nav a {
+	color: lightgrey;
+	margin-right: 50px;
+	vertical-align: top;
+	font-family: 'Coda Caption', sans-serif;
+	font-weight: bold;
+}
+
+.navbar nav a:hover {
+    animation: nav-hover 0.25s forwards;
+}
+
+.navbar img {
+	position: absolute;
+	right: 0px;
+}
+
+/* header */
+header {
+	padding: 60px 0px;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+header section {
+	display: inline-block;
+	width: 490px;
+	vertical-align: top;
+	padding-top: 70px;
+	text-align: center;
+	position: relative;
+	left: 0;
+}
+
+header section h1 {
+	font-size: 72px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+header section a {
+	color: darkslategrey;
+	border: 1px solid darkslategrey;
+	padding: 2px 35px;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+	animation: button-out 0.5s forwards;
+}
+
+header section a:hover {
+	animation: button-hover 0.5s forwards;
+}
+
+header img {
+	display: inline-block;
+	position: relative;
+	right: 0;
+}
+
+/* main */
+main {
+	margin: 40px 0px;
+	position: relative;
+}
+
+main section.col-2 {
+	display: inline-block;
+	width: 435px;
+}
+
+main section.col-3 {
+	display: inline-block;
+	width: 290px;
+}
+
+main section.left {
+	position: relative;
+	left: 0;
+}
+
+main section.right {
+	position: relative;
+	right: 0;
+}
+
+main img {
+	margin: 30px 0px;
+}
+
+/* footer */
+footer {
+	padding: 40px 0px;
+	border-top: 1px solid black;
+}
+
+footer p {
+	margin: 50px 0px;
+	text-align: center;
+}
+
+/* animations */
+@keyframes nav-hover {
+    to {
+		color: darkgrey;
+	}
+}
+
+@keyframes button-hover {
+	from {
+		font-size: 1.0em;
+	}
+	to {
+		font-size: 1.3em;
+	}
+}
+
+@keyframes button-out {
+	from {
+		font-size: 1.3em;
+	}
+	to {
+		font-size: 1.0em;
+	}
+}
+
