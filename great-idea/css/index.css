@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	background-color: 	#bebebe;
+}
+
+#container {
+	padding: 0 39px 100px;
+	width: 960px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	padding: 20px;
+	align-items: center;
+	background-color: #3fe9a5;
+	width: 960px;
+	height: 55px;
+	position: fixed;
+	left: 128px;
+	margin-bottom: 60px;
+
+}
+
+header nav {
+	padding-left: 30px;
+}
+
+
+
+header nav a {
+	padding-right: 50px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: lighter;
+	color: #000;
+	display: inline-block;
+	transition: transform 0.2s linear;
+}
+
+header nav a:hover {
+	font-weight: bold;
+	transform: scale(1.2);
+}
+
+.logo {
+	padding-left: 25px;
+}
+
+.innovation {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 100px 0 50px;;
+}
+
+.innovation-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.innovation-text h1 {
+	font-size: 56px;
+	text-align: center;
+}
+
+.innovation-text button {
+	background-color: #ffffff;
+	border: 1px solid black;
+	padding: 3px 25px;
+	width: 150px;
+	transition: transform 0.3s ease;
+}
+
+.innovation-text button:hover {
+	cursor: pointer;
+	font-weight: bold;
+	transform: scale(1.1);
+}
+
+.article-top {
+	display: flex;
+	margin: 30px 0;
+
+}
+
+.article-bottom {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.services, .product, .vision {
+	width: 281px;
+}
+
+address {
+	margin-top: 30px;
+}
+
+address p {
+	padding-bottom: 20px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+hr {
+	flex-grow: 1;
+	width: 100%;
+}
+
