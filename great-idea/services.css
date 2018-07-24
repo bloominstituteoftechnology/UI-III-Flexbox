@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Beginning of custom code */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+a {
+    margin-top: 15px;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+.main-container {
+	max-width: 880px;
+  	margin: 0 auto;
+	padding: 20px;
+	align-content: center;
+}
+h1 {
+    font-size: 40px;
+    font-weight:bold;
+    margin: 20px 0px 20px 0px;
+}
+header {
+    display: block;
+    margin-bottom: 20px;
+}
+.services {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+}
+.digital_design {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #F0F6F4;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 2px solid;
+}
+button{
+    margin: 20px 278px 20px 0px;
+    padding: 5px 10px;
+}
+p {
+    font-size: 20px;
+}
+.ux_ui {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #F0F6F4;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid;
+}
+.digital_marketing {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #F0F6F4;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 2px solid;
+}
+.web_development {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #F0F6F4;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid;
+}
+.ios_development {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #F0F6F4;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 2px solid;
+    border: 2px solid;
+}
+.android_development {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #F0F6F4;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid;
+}
+.about_services {
+    display: flex;
+    flex-direction: column;
+}
+.services-info-img {
+    margin-left: 20px;
+}
+.services_row_one {
+    display: flex;
+}
+.services_row_two{
+    display: flex;
+}
+.services_row_three {
+    display: flex;
+}
+li {
+    display: list-item;
+    margin: 5px 0px 5px 0px;
+}
+.services_row_four {
+    display: flex;
+}
+.footer {
+    text-align: center;
+    margin: 40px;
+    font-size: 15px;
+}
+ul {
+    margin-top: 20px;
+}
