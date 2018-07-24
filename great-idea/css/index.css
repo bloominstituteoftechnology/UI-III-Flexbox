@@ -158,55 +158,69 @@ h5 {
 }
 
 /* Your code starts here! */
+	
+	/* * {
+		border: 1px solid black !important;
 
-/* * {
-	border: 1px solid black !important;
-} */
+	} */
+
 
 .nav-text {
 	display: flex;
 	width: 100%;
 	color: black;
 	flex-direction: row;
-	justify-content: center;
+		justify-content: center;
 }
 
 .nav-item {
 	margin: 0 0 0 3%;
-	padding: 0 0 0 0.5%;
+	padding: 0 0 2% 0.5%;
 	color: black;
+}
+
+.logo {
+	width: 8% ;
+	height: 8%;
+	margin-left: 3% ;
+
 }
 
 .slogan-snippet {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: center ;
+	
+}
+
+.parent-div {
+	display: flex ;
+	flex-direction: column ;
 }
 
 .slogan-text {
 	width: 100%;
 	max-width: 10%;
 	font-size: 48px;
+	height: 50% ;
+	margin-left: 30% ;
 }
 
 .snippet-img {
-	max-width: 79%;
-	max-height: 79%;
+	width: 16% ;
+	height: 17%;
 	opacity: 0.8;
 }
 
-.logo {
-	max-width: 13%;
-	max-height: 13%;
-	padding: 0 0 0 3%;
-	top: 20%;
-}
 
-.CTAbutton {}
 
 .button-class {
 	background: transparent;
-	border: 1px solid black;
+	height: 12%;
+	border: 1px solid black ;
+	align-self: center ;
+	margin-top: 10% ;
+	
 }
 
 
@@ -219,12 +233,16 @@ h5 {
 	width: 100%;
 	max-width: 22%;
 	font-size: 15px;
+	padding: 2% 3% 2% 2% ;
+
 }
 
 .about-text {
 	width: 100%;
 	max-width: 22%;
 	font-size: 15px;
+	padding: 2% 2% 2% 0% ;
+
 }
 
 .middle-img-div {
@@ -235,9 +253,9 @@ h5 {
 
 .middle-img {
 	
-	width: 50%;
+	width: 48%;
 	max-width: 76%;
-	padding: 0 0 0 0%;
+	padding: 0 0 2% 0%;
 	opacity: 0.8;
 }
 
@@ -302,4 +320,5 @@ h5 {
 
 h3 {
 	font-size: 18px;
+	padding-top: 2% ;
 }
