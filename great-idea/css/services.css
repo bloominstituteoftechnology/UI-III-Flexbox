@@ -21,17 +21,14 @@
 }
 
 #twoBythree section {
+  align-items: flex-start;
   border: 1px solid #040624;
-  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2% auto;
+  padding: 2% 4%;
   width: 48%;
-}
-
-#twoBythree section:nth-child(odd) {
-  margin: 10px 5px 10px 0;
-
-}
-#twoBythree section:nth-child(even) {
-  margin: 10px 0 10px 5px;
 }
 
 #twoBythree section button {
