@@ -118,10 +118,9 @@ header nav a:hover {
 	font-size: 80px;
 	text-align: center;
 }
-
-.hero img {
-	
-}
+ hr {
+	margin: 10px;
+ }
 
 button {
 	height: 35px;
