@@ -15,7 +15,7 @@ Once you have finished the home page using flexbox, go build the services page b
 
 ## Objectives:
 
-- [ ] Refactor the home page layout with flexbox where `inline-block` was used before
+- [x] Refactor the home page layout with flexbox where `inline-block` was used before
 - [ ] In your navigation, point the services anchor tag's `href` to `services.html`
 - [ ] Copy and paste the contents of your `index.html` page into your empty `services.html` page.  
   - Delete any content inside the body tag besides the navigation 
