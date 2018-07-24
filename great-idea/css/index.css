@@ -70,19 +70,22 @@ p {
 /* header area below */
 
 header {
+  align-items: center;
+  background-color: #154073;
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   width: 100%;
 }
-
-.logo {
-  float: right;
-  margin: -45px 10px;
+header div:nth-child(odd) {
+  display: flex;
+  flex-grow: 2;
+  justify-content: space-between;
 }
-
 /* nav bar */
 
 #main-nav {
-  background-color: #154073;
+
   padding-left: 40px;
   margin-top: -5px;
 }
