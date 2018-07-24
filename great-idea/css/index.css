@@ -138,9 +138,14 @@ button:hover {
 	transform: scale(1.1);
 }
 
-article .section-one div {
-	display: inline-block;
-	width: 430px;
+.section-one, .section-two {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0px;
+}
+
+.product {
+	margin: 0px 20px;
 }
 article h3 {
 	font-size: 16px;
@@ -151,34 +156,6 @@ article h3:hover {
 article p {
 	font-size: 16px;
 	line-height: 1.5;
-}
-
-.section-one {
-	margin: 30px auto;
-}
-
-.about {
-	margin-left: 10px;
-}
-.image {
-	display: block;
-}
-
-article .section-two div {
-	display: inline-block;
-	width: 240px;
-}
-
-.section-two {
-	margin: 40px auto;
-}
-
-.product {
-	margin-left: 75px;
-}
-
-.vision {
-	margin-left: 75px;
 }
 
 footer {
