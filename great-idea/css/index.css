@@ -93,7 +93,11 @@ a{
 	display: flex;
 	align-items: center;
 	margin-top: 30px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+.services-header-img{
+	margin: 10px 0px;
 }
 
 .header-text-div{
@@ -120,13 +124,11 @@ a{
 	font-size: 16px;
 }
 
-hr.upper {
+hr {
 	border: 0;
-	display:block;
 	width: 100%;               
 	background-color:black;
 	height: 1px;
-	margin-top: 35px;
 }
 
 #upper-para{
@@ -136,29 +138,17 @@ hr.upper {
 }
 
 #upper-para div{
-	display: flex;
-	flex-direction: column;
 	width: 425px;
-	text-align: left;
 }
 
-.lower-para{
-	display: inline-block;
-	width: 280px;
-	text-align: left;
+#lower-para{
+	display: flex;
+	justify-content: space-between;
 	margin: 40px 0px;
 }
 
-.lower-para.second, .lower-para.third{
-	margin-left: 16px;
-}
-
-hr.lower {
-	border: 0;
-	display:block;
-	width: 100%;               
-	background-color:black;
-	height: 1px;
+#lower-para div{
+	width: 290px;
 }
 
 .contact h2{
@@ -174,4 +164,58 @@ hr.lower {
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 50px;
+}
+
+#services-about{
+	margin: 20px 0px;
+}
+
+.services-content-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.services-content{
+	width: 48%;
+	border: 1px solid black;
+	padding: 25px;
+	margin: 20px 0px;
+	background-color: #f4f3f4;
+	line-height: 1.2;
+}
+
+.services-content p{
+	margin-bottom: 30px;
+}
+
+.services-content a{
+	padding: 8px 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+}
+
+#services-facts{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px;
+}
+
+#services-facts p{
+	padding-right: 50px;
+	margin-bottom: 25px;
+	line-height: 1.2;
+}
+
+#services-facts li{
+	list-style-type: square;
+	list-style-position: inside;
+	margin-bottom: 10px;
+}
+
+#copyright{
+	display: flex;
+	justify-content: center;
 }
