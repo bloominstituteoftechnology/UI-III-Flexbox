@@ -40,14 +40,17 @@ nav {
 	background-color: #616161;
 	padding: 20px;
 }
-a {
+nav a {
 	color: white;
 	margin-right: 10%;
-	text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
 	color: #55FCA0;
+}
+a {
+	text-decoration: none;
+
 }
 blockquote, q {
 	quotes: none;
