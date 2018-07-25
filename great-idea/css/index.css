@@ -99,7 +99,7 @@ a {
 	font-weight: bold;
 }
 
-.navbar img {
+.navbar a.home-link {
 	width: 183px;
 	order: 2;
 	justify-content: flex-end;
