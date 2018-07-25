@@ -65,7 +65,6 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
 body {
 	width: 880px;
 	margin: 0 auto;
@@ -75,7 +74,9 @@ body {
 
 header {
 	position: fixed;
-	display: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	height: 60px;
 	width: 880px;
 	z-index: 2;
@@ -83,23 +84,22 @@ header {
 }
 
 header nav {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 690px;
+	display: flex;
+	justify-content: flex-start;
+	width: 600px;
 	height: 60px;
 }
 
 header nav a {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100px;
 	height: 60px;
-	text-align: center;
 	text-decoration: none;
 	color: rgb(100,100,100);
 	font-size: 13.5px;
 	font-weight: bold;
-	padding-top: 25px;
 }
 
 header nav a:hover {
@@ -108,56 +108,58 @@ header nav a:hover {
 }
 
 header .logo {
-	position: absolute;
-	right: 5px;
-	top: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	width: 200px;
 }
 
+.header-space {
+	display: inline-block;
+	height: 57px;
+}
 
 /* Splash display */
 
 .splash {
-	display: inline-block;
-	margin-top: 60px;
-	height: 500px;
-}
-
-.splash-container {
-	position: relative;
-	height: 500px;
+	display: flex;
 	width: 880px;
+	height: 500px;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.splash-container h1 {
-	position: absolute;
-	top: 140px;
-	left: 50px;
-	width: 400px;
-	height: 250px;
-	font-size: 72px;
+.splash-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 450px;
+	height: 300px;
+}
+
+.splash-left h1 {
+	display: inline;
 	text-align: center;
-	box-align: top;
+	font-size: 78px;
 }
 
-.splash-container .start-button {
-	position: absolute;
-	top: 380px;
-	left: 165px;
-	height: 35px;
-	width: 165px;
-	border: 2px solid rgb(150,150,150);
+.splash-left .start-button {
+	display: flex;
+	border: 1.5px solid rgb(120,120,120);
 }
 
 .start-button a {
-	display: inline-block;
-	width: 161px;
-	height: 31px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 32px;
+	width: 165px;
 	text-decoration: none;
 	color: rgb(100,100,100);
 	font-size: 18px;
 	font-weight: bold;
-	padding-top: 5px;
 }
 
 .start-button a:hover {
@@ -165,38 +167,35 @@ header .logo {
 	color: white;
 }
 
-.splash .splash-img {
-	position: absolute;
-	top: 80px;
-	right: 10px;
+.splash .splash-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
 }
+
 
 hr {
 	height: 3px;
 	background-color: rgb(100,100,100);
-	margin: 30px 0px 40px 0px;
+	margin: 20px 0px 40px 0px;
 }
 
 
 /* Top content section */
 
 .top-section {
-	display: inline-block;
+	display: flex;
+	justify-content: flex-start;
 	width: 880px;
 }
 
 .two-column {
-	display: inline-block;
-	width: 438px;
-	padding: 0px 10px 10px 0px;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
 }
-
-.two-column-right {
-	display: inline-block;
-	width: 438px;
-	padding: 0px 0px 10px 0px;
-}
-
 
 h3 {
 	font-weight: bold;
@@ -214,31 +213,26 @@ p {
 /* image divider */
 
 .middle-img {
-	display: inline-block;
-	width: 876px;
-	margin: 30px 2px 20px 2px;
+	display: flex;
+	width: 880px;
+	padding: 30px 2px;
 }
 
 
 /* bottom content section */
 
 .bottom-section {
-	display: inline-block;
+	display: flex;
+	justify-content: flex-start;
 	width: 880px;
 }
 
 .three-column {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	width: 33%;
-	padding: 20px 10px 20px 0px;
+	margin-bottom: 20px;
 }
-
-.three-column-right {
-	display: inline-block;
-	width: 33%;
-	padding: 20px 0px 20px 0px;
-}
-
 
 /* contact section */
 
@@ -249,8 +243,9 @@ address p {
 /* footer */
 
 footer {
-	display: block;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: rgb(100,100,100);
 	font-size: 14px;
 	font-weight: bold;
