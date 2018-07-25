@@ -105,3 +105,36 @@ header nav a	{
 	width: 200px;
 }
 
+.main-content	{
+	display: flex;
+	flex-direction: column;
+	padding: 40px 0px
+}
+
+.main-content .top-content	{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-content .top-content div	{
+	margin: 0px 30px 40px 30px;
+}
+
+h4	{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+p	{
+	font-size: 20px;
+}
+
+.main-content .bottom-content	{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+.main-content .bottom-content div	{
+	margin: 30px 30px 40px 30px;
+}
