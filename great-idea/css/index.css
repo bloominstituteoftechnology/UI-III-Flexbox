@@ -73,8 +73,11 @@ html{
 
 nav{
 	display: flex;
-	background-color: rgb(7, 7, 161);
+	background-color: #0101a3;
 	align-items: center;
+	z-index: 80;
+	position: fixed;
+	width: 880px;
 }
 
 .navi {
@@ -96,6 +99,7 @@ nav{
 	align-items: center;
 	align-content: center;
 	justify-content: space-evenly;
+	margin: 90px 0px;
 }
 
 h1{
@@ -150,11 +154,17 @@ h2 {
 	font-size: 30px;
 }
 
+.services-header-img{
+	margin-top: 56px;
+	margin-bottom: 20px;
+}
+
 .bottom{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background: purple;
+	margin-top: 30px;
 }
 
 .bottomtext{
@@ -163,14 +173,16 @@ h2 {
 }
 .list{
 	list-style-type: square;
-	padding: 30px;
+	padding: 0px 40px;
 }
 li{
 	padding: 5px;
 }
 
-.servicesheader{
+.serviceheader{
 	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
 }
 
 .servicecontainer{
@@ -178,19 +190,20 @@ li{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: space-around;
+	margin: 30px 0px;
 }
 
 .servicesections{
 	display: flex;
 	flex-direction: column;
 	border: solid;
-	background: grey;
+	background:#bbbbbf;
 	flex-basis: 430px;
-	height: 190px;
+	height: 220px;
 	margin: 10px 0;
 	padding: 10px;
 }
 
 p{
-	margin: 10px 0;
+	margin: 20px 0;
 }
