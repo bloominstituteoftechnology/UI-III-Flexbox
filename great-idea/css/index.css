@@ -317,6 +317,10 @@ header nav a:last-child {
 	margin-right: 0;
 }
 
+.middle-img {
+	width: 100%;
+}
+
 
 /* Footer Flex */
 
@@ -387,10 +391,25 @@ header nav a:last-child {
 	height: 100px;
 }
 
-
-/* Media Query */
-
-@media(max-width:800px){
-
-
+.services-buttons button {
+	vertical-align: top;
+	background: white;
+	padding: 8px 10px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
 }
+
+.text-content.services-buttons.border-text {
+	border: 1px solid black;
+	padding: 20px;
+	margin: 10px;
+}
+
+
+/* Media Query  Services */
+
+
+
+
+
