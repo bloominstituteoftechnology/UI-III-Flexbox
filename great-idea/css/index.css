@@ -217,7 +217,6 @@ header nav a:last-child {
 
 .cta {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -254,7 +253,6 @@ header nav a:last-child {
 /*--- Contact Flex ----*/
 .contact {
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
 	margin-top: 57px;
