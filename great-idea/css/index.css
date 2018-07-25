@@ -83,7 +83,7 @@ body {
 }
 
 
-li {
+nav li {
     display: inline-flex;
     list-style-type: none;
     justify-content: space-between;
@@ -98,7 +98,7 @@ a {
 
 }
 
-li:hover {
+ nav li:hover {
     transform: rotate(360deg);
 
 }
