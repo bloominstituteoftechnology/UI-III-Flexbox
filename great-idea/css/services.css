@@ -88,6 +88,10 @@ a {
 
 .box {
     border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    flex-direction: row;
 }
 
 button {
@@ -101,10 +105,11 @@ button {
 
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 880px;
-    height: 300px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    max-width: 880px;
+    height: 400px;
     margin-top: 50px;
 }
 
@@ -114,7 +119,7 @@ footer {
 }
 
 .facts {
-    
+    display: flex;
 }
 
 .services-info-img {
