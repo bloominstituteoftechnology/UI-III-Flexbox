@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -48,6 +49,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
@@ -64,3 +66,284 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+p {
+	font-family: 'Merienda', cursive;
+}
+
+body {
+	max-width: 880px;
+	margin: auto;
+}
+
+header {
+	display: inline;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px 0px 20px;
+    background-color: black;
+    width: 650px;
+    height: 30px;
+	z-index: 1;
+	border-radius: 15px;
+}
+
+.logo {
+	display: flex;
+    float: right;
+    margin: 26px 20px 0px 0px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    margin: 60px 0px 0px 20px;
+    top: 150px;
+    left: 60px;
+    align-items: center;
+}
+
+.code {
+    float: right;
+    position: relative;
+    top: -408px;
+	margin-right: 25px;
+	display: flex;
+}
+
+button {
+	display: block;
+    margin: 145px 0px 112px 95px;
+    width: 115px;
+    height: 35px;
+    top: 10px;
+    position: relative;
+	left: 68px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+	cursor: pointer;
+	background-color: #4CAF50;
+	border-radius: 15px;
+}
+
+button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+a {
+	margin: 0px 30px 0px 25px;	
+}
+
+a:link {
+	color: red;
+	text-decoration: none;
+}
+
+a:visited {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	color: hotpink;
+	text-decoration: none;
+}
+
+a:active {
+	color: blue;
+	text-decoration: none;
+}
+
+.top-stuff {
+    display: flex;
+    width: 880px;
+    flex-direction: column;
+    height: 125px;
+    justify-content: space-evenly;
+    margin: 10px 5px 10px 0px;
+    align-content: space-evenly;
+    position: relative;
+    top: -330px;
+}
+
+.top-stuff2 {
+    display: flex;
+    width: 420px;
+    flex-direction: column;
+    height: 125px;
+    justify-content: space-evenly;
+    margin: 10px 5px 10px 0px;
+}
+
+.text {
+	width:440px;
+	text-align: justify;
+}
+
+.damnit {
+    position: relative;
+    display: flex;
+    top: -89px;
+    left: 440px;
+}
+
+.text2 {
+	float: right;
+    text-align: justify;
+    width: 420px;
+    position: relative;
+    left: 440px;
+    top: -44px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.damnit2 {
+	position: relative;
+	top: 10px;
+}
+
+.text {
+	position: relative;
+	width: 420px;
+	top: 20px;
+}
+
+section{
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    position: relative;
+    top: 140px;
+    max-height: 630px;
+}
+
+.middle-img {
+    position: relative;
+    top: -320px;
+}
+
+.lower-stuff {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+    width: 270px;
+    margin: 0px 15px 15px 5px;
+}
+
+.lower-stuff2 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+    width: 270px;
+    margin: 0px 15px 15px 15px;
+}
+
+.lower-stuff3 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+    width: 271px;
+    margin: 0px 0px 15px 15px;
+}
+
+.damnit3 {
+    position: relative;
+    width: 68px;
+    align-self: flex-start;
+    margin-top: 40px;
+}
+
+.lower-block {
+    display: inline-flex;
+    position: relative;
+    top: -322px;
+    justify-content: space-between;
+    width: 876px;
+    flex-basis: auto;
+}
+
+.text3 {
+    width: 280px;
+    text-align: justify;
+    position: relative;
+}
+
+.damnit4 {
+    position: relative;
+    width: 68px;
+    align-self: flex-start;
+    margin-top: 40px;
+}
+
+.text4 {
+    width: 280px;
+    text-align: justify;
+    position: relative;
+}
+
+.damnit5 {
+    position: relative;
+    width: 68px;
+    align-self: flex-start;
+    margin-top: 40px;
+}
+
+.text5 {
+    width: 280px;
+    text-align: justify;
+    position: relative;
+}
+
+h3 {
+	position: relative;
+}
+
+address {
+	position: relative;
+}
+
+h4 {
+    position: relative;
+    margin-top: 15px;
+}
+
+.space {
+    margin: 15px 0px 15px 0px;
+}
+
+.foot {
+    display: flex;
+    position: relative;
+    top: 160px;
+    flex-direction: column;
+}
