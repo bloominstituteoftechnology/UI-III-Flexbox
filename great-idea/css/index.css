@@ -58,7 +58,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Roboto Mono', monospace;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -504,4 +504,173 @@ ul.b {
 	body {
 		background-color: lightblue;
 	}
+}
+
+/*  Product Page  */
+
+.product1 {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.product1 .consult {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	/* background-color: lightgrey; */
+}
+
+.product1 .consult_image {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	/* padding: 20px 20px 0 20px; */
+	/* background-color: lightgrey; */
+}
+
+.consult_image .consulting {
+	width: 400px;
+	height: 250px;
+	filter: grayscale(80%);
+}
+
+.consult h2 {
+	font-size: 25px;
+}
+
+.product2 {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.product2 .corporate_image {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	/* padding: 20px 20px 0 20px; */
+	/* background-color: lightgrey; */
+}
+
+.product2 .corporate {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	/* background-color: lightgrey; */
+}
+
+.corporate_image .corpinno {
+	width: 400px;
+	height: 250px;
+	filter: grayscale(50%);
+}
+
+.corporate h2 {
+	font-size: 25px;
+}
+
+.product3 {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.product3 .acquisition {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	/* background-color: lightgrey; */
+}
+
+.product3 .acquisition_image {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	/* padding: 20px 20px 0 20px;
+	background-color: lightgrey; */
+}
+
+.acquisition_image .acquisition1 {
+	width: 400px;
+	height: 250px;
+	filter: grayscale(50%);
+}
+
+.acquisition h2 {
+	font-size: 25px;
+}
+
+.socialmedia {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+.socialmedia .twitter {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	/* background-color: lightgrey; */
+}
+
+.twitter .twitterpic {
+	width: 100px;
+	height: 100px;
+	margin: 50px 0 0 50px;
+	filter: grayscale(50%);
+}
+
+.socialmedia .linkedin {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	/* background-color: lightgrey; */
+}
+
+.linkedin .linkedinpic {
+	width: 100px;
+	height: 100px;
+	margin: 50px 0 0 50px;
+	filter: grayscale(50%);
+}
+
+
+.socialmedia .facebook {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	/* background-color: lightgrey; */
+}
+
+.facebook .facebookpic {
+	width: 100px;
+	height: 100px;
+	margin: 50px 0 0 50px;
+	filter: grayscale(50%);
+}
+
+.socialmedia .instagram {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	/* background-color: lightgrey; */
+}
+
+.instagram .instagrampic {
+	width: 100px;
+	height: 100px;
+	margin: 50px 0 0 50px;
+	filter: grayscale(50%);
 }
