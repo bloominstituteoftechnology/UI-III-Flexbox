@@ -81,50 +81,50 @@ h1 {
 h3 {
   width: 30%; 
   margin: auto; 
-	text-align: center; 
-	}
+  text-align: center; 
+   }
 		
 h4 {
-	font-weight: bold; 
-	}
+  font-weight: bold; 
+   }
 		
 h6 {
-	text-align: center;
-	font-weight: bold;  
-	padding-bottom: 30px; 
-	}
+  text-align: center;
+  font-weight: bold;  
+  padding-bottom: 30px; 
+   }
 		
 p {
-	font-family: 'Roboto', sans-serif;
-}
+  font-family: 'Roboto', sans-serif;
+  }
 
 hr {
-	width: 80%; 
-	text-align: center;  
-  }
+  width: 80%; 
+  text-align: center;  
+   }
 
-  i{ 
-	 font-size: 0px;  
+i{ 
+  font-size: 0px;  
   }
 	
-	/*Nav Bar------------------------------------------------------------------------*/
+/*Nav Bar------------------------------------------------------------------------*/
 
 .fixed {
-	position: fixed; 
-	display: flex; 
-	flex-wrap: wrap; 
-	justify-content: space-around; 
-	width: 100%; 
-	background-color: rgba(6, 143, 177, 0.2); 
+  position: fixed; 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  width: 100%; 
+  background-color: rgba(6, 143, 177, 0.2); 
  }
 
 nav {
-	display: flex; 
+  display: flex; 
   flex-wrap: wrap; 
   justify-content: center; 
   width: 73%; 
   text-align: center; 
-	padding-top: 35px;  
+  padding-top: 35px;   
  }
   
 nav a {  
@@ -138,7 +138,7 @@ nav a:hover {
   color: black; 
   font-weight: bold; 
   font-size: 16px; 
-	transition: 0.7s; 
+  transition: 0.7s; 
  }
 	
  
@@ -147,384 +147,267 @@ nav a:hover {
   margin-left: 10px; 
   flex-wrap: wrap; 
   width: 24%; 
-  padding: 25px 0px 30px 0px; 
+  padding: 25px 0px 30px 0px;
  }
   
-  .button1{
-    width: 180px; 
-  	border: 1px solid green; 
-  	margin-top: 20px; 
-  	padding: 9px; 
+.button1{
+  width: 180px; 
+  border: 1px solid green; 
+  margin-top: 20px; 
+  padding: 9px; 
   }
   
-  .button1:hover{
-	  background-color:rgba(6, 143, 177, 0.2); 
-	  color: black; 
-		font-weight: bold; 
-		font-size: 1.2em; 
-		transition: 0.2s; 
+.button1:hover{
+  background-color:rgba(6, 143, 177, 0.2); 
+  color: black; 
+  font-weight: bold; 
+  font-size: 1.2em; 
+  transition: 0.2s; 
   }
 	
-	/* Header and Banner------------------------------------------------------------------*/
+/* Header and Banner------------------------------------------------------------------*/
 	
-	.banner {
-	  display: flex; 
-  	flex-wrap: wrap; 
-  	flex-direction: column; 
-  	width: 49%; 
-  	text-align: center; 
-  	padding-top: 50px; 
-  	padding-left: 100px;
+.banner {
+  display: flex; 
+  flex-wrap: wrap; 
+  flex-direction: column; 
+  width: 49%; 
+  text-align: center; 
+  padding-top: 50px; 
+  padding-left: 100px;
   }
 
-  .bannerImage{
-	  width: 49%; 
+.bannerImage{
+  width: 49%; 
   }
   
-  header {
-	  padding-bottom: 70px; 
-	  padding-top: 130px; 
-  	display: flex;
-  	flex-wrap: wrap;
-	  justify-content: center;  
-   }
+header {
+  padding-bottom: 70px; 
+  padding-top: 130px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+ }
 
  
   
-	/* first row of section --------------------------------------------------*/
+/* first row of section --------------------------------------------------*/
 
-	.container {
-		width: 82%; 
-		margin: 15px auto 15px auto;  
-		display: flex;
-		flex-wrap: wrap; 
-		justify-content: center; 
-	 }
+.container {
+  width: 82%; 
+  margin: 15px auto 15px auto;  
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+ }
 	
-  .features{
-  	display: flex; 
-  	flex-wrap: wrap;   
-  	width: 50%; 
-  	padding: 20px; 
+.features{
+  display: flex; 
+  flex-wrap: wrap;   
+  width: 50%; 
+  padding: 20px; 
+ }
+  
+.about{
+  display: flex; 
+  flex-wrap: wrap; 
+  padding: 20px; 
+  width: 50%; 
   }
   
-  .about{
-	  display: flex; 
-	  flex-wrap: wrap; 
-  	padding: 20px; 
-  	width: 50%; 
-  }
+/*Middle Image In Container----------------------------------------------*/
   
-  /*Middle Image In Container----------------------------------------------*/
+.middle-img{
+  display: flex; 
+  justify-content: center;  
+  width: 80%; 
+  margin: 20px auto 25px auto;  
+ }
   
-  .middle-img{
-	  display: flex; 
-	  justify-content: center;  
-	  width: 80%; 
-	  margin: 20px auto 25px auto;  
-   }
-  
-	/*Second Row Of Section (Three Columns)---------------------------------------*/
+/*Second Row Of Section (Three Columns)---------------------------------------*/
 	
-  .services {
-  	width: 33%; 
-  	padding: 12px;
-   }
+.services {
+  width: 33%; 
+  padding: 12px;
+ }
   
-  .product {
-	  width: 33%; 
-	  padding: 12px;
-  }
+.product {
+  width: 33%; 
+  padding: 12px;
+ }
   
-  .vision {
-	  width: 33%; 
-	  padding: 12px; 
-	  margin-bottom: 20px; 
-   }
+.vision {
+  width: 33%; 
+  padding: 12px; 
+  margin-bottom: 20px; 
+ }
 	
-	 /*Address-----------------------------------------------------*/
+/*Address-----------------------------------------------------*/
 	
-	.address {
-	  width: 80%;  
-    padding-bottom: 50px; 
-	  padding-top: 20px; 
-	}
+.address {
+  width: 80%;  
+  padding-bottom: 50px; 
+  padding-top: 20px; 
+ }
 	
-	address {
-	  padding: 10px; 
-	  display: flex; 
-	  flex-direction: column; 
-    margin: auto;  
-	  width: 76%; 
-	  flex-wrap: wrap;
-	}
+address {
+  padding: 10px; 
+  display: flex; 
+  flex-direction: column; 
+  margin: auto;  
+  width: 76%; 
+  flex-wrap: wrap;
+ }
   
-  
+  	
 @media screen and (min-width:601px) and (max-width: 900px){
   h1 {
-	  font-size: 60px;  
+    font-size: 60px;  
 	 }
-	.banner{
-	  padding-left: 0px;  
+  .banner{
+	padding-left: 0px;  
 	 }
-	.bannerImg{
-	  width: 75%; 
-	  height: 75%;  
-	 }
-	.logo{
-		margin-right: 20px; 
-	 }
-	.bannerImage{
+  .bannerImg{
+    width: 75%; 
+	height: 75%;  
+    }
+  .logo{
+	margin-right: 20px; 
+    }
+  .bannerImage{
     display: flex; 
-	  align-items: center;
-		}
-	nav a{
-		margin-left: 6%; 
-		font-size: 12px;
-		font-weight: bold;  
-	 }
-	nav {
-		width: 60%; 
+	align-items: center;
 	}
-	.navLogo{
-		width: 30%; 
+  nav a{
+	 margin-left: 6%; 
+	 font-size: 12px;
+	 font-weight: bold;  
 	}
-  } 
-	 
+  nav {
+	 width: 60%; 
+	  }
+  .navLogo{
+	 width: 30%; 
+	  }
+	} 
+	   
 @media screen and (min-width: 400px) and (max-width:600px){
   h1{
     font-size: 35px; 
-	 }
+	}
   header{
-	  padding-bottom: 0px; 
-	 }
+	padding-bottom: 0px; 
+	}
   .banner{
-	  padding-left: 0px;  
-	  width: 100%; 
-	  padding-top: 0px;  
-   }
+	padding-left: 0px;  
+	width: 100%; 
+	padding-top: 0px;  
+	}
   .bannerImg{
-    width: 65%; 
-	  height: 65%;  
-	 }
+	width: 65%; 
+	height: 65%;  
+    }
   .bannerImage{
-	  display: flex; 
-		align-items: center;
-		justify-content: center; 
-		width: 100%; 
-	 } 
-	.navLogo{
-		width: 40%; 
-		margin: 5px 20px 0px 0px; 
-	 }
-	nav a {
-		display: none; 
-	 }
-	nav{
-		display: flex; 
-		justify-content: flex-start; 
-		width: 48%; 
-	 }
-	i{
-		margin-left: 15px; 
-		padding-bottom: 20px;  
-		font-size: 25px;  
-	 }
-	.fixed{
-		background: white;  
-		background-color: rgba(6, 143, 177, 0.2); 
-	 }
-	.about{
-	  width: 100%; 
-		padding-top: 15px; 
-	 }
-  .features{
-		padding-top: 10px; 
-		width: 100%;  
-	 }
-	.services{
-	  width: 100%; 
-	 }
-	.product{
-		width: 100%; 
-	 }
-	.vision{
-		width: 100%; 
-	 }
- }
-	
+	display: flex; 
+	align-items: center;
+	justify-content: center; 
+	width: 100%; 
+	} 
+  .navLogo{
+    width: 40%; 
+	margin: 5px 20px 0px 0px; 
+   }
+  nav a {
+	display: none; 
+   }
+  nav{
+	display: flex; 
+	justify-content: flex-start; 
+	width: 48%; 
+	}
+   i{
+	 margin-left: 15px; 
+	 padding-bottom: 20px;  
+	 font-size: 25px;  
+    }
+   .fixed{
+	 background: white;  
+	 background-color: rgba(6, 143, 177, 0.2); 
+	}
+   .about{
+	 width: 100%; 
+	 padding-top: 15px; 
+	}
+   .features{
+	 padding-top: 10px; 
+	 width: 100%;  
+	}
+   .services{
+	 width: 100%; 
+	}
+   .product{
+	 width: 100%; 
+	}
+   .vision{
+	 width: 100%; 
+    }
+  }
+	  
 @media screen and (max-width: 399px){
-	h1{
-		font-size: 35px; 
+   h1{
+	 font-size: 35px; 
 	 }
-	.navLogo{
-		width: 40%;  
-		margin:5px 30px 0px 0px; 
+   .navLogo{
+	 width: 40%;  
+	 margin:5px 30px 0px 0px; 
 	 }
-	.banner{
-		padding-left: 0px;  
-		width: 100%; 
-		padding-top: 0px; 
+   .banner{
+	 padding-left: 0px;  
+	 width: 100%; 
+	 padding-top: 0px; 
+	}
+   .bannerImg{
+	 width: 65%; 
+	 height: 65%;  
+	}
+   .bannerImage{
+	 display: flex; 
+	 align-items: center;
+	 justify-content: center; 
+	 width: 100%; 
+	} 
+   header{
+	 padding-bottom: 0px; 
+	}
+   nav a {
+	 display: none; 
+    }
+   nav{
+     display: flex; 
+	 justify-content: flex-start;  
+	 width: 25%; 
+	}
+   i{ 
+     font-size: 25px; 
+	}
+   .fixed{ 
+	  background-color: rgba(6, 143, 177, 0.2); 
 	 }
-  .bannerImg{
-		width: 65%; 
-		height: 65%;  
+   .about{
+	  width: 100%; 
+	  padding-top: 15px; 
 	 }
-	.bannerImage{
-		display: flex; 
-		align-items: center;
-		justify-content: center; 
-		width: 100%; 
-	 } 
-	header{
-		padding-bottom: 0px; 
-	 }
-	nav a {
-		display: none; 
-	 }
-	nav{
-		display: flex; 
-		justify-content: flex-start;  
-		width: 25%; 
-	 }
-	i{ 
-		font-size: 25px; 
-	 }
-	.fixed{ 
-		background-color: rgba(6, 143, 177, 0.2); 
-	 }
-	.about{
-		width: 100%; 
-		padding-top: 15px; 
-	 }
-	.features{
+   .features{
 	  padding-top: 10px; 
 	  width: 100%;  
 	 }
-	.services{
-		width: 100%; 
+   .services{
+	  width: 100%; 
 	 }
-	.product{
-		width: 100%; 
+   .product{
+	  width: 100%; 
 	 }
 	.vision{
-		width: 100%; 
+	  width: 100%; 
 	 }
-}
-  
-  
-  
-  /* page 2 ------------------------------------------------------------------------------*/
-  
-  #page2 { 
-	width: 100%;   
-  }
-	
-	section{
-	display: flex; 
-	width: 100%; 
-	flex-direction: column;  
-	justify-content: center; 
-	margin-top: 100px; 
-	}
-  .pageLogo{ 
-	width: 100%; 
-	text-align: center;  
-	animation-name: logoAnimate; 
-	animation-duration: 8s;
-	animation-delay: 3s; 
-	opacity: 0; 
-	margin-top: -250px; 
-	z-index: 1; 
-  }
-	
-.innovation{
-	padding: 40px;  
-	animation-name: innovation; 
-	animation-duration: 5s; 
-	opacity: 0; 
-	width: 30%; 
-}
-
-.on{
-	text-align: center; 
-	opacity: 0; 
-	animation-name: on; 
-	animation-duration: 5s; 
-	animation-delay: 1s; 
-
- }
-
- .demand{
-	text-align: right; 
-	padding: 40px; 
-	animation-name: demand; 
-	animation-duration: 5s; 
-	animation-delay: 2s;
-	opacity: 0;  
- }
-
-  
-  @keyframes logoAnimate {
-	 0%{
-	   transform: translate(-2000px, 0px); 
-	   opacity: 1; 
-	 }
-	 50%{
-	  transform: translate(0px, 0px); 
-	 }
-	 53%{
-		transform: rotate(5040deg); 
-	 }
-	 98%{
-		 opacity: 1; 
-		
-	 }
-	 100%{
-		opacity: 0;
-		  
-	 }
-	}
-	
-	@keyframes innovation {
-	 0%{
-		 transform:translate(2000px, 0px); 
-		 opacity: 1; 
-	 }
-   25%{
-		opacity: 1; 
-		transform: translate(0px,0px); 
-	 }
-	 100%{
-		opacity: 0; 
-	 }
-	}
-
-  @keyframes on{
-   0%{
-			transform: translate(2000px, 0px);
-			opacity: 1; 
- }25% {
-			opacity: 1; 
-			transform: translate(0px, 0px); 
-	 }
-  100% {
-		  opacity: 0; 
-	}
-	}
-
-	@keyframes demand{
-		0%{
-			 transform: translate(2000px, 0px);
-			 opacity: 1; 
-	}25% {
-			 opacity: 1; 
-			 transform: translate(0px, 0px); 
-		}
-	 100% {
-			 opacity: 0; 
-	 }
-	 }
-  /*Media Query--------------------------------------------*/
-
- 
+   }
