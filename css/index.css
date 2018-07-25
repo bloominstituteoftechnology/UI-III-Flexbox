@@ -81,6 +81,7 @@ button {
 	padding: 10px 50px;
 	font-size: 18px;
 	border: 1px solid black;
+	border-radius: 5px;
 	cursor: pointer;
 }
 
@@ -96,14 +97,18 @@ article {
 	margin: 50px;
 }
 
-/* Your code starts here! */
+span {
+	margin-bottom: 15px;
+}
+
 /* nav */
 nav {
-	margin: 30px;
+	margin: 25px;
 	width: 84%;
 	padding: 20px;
 }
-a {
+
+.a {
 	font-family: 'Muli', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -113,7 +118,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+.a:hover {
 	opacity: .3;
 }
 
@@ -137,14 +142,17 @@ a:hover {
 	text-align: center;
 }
 
+
+/* index content */
 .promo-above {
-	width: 880px;
+	margin-right: 20px;
 }
 
 .promo-below {
-	width: 880px;
+	margin-right: 20px;
 }
 
+/* services */
 .service {
 	width: 400px;
 	height: 240px;
@@ -154,8 +162,16 @@ a:hover {
 	border: thin solid gray;
 }
 
-.services button {
-	margin-top: 20px;
+.services-button {
+	/* width: 200px; */
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	background: white;
+	padding: 10px 50px;
+	font-size: 14px;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
 }
 
 .middle-img {
@@ -167,13 +183,21 @@ a:hover {
 
 .services-header-img {
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	margin-bottom: 20px;
 }
 
 .services-info-img {
+	background-image: url("../img/services-info.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 450px;
 	height: 320px;
+}
+
+ul {
+	list-style-type: circle;
+	margin-left: 20px;
 }
 
 /* address and footer */
