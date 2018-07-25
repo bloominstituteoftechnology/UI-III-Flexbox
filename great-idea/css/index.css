@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+html{
+	display: flex;
+	width: 880px;
+	margin: auto;
+}
+
+nav{
+	display: flex;
+	background-color: rgb(7, 7, 161);
+	align-items: center;
+}
+
+.navi {
+	display: flex;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	flex-grow: 2;
+	justify-content: space-around;
+}
+
+.logo {
+	display: flex;
+	padding: 10px;
+}
+
+.headerdiv{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+
+h1{
+	font-size: 85px;
+}
+.h1 {
+	display: flex;
+	font-size: 85px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo2{
+	display: flex;
+}
+
+h3{
+	font-size: 18px;
+}
+
+.text, .text2{
+	display: flex;
+	height: 200px;
+}
+
+#box1, #box2{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+#box3, #box4, #box5{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+#contact{
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.bottom{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: purple;
+}
+
+.bottomtext{
+	display: flex;
+	flex-direction: column;
+}
+.list{
+	list-style-type: square;
+	padding: 30px;
+}
+li{
+	padding: 5px;
+}
+
+.servicesheader{
+	display: flex;
+}
+
+.servicecontainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+}
+
+.servicesections{
+	display: flex;
+	flex-direction: column;
+	border: solid;
+	background: grey;
+	flex-basis: 430px;
+	height: 190px;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+p{
+	margin: 10px 0;
+}
