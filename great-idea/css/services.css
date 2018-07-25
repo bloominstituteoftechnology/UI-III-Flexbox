@@ -62,23 +62,22 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* my CSS starts here */
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	width: 880px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	font-family: 'Eczar', serif;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+    width: 880px;
+    font-family: 'Eczar', serif;
 }
 
 header {
 	height: 50px;
 	width: 880px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: lightgray;
+    align-items: center;
+    justify-content: space-between;
 	position: fixed;
 	top: 0;
 	z-index: 1;
@@ -90,97 +89,80 @@ header nav {
 
 header nav a {
 	font-size: 16px;
-	margin: 0 20px;
+	margin: 0px 20px;
 	text-decoration: none;
-	color: white;
+	color: gray;
 }
 header nav a:hover {
 	transition: 200ms ease-in;
 	color:black;
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
-.hero {
-	display: flex;
-	margin-bottom: 50px;
-	margin-top: 130px;
-	justify-content: space-around;
+.services-hero {
+    margin: 50px 0px 20px 0px; 
 }
 
-.hero div {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: 60px;
+.services-hero img {
+    margin-bottom: 20px;
 }
 
-.hero h1 {
-	font-size: 80px;
-	text-align: center;
-}
- hr {
-	margin: 10px;
- }
-
-button {
-	height: 35px;
-	width: 180px;
-	margin-left: 70px;
-	font-size: 16px;
-	background-color: white;
-	border: solid black 1px;
-	box-shadow: 0px 3px 3px 3px lightgray;
+hr {
+    margin: 10px 0px;
 }
 
-button:hover {
-	cursor: pointer;
-	transition: 150ms ease-in;
-	transform: scale(1.1);
+.service-offered {
+    display: flex;
+    flex-direction: column;
 }
 
-.section-one, .section-two {
-	display: flex;
-	justify-content: space-between;
-	margin: 30px 0px;
+.service-offered div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(211, 211, 211, 0.3);
+    width: 420px;
+    height: 250px;;
+    margin: 20px 0px;
+    padding: 10px;
+    border: black 1px solid;
 }
 
-.product {
-	margin: 0px 20px;
+.service-offered div button {
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: black 1px solid;
 }
-article h3 {
-	font-size: 16px;
-}
-article h3:hover {
-	text-decoration: underline;
-}
-article p {
-	font-size: 16px;
-	line-height: 1.5;
+
+.section-one, .section-two, .section-three {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
-	display: flex;
-	flex-direction: column;
-	margin-top: 30px;
-	font-size: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
-footer address {
-	margin-bottom: 20px;
+.facts {
+    display: flex;
+    margin: 20px 0px;
 }
 
-footer a {
-	color: black;
-	text-decoration: none;
-	margin-bottom: 10px;
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-footer a:hover {
-	text-decoration: underline;
+.details ul li {
+    margin: 10px 0px;
+    list-style-type: disc;
 }
 
-footer .copyright {
-	display: flex;
-	align-self: center;
-	margin: 20px 0px;
+.copyright {
+    margin: 50px 0px;
+    align-self: center;
 }
