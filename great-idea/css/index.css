@@ -147,3 +147,56 @@ a:active, a:link, a:visited, a:hover {
 	text-decoration: none;
 	color: lightgray;
 }
+
+.services-header-img	{
+	width: 100%;
+	padding: 2% 0%;
+}
+.services-container	{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 1%;
+	justify-content: space-between;
+}
+.block	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 45%;
+	padding: 2.5%;
+	margin: 2.5%;
+	border: black solid 1px;
+	background-color: whitesmoke;
+}
+.learn-more	{
+	display: flex;
+	justify-content: center;
+	padding: 1%;
+	margin: 2% 0%;
+	width: 150px;
+	heigth: 50px;
+	border: 1px black solid;
+	border-radius: 5px;
+	background-color: white;
+}
+.bottom	{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+}
+.bottom-block	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	width: 49%;
+	padding: 2.5%;
+	margin: 2.5%;
+}
+
+li {
+	list-style-type: square;
+}
