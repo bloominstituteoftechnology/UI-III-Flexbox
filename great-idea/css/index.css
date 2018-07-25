@@ -197,6 +197,12 @@ a:active, a:link, a:visited, a:hover {
 	margin: 2.5%;
 }
 
+.bottom-block .list	{
+	display: block;
+}
 li {
 	list-style-type: square;
+}
+ul {
+	padding-left: 20px;
 }
