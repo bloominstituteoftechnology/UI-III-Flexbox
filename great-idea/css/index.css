@@ -292,18 +292,17 @@ h5 {
 
 .contact-text {
 	padding: 10px 0 0 0;
-	display: inline-block;
+	display: flex;
 	vertical-align: bottom;
-	width: 10%;
-	margin: 0 0 0 25%;
+	justify-content: space-around ;
+	align-items: center ;
 }
+
+
 
 .line-break {
 	border: 1px solid black;
-	/* border-right-width: 50%; */
 	width: 50%;
-	/* max-width: 90%; */
-	display: inline-block;
 	margin-left: 25%;
 }
 
@@ -312,7 +311,6 @@ h5 {
 }
 
 .imgClass {
-	display: inline-block;
 	width: 100%;
 	max-width: 50%;
 	margin: 0 0 0 0;
