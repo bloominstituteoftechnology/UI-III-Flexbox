@@ -89,11 +89,11 @@ color: rgb(104, 102, 102);
 
 .headerarea{
 height: 400px;
-border-bottom:2px solid black;
 margin: 25px;
 display:flex;
 justify-content: space-around;
 align-items: center;
+
 
 
 }
@@ -133,6 +133,8 @@ flex-flow: row wrap;
 margin:10px;
 min-height: 250px;
 border-bottom:2px solid black;
+margin-top:15px;
+border-top: 2px solid black;
 
 
 
