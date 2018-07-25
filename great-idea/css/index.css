@@ -64,3 +64,212 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+#divPage {
+	width: 880px;
+	padding-left: 20px;
+	margin: auto;
+}
+
+#navFlex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 840px;
+	height: 40px;
+	background-color: aquamarine;
+	left: 360px;
+}
+
+.navItemFlex {
+	color: gray;
+	height: 40px;
+	flex: 0 0 100px;
+	text-align: center;
+	font-family: arial;
+	font-size: 12px;
+	text-decoration: none;
+	top: 1px;
+	float: left;
+	padding-top: 12px;	
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.logo {
+	background-image: url(../img/logo.png);
+	width: 184px;
+	height: 40px;
+}
+
+.header {
+	color: black;
+	width: 820px;
+	display: flex;
+	flex-direction: row;
+	padding-top: 60px;
+}
+
+#textFlexContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 430px;
+	Height: 340px;
+	padding-top: 50px;
+} 
+
+#topText {
+	font-family: bangers;
+	font-size: 60px;
+	flex: 0 0 240px;
+	top: 100px;
+	text-align: center;
+	height: 240px;
+}
+
+.button {
+	text-decoration: none;
+}
+
+#topTextBox {
+	border: 2px solid black;
+	color: black;
+	width: 140px; 
+	Height: 28px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#topTextBox:hover {
+	animation: moveIt 3s infinite;
+}
+
+@keyframes moveIt {
+	0% {margin-top: 0px;}
+	25% {margin-top: 10px;}
+	50% {margin-top: -5px;}
+	100% {margin-top: 0px;}
+}
+
+#topImage {
+	width: 340px;
+}
+
+hr {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#sectionContainer {
+	width: 100%;
+	display: block;
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+.section2 {
+	width: 380px;
+	display: inline-block;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	padding-right: 10px;
+}
+
+#sectionContainer2 {
+	width: 100%;
+	display: block;
+	padding-left: 40px;
+}
+
+.section3 {
+	width: 270px;
+	display: inline-block;
+}
+
+.h3 {
+	text-align: center;
+	font-size: 14px;
+}
+
+#contact {
+	padding-left: 40px;
+}
+
+address {
+	padding-left: 40px;
+}
+
+footer {
+	padding-left: 40px;
+	font-family: 'Abel', sans-serif;
+}
+
+.services-header-img {
+	width: 820px;
+	top: 10px;
+	display: block;
+	margin-left: 10px;
+}
+
+#srvTopText {
+	display: block;
+	width: 96%;
+}
+
+#srvFlexContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 840px;
+	height: 700px;
+}
+
+.srvFlexItems {
+	height: 180px;
+	width: 390px;
+	font-family: arial;
+	font-size: 12px;
+	text-decoration: none;
+	top: 1px;
+	border: 2px solid black;
+	background-color: gray;
+	margin: 10px; 
+	padding: 10px;
+}
+
+.srvFooter {
+
+}
+
+.srvFooterList {
+
+}
+
+.flexItemButton {
+	display: block;
+	width: 120px;
+	height: 30px;
+	border: 2px solid black;
+	color: black;
+	background-color: white;
+	text-align: center;
+	padding-top: 8px;
+	border-radius: 5px;
+}
+
+.flexItemText {
+	display: block;
+	color: black;
+}
+
