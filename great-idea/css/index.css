@@ -85,7 +85,8 @@ a{
 	color: lightgrey;
 }
 
-.logo{
+.nav-logo{
+	margin-left: 30px;
 	padding: 0px 5px;
 }
 
@@ -167,13 +168,25 @@ hr {
 }
 
 #services-about{
-	margin: 20px 0px;
+	margin: 25px 0px;
+}
+
+#services-about h2{
+	font-size: 25px;
+}
+
+#service-hr-upper{
+	margin-bottom: 20px;	
 }
 
 .services-content-container{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+.services-content-container h3{
+	font-size: 18px;
 }
 
 .services-content{
@@ -190,11 +203,15 @@ hr {
 }
 
 .services-content a{
-	padding: 8px 40px;
+	padding: 6px 40px;
 	border: 1px solid black;
 	border-radius: 5px;
 	background-color: white;
 	color: black;
+}
+
+#service-hr-lower{
+	margin-top: 20px;	
 }
 
 #services-facts{
