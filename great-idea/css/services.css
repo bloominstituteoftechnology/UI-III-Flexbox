@@ -88,8 +88,9 @@ header nav {
 }
 
 header nav a {
-	font-size: 16px;
-	margin: 0px 20px;
+    font-size: 16px;
+    margin-right: 40px; 
+	/* margin: 0px 20px; */
 	text-decoration: none;
 	color: gray;
 }
