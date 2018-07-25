@@ -237,6 +237,8 @@ nav li {
 	flex-direction: row;
 	justify-content: space-between;
 	font-size: 16px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .facts h3 {
 	font-size: 20px;
@@ -247,7 +249,7 @@ nav li {
 	height: 300px;
 	width: 400px;
 	justify-content: space-around;
-	padding-top: 10px;
+	
 }
 .unorderedList ul {
 	list-style-type: square;
