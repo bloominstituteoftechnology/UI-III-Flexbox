@@ -94,40 +94,24 @@ article {
 }
 
 /* Your code starts here! */
-body {
-	width: 880px;
-	margin: auto;
-}
-
-.block {
-	/* position: relative;
-	width: 100%; */
-	display: flex;
-}
-
 /* nav */
 nav {
-	/* display: inline-block;
-	width: 70%;
-	padding: 3% 0% 5% 1%; */
-	height: 60px;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
+	margin: 30px;
+	width: 84%;
+	padding: 20px;
 }
-
-.nav {
+a {
 	font-family: 'Muli', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
 	color: #1d1d1d;
 	text-decoration: none;
-	padding: 3%;
-	align-content: center;
-	color: black;
+	color: white;
+	margin-right: 10%;
+	text-decoration: none;
 }
 
-.nav:hover {
+a:hover {
 	opacity: .3;
 }
 
@@ -143,20 +127,23 @@ nav {
 	/* vertical-align: top; */
 	width: 420px;
 	font-size: 80px;
-	margin: 100px 0px;
+	margin-top: 60px;
 	text-align: center;
-	
+}
+
+.title-sm {
+	font-size: 30px;
 }
 
 .promo-above {
-	width: 600px;
+	width: 880px;
 }
 
 .promo-below {
-	width: 500px;
+	width: 880px;
 }
 
-.services {
+.service {
 	width: 400px;
 	height: 240px;
 	padding: 20px;
