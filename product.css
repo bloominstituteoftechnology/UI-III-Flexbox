@@ -47,20 +47,49 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+/* Beginning of custom code */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
 }
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+a {
+    margin-top: 15px;
+    text-decoration: none;
 }
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+a:hover {
+    color: red;
 }
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.main-container {
+	max-width: 880px;
+  	margin: 0 auto;
+	padding: 20px;
+    align-content: center;
+}
+.product-header-graphic {
+    width: 100%;
+}
+.logo {
+    margin: -9px;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 52px;
+    text-align: center;
+    margin: 20px;
+}
+.product {
+display: flex;
+margin: 20px 0px 20px 0px;
+}
+h2 {
+    margin: 0px 0px 20px 0px;
+    font-size: 25px;
+}
+.product-desc {
+    display: flex;
+    flex-direction: column;
+}
+.product-pic {
+    height: 160px;
+}
