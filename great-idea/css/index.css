@@ -28,6 +28,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 body {
 	line-height: 1;
 }
@@ -63,4 +65,204 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*my code starts here */
+
+.header{
+	height:auto;
+	margin-top:10px;
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content: space-around;
+	
+
+}
+
+.header a {
+padding-right: 50px;
+text-decoration: none;
+color: rgb(104, 102, 102);
+
+
+}
+
+
+
+.headerarea{
+height: 400px;
+border-bottom:2px solid black;
+margin: 25px;
+display:flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+
+.bigtext{
+ 
+
+ font-size: 72px;
+ 
+ font-family:Knewave;
+}
+
+#button{
+font-size: 25px;
+margin-top: 40px;
+display: block;
+border: 5px solid black;
+text-align: center;
+padding: 5px;
+width: 75%;
+margin-left:40px;
+
+}
+
+p { font-size: 18px;
+
+}
+
+
+
+.contentarea{
+display:flex;
+justify-content: space-around;
+flex-flow: row wrap;
+/* border:1px solid red;  */
+margin:10px;
+min-height: 250px;
+border-bottom:2px solid black;
+
+
+
+
+
+
+}
+.middleimg{
+width:95%;
+/* border:2px solid green; */
+
+
+}
+
+
+
+.element{
+
+height: 150px;
+margin-top:30px;
+/* border: 2px solid blue; */
+width: 450px;
+flex-wrap:wrap;
+
+
+
+
+
+
+
+}
+.footer{
+display:flex;
+height:200px;
+width: 100%;
+/* border:2px solid pink;  */
+margin:10px;
+flex-direction: column;
+}
+.contact{
+	
+	width: 95%;
+	height: 140px;
+	flex-grow:1;
+	/* border:2px solid green; */
+	
+}
+
+#copyright{
+
+align-self: center;
+justify-self:center;
+margin-bottom:20px;
+margin-top:15px;
+
+
+}
+
+.services-header-img{
+width:100%;
+margin:5px;
+height:250px;
+}
+
+h2{
+font-size: 24px;
+text-transform: uppercase
+}
+
+.servicesheader{
+margin:35px;
+padding-bottom:20px;
+border-bottom:2px solid black;
+
+
+}
+
+.servicescontentarea{
+display:flex;
+margin:5px;
+flex-wrap:wrap;
+justify-content: space-around;
+border-bottom:2px solid black;
+}
+
+
+.servicebox{
+height:auto;
+width:45%;
+border:1px solid black;
+margin-bottom:50px;
+padding:25px;
+background-color: #efe5e3;
+}
+
+.servicebutton{
+display:inline-flex;
+padding:10px 20px 10px 20px;
+background-color: #fffcfc;
+border: 1px solid black;
+border-radius: 5%;
+text-align: center;
+margin-left:5px;
+margin-top:20px;
+}
+
+.footerarea{
+margin:5px;
+margin-top: 15px;
+display:flex;
+justify-content: space-around;
+flex-wrap:wrap;
+}
+
+.textfooter{
+width: 45%;
+height:auto;
+
+
+}
+
+.textfooter ul{
+margin-top:15px;
+margin-left:15px;
+}
+.textfooter li{
+list-style-type:disc;
+}
+
+.services-info-img{
+width:45%;
+}
+
