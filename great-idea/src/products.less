@@ -1,0 +1,62 @@
+.products-banner-img {
+  height: 250px;
+  width: 100%;
+}
+
+.product section {
+  width: 50%;
+}
+@media (max-width: 480px) {
+  /* navbar area*/
+  .nav-bar {
+    flex-direction: column-reverse;
+    padding-top: 10px;
+    position: relative;
+
+    #main-nav {
+      margin-top: 0;
+      width: 100%;
+
+      ul {
+        flex-direction: column;
+        justify-content: center;
+
+        li {
+          width: 50%;
+          flex-wrap: wrap;
+
+          a:hover {
+            font-size: 1em;
+          }
+        }
+      }
+    }
+  }
+  /* first banner image before main text */
+  .banner-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  /* Start on product containers */
+  .product {
+    flex-direction: column;
+
+    .product-info {
+      h1 {
+        font-size: 36px;
+        text-align: center;
+      }
+
+      img {
+        height: 150px;
+        width: 100%;
+      }
+
+      p {
+        font-size: 16px;
+        padding-top: 20px;
+      }
+    }
+  }
+}

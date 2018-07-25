@@ -12,7 +12,6 @@
   margin: 30px auto;
 }
 
-
 /* two by three column */
 
 #twoBythree {
@@ -36,7 +35,6 @@
   padding: 2% 10%;
 }
 
-
 /* footer list and pic */
 
 #listAndPic {
@@ -52,8 +50,8 @@
 .services-info-img {
   height: 100%;
   width: 100%;
-
 }
+
 #footerList {
   display: flex;
   flex-direction: column;

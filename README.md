@@ -25,5 +25,5 @@ Once you have finished the home page using flexbox, go build the services page b
 
 ## Stretch Goals:
 - [x] Add an anchor tag around the Great Idea logo and point the `href` to`index.html`
-- [ ] Create another page based on one of the navigation items in addition to services.  Try to create a layout that follows the patterns of the first two designs but with your own creative twist.  Use lorem ipsum text for all your content.
+- x ] Create another page based on one of the navigation items in addition to services.  Try to create a layout that follows the patterns of the first two designs but with your own creative twist.  Use lorem ipsum text for all your content.
 - [x] Introduce media queries into your services page to create a mobile view that stacks all the boxes on top of each other on phone but looks like the layout file on desktop.
