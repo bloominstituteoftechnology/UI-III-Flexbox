@@ -64,3 +64,192 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 880px;
+    margin: auto;
+}
+
+header {
+    background: lightblue;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    margin: 0 0 20px 0;
+}
+
+.logo {
+    display: flex;
+    height: 30px;
+    margin: auto;
+    padding-left: 100px;
+}
+
+header ul, li {
+    display: flex;
+    list-style-type: none;
+}
+
+    header nav li {
+        padding: 25px;
+    }
+
+header a {
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid black;
+    width: 880px;
+    margin: 20px 0;
+}
+
+.cl1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-img {
+    order: 3;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    margin: 20px;
+    height: 350px;
+    width: auto;
+    align-items: center;
+}
+
+.middle-img {
+    margin: 25px 0;
+}
+
+.big {
+    flex-wrap: wrap;
+    font-size: 60px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+span {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.row .cl1 {
+    order: 1;
+    flex-grow: 1;
+}
+
+    .row .cl2 {
+        order: 3;
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .row h3 {
+        display: flex;
+        text-align:left;
+        justify-content: flex-start;
+    }
+
+    .row cl3 {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+address {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: auto;
+    height: 150px;
+    flex-wrap: wrap;
+}
+
+footer {
+    background: lightblue;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 5px;
+
+}
+
+.box span {
+    margin: 10px;
+}
+
+.services-header-img {
+    margin: 10px 0;
+}
+
+.listGroup li {
+    display: list-item;
+    width: 150px;
+    list-style-type: square; 
+    margin-left: 20px;
+}
+
+.botton {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.bottom img {
+    height: 200px;
+    width: 100%;
+}
+
+.bottom-box {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 10px;
+}
