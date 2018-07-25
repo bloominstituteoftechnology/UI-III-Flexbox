@@ -64,3 +64,151 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 880px;
+}
+.leftblockstart {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	text-align: center;
+	font-size: 73px;
+	padding: 0px 44px;
+	margin: 85px 40px;
+	width: 379px;
+}
+#start{
+	border: 1px solid black;
+	width: 106px;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 100px;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	width: 880px;
+	
+}
+ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.pagenav {
+	display: flex;
+	height: 62px;
+	width: 116px;
+	padding: 25px;
+	justify-content: center;
+
+}
+
+.topcontent {
+	display: flex;
+	justify-content: space-evenly;
+	border-top: 1px solid black; 
+	margin: 10px 5px;
+}
+
+.features {
+	padding: 0px 60px;
+	margin: 60px 25px;
+	width: 380px;
+}
+
+.middle-img {
+	align-items: center;
+}
+
+.bottomcontent {
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 1px solid black; 
+	margin: 10px 5px;
+}
+
+.bottomsection {
+	margin: 30px 15px;
+	width: 255px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 5px;
+	height: 379px;
+}
+
+footer {
+	text-align: center;
+	align-self: flex-end;
+}
+
+#content {
+	width: 880px;
+}
+
+/* Services page */
+
+.intro {
+	margin: 20px 5px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid black;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+.areas {
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 19px;
+}
+
+.area {
+	border: 1px solid black;
+	margin: 19px 0px;
+	padding: 15px;
+	width: 420px;
+	height: 205px;
+}
+
+.learn {
+	display: flex;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 5px 40px;
+	margin: 15px 0px;
+	width: 140px;
+	justify-content: center;
+	background-color: white;
+}
+
+.outro {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0px;
+	padding: 10px;
+}
+
+.outroLeft {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	margin: 15px;
+}
+
+.facts {
+	flex-direction: column;
+	list-style-type: square;
+	margin: 15px;
+	font-size: 12px;
+}
