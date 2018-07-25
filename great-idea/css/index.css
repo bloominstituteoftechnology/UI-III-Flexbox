@@ -63,4 +63,103 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+a {
+	list-style-type: none;
+	text-decoration: none;
+}
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	padding: 25px 0px;
+}
+
+header nav{
+	width: 69.32%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav a {
+	color: gray;
+	font-size: 14px;
+}
+
+header .logo {
+	align-self: flex-end;
+	margin-left: 87px;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 35px;
+	padding-bottom: 75px;
+}
+
+.cta-text {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	text-align: center;
+	margin-left: 87px;
+	font-size: 76px;
+}
+
+.cta-text button {
+	margin: 0px 78px;
+	padding: 6px 0px;
+	background: white;
+	border: 1px solid black;
+	font-size: 17px;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-flow: column nowrap;
+	padding-top: 34px;
+	padding-bottom: 40px;
+}
+
+.main-content .top-content {
+	display: flex;
+	flex-flow: row nowrap;
+	padding-bottom: 30px;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	flex-flow: row nowrap;
+	padding-top: 30px;
+}
+
+.main-content .bottom-content .text-content {
+	padding-right: 10px;
+}
+
+.contact {
+	padding-top: 41px;
+}
+
+.contact p {
+	padding: 6px 0px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+    padding-bottom: 90px;
+}
