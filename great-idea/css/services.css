@@ -63,22 +63,21 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-/* Nah dog, Imma do this from scratch */
+/* Start Here */
 
 body{
 	width: 880px;
 	margin: 0px auto;
-	padding: 25px;
+    padding: 25px;
+    font-size: 18px;
 }
 
 nav {
-	width: 880px;
+    width: 880px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0px 0px 60px 0px;
+	margin: 0px 0px 20px 0px;
 	
 }
 
@@ -93,25 +92,12 @@ a:hover {
 
 }
 
-header {
-	width: 880px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 0px 0px 50px 0px;
-}
-
 h1 {
-	font-size: 75px;
-	/* display: flex; */
+    font-size: 30px;
 }
 
-.innov {
-	display: flex;
-	flex-direction: column;
-	/* border: solid black 1px; */
-	text-align: center;
-	margin: 10px 0px 0px 50px;
+h2 {
+    font-size: 20px;
 }
 
 button {
@@ -124,7 +110,8 @@ button {
 	font-size: 16px;
 	transition-duration: 0.4s;
 	width: 50%;
-	margin: 20px 0px 0px 70px;
+    margin: 20px 0px 0px 70px;
+    border-radius: 10px;
 }
 
 button:hover {
@@ -134,50 +121,115 @@ button:hover {
 }
 
 hr {
-	width: 880px;
-	margin: 0px 0px 30px 0px;
+    width: 880px;
+    margin: 0px 0px 40px 0px;
 }
 
-.top-content {
-	width: 880px;
-	display: flex;
-	justify-content: space-between;
-	align-content: center;
-	margin: 0px 0px 30px 0px;
+.services-header-img {
+    margin: 0px 0px 20px 0px;
+    width: 880px;
 }
 
-.bottom-content {
-	width: 880px;
-	display: flex;
-	justify-content: space-between;
-	align-content: center;
-	margin: 0px 0px 30px 0px;
+.services {
+    width: 880px;
+    margin: 0px 0px 40px 0px;
+    /* border: solid black 1px; */
 }
 
-.middle-img {
-	margin: 10px 0px 30px 0px;
+.digital {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+    height: 280px;
 }
 
-#top {
-	width: 280px;
+.ux {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+    height: 280px;
 }
 
-#middle {
-	width: 280px;
+.digux {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 40px 0px;
+}
+
+.marketing {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+    height: 280px;
+}
+
+.web {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+    height: 280px;
+}
+
+.marketweb {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 40px 0px;
+}
+
+.ios {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+    height: 280px;
+}
+
+.android {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+    height: 280px;
+}
+
+.iosandroid{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 40px 0px;
+}
+
+.bottom {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.facts {
+    /* border: solid black 1px; */
+    height: 280px;
+    width: 400px;
+}
+
+ul {
+    width: 880px;
+    list-style-type: square;
+    margin-left: 20px;
 }
 
 
-#lower {
-	width: 280px;
-}
-
-
-.Contact {
-	width: 140px;
+.hr {
+    border: solid black 1.5px;
 }
 
 footer {
-	display: flex;
+    display: flex;
 	justify-content: center;
 	margin: 100px;
 }
+
+
+
+
+
