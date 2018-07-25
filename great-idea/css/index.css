@@ -64,11 +64,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-header nav {
-	/*width: 713px;*/
-	margin-top: 35px;
-}
-
 body {
 	display: flex;
 	flex-direction: column;
@@ -78,21 +73,19 @@ body {
 }
 nav {
 	margin: center;
-	/*flex-grow: 5;*/
 }
 
 ul {
 	display: flex;
 }
-a {
-	
+a {	
 	color: black;
 	text-decoration: none;
 	margin: 0px 65px 60px 0px;
 	font-size: 16px;
 }
 .logo {
-	width: 160px;
+	width: 148px;
 	height: 35px;
 	display: flex;
 }
@@ -126,27 +119,28 @@ h3 {
 	align-items: center;
 	justify-content: center;
 }
-.snippet{
+.snippet {
 	padding-left: 20px;
 }
 
 .p12 {
 	display: flex;
+	margin: 0px 5px 130px 0px;
 }
 .p345 {
 	display: flex;
-	margin: 40px 0px;
+	margin: 35px 0px 125px 0px;
 }
 .snippet img {
 	width: 390px;
 }
-footer {
-	margin-top: 40px;
-}
+
 .logopic {
 	display: flex;
 	vertical-align: middle;
-	/*flex-grow: 1;*/
+}
+.line {
+	margin: 30px 0px;
 }
 /*Div inside of the header containning nav and Di logopic*/
 .bgc {
@@ -158,9 +152,9 @@ footer {
 	height: 65px;
 }
 .test {
-	position: relative;
-	/*display: flex;*/
-	padding-top: 100px;
+	display: flex;
+	padding: 100px 0px;
+	margin-bottom: 310px;
 }
 .spacing {
 	margin-top: 90px;
@@ -171,5 +165,5 @@ img:hover {
 }
 nav ul li a:hover {
 	color: black;
-	font-size: 20px;
+	font-size: 18px;
 }
