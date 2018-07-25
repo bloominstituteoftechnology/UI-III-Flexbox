@@ -133,7 +133,7 @@ table {
 /* Set every element's box-sizing to border-box */
 
 * {
-    box-sizing: border-box  ;
+    box-sizing: border-box;
 }
 
 html,
@@ -154,11 +154,11 @@ h5 {
 
 /* Your code starts here! */
 
-     /* *   {
-        border: 1px solid black !important;
-    }  */
+*   {
+        border: 1px solid rgb(0, 0, 0) !important;
+    } 
 
-    .nav-text {
+.nav-text {
     display: flex;
     width: 100%;
     color: black;
@@ -167,11 +167,10 @@ h5 {
 }
 
 body {
-
-    margin: 0 auto ;
-   max-width: 800px ;  
-   display: flex ;
-   justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-item {
@@ -192,8 +191,7 @@ body {
 }
 
 .services-header-img {
-
-    width: 75% ;
+    width: 75%;
     height: 75%;
 }
 
@@ -210,30 +208,24 @@ body {
     background: white;
     border: 1px solid black;
 }
+/* 
+.flex-container {
+
+    display: flex;
+    justify-content: center;
+} */
+
 
 .textparent {
-    display: flex ;
-    align-content: space-around ;
-  
-   
+    display: flex;
+    justify-content: row ; 
+    background: rgb(214, 214, 214);
+    
 }
 
 
- .paragraph {
-    border: 1px solid black;
-    background: rgb(214, 214, 214);
-  
-} 
 
-.ui-text {}
 
-.marketing-text {}
-
-.webdev-text {}
-
-.ios-text {}
-
-.android-text {}
 
 .line-break {
     border: 1px solid black;
@@ -247,4 +239,4 @@ body {
 .footer-div {
     display: flex;
     justify-content: space-evenly;
-} 
+}
