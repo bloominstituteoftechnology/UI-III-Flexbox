@@ -96,7 +96,7 @@ header nav a {
 header nav a:hover {
 	transition: 200ms ease-in;
 	color:black;
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .services-hero {
@@ -125,6 +125,7 @@ hr {
     height: 250px;;
     margin: 20px 0px;
     padding: 10px;
+    border: black 1px solid;
 }
 
 .service-offered div button {
@@ -142,4 +143,26 @@ hr {
 
 footer {
     display: flex;
+    flex-direction: column;
+}
+
+.facts {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.details ul li {
+    margin: 10px 0px;
+    list-style-type: disc;
+}
+
+.copyright {
+    margin: 50px 0px;
+    align-self: center;
 }
