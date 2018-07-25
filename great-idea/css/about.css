@@ -207,7 +207,7 @@ nav a:hover {
 
 .logo {
 	margin: 0 0 0 880px;
-	padding: 5px;
+
 	position: fixed;
 
 }
@@ -230,34 +230,15 @@ h1 {
   width: 100%;
   
 }
-.box1 { background:#e4e7e9;
- 
-}
-.box2 { background:#e4e7e9;
-}
-.box3 { background:#e4e7e9;
-}
-.box4 { background:#e4e7e9;
-}
-.box5 { background:#e4e7e9;
-}
-.box6 { background:#e4e7e9;
-}
-.box7 { background:#e4e7e9;
-}
-.more1 { background:white;}
-.more2{ background:white}
-.more3 { background: white;}
-.more4 { background: white;}
-.more5 { background: white;}
+.box1 { background: #e4e7e9;}
+
+
 .more6 { background: white;}
 
 
 .container {
 	display:flex;
-	
    justify-content: center;
-
 }
 .more {
 	justify-content: center;
@@ -271,7 +252,6 @@ h1 {
 	cursor: pointer;
 }
 .box {
-
 	width: 44.2%;
 	margin: 23.33px;
 	box-shadow: 0px 0px 1px 0px;
@@ -304,8 +284,6 @@ h1 {
 	display:flex;
 	flex-wrap: wrap;
 	flex:1;
-
-
 }
 .fact {
 	width: 46.333%;

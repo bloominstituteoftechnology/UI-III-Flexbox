@@ -207,7 +207,6 @@ nav a:hover {
 
 .logo {
 	margin: 0 0 0 880px;
-	padding: 5px;
 	position: fixed;
 
 }
@@ -221,10 +220,7 @@ h1 {
 	margin-top: 40px;
 }
 .top {
-	
-
 	margin:35px;
-
 	justify-content: space-between;
 	align-items: center;
 }
@@ -279,7 +275,7 @@ h1 {
 	margin: 35px 0;
 }
 
-.spv {
+.mains {
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
@@ -316,4 +312,12 @@ footer h3::before {
 
 footer h3 {
 	align-self: center;
+}
+
+
+}
+@media screen and (max-width: 700px) {
+    .top .main, .nav {   
+        flex-direction: row;
+    }
 }
