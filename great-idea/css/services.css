@@ -63,18 +63,19 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 
 
 
 body {
 	width: 880px;
-	height: 1440px;
+	height: 1600px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-content: center;
+	justify-content: space-between;
 }
 
 
@@ -84,8 +85,6 @@ header{
 	flex-direction: row;
 	align-items: center;
 	height: 80px;
-	margin-top: 30px;
-	margin-bottom: 40px;
 	flex-wrap: wrap;
   }
   .nav{
@@ -98,102 +97,81 @@ header{
 	color: gray;
   }
 
- article{
-	 display: flex;
-	 flex-direction: row;
-	 flex-wrap: wrap;
- } 
-  article .title{
-	height:400px;
+  .header{
+	  display: flex;
+	  justify-content: space-evenly;
+	  flex-direction: column;
+  }
+  article{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	width: 880px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-bottom: 10px;
-  }
-  
-  article .title h2{
-	width: 440px;
-	display: flex;
-	flex-direction: column;
+	height: 723px;
+	justify-content: space-between;
 	align-items: center;
   }
-  article #top-text {
-	font-size: 83px;
-  }
-  article #middle-text {
-	font-size: 83px;
-  }
-  article #bottom-text {
-	font-size: 83px;
-  }
-  article .title .button{
+
+  .content{
+	height:225px;
+	width: 420px;
+	padding: 10px;
+	background-color:#cccccc;
 	border: 2px solid black;
-	height: 40px;
-	width: 178px;
 	display: flex;
 	flex-direction: column;
-	align-items: center; 
-	justify-content: center;
+	justify-content: space-evenly;
+	
   }
   
-  article .title .button a {
-	text-decoration: none;
-	color: black;
-	padding-top: 20px;
+  .content p{
+	padding-top: 15px;
+  }
+  .content .button{
+	  border: 1px solid black;
+	  height: 40px;
+	  width: 102px;
+	  margin-left: 20px;
+	  display:flex;
+	  justify-content: center;
+	  align-items: center;
+	  border-radius: 5px;
+	  background: white;
   }
 
-article .black-line{
-	width: 100%;
-	border-top: 1px solid black;
-	margin-top: 70px;
-}
- 
-article .top {
+body footer{
 	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	height: 100px;
+	flex-direction: row;
+
+	justify-content: space-between;
 }
-article .top-text{
-	width: 50%;
-}
-article .bottom {
+footer div {
 	display: flex;
+	width: 400px;
 	flex-direction: column;
-	flex-wrap: wrap;
-	margin-top: 40px;
-	height: 127px;
+	justify-content: space-between;
+	align-items: flex-start;
 }
-article .bottom-text{
-	width: 29%;
+footer div p{
+	flex-grow: 3;
+}
+footer div .contentTitle{
+	flex-grow: 1;
 }
 
-.contact{
+footer div .footerList{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	margin-top: 30px;
+	list-style-type: square;
+	flex-grow: 7;
 }
-.contact address{
-	margin-bottom: 10px;
-}
-.contact p{
-	font-family: 'Bangers';
-	margin-bottom: 10px;
-}
-.contact .contactInfo{
-	font-family: sans-serif;
-	margin-bottom: 10px;
+footer div .footerList li{
+	margin-left: 20px;
+	
 }
 
-/*-------------------DONE ABOVE---------------------------------------*/
-
-body footer .copyright{
+  body .copyright{
 	display: flex;
 	justify-content: center;
 	margin-top: 40px;
