@@ -163,6 +163,7 @@ flex-wrap:wrap;
 
 
 
+
 }
 .footer{
 display:flex;
@@ -226,6 +227,8 @@ border:1px solid black;
 margin-bottom:50px;
 padding:25px;
 background-color: #efe5e3;
+min-height: 250px;
+min-width: 250px;
 }
 
 .servicebutton{
