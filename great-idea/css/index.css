@@ -135,7 +135,7 @@ body {
 	margin: 1rem;
 }
 
-.main-content {
+.middle-top {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -143,7 +143,7 @@ body {
 }
 
 
-.main-content .about, .main-content .features {
+.middle-top .about, .middle-top .features {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -154,6 +154,7 @@ body {
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 182px;
+	margin: 3rem;
 }
 
 .main-bottom {
@@ -264,6 +265,13 @@ body {
 
 .serv-copy-right {
 	text-align: center	;
+}
+
+.services-info-img {
+	height: 100%;
+	width: 500px;
+	align-self: center;
+	margin: 0 0rem 0 1rem;
 }
 
 
