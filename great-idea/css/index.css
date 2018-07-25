@@ -144,7 +144,7 @@ h3{
 }
 
 footer{
-	height: 40px;
+	margin-top: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -161,15 +161,13 @@ h2 {
 
 .bottom{
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: purple;
 	margin-top: 30px;
 }
 
 .bottomtext{
 	display: flex;
 	flex-direction: column;
+	margin-right: 50px;
 }
 .list{
 	list-style-type: square;
@@ -196,7 +194,7 @@ li{
 .servicesections{
 	display: flex;
 	flex-direction: column;
-	border: solid;
+	border: solid 1px;
 	background:#bbbbbf;
 	flex-basis: 430px;
 	height: 220px;
@@ -206,4 +204,8 @@ li{
 
 p{
 	margin: 20px 0;
+}
+
+.button{
+	width: 130px;
 }
