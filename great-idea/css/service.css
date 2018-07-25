@@ -74,7 +74,7 @@ body {
 
 /* Navigation */
 .navigation {
-    background-color: lightblue;
+    background-color: white;
     display: flex;
     position: fixed;
     flex-wrap: wrap;
@@ -111,6 +111,9 @@ header h1 {
     padding: 20px 0;
 }
 /* Services Offered */
+h2 {
+    font-weight: bold;
+}
 section.services-offered {
     display: flex;
     justify-content: space-between;
@@ -148,6 +151,7 @@ section.facts {
     width: 90%;
 }
 section.facts img {
+    max-width: 48%;
     position: relative;
     display: flex;
     margin-left: auto;
@@ -160,15 +164,13 @@ section.facts img {
 section.facts p {
     padding: 20px 0;
 }
-section.facts li {
-
+section.facts ul {    
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 31px;
 }
-section.facts ul {
-    list-style: square;
-    margin-left: 4%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+section.facts ul li {
+    padding: 6px 0;
 }
 /* Footer area */
 footer {
