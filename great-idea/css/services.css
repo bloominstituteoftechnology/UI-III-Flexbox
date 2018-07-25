@@ -1,0 +1,97 @@
+
+section.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.main-services {
+	margin-top:35px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	
+}
+
+img.services-header-img {
+	margin-top:15px;
+}
+
+div.main-services p {
+	flex: 1 1 auto;
+}
+
+h1.service-head {
+	font-size: 25px;
+}
+/*************************
+  display section style
+**************************/  
+section.content {
+	display: flex;
+	flex-direction: column;
+	margin-top:35px;
+}
+
+section.display {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+aside.left {
+	margin-right:20px;
+}
+aside.right {
+	margin-left: 20px;
+}
+
+aside.left, aside.right {
+	border: 1px solid gray;
+	background: #D3D3D3;
+	margin-bottom: 40px;
+	padding: 25px 20px;
+	flex: 1 1 auto;
+	line-height: 1.2;
+}
+
+section.display a {
+  background-color: white;
+  border: 1px solid #000;  
+  border-radius:2px;
+  margin-top:22px;
+  width:150px;
+  color: #000;
+  font-size:14px;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius:7px;
+  text-decoration: none;
+}
+
+section.display a:focus,
+section.display a:hover {
+  background-color: FireBrick;
+  color: White;
+}
+section.service-facts {
+	display: flex;
+	justify-content: space-between;
+}
+
+aside.facts, aside.services-info-img {
+	border:none;
+	padding:0;
+	background: #fff;
+}
+
+ul.lists {
+	margin-top: 20px;
+	list-style-type:circle;
+	list-style-position: inside;
+}
+
+ul.lists li {
+	margin: 7px 0;
+}

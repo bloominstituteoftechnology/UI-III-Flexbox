@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 *******************/
 div.container {
 	width: 880px;
-	margin: 20px auto;
+	margin: 40px auto;
 	display: flex;
 	background-color: #FFF;
 
@@ -106,11 +106,11 @@ header {
 }
 header nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
     /*margin-top:10px;*/
-	/*width: 690px;*/
-	 flex-grow:3;
+	width: 600px;
+	 
  } 
 
 header nav a {
@@ -135,13 +135,14 @@ header nav a:hover {
 img.logo {
 	display: flex;
 	justify-content: flex-end;
-	flex-grow:1;
+	/*flex-grow:1;*/
+	align-items: center;
 }
 /**********************
   Header styles part - II
 ***********************/
 section.header-main {
-	margin-top:65px;
+	margin-top:20px;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -153,17 +154,16 @@ aside.left, aside.right  {
 	
 }
 
-aside.left {
+/*aside.left {
 	flex-grow:1;
 }
 aside.right {
 	flex-grow:2;
-}
+}*/
 
 aside.header-left {
 	padding: 60px;
 	text-align: center;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
@@ -171,7 +171,7 @@ aside.header-left {
 
 aside.header-left h1 {
 	font-size: 75px;
-
+    text-align:center;
 	display: flex;
 	justify-content: center;
 	/*align-items: center;*/
@@ -202,8 +202,8 @@ aside.header-img {
 }
 
 img.header-image {
-	height: 80%;
-	width:auto;
+	/*height: 80%;*/
+	width:80%;
 }
 
 /*********************
@@ -236,3 +236,4 @@ footer a {
 	text-decoration: none;
 	color:#000;
 } 
+
