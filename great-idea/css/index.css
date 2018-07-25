@@ -64,3 +64,355 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*** BEGIN HEADER ***/
+
+header {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* NAVIGATION BAR */
+
+header nav .navbar {
+	position: absolute;
+	background: white;
+	width: 90%;
+	z-index: 10;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+header nav .navbar a{
+	padding: 20px;
+	padding-left: 0px;
+	/* border: 1px solid blue; */
+	text-decoration: none;
+	color: slategray;
+	outline: none;
+	transition: color 300ms ease;
+}
+
+header nav .navbar a:not(.logo):hover{
+	color: black;
+	transition: color 300ms ease;
+}
+
+header nav .navbar .logo{
+	transition: transform 300ms ease-in-out;
+	margin: 0px;
+	padding: 10px;
+	padding-right: 0px;
+}
+
+header nav .navbar .logo:hover{
+	transform: scale(1.15, 1.15);
+	opacity: 0.7;
+}
+
+/* RESPONSIVE NAV */
+#collapse-btn {
+	font-size: 40px;
+	padding: 10px 0px 0px 0px;
+	cursor: pointer;
+	outline: none;
+	background: white;
+	transition: opacity 300ms ease;
+	opacity: 1;
+	color: black;
+}
+
+#collapse-btn:hover {
+	opacity: 0.7;
+	transition: opacity 300ms ease;
+}
+
+@media screen and (min-width: 900px) {
+	#collapse-btn {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	header nav .navbar-open {
+		z-index: 10;
+		background: white;
+		position: absolute;
+		width: 90%;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+
+	header nav .navbar a:not(.logo) {
+		display: none;
+	}
+
+	header nav .navbar-open a:not(.logo) {
+		padding: 25px;
+		padding-left: 0px;
+		text-decoration: none;
+		color: slategray;
+		outline: none;
+		transition: color 300ms ease;
+	}
+
+	header nav .navbar-open a:not(.logo):hover{
+		color: black;
+		transition: color 300ms ease;
+	}
+
+	header nav .navbar-open .logo{
+		position: absolute;
+		right: 0;
+		padding: 10px;
+		padding-right: 0px;
+		transition: 300ms ease-in-out;
+	}
+
+	header nav .navbar-open .logo:hover{
+		transform: scale(1.15, 1.15);
+		opacity: 0.7;
+	}
+}
+
+
+/* STICKY NAV */
+.sticky {
+	position: fixed !important;
+	top: 0;
+	width: 100%;
+}
+
+/*** END NAVBAR ***/
+
+/*** BEGIN BANNER ***/
+
+/* BANNER */
+
+header .banner {
+	width: 100%;
+	margin-top: 100px;
+	display: flex;
+}
+
+/* LEFT BANNER */
+
+header .banner .banner-left {
+	width: 50%;
+	height: 40vw;
+	max-height: 379px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+
+header .banner .banner-left .slogan{
+	font-size: 8vw;
+	text-align: center;
+	max-height: 200px;
+}
+
+@media screen and (min-width: 800px) {
+	header .banner .banner-left .slogan {
+	   font-size: 64px;
+	}
+  }
+
+header .banner .banner-left .get-started {
+	width: 150px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 0 auto;
+	transition: color 300ms ease, border 300ms ease;
+}
+
+header .banner .banner-left .get-started:hover{
+	color: slategray;
+	border: 1px solid slategray;
+	transition: color 300ms ease, border 300ms ease;
+}
+
+header .banner .banner-left a {
+	text-decoration: none;
+	color: black;
+}
+
+/* RIGHT BANNER */
+
+header .banner .banner-right {
+	width: 50%;
+	height: 40vw;
+	flex-flow: column nowrap;
+	justify-content: center;
+	max-height: 379px;
+	background: url('../img/header-img.png') no-repeat center;
+	background-size: contain;
+	margin: 0 auto;
+}
+/*** END BANNER ***/
+
+
+/*** BEGIN MAIN CONTENT ***/
+
+.line-fullwidth {
+	width: 100%;
+	border-bottom: 1px solid black;
+	margin: 40px 0px;
+}
+
+main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*** INDEX.HTML ***/
+
+/* TOP CONTENT */
+main .content-container .top-content {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+}
+
+
+main .content-container .content-half {
+	text-align: justify;
+}
+
+main .content-container .whitespace {
+	margin: 0px 10px;
+}
+
+/* CONTENT IMAGE */
+
+main .content-container .content-img {
+	overflow: hidden;
+	width: 100%;
+	margin: 20px 0px;
+} 
+
+/* BOTTOM CONTENT */
+
+main .content-container .bottom-content {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+main .content-container .content-third {
+	text-align: justify;
+}
+
+/* FOOTER */
+
+.contact {
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	margin: 50px 0px;
+}
+
+
+/*** SERVICES.HTML ***/
+
+
+
+.banner-services {
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 20px 0px;
+}
+
+.banner-services .services-header-img {
+	margin: 40px 0px;
+	background: url('../img/services-header.jpg');
+	background-size: cover;
+	height: 200px;
+}
+
+.banner-services h1 {
+	font-size: 28px;
+}
+
+.content-services {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.services-item {
+	flex: auto;
+	border: 1px solid black;
+	background: lightgrey;
+	width: 40%;
+	padding: 20px;
+	margin: 20px;
+}
+
+/* RESPONSIVE ITEMS */
+
+@media screen and (max-width: 700px){
+	.services-item {
+		width: 100%;
+	}
+}
+
+.learn-more {
+	text-align: center;
+	background-color: white;
+	left: 0;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: 1px solid black;
+	max-width: 150px;
+	padding: 15px;
+	transition: opacity 300ms ease;
+}
+
+.learn-more:hover {
+	opacity: 0.7;
+	transition: opacity 300ms ease;
+}
+
+.services-item a{
+	text-decoration: none;
+	color: black;
+	outline: none;
+}
+
+.footer-services {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.footer-services .footer-facts {
+	width: 45%;
+	margin: 10px;
+	margin-left: 0px;
+}
+
+.footer-services .footer-img {
+	width: 45%;
+	overflow: hidden;
+	margin: 10px;
+	margin-right: 0px;
+}
+
+
+.footer-img img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+/*** END MAIN CONTENT ***/
