@@ -1,0 +1,177 @@
+
+    
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+    
+h1{
+  font-size: 80px; 
+ }
+
+#page2{ 
+  width: 100%;   
+ }
+        
+section{
+  display: flex; 
+  width: 100%; 
+  flex-direction: column;  
+  justify-content: center; 
+  margin-top: 100px; 
+}
+
+.pageLogo{ 
+  width: 100%; 
+  text-align: center;  
+  animation-name: logoAnimate; 
+  animation-duration: 8s;
+  animation-delay: 3s; 
+  opacity: 0; 
+  margin-top: -250px; 
+  z-index: 1; 
+ }
+        
+.innovation{
+  padding: 40px;  
+  animation-name: innovation; 
+  animation-duration: 5s; 
+  opacity: 0; 
+  width: 30%; 
+}
+    
+.on{
+  text-align: center; 
+  opacity: 0; 
+  animation-name: on; 
+  animation-duration: 5s; 
+  animation-delay: 1s; 
+}
+    
+.demand{
+  text-align: right; 
+  padding: 40px; 
+  animation-name: demand; 
+  animation-duration: 5s; 
+  animation-delay: 2s;
+  opacity: 0;  
+ }
+    
+      
+@keyframes logoAnimate {
+  0%{
+     transform: translate(-2000px, 0px); 
+     opacity: 1; 
+    }
+  50%{
+     transform: translate(0px, 0px); 
+     }
+  53%{
+     transform: rotate(5040deg); 
+     }
+  98%{
+     opacity: 1;    
+     }
+  100%{
+     opacity: 0;
+     }
+   }
+        
+@keyframes innovation {
+  0%{
+     transform:translate(2000px, 0px); 
+     opacity: 1; 
+    }
+  25%{
+     opacity: 1; 
+     transform: translate(0px,0px); 
+     }
+ 100%{
+     opacity: 0; 
+     }
+   }
+    
+@keyframes on{
+  0%{
+    transform: translate(2000px, 0px);
+    opacity: 1; 
+   }
+ 25%{
+    opacity: 1; 
+    transform: translate(0px, 0px); 
+    }
+100%{
+    opacity: 0; 
+    }
+   }
+    
+@keyframes demand{
+  0%{
+    transform: translate(2000px, 0px);
+    opacity: 1; 
+ }25%{
+    opacity: 1; 
+    transform: translate(0px, 0px); 
+     }
+ 100%{
+    opacity: 0; 
+     }
+   }
+      /*Media Query--------------------------------------------*/
+    
+     
