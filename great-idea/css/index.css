@@ -147,7 +147,7 @@ h1.services {
 .services-header-img {
   width: 880px;
   height: 200px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0px 0px 30px 0px;
 }
 
@@ -267,5 +267,5 @@ address {
   display: flex;
   height: 300px;
   width: 420px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
