@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your 
+/* Copy and paste your */
 header nav {
 	display: flex;
 	justify-content: flex-start;
@@ -127,13 +127,14 @@ header nav {
   }
   
   .main-content {
-	border-top: 1px solid black;
-	margin-top: 76px;
-	padding-top: 39px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
   }
   
   .main-content .top-content {
-	padding: 0 10px;
+	justify-content: flex-start;
+	flex-direction: row;
   }
   
   .main-content .top-content .text-content {
@@ -148,11 +149,11 @@ header nav {
   
   .main-content .middle-img {
 	margin-top: 45px;
+	width:1000px;
   }
   
   .main-content .bottom-content {
-	margin-top: 37px;
-	padding: 0 10px;
+	justify-content: flex-start;
   }
   
   .main-content .bottom-content .text-content {
