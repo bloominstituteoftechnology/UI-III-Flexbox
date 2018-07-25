@@ -408,6 +408,10 @@ header nav a:last-child {
 	background-color: #ebe0d1;
 }
 
+.top-content.border-top-content {
+	border-top: 1px solid black;
+}
+
 
 /* Media Query  Services */
 
