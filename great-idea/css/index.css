@@ -102,6 +102,10 @@ hr {
 	width: 80%; 
 	text-align: center;  
   }
+
+  i{ 
+	 font-size: 0px;  
+  }
 	
 	/*Nav Bar------------------------------------------------------------------------*/
 
@@ -114,40 +118,40 @@ hr {
 	background-color: rgba(6, 143, 177, 0.2); 
  }
 
-  nav {
-  	display: flex; 
-	  flex-wrap: wrap; 
-	  justify-content: center; 
-	  width: 73%; 
-	  text-align: center; 
-	  padding-top: 35px;  
-  }
+nav {
+	display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  width: 73%; 
+  text-align: center; 
+	padding-top: 35px;  
+ }
   
-  nav a {  
-	  color: grey; 
-	  text-decoration: none; 
-	  margin-left: 9%;  
-	  font-size: 14px; 
-  }
+nav a {  
+  color: grey; 
+  text-decoration: none; 
+  margin-left: 9%;  
+  font-size: 14px; 
+ }
   
-  nav a:hover {
-  	color: black; 
-	  font-weight: bold; 
-	  font-size: 16px; 
-	  transition: 0.7s; 
-  }
-  
-  
-  .navLogo {
-  	display: flex; 
-  	margin-left: 10px; 
-  	flex-wrap: wrap; 
-  	width: 24%; 
-  	padding: 25px 0px 30px 0px; 
-  }
+nav a:hover {
+  color: black; 
+  font-weight: bold; 
+  font-size: 16px; 
+	transition: 0.7s; 
+ }
+	
+ 
+.navLogo {
+  display: flex; 
+  margin-left: 10px; 
+  flex-wrap: wrap; 
+  width: 24%; 
+  padding: 25px 0px 30px 0px; 
+ }
   
   .button1{
-	  width: 180px; 
+    width: 180px; 
   	border: 1px solid green; 
   	margin-top: 20px; 
   	padding: 9px; 
@@ -156,7 +160,9 @@ hr {
   .button1:hover{
 	  background-color:rgba(6, 143, 177, 0.2); 
 	  color: black; 
-	  font-weight: bold; 
+		font-weight: bold; 
+		font-size: 1.2em; 
+		transition: 0.2s; 
   }
 	
 	/* Header and Banner------------------------------------------------------------------*/
@@ -168,11 +174,10 @@ hr {
   	width: 49%; 
   	text-align: center; 
   	padding-top: 50px; 
-  	padding-left: 100px; 
+  	padding-left: 100px;
   }
 
   .bannerImage{
-	  display: flex;  
 	  width: 49%; 
   }
   
@@ -183,7 +188,8 @@ hr {
   	flex-wrap: wrap;
 	  justify-content: center;  
    }
-  
+
+ 
   
 	/* first row of section --------------------------------------------------*/
 
@@ -254,7 +260,157 @@ hr {
 	}
   
   
-  
+@media screen and (min-width:601px) and (max-width: 900px){
+  h1 {
+	  font-size: 60px;  
+	 }
+	.banner{
+	  padding-left: 0px;  
+	 }
+	.bannerImg{
+	  width: 75%; 
+	  height: 75%;  
+	 }
+	.logo{
+		margin-right: 20px; 
+	 }
+	.bannerImage{
+    display: flex; 
+	  align-items: center;
+		}
+	nav a{
+		margin-left: 6%; 
+		font-size: 12px;
+		font-weight: bold;  
+	 }
+	nav {
+		width: 60%; 
+	}
+	.navLogo{
+		width: 30%; 
+	}
+  } 
+	 
+@media screen and (min-width: 400px) and (max-width:600px){
+  h1{
+    font-size: 35px; 
+	 }
+  header{
+	  padding-bottom: 0px; 
+	 }
+  .banner{
+	  padding-left: 0px;  
+	  width: 100%; 
+	  padding-top: 0px;  
+   }
+  .bannerImg{
+    width: 65%; 
+	  height: 65%;  
+	 }
+  .bannerImage{
+	  display: flex; 
+		align-items: center;
+		justify-content: center; 
+		width: 100%; 
+	 } 
+	.navLogo{
+		width: 40%; 
+		margin: 5px 20px 0px 0px; 
+	 }
+	nav a {
+		display: none; 
+	 }
+	nav{
+		display: flex; 
+		justify-content: flex-start; 
+		width: 48%; 
+	 }
+	i{
+		margin-left: 15px; 
+		padding-bottom: 20px;  
+		font-size: 25px;  
+	 }
+	.fixed{
+		background: white;  
+		background-color: rgba(6, 143, 177, 0.2); 
+	 }
+	.about{
+	  width: 100%; 
+		padding-top: 15px; 
+	 }
+  .features{
+		padding-top: 10px; 
+		width: 100%;  
+	 }
+	.services{
+	  width: 100%; 
+	 }
+	.product{
+		width: 100%; 
+	 }
+	.vision{
+		width: 100%; 
+	 }
+ }
+	
+@media screen and (max-width: 399px){
+	h1{
+		font-size: 35px; 
+	 }
+	.navLogo{
+		width: 40%;  
+		margin:5px 30px 0px 0px; 
+	 }
+	.banner{
+		padding-left: 0px;  
+		width: 100%; 
+		padding-top: 0px; 
+	 }
+  .bannerImg{
+		width: 65%; 
+		height: 65%;  
+	 }
+	.bannerImage{
+		display: flex; 
+		align-items: center;
+		justify-content: center; 
+		width: 100%; 
+	 } 
+	header{
+		padding-bottom: 0px; 
+	 }
+	nav a {
+		display: none; 
+	 }
+	nav{
+		display: flex; 
+		justify-content: flex-start;  
+		width: 25%; 
+	 }
+	i{ 
+		font-size: 25px; 
+	 }
+	.fixed{ 
+		background-color: rgba(6, 143, 177, 0.2); 
+	 }
+	.about{
+		width: 100%; 
+		padding-top: 15px; 
+	 }
+	.features{
+	  padding-top: 10px; 
+	  width: 100%;  
+	 }
+	.services{
+		width: 100%; 
+	 }
+	.product{
+		width: 100%; 
+	 }
+	.vision{
+		width: 100%; 
+	 }
+}
   
   
   
@@ -274,7 +430,7 @@ hr {
 	display: inline-block; 
 	vertical-align: middle; 
 	animation-name: logoAnimate; 
-	animation-duration: 10s;
+	animation-duration: 9s;
   }
   
   
@@ -296,3 +452,8 @@ hr {
 	  opacity: 0; 
 	 }
   };
+
+
+  /*Media Query--------------------------------------------*/
+
+ 
