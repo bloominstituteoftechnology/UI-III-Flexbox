@@ -138,3 +138,22 @@ p	{
 .main-content .bottom-content div	{
 	margin: 30px 30px 40px 30px;
 }
+
+.contact	{
+	margin-left: 30px;
+}
+
+.contact p	{
+	margin-top: 20px;
+}
+
+footer	{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+
+footer p	{
+	font-size: 14px;
+}
