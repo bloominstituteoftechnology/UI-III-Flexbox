@@ -166,8 +166,9 @@ footer p	{
 }
 
 .services-intro	{
-	padding: 30px;
-	border-bottom: 1px solid black;
+	padding: 30px 0px;
+	width: 80%;
+	margin-left: 5%;
 }
 
 h5	{
@@ -180,6 +181,7 @@ h5	{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	border-bottom: 1px solid black;
+	border-top: 1px solid black;
 	padding-bottom: 30px;
 }
 
@@ -200,6 +202,7 @@ h5	{
 	margin-top: 30px;
 	display: flex;
 	justify-content: space-around;
+	margin-bottom: 80px;
 }
 
 .services-bottom-text	{
