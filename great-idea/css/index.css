@@ -64,3 +64,218 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	width: 880px;
+	margin: 20px auto;
+	display: flex;
+	flex-direction:column;
+}
+header{
+	position: relative;
+	width: 100%;
+}
+
+nav{
+	display: flex;
+	width:700px;
+	justify-content: space-evenly;
+	align-items: center;
+	position: fixed;
+	background-color: black;
+}
+nav a{
+	margin: 10px;
+	text-decoration: none;
+	color: lightgrey;
+	
+}
+
+.services-header-img{
+	margin: 20px 0px;
+}
+
+.servIntro{
+	margin:20px 0px;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+}
+
+.servIntro h2{
+	margin: 5px;
+	font-size: 15px;
+}
+
+.taglineSec{
+	margin: 50px 0px;
+	order: 2;
+	display:flex;
+	justify-content: space-evenly;
+	padding: 190px 0px;
+}
+
+.logo{
+	width: 20%;
+	position: relative;
+	left: 700px;
+}
+
+
+div.tagline{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+
+}
+
+div.tagline p{
+	font-size: 60px;
+	padding: 5px;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+}
+
+img.tagline{
+	height: 380px;
+	position: relative;
+	bottom: 180px;
+}
+
+div.tagline  #tiny{
+    font-size: 15px;
+    border: 1px solid black;
+	display: flex;
+	justify-content: center;
+    position: relative;
+    top: 20px;
+    padding: 20px 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+section.aboveimg{
+	border-top: 1px solid black;
+	margin: 30px 0px;
+	padding: 50px 0px;
+	order: 3;
+	display: flex;
+	
+
+}
+
+section.aboveimg h2{
+	font-weight: bold;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px 0px;
+
+}
+
+section.aboveimg div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	
+}
+
+.middle-img{
+	order: 4;
+}
+
+section.bellowimg h2{
+	font-weight: bold;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px 0px;;
+}
+
+
+section.bellowimg div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+section.bellowimg{
+	border-bottom: 1px solid black;
+	margin: 30px 10px;
+	padding: 65px 0px;
+	order: 5;
+	display: flex;
+	
+}
+
+.mainSec{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0px 0px 540px 0px;
+    border-bottom: 2px solid black;
+}
+
+.mainSec div{
+	display: flex;
+	flex-direction: column;
+	width: 420px;
+	order: 6;
+	border: 1px solid black;
+	background-color: lightgray;
+	justify-content: space-evenly;
+	margin: 10px;
+}
+
+.mainSec h2,p{
+	padding-top: 5px;
+}
+
+.mainSec button{
+	width: 150px;
+	margin-top: 10px;
+}
+
+.underMain{
+	display: flex;
+	flex-direction: row;
+	padding: 0px 0px 200px 0px;
+	order: 7;
+	justify-content: flex-start;
+}
+
+.insideUnderMain{
+	display: flex;
+	flex-wrap: wrap;
+	width: 440px;
+}
+
+.insideUnderMain h2, p, ul, li{
+	padding-top: 10px;
+}
+
+.insideUnderMain li{
+	list-style-type: circle; 
+}
+.services-info-img{
+	display: flex;
+    position: relative;
+    left: 450px;
+    bottom: 225px;
+}
+address{
+	order:5;
+}
+address h2{
+	font-family: 'Bangers', cursive;
+	padding-top: 20px;
+}
+
+footer{
+	order:10;
+	margin: 5px auto;
+	width: 200px;
+}
+
+.footerServ{
+	position: relative;
+	top: 120px;
+}
