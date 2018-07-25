@@ -1,0 +1,135 @@
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+/* .ilb {
+	display: inline-block;
+} */
+
+.flex {
+	display: flex;
+}
+body {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.2;
+}
+
+header {
+    justify-content: space-between;
+    padding: 15px 0;
+	max-width: 880px;
+	margin-bottom: 20px;
+}
+
+nav {
+    justify-content: space-between;
+	align-items: center;
+	flex: 1;
+	margin-right: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+	transition: .1s;
+}
+
+nav a:hover {
+    color: rgb(17, 17, 17);
+    text-decoration: underline;
+}
+
+header img {
+    /* border: 1px solid blue; */
+	/* padding-left: 80px; */
+	/* align-self: flex-end; */
+}
+
+header img:hover {
+	box-shadow: 8px 8px 10px black;
+}
+
+h1 {
+	font-size:  80px;
+	text-align: center;
+}
+
+.top {
+	border-bottom: 1px solid black;
+	padding-bottom: 60px;
+	margin-bottom: 35px;
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-text {
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	flex: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn {
+	border: 1px solid black;
+	padding: 5px 40px;
+	color: rgb(20, 20, 20);
+	transition: .15s;
+}
+
+.btn:hover {
+	background: rgb(46, 46, 46);
+	color: white;
+}
+
+.top-img {
+	/* border: 1px solid blue; */
+	/* padding-left: 20px; */
+}
+
+.features, .about {
+	margin-bottom: 35px;
+	max-height: 150px;
+	/* border: 1px solid blue; */
+}
+
+.f-a {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services, .products, .vision {
+	width: 32.8%;
+	margin: 35px 0;
+}
+
+.spv {
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 35px;
+	margin-bottom: 35px;
+}
+
+footer {
+	padding-bottom: 100px;
+}
+
+footer p {
+	text-align: center;
+	font-size: 14px;
+}
