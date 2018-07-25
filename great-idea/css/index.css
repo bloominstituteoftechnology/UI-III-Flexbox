@@ -94,11 +94,23 @@ body {
 
 .nav-item {
 	margin: 1rem;
+	-webkit-transition: 300ms ease-in-out;
+	-moz-transition: 300ms ease-in-out;
+	-ms-transition: 300ms ease-in-out;
+	-o-transition: 300ms ease-in-out;
+	transition: 1s ease-in-out;
 }
+
 
 .nav-link {
 	color: #333;
 	text-decoration: none;
+	
+}
+
+.nav-item:hover:not(.nav-item-logo) {
+	opacity: 0.7;
+	transform: rotate(360deg) scale(3,3);
 }
 
 
