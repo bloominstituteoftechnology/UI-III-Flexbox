@@ -128,6 +128,7 @@ h1, h2, h3, h4, h5 {
 }
 .navigation {
 	width: 880px;
+	margin-top: 1%;
 	height: auto;
 	background-color: white;
 	z-index: 100;
