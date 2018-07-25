@@ -55,6 +55,7 @@ table {
 html, body {
 	height: 100%;
 	margin: auto;
+	width: 880px;
 	font-family: 'Muli', sans-serif;
 	font-weight: 300;
 }
@@ -191,7 +192,7 @@ nav {
 	background-image: url("../img/services-info.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 450px;
+	width: 440px;
 	height: 320px;
 }
 
