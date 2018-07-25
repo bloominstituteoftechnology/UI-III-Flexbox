@@ -163,12 +163,14 @@ h5 {
 	width: 880px;
 	/* TB LR */
 	margin: 0 auto;
+
 }
 
 /* Flex Header */
 
 header {
 	display: flex;
+	flex-wrap: nowrap;
 	justify-content: space-around;
 }
 
@@ -215,6 +217,7 @@ header nav a:last-child {
 
 .cta {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -251,6 +254,7 @@ header nav a:last-child {
 /*--- Contact Flex ----*/
 .contact {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
 	margin-top: 57px;
@@ -321,6 +325,7 @@ header nav a:last-child {
 
 #footer {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: center;
 	align-items: flex-end;
@@ -384,3 +389,10 @@ header nav a:last-child {
 	height: 100px;
 }
 
+
+/* Media Query */
+
+@media(max-width:800px){
+
+
+}
