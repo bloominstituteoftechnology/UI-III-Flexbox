@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,18 +49,122 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.clearfix {
+	content: " "; /* Older browser do not support empty content */
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 3rem;
+}
+
+.nav-ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+.nav-item {
+	margin: 1rem;
+}
+
+.nav-link {
+	color: #333;
+	text-decoration: none;
+}
+
+
+.hero-section {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: center;
+	margin: 3rem;
+	padding-bottom: 3rem;
+	flex-wrap: wrap;
+}
+
+.hero-text, .hero-image {
+	margin: 1.5rem;
+}
+
+.hero-text h1 {
+	font-size: 54px;
+}
+
+.hero-text button {
+	padding: 0.5rem 3rem;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.middle h2 {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.middle div {
+	margin: 1rem;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 3rem;
+}
+
+
+.main-content .about, .main-content .features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.mid-img {
+	width: 100%;
+	height: 500px;
+}
+
+.main-bottom {
+	display: flex;
+	margin: 3rem;
+	justify-content: center;
+}
+
+
+.address address {
+	margin: 0 3rem;
+}
+
+.address-first {
+	margin-top: 1rem;
+}
+
+.copy-right {
+	text-align: center;
+}
