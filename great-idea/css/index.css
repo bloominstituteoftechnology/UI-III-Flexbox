@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+header nav {
+	/*width: 713px;*/
+	margin-top: 35px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	width: 880px;
+	margin: 0 auto;
+	font-family: 'Gaegu', cursive;
+}
+nav {
+	margin: center;
+	/*flex-grow: 5;*/
+}
+
+ul {
+	display: flex;
+}
+a {
+	
+	color: black;
+	text-decoration: none;
+	margin: 0px 65px 60px 0px;
+	font-size: 16px;
+}
+.logo {
+	width: 160px;
+	height: 35px;
+	display: flex;
+}
+p {
+	text-align: start;
+}
+h1 {
+	font-size: 95px;
+}
+h3 {
+	font-size: 16px;
+}
+#foot {
+	text-align: center;
+}
+#iod {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	height: 200px;
+	padding-left: 60px;
+	margin-top: 40px;
+	justify-content: center;
+	align-items: center;
+}
+.button {
+	width: 100px;
+	height: 40px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.snippet{
+	padding-left: 20px;
+}
+
+.p12 {
+	display: flex;
+}
+.p345 {
+	display: flex;
+	margin: 40px 0px;
+}
+.snippet img {
+	width: 390px;
+}
+footer {
+	margin-top: 40px;
+}
+.logopic {
+	display: flex;
+	vertical-align: middle;
+	/*flex-grow: 1;*/
+}
+/*Div inside of the header containning nav and Di logopic*/
+.bgc {
+	display: flex;
+	background-color: darkcyan;
+	position: fixed;
+	z-index: 1;
+	align-items: center;	
+	height: 65px;
+}
+.test {
+	position: relative;
+	/*display: flex;*/
+	padding-top: 100px;
+}
+.spacing {
+	margin-top: 90px;
+}
+img:hover {
+    -webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+nav ul li a:hover {
+	color: black;
+	font-size: 20px;
+}
