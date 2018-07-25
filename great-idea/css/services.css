@@ -70,7 +70,7 @@ body {
 
 #container {
 	padding: 0 40px 100px;
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 	background-color: #ffffff;
 	display: flex;
@@ -78,19 +78,23 @@ body {
 }
 
 header {
-	display: flex;
+    display: flex;
+    flex-direction: row;
 	padding: 20px;
 	align-items: center;
-	width: 960px;
+	max-width: 960px;
 	height: 55px;
     position: fixed;
 	left: 128px;
     margin-bottom: 60px;
     background-color: #fff;
+
+
 }
 
 header nav {
     padding-left: 20px;
+
 }
 
 
@@ -103,6 +107,8 @@ header nav a {
     color: #686565;
 	display: inline-block;
 	transition: transform 0.2s linear;
+
+
 }
 
 header nav a:hover {
