@@ -64,3 +64,206 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* default */
+body {
+	padding-top: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 880px;
+	margin: 0px auto;
+}
+
+/* nav */
+.navbar {
+	padding: 10px 0px;
+	display: flex;
+}
+
+.navbar nav {
+	display: flex;
+	order: 1;
+	flex-grow: 2;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navbar nav a {
+	color: lightgray;
+	margin-right: 60px;
+	font-weight: bold;
+}
+
+.navbar a.home-link {
+	width: 183px;
+	order: 2;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/* header */
+header.display-horizontal {
+	padding: 60px 0px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header section.main-header {
+	text-align: center;
+	order: 1;
+	flex-grow: 2;
+	justify-content: flex-start;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header section.main-header h1 {
+	font-size: 72px;
+	text-align: center;
+}
+
+header section.main-header a {
+	text-align: center;
+	color: darkslategrey;
+	border: 1px solid darkslategrey;
+	padding: 7px 35px;
+	font-weight: bold;
+}
+
+header .main-header-img {
+	width: 379px;
+	order: 2;
+	justify-content: flex-end;
+}
+
+/* main */
+main {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+main section.content-row {
+	display: flex;
+}
+
+main section.contact-row {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid black;
+	margin-top: 40px;
+	padding-top: 30px;
+}
+
+main section.left {
+	justify-content: flex-start;
+	padding-right: 2px;
+}
+
+main section.center {
+	justify-content: center;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+main section.right {
+	justify-content: flex-end;
+	padding-left: 2px;
+}
+
+main img.middle-img {
+	margin: 30px 0px;
+}
+
+/* footer */
+footer {
+	padding: 40px 0;
+}
+
+footer p {
+	text-align: center;
+}
+
+/* Services page */
+/* header */
+
+header.display-vertical {
+	padding: 20px 0px 40px 0px;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+header section.services-header {
+	margin-top: 30px;
+}
+
+header section.services-header h1 {
+	font-size: 24px;
+}
+
+/* main */
+
+main.services-content {
+	margin-top: 20px;
+}
+
+main.services-content section.card {
+	background-color: lavender;
+	border: 1px solid black;
+	margin: 20px 0px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+main.services-content section.card a {
+	width: 150px;
+	font-size: 14px;
+	text-align: center;
+	background: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+main.services-content section.left {
+	margin-right: 20px;
+}
+
+main.services-content section.right {
+	margin-left: 20px;
+}
+
+main.services-content section.services-footer {
+	border-top: 1px solid black;
+	margin-top: 20px;
+	padding: 40px 0px;
+	display: flex;
+}
+
+main.services-content section.services-footer section.services-facts {
+	margin-right: 50px;
+}
+
+main.services-content section.services-footer section.services-facts ul {
+	margin-top: 30px;
+}
+
+main.services-content section.services-footer section.services-facts ul li {
+	list-style-type: square;
+	margin-bottom: 20px;
+	position: relative;
+	left: 20px;
+}
+
