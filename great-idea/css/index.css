@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	line-height: 1.5;
+}
+
 .clearfix {
 	content: " "; /* Older browser do not support empty content */
 	visibility: hidden;
@@ -108,7 +112,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero-text, .hero-image {
-	margin: 1.5rem;
+	margin: 0 3rem;
 }
 
 .hero-text h1 {
@@ -145,9 +149,11 @@ h1, h2, h3, h4, h5 {
 	justify-content: center;
 }
 
-.mid-img {
-	width: 100%;
-	height: 500px;
+.index-mid-img {
+	background: url('../img/mid-page-accent.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 182px;
 }
 
 .main-bottom {
@@ -171,12 +177,21 @@ h1, h2, h3, h4, h5 {
 
 /* services page styles */
 
+.serv-hero-section {
+	display: flex;
+	flex-direction: column;
+	margin: 3rem;
+}
 
 .serv-hero-image {
 	background: url('../img/services-header.jpg');
 	width: 100%;
 	height: 300px;
 	background-size: cover;
+}
+
+.hero-text {
+	margin: 3rem;
 }
 
 .hero-text h1 {
@@ -188,6 +203,7 @@ h1, h2, h3, h4, h5 {
 	justify-content: center;
 	flex-wrap: wrap;
 	padding: 1rem;
+	border-top: 1px solid black;
 	border-bottom: 2px solid black;
 	margin: -3rem 3rem;
 }
@@ -215,6 +231,7 @@ h1, h2, h3, h4, h5 {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	cursor: pointer;
+	border: 1px solid black;
 }
 
 .bottom .bottom-flex {
@@ -238,6 +255,11 @@ h1, h2, h3, h4, h5 {
 
 .text-content {
 	width: 500px;
+}
+
+.text-content h2 {
+	font-size: 24px;
+	margin: 3rem 0rem;
 }
 
 .serv-copy-right {
