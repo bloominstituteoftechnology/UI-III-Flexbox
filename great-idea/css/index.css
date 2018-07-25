@@ -161,8 +161,44 @@ h1 {
 	margin-bottom: 20px;
 }
 
-p.copyright {
-	display: flex;
-	justify-content: center;
+#copyright {
+	text-align: center;
 }
 
+h2 {
+	font-size: 36px;
+}
+
+.svDiv {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+
+.svcs {
+	justify-content: flex-start;
+	border: 1px solid black;
+	background-color: lightgrey; 
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	width: 420px;
+	flex-wrap: wrap;
+
+	
+}
+
+.facts {
+	width: 420px;
+	margin: 10px;	
+}
+
+button {
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
