@@ -63,4 +63,196 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* ELEMENT SELECTORS */
+
+
+nav {
+
+	display: inline-flex;
+}
+
+
+
+footer {
+	font-family: open-sans;
+	margin: 50px;
+	text-align: center;
+}
+
+
+/* CLASS SELECTORS */
+
+.navbar {
+	order: 1;
+	margin: 0px 30px;
+	display: inline-flex;
+	color: rgb(151, 151, 151);
+}
+
+.logo {
+
+	order: 2;
+	margin: 0px 0px 0px 100px;
+}
+
+.firstsections {
+
+	display: inline-block;
+	width: 50%;
+	margin: 10px 0px 10px 0px;
+	
+}
+
+.middle-img {
+
+	text-align: center;
+}
+
+
+.secondSections {
+	display: inline-block;
+	width: 10%;
+	margin: 30px 0px 30px 0px;
+}
+
+/* ID SELECTORS */
+
+#container {
+	display: block;
+	width: 880px;
+	height: 800px;
+}
+
+#ideaHeader {
+	display:     flex;
+	flex-direction: row;
+	margin: 0;
+}
+
+#codeSnippet {
+	
+	order: 2;
+}
+
+#navwrap {
+	display: flex;
+	padding-top: 10px;
+}
+
+#articleHeader {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	height: 450px;
+}
+
+#innovation {
+	order: 1;
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+	font-size: 5em;
+}
+
+#innovationWrap {
+	margin-top: 50px;
+	width: auto;
+}
+
+#codeSnippet {
+	height: 379px;
+	width: 379px;
+} 
+
+
+#firstSection {
+	width: 876px;
+	height: 100px;
+	display: block;
+	margin: auto;
+	border-top: 1px solid black;
+	
+	
+}
+
+#aboutSection {
+
+	float: right;
+}
+
+#imgWrapper {
+
+	text-align: center;
+}
+
+#secondSection {
+	width: 876px;
+	height: 170px;
+	display: block;
+	margin: 50px auto;
+	border-bottom: 1px solid black;
+}
+
+#serviceSection {
+	float: left;
+	width:292px;
+	padding:  0px 10px 0 0;
+
+}
+
+#productSection {
+	width: 292px;
+	float: left;
+	padding:  0 10px 0 0;
+}
+
+#visionSection {
+	width: 292px;
+	float: right;
+	padding:  0px 0 0 10px;
+}
+
+#information {
+	height: 590px;
+}
+
+#contactWrap {
+
+	display: block;
+	width: 876px;
+	margin: auto;
+}
+
+#contactInfo {
+	display: block;
+	width: 876px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* PUESUDO SELECTORS */
+
+
+h2:last-child {
+	text-align: center;
+	width:150px;
+	padding: 5px 0;
+	margin: 20px auto;
+	text-align: center;
+	color: black;
+	font-family: sans-;
+	font-weight: 400;
+	border: 1px solid black;
+	letter-spacing: 1px;
+
+}
