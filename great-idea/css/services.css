@@ -68,8 +68,7 @@ h1, h2, h3, h4, h5 {
 body {
 	display: flex;
 	align-items: center;
-	flex-direction: column;
-	
+    flex-direction: column;
 }
 header {
 	display: flex;
@@ -86,109 +85,76 @@ header nav a {
 	text-decoration: none;
 	color: silver;
 }
-.top {
-	display: flex;
+h2 {
+    font-size: 25px;
 }
-.top section {
-	display: flex;
-	align-self: center;
-	flex-direction: column;
-	align-items: center;
-	padding: 0 100px;
+.services-header-img {
+    width: 880px;
+    padding-bottom: 25px;
 }
-.top h1 {
-	display: flex;
-	font-size: 64px;
-	text-align: center;
-}
-.top aside {
-	display: flex;
-	align-self: center;
-	margin: 25px 0;
+.services {
+    width: 880px;
 }
 hr {
 	height: 1px;
 	width: 880px;
 	border-bottom: solid black 1px;
 	display: inline-block;
-	margin: auto;
+    margin: 15px 0;
 }
 .middle {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 880px;
+    height: 750px;
 }
-.features {
-	display: flex;
-	flex-direction: column;
-	height: 150px;
-	width: 440px;
-	align-self: flex-start;
-	margin: 20px 0 auto;
-	padding: 0 auto;
-
+.middle section {
+    border: solid black;
+    border-width: thin;
+    height: 220px;
+    width: 430px;
+    padding: 15px;
+    margin: 10px;
 }
-.about {
-	display: flex;
-	flex-direction: column;
-	height: 150px;
-	width: 440px;
-	align-self: flex-end;
-	margin: 20px 0 auto;
-	padding: 0 auto;
+button {
+    display: flex;
+    align-self: flex-end;
 }
-.bottom {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-end;
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-width: thin;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
 }
-.services {
-	display: flex;
-	flex-direction: column;
-	height: 150px;
-	width: 293px;
-	align-self: flex-end;
-	margin: 30px 0 auto;
-	padding: 0 auto;
+.facts {
+    display: flex;
+    width: 880px;
 }
-.product {
-	display: flex;
-	flex-direction: column;
-	height: 150px;
-	width: 293px;
-	align-self: flex-end;
-	margin: 30px 0 auto;
-	padding: 0 auto;
+.facts h4 {
+    margin-top: 15px;
 }
-.vision {
-	display: flex;
-	flex-direction: column;
-	height: 150px;
-	width: 293px;
-	align-self: flex-end;
-	margin: 30px 0 auto;
-	padding: 0 auto;
+.facts section {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
 }
-.contact {
-	display: flex;
-	flex-direction: column;
-	width: 880px;
-	height: 200px;
+.facts section ul {
+    align-items: center;
+    text-align: left;
+    padding: 20px;
 }
-.contact h4 {
-	display: flex;
-	margin: 30px 0 0 0;
-}
-.contact address {
-	display: flex;
-	margin: 15px 0;
-}
-.contact p {
-	display: flex;
-	margin-bottom: 10px; 
+.facts section ul li {
+    padding-bottom: 10px;
 }
 footer {
+    padding-top: 50px;
 	padding-bottom: 100px;
 }
