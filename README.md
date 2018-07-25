@@ -21,7 +21,7 @@ Once you have finished the home page using flexbox, go build the services page b
   - Delete any content inside the body tag besides the navigation 
   - If you didn't finish yesterday's assignment, you may use the last assignment's solution code here instead.
   - Update the title in your newly copied services page to say `Great Idea! - Services`
-- [ ] Using the provided [design file](design-files/services-desktop-design.png), create the services page layout using flexbox.  Remember, you should be using box model properties this whole time.  Flexbox is only used for bigger layout pieces.  You will still need content width, padding, border, and margins to succeed. 
+- [x] Using the provided [design file](design-files/services-desktop-design.png), create the services page layout using flexbox.  Remember, you should be using box model properties this whole time.  Flexbox is only used for bigger layout pieces.  You will still need content width, padding, border, and margins to succeed. 
 
 ## Stretch Goals: 
 - [ ] Add an anchor tag around the Great Idea logo and point the `href` to`index.html`

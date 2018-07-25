@@ -107,7 +107,7 @@ a {
 }
 
 /* header */
-header {
+header.display-horizontal {
 	padding: 60px 0px;
 	border-bottom: 1px solid black;
 	display: flex;
@@ -115,7 +115,7 @@ header {
 	align-items: center;
 }
 
-header section {
+header section.main-header {
 	text-align: center;
 	order: 1;
 	flex-grow: 2;
@@ -125,12 +125,12 @@ header section {
 	align-items: center;
 }
 
-header section h1 {
+header section.main-header h1 {
 	font-size: 72px;
 	text-align: center;
 }
 
-header section a {
+header section.main-header a {
 	text-align: center;
 	color: darkslategrey;
 	border: 1px solid darkslategrey;
@@ -138,7 +138,7 @@ header section a {
 	font-weight: bold;
 }
 
-header img {
+header .main-header-img {
 	width: 379px;
 	order: 2;
 	justify-content: flex-end;
@@ -179,7 +179,7 @@ main section.right {
 	padding-left: 2px;
 }
 
-main img {
+main img.middle-img {
 	margin: 30px 0px;
 }
 
@@ -191,3 +191,79 @@ footer {
 footer p {
 	text-align: center;
 }
+
+/* Services page */
+/* header */
+
+header.display-vertical {
+	padding: 20px 0px 40px 0px;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+header section.services-header {
+	margin-top: 30px;
+}
+
+header section.services-header h1 {
+	font-size: 24px;
+}
+
+/* main */
+
+main.services-content {
+	margin-top: 20px;
+}
+
+main.services-content section.card {
+	background-color: lavender;
+	border: 1px solid black;
+	margin: 20px 0px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+main.services-content section.card a {
+	width: 150px;
+	font-size: 14px;
+	text-align: center;
+	background: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+main.services-content section.left {
+	margin-right: 20px;
+}
+
+main.services-content section.right {
+	margin-left: 20px;
+}
+
+main.services-content section.services-footer {
+	border-top: 1px solid black;
+	margin-top: 20px;
+	padding: 40px 0px;
+	display: flex;
+}
+
+main.services-content section.services-footer section.services-facts {
+	margin-right: 50px;
+}
+
+main.services-content section.services-footer section.services-facts ul {
+	margin-top: 30px;
+}
+
+main.services-content section.services-footer section.services-facts ul li {
+	list-style-type: square;
+	margin-bottom: 20px;
+	position: relative;
+	left: 20px;
+}
+
