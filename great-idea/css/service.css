@@ -150,33 +150,43 @@ section.facts {
     margin: 4% 0;
     width: 90%;
 }
-section.facts img {
+section.facts.img {
+    flex-direction: column;
     max-width: 48%;
     position: relative;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 8px;
-    width: 48%;
+    width: 440px;
     right: 20px;
     left: 145px;
+}
+.services-info-img {
+    top: -64px;
+    bottom: 0px;
+    left: -127px;
+    right: 49px;
+    position: relative;
+    margin-top: 55px;
+    margin-right: -233px;
+    margin-bottom: 0px;
+    margin-left: 139px;
 }
 section.facts p {
     padding: 20px 0;
 }
-section.facts ul {    
+section.facts ul { 
+    align-items: center;
+    text-align: left;
+    padding: 20px;
     list-style-type: square;
     list-style-position: inside;
     margin-top: 31px;
 }
 section.facts ul li {
-    padding: 6px 0;
+    padding-bottom: 10px;
 }
 /* Footer area */
 footer {
-    display: flex;
-    justify-content: center;
-
-    width: 100%;
-    margin: 20px 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
