@@ -249,6 +249,15 @@ footer {
 }
 
 .srvFooter {
+	display: block;
+
+
+}
+
+.services-info-img {
+	width: 300px;
+	/* border: 2px solid black; */
+	/* color: black; */
 
 }
 
