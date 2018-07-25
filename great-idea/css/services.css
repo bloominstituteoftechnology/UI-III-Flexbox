@@ -47,12 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-	display: flex;
-
-}
-
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -64,9 +58,255 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+body {
+
+    display: flex;
+    
+}
+
 #main-container {
-	min-width: 100wh;
-	flex-direction: column;
-	flex: 1 1 auto;
+    display: flex;
+	max-width: 98vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 1 auto;
 
 }
+
+h1 {
+
+    font-size: 30px;
+
+}
+
+h2 {
+
+    font-size: 20px;
+
+}
+
+h3 {
+
+    font-size: 20px;
+
+}
+
+p {
+
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav1 .a1 {
+
+    color: gray;
+    font-size: 20px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+}
+
+.boxnav {
+
+    font-size: 18px;
+    border: 1px solid black;
+    /* margin: 2px; */
+
+
+}
+
+/* header {
+
+    border: 1px solid green;
+    margin: 2px;
+    flex-direction: row;
+
+} */
+
+header .header {
+
+    /* border: 3px solid goldenrod; */
+    /* margin: 2px; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    width: 98vw;
+    margin-top: 10px;
+
+}
+
+header .header .nav1 {
+
+    /* border: 1px solid red; */
+    /* margin: 2px; */
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+header .header .logo {
+
+    /* border: 1px solid red; */
+    /* margin: 2px; */
+    height: auto;
+
+}
+
+header .services-header-img {
+
+    /* border: 1px solid red; */
+    /* margin: 2px; */
+    height: auto;
+
+}
+
+.servbox {
+
+    /* border: 1px solid red; */
+    flex-direction: column;
+    /* margin: 2px; */
+
+}
+
+.servbox .servboxp {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.boxes {
+
+    /* border: 1px solid red; */
+    flex-direction: row;
+    /* margin: 2px; */
+
+}
+
+.boxes .boxes1 {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.boxes .boxes1 .box1 {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.boxes .boxes1 .box2 {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.boxes .boxes2 {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.boxes .boxes2 .box3 {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.boxes .boxes2 .box4 {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.boxes .boxes3 {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.boxes .boxes3 .box5 {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.boxes .boxes3 .box5 {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.somefacts {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.somefacts .somefactstext {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.somefacts .somefactstext .littlelist {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+.services-info-img {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+footer {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+
+footer .copyright {
+
+    /* border: 1px solid red;
+    margin: 2px; */
+    height: auto;
+
+}
+

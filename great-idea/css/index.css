@@ -48,10 +48,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-	display: flex;
 
-}
 
 html, body {
     height: 100%;
@@ -65,10 +62,15 @@ h1, h2, h3, h4, h5 {
 }
 
 #main-container {
+	display: flex;
 	min-width: 100wh;
 	flex-direction: column;
 	flex: 1 1 auto;
 
+}
+
+body {
+	display: flex;
 }
 
 .header {
@@ -327,7 +329,7 @@ h1, h2, h3, h4, h5 {
 	justify-content: center;
 	align-items: flex-start;
 	height: 50px;
-	margin-top: 330px;
+	margin-top: 75px;
 	margin-bottom: 30px;
 }
 
@@ -343,6 +345,7 @@ h1, h2, h3, h4, h5 {
 .contact .contactHeader {
 	font-size: 20px;
 	display: flex;
+	margin-left: 10px;
 	
 }
 
