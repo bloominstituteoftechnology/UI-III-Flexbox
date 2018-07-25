@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+body {
+	width: 880px;
+	margin: 0 auto;
+}
+
+header {
+	width: 880px;
+	justify-content: space-between;
+	padding: 15px 0px;
+}
+
+.flex {
+	display: flex;
+}
+
+nav {
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.logo {
+	margin-left: 80px;
+	background-color: white;
+}
+
+/* End of Header */
+
+.top {
+	border-bottom: 1px solid black;
+	padding-bottom: 60px;
+	margin-bottom: 35px;
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+}
+h1 {
+	text-align: center;
+	font-size: 80px;
+}
+
+#innovation {
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	flex: 1;
+}
+
+.getStarted {
+	border: 1px solid black;
+	padding: 6px 40px;
+	font-size: 17px;
+}
+
+/* End of Top */
+
+.topMid {
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+/* End of Top Mid */
+
+.bottomMid {
+	justify-content: space-between;
+	margin-top: 40px;
+	align-content: center;
+	align-items: center;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+#services {
+	width: 33%;
+}
+
+#product {
+	width: 33%;
+}
+
+#vision {
+	width: 33%;
+}
+
+/* End of Bottom Mid */
+
+footer {
+	text-align: center;
+	font-size: 13px;
+	padding-bottom: 100px;
+	padding-top: 80px;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	line-height: 20px;
+}
+
+a:hover {
+	background-color: yellow;
+	color: black;
+  }
+
+.contactA {
+	color: black;
+	margin-left: 0px;
+}
+
+.notH2 {
+	margin-top: 30px;
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* End of index.html CSS */

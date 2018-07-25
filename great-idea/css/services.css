@@ -1,0 +1,124 @@
+/* Beginning of services.html CSS */
+
+.services-header-img {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#ServicesContainer {
+    flex-wrap: wrap;
+}
+
+.TopServices {
+    flex-direction: column;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+
+.TopServices h2 {
+    font-size: 28px;
+}
+
+/* End of Top Services section */
+
+.LargeMidContainer {
+    padding-top: 30px;
+    border-bottom: 2px solid black;
+}
+
+.DigitalDesign {
+    border: 1px solid black;
+    padding: 20px;
+    width: 47%;
+    background-color: whitesmoke;
+}
+
+.UXUI {
+    border: 1px solid black;
+    padding: 20px;
+    width: 47%;
+    background-color: whitesmoke;
+
+}
+
+.DigitalMarketing {
+    border: 1px solid black;
+    padding: 20px;
+    width: 47%;
+    background-color: whitesmoke;
+}
+
+.WebDevelopment {
+    border: 1px solid black;
+    padding: 20px;
+    width: 47%;
+    background-color: whitesmoke;
+}
+
+.IOSDevelopment {
+    border: 1px solid black;
+    padding: 20px;
+    width: 47%;
+    background-color: whitesmoke;
+}
+
+.AndroidDevelopment {
+    border: 1px solid black;
+    padding: 20px;
+    width: 47%;
+    background-color: whitesmoke;
+}
+
+.row1 {
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.row2 {
+	justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.row3 {
+	justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.LearnMoreBox {
+    border: 1px solid black;
+    padding: 10px;
+    width: 140px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* End of Large Mid Container */
+
+.BottomContainer {
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.Facts {
+    width: 47%;
+}
+
+.Facts li {
+    list-style-type: square;
+    margin: 15px 0px 15px 20px;
+}
+
+.services-info-img {
+    width: 47%;
+}
+
+/* End of Bottom Container */
+
+footer {
+    font-size: 14px;
+}
+
+/* End of services.html CSS */
