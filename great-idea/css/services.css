@@ -204,8 +204,9 @@ nav a:hover {
 
 .logo {
   margin: 0 0 0 880px;
-
   position: fixed;
+  flex:1;
+  justify-self: center;
 }
 .header-img {
   margin-top: 30px;
