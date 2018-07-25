@@ -78,6 +78,11 @@ h1 {
 	font-size: 80px;
 }
 
+.none {
+	margin: 0;
+	padding: 0;
+}
+
 /* Nav Bar */
 
 #nav-cust {
@@ -105,12 +110,14 @@ a {
 #wrapper {
 	display: flex;
 	margin: 0 0 50px 0;
+	padding: 50px;
 }
 
 .wrapper-first {
 	display: flex;
 	text-align: center;
 	align-items: center;
+	margin-right: 70px;
 }
 
 .wrapper-second {
@@ -119,13 +126,14 @@ a {
 	align-items: flex-end;
 }
 
-button {
+#home-button {
 	border: 2px solid black;
 	padding: 8px 50px;
 	text-align: center;
 	text-decoration: none;
 	background-color: white;
 	font-size: 17px;
+	border-radius: 0;
 }
 
 /* About */
@@ -152,3 +160,61 @@ address {
 #copyright {
 	text-align: center;
 }
+
+/* Services */
+
+#services {
+	margin: 30px 0 30px 0;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-box {
+	width: 45%;
+	margin: 20px 20px 20px 20px;
+	background-color: #cfcfc4;
+	border: 2px solid black;
+}
+
+.card-box h3 {
+	margin: 14px;
+}
+
+.card-box p {
+	margin: 14px;
+}
+
+.wrapper-1 {
+	margin-top: 20px;
+}
+
+button {
+	border: 2px solid black;
+	padding: 8px 50px;
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 8.5%;
+}
+
+#container-second {
+	display: flex;
+	margin: 50px 0 50px 0;
+}
+
+#container-second section {
+	width: 45%;
+}
+
+ul {
+	list-style-type: square;
+	margin: 25px 0 0 18px;
+}
+
+li {
+	margin-bottom: 15px;
+}
+
