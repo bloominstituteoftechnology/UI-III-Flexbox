@@ -174,12 +174,14 @@ p {
 	line-height: 1.2;
 }
 header {
-   display: flex;
-   justify-content: space-between;
-}
-nav {
+	
 	display: flex;
+	justify-content: space-between;
+}
 
+nav {
+	
+	position: fixed;
 	background-color: #333;
 	overflow: hidden;
 	font-size: 15px;
@@ -188,8 +190,6 @@ nav {
 }
 
 nav a {
-	display: flex;
-	align-self:center;
 	color: #f2f2f2;
 	text-align: center;
 	text-decoration: none;
@@ -197,20 +197,21 @@ nav a {
 	padding: 10px 5px 10px 5px;
 }
 
- nav a:hover {
+nav a:hover {
 	background: #ddd;
 	color: black;
+	margin: 0 70px 0 10px;
 	padding: 10px 5px 10px 5px;
 }
 
- .logo {
-    
-justify-content: flex-end;
-order: 1;
+.logo {
+	margin: 0 0 0 880px;
+	padding: 5px;
+	position: fixed;
 
 }
 .header-img {
-  justify-content: center;
+  margin-top: 30px;
   order: 2;
   padding-bottom: 12px;
 }
