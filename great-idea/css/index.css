@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.Everything{
+    width:950px;
+    margin: auto;
+    display: flex;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; 
+}
+.main-nav a{
+  display: flex;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+.cta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+.cta button{
+    margin-left:120px;
+    color: black;
+background-color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 40px;
+padding-left: 40px;
+    
+    
+}
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px black solid;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+.middle-img{
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.bottom-content{
+    display: flex;  
+    border-bottom: 1px black solid;
+    padding-bottom:40px;
+    margin-bottom: 50px;
+}
+footer {
+    text-align: center;
+}
+.features p{
+    padding-right:30px;
+}
+
+.Everything2{
+    width: 1000px;
+    margin: auto;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 800px;
+    margin-top: 50px;
+    border-top: 1px black solid;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px black solid;
+}
+
+.content{
+    border: 1px black solid;
+    width:470px;  
+    padding-left:10px;
+    padding-top:10px;
+    background-color: #F4F3F4;
+    margin-bottom: 50px;
+        
+
+}
+.flexbox button{
+color: black;
+background-color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 40px;
+padding-left: 40px;
+margin-top: 10px;
+
+}
+
+.header{
+    margin-top: 50px;
+}
+
+.header h2{
+    font-size: 25px;
+}
+.Service-facts{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+ul{
+    margin-top: 50px;
+    list-style:inside;
+}
+.facts p{
+    margin-right: 100px
+}
