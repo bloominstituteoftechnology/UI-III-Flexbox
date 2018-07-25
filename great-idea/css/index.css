@@ -86,3 +86,22 @@ header nav a	{
 	color: lightgray;
 	text-decoration: none;
 }
+
+.cta	{
+	padding: 70px 0px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.cta .cta-text h1	{
+	font-size: 100px;
+}
+
+.cta .cta-text button	{
+	height: 30px;
+	width: 200px;
+}
+
