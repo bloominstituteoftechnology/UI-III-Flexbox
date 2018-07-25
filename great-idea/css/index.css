@@ -69,7 +69,8 @@ h1, h2, h3, h4, h5 {
 
 
 nav {
-
+	width: 100%;
+	margin: 0;
 	display: inline-flex;
 }
 
@@ -86,7 +87,7 @@ footer {
 
 .navbar {
 	order: 1;
-	margin: 0px 30px;
+	margin: 0px 35px;
 	display: inline-flex;
 	color: rgb(151, 151, 151);
 }
@@ -94,41 +95,39 @@ footer {
 .logo {
 
 	order: 2;
-	margin: 0px 0px 0px 100px;
+	margin: 0px 0px px 0px;
 }
 
-.firstsections {
+.topSection {
 
-	display: inline-block;
 	width: 50%;
-	margin: 10px 0px 10px 0px;
+	margin: 30px 30px;
 	
 }
 
 .middle-img {
 
-	text-align: center;
+	margin: 0, auto;
+
+
 }
 
 
-.secondSections {
-	display: inline-block;
-	width: 10%;
-	margin: 30px 0px 30px 0px;
+.bottomSection {
+
+	margin: 30px 20px;
+	
 }
 
 /* ID SELECTORS */
 
-#container {
-	display: block;
-	width: 880px;
-	height: 800px;
-}
+
 
 #ideaHeader {
-	display:     flex;
-	flex-direction: row;
-	margin: 0;
+
+	margin: 10px;
+	display: flex;
+
 }
 
 #codeSnippet {
@@ -168,30 +167,22 @@ footer {
 
 
 #firstSection {
-	width: 876px;
-	height: 100px;
-	display: block;
-	margin: auto;
+	display: inline-flex;
+	justify-content: space-between;
 	border-top: 1px solid black;
 	
 	
 }
 
-#aboutSection {
-
-	float: right;
-}
 
 #imgWrapper {
 
-	text-align: center;
+	/* text-align: center; */
 }
 
 #secondSection {
-	width: 876px;
-	height: 170px;
-	display: block;
-	margin: 50px auto;
+	width: 880px;
+	display: inline-flex;
 	border-bottom: 1px solid black;
 }
 
@@ -214,15 +205,13 @@ footer {
 	padding:  0px 0 0 10px;
 }
 
-#information {
-	height: 590px;
-}
+
 
 #contactWrap {
 
-	display: block;
+	display: flex;
 	width: 876px;
-	margin: auto;
+	margin: 40px 20px;
 }
 
 #contactInfo {
