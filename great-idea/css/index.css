@@ -64,3 +64,261 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+	/* font-family: 'Titillium Web', sans-serif; */
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.container{
+	width:880px;
+	margin:0 auto;
+	padding:0px 20px 15px 15px;
+}
+
+header{
+	background-color: #06c1ff;
+	display: flex;
+	flex-direction: row;
+    height: 60px;
+    width: 880px;
+	position: fixed;
+	top:0;
+	bottom:0;
+    z-index: 1;
+    padding: 10px;
+}
+
+header nav {
+	justify-content: flex-start;
+    margin-top: 10px;
+}
+
+header nav a{
+	text-decoration: none;
+	margin-right:50px;
+	color:#fff
+}
+
+header nav a:hover{
+	color:#000663;
+}
+
+header .brand{
+	justify-content:flex-end;
+}
+
+.hero{
+	width:auto;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top:80px;
+}
+
+.hero .first{
+	width: 300px;
+	position: relative;
+	top:60px;
+	margin:0 45px 0 60px;
+}
+
+.hero .first h1{
+	text-align: center;
+	font-size:72px;
+	margin-bottom:15px;
+}
+
+.hero .first h3{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 180px;
+   margin: 0 auto;
+   font-size:18px;
+   border:1px solid #000;
+   padding:8px;
+}
+
+.hero .second{
+	position:relative;
+	top:15px;
+}
+
+.main{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	width:880px;
+	margin:40px 0 20px 0;
+	padding:40px 0 40px 0;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+.box-top{
+	width: 420px;
+	height:auto;
+	padding-bottom:25px;
+}
+.box-top p{
+	line-height: 20px;
+    text-align:justify;
+}
+
+.mid-hero{
+	margin-bottom:20px;
+}
+
+.box-bottom{
+	width: 280px;
+	height:auto;
+}
+
+.box-bottom p{
+	line-height: 20px;
+    text-align:justify;
+}
+
+footer address p{
+	text-align:left;
+	margin-top:0px;
+}
+
+footer p{
+	margin-top:25px;
+	text-align:center;
+}
+/*******************services page css***************/
+.services-header{
+	padding-top:65px;
+}
+.services-header h2{
+	font-size:24px;
+	margin-top:20px;
+}
+
+.services-header p.services-desc{
+	line-height: 20px;
+	text-align: justify;
+	width: 880px;
+
+}
+.services{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width:880px;
+	margin:20px 0 20px 0;
+	padding-top:20px;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+.box-services{
+	height:auto;
+    width:420px;
+	border:1px solid #000;
+	margin-bottom:40px;
+	padding:25px;
+	background-color:#EEEEEE;
+}
+
+.box-services p{
+	margin-bottom:20px;
+	line-height:20px;
+	text-align: justify;
+}
+
+.box-services a{
+   text-decoration:none;
+   border:1px solid #000;
+   padding:5px 20px 5px 20px;
+   color:#000;
+   border-radius:5px;
+}
+
+.facts{
+	width:880px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.first p{
+	width:420px;
+	margin-bottom:15px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.first ul {
+	list-style-type: circle;
+	position: relative;
+	left:20px;	
+}
+
+.first ul li{
+   margin-bottom:8px;
+}
