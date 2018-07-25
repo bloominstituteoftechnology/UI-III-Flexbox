@@ -255,25 +255,26 @@ h1 {
 	display:flex;
 
 	flex-wrap: wrap;
-	justify-content: space-around;
-	flex:1;
+	
 
 
 }
 .more {
+	justify-content: center;
+	text-align: center;
 	width: 42%;
 	border-radius: 2px;
-	padding:5px;
-	margin:10px;
+	padding:10px;
+	margin:30px 0 10px 0;
 	border: 1px solid black;
 	box-shadow: 0px 0px 1px 0px;
 	cursor: pointer;
 }
 .box {
-	width: 38.333%;
-	margin: 50px;
+	width: 44.2%;
+	margin: 23.33px;
 	box-shadow: 0px 0px 1px 0px;
-	
+
 }
 
 .box1 {
