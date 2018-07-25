@@ -416,44 +416,115 @@ nav a:hover {
   
   /* page 2 ------------------------------------------------------------------------------*/
   
-  #page2{ 
-	width: 100%; 
-	display: inline-block; 
-	vertical-align: top; 
-	margin: auto;  
+  #page2 { 
+	width: 100%;   
   }
-  
-  .pageLogo{
-	margin-top: 300px; 
+	
+	section{
+	display: flex; 
 	width: 100%; 
-	text-align: center; 
-	display: inline-block; 
-	vertical-align: middle; 
+	flex-direction: column;  
+	justify-content: center; 
+	margin-top: 100px; 
+	}
+  .pageLogo{ 
+	width: 100%; 
+	text-align: center;  
 	animation-name: logoAnimate; 
-	animation-duration: 9s;
+	animation-duration: 8s;
+	animation-delay: 3s; 
+	opacity: 0; 
+	margin-top: -250px; 
+	z-index: 1; 
   }
-  
+	
+.innovation{
+	padding: 40px;  
+	animation-name: innovation; 
+	animation-duration: 5s; 
+	opacity: 0; 
+	width: 30%; 
+}
+
+.on{
+	text-align: center; 
+	opacity: 0; 
+	animation-name: on; 
+	animation-duration: 5s; 
+	animation-delay: 1s; 
+
+ }
+
+ .demand{
+	text-align: right; 
+	padding: 40px; 
+	animation-name: demand; 
+	animation-duration: 5s; 
+	animation-delay: 2s;
+	opacity: 0;  
+ }
+
   
   @keyframes logoAnimate {
 	 0%{
-	   transform: translate(-1000px, 0px); 
+	   transform: translate(-2000px, 0px); 
 	   opacity: 1; 
 	 }
 	 50%{
 	  transform: translate(0px, 0px); 
 	 }
 	 53%{
-	  transform: rotate(5040deg); 
+		transform: rotate(5040deg); 
 	 }
 	 98%{
-	   opacity: 1; 
+		 opacity: 1; 
+		
 	 }
 	 100%{
-	  opacity: 0; 
+		opacity: 0;
+		  
 	 }
-  };
+	}
+	
+	@keyframes innovation {
+	 0%{
+		 transform:translate(2000px, 0px); 
+		 opacity: 1; 
+	 }
+   25%{
+		opacity: 1; 
+		transform: translate(0px,0px); 
+	 }
+	 100%{
+		opacity: 0; 
+	 }
+	}
 
+  @keyframes on{
+   0%{
+			transform: translate(2000px, 0px);
+			opacity: 1; 
+ }25% {
+			opacity: 1; 
+			transform: translate(0px, 0px); 
+	 }
+  100% {
+		  opacity: 0; 
+	}
+	}
 
+	@keyframes demand{
+		0%{
+			 transform: translate(2000px, 0px);
+			 opacity: 1; 
+	}25% {
+			 opacity: 1; 
+			 transform: translate(0px, 0px); 
+		}
+	 100% {
+			 opacity: 0; 
+	 }
+	 }
   /*Media Query--------------------------------------------*/
 
  
