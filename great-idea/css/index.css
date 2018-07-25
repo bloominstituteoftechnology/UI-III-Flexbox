@@ -377,6 +377,7 @@ header nav a:last-child {
 
 .services-info-img {
 	margin-top: 20px;
+	
 }
 
 /* Footer Services */
@@ -404,6 +405,7 @@ header nav a:last-child {
 	border: 1px solid black;
 	padding: 20px;
 	margin: 10px;
+	background-color: #ebe0d1;
 }
 
 
