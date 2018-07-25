@@ -65,31 +65,34 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
+
 body { 
 	width: 880px;
 	margin: auto;
-	background-image: url("img/mid-page-accent.jpg"), url("img/header-img.png");
-
 }
 
 nav {
 	width: 880px;
+	height: 75px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	word-spacing: 60px;
+
 }
 
-header {
+.main_header {
 	display: flex;
 	flex-direction: row;
+	/* justify-content: space-around; */
+	/* align-items: center; */
 	width: 880px;
 	height: 400px;
 	font-size: 56px;
-	padding: 40px;
+	padding-bottom: 40px;
 }
 
-header p {
+.main_header p {
 	border: 1px solid black;
 	font-size: 14px;
 	text-align: center;
@@ -120,7 +123,7 @@ h1 {
 }
 
 .top {
-	border-top: 1px solid black;
+	border-top: 2px solid black;
 	display: flex;
 	justify-content: space-between;
 	width: 880px;
@@ -137,7 +140,7 @@ h1 {
 }
 
 .bottom {
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 	display: flex;
 	justify-content: space-between;
 	width: 880px;
@@ -164,4 +167,92 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.services_header {
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding-bottom: 40px;
+}
+
+.services_header h2 {
+	font-size: 28px;
+}
+
+.services-header-img {
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+
+.main_section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.main_section div{
+	border: 1px solid black;
+	background-color: whitesmoke;
+	padding: 20px;
+	width: 420px;
+	margin: 20px 0;
+}
+
+.learn-more {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 125px;
+	height: 35px;
+	font-size: 12px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.facts {
+	border-top: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.facts div {
+	height: 300px;
+	width: 400px;
+	/* margin-top: 10px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+
+}
+
+ul {
+	margin-top: 18px;
+	padding-left: 18px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+li {
+	list-style-type: square;
+}
+
+.services-info-img {
+	margin-top: 35px;
+	border-radius: 15px;
+}
+
+.services_footer {
+	height: 125px;
+	padding-bottom: 20px;
+	display: flex;
+	align-items: flex-end;
 }
