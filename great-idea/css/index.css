@@ -166,6 +166,7 @@ body {
 
 .address address {
 	margin: 0 3rem;
+	border-top: 2px solid black;
 }
 
 .address-first {
@@ -273,29 +274,3 @@ body {
 	align-self: center;
 	margin: 0 0rem 0 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
