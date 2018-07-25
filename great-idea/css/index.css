@@ -99,7 +99,8 @@ nav{
 	align-items: center;
 	align-content: center;
 	justify-content: space-evenly;
-	margin: 90px 0px;
+	margin-top: 90px;
+	margin-bottom: 30px;
 }
 
 h1{
