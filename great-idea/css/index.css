@@ -31,9 +31,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
+
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +65,257 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.container-div {
+	width: 1024px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: white;
+}
+
+.header-bar {
+	width: 880px;
+	height: 96px;
+	display: flex;
+	justify-content: space-between;
+/* Align Items Vertically */
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.nav {
+	width: 660px;
+	height: 96px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-button {
+	position: relative;
+	top: 40px;
+	text-decoration: none;
+}
+
+.nav-text {
+	color: rgb(186,186,186);
+}
+
+#logo-holder {
+	float: right;
+	height: 96px;
+	width: 183px;
+}
+
+.logo {
+	position: relative;
+	top: 30px;
+}
+
+#under-header{
+	height: 510px;
+	width: 880px;
+	display: flex;
+	justify-content: space-around;
+	/* Align Items Vertically */
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+#innovation-on-demand {
+	height: 245px;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 83px;
+	position: relative;
+	top: -15px;
+}
+
+.get-started-button {
+	width: 175px;
+	height: 35px;
+	border: 1px solid black; 
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 12pt;
+	position: relative;
+	top: -30px;
+	background: white;
+}
+
+.line-break {
+	border: 1px solid black;
+	width: 880px;
+	height: 1px;
+}
+
+.main-section {
+	height: 180px;
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+		/* Align Items Vertically */
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		-webkit-box-align: center;
+		align-items: center;
+}
+
+.main-section2 {
+	height: 220px;
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+		/* Align Items Vertically */
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		-webkit-box-align: center;
+		align-items: center;
+}
+
+.title-text {
+	font-size: 18px;
+}
+
+.features-about{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: auto;
+	height: auto;
+}
+
+.middle-img{
+	width: 880px;
+}
+
+.services-product-vision {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 275px; 
+}
+
+#address{
+	width: auto;
+	height: auto;
+}
+
+#copyright {
+	width: 1024px;
+	height: 50px;
+	text-align: center;
+}
+
+/* SERVICES PAGE SPECIFIC CSS */
+
+.container-div-services{
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: white;
+}
+
+#about-services{
+	display: flex; 
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 375px;
+	width: 880px;
+	margin: 0px;
+	align-items: center;
+}
+
+.services-header-img{	
+	width: 880px;
+	height: 200px;
+	margin: 0px;
+	align-self: flex-start;
+}
+
+#about-services-text{
+	width: 880px;
+	display: flex;
+	flex-wrap: wrap;
+	align-self: flex-start;
+}
+
+#title-text2{
+	font-size: 26pt;
+}
+
+.services-page-boxes{
+	border: 1px solid black;
+	background: rgb(244,243,244);
+	width: 420px;
+	height: 250px;
+	padding: 20px;	
+	line-height: 20px;
+}
+
+.learn-more-button {
+	width: 140px;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid black; 
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 10pt;
+	background: white;
+}
+
+.title-text3 {
+	font-size: 13pt;
+}
+
+#services-main {
+	width: 880px;
+	height: 920px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#about-services-bottom {
+	height: 420px;
+	width: 880px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#some-facts-about {
+	width: 400px;
+	line-height: 20px;
+}
+
+ul {
+	list-style-type: square;
+	font-size: 75%; 
+	position: relative;
+	left: 11px;
+}
+
+.services-info-img{
+	width: 400px;
+	height: 300px;
+}
+
+.list-text{
+	font-size: 12pt;
+	margin-left: 20px;
+}
