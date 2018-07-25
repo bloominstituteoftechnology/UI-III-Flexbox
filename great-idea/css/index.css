@@ -71,8 +71,7 @@ body {
 	flex-direction: column;
 	width: 880px;
 	height: auto;
-	justify-content: center;
-	align-items: center;
+	margin: 0 auto;
 }
 
 header {
@@ -91,6 +90,15 @@ header {
 	width: 880px; 
 	
 
+}
+
+.mission, .middle-img {
+	display: flex;
+	width: 440px;
+	height: 440px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 nav { 
@@ -117,12 +125,6 @@ a {
 	width: 880px; 
 }
 
-.mission {
-	display: flex;
-	flex-direction: column;
-	align-content: flex-start;
-	width: 440px;
-}
 
 h1 {
 	font-size: 72px;
@@ -136,5 +138,31 @@ h1 {
 	text-align: center;
 	width: 100px;
 	box-align: center;
+}
+
+.topArt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.middle-img {
+	width: 880px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.botArt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+p.copyright {
+	display: flex;
+	justify-content: center;
 }
 
