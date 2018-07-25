@@ -63,4 +63,445 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to REFACTOR into flexbox */
+
+
+* {
+	font-family: 'Roboto Mono', monospace;
+}
+
+/* Flexbox: Parent */
+.top {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: stretch;
+	/* border: 2px solid red; */
+	height: 7%;
+	background-color: white;
+	/* position: fixed; */
+
+}
+
+/* Flexbox: Child */
+
+.top ul {
+	display: flex;
+
+}
+.nav1 {
+	/* border: 2px solid black; */
+	padding: 20px 0 0 0;
+}
+
+.nav2 {
+	/* border: 2px solid black; */
+	padding: 20px 0 0 0;
+}
+.nav3 {
+	/* border: 2px solid black; */
+	padding: 20px 0 0 0;
+}
+.nav4 {
+	/* border: 2px solid black; */
+	padding: 20px 0 0 0;
+}
+.nav5 {
+	/* border: 2px solid black; */
+	padding: 20px 0 0 0;
+}
+.nav6 {
+	/* border: 2px solid black; */
+	padding: 20px 0 0 0;
+}
+
+.nav7 {
+	/* border: 2px solid blue; */
+	
+}
+
+/* Flexbox: Parent */
+
+.titleParent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	/* border: 2px solid green; */
+	margin: 50px 0 0 0;
+}
+
+/* Flexbox: Child */
+
+.titleChild1 {
+	/* border: 2px solid black; */
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.titleChild1 h1 {
+	font-size: 50px;
+	text-align: center;
+	padding: 20px 0 0 0;
+
+}
+
+.titleChild1 h6 {
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid black;
+	width: 200px;
+	/* align-items: center; */
+	margin: 0 0 0 100px;
+	border-radius: 25px;
+}
+
+.titleChild1 a {
+	text-decoration: none;
+}
+
+.titleChild1 a:hover {
+	background-color: mediumspringgreen;
+}
+
+.titleChild2 {
+	/* border: 2px solid blue; */
+
+}
+
+/* Flexbox: Parent */
+.mid1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: center;
+	margin: 50px 0 0 0;
+	/* border: 2px solid purple; */
+}
+
+/* Flexbox: Child */
+.mid1 .features {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 150px;
+}
+
+.mid1 .about {
+	/* border: 2px solid blue; */
+	width: 400px;
+	height: 150px;
+}
+
+/* Flexbox: Parent */
+.mid2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/* border: 2px solid pink; */
+
+}
+
+.mid2 .middle-img {
+	/* border: 2px solid pink; */
+}
+
+/* Flexbox: Parent */
+
+.mid3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	/* border: 2px solid lime; */
+	margin: 50px 0 0 0;
+}
+
+
+/* Flexbox: Child */
+
+.mid3 .services {
+	/* border: 2px solid orange; */
+	width: 280px;
+	height: 150px;
+}
+
+.mid3 .product {
+	/* border: 2px solid blue; */
+	width: 280px;
+	height: 150px;
+}
+
+.mid3 .vision {
+	/* border: 2px solid orange; */
+	width: 280px;
+	height: 150px;
+}
+
+
+/* Flexbox: Parent */
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/* border: 2px solid lime; */
+}
+
+/* Flexbox: Child */
+
+.footer .contact {
+	/* border: 2px solid orange; */
+	width: 400px;
+}
+
+.copyright {
+	border: 2px solid blue;
+	width: 400px;
+	margin: 20px 0 0 0;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+/* Prior inline-block CSS */
+.line {
+	display: flex;
+	width: 880px;
+	height: 15px;
+	border-bottom: 10px solid white;
+	/* position: absolute; */
+	/* margin: 0 0 0 200px; */
+}
+
+.top a {
+	/* T R B L */
+	padding: 0 25px 0 25px;
+	text-decoration: none;
+	color: grey;
+}
+
+.top a:hover {
+	background-color: mediumspringgreen;
+}
+
+
+
+.title a {
+	text-decoration: none;
+}
+
+.title a:hover {
+	background-color: mediumspringgreen;
+}
+
+
+/* Service Page */
+
+.picture1 {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: center;
+}
+
+.picture1 .services-header-img {
+	/* border: 2px solid lime; */
+}
+
+.servicesparent {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: center;
+}
+
+.servicesparent .serviceschild {
+	/* border: 2px solid lime; */
+	width: 880px;
+	height: 150px;
+	margin: 20px 0 0 0;
+}
+
+.serviceschild h1{
+	font-size: 28px;
+}
+
+.maincontainer {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+.maincontainer .digital{
+	border: 2px solid black;
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	background-color: lightgrey;
+}
+
+.digital .button {
+	border: 2px solid black;
+	margin: 20px 0 0 0;
+	font-size: 14px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	padding: 5px 0 0 0;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.maincontainer .ux {
+	border: 2px solid black;
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	background-color: lightgrey;
+}
+
+.ux .button {
+	border: 2px solid black;
+	margin: 20px 0 0 0;
+	font-size: 14px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	padding: 5px 0 0 0;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.maincontainer1 {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+.maincontainer1 .marketing {
+	border: 2px solid black;
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	background-color: lightgrey;
+}
+
+.marketing .button {
+	border: 2px solid black;
+	margin: 20px 0 0 0;
+	font-size: 14px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	padding: 5px 0 0 0;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.maincontainer1 .webdev {
+	border: 2px solid black;
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	background-color: lightgrey;
+}
+
+.webdev .button {
+	border: 2px solid black;
+	margin: 20px 0 0 0;
+	font-size: 14px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	padding: 5px 0 0 0;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.maincontainer2 {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+.maincontainer2 .ios {
+	border: 2px solid black;
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	background-color: lightgrey;
+}
+
+.ios .button {
+	border: 2px solid black;
+	margin: 20px 0 0 0;
+	font-size: 14px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	padding: 5px 0 0 0;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.maincontainer2 .android {
+	border: 2px solid black;
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+	background-color: lightgrey;
+}
+
+.android .button {
+	border: 2px solid black;
+	margin: 20px 0 0 0;
+	font-size: 14px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	padding: 5px 0 0 0;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.footer1 {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	margin: 50px 0 0 0;
+}
+
+.footer1 .facts {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 250px;
+	padding: 20px 20px 0 20px;
+}
+
+ul.b {
+	list-style-type: square;
+}
+
+.footer1 .picture2 {
+	/* border: 2px solid lime; */
+}
+
+.copyright1 {
+	/* border: 5px solid red; */
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	padding: 30px 0 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: lightblue;
+	}
+}
