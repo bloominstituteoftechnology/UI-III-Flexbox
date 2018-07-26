@@ -1,0 +1,115 @@
+/* ELEMENT SELECTORS */
+
+body {
+
+    margin: 0 auto;
+    width: 880px;
+}
+
+nav {
+
+    padding: 10px 0;
+}
+
+a {
+    color: lightgray;
+}
+
+button {
+
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 140px;
+    height: 35px;
+    background-color: white;
+    margin: 20px 0 0 0;
+}
+
+footer {
+
+    margin: 70px 0 20px 0;
+}
+
+#services-header h1 {
+
+    font-size: 1.4em;
+}
+
+/* ID SELECTORS */
+
+
+#navwrap {
+
+    display: flex;
+}
+
+#services-header {
+    width: 876px;
+    margin: 20px 0px;
+    
+}
+
+li.navbar {
+    margin: 0 0 0 10px;
+    padding: 30px;
+    display: inline;
+    
+}
+
+
+#services-section {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+
+#service {
+    padding: 0;
+    margin: 0;
+}
+
+
+#some-facts {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 40px 0;
+    justify-content: space-between;
+}
+
+#some-facts div {
+
+    width: 420px;
+}
+
+#awesome-facts {
+    letter-spacing: 1px;
+    line-height: 2em;
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 30px 0 0 0;
+
+}
+/* CLASS SELECTORS */
+
+.services {
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px 0 50px 0;
+    width: 420px;
+    height: 220px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    
+}
+
+.services-header-img {
+    margin-bottom: 20px;
+}
+
+
+
+
