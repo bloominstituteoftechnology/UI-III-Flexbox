@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container	{
-	width: 100%;
+	width: 880px;
 	margin: 0 auto;
 }
 
@@ -78,8 +78,9 @@ header	{
 
 header nav	{
 	display: flex;
-	justify-content: space-around;
-	width: 80%;
+	justify-content: space-between;
+	width: 60%;
+	margin-right: 40px;
 }
 
 header nav a	{
@@ -103,6 +104,10 @@ header nav a	{
 button	{
 	height: 30px;
 	width: 200px;
+	text-decoration: none;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 16px;
 }
 
 .main-content	{
@@ -210,7 +215,7 @@ h5	{
 }
 
 .services-info-img	{
-	width: 40%;
+	width: 50%;
 }
 
 ul	{
