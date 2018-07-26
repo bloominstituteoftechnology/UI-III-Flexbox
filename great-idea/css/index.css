@@ -1,66 +1,71 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+header{
+	display:flex;
+	justify-content: space-between;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+.services-header-img {
+  margin: 35px 462px;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+.services-header {
+  padding-bottom: 45px;
+
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.services-header h2 {
+  font-size: 28px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+	flex-direction: row;
+  padding-top: 40px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+	width: 900px;
+}
+
+.service-block {
+	width: 420px;
+border: 1px solid black;
+margin-bottom: 40px;
+background-color: yellow;
+padding: 92px;
+}
+
+.service-block button {
+  margin-top: 15px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px 35px;
+}
+
+.service-facts {
+  display: flex;
+  padding-top: 40px;
+}
+
+.facts-container {
+  padding-right: 40px;
+}
+.facts-container ul{
+  margin-top: 15px;
+}
+
+.facts-container ul li {
+  margin: 10px 0;
+  list-style: square inside;
+}
+
+.top-image{
+	display: flex;
+	width:100%;
+}
+
+.container{
+margin : 0 auto;
+width: 800px;
+}
