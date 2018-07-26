@@ -77,19 +77,15 @@ body {
     background-color: white;
     display: flex;
     position: fixed;
-    flex-wrap: wrap;
-    bottom: 870px;
-    top: 20px;
-    z-index: 1;
-}
-.navigation li {
-    display: inline;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 40px;
 }
 a {
 	vertical-align: middle;
 	padding: 20px 0 33px 0;
 	text-decoration: none;
-	color: black;
+	color: gray;
 	margin-left: 20px;
 	margin-right: 20px;
 	display: inline;
@@ -113,6 +109,9 @@ header h1 {
 /* Services Offered */
 h2 {
     font-weight: bold;
+}
+.services-header-img {
+    margin: 35px 0px;
 }
 section.services-offered {
     display: flex;
@@ -161,15 +160,19 @@ section.facts.img {
     left: 145px;
 }
 .services-info-img {
-    top: -64px;
+    top: -54px;
     bottom: 0px;
-    left: -127px;
-    right: 49px;
+    right: 44px;
+    left: -89px;
     position: relative;
     margin-top: 55px;
     margin-right: -233px;
     margin-bottom: 0px;
     margin-left: 139px;
+}
+section .facts {
+    display: flex;
+    padding-top: 4opx;
 }
 section.facts p {
     padding: 20px 0;
@@ -187,6 +190,10 @@ section.facts ul li {
 }
 /* Footer area */
 footer {
+    right: 0px;
+    left: 261px;
+    top: 29px;
+    position: relative;
     padding-top: 50px;
     padding-bottom: 100px;
 }

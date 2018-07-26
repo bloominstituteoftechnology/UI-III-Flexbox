@@ -67,9 +67,10 @@ h1, h2, h3, h4, h5 {
 
 /* Body */
 body {
+	text-align: center;
 	width: 880px;
-    margin: 0 auto;
-    text-align: center;
+	margin: 0 auto;
+	margin-bottom: 25px;
 }
 
 /* Navigation */
@@ -77,19 +78,15 @@ body {
     background-color: white;
     display: flex;
     position: fixed;
-    flex-wrap: wrap;
-    bottom: 870px;
-    top: 20px;
-    z-index: 1;
-}
-.navigation li {
-    display: inline;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 40px;
 }
 a {
 	vertical-align: middle;
 	padding: 20px 0 33px 0;
 	text-decoration: none;
-	color: black;
+	color: gray;
 	margin-left: 20px;
 	margin-right: 20px;
 	display: inline;
@@ -98,15 +95,16 @@ a:hover {
     text-decoration: underline;
 	color: black;
 }
+nav a:last-child {
+	margin-right: 65px;
+}
 
 /* Header */
 header {
-	width: 80%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* display under the nav */
-	margin-top: 150px;
+	margin-top: 209px;
 }
 
 header div {
@@ -157,22 +155,13 @@ section .bottom-content{
     position: absolute;
 	justify-content: flex-start;
 	flex-direction: column;
-    left: -200px;
-	width: 80%;
-	margin: 15px 0;
-}
-
-.contact h2 {
-	padding: 10px 0;
-}
- a {
-	padding: 10px 0;
-}
-.mail {
-    color: gray;
+	padding: 39px 10px 0;
 }
 /* Footer */
-.copyright {
-    position: relative;
-    top: 157px;
+footer {
+	position: relative;
+	top: 154px;
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
 }
