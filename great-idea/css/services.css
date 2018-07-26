@@ -65,80 +65,57 @@ h1, h2, h3, h4, h5 {
 
 /* above this line CSS reset */
 
-body {
-    max-width: 880px;
-    margin: auto;
-}
-
-a {
-    text-decoration: none;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 880px;
-}
-
 .services-header-img {
-    margin-bottom: 40px;
-}
-
-.box {
-    border: 1px solid black;
-    padding: 10px;
-    width: 300px;
-    height: 250px;
-    flex-direction: row;
-}
-
-button {
-    background: transparent;
-    border: .5px solid black;
+    margin: 35px 0px;
 }
 
 .services {
-    margin-bottom: 50px;
+    padding-bottom: 45px;
+}
+
+.services h1 {
+    font-size: 28px;
 }
 
 .container {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
-    max-width: 880px;
-    height: 400px;
-    margin-top: 50px;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black
 }
 
-footer {
-    margin-bottom: 50px;
-    text-align: center;
+.box {
+    width: 420px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.box button {
+    margin-top: 15px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 35px;
 }
 
 .facts {
     display: flex;
+    padding-top: 40px;
 }
 
-.services-info-img {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.text-facts {
+    padding-right: 40px; 
 }
 
-.top-hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+.text-facts ul {
+    margin-top: 15px;
 }
 
-.bottom-hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    margin-top: 100px;
-    margin-bottom: 50px;
+.text-facts ul li {
+    margin: 10px 0;
+    list-style: square-inside;
 }
