@@ -261,7 +261,7 @@ footer {
 
 .services header nav{
 	display: flex;
-	border: 1px solid black;
+	
 	margin-left: 50px;
 	max-width: 625px;
 	padding: 0px;
@@ -270,7 +270,7 @@ footer {
 .services header nav a{
 	
 	display: inline-block;
-	border: 1px solid black;
+	
 	
 }
 
@@ -279,7 +279,7 @@ footer {
 	justify-content: flex-end; 
 	color: red;
 	padding: 20px;
-	margin-right: 400px;
+	width: 900px;
 }
 
 .servicesHeader {
@@ -298,7 +298,7 @@ footer {
 }
 
 .serviceText {
-	border: 1px solid black;
+	
 	display: flex;
 	width: 880px;
 	margin-left: 30px;
@@ -306,12 +306,101 @@ footer {
 }
 
 hr {
-	max-width: 880px;
+	
+	width: 880px;
 	margin-left: 30px;
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-bottom:40px;
 }
 
-.digitalDesign {
+.mainContent {
+	display: flex;
+	flex-wrap: wrap;
+	width:900px;
+	justify-content: space-evenly;
+	margin-left: 10px;
+
+}
+
+.mainContent div{
+	border: 1px solid black;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	width: 430px;
+	background-color: lightgrey;
+	padding: 10px;
+	
+}
+
+h5{
+	display: flex;
+	margin-left: 50px;
+	position: absolute;
+	margin-bottom: 40px;
+}
+
+.facts{
+	margin-left: 50px;
+	margin-bottom: 10px;
+	width: 400px;
+	display: inline-block;
+	box-sizing: border-box;
+	max-width: 400;
+	position: absolute;
+	margin-top:30px;
+
+}
+
+.services-info-img{
+	
+	max-width: 880px;
+	margin-left: 480px;
+	border: 5px solid black;
+	display: flex;
+	top:500px;
+	margin-bottom: 30px;
+	justify-content: flex-end
+	
+}
+
+ul{
+	
+	margin-left: 70px;
+	width: 110px;
+	display: inline-block;
+	box-sizing: border-box;
+	position:absolute;
+	margin-top: 120px;
+
+}
+
+li{
+	margin:0px 0px 5px;
+}
+
+.copyright{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 80px;
+}
+
+
+button{
+	display:flex;
+	background-color: white;
+	width:100px;
+	height:25px;
+	justify-content:center;
+	border-radius: 12%;
+	margin-top:10px;
+}
+
+.coexist{
+	margin-left: px;
+
+}
+/* .digitalDesign {
 	border: 1px solid black;
 	width: 360px;
 	margin-left: 30px;
@@ -417,4 +506,4 @@ hr {
 	height: 30px;
 	align-items: center;
 	background-color: white;
-}
+} */
