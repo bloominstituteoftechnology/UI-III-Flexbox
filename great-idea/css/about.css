@@ -159,7 +159,6 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
 .main {
 	display: flex;
 	max-width: 880px;
@@ -168,7 +167,8 @@ h5 {
 
 body {
 	max-width: 880px;
-	margin: 0 auto;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #0fb8ad 25%, #1fc8db 51%, #2cb5e8 75%);
 }
 
 p {
@@ -207,78 +207,88 @@ nav a:hover {
 
 .logo {
 	margin: 0 0 0 880px;
+
 	position: fixed;
 
 }
-
+.header-img {
+  margin-top: 30px;
+  order: 2;
+  padding-bottom: 12px;
+}
+.section-header {
+	padding: 12px;
+}
 h1 {
-	font-size: 80px;
+	font-size: 40px;
+}
+
+.box {
+  color:black;
+  font-size: 15px;
+  padding:10px;
+  width: 100%;
+  
+}
+.box1 { background: #e4e7e9;}
+
+
+.more6 { background: white;}
+
+
+.container {
+	display:flex;
+   justify-content: center;
+}
+.more {
+	justify-content: center;
 	text-align: center;
-}
-.top main {
-	display: flex;
-	margin-top: 40px;
-}
-.top {
-	margin:35px;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.top-text {
-	flex-direction: column;
-	align-items: center;
-	align-content: center;
-	flex: 1;
-}
-
-.top-img {
-	padding: 0px 0 35px 0;
-}
-
-.btn {
-	border: none;
-	color: white;
-	padding: 14px 28px;
-	font-size: 16px;
-	cursor: pointer;
-}
-
-.default {
-	background-color: #e7e7e7;
-	color: black;
+	width: 42%;
+	border-radius: 2px;
+	padding:10px;
+	margin:30px 0 10px 0;
 	border: 1px solid black;
-}
-
-/* Gray */
-
-.default:hover {
-	background: #ddd;
+	box-shadow: 0px 0px 1px 0px;
 	cursor: pointer;
 }
+.box {
+	width: 100%;
+	margin: 23.33px;
+	box-shadow: 0px 0px 1px 0px;
 
-.features,
-.about {
-	margin-bottom: 35px;
-	max-height: 150px;
+}
+.box:hover{
+    background: linear-gradient(90deg, #0fb8ad 25%, #1fc8db 51%, #2cb5e8 75%);
+    
 }
 
-.fk {
-	display: flex;
+.box1 {
+  justify-content: flex-end
+
+}
+
+
+.fact1{
+	
 	justify-content: space-between;
 }
-
-.services,
-.products,
-.vision {
-	width: 32.8%;
-	margin: 35px 0;
+ ul li {
+	margin:20px;
+	list-style-type: disc;
 }
-
-.mains {
-	justify-content: space-between;
+.fact3 img {
 	align-content: center;
-	align-items: center;
+}
+
+.bottom {
+	display:flex;
+	flex-wrap: wrap;
+	flex:1;
+}
+.fact {
+	width: 46.333%;
+	margin: 6px;
+	
 }
 
 .contact a {
@@ -296,12 +306,13 @@ h1 {
 }
 
 footer {
-	display: flex;
+	display:flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 footer p {
-	align-self: center;
+
 	font-size: 14px;
 	line-height: 1.2px;
 }
@@ -309,15 +320,16 @@ footer p {
 footer h3::before {
 	content: '\00A9 ';
 }
-
-footer h3 {
-	align-self: center;
-}
-
-
-}
-@media screen and (max-width: 700px) {
-    .top .main, .nav {   
-        flex-direction: row;
-    }
+@media screen and (min-width: 480px) {
+    body {
+        background: whitesmoke;
+	}
+  .footer,
+  .header,
+  .fact,
+  .nav,
+  .box {
+	width: 43.2%;
+	height: 100%;
+  }
 }

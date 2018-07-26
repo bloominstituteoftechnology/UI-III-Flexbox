@@ -1,0 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.main {
+  display: flex;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.2;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  position: fixed;
+  background-color: #333;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 35px;
+  z-index: 0;
+}
+
+nav a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 70px 0 10px;
+  padding: 10px 5px 10px 5px;
+}
+
+nav a:hover {
+  background: #ddd;
+  color: black;
+  margin: 0 70px 0 10px;
+  padding: 10px 5px 10px 5px;
+}
+
+.logo {
+  margin: 0 0 0 880px;
+  position: fixed;
+  flex:1;
+  justify-self: center;
+}
+.header-img {
+  margin-top: 30px;
+  order: 2;
+  padding-bottom: 12px;
+}
+.section-header {
+  padding: 12px;
+}
+h1 {
+  font-size: 40px;
+}
+/*Boxes Color and Text*/
+.box {
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+  width: 100%;
+}
+.box1 {background: #e4e7e9;}
+.box2 {background: #e4e7e9;}
+.box3 {background: #e4e7e9;}
+.box4 {background: #e4e7e9;}
+.box5 {background: #e4e7e9;}
+.box6 {background: #e4e7e9;}
+.box7 {background: #e4e7e9;}
+
+/*learn more button color*/
+.more1 {background: white;}
+.more2 {background: white;}
+.more3 {background: white;}
+.more4 {background: white;}
+.more5 {background: white;}
+.more6 {background: white;}
+
+/* Box Container and Learn More Flexedboxed */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.more {
+  justify-content: center;
+  text-align: center;
+  width: 42%;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 30px 0 10px 0;
+  border: 1px solid black;
+  box-shadow: 0px 0px 1px 0px;
+  cursor: pointer;
+}
+.box {
+  width: 44.2%;
+  margin: 23.33px;
+  box-shadow: 0px 0px 1px 0px;
+}
+
+.box1 {justify-content: space-between;}
+.box2 {justify-content: space-between;}
+.box3 {justify-content: space-between;}
+.box4 {justify-content: space-between;}
+.box5 {justify-content: space-between;}
+.box6 {justify-content: space-between;}
+
+.fact1 {
+  justify-content: space-between;
+}
+ul li {
+  margin: 20px;
+  list-style-type: disc;
+}
+.fact3 img {
+  align-content: center;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.fact {
+  width: 46.333%;
+  margin: 6px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  color: orangered;
+}
+
+.contact a[href^="tel:"]:before {
+  content: "\260E ";
+  display: inline-block;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.2px;
+}
+
+footer h3::before {
+  content: "\00A9 ";
+}
+@media screen and (max-width: 700px) {
+  .footer,
+  .header,
+  .fact,
+  .nav,
+  .box {
+    width: 100%;
+  }
+}
