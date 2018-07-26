@@ -1,0 +1,157 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Beginning of features.html CSS */
+body {
+	width: 880px;
+    margin: 0 auto;
+    background-color: wheat;
+}
+
+header {
+	width: 880px;
+	justify-content: space-between;
+   padding: 15px 5px;
+    position: fixed;
+    background-color: wheat;
+}
+
+.flex {
+	display: flex;
+}
+
+nav {
+	justify-content: space-between;
+    align-items: center;
+    flex: 1;
+
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.logo {
+	margin-left: 80px;
+	/* background-color: white; */
+}
+
+/* End of Header */
+
+.features-header-img {
+    margin-bottom: 30px;
+    margin-top: 90px;
+    width: 880px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+/* #FeaturesContainer {
+    width: 100%;
+    margin-bottom: 40px;
+
+} */
+
+.TopFeatures {
+    width: 880px;
+    margin-bottom: 40px;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/* Beginning of Large Mid Container */
+.LargeMidContainer{
+    flex-wrap: wrap;
+}
+
+.BottomFeatures {
+
+}
+
+/* Footer and MISC */
+footer {
+	text-align: center;
+	font-size: 13px;
+	padding-bottom: 100px;
+	padding-top: 80px;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	line-height: 20px;
+}
+
+a:hover {
+	background-color: yellow;
+	color: black;
+  }
+  /* End of features.html CSS */
