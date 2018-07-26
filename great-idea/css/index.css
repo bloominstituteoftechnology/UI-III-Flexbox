@@ -64,11 +64,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	display: flex;
+	justify-content: center;
+}
 .container {
 	width: 880px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
 	font-family: 'Eczar', serif;
 }
 
