@@ -64,3 +64,76 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 880px;
+
+}
+.header {
+	padding: 10px;
+}
+.button {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.button nav {
+
+	font-family: 'Lobster', cursive;
+	margin: 0 auto;
+	width: 13%;
+
+}
+.button a{
+	background-color: white;
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	color:lightgray;
+	padding: 20px;
+}
+	h1 {
+		font-size: 72px;
+	}
+	h2 {
+		font-size: 20px;
+		border: 1px solid;
+		 display: inline-block;
+		 padding: 3px 25px;
+		 font-family: 'Titillium Web', sans-serif;
+	}
+	
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.mainbodytop {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	border-top: 2px solid black;
+	padding: 10px;	
+	padding-bottom: 20px;
+	align-items: baseline;
+}
+.mainbodybottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid black;
+	padding-bottom: 20px;
+	align-items: baseline;
+}
+.contact {
+	padding: 30px
+}
+.copy {
+	font-size: 12px;
+	text-align: center;
+}
