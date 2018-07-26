@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 880px;
+	margin-left: 20%;
+}
+
+h2, h3, h4 {
+	font-family: 'Righteous', cursive;
+}
+
+nav	{
+	/*width: 880px;
+	margin-bottom: 75px;
+	background-color: lightblue;
+	position: fixed; */
+	display: flex;
+    
+}
+
+li {
+	/*display: inline;
+	padding: 26px;*/
+	display: inline-flex;
+	padding: 26px; 
+}
+
+header	{
+	display: block;
+	/*display: flex;*/
+	border-bottom: 2px solid black;
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+
+h1 {
+	display: inline-flex;
+	font-size: 72px;
+	width: 420px;
+	height: 200px;
+	text-align: center;
+	margin-left: 20px;
+	vertical-align: top;
+	margin-top: 50px;
+	font-family: 'Righteous', cursive;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header {
+	display: inline-flex;
+	margin-right: -120px;
+}
+
+.started {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+ 	padding: 3px;
+ 	text-align: center;
+ 	width: 210px;
+}
+
+a:hover {
+	background-color: blue;
+}
+
+p {
+	text-align: left;
+	display: inline-flex;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+	text-align: left;
+}
+
+.two-columns {
+	column-count: 2;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.three-columns {
+	column-count: 3;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.contact {
+	border-top: 2px solid black;
+	margin-top: 15px;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.bullet {
+	list-style-type: disc;
+	display: flex;
+}
+
+hr {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.button {
+	border: 1px solid black;
+ 	padding: 10px;
+ 	text-align: center;
+ 	border-radius: 5px;
+ 	margin-top: 15px;
+}
+
+.boxes {
+	border: 1px solid black;
+ 	padding: 15px;
+ 	width: 420px;
+ 	margin: 10px;
+
+}
+
+.row {
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.services-header-img {
+	margin: 35px 0px;
+}
+
+.facts {
+	display: flex;
+	padding-top: 40;
+}
