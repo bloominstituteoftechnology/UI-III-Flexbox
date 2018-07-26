@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	width:880px;
+	margin-left:225px;
+}
+header{
+	display: flex;
+   
+    flex-direction: row;
+    justify-content: center;
+    width: 880px;
+    margin-top: 20px;
+}
+.top{
+	display:flex;
+	align-self:center;
+	
+}
+ul{
+	list-style: none;
+    display: flex;
+    align-self: center;
+    width: 680px;
+	justify-content: space-around;
+	margin-right: 20;
+
+}
+.topimg{
+	margin-right:20;
+}
+.img2{
+	margin-top:40px;
+}
+.services{
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    border-bottom: solid 1px black;
+}
+.servicep{
+	margin-bottom:40px;
+}
+.t1{
+	font-size: 30px;
+}
+.digitaldesign{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	margin-top:40px;
+	border-bottom:1px solid;
+
+}
+h2{
+	display:flex;
+	justify-content:flex-start;
+}
+p{
+	display:flex;
+	align-items: center;
+}
+.seperate{
+	width: 400;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 20;
+    margin-bottom: 35px;
+    background: #E3E5FB;
+}
+.lm{
+	    border: 1px solid black;
+    width: 150;
+    padding: 10;
+    margin-top: 20;
+    text-align: center;
+    background: white;
+    border-radius: 8%;
+}
+.somefacts{
+	display:flex;
+	margin-top:40px;
+}
+h1{
+	font-size:25px;
+}
+.split{
+	margin-right:60px;
+	width:400px;
+}
+li{
+	margin-top:20px;
+}
+.CR{
+	text-align:center;
+	font-weight:bold;
+	margin-top:40px;
+}
