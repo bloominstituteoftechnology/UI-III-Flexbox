@@ -72,13 +72,19 @@ h1, h2, h3, h4, h5 {
 .main-nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px; 
+    margin-top: 15px; 
+    width: 700px;
+    margin-right:120px;
+}
+.brand{
+    display: flex;
+    margin-bottom:50px;
 }
 .main-nav a{
   display: flex;
   font-size: 14px;
   color: gray;
-  text-decoration: none;
+  text-decoration:none;
 }
 .cta{
     display: flex;
@@ -130,6 +136,14 @@ footer  {
 .features p{
     margin-right:30px;
 }
+.S{
+    padding-right: 20px;
+}
+.P{
+    padding-right: 20px;
+}
+
+/*Second website*/
 
 .Everything2{
     width: 1000px;
@@ -188,9 +202,6 @@ ul{
 .facts p{
     margin-right: 100px
 }
-.S{
-    padding-right: 20px;
-}
-.P{
-    padding-right: 20px;
+.services-header-img{
+    width: 100%;
 }
