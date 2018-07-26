@@ -48,7 +48,9 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-
+* {
+    box-sizing: border-box;
+}
 
 html, body {
     height: 100%;
@@ -61,311 +63,118 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-#main-container {
-	display: flex;
-	min-width: 100wh;
-	flex-direction: column;
-	flex: 1 1 auto;
-
-}
-
 body {
 	display: flex;
+	justify-content: center;
+}
+.main-container{
+	width: 880px;
 }
 
-.header {
+header {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
-	flex-wrap: nowrap;
-	margin-top: 30px;
-	padding-right: 50px;
-	padding-bottom: 10px;
-	max-height: 200px;
-	margin-bottom: 100px;
 	align-items: center;
-	
-
+	margin-top: 25px;
 }
-.header .nav1 {
+header nav {
 	display: flex;
-	text-align: left;
-	color: grey;
-	font-size: 18px;
-	justify-content: space-around;
-	align-items: center;
-	flex-basis: 70%;
-
+	justify-content: space-between;
+  width: 690px;
 }
 
-.header .nav1 a {
-	display: flex;
-	text-align: center;
-	text-decoration: none;
-	justify-content: space-evenly;
-	color: grey;
-	align-items: flex-start;
-
+header nav a {
+  display: inline-block;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
 }
 
-.header .logo {
-	display: flex;
-	max-height: 40px;
-	flex-basis: 10%;
-	align-items: flex-end;
-
+header nav a:hover {
+  text-decoration: underline;
 }
+
+header nav a:last-child {
+  margin-right: 65px;
+}
+
+header .logo {
+  display: inline-block;
+}
+
 
 .tandcimg {
+	width: 880px;
+	height: 524px;
 	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-basis: fill;
-	align-items: center;
-	align-content: flex-start;
-	flex: 1 1 auto;
-	padding: 200px;
-	height: auto;
-	
-}
-
-.tandcimg .tandnav {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-}
-
-.tandcimg .tandnav .tagline {
-
-	text-align: center;
-	
-}
-
-.tandcimg .tandnav .tagline .taglinep {
-	font-size: 105px;
-}
-
-.tandcimg .codeImage {
-	display: flex;
-	max-height: 425px;
-	max-width: 425px;
-
-}
-
-.tandcimg .nav2 {
-	display: inline-flex;
-	flex-direction: row;
-	border: 1px solid black;
-    font-size: 25px;
-	text-decoration: none;
-	color: black;
-	max-width: 175px;
-	max-height: 40px;
-	justify-content: center;
-	align-self: center;
-	
-
-}
-
-.tandcimg .nav2 .nav2p {
-	
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 }
-
-.fanda {
+.tagline {
 	display: flex;
-	flex-direction: row;
-	border-top: 2px solid black;
+	flex-direction: column;
 	justify-content: space-between;
-	align-content: center;
-	margin-bottom: 100px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 100px;
-	height: 200px;
-	
+	align-items: center;
+  font-size: 77px;
+  text-align: center;
 }
 
-.fanda .fandp .Features {
-	display: flex;
-	font-size: 20px;
-
+.tagline button {
+  background: white;
+  vertical-align: top;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-.fanda .fandp {
-	display: flex;
-	flex-direction: column;
-	padding-top: 30px;
-	padding-bottom: 20px;
-	height: 200px;
-	margin-bottom: 30px;
-	width: auto;
-
+.tandcimg .tagline button:hover {
+  background: black;
+  color: white;
 }
 
-.fanda .fandp .Featuresp {
-	font-size: 18px;
-	margin-top: 10px;
-	
-}
-
-.fanda .aandp .About {
-	display: flex;
-	font-size: 20px;
-
-}
-
-.fanda .aandp {
+/* Main content */
+.main {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 39px 0px;
 	display: flex;
 	flex-direction: column;
-	padding-top: 30px;
-	height: 200px;
-	padding-bottom: 20px;
-	margin-bottom: 30px;
-	width: auto;
 }
 
-.fanda .aandp .Aboutp {
-	font-size: 18px;
-	margin-top: 10px;
-	
+.topcontent {
+	display: flex;
+	justify-content: space-between;
+}
+
+.topcontent .text {
+  width: 410px;
 }
 
 .middle-img {
-	display: flex;
-	width: auto;
-	margin-top: 50px;
-	height: auto;
-
+  margin: 45px 0px;
 }
 
-.threeps .sandp {
+.bottomcontent {
 	display: flex;
-	flex-direction: column;
-	padding-top: 20px;
-	height: 200px;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	width: auto;
+	justify-content: space-between;
 }
 
-.threeps .Services {
-	display: flex;
-	font-size: 20px;
-	
+.bottomcontent .text {
+	width: 275px;
 }
 
-.threeps .sandp .Servicesp {
-	display: flex;
-	font-size: 18px;
-	
-}
-
-.threeps .pandp {
-	display: flex;
-	flex-direction: column;
-	padding-top: 20px;
-	height: 200px;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	width: auto;
-}
-
-.threeps .Product {
-	display: flex;
-	font-size: 20px;
-	
-}
-
-.threeps .pandp .Productp {
-	display: flex;
-	font-size: 18px;
-	
-}
-
-.threeps .vandp {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	padding-top: 20px;
-	height: 200px;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	width: auto;
-	
-}
-
-.threeps .Vision {
-	display: flex;
-	font-size: 20px;
-	
-}
-
-.threeps .vandp .Visionp {
-	display: flex;
-	font-size: 18px;
-	
-}
-
-.threeps {
-	display: flex;
-	flex-direction: row;
-	width: auto;
-	height: auto;
-	margin-right: 10px;
-	margin-left: 10px;
-	padding-bottom: 210px;
-	border-bottom: 2px solid black;
-	
-}
-
-.footer {
-	display: flex;
-	text-align: center;
-	flex-direction: row;
-	width: auto;
-	justify-content: center;
-	align-items: flex-start;
-	height: 50px;
-	margin-top: 75px;
-	margin-bottom: 30px;
-}
 
 .contact {
-	display: flex;
-	flex-direction: column;
-	width: auto;
-	height: 200px;
-	margin-top: 100px;
-	margin-bottom: 10px;
-	
-}
-.contact .contactHeader {
-	font-size: 20px;
-	display: flex;
-	margin-left: 10px;
-	
+  padding: 39px 10px 0;
 }
 
-.contact .address {
-	font-size: 18px;
-	display: flex;
-	padding: 10px;
-
+.contact p {
+  margin: 20px 0;
 }
 
-.contact .phoneNumber {
-	font-size: 18px;
-	display: flex;
-	padding: 10px;
-	
-}
-
-.contact .email {
-	font-size: 18px;
-	display: flex;
-	padding: 10px;
-	
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
 }
