@@ -64,3 +64,163 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container	{
+	width: 880px;
+	margin: 0 auto;
+}
+
+header	{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+header nav	{
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	margin-right: 40px;
+}
+
+header nav a	{
+	color: lightgray;
+	text-decoration: none;
+}
+
+.cta	{
+	padding: 70px 0px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.cta .cta-text h1	{
+	font-size: 100px;
+}
+
+button	{
+	height: 30px;
+	width: 200px;
+	text-decoration: none;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 16px;
+}
+
+.main-content	{
+	display: flex;
+	flex-direction: column;
+	padding: 40px 0px
+}
+
+.main-content .top-content	{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-content .top-content div	{
+	margin: 0px 30px 40px 30px;
+}
+
+h4	{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+p	{
+	font-size: 20px;
+}
+
+.main-content .bottom-content	{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+.main-content .bottom-content div	{
+	margin: 30px 30px 40px 30px;
+}
+
+.contact	{
+	margin-left: 30px;
+}
+
+.contact p	{
+	margin-top: 20px;
+}
+
+footer	{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+
+footer p	{
+	font-size: 14px;
+}
+
+/* Services page CSS specific styling start below*/
+
+.services-header-img	{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.services-intro	{
+	padding: 30px 0px;
+	width: 80%;
+	margin-left: 5%;
+}
+
+h5	{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.services-main-content	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	padding-bottom: 30px;
+}
+
+.services-content-box	{
+	width: 40%;
+	border: 1px solid black;
+	background-color:whitesmoke;
+	justify-content: space-around;
+	margin-top: 30px;
+	padding: 20px;
+}
+
+.services-main-content button	{
+	margin: 20px 0px;
+}
+
+.services-bottom-content {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 80px;
+}
+
+.services-bottom-text	{
+	width: 40%;
+}
+
+.services-info-img	{
+	width: 50%;
+}
+
+ul	{
+	margin-top: 30px;
+	list-style-type: disc;
+	line-height: 2;
+	margin-left: 20px;
+}
