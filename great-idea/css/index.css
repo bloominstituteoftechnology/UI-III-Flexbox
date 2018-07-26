@@ -64,3 +64,238 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.page-div {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 20px;
+}
+
+header .logo {
+	display: flex;
+	margin-left: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+	.page-div {
+		width: 100%;
+		text-align: center;
+	}
+
+	.logo {
+		display: none !important;
+	}
+
+	.first-section h1 {
+		margin-top: 0% !important;
+		margin-left: 0% !important;
+	}
+
+	.first-section img {
+		display: none !important;
+	}
+
+	.first-section button {
+		margin-left: 25% !important;
+	}
+
+    header nav {
+    	position: static;
+    	font-size: 15px;
+    }
+
+    footer {
+    	display: none !important;
+    }
+}
+
+.first-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.first-section-div h1 {
+	display: flex;
+	align-self: flex-start;
+	font-size: 60px;
+	margin-top: 10%;
+	margin-left: -40%;
+	padding-top: 30%;
+}
+
+.first-section-div img {
+	display: flex;
+	align-self: flex-end;
+	margin-top: -85%;
+	margin-right: 15%;
+	margin-bottom: 15%;
+	margin-left: 65%;
+}
+
+.first-section-div button {
+	display: flex;
+	align-self: flex-start;
+	margin-top: 10%;
+	margin-left: -20%;
+	padding: 15px;
+    font-size: 16px;
+	background-color: #e7e7e7;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+
+.second-section {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding: 20px;
+}
+
+.second-secion-div {
+	width: 50%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding: 20px;
+}
+
+.middle-img {
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.third-section {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding: 20px;
+}
+
+.third-section-div {
+	width: 33%;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  height: 60px;
+  padding: 1rem;
+  border-top: 1px solid black;
+}
+
+/*Services page*/ 
+.services-header-img {
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.first-services-div {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.first-services-div h1 {
+	font-size: 30px;
+}
+
+.first-services-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.second-services-div {
+	width: 45%;
+	margin: 15px;
+	padding: 20px;
+	background-color: #e0e0e0;
+	border: 1px solid gray;
+}
+
+.second-services-div button {
+	margin-top: 15px;
+	padding: 10px;
+    font-size: 16px;
+	background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.second-services-container {
+	display: flex;
+	text-align: left;
+}
+
+.third-services-div {
+	width: 50%;
+	height: 100%;
+	margin: 20px;
+}
+
+.third-services-div ul {
+    width: 20%;
+    margin-left: 5%;
+    list-style-type: disc;
+}
+
+@media screen and (max-width: 780px){
+	.third-services-div {
+		width: 100%
+	}
+
+	.third-services-div ul {
+		width: 100%;
+	}
+
+	.third-services-container {
+		display: none;
+	}
+}
+
+.third-services-container {
+	width: 50%;
+	height: 100%;
+	margin: 20px;
+}
+
+.services-info-img {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 50px;
+}
+/*Services page*/ 
+
+
+
+
+
+
+
