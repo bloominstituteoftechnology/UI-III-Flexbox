@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,4 +63,146 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+html {
+	display: flex;
+	padding: 5%;
+	flex-direction: column;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	height: 40px;
+	z-index: 1;
+	background: grey;
+}
+.logo	{
+
+}
+.head	{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 500px;
+
+
+}
+.head-text	{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.head-text div	{
+	justify-content: flex-end;
+	width: 100px;
+	border: solid black 1px;
+	padding: 10px;
+
+}
+.h1-span	{
+	display: flex;
+	justify-content: center;
+}
+.head-text h1 {
+	font-size: 84px;
+	display: flex;
+
+
+	flex-direction: column;
+
+}
+.head-img	{
+	/* border: solid black 1px; */
+	display: flex;
+}
+.section-by-2	{
+	padding: 2% 0%;
+	display: flex;
+	justify-content: space-around;
+}
+.section-by-2 .half {
+	padding: 0% 1%;
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+}
+.section-by-3	{
+	padding: 2% 0%;
+	display: flex;
+}
+.section-by-3 .third	{
+	padding: 0% 1%;
+}
+.middle-img	{
+	width: 100%;
+}
+
+.center-the-copyright-with-a-long-class-name-for-giggles	{
+	text-align: center;
+}
+a:active, a:link, a:visited, a:hover {
+	padding: 4%;
+	text-decoration: none;
+	color: lightgray;
+}
+
+.services-header-img	{
+	width: 100%;
+	padding: 2% 0%;
+}
+.services-container	{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 1%;
+	justify-content: space-between;
+}
+.block	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 45%;
+	padding: 2.5%;
+	margin: 2.5%;
+	border: black solid 1px;
+	background-color: whitesmoke;
+}
+.learn-more	{
+	display: flex;
+	justify-content: center;
+	padding: 1%;
+	margin: 2% 0%;
+	width: 150px;
+	heigth: 50px;
+	border: 1px black solid;
+	border-radius: 5px;
+	background-color: white;
+}
+.bottom	{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+}
+.bottom-block	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	width: 49%;
+	padding: 2.5%;
+	margin: 2.5%;
+}
+
+.bottom-block .list	{
+	display: block;
+}
+li {
+	list-style-type: square;
+}
+ul {
+	padding-left: 20px;
+}
