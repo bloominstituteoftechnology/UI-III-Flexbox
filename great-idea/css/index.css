@@ -144,7 +144,7 @@ h3 {
 }
 
 hr {
-  display: block;
+  display: inline-flex;
   border: 1px solid #154073;
   margin: 5px 0;
   width: 100%;
