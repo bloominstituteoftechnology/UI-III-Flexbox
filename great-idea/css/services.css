@@ -72,7 +72,6 @@ div.box {
    
 }
 
-
                     /* BEGGINING OF NAV AND HEADER SECTION */
 
 
@@ -343,6 +342,7 @@ div.row2 {
     align-items: flex-start;
     height: 40px;
     width: 150px;
+    margin-right: 227px;
     padding: 10px 20px 10px 30px;
     border: 1px solid black;
     border-radius: 5px;
@@ -394,6 +394,7 @@ div.row2 {
     flex-wrap: wrap;
     height: 40px;
     width: 150px;
+    margin-right: 227px;
     padding: 10px 20px 10px 30px;
     border: 1px solid black;
     border-radius: 5px;
@@ -511,6 +512,7 @@ hr {
     flex-wrap: wrap;
     height: 40px;
     width: 150px;
+    margin-right: 227px;
     padding: 10px 20px 10px 30px;
     border: 1px solid black;
     border-radius: 5px;
@@ -564,9 +566,9 @@ div.facts p {
 
 div.facts ul {
     
-    margin: 8px 10px 0px 18px;
+    margin: 30px 10px 0px 18px;
     padding-bottom: 50px;
-    line-height: 1.5rem;
+    line-height: 40px;
     list-style-type: square;
 }
 
