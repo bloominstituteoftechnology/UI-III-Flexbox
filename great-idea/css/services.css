@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5 {
 }
 
 div.box {
-	width: 880px;
+    width: 880px;
+   
     margin: 0px auto;
     
    
@@ -207,7 +208,7 @@ div.row1 {
     align-items: flex-start;
     flex-wrap: wrap;
     height: 240px;
-    width: 440px;
+    width: 400px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: whitesmoke;
@@ -250,7 +251,7 @@ div.row1 {
     align-items: flex-start;
     flex-wrap: wrap;
     height: 240px;
-    width: 440px;
+    width: 400px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: whitesmoke;
@@ -294,10 +295,13 @@ div.ux-uip2 p {
 div.row2 {
     
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
    align-items: flex-start;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
    width: 880px;
+   height: 270px;
+   margin: 45px 0px 0px 0px;
+   padding-left: 15px;
    
    
 }
@@ -305,15 +309,16 @@ div.row2 {
 .digital-marketing { 
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
     height: 240px;
-    width: 440px;
+    width: 400px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: whitesmoke;
     box-shadow: 1px 1px 1px 1px;
+    margin-left: 63px;
 }
 
 .digital-marketing h3 {
@@ -348,16 +353,18 @@ div.row2 {
 .web-development { 
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
     height: 240px;
-    width: 440px;
+    width: 400px;
+    margin-left: 77px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: whitesmoke;
     box-shadow: 1px 1px 1px 1px;
-    padding-left: 40px;
+    
+    
     
 }
 
@@ -394,6 +401,116 @@ div.row2 {
 }
 
 
+                                    /* END OF ROW 2 */
 
 
-                    /* END OF CONTENT AREA */
+                                    /* BEGGINING OF ROW 3 */
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 880px;
+    height: 260px;
+    margin: 15px 0px 25px 0px;
+    padding-left: 15px;
+}
+
+.ios-development { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left: 62px;
+}
+
+.ios-development h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    
+    
+}
+
+.ios-development p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 8px 10px 10px 20px;
+}
+
+.ios-developmentp2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40px;
+    width: 150px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.android-development { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 400px;
+    margin-left: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+    
+    
+}
+
+.android-development h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+    
+}
+
+.android-development p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 8px 10px 10px 20px;
+}
+
+
+.android-developmentp2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 150px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+                                /* BEGGINING OF ROW 3 */
+
+
+                                /* END OF CONTENT AREA */
