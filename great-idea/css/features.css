@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -21,7 +22,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-    vertical-align: baseline;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -63,118 +64,80 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
-/* body {
-    width: 880px;
-    display: flex;
-    justify-content: center;
-} */
-
+/* Beginning of features.html CSS */
 body {
-	display: flex;
-	justify-content: center;
-}
-.container {
 	width: 880px;
+    margin: 0 auto;
+    background-color: wheat;
 }
 
 header {
-	display: flex;
+	width: 880px;
 	justify-content: space-between;
-	align-items: center;
-    margin-top: 25px;
-    width: 880px;
+   padding: 15px 5px;
+    position: fixed;
+    background-color: wheat;
+}
+
+.flex {
+	display: flex;
 }
 
 nav {
-	display: flex;
 	justify-content: space-between;
-    width: 690px;
+    align-items: center;
+    flex: 1;
+
 }
 
-nav a {
-    display: inline-block;
+a {
 	color: gray;
 	text-decoration: none;
 	font-size: 15px;
 }
 
-header nav a:last-child {
-    margin-right: 65px;
-  }
+.logo {
+	margin-left: 80px;
+	/* background-color: white; */
+}
 
 /* End of Header */
 
-.top {
+.features-header-img {
+    margin-bottom: 30px;
+    margin-top: 90px;
     width: 880px;
-    height: 520px;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+    height: 150px;
+    border-radius: 25px;
 }
 
-h1 {
-	text-align: center;
-	font-size: 80px;
-}
+/* #FeaturesContainer {
+    width: 100%;
+    margin-bottom: 40px;
 
-.innovation {
-	display: flex;
+} */
+
+.TopFeatures {
+    width: 880px;
+    margin-bottom: 40px;
+    flex: 1;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    flex-wrap: nowrap;
+}
+
+/* Beginning of Large Mid Container */
+.LargeMidContainer{
+    flex-wrap: wrap;
+}
+
+.BottomFeatures {
 
 }
 
-.innovation button {
-	border: 1px solid black;
-	background-color: white;
-	padding: 6px 40px;
-	font-size: 17px;
-	vertical-align: top;
-}
-
-/* End of Top */
-
-.MainContainer {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 40px 0px;
-    display: flex;
-    flex-direction: column;
-}
-
-.topMid {
-    display: flex;
-	justify-content: space-between;
-}
-
-.topMid .TextBox {
-    width: 47%;
-}
-
-.middle-img {
-	margin: 45px 0px;
-}
-/* End of Top Mid */
-
-.bottomMid {
-    display: flex;
-	justify-content: space-between;
-}
-
-.bottomMid .TextBox {
-    width: 32%;
-}
-
-/* End of Bottom Mid */
-
-address {
-    padding: 40px 10px;
-}
+/* Footer and MISC */
 footer {
 	text-align: center;
 	font-size: 13px;
@@ -191,18 +154,4 @@ a:hover {
 	background-color: yellow;
 	color: black;
   }
-
-.contactA {
-	color: black;
-	margin-left: 0px;
-}
-
-.notH2 {
-	margin-top: 30px;
-	font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-
-/* End of index.html CSS */
+  /* End of features.html CSS */
