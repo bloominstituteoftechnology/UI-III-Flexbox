@@ -81,34 +81,18 @@ h1, h2, h3, h4, h5 {
 	color:grey;
 }
 
-.HeaderContent{
+.TopImg{
 	display:flex;
-	fex-direction:row;
+	justify-content:center;
+}
+
+.HeadTitle{
 	margin:85px;
 }
 
-.BigText{
-	display:flex;
-	flex-direction:column;
-	justify-content:space-between;
-	font-size:92px;
-	
-}
-
-.Button{
-	font-size:20px;
-	display:flex;
-	border:2px solid black;
-	margin:10% auto;
-	height:60px;
-	width:150px;
-	padding:20px;
-	
-}
-
-.filler{
-	display:flex;
-	width:300px;
+.HeadText{
+	margin:85px;
+	top:30px;
 }
 
 #Spacer{
@@ -118,39 +102,50 @@ h1, h2, h3, h4, h5 {
 }
 
 .BodyContent{
-	display:flex;
 	margin:85px;
+	display:flex;
 	flex-wrap:wrap;
-	justify-content:center;
-
+	flex-display:row;
 }
 
-.TopTitles{
-	text-align:top;
-	margin:30px;
+.ContentBlock{
+	border:2px solid black;
+	width:45%;
+	padding:10px;
+	margin:10px;
 }
 
-.BodyTop{
+#LearnMore{
+	padding:5px;
+	margin:5px;
+	border:2px solid black;
+	width:33%;
+	text-align:center;
+}
+
+.BottomContent{
 	display:flex;
-	margin:30px;
-}
-
-.BottomTitles{
-	text-align:top;
-	margin:30px;
-}
-
-.BodyBottom{
-	display:flex;
-	margin:30px;
-}
-
-.Contact{
-	display:flex;
+	flex-display:row;
 	margin:85px;
+}
+
+.BottomText{
+	margin:20px;	
+}
+
+.Alist{
+	padding:20px;
+}
+
+.BottomImg{
+	align-items:right;
 }
 
 .Copyright{
 	text-align:center;
-	margin:100px;
+	margin:50px;
 }
+
+
+
+
