@@ -67,12 +67,13 @@ h1, h2, h3, h4, h5 {
 
 /* Body */
 body {
-	text-align: center;
-	width: 880px;
-	margin: 0 auto;
-	margin-bottom: 25px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
 }
-
+.container {
+    width: 880px;
+}
 /* Navigation */
 .navigation {
     background-color: white;
@@ -95,73 +96,96 @@ a:hover {
     text-decoration: underline;
 	color: black;
 }
-nav a:last-child {
-	margin-right: 65px;
+/* Services Offered */
+h2 {
+    font-weight: bold;
 }
-
-/* Header */
-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 209px;
+.services-header-img {
+    margin: 35px 0px;
 }
-
-header div {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+section.services-offered {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 20px 0;
+    padding: 20px 0;
 }
-
-header div h1 {
-	padding: 20px;
-	font-size: 70px;
-	text-align: center;
+section div.service {
+    flex-direction: column;
+    margin: 2% 0;
+    padding: 20px;
+    height: 250px;
+    width: 48%;
+    border: 1px solid black;
+    background: #F4F4F4;
 }
-
-header div button {
-	text-decoration: none;
+section div.service p {
+    padding: 20px 0;
+}
+section div.service button {
+    padding: 10px 35px;
     background: white;
-	margin-top: 15px;
-	border: solid black 1px;
-	padding: 10px 50px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
 }
-button:hover {
-    transition-duration: 0.4s;
-    background-color: black;
+section div.service button:hover {
+    background: black;
     color: white;
 }
-
-/* Section 1 top */
-section {
-	display: flex;
-	justify-content: center;
+/* Fact section */
+section.facts {
+    position: relative;
+    display: flex;
+    margin: 4% 0;
+    width: 90%;
 }
-
-section .top-content{
-	padding: 30px 10px 10px 0px;
-	margin-top: 80px;
-	border-top: black solid 2px;
+section.facts.img {
+    flex-direction: column;
+    max-width: 48%;
+    position: relative;
+    display: flex;
+    border-radius: 8px;
+    width: 440px;
+    right: 20px;
+    left: 145px;
 }
-/* Section 2 bottom */
-
-section .bottom-content{
-	padding: 10px 10px 30px 0px;
-	border-bottom: black solid 2px;
+.services-info-img {
+    top: -54px;
+    bottom: 0px;
+    right: 44px;
+    left: -89px;
+    position: relative;
+    margin-top: 55px;
+    margin-right: -233px;
+    margin-bottom: 0px;
+    margin-left: 139px;
 }
-
-/* Contact */
-.contact {
-    position: absolute;
-	justify-content: flex-start;
-	flex-direction: column;
-	padding: 39px 10px 0;
+section .facts {
+    display: flex;
+    padding-top: 4opx;
 }
-/* Footer */
+section.facts p {
+    padding: 20px 0;
+}
+section.facts ul { 
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 31px;
+}
+section.facts ul li {
+    padding-bottom: 10px;
+}
+/* Footer area */
 footer {
-	position: relative;
-	top: 154px;
-	margin: 32px 0;
-	text-align: center;
-	font-size: 14px;
+    right: 0px;
+    left: 261px;
+    top: 29px;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
