@@ -126,9 +126,16 @@ h1 {
 }
 
 #getStarted {
-    border: 1px solid black;
+	border: 1px solid black;
+	color: black;
     padding: 8px;
 	width: 150px;
+	transition-duration: 0.4s;
+}
+
+#getStarted:hover {
+	background: black;
+	color: aliceblue;
 }
 
 #codeImage {
