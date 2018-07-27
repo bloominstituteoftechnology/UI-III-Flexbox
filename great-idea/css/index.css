@@ -1,6 +1,24 @@
-header{
-	display:flex;
-	justify-content: space-between;
+body{
+	margin: 800px;
+	display: flex;
+	justify-content: center;
+}
+
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 1px solid green;
+}
+
+header nav ul {
+display: flex;
+
+}
+
+header nav ul li a{
+	display: inline-flex;
 }
 
 .services-header-img {
@@ -66,6 +84,13 @@ padding: 92px;
 }
 
 .container{
-margin : 0 auto;
+	padding:
 width: 800px;
+}
+
+header nav {
+	display:flex;
+	border: 1px solid blue;
+
+
 }
