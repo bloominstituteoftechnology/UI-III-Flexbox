@@ -150,6 +150,49 @@ button {
 
 footer {
 	display:flex;
-	align-content: center;
 	justify-content: center;
+}
+
+
+/*services*/
+
+.t-b{
+	padding: 18px 8px;
+	border-bottom: 1px solid black;
+
+}
+
+.m-b{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+.caja {
+	border: 1px solid black;
+	background-color: aliceblue;
+	width: 420px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.caja button {
+	
+	margin: 8px 0;
+	background-color: white;
+	
+}
+
+
+.b-b{
+	display:flex;
+	padding: 18px 8px;
+}
+
+.b-services ul {
+
+	margin-top: top 18px;
+	display: flex;
+	flex-direction: column;
 }
