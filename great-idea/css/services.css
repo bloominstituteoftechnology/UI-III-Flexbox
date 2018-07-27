@@ -73,6 +73,9 @@ div.box {
 }
 
 
+                    /* BEGGINING OF NAV AND HEADER SECTION */
+
+
 .navigation {
 	display: flex;
 	flex-wrap: wrap;
@@ -166,12 +169,231 @@ div.services {
     border-bottom: 3px solid lightgray;
 }
 
-div.services h3 {
+div.services h1 {
     justify-content: inherit;
     align-items: flex-start;
+    font-size: 30px;
+    font-weight: bold;
     
 }
 
 div.services P {
     margin-bottom: 30px;
 }
+
+
+                    /* END OF NAV AND HEADER SECTION */
+
+
+                    /* BEGGINING OF CONTENT AREA */
+
+/* BEGINNING OF ROW 1 */
+
+div.row1 {
+    
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   
+   
+}
+
+
+.digital-design {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 440px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.digital-design h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    
+    
+}
+
+.digital-design p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 8px 10px 10px 20px;
+}
+
+
+.digital-design-p2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40px;
+    width: 150px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.ux-ui {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 440px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.ux-ui h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    
+    
+}
+
+.ux-ui p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 8px 10px 10px 20px;
+    
+}
+
+div.ux-uip2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40px;
+    width: 150px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* END OF ROW 1 */
+
+
+/* BEGGINING OF ROW 2 */
+
+div.row2 {
+    
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   width: 880px;
+   
+   
+}
+
+.digital-marketing { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 440px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.digital-marketing h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    
+    
+}
+
+.digital-marketing p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 8px 10px 10px 20px;
+}
+
+.digital-marketingp2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40px;
+    width: 150px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.web-development { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 440px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+    padding-left: 40px;
+    
+}
+
+.web-development h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+    
+}
+
+.web-development p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 8px 10px 10px 20px;
+}
+
+
+.web-developmentp2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 150px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+
+
+                    /* END OF CONTENT AREA */
