@@ -64,6 +64,53 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.main{
+	display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+  
+    border-bottom: 1px solid black;
+    padding-bottom: 55px;
+}
+.main2{
+	align-self: center;
+}
+.titleh{
+	font-size: 62px;
+    text-align: center;
+
+}
+.button{
+	border: 1px solid black;
+    margin-left: 55px;
+    width: 139px;
+    padding: 10px;
+    padding-left: 25px;
+    height: 35px;
+}
+.fa{
+	display: flex;
+	margin-top:35px;
+	margin-bottom:35px;
+}
+.spv{
+	display: flex;
+	margin-top:35px;
+	margin-bottom:35px;
+}
+.s{
+	width:260px;
+}
+.p{
+	width:260px;
+
+}
+.v{
+	width:260px;
+}
+footer{
+	text-align: center;
+}
 body{
 	width:880px;
 	margin-left:225px;
@@ -79,7 +126,6 @@ header{
 .top{
 	display:flex;
 	align-self:center;
-	
 }
 ul{
 	list-style: none;
