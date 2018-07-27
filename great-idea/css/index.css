@@ -64,13 +64,17 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-body {
+.body {
 	width: 880px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
 }
 .leftblockstart {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 
 	text-align: center;
 	font-size: 73px;
@@ -78,6 +82,7 @@ body {
 	margin: 85px 40px;
 	width: 379px;
 }
+
 #start{
 	border: 1px solid black;
 	width: 106px;
@@ -85,11 +90,11 @@ body {
 	text-align: center;
 	margin-left: 100px;
 }
+
 nav {
 	display: flex;
 	flex-direction: row;
-	width: 880px;
-	
+	width: 880px;	
 }
 ul {
 	display: flex;
@@ -110,6 +115,7 @@ ul {
 	justify-content: space-evenly;
 	border-top: 1px solid black; 
 	margin: 10px 5px;
+	width: 880px;
 }
 
 .features {
@@ -127,6 +133,7 @@ ul {
 	justify-content: space-evenly;
 	border-bottom: 1px solid black; 
 	margin: 10px 5px;
+	width: 880px;
 }
 
 .bottomsection {
@@ -140,19 +147,24 @@ header {
 	height: 379px;
 }
 
-footer {
-	text-align: center;
-	align-self: flex-end;
+address {
+	margin: 25px;
 }
 
-#content {
-	width: 880px;
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
 }
 
 /* Services page */
 
+.services-header-img {
+	margin: 25px 0px;
+}
+
 .intro {
-	margin: 20px 5px;
+	margin-bottom: 45px;
 	padding-bottom: 25px;
 	border-bottom: 1px solid black;
 }
@@ -179,6 +191,7 @@ h3 {
 	padding: 15px;
 	width: 420px;
 	height: 205px;
+	background-color: whitesmoke;
 }
 
 .learn {
@@ -190,6 +203,7 @@ h3 {
 	width: 140px;
 	justify-content: center;
 	background-color: white;
+	border-radius: 5px;
 }
 
 .outro {
