@@ -67,11 +67,13 @@ h1, h2, h3, h4, h5 {
 
 /* Body */
 body {
-	width: 880px;
+    display: flex;
     margin: 0 auto;
-    text-align: center;
+    justify-content: center;
 }
-
+.container {
+    width: 880px;
+}
 /* Navigation */
 .navigation {
     background-color: white;
@@ -94,18 +96,6 @@ a:hover {
     text-decoration: underline;
 	color: black;
 }
-header {
-    width: 80%;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-top: 100px;
-}
-header h1 {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px 0;
-}
 /* Services Offered */
 h2 {
     font-weight: bold;
@@ -123,8 +113,10 @@ section.services-offered {
     padding: 20px 0;
 }
 section div.service {
+    flex-direction: column;
     margin: 2% 0;
     padding: 20px;
+    height: 250px;
     width: 48%;
     border: 1px solid black;
     background: #F4F4F4;
