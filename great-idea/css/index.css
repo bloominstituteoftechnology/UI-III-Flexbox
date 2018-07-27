@@ -135,21 +135,10 @@ header .logo {
 	border: 1px solid black;
 	/*cursor: pointer; /*change this???*/
 }
-.innovate .innovate-image { /*done to this point*/
+.innovate .innovate-image { 
 	width: 380px;
 	height: 380px;
 }
-
-/* I believe this goes with services.index */
-.get {
-	width: 100px;
-	height: 40px;
-	border: 1px solid black;
-	display: flex;
-	align-items: center;
-	justify-content: center; 
-}
-
 /*MAIN CONTENT*/
 .main {
 	display: flex;
@@ -161,10 +150,9 @@ header .logo {
 .main .top-content { 
 	display: flex;
 	width:880px;
-	height: 
+	height: 150px;
 	justify-content: space-between;
 }
-
 .top-content .top { 
 	width: 410px;
 }
@@ -179,13 +167,38 @@ header .logo {
 .bottom-content .bottom {
 	width:275px;
 }
-
+/*SERVICES*/
+.services-header-img {
+	margin: 35px 0px;
+}
 .services-header {
 	padding-bottom: 45px;
 	border-bottom: 1px solid black;
 }
 .services-header h2 {
-	font-size: 28px;
+	font-size: 30px;
+}
+.box-area {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 40px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.box {
+	border: 1px solid black;
+	background-color: #D3D3D3D3
+	width: 420px;
+	padding: 15px;
+	margin-bottom: 40px;
+}
+.box btn {
+	margin-top: 15px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 8px 20px;
 }
 .contact {
 	padding 30px 10px 0;
@@ -201,27 +214,8 @@ footer {
 	padding: 20px 10px;
 	border-bottom: 1px solid black;	
 }
-#box-area {
-	display: flex;
-	padding: 20px 0px;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	border-bottom: 1px solid black;
-}
-.box {
-	border: 1px solid black;
-	background-color: #00000010;
-	width: 420px;
-	padding: 15px;
-	margin: 40px;
-}
-.box btn {
-	margin-top: 15px;
-	background: white;
-	border: 1px solid black;
-	border-radius: 5px;
-	padding: 8px 20px;
-}
+
+
 .services2 {
 	border: 1px solid orange;
 	display: flex;
