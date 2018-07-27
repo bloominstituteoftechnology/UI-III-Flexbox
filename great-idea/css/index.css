@@ -166,3 +166,70 @@ footer {
 	text-align: center;
 	margin: 35px 0px;
 }
+
+/* services css below */
+
+.services-header-img {
+	margin: 25px 0px;
+}
+
+/* services */
+
+.services {
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+}
+
+.services h2 {
+	font-size: 24px;
+}
+
+
+
+/* section area in middle*/
+
+.middle-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.middle-container .text-content {
+	border: 1px solid black;
+	width: 420px;
+	margin: 20px 0px;
+	padding: 20px;
+	line-height: 1.2;
+}
+
+.middle-container .text-content .learn-more {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 140px;
+	padding: 10px 30px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 12px;
+}
+
+/* facts */
+
+.bottom-container {
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid black;
+	margin: 20px 0px;
+	padding: 40px 0px;
+}
+
+.bottom-container .facts {
+	width: 410px;
+	line-height: 1.2;
+}
+
+.bottom-container .facts ul li {
+	list-style-type: square;
+	list-style-position: inside;
+	margin: 14px 0px;
+}
