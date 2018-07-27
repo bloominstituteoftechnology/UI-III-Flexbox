@@ -67,6 +67,8 @@ h1, h2, h3, h4, h5 {
 
 /*my code starts here */
 
+
+
 .header{
 	height:auto;
 	margin-top:10px;
@@ -222,6 +224,7 @@ border-bottom:2px solid black;
 }
 
 
+
 .servicebox{
 height:auto;
 width:45%;
@@ -271,4 +274,5 @@ list-style-type:disc;
 .services-info-img{
 width:45%;
 }
+//
 
