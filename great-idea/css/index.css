@@ -82,8 +82,11 @@ nav {
 	justify-content: space-evenly;
 }
 
-.nav {
+a {
 	text-decoration: none;
+}
+
+.nav {
 	color: grey;
 	font-size: 12px;
 }
@@ -197,6 +200,7 @@ h2 {
 
 .learnMore {
 	border: 1px solid black;
+	color: black;
 	width: 100px;
 	background-color: white;
 	height: 30px;	
