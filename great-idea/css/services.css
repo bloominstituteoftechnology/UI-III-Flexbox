@@ -6,10 +6,12 @@
 }
 
 #ServicesContainer {
+    display: flex;
     flex-wrap: wrap;
 }
 
 .TopServices {
+    display: flex;
     flex-direction: column;
     padding-bottom: 40px;
     border-bottom: 1px solid black;
@@ -70,17 +72,20 @@
 }
 
 .row1 {
+    display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
     margin-top: 10px;
 }
 
 .row2 {
+    display: flex;
 	justify-content: space-between;
     margin-bottom: 40px;
 }
 
 .row3 {
+    display: flex;
 	justify-content: space-between;
     margin-bottom: 40px;
 }
@@ -98,6 +103,7 @@
 /* End of Large Mid Container */
 
 .BottomContainer {
+    display: flex;
     justify-content: space-between;
     padding-top: 40px;
 }
