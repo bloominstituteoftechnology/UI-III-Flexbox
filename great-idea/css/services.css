@@ -542,7 +542,6 @@ div.facts {
     align-items: flex-start;
     flex-wrap: wrap;
     width: 380px;
-    
     margin-bottom: 25px;
 }
 
@@ -552,7 +551,6 @@ div.facts h3 {
     align-items: flex-start;
     flex-wrap: wrap;
    
-    color: red;
 }
 
 div.facts p {
@@ -565,10 +563,11 @@ div.facts p {
 }
 
 div.facts ul {
-    margin: 8px 10px 0px 20px;
+    
+    margin: 8px 10px 0px 18px;
     padding-bottom: 50px;
     line-height: 1.5rem;
-     
+    list-style-type: square;
 }
 
 div.bottom-image img {
@@ -576,10 +575,18 @@ div.bottom-image img {
     justify-content: flex-start;
     align-self: flex-start;
     flex-wrap: wrap;
-    width: 380px;
-    
-    border: 1px solid red;
+    width: 400px;
     border-radius: 5px;
+    margin-left: 10px;
+    
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 80px;
 }
                                 
                                 
