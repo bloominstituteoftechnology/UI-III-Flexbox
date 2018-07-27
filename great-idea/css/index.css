@@ -88,6 +88,10 @@ nav {
 	font-size: 12px;
 }
 
+.nav:hover {
+	color: black;
+}
+
 #logo {
 	width: 120px;
 }
@@ -201,6 +205,12 @@ h2 {
     align-items: center;
 	justify-content: center;
 	margin-top: 15px;
+	transition-duration: 0.4s;
+}
+
+.learnMore:hover {
+	background: black;
+	color: aliceblue;
 }
 
 .p6 {
