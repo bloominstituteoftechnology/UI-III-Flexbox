@@ -1,0 +1,43 @@
+/* header area below */
+
+header {
+  align-items: center;
+  background-color: #154073;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+header div:nth-child(odd) {
+  display: flex;
+  justify-content: space-around;
+}
+/* nav bar */
+
+#main-nav {
+  margin-top: -5px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin: 20px;
+  padding: 0 10px;
+}
+
+a {
+  transition: font-size 2s, color 2s;
+}
+
+a:hover {
+  font-size: 1.3em;
+  color: #14b7f4;
+}
+
+.main-nav-button {
+  text-decoration: none;
+  color: gray;
+}
+
+/* end of nav */
