@@ -80,7 +80,8 @@ body {
 header {
 	display: flex;
 	justify-content: center;
-	/* background-color: #3fe9a5; */
+	/* background-color: #3fd9a5; */
+	background-color: #fff;
 	width: 960px;
 	height: 55px;
 	position: fixed;
@@ -94,7 +95,7 @@ header nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 10px;
+	padding: 12px 0 12px;
 	width: 880px;
 }
 
