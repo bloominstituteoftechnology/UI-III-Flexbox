@@ -69,7 +69,7 @@ body {
 }
 
 #container {
-	padding: 0 39px 100px;
+	padding: 0 40px 100px;
 	width: 960px;
 	margin: 0 auto;
 	background-color: #ffffff;
@@ -79,9 +79,8 @@ body {
 
 header {
 	display: flex;
-	padding: 20px;
-	align-items: center;
-	background-color: #3fe9a5;
+	justify-content: center;
+	/* background-color: #3fe9a5; */
 	width: 960px;
 	height: 55px;
 	position: fixed;
@@ -92,12 +91,17 @@ header {
 
 header nav {
 	padding-left: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+	width: 880px;
 }
 
 
 
 header nav a {
-	padding-right: 50px;
+	padding-right: 10px;
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: lighter;
@@ -111,13 +115,17 @@ header nav a:hover {
 	transform: scale(1.2);
 }
 
+header nav a:last-child {
+	padding-right: 75px;
+}
+
 .logo {
 	padding-left: 25px;
 }
 
 .innovation {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	margin: 100px 0 50px;;
 }
 
@@ -126,6 +134,7 @@ header nav a:hover {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 50%;
 }
 .innovation-text h1 {
 	font-size: 56px;
