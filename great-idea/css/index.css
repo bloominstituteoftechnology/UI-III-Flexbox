@@ -120,7 +120,7 @@ a:hover {
 	padding: 0px 55px;
 }
 
-.button {
+.top-content .button {
 	margin-bottom: 15px;
 	font-size:14px;
 	text-align: center;
@@ -141,7 +141,7 @@ a:hover {
 	transform: transformY(4px);
 }
 
-h3 {
+.middleContent h3 {
 	margin-top:20px;
 	margin-left: 15px;
 	display: flex;
@@ -197,6 +197,12 @@ h3 {
 	flex-direction: column;
 }
 
+.ftr-info h3 {
+	margin-top:20px;
+	margin-left: 15px;
+	display: flex;
+	justify-content: flex-start;
+}
 .ftr-text {
 	padding-left: 15px;
 }
@@ -204,3 +210,64 @@ h3 {
 	text-align: center;
 	margin-bottom:100px;
 }
+
+/* below css is service page specific */
+
+.services-header-img {
+	margin: 30px 0px;
+}
+
+.service-top h2 {
+	font-size:25px;
+}
+.service-top {
+	padding-bottom:25px;
+	border-bottom: 1px solid black;
+}
+
+.middle-container {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	padding-top:30px;
+	border-bottom: 1px solid black;
+}
+
+.middle-blocks {
+	border: 1px solid black;
+	margin-bottom:35px;
+	width:425px;
+	background-color:whitesmoke;
+	padding:20px;
+}
+
+.middle-blocks button {
+	border:1px solid black;
+	padding: 6px 40px;
+	margin-top:20px;
+	background-color:white;
+	border-radius:10%;
+}
+
+.footer-container {
+	padding: 30px 0px;
+	display: flex;
+
+}
+
+.service-info-img {
+	margin-bottom:25px;
+}
+.bottom-fact-block {
+	padding-right:30px;
+}
+.bottom-fact-block ul {
+	margin-top:25px;
+}
+
+.bottom-fact-block ul li {
+	margin-top:15px;
+	list-style-type: square;
+	margin-left:20px;
+}
+
