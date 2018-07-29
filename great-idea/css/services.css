@@ -69,7 +69,7 @@ body {
 }
 
 #container {
-	padding: 0 40px 100px;
+	/* padding: 0 40px; */
 	max-width: 960px;
 	margin: 0 auto;
 	background-color: #ffffff;
@@ -79,13 +79,9 @@ body {
 
 header {
     display: flex;
-    flex-direction: row;
-	padding: 20px;
-	align-items: center;
-	max-width: 960px;
-	height: 55px;
+    justify-content: center;
+	width: 960px;
     position: fixed;
-	left: 128px;
     margin-bottom: 60px;
     background-color: #fff;
 
@@ -93,22 +89,26 @@ header {
 }
 
 header nav {
-    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 880px;
+    padding-top: 10px;
 
 }
 
 
 
 header nav a {
-	padding-right: 50px;
+	padding-right: 65px;
 	text-decoration: none;
 	font-size: 14px;
-	font-weight: bold;
     color: #686565;
-	display: inline-block;
 	transition: transform 0.2s linear;
+}
 
-
+header nav a:last-child{
+    padding: 0;
 }
 
 header nav a:hover {
@@ -117,24 +117,18 @@ header nav a:hover {
 }
 
 .logo {
-    padding-left: 110px;
     cursor: pointer;
 }
 
 .services-header-img {
-    margin-top: 70px;
+    margin-top: 65px;
+    padding: 0 40px;
 }
 
-hr {
-    flex-grow: 1;
-    width: 100%;
-    height: 1.5px;
-    background: #333;
-    border: none;
-}
+
 
 .services {
-    margin: 30px 0;
+    margin: 30px 40px;
 }
 
 .content {
@@ -144,7 +138,10 @@ hr {
     justify-content: space-between;
     align-content: space-between;
     height: auto;
-    margin: 20px 0;
+    margin: 20px 40px;
+    padding: 20px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .content div {
@@ -152,6 +149,7 @@ hr {
     flex-basis: 425px;
     padding: 15px;
     margin: 15px 0;
+    background: #f6f2f2;
 }
 
 .content p {
@@ -177,7 +175,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 30px 0 50px;
+    margin: 30px 40px 50px;
 }
 
 .services-info div {
