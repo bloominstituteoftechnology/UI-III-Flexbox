@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -53,11 +53,8 @@ table {
 }
 
 html, body {
-	height: 100%;
-	margin: auto;
-	/* width: 880px; */
-	font-family: 'Muli', sans-serif;
-	font-weight: 300;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,235 +63,131 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-h2 {
-	font-size: 24px;
-}
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-section {
-	margin: 20px 100px;
-}
-
-button {
-	width: 200px;
-	font-family: 'Muli', sans-serif;
-	font-weight: 300;
-	background: white;
-	padding: 10px 50px;
-	font-size: 18px;
-	border: 1px solid black;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-button:hover {
-	background: black;
-	color: whitesmoke;
-}
-
-article {
-	border-top: thin solid black;
-	border-bottom: thin solid black;
-	padding: 50px 20px;
-	margin: 50px;
-}
-
-span {
-	margin-bottom: 15px;
-}
-
-/* nav */
-nav {
-	margin: 25px;
-	width: 84%;
-	padding: 20px;
-}
-
-.a {
-	font-family: 'Muli', sans-serif;
-	font-weight: 300;
-	font-size: 14px;
-	color: #1d1d1d;
-	text-decoration: none;
-	margin-right: 10%;
-	text-decoration: none;
-}
-
-.a:hover {
-	opacity: .3;
-}
-
-.logo {
-	background-image: url("../img/logo.png");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-	width: 200px;
-	height: 100px;
-	margin-right: 10px;
-}
-
-/* call to action */
-.title {
-	/* display: inline-block; */
-	/* vertical-align: top; */
-	width: 420px;
-	font-size: 80px;
-	margin-top: 60px;
-	text-align: center;
-}
-
-
-/* index content */
-.promo-above {
-	margin-right: 20px;
-}
-
-.promo-below {
-	margin-right: 20px;
-}
-
-/* services */
-.service {
-	width: 350px;
-	height: 240px;
-	padding: 20px;
-	margin: 0 40px 40px 0;
-	background: #F4F3F4;
-	border: thin solid gray;
-}
-
-.services-button {
-	/* width: 200px; */
-	font-family: 'Muli', sans-serif;
-	font-weight: 300;
-	background: white;
-	padding: 10px 50px;
-	font-size: 14px;
-	border: 1px solid black;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-.middle-img {
-	width: 100%;
-	height: 180px;
-	margin: 50px 0;
-	align-self: center;
-}
-
-.services-header-img {
-	width: 100%;
-	height: 200px;
-	margin-bottom: 20px;
-}
-
-.services-info-img {
-	background-image: url("../img/services-info.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 440px;
-	height: 320px;
-}
-
-ul {
-	list-style-type: circle;
-	margin-left: 20px;
-}
-
-/* address and footer */
-footer {
-	padding: 20px;
-	margin: 50px;
-}
-
-footer div {
-	width: 100%;
-	text-align: center;
-}
-
-/* Utilities */
-.flex-row {
+body {
 	display: flex;
-	flex-direction: row;
+	justify-content: center;
+}
+.container {
+	width: 880px;
 }
 
-.flex-column {
+/* header */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
+}
+header nav {
+	display: flex;
+	justify-content: space-between;
+  width: 690px;
+}
+
+header nav a {
+  display: inline-block;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:last-child {
+  margin-right: 65px;
+}
+
+header .logo {
+  display: inline-block;
+}
+
+/* cta */
+.cta {
+	width: 880px;
+	height: 524px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+  font-size: 77px;
+  text-align: center;
+}
+
+.cta-text button {
+  background: white;
+  vertical-align: top;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+/* Main content */
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 39px 0px;
 	display: flex;
 	flex-direction: column;
 }
 
-.flex-wrap {
-	flex-wrap: wrap;
-}
-
-.justify-end {
-	justify-content: flex-end;
-}
-
-.justify-center {
-	justify-content: center;
-}
-
-.justify-start {
-	justify-content: flex-start;
-}
-
-.justify-space-between {
+.top-content {
+	display: flex;
 	justify-content: space-between;
 }
 
-.justify-space-around {
-	justify-content: space-around;
+.top-content .text-content {
+  width: 410px;
 }
 
-.align-center {
-	align-items: center;
+.middle-img {
+  margin: 45px 0px;
 }
 
-.align-end {
-	align-items: flex-end;
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
 }
 
-.align-start {
-	align-items: flex-start;
+.bottom-content .text-content {
+	width: 275px;
 }
 
-.flex-grow {
-	flex-grow: 1
+
+.contact {
+  padding: 39px 10px 0;
 }
 
-.full-height {
-	height: 100%;
+.contact p {
+  margin: 20px 0;
 }
 
-.full-width {
-	width: 100%
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
 }
 
-.third-width {
-	width: 33.333%
-}
 
-.grow-1 {
-	flex-grow: 1;
-}
 
-.grow-2 {
-	flex-grow: 2;
-}
 
-.grow-3 {
-	flex-grow: 3;
-}
 
-.grow-4 {
-	flex-grow: 4;
-}
 
-.grow-5 {
-	flex-grow: 5;
-}
 
-.grow-6 {
-	flex-grow: 6;
-}
+
+
+/* buffer for code above */
