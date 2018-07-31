@@ -56,7 +56,7 @@ table {
 html, body {
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
-	min-width: 880px;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,10 +66,12 @@ h1, h2, h3, h4, h5 {
 }
 
 div.box {
-    width: 880px;
-    margin: 0px auto;
-    
-   
+   display: flex;
+   justify-content: flex-start;
+   justify-items: center;
+   flex-wrap: wrap;
+   width: 880px;
+   margin-left: 80px;
 }
 
                     /* BEGGINING OF NAV AND HEADER SECTION */
@@ -83,14 +85,7 @@ div.navigation {
     width: 880px;
 
 }
-/*
-#navbar a {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-*/
+
 
 #navbar {
     display: flex;
@@ -146,15 +141,18 @@ div.logo {
    display: flex;
    justify-content: flex-start;
    align-items: flex-start;
-   width: 800px;
+   width: 880px;
+   
 }
 
 
-div.top-image {
+
+div.top-image{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 
 div.services {
     display: flex;
@@ -162,10 +160,12 @@ div.services {
     align-items: flex-start;
     margin: 25px 0px 25px 0px;
     border-bottom: 3px solid lightgray;
+    
 }
 
 div.services h1 {
-    justify-content: inherit;
+    display: flex;
+    justify-content: flex-start;
     align-items: flex-start;
     font-size: 30px;
     font-weight: bold;
@@ -177,30 +177,23 @@ div.services P {
 }
 
 
-                    /* END OF NAV AND HEADER SECTION */
+        /* END OF NAV AND HEADER SECTION */
 
 
-                    /* BEGGINING OF CONTENT AREA */
+        /* BEGGINING OF CONTENT AREA */
 
 /* BEGINNING OF ROW 1 */
 
 div.row1 {
     
- /*  display: flex;
-   justify-content: space-evenly;
-   align-items: flex-start;
-   flex-wrap: wrap; */
-
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   flex-wrap: nowrap;
-   width: 880px;
-   height: 270px;
-   margin: 45px 0px 0px 65px;
-   padding-left: 15px;
-   
-   
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 880px;
+    height: 270px;
+    margin: 45px 0px 0px 65px;
+    padding-left: 15px;
 }
 
 
@@ -325,11 +318,12 @@ div.row2 {
     margin-left: 63px;
 }
 
-.digital-marketing h3 {
+div.digital-marketing h3 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin: 20px;
+    padding-right: 230px;
     
     
 }
@@ -380,6 +374,7 @@ div.row2 {
     align-items: flex-start;
     flex-wrap: wrap;
     margin: 20px;
+    padding-right: 240px;
     
     
 }
@@ -451,6 +446,7 @@ hr {
     justify-content: flex-start;
     align-items: flex-start;
     margin: 20px;
+    padding-left: 7px;
     
     
 }
@@ -492,13 +488,13 @@ hr {
     
 }
 
-.android-development h3 {
+div.android-development h3 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
     margin: 20px;
-    
+    padding-right: 210px;
     
 }
 
@@ -525,12 +521,12 @@ hr {
     background-color: white;
 }
 
-                                /* END OF ROW 3 */
+    /* END OF ROW 3 */
 
 
-                                /* END OF CONTENT AREA */
+    /* END OF CONTENT AREA */
 
-                                /* BEGINNING OF BOTTOM-SECTION */
+    /* BEGINNING OF BOTTOM-SECTION */
 
 div.bottom-section {
     display: flex;
@@ -539,10 +535,25 @@ div.bottom-section {
     flex-wrap: wrap;
     width: 880px;
     margin: 5px 0px 15px 70px;
-    
-    
-                                    
+    }
+
+
+.hr-parent {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
 }
+
+
+.hr-parent hr {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    margin-left: 77px;
+    
+}
+
+
 
 div.facts {
     display: flex;
@@ -590,11 +601,21 @@ div.bottom-image img {
 }
 
 
-.footer {
+div.footer {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin: 80px;
+    width: 880px;
+    
 }
-                                
-                                
+
+
+div.footer .footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 80px;
+}         
+
+/* completed everything */
