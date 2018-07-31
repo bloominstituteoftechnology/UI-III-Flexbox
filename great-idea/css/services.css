@@ -1,0 +1,621 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	
+}
+
+html, body {
+    height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+div.box {
+   display: flex;
+   justify-content: flex-start;
+   justify-items: center;
+   flex-wrap: wrap;
+   width: 880px;
+   margin-left: 80px;
+}
+
+                    /* BEGGINING OF NAV AND HEADER SECTION */
+
+
+div.navigation {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: center;
+    width: 880px;
+
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+	color: rgb(185, 169, 169);
+    text-decoration: none;
+    width: 550px;
+    font-size: 15px;
+    margin-left: 150px;
+   
+}
+
+nav #navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    width: 600px;
+    
+}
+
+
+.navigation a:hover {
+	background-color: lightgray;
+	color: black;
+	transition: 0.5s;
+    border-radius: 5px;
+    
+}
+
+
+a.active {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+	background-color: lightgray;
+	color: white;
+    margin-left: 35px;
+	border-radius: 5px;
+}
+
+div.logo {
+    display: flex;
+    justify-content: flex-star;
+    align-items: center;
+    margin-left: 50px;
+    padding: 10px;
+}
+ 
+
+.header {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   width: 880px;
+   
+}
+
+
+
+div.top-image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+div.services {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 25px 0px 25px 0px;
+    border-bottom: 3px solid lightgray;
+    
+}
+
+div.services h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+div.services P {
+    margin-bottom: 30px;
+}
+
+
+        /* END OF NAV AND HEADER SECTION */
+
+
+        /* BEGGINING OF CONTENT AREA */
+
+/* BEGINNING OF ROW 1 */
+
+div.row1 {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 880px;
+    height: 270px;
+    margin: 45px 0px 0px 65px;
+    padding-left: 15px;
+}
+
+
+.digital-design {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.digital-design h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    
+    
+}
+
+.digital-design p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 8px 10px 10px 20px;
+}
+
+
+.digital-design-p2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40px;
+    width: 150px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.ux-ui {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 400px;
+    margin-left: 77px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.ux-ui h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    
+    
+}
+
+.ux-ui p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 8px 10px 10px 20px;
+    
+}
+
+div.ux-uip2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40px;
+    width: 150px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* END OF ROW 1 */
+
+
+/* BEGGINING OF ROW 2 */
+
+div.row2 {
+    
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: nowrap;
+   width: 880px;
+   height: 270px;
+   margin: 45px 0px 0px 0px;
+   padding-left: 15px;
+   
+   
+}
+
+.digital-marketing { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left: 63px;
+}
+
+div.digital-marketing h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    padding-right: 230px;
+    
+    
+}
+
+
+.digital-marketing p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 8px 10px 10px 20px;
+}
+
+.digital-marketingp2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40px;
+    width: 150px;
+    margin-right: 227px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.web-development { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 400px;
+    margin-left: 77px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+    
+    
+    
+}
+
+.web-development h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding-right: 240px;
+    
+    
+}
+
+.web-development p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 8px 10px 10px 20px;
+}
+
+
+.web-developmentp2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 150px;
+    margin-right: 227px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+                                    /* END OF ROW 2 */
+
+
+                                    /* BEGGINING OF ROW 3 */
+
+.row3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 880px;
+    height: 260px;
+    margin: 15px 0px 25px 0px;
+    padding-left: 15px;
+    
+}
+
+hr {
+    width: 880px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.ios-development { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left: 62px;
+}
+
+.ios-development h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    padding-left: 7px;
+    
+    
+}
+
+.ios-development p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 8px 10px 10px 20px;
+}
+
+.ios-developmentp2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40px;
+    width: 150px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.android-development { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 400px;
+    margin-left: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+    
+    
+}
+
+div.android-development h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding-right: 210px;
+    
+}
+
+.android-development p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 8px 10px 10px 20px;
+}
+
+
+.android-developmentp2 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 150px;
+    margin-right: 227px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+    /* END OF ROW 3 */
+
+
+    /* END OF CONTENT AREA */
+
+    /* BEGINNING OF BOTTOM-SECTION */
+
+div.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 880px;
+    margin: 5px 0px 15px 70px;
+    }
+
+
+.hr-parent {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+}
+
+
+.hr-parent hr {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    margin-left: 77px;
+    
+}
+
+
+
+div.facts {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 380px;
+    margin-bottom: 25px;
+}
+
+div.facts h3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+   
+}
+
+div.facts p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /*margin: 8px 10px 0px 20px;
+    padding-bottom: 50px; */
+}
+
+div.facts ul {
+    
+    margin: 30px 10px 0px 18px;
+    padding-bottom: 50px;
+    line-height: 40px;
+    list-style-type: square;
+}
+
+div.bottom-image img {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+
+
+div.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 80px;
+    width: 880px;
+    
+}
+
+
+div.footer .footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 80px;
+}         
+
+/* completed everything */
