@@ -66,28 +66,33 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	width: 800px;
 	margin: 0 auto;
+	width: 880px;	
 }
   
-	/* header */
+/*****header*****/
 	
-.nav-container {
+.nav-main {
+	display: flex;
+	width: 800px;
 	justify-content: space-evenly;
 }
 
 .nav-main-page {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-}
-.nav-main ul {
 	justify-content: space-evenly;
 }
+/* .nav-main ul {
+	justify-content: space-evenly;
+} */
 
+.logo {
+	/* display: inline-block; */
+}
 
 header nav a {
-display: inline-block;
+/* display: inline-block; */
 margin-right: 65px;
 font-size: 14px;
 color: gray;
@@ -113,9 +118,13 @@ margin-right: 0;
 
 /* cta */
 
+.cta {
+	display: flex;
+}
+
 .cta .cta-text {
-display: inline-block;
-vertical-align: top;
+/* display: inline-block; */
+/* vertical-align: top; */
 font-size: 77px;
 margin-top: 120px;
 text-align: center;
@@ -138,53 +147,72 @@ color: white;
 }
 
 .cta img {
-display: inline-block;
+/* display: inline-block; */
 margin-top: 69px;
 }
 
 .main-content {
+	display: flex;
 border-top: 1px solid black;
 margin-top: 76px;
 padding-top: 39px;
+flex-wrap: wrap;
+justify-content: center;
 }
 
-.main-content .top-content {
-padding: 0 10px;
+
+.top-content {
+	display: flex;
 }
+
+.bottom-content {
+
+}
+/* .main-content .top-content {
+padding: 0 10px;
+
+} */
 
 .main-content .top-content .text-content {
-width: 410px;
-display: inline-block;
-margin-right: 34px;
+/* width: 410px;
+display: inline-block; */
+margin-right: 30px;
 }
 
-.main-content .top-content .text-content:last-child {
+
+/* .main-content .top-content .text-content:last-child {
 margin-right: 0;
 }
+ */
 
 .main-content .middle-img {
 margin-top: 45px;
 }
 
 .main-content .bottom-content {
+	display: flex;
 margin-top: 37px;
-padding: 0 10px;
+/* padding: 0 10px;  */
 }
 
 .main-content .bottom-content .text-content {
-width: 275px;
-display: inline-block;
+/* width: 275px;
+display: inline-block; */
+display: flex;
+flex-wrap: wrap;
 margin-right: 12px;
 }
 
-.main-content .bottom-content .text-content:last-child {
+/* .main-content .bottom-content .text-content:last-child {
 margin-right: 0;
-}
+} */
 
 .contact {
+	display: flex;
+	flex-direction: column;
 margin-top: 57px;
 border-top: 1px solid black;
-padding: 39px 10px 0;
+padding: 39px 0 0;
 }
 
 .contact p {
@@ -192,8 +220,10 @@ margin: 20px 0;
 }
 
 footer {
+	display: flex;
+	justify-content: center;
 margin: 32px 0;
-text-align: center;
+/* text-align: center; */
 font-size: 14px;
 }
 /* Beginning of my CSS */
