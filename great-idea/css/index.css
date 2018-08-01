@@ -63,4 +63,20 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.body {
+	width: 880px;
+}
+
+.topnav {
+	border: 5px;
+	border-color:red;
+	border-style: dotted;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.topnav .logo {
+
+}
