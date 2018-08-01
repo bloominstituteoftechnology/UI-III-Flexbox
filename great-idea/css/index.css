@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
     width: 880px;
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 /*HEADER*/
@@ -167,11 +167,13 @@ header nav a:last-child { /*psuedo-selector*/
 .bottom-content { 
 	display: flex;
 	justify-content: space-evenly;
-	width: 800px;
+	width: 880px;
+	margin-top: 45px;
 }
 
 .bottom-content .bottom {
 	width:275px;
+
 }
 
 /*SERVICES*/
@@ -244,4 +246,5 @@ header nav a:last-child { /*psuedo-selector*/
 footer {
 	text-align: center;
 	font-size: 14px;
+	
 }
