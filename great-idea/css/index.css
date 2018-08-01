@@ -102,22 +102,91 @@ h1, h2, h3, h4, h5 {
 
 .container-head h1 {
 	font-size:50px;
+	width:200px;
+	text-align:center;
 }
 
 .container-head .startbutton {
 	font-size: 15px;
-	border: 1px black solid;
-	width:125px;
+	width:200px;
 	border-width: 2px;
 	margin-top: 10px;
 	text-align:center;
 }
 
+.container-head .startbutton .buttonborder {
+	margin: auto;
+	border: 2px gray solid;
+	width: 140px;
+}
 .container-head .startbutton a {
 	color:black;
 	text-decoration:none;
+	border-width:2px;
+	text-align:center;
+	width:150px;
 }
 
 .container-mid {
-	border:5px dotted red;
+	display: flex;
+	justify-content: space-between;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.container-mid .features {
+	width:440px;
+}
+
+.container-mid .about {
+	width: 440px;
+}
+
+.container-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.container-bottom .services {
+	width:282px;
+}
+
+.container-bottom .product {
+	width:282px;
+}
+
+.container-bottom .vision {
+	width:282px;
+}
+
+.container-footer {
+	margin-top: 15px;
+}
+
+.footer {
+	text-align:center;
+	margin:auto;
+	font-size:15px;	
+	margin-top: 55px;
+}
+
+.reachout .num {
+	margin-top: 20px;
+}
+.reachout .email {
+	margin-top:10px;
+}
+hr {
+	color:black;
+	background-color: black;
+	height: 3px;
+	margin: 12px;
+}
+
+.middle-img {
+	margin-top: 30px;
+	margin-bottom: 15px;
 }
