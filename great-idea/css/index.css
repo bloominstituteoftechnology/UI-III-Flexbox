@@ -64,19 +64,60 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.body {
+.fullcontainer {
 	width: 880px;
+	margin:auto;
 }
 
 .topnav {
-	border: 5px;
-	border-color:red;
-	border-style: dotted;
 	display:flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-between;
 }
 
-.topnav .logo {
+.nav {
+	display:flex;
+	justify-content:space-around;
+	width:660px;
+}	
 
+.nav a {
+	color:gray;
+	opacity:0.5;
+	text-decoration:none;
+}
+
+.container-head {
+	margin:30px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.container-head .Attention {
+	text-align: center;
+	margin-left: 80px;
+	width: 90px;
+}
+
+.container-head h1 {
+	font-size:50px;
+}
+
+.container-head .startbutton {
+	font-size: 15px;
+	border: 1px black solid;
+	width:125px;
+	border-width: 2px;
+	margin-top: 10px;
+	text-align:center;
+}
+
+.container-head .startbutton a {
+	color:black;
+	text-decoration:none;
+}
+
+.container-mid {
+	border:5px dotted red;
 }
