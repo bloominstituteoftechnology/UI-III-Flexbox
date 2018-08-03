@@ -65,143 +65,193 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-	width: 880px;
-	margin-left: 20%;
-}
-
-h2, h3, h4 {
-	font-family: 'Righteous', cursive;
-}
-
-nav	{
-	/*width: 880px;
-	margin-bottom: 75px;
-	background-color: lightblue;
-	position: fixed; */
 	display: flex;
-    
+	justify-content: center;
 }
 
-li {
-	/*display: inline;
-	padding: 26px;*/
-	display: inline-flex;
-	padding: 26px; 
+.container {
+	width: 880px;
 }
 
-header	{
-	display: block;
-	/*display: flex;*/
-	border-bottom: 2px solid black;
-	padding-bottom: 75px;
-	padding-top: 75px;
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
 }
 
-h1 {
-	display: inline-flex;
-	font-size: 72px;
-	width: 420px;
-	height: 200px;
-	text-align: center;
-	margin-left: 20px;
-	vertical-align: top;
-	margin-top: 50px;
-	font-family: 'Righteous', cursive;
-	flex-direction: column;
+header nav {
+	display: flex;
+	justify-content: space-between;
+  	width: 690px;
+}
+
+header nav a {
+  display: inline-block;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:last-child {
+  margin-right: 65px;
+}
+
+header .logo {
+  display: inline-block;
+}
+
+.billboard {
+	width: 880px;
+	height: 524px;
+	display: flex;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
-.header {
-	display: inline-flex;
-	margin-right: -120px;
-}
-
-.started {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 20px;
-    border: 1px solid black;
- 	padding: 3px;
+.billboard-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 77px;
  	text-align: center;
- 	width: 210px;
 }
 
-a:hover {
-	background-color: blue;
+.billboard-text button{
+  background: white;
+  vertical-align: top;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-p {
-	text-align: left;
-	display: inline-flex;
+.billboard .billboard-text button:hover{
+  background: black;
+  color: white;
 }
 
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
-	text-align: left;
+.column-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 39px 0px;
+	display: flex;
+	flex-direction: column;
 }
 
 .two-columns {
-	column-count: 2;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-.three-columns {
-	column-count: 3;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-.contact {
-	border-top: 2px solid black;
-	margin-top: 15px;
-}
-
-footer {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	text-align: center;
-}
-
-.bullet {
-	list-style-type: disc;
 	display: flex;
-}
-
-hr {
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
-
-.button {
-	border: 1px solid black;
- 	padding: 10px;
- 	text-align: center;
- 	border-radius: 5px;
- 	margin-top: 15px;
-}
-
-.boxes {
-	border: 1px solid black;
- 	padding: 15px;
- 	width: 420px;
- 	margin: 10px;
-
-}
-
-.row {
-	display: inline-flex;
 	justify-content: space-between;
 }
 
-.services-header-img {
-	margin: 35px 0px;
+.two-columns .content {
+	width: 410px;
 }
 
-.facts {
-	display: flex;
-	padding-top: 40;
+.middle-img {
+	margin: 45px 0px;
 }
+
+.three-columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.three-columns .content {
+	width: 275px;
+}
+
+.contact {
+	padding: 39px 10px 0px;
+
+}
+
+.contact p {
+	margin: 20px 0px;
+}
+
+footer {
+	margin: 32px 0px;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+/*Services CSS*/
+.serv-header-img {
+  margin: 35px 0px; 
+}
+
+.serv-header {
+  padding-bottom: 45px; 
+}
+
+.serv-header h2 {
+  font-size: 28px;
+}
+
+.serv-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 40px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.serv-block {
+  width: 420px;
+  border: 1px solid black;
+  margin-bottom: 40px;
+  background-color: whitesmoke;
+  padding: 15px;
+}
+
+.serv-block button {
+  margin-top: 15px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px 35px;
+}
+
+.serv-facts {
+  display: flex;
+  padding-top: 40px;
+}
+
+.facts-container {
+  padding-right: 40px;
+}
+.facts-container ul{
+  margin-top: 15px;
+}
+
+.facts-container ul li {
+  margin: 10px 0;
+  list-style: square inside;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
