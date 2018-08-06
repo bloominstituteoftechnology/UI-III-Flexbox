@@ -79,7 +79,8 @@ body {
 .container {
 	background-color: white;
 	display: flex;
-	width: 1022px;
+	width: 880px;
+	height: 880px;
 	flex-direction: column;
 }
 
@@ -93,7 +94,6 @@ body {
 	align-items: stretch;
 	background-color: white;
 	margin-top: 39px;
-	margin-left: 72px;
 }
 
 .navigation nav a {
@@ -110,59 +110,19 @@ body {
 	margin-left: 27px;
 }
 
-
-
-
-
-
-
-
-
-
-/* .navigation a {
-	height: 
-} */
-
-
-/* 
-
-
-/* .navigation nav {
-	/* margin-top: 37px;
-	display: inline-block;
-	padding-bottom: 20px;
-	padding-left: 2px; */
-/* } */
-/* 
-.navigation nav a {
-	margin-top: 14px;
-	text-decoration: none;
-	margin-right: 60px;
-	font-size: 15px;
-	color: #bdbdbd;
-}
-
-.logo {
-	position: absolute;
-	margin-top: 27px;
-	margin-left: 32px;
-}
-
 header {
-	display: inline-block;
-	width: 100%;
-	background-color: white;
-	padding-bottom: 94px;
+	display: flex;
+	justify-content: space-between;
 	border-bottom: 1px solid black;
+	padding-bottom: 77px;
 }
 
 .header-cta {
-	display: inline-block;
 	text-align: center;
 	height: 300px;
 	width: 348px;
-	margin-top: 122px;
-	margin-left: 73px;
+	margin-top: 113px;
+	margin-left: 74px;
 }
 
 .header-cta h1 {
@@ -170,6 +130,41 @@ header {
 	letter-spacing: 7px;
 	line-height: 1.04;
 }
+
+.header-cta-img {
+	width: 380px;
+	margin-top: 53px;
+	margin-right: 2px;
+}
+
+.header-cta a {
+	border: 1px solid black;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	color: black;
+	width: 174px;
+	height: 34px;
+	text-align: center;
+	margin-right: 13px;
+	padding-top: 7px;
+	margin-top: 4px;
+	letter-spacing: 1.4px;
+}
+
+.top-content {
+	display: flex;
+	padding-top: 39px;
+
+}
+
+.content-item {
+
+	height: 140px;
+}
+
+
+/*
 
 .header-cta a {
 	border: 1px solid black;
