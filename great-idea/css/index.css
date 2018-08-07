@@ -71,17 +71,65 @@ h1, h2, h3, h4, h5 {
 
 /* flexbox container */
 body {
-	display: flex;
-	justify-content: center;
-	background-color: red;
+	background-color: grey;
 }
 
 .container {
 	background-color: white;
+	width: 880px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.navigation {
+	background-color: red;
+	width: 100%;
+	height: 80px;
+}
+
+header {
+	width: 100%;
+	height: 512px;
+	background-color: green;
+}
+
+.top-content {
+	width: 100%;
+	height: 176px;
+	background-color: red;
+}
+
+.center-img {
+	width: 100%;
+	height: 184px;
+	background-color: green;
+}
+
+.bottom-content {
+	width: 100%;
+	height: 224px;
+	background-color: red;
+}
+
+.contact {
+	width: 100%;
+	height: 224px;
+	background-color: green;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: red;
+}
+
+/* .container {
+	background-color: white;
 	display: flex;
 	width: 880px;
-	height: 880px;
+	height: 100%;
 	flex-direction: column;
+	margin: 0 auto;
 }
 
 .navigation {
@@ -105,21 +153,26 @@ body {
 }
 
 .navigation img {
-	padding-top: 28px;
-	padding-bottom: 18px;
+	margin-top: 28px;
 	margin-left: 27px;
+	height: 34px;
+	width: 184px;
 }
 
+
+
+
+
 header {
+	height:  240px;
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
 	border-bottom: 1px solid black;
-	padding-bottom: 77px;
 }
 
 .header-cta {
 	text-align: center;
-	height: 300px;
+	height: 100%;
 	width: 348px;
 	margin-top: 113px;
 	margin-left: 74px;
@@ -161,7 +214,7 @@ header {
 .content-item {
 
 	height: 140px;
-}
+} */
 
 
 /*
