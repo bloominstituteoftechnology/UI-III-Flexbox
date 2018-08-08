@@ -279,6 +279,7 @@ footer p {
 	display: flex;
 	height: auto;
 	width: 100%;
+	margin-bottom: 72px;
 }
 
 .services-bottom-content .services-bottom-facts {
