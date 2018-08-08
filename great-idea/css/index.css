@@ -64,3 +64,243 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	background-color: white;
+	width: 880px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.navigation {
+	background-color: white;
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	margin-top: 27px;
+}
+
+.navigation nav a {
+	height: 40px;
+	width: 108px;
+	background-color: white;
+	display: inline-block;
+	text-decoration: none;
+	color: #bdbdbd;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.navigation img {
+	margin-bottom: 12px;
+	margin-left: 28px;
+}
+
+header {
+	width: 100%;
+	height: auto;
+	background-color: white;
+	display: flex;
+	padding-bottom: 77px;
+	border-bottom: 1px solid black;
+}
+
+.header-cta {
+	text-align: center;
+	flex-grow: 1;
+}
+
+.header-cta a {
+	border: 1px solid black;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	color: black;
+	width: 174px;
+	height: 34px;
+	text-align: center;
+	margin-right: 16px;
+	padding-top: 7px;
+	margin-top: 6px;
+	letter-spacing: 1.4px;
+}
+
+.header-cta h1 {
+	font-size: 72px;
+	letter-spacing: 6px;
+	line-height: 1.04;
+	margin-top: 114px;
+}
+
+header img {
+	margin-top: 55px;
+	margin-right: 2px;
+	height: 380px;
+	width: 380px;
+}
+
+.top-content {
+	width: 100%;
+	height: auto;
+	background-color: white;
+	display: flex;
+	padding-top: 40px;
+	padding-left: 3px;
+}
+
+.content-item {
+	height: 138px;
+}
+
+.content-item-left-top {
+	margin-left: 18px;
+}
+
+.center-img {
+	width: 100%;
+	height: 184px;
+	background-color: white;
+}
+
+.bottom-content {
+	width: 100%;
+	height: auto;
+	background-color: white;
+	display: flex;
+	padding-top: 38px;
+	padding-bottom: 49px;
+	border-bottom: 1px solid black;
+}
+
+.content-item-left-bottom {
+	margin-left: 26px;
+}
+
+.contact {
+	width: 100%;
+	height: auto;
+	background-color: white;
+	padding-top: 37px;
+	padding-bottom: 27px;
+	padding-left: 4px;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact p {
+	display: inline-block;
+	margin-bottom: 13px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+footer p {
+	align-self: center;
+	font-size: 14px;
+	color: black;
+	margin-top: 3px;
+}
+
+.services-header {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+.services-top-content {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid black;
+	padding-top: 33px;
+	padding-bottom: 40px;
+}
+
+.services-top-content h1 {
+	font-size: 26px;
+}
+
+
+.services-top-content p {
+	line-height: 1.24;
+}
+
+.services-mid-content {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	padding-top: 40px;
+	border-bottom: 2px solid black;
+}
+
+.services-item {
+	width: 420px;
+	height: 253px;
+	margin-bottom: 40px;
+	background-color: white;
+	border: 0.25px solid black;
+	padding-left: 21px;
+	padding-top: 24px;
+	padding-right: 30px;
+}
+
+.services-item p {
+	line-height: 1.30;
+}
+
+.services-item a {
+	text-decoration: none;
+	border: 1px solid black;
+	margin-top: 22px;
+	display: inline-block;
+	width: 141px;
+	text-align: center;
+	height: 35px;
+	padding-top: 9px;
+	border-radius: 5px;
+	color: black;
+	font-size: 12px;
+}
+
+.services-item-left {
+	margin-right: 40px;
+}
+
+.services-bottom-content {
+	padding-top: 38px;
+	display: flex;
+	height: auto;
+	width: 100%;
+	margin-bottom: 72px;
+}
+
+.services-bottom-content .services-bottom-facts {
+	padding-top: 2px;
+}
+
+.services-bottom-facts {
+	padding-right: 45px;
+}
+
+.services-bottom-facts p {
+	line-height: 1.3;
+
+}
+
+.services-bottom-facts ul {
+	margin-top: 29px;
+	margin-left: 20px;
+	list-style-type: square;
+}
+
+.services-bottom-facts ul li {
+	margin-top: 14px;
+}
