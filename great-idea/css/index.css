@@ -209,3 +209,67 @@ footer p {
 	color: black;
 	margin-top: 3px;
 }
+
+.services-header {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+.services-top-content {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid black;
+	padding-top: 33px;
+	padding-bottom: 40px;
+}
+
+.services-top-content h1 {
+	font-size: 26px;
+}
+
+
+.services-top-content p {
+	line-height: 1.24;
+}
+
+.services-mid-content {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	padding-top: 40px;
+	border-bottom: 2px solid black;
+}
+
+.services-item {
+	width: 420px;
+	height: 253px;
+	margin-bottom: 40px;
+	background-color: white;
+	border: 0.25px solid black;
+	padding-left: 21px;
+	padding-top: 24px;
+	padding-right: 30px;
+}
+
+.services-item p {
+	line-height: 1.30;
+}
+
+.services-item a {
+	text-decoration: none;
+	border: 1px solid black;
+	margin-top: 22px;
+	display: inline-block;
+	width: 141px;
+	text-align: center;
+	height: 35px;
+	padding-top: 9px;
+	border-radius: 5px;
+	color: black;
+	font-size: 12px;
+}
+
+.services-item-left {
+	margin-right: 40px;
+}
