@@ -273,3 +273,37 @@ footer p {
 .services-item-left {
 	margin-right: 40px;
 }
+
+.services-bottom-content {
+	padding-top: 38px;
+	display: flex;
+	height: auto;
+	width: 100%;
+}
+
+.services-bottom-content .services-bottom-facts {
+	padding-top: 2px;
+}
+
+.services-bottom-facts {
+	padding-right: 45px;
+}
+
+.services-bottom-facts p {
+	line-height: 1.3;
+
+}
+
+.services-bottom-facts ul {
+	margin-top: 29px;
+	margin-left: 20px;
+	list-style-type: square;
+}
+
+.services-bottom-facts ul li {
+	margin-top: 14px;
+}
+
+.services-bottom-content img {
+
+}
