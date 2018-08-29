@@ -238,6 +238,7 @@ h1 {
 	justify-content: space-between;
 	border-top: 2px solid black;
 	padding-top: 40px;
+	margin-bottom: 30px;
 
 }
 .service-facts {
@@ -259,9 +260,8 @@ margin-top: 15px;
 
 .services-copyright {
 	display: flex;
-	align-items: flex-end;
 	justify-content: center;
-	height: 100px;
+	height: 200px;
 	width: 900px;
 	margin: 0 auto;
 }
