@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .navigation a:hover{
-	color: #333;
+	color: #428bca;
 }
 
 .navigation .logo{
@@ -137,9 +137,8 @@ p, a, button{
 }
 
 .header button:hover{
-	background-color: #eee;
-	color: #999;
-	border: 1px solid #666;
+	background-color: #428bca;
+	color: #fff;
 }
 
 .header img{
@@ -312,9 +311,8 @@ footer{
 }
 
 .services-content button:hover{
-	background-color: #000;
+	background-color: #5cb85c;
 	color: #fff;
-	border: 1px solid #666;
 }
 
 /******** SERVICE INFO CSS ******/
@@ -392,6 +390,20 @@ footer{
 	line-height: 1.5;
 	padding: 0;
 	align-self: center;
+}
+
+.feature-content button{
+	margin: 25px 0;
+	width: 230px;
+	padding: 10px;
+	font-size: 20px;
+	background-color: #5cb85c;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+}
+.feature-content button:hover{
+	background-color: #428bca;
 }
 
 .features-img{
