@@ -67,14 +67,18 @@ h1, h2, h3, h4, h5 {
 
 /* Nah dog, Imma do this from scratch */
 
+
+
 body{
-	width: 880px;
+	max-width: 880px;
+	width: 100%;
 	margin: 0px auto;
 	padding: 25px;
 }
 
 nav {
-	width: 880px;
+	max-width: 880px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -93,7 +97,8 @@ a:hover {
 }
 
 header {
-	width: 880px;
+	max-width: 880px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -135,12 +140,14 @@ button:hover {
 }
 
 hr {
-	width: 880px;
+	max-width: 880px;
+	width: 100%;
 	margin: 0px 0px 30px 0px;
 }
 
 .top-content {
-	width: 880px;
+	max-width: 880px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
@@ -148,7 +155,8 @@ hr {
 }
 
 .bottom-content {
-	width: 880px;
+	max-width: 880px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
@@ -194,7 +202,8 @@ footer {
 } */
 
 .services nav {
-    width: 880px;
+    max-width: 880px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -249,11 +258,13 @@ a:hover {
 
 .services .services-header-img {
     margin: 0px 0px 20px 0px;
-    width: 880px;
+	max-width: 880px;
+	width: 100%;
 }
 
 .services .serv {
-    width: 880px;
+    max-width: 880px;
+	width: 100%;
     margin: 0px 0px 40px 0px;
     /* border: solid black 1px; */
 }
@@ -278,7 +289,8 @@ a:hover {
 }
 
 .services .digux {
-    width: 880px;
+    max-width: 880px;
+	width: 100%;
     display: flex;
     justify-content: space-between;
 	margin: 0px 0px 40px 0px;
@@ -302,7 +314,8 @@ a:hover {
 }
 
 .services .marketweb {
-    width: 880px;
+    max-width: 880px;
+	width: 100%;
     display: flex;
     justify-content: space-between;
 	margin: 0px 0px 40px 0px;
@@ -326,7 +339,8 @@ a:hover {
 }
 
 .services .iosandroid{
-    width: 880px;
+    max-width: 880px;
+	width: 100%;
     display: flex;
     justify-content: space-between;
 	margin: 0px 0px 40px 0px;
@@ -334,7 +348,8 @@ a:hover {
 }
 
 .services .bottom {
-    width: 880px;
+    max-width: 880px;
+	width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -347,7 +362,8 @@ a:hover {
 }
 
 .services ul {
-    width: 880px;
+	max-width: 880px;
+	width: 100%;
     list-style-type: square;
     margin-left: 20px;
 }
@@ -422,4 +438,57 @@ input[type=submit]:hover {
     display: flex;
 	justify-content: center;
 	/* margin: 80px; */
+}
+
+@media (max-width: 500px) {
+	
+	body {
+		max-width: 500px;
+		width: 100%;
+	}
+
+	.services nav  {
+		max-width: 500px;
+		width: 100%;
+		/* height: 500px; */
+		flex-direction: column-reverse;
+		justify-content: space-between;
+	}
+
+	.services a {
+		margin-top: 25px;
+	}
+
+	.services-header-img {
+		width: 100%;
+	}
+
+	.services .digux {
+		flex-direction: column;
+	}
+
+	.services .marketweb {
+		flex-direction: column;
+	}
+
+	.services .iosandroid {
+		flex-direction: column;
+	}
+
+	.digital {
+		margin-bottom: 40px;
+	}
+
+	.marketing {
+		margin-bottom: 40px;
+	}
+
+	.ios {
+		margin-bottom: 40px;
+	}
+
+	.services .bottom {
+		flex-direction: column;
+	}
+
 }
