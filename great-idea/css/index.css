@@ -175,11 +175,11 @@ footer .copyright{
 
 
 /*== Services Page ===========================================================*/
-.page-services * {
+
+/*-- Global -----------------------------------*/
+.page-services.container p, .page-services ul {
+	line-height: 1.25;
 	list-style: square inside;
-}
-.page-services h1 {
-	font-size: x-large;
 }
 .page-services.container main {
 	display: flex;
@@ -191,6 +191,14 @@ footer .copyright{
 .page-services.container main *:first-child{
 	margin-top: 0px;
 }
+
+/*-- Header -----------------------------------*/
+.page-services h1 {
+	font-size: x-large;
+	margin-top: 1em;
+}
+
+/*-- Container --------------------------------*/
 .page-services.container .blurb-grid {
 	display: flex;
 	flex-flow: row wrap;
@@ -212,6 +220,8 @@ footer .copyright{
 	font-size: smaller;
 	margin-top: 2em;
 }
+
+/*-- Footer -----------------------------------*/
 .page-services.container main footer {
 	display: flex;
 	flex-flow: row wrap;
@@ -226,12 +236,7 @@ footer .copyright{
 .page-services.container > footer {
 	margin: 75px 0px 20px;
 }
-.page-services.container h1 {
-	margin-top: 1em;
-}
-.page-services.container p, .page-services ul {
-	line-height: 1.25;
-}
+
 
 /*== Media Queries (Responsive Design, Stretch Goal 3) ======================*/
 
