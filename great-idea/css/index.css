@@ -64,3 +64,206 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container { 
+	width: 900px;
+	margin: 0 auto;
+}
+
+/* Navigation  header */
+.header {
+	height: 100px;
+	width: 100%;
+}
+
+nav {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+nav a {
+	text-decoration: none;
+	display: inline;
+	color: rgba(150,150,150,0.8);
+}
+
+/* End of Navigation Header */
+
+.container { 
+	width: 900px;
+	margin: 0 auto;
+}
+
+/* Main Content */
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.main-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 60px 0px;
+}
+
+.main-content div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-content button {
+	border: solid 1px black;
+	outline: none;
+	height: 35px;
+	width: 160px;
+	font-size: 14px;
+}
+
+.main-content button:hover {
+	cursor: pointer;
+}
+
+/* End of Get started*/
+
+/* Content */
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-top: solid 2px black;
+	border-bottom: solid 2px black;
+	padding: 20px 0px;
+	margin: 30px 0px;
+}
+
+.content-row {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0px;
+	justify-content: space-around;
+}
+
+.content-row img {
+	width: 100%;
+}
+
+.content-row section {
+	padding-right: 10px;
+}
+
+/* End of Content */
+
+/* Footer */
+.footer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding-bottom: 100px;
+}
+
+.footer p {
+	padding-top: 10px;
+}
+
+.copyright {
+	align-self: center;
+	margin: 20px 0px;
+}
+/* End of footer */
+
+
+/* Services HTML */
+
+.services-main {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 10px 0px;
+	padding: 30px 0px;
+}
+
+.services-main h1{
+	font-size: 35px;
+}
+
+
+/* Service Content CSS */
+
+.service-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: solid black 2px;
+	border-top: solid black 2px;
+	padding: 20px 0px;
+}
+
+.service-content-box {
+	width: 430px;
+	height: 250px;
+	padding: 30px;
+	margin: 20px 0px;
+	border: solid 1px black;
+	background: rgb(245, 245, 245);
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	position: relative;
+}
+
+.service-content button {
+	width: 100px;
+	height: 30px;
+	border: solid 1px black;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+
+/* End of Service Content CSS */
+
+/* Facts About us CSS */
+
+.facts-about {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0px;
+}
+
+.facts-about div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.facts-about p {
+	padding: 10px 70px 20px 0px;
+}
+
+.facts-about ul{
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+.facts-about ul li{
+	list-style-type: disc;
+	margin-bottom: 20px;
+}
+
+/* End of Facts About us CSS */
+
+
+/* End of Services HTML */
