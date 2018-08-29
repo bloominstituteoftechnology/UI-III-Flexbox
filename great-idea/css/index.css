@@ -64,3 +64,164 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/**************** INDEX PAGE CSS *********************/
+p, a, button{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/*** NAV BAR ***/
+.navigation {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0px 0px 50px 0px;
+	padding: 25px;
+	background-color: #eee;
+	box-sizing: border-box;
+	z-index: 9999;
+}
+
+.navigation a{
+	position: relative;
+	top: 0px;
+	left: 290px;
+	display: inline-block;
+	margin: 10px 30px;
+	text-decoration: none;
+	color: #999;
+}
+
+.navigation a:hover{
+	color: #333;
+}
+
+.navigation .logo{
+	position: absolute;
+	top: 25px;
+	right: 340px;
+	display: inline-block;
+}
+
+/*** HEADER CSS ***/
+.header{
+	margin: 150px auto 100px auto;
+	width: 1000px; 
+}
+
+.header .cta{ 
+	width: 400px;
+	text-align: center;
+	vertical-align: top;
+	display:inline-block;
+}
+
+.header .cta h1{
+	width: 350px;
+	margin: 70px 0 0 60px;
+	font-size: 90px;
+}
+
+.header button{
+	width: 250px;
+	margin: 30px 100px;
+	padding: 10px;
+	font-size: 20px;
+	border: 2px solid black;
+}
+
+.header button:hover{
+	background-color: #eee;
+	color: #999;
+	border: 1px solid #666;
+}
+
+.header img{
+	width: 500px;
+	margin-left: 94px;
+	display: inline-block;
+}
+
+
+/*** MAIN CSS ***/
+.content-container{
+
+	width: 1000px;
+	margin: 0 auto;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.content-container h2{
+	font-size: 30px;
+}
+
+.content-container p{
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.top-content{
+	margin: 50px 0;
+}
+
+.top-item{
+	width: 473px;
+	display: inline-block;
+}
+
+.top-item-left{
+	margin-right: 50px;
+}
+
+.bottom-content{
+	margin: 50px 0;
+}
+
+.bottom-item{
+	width: 300px;
+	display: inline-block;
+}
+
+.bottom-item-center{
+	margin: 0 46px 0 46px;
+}
+
+.middle-img{
+	width: 1000px;
+	margin: 20px 0;
+}
+
+/*** Contact ***/
+.contact{
+	width: 1000px;
+	margin: 50px  auto;
+}
+
+.contact h2{
+	font-size: 30px;
+}
+
+.contact address{
+	width: 200px;
+	margin: 50px 0;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.contact p{
+	margin: 25px 0;
+	font-size: 20px;
+}
+
+/** Footer ***/
+footer{
+	width: 1000px;
+	margin: 100px auto 0 auto;
+	padding: 50px;
+	text-align: center;
+}
+
+
+/**********  END INDEX PAGE CSS *********************/
