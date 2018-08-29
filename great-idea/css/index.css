@@ -180,7 +180,6 @@ nav {
 .container nav a {
 	color: white;
 	text-decoration: none;
-	/* padding-top:  */
 }
 
 .container nav a:hover {
@@ -189,16 +188,20 @@ nav {
 
 .logo {
 	margin-right: -30px;
-	border: 1px solid red;
 }
 
 header {
 	height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .headerText {
-	left: 100px;
-	top: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 100px
 }
 
 header h1 {
@@ -208,8 +211,8 @@ header h1 {
 }
 
 header img {
-	right: 0px;
-	top: 60px;
+	display: flex;
+	justify-content: flex-end;
 }
 
 button {
@@ -231,36 +234,17 @@ button:hover {
 	border-top: 1px solid black;
 	height: 170px;
 	padding-top: 30px;
-}
-
-.features {
-	left: 0px;
-	width: 430px;
-}
-
-.about {
-	right: 0px;
-	width: 430px;
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid red; */
 }
 
 .bottomSection {
 	border-bottom: 1px solid black;
 	height: 200px;
 	padding-top: 30px;
-}
-
-.services {
-	left: 35%;
-	width: 30%;
-}
-
-.product {
-	width: 30%;
-}
-
-.vision {
-	right: 0px;
-	width: 30%;
+	display: flex;
+	justify-content: space-between;
 }
 
 address {
