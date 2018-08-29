@@ -65,18 +65,22 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
 /*== Theme ===================================================================*/
-/* Global */
+
+/*-- Global -----------------------------------*/
 a {
 	text-decoration: none;
 	color: inherit;
 }
-/* Header */
+
+/*-- Header -----------------------------------*/
 header.main-navigation a {
 	font-size: smaller;
 	color: #bbb;
 }
-/* Splash */
+
+/*-- Splash -----------------------------------*/
 .splash .call-to-action h1 {
 	font-size: 80px;
 }
@@ -86,7 +90,8 @@ header.main-navigation a {
 	padding: 10px 40px;
 	background: white;
 }
-/* Main Content */
+
+/*-- Main Content -----------------------------*/
 .content {
 	margin-top: 50px;
 	border-style: solid;
@@ -97,9 +102,12 @@ header.main-navigation a {
 	padding: 28px 0px;
 }
 
+
 /*== Layout ==================================================================*/
-/* Global (none) */
-/* Container */
+
+/*-- Global -----------------------------------*/
+
+/*-- Container --------------------------------*/
 .container {
 	display: flex;
 	align-items: center;
@@ -109,7 +117,7 @@ header.main-navigation a {
 	width: 875px;
 }
 
-/* Header */
+/*-- Header -----------------------------------*/
 header.main-navigation {
 	display: flex;
 	align-items: center;
@@ -124,7 +132,7 @@ header.main-navigation nav {
 	justify-content: space-between;
 }
 
-/* Splash */
+/*-- Splash -----------------------------------*/
 .splash {
 	display: flex;
 	justify-content: flex-end;
@@ -143,7 +151,8 @@ header.main-navigation nav {
 .splash .call-to-action h1 span {
 	display: block;
 }
-/* Main Content */
+
+/*-- Main Content -----------------------------*/
 .container {
 	display: flex;
 	flex-direction: column;
@@ -153,7 +162,8 @@ header.main-navigation nav {
 	flex-direction: row;
 	justify-content: space-between;
 }
-/* Footer */
+
+/*-- Footer -----------------------------------*/
 footer address{
 	display: block;
 	margin-bottom: 1em;
@@ -162,6 +172,7 @@ footer .copyright{
 	display: block;
 	text-align: center;
 }
+
 
 /*== Services Page ===========================================================*/
 .page-services * {
@@ -223,26 +234,36 @@ footer .copyright{
 }
 
 /*== Media Queries (Responsive Design, Stretch Goal 3) ======================*/
-/* SMARTPHONES PORTRAIT */
-@media only screen and (min-width: 300px) {
 
-
+/*-- Smartphone -------------------------------*/
+@media only screen and (max-width: 875px) {
+	.container > header, .container > main, .container.page-index > footer {
+		width: 90%;
+		min-width: 418px;
+	}
+	.services-header-img{
+		width: 100%;
+	}
+	header.main-navigation nav {
+		flex-flow: column wrap;
+	}
+	.blurb-row {
+		display: unset;
+	}
+	.page-services.container .blurb-grid {
+		flex-direction: column;
+		align-items: center;
+	}
+	.page-services.container main footer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.page-services.container main footer img {
+		margin-top: 2em;
+	}
 }
 
-/* SMARTPHONES LANDSCAPE */
-@media only screen and (min-width: 480px) {
-
-}
-
-/* TABLETS PORTRAIT */
-@media only screen and (min-width: 768px) {
-
-
-}
-
-
-/* TABLET LANDSCAPE / DESKTOP */
-@media only screen and (min-width: 1024px) {
-
-
+/*-- Tablet & Desktop -------------------------*/
+@media only screen and (min-width: 875px){
+	/* Don't do anything. Display as Default. */
 }    
