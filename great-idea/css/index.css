@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*== Theme ===================================================================*/
+/* Global */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+/* Header */
+header.main-navigation a {
+	font-size: smaller;
+	color: #bbb;
+}
+/* Splash */
+.splash .call-to-action h1 {
+	font-size: 80px;
+}
+.splash .button {
+	border: 1px solid black;
+	padding: 10px 45px;
+}
+/* Main Content */
+.content {
+	margin-top: 50px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 0px;
+}
+.container header.main-navigation, .container .splash, .container .blurb-row, .container footer {
+	padding: 28px 0px;
+}
+
+/*== Layout ==================================================================*/
+/* Global (none) */
+/* Container */
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.container > header, .container > main, .container > footer {
+	width: 875px;
+}
+
+/* Header */
+header.main-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	order: 1;
+}
+header.main-navigation nav {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Splash */
+.splash {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.splash .call-to-action{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.splash .call-to-action h1 {
+	text-align: center;
+}
+.splash .call-to-action h1 span {
+	display: block;
+}
+/* Main Content */
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.blurb-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+/* Footer */
+footer address{
+	display: block;
+	margin-bottom: 1em;
+}
+footer .copyright{
+	display: block;
+	text-align: center;
+}
