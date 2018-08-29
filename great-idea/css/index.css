@@ -354,12 +354,39 @@ footer{
 
 /****************FEATURES CSS ************/
 
+/*** Featuress CTA HEADER ***/
+.features-header{
+	margin: 80px auto 50px auto;
+	width: 1000px; 
+	height: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	border-bottom: 1px solid black;
+}
+
+.features-header .features-header-img{
+	width: 1000px;
+	height: 300px;
+	align-self: center;
+}
+
+.features-header h2{
+	margin-top: 50px ;
+	font-size: 40px;
+}
+.features-header p{
+	margin-bottom: 50px;
+	padding: 0;
+	font-size: 19px;
+	line-height: 1.5;
+}
 
 .features-container{
 	width: 1000px;
-	margin: 0 auto;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	margin: 50px auto;
+	/* border-top: 1px solid black;
+	border-bottom: 1px solid black; */
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -367,7 +394,7 @@ footer{
 
 .feature-content{
 	width: 300px;
-	margin: 50px 0;
+	margin: 25px 0;
 	padding: 20px;
 	display: flex;
 	flex-flow: column wrap;
@@ -415,11 +442,11 @@ footer{
 
 .feature-cta{
 	width: 1000px;
-	margin: 40px auto;
+	margin: 150px auto 0  auto;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	
+
 }
 
 .feature-cta-img{
