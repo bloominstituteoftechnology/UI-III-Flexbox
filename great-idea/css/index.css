@@ -66,80 +66,83 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /* Elements */
-h1 {
-	font-size: 72px;
-}
-p {
-	padding-bottom: 10px;
+
+.container-home {
+	width: 500px;
+	margin: 0px 50px;
 }
 
-header {
+.container-home .navigation-bar {
+	width: 700px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: flex-end;
 }
 
-header h1 {
-	margin: 20px;
-	text-align: center;
-	padding-left: 100px;
+.container-home .navigation-bar a {
+	color: lightgrey;
+	text-decoration: none;
+	/* border: 1px solid orange; 
+		width: 400;
+
+	font-size: 14px;
+	/* padding: 0px 30px; */
+	/* */
+	padding: 0px 12px;
 }
 
-header p {
-	border: 1px solid black;
-	margin: 10px 100px;
-	padding-top: 8px;
-	text-align: center;
-	margin-left: 200px;
-}
-
-header img {
-	margin-bottom: 20px;
+.container-home .navigation-bar img { /* Logo */
+	width: 150px;
+	height: auto;
+	/* border: 1px solid green; */
 	order: 1;
 }
 
-/* Classes */
-.navigation-bar { 
-	width: 600px;
+.container-home header {
+	width: 700px;
 	display: flex;
-	flex-wrap: none;
-	justify-content: space-between;
-}
-
-.logo {
-	padding-left: 20px;
-}
-
-.navigation-bar a {
-	color: lightgrey;
-	font-size: 14px;
-	padding: 0px 30px;
-	text-decoration: none;
-	vertical-align: middle;
-}
-
-.columns-2 {
-	border-top: 1px solid black;
-	margin: 0px 50px;
+	justify-content: space-evenly;
 	padding: 20px 0px;
+	border-bottom: 1px solid black;
+}
 
+
+
+.circle-img {												/* Circle Img */
+	width: 300px;
+	height: 300px;
+}
+
+
+.container-home h1 {
+	font-size: 72px;
+	text-align: center;
+}
+
+.get-started {
+	text-align: center;
+	margin: 0px 150px;
+}
+
+.row {
+	width: 700px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
 }
 
 
 .middle-img {
-	padding: 10px 0px 10px 50px;
+	width: 700px;
 }
 
-.columns-3 {
-	padding: 20px 0px;
-	margin: 0px 50px;
-	column-count: 3;
-	border-bottom: 1px solid black;
-}
 
 .contact {
 	padding: 20px 50px;
 }
-
+ 
 .copyright {
+	width: 700px;
+	margin: 50px;
 	text-align: center;
-}
+} 
