@@ -369,12 +369,32 @@ footer{
 
 .feature-content{
 	width: 300px;
+	margin: 50px 0;
+	padding: 20px;
 	display: flex;
 	flex-flow: column wrap;
 	align-content: center;
 	align-items: center;
+	background-color:#eee;
+	border: 1px solid #333;
+	border-radius: 10px;
+}
+
+.feature-content h2{
+	margin: 30px 0;
+	font-family: 'Righteous', cursive; 
+	font-size: 35px;
+}
+
+.feature-content p{
+	width: 230px;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	align-self: center;
 }
 
 .features-img{
 	width: 150px;
+	align-self: center;
 }
