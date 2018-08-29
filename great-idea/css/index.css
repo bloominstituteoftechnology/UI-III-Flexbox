@@ -291,6 +291,11 @@ footer {
 	font-size: 12px;
 }
 
+.service-boxes button:hover {
+	color: white;
+	background-color: black;
+}
+
 .facts-section {
 	padding: 40px 0;
 	display: flex;
