@@ -68,149 +68,155 @@ h1, h2, h3, h4, h5 {
 .container {
   /* border: 1px solid red; */
   height: 1536px;
-  width: 875px;
+  width: 874px;
   margin: 0 auto;
 }
 
 .nav-header {
   /* border: 1px solid pink; */
-  position: relative;
-  height: 100px;
-  /* padding-top: 35px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+  height: 92px;
 }
 
 .nav-header nav {
   /* border: 1px solid blue; */
-  position: absolute;
-  display: inline-block;
-  top: 27px;
-  right: 0px;
-  left: 0px;
-  /* width: 878px; */
-  vertical-align: top;
-  padding-top: 0px;
+  display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 596px;
 }
 
 .nav-header nav a {
   /* border: 1px solid black; */
-  display: inline-block;
-	vertical-align: top;
 	text-decoration: none;
   color: lightgray;
   font-size: 14px;
-  margin-top: 12px;
-  margin-right: 63px;
 }
 
-.nav-header .logo {
-  display: inline-block;
-  margin-left: 32px;
-}
+
 
 .main-header {
   /* border-bottom: 1px solid black; */
-  position: relative;
-  /* padding-bottom: 30px; */
-  height: 380px;
-  margin-top: 32px;
-  /* padding-top: 20px; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 41px;
+	padding-bottom: 77px;
+	border-bottom: 1px solid black;
 }
 
 .main-header .title-button {
   /* border: 1px solid red; */
-  display: inline-block;
-  position: absolute;
-  vertical-align: top;
-  top: 60px;
-  left: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 77px;
 }
 
 .main-header .title-button h1 {
-  font-size: 80px;
+	margin-top: 15px;
+	font-size: 81px;
   /* font-style: ; */
-  text-align: center
+	text-align: center;
+	line-height: 75px;
 }
 
 .main-header .title-button .button {
   border: 1px solid black;
-  font-size: 20px;
-  text-align: center;
-  margin-right: 71px;
-  margin-left: 80px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.main-header img {
-  display: inline-block;
-  position: absolute;
-  vertical-align: top;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  font-size: 19px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+	width: 175px;
 }
 
 .upper-text {
-  border-top: 1px solid black;
-  position: relative;
-  margin-top: 77px;
-  padding-top: 37px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 38px;
+
 }
 
 .upper-text .left {
-  /* border: 1px solid red; */
-  display: inline-block;
-  vertical-align: top;
-  width: 49%;
-  /* margin-right: 20px; */
+	/* border: 1px solid red; */
+	line-height: 17.5px;
 }
 
 .upper-text .right {
-  /* border: 1px solid blue; */
-  position: absolute;
-  display: inline-block;
-  vertical-align: top;
-  width: 49%;
-  right: 0;
+	/* border: 1px solid blue; */
+	line-height: 17.5px;
+	margin-left: 20px;
 }
 
 .middle-img {
-  margin-top: 40px;
-  margin-bottom: 39px;
+  margin-top: 38px;
+  
 }
 
 .lower-text {
-  border-bottom: 1px solid black;
-  position: relative;
-  padding-bottom: 44px;
-  margin-bottom: 30px;
+	/* border-bottom: 1px solid black; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 889px;
+	margin-top: 36px;
+	margin-bottom: 48px;
 }
 
 .lower-text .left {
   /* border: 1px solid blue; */
-  display: inline-block;
-  vertical-align: top;
-  width: 32%;
-  margin-right: 14px;
+	line-height: 17.7px;
+	width: 292px;
 }
 
 .lower-text .center {
   /* border: 1px solid blue; */
-  display: inline-block;
-  vertical-align: top;
-  width: 32%;
+	line-height: 17.7px;
+	width: 292px;
+	/* margin-left: 12px; */
+}
+
+.lower-text .center h3 {
+	letter-spacing: 1.5px;
 }
 
 .lower-text .right {
   /* border: 1px solid blue; */
-  position: absolute;
-  display: inline-block;
-  vertical-align: top;
-  width: 32%;
-  right: 0;
+	line-height: 17.7px;
+	width: 292px;
+	/* margin-left: 0; */
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 38px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.contact h3 {
+	font-size: 17px;
+}
+
+.contact address {
+	line-height: 18px;
 }
 
 footer {
-  margin-top: 50px;
-  text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 54px;
+	font-size: 14px;
 }
