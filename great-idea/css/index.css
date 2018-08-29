@@ -80,9 +80,11 @@ header.main-navigation a {
 .splash .call-to-action h1 {
 	font-size: 80px;
 }
-.splash .button {
+.button {
+	display: inline-block;
 	border: 1px solid black;
-	padding: 10px 45px;
+	padding: 10px 40px;
+	background: white;
 }
 /* Main Content */
 .content {
@@ -91,7 +93,7 @@ header.main-navigation a {
 	border-color: black;
 	border-width: 1px 0px;
 }
-.container header.main-navigation, .container .splash, .container .blurb-row, .container footer {
+.container header.main-navigation, .container .splash, .container .blurb-row, .container.page-index footer {
 	padding: 28px 0px;
 }
 
@@ -103,7 +105,7 @@ header.main-navigation a {
 	align-items: center;
 	flex-direction: column;
 }
-.container > header, .container > main, .container > footer {
+.container > header, .container > main, .container.page-index > footer {
 	width: 875px;
 }
 
@@ -160,3 +162,85 @@ footer .copyright{
 	display: block;
 	text-align: center;
 }
+
+/*== Services Page ===========================================================*/
+.page-services * {
+	list-style: square inside;
+}
+.page-services h1 {
+	font-size: x-large;
+}
+.page-services.container main {
+	display: flex;
+	flex-direction: column;
+}
+.page-services.container main > * {
+	margin: 20px 0px;
+}
+.page-services.container main *:first-child{
+	margin-top: 0px;
+}
+.page-services.container .blurb-grid {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 0px 2px;
+	padding: 20px 0px;
+}
+.page-services.container .blurb-grid .blurb {
+	width: 418px;
+	border: black solid 1px;
+	background: #f4f3f4;
+	padding: 20px;
+	margin: 20px 0px;
+}
+.page-services .blurb .button {
+	border-radius: 4px;
+	font-size: smaller;
+	margin-top: 2em;
+}
+.page-services.container main footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.page-services.container main footer > * {
+	width: 418px;
+}
+.page-services.container main footer ul {
+	margin-top: 20px;
+}
+.page-services.container > footer {
+	margin: 75px 0px 20px;
+}
+.page-services.container h1 {
+	margin-top: 1em;
+}
+
+/*== Media Queries (Responsive Design, Stretch Goal 3) ======================*/
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+
+}    
