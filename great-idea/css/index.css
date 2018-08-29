@@ -274,7 +274,7 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	height: 700px;
+	height: 760px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 40px 0;
@@ -286,6 +286,7 @@ footer {
 	width: 420px;
 	height: 200px;
 	padding: 20px;
+	margin-bottom: 40px;
 }
 
 .service-boxes button {
