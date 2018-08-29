@@ -116,7 +116,7 @@ p, a, button{
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	flex-flow: column nowrap;
+	flex-flow: column wrap;
 	align-content: center;
 	align-items: center;
 }
@@ -129,6 +129,7 @@ p, a, button{
 
 .header button{
 	width: 250px;
+	margin-top: 50px;
 	padding: 10px;
 	font-size: 20px;
 	border: 2px solid black;
@@ -142,7 +143,7 @@ p, a, button{
 }
 
 .header img{
-	margin-left: 50px;
+	margin-left: 60px;
 	width: 500px;
 	align-self: center;
 }
@@ -155,6 +156,10 @@ p, a, button{
 	margin: 0 auto;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
+	display: flex;
+	flex-flow: column wrap;
+	align-content: center;
+
 }
 
 .content-container h2{
@@ -168,34 +173,40 @@ p, a, button{
 
 .top-content{
 	margin: 50px 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 }
 
 .top-item{
-	width: 473px;
-	display: inline-block;
+	width:470px;
+	padding: 0;
 }
 
 .top-item-left{
-	margin-right: 50px;
-}
-
-.bottom-content{
-	margin: 50px 0;
-}
-
-.bottom-item{
-	width: 300px;
-	display: inline-block;
-}
-
-.bottom-item-center{
-	margin: 0 46px 0 46px;
+	margin-right: 20px;
 }
 
 .middle-img{
 	width: 1000px;
-	margin: 20px 0;
+	align-items: center;
 }
+
+.bottom-content{
+	margin: 50px 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.bottom-item{
+	width: 300px;
+}
+
+/* .bottom-item-center{
+	margin: 0 46px 0 46px;
+} */
+
 
 /*** Contact ***/
 .contact{
