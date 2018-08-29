@@ -246,7 +246,7 @@ footer{
 
 /*** Services CTA HEADER ***/
 .services-header{
-	margin: 80px auto 100px auto;
+	margin: 80px auto 50px auto;
 	width: 1000px; 
 	height: auto;
 	display: flex;
@@ -263,4 +263,8 @@ footer{
 .services-header h2{
 	margin-top: 50px ;
 	font-size: 40px;
+}
+.services-header p{
+	font-size: 20px;
+	line-height: 1.5;
 }
