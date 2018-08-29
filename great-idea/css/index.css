@@ -172,7 +172,7 @@ p, a, button{
 }
 
 .top-content{
-	margin: 50px 0;
+	margin: 70px 0;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -193,7 +193,7 @@ p, a, button{
 }
 
 .bottom-content{
-	margin: 50px 0;
+	margin: 70px 0;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -203,15 +203,15 @@ p, a, button{
 	width: 300px;
 }
 
-/* .bottom-item-center{
-	margin: 0 46px 0 46px;
-} */
 
 
 /*** Contact ***/
 .contact{
 	width: 1000px;
 	margin: 50px  auto;
+	display:flex;
+	flex-direction: column;
+	align-content: flex-start ;
 }
 
 .contact h2{
@@ -220,7 +220,7 @@ p, a, button{
 
 .contact address{
 	width: 200px;
-	margin: 50px 0;
+	margin: 30px 0;
 	font-size: 20px;
 	line-height: 1.5;
 }
