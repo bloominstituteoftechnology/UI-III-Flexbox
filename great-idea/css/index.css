@@ -63,4 +63,295 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* Header-related CSS */
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    vertical-align: top;
+    margin-top: 35px;
+}
+
+header nav { 
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+  }
+
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+/* CTA-related CSS */
+
+  .cta {
+    display: flex;
+    align-items: center;
+    margin-top: 69px;
+  }
+
+  .cta .cta-text {
+    /*display: inline-block;*/
+    vertical-align: top;
+    font-size: 77px;
+   /* margin-top: 120px; */
+    text-align: center;
+    padding: 0px 75px;
+  }
+  
+  .cta .cta-text button {
+    background: white;
+    vertical-align: top;
+    margin-top: 6px;
+    padding: 8px 44px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+    background: black;
+    color: white;
+  }
+
+  .cta img {
+      width: 10;
+      height: 100%;
+      /*margin-top: 69px;*/
+  }
+
+  .cta-img {
+    right: 0px;
+    width: 500px;
+    height: auto;
+    border-radius: 5%;
+    margin-bottom: 50px;
+  }
+
+/* Main Content */
+
+.main-content {
+    border-top: 1px solid black;
+    margin-top: 76px;
+    padding-top: 39px;
+  }
+
+.main-content .top-content {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.main-content .top-content .text-content {
+    width: 410px;
+    display: inline-block;
+    margin-right: 34px;
+}
+
+.main-content .middle-img {
+    margin-top: 45px;
+  }
+  
+  .main-content .bottom-content {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 37px;
+  }
+  
+  .main-content .bottom-content .text-content {
+    width: 275px;
+    display: inline-block;
+    margin-right: 12px;
+  }
+
+  .bottom-content {
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+  }
+
+/* Contact & Footer CSS */
+
+  .contact {
+    padding: 39px 0 0;
+  }
+  
+  .contact p {
+    margin: 20px 0;
+  }
+  
+  footer {
+    margin: 32px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* Service Page CSS */
+
+.hero {
+  margin-bottom: 40px;
+}
+
+.hero h2 {
+  font-size: 25px;
+}
+
+.hero .services-header-img {
+  margin: 20px 0 30px;
+}
+
+.box-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  height: 800px;
+}
+
+.box {
+  height: 220px;
+  width: 420px;
+  padding: 20px;
+  border: 1px solid black;
+  background: whitesmoke;
+}  
+
+.box a {
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 7.5px 50px
+}
+
+.box p {
+  margin-bottom: 25px;
+}
+
+
+.facts {
+  margin-top: 30px;
+}
+
+.facts-flex {
+  display: flex;
+  flex-flow: column wrap;
+  height: 320px;
+}
+
+.facts-flex p {
+  width: 45%;
+}
+
+.facts-flex ul {
+  list-style-type: square;
+  margin-top: 20px;
+  width: 45%;
+}
+
+.facts-flex li {
+  margin-bottom: 12px;
+  margin-left: 16px;
+}
+
+.facts-flex img {
+  width: 45%;
+  height: auto;
+  align-self: flex-end;
+}
+
+/* About Page */
+
+.box-container2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  height: 600px;
+}
+
+.box2 {
+  height: 120px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  background: whitesmoke;
+}  
+
+.box2:hover {
+  transition: .3s;
+	background: black;
+	color: white;
+	text-decoration: none;
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+}
+
+@keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(2px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-4px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(4px, 0, 0);
+	}
+  }
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px)  { 
+  .box-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 100px;
+    height: 100%;
+  }
+
+  .box {
+    height: 200px;
+    width: 90%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background: whitesmoke;
+  }  
+}
