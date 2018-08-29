@@ -341,3 +341,13 @@ address {
 	text-align: center;
 }
 
+.about-image {
+	border-radius: 20px;
+}
+
+.about-content {
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 42px;
+	margin: 35px 0;
+}
