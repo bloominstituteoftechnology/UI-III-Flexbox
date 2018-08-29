@@ -73,12 +73,12 @@ h1 {
 	height: 100px;
 	margin: 0 auto;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 .container-top .top-nav {
-	width: 800px;
+	width: 600px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 .container-top .top-nav a {
 	color: gray;
@@ -193,6 +193,7 @@ h1 {
 }
 .services-header-img {
 	display: block;
+	width: 900px;
 	margin: 0 auto;
 }
 .services {
