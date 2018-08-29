@@ -201,9 +201,7 @@ h1, h2, h3, h4, h5 {
 	*/
 
 	/* Border test */
-	.services-intro .services-info-blocks p {
-		line-height: 23px;
-	}
+	
 	/* Services intro section */
 	.services-intro {
 		margin-top: 22px;
@@ -217,6 +215,10 @@ h1, h2, h3, h4, h5 {
 
 	.services-intro p {
 		padding-bottom: 30px;
+	}
+
+	.services-intro .services-info-blocks p {
+		line-height: 23px;
 	}
 
 	/* Services Main content section */
