@@ -387,9 +387,10 @@ footer{
 .feature-content p{
 	width: 230px;
 	font-size: 15px;
-	line-height: 1.5;
+	line-height: 1.7;
 	padding: 0;
 	align-self: center;
+	text-align: center;
 }
 
 .feature-content button{
