@@ -353,3 +353,28 @@ footer{
 .services-info-img{
 	width: 480px;
 }
+
+/****************FEATURES CSS ************/
+
+
+.features-container{
+	width: 1000px;
+	margin: 0 auto;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.feature-content{
+	width: 300px;
+	display: flex;
+	flex-flow: column wrap;
+	align-content: center;
+	align-items: center;
+}
+
+.features-img{
+	width: 150px;
+}
