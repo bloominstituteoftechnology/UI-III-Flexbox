@@ -64,3 +64,152 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 875px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.fixed-nav {
+	position: fixed;
+	width: 875px;
+	z-index: 100;
+}
+
+nav {
+	width: 100%;
+	/* position: fixed; */
+	height: 40px;
+	background-color: cornflowerblue;
+
+}
+
+.link-container {
+	padding-top: 12px;
+}
+
+.container nav a {
+	margin-left: 55px;
+	color:white;
+	text-decoration: none;
+	padding-top: 100px
+}
+
+.container nav a:hover {
+	color: black;
+}
+
+
+.logo {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+header {
+	position: relative;
+	height: 500px;
+
+}
+
+.headerText {
+	position: absolute;
+	left: 100px;
+	top: 150px;
+}
+
+header h1 {
+	font-family: Bangers;
+	font-size: 70px;
+	text-align: center;
+
+}
+
+header img {
+	position: absolute;
+	right: 0px;
+	top: 60px;
+
+}
+
+button {
+	width: 150px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+	left: 75px;
+	font-size: 15px;
+	margin: 0 auto;
+	display: inline-block;
+
+}
+
+button:hover {
+	color: white;
+	background-color: black;
+}
+
+.topSection {
+	border-top: 1px solid black;
+	height: 170px;
+	position: relative;
+	padding-top: 30px;
+}
+
+.features {
+	position: absolute;
+	left: 0px;
+	width: 430px;
+
+}
+
+.about {
+	position: absolute;
+	right: 0px;
+	width: 430px;
+
+}
+
+.bottomSection {
+	border-bottom: 1px solid black;
+	position: relative;
+	height: 200px;
+	padding-top: 30px;
+
+
+}
+
+.services {
+	position: absolute;
+	left: 35%;
+	width: 30%;
+
+
+}
+
+.product {
+	position: absolute;
+	width: 30%;
+
+
+}
+
+.vision {
+	position: absolute;
+	right: 0px;
+	width: 30%;
+
+
+}
+
+address {
+padding-top: 30px;
+}
+
+footer {
+text-align: center;
+padding-top: 30px;
+margin-bottom: 50px;
+}
