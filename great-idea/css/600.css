@@ -221,14 +221,14 @@ h1, h2, h3, h4, h5 {
 }
 .container-middle-img {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   width: 450px;
+  margin: 0 auto;
 }
 .middle-img {
   display: block;
-	height: 200px;
-	width: 450px;
-	margin: 0 auto;
+	height: 150px;
+	width: 400px;
 }
 
 .container-row-two {
