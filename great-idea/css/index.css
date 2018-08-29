@@ -64,3 +64,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{
+	width : 800px;
+	margin: 0 auto;
+}
+
+ .top-menu{
+	position: fixed;
+	background: lightgray;
+	z-index: 100;
+}
+
+ .top-menu header{
+	display : flex;
+	width : 800px;
+	justify-content: space-between;
+	align-items: center;
+}
+ .top-menu nav{
+	padding : 20px;
+}
+
+ .top-menu a{
+	padding-left : 20px;
+}
+
+header .logo {
+	width : 100px;
+}
+
+.main .title{
+	padding-top: 150px;
+	display : flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.main .title .title-left{
+	width : 50%;
+	font-size: 4em;
+	text-align : center;
+	padding : 70px 50px 0 0;
+}
+
+.main .title .title-left span{
+	font-size: 20px;
+	border : 2px solid black;
+	padding : 0 10px;
+}
+
+
+.main .main-content{
+	margin : 50px auto;
+	padding : 50px 10px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	display : flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow:wrap;
+}
+
+.main .main-content .middle-img{
+	width : 800px;
+	margin : 40px 0;
+}
+.main .above-content{
+	width: 48%;
+	margin-right:10px;
+	
+}
+.main .below-content{
+	width: 33%;
+}
+
+.main .contact p{
+	padding-top : 10px;
+}
+.main footer{
+	text-align: center;
+	padding : 30px;
+}
+
+
+/* CSS for Service.html */
+.services{
+	width : 800px;
+	margin: 0 auto;
+}
+
+.services .headline{
+	padding: 80px 0 30px 0;
+	display : flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom : 1px solid black;
+	margin-bottom: 40px;
+}
+
+.services .headline img{
+	width : 100%;
+	margin-bottom : 20px;
+}
+
+.services .main-content{
+	display : flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom : 2px solid black;
+	margin-bottom: 30px;
+}
+
+.services .main-content .content{
+	width : 47%;
+	border: 1px solid black;
+	padding : 20px ;
+	margin-bottom: 30px;
+	background-color: lightgrey;
+
+}
+
+.services .main-content .content button{
+	margin-top : 20px;
+}
+
+.services .bottom {
+	display : flex;
+
+	justify-content: space-between;
+	
+}
+
+.services .bottom .bottom-left {
+	display : flex;
+	flex-direction : column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.services .bottom .bottom-left ul{
+	padding : 20px ;
+	list-style-type: square;
+}
+.services .bottom .bottom-left ul li{
+	padding : 7px 0;
+
+}
+
+.services .copyRight{
+	text-align: center;
+	padding : 20px 0;
+
+}
