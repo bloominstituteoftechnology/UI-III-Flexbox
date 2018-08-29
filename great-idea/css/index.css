@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,193 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Navigation */
+.nav-bar {
+	width: 700px;
+	margin: 0 auto;
+	padding: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-bar .main-nav {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.nav-bar .main-nav a {
+	text-decoration: none;
+	color: #c6c6c6;
+	margin-right: 30px;
+}
+
+.nav-bar .main-nav a:hover {
+	color: #616161;
+}
+
+/* Main content */
+.container {
+	width: 700px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+/* Header: Innovation on Demand, code snippet img  */
+.container header {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container .banner-text {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+.container .banner-text h1 {
+	font-size: 56px;
+	text-align: center;
+}
+
+.container .banner-text button {
+	padding: 5px 30px;
+	background-color: white;
+	border: 1px solid gray;
+}
+
+.container .banner-text button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.container header img {
+	width: 276px;
+	height: auto;
+}
+
+hr {
+	margin: 30px 0px;
+	height: 3px;
+	background: black;
+}
+
+/* Top Content: features, about */
+.container .top-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .top-content .features {
+	padding-right: 40px;
+}
+
+.container .middle-img {
+	width: 700px;
+	height: auto;
+	margin: 30px 0;
+}
+
+/* Bottom content: services, product, vision */
+.container .bottom-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .bottom-content .services,
+.container .bottom-content .product {
+	padding-right: 20px;
+}
+
+footer {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+footer p {
+	text-align: center;
+}
+
+/* Services Page */
+.container-services {
+	padding-top: 0;
+}
+
+/* Header: Services */
+.container-services header .services-header-img {
+	width: 700px;
+	height: auto;
+}
+
+.container-services header .services {
+	margin-top: 30px;
+}
+
+.container-services header .services h2 {
+	font-size: 30px;
+}
+
+/* Main Content */
+.container-services .main-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+.container-services .main-content div {
+	border: 1px solid #000;
+	background-color: #f4f3f4;
+	width: 336px;
+	padding: 20px;
+}
+
+.container-services .main-content .digital-marketing,
+.container-services .main-content .web-development {
+	margin: 30px 0;
+}
+
+.container-services button {
+	margin-top: 20px;
+	padding: 8px 30px;
+	background-color: #fff;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.container-services button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+/* Services Info */
+.container-services .services-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container-services .services-info-img {
+	width: 335px;
+  height: auto;
+}
+
+.container-services .services-info div {
+	display: flex;
+	flex-direction: column;
+	padding-right: 40px;
+}
+
+.container-services .services-info ul {
+	padding-top: 10px;
+  padding-left: 20px;
+}
+
+.container-services .services-info li {
+	list-style-type: square;
+	padding-top: 10px;
+}
