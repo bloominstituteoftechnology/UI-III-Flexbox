@@ -64,31 +64,25 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-/**************** INDEX PAGE CSS *********************/
-p, a, button{
-	font-family: 'Raleway', sans-serif;
-}
-
+/*** UNIVERSAL CSS ****/
 
 /*** NAV BAR ***/
 .navigation {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	margin: 0px 0px 50px 0px;
+	margin-left: 0px;
 	padding: 25px;
 	background-color: #eee;
-	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px .2px 10px #aaa;
 	z-index: 9999;
 }
 
 .navigation a{
-	position: relative;
-	top: 0px;
-	left: 290px;
-	display: inline-block;
-	margin: 10px 30px;
+	margin: 0 30px;
 	text-decoration: none;
 	color: #999;
 }
@@ -98,10 +92,12 @@ p, a, button{
 }
 
 .navigation .logo{
-	position: absolute;
-	top: 25px;
-	right: 340px;
-	display: inline-block;
+	margin-left: 110px;	
+}
+
+/**************** INDEX PAGE CSS *********************/
+p, a, button{
+	font-family: 'Raleway', sans-serif;
 }
 
 /*** HEADER CSS ***/
