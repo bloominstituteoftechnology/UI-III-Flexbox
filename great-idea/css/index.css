@@ -72,13 +72,11 @@ h1 {
 	width: 900px;
 	height: 100px;
 	margin: 0 auto;
-	padding: 10px;
-	align-items: flex-start;
-	justify-content: space-between;
+	align-items: center;
+	justify-content: space-evenly;
 }
 .container-top .top-nav {
-	margin: 10px;
-	width: 600px;
+	width: 800px;
 	display: flex;
 	justify-content: space-evenly;
 }
@@ -113,7 +111,7 @@ h1 {
 }
 
 
-button {
+.top-left button {
 	background: white;
 	border: solid black;
 	padding: 10px 40px;
@@ -201,31 +199,35 @@ button {
 	display: block;
 	margin: 0 auto;
 	padding: 20px 0px;
-	border-bottom: solid black;
 	width: 900px;
 }
 
 .service-description-boxes {
 	display: flex;
 	width: 900px;
-	height: 1330px;
+	height: 1300px;
 	flex-wrap: wrap;
 	margin: 0 auto;
 	justify-content: space-between;
+	border-top: 2px solid black;
+	margin-top: 20px;
 }
 
 .service-box {
 	margin-top: 25px;
 	border: 1px solid black;
-	background-color: lightgray;
+	background-color: #f2f3f4;
 	width: 425px;
 	height: 210px;
 	padding: 20px;
 }
- .learn-more {
+ .service-box .learn-more {
 	 margin-top: 10px;
 	 background: white;
+	 border: solid black;
 	 border-radius: 5px;
+	 border-style: solid;
+	 padding: 5px 10px;
  }
 
 .about-services {
@@ -233,6 +235,8 @@ button {
 	width: 900px;
 	margin: 0 auto;
 	justify-content: space-between;
+	border-top: 2px solid black;
+	padding-top: 40px;
 
 }
 .service-facts {
