@@ -102,29 +102,37 @@ p, a, button{
 
 /*** HEADER CSS ***/
 .header{
+
 	margin: 150px auto 100px auto;
 	width: 1000px; 
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
 }
 
 .header .cta{ 
 	width: 400px;
 	text-align: center;
-	vertical-align: top;
-	display:inline-block;
+	display: flex;
+	justify-content: center;
+	flex-flow: column nowrap;
+	align-content: center;
+	align-items: center;
 }
 
 .header .cta h1{
 	width: 350px;
-	margin: 70px 0 0 60px;
 	font-size: 90px;
+	align-items: center;
 }
 
 .header button{
 	width: 250px;
-	margin: 30px 100px;
 	padding: 10px;
 	font-size: 20px;
 	border: 2px solid black;
+	align-items: center;
 }
 
 .header button:hover{
@@ -134,9 +142,9 @@ p, a, button{
 }
 
 .header img{
+	margin-left: 50px;
 	width: 500px;
-	margin-left: 94px;
-	display: inline-block;
+	align-self: center;
 }
 
 
