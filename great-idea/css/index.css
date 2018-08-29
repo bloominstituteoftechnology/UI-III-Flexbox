@@ -2,20 +2,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +90,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -49,18 +135,209 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	margin: 0 auto;
+	width: 875px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 25px 0 35px 0;
+}
+
+h1 {
+	font-size: 75px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	margin-bottom: 120px;
+}
+
+address {
+	margin: 37px 0;
+}
+
+.main-nav {
+	color: #BCBCBC;
+	font-size: 14px;
+	margin-right: 63px;
+}
+
+.splash {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 70px;
+	margin-bottom: 78px;
+}
+
+.splash-right {
+	margin-left: 75px;
+}
+
+.splash-title {
+	display: block;
+	text-align: center;
+}
+
+.get-started-button {
+	border: 1px solid black;
+	font-size: 18px;
+	height: 35px;
+	line-height: 35px;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	width: 175px;
+}
+
+.get-started-button a {
+	color: black;
+}
+
+.content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 46px 0;
+}
+
+.content-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.blurb-top {
+	width: 430px;
+}
+
+.middle-img {
+	margin: 37px 0;
+}
+
+.content-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.blurb-bottom {
+	width: 289px;
+}
+
+.services-h2 a {
+	color: black;
+}
+
+.contact {
+	margin-bottom: 15px;
+}
+
+.contact-address {
+	display: block;
+}
+
+.copyright {
+	font-size: 14px;
+	text-align: center;
+}
+
+.services-p {
+	line-height: 1.3;
+}
+
+.services-about {
+	margin: 35px 0;
+}
+
+.services-content-container {
+	display: flex;
+	align-content: space-between;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	height: 912px;
+	padding: 42px 0;
+}
+
+.services-card {
+	background: #F5F5F5;
+	border: 1px solid black;
+	padding: 20px;
+	width: 420px;
+}
+
+.learn-more-button {
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 12px;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 20px;
+	text-align: center;
+	vertical-align: middle;
+	width: 140px;
+}
+
+.learn-more-button a {
+	color: black;
+}
+
+.services-facts-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 42px 0 95px 0;
+}
+
+.services-facts {
+	width: 400px;
+}
+
+.services-facts ul {
+	list-style-type: square;
+	margin: 25px 0;
+}
+
+.services-facts li {
+	margin: 15px;
+}
+
+.services-footer {
+	margin-bottom: 20px;
+}
+
+.services-copyright {
+	font-size: 16px;
+	text-align: center;
+}
+
