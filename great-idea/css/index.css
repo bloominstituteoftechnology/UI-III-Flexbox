@@ -64,3 +64,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{
+	width:1000px;
+	margin: 0 auto;
+}
+.top {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 800px;
+	margin-top:10px;
+}
+
+.main-nav a {
+	color:gray;
+	text-decoration: none;
+}
+
+
+
+.demand {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.start {
+	border: 2px solid black;
+	display: flex;
+	align-self: flex-start;
+	margin-right: 550px;
+	padding: 10px;
+}
+
+.demand1 {
+	display: flex;
+	width: 1000px;
+	justify-content: space-around;
+
+}
+.demand1 h1 {
+	display: flex;
+	text-align: center;
+	font-size: 60px;
+	align-items: center;
+}
+.demand1 img {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.first-section {
+	display: flex;
+	margin: 10px;
+}
+
+.features {
+	margin: 20px;
+}
+
+.middle-img {
+	width: 1000px;
+	height: auto;
+}
+
+.second {
+	display: flex;
+}
+.services {
+	margin: 10px;
+}
+.product {
+	margin: 10px;
+}
+.vision {
+	margin: 10px;
+}
+.about {
+	margin: 10px;
+}
+
+.contact {
+	margin: 10px;	
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.services-header-img {
+	margin:10px;
+	height: auto;
+	width: 980px;
+
+}
+
+.services-head {
+	border-bottom: 1px solid black;
+	margin: 10px;
+	padding-bottom: 20px;
+}
+.services-head h2 {
+	font-size: 25px;
+}
+
+.block {
+	border-bottom: 1px solid black;
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.boxes {
+	border: 1px solid black;
+	width: 455px;
+	padding: 15px;
+	margin: 15px;
+	background-color: lightgray;
+}
+
+
+.learn-more {
+	border: 1px solid black;
+	display: flex;
+	width: 150px;
+	justify-content: center;
+	border-radius: 15%;
+	margin-top: 10px;
+	background-color: white;
+	padding: 10px;
+}
+
+.facts {
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.fact {
+	margin: 15px;
+	width: 455px;
+}
+
+.services-info-img {
+	margin-right: 15px;
+	width: 455px;
+	height: auto;
+}
