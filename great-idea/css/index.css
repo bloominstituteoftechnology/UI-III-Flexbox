@@ -64,3 +64,211 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/*== Theme ===================================================================*/
+
+/*-- Global -----------------------------------*/
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*-- Header -----------------------------------*/
+header.main-navigation a {
+	font-size: smaller;
+	color: #bbb;
+}
+
+/*-- Splash -----------------------------------*/
+.splash .call-to-action h1 {
+	font-size: 80px;
+}
+.button {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px 40px;
+	background: white;
+}
+
+/*-- Main Content -----------------------------*/
+.content {
+	margin-top: 50px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 0px;
+}
+.container header.main-navigation, .container .splash, .container .blurb-row, .container.page-index footer {
+	padding: 28px 0px;
+}
+
+
+/*== Layout ==================================================================*/
+
+/*-- Global -----------------------------------*/
+
+/*-- Container --------------------------------*/
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.container > header, .container > main, .container.page-index > footer {
+	width: 875px;
+}
+
+/*-- Header -----------------------------------*/
+header.main-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	order: 1;
+}
+header.main-navigation nav {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*-- Splash -----------------------------------*/
+.splash {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.splash .call-to-action{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.splash .call-to-action h1 {
+	text-align: center;
+}
+.splash .call-to-action h1 span {
+	display: block;
+}
+
+/*-- Main Content -----------------------------*/
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.blurb-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*-- Footer -----------------------------------*/
+footer address{
+	display: block;
+	margin-bottom: 1em;
+}
+footer .copyright{
+	display: block;
+	text-align: center;
+}
+
+
+/*== Services Page ===========================================================*/
+
+/*-- Global -----------------------------------*/
+.page-services.container p, .page-services ul {
+	line-height: 1.25;
+	list-style: square inside;
+}
+.page-services.container main {
+	display: flex;
+	flex-direction: column;
+}
+.page-services.container main > * {
+	margin: 20px 0px;
+}
+.page-services.container main *:first-child{
+	margin-top: 0px;
+}
+
+/*-- Header -----------------------------------*/
+.page-services h1 {
+	font-size: x-large;
+	margin-top: 1em;
+}
+
+/*-- Container --------------------------------*/
+.page-services.container .blurb-grid {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 0px 2px;
+	padding: 20px 0px;
+}
+.page-services.container .blurb-grid .blurb {
+	width: 418px;
+	border: black solid 1px;
+	background: #f4f3f4;
+	padding: 20px;
+	margin: 20px 0px;
+}
+.page-services .blurb .button {
+	border-radius: 4px;
+	font-size: smaller;
+	margin-top: 2em;
+}
+
+/*-- Footer -----------------------------------*/
+.page-services.container main footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.page-services.container main footer > * {
+	width: 418px;
+}
+.page-services.container main footer ul {
+	margin-top: 20px;
+}
+.page-services.container > footer {
+	margin: 75px 0px 20px;
+}
+
+
+/*== Media Queries (Responsive Design, Stretch Goal 3) ======================*/
+
+/*-- Smartphone -------------------------------*/
+@media only screen and (max-width: 875px) {
+	.container > header, .container > main, .container.page-index > footer {
+		width: 90%;
+		min-width: 418px;
+	}
+	.services-header-img{
+		width: 100%;
+	}
+	header.main-navigation nav {
+		flex-flow: column wrap;
+	}
+	.blurb-row {
+		display: unset;
+	}
+	.page-services.container .blurb-grid {
+		flex-direction: column;
+		align-items: center;
+	}
+	.page-services.container main footer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.page-services.container main footer img {
+		margin-top: 2em;
+	}
+}
+
+/*-- Tablet & Desktop -------------------------*/
+@media only screen and (min-width: 875px){
+	/* Don't do anything. Display as Default. */
+}    
