@@ -218,6 +218,10 @@ footer .copyright{
 .page-services.container h1 {
 	margin-top: 1em;
 }
+.page-services.container p, .page-services ul {
+	line-height: 1.25;
+	color: blue;
+}
 
 /*== Media Queries (Responsive Design, Stretch Goal 3) ======================*/
 /* SMARTPHONES PORTRAIT */
@@ -228,7 +232,6 @@ footer .copyright{
 
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (min-width: 480px) {
-
 
 }
 
