@@ -64,14 +64,24 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* @media screen and (max-width: 700px) {
+    body {
+        background-color: lightgreen;
+    }
+} */
+
+.main-container {
+	display: block;
+	width: 900px;
+	margin: 0 auto;
+}
+
 h1 {
 	font-size: 40pt;
 }
 .container-top {
 	display: flex;
-	width: 900px;
 	height: 100px;
-	margin: 0 auto;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -98,14 +108,13 @@ h1 {
 .container-two {
 	display: flex;
 	height: 400px;
-	width: 900px;
-	margin: 0 auto;
+	justify-content: space-around;
 
 }
 .container-two .top-left {
 	flex-basis: 1;
 	text-align: center;
-	width: 450px;
+	/* width: 450px; */
 	height: 380px;
 	padding: 50px;
 }
@@ -120,14 +129,14 @@ h1 {
 
 .container-two .top-right {
 	flex-basis: 1;
-	width: 450px;
+	/* width: 450px; */
 }
 
 .container-row-one {
 	display: flex;
 	height: 200px;
-	width: 900px;
-	margin: 0 auto;
+	/* width: 900px; */
+	/* margin: 0 auto; */
 
 }
 .container-row-one .row-one-left {
@@ -146,15 +155,14 @@ h1 {
 .container-middle-img {
 	height: 200px;
 	width: 876px;
-	margin: 0 auto;
-	position: relative;
+	/* margin: 0 auto; */
 }
 
 .container-row-two {
 	display: flex;
 	height: 200px;
-	width: 900px;
-	margin: 0 auto;
+	/* width: 900px;
+	margin: 0 auto; */
 	justify-conent: space-around;
 
 }
@@ -176,8 +184,8 @@ h1 {
 
 .contact {
 	height: 160px;
-	width: 900px;
-	margin: 0 auto;
+	/* width: 900px;
+	margin: 0 auto; */
 	padding: 10px;
 	line-height: 1.6;
 }
@@ -186,29 +194,29 @@ h1 {
 }
 .copyright {
 	height: 50px;
-	width: 900px;
-	margin: 0 auto;
+	/* width: 900px;
+	margin: 0 auto; */
 	padding-top: 10px;
 	text-align: center;
 }
 .services-header-img {
 	display: block;
 	width: 900px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 .services {
 	display: block;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	padding: 20px 0px;
-	width: 900px;
+	/* width: 900px; */
 }
 
 .service-description-boxes {
 	display: flex;
-	width: 900px;
+	/* width: 900px; */
 	height: 1300px;
 	flex-wrap: wrap;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	justify-content: space-between;
 	border-top: 2px solid black;
 	margin-top: 20px;
@@ -233,22 +241,25 @@ h1 {
 
 .about-services {
 	display: flex;
-	width: 900px;
-	margin: 0 auto;
+	/* width: 900px;
+	margin: 0 auto; */
 	justify-content: space-between;
 	border-top: 2px solid black;
-	padding-top: 40px;
 	margin-bottom: 30px;
+	margin-top: 40px;
 
 }
 .service-facts {
 	flex-basis: 1;
-	width: 425px;
+	width: 430px;
 	height: 210px;
+	margin-top: 40px;
+	margin-right: 50px;
 }
 
 .services-info-img {
 	flex-basis: 1;
+	margin-top: 40px;
 }
 .service-facts-list li{
 margin-top: 15px;
@@ -261,7 +272,8 @@ margin-top: 15px;
 .services-copyright {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	height: 200px;
-	width: 900px;
-	margin: 0 auto;
+  width: 900px;
+	/* 	margin: 0 auto; */
 }
