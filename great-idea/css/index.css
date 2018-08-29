@@ -86,7 +86,10 @@ nav {
 	flex-direction: row;
 	border: 1px solid blue;
 	order: 0;
-	width: 350px;
+	width: 500px;
+	color: gray;
+	padding: 5px;
+	text-decoration: none;
 }
 
 .header-image {
@@ -116,7 +119,12 @@ section.mainbody div.subcatagories {
 
 
 .learn-more-button {
-	display: flex;
+	display: inline;
 	padding: 5px 20px;
-	border: 2px solid black;
+	border: 1px solid black;
+}
+
+
+footer {
+	text-align: center;
 }
