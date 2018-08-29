@@ -398,3 +398,32 @@ footer{
 	width: 150px;
 	align-self: center;
 }
+
+
+.feature-cta{
+	width: 1000px;
+	margin: 40px auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	
+}
+
+.feature-cta-img{
+	width: 300px;
+	align-self: flex-start;
+	order: 0;
+}
+
+.feature-cta h2{
+	height: 60px;
+	padding: 0;
+	font-size: 60px;
+	align-self: center;
+}
+
+.feature-cta p{
+ margin-top: 50px;
+ font-size: 20px;
+ line-height: 1.5; 
+}
