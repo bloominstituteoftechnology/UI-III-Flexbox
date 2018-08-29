@@ -120,6 +120,12 @@ button {
 	margin: 0 auto;
 }
 
+button:hover {
+	color: #333;
+	font-weight: bold;
+}
+
+
 /* MAIN NAV */
 
 .main-nav {
@@ -150,6 +156,11 @@ button {
 	/* border: 1px solid blue; */
 	color: #777;
 	text-decoration: none;
+}
+
+.main-nav a:hover {
+	color: #333;
+	font-weight: bold;
 }
 
 
@@ -183,7 +194,7 @@ button {
 }
 
 footer {
-	margin-bottom: 100px;
+	margin: 100px 0;
 	text-align: center;
 	font-size: .8em;
 >>>>>>> 2ddd89fa1744b82f6c0d7626ace0cc60c8c8c683
@@ -255,23 +266,68 @@ section.services-facts .footer-text li {
 }
 
 
+/* CONTACTS ONLY */
+
+.contact-section {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-top: 80px;
+	padding-bottom: 80px;
+	border-bottom: 2px solid #555;
+}
+
+.contact-section p {
+	line-height: 1.4;
+	margin: 15px 0;
+}
+
+.contact-title h2 {
+	text-align: center;
+	font-size: 35px;
+	margin-top: 60px;
+}
+
+.contact-box {
+	background: #eee;
+	width: 30%;
+	padding: 20px;
+}
+
+.contact-box h3 {
+	margin-top: 30px;
+}
+
+.contact-box img {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+
 /* Media Query - Mobile Device 480px */
 @media (max-width: 480px) {
 	.container {
 		width: 100%;
 	}
 
-	header.services-header img {
-		
+	.main-nav a .logo {
+		display: flex;
 		order: -1;
 	}
 
 	.main-nav {
-		width: 480px;
-		height: 100px;
+		width: 100%;
+		height: 120px;
 		display: flex;
-		flex-flow: row wrap;
-		justify-content: flex-start;
+		flex-flow: column wrap;
+		justify-content: center;
+		padding-top: 20px;
+	}
+
+	.main-nav a {
+		margin: 8px 0;
 	}
 
 	section.services-content,
