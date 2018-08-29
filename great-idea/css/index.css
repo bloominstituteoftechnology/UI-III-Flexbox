@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -63,4 +64,294 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Your code starts here! */
+
+
+
+/* GLOBAL */
+
+.container {
+	margin: 0 auto;
+	width: 880px;
+	/* border: 1px solid green; */
+}
+
+header {
+	border-bottom: 2px solid #555;
+	display: flex;
+	width: 100%;
+	padding-top: 60px;
+	/* height: 400px; */
+	/* box-sizing: border-box; */
+	padding-bottom: 100px;
+	flex-flow: row wrap;	
+	justify-content: space-evenly;
+}
+
+.header-text {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	/* display: inline-block;
+	vertical-align: top;
+	width: 490px; */
+	padding-top: 50px;
+}
+
+button {
+	border: 2px solid #999;
+	background: white;
+	padding: 3px 40px;
+	/* position: relative; */
+	/* bottom: 70px;
+	left: 165px; */
+	width: 180px;
+	font-family: 'Titillium Web';
+	font-size: 15px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+button:hover {
+	color: #333;
+	font-weight: bold;
+}
+
+
+/* MAIN NAV */
+
+.main-nav {
+	/* border: 1px solid red; */
+	width: 880px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.main-nav .container {
+	border: 1px solid red;
+	background: white;
+	z-index: 1;
+	position: fixed;
+	display: flex;
+	flex-wrap: row wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 880px;
+	padding: 25px 0;
+}
+
+.main-nav a {
+	/* border: 1px solid blue; */
+	color: #777;
+	text-decoration: none;
+}
+
+.main-nav a:hover {
+	color: #333;
+	font-weight: bold;
+}
+
+
+/* CONTENT */
+.top-content, .bottom-content {
+	/* border: 1px solid orange; */
+	/* margin-top: 45px; */
+	display: flex;
+	justify-content: space-between;
+	/* justify-content: space-between;
+	flex-flow: row wrap; */
+}
+
+#features, #about, #services, #product, #vision {
+	/* border: 1px solid blue;
+	display: inline-block;
+	vertical-align: top;
+	width: 438px; */
+	margin: 45px 10px;
+}
+
+
+/* FOOTER */
+.contact {
+	border-top: 2px solid #555;
+	padding: 45px 0;
+}
+
+.contact p {
+	margin-top: 24px;
+}
+
+footer {
+	margin: 100px 0;
+	text-align: center;
+	font-size: .8em;
+>>>>>>> 2ddd89fa1744b82f6c0d7626ace0cc60c8c8c683
+}
+
+/* SERVICES ONLY */
+
+header.services-header, 
+section.services-content,
+section.services-facts {
+	line-height: 1.4;
+}
+
+header.services-header {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	/* border-bottom: 2px solid #555; */
+}
+
+.services-header h2 {
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+section.services-content {
+	display: flex;	
+	flex-flow: row wrap;
+	justify-content: space-around;
+	border-bottom: 2px solid #555;
+	border-top: 2px solid #555;
+	padding: 30px 0;
+}
+
+section.services-content article {
+	width: 47%;
+	margin: 15px 0;
+	padding: 20px;
+	background: #ddd;
+	border: 1px solid #555;
+}
+
+section.services-content button {
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+section.services-facts {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 30px 0 110px;
+}
+
+section.services-facts .footer-text {
+	width: 47%;
+}
+
+section.services-facts .footer-text ul {
+	margin-top: 20px;
+}
+
+section.services-facts .footer-text li {
+	list-style-type: disc; 
+	line-height: 1.7;
+	list-style-position: inside;
+}
+
+
+/* CONTACTS ONLY */
+
+.contact-section {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-top: 80px;
+	padding-bottom: 80px;
+	border-bottom: 2px solid #555;
+}
+
+.contact-section p {
+	line-height: 1.4;
+	margin: 15px 0;
+}
+
+.contact-title h2 {
+	text-align: center;
+	font-size: 35px;
+	margin-top: 60px;
+}
+
+.contact-box {
+	background: #eee;
+	width: 30%;
+	padding: 20px;
+}
+
+.contact-box h3 {
+	margin-top: 30px;
+}
+
+.contact-box img {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+
+/* Media Query - Mobile Device 480px */
+@media (max-width: 480px) {
+	.container {
+		width: 100%;
+	}
+
+	.main-nav a .logo {
+		display: flex;
+		order: -1;
+	}
+
+	.main-nav {
+		width: 100%;
+		height: 120px;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		padding-top: 20px;
+	}
+
+	.main-nav a {
+		margin: 8px 0;
+	}
+
+	section.services-content,
+	section.services-facts,
+	header.services-header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	section.services-content article,
+	section.services-facts .footer-text {
+		width: 100%;
+		padding: 30px 15px;
+	}
+
+	footer {
+		margin-top: 60px;
+	}
+}
