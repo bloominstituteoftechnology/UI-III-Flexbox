@@ -275,3 +275,19 @@ h1, h2, h3, h4, h5 {
 	footer {
 		margin-top: 80px;
 	}
+
+	/* Media Query */
+
+	@media only screen and (max-width: 768px) {
+		.services-main-content {flex-direction: column;}
+		.container {width: 100%; margin: 0 auto;}
+		.services-facts {flex-direction: column;}
+		.services-info-img {width: 100%; margin-top: 45px;}
+		.main-content-left: {margin:0;}
+		.services-page header img {width: 400px;}
+		p, h3, h2 {text-align: center;}
+		.learn-more-btn {margin: 0 auto; margin-top: 20px;}
+		footer {margin: 30px}
+		header img {visibility: hidden;}
+		.services-fact-container ul {margin-left: 43%;}
+	}
