@@ -188,4 +188,86 @@ h1, h2, h3, h4, h5 {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
-  }
+	}
+	
+	/*
+	===========================================
+	SERVICES PAGE ONLY
+	===========================================
+	*/
+
+	/* Border test */
+	.services-intro .services-info-blocks p {
+		line-height: 23px;
+	}
+	/* Services intro section */
+	.services-intro {
+		margin-top: 22px;
+		border-bottom: 1px solid black;
+	}
+
+	.services-intro h2 {
+		margin-top: 30px;
+		font-size: 25px;
+	}
+
+	.services-intro p {
+		padding-bottom: 30px;
+	}
+
+	/* Services Main content section */
+	.services-main-content {
+		/* margin-top: 30px; */
+		display: flex;
+		flex-direction: row;
+		border-bottom: 2px solid #000;
+		padding-bottom: 30px;
+	}
+
+	.services-info-blocks {
+		border: 1px solid black;
+		/* width: 40%; */
+		margin-top: 30px;
+		padding: 15px;
+		background-color: #eff1f4;
+	}
+
+	.main-content-left {
+		margin-right: 30px;
+	}
+
+	.services-main-content .main-content-left {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.learn-more-btn {
+		border: 1px solid black;
+		width: 150px;
+		background-color: #fff;
+		text-align: center;
+		padding: 10px 30px;
+		border-radius: 5px;
+		margin-top: 20px;
+	}
+	/* Services facts sections */
+	.services-facts {
+		margin-top: 30px;
+		display: flex;
+	}
+	.services-facts ul {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.services-facts ul li{
+		list-style: square;	
+		margin-top: 10px;
+	}
+	.services-facts p {
+		line-height: 18px;
+	}
+
+	/* footer */
+	footer {
+		margin-top: 80px;
+	}
