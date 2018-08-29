@@ -71,16 +71,18 @@ h1, h2, h3, h4, h5 {
   }
   
   /* header */
-  
+  .container header {
+		display: flex;
+	}
   header nav {
-	display: inline-block;
+	display: flex;
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
   }
   
   header nav a {
-	display: inline-block;
+	/* display: inline-block; */
 	margin-right: 65px;
 	font-size: 14px;
 	color: gray;
