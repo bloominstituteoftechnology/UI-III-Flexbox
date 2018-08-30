@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 
 .container-home {
 	width: 700px;
-	margin: 0px 50px;
+	margin: auto;
 }
 
 .container-home .navigation-bar {
@@ -83,6 +83,11 @@ h1, h2, h3, h4, h5 {
 	color: lightgrey;
 	text-decoration: none;
 	padding: 0px 12px;
+}
+
+.container-home .navigation-bar a:hover {
+	color: blue;
+	font-size: 1.2em;
 }
 
 .container-home .navigation-bar img { /* Logo */
@@ -113,6 +118,7 @@ h1, h2, h3, h4, h5 {
 	margin: 0px 150px;
 }
 
+
 .row {
 	width: 700px;
 	display: flex;
@@ -142,12 +148,12 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 } 
 
-.services-home {
+.container-services {
 	width: 700px;
-	margin: 0px 50px;
+	margin: auto;
 }
 
-.services-home .navigation-bar {
+.container-services .navigation-bar {
 	width: 700px;
 	display: flex;
 	justify-content: space-between;
@@ -155,18 +161,23 @@ h1, h2, h3, h4, h5 {
 	padding: 20px 0px;
 }
 
-.services-home .navigation-bar a {
+.container-services .navigation-bar a {
 	color: lightgrey;
 	text-decoration: none;
 	padding: 0px 17px;
 }
 
-.services-home .navigation-bar img { /* Logo */
+.container-services .navigation-bar a:hover {
+	color: blue;
+	font-size: 1.2em;
+}
+
+.container-services .navigation-bar img { /* Logo */
 	width: 150px;
 	height: auto;
 }
 
-.services-home header {
+.container-servicesheader {
 	width: 700px;
 	padding: 20px 0px;
 	border-bottom: 1px solid black;
@@ -175,27 +186,28 @@ h1, h2, h3, h4, h5 {
 
 .services-header-img {
 	width: 700px;
+	margin-bottom: 20px;
 }
 
-.services-home .row .column-l {
+.container-services .row .column-l {
 	border: 1px solid black;
 	background: whitesmoke;
 	padding: 15px;
 	margin-right: 10px;
 }
 
-.services-home .row .column-r {
+.container-services .row .column-r {
 	border: 1px solid black;
 	background: whitesmoke;
 	padding: 15px;
 	margin-left: 10px;
 }
 
-.services-home .row .column h2 {
+.container-services .row .column h2 {
 	font-size: 13px;
 }
 
-.services-home .row .column p {
+.container-services .row .column p {
 	font-size: 13px;
 }
 
@@ -213,6 +225,10 @@ button {
 	border-radius: 5%;
 	font-size: 8px;
 	border: 1px solid black;
+}
+
+button:hover {
+	border: 1px solid blue;
 }
 
 .services-info-img {
