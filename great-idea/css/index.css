@@ -156,13 +156,19 @@ header .logo {
 }
 
 .main-content .top-content {
+  display: flex;
+  align-items: center;
   padding: 0 10px;
+  border: 5px solid blue;
+  
 }
 
 .main-content .top-content .text-content {
   width: 410px;
   display: flex;
+  flex-direction: column;
   margin-right: 34px;
+  border: 5px solid green;
 }
 
 .main-content .top-content .text-content:last-child {
@@ -174,14 +180,19 @@ header .logo {
 }
 
 .main-content .bottom-content {
+  display: flex;
+  align-content: center;
   margin-top: 37px;
   padding: 0 10px;
+  border: 5px solid red;
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
   display: flex;
+  flex-direction: column;
   margin-right: 12px;
+  border: 5px solid blue;
 }
 
 .main-content .bottom-content .text-content:last-child {
