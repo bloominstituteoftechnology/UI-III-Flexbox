@@ -99,6 +99,8 @@ box-shadow: 0px 0px 5px 5px blue;
 
 p {
 	margin-bottom: 20px;
+	padding: 5px;
+	
 }
 
 .master-nav {
@@ -270,7 +272,7 @@ padding: 40px;
 
 footer {
 	display: flex;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	padding: 40px;
 }
 
@@ -388,7 +390,7 @@ box-shadow: 0px 0px 5px 5px blue;
 .some-facts {
 	display: flex;
 	padding: 20px;
-	margin: 20px;
+	/* margin: 20px; */
 	order: 0;
 	flex-direction: column;
 	justify-content: center;
@@ -468,6 +470,7 @@ p {
 ul {
 	display: flex;
 	flex-direction: column;
+	margin-left: 24px;
 }
 
 .stubborn-services {
@@ -484,10 +487,18 @@ ul {
 
 li {
 	padding: 5px;
+	list-style-type: disc;
 }
 
 .line {
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-top: 40px;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
 }
