@@ -67,13 +67,20 @@ h1, h2, h3, h4, h5 {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
+  border: 1px solid red;
 }
 
 /* header */
 
 header nav {
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
+  border: 5px solid red;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
 }
 
 header nav a {
@@ -99,18 +106,27 @@ header nav a:last-child {
 
 header .logo {
   display: flex;
-  align-items: flex-end;
+  justify-items: flex-end;
 }
 
 /* cta */
 
+.cta {
+  display: flex;
+  border: 1px solid orange;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
 .cta .cta-text {
   display: flex;
-  vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
-  padding: 0px 75px;
+  flex-direction: column;
+  border: 1px solid blue;
+  margin-bottom: 110px;
 }
 
 .cta .cta-text button {
@@ -129,8 +145,8 @@ header .logo {
 }
 
 .cta img {
-  display: flex;
-  margin-top: 69px;
+  
+
 }
 
 .main-content {
