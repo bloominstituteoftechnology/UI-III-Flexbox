@@ -64,13 +64,31 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.navigation nav a {
+* {
+	
+}
+
+a {
+	/* border: 1px solid aqua; */
 	display: flex;
-	color: white;
-	border: 1px solid red;
-	margin: 20px;
-	padding: 10px;
-	background: blue;
+	flex-direction: row;
+	justify-content: space-evenly;
+	text-decoration: none;
+	font: inherit;
+}
+
+.navigation .main-nav {
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	color: rgb(36, 38, 161);
+	/* border: 1px solid red; */
+	font-size: 20px;
+	background: rgb(255, 255, 255);
+	margin: 5px 10px;
+	/* border: 1px solid green; */
 }
 
 .navigation nav a:hover {
@@ -83,25 +101,35 @@ p {
 	margin-bottom: 20px;
 }
 
+.master-nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+
 .navigation {
 	display: flex;
-
+	/* flex-wrap: wrap; */
+	flex-direction: row;
+	justify-content: space-around;
 	position: fixed;
-	width: 100%;
-	background: rgb(16, 153, 233);
-	padding: 20px 20px;
-	border: 1px solid blue;
-	margin: -10px;
+	width: 50%;
+	background: rgb(255, 255, 255);
+	padding: 25px 0px;
+	/* border: 2px solid blue; */
+	margin: 0px;
 	padding: -5px;
 
 }
 
 .logo {
 	display: flex;
-	border: 1px solid green;
-	position: absolute;
-	left: 75%;
-	bottom: 38.8px;
+	flex-direction: row;
+	/* border: 1px solid green; */
+	/* position: absolute; */
+	/* left: 75%;
+	bottom: 38.8px; */
 	color: white;
 	box-shadow: 0px 0px 5px 5px blue;
 	/* position: relative;
@@ -254,30 +282,27 @@ box-shadow: 0px 0px 5px 5px blue;
 
 .master-of-service {
 	display: flex;
-	width: 100%;
-	flex-direction: column;
-	
+	justify-content: center;
+	padding-top: 5%;
+	padding-bottom: 2%;
 }
 
 .services-box {
 	display: flex;
-	padding: 100px;
-	/* margin-left: 550px; */
+	width: 50%;
 	flex-direction: column;
-	width: 100%;
-	justify-content: center;
 }
 
-.what-does-this-do {
+/* .what-does-this-do {
+	width: 100%;
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
-}
+} */
 
 .services-box .services-header-img {
 	display: flex;
 	padding: 20px;
-	margin: 20px;
+	margin: 0 0px;
 	flex-direction: column;
 	justify-content: center;
 }
@@ -290,7 +315,9 @@ box-shadow: 0px 0px 5px 5px blue;
 	flex-direction: column;
 	justify-content: center;
 	background: lightgray;
-	border: 1px solid black;
+	border: 2px solid black;
+	flex-wrap: wrap;
+
 }
 
 .uxui {
@@ -301,7 +328,9 @@ box-shadow: 0px 0px 5px 5px blue;
 	flex-direction: column;
 	justify-content: center;
 	background: lightgray;
-	border: 1px solid black;
+	border: 2px solid black;
+	flex-wrap: wrap;
+
 }
 
 .marketing {
@@ -312,7 +341,9 @@ box-shadow: 0px 0px 5px 5px blue;
 	flex-direction: column;
 	justify-content: center;
 	background: lightgray;
-	border: 1px solid black;
+	border: 2px solid black;
+	flex-wrap: wrap;
+
 }
 
 .web-dev {
@@ -323,7 +354,9 @@ box-shadow: 0px 0px 5px 5px blue;
 	flex-direction: column;
 	justify-content: center;
 	background: lightgray;
-	border: 1px solid black;
+	border: 2px solid black;
+	flex-wrap: wrap;
+
 }
 
 .ios-dev {
@@ -334,7 +367,9 @@ box-shadow: 0px 0px 5px 5px blue;
 	flex-direction: column;
 	justify-content: center;
 	background: lightgray;
-	border: 1px solid black;
+	border: 2px solid black;
+	flex-wrap: wrap;
+
 }
 
 .and-dev {
@@ -345,7 +380,9 @@ box-shadow: 0px 0px 5px 5px blue;
 	flex-direction: column;
 	justify-content: center;
 	background: lightgray;
-	border: 1px solid black;
+	border: 2px solid black;
+	flex-wrap: wrap;
+
 }
 
 .some-facts {
@@ -355,6 +392,8 @@ box-shadow: 0px 0px 5px 5px blue;
 	order: 0;
 	flex-direction: column;
 	justify-content: center;
+	/* margin: 0 25%; */
+	width: 25%;
 }
 
 .computer-lady {
@@ -395,16 +434,60 @@ button {
 	display: flex;
 	flex-direction: column;
 	align-self: flex-start;
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px 2px black, 0px 0px 2px 3px blue;
+
 }
 
 hr {
-	margin: 30px;
+	margin: 18px;
+	margin-top: 5px;
 }
 
 .wrapper {
-	display: flex;
+	/* display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 100%;
+	width: 100%; */
 
+}
+
+h2 {
+	font-size: 30px;
+	
+}
+
+p {
+	font-size: 20px;
+	padding: 5px;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.stubborn-services {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 0 20px;
+}
+
+.containment-below {
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	padding: 5px;
+}
+
+.line {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 40px;
 }
