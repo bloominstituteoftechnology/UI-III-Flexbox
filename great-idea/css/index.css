@@ -195,101 +195,109 @@ h1, h2, h3, h4, h5 {
 	}
 	
 	/*
-	===========================================
-	SERVICES PAGE ONLY
-	===========================================
+	=================================================================================
+		SERVICE INTRO SECTION
+	=================================================================================
 	*/
-
-	/* Border test */
-	
-	/* Services intro section */
+	/* border test */
 	.services-intro {
-		margin-top: 22px;
-		border-bottom: 1px solid black;
+		
 	}
-
-	.services-intro h2 {
-		margin-top: 30px;
+	.services-main-content {
+		
+	}
+	/*==================================*/
+	.services-intro {
+		margin-top: 17px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #000;
+	}
+	.services-intro h1 {
 		font-size: 25px;
+		padding-top: 30px;
 	}
 
 	.services-intro p {
-		padding-bottom: 30px;
+		line-height: 20px;
 	}
-
-	.services-intro .services-info-blocks p {
-		line-height: 23px;
-	}
-
-	/* Services Main content section */
+	/*
+	=================================================================================
+		SERVICES MAIN CONTENT SECTION
+	=================================================================================
+	*/
+	
 	.services-main-content {
-		/* margin-top: 30px; */
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		height: 825px;
+		margin-top: 41px;
 		border-bottom: 2px solid #000;
-		padding-bottom: 30px;
 	}
 
 	.services-info-blocks {
-		border: 1px solid black;
-		/* width: 40%; */
-		margin-top: 30px;
-		padding: 15px;
+		width: 420px;
+		border: 1px solid #000;
+		padding: 25px;
 		background-color: #eff1f4;
 	}
 
-	.main-content-left {
-		margin-right: 30px;
-	}
-
-	.services-main-content .main-content-left {
+	/* .main-content-left {
 		display: flex;
 		flex-direction: column;
+		justify-content: space-evenly;
 	}
+	.main-content-right {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	} */
 
 	.learn-more-btn {
-		border: 1px solid black;
-		width: 150px;
-		background-color: #fff;
+		border: 1px solid #000;
+		width: 40%;
 		text-align: center;
-		padding: 10px 30px;
+		padding: 10px 0;
+		margin-top: 5%;
+		background-color: #fff;
 		border-radius: 5px;
-		margin-top: 20px;
 	}
-	/* Services facts sections */
+
+	/*
+	=================================================================================
+	SERVICE FACTS SECTIONS
+	=================================================================================
+	*/
+
 	.services-facts {
-		margin-top: 30px;
 		display: flex;
+		margin-top: 41px;
 	}
-	.services-facts ul {
+
+	.services-fact-container p{
+		line-height: 20px
+	}
+
+	ul li {
+		list-style: square;
+		padding: 7px;
+	}
+	ul {
 		margin-left: 20px;
 		margin-top: 20px;
 	}
-	.services-facts ul li{
-		list-style: square;	
-		margin-top: 10px;
-	}
-	.services-facts p {
-		line-height: 18px;
-	}
 
-	/* footer */
-	footer {
+	/*
+	=================================================================================
+	FOOTER SECTION
+	=================================================================================
+	*/
+
+	.services-footer {
 		margin-top: 80px;
 	}
 
-	/* Media Query */
 
-	@media only screen and (max-width: 768px) {
-		.services-main-content {flex-direction: column;}
-		.container {width: 100%; margin: 0 auto;}
-		.services-facts {flex-direction: column;}
-		.services-info-img {width: 100%; margin-top: 45px;}
-		.main-content-left: {margin:0;}
-		.services-page header img {width: 400px;}
-		p, h3, h2 {text-align: center;}
-		.learn-more-btn {margin: 0 auto; margin-top: 20px;}
-		footer {margin: 30px}
-		header img {visibility: hidden;}
-		.services-fact-container ul {margin-left: 43%;}
-	}
+
