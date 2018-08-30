@@ -70,11 +70,10 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-}
 .top {
 	display: flex;
 	justify-content: space-between;
-	margin: 10px;
+	height: 50px;
 }
 
 .main-nav {
@@ -93,65 +92,58 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-
 }
 .start {
-	border: 2px solid black;
-	display: flex;
+	border: 1px solid black;
 	align-self: flex-start;
-	margin-right: 550px;
 	padding: 10px;
 }
 
 .demand1 {
 	display: flex;
 	width: 1000px;
-	justify-content: space-around;
+	justify-content: space-evenly;
 
 }
 .demand1 h1 {
-	display: flex;
-	text-align: center;
+	align-self: center;
 	font-size: 60px;
-	align-items: center;
+	text-align: center;
 }
 .demand1 img {
-	display: flex;
-	justify-content: flex-end;
+	margin-top:10px
 }
 
 .first-section {
 	display: flex;
-	margin: 10px;
+	justify-content: space-between;
 }
-
-.features {
-	margin: 20px;
+.para {
+	width: 450px;
+}
+.para2 {
+	width: 300px;
 }
 
 .middle-img {
 	width: 1000px;
 	height: auto;
 }
+.middle-image{
+	height: 250px;
+	display: flex;
+	align-items: center;
+}
 
 .second {
 	display: flex;
+	justify-content: space-between;
+	height: 130px;
+	align-items: flex-start;
 }
-.services {
-	margin: 10px;
-}
-.product {
-	margin: 10px;
-}
-.vision {
-	margin: 10px;
-}
-.about {
-	margin: 10px;
-}
-
 .contact {
-	margin: 10px;	
+	height: 150px;
+	align-content: flex-end;
 }
 
 .copyright {
@@ -160,16 +152,16 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 10px;
 }
 
-.services-header-img {
-	margin:10px;
-	height: auto;
-	width: 980px;
 
+/* SERVICES HTML START*/
+
+
+.services-header-img {
+	height: auto;
 }
 
 .services-head {
 	border-bottom: 1px solid black;
-	margin: 10px;
 	padding-bottom: 20px;
 }
 .services-head h2 {
@@ -178,19 +170,24 @@ h1, h2, h3, h4, h5 {
 
 .block {
 	border-bottom: 1px solid black;
-	margin: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-content: space-around;
+	height: 700px;
+}
+
+.block p {
+	margin-bottom: 10px;
 }
 
 .boxes {
 	border: 1px solid black;
 	width: 455px;
 	padding: 15px;
-	margin: 15px;
 	background-color: lightgray;
 	border-radius: 15px;
+	height:50;
 }
 
 
@@ -200,23 +197,21 @@ h1, h2, h3, h4, h5 {
 	width: 150px;
 	justify-content: center;
 	border-radius: 15px;
-	margin-top: 10px;
 	background-color: white;
 	padding: 10px;
 }
 
 .facts {
-	margin: 10px;
 	display: flex;
 	justify-content: space-between;
+	height:400px;
+	align-items: center;
 }
 .fact {
-	margin: 15px;
 	width: 455px;
 }
 
 .services-info-img {
-	margin-right: 15px;
 	width: 455px;
 	height: auto;
 }
