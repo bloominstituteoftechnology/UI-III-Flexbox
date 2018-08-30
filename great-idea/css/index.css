@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-  height: 1536px;
+  /* height: 1536px; */
   width: 874px;
   margin: 0 auto;
 }
@@ -202,11 +202,15 @@ footer {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
-	height: 322px;
+	height: 333px;
 }
 
 .services .page-header h2 {
 	font-size: 26px;
+}
+
+.services .page-header p {
+	line-height: 20px;
 }
 
 .services .upper {
@@ -215,21 +219,62 @@ footer {
 	justify-content: space-between;
 	border-top: 1px solid black;
 	margin-top: 36px;
+	padding-top: 20px;
 }
 
 .services .upper .card {
-  margin: 20px 0;
+  background: whitesmoke;
+  margin: 22px 0;
 	padding: 20px;
   border: 1px solid black;
   width: 420px;
-  background: lightgray;
+}
+
+.services .upper .card h3 {
+	font-size: 16px;
+}
+
+.services .upper .card p {
+	line-height: 20px;
 }
 
 .services .upper .card button {
 	border: 1px solid black;
   border-radius: 5px;
+  background: white;
 	padding: 10px 40px;
   margin-top: 20px;
   cursor: pointer;
-  background: white;
+}
+
+.services .lower {
+	border-top: 2px solid black;
+  padding-top: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+	margin: 20px 0 35px 0;
+}
+
+.services .lower .text {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+
+  /* margin: 0 60px 20px 0; */
+}
+
+.services .lower .text div p {
+	line-height: 20px;
+}
+
+.services .lower .text ul {
+	margin: 20px;
+}
+
+.services .lower .text ul li {
+	list-style: square;
 }
