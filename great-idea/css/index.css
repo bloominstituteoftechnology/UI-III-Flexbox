@@ -147,13 +147,18 @@ p {
 	right: 5px; */
 }
 
+.master-innovation {
+	display: flex;
+	width: 100%;
+}
+
 .innovation {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	/* justify-content: space-between; */
 	padding: 10px;
 	margin: 10px;
-	width: 100%;
+	width: 80%;
 	border: 1px solid purple;
 }
 
