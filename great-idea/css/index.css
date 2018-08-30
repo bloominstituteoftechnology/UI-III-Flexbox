@@ -66,14 +66,12 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-  /* border: 1px solid red; */
   height: 1536px;
   width: 874px;
   margin: 0 auto;
 }
 
 .nav-header {
-  /* border: 1px solid pink; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -82,7 +80,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav-header nav {
-  /* border: 1px solid blue; */
   display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -90,7 +87,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav-header nav a {
-  /* border: 1px solid black; */
 	text-decoration: none;
   color: lightgray;
   font-size: 14px;
@@ -99,7 +95,6 @@ h1, h2, h3, h4, h5 {
 
 
 .main-header {
-  /* border-bottom: 1px solid black; */
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -110,18 +105,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .main-header .title-button {
-  /* border: 1px solid red; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	margin-left: 77px;
+	flex-grow: 1;
 }
 
 .main-header .title-button h1 {
 	margin-top: 15px;
 	font-size: 81px;
-  /* font-style: ; */
 	text-align: center;
 	line-height: 75px;
 }
@@ -145,24 +138,15 @@ h1, h2, h3, h4, h5 {
 
 }
 
-.upper-text .left {
-	/* border: 1px solid red; */
+.upper-text div {
 	line-height: 17.5px;
-}
-
-.upper-text .right {
-	/* border: 1px solid blue; */
-	line-height: 17.5px;
-	margin-left: 20px;
 }
 
 .middle-img {
   margin-top: 38px;
-  
 }
 
 .lower-text {
-	/* border-bottom: 1px solid black; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -171,28 +155,13 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 48px;
 }
 
-.lower-text .left {
-  /* border: 1px solid blue; */
+.lower-text div {
 	line-height: 17.7px;
 	width: 292px;
-}
-
-.lower-text .center {
-  /* border: 1px solid blue; */
-	line-height: 17.7px;
-	width: 292px;
-	/* margin-left: 12px; */
 }
 
 .lower-text .center h3 {
 	letter-spacing: 1.5px;
-}
-
-.lower-text .right {
-  /* border: 1px solid blue; */
-	line-height: 17.7px;
-	width: 292px;
-	/* margin-left: 0; */
 }
 
 .contact {
@@ -219,4 +188,48 @@ footer {
 	justify-content: center;
 	margin-top: 54px;
 	font-size: 14px;
+}
+
+.services {
+  /* border: 1px solid red; */
+  height: 1536px;
+  width: 874px;
+  margin: 0 auto;
+}
+
+.services .page-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 322px;
+}
+
+.services .page-header h2 {
+	font-size: 26px;
+}
+
+.services .upper {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	margin-top: 36px;
+}
+
+.services .upper .card {
+  margin: 20px 0;
+	padding: 20px;
+  border: 1px solid black;
+  width: 420px;
+  background: lightgray;
+}
+
+.services .upper .card button {
+	border: 1px solid black;
+  border-radius: 5px;
+	padding: 10px 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: white;
 }
