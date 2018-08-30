@@ -151,7 +151,7 @@ header .logo {
 
 .main-content {
   border-top: 1px solid black;
-  margin-top: 76px;
+  margin-top: -2px;
   padding-top: 39px;
 }
 
@@ -182,7 +182,7 @@ header .logo {
 .main-content .bottom-content {
   display: flex;
   align-content: center;
-  margin-top: 37px;
+  margin-top: 15px;
   padding: 0 10px;
   border: 5px solid red;
 }
