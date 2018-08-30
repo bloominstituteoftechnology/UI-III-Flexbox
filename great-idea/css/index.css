@@ -201,14 +201,7 @@ h1, h2, h3, h4, h5 {
 		SERVICE INTRO SECTION
 	=================================================================================
 	*/
-	/* border test */
-	.services-intro {
-		
-	}
-	.services-main-content {
-		
-	}
-	/*==================================*/
+
 	.services-intro {
 		margin-top: 17px;
 		padding-bottom: 30px;
@@ -222,6 +215,7 @@ h1, h2, h3, h4, h5 {
 	.services-intro p {
 		line-height: 20px;
 	}
+
 	/*
 	=================================================================================
 		SERVICES MAIN CONTENT SECTION
@@ -245,17 +239,6 @@ h1, h2, h3, h4, h5 {
 		padding: 25px;
 		background-color: #eff1f4;
 	}
-
-	/* .main-content-left {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-	}
-	.main-content-right {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-	} */
 
 	.learn-more-btn {
 		border: 1px solid #000;
@@ -301,66 +284,71 @@ h1, h2, h3, h4, h5 {
 		margin-top: 80px;
 	}
 
+	/*
+	=================================================================================
+	Media Query
+	=================================================================================
+	*/
 
-@media only screen and (max-width: 880px) {
-	.services-main-content {
-		flex-direction: column;		
-		justify-content: flex-start;
-		flex-wrap: nowrap;
-		height: auto;
-		align-items: center;
-		margin-top: 0;
-		border-bottom: none;
-	}
-	.container {
-		width: 100%;
-	}
-	.learn-more-btn, .services-info-blocks {
-		margin: 0 auto;
-		text-align: center;
-	}
-	.learn-more-btn {
-		margin-top: 30px;
-	}
-	.services-info-blocks {
-		width: 100%;
-		border: none;
-		border-bottom: 1px solid #000;
-		line-height: 25px;
-	}
-	.services-intro {
-		text-align: center;
-	}
-	.services-facts {
-		flex-direction: column-reverse;
-		margin: 0;
-		text-align: center;
-	}
-	.services-facts h3 {
-		/* padding-top: 300px; */
-		margin-top: 30px;
-		font-size: 40px;
-	}
-	.services-page h1{
-		font-size: 40px;
-	}
-	.facts-img img{
-		width: 100%;
-	}
+	@media only screen and (max-width: 880px) {
+		.services-main-content {
+			flex-direction: column;		
+			justify-content: flex-start;
+			flex-wrap: nowrap;
+			height: auto;
+			align-items: center;
+			margin-top: 0;
+			border-bottom: none;
+		}
+		.container {
+			width: 100%;
+		}
+		.learn-more-btn, .services-info-blocks {
+			margin: 0 auto;
+			text-align: center;
+		}
+		.learn-more-btn {
+			margin-top: 30px;
+		}
+		.services-info-blocks {
+			width: 100%;
+			border: none;
+			border-bottom: 1px solid #000;
+			line-height: 25px;
+		}
+		.services-intro {
+			text-align: center;
+		}
+		.services-facts {
+			flex-direction: column-reverse;
+			margin: 0;
+			text-align: center;
+		}
+		.services-facts h3 {
+			/* padding-top: 300px; */
+			margin-top: 30px;
+			font-size: 40px;
+		}
+		.services-page h1{
+			font-size: 40px;
+		}
+		.facts-img img{
+			width: 100%;
+		}
 
-	.services-fact-container ul li {
-		list-style-type: none;
-		font-weight: bold;
-		text-decoration: underline;
+		.services-fact-container ul li {
+			list-style-type: none;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		header {
+			flex-direction: column-reverse;
+			align-items: center;
+		}
+		nav {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
 	}
-	header {
-		flex-direction: column-reverse;
-		align-items: center;
-	}
-	nav {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-}
