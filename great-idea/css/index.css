@@ -95,6 +95,11 @@ h1, h2, h3, h4, h5 {
 	color: gray;
 }
 
+.navigation nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
 /* home header */
 .home header {
 	display: flex;
@@ -119,6 +124,11 @@ h1, h2, h3, h4, h5 {
 	border: 4px solid black;
 	background: white;
 	font-size: 16px;
+}
+
+.home button:hover {
+	background: black;
+	color: white;
 }
 
 .home header img:hover {

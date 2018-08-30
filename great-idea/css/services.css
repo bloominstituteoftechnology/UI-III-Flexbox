@@ -95,6 +95,11 @@ h1, h2, h3, h4, h5 {
 	color: gray;
 }
 
+.navigation nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
 .services header {
   padding-top: 80px;
 }
@@ -133,6 +138,11 @@ h1, h2, h3, h4, h5 {
   margin-top: 15px;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+.services main article button:hover {
+	background: black;
+	color: white;
 }
 
 .services .bottom-content {
