@@ -90,7 +90,9 @@ h1, h2, h3, h4, h5 {
   }
   
   header nav a:hover {
-	text-decoration: underline;
+		font-size: 20px;
+		font-weight: bold;
+		color: #000;
   }
   
   header nav a:first-child {
@@ -280,11 +282,11 @@ h1, h2, h3, h4, h5 {
 		line-height: 20px
 	}
 
-	ul li {
+	.services-fact-container ul li {
 		list-style: square;
 		padding: 7px;
 	}
-	ul {
+	.services-fact-container ul {
 		margin-left: 20px;
 		margin-top: 20px;
 	}
@@ -300,4 +302,65 @@ h1, h2, h3, h4, h5 {
 	}
 
 
+@media only screen and (max-width: 880px) {
+	.services-main-content {
+		flex-direction: column;		
+		justify-content: flex-start;
+		flex-wrap: nowrap;
+		height: auto;
+		align-items: center;
+		margin-top: 0;
+		border-bottom: none;
+	}
+	.container {
+		width: 100%;
+	}
+	.learn-more-btn, .services-info-blocks {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.learn-more-btn {
+		margin-top: 30px;
+	}
+	.services-info-blocks {
+		width: 100%;
+		border: none;
+		border-bottom: 1px solid #000;
+		line-height: 25px;
+	}
+	.services-intro {
+		text-align: center;
+	}
+	.services-facts {
+		flex-direction: column-reverse;
+		margin: 0;
+		text-align: center;
+	}
+	.services-facts h3 {
+		/* padding-top: 300px; */
+		margin-top: 30px;
+		font-size: 40px;
+	}
+	.services-page h1{
+		font-size: 40px;
+	}
+	.facts-img img{
+		width: 100%;
+	}
 
+	.services-fact-container ul li {
+		list-style-type: none;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	header {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+}
