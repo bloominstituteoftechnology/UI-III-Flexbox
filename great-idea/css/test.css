@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5 {
     justify-content: space-between;
     /* margin: 20px; */
     padding: 25px;
-    box-shadow: 0 0 3px 3px white;
+    
     background: white;
     
 }
@@ -371,8 +371,8 @@ footer {
 
 .services-box {
     display: flex;
-    margin-top: 138.6px;
-    margin-bottom: 20px;
+    margin-top: 73.6px;
+    
     width: 60%;
     padding: 25px 0 25px 0;
     height: 100%;
@@ -519,8 +519,7 @@ footer {
 
 .wrapping-facts {
     display: flex;
-	justify-content: center;
-	margin-top: 35px;
+    justify-content: center;
 }
 
 .containment-below {
