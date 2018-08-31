@@ -211,7 +211,11 @@ footer {
 	margin-bottom: 20px;
 }
 
-.services-content .card {
+.services-content .card-row {
+	display: flex;
+	flex-direction: row;
+}
+.services-content .card-row .card {
 	padding: 20px;
 	border: 1px solid black;
 	width: 420px;
@@ -219,7 +223,7 @@ footer {
 	margin: 20px 0;
 }
 
-.services-content .card button {
+.services-content .card-row .card button {
 	padding: 10px 40px;
 	margin-top: 20px;
 	cursor: pointer;
@@ -228,7 +232,7 @@ footer {
 	border: 1px solid black;
 }
 
-.services-content .card button:hover {
+.services-content .card-row .card button:hover {
 	background: black;
 	color: white;
 }
