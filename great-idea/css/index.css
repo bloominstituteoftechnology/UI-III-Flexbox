@@ -312,3 +312,16 @@ footer p {
 	border: none;
 	background-color: #e8e8e8;
 }
+
+/* Services Page - Mobile View for the boxes */
+@media (max-width: 600px) {
+	.container-services .main-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.container-services .main-content div {
+    margin: 25px;
+	}
+}
