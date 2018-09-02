@@ -176,7 +176,8 @@ footer p {
 }
 
 /* Services Page */
-.container-services {
+.container-services,
+.container-contact {
 	padding-top: 0;
 }
 
@@ -186,11 +187,13 @@ footer p {
 	height: auto;
 }
 
-.container-services header .services {
+.container-services header .services,
+.container-contact header .contact {
 	margin-top: 30px;
 }
 
-.container-services header .services h2 {
+.container-services header .services h2,
+.container-contact header .contact h2 {
 	font-size: 30px;
 }
 
@@ -253,4 +256,59 @@ footer p {
 .container-services .services-info li {
 	list-style-type: square;
 	padding-top: 10px;
+}
+
+/* Contact page */
+.container-contact header img {
+	width: 700px;
+	height: 153px;
+}
+
+.container-contact address {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.container-contact address div {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 22%;
+}
+
+.container-contact address div p {
+	padding-top: 10px;
+	text-align: center;
+  line-height: 1.5em;
+}
+
+.container-contact form {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container-contact form input,
+.container-contact form textarea,
+.container-contact form button {
+	width: 500px;
+	margin: 10px 0;
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;
+	padding: 15px;
+	font-size: 16px;
+}
+
+.container-contact form textarea {
+	height: 200px;
+}
+
+.container-contact form button {
+	border: none;
+	background-color: #e8e8e8;
 }
