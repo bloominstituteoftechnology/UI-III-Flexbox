@@ -196,6 +196,7 @@ h2 {
     padding-bottom: 20px;
     padding-top: 0px;
     padding-left: 0px;
+    margin: 0px 12.5px 0px 12.5px;
 }
 
 
@@ -214,7 +215,7 @@ h2 {
 p {
     display: flex;
     
-    padding: 5px 0px 5px 0px;
+    padding: 0px 0px 0px 0px;
     /* height: 100px; */
     
 }
@@ -348,7 +349,7 @@ hr {
 .contacting {
     display: flex;
     flex-direction: column;
-    
+    margin-top: 50px;
     width: 59%;
 
 }
@@ -493,6 +494,36 @@ footer {
     
 }
 
+.digital-design p {
+    margin: 0px 12.5px 0px 12.5px;
+}
+
+.uxui p {
+    margin: 0px 12.5px 0px 12.5px;
+}
+
+.marketing p {
+    margin: 0px 12.5px 0px 12.5px;
+}
+
+.web-dev p {
+    margin: 0px 12.5px 0px 12.5px;
+}
+
+.ios-dev p {
+    margin: 0px 12.5px 0px 12.5px;
+}
+
+.and-dev p {
+    margin: 0px 12.5px 0px 12.5px;
+}
+
+.some-facts p {
+    margin: 0px 12.5px 0px 12.5px;
+}
+
+
+
 .services-button {
     display: flex;
 
@@ -632,6 +663,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 20px 0 0 0;
+    margin: 0px 12.5px 0px 12.5px;
 }
 
 li{
@@ -670,6 +702,7 @@ font-style: inherit;
 box-shadow: 0 2px 2px black;
 box-shadow: 0px 0px 1px 1px black;
 background: white;
+margin: 0px 12.5px 0px 12.5px;
 }
 
 h2 {
