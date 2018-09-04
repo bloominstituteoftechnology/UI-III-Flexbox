@@ -49,8 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
-	
+    box-sizing: border-box;
 }
 
 html, body {
@@ -66,12 +65,6 @@ h1, h2, h3, h4, h5 {
 
 /*Reseting css*/
 
-.container-for-all {
-    width: 1000px;
-    height: 1844px;
-    border: 1px solid red;
-}
-
 .master-nav {
     display: flex;
     justify-content: center;
@@ -84,11 +77,11 @@ h1, h2, h3, h4, h5 {
 .navigation {
     display: flex;
     position: fixed;
-    width: 59%;
+    width: 60%;
     justify-content: space-between;
     /* margin: 20px; */
-    padding: 25px 0px 25px 0;
-    box-shadow: 0 0 3px 3px white;
+    padding: 25px;
+    
     background: white;
     
 }
@@ -125,7 +118,7 @@ a {
     text-decoration: none;
     font: inherit;
     font-size: 18px;
-    color: #A9A9A9;
+    color: rgba(145, 145, 145, 0.959);
     
 }
 
@@ -140,9 +133,8 @@ a {
 .innovation {
     display: flex;
     
-    /* width: calc(57.5% + 40px); */
-    width: 59%;
-    justify-content: space-around;
+    width: calc(57.5% + 40px);
+    justify-content: space-between;
     align-items: center;
     padding: 40px 0px 40px 0px;
     
@@ -155,12 +147,8 @@ a {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 50%;
+    width: 100%;
     font-size: 85px;
-    padding-right: 0px;
-}
-
-.snippet {
     
 }
 
@@ -180,48 +168,25 @@ button:hover {
 color: white;
 }
 
-h1 {
-    display: flex;
-}
-
 h4 {
     display: flex;
     
-    padding: 20px 0 20px 0px;
+    padding: 20px 0 0 20px;
 
 }
 
 h2 {
     display: flex;
     padding-bottom: 20px;
-    padding-top: 0px;
-    padding-left: 0px;
-    margin: 0px 12.5px 0px 12.5px;
-}
-
-
-.services p {
-    margin: 0 10px 0 0;
-}
-
-.product p {
-    margin: 0 10px 0 0;
-}
-
-.vision p {
-    margin: 0 10px 0 0;
+    padding-top: 20px;
 }
 
 p {
     display: flex;
     
-    padding: 0px 0px 0px 0px;
-    /* height: 100px; */
+    padding-right: 5px;
+    height: 100px;
     
-}
-
-.services-box p {
-    padding: 0 0 0px 0;
 }
 
 .snippet {
@@ -236,8 +201,7 @@ p {
     
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 59%;
+    width: 60%;
 
 }
 
@@ -251,7 +215,6 @@ p {
     
     flex-direction: column;
     width: calc(50%);
-    
     
 }
 
@@ -275,7 +238,7 @@ p {
     display: flex;
     
     justify-content: center;
-    width: 59%;
+    width: 60%;
     padding: 20px 0 20px 0;
 }
 
@@ -288,7 +251,7 @@ p {
 .bottom-section {
     display: flex;
     
-    width: 59%;
+    width: 60%;
 }
 
 .services {
@@ -311,31 +274,23 @@ p {
 
 .separate-container {
     display: flex;
-    height: 0px;
+    height: 40px;
     width: 100%;
-    margin-top: 60px;
-}
-
-.separate-container2 {
-    display: flex;
-    height: 0px;
-    width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .hr-separate {
     display: flex;
     width: 100%;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    padding-top: 20px;
    
 }
 
 hr {
     display: flex;
-    width: 59%;
-    height: 0.1px;
+    width: 60%;
+    height: 2.5px;
     
 }
 
@@ -349,8 +304,8 @@ hr {
 .contacting {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    width: 59%;
+    
+    width: 60%;
 
 }
 
@@ -389,7 +344,8 @@ footer {
 
 .foot-stink {
     display: flex;
-    margin-bottom: 100px;
+    
+    
 }
 
 .foot-container {
@@ -415,9 +371,9 @@ footer {
 
 .services-box {
     display: flex;
-    margin-top: 138.6px;
-    margin-bottom: 20px;
-    width: 59%;
+    margin-top: 73.6px;
+    
+    width: 60%;
     padding: 25px 0 25px 0;
     height: 100%;
     flex-direction: column;
@@ -446,7 +402,7 @@ footer {
 
 .services-box .stubborn-services p {
     display: flex;
-    
+    font-size: 20px;
     padding-top: 15px;
     
 }
@@ -456,73 +412,37 @@ footer {
 .master-of-master {
     display: flex;
     width: 100%;
-    height: 917px;
+    
     justify-content: center;
-    align-content: center;
 }
 
 .master {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between;
     
-    width: calc(59%);
+    
+    width: 60%;
     height: 100%;
 }
 
 .column1 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+   
     width: 50%;
-    align-content: flex-start;
-    justify-content: space-evenly;
+    margin: 0px 20px 0px 0px;
 }
 
 .digital-design {
     display: flex;
-    height: 250px;
-    width: 427.25px;
-    padding: 15px;
+    
+    padding: 25px;
     flex-direction: column;
-    justify-content: space-around;
     flex-wrap: wrap;
-    background: #F4F3F4;
+    background: lightgrey;
     box-shadow: 0 2px 2px black;
     box-shadow: 0px 0px 1px 1px black;
-    
+    margin: 40px 0 0 0;
 }
-
-.digital-design p {
-    margin: 0px 12.5px 0px 12.5px;
-}
-
-.uxui p {
-    margin: 0px 12.5px 0px 12.5px;
-}
-
-.marketing p {
-    margin: 0px 12.5px 0px 12.5px;
-}
-
-.web-dev p {
-    margin: 0px 12.5px 0px 12.5px;
-}
-
-.ios-dev p {
-    margin: 0px 12.5px 0px 12.5px;
-}
-
-.and-dev p {
-    margin: 0px 12.5px 0px 12.5px;
-}
-
-.some-facts p {
-    margin: 0px 30.0px 0px 12.5px;
-}
-
-
 
 .services-button {
     display: flex;
@@ -531,84 +451,75 @@ footer {
 
 .marketing {
     display: flex;
-    height: 250px;
-    width: 427.25px;
-    padding: 15px;
     
+    padding: 25px;
+    margin: 40px 0 40px 0;
     flex-direction: column;
-    background: #F4F3F4;
+    background: lightgrey;
     box-shadow: 0 2px 2px black;
     box-shadow: 0px 0px 1px 1px black;
-    justify-content: space-around;
 }
 
 .ios-dev {
     display: flex;
-    height: 250px;
-    width: 427.25px;
-    padding: 15px;
+    
+    padding: 25px;
     flex-direction: column;
-    background: #F4F3F4;
+    background: lightgrey;
     box-shadow: 0 2px 2px black;
     box-shadow: 0px 0px 1px 1px black;
-    justify-content: space-around;
+    margin: 0 0 40px 0;
 }
 
 .column2 {
     display: flex;
-    /* height: 100%; */
+    
     padding: 0px;
     flex-direction: column;
     width: 50%;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    justify-content: space-evenly;
+    margin: 0px 0px 0px 20px;
     
 }
 
 .uxui {
     display: flex;
-    height: 250px;
-    width: 427.25px;
-    padding: 15px;
+    
+    padding: 25px;
     flex-direction: column;
-    justify-content: space-around;
-    background: #F4F3F4;
+    background: lightgrey;
     box-shadow: 0 2px 2px black;
     box-shadow: 0px 0px 1px 1px black;
-    margin: 0 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 .web-dev {
     display: flex;
-    height: 250px;
-    width: 427.25px;
-    padding: 15px;
+    
+    padding: 25px;
     flex-direction: column;
-    background: #F4F3F4;
+    background: lightgrey;
     box-shadow: 0 2px 2px black;
     box-shadow: 0px 0px 1px 1px black;
-    justify-content: space-around;
+    margin: 40px 0 40px 0;
 }
 
 .and-dev {
     display: flex;
-    height: 250px;
-    width: 427.25px;
-    padding: 15px;
-    justify-content: space-around;
+    
+    padding: 25px;
+    justify-content: space-between;
     flex-direction: column;
-    background: #F4F3F4;
+    background: lightgrey;
     box-shadow: 0 2px 2px black;
     box-shadow: 0px 0px 1px 1px black;
-    
-    
+    height: 100%;
+    width: 100%;
+    margin: 0 0 40px 0;
 }
 
 .wrapping-facts {
     display: flex;
-	justify-content: center;
-	margin-top: 35px;
+    justify-content: center;
 }
 
 .containment-below {
@@ -619,7 +530,7 @@ footer {
 
 .some-facts  {
     display: flex;
-    flex-wrap: wrap;
+   
     flex-direction: column;
     width: 50%;
     padding: 0px 20px 0 0;
@@ -659,22 +570,11 @@ footer {
     align-content: center;
 }
 
-ul {
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0 0 0;
-    margin: 0px 12.5px 0px 12.5px;
-}
-
 li{
     /* display: flex; */
-    padding: 5px 0 5px 10px;
+    padding: 0 0 5px 10px;
     margin: 0 0 0 15.5px;
     list-style-type: disc;
-}
-
-.services-footer{
-    margin-bottom: 30px;
 }
 
 .services-footer p {
@@ -682,27 +582,15 @@ li{
    
 }
 
-.container-button{
-display: flex;
-flex-direction: column;
-margin: 10px 0 0 0px;
-padding: 0 0 0 0;
-}
-
 .big-ol-button {
-    margin: 10px 0 0 0;
-   
 display: flex;
 flex-direction: row;
-border-radius: 7px;
 width: 150px;
-height: 40px;
+height: 50px;
 justify-content: center;
 font-style: inherit;
 box-shadow: 0 2px 2px black;
-box-shadow: 0px 0px 1px 1px black;
-background: white;
-margin: 0px 12.5px 0px 12.5px;
+box-shadow: 0px 0px 1px 1px black
 }
 
 h2 {
