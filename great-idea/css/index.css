@@ -126,7 +126,19 @@ body {
   margin-bottom: 10px;
 }
 
+.services {
+  width: 100%;
+}
 
+.services_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services_container p, .services_container h2 {
+  width: 50%;
+  padding-top: 15px;
+}
 
 
 
@@ -209,6 +221,17 @@ a:hover {
   }
 }
 
+.nav li:last-child:hover {
+  animation-name: color_two;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes color_two {
+  100% {
+    background-color: #778899;
+  }
+}
 .intro .button_container {
   padding-top: 15px;
 }
@@ -218,15 +241,10 @@ a:hover {
   padding: 6px 30px;
 }
 
-/* .services_container h2, .services_container p {  */
-/*   display: inline-block; */
-/*   width: 48%; */
-/*   margin-bottom: 10px; */
-/* } */
-/*  */
-/* .services_container h2 { */
-/*   vertical-align: top; */
-/* } */
+
+
+
+
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
