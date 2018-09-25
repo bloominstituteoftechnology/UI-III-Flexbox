@@ -62,5 +62,171 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+* {
+  box-sizing: border-box;
+}
+
+  /* container layout */
+
+body {
+  margin: 20px;
+  width: 100%;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+  
+}
+
+.main_content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.row_one {
+  display: flex;
+}
+
+.row_own div {
+  width: 48%;
+}
+
+.row_two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row_two div {
+  width: 33%;
+}
+
+.img_container img {
+  width: 700px;
+  padding: 20px 0;
+}
+
+.services {
+  padding-top: 70px;
+}
+
+.services h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.services_container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+/* header/footer */
+
+header {
+  width: 700px;
+  position: fixed;
+  background-color:aliceblue;
+  padding-bottom: 0px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+footer .copywrite {
+  margin: 70px 0px;
+  text-align: center;
+}
+
+/* images */
+
+
+
+.intro  {
+  display: flex; 
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 span {
+  display: block;
+  font-size: 60px;
+  text-align: center;
+}
+
+.button_container {
+  text-align: center;
+}
+
+.code_img {
+  width: 40%;
+  padding-top: 50px;
+  padding-bottom: 25px;
+ 	
+}
+
+
+
+
+
+/* buttons/links */
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-family: arial;
+}
+
+a:hover {
+  animation-name: color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes color {
+  100% {
+    background-color: #778899;
+    color: white;
+  }
+}
+
+.intro .button_container {
+  padding-top: 15px;
+}
+
+.button {
+  border: 1px solid gray;
+  padding: 6px 30px;
+}
+
+/* .services_container h2, .services_container p {  */
+/*   display: inline-block; */
+/*   width: 48%; */
+/*   margin-bottom: 10px; */
+/* } */
+/*  */
+/* .services_container h2 { */
+/*   vertical-align: top; */
+/* } */
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
