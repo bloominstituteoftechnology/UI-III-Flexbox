@@ -198,6 +198,7 @@ nav a:hover {
 	diplay: flex;
 	flex-direction: column;
 	justify-content: space-between;
+  margin-top: 70px;
 	margin-bottom: 20px;
 }
 
