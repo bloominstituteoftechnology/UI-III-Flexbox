@@ -81,7 +81,7 @@ header {
 
 header nav {
 	margin-top: 40px; 
-	width: 610px;
+	width: 69.3%;
 	justify-content: space-between;
 	display: flex;
 }
@@ -97,7 +97,7 @@ header nav a:hover {
 }
 
 header .logo {
-	margin: 28px 0 0 91px;
+	margin: 28px 0 0 10%;
 }
 
 /* Call To Action (CTA) Styles */
@@ -301,4 +301,101 @@ footer {
 	width: 38%;
 	height: 16%;
 	border:1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 100%;
+		margin: auto;
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	header {
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	header .logo {
+		margin: 0px 0 0 0%;	
+	}
+	header nav {
+		margin-top: 40px; 
+		width: 69.3%; 
+		display: flex;
+		align-items: flex-start;
+	}
+	.cta .ctaimage {
+		margin-left: 9%;
+		align-items: flex-end;
+		display:none;
+	}
+	.cta {
+		display: flex;
+		flex-direction: column;
+		margin-top: 72px;
+		justify-content: space-around;
+		margin-left: 7%;
+	}
+	.cta .cta-text {
+		font-size: 72px;
+		text-align: center;
+		letter-spacing: 5px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		/* flex-flow: column; */
+		flex-wrap: wrap;
+		/* align-items: center; */
+		/* justify-content: space-evenly; */
+		margin: 0px 28px 3px 0px;
+	}
+	.cta .cta-text button {
+		border: 1px double black;
+		font-size: 16px;
+		background: white;
+		width: 28%;
+		height: 32px;
+		padding: 0 0 0 0;
+		margin: 0 0px 0px 35%;
+		cursor: pointer;
+	}
+	.main-content {
+		border-top: 2px solid black; 
+		border-bottom: 2px solid black;
+		margin: 75px 0 35px 0;
+		padding: 35px 0;
+		font-size: 16px;
+		line-height: 18px;
+		display:flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+	 
+	 }
+	 
+	 .main-content .top-content {
+		 display: flex;
+		 flex-direction: column;
+		 margin: 0% 6% 5% 5%;
+	 }
+	 .main-content .top-content p{
+		margin: 0% 6% 5% 5%;
+	 }
+	 .main-content .middle-img {
+		 display: block;
+		 margin: 30px auto;
+	 }
+	 
+	 .main-content .bottom-content {
+		 display: flex;
+		 flex-direction: column;
+		 margin: 0% 6% 5% 5%;
+	 }
+	 
+	 .main-content .bottom-content p {
+		margin: 0% 6% 5% 5%;
+	 }
+	 
+	
 }
