@@ -15,15 +15,15 @@ Once you have finished the home page using flexbox, go build the services page b
 
 ## Objectives:
 
-- [ ] Refactor the home page layout with flexbox where `inline-block` was used before
-- [ ] In your navigation, point the services anchor tag's `href` to `services.html`
-- [ ] Copy and paste the contents of your `index.html` page into your empty `services.html` page.  
-  - Delete any content inside the body tag besides the navigation 
+- [X] Refactor the home page layout with flexbox where `inline-block` was used before
+- [X] In your navigation, point the services anchor tag's `href` to `services.html`
+- [x] Copy and paste the contents of your `index.html` page into your empty `services.html` page.  
+  - Delete any content inside the body tag besides the navigation
   - If you didn't finish yesterday's assignment, you may use the last assignment's solution code here instead.
   - Update the title in your newly copied services page to say `Great Idea! - Services`
-- [ ] Using the provided [design file](design-files/services-desktop-design.png), create the services page layout using flexbox.  Remember, you should be using box model properties this whole time.  Flexbox is only used for bigger layout pieces.  You will still need content width, padding, border, and margins to succeed. 
+- [X] Using the provided [design file](design-files/services-desktop-design.png), create the services page layout using flexbox.  Remember, you should be using box model properties this whole time.  Flexbox is only used for bigger layout pieces.  You will still need content width, padding, border, and margins to succeed.
 
-## Stretch Goals: 
-- [ ] Add an anchor tag around the Great Idea logo and point the `href` to`index.html`
-- [ ] Create another page based on one of the navigation items in addition to services.  Try to create a layout that follows the patterns of the first two designs but with your own creative twist.  Use lorem ipsum text for all your content.
+## Stretch Goals:
+- [X] Add an anchor tag around the Great Idea logo and point the `href` to`index.html`
+- [X] Create another page based on one of the navigation items in addition to services.  Try to create a layout that follows the patterns of the first two designs but with your own creative twist.  Use lorem ipsum text for all your content.
 - [ ] Introduce media queries into your services page to create a mobile view that stacks all the boxes on top of each other on phone but looks like the layout file on desktop.
