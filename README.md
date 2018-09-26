@@ -12,7 +12,7 @@ Once you have finished the home page using flexbox, go build the services page b
 * Fork / Clone this project into a directory on your machine.
 * Open the code with your preferred integrated development environment (IDE).
 * Start on the objectives
-
+test
 ## Objectives:
 
 - [ ] Refactor the home page layout with flexbox where `inline-block` was used before
