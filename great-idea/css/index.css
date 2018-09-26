@@ -63,4 +63,204 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+  /* container layout */
+
+body {
+  margin: 20px;
+  width: 100%;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+  
+}
+
+.main_content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.row_one {
+  display: flex;
+}
+
+.row_own div {
+  width: 48%;
+}
+
+.row_two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row_two div {
+  width: 33%;
+}
+
+.img_container img {
+  width: 700px;
+  padding: 20px 0;
+}
+
+.sections {
+  padding-top: 70px;
+}
+
+.sections h1 {
+  font-size: 35px;
+  text-align: center;
+} 
+
+.ad_container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.sections {
+  width: 100%;
+}
+
+.ad_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ad_container p, .ad_container h2 {
+  width: 50%;
+  padding-top: 15px;
+}
+
+.flex_format .ad_container h2,  
+.flex_format .ad_container .img_container { 
+  width: 20%;
+  padding-top: 15px;
+}
+
+.flex_format .ad_container h2 {
+  font-size: 1.5rem;
+  padding-top: 5%;
+}
+
+.flex_format .ad_container .p {
+  width: 59%
+}
+
+
+/* header/footer */
+
+header {
+  width: 700px;
+  position: fixed;
+  background-color:aliceblue;
+  padding-bottom: 0px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+footer .copywrite {
+  margin: 70px 0px;
+  text-align: center;
+}
+
+/* images */
+
+
+
+.intro  {
+  display: flex; 
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 span {
+  display: block;
+  font-size: 60px;
+  text-align: center;
+}
+
+.button_container {
+  text-align: center;
+}
+
+.code_img {
+  width: 40%;
+  padding-top: 50px;
+  padding-bottom: 25px;
+ 	
+}
+
+.sections img {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+/* buttons/links */
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-family: arial;
+}
+
+a:hover {
+  animation-name: color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes color {
+  100% {
+    background-color: #778899;
+    color: white;
+  }
+}
+
+.nav li:last-child:hover {
+  animation-name: color_two;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes color_two {
+  100% {
+    background-color: #778899;
+  }
+}
+.intro .button_container {
+  padding-top: 15px;
+}
+
+.button {
+  border: 1px solid gray;
+  padding: 6px 30px;
+}
+
+
+
+
+
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
