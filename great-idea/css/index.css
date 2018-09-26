@@ -194,7 +194,8 @@ nav a:hover {
   flex-direction: column;
 }
 
-.services-header {
+.services-header,
+.vision-header {
 	diplay: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -202,7 +203,8 @@ nav a:hover {
 	margin-bottom: 20px;
 }
 
-.services-headline {
+.services-headline,
+.vision-headline {
 	font-size: 36px;
 	padding: 15px 0px;
 	margin-bottom: 0px;
@@ -270,6 +272,54 @@ nav a:hover {
   margin: 7px 0;
 }
 
+.vision-header {
+  background-image: url('../img/vision-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 900px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.vision-headline,
+.vision-header-text p {
+  width: 900px;
+  padding: 15px 5px;
+}
+
+.vision-header-text {
+  opacity: 0.85;
+  background-color: #ffffff;
+
+}
+
+.vision-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.vision-content-box,
+.vision-content-reverse {
+  display: flex;
+  height: 150px;
+  margin: 30px 0px;
+}
+
+.vision-content-reverse {
+  flex-direction: row-reverse;
+}
+
+.text-container {
+  width: 33%;
+  margin: 0px 20px;
+}
+
+.vision-img {
+  width: 60%;
+
+}
 
 footer {
   text-align: center;
