@@ -70,6 +70,7 @@ body {
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .topcontainer {
@@ -97,6 +98,16 @@ nav a {
 	margin-right: 8.2%; */
 }
 
+/*  .logolink {
+	 width: 20%;
+	display: flex; 
+} */
+
+/* .logologo {
+	width: 20%;
+	background-image: url(../img/logo.png)
+} */ 
+
 .logo {
 	/* background: yellow; */
 	width: 20%;
@@ -106,74 +117,107 @@ nav a {
 	bottom: 8px;
 }
 
-.mainsec {
-	border-bottom: 2px solid black;
-	margin-bottom: 50px;
-	padding-bottom: 50px;
+.services {
 	width: 100%;
-	display: flex;
-	align-items: center;
-	height: 600px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-bottom: solid 2px black;
+	margin-bottom: 40px;
 }
 
-.headline {
-	width: 50%;
-	height: 20vh;
-	font-size: 64px;
-	text-align: center;
-	position: relative;
-	bottom: 70px;
+.services-header-img {
+	width: 100%;
+}
+
+.box {
+	background:#F2F2F2;
+	width: 45%;
+	padding: 20px 10px;
+	
+	border: solid 1px black;
+	margin-bottom: 40px;
+
+}
+
+.leftbox {
+	margin-right: 10%;
 }
 
 button {
 	background: white;
 	border: 1px solid black;
-	font-size: 16px;
-	padding: 10px 50px;
+	border-radius: 5px;
+	padding: 2px 5px;
+	margin-top: 20px;
+	
+	margin-left: 20px;
+	/* font-size: 16px; */
+	/* padding: 10px 50px; */
 }
 
-.codesnippet {
-	width: 50%;
-}
-
-.middletop {
+.bottomsec {
 	width: 100%;
 	display: flex;
-	margin-bottom: 50px;
+	border-top: 2px solid black;
 }
 
-.features {
+.services-info-img {
 	width: 45%;
-	margin-right: 10%
+	padding-top: 40px;
 }
 
-.about {
+.somefacts {
 	width: 45%;
+	padding-top: 40px;
+	margin-right: 10%;
 }
 
-.middle-img {
-	width: 100%;
-	margin-bottom: 50px;
+.listofacts {
+	position: relative;
+	left: 20px;
 }
 
-.middlebottom {
-	padding-bottom: 40px;
-	border-bottom: 2px solid black;
-	display: flex;
-	margin-bottom: 50px;
+ul {
+	list-style-type: square;
+	margin-top: 20px;
 }
 
-.contact {
-	width: 100%;
+li {
+	margin: 5px;
 }
 
 footer {
-	text-align: center;
 	margin-top: 70px;
+	text-align: center;
 	margin-bottom: 50px;
-	width: 100%;
 }
 
 
 
+.mediaquery {
+	width: 800px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
 
+@media only screen and (max-width: 600px) {
+	.box {
+		width: 90%;
+		margin: auto;
+		margin-bottom: 20px;
+		padding: auto;
+	}
+
+	.mediaquery {
+		width: 400px;
+		/* margin: auto; */
+		display: flex;
+		flex-wrap: wrap;
+		/* justify-content: center; */
+	}	
+
+	
+	
+}
