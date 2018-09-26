@@ -215,51 +215,101 @@ body {
 	margin-bottom: 20px;
 }
 
+.boxes {
+	width: 800px;
+}
+
 #first-two {
 	display: flex;
 	width: 800px;
 	margin: 20px 0px 20px 0px;
-	background-color: lightgray;
 }
 
 #first-two .one {
 	border: 1px solid black;
 	height: 190px;
+	width: 380px;
+	margin-right: 40px;
+	background-color: lightgray;
 }
 
 #first-two .two {
 	border: 1px solid black;
 	height: 190px;
+	width: 380px;
+	background-color: lightgray;
 }
 
 #middle-two {
 	display: flex;
-	background-color: lightgray;
 	margin: 20px 0px 20px 0px;
 }
 
 #middle-two .three {
 	border: 1px solid black;
 	height: 190px;
+	width: 380px;
+	margin-right: 40px;
+	background-color: lightgray;
 }
 
 #middle-two .four {
 	border: 1px solid black;
 	height: 190px;
+	width: 380px;
+	background-color: lightgray;
 }
 
 #last-two {
 	display: flex;
-	background-color: lightgray;
-	margin: 20px 0px 20px 0px;
+	margin-bottom: 30px;
 }
 
 #last-two .five {
 	border: 1px solid black;
 	height: 190px;
+	width: 380px;
+	margin-right: 40px;
+	background-color: lightgray;
 }
 
 #last-two .six {
 	border: 1px solid black;
 	height: 190px;
+	width: 380px;
+	background-color: lightgray;
 }	
+
+.facts {
+	border-top: 2px solid black;
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.facts h4 {
+	margin-top: 30px;
+}
+
+.service-facts h4 {
+	padding-bottom: 10px;
+}
+
+.service-facts p {
+	padding-bottom: 20px;
+}
+
+.service-facts li {
+	padding: 10px;
+	list-style-type: square;
+	margin-left: 20px;
+}
+
+.facts .services-info-img {
+	margin-top: 30px;
+	width: 400px;
+	padding-left: 40px;
+}
+
+footer {
+	text-align: center;
+}
