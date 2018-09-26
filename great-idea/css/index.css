@@ -64,3 +64,269 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Home Page CSS */
+body {
+	margin: 0 auto;
+	width: 800px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+.nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap:nowrap;
+}
+
+#navigation{
+	display: flex;
+	justify-content: space-around;
+	width: 620px;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color:gray;
+}
+
+.logo {
+	margin-bottom: 20px;
+	width: 170px;
+	margin-left: 40px;
+}
+
+#top{
+	height: 520px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#starter {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 77px;
+	text-align: left;
+	width: 285px;
+}
+
+h1{
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+img{
+	display: flex;
+	text-align: right;
+}
+
+button {
+	padding: 6px 40px 4px 40px;
+	background: none;
+	border: 1px solid black;
+}
+#middle{
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid gray;
+	margin-bottom: 20px;
+}
+
+h3{
+	display: inline-block;
+	border: 0px solid black;
+}
+
+#features {
+	width:425px;
+	margin-top: 20px;
+}
+#about{
+	width: 350px;
+	margin-top: 20px;	
+}
+.text {
+	text-align: left;
+}
+.middle-img{
+	width: 800px;
+	margin-bottom: 20px;
+}
+#bottom{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid gray;
+	padding-bottom: 20px;
+}
+#services{
+	border: 0px solid black;
+	width: 259px;
+}
+#product{
+	border: 0px solid black;
+	width: 261px;
+}
+#vision{
+	border: 0px solid black;
+	width: 273px;
+}
+.number {
+	padding: 2px;
+}
+
+.end {
+	text-align: center;
+} 
+
+/* Services Page CSS */
+body {
+	margin: 0 auto;
+	width: 800px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	width: 800px;
+}
+
+#navigation {
+	justify-content: space-between;
+}
+
+.services-header-img {
+	width: 800px;
+	margin-bottom: 20px;
+}
+
+#intro {
+	border-bottom: 1px solid black;
+}
+
+#intro p {
+	margin-bottom: 40px;
+}
+
+.boxes {
+	width: 800px;
+	margin-top: 40px;
+}
+
+.boxes p {
+	padding-bottom: 15px;
+}
+
+button {
+	border-radius: 6px;
+	padding: 10px 40px 10px 40px;
+	background: white;
+}
+
+#first-two {
+	display: flex;
+	width: 800px;
+	margin: 20px 0px 40px 0px;
+}
+
+#first-two .one {
+	border: 1px solid black;
+	height: 220px;
+	width: 380px;
+	margin-right: 40px;
+	background-color: lightgray;
+	padding: 15px;
+}
+
+#first-two .two {
+	border: 1px solid black;
+	height: 220px;
+	width: 380px;
+	background-color: lightgray;
+	padding: 15px;
+}
+
+#middle-two {
+	display: flex;
+	margin: 20px 0px 40px 0px;
+}
+
+#middle-two .three {
+	border: 1px solid black;
+	height: 220px;
+	width: 380px;
+	margin-right: 40px;
+	background-color: lightgray;
+	padding: 15px;
+}
+
+#middle-two .four {
+	border: 1px solid black;
+	height: 220px;
+	width: 380px;
+	background-color: lightgray;
+	padding: 15px;
+}
+
+#last-two {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+#last-two .five {
+	border: 1px solid black;
+	height: 220px;
+	width: 380px;
+	margin-right: 40px;
+	background-color: lightgray;
+	padding: 15px;
+}
+
+#last-two .six {
+	border: 1px solid black;
+	height: 220px;
+	width: 380px;
+	background-color: lightgray;
+	padding: 15px;
+}	
+
+.facts {
+	border-top: 2px solid black;
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.facts h4 {
+	margin-top: 30px;
+}
+
+.service-facts h4 {
+	padding-bottom: 10px;
+}
+
+.service-facts p {
+	padding-bottom: 20px;
+}
+
+.service-facts li {
+	padding: 10px;
+	list-style-type: square;
+	margin-left: 20px;
+}
+
+.facts .services-info-img {
+	margin-top: 30px;
+	width: 400px;
+	padding-left: 40px;
+}
+
+footer {
+	text-align: center;
+}
