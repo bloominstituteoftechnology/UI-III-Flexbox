@@ -212,52 +212,67 @@ body {
 }
 
 #intro p {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .boxes {
 	width: 800px;
+	margin-top: 40px;
+}
+
+.boxes p {
+	padding-bottom: 15px;
+}
+
+button {
+	border-radius: 6px;
+	padding: 10px 40px 10px 40px;
+	background: white;
 }
 
 #first-two {
 	display: flex;
 	width: 800px;
-	margin: 20px 0px 20px 0px;
+	margin: 20px 0px 40px 0px;
 }
 
 #first-two .one {
 	border: 1px solid black;
-	height: 190px;
+	height: 220px;
 	width: 380px;
 	margin-right: 40px;
 	background-color: lightgray;
+	padding: 15px;
 }
 
 #first-two .two {
 	border: 1px solid black;
-	height: 190px;
+	height: 220px;
 	width: 380px;
 	background-color: lightgray;
+	padding: 15px;
 }
 
 #middle-two {
 	display: flex;
-	margin: 20px 0px 20px 0px;
+	margin: 20px 0px 40px 0px;
 }
 
 #middle-two .three {
 	border: 1px solid black;
-	height: 190px;
+	height: 220px;
 	width: 380px;
 	margin-right: 40px;
 	background-color: lightgray;
+	padding: 15px;
 }
 
 #middle-two .four {
 	border: 1px solid black;
-	height: 190px;
+	height: 220px;
 	width: 380px;
 	background-color: lightgray;
+	padding: 15px;
 }
 
 #last-two {
@@ -267,17 +282,19 @@ body {
 
 #last-two .five {
 	border: 1px solid black;
-	height: 190px;
+	height: 220px;
 	width: 380px;
 	margin-right: 40px;
 	background-color: lightgray;
+	padding: 15px;
 }
 
 #last-two .six {
 	border: 1px solid black;
-	height: 190px;
+	height: 220px;
 	width: 380px;
 	background-color: lightgray;
+	padding: 15px;
 }	
 
 .facts {
