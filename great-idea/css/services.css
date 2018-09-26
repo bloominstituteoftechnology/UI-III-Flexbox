@@ -1,10 +1,45 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	align-items: center;
+	margin-top: 25px;
+	position: fixed;
+	z-index: 80;
+	width: 100%;
+	max-width: 880px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  max-width: 880px;
+}
+
+header nav a {
+	padding: 20px 2.5%;
+	font-size: 1.1rem;
+	color: gray;
+	text-decoration: none;
+}
+
+header .logo {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 5.2%;
+}
+
 .services-header-img {
-	margin: 35px 0px;
+	margin-top: 76px;
+	margin-bottom: 20px;
 }
 
 .services-header {
-	padding-bottom: 45px;
-	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
 }
 
 .services-header h2 {
@@ -15,27 +50,36 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 35px 0px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	align-content: space-around;
+	margin: 20px 0px;
 }
 
 .service-block {
-	width: 420px;
+	display: flex;
+	flex-direction: column;
 	border: 1px solid black;
-	margin-bottom: 40px;
-	background-color: whitesmoke;
-	padding: 15px;
+	background: whitesmoke;
+	width: 45%;
+	margin: 20px 0px;
+	padding: 20px 2.27%;
+	justify-content: space-between;
 }
 
 .service-block button {
-	margin-top: 15px;
-	background-color: white;
-	padding: 8px 35px;
-	border: 1px solid black;
+	font-size: 1rem;
+	font-family: "Franklin Gothic";
+	width: 100%;
+	max-width: 120px;
 	border-radius: 5px;
+	margin-top: 20px;
+	padding: 5px, 5%;
+	background: white;
 }
 
+button:hover {
+	background: black;
+	color: whitesmoke;
+}
 
 .service-facts {
 	display: flex;
