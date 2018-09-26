@@ -62,9 +62,6 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-* {
-  box-sizing: border-box;
-}
 
   /* container layout */
 
@@ -109,16 +106,16 @@ body {
   padding: 20px 0;
 }
 
-.services {
+.sections {
   padding-top: 70px;
 }
 
-.services h1 {
+.sections h1 {
   font-size: 35px;
   text-align: center;
-}
+} 
 
-.services_container {
+.ad_container {
   padding-top: 10px;
   padding-bottom: 10px;
   border-top: 1px solid black;
@@ -126,20 +123,34 @@ body {
   margin-bottom: 10px;
 }
 
-.services {
+.sections {
   width: 100%;
 }
 
-.services_container {
+.ad_container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.services_container p, .services_container h2 {
+.ad_container p, .ad_container h2 {
   width: 50%;
   padding-top: 15px;
 }
 
+.flex_format .ad_container h2,  
+.flex_format .ad_container .img_container { 
+  width: 20%;
+  padding-top: 15px;
+}
+
+.flex_format .ad_container h2 {
+  font-size: 1.5rem;
+  padding-top: 5%;
+}
+
+.flex_format .ad_container .p {
+  width: 59%
+}
 
 
 /* header/footer */
@@ -194,6 +205,11 @@ h1 span {
   padding-top: 50px;
   padding-bottom: 25px;
  	
+}
+
+.sections img {
+  width: 100px;
+  height: 100px;
 }
 
 
