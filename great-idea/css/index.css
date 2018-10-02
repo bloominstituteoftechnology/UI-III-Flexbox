@@ -279,3 +279,31 @@ footer {
 	color: black;
 }
 
+#productContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 840px;
+	border: 2px solid black;
+
+}
+
+.productImage {
+	border-radius: 100%;
+	width= 260px;
+	padding: 10px;
+	border: 2px solid green;
+}
+
+.productText {
+	border: 2px solid red;
+	width: 400px;
+	/* float: right; */
+
+
+
+
+}
+
