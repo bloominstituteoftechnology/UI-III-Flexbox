@@ -117,7 +117,7 @@ p, li {
 	padding: 10px;
 }
 
-.services-header-img {
+.wide-img {
 	display: block;
 	width: 100%;
 	margin-bottom: 30px;
@@ -180,4 +180,56 @@ p, li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+/* CSS For Index HTML */
+
+.header-section .innovation-section h1 {
+	font-size: 80px;
+	text-align: center;
+  }
+
+.header-section {
+	padding-bottom: 30px;
+	border-bottom: 2px solid #1a1a1a;
+	display: flex;
+	flex: wrap;
+	justify-content: space-around;
+}
+.header-section img {
+	height: 300px; 
+	width: 300px;
+}
+
+.innovation-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-content, .bottom-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.top-content .content {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	
+}
+
+.bottom-content .content {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+}
+
+.bottom-content {
+	padding-bottom: 30px;
+	border-bottom: 2px solid #1a1a1a;
 }
