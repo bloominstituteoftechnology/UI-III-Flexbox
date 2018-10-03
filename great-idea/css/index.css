@@ -63,4 +63,178 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.container {
+	margin: 0 auto;
+	width: 900px;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	padding-top: 10px;
+}
+
+p {
+	padding-bottom: 10px;
+
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+
+}
+
+nav a {
+  color: gray;
+  text-decoration: none;
+}
+
+.logo {
+	margin-right: 15px;
+}
+
+.services-header-img {
+	display: flex;
+	
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	width: 450px;
+	margin: auto;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	width: 450px;
+	margin: auto;
+}
+
+.block {
+	border: 1px solid black;
+	width: 400px;
+	height: 200px;
+	margin: 20px 0;
+	flex-direction: column;	
+	background-color: lightgray;
+	padding: 15px;
+}
+
+button {
+	height: 25px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.sections {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+header {
+	display: flex;
+	border-bottom: 1px solid black;
+	padding: 20px 0;
+	flex-direction: column;
+
+}
+
+header div {
+	padding: 50px;
+}
+
+.innovation {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	
+}
+
+.ondemand {
+	font-size: 50px;
+	text-align: center;
+}
+
+.facts {
+	display: flex;
+	justify-content: baseline;
+	padding-top: 20px;
+	border-top: 1px solid black;
+}
+
+li {
+	list-style-type: square;
+	list-style-position: inside;
+	padding: 5px;
+}
+
+
+header button {
+  width: 150px;
+  height: 25px;
+}
+
+header img {
+  border-radius: 50%;
+  height: 40%;
+  width: 40%;
+}
+
+.top-section {
+	display: flex;
+
+}
+
+.top-section div {
+	padding: 30px 0;
+	
+}
+
+
+.bottom-section {
+	display: flex;
+	border-bottom: solid black 1px;
+
+}
+
+.bottom-section div {
+	padding: 30px 0;
+
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+
+
+}
+
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+
+	
+} 
+
+
+
