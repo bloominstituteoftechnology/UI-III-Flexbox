@@ -265,3 +265,78 @@ footer {
 	width: 46%;
 
 }
+
+/* Responsive stuff */
+
+@media screen and (max-width: 600px) {
+
+	/* Global changes */
+
+	.container {
+
+		width: 500px;
+		padding: 10px;
+
+	}
+
+	a {
+
+		font-size: 12px;
+
+	}
+
+	/* Services changes */
+
+	.services {
+
+		justify-content: center;
+
+	}
+
+	.services-header-img {
+
+		width: 480px;
+		margin: auto;
+
+	}
+
+	.serviceType:nth-child(odd) {
+
+		margin-left: 0px;
+		margin-right: 0px;
+
+	}
+
+	.serviceType:nth-child(even) {
+
+		margin-left: 0px;
+		margin-right: 0px;
+
+	}
+
+	.facts {
+
+		justify-content: center;
+
+	}
+
+	.facts div {
+
+		width: 100%;
+
+	}
+
+	.facts div p {
+
+		width: 100%;
+
+	}
+
+	.facts div ul {
+
+		width: 100%;
+		margin-bottom: 20px;
+
+	}
+
+}
