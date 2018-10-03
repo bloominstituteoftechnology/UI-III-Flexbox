@@ -64,6 +64,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+@media screen and (max-width: 600px) {
+	body, header, section, div, footer {
+		display: flex;
+		flex-direction: column;
+		width: 500px;
+	}
+}
 
 
 /* Global Rules*/
@@ -291,3 +298,4 @@ footer p {
 	padding-bottom:15px;
 	font-size: 14px;
 }
+
