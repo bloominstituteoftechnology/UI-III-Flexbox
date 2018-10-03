@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* General */
+
+.container {
+	width: 875px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0;
+}
+
+nav {
+	width: 65%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+	font-size: 14px
+}
+
+h1 {
+	font-size: 70px;
+	line-height: 1.1;
+}
+
+h2 {
+	line-height: 1.1;
+}
+
+p {
+	line-height: 1.5;
+}
+
+footer {
+	margin: 80px 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Home Page CSS */
+
+.home {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.top {
+	text-align: center;
+}
+
+.home-inner {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.middle-img {
+	margin-top: 50px;
+}
+
+.middle {
+	border-top: 1px solid #000;
+	padding-top: 40px;
+}
+
+.bottom {
+	padding-bottom: 44px;
+	border-bottom: 1px solid black;
+}
+
+.home-btn {
+	width: 40%;
+	border: 1px solid #000;
+	padding: 7px 36px;
+}
+
+address {
+	margin-top: 44px;
+}
+
+/* Services CSS */
+
+h3 {
+	font-size: 28px;
+}
+
+.services-btn span {
+	font-size: 12px;
+}
+
+li::before {
+	content: "•"; color: black;
+	line-height: 2;
+}
+
+li span {
+	position: relative;
+	left: 10px;
+}
+
+.services {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 40px 0;
+}
+
+.services-btn {
+	width: 35%;
+	border: 1px solid #000;
+	padding: 10px 36px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.second {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 20px 0;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.row section {
+	background-color: #F5F5F5;
+	margin: 18px 0;
+	width: 48%;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.services-inner {
+	width: 45%;
+}
