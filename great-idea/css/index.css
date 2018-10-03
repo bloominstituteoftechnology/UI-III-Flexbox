@@ -121,6 +121,84 @@ footer {
 
 /* Home Styles */
 
+.homeBanner {
+
+	display: flex;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+	padding: 5% 0px 10% 0px;
+	justify-content: space-between;
+
+}
+
+.header-text {
+
+	width: 50%;
+	text-align: center;
+
+}
+
+.header-text h1 {
+
+	font-size: 78px;
+
+}
+
+.startButton {
+
+	border: 1px solid black;
+	padding: 10px 50px;
+	background-color: white;
+
+}
+
+.section1 {
+
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.section1 section {
+
+	width: 49%;
+
+}
+
+.middle-img {
+
+	margin: 40px 0px;
+
+}
+
+.section2 {
+
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.section2 section {
+
+	width: 32%;
+
+}
+
+.contact {
+
+	border-top: 1px solid black;
+	padding-top: 40px;
+	margin-top: 50px;
+
+}
+
+.pg1footer {
+
+	padding-top: 50px;
+	height: 200px;
+
+}
+
 /* Services Styles */
 
 .services {
