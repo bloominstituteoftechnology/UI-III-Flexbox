@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* general style */
+
+.container {
+	width:880px;
+	margin:0 auto;
+}
+
+.container header {
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.container header nav{
+	display:flex;
+	width:600px;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.container header nav a{
+	color:grey;
+	text-decoration:none;
+}
+
+.container footer {
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 60px 0px 40px;
+}
+
+/*       home style        */
+.container .home {
+
+}
+
+/*       services style    */
+
+.container .services {
+	
+}
+
+.services .banner {
+	padding-bottom:40px;
+	border-bottom: 1px solid black;
+}
+
+
+.services h1{
+	font-size: 30px;
+}
+
+.services .wrapper{
+	padding-bottom:10px;
+}
+
+.services .services-intro{
+	padding-top:20px;
+	padding-bottom:30px;
+	margin-bottom:25px;
+	border-bottom:1px solid black;
+}
+
+.services .services-section{
+	border-bottom:2px solid black;
+	padding-bottom:40px;
+	width:880px;
+	height:700px;
+	display:flex;
+	flex-direction: row;
+	align-content: space-between;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.services .services-section div{
+	padding-bottom:0px;
+	border-bottom:0px solid black;
+	width:420px;
+	height:205px;
+	padding:20px;
+	background:rgb(241, 241, 241);
+	border:1px solid black;
+}
+
+.services .services-section div p{
+	margin-bottom:15px;
+}
+.services .services-section div button{
+	padding:7px 40px;
+	border-radius: 4px;
+	border:1px solid black;
+}
+
+.services .facts{
+	width:880px;
+	height:300px;
+	margin:40px 0px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+.services .facts div{
+	width:430px;
+	margin:0px;
+	display: flex;
+	flex-flow: wrap;
+}
+
+.services .facts div.text p{
+	padding-top: 0px;
+	padding-right: 20px;
+}
+.services .facts div ul{
+	padding-top: 0px;
+	line-height: 1.5;
+	list-style-type: disc;
+	padding-left:20px;
+}
+
