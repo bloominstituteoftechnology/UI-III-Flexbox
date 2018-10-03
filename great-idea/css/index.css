@@ -154,3 +154,30 @@ p, li {
 	padding-bottom: 30px;
 	border-bottom: 2px solid #1a1a1a;
 }
+
+.bottom-content {
+	display: flex;
+	flex: wrap;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.bottom-content .fact-content {
+	width: 48%;
+}
+
+.bottom-content .services-info-img {
+	width: 48%;
+}
+
+.bottom-content .fact-content ul li {
+	list-style: square inside none;
+	line-height: 2;
+}
+
+.footer {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
