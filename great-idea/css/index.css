@@ -103,3 +103,10 @@ p, li {
 	border: 1px solid red;
 	padding: 10px;
 }
+
+.services-header-img {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
