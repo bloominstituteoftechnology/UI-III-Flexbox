@@ -67,3 +67,39 @@ h1, h2, h3, h4, h5 {
 * {
 	box-sizing: border-box;
 }
+
+h1, h2 {
+	font-family: "Noto Serif", serif;
+}
+
+p, li {
+	font-family: "Lato", serif;
+	line-height: 1.4;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.header .nav-menu {
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+}
+
+.header .nav-menu a {
+	text-decoration: none;
+	color: #b3b3b3;
+	border: 1px solid red;
+	padding: 10px;
+}
