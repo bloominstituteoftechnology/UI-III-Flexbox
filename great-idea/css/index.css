@@ -194,51 +194,60 @@ h1, h2, h3, h4, h5 {
 	font-size: 14px;
   }
 
-  /* Services */
+	/* Services */
 
-  .services .services-header-img{
-	  display: block;
-	  margin: 30px 0;
-  }
+	.services .services-header-img {
+		margin-top: 20px;
+	}
+	
+	.services-info {
+		display: flex;
+		flex-direction: column;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid black;
+	}
 
-  .services .services-info {
-	  padding-bottom: 30px;
-	  border-bottom: 1px solid black;
-	  margin-bottom: 30px;
-  }
+	.services-info h1 {
+		font-size: 25px;
+	}
 
-  .services .services-info h1 {
-	  font-size: 25px;
-  }
+	.service-content {
+		display: flex;
+		flex-wrap: wrap;
+		width: 880px;
+		height: 900px;
+		justify-content: space-between;
+		border-bottom: 2px solid black;
+	}
 
-  .services .service-content {
-	  width: 900px;
-	  height: 900px;
-	  display: flex;
-	  flex-wrap: wrap;
-	  border-bottom: 2px solid black;
-	  justify-content: space-between;
-	  align-items: center;
-  }
+	.service-content div {
+		display: flex;
+		height: 250px;
+		width: 420px;
+		border: 1px solid black;
+		background-color: #F4F3F4;
+		margin-bottom: 40px;
+		justify-content: space-evenly;
+		flex-direction: column;
+		flex-wrap: wrap;
+		padding-left: 15px;
+		padding-right: 20px;
+		margin-top: 10px;
+	}
 
-  .services .service-content  div {
-	  border: 1px solid black;
-	  width: 430px;
-	  height: 250px;
-	  background-color: #F4F3F4;
-  }
+	 /* .service-content span {
+		 height: 35px;
+		 width: 135px;
+		margin-top: 25px;
+		margin-left: 5px;
+		text-align: center;
+		border: 1px solid black;
+		background-color: #FFFFFF;
+	} */
 
-  .services .service-content .service-heading {
-	  margin-top: 20px;
-	  margin-left: 20px;
-  }
-
-  .services p {
-	  margin-bottom: 20px;
-	  margin-left: 20px;
-  }
-
-  .services .service-content span {
+	.services .service-content span {
 	  display: inline-block;
 	  margin-left: 20px;
 	  margin-top: 20px;
@@ -250,49 +259,25 @@ h1, h2, h3, h4, h5 {
 	  font-size: 13px;
   }
 
-   .services .end-content {
-	   /* margin-top: 35px; */
-	   display: flex;
-	   width: 900px;
-	   height: 400px;
-		/* flex-direction: column; */
-		justify-content: space-between;
-		/* align-items: center; */
+	.services .end-content {
+		display: flex;
 		flex-wrap: wrap;
-   }
+		flex-direction: column; /* row */
+		height: 400px;
+		width: 880px;
+		margin-top: 40px; 
+		align-items: flex-start;
+	}
 
-   .services .end-content .services-info-img {
-	height: 300px;
-	/* width: 400px; */
-	/* margin-bottom: 200px; */
-	/* align-self: flex-end; */
-}
+	.end-content .services-info-img {
+		margin-left: 33px;
+	}
 
-   .services .end-content h4 {
-	   margin-right: 250px;
-	   margin-top: 30px;
-   }
-
-   .services .end-content p {
-	   /* margin-right: 23px; */
-	   /* margin-bottom: 230px; */
-   }
-
-   .services .end-content ul {
-	   margin-left: 20px;
-	   margin-bottom: 100px;
-	   /* width: 200px; */
-	   list-style-type: square;
-	   font-size: 15px;
-   }
-
-
-
-   .services footer{
-	   font-size: 16px;
-	   /* margin-top: 150px; */
-   }
-
+	.end-content .about-fact ul {
+		margin-top: 30px;
+		margin-left: 15px;
+		list-style-type: square;
+	}
 
    /* Features */
 
@@ -306,6 +291,6 @@ h1, h2, h3, h4, h5 {
    }
 
    .features section {
-	   margin: 20px;
-   }
+	   margin:  40px;
+	 }
 
