@@ -237,16 +237,6 @@ h1, h2, h3, h4, h5 {
 		margin-top: 10px;
 	}
 
-	 /* .service-content span {
-		 height: 35px;
-		 width: 135px;
-		margin-top: 25px;
-		margin-left: 5px;
-		text-align: center;
-		border: 1px solid black;
-		background-color: #FFFFFF;
-	} */
-
 	.services .service-content span {
 	  display: inline-block;
 	  margin-left: 20px;
@@ -262,7 +252,7 @@ h1, h2, h3, h4, h5 {
 	.services .end-content {
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: column; /* row */
+		flex-direction: column;
 		height: 400px;
 		width: 880px;
 		margin-top: 40px; 
