@@ -120,13 +120,14 @@ nav a {
 	align-content: flex-end;
 	width: 450px;
 	margin: auto;
+	/* border: 4px solid red; */
 }
 
 .block {
 	border: 1px solid black;
-	width: 400px;
+	width: 430px;
 	height: 200px;
-	margin: 20px 0;
+	margin: 10px;
 	flex-direction: column;	
 	background-color: lightgray;
 	padding: 15px;
