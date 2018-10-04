@@ -272,15 +272,14 @@ h1, h2, h3, h4, h5 {
    /* Features */
 
    .features {
-	   width: 1000px;
-	   height: 1000px;
 	   display: flex;
-	   justify-content: center;
-	   flex-direction: column;
+		 align-items: center;
+		 flex-direction: column;
+		 margin-top: 10px;
 	   border: 1px solid purple;
    }
 
-   .features section {
+   /* .features section {
 	   margin:  40px;
-	 }
+	 } */
 
