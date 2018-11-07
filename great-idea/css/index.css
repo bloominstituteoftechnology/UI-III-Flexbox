@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* TAG SELECTORS */
+
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+h1 {
+	font-size: 70px;
+	letter-spacing: 5px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+nav {
+	/* border: 2px solid blue; */
+	/* display: inline-block; */
+	margin: 32px auto;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 0px 30px;
+	color: lightgrey;
+}
+
+nav a:hover {
+	color: #2d3235;
+}
+
+button {
+	background: white;
+	border: 1px solid black;
+	padding: 8px 50px;
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+button:hover {
+	box-shadow: 0 2px 2px #2d3235;
+}
+
+address {
+	border-top: 1px solid black;
+	padding-top: 40px;
+	/* margin: 40px 0; */
+}
+
+footer {
+	background: #6f7c84;
+	height: 50px;
+	padding-top: 20px;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+/* CLASS SELECTORS */
+
+
+.top-nav {
+	height: 80px;
+	width: 900px;
+	display: flex;
+}
+
+.logo {
+	right: 0;
+	margin: 20px 0;
+	padding-right: 10px;
+}
+
+/* 
+.logo-image {
+	background-image: url("/img/header-img.png");
+} */
+
+.main-banner {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 70px 0;
+}
+
+.title-block {
+	text-align: center;
+}
+
+.header-image {
+	/* border: 1px solid red; */
+}
+
+.double-wide {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 40px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.triple-wide {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: space-around;
+	margin: 40px 0;
+	padding: 40px 0;
+	/* padding: 10px 20px; */
+}
+
+
+
+
+
+
+/* HOME PAGE SELECTORS */
+
+
+
+/* SERVICES PAGE SELECTORS */
+
+
