@@ -101,6 +101,20 @@ General CSS
 	color: rgba(0,0,0,.3);
 }
 
+button {
+	background: transparent;
+}
+
+button:hover {
+    outline: none;
+    border: none;
+}
+
+button:active {
+    outline: none;
+    border: none;
+}
+
 
 /* -------------------      Home Page CSS  ----------------------*/
 
@@ -132,18 +146,9 @@ General CSS
 .cta button {
 	width: 10vw;
 	height: 4vh;
-	background: transparent;
 }
 
-button:hover {
-    outline: none;
-    border: none;
-}
 
-.cta button:active {
-    outline: none;
-    border: none;
-}
 
 /* main content */
 
@@ -208,6 +213,41 @@ footer {
 }
 
 .info-section h1 {
-	font-size: 30px;
+	font-size: 35px;
+}
+
+.services {
+	border-top: 2px solid rgba(0,0,0,.25);
+	border-bottom: 2px solid rgba(0,0,0,.25);
+	padding: 1vh 0;
+
+}
+
+.row {
+	display:flex;
+	justify-content: space-between;
+	margin: 4vh 0;
+	
+}
+
+.card {
+	background: rgba(0,0,0,.15);
+	border: 2px solid rgba(0,0,0,.25);
+	width: calc(100%/2 - 1.5vw);
+}
+
+.card * {
+	padding: 2vh 0;
+
+}
+
+card h4 {
+	font-size: 20px;
+}
+
+.card button {
+	width: 6vw;
+	height: 2vh;
+	background: white;
 }
 
