@@ -78,7 +78,7 @@ h2{
 }
 
 .container {
-	width: 1100px;
+	max-width: 1100px;
 	margin: 0 auto;
 }
 
@@ -147,13 +147,12 @@ nav a:hover{
 
 .header-flex-cont{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 100px;
 }
 
 .header-cont-left{
-	margin: 100px 100px 0 0;
-	/* overflow: hidden; */
-	padding: 100px 0;
 	text-align: center;
 }
 
@@ -172,7 +171,6 @@ nav a:hover{
 }
 
 .header-cont-right{
-	margin-top: 100px;
 	text-align: center;
 }
 
@@ -217,7 +215,8 @@ nav a:hover{
 .info-card{
 	background-color: #f4f3f4;
 	text-align: left;
-	width: 530px;
+	max-width: 530px;
+	flex-shrink:8;
 	padding: 20px;
 	border: 1px solid #212121;
 	/* margin-bottom: 40px; */
