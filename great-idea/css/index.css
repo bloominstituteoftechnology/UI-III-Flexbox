@@ -143,12 +143,15 @@ nav a:hover{
 	align-self: center;
 }
 
+.header-flex-cont{
+	display: flex;
+}
+
 .header-cont-left{
 	margin-top: 100px;
-	display: inline-block;
 	width: 49%;
 	height: 379px;
-	overflow: hidden;
+	/* overflow: hidden; */
 	padding: 100px 0;
 	text-align: center;
 }
@@ -168,10 +171,10 @@ nav a:hover{
 }
 
 .header-cont-right{
-	display: inline-block;
+	margin-top: 100px;
 	width: 49%;
 	height: 379px;
-	overflow: hidden;
+	/* overflow: hidden; */
 	text-align: center;
 }
 
