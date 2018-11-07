@@ -199,3 +199,30 @@ footer {
 .services-main {
 	margin: 35px 0;
 }
+
+.services-main h2 {
+	font-size: 20px;
+}
+
+.services-content-section {
+	display: flex;
+	width: 880px;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+	border-bottom: 1px solid black;
+}
+
+.services-text-content {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	background: gray;
+	border: 1px solid yellow;
+}
+
+/* .learn-more-button {
+	padding: 5px 30px;
+	height: 60px;
+	width: 100px;
+	text-align: center;
+} */
