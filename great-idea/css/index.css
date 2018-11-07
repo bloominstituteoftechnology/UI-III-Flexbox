@@ -64,3 +64,204 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*Global Styles*/
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 26px;
+}
+h3 {
+	font-size: 16px;
+}
+p {
+	line-height: 20px;
+}
+a {
+	text-decoration: none;
+}
+
+nav {		
+	display: flex;	
+	margin-top: 30px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	margin-top: 10px;
+}
+li {
+  margin: 15px 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	margin: 75px 0;
+}
+	
+footer {
+	margin-top: 50px;
+	margin-bottom: 150px;
+	text-align: center;
+}
+
+nav a {
+	color: gray;
+	font-size: 14px;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+/*Main Styles*/
+
+.header-content {
+	display: flex;
+}
+
+.tagline {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.button {
+	background: none;
+	color: black;
+	border: 1px solid black;
+	padding: 10px 50px;
+	
+  }
+
+  .features {
+	border-top: 1px solid black;
+	padding: 40px 0;
+	display: flex;
+  }
+
+.feature-content {
+
+  }
+
+  .middle-img {
+	width: 100%;
+}
+
+.product {
+	border-bottom: 1px solid black;
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-content {
+  padding: 5px;
+}
+
+.contact {
+	margin-top: 50px;
+}
+
+.contact address {
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/*Services Styles*/
+
+.header-container {
+	margin-bottom: 40px;
+	border-bottom: 1px solid black;
+	padding: 0 0 40px 0;
+}
+
+.services-header-img {
+	margin: 20px 0;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.box {
+	border: 1px solid black;
+	background:#eeeeee;
+	padding: 20px;
+	width: 47.5%;
+}
+
+.button-services {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 11px;
+	font-family: 'Helvetica', sans-serif;
+	padding: 10px 30px;
+	margin-top: 20px;
+	width: 150px;
+	text-align: center;
+}
+
+.facts {
+	border-top: 2px solid black;
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.facts-container {
+	width: 47.5%;
+}
+
+/* Vision Styles */
+
+.headshots {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: center;
+}
+.headshot {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+	padding: 20px 40px;
+}
+
+.headshot strong {
+	margin-top: 20px;
+	font-weight: 800;
+}
+
+.headshot p {
+	margin-top: 10px;
+}
+.headshot-photo {
+	border-radius: 50%;
+}
+
+.values {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px 0;
+}
+
+.team {
+	margin: 50px 0;
+	padding: 40px 0;
+	border-top: 1px solid black;
+}
