@@ -115,6 +115,11 @@ button:active {
     border: none;
 }
 
+footer {
+	padding: 6vh 0;
+	text-align: center;
+}
+
 
 /* -------------------      Home Page CSS  ----------------------*/
 
@@ -193,10 +198,7 @@ button:active {
 	padding: .8vh 0;
 }
 
-footer {
-	padding: 3vh 0;
-	text-align: center;
-}
+
 
 
 
@@ -223,6 +225,8 @@ footer {
 
 }
 
+/* middle section */
+
 .row {
 	display:flex;
 	justify-content: space-between;
@@ -237,7 +241,7 @@ footer {
 }
 
 .card * {
-	padding: 2vh 0;
+	padding: 2vh 2vh;
 
 }
 
@@ -246,8 +250,30 @@ card h4 {
 }
 
 .card button {
-	width: 6vw;
+	width: 16vw;
 	height: 2vh;
 	background: white;
+	margin-bottom: 2vh;
+}
+
+/* bottom section */
+
+.facts {
+	display: flex;
+	margin: 4vh 0;
+}
+
+.facts ul {
+	list-style: disc;
+	padding-top: 3vh;
+}
+
+.facts ul li {
+	padding: 1vh 0;
+}
+
+.facts__left-side {
+	display:flex;
+	flex-direction: column;
 }
 
