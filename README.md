@@ -26,7 +26,6 @@ Once you have finished the home page using flex box module, go build the service
   
   **Remember, you should continue using box model properties this whole time.  Flexbox is only used for bigger layout pieces.  You will still need content width, padding, border, and margins to succeed.**
 
-<<<<<<< HEAD
 - [x] Refactor the home page layout with flexbox where `inline-block` was used before
 - [x] In your navigation, point the services anchor tag's `href` to `services.html`
 - [x] Copy and paste the contents of your `index.html` page into your empty `services.html` page.  
@@ -39,9 +38,3 @@ Once you have finished the home page using flex box module, go build the service
 - [x] Add an anchor tag around the Great Idea logo and point the `href` to`index.html`
 - [x] Create another page based on one of the navigation items in addition to services.  Try to create a layout that follows the patterns of the first two designs but with your own creative twist.  Use lorem ipsum text for all your content.
 - [ ] Introduce media queries into your services page to create a mobile view that stacks all the boxes on top of each other on phone but looks like the layout file on desktop.
-=======
-## Stretch Goals
-
-* [ ] Create another page based on one of the navigation items in addition to services.  Try to create a layout that follows the patterns of the first two designs but with your own creative twist.  Use lorem ipsum text for all your content.
-* [ ] Introduce media queries into your services page to create a mobile view that stacks all the boxes on top of each other on phone but looks like the layout file on desktop.
->>>>>>> upstream/master
