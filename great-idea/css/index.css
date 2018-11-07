@@ -108,7 +108,9 @@ h1, h2, h3, h4, h5 {
   /* cta */
   
   .cta .cta-text {
-	display: inline-block;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
 	vertical-align: top;
 	font-size: 77px;
 	margin-top: 120px;
@@ -132,7 +134,7 @@ h1, h2, h3, h4, h5 {
   }
   
   .cta img {
-	display: inline-block;
+	display: inline-flex;
 	margin-top: 69px;
   }
   
@@ -196,4 +198,58 @@ h1, h2, h3, h4, h5 {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
+  }
+
+
+
+
+  .intro-pic {
+	margin: 15px;
+ 	display: flex;
+	justify-content: center;
+  }
+
+  .boxes {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 20px;
+  }
+
+  .box {
+	margin: 15px;
+	padding: 15px;
+	border: 1px solid black;
+	background: rgb(236, 236, 236);
+  }
+
+  .row1 {
+	display: inline-flex;
+
+  }
+
+  .row2 {
+	display: inline-flex;
+  }
+
+  .row3 {
+	display: inline-flex;
+  }
+
+  .intro {
+	margin: 15px;
+  }
+
+  .bottom {
+	display: inline-flex;
+	justify-content: space-evenly;
+	margin: 25px;
+	padding: 25px;
+  }
+
+  .awesome {
+	  margin: 0 25px 0 0;
+  }
+
+  ul {
+	list-style-type: square;
   }
