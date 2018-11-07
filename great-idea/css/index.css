@@ -3,64 +3,369 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container header {
+  display: flex;
+}
+.container header nav {
+  display: flex;
+  position: relative;
+  top: 30px;
+  right: 0;
+  width: 600px;
+}
+
+.container header nav a {
+  padding: 0 50px 0 0;
+  color: gray;
+  text-decoration: none;
+  font: bold;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container header img {
+  position: relative;
+  top: 20px;
+  left: 110px;
+}
+
+.container div.big {
+  display: flex;
+  position: relative;
+  top: 30px;
+  width: 900px;
+  height: 500px;
+  border-bottom: 2px solid black;
+}
+
+.container div.big div.title {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  left: 80px;
+  top: 100px;
+  width: 280px;
+  text-align: center;
+}
+
+.container div.big img {
+  position: relative;
+  top: 50px;
+  left: 250px;
+  width: 366px;
+  height: 366px;
+}
+
+h1 {
+  font: bold;
+  font-size: 56pt;
+}
+
+div.service-text h2 {
+  font-size: 20pt;
+}
+
+img.services-header-img {
+  height: 200px;
+}
+
+img.products-info-img {
+  height: 345px;
+  width: 420px;
+}
+
+img.middle-img {
+}
+.container div.big div.title div.subhead {
+  border: 2px solid black;
+  padding: 4px 20px;
+  width: 150px;
+  align-self: center;
+}
+
+.container section.index {
+  height: 615px;
+  border-bottom: 2px solid black;
+}
+
+.container section.service {
+  height: 415px;
+  border-bottom: 2px solid black;
+}
+
+.container section div.content {
+  position: relative;
+  display: flex;
+  height: 545px;
+  flex-direction: column;
+  top: 50px;
+  justify-content: space-around;
+}
+
+.container section div.sub-content {
+  position: relative;
+  display: flex;
+  height: 345px;
+  flex-direction: column;
+  top: 50px;
+  justify-content: space-around;
+}
+
+.container section div.content div.words {
+  padding: 20px 0px;
+  display: flex;
+}
+
+.container section div.content div.words div.halves1 {
+  margin: 0 20px 0 0;
+  width: 445px;
+}
+
+.container section div.content div.words div.halves2 {
+  width: 430px;
+}
+
+.container section div.content div.words div.thirds {
+  margin: 0 25px 0 0;
+  width: 280px;
+}
+
+.container section div.content div.words div.lastthirds {
+  width: 280px;
+}
+
+.middle-img {
+  padding: 25px 0 25px 0;
+  width: 900px;
+}
+.container footer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 900px;
+  height: 300px;
+  top: 40px;
+}
+
+.container footer.short {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 900px;
+  height: 100px;
+  top: 60px;
+}
+
+.container footer div.copyright {
+  position: relative;
+  text-align: center;
+  top: 60px;
+}
+
+.service-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.container div.six-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 20px 0;
+  padding: 0 0 20px 0;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.container div.item {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 430px;
+  padding: 30px 20px 20px 20px;
+  margin: 10px 0 20px 0;
+  border: 2px solid black;
+  background: rgb(245, 245, 245);
+}
+
+div.learn-more {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  margin: 20px 0 0 0;
+  width: 120px;
+  height: 30px;
+  background: white;
+  text-align: center;
+  font-size: 10pt;
+}
+
+.container div.content-ish {
+  position: relative;
+  display: flex;
+  height: 345px;
+  flex-direction: row;
+  top: 20px;
+  justify-content: space-around;
+}
+
+div.facts {
+  width: 480px;
+  padding: 0 60px 0 0px;
+}
+
+ul.bullets {
+  margin: 30px 0 0 30px;
+  list-style-type: square;
+  line-height: 2;
+}
