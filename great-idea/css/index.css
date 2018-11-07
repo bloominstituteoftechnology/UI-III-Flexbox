@@ -199,7 +199,7 @@ div.service-text h2 {
 	flex-direction: column;
 	width: 900px;
 	height: 100px;
-	top: 40px;
+	top: 60px;
 }
 
 .container footer div.copyright {
@@ -217,7 +217,7 @@ div.service-text h2 {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 20px 0 20px 0;
-	padding: 0 0 40px 0;
+	padding: 0 0 20px 0;
 	justify-content: space-between;
 	border-bottom: 2px solid black;
 }
@@ -225,10 +225,10 @@ div.service-text h2 {
 .container div.item {
 	display: flex;
 	flex-direction: column;
-	height: 220px;
-	width: 400px;
-	padding: 20px;
-	margin: 10px 0 0 0;
+	height: 250px;
+	width: 430px;
+	padding: 30px 20px 20px 20px;
+	margin: 10px 0 20px 0;
 	border: 2px solid black;
 	background: rgb(245, 245, 245);
 }
@@ -236,7 +236,7 @@ div.service-text h2 {
 div.learn-more {
 	border: 1px solid black;
 	border-radius: 5px;
-	padding: 4px 20px;
+	padding: 5px 20px 5px 20px;
 	margin: 20px 0 0 0;
 	width: 120px;
 	height: 30px;
@@ -250,7 +250,7 @@ div.learn-more {
 	display: flex;
 	height: 345px;
 	flex-direction: row;
-	top: 50px;
+	top: 20px;
 	justify-content: space-around;
 }
 
@@ -261,5 +261,6 @@ div.facts {
 
 ul.bullets {
 	margin: 30px 0 0 30px;
-    list-style-type: square;
+	list-style-type: square;
+	line-height: 2.0;
 }
