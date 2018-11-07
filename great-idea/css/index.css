@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+/* General Styles */
+p{
+	font-family: 'Nunito', sans-serif;
+	line-height: 1.25;
+}
+a {
+	text-decoration: none;
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+.flex{
+	display: flex;
+}
+.border-top{
+	border-top: 1px solid black;
+}
+.border-bottom{
+	border-bottom: 1px solid black;
+}
+.navigation{
+	justify-content: flex-end;
+	align-items: center;
+	background: lightblue;
+}
+nav{
+	justify-content: flex-start;
+	width: 1000%;
+	height: 120px;
+	align-items: center;
+	
+}
+nav a{
+	margin: 0 40px;
+	color:white;
+}
+.navigation img{
+	margin: 0 20px;
+}
+
+h1{
+	font-size: 5em;
+	margin-bottom: 35px; 
+}
+footer {
+	text-align: center;
+	margin: 40px auto 120px;
+}
+/* Page Styles */
+
+.main-header{
+	justify-content: space-around;
+	text-align: center;
+	padding: 80px 0;
+	align-items: center;
+}
+.main-content{
+	padding: 60px 0;
+}
+.features{
+	width: 50%;
+}
+.about{
+	width: 50%;
+	padding-left: 20px;
+}
+.optiontwo{
+	justify-content: space-between;
+}
+.services, .product {
+	padding: 0 20px 0 0;
+}
+.vision{
+	padding: 0 0 20px 0;
+}
+.mid-image{
+	margin: 50px 0px;
+	width: 100%;
+}
+address{
+	margin-top: 50px;
+}
+/* Specific styles */
+.button{
+	padding: 4px 50px;
+	border: 1px solid black;
+	color: black;
+}
+.button:hover{
+	background: lightblue;
+	color: white;
+	border: 1px dashed darkblue;
+}
+
+.phone-number{
+	margin: 20px 0;
+	line-height: 2.5;
+}
+
