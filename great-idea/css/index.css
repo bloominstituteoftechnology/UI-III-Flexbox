@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -64,3 +64,186 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+    margin: 90px 110px auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+header nav a {
+    margin: 10px 20px ;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+
+}
+
+header{
+    margin: 10px 0px 30px 0px;
+}
+/******first section css and header*************/
+
+.ondemand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 9px 0px 10px 0px;
+}
+
+.btn {
+    display: flex;
+    margin-top:110px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px grey;
+}
+
+.ondemand h1{
+    font-size: 70px;
+    line-height: 90px;
+    text-shadow: 5px 5px grey;
+}
+
+
+.on{
+    margin: 50px;
+    font-size: 80px;
+}
+
+/******section one css*************/
+
+.sectionone{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.sectionone p {
+    margin: 20px 0px 40px 0px;
+}
+
+/******The image between ********/
+
+.middle-img{
+    width: 100%;
+}
+
+/******section two css ********/
+
+.sectiontwo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.sectiontwo h3{
+    margin-top: 23px;
+}
+
+.sectiontwo p {
+    margin: 20px 0px 40px 0px;
+}
+
+/******footer css **********/
+
+.copy{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 90px;
+}
+
+
+hr{
+    border:none;
+    height: 20px;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+}
+
+/*****+++++++++++++++++++++++secondpage********************/
+
+.services-header-img{
+    width: 100%;
+}
+
+.square1{
+    display: flex;    
+}
+
+.firstset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border : 1px solid grey;
+    margin: 40px 0px 20px 0px;
+}
+
+.firstset h2, .firstset p{
+   padding: 30px;
+}
+
+.firstset button {
+    margin: 10px 0px 20px 28px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+/*******right side element*/
+
+.secondset{
+    margin: 40px 0px 20px 50px;
+}
+
+/*
+.thirdset{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+
+
+.border {
+    border: none;
+}
+
+.pic{
+    margin: 40px 0px 20px 155px;
+}
+
+*/
+/** styling the last paragraph*/
+ul{
+    padding: 50px;
+    list-style:initial;
+    line-height: 1.5;
+}
+
+.column{
+    float: left;
+    width: 50%;
+   
+    margin: 40px 0px 20px 0px;
+}
+
+.square2:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.services-info-img{
+    margin: 10px 0px 0px 30px;
+}
+
+.services{
+    margin: 40px 0px 50px 0px;
+}
