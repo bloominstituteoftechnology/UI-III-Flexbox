@@ -131,6 +131,15 @@ div.service-text h2 {
 	font-size: 20pt;
 }
 
+img.services-header-img {
+	height: 200px;
+}
+
+img.products-info-img {
+	height: 345px;
+	width: 420px;
+}
+
 .container div.big div.title div.subhead {
 	border: 2px solid black;
 	padding: 4px 20px;
