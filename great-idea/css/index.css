@@ -132,7 +132,7 @@ header nav a:hover {
 .cta img {
   margin-top: 68px;
 }
-
+ /* main content */
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
@@ -140,17 +140,16 @@ header nav a:hover {
 }
 
 .main-content .top-content {
-  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .main-content .top-content .text-content {
-  width: 410px;
-  display: inline-block;
-  margin-right: 34px;
-}
-
-.main-content .top-content .text-content:last-child {
-  margin-right: 0;
+  width: 425px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .main-content .middle-img {
@@ -158,18 +157,12 @@ header nav a:hover {
 }
 
 .main-content .bottom-content {
+  display: flex;
+  width: 880px;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-top: 37px;
-  padding: 0 10px;
-}
-
-.main-content .bottom-content .text-content {
-  width: 275px;
-  display: inline-block;
-  margin-right: 12px;
-}
-
-.main-content .bottom-content .text-content:last-child {
-  margin-right: 0;
+  padding: 0 5px;
 }
 
 .contact {
