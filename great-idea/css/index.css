@@ -77,12 +77,13 @@ h1, h2, h3, h4, h5 {
   header {
 	  display: flex;
 	  justify-content: space-between;
-	  align-items: flex-end;
+	  align-content: center;
+	  flex-direction: row;
 	  padding: 10px;
   }
   
   header nav a {
-	margin-right: 65px;
+	
 	font-size: 14px;
 	color: gray;
 	text-decoration: none;
