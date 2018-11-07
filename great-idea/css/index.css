@@ -182,9 +182,12 @@ h5 {
 	margin: 0 auto;
 }
 
+/* home styles  */
+
 /* header */
 header {
 	display: flex;
+
 }
 
 header nav {
@@ -309,4 +312,33 @@ footer {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
+}
+
+/* Services Styles */
+#services header {
+
+	display: flex;
+	margin-bottom: 40px;
+}
+
+#services .top-section {
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+#services .content-section {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	border-top: 1px solid black;
+}
+
+#services .content {
+
+	border: 1px solid grey;
+	background-color: lightgray;
+	width: 350px;
+	padding: 20px;
+	margin: 20px;
 }
