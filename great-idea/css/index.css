@@ -64,3 +64,165 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.container nav {
+	/* display: inline-block;
+	width: 700px;
+	vertical-align: top;
+	margin-top: 35px; */
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+	margin-top: 35px;
+}
+
+.container nav a {
+	/* display: inline-block;
+	margin-right: 65px; */
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+}
+
+.container nav a:hover {
+	text-decoration: underline;
+}
+
+.container nav a:first-child {
+	margin-left: 0;
+}
+
+.container nav a:last-child {
+	margin-right: 0;
+}
+
+.logo {
+	/* display: inline-block; */
+	margin-top: 25px;
+	/* display: flex;
+	justify-content: flex-end; */
+}
+
+.container header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.main_boxes {
+	/* border-top: 50px;
+	border-top-color: 1px solid black; */
+	display: flex;
+	width: 1500px;
+	flex-wrap: wrap;
+	/* justify-content: space-between; */
+}
+
+.box {
+	width: 500px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	background: lightgray;
+}
+
+.facts {
+	width: 500px;
+}
+
+.facts ul {
+	list-style-type: disc;
+}
+
+.main .main-text {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 75px;
+}
+
+.main .main-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.main .main-text button:hover {
+	background: black;
+	color: white;
+}
+
+.main img {
+	display: inline-block;
+	margin-top: 69px;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+}
+
+.main-content .top-content {
+	padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+	width: 410px;
+	display: inline-block;
+	margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+	margin-right: 0;
+}
+
+.middle-img {
+	margin-top: 45px;
+}
+
+.bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+}
+
+.bottom-content .text-content {
+	width: 275px;
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.bottom-content .text-content:last-child {
+	margin-right: 0;
+}
+
+.contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+}
