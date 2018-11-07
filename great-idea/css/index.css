@@ -73,6 +73,29 @@ p{
 a {
 	text-decoration: none;
 }
+ol{
+	list-style: square;
+	list-style-position: inside;
+}
+h1{
+	font-size: 5em;
+	margin-bottom: 35px; 
+}
+nav{
+	justify-content: space-between;
+	width: 100%;
+	height: 120px;
+	align-items: center;
+	margin-right: 100px;
+}
+nav a{
+	
+	color:black;
+}
+footer {
+	text-align: center;
+	margin: 40px auto 120px;
+}
 .container{
 	width: 85%;
 	margin: 0 auto;
@@ -89,33 +112,23 @@ a {
 .navigation{
 	justify-content: flex-end;
 	align-items: center;
-	background: lightblue;
+	/* background: lightblue; */
 }
-nav{
-	justify-content: flex-start;
-	width: 1000%;
-	height: 120px;
-	align-items: center;
-	
-}
-nav a{
-	margin: 0 40px;
-	color:white;
-}
-.navigation img{
+.logo{
 	margin: 0 20px;
+	display: inline-block;
 }
-
-h1{
-	font-size: 5em;
-	margin-bottom: 35px; 
+.button{
+	padding: 4px 50px;
+	border: 1px solid black;
+	color: black;
 }
-footer {
-	text-align: center;
-	margin: 40px auto 120px;
+.button:hover{
+	background: lightblue;
+	color: white;
+	border: 1px dashed darkblue;
 }
-/* Page Styles */
-
+/* HOME STYLES */
 .main-header{
 	justify-content: space-around;
 	text-align: center;
@@ -148,20 +161,65 @@ footer {
 address{
 	margin-top: 50px;
 }
-/* Specific styles */
-.button{
-	padding: 4px 50px;
-	border: 1px solid black;
-	color: black;
-}
-.button:hover{
-	background: lightblue;
-	color: white;
-	border: 1px dashed darkblue;
-}
-
 .phone-number{
 	margin: 20px 0;
 	line-height: 2.5;
 }
+/* SERVICES STYLES */
+.services-header{
+	padding-bottom: 45px;
+}
+.services-header p {
+	line-height: 1.5;
+}
+.services-header-img{
+	margin: 20px 0;
+	width: 100%;
+}
+.services-title {
+	font-size: 2em;
+	margin: 10px 0 25px;
+}
+.service-content{
+	margin: 40px 0;
+	padding: 0 0 40px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card{
+	border: 1px solid black;
+	background: lightgray;
+	width: 48%;
+	padding: 20px 20px 35px; 
+	margin: 20px 0;
+}
+.card p{
+	width: 95%;
+	margin-bottom: 30px;
 
+}
+.learn-btn{
+	border: 1px solid black;
+	background: white;
+	border-radius: .25em;
+	padding: 4px 40px;
+}
+.service-bottom{
+	justify-content: space-between;
+}
+.service-facts{
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 0 80px 0 0;
+}
+.service-facts p{
+	line-height: 1.5;
+	width: 95%;
+	margin: 5px 0 25px;
+}
+.service-facts li{
+	margin-bottom: 15px;
+}
+.service-footer{
+	margin: 80px 0 15px;
+}
