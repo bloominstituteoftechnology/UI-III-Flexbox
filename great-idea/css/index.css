@@ -178,24 +178,19 @@ nav a:hover{
 	text-align: center;
 }
 
-.info-blocks{
-	display: inline-block;
-	padding-right: 20px;
-	text-align: left;
+.flex-cont{
+	display: flex;
 }
 
-.above-image{
-	width: 548px;
+.info-blocks{
+	padding-right: 20px;
+	text-align: left;
 }
 
 .middle-img{
 	width: 100%;
 	margin: 45px 0;
 
-}
-
-.below-image{
-	width: 364px;
 }
 
 .copyright{
