@@ -79,6 +79,28 @@ General CSS
 	
 }
 
+/*nav*/
+.header {
+	display: flex;
+	
+	justify-content: space-between;
+	align-items: center;
+	height: 30%;
+
+	margin-top: 2vh;
+}
+
+.nav {
+	display:flex;
+	justify-content: space-between;
+	width: 60%;
+}
+
+.nav a {
+	text-decoration: none;
+	color: rgba(0,0,0,.3);
+}
+
 
 /* -------------------      Home Page CSS  ----------------------*/
 
@@ -164,7 +186,7 @@ button:hover {
 }
 
 .top-content .text-content {
-	width:calc(100%/2 - 2vw;);
+	width:calc(100%/2 - 1vw);
 }
 
 .bottom-content {
@@ -177,7 +199,18 @@ button:hover {
 
 
 .bottom-content .text-content {
-	width: calc(100%/3 - 3vw);
+	width: calc(100%/3 - 2vw);
+}
+
+/* contact section */
+
+.contact * {
+	padding: .8vh 0;
+}
+
+footer {
+	padding: 3vh 0;
+	text-align: center;
 }
 
 
