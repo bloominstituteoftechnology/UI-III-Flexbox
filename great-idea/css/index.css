@@ -145,12 +145,11 @@ nav a:hover{
 
 .header-flex-cont{
 	display: flex;
+	justify-content: center;
 }
 
 .header-cont-left{
-	margin-top: 100px;
-	width: 49%;
-	height: 379px;
+	margin: 100px 100px 0 0;
 	/* overflow: hidden; */
 	padding: 100px 0;
 	text-align: center;
@@ -172,8 +171,6 @@ nav a:hover{
 
 .header-cont-right{
 	margin-top: 100px;
-	width: 49%;
-	height: 379px;
 	/* overflow: hidden; */
 	text-align: center;
 }
