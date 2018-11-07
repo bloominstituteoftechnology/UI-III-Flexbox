@@ -197,14 +197,11 @@ body {
 
 .upper-content {
   padding: 69px;
-  width: 880px;
+  /* width: 880px; */
+  display: flex;
+  justify-content: space-between;
 }
 
-.upper-content img {
-  display: inline-block;
-  position: relative;
-  left: 110px;
-}
 .upper-content button {
   text-decoration: none;
   font-size: 100%;
@@ -219,11 +216,12 @@ body {
 .product {
   width: 49%;
   padding: 20px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 .vision {
   width: 90%;
   padding: 20px;
+  align-self: flex-end;
 }
 .contact {
   width: 50%;
@@ -232,8 +230,11 @@ body {
 
 .main-bottom {
   border-bottom: 2px solid #000;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-top {
   border-top: 2px solid #000;
+  display: flex;
 }
