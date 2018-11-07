@@ -221,8 +221,12 @@ header .logo {
 
 /* cta */
 
+.cta {
+	display: flex;
+}
+
 .cta .cta-text {
-	display: inline-block;
+
 	vertical-align: top;
 	font-size: 77px;
 	margin-top: 120px;
@@ -246,7 +250,7 @@ header .logo {
 }
 
 .cta img {
-	display: inline-block;
+
 	margin-top: 69px;
 }
 
@@ -258,11 +262,12 @@ header .logo {
 
 .main-content .top-content {
 	padding: 0 10px;
+	display: flex;
 }
 
 .main-content .top-content .text-content {
 	width: 410px;
-	display: inline-block;
+
 	margin-right: 34px;
 }
 
@@ -277,11 +282,12 @@ header .logo {
 .main-content .bottom-content {
 	margin-top: 37px;
 	padding: 0 10px;
+	display: flex;
 }
 
 .main-content .bottom-content .text-content {
 	width: 275px;
-	display: inline-block;
+
 	margin-right: 12px;
 }
 
