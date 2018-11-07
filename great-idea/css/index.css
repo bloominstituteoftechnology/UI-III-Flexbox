@@ -52,7 +52,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body, button {
+html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -75,7 +75,7 @@ button {
 	background: none;
 	border: 2px solid black;
 	padding: 20px 30px;
-	margin-left: 60px;
+	font-family: 'Titillium Web', sans-serif;
 }
 button:hover {
 	background-color: #f7f7f7;
@@ -143,12 +143,18 @@ nav a:hover {
 	justify-content: space-between;
 }
 .start {
-	display: flex;
+    margin: 0 auto;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+.start h1 {
+	font-size: 3.5rem;
+    text-align: center;
 }
 
-.about-blurb1 {
+/* .about-blurb1 {
 	display: inline-block;
 	width: 450px;
 	float: left;
@@ -157,20 +163,30 @@ nav a:hover {
 	display: inline-block;
 	width: 450px;
 	float: right;
+} */
+
+.about {
+	display: flex;
 }
 
 .middle-img {
 	margin: 25px auto;
 }
-.services-blurb {
+/* .services-blurb {
 	width: 250px;
 	display: inline-block;
 	margin-right: 20px;
 }
 .middle-services-blurb {
 	margin: 0 30px;
+} */
+.services {
+	display: flex;
+    justify-content: space-between;
 }
-
+.middle-services-blurb {
+	margin: 0 30px;
+}
 
 footer p {
 	margin-top: 20px;
