@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5 {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 /* header */
@@ -178,5 +177,25 @@ header nav a:hover {
 footer {
   margin: 32px 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+/* Services Page Styles */
+
+/* header */
+.services-header-img {
+	margin-bottom: 35px;
+}
+
+.services-header h1 {
+	font-size: 35px;
+}
+.services-header p {
+	padding-bottom: 35px;
+	border-bottom: 1px solid black;
+}
+
+/* main content */
+.services-main {
+	margin: 35px 0;
 }
