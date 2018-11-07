@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.fullbody {
+	width: 882px;
+	margin: auto;
+}
+.topnav {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px 0px;
+}
+
+.topnav a {
+	color: grey;
+	text-decoration: none;
+}
+
+.headmain {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px 0px;
+	border-bottom: 1px solid black;
+}
+
+.headleft {
+	display: flex;
+	flex-direction: column;
+	width: 49%;
+}
+.headleft h1 {
+	font-size: 5.5em;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.headindex a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 225px;
+	height: 33px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.middle-img {
+	margin: 10px 0px;
+}
+
+#servibtm {
+	border-bottom: 1px solid black;
+}
+
+#servitop {
+	margin-top: 15px;
+	border-top: 1px solid black;
+}
+
+.controw {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 10px 0px;
+}
+
+.controw h1 {
+	font-size: 2em;
+}
+
+.contmodu {
+	display: flex;
+	flex-direction: column;
+}
+
+.cardspace {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.contcard {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	padding: 15px;
+	height: 225px;
+	width: 49%;
+	margin-top: 20px;
+	background-color: rgb(231, 227, 243);
+	font-size: .95em;
+	position: relative;
+}
+
+.contcard a {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 225px;
+	height: 45px;
+	bottom: 0px;
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: white;
+	box-sizing: content-box;
+	font-family: 'Arial';
+	position: absolute;
+	left: 5;
+	margin-bottom: 10px;
+}
+
+.addsect {
+	width: 100%;
+	padding-top: 10px;
+	border-top: 1px solid black;
+}
+
+.servleft {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.servleft ul{
+	padding-top: 5px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.servleft li {
+	padding: 7px;
+}
+
+footer {
+	align-items: center;
+	text-align: center;
+	padding-top: 40px;
+	font-size: .8em;
+}
