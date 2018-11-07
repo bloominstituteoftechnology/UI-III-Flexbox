@@ -104,27 +104,7 @@ General CSS
 
 /* -------------------      Home Page CSS  ----------------------*/
 
-/*nav*/
-.header {
-	display: flex;
-	
-	justify-content: space-between;
-	align-items: center;
-	height: 30%;
 
-	margin-top: 2vh;
-}
-
-.nav {
-	display:flex;
-	justify-content: space-between;
-	width: 60%;
-}
-
-.nav a {
-	text-decoration: none;
-	color: rgba(0,0,0,.3);
-}
 
 /*cta*/
 
@@ -217,4 +197,17 @@ footer {
 
 
 /*  -------------------    Services Pages CSS   -------------------   */
+
+.services-header-img {
+	width:100%;
+	padding: 4vh 0;
+}
+
+.info-section {
+	padding: 4vh 0;
+}
+
+.info-section h1 {
+	font-size: 30px;
+}
 
