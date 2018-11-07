@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -70,70 +68,112 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-header nav{
-	display: inline-block;
-	width: 680px;
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0px;
 }
 
 header nav a {
-		margin: 30px;
 		text-decoration: none;
 		color: gray;
-		display: inline-block
+		margin: 60px 60px 60px 0px;
 }
 
 .title {
+	display: flex;
 	height: 400px;
-	position: relative;
-
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 h1 {
 	display: inline-block;
 	font-size: 60px;
 	text-align: center;
-	position: absolute;
-	top: 80px;
-	left: 130px;
+	margin: 20px;
+}
+
+.services-top {
+	margin: 20px 0px;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 700px;
+	justify-content: space-between;
+	align-content: space-between;
 
 }
 
-.title img {
-	left: 400px;
-	position: absolute;
+.box {
+	border: 1px solid black;
+	padding: 20px;
+	margin: 5px 0px;
+	background-color: rgb(243, 243, 243);
+	width: 425px;
 }
 
 button {
-	position: absolute;
-	bottom: 100px;
-	left: 180px;
 	background-color: white;
 	border: 1px solid black;
-	padding: 5px 40px;
+	padding: 5px 35px;
+	margin-top: 15px;
+}
+
+.get-started {
+	margin: 0;
 }
 
 .top-content {
+	display: flex;
 	margin: 20px 0px;
-}
-.half-div {
-	display: inline-block;
-	width: 438px;
 }
 
 .bottom-content {
+	display: flex;
 	margin: 20px 0px;
 }
 
 .third-div {
-	display: inline-block;
-	width: 290px;
+	margin: 10px;
 }
+
+.services-bottom {
+	display: flex;
+	width: 440px;
+	flex-direction: column;
+}
+
+.services-bottom p {
+	margin: 10px 0px;
+}
+
+.bottom-div {
+	display: flex;
+	margin: 25px 0px;
+	height: 300px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+
+
+li {
+	margin: 25px 0px 0px 20px; 
+}
+
 
 footer {
 	text-align: center;
-	margin: 30px 0px 80px 0px
+	margin: 30px 0px 80px 0px;
 }
-
 
 .contact h2 {
 	margin: 20px 0px 0px 0px;
