@@ -14,12 +14,12 @@ Once you have finished the home page using flex box module, go build the service
 
 ## Objectives
 
-* [ ] Home Page Refactor:
+* [*] Home Page Refactor:
   * Note that the provided HTML is blank.  This is because I want you to use your code from yesterday if possible.  If you didn't finish, that's fine, just use the solution from yesterday
-  * Refactor the home page layout with flexbox where `inline-block` was used before.
+  * Refactor the home page layout with flexbox where `inline-block` was used before. 1340-1500
   * In your navigation elements, point the services `<a href=""></a>` to `services.html`
 
-* [ ] Services Page Build:
+* [*] Services Page Build: 1500-1640
   * Update the title in your newly copied services page to say `Great Idea! - Services`
   * Using the provided [design file](design-files/services-desktop-design.png), create the services page layout using flexbox and box model.
   * Wrap the great idea logo in an anchor tag and point the `href` to `index.html`

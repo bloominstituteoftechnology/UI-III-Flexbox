@@ -64,3 +64,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+nav {
+	/* border: 1px solid red; */
+	width: 1000px;
+	/* padding: 15px; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+	/* margin-right: 50px; */
+}
+
+h1.home {
+	font-size: 75px;
+}
+
+h1.services-h1 {
+	font-size: 40px;
+}
+
+ul {
+	list-style-type: square;
+	padding: 20px;
+	line-height: 2;
+}
+
+button {
+	border: 1px solid black;
+	padding: 5px 30px;
+}
+
+button.services-button {
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+footer {
+	text-align: center;
+}
+
+.container {
+	/* border: 1px solid red; */
+	/* display: flex; */
+	width: 1000px;
+	padding: 25px 60px;
+}
+
+.logo {
+	margin-left: 100px;
+}
+
+.header-top-row {
+	width: 880px;
+	/* background-color: lightpink; */
+	/* position: fixed; */
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-bottom-row {
+	height: 475px;
+	padding: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.motto {
+	width: 300px;
+	text-align: center;
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.get-started {
+	width: 150px;
+}
+
+.about {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.content-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-col {
+	padding: 40px 30px 40px 0px;
+}
+
+.contact-section {
+	margin: 40px 0;
+}
+
+.services-header-img {
+	padding: 30px 0;
+}
+
+.services-intro {
+	padding-bottom: 30px;
+}
+
+.services-list {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 780px;
+	padding: 30px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.service {
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 25px;
+	width: 420px;
+}
+
+.services-closer {
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.services-facts {
+	width: 420px;
+	padding-right: 20px;
+}
