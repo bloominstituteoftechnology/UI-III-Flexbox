@@ -236,8 +236,7 @@ footer p{
 	margin-top: 35px;
 	
 }
-.footer-flex section{
-}
+
 .footer-flex section p{
 	text-align: left;
 	width: 75%;
@@ -252,4 +251,60 @@ footer p{
 }
 #copyright{
 	padding: 30px 0;
+}
+/* Mobile css */
+@media only screen and (max-width:830px){
+	.container{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	.navigation{
+		position: relative;
+		margin: 0;
+	}
+
+	.navigation header{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0;
+		padding-left: 75px;
+		background-color: rgba(248, 223, 78, 0.863);
+	}
+	.navigation a{
+		font-size: 0.9em;
+	
+	}
+	.navigation header img{
+		padding-top: 10px;
+	}
+	
+	.services-card section{
+		flex: 0 100%;
+		margin: 10px 0;
+		border: none;
+		justify-content: center;
+	}
+	.footer-flex{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.footer-flex section{
+		margin-bottom: 25px;
+	}
+	.footer-flex section p{
+		text-align: center;
+		width: 100%;
+	}
+
+	.footer-flex section ol{
+		list-style: none;
+		padding: 25px;
+		background-color: rgb(247, 247, 247);
+	}
+	.footer-flex section li{
+		padding-bottom: 50px;
+	}
 }
