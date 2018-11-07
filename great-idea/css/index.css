@@ -49,7 +49,9 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0 auto;
+  	padding: 0;
 }
 
 html, body {
@@ -65,37 +67,18 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-* {
-	box-sizing: border-box;
-}
-
-html, body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
-}
 
 /* Your code starts here! */
-
-
-* {
-box-sizing: border-box;
-}
 
 p {
 font-family: 'Roboto', sans-serif;
 }
 
-/* nav bar */
+/* navbar */
 
 body {
 margin: 0 auto;
-width: 876px;
+width: 850px;
 display: block;
 position: relative;
 }
