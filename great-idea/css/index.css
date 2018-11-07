@@ -65,10 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+hr {
+	border: 1px solid black
+}
 .container {
 	max-width: 80%;
 	margin: 0 auto;
-	padding: 5px;
 }
 
 
@@ -146,7 +148,9 @@ header nav a:hover {
 }
 
 
-.middle-img {
+.middle-img,
+.services-header-img,
+.services-info-img {
 	margin: 0 auto;
 	width: 100%;
 	object-fit: fill;
@@ -185,4 +189,89 @@ header nav a:hover {
 .copyright {
 	text-align: center;
 	margin-top: 20px;
+}
+
+
+
+/* -- SERVICE PAGE STYLES -- */
+
+.services-top-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; 
+	margin-bottom: 50px;
+}
+
+.services-top-container h2 {
+	font-size: 40px;
+}
+
+/* middle styles */
+
+.services-middle-container {
+	display: flex;
+	flex-direction: row;
+	margin: 50px 0 50px 0;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+	
+
+}
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	margin: 10px 0 20px 0;
+	
+	background: lightgrey;
+	border: 1px solid black;
+	box-shadow: 3px 7px 13px -3px rgba(0,0,0,0.43);
+	padding: 30px;
+	
+}
+
+.card-container h2 {
+	font-size: 20px;
+}
+
+.learn-btn {
+	border: 1px solid black;
+	border-radius: 5px;
+
+	width: 150px;
+	padding: 10px 10px;
+	text-align: center;
+	margin-top: 30px;
+	background: whitesmoke;
+}
+
+
+/* bottom half styles */
+
+.services-bottom-container {
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+}
+
+.services-bottom-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-right: 50px;
+}
+.services-bottom-content h3 {
+	font-size: 20px;
+}
+.services-bottom-content p {
+	margin-bottom: 30px;
+}
+
+.services-bottom-content ul li {
+	list-style-type: disc;
+	padding-left: 10px;
+	margin-left: 20px;
+	padding: 10px;
 }
