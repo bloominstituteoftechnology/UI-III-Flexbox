@@ -199,7 +199,41 @@ nav a:hover{
 	padding-bottom: 40px;
 }
 
+.services section{
+	/* padding-bottom: 0px; */
+}
+
 .services-header-img{
 	width: 100%;
 	margin: 90px 0 20px 0;
+}
+
+.services .main-content-flexcont{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+	height: 800px;
+}
+
+.info-card{
+	background-color: #f4f3f4;
+	text-align: left;
+	width: 530px;
+	padding: 20px;
+	border: 1px solid #212121;
+	/* margin-bottom: 40px; */
+}
+
+.info-card p{
+	line-height: 1.2;
+}
+
+.info-card-learnbtn{
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: white;
+	border: 1px solid #212121;
+	margin-top: 25px;
+	border-radius: 5px;
 }
