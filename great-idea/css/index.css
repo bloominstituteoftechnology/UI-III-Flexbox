@@ -118,6 +118,9 @@ footer {
 	margin: 0 20px;
 	display: inline-block;
 }
+.w-50{
+	width:50%;
+}
 .button{
 	padding: 4px 50px;
 	border: 1px solid black;
@@ -127,6 +130,9 @@ footer {
 	background: lightblue;
 	color: white;
 	border: 1px dashed darkblue;
+}
+.text-center{
+	text-align: center;
 }
 /* HOME STYLES */
 .main-header{
@@ -223,6 +229,9 @@ address{
 .service-footer{
 	margin: 80px 0 15px;
 }
+/* VISION STYLES */
+
+
 
 /* STRETCH MEDIA QUERIES */
 /* Responsive Nav */
