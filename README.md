@@ -1,3 +1,7 @@
+## A project challenge 3 for Lambda, using Flex. 
+### There are Three html files, One uses Flex, second uses Flex and position and the third one as extra uses Boostrap.
+
+
 # User Interface Project II: Great Idea Web Page With Flexbox
 
 Now that you have experienced building a layout using `inline-block`.  Lets revisit the same HTML structure and refactor our first page with flexbox.  If you didn't finish yesterday's assignment, just start from scratch.
