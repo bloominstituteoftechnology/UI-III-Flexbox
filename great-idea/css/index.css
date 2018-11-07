@@ -228,3 +228,28 @@ footer p{
 	color: white;
 	transition: 0.5s;
 }
+
+/* Footer */
+
+.footer-flex{
+	display:flex;
+	margin-top: 35px;
+	
+}
+.footer-flex section{
+}
+.footer-flex section p{
+	text-align: left;
+	width: 75%;
+	margin-bottom: 25px;
+}
+.footer-flex section ol{
+	list-style: square;
+	padding-left: 20px;
+}
+.footer-flex section li{
+	padding-bottom: 10px;
+}
+#copyright{
+	padding: 30px 0;
+}
