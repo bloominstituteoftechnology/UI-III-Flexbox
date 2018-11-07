@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+a:un
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,3 +65,279 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Your code starts here! */
+a {
+	text-decoration: none;
+	color: #b6b5b6;
+}
+
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	margin: 16px 0 64px;
+	width: 100%;
+}
+
+header nav {
+	color: #b6b5b6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 36px;
+}
+
+header nav a {
+	transition: font-size .75s;
+}
+
+header nav a:visited {
+	color: #b6b5b6;
+}
+
+header nav a:hover {
+	font-size: 18px;
+}
+
+#home .page-heading {
+	border-bottom: 1px solid black;
+	display: flex;
+	padding-bottom: 76px;
+	margin-bottom: 42px;
+}
+
+#home .page-heading .heading-text {
+	width: 50%;
+	text-align: center;
+	margin-top: 32px;
+}
+
+#home .heading-text h1 {
+	font-size: 94px;
+	font-family: 'Bangers', sans-serif;
+	letter-spacing: 5px;
+	padding-bottom: 24px;
+}
+
+#home .heading-image {
+	width: 50%;
+	text-align: right;
+}
+
+#home .heading-text a {
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 8px 42px;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 32px;
+	font-size: 18px;
+	color: black;
+	box-shadow: 0px 2px 2px black;
+}
+
+#home .heading-text a:visited {
+	color: black;
+}
+
+#home .heading-text a:hover {
+	animation: glow 4s infinite;
+}
+
+#home .main-content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto 42px;
+	padding: 24px 0;
+	border-bottom: 1px solid black;
+}
+
+#home .main-content h2 {
+	font-size: 22px;
+}
+
+#home .main-content p {
+	font-size: 18px;
+}
+
+#home .main-content img {
+	width: 100%;
+	margin: 20px 0;
+}
+
+#home .main-content .top-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#home .main-content .top-content .info-text {
+	width: 49%;
+	padding: 12px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#home .main-content .bottom-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#home .main-content .bottom-content .info-text {
+	width: 32%;
+	padding: 12px 6px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer .contact-info {
+	width: 100%;
+}
+
+footer h2 {
+	font-size: 22px;
+}
+
+footer address {
+	font-size: 20px;
+}
+
+footer .copyright {
+	width: 100%;
+	text-align: center;
+	margin: 36px;
+}
+
+/* Get started button animation on hover */
+@keyframes glow {
+	0%, 100% {
+		box-shadow: 0px 2px 2px black;
+		background-color: white;
+	}
+	50% {
+		transform: translate(0px, -4px);
+		box-shadow: 0px 2px 16px black;
+		text-shadow: 2px 2px 4px goldenrod;
+		background-color: #b6b5b6;
+	}
+}
+
+/* Services Styles */
+
+
+#services header {
+	margin-bottom: 18px;
+}
+
+#services .heading {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	margin-bottom: 32px;
+}
+
+#services .heading .heading-image {
+	width: 100%;
+}
+
+#services .services-header-img {
+	width: 100%;
+}
+
+#services .heading-text {
+	width: 100%;
+	padding: 16px 0;
+	margin-bottom: 24px;
+}
+
+#services .heading-text h1 {
+	font-size: 32px;
+}
+
+#services .heading-text p {
+	font-size: 18px;
+	letter-spacing: .25px;
+}
+
+#services .main-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 26px;
+	border-bottom: 2px solid black;
+	padding-bottom: 50px;
+}
+
+#services .main-content .info-panel {
+	border: 1px solid black;
+	width: 47%;
+	padding: 16px;
+	margin: 20px 0;
+	font-size: 19px;
+	letter-spacing: .25px;
+	background-color: #F4F3F4;
+}
+
+#services .main-content .info-panel h2 {
+	font-size: 22px;
+}
+
+#services .main-content .info-panel a {
+	display: block;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 8px 12px;
+	color: black;
+	width: 142px;
+}
+
+#services .services-facts {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+#services .facts-panel {
+	width: 47%;
+	font-size: 19px;
+	letter-spacing: .25px;
+}
+
+#services .facts-panel h2 {
+	font-size: 22px;
+	padding: 12px 0; 
+}
+
+#services .facts-panel p {
+	margin-bottom: 8px;
+}
+
+#services .facts-panel li {
+	list-style-type: square;
+	list-style-position: inside;
+	padding: 12px 0; 
+}
+
+#services .facts-image {
+	width: 47%;
+}
+
+#services .facts-image img {
+	width: 100%;
+}
+
+#services footer .copyright {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
