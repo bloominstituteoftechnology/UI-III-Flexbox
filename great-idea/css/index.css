@@ -80,6 +80,10 @@ h1 {
 }
 
 h2 {
+	font-size: 24px;
+}
+
+h3 {
 	font-size: 18px;
 }
 
@@ -148,6 +152,11 @@ footer {
 	background-image: url("/img/header-img.png");
 } */
 
+
+
+
+/* HOME PAGE SELECTORS */
+
 .main-banner {
 	border-bottom: 1px solid black;
 	display: flex;
@@ -160,14 +169,8 @@ footer {
 	text-align: center;
 }
 
-.header-image {
-	/* border: 1px solid red; */
-}
-
 .double-wide {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	margin: 40px 0;
 }
 
@@ -176,23 +179,27 @@ footer {
 }
 
 .triple-wide {
-	/* border: 1px solid red; */
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin: 40px 0;
-	padding: 40px 0;
-	/* padding: 10px 20px; */
 }
 
-
-
-
-
-
-/* HOME PAGE SELECTORS */
-
+.container-triple {
+	margin: 0 10px;
+}
 
 
 /* SERVICES PAGE SELECTORS */
 
+.services-banner {
+	
+}
+
+.container-services {
+
+}
+
+.services-card {
+
+}
 
