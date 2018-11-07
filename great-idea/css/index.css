@@ -64,3 +64,181 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+* {
+box-sizing: border-box;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+}
+
+/* nav bar */
+
+body {
+margin: 0 auto;
+width: 876px;
+display: block;
+position: relative;
+}
+
+body nav {
+position: fixed;
+padding: 2rem 0;
+top: 0;
+background-color: white;
+z-index: 500;
+border-bottom: 1px solid grey;
+width: 876px;
+}
+
+.navcontainer {
+position: relative;
+display: block;
+}
+
+.navmenu {
+display: inline-block;
+text-align: center;
+
+}
+
+.navmenu a {
+padding: 0 3rem 1.7rem 0;
+text-decoration: none;
+color: grey;
+}
+
+.navmenu a:hover {
+background-color: black;
+color: white;
+}
+
+.navcontainer img {
+display: inline-block;
+position: absolute;
+right: 0;
+bottom: -6px;
+}
+
+/* .navmenu a:hover{
+
+} */
+
+/* header */
+
+header {
+position: relative;
+padding: 3.5rem 0 23rem 0;
+margin: 5rem 0 5rem 0;
+}
+
+.headertext {
+display: inline-block;
+text-align: center;
+position: absolute;
+left: 5rem;
+top: 5.8rem;
+}
+
+.headertext h1 {
+font-size: 5rem;
+}
+
+.headertext p {
+display: inline-block;
+border: 1px solid black;
+padding: .6rem 3rem;
+margin-top: 5px;
+}
+
+.headertext p:hover{
+background-color: black;
+color: white;
+cursor: pointer;
+}
+
+header img {
+display: inline-block;
+position: absolute;
+right: 0;
+}
+
+/* above image section */
+
+.above-img {
+margin-top: 2.5rem;
+position: relative;
+padding-bottom: 5rem;
+}
+
+.features {
+width: 50%;
+display: inline-block;
+position: absolute;
+left: 0;
+}
+
+.about {
+
+width: 50%;
+display: inline-block;
+position: absolute;
+right: 0;
+}
+
+.middle-img {
+margin-top: 3.5rem;
+}
+
+address {
+margin-top: 2rem;
+}
+
+.below-img {
+margin: 2.5rem 0;
+position: relative;
+display: block;
+}
+
+.services {
+width: 32%;
+display: inline-block;
+margin-right: 10px;
+
+}
+
+.product {
+width: 32%;
+display: inline-block;
+}
+
+.vision {
+width: 32%;
+margin-left: 10px;
+display: inline-block;
+
+}
+
+footer {
+margin: 3rem 0 8rem 0;
+text-align: center;
+}
