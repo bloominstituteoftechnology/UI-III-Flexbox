@@ -97,16 +97,7 @@ nav a:hover {
 	max-width: 900px;
 	margin: 30px auto;
 }
-/* .navigation {
-	display: inline-block;
-	margin-bottom: 30px;
-}
-.navigation a {
-	margin-right: 50px;
-}
-.nav-logo {
-	right: 0;
-} */
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -117,26 +108,7 @@ nav a:hover {
 	display: flex;
 	justify-content: space-between;
 }
-/* .heading {
-	position: relative;
-	height: 380px;
-}
-.start {
-	display: inline-block;
-    padding: 50px;
-    width: 50%;
-    margin: auto;
-    padding: 100px;
-}
-.start h1 {
-	font-size: 3rem;
-	text-align: center;
-}
-.heading img {
-	position: absolute;
-	top: 0;
-	right: 0;
-} */
+
 
 .heading {
 	display: flex;
@@ -154,17 +126,6 @@ nav a:hover {
     text-align: center;
 }
 
-/* .about-blurb1 {
-	display: inline-block;
-	width: 450px;
-	float: left;
-}
-.about-blurb2 {
-	display: inline-block;
-	width: 450px;
-	float: right;
-} */
-
 .about {
 	display: flex;
 }
@@ -172,14 +133,7 @@ nav a:hover {
 .middle-img {
 	margin: 25px auto;
 }
-/* .services-blurb {
-	width: 250px;
-	display: inline-block;
-	margin-right: 20px;
-}
-.middle-services-blurb {
-	margin: 0 30px;
-} */
+
 .services {
 	display: flex;
     justify-content: space-between;
@@ -191,4 +145,33 @@ nav a:hover {
 footer p {
 	margin-top: 20px;
 	text-align: center;
+}
+/* *************8SERVICES PAGE STYLESHEET*****************/
+
+.services-header-img {
+	margin-bottom: 20px;
+}
+.services-service-page {
+	display: flex;
+	flex-wrap: wrap;
+}
+.service-box {
+	border: 1px solid black;
+    padding: 20px;
+    background-color: #ededed;
+	width: 400px;
+	margin: 10px auto;
+}
+.service-box p {
+	margin-bottom: 15px;
+}
+.service-box button {
+	background-color: white;
+	border-radius: 5px;
+}
+.about-services {
+	display: flex;
+}
+.services-facts {
+	padding-right: 70px;
 }
