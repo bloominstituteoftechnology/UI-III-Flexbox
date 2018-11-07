@@ -169,7 +169,11 @@ h3{
 .hero-title{
 	text-align: center;
 }
-
+.services{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 
 .left{
 	padding-top: 90px;
