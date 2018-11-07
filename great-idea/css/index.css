@@ -223,3 +223,66 @@ address{
 .service-footer{
 	margin: 80px 0 15px;
 }
+
+/* STRETCH MEDIA QUERIES */
+/* Responsive Nav */
+@media only screen and (max-width: 900px) {
+    nav{
+		margin-right: 0px;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.navigation{
+		flex-direction: column-reverse;
+	}
+	.logo{
+		height: 65px;
+	}
+	nav{
+		margin-right: 0px;
+		flex-direction: column;
+		text-align: center;
+	}
+	nav a{
+		width: 100%;
+		border: 1px solid black;
+		padding: 10px;
+		margin: 5px;
+	}
+	.header-div{
+		display:none;
+	}
+	.header-slogan{
+		margin-top: 120px;
+	}
+	.services-header{
+		margin-top: 180px;
+	}
+}
+/* SINGLE COLUMN CARD LAYOUT & Formatting bottom DIV*/
+@media only screen and (max-width: 800px) {
+	.card{
+		width: 100%;
+	}
+	.service-content{
+		display: inline-block;
+	}
+	.service-info{
+		display: none;
+	}
+	.service-facts{
+		margin: 0 auto;
+	}
+
+}
+
+/* 3 Column reversal */
+@media only screen and (max-width: 715px){
+	.optiontwo{
+		display: inline-block;
+	}
+	.service, .product, .vision{
+		padding: 0;
+		margin: 25px 0;
+	}
+}
