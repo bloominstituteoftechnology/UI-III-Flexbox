@@ -63,4 +63,105 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Shared Styles */
+
+/* index.html */
+div.home-container {
+	width: 875px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.home-container hr {
+	margin-bottom: 35px;
+    border-width: 0.5px;
+    border-color: black;
+    width: 875px;
+}
+div.home-container nav {
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+
+div.home-container nav a {
+	font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    text-decoration-line: none;
+    color: #B0B0B0;
+    -webkit-margin-collapse: collapse;
+}
+
+div.home-container div.header {
+	display: flex;
+    width: 875px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0 35px 0;
+}
+
+div.home-container div.header-left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+div.home-container div.header-left h1 {
+	font-size: 76px;
+}
+
+div.home-container a.get-started {
+	color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 30px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.home-container section.content-block{
+	display: inline-flex;
+    flex-wrap: wrap;
+}
+
+div.home-container section.top {
+	width: 423px;
+    margin-right: 12px;
+    margin-bottom: 35px;
+}
+
+div.home-container section.bottom {
+	width: 288px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+div.home-container footer {
+	display: flex;
+    flex-flow: column wrap;
+    width: 875px;
+}
+
+div.home-container footer address {
+	line-height: 20px;
+}
+
+div.home-container footer address div {
+	line-height: 16px;
+}
+
+div.home-container footer address a {
+	color: black;
+	text-decoration-color: black;
+}
+
+div.home-container div.copyright {
+	align-self: center;
+}
+
+/* services.html */
