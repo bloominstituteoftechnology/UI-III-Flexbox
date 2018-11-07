@@ -150,25 +150,6 @@ h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  height: 100%;
-  font-family: "Titillium Web", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Bangers", cursive;
-  letter-spacing: 1px;
-  margin-bottom: 15px;
-}
 
 /* Your code starts here! */
 p {
@@ -237,4 +218,46 @@ body {
 .main-top {
   border-top: 2px solid #000;
   display: flex;
+}
+
+.servicelist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.servicelist div {
+  background: #f4f3f4;
+  width: 45%;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #000000;
+}
+
+#services {
+  padding: 30px 0;
+  width: 100%;
+  border-bottom: 1px solid #000000;
+}
+.servicelist div button {
+  text-decoration: none;
+  font-size: 100%;
+  border: 1px solid black;
+  background: white;
+  padding: 5px 30px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.faq {
+  border-top: 1px solid #000000;
+  display: flex;
+  margin: 15px;
+  padding: 25px 0;
+}
+.faq ul {
+  padding: 20px;
+}
+footer {
+  text-align: center;
 }
