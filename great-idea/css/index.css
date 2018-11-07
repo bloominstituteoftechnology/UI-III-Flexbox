@@ -136,10 +136,12 @@ nav a:hover{
 	justify-content: space-between;
 }
 
+.logo-anchor{
+	padding: 0px;
+	display: flex;
+}
+
 .logo{
-	top: -12px;
-	right: 0px;
-	height: 36px;
 	align-self: center;
 }
 
@@ -199,10 +201,6 @@ nav a:hover{
 	padding-bottom: 40px;
 }
 
-.services section{
-	/* padding-bottom: 0px; */
-}
-
 .services-header-img{
 	width: 100%;
 	margin: 90px 0 20px 0;
@@ -236,4 +234,34 @@ nav a:hover{
 	border: 1px solid #212121;
 	margin-top: 25px;
 	border-radius: 5px;
+	cursor: pointer;
+}
+
+.footer-flex-cont{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-info-block{
+	width: 500px;
+	text-align: left;
+	
+}
+
+.footer-info-block p{
+	margin-bottom: 25px;
+}
+
+.footer-info-block ul{
+	list-style-type: square;
+	position: relative;
+	left: 19px;
+}
+
+.footer-info-block li{
+	margin: 10px 0;
+}
+
+.services .copyright{
+	margin-top: 80px;
 }
