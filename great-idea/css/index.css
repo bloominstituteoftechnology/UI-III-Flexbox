@@ -78,7 +78,6 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	align-content: center;
-	/* margin-top: 20px; */
 	padding-top: 5px;
 	height: 40px;
 	margin-bottom: 50px;
@@ -107,7 +106,6 @@ header nav a:hover {
 /* BANNER */
 
 .banner {
-	/* position: relative; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -135,35 +133,20 @@ header nav a:hover {
 
 /*  CONTENT  */
 
-.top-content {
+.top-container {
 	margin-top: 50px;
-	margin-bottom: 200px;
-	position: relative;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
 }
 
-.features {
-	
-	display: inline-block;
+.top-item {
 	max-width: 45%;
-	margin-right: 50px;
-	position: absolute;
-	left: 0;
 	line-height: 1.3;
-	
 }
 
-.about {
-	
-	display: inline-block;
-	max-width: 45%;
-	position: absolute;
-	right: 0;
-	line-height: 1.3;
-	
-}
 
 .middle-img {
-	display: block;
 	margin: 0 auto;
 	width: 100%;
 	object-fit: fill;
@@ -173,38 +156,33 @@ header nav a:hover {
 }
 
 
-.bottom-content {
-	margin-bottom: 30px;
+.bottom-container {
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
 }
-.services {
-	
-	display: inline-block;
+
+.bottom-item {
 	width: 30%;
 	
 }
 
-.product {
-	
-	display: inline-block;
-	width: 30%;
-	margin-left: 30px;
-	
+.contact-container {
+	margin-top: 50px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin
 }
 
-.vision {
-	
-	display: inline-block;
-	width: 30%;
-	margin-left: 40px;
-
-}
-
-.contact {
-	margin-top: 30px;
+.address,
+.contact p {
+	margin-bottom: 20px;
 }
 
 
 .copyright {
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 20px;
 }
