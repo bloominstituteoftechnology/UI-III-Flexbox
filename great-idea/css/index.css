@@ -64,7 +64,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
 /* Global */
 .container{
 	width: 950px;
@@ -78,28 +77,19 @@ hr{
 
 /* Navigation styling */
 .navigation header{
-	width: 100%;
-	position: fixed;
+	display: flex;
 	margin-bottom: 85px;
 	padding: 30px;
 	background-color: rgba(248, 223, 78, 0.863);
+	justify-content: center;
+	align-items: center;
 }
 
 nav{
-	display: inline-block;
+	display: flex;
+	margin-right: 50px;
 }
-.logo-container{
-	display: relative;
-}
-.logo{
-	display:inline-block;
-	position: absolute;
-	right: 5px;
-	top: 20px;
-}
-header h1{
-	display: inline-block;
-}
+
 nav a{
 	text-decoration: none;
 	color: rgb(2, 2, 2);
@@ -117,22 +107,20 @@ nav a:hover{
 
 /* Main heading styling */
 
-
+.main-article{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .main-article section{
-	display: inline-block;
-	width: 49%;
-	height: 340px;
 	text-align: center;
-	margin-top: 100px;
 }
 .main-article h1{
 	font-size: 4.6em;
 	word-spacing: 300px;
 	line-height: 75px;
 }
-#push-down{
-	padding-top: 100px;
-}
+
 .main-article button{
 	padding: 10px 35px;
 	background-color: white;
@@ -143,39 +131,35 @@ nav a:hover{
 	color: black;
 	transition: 0.5s;
 }
-.main-article img{
-	display: inline-block;
-	height: 100%;
-}
+
 
 /* Main content styling */
-.content-article{
-	display: relative;
-	margin: 35px auto;
-	width: 100%;
-}
 
-.content-article .first-section{ 
-	display:inline-block;
-	width: 49.7%;
+.first-section{ 
+	display:flex;
+	justify-content: center;
+	padding: 10px;
 }
 .first-section h2{
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
-.first-section p{
-	padding: 0 0 0 3px;
-}
+
 .content-article img{
-	width: 100%;
-	margin-bottom: 40px;
-	margin-top: 40px;
+	padding: 10px;
 }
 
 .second-section{
-	display:inline-block;
-	width: 33%;
-	height: 120px;
+	display:flex;
+	justify-content: space-between;
+	padding: 10px;
 }
+.second-section h2{
+	font-size: 1.2em;
+}
+.second-section p{
+	
+}
+
 
 /* Footer styling */
 
@@ -188,9 +172,8 @@ footer p{
 }
 
 
-/* Other */
+/* Services */
 
-#big-header{
-	font-size: 4em;
-	text-align: center;
-}
+
+
+
