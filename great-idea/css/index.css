@@ -171,7 +171,6 @@ nav a:hover{
 
 .header-cont-right{
 	margin-top: 100px;
-	/* overflow: hidden; */
 	text-align: center;
 }
 
@@ -192,4 +191,15 @@ nav a:hover{
 
 .copyright{
 	margin-top: 45px;
+}
+
+/* Services Page Styling */
+
+.services header{
+	padding-bottom: 40px;
+}
+
+.services-header-img{
+	width: 100%;
+	margin: 90px 0 20px 0;
 }
