@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -68,6 +69,8 @@ h1, h2, h3, h4, h5 {
 .container{
 	width: 950px;
 	margin: 0 auto;
+	padding-top: 100px;
+
 }
 hr{
 	width: 100%;
@@ -76,9 +79,14 @@ hr{
 
 
 /* Navigation styling */
+.navigation{
+	position: fixed;
+	width: 100%;
+}
 .navigation header{
 	display: flex;
 	margin-bottom: 85px;
+	
 	padding: 30px;
 	background-color: rgba(248, 223, 78, 0.863);
 	justify-content: center;
@@ -172,8 +180,51 @@ footer p{
 }
 
 
-/* Services */
+/* Services  css */
+.services-header-img{
+	width: 100%;
+}
+.services-section{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.services-section h1{
+	font-size: 2em;
+}
 
+.services-card{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+.services-card section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border: 1px solid black;
+	flex: 0 45%;
+	padding: 20px;
+	margin: 20px;
+	width: 100%;
+	height: 240px;
+	background: rgb(248, 248, 248);
+}
+.services-card section p{
+	margin-bottom: 10px;
+}
 
-
-
+.services-card section button{
+	padding: 5px 35px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 6px;
+	transition: 0.4s;
+}
+.services-card section button:hover{
+	background-color: rgb(173, 173, 173);
+	color: white;
+	transition: 0.5s;
+}
