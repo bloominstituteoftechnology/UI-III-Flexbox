@@ -111,12 +111,8 @@ General CSS
 	align-items: center;
 	justify-content: space-between;
 	
-	/*
-	margin: 0 auto;
-	width:80%; 
-	*/
 
-	margin-top: 10vh;
+	margin-top: 7vh;
 }
 
 .cta-text {
@@ -146,6 +142,44 @@ button:hover {
     outline: none;
     border: none;
 }
+
+/* main content */
+
+.main-content {
+	display:flex;
+	flex-direction:column;
+
+	
+	margin: 6vh 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.top-content {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 4vh 0;
+	/*margin-bottom: 4vh;*/
+}
+
+.top-content .text-content {
+	width:calc(100%/2 - 2vw;);
+}
+
+.bottom-content {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	padding: 4vh 0;
+	/*margin-top:4vh;*/
+}
+
+
+.bottom-content .text-content {
+	width: calc(100%/3 - 3vw);
+}
+
 
 
 
