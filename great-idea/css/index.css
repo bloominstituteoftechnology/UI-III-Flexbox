@@ -64,37 +64,35 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Shared Styles */
-
-/* index.html */
-div.home-container {
+div.container {
 	width: 875px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-div.home-container hr {
+div.container hr {
 	margin-bottom: 35px;
     border-width: 0.5px;
     border-color: black;
     width: 875px;
 }
-div.home-container nav {
+div.container nav {
+	width: 100%;
 	display: flex;
     justify-content: space-between;
 	align-items: center;
 	margin-top: 15px;
 }
 
-div.home-container nav a {
+div.container nav a {
 	font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
     text-decoration-line: none;
-    color: #B0B0B0;
-    -webkit-margin-collapse: collapse;
+	color: #B0B0B0;
 }
-
-div.home-container div.header {
+/* index.html */
+div.home div.header {
 	display: flex;
     width: 875px;
     justify-content: space-between;
@@ -102,7 +100,7 @@ div.home-container div.header {
     margin: 35px 0 35px 0;
 }
 
-div.home-container div.header-left {
+div.home div.header-left {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -111,11 +109,11 @@ div.home-container div.header-left {
     width: 500px;
 }
 
-div.home-container div.header-left h1 {
+div.home div.header-left h1 {
 	font-size: 76px;
 }
 
-div.home-container a.get-started {
+div.home a.get-started {
 	color: black;
     text-decoration: none;
     font-size: 18px;
@@ -124,44 +122,117 @@ div.home-container a.get-started {
     border-style: solid;
 }
 
-div.home-container section.content-block{
+div.home section.content-block{
 	display: inline-flex;
     flex-wrap: wrap;
 }
 
-div.home-container section.top {
+div.home section.top {
 	width: 423px;
     margin-right: 12px;
     margin-bottom: 35px;
 }
 
-div.home-container section.bottom {
+div.home section.bottom {
 	width: 288px;
     margin-top: 35px;
     margin-bottom: 35px;
 }
 
-div.home-container footer {
+div.home footer {
 	display: flex;
     flex-flow: column wrap;
     width: 875px;
 }
 
-div.home-container footer address {
+div.home footer address {
 	line-height: 20px;
 }
 
-div.home-container footer address div {
+div.home footer address div {
 	line-height: 16px;
 }
 
-div.home-container footer address a {
+div.home footer address a {
 	color: black;
 	text-decoration-color: black;
 }
 
-div.home-container div.copyright {
+div.home div.copyright {
 	align-self: center;
 }
 
 /* services.html */
+div.services header {
+	display: flex;
+	flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+div.services header img.banner {
+	margin: 20px 0 30px 0;
+}
+
+div.services header h1 {
+	font-size: 24px;
+}
+
+div.services div.service-box-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+div.services section.service-box {
+	display: inline-flex;
+    width: 420px;
+    background: #F4F3F4;
+    flex-wrap: wrap;
+    padding: 20PX;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+div.services section.service-box a {
+	text-decoration: none;
+    background: white;
+    font-size: 12px;
+    padding: 10px 40px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 4px;
+    margin-top: 22px;
+}
+
+div.services footer {
+	display: flex;
+	flex-wrap: wrap;
+	width: 875px;
+	justify-content: center;
+}
+
+div.services footer div.facts {
+	display: inline-flex;
+    flex-wrap: wrap;
+    width: 50%;
+    align-content: flex-start;
+}
+
+div.services footer div.facts h2{
+	height: 24px;
+}
+
+div.services footer div.facts ul {
+	list-style-type: square;
+    list-style-position: inside;
+	width: 200px;
+	margin-top: 30px;
+}
+
+div.services footer div.facts ul li {
+	margin-bottom: 10px;
+}
+
+div.services footer div.copyright {
+	margin-top: 35px;
+}
