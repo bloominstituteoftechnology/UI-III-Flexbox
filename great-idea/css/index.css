@@ -68,11 +68,45 @@ h1, h2, h3, h4, h5 {
 
 /*
 General CSS
-/*
+*/
+
+
+
+.container {
+	width:90%;
+	min-width:800px;
+	margin: 0 auto;
+	
+}
 
 
 /* Home Page CSS */
 
+
+.header {
+	display: flex;
+	
+	justify-content: space-between;
+	align-items: center;
+	height: 30%;
+
+	margin-top: 2vh;
+}
+
+.nav {
+	display:flex;
+	justify-content: space-between;
+	width: 60%;
+}
+
+.nav a {
+	text-decoration: none;
+	color: rgba(0,0,0,.3);
+}
+
+.logo {
+	
+}
 
 /* Services Pages CSS */
 
