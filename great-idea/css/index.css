@@ -64,7 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+p {
+	line-height: 1.25;
+}
 h2 {
 	font-size: 1.2rem;
 }
@@ -143,7 +145,7 @@ nav a:hover {
 }
 
 footer p {
-	margin-top: 20px;
+	margin-top: 30px;
 	text-align: center;
 }
 /* *************8SERVICES PAGE STYLESHEET*****************/
@@ -169,9 +171,24 @@ footer p {
 	background-color: white;
 	border-radius: 5px;
 }
+.service-box button:hover {
+	background-color: #f7f7f7;
+}
 .about-services {
 	display: flex;
 }
 .services-facts {
 	padding-right: 70px;
+}
+.services-facts ul {
+	display: block;
+	list-style-type: disc;
+	margin-top: 1em;
+	margin-bottom: 1 em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 40px;
+}
+.services-facts ul li {
+	margin-bottom: 10px;
 }
