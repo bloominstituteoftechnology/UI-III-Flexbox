@@ -196,9 +196,24 @@ h1, h2, h3, h4, h5 {
 
 /* Services Page */
 
-	
+	.top-content {
+		display: flex;
+		margin-top: 40px;
+		flex-direction: column;
+	}
 
+	h1 {
+		font-size: 28px;
+	}
 
+	.top-text {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		margin-top: 40px;
+		line-height: 1.5;
+		height: 150px;
+	}
 
 
 /* Main Content */
@@ -208,7 +223,7 @@ h1, h2, h3, h4, h5 {
 		flex-direction: row;
 		justify-content: space-between;
 		margin-bottom: 40px;
-		margin-top: 25px;
+		margin-top: 20px;
 	}
 
 	.container1 .box {
