@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5 {
 header {
 	width: 100%;
 	display: flex;
+	background-color: deepskyblue;
 }
 
 header nav {
@@ -110,10 +111,10 @@ header .logo {
 	margin: 0 82px  0 0;
 }
 
-.cta .cta-text button:hover (
-	background: white;
+.cta .cta-text button:hover {
+	background: deepskyblue;
 	color: white;
-)
+}
 
 /*Main Content*/
 .main-content {
@@ -140,6 +141,7 @@ header .logo {
 }
 
 /* Contact Styles */
+
 
 .contact p {
     margin: 15px 0;
@@ -193,7 +195,7 @@ footer {
 }
 
 .services-content .card button:hover {
-    background: black;
+    background: deepskyblue;
     color: white;
 } 
 
