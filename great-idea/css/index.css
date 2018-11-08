@@ -332,13 +332,21 @@ footer {
 	flex-wrap: wrap;
 	flex-direction: row;
 	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 #services .content {
 
 	border: 1px solid grey;
-	background-color: lightgray;
-	width: 350px;
+	background-color: whitesmoke;
+	width: 400px;
+	height: 320px;
 	padding: 20px;
 	margin: 20px;
+}
+
+#services .bottom-content {
+	margin-top: 50px;
+	display: flex;
+
 }
