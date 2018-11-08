@@ -64,3 +64,194 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	display: flex;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: rgb(165, 165, 165);
+	flex-direction: column;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	width: 1000px;
+	background-color: rgb(16, 255, 195);
+	border-radius: 5px;
+	padding: 0 25px;
+	position: fixed;
+	justify-content: space-between;
+	
+}
+
+/*more Specific*/
+
+nav a {
+	display: flex;
+	align-items: center;
+	color: grey;
+	text-decoration: none;
+	padding: 0;
+}
+
+nav a:hover {
+	color: white;
+	padding: 0 10px;
+}
+
+nav a.active {
+	color: white;
+	padding: 0 10px;
+	background: rgb(42, 226, 180);
+	border-radius: 5px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	font-size: 65pt;
+	margin-top: 60px;
+	width: 1000px;
+	text-align: center;
+}
+
+header .snippet {
+	border-radius: 50%;
+	box-shadow: 2px 2px 7px rgb(0, 0, 0);
+}
+
+header a {
+	color: black;
+	border: 1px solid rgb(0, 0, 0);
+	font-size: 16pt;
+	padding: 0 20px;
+	text-decoration: none;
+	background-color: rgb(107, 107, 250);
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px rgb(44, 44, 44);
+}
+
+a:hover {
+	transform: translate(0.6%, -0.6%);
+	box-shadow: 2px 2px 7px rgb(56, 55, 55);
+	color: white;
+	border-radius: 5px;
+}
+
+h3 {
+	margin: 20px 0 20px 0;
+}
+
+.upper {
+	border-top: 1px solid black;
+	display: flex;
+	margin-top: 30px;
+	width: 880px;
+	justify-content: space-between;
+}
+
+.container .upper .first {
+	width: 460px;
+	margin: 10px 0;
+}
+
+.container .upper .second {
+	width: 460px;
+	margin-left: 20px;
+	margin: 10px 0;
+}
+
+.middle-img {
+	margin: 20px 30px;
+	box-shadow: 2px 2px 7px rgb(0, 0, 0)
+}
+
+.lower {
+	display: flex;
+	width: 880px;
+	justify-content: space-around;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black
+}
+
+.container .lower .first {
+	width: 295px;
+	margin: 10px 0;
+}
+
+.container .lower .second {
+	width: 295px;
+	margin: 10px 0;
+	margin-left: 20px;
+}
+
+.container .lower .third {
+	width: 295px;
+	margin: 10px 0;
+	margin-left: 20px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column; 
+	justify-content: flex-start;
+	width: 880px;
+	padding-bottom: 20px;
+}
+
+.contact p {
+	margin: 15px 0;
+}
+
+footer {
+	text-align: center;
+	background-color: rgb(16, 255, 195);
+	padding: 10px;
+	width: 1000px;
+}
+/*services Page*/
+
+.top {
+	
+	border: 1px solid red;
+	border-bottom: 1px solid black;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	width: 880px;
+}
+
+.middle {
+	
+	border: 1px solid red;
+	border-bottom: 1px solid black;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	width: 880px;
+}
+
+.bottom {
+	
+	border: 1px solid red;
+	border-bottom: 1px solid black;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	width: 880px;
+}
+
+.container .top .first {
+	width: 460px;
+	margin: 10px 0;
+}
+.top h1{
+	font-size: 16pt;
+}
+
+ul li {
+	list-style-type: square;
+	margin-left: 20px;
+}
+
