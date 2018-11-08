@@ -103,6 +103,10 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	margin-top: 25px;
   }
+
+  .services-header-img {
+	  margin-top: 25px;
+  }
   
   /* cta */
   
@@ -188,4 +192,30 @@ h1, h2, h3, h4, h5 {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
+  }
+
+  /* SERVICES PAGE */
+
+  .services-top {
+	  margin-top: 25px;
+	  border-bottom: 1px solid gray;
+  }
+  .services-top h1 {
+	  font-size: 2em;
+  }
+
+  .services-top p {
+	  padding-bottom: 25px;
+  }
+
+  .services-middle-content {
+	  display: flex;
+	  flex-wrap: wrap;
+  }
+
+  .services-middle-boxes {
+	  width: 300px;
+	  background-color: #eff0f2;
+	  border: 1px solid black;
+	  padding: 15px;
   }
