@@ -171,6 +171,7 @@ a.logo-link:empty {
 
 .get-started-button {
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .get-started-button > span {
