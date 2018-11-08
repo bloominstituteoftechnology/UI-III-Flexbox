@@ -104,10 +104,6 @@ nav a:hover {
 	color: #2d3235;
 }
 
-img {
-	width: 100%;
-}
-
 button {
 	background: white;
 	border: 1px solid black;
@@ -174,9 +170,13 @@ footer {
 	text-align: center;
 }
 
-/* .title-block .header-img {
+.title-block {
+	padding-right: 20px;
+}
+
+.middle-img {
 	width:  100%;
-} */
+}
 
 
 .parent-container {
@@ -190,6 +190,10 @@ footer {
 } */
 
 /* SERVICES PAGE SELECTORS */
+
+.services-header-img {
+	width: 100%;
+}
 
 .services-banner {
 	padding: 40px 0;
@@ -245,6 +249,15 @@ footer {
 }
 
 @media (max-width: 700px) {
+	.top-nav {
+		/* flex-direction: column-reverse; */
+	}
+	.logo {
+		width: 145px;
+	}
+	.header-img {
+		display: none;
+	}
 	.container-services {
 		flex-direction: column;
 		margin-top: 10px;
@@ -261,14 +274,15 @@ footer {
 	.action-card {
 		align-content: flex-start;
 	}
+
 }
 
 
 @media (max-width: 550px) {
-	/* h1 {
-		font-size: 70px;
+	h1 {
+		font-size: 60px;
 		letter-spacing: 5px;
-	} */
+	}
 	
 	h2 {
 		font-size: 22px;
@@ -281,6 +295,8 @@ footer {
 	footer {
 		margin-top: 20px;
 	}
+
+
 
 	.parent-container {
 		display: flex;
