@@ -232,12 +232,17 @@ footer {
   margin: 35px 0;
   padding: 10px;
   border: 1px solid black;
+  line-height: 1.25;
 }
 
 .learn-more-button {
-  padding: 10px 40px;
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   width: 130px;
+  padding: 10px 0;
+  margin-top: 20px;
   cursor: pointer;
   background: white;
   border-radius: 5px;
@@ -249,13 +254,18 @@ footer {
   color: white;
 }
 
-.services-main ul li {
-	list-style: square;
-}
-
 .facts-section {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   width: 880px;
+}
+
+.facts-section h2 {
+  font-size: 20px;
+}
+
+.facts-section ul {
+  list-style: square;
+  margin: 10px;
+  padding: 10px;
 }
