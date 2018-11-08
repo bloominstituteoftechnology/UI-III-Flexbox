@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	width: 1000px;
 	margin: 0 auto;
-	background-color: rgb(165, 165, 165);
+	
 	flex-direction: column;
 	align-items: center;
 }
@@ -216,36 +216,41 @@ footer {
 /*services Page*/
 
 .top {
-	
-	border: 1px solid red;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 	margin-top: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 	width: 880px;
+	line-height: 1.2;
 }
 
 .middle {
-	
-	border: 1px solid red;
-	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
 	margin-top: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 	width: 880px;
+	line-height: 1.2;
+	
 }
 
 .bottom {
-	
-	border: 1px solid red;
-	border-bottom: 1px solid black;
-	margin-top: 30px;
-	padding-bottom: 10px;
+	display: flex;
+	margin: 30px;
+	padding: 10px 0;
 	width: 880px;
+	line-height: 1.2;
 }
 
-.container .top .first {
-	width: 460px;
+div .square {
+	width: 280px;
 	margin: 10px 0;
+	padding: 15px;
+	border: 1px solid black;
+	background-color: rgb(236, 236, 236)
 }
+
 .top h1{
 	font-size: 16pt;
 }
@@ -253,5 +258,30 @@ footer {
 ul li {
 	list-style-type: square;
 	margin-left: 20px;
+}
+
+div .square button {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 8px 30px;
+	margin: 15px 0;
+	background-color: white;
+}
+
+.bottom div ul {
+	padding-top: 10px;
+	line-height: 2;
+}
+
+/*Products*/
+.brands {
+	margin-top: 30px;
+	padding-bottom: 10px;
+	width: 880px;
+	line-height: 1.2;
+}
+
+.brands h2 {
+	font-size: 29px;
 }
 
