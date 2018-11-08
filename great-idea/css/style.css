@@ -213,6 +213,10 @@ header {
     margin: 15px auto;
 }
 
+.grouping-container > section {
+    margin: 0 20px;
+}
+
 .middle-img {
     background-image: url('http://i64.tinypic.com/zbpkg.jpg');
     background-size: cover;
