@@ -176,11 +176,13 @@ header nav a:hover {
 #home .main-content .top-content {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 #home .main-content .top-content .info-text {
 	width: 49%;
 	padding: 12px 0;
+	padding-right: 12px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -188,6 +190,7 @@ header nav a:hover {
 #home .main-content .bottom-content {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 #home .main-content .bottom-content .info-text {
