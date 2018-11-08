@@ -227,6 +227,47 @@ nav a {
 	width: 47.5%;
 }
 
+
+@media (max-width: 736px) {
+	nav {
+		margin: 30px 10px 0 10px;
+	}
+
+	ul {
+		margin-left: 30px;
+	}
+	footer {
+		margin-bottom: 50px;
+	}
+	.container {
+		width: 100%;
+	}
+	.header-container {
+		margin: 0 10px 40px 10px;
+	}
+
+	.services-container {
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin: 0;
+	}
+
+	.box {
+		width: 70%;
+		margin: 20px 0;
+	}
+
+	.facts {
+		width: 97%;
+		margin: 40px 10px 0 10px;
+	}
+
+	.services-info-img, .services-header-img {
+		width: 100%;
+	}
+}
+
 /* Vision Styles */
 
 .headshots {
@@ -265,3 +306,4 @@ nav a {
 	padding: 40px 0;
 	border-top: 1px solid black;
 }
+
