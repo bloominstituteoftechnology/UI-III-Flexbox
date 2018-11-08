@@ -300,6 +300,8 @@ card h4 {
 
 .cast {
 	display:flex;
+	margin-top: 20vh;
+	border: 2px solid grey;
 	
 }
 
@@ -323,10 +325,11 @@ card h4 {
 
 .info h3 {
 	font-size: 40px;
-	color: blue;
+	
 }
 
 .info h4 {
 	font-size:25px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: blue;
 }
