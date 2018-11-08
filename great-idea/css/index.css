@@ -252,11 +252,14 @@ footer {
 		margin-top: 50px;
 	}
 	.top-nav a {
-		padding: 0 15px;
+		display: inline-block;
+		padding: 5px 15px;
 	}
 	.logo {
 		width: 145px;
-		/* margin: 0 auto; */
+		display: block;
+		margin: 0 auto;
+		padding: 0;
 	}
 }
 
