@@ -77,8 +77,8 @@ header	{
 header nav	{
 	display: flex;
 	flex-wrap: wrap;
-	width: 80%;
-	justify-content: space-around;
+	width: 70%;
+	justify-content: space-between;
 }
 header nav a	{
 	color: gray;
@@ -96,14 +96,25 @@ header img	{
 header img:hover{
 	background-color: orangered;
 }
-.bigsplashtext h1	{
+h1	{
 	font-size: 75px;
 	width: 100%;
+}
+h2	{
+	font-size: 25px;
+}
+h3	{
+	font-size: 20px;
+}
+ul	{
+	list-style-type: square;
+	list-style-position: inside;
 }
 .splash_container	{
 	margin-top: 50px;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 }	
 .splash_container img	{
 	display: flex;
@@ -132,15 +143,24 @@ header img:hover{
 .maincontent	{
 	border-top:	1px solid black;
 	border-bottom: 1px solid black;
-	margin: 20px auto;
+	margin: 40px 30px;
 	padding: 30px 0;
 	display: flex;
-	flex-wrap: nowrap;
 	flex-direction: column;
+}
+.servicesmc	{
+	border-bottom: 1px solid black;
+	margin: 0 40px 20px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.sectionimg1	{
+	display: flex;
+	margin-bottom: 20px;
 }
 .eachcontentholder	{
 	display: flex;
-	flex-wrap: nowrap;
 	flex-direction: row;
 }
 .maincontent img	{
@@ -154,4 +174,54 @@ header img:hover{
 .copyright_container	{
 	margin: 50px auto;
 	text-align: center;
+}
+.contact_container	{
+	margin: 10px 30px;
+}
+.blockduo	{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 40px;
+}
+.loneblock h2	{
+	font-size: 17px;
+}
+.loneblock a	{
+	border: 1px solid black;
+	text-decoration: none;
+	height: 40px;
+	width: 40%;
+	margin-top: 15px;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loneblock a:hover	{
+	color: white;
+	background-color: orangered;
+}
+.loneblock	{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	background-color: lightgrey;
+	border: 1px solid grey;
+	padding: 20px;
+	width: 45%;
+}
+.factscontainer	{
+	width: 60%;	
+	display: flex;
+	flex-direction: column;
+}
+.factscontainer li	{
+	padding: 15px 10px;
+}
+.footerduo	{
+	border-top: 2px solid black;
+	margin-top: 20px;
+	padding-top: 20px;
 }
