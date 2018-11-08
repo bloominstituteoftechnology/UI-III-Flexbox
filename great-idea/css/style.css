@@ -301,38 +301,38 @@ footer > div.copyright-section {
     padding: 10px;
 }
 
-section.extra-information-has-image {
+.extra-information-has-image {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin: 20px 0;
 }
 
-section.extra-information-has-image > article {
+.extra-information-has-image > article {
     width: 70%;
     line-height: 1.5;
 }
 
-section.extra-information-has-image h3 {
+.extra-information-has-image h3 {
     font-size: 20px;
 }
 
-section.extra-information-has-image  ul,
-section.extra-information-has-image  ol {
+.extra-information-has-image  ul,
+.extra-information-has-image  ol {
     line-height: 2;
     margin: 10px;
     padding-left: 25px;
 }
 
-section.extra-information-has-image ul > li{
+.extra-information-has-image ul > li{
     list-style-type: square;
 }
 
-section.extra-information-has-image ol > li{
-    list-style-type: one;
+.extra-information-has-image ol > li{
+    list-style-type: decimal;
 }
 
-section.extra-information-has-image img {
+.extra-information-has-image img {
     display: block;
     width: 500px;
     height: 300px;
