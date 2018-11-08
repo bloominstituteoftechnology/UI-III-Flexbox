@@ -147,7 +147,7 @@ a.logo-link:empty {
     right: 25px;
 }
 
-.container > header > div {
+.container > header > div.home-header {
     display: flex;
     justify-content: center;
     margin: 75px 0 45px;
@@ -249,7 +249,9 @@ footer > div.copyright-section {
     margin: 25px 0 25px;
 }
 
-.container > header > .header-description > h2 {
+.container > header > .header-description > h1,
+.container > header > .header-description > h2,
+.container > header > .header-description > h3 {
     font-size: 37.5px;
 }
 
@@ -279,6 +281,7 @@ footer > div.copyright-section {
     margin: 10px 0;
 }
 
+.services > article > h1
 .services > article > h2 {
     font-size: 20px;
 }
