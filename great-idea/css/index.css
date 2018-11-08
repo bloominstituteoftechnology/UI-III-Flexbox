@@ -185,6 +185,7 @@ body {
   /* width: 880px; */
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .upper-content button {
