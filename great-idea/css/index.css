@@ -155,10 +155,14 @@ h5 {
 p {
   display: inline-block;
 }
-
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 nav a {
-  padding: 32px;
-  vertical-align: 12px;
+  /* padding: 32px; */
+  /* vertical-align: 12px; */
   color: #575757;
   text-decoration: none;
 }
@@ -173,7 +177,7 @@ body {
 .heading-text h1 {
   font-size: 70px;
   text-align: center;
-  vertical-align: top;
+  /* vertical-align: top; */
 }
 
 .upper-content {
