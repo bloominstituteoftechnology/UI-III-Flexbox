@@ -206,18 +206,30 @@ footer {
 
 .services-content-section {
 	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 880px;
 	padding-bottom: 35px;
 	margin-bottom: 35px;
 	border-bottom: 1px solid black;
 }
 
+.services-subsection {
+	display: flex;
+	width: 880px;
+	flex-direction: row;
+	justify-content: space-between;
+}
 .services-text-content {
 	display: flex;
 	flex-direction: column;
 	width: 400px;
 	background: gray;
 	border: 1px solid yellow;
+}
+
+.services-main ul li {
+	list-style: inside;
 }
 
 /* .learn-more-button {
