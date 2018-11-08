@@ -299,3 +299,18 @@ footer {
 	height: 3px;
 	background-color: black;
 }
+
+.last-section {
+	margin-top: 2rem;
+	display: flex;
+}
+
+ol {
+	list-style-type: square;
+	margin: 2rem 0 0 1.2rem;
+
+}
+
+ol li {
+	margin-bottom: 1rem;
+}
