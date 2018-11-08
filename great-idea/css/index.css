@@ -235,6 +235,10 @@ footer {
   line-height: 1.25;
 }
 
+#middle-card-row .services-text-content {
+  margin: 0;
+}
+
 .learn-more-button {
   display: flex;
   justify-content: center;
@@ -268,4 +272,8 @@ footer {
   list-style: square;
   margin: 10px;
   padding: 10px;
+}
+
+.facts-section ul li {
+  margin: 10px;
 }
