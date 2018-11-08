@@ -34,7 +34,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
 }
 blockquote, q {
 	quotes: none;
@@ -114,16 +114,30 @@ header .logo {
 
 /* cta */
 
+.cta {
+  border: 2px solid purple;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
 .cta .cta-text {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
   padding: 0px 75px;
+  border: 2px solid red;
+  width: 500px;
+  justify-content: center;
 }
 
 .cta .cta-text button {
+  display: flex;
+  
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -139,8 +153,10 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
+  display: flex;
   margin-top: 69px;
+  border: 2px solid blue;
+  
 }
 
 .main-content {
@@ -151,12 +167,17 @@ header .logo {
 
 .main-content .top-content {
   padding: 0 10px;
+  display: flex;
 }
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   margin-right: 34px;
+  border: 2px solid yellow;
+  
 }
 
 .main-content .top-content .text-content:last-child {
@@ -170,11 +191,14 @@ header .logo {
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
+  display: flex;
+  border: 2px solid pink;
 }
+
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
+  display: flex;
   margin-right: 12px;
 }
 
@@ -208,9 +232,19 @@ footer {
 .services .services-info {
 	padding: 30px;
 	border-bottom: 1px solid black;
-	margin-bottom: 30px;
+  margin-bottom: 30px;
+  
 
 }
+
+.container2 {
+  border: 2px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
 
 .services h1 {
 	font-size: 20px
@@ -222,15 +256,83 @@ footer {
 	width: 400px;
 	padding-bottom: 30px;
 	background-color: rgb(230, 228, 225);
-	margin-bottom: 30px;
+  margin-bottom: 30px;
+  
 	
 	
 
 }
 	
-	
+.services .UX {
+  padding: 30px;
+  border: 1px solid black;
+  width: 400px;
+	padding-bottom: 30px;
+	background-color: rgb(230, 228, 225);
+  margin-bottom: 30px;
+  
+}
 	
 
+ .services .DM {
+ padding: 30px;
+ border: 1px solid black;
+ width: 400px;
+ padding-bottom: 30px;
+ background-color: rgb(230, 228, 225);
+ margin-bottom: 30px;
+}
+
+
+.services .WD {
+  padding: 30px;
+  border: 1px solid black;
+  width: 400px;
+  padding-bottom: 30px;
+  background-color: rgb(230, 228, 225);
+  margin-bottom: 30px;
+}
+
+.services .Apple {
+  padding: 30px;
+  border: 1px solid black;
+  width: 400px;
+  padding-bottom: 30px;
+  background-color: rgb(230, 228, 225);
+  margin-bottom: 30px;
+}
+
+.services .Droid {
+  padding: 30px;
+  border: 1px solid black;
+  width: 400px;
+  padding-bottom: 30px;
+  background-color: rgb(230, 228, 225);
+  margin-bottom: 30px;
+}
+
+
+
+.services .facts {
+  border: 2px solid gold;
+  width: 400px;
+  
+ 
+}
+
+.services .facts p {
+  margin-bottom: 30px;
+}
+
+.services .facts  ul {
+  margin-bottom: 30px;
+  padding: 30px;
+  
+}
+
+.services .facts li {
+  margin-bottom: 10px;
+}
 
 
 
