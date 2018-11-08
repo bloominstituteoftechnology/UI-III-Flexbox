@@ -66,8 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
   width: 880px;
-  /* TB LR */
-  margin: 0 auto;
+  margin: 76px auto 0;
 }
 
 /* header */
@@ -76,24 +75,28 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 75px;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  width: 880px;
+  background-color: whitesmoke;
 }
 
 header nav {
 	display: flex;
 	width: 600px;
-	justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 header nav a {
   font-size: 16px;
-  color: gray;
+  color: black;
   text-decoration: none;
 }
 
 header nav a:hover {
   text-decoration: underline;
-  color: black;
+  font-size: 20px;
 }
 
 /* cta */
@@ -197,7 +200,7 @@ footer {
 
 /* main content */
 .services-main {
-	margin: 35px 0;
+	margin-bottom: 35px;
 }
 
 .services-main h2 {
@@ -209,7 +212,6 @@ footer {
 	flex-direction: column;
 	justify-content: space-between;
 	width: 880px;
-	padding-bottom: 35px;
 	margin-bottom: 35px;
 	border-bottom: 1px solid black;
 }
@@ -217,24 +219,35 @@ footer {
 .services-subsection {
 	display: flex;
 	width: 880px;
-	flex-direction: row;
+  flex-direction: row;
+  flex-wrap: wrap;
 	justify-content: space-between;
 }
 .services-text-content {
 	display: flex;
-	flex-direction: column;
-	width: 400px;
-	background: gray;
-	border: 1px solid yellow;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 400px;
+  background: whitesmoke;
+  margin: 35px 0;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.learn-more-button {
+  padding: 10px 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.learn-more-button:hover {
+  background: black;
+  color: white;
 }
 
 .services-main ul li {
-	list-style: inside;
+	list-style: square;
 }
-
-/* .learn-more-button {
-	padding: 5px 30px;
-	height: 60px;
-	width: 100px;
-	text-align: center;
-} */
