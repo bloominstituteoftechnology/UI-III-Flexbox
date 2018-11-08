@@ -237,6 +237,7 @@ footer {
 .learn-more-button {
   padding: 10px 40px;
   margin-top: 20px;
+  width: 130px;
   cursor: pointer;
   background: white;
   border-radius: 5px;
@@ -250,4 +251,11 @@ footer {
 
 .services-main ul li {
 	list-style: square;
+}
+
+.facts-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 880px;
 }
