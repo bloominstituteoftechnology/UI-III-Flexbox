@@ -96,7 +96,7 @@ nav {
 
 nav a {
 	text-decoration: none;
-	padding: 0px 30px;
+	padding: 0 30px;
 	color: lightgrey;
 }
 
@@ -178,7 +178,6 @@ footer {
 	width:  100%;
 }
 
-
 .parent-container {
 	display: flex;
 	justify-content: space-between;
@@ -241,20 +240,27 @@ footer {
 
 /* MEDIA QUERIES */
 
-
+/* Adjusts from 900px fixed width to responsive for any screen size. */
 @media (max-width: 900px) {
 	body {
 		width: 95%;
 	}
-}
-
-@media (max-width: 700px) {
 	.top-nav {
-		/* flex-direction: column-reverse; */
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-content: center;
+		margin-top: 50px;
+	}
+	.top-nav a {
+		padding: 0 15px;
 	}
 	.logo {
 		width: 145px;
+		/* margin: 0 auto; */
 	}
+}
+
+@media (max-width: 700px) {
 	.header-img {
 		display: none;
 	}
@@ -295,8 +301,6 @@ footer {
 	footer {
 		margin-top: 20px;
 	}
-
-
 
 	.parent-container {
 		display: flex;
