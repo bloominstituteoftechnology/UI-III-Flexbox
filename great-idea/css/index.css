@@ -254,6 +254,8 @@ card h4 {
 	height: 2vh;
 	background: white;
 	margin-bottom: 2vh;
+	text-align:center;
+	vertical-align: middle;
 }
 
 /* bottom section */
@@ -332,4 +334,8 @@ card h4 {
 	font-size:25px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: blue;
+}
+
+.list {
+	margin-left:1.5vw;
 }
