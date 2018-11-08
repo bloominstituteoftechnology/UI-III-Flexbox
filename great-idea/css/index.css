@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -194,4 +192,70 @@ h1, h2, h3, h4, h5 {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
-  }
+	}
+
+/* Services Page */
+
+
+
+
+
+
+/* Main Content */
+
+	.container1 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 40px;
+		margin-top: 25px;
+	}
+
+	.container1 .box {
+		display: flex;
+		flex-direction: column;
+		background: whitesmoke;
+		border: 1px solid black;
+		line-height: 1.5;
+		width: 400px;
+		padding: 30px;
+	}
+
+	.container1 .box button {
+		width: 100px;
+		padding: 10px;
+		align-self: flex-start;
+		margin-top: 20px;
+		border: 1px solid black;
+	}	
+
+/* Bottom Content */
+
+	.bottom-content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		border-top: 1px solid black;
+		padding-top: 40px;
+		margin-bottom: 40px;
+
+	}
+
+	.bottom-text {
+		width: 400px;
+		line-height: 1.5;
+		margin-left: 0px;
+	}
+
+	ul {
+		margin-left: 0px;
+		padding-left: 20px;
+	}
+
+	.services-info-img {
+		width: 400px;
+	}
+
+	footer {
+		margin-bottom: 20px;
+	}
