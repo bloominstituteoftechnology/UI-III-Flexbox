@@ -205,17 +205,55 @@ h1, h2, h3, h4, h5 {
   }
 
   .services-top p {
-	  padding-bottom: 25px;
+	  padding-bottom: 35px;
+	  line-height: 1.25;
   }
 
   .services-middle-content {
 	  display: flex;
 	  flex-wrap: wrap;
+	  margin: 20px 0;
+	  justify-content: space-between;
+	  
   }
 
   .services-middle-boxes {
-	  width: 300px;
+	  width: 420px;
 	  background-color: #eff0f2;
 	  border: 1px solid black;
 	  padding: 15px;
+	  margin: 20px 0;
+	  line-height: 1.25;
+  }
+
+  .services-middle-boxes button {
+	  background-color: white;
+	  margin-top: 10px;
+	  font-size: 10px;
+	  border-radius: 5px;
+	  padding: 5px 15px;
+	  border: 1px solid black;
+  }
+
+  .services-bottom {
+	  display: flex;
+	  justify-content: space-between;
+	  border-top: 1px solid black;
+	  padding-top: 25px;
+  }
+
+  .text {
+	  width: 400px;
+	  line-height: 1.25;
+  }
+
+  .text ul {
+	  padding:25px 0;
+	  line-height: 2;
+	  list-style: square;
+  }
+
+  .text li {
+	  /* list-style: square; */
+	  margin-left: 20px;
   }
