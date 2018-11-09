@@ -249,11 +249,11 @@ footer {
 	.top-nav {
 		flex-direction: column-reverse;
 		justify-content: center;
-		align-content: center;
+		align-items: center;
 		margin-top: 50px;
 	}
 	.top-nav a {
-		display: inline-block;
+		/* display: inline-block; */
 		padding: 5px 15px;
 	}
 	.logo {
