@@ -77,12 +77,12 @@ header	{
 header nav	{
 	display: flex;
 	flex-wrap: wrap;
-	width: 70%;
+	width: 60%;
 	justify-content: space-between;
 }
 header nav a	{
 	color: gray;
-	margin: 30px;
+	margin: 0 25px;
 	text-decoration: none;
 }
 header nav a:hover	{
@@ -91,7 +91,6 @@ header nav a:hover	{
 header img	{
 	padding: 10px;
 	border-radius: 10px;
-	display: flex;
 }
 header img:hover{
 	background-color: orangered;
@@ -116,25 +115,19 @@ ul	{
 	justify-content: space-around;
 	align-items: center;
 }	
-.splash_container img	{
-	display: flex;
-}
 .bigsplashtext	{
 	display: flex;
 	text-align: center;
-	align-content: center;
 	flex-direction: column;
 	align-items: center;
 }
 .bigsplashtext a {
 	border: 1px solid black;
 	text-decoration: none;
-	height: 30px;
-	width: 170px;
+	height: 40px;
+	width: 40%;
+	padding: 10px 10px;
 	color: black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 .bigsplashtext a:hover	{
 	color: white;
@@ -148,6 +141,20 @@ ul	{
 	display: flex;
 	flex-direction: column;
 }
+.copyright_container	{
+	margin: 50px 0;
+	text-align: center;
+}
+.contact_container	{
+	margin: 10px 30px;
+}
+.eachcontentholder	{
+	display: flex;
+}
+.sectionimg1	{
+	display: flex;
+	margin-bottom: 20px;
+}
 .servicesmc	{
 	border-bottom: 1px solid black;
 	margin: 0 40px 20px;
@@ -155,28 +162,9 @@ ul	{
 	display: flex;
 	flex-direction: column;
 }
-.sectionimg1	{
-	display: flex;
-	margin-bottom: 20px;
-}
-.eachcontentholder	{
-	display: flex;
-	flex-direction: row;
-}
 .maincontent img	{
 	display: flex;
 	margin: 30px 0;
-}
-.eachcontent	{
-	display: flex;
-	flex-direction: column;
-}
-.copyright_container	{
-	margin: 50px auto;
-	text-align: center;
-}
-.contact_container	{
-	margin: 10px 30px;
 }
 .blockduo	{
 	display: flex;
@@ -204,9 +192,6 @@ ul	{
 	background-color: orangered;
 }
 .loneblock	{
-	display: flex;
-	flex-direction: column;
-	align-content: flex-start;
 	background-color: lightgrey;
 	border: 1px solid grey;
 	padding: 20px;
@@ -223,5 +208,9 @@ ul	{
 .footerduo	{
 	border-top: 2px solid black;
 	margin-top: 20px;
-	padding-top: 20px;
+	padding: 20px;
+	flex-wrap: wrap-reverse;
+}
+.footerduo img	{
+	margin: 0 auto 15px;
 }
