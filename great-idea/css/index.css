@@ -68,7 +68,8 @@ h1, h2, h3, h4, h5 {
 hr {
 	border: 1px solid black
 }
-.container {
+.container,
+.header-container {
 	max-width: 80%;
 	margin: 0 auto;
 }
@@ -76,29 +77,54 @@ hr {
 
 /* Header */
 header {
+	margin-bottom: 50px;
+	height: 80px;
+	padding: 20px 0 20px 0;
+	background-color: lightgrey;
+}
+
+.header-container {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 10px;
-	height: 40px;
-	margin-bottom: 50px;
+	align-items: center;
 }
 
 header nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	
 }
 
 
 header nav a {
 	text-decoration: none;
-	color: lightgray;
-	padding: 0 5px;
+	color: black;
+	/* padding: 0 20px 0 20px; */
 	margin: 0 70px 0 0;
+	/* border-right: .5px solid black; */
+	/* margin: 0 70px 0 0; */
 }
+
+
+@keyframes navAnimation {
+	from { 
+		font-size: 100%;
+	}
+
+	to { 
+		font-size: 110%; 
+	}
+}
+
 
 header nav a:hover {
 	color: blue;
+	text-decoration: underline;
+	
+	animation-name: navAnimation;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
 }
 
 
@@ -110,22 +136,32 @@ header nav a:hover {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 70%;
-	height: 400px;
+	max-width: 90%;
 	margin: 0 auto;
-	text-align: center;
 	margin-bottom: 50px;
+	/* border: 1px solid black; */
 }
 
+.banner-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* border: 1px solid black; */
+	max-width: 80%;
+}
 
 .banner .banner-title h1 {
 	font-size: 80px;
 }
 
-.banner .banner-title p {
-	border: 1px solid black;
-	display: inline-block;
-	padding: 5px 30px;
+.banner .banner-title button {
+	padding: 10px 20px;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.banner img {
+	margin-left: 50px;
 }
 
 
@@ -236,14 +272,12 @@ header nav a:hover {
 }
 
 .learn-btn {
-	border: 1px solid black;
 	border-radius: 5px;
-
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
 	width: 150px;
-	padding: 10px 10px;
-	text-align: center;
+	height: 40px;
 	margin-top: 30px;
-	background: whitesmoke;
 }
 
 
