@@ -109,11 +109,17 @@ h1, h2, h3, h4, h5 {
 	  align-content: center;
   }
   .cta .cta-text {
-	font-size: 77px;
+	/* font-size: 300px; */
+	display: flex;
+	flex-direction: column;
 	margin-top: 120px;
 	text-align: center;
 	padding: 0px 75px;
-  }
+	}
+	
+	.cta .cta-text h1 {
+		font-size: 77px;
+	}
   
   .cta .cta-text button {
 	background: white;
@@ -144,12 +150,13 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
+	flex-direction: row;
   }
   
   .main-content .top-content .text-content {
 	width: 410px;
 	margin-right: 34px;
-	flex-direction: column;
+	/* flex-direction: row; */
   }
   
   .main-content .top-content .text-content:last-child {
@@ -166,6 +173,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
+	border: none;
   }
   
   .main-content .bottom-content .text-content {
