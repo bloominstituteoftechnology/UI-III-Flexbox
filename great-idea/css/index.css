@@ -266,3 +266,19 @@ body {
 footer {
   text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+  body {
+    width: auto;
+  }
+  .servicelist {
+    flex-direction: column;
+    margin: 20px 20px;
+  }
+  .services-header-img {
+    display: none;
+  }
+  .servicelist div {
+    width: auto;
+  }
+}
