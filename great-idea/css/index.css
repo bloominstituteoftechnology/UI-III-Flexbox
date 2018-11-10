@@ -90,7 +90,10 @@ nav{
 }
 nav a{
 	
-	color:black;
+	color:gray;
+}
+nav a:hover{
+	color:cyan;
 }
 footer {
 	text-align: center;
@@ -230,7 +233,24 @@ address{
 	margin: 80px 0 15px;
 }
 /* VISION STYLES */
-
+.column65{
+	width:100%;
+	justify-content: flex-end;
+}
+.column65 img{
+	width:100%;
+	border-radius: 1rem;
+}
+.column35{
+	align-items: center;
+}
+.vision-header{
+	padding: 80px;
+	border-bottom: 1px solid black;
+}
+.vision-title{
+	padding: 100px;
+}
 
 
 /* STRETCH MEDIA QUERIES */
