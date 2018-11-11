@@ -157,7 +157,7 @@ h5 {
 }
 
 .container {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -326,4 +326,24 @@ footer {
 
 #services .bottom-section div {
   width: 48%;
+}
+
+/* -------------------Media Queries----------------- */
+@media only screen and (max-width: 600px) {
+  #services .services-header-img {
+    display: none;
+  }
+
+  #services .main-section {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #services .main-section div {
+    /* padding: 15px; */
+    margin: 30px auto;
+
+    width: 300px;
+  }
 }
