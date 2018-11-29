@@ -104,6 +104,11 @@ a {
 	width: 100%;
 }
 
+.big-text {
+	width: 400px;
+	text-align: center;
+}
+
 .big-text > button {
 	width: 250px;
 	height: 50px;
@@ -119,11 +124,10 @@ a {
 
 #big-text {
 	font-size: 6rem;
-	max-width: 200px;
 	text-align: center;
 }
 .contact {
-	max-width: 200px;
+	max-width: 300px;
 	margin-top: 50px;
 }
 
@@ -136,6 +140,6 @@ address {
 }
 
 #copyright {
-	margin: 30px auto;
+	margin: 150px auto;
 	text-align: center;
 }
