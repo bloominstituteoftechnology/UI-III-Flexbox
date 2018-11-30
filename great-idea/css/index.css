@@ -82,6 +82,10 @@ a {
 	color: grey;
 }
 
+section {
+	padding: 30px;
+}
+
 .one {
 	display: flex;
 	justify-content: space-around;
