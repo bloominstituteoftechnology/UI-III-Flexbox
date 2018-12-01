@@ -66,6 +66,18 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
+body {
+  background-color: black;
+  /* adding black background to match the display of the design file image in the browser */
+}
+
+.container {
+  width: 1000px;
+  min-height: 1px;
+  margin: auto;
+  background-color: white;
+}
+
 h1 {
   line-height: 70px;
 }
@@ -75,14 +87,8 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 1024px;
-  min-height: 1px;
-  margin: auto;
-}
-
 header {
-  margin-top: 27px;
+  padding-top: 27px;
   display:flex;
 }
 
@@ -216,5 +222,5 @@ small {
   display:block;
   font-size: 14px;
   margin-top: 56px;
-  margin-bottom: 114px;
+  padding-bottom: 114px;
 }
