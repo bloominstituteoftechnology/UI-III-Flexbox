@@ -93,34 +93,17 @@ header {
 }
 
 nav {
-  margin-left: 75px;
+  margin-left: 60px;
   vertical-align: top;
-  margin-top: 10px;
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+  width: 606px;
 }
 
 nav a {
   color: rgb(188,188,188);
-  font-size: 14px;
-}
-
-#nav-product {
-  margin-left: 62px;
-}
-
-#nav-vision {
-  margin-left: 63px;
-}
-
-#nav-features {
-  margin-left: 64px;
-}
-
-#nav-about {
-  margin-left: 63px;
-}
-
-#nav-contact {
-  margin-left: 63px;
+  font-size: 16px;
 }
 
 #logo {
