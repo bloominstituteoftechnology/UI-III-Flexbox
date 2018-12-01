@@ -156,7 +156,7 @@ h1 {
 }
 
 main, footer {
-  margin-left: 74px;
+  margin-left: 75px;
   margin-right: 75px;
 }
 
@@ -166,6 +166,7 @@ section {
 
 p, .features, .about, h2, .services, .product, .vision {
   display: flex;
+  flex-direction: column;
   vertical-align: top;
 }
 
@@ -175,21 +176,22 @@ p, .features, .about, h2, .services, .product, .vision {
 
 .about {
   width: 425px;
-  margin-left: 20px;
+  margin-left: 22px;
+}
+
+.top-section, .bottom-section {
+  display: flex;
+  flex-direction: row;
 }
 
 .top-section {
   border-top: 1px solid black;
-  margin-bottom: 40px;
-  padding-top: 38px;
-}
-
-.middle-img {
-  margin-left: 1px;
+  margin-bottom: 39px;
+  padding-top: 39px;
 }
 
 .bottom-section {
-  margin-top: 42px;
+  margin-top: 41px;
   padding-bottom: 48px;
   border-bottom: 1px solid black;
   margin-bottom: 39px;
@@ -201,12 +203,12 @@ p, .features, .about, h2, .services, .product, .vision {
 
 .product {
   width: 275px;
-  margin-left: 20px;
+  margin-left: 23px;
 }
 
 .vision {
   width: 275px;
-  margin-left: 21px;
+  margin-left: 24px;
 }
 
 small {
