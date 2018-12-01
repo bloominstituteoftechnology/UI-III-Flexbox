@@ -259,14 +259,21 @@ ul {
     margin: 2rem 0 0 1.2rem;
 }
 
+ul > li {
+    padding: 1rem;
+}
+
 .services-info-img {
     grid-column: 2 / 3;
+    width: 100%;
 }
 
 /* Copyright
 ============================*/
 
 #copyright {
-    margin: 5rem auto;
+    width: 100%;
     text-align: center;
+    margin: 10rem 0 1rem; 
+    bottom: 0;
 }
