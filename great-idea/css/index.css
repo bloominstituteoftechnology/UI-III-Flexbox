@@ -83,10 +83,10 @@ a {
 
 header {
   margin-top: 27px;
+  display:flex;
 }
 
 nav {
-  display: inline-block;
   margin-left: 75px;
   vertical-align: top;
   margin-top: 10px;
@@ -125,15 +125,19 @@ nav a {
 #splash {
   margin-top: 70px;
   margin-bottom: 75px;
+  display:flex;
 }
 
 .innovation {
-  display:inline-block;
+  display:flex;
+  flex-direction: column; 
+  align-items: center;
   text-align: center;
   margin-left: 150px;
   margin-top: 65px;
   vertical-align: top;
   line-height: 0.85;
+  width: 300px;
 }
 
 h1 {
@@ -141,14 +145,13 @@ h1 {
 }
 
 .get-started {
-  display:inline-block;
   border: 1px solid black;
-  padding: 10px 50px;
-  margin-top: 10px;
+  padding: 10px 0px;
+  margin-top: 20px;
+  width: 173px;
 }
 
 .code-snippet {
-  display:inline-block;
   margin-left: 125px;
 }
 
@@ -162,7 +165,7 @@ section {
 }
 
 p, .features, .about, h2, .services, .product, .vision {
-  display: inline-block;
+  display: flex;
   vertical-align: top;
 }
 
