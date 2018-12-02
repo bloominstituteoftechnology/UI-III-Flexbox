@@ -171,10 +171,15 @@ p {
   margin-top: 27px;
   list-style-type: square;
   list-style-position: inside;
+  margin-left: 1px;
 }
 
 .facts li {
   margin-top: 14px;
+}
+
+.facts li span {
+  padding-left: 1px;
 }
 
 small {
