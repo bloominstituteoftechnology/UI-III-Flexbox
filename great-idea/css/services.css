@@ -83,7 +83,6 @@ body {
   margin-top: 20px;
 }
 
-
 a {
   color: inherit;
   text-decoration: none;
@@ -155,6 +154,13 @@ p {
   margin-top: 20px;
 }
 
+.services button:hover {
+  cursor: pointer;
+}
+
+.services button:focus {
+  outline: 0;
+}
 .services h2, .facts h2 {
   margin-top: 2px;
 }
