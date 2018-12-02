@@ -171,7 +171,7 @@ body {
   margin-right: 188px;
 }
 
-a {
+#nav {
   margin-right: 10px;
   border-radius: 20px;
   color: black;
@@ -179,7 +179,7 @@ a {
   padding: 10px;
 }
 
-a:hover {
+#nav:hover {
   background: black;
   color: white;
 }
@@ -197,6 +197,31 @@ a:hover {
 
 .services {
   margin-bottom: 35px;
+}
+
+.boxone {
+  display: flex;
+  margin: 35px 0;
+}
+
+#firstbox {
+  border: 2px solid black;
+  padding: 20px;
+  margin-right: 35px;
+  background-color: rgb(233, 232, 232);
+}
+
+#secondbox {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: rgb(233, 232, 232);
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin-top: 20px;
 }
 
 li {
