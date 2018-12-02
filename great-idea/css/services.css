@@ -109,12 +109,57 @@ nav a {
   font-size: 16px;
 }
 
-h1 {
-  font-size: 26px;
-}
-
 .services-header {
   margin-top: 31px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+p {
+  line-height: 1.25;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+  border-bottom: 2px solid black;
+}
+
+.services div {
+  background-color: #F4F3F4;
+  width: 420px;
+  padding: 20px;
+  border: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.services button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 35px;
+  width: 141px;
+  font-family: inherit;
+  font-size: 12px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.services h2 {
+  margin-top: 2px;
+}
+
+.services p {
+  margin-top: 17px;
 }
 
 small {
