@@ -124,12 +124,15 @@ p {
   line-height: 1.25;
 }
 
-.services {
+.services, .facts {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
   justify-content: space-between;
   margin-top: 40px;
+}
+
+.services {
   border-bottom: 2px solid black;
 }
 
@@ -150,16 +153,28 @@ p {
   font-family: inherit;
   font-size: 12px;
   margin-top: 20px;
-  align-items: center;
-  justify-content: center;
 }
 
-.services h2 {
+.services h2, .facts h2 {
   margin-top: 2px;
 }
 
-.services p {
+.services p, .facts p {
   margin-top: 17px;
+}
+
+.facts p {
+  width: 400px;
+}
+
+.facts ul {
+  margin-top: 27px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.facts li {
+  margin-top: 14px;
 }
 
 small {
