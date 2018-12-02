@@ -76,11 +76,13 @@ body {
   min-height: 1px;
   margin: auto;
   background-color: white;
+  padding: 0 60px;
 }
 
-h1 {
-  font-size: 25px;
+.services-header-img {
+  margin-top: 20px;
 }
+
 
 a {
   color: inherit;
@@ -88,17 +90,18 @@ a {
 }
 
 header {
-  padding-top: 27px;
+  padding-top: 28px;
   display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 nav {
-  margin-left: 60px;
-  vertical-align: top;
-  margin-top: 13px;
+  margin-top: 12px;
   display: flex;
   justify-content: space-between;
   width: 606px;
+  font-weight: 500;
 }
 
 nav a {
@@ -106,95 +109,9 @@ nav a {
   font-size: 16px;
 }
 
-#logo {
-  vertical-align: middle;
-  margin-left: 95px;
-}
 
-#splash {
-  margin-top: 70px;
-  margin-bottom: 75px;
-  display:flex;
-}
-
-.innovation {
-  display:flex;
-  flex-direction: column; 
-  align-items: center;
-  text-align: center;
-  margin-left: 150px;
-  margin-top: 65px;
-  vertical-align: top;
-  line-height: 0.85;
-  width: 300px;
-}
-
-
-.get-started {
-  border: 1px solid black;
-  padding: 10px 0px;
-  margin-top: 10px;
-  width: 173px;
-}
-
-.code-snippet {
-  margin-left: 120px;
-}
-
-main, footer {
-  margin-left: 75px;
-  margin-right: 75px;
-}
-
-section {
-  display: block;
-}
-
-p, .features, .about, h2, .services, .product, .vision {
-  display: flex;
-  flex-direction: column;
-  vertical-align: top;
-}
-
-.features {
-  width: 425px;
-}
-
-.about {
-  width: 425px;
-  margin-left: 22px;
-}
-
-.top-section, .bottom-section {
-  display: flex;
-  flex-direction: row;
-}
-
-.top-section {
-  border-top: 1px solid black;
-  margin-bottom: 39px;
-  padding-top: 39px;
-}
-
-.bottom-section {
-  margin-top: 41px;
-  padding-bottom: 48px;
-  border-bottom: 1px solid black;
-  margin-bottom: 39px;
-}
-
-.services {
-  width: 275px;
-}
-
-.product {
-  width: 275px;
-  margin-left: 23px;
-}
-
-.vision {
-  width: 275px;
-  margin-left: 24px;
+h1 {
+  font-size: 25px;
 }
 
 small {
