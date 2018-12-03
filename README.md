@@ -6,7 +6,7 @@ Once you have finished the home page using flex box module, go build the service
 
 **Useful Resource: [CSS Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)**
 
-## To Get Started
+## To  Get Started
 
 * Fork / Clone this project into a directory on your machine.
 * Open the code with your preferred integrated development environment (IDE).
