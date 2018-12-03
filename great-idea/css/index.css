@@ -64,3 +64,124 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.nav-container {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: lightskyblue;
+	border: 1px solid black;
+	z-index: 2;
+}
+
+.nav-content {
+	width: 876px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	width: 65%;
+	justify-content: space-between;
+}
+
+.nav-button {
+	text-decoration: none;
+	color: black;
+	transition: transform 0.4s;
+}
+
+.nav-button:hover {
+	transform: scale(1.2);
+}
+
+.container {
+	border: 1px solid black;
+	width: 876px;
+	margin: 0px auto;
+}
+
+.call-to-action {
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cta-text {
+	text-align: center;
+	align-self: center;
+	width: 100%;
+}
+
+.innovation {
+	font-size: 80px;
+	margin-bottom: 15px;
+}
+
+.get-started a {
+	text-decoration: none;
+	border: 1px solid black;
+	padding-left: 35px;
+	padding-right: 35px;
+	color: black;
+}
+
+.get-started {
+	transition: 1s
+}
+
+.get-started:hover {
+	transform: scale(1.5);
+}
+
+.top-content {
+	border-top: 1px solid black;
+	padding-top: 35px;
+	width: 100%;
+}
+
+.features {
+	display: inline-block;
+	width: 430px;
+}
+
+.about {
+	display: inline-block;
+	width: 430px;
+	margin-left: 12px;
+}
+
+.middle-img {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	padding-bottom: 45px;
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 32%
+}
+
+.services, .product {
+	margin-right: 13.6px;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 110px;
+	font-size: 14px;
+}
