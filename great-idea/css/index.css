@@ -64,11 +64,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+html {
+	margin: 0 auto;
+	padding: 0;
+}
 body {
 	width: 876px;
 	height: 1000px;
 	margin: 0 auto;
+	padding: 0;
 	
 
 }
@@ -94,6 +98,68 @@ header>nav>a {
 	align-items: center;
 	color: silver;
 	text-decoration: none;
+}
+
+.get-started {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 200px;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+
+.get-started>section {
+	order: 1;
+}
+
+.get-started>img {
+	order: 2;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.main {
+	height: 800px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	padding: 0;
+}
+
+#features, #about {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: 140px;
+	width: 44%;
+	justify-content: center;
+	
+	margin: 0;
+	padding: 0;
+	
+	
+}
+
+
+#product, #vision, #services {
+	display: flex;
+	width: 33%;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.middle-img {
+	margin-bottom: 0
 }
 
 
