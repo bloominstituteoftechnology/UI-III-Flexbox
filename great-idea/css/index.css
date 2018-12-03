@@ -171,7 +171,7 @@ h1 {
 	text-align: center;
 }
 
-header > img {
+.head-img {
 	display: inline-block;
 	padding-left: 70px;
 	margin-bottom: 30px;
@@ -198,6 +198,28 @@ header > img {
 	margin: 0 0 130px 140px;
 	text-align: center;
 	width: 150px;
+}
+
+.service {
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	height: 370px;
+}
+
+.services-header-img {
+	height: 200px;
+	width: 100%;
+	display: flex;
+}
+
+.services {
+	width: 875px;
+	margin-top: 30px;
+}
+
+.services > h2 {
+	font-size: 30px;
 }
 
 section {
@@ -253,4 +275,11 @@ footer {
 	margin-right: 70px;
 	margin-top: 50px;
 	display: fixed;
+}
+
+.services-header-img {
+	height: 200px;
+	width: 100%;
+	display: flex;
+
 }
