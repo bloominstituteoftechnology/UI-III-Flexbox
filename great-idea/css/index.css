@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 876px;
+	height: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+
+}
+
+header {
+	display: flex;
+	flex-direction:  row;
+	height: 200px;
+	margin-bottom: 40px;
+
+}
+
+.nav, .logo {
+ flex-wrap: nowrap;
+
+
+}
+
+.nav {
+	order: 1;
+}
+
+.logo {
+	order: 2;
+}
+
+nav>a {
+	
+}
+
+nav {
+	
+
+}
+
+header>img {
+	
+	
+}
+
+
+.get-started {
+	margin-bottom: 40px;
+}
+.get-started>section, .get-started>img {
+
+
+}
+
+.get-started>section {
+
+}
+
+.get-started>section>h1 {
+	
+	
+}
+
+#get-started-code {
+	
+	
+}
+
+.get-started>section>a {
+	
+}
+
+.middle-img {
+	
+}
+section {
+	margin-bottom: 40px;
+}
+
+#features, #about {
+	
+}
+
+#about {
+	
+}
+
+#services, #product, #vision {
+	display: flex;
+	flex-direction: row;
+}
+
+header {
+	
+}
+
+.main {
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+footer>p {
+	
+}
