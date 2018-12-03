@@ -64,3 +64,170 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+	width: 877px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	height: 80px;
+	width: 100%;
+	background: white;
+	position: fixed;
+	top: 0;
+	  
+	/* line-height: 38px; */
+	/* width: px; */
+	/* margin-bottom: 100px; */
+	/* position: fixed; */
+	/* background-color: grey */
+}
+/* header:before {
+  content: "";
+  display: flex;
+  flex-flow: wrap;
+  align-content: center;
+  vertical-align: middle;
+  height: 100%;
+ 
+} */
+
+nav {
+display: inline-flex;
+justify-content: space-around;
+width: 600px;
+/* vertical-align: middle; */
+
+/* margin: 0; */
+/* padding: 0; */
+/* line-height: normal; */
+}
+nav a {
+	/* display: inline-flex; */
+	/* flex-flow: wrap; */
+	
+	text-decoration: none;
+	color: lightgrey;
+	/* margin: 25px; */
+	/* margin-right: 80px; */
+	font-size: 16px;
+	width: 16%;
+	/* line-height: normal; */
+}
+
+.logo{
+	/* vertical-align: baseline; */
+	display: inline-flex;
+	flex-flow: wrap;
+	/* align-content: center; */
+	/* justify-content: center; */
+	/* line-height: normal; */
+	width: 277px;
+}
+.hero {
+	/* height: 100%; */
+	margin: 125px 0 75px;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-top: 65px;
+	/* height: 379px; */
+	/* vertical-align: center; */
+	
+}
+
+.title h1 {
+	font-size: 80px;
+}
+.title a {
+	/* display: inline-flex; */
+	/* justify-content: center; */
+	/* align-content: center; */
+	border: 1px solid black;
+	padding: 0px 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+
+
+}
+
+/* main section */
+main {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+main, .middle-img {
+	padding: 40px 0;
+
+}
+
+.half div, .thirds div {
+	white-space: normal;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* height: 100%; */
+	vertical-align: top;
+}
+
+.half {
+	white-space: nowrap;
+	/* background: yellow; */
+	
+}
+
+.half div   {
+	width: 50%;
+}
+
+.thirds div {
+	width: 33%;
+}
+
+/* footer */
+footer {
+	margin-top: 40px;
+}
+
+footer a {
+	display: flex;
+	text-decoration: none;
+	color: black;
+}
+
+.phone {
+	margin: 24px 0;
+	
+}
+
+#copyright {
+	text-align: center;
+	margin: 48px 0 108px;
+	font-size: 14px;
+}
