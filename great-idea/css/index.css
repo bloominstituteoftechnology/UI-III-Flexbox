@@ -200,9 +200,8 @@ header > img {
 	width: 150px;
 }
 
-.content1 {
-	display: inline-block;
-
+section {
+	display: flex;
 }
 
 .content1 p {
@@ -210,19 +209,9 @@ header > img {
 	margin-bottom: 20px;
 }
 
-.content1 h2 {
-}
-
-.content2 {
-	display: inline-block;
-}
-
 .content2 p {
 	width: 275px;
 	margin-bottom: 20px;
-}
-
-.content2 h2 {
 }
 
 .middle-img {
@@ -231,13 +220,15 @@ header > img {
 }
 
 .contact {
+	display: block;
 	border-top: 2px solid black;
 	padding-top: 20px;
 	margin-top: 20px;
 }
 
 footer {
-	text-align: center;
+	display: flex;
+	justify-content: center;
 	color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
