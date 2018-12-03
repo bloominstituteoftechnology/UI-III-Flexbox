@@ -94,57 +94,30 @@ header {
 	background: white;
 	position: fixed;
 	top: 0;
-	  
-	/* line-height: 38px; */
-	/* width: px; */
-	/* margin-bottom: 100px; */
-	/* position: fixed; */
-	/* background-color: grey */
+	
 }
-/* header:before {
-  content: "";
-  display: flex;
-  flex-flow: wrap;
-  align-content: center;
-  vertical-align: middle;
-  height: 100%;
- 
-} */
+
 
 nav {
 display: inline-flex;
 justify-content: space-around;
 width: 600px;
-/* vertical-align: middle; */
 
-/* margin: 0; */
-/* padding: 0; */
-/* line-height: normal; */
 }
 nav a {
-	/* display: inline-flex; */
-	/* flex-flow: wrap; */
-	
 	text-decoration: none;
 	color: lightgrey;
-	/* margin: 25px; */
-	/* margin-right: 80px; */
 	font-size: 16px;
 	width: 16%;
-	/* line-height: normal; */
+
 }
 
 .logo{
-	/* vertical-align: baseline; */
 	display: inline-flex;
 	flex-flow: wrap;
-	/* align-content: center; */
-	/* justify-content: center; */
-	/* line-height: normal; */
 	width: 277px;
 }
 .hero {
-	/* height: 100%; */
 	margin: 125px 0 75px;
 }
 
@@ -154,8 +127,6 @@ nav a {
 	justify-content: center;
 	text-align: center;
 	margin-top: 65px;
-	/* height: 379px; */
-	/* vertical-align: center; */
 	
 }
 
@@ -163,9 +134,6 @@ nav a {
 	font-size: 80px;
 }
 .title a {
-	/* display: inline-flex; */
-	/* justify-content: center; */
-	/* align-content: center; */
 	border: 1px solid black;
 	padding: 0px 30px;
 	text-decoration: none;
@@ -198,7 +166,6 @@ main, .middle-img {
 
 .half {
 	white-space: nowrap;
-	/* background: yellow; */
 	
 }
 
