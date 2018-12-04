@@ -67,16 +67,20 @@ h1, h2, h3, h4, h5 {
 
 body{
 	width:800px;
+	display: flex;
 	margin: 0 auto;
 }
+
 .container{
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 800px;
 	margin:0 auto;
+	/* display: flex;
+	justify-content: center; */
 	}
 
 .Header{
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -87,25 +91,25 @@ body{
 
 
 nav{
-	border: 1px solid purple;
-	background: lightgray;
+	/* border: 1px solid purple; */
+	/* background: lightgray; */
 	display: flex;
-	margin: auto;
+	margin-left: 0;
 	}
 
 div nav a{
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	margin: 15px 15px 20px 15px;
 	text-decoration: none;
-	color: grey;
+	/* color: grey; */
 	font-size: 12px;
 	width: 60px;
-	
+	color: grey;
 }
 
 
 .Header .imglogo{
-	border: 1px solid yellowgreen;
+	/* border: 1px solid yellowgreen; */
 	display: flex;
 	margin-top: 15px;
 	/* display: inline-block;
@@ -113,11 +117,12 @@ div nav a{
 	padding-left: 40px;
 	padding-top: 30px;
 	position: absolute; */
+	
 
 }
 
  .logo{
-	border: 1px solid orange;
+	/* border: 1px solid orange; */
 	/* display: inline-block;  */
 	/* margin-right: 0;
 	padding-top: 30px;
@@ -132,7 +137,7 @@ div nav a{
  }
 
 .section1{
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	margin-top: 60px;
 	display: flex;
 	flex-direction: row;
@@ -156,7 +161,7 @@ div nav a{
 }
 
 .content1{
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	font-size: 70px;
 	/* display: inline-block; */
 	width: 400px;
@@ -168,14 +173,14 @@ div nav a{
 }
 
 h1{
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	display: flex;
 	flex-direction: column; 
 	align-items: center;
 
 }
 h1 p{
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	/* text-align: justify; */
 	font-size: 70px;
 	display: flex;
@@ -191,7 +196,7 @@ h1 p{
   }
 
 .content1image{
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	/* display: inline-block;
 	margin-right: 0;
 	margin-left: 200px;
@@ -209,8 +214,8 @@ p{
 
 .section2{
 	margin-top: 15px;
-	border: 1px solid red;
-  background: lightgray;
+	/* border: 1px solid red; */
+  /* background: lightgray; */
   /* position: relative; */
   height: 100px;
   display: flex;
@@ -220,7 +225,7 @@ p{
 }
 
 .main1{
-	border: 1px solid yellow;
+	/* border: 1px solid yellow; */
 	/* display: inline-block; */
 	width: 50%;
 	height: 100px;
@@ -229,19 +234,19 @@ p{
 }
 
 .main1 h5{
-	order: 1px solid green;
+	/* order: 1px solid green; */
 	
 	padding-top: 10px;
 
 }
 
 .main1 p{
-	order: 1px solid green;
+	/* order: 1px solid green; */
 	
 	font-size: 12px;
 }
 .main2{
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	/* display: inline-block; */
 	width: 50%;
 	/* margin-right: 0; */
@@ -251,18 +256,18 @@ p{
 }
 
 .main2 h5{
-	order: 1px solid purple;
+	/* order: 1px solid purple; */
 	padding-top: 10px;
 }
 
 .main2 p{
-	order: 1px solid orange;
+	/* order: 1px solid orange; */
 	font-size: 12px;
 	
 }
 
 .section3{
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	/* display: block; */
 	width: 100;
 	display: flex;
@@ -273,19 +278,19 @@ p{
 
 .main3{
 	display: flex;
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	width:100%;
 	/* display: block; */
 }
 
 .middle-img{
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	/* display: block; */
 	width: 100%
 }
 
 .Section4{
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	
 	/* display: inline-block; */
 	width: 100%;
@@ -304,7 +309,7 @@ p{
 }
 
 .Section4 .Services{
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	width: 250px;
 	height: 100px;
 	display: flex;
@@ -321,13 +326,13 @@ p{
 }
 
 .Services p{
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	
 	display: flex;
 }
 
 .Section4 .Products{
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	width: 250px;
 	height: 100px;
 	display: flex;
@@ -344,12 +349,12 @@ p{
 
 
 .Products p{
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	display: flex;
 }
 
 .Section4 .Vision{
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	width: 250px;
 	height: 100px;
 	display: flex;
@@ -365,12 +370,12 @@ p{
 }
 
 .Vision p{
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	display: flex;
 }
 
 .bottomMain{
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	border-top: 2px solid black;
 	padding-top: 15px;
 	margin-bottom: 50px;
@@ -398,21 +403,24 @@ p{
 .SVheader{
 	/* border: 1px solid blue; */
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between; 	
+	/* flex-direction: row;
+	flex-wrap: wrap; */
 	/* background: lightgreen; */
-	justify-content: flex-start;
+	/* justify-content: flex-start; */
 	width: 100%;
-	position: relative;
+	/* position: relative; */
 	margin-top: 30px;
 }
 
 .SVheader nav{
 	/* border: 1px solid red; */
 	/* background: lightpink; */
-	position: absolute;
+	/* position: absolute; */
 	margin-left: 0;
 	display: flex;
+	justify-content: space-between;
 	background-color:transparent;
 	border: none;
 	
@@ -421,6 +429,7 @@ p{
 .SVheader a{
 	/* border: 1px solid red; */
 	display: flex;
+	display: inline-block;
 	/* background: lightyellow; */
 	color: grey;
 	border: none;
@@ -432,10 +441,10 @@ p{
 	display: flex;
 	/* flex-direction: row;
 	flex-wrap: wrap; */
-	width: 200px;
+	/* width: 200px;
 	z-index: 1;
 	position: absolute;
-	left:595px;
+	left:595px; */
 }
 
 .SVlogo{
