@@ -76,10 +76,10 @@ h1, h2, h3, h4, h5 {
 	align-items: flex-end;
 	height: 70px;
 	margin-bottom: 20px;
-	/* background-color: orange;
+	background-color: teal;
 	position: fixed;
 	width: 876px;
-	z-index: 1; */
+	z-index: 1; 
 }
 
 .container header nav {
@@ -128,82 +128,44 @@ h1, h2, h3, h4, h5 {
 	/* border: 1px solid red; */
 	width: 50%;
 }
-.button a {
-	text-decoration: none;
-}
 .containerFirstSection {
-	display: inline-block;
-	position: relative;
+	display: flex;
+	flex-direction: row;
 	padding-top: 30px;
 	border-top: 1px solid black;
-	width: 876px;
-	height: 100px;
 	margin-bottom: 30px;
 }
 
-.containerFirstSection .Features {
-	display: inline-block;
-	/* position: absolute; */
-	width: 49%;
-	left: 0;
+.containerFirstSection .FirstSectionItems {
+	width: 50%;
 }
-
-.containerFirstSection .About {
-	display: inline-block;
-	/* position: absolute; */
-	width: 49%;
-	right: 0;
-}
-
 .middle-img {
-	display: block;
-	width: 876px;
-	margin-top: 30px;
+	display: flex;
 }
 
 .containerThirdSection {
-	display: inline-block;
-	position: relative;
-	padding-top: 30px;
-	width: 876px;
-	height: 200px;
-	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 30px; 
+	padding-bottom: 40px;
 	border-bottom: 1px solid black;
 }
 
-.containerThirdSection .Services {
-	display: inline-block;
-	/* position: absolute; */
-	width: 280px;
-	left: 0;
+.ThirdSectionItems {
+	/* border: 1px solid red; */
+	width: 32%;
 }
-
-.containerThirdSection .Product {
-	display: inline-block;
-	/* position: absolute; */
-	width: 280px;
-	left: 292px;
-	margin: 0 10px; 
-}
-
-.containerThirdSection .Vision {
-	display: inline-block;
-	width: 280px;
-	right: 0;
-}
-
 footer {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
 	padding-top: 20px;
-	display: inline-block;
-	position: relative;
-	height: 200px;
-	width: 876px;
 	margin-bottom: 50px;
 }
 
 footer .Copyright {
-	padding-top: 30px;
-	width: 876px; 
+	/* border: 1px solid red; */
 	text-align: center;
 	font-size: 14px;
+	margin-top: 20px;
 }
