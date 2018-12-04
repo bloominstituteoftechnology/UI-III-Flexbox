@@ -93,8 +93,6 @@ a {
 }
 
 nav a {
-	border-right: 1px solid white;
-	border-left: 1px solid white;
 	padding-right: 10px;
 	padding-left: 10px;
 	margin: 0 30px;
@@ -119,8 +117,7 @@ nav a:hover {
 }
 
 h1 {
-	border-right: 1px solid white;
-	border-left: 1px solid white;
+
 	padding-right: 20px;
 	padding-left: 30px;
 	margin-top: 8px;
