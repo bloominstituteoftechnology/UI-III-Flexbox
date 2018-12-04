@@ -156,6 +156,10 @@ nav > a {
 	display: flex;
 }
 
+.nav-logo {
+	margin-top: 0;
+}
+
 header {
 	height: 450px;
 	margin-bottom: 50px;
