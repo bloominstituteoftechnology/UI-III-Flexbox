@@ -39,16 +39,17 @@ h1, h2, h3, h4, h5 { font-family: 'Bangers', cursive; letter-spacing: 1px; margi
 /*****************************
 	Your code starts here! 
 *****************************/
-body { width: 100%; margin: 0 auto; }
+body { width: 100%; margin: 0 auto; padding: 0 24px 0 24px; }
 section { position: relative; }
 h1 { font-size: 64px; }
-p { line-height: 1.5; }
+h2 { font-size: 24px; }
+p { line-height: 1.25; }
 
 nav { 
-	margin: 0 0 48px 0; 
+	margin: 0 0 48px -24px; 
     position: fixed;
     background-color: white;
-    padding: 12px 8px 12px 8px;
+    padding: 12px 24px 12px 24px;
     width: 100%;
     z-index: 5;
 }
@@ -72,19 +73,31 @@ nav a:hover { color: black; transition-duration: 0.25s; }
 
 .header-img { min-width: 200px;	max-width: 80%; }
 .middle-img { width: 100%; }
+.services-header-img { width: 100%; }
+.services-info-img { width: 100%; }
 
-.container-row { display: flex; flex-direction: row; margin: 0 12px 0 12px; }
 
-.item { flex: 1 1 auto; padding: 0 24px 0 0; }
+.container { margin: 24px 0 24px 0; }
+.container-col { display: flex; flex-direction: column; }
+.container-row { display: flex; }
+.item { flex: 0 1 auto; padding: 0 24px 0 0; }
+
+.container-gallery { display: flex; margin: 0 -12px 0 -12px; }
+.item-gallery { 
+	flex: 0 1 auto; 
+	background-color: #dddddd;
+	padding: 24px;
+	margin: 24px 12px 0px 12px;
+	border: 1px solid black; }
 
 .border-top { 
 	border-top: 1px solid black;
-	margin: 32px 12px 32px 12px;
+	margin: 32px 0 32px 0;
 	padding: 32px 0 0 0;
 }
 .border-bottom { 
 	border-bottom: 1px solid black;
-	margin: 32px 12px 32px 12px;
+	margin: 32px 0 32px 0;
 	padding: 0 0 32px 0;
 }
 
@@ -107,6 +120,9 @@ a.phone:visited, a.email:visited {
 
 .w-50 { width: 50%; margin: 0 -5px 0 0; }
 .w-33 { width: 33%; margin: 0 -1px 0 0; }
+
+ul.services-list { list-style-type: square; list-style-position: inside; margin: 12px 0 0 12px; }
+
 
 /**************************
 Button styling override
