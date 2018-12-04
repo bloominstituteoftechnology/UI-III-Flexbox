@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.logo {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+nav a {
+	margin-right: 55px;
+	color: darkgray;
+	font-size: 90%;
+	text-decoration: none;
+	display: inline-block;
+	padding-top:23px;
+}
+
+.top, .top-content, .bottom-content {
+	position: relative;
+}
+
+.innovation{
+	display: inline-block;
+	width: 435px;
+	padding-top: 130px;
+	height: 500px;
+}
+
+.large-image {
+	position: absolute;
+	right: 0;
+	top: 65px;
+}
+
+hr {
+	border-color: black;
+}
+
+h1 {
+	font-size: 65px;
+	white-space: pre-line;
+	height: 100px;
+	text-align: center;
+}
+
+.button-container {
+	padding-left: 25px;
+	padding-top: 95px;
+}
+
+.button {
+	border: 1px solid black;
+	padding: 7px 40px;
+	display: inline-block;
+	margin-left: 112px;
+}
+
+.content {
+	display: inline-block;
+}
+
+.features {
+	width: 435px;
+	margin-top: 30px;
+}
+
+.top-content, .bottom-content {
+	margin-bottom: 30px;
+}
+
+.about {
+	width: 435px;
+	margin-top: 30px;
+	position: absolute;
+	right: 0;
+}
+
+.small-content {
+	width: 278px;
+	margin-top: 30px;
+	margin-right: 17px;
+}
+
+.small-content:last-child {
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+
+.copyright {
+	font-size: 90%;
+	text-align: center;
+	margin-top: 40px;
+}
