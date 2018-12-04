@@ -127,7 +127,7 @@ header>nav>a {
 	text-align: center;
 }
 
-.get-started>section>a {
+.get-started>section>a, .grid>a {
 	text-decoration: none;
 	color: black;
 	border: 1px solid black;
@@ -214,3 +214,31 @@ footer {
 	font-size: 1.5em;
 }
 
+.main-section {
+	width: 100%;
+	height: 660px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	height: 200px;
+	margin: 0;
+	background-color:lightgray;
+	color: black;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.grid>a {
+	margin-top: 10px;
+	width: 140px;
+	background-color: white;
+}
