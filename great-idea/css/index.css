@@ -72,10 +72,10 @@ h1, h2, h3, h4, h5 {
 	z-index: 5;
 	display: flex;
 	top: 0;
-	border-bottom: 1px solid black;
 	height: 60px;
 	justify-content: space-evenly;
 	justify-content: baseline;
+	margin-bottom: 80px;
 }
 
 nav {
@@ -129,55 +129,35 @@ h1:hover {
 	box-shadow: -2px 2px rgba(0, 0, 0, 0.541);
 }
 
+.spacer {
+	margin-bottom: 100px;
+}
+
 header {
 	margin: 50px auto 50px auto;
 	width: 1000px;
 	z-index: 0;
-	position: relative;
-}
-
-.getstarted {
-	font-family: bangers;
-//	display: inline-block;
-	position: relative;
-	height: 400px;
-	width: 1000px;
-	margin: 0 auto;
-}
-
-.circlecode {
-	position: relative;
-	display: inline-block;
-	height: 400px;
-	width: 400px;
-	margin-left: 100px;
-	top: 40px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center
 }
 
 .innovationtext {
-	display: inline-block;
 	font-size: 4em;
 	text-align: center;
-	position: relative;
 	font-family: Unlock;
-	height: 400px;
-	width: 400px;
-	padding-top: 90px;
-	padding-left: 13.6px;
-	margin-left: 30px;
-	bottom: 30px;
 }
 
 
 .startbutton {
-	display: block;
+	display: flex;
+	justify-content: center;
 	text-align: center;
 	border: 1px solid black;
 	padding: 7px 8px;
 	width: 160px;
 	font-family: 'Titillium Web';
 	font-size: 16px;
-	position: relative;
 	margin: 0 auto;
 	margin-top: 20px;
 }
