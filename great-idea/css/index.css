@@ -193,8 +193,8 @@ h1 {
 .right {
 	/* border: 1px black solid; */
 	display: flex;
-	justify-content: center;
-	align-content: center;
+	justify-content: flex-start;
+	/* align-content: center; */
 	width: 40%;
 }
 
@@ -350,10 +350,77 @@ footer h2 {
 
 img.services-header-img {
 	margin-top: 78px;
+	margin-left: 74px;
 }
 
 .about-services {
 	margin-top: 20px;
-	margin-bottom: 20px; 
+	margin-bottom: 20px;
+	margin-left: 74px; 
 }
 
+.services-categories {
+	width: 856px;
+	margin: 15px;
+	margin-left: 99px;
+	margin-right: 0;
+	margin-top: 30px; 
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.services-categories > div {
+	border: 1px solid black;
+	background-color: rgba(247, 243, 243, 0.952);
+	padding: 10px;
+}
+
+.services-categories > div > p {
+	margin-bottom: 10px;
+}
+
+.services-categories > div > h2 {
+	padding: 5px 0;
+}
+
+.digital-design {
+	width: 47%;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+.UX-UI {
+	width: 47%;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+.digital-marketing {
+	width: 47%;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+.web-development {
+	width: 47%;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+.ios-development {
+	width: 47%;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+.android-development {
+	width: 47%;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+button {
+	padding: 5px 25px;
+	border-radius: 5px;
+}
