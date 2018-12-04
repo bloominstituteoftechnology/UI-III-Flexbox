@@ -65,15 +65,22 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
- /* body{
-	width:876px; 
-	margin:0 auto; 
-}  */
+ body{
+	/* width:876px; 
+	margin:0 auto;  */
+	
+} 
+
+.master{
+	display:flex;
+	width: 100%;
+	justify-content: center;
+}
 
 .container{
-	border:1px solid red;
 	display:flex;
 	flex-direction: column;
+	justify-items: center;
 	width: 876px;
 }
 
@@ -138,10 +145,9 @@ address p{
 
 .Features-and-about{
 	display: flex;
-	margin: 0 5px;
 	width: 100%;
 	margin-bottom: 45px;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .triple-menu{
@@ -150,15 +156,14 @@ address p{
 	justify-content: space-between;
 }
 
-.Services, .Product, .Vision{
-	display: flex;
-	flex-direction: column;
-	width: 33%;
-	margin-top:	30px;
+.middle-img{
+	margin-bottom: 30px;
 }
 
-.physical {
-	margin:0 0 0 0;
+.contact-info{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 
 .copyright {
