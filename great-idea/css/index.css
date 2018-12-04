@@ -121,10 +121,13 @@ h1, h2, h3, h4, h5 {
  }
 
 
- header .logo{
-	 /* border: 1px solid green; */
- }
 
+ /* SERVICES IMAGE */
+
+ .services-header-img {
+	 width: 100%;
+	 margin-top: 10px 0;
+ }
 
 
 
@@ -183,7 +186,7 @@ h1, h2, h3, h4, h5 {
 
 
 
-  
+
  
  /* Main and  First Image */
  
