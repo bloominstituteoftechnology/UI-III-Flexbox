@@ -106,7 +106,7 @@ nav a {
 	align-items: center;
 }
 
-h1 {
+.innovation h1 {
 	font-size: 65px;
 	white-space: pre-line;
 	text-align: center;
@@ -151,4 +151,8 @@ hr {
 	font-size: 85%;
 	text-align: center;
 	margin-top: 40px;
+}
+
+.services-header-img {
+	margin-top: 30px;
 }
