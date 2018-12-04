@@ -66,34 +66,26 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body{
+	/* display:flex;
+	flex-direction: column; */
 	width:876px;
 	margin:0 auto;
 }
 
 header{
-	height: 50px;
-	width: 876px;
-	display: block;
-	position: fixed;
-	margin:0px 0px;
-	background-color:white;
-	z-index: 10;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 80px;
+	align-items: center;
+	padding-top: 25px;
 }
 
 nav{
-	display: inline-block;
-	vertical-align: text-top;
-	position: absolute;	
-	padding-top: 10px;
-}
-
-section{
-	position: relative;
-}
-
-address{
-	display:block;
-	margin-top: 100px;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-content: baseline;
+	flex-grow: 2;
 }
 
 a{
@@ -105,45 +97,20 @@ address p{
 	margin-bottom: 10px;
 }
 
-nav a{
-	margin-right: 64px;
-	font-size: 14px;
-	text-decoration: none;
-	color:#BFBFBF;
-}
-
-section h3, section p{
-	width: inherit;
-	display: inherit;
-}
-
-.logo, .big-pic{
-	position: absolute;
-	right:0;
-}
-
 .large-items {
-	width:100%;
-	height: 480px;	
-	padding-top: 100px;
+	display: flex;
+	width: 100%;
+	margin: 0 0 150px 0;
 }
 
-.large-items div{
-	width:435px;
-	height: 380px;
-	display:inline-block;
-	padding:0;
-	position: relative;
-	padding-bottom: 30px;
+h1{
+	margin: 0 0 15px 0;
 }
 
 .large-items div h1{
-	position: absolute;
-	top:0;
-	left:0;
 	text-align: center;
 	font-size: 75px;
-	margin: 59px 26px 0px 75px;
+	margin: 59px 26px 20px 75px;
 	letter-spacing: 4px;
 	font-stretch: expanded;
 }
@@ -155,20 +122,28 @@ section h3, section p{
 	border: 1px solid black;
 	text-align: center;
 	letter-spacing: 2px;
-	display:inline-block;
-	position: absolute;
-	margin:302px 108px 0px 152px;	
+	margin:0px 0px 0px 152px;	
 }
 
-.Features, .About{
-	margin:116px 0px 45px 0px;
-	display: inline-block;
-	width: 435px;
+.Features-and-about{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 5px;
+	width: 100%;
+	margin-bottom: 45px;
+	justify-content: space-between;
+}
+
+.triple-menu{
+	display: flex;
+	margin-bottom: 75px;
+	justify-content: space-between;
 }
 
 .Services, .Product, .Vision{
-	display: inline-block;
-	width: 289px;
+	display: flex;
+	flex-direction: column;
+	width: 33%;
 	margin-top:	30px;
 }
 
@@ -177,7 +152,6 @@ section h3, section p{
 }
 
 .copyright {
-	display: inline-block;
 	width:200px;
 	text-align: center;
 	margin: 70px 0px 0px 335px;
