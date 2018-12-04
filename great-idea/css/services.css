@@ -1,0 +1,31 @@
+body {
+	width: 900px;
+	margin: auto;
+}
+header {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px 40px 0px;
+}
+nav a {
+	text-decoration: none;
+	color: gray;font-size: 20px;
+	margin:0px 25px 0px 0px;
+    /* border: 1px solid black; */
+}
+
+.services-header-img {
+    width:900px;
+}
+.top-content{
+   border-bottom: 1px solid black; 
+   margin: 30px 0px 30px 0px;
+}
+h4 {
+    font-size:18px;
+}
+.top-content .services p {
+    /* border: 1px solid black; */
+    margin-bottom:30px;
+}
