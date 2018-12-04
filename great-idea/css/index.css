@@ -78,24 +78,27 @@ nav {
 	z-index: 1;
 }
 
+.nav-item-wrapper {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding-left: 10px;
+	vertical-align: top;
+	width: 50%;
+}
+
 nav a {
 	color: white;
 	text-decoration: none;
-	padding-left: 15px;
 }
 
-nav img {
-	position: absolute;
-	right: 10px;
-	top: 5px;
-	/*vertical-align: middle*/
-}
-
-.nav-item {
-	margin-right: 70px;
-	/*vertical-align: middle*/
-	position: relative;
-	top: 30%;
+.logo-wrapper {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100%;
+	width: 49%;
 }
 
 header {
