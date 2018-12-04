@@ -68,14 +68,13 @@ h1, h2, h3, h4, h5 {
 body{
 	margin: 0 auto;
 	width: 880px;
-	font-size: 16px
+	font-size: 16px;
 }
 
 nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 25px 0;
 
 }
 
@@ -85,14 +84,68 @@ nav:first-child{
 
 nav a{
 	text-decoration: none;
-	color: gray;
-}
+	color: gray;  
+	background-position: right bottom;
+	transition: all .25s ease-in-out;
+	box-sizing: content-box;
+	display: inline-block;
+	padding: 25px;
+  }
+  
+nav a:hover{
+	background: linear-gradient(to right, black 50%, white 50%);
+	background-size: 200% 100%;
+	color: white;
+	background-position: left bottom;
+  }
+
+  nav a:last-child:hover{
+	background: white
+  }
 
 .starting-section{
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
-	margin: 40px 0;
+	margin: 25px 0;
 	align-items: center;
+}
+
+.starting-section-services{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 350px;
+}
+
+.starting-section button{
+	border: 1px solid black;
+	background-color: white;
+	padding: 0 30px ;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	width: 170px;
+	height: 40px; 
+	background-position: right bottom;
+	transition: all .25s ease-in-out;
+  }
+  
+  .starting-section button:hover{
+	background: linear-gradient(to right, black 50%, white 50%);
+	background-size: 200% 100%;
+	color: white;
+	background-position: left bottom;
+  }
+
+.section-services p{
+	line-height: 1.2em;
+}
+
+.section-services h2{
+	font-size: 24px;
+	font-weight: bolder;
 }
 
 h1{
@@ -112,9 +165,38 @@ h1{
 	display: flex;
 	flex-wrap: wrap;
 	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	justify-content: space-between;
-	padding-top: 40px;
+	padding: 20px 0;
+	align-content: space-between;
+}
+
+.main-section-services{
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	justify-content: space-between;
 	align-content: space-evenly;
+	height: 870px;
+	margin-top: 15px;
+}
+
+.sec4{
+	box-sizing: border-box;
+	width: 48%;
+	background-color:#f4f3f4;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.sec4 button{
+	border-radius: 5px;
+	background-color: white;
+	padding: 10px 30px;
+	border: 1px solid black;
+	margin-top: 20px;
+	font-size: 10px;
 }
 
 .sec1{
@@ -129,4 +211,32 @@ h1{
 	display: flex;
 	align-items: center;
 	height: 250px;
+}
+
+.bottom-section-services{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 45px 0;
+}
+
+.sec5{
+	width: 47%;
+}
+
+.sec5 ul{
+
+	padding-top: 10px;
+	line-height: 1.7em;
+	list-style-type:square;
+	list-style-position: inside;
+}
+
+.footer{
+	padding-top: 40px;
+}
+
+.copyright {
+	padding-top: 40px;
+	text-align: center;
 }
