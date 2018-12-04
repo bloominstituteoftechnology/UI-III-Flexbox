@@ -88,19 +88,27 @@ body {
 
 header {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
+	justify-content: center;
 	height: 80px;
 	width: 100%;
 	background: white;
 	position: fixed;
 	top: 0;
+	left: 0;
 	
 }
 
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 877px;
+}
 
 nav {
-display: inline-flex;
-justify-content: space-around;
+display: flex;
+justify-content: space-between;
 width: 600px;
 
 }
@@ -113,8 +121,10 @@ nav a {
 }
 
 .logo{
-	display: inline-flex;
-	flex-flow: wrap;
+	display: flex;
+	justify-content: flex-end;
+	/* flex-flow: wrap; */
+	/* height: 80px; */
 	width: 277px;
 }
 .hero {
@@ -175,6 +185,10 @@ main, .middle-img {
 
 .thirds div {
 	width: 33%;
+}
+ul {
+	list-style: square;
+	margin-bottom: 13px;
 }
 
 /* footer */
