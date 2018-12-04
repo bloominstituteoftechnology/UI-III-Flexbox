@@ -64,7 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+h1, .services {
+	font-size: 30px;
+}
 
 nav {
 	padding: 30px 0;
@@ -152,4 +154,21 @@ footer p {
     font-size: 16px;
     margin: 35%;
     cursor: pointer;
+}
+.one {
+	display: flex;
+	width: 446px;
+	border: 1px solid black;
+	flex-wrap: wrap;
+	padding: 10px;
+	
+}
+section.whole {
+	border: 1px solid red;
+	display: flex;
+	flex-wrap: wrap;
+	/*width: 1015px;*/
+	
+	
+
 }
