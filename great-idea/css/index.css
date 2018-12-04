@@ -64,3 +64,78 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 900px;
+	margin: auto;
+}
+header {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+nav a {
+	text-decoration: none;
+	color: gray;font-size: 20px;
+	margin:0px 25px 0px 0px;
+	/* border: 1px solid black; */
+}
+.iod {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: flex-end;
+	margin: 70px 0px 50px 0px;
+}
+.iod .iod-text h1 {
+	font-size: 50px;
+	margin-top: 70px;
+	margin-right:100px;
+	text-align: center;
+	letter-spacing: 10px;
+
+}
+button {
+	font-size: 30px;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+.top-content {
+	border-top: 1px solid black;
+	margin: 20px 0px 20px 0px;
+	display: flex;
+}
+.top-content .text-content {
+	/* border: 1px solid black; */
+	width: 500px;
+	line-height: 30px;
+	margin-top: 30px;	
+}
+
+h4 {
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+.middle-img {
+	width: 900px;
+	margin:10px 0 10px 0px;
+}
+.bottom-content {
+	display: flex;
+	border-bottom: 1px solid black;
+}
+.bottom-content .text-content {
+	/* border: 1px solid black; */
+	width: 333px;
+	line-height: 30px;
+	margin: 20px 10px 50px 0px;
+}
+.contact {
+	line-height: 40px;
+	margin: 40px 0px 50px 0px;
+}
+
+footer {
+	text-align: center;
+}
