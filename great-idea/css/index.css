@@ -140,13 +140,14 @@ a:hover {
 	animation-iteration-count: 1;
 }
 
-img.logo {
+.container a.home-page {
 	/* border: 1px black solid; */
 	width: 20%;
 	align-self: flex-end;
 	padding-left: 4px;
 	padding-right: 2px; 
 }
+
 
 .title {
 	/* border: 1px black solid; */
@@ -357,6 +358,17 @@ img.services-header-img {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 74px; 
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.about-services > h1 {
+	margin: 10px;
+	margin-left: 0;
+	padding: 0;
+	font-size: 130%;
+	font-weight: bold;
 }
 
 .services-categories {
