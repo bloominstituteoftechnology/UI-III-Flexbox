@@ -1,7 +1,4 @@
-.copyright {
-  display: flex;
-  justify-content: center;
-}
+/* Header */
 
 header h1 {
   font-size: 26px;
@@ -15,6 +12,8 @@ header p {
 .services-header-img {
   margin-top: -20px;
 }
+
+/* Main */
 
 main {
   border-top: 1px solid black;
@@ -64,6 +63,8 @@ main section a:hover {
   transform: translateY(-2px);
 }
 
+/* Facts Section */
+
 .facts {
   margin-top: 40px;
   display: flex;
@@ -83,4 +84,11 @@ main section a:hover {
 
 .facts .left ol li {
   margin-bottom: 10px;
+}
+
+/* Copyright */
+
+.copyright {
+  display: flex;
+  justify-content: center;
 }
