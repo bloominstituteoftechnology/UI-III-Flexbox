@@ -49,18 +49,163 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	display: flex;
+	flex-direction: column;
+	width: 880px;
+	margin:  0 auto;
+
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.nav-container {
+	height: 40px;
+	width: 880px;
+	position: fixed;
+	z-index: 1;
+	background: darkblue;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.navbar_top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a{
+	padding-right: 50px;
+}
+
+.navbar_top a{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	color: #BABABA;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+}
+
+.navbar_top a:hover {
+	font-size: 16px;
+	color: white;
+}
+
+.logoIMG {
+	width: 191.78px;
+	height: 40px;
+	background: lightgrey;
+	text-align: center;
+}
+
+header {
+	height: 420px;
+	vertical-align: top;
+	border-bottom: 2px solid black;
+	position: relative;
+	padding-bottom: 30px;
+	margin-top: 76px;
+}
+
+.banner {
+	width: 440px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;  /*  set banner div at top */
+	margin: 60px 0;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 70px;
+	width: 250px;
+	font-family: 'Questrial', sans-serif;
+}
+
+button {
+	font-size: 26px;
+	border: 1px solid black;
+	width: 220px;
+	border-radius: 5px;
+	margin-left: 18px;
+}
+
+button:hover {
+	background: lightgray;
+}
+
+.headerIMG {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	padding-left: 58px;
+}
+
+h2 {
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+.top-content {
+	width: 432px;
+	display: inline-block;
+	padding: 30px 20px 30px 0;
+}
+
+.top-content:last-child {
+	padding: 30px 0 30px 22px;
+	margin-left: 10px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	/*  width: 33%;    also works */
+	width: 290px;
+	display: inline-block;
+	padding: 30px 26px 30px 0;
+}
+
+.bottom-content:nth-child(2) {
+	padding: 30px 14px 30px 16px;
+}
+
+.bottom-content:last-child {
+	padding: 30px 0 30px 32px;
+}
+
+
+address {
+	border-top: 2px solid black;
+	padding: 40px 0;
+}
+
+.phone {
+	padding: 20px 0;
+}
+
+h3 {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+h4 {
+	padding: 20px;
+	text-align: center;
