@@ -141,19 +141,8 @@ nav {
 
 .top-content {
 	border-top: 1px solid black;
+	display: flex;
 	padding-top: 35px;
-	width: 100%;
-}
-
-.features {
-	display: inline-block;
-	width: 430px;
-}
-
-.about {
-	display: inline-block;
-	width: 430px;
-	margin-left: 12px;
 }
 
 .middle-img {
@@ -164,11 +153,7 @@ nav {
 .bottom-content {
 	border-bottom: 1px solid black;
 	padding-bottom: 45px;
-}
-
-.services, .product, .vision {
-	display: inline-block;
-	width: 32%
+	display: flex;
 }
 
 .services, .product {
