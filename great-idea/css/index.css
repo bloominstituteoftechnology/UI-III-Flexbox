@@ -130,10 +130,20 @@ header a:hover {
 	width: 100%;
 }
 
-.blurb-button {
+.button {
 	background-color: white;
 	border: 1px solid black;
+}
+
+.blurb-button {
 	padding: 5px 50px;
+}
+
+.service-item-button {
+	margin: 15px 0 0 0;
+	padding: 5px 10px;
+	align-self: flex-start;
+	border-radius: 5px;
 }
 
 .blurb-button:hover {
@@ -156,39 +166,63 @@ header a:hover {
 	font-family: 'Rajdhani', sans-serif;
 }
 
-.section1 {
+.section {
     display: flex;
     justify-content: space-between;
-	border-top: 1px solid black;
 	width: 100%;
-	padding: 25px 0;
-	margin-top: 30px;
-	height: 100px;
+	/*margin: 30px 0;*/
+	padding: 10px 0;
 }
 
-.features, .about {
+.section-content2by {
 	width: 49%;
+}
+
+.bottom-section {
+	display: flex;
+	flex-direction: row;
+	border-top: 2px solid black;
+	padding: 30px 0;
+	margin: 30px 0;
+}
+
+.section1 {
+	border-top: 2px solid black;
+	margin-top: 40px;
+	padding: 30px 0;
+}
+
+.section2 {
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+	padding: 30px 0;
+}
+
+.facts {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.facts-p {
+	align-self: flex-start;
 }
 
 
 .middle-img {
 	display: block;
-	margin: 40px auto;
 }
 
-.section2 {
-	display: flex;
-    justify-content: space-between;
-	border-bottom: 1px solid black;
-	width: 100%;
-	height: 175px;
-	padding: 15px 0 50px 0;
-	margin-bottom: 15px;
-}
-
-.services, .products, .vision {
+.section-content3by {
 	width: 32%;
 	padding-right: 10px;
+}
+
+.services-section {
+	flex-direction: column;
+	border-bottom: 2px solid black;
+	margin: 15px 0;
+	padding: 15px 0;
 }
 
 address {
@@ -199,9 +233,41 @@ address {
 	margin: 15px 0;
 }
 
+.services-container {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.service-item {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	border: 1px solid black;
+	/*height: 200px;*/
+	padding: 30px;
+	margin: 15px 0;
+	background-color: #F4F3F4;
+}
+
 .copyright {
 	text-align: center;
 	margin: 20px;
+}
+
+ul {
+	margin-top: 30px;
+}
+
+li {
+	margin: 10px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+footer {
+
 }
 
 @keyframes tremble {
