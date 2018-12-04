@@ -68,10 +68,34 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 876px;
 	margin: 0 auto;
-	position: relative;
 }
 
-.logo {
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border: 1px solid red; */
+}
+
+nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	/* border: 1px solid blue; */
+}
+
+nav a {
+	padding-right: 55px;
+	color: darkgray;
+	font-size: 90%;
+	text-decoration: none;
+	padding-top: 5px;
+}
+
+
+
+
+/* .logo {
 	display: inline-block;
 	position: absolute;
 	top: 10px;
@@ -85,9 +109,9 @@ nav a {
 	text-decoration: none;
 	display: inline-block;
 	padding-top:23px;
-}
+} */
 
-.top, .top-content, .bottom-content {
+/* .top, .top-content, .bottom-content {
 	position: relative;
 }
 
@@ -162,4 +186,4 @@ h1 {
 	font-size: 90%;
 	text-align: center;
 	margin-top: 40px;
-}
+} */
