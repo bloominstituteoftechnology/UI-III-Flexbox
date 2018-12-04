@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 body {
 	width: 950px;
 }
@@ -227,6 +228,14 @@ hr {
 }
 
 .content {
+	border: 1px black solid;
+	width: 950px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-around;
+	padding: 10px;
+
 	/* margin-top: 38px;
 	margin-left: 74px;
 	padding-bottom: 37px;  */
@@ -234,11 +243,15 @@ hr {
 }
 
 .first {
+	border: 1px black solid;
+	display: flex;
+	justify-content: space-around;
 	/* position: relative;
 	height: 140px; */
 }
 
 h2 {
+	border: 1px black solid;
 	/* margin-bottom: 16px;
 	font-weight: bold;  */
 }
@@ -250,37 +263,60 @@ p {
 }
 
 .features {
-	/* display: inline-block;
-	position: absolute;
+	width: 50%;
+	border: 1px black solid;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 5px;
+	/* position: absolute;
 	left: 0;
-	top: 0;
-	width: 50%; */
-
+	top: 0; */
 }
 
 .about {
+	width: 50%;
+	border: 1px black solid;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 5px;
 	/* padding-left: 10px; 
 	display: inline-block;
 	position: absolute;
-	right: 0;
-	width: 50%; */
+	right: 0; */
 }
-
 .aside {
+	border: 1px black solid;
+	display: flex;
+	justify-content: center;
 	/* margin-bottom: 37px;  */
 }
 
 .second {
+	border: 1px black solid;
+	display: flex;
+	justify-content: space-around;
 	/* position: relative;
 	height: 140px; */
 }
 
 .services {
+	border: 1px black solid;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 5px;
 	/* display: inline-block;
 	width: 292px; */
 }
 
 .product {
+	border: 1px black solid;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 5px;
 	/* display: inline-block;
 	margin-left: 8px;
 	width: 284px; */
@@ -289,6 +325,11 @@ p {
 }
 
 .vision {
+	border: 1px black solid;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 5px;
 	/* display: inline-block;
 	margin-left: 13px;
 	width: 279px; */
