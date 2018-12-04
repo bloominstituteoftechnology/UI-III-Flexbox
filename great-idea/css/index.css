@@ -80,7 +80,9 @@ header {
 	display: flex;
 	flex-direction:  row;
 	height: 30px;
+	margin-top: 20px;
 	margin-bottom: 40px;
+	align-content: center;
 	justify-content: space-between;
 
 }
@@ -242,3 +244,28 @@ footer {
 	width: 140px;
 	background-color: white;
 }
+
+#facts {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 300px;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+	justify-content: center;
+	align-content: center;
+}
+
+#facts>img, #facts>section {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	
+}
+
+#facts>section>ul {
+	padding-left: 20px;
+	margin-top: 20px;
+	list-style: square;
+}
+
