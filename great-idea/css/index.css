@@ -164,10 +164,10 @@ p {
 	border: 1px solid black;
 	background: whitesmoke;
 	flex-basis: 48%;
+	
 	padding: 20px;
 	margin-right: 20px;
 	margin-bottom: 20px;
-	/* height: auto; */
 	height: 280px;
 	
 
@@ -175,7 +175,6 @@ p {
 
 .learn {
 	color: black;
-	border: 1px solid black;
 	/* border-radius: 5px;*/
 	/* background: white; */
 	margin-top: 40px; 
@@ -202,10 +201,50 @@ p {
 
 .learn a:hover{
 	font-weight: bold;
+
+}
+
+
+/* BOTTOM OF SERVICES */
+
+.bottom {
+	display: flex;
+
+	justify-content: space-between;
+	border-top: 2px solid black;
+	margin: 30px 0;
+
+}
+
+.bottom .b_box {
+	flex-basis: 50%;
+	margin-top: 30px;
+	
+}
+
+.bottom .facts {
+	padding:  20px;
+}
+
+.bottom .list {
+	list-style-type: square;
+	margin-left: 30px;
+}
+
+.bottom .list li {
+	padding: 10px;
+}
+
+.bottom .bottomImg {
+	margin-left: 60px;
 }
 
 
 
+.bottom .bottomImg .services-btm-img {
+    width: 500px;
+	height: 320px; 
+} 
 
 
 
@@ -410,7 +449,7 @@ h2 {
  
  footer {
 	 text-align: center;
-	 margin-bottom: 150px;
+	 margin: 100px 0;
  
  }
 
