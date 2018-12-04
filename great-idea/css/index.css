@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 80%;
-	margin: auto;
+	margin: 0 auto;
 	overflow: hidden;
 	
  }
@@ -86,7 +86,55 @@ h1, h2, h3, h4, h5 {
  
  /* Header, Nav, and Logo */
  
+
  header {
+	 display: flex;
+	 /* border: 1px solid black; */
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 20px;
+ }
+
+ header nav {
+	 /* border: 1px solid red; */
+	 display:flex;
+	 
+ }
+
+ header nav a {
+	 margin-right: 60px;
+	 /* border: 1px solid blue; */
+	 text-decoration: none;
+	 color: black;
+	 padding: 10px 20px;
+	 border: 1px solid gray;
+	 border-radius: 5px;
+	 transition: 0.2s ease-in;	
+ }
+
+
+ header nav a:hover {
+	background-color: aquamarine;
+	border: 1px solid black;
+	font-weight: bold;
+	
+ }
+
+
+ header .logo{
+	 /* border: 1px solid green; */
+ }
+
+
+
+
+
+
+/* ======= OLD CODE ========= */
+
+
+
+ /* header {
 	 position: relative;
 	 margin-top: 20px;
 	 height: 120px;
@@ -97,7 +145,7 @@ h1, h2, h3, h4, h5 {
  
  header nav {
 	 display: inline-block;
-	 /* position: absolute; */
+	 /* position: absolute; 
 	 line-height: 40px;
 	 position: fixed;
 	 
@@ -128,8 +176,14 @@ h1, h2, h3, h4, h5 {
 	 right: 0;  
 	 
  }
+  */
  
- 
+
+
+
+
+
+  
  
  /* Main and  First Image */
  
@@ -261,3 +315,7 @@ h2 {
 	 margin-bottom: 150px;
  
  }
+
+
+ /* SERVICES PAGE */
+
