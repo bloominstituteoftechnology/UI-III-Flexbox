@@ -152,10 +152,14 @@ section {
 	cursor: pointer;
 }
 
+.introduction {
+	display: flex;
+}
 
 .introduction .intro-column {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 50%;
+	border: 1px solid orange;
 }
 
 .middle-image-wrapper {
@@ -163,13 +167,16 @@ section {
 }
 
 .product-and-services {
+	display: flex;
 	padding: 0 0 40px 0;
 	border-bottom: 1px solid black;
+	
 }
 
 .product-and-services .p-and-s-column {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 33%;
+	border: 1px solid orange;
 }
 
 .contact-info {
@@ -187,6 +194,7 @@ section {
 
 .footer {
 	padding-bottom: 150px;
+	bottom: 0;
 	text-align: center;
 	font-size: .85rem;
 }
