@@ -67,7 +67,10 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	border: 1px solid red;
-	margin: 0 auto; 
+	margin: 0 auto;
+	 
+	width: 900px;
+	background: blue;
 }
 
 nav {
@@ -78,7 +81,7 @@ nav {
 	position: relative; 
 }
 
-a {
+nav a {
 	text-decoration: none;
 	margin-left: 100px;
 	
