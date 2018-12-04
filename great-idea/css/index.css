@@ -199,3 +199,18 @@ footer {
 	justify-content: center;
 }
 
+/* services page */
+
+#services-services {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid black;
+	height: 120px;
+}
+
+#services-services>h1 {
+	font-size: 1.5em;
+}
+
