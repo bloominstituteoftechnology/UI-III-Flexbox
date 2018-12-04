@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5 { font-family: 'Bangers', cursive; letter-spacing: 1px; margi
 body { width: 100%; margin: 0 auto; }
 section { position: relative; }
 h1 { font-size: 64px; }
+p { line-height: 1.5; }
 
 nav { 
 	margin: 0 0 48px 0; 
@@ -56,6 +57,7 @@ nav a {
 	text-decoration: unset;
 	color: #888888;
 }
+nav a:hover { color: black; transition-duration: 0.25s; }
 
 .container-nav { display: flex; flex-direction: row; }
 .nav-ul { width: 100%; display: flex; justify-content: space-between;  }
@@ -85,26 +87,26 @@ nav a {
 	margin: 32px 12px 32px 12px;
 	padding: 0 0 32px 0;
 }
-/*.border-top div { display: inline-block; }
-.border-bottom div { display: inline-block; }*/
+
+a.body-link { color: #555555; font-style: italic; text-decoration: none; }
+a.body-link:hover { color: black; text-decoration: none; transition-duration: 0.25s; }
+a.body-link:visited { color: #333333; text-decoration: none; }
+
 .contact { margin: 32px 12px 32px 12px; }
-
-
 
 footer { margin: 24px 0 0 0; padding: 24px 0 12px 0; }
 .copyright { font-size: 12px; text-align: center; }
 
-.w-50 { width: 50%; margin: 0 -5px 0 0; }
-.w-33 { width: 33%; margin: 0 -1px 0 0; }
-
-
-.phone, .email { 
+a.phone, a.email { 
 	color: black;
 	text-decoration: none;
 	line-height: 2; }
-.phone:visited, .email:visited { 
+a.phone:visited, a.email:visited { 
 	color: black;
 	text-decoration: none; }
+
+.w-50 { width: 50%; margin: 0 -5px 0 0; }
+.w-33 { width: 33%; margin: 0 -1px 0 0; }
 
 /**************************
 Button styling override
