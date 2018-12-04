@@ -191,3 +191,8 @@ section {
 }
 
 /* Services Page */
+.svc-section {
+	width: 1024px;
+	/* margin: 0 auto; */
+}
+
