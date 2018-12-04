@@ -78,3 +78,90 @@ h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* End of reset */
+
+body {
+    font-family: 'Karla',
+        sans-serif;
+    width: 700px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    margin: 25px;
+    position: 1;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 7px;
+    color: lightgray;
+}
+
+.logo {
+    margin: 15px;
+    width: 183px;
+    height: 36px;
+    position: 2;
+}
+
+/* SERVICES HEADER*/
+
+.services-header-img {
+    width: 100%;
+}
+
+.services-header {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 25px;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+}
+
+/* SERVICES */
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.services-block {
+    background: #F4F3F4;
+    width: 340px;
+    height: 230px; 
+    padding: 20px;
+    border: 1px solid black;
+}
+
+button {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.digital-design, .ux-ui {
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    padding: 25px 0 25px;
+}
+
+ul {
+    list-style: square;
+}
