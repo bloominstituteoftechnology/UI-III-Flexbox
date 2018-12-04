@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* NAVBAR */
 .navigation {
 	width: 100%;
 	background-color: rgb(129, 223, 160); 
@@ -72,25 +73,22 @@ h1, h2, h3, h4, h5 {
 	z-index: 5;
 	display: flex;
 	top: 0;
-	height: 60px;
 	justify-content: space-evenly;
 	justify-content: baseline;
 	margin-bottom: 80px;
+	flex-wrap: wrap;
 }
 
 nav {
 	display: flex;
 	align-items: center;
-	height: 100%;
-
+	flex-wrap: wrap;
 }
 
 a {
 	text-decoration: none;
 	color: black;
 	font-size: 15px;
-	display: flex;
-	align-items: center;
 }
 
 nav a {
@@ -99,7 +97,9 @@ nav a {
 	padding-right: 10px;
 	padding-left: 10px;
 	margin: 0 30px;
-	height: 50%;
+	display: flex;
+	align-items: center;
+	height: 35px;
 }
 
 nav a:hover {
@@ -112,6 +112,10 @@ nav a:hover {
 	from {background:#81DFA0;}
 	to {background:#fae;}
 }
+@keyframes colorchange2 {
+	from {background:#81DFA0;}
+	to {background: white;}
+}
 
 h1 {
 	border-right: 1px solid white;
@@ -120,10 +124,11 @@ h1 {
 	padding-left: 30px;
 	margin-top: 8px;
 	height: 40px;
+	padding-top: 2px;
 }
 
 h1:hover {
-	animation-name: colorchange;
+	animation-name: colorchange2;
 	animation-duration: .3s;
 	animation-fill-mode: forwards;
 	box-shadow: -2px 2px rgba(0, 0, 0, 0.541);
@@ -133,13 +138,15 @@ h1:hover {
 	margin-bottom: 100px;
 }
 
+/* HEADER */
 header {
-	margin: 50px auto 50px auto;
-	width: 1000px;
+	/* margin: 50px auto 50px auto;
+	width: 1000px; */
 	z-index: 0;
 	display: flex;
 	justify-content: space-evenly;
-	align-items: center
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .innovationtext {
@@ -171,64 +178,36 @@ header {
 
 /* UNDERNEATH THE HEADER */
 .underhead {
-	margin: 0 auto;
-	width: 1000px;
+	width: 80%;
 	z-index: -1;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0 auto;
 }
 
 .top {
 	margin: 50px 0;
-}
-
-.sections {
-	margin: 0 auto;
-	position: relative;
-	width: 1000px;
-	z-index: -1;
-}
-
-.top section {
-	width: 45%;
-	display: inline-block;
-	position: relative;
-}
-
-.top .sec2 {
-	margin-left: 90px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
 }
 
 .middle-img {
-	display: block;
-	width: 1000px;
-	margin: 0 auto;
+	width: 100%; 
 }
 
-.middleimg {
-	height: 200px;
-	width: 1000px;
-}
 
 .bottom {
-	margin: 50px 0;
-	position: relative;
-	z-index: -1;
+	display: flex;
 }
 
 .bottom section {
-	position: relative;
-	display: inline-block;
-	width: 315px;
-	z-index: -1;
-
-}
-
-.bottom .sec {
-	margin-left: 20px;
+	padding: 10px;
 }
 
 hr {
-	width: 1000px;
-	z-index: -1;
+	width: 80%;
 }
 
 section {
@@ -239,11 +218,17 @@ section {
 }
 
 .contact{
-	height: 300px;
+	margin-top: 50px;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto;
 }
 
-.contact h2 {
-	margin-top: 50px;
+address {
+	display: flex;
+	flex-direction: column;
 }
 
 .contact p {
@@ -251,7 +236,9 @@ section {
 }
 
 footer {
-	text-align: center;
+	display: flex;
+	justify-content: center;
 	margin-bottom: 20px;
 	padding: 20px;
+	margin-top: 50px;
 }
