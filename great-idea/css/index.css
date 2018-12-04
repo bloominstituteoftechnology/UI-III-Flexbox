@@ -70,39 +70,30 @@ body {
 	margin: auto;
 }
 
-header img, header nav{
-	display: inline-block;
-}
-
 header {
 	margin-top: 50px;
 }
 
 #topbar {
-	position: relative;
+	display: flex;
+	justify-content: space-between;
 	padding-bottom: 100px;
 }
 
 nav {
-	position: absolute;
-	top: 10px;
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav a {
-	margin-left: 100px;
 	text-decoration: none;
 	color: lightgray;
 	font-size: 18px;
 }
 
-nav a:first-child {
-	margin-left: 0;
-}
-
 .logo {
-	position: absolute;
-	top: 0;
-	right: 0px;
 	height: 40px;
 }
 
