@@ -64,3 +64,183 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container-page {
+	border: 1px solid black;
+	width: 888px;
+	margin: 0px auto;
+	vertical-align: center;
+	display: flex;
+	flex-direction: column;
+	align: center;
+
+}
+
+	.container-header {
+		border: 4px solid red;
+		/* width: 880px; */
+		height: 250px;
+		margin: 0px 10px 0px 10px;
+		display: flex;
+		flex-direction: column;
+		justify:center;
+		/* z-index: 1; */
+		/* justify-content: space-around; */
+	}
+		
+		.box-nav {
+			border: 1px solid red;
+			text-decoration: none;
+			width: 95%;
+			height: 20px; 
+			display: flex;
+			justify-content: flex-start;
+
+		}
+		
+		/* .box-logo {
+			border: 1px solid red;
+			display: flex;
+			width: 49%;
+			justify-content: flex-end;
+		} */
+
+		.box-services-header {
+			border: 10px solid green;
+			/* display: flex; */
+			
+			
+		}
+	
+	.container-services {
+		/* border: 3px solid purple; */
+		margin: 10px;
+	}
+		.box-services {
+			border: 1px solid red;
+			flex-direction: column;
+			display: flex;
+			justify-content: space-around;
+			border-bottom: 2px solid black;
+		}
+
+	.container-main {
+		border: 3px solid blue;
+		height: 600px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify:center;
+		justify-content: space-around;
+	}
+		.box-digital-design {
+			border: 2px solid black;
+			width: 350px;
+			padding: 7px;
+			flex-wrap: wrap;
+			align-self: center
+			
+		}
+
+		.box-digital-design button {
+			border: 1px solid black;
+			margin: 12px 0px 0px 0px;
+		}
+
+		.box-UX-UI {
+			border: 2px solid black;
+			width: 350px;
+			padding: 7px;
+			flex-wrap: wrap;
+			align-self: center
+			
+		}
+
+		.box-UX-UI button {
+			border: 1px solid black;
+			margin: 12px 0px 0px 0px;
+		}
+
+		.box-digital-marketing {
+			border: 2px solid black;
+			width: 350px;
+			padding: 7px;
+			flex-wrap: wrap;
+			align-self: center
+			
+		}
+
+		.box-digital-marketing button {
+			border: 1px solid black;
+			margin: 12px 0px 0px 0px;
+		}
+
+		.box-web-development {
+			border: 2px solid black;
+			width: 350px;
+			padding: 7px;
+			flex-wrap: wrap;
+			align-self: center
+			
+		}
+
+		.box-web-development button {
+			border: 1px solid black;
+			margin: 12px 0px 0px 0px;
+		}
+		
+		.box-ios-development {
+			border: 2px solid black;
+			width: 350px;
+			padding: 7px;
+			flex-wrap: wrap;
+			align-self: center
+			
+		}
+
+		.box-ios-development button {
+			border: 1px solid black;
+			margin: 12px 0px 0px 0px;
+		}
+
+		.box-android-development {
+			border: 2px solid black;
+			width: 350px;
+			padding: 7px;
+			flex-wrap: wrap;
+			align-self: center
+			
+		}
+
+		.box-android-development button {
+			border: 1px solid black;
+			margin: 12px 0px 0px 0px;
+		}
+
+	.container-bottom {
+		border: 3px solid red;
+		display: flex;
+		justify: space-between;
+	}
+
+		.box-bottom-left {
+			border: 2px solid black;
+			/* width: 350px; */
+			padding: 7px;
+			flex-wrap: wrap;
+			align-self: center
+		}
+
+		.box-bottom-right {
+			border: 2px solid black;
+			/* width: 350px; */
+			padding: 7px;
+			flex-wrap: wrap;
+			align-self: center
+		}
+	
+	.box-footer {
+		border: 3px solid red;
+		display: flex;
+		justify-content: center;
+	}
