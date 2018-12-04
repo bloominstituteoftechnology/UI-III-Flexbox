@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	margin: 0 auto;
+	height: 1536px;
+	max-width: 1080px;
+	width : 100%;
+	border: solid 1px black;
+}
+header nav {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+header nav a {
+    font-weight: bold;
+    color: silver;
+    text-decoration: none;
+    padding: 0 30px 0 30px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+header nav img {
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+div.second-part {
+	display: flex;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+div.header-anchor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 13%;
+}
+
+div.second-part h1 {
+	font-size: 80px;
+	top: 60px;
+	right: 580px;
+}
+
+div.second-part .header-anchor .get-started {
+    width: 160px;
+    height: 30px;
+    text-decoration: none;
+    border: solid 1px black;
+    padding-top: 5px;
+    color: gray;
+    margin-left: 85px;
+}
+
+hr {
+	width: 92%;
+}
+
+.top-content {
+	display: flex;
+	margin-top: 20px;
+}
+
+section .left-side, .right-side {
+    padding: 15px;
+    margin-left: 33px;
+    height: 160px;
+    width: 45%;
+    text-align: left;
+}
+
+img.middle-img {
+	margin-left: 45px;
+    width: 90%;
+}
+section.bottom-content {
+	display: flex;
+}
+
+ section.bottom-content div {
+    margin-top: 2%;
+    width: 30%;
+    height: 185px;
+    padding: 15px;
+    margin-left: 25px;
+}
+
+section.contact div {
+	width: 30%;
+    margin-left: 2%;
+    padding: 20px;
+}
+
+footer {
+	text-align: center;
+}
