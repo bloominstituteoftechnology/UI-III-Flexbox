@@ -82,14 +82,12 @@ header {
 	top: 0;
 	z-index: 2;
 	background: white;
-	border: 1px solid red;
 }
 
 header nav {
 	display: flex;
 	margin-left: 20px;
 	line-height: 36px;
-	border: 1px solid blue;
 }
 
 header nav a {
@@ -105,7 +103,6 @@ header nav a:hover {
 
 header .logo {
 	margin-right: 100px;
-	border: 1px solid green;
 }
 
 header, nav, .logo {
@@ -121,22 +118,33 @@ section {
 }
 
 .banner {
-	position: relative;
+	/* position: relative; */
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
 	height: 450px;
 	margin-top: 120px;
 	border-bottom: 1px solid black;
+	border: 1px solid red;
 }
 
 .banner .banner-column {
-	display: inline-block;
+	/* display: inline-block;
 	position: absolute;
+	width: 50%; */
 	width: 50%;
+	border: 1px solid orange;
 }
 
 .banner #headline {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	padding: 75px 0;
 	text-align: center;
 	line-height: 1;
+	/* border: 1px solid blue; */
 }
 
 .banner #headline h1 {
@@ -144,12 +152,13 @@ section {
 }
 
 .banner #hero-image-wrapper {
-	right: 0;
-	text-align: center;
+	/* right: 0; */
+	/* text-align: center; */
+	/* border: 1px solid green; */
 }
 
 .banner #headline .button {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 150px;
 	padding: 5px 10px;
 	border: 1px solid black;
