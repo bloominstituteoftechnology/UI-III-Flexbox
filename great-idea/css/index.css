@@ -272,7 +272,9 @@ footer {
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
-	
+	padding-bottom: 100px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid black;
 
 }
 
@@ -322,18 +324,52 @@ footer {
 	margin-left: 100px;
 }
 
+h2 {
+	font-weight: bold;
+	font-size: 24px;
+}
 
 
 
 
+ /* Features and About  */
+
+ .secondContent {
+	 display: flex;
+ }
 
 
 
+  /* Full Width Img */
+ 
+  .middle-img {
+	width: 100%;
+	margin: 50px 0;
+}
 
 
 
+ /* Services, Product, Vision */
+
+ .thirdContent {
+	 display: flex;
+ }
 
 
+ .third {
+	width: 95%;
+}
+ 
+
+
+ /* Contact */
+
+ .contact {
+	margin-top: 40px;
+	border-top: 1px solid black;
+	padding: 40px 0;
+	
+	}
 
 
 
@@ -463,12 +499,9 @@ footer {
 
 
  
-h2 {
-	 font-weight: bold;
-	 font-size: 24px;
-}
+
  
- .secondContent {
+ /* .secondContent {
 	 margin-top: 50px;
 	 padding: 30px 0;
 	 border-top: 1px solid black;
@@ -480,23 +513,18 @@ h2 {
 	 width: 50%;
 	 margin-top: 20px;
  }
- 
+  */
 
  
  
- /* Full Width Img */
- 
- .middle-img {
-	 width: 100%;
-	 margin: 50px 0;
- }
+
  
  
  
  
  /* Services, Product, Vision */
  
- .thirdContent {
+ /* .thirdContent {
  margin-bottom: 60px;
  }
  
@@ -510,17 +538,17 @@ h2 {
  .third {
 	 width: 95%;
  }
+  */
  
- 
- 
- /* Contact */
+/*  
+ Contact
 
  .contact {
  margin-top: 40px;
  border-top: 1px solid black;
  padding: 40px 0;
  
- }
+ } */
  
  
  
