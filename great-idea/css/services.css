@@ -163,5 +163,20 @@ footer {
 }
 
 ul {
+    margin: 15px;
     list-style: square;
+}
+
+li {
+      padding: 7px;
+}
+
+.facts-img img {
+    width: 150;
+    height: 180;
+}
+
+.copyright {
+    text-align: center;
+    margin: 20px;
 }
