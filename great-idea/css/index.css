@@ -65,16 +65,23 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-body{
-	/* display:flex;
-	flex-direction: column; */
-	width:876px;
-	margin:0 auto;
+ /* body{
+	width:876px; 
+	margin:0 auto; 
+}  */
+
+.container{
+	border:1px solid red;
+	display:flex;
+	flex-direction: column;
+	width: 876px;
 }
 
 header{
 	display: flex;
 	justify-content: space-around;
+	width:100%;
+	height: 10%;
 	margin-bottom: 80px;
 	align-items: center;
 	padding-top: 25px;
@@ -99,18 +106,23 @@ address p{
 
 .large-items {
 	display: flex;
+	justify-content: space-around;
+	align-items: center; 
 	width: 100%;
-	margin: 0 0 150px 0;
+	margin-bottom: 150px;
 }
 
-h1{
-	margin: 0 0 15px 0;
+.innovation{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 379px;
+	width: 379px;
 }
-
 .large-items div h1{
 	text-align: center;
 	font-size: 75px;
-	margin: 59px 26px 20px 75px;
 	letter-spacing: 4px;
 	font-stretch: expanded;
 }
@@ -122,12 +134,10 @@ h1{
 	border: 1px solid black;
 	text-align: center;
 	letter-spacing: 2px;
-	margin:0px 0px 0px 152px;	
 }
 
 .Features-and-about{
 	display: flex;
-	flex-wrap: wrap;
 	margin: 0 5px;
 	width: 100%;
 	margin-bottom: 45px;
@@ -152,8 +162,7 @@ h1{
 }
 
 .copyright {
-	width:200px;
-	text-align: center;
-	margin: 70px 0px 0px 335px;
+	display: flex;
+	justify-content: center;
 	font-size: 14px;
 }
