@@ -96,20 +96,20 @@ h1, h2, h3, h4, h5 {
  }
 
  header nav {
-	 /* border: 1px solid red; */
+	 /* border: 1px solid red;	 */
 	 display:flex;
 	 
  }
 
  header nav a {
-	 margin-right: 60px;
-	 /* border: 1px solid blue; */
+	 margin-right: 40px;
 	 text-decoration: none;
 	 color: black;
 	 padding: 10px 20px;
 	 border: 1px solid gray;
 	 border-radius: 5px;
 	 transition: 0.2s ease-in;	
+	 /* border: 1px solid blue; */
  }
 
 
@@ -126,8 +126,103 @@ h1, h2, h3, h4, h5 {
 
  .services-header-img {
 	 width: 100%;
-	 margin-top: 10px 0;
+	
  }
+
+
+
+p {
+	line-height: 1.5;
+}
+
+
+ /* Services section */
+
+.services {
+ margin: 30px 0;
+ padding-bottom: 40px;
+ border-bottom: 1px solid black;
+}
+
+
+
+/* Wrapper section */
+
+
+.wrapper {
+	
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
+}
+
+.box {
+	border: 1px solid black;
+	background: whitesmoke;
+	flex-basis: 48%;
+	padding: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	/* height: auto; */
+	height: 280px;
+	
+
+}
+
+.learn {
+	color: black;
+	border: 1px solid black;
+	/* border-radius: 5px;*/
+	/* background: white; */
+	margin-top: 40px; 
+	/* padding: 10px 20px;  */
+	width: 30%;
+	text-align: center;
+
+}
+
+.learn:hover{
+	background: aquamarine;
+}
+
+
+.learn a {
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	background: white;
+	border: 1px solid black;
+	padding: 10px 40px;
+	
+}
+
+.learn a:hover{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
