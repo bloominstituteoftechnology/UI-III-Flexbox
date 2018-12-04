@@ -139,6 +139,9 @@ p {
 hr {
 	margin-top: 5%;
 }
+hr.line {
+	margin-top: 4%
+}
 footer p {
 	margin: 0 auto;
 	width: 20%
@@ -161,14 +164,33 @@ footer p {
 	border: 1px solid black;
 	flex-wrap: wrap;
 	padding: 10px;
+	margin: 10px 0;
 	
 }
 section.whole {
 	border: 1px solid red;
 	display: flex;
 	flex-wrap: wrap;
-	/*width: 1015px;*/
+	margin-top: 4%;
+	justify-content: space-between;
+	
 	
 	
 
+}
+img.services-header-img {
+	width: 100%;
+}
+.two {
+	width: 449px;
+}
+.bottom-portion {
+	display: flex;
+	width: 100%;
+	border: 5px dotted blue;
+	justify-content: space-between;
+}
+ul {
+	list-style: disc;
+	margin-left: 25px;
 }
