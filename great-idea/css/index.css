@@ -116,13 +116,16 @@ p {
 }
 .card {
 	margin-top: 20px;
-	border: 1px solid red;
 
 
 }
+.card3, .card4 {
+	margin-top: 20px;
+	margin-left: 45px;
+}
 .bottom-content{
-
 	display: flex;
+
 
 }
 .logo {
