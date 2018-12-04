@@ -190,7 +190,26 @@ ul {
 	list-style: square;
 	margin-bottom: 13px;
 }
+.services {
+	height: 650px;
+	/* width: 877px */
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	
+}
 
+.card {
+	height: 200px;
+	widows: 334px;
+	display: flex;
+	
+	
+	
+}
 /* footer */
 footer {
 	margin-top: 40px;
