@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,193 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 880px;
+	margin: auto;
+	position: relative;
+}
+
+header {
+	width: 100%;
+}
+
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.header-top nav {
+	font-size: 16px;
+	width: 620px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-btm {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.left {
+	align-self: center;
+	justify-self: center;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.logo {
+	width: 183px;
+	align-self: flex-end;
+}
+
+header nav a {
+	text-decoration: none;
+	color: lightgray;
+}
+
+h1 {
+	font-size: 78px;
+	letter-spacing: 3px;
+	line-height: 0.95;
+	text-align: center;
+}
+
+button {
+	border: 1px solid black;
+	font-size: 16px;
+	cursor: pointer;
+	width: 180px;
+	height: 30px;
+	align-self: center;
+}
+
+button:hover {
+	color: white;
+	background-color: black;
+	transition: background-color ease-out 0.5s;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 880px;
+	justify-content: space-between;
+	padding: 30px 0;
+	margin: 70px 0 30px 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+main p {
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.features {
+	width: 430px;
+}
+
+.about {
+	width: 430px;
+}
+
+.middle-img {
+	margin: 30px 0;
+}
+
+.services {
+	width: 280px;
+}
+
+.product {
+	width: 280px;
+}
+
+.vision {
+	width: 280px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact {
+	width: 140px;
+	line-height: 1.2;
+	font-size: 16px;
+}
+
+.copyright {
+	text-align: center;
+	height: 140px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+}
+
+.services-header-img {
+	margin: 50px 0;
+}
+
+.services-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.services-main {
+	border-bottom: 2px solid black;
+	padding-bottom: 20px;
+}
+
+.item a {
+	align-self: center;
+	margin-top: 20px;
+}
+
+.item h2 {
+	align-self: center;
+}
+
+.item {
+	width: 30%;
+	margin: 40px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.btm-services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.btm-services nav {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-info-img {
+	width: 600px;
+	margin-top: 20px;
+}
+
+.some-facts {
+	margin: 20px auto 50px auto;
+	width: 800px;
+	padding: 20px 30px;
+	border: 2px dashed black;
+	text-align: center;
+}
