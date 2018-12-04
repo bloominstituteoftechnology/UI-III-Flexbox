@@ -66,9 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
 	width: 1024px;
-	/* position: relative; */
 	margin: 40px auto;
-	background: lightgray;
 }
 
 header {
@@ -113,8 +111,6 @@ section {
  margin: 50px auto;
  width: 876px;
  line-height: 1.5;
- 
- 
 }
 
 .banner {
@@ -124,12 +120,10 @@ section {
 	height: 450px;
 	margin-top: 120px;
 	border-bottom: 1px solid black;
-	/* border: 1px solid red; */
 }
 
 .banner .banner-column {
 	width: 50%;
-	/* border: 1px solid orange; */
 }
 
 .banner #headline {
@@ -157,9 +151,7 @@ section {
 }
 
 .introduction .intro-column {
-	/* display: inline-block; */
 	width: 50%;
-	border: 1px solid orange;
 }
 
 .middle-image-wrapper {
@@ -174,9 +166,7 @@ section {
 }
 
 .product-and-services .p-and-s-column {
-	/* display: inline-block; */
 	width: 33%;
-	border: 1px solid orange;
 }
 
 .contact-info {
