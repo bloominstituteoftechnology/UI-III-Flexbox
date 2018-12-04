@@ -149,7 +149,7 @@ header>nav>a {
 }
 
 .main {
-	height: 800px;
+	height: 500px;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -186,10 +186,11 @@ header>nav>a {
 }
 
 .middle-img {
-	margin-bottom: 0
+	margin-bottom: 40px;
 }
 
 #contact {
+	
 	margin-bottom: 40px;
 }
 
