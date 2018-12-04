@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 1024px;
 	margin: 40px auto;
+	background: lightgray;
 }
 
 header {
@@ -188,3 +189,5 @@ section {
 	text-align: center;
 	font-size: .85rem;
 }
+
+/* Services Page */
