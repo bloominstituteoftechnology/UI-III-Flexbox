@@ -85,7 +85,7 @@ nav {
 }
 
 nav a {
-	padding-right: 55px;
+	padding-right: 65px;
 	color: darkgray;
 	font-size: 90%;
 	text-decoration: none;
@@ -96,6 +96,7 @@ nav a {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin-top: 70px;
 }
 
 .innovation {
@@ -117,15 +118,37 @@ h1 {
 	width: 160px;
 }
 
+hr {
+	border-color: black;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
 
+.middle-content {
+	display: flex;
+	justify-content: space-between;
+}
 
+.middle-content > div {
+	width: 49%;
+}
 
+.middle-img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 
 .bottom-content {
 	display: flex;
 	justify-content: space-between;
 }
 
-/* .bottom-content > div {
-	width: 30%;
-} */
+.bottom-content > div {
+	width: 33%
+}
+
+.copyright {
+	font-size: 85%;
+	text-align: center;
+	margin-top: 40px;
+}
