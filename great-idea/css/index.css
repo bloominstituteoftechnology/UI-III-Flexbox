@@ -64,3 +64,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 876px;
+	margin: 0 auto;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 876px;
+	margin-top: 25px;
+	/* position: relative; */	
+}
+
+.navigation a {
+	text-decoration: none;
+	color: grey;
+	/* padding: 10px; */
+	/* margin-left: 25px; */
+}
+
+/* .navigation .logo {
+	padding-right: 15px; 
+	position: absolute;
+	right: 0;
+} */
+
+header {
+	height: 450px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	/* margin-top: 100px; */
+	/* position: relative; */
+
+}
+
+.h1-div {
+	font-size: 75px;
+	width: 290px;
+	/* height: 250px; */
+	/* position: absolute;
+	left: 115px;
+	top: 70px; */
+}
+
+/* .img-div {
+	position: absolute;
+	right: 0;
+} */
+
+button {
+	text-decoration: none;
+	border: 1px solid black;
+	background: white;
+	font-size: 15px;
+	width: 140px;
+	height: 30px;
+	/* position: absolute;
+	bottom: 110px;
+	left: 190px; */
+}
+
+.top-content {
+	border-top: 2px solid black;
+	text-align: justify;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	
+}
+
+.top-content div {
+	width: 400px;
+	display: inline-block;
+}
+
+/* .features {
+	For Future use
+} */
+
+.about {
+	position: absolute;
+	right: 0;
+}
+
+.bottom-content {
+	text-align: left;
+	border-bottom: 2px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.bottom-content div {
+	width: 280px;
+	display: inline-block;
+}
+
+/* .services {
+	For future use
+} */
+
+.product {
+	padding-left: 20px;
+}
+
+.vision {
+	position: absolute;
+	right: 0;
+}
+
+.contact {
+	margin-top: 20px;
+	width: 140px;
+	height: 140px;
+}
+
+address {
+	line-height: 30px;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+}
