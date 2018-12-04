@@ -71,7 +71,16 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-    
+    display: flex;
+	flex-direction: column;
+	padding-bottom: 30px;    
+}
+
+.nav-holder {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between
 }
 
 .nav-container {
@@ -82,21 +91,14 @@ header {
 	align-items: center;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-nav a {
-    color: lightgray;
-    font-size: 16px;
-    text-decoration: none;
+.nav-container a {
+	text-decoration: none;
+	color: #F4F3F4;
+	font-size: 16px;
 }
 
 .logo {
-    padding-left: 100px;
-    width: 30%;
+	width: 20%;
 }
 
 .cta {
