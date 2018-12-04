@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.navigation{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.navigation a {
+    padding: 30px;
+    border: 0;
+    font-size: 100%;
+	color: grey;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+h1{
+	font-size: 60px;
+	width: 49%;
+	height: 49%;
+	padding: 40px;
+	display: flex;
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding: 75px;
+}
+
+.headContainer{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	flex-direction: column;
+	height: 400px;
+
+}
+
+.button{
+	width: 165px;
+	height: 40px;
+	font-size: 20px;
+	padding: 5px;
+    border: 1px solid black;
+	text-align: center;
+	margin-left: 80px;
+	
+	
+	
+}
+
+	.headImg {
+		position: absolute;
+		top: 150px;
+		right: 100px;
+		width: 100%ß;
+		padding: 10px;
+	}
+	.topContent{
+		border-top: 1px solid black;
+		display: flex;
+	}
+	.features{
+		width: 49%;
+		padding: 20px;
+	}
+	
+	.about{
+		width: 49%;
+		padding: 20px;
+	}
+	.bottomContent{
+		border-bottom: 1px solid black;
+		padding: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.services {
+		width:33%;
+		
+	}
+	.products{
+		width:33%;
+		
+	}
+	.vision {
+		width:33%;
+		
+	}
+	.class{
+		display: flex;
+	}
+	
+	.middle-img{
+		width:100%;
+	}
+	
+	.contact{
+		padding: 30px;
+		display: block;
+		line-height: 30px;
+	}
+	.address{
+		
+	}
+	.phone{
+		padding: 40px;
+	}
+	.footer{
+		text-align: center;
+	}
