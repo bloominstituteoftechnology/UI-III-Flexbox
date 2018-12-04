@@ -66,11 +66,11 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container, .top-nav {
 	width: 880px;
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .top-nav {
-	display: flex;
+    display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -90,10 +90,6 @@ h1, h2, h3, h4, h5 {
 	box-shadow:0 0 5px 0 black;
 }
 
-nav {
-
-}
-
 header a {
 	color: lightgray;
 	text-decoration: none;
@@ -109,22 +105,19 @@ header a:hover {
 }
 
 .blurb-section {
+    display: flex;
+    align-items: center;
 	width: 100%;
 	height: 380px;
 	margin-top: 100px;
 }
 
 .blurb-text-div {
-	position: relative;
-	display: inline-block;
-	padding: 75px 0;
 	width: 49%;
 	z-index: -1;
-	float: left;
 }
 
 .blurb-text {
-	display: block;
 	text-align: center;
 	font-size: 75px;
 	width: 100%;
@@ -132,12 +125,12 @@ header a:hover {
 }
 
 .blurb-button-div {
+    display: flex;
+    justify-content: center;
 	width: 100%;
 }
 
 .blurb-button {
-	display: block;
-	margin: 0 auto;
 	background-color: white;
 	border: 1px solid black;
 	padding: 5px 50px;
@@ -147,19 +140,15 @@ header a:hover {
 	animation: tremble;
 	animation-duration: .1s;
 	animation-iteration-count: infinite;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .blurb-img-div {
 	width: 49%;
 	height: 380px;
-	display: inline-block;
-	position: relative;
 }
 
 .blurb-img {
-	position: absolute;
-	left: 10%;
 	z-index: -1;
 }
 
@@ -168,6 +157,8 @@ header a:hover {
 }
 
 .section1 {
+    display: flex;
+    justify-content: space-between;
 	border-top: 1px solid black;
 	width: 100%;
 	padding: 25px 0;
@@ -176,8 +167,6 @@ header a:hover {
 }
 
 .features, .about {
-	display: inline-block;
-	position: relative;
 	width: 49%;
 	z-index: -1;
 }
@@ -189,7 +178,8 @@ header a:hover {
 }
 
 .section2 {
-	display: inline-block;
+	display: flex;
+    justify-content: space-between;
 	border-bottom: 1px solid black;
 	width: 100%;
 	height: 175px;
@@ -200,7 +190,6 @@ header a:hover {
 .services, .products, .vision {
 	width: 32%;
 	padding-right: 10px;
-	display: inline-block;
 }
 
 address {
