@@ -3,139 +3,225 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body {
-	width: 900px;
-	margin: auto;
+  width: 900px;
+  margin: auto;
 }
 header {
-	/* border: 1px solid black; */
-	display: flex;
-	justify-content: space-between;
-	margin-top: 20px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 nav a {
-	text-decoration: none;
-	color: gray;font-size: 20px;
-	margin:0px 25px 0px 0px;
-	/* border: 1px solid black; */
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  margin: 0px 25px 0px 0px;
+  /* border: 1px solid black; */
 }
 .iod {
-	/* border: 1px solid black; */
-	display: flex;
-	justify-content: flex-end;
-	margin: 70px 0px 50px 0px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: flex-end;
+  margin: 70px 0px 50px 0px;
 }
 .iod .iod-text h1 {
-	font-size: 50px;
-	margin-top: 70px;
-	margin-right:100px;
-	text-align: center;
-	letter-spacing: 10px;
-
+  font-size: 50px;
+  margin-top: 70px;
+  margin-right: 100px;
+  text-align: center;
+  letter-spacing: 10px;
 }
 button {
-	font-size: 30px;
-	margin-left: 60px;
-	margin-top: 30px;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-top: 30px;
 }
 .top-content {
-	border-top: 1px solid black;
-	margin: 20px 0px 20px 0px;
-	display: flex;
+  border-top: 1px solid black;
+  margin: 20px 0px 20px 0px;
+  display: flex;
 }
 .top-content .text-content {
-	/* border: 1px solid black; */
-	width: 500px;
-	line-height: 30px;
-	margin-top: 30px;	
+  /* border: 1px solid black; */
+  width: 500px;
+  line-height: 30px;
+  margin-top: 30px;
 }
 
 h4 {
-	letter-spacing: 3px;
-	font-size: 20px;
+  letter-spacing: 3px;
+  font-size: 20px;
 }
 
 .middle-img {
-	width: 900px;
-	margin:10px 0 10px 0px;
+  width: 900px;
+  margin: 10px 0 10px 0px;
 }
 .bottom-content {
-	display: flex;
-	border-bottom: 1px solid black;
+  display: flex;
+  border-bottom: 1px solid black;
 }
 .bottom-content .text-content {
-	/* border: 1px solid black; */
-	width: 333px;
-	line-height: 30px;
-	margin: 20px 10px 50px 0px;
+  /* border: 1px solid black; */
+  width: 333px;
+  line-height: 30px;
+  margin: 20px 10px 50px 0px;
 }
 .contact {
-	line-height: 40px;
-	margin: 40px 0px 50px 0px;
+  line-height: 40px;
+  margin: 40px 0px 50px 0px;
 }
 
 footer {
-	text-align: center;
+  text-align: center;
 }
