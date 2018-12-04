@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5 {
 		border: 4px solid red;
 		/* width: 880px; */
 		height: 250px;
-		margin: 0px 10px 0px 10px;
+		margin: 10px 40px 0px 40px;
 		display: flex;
 		flex-direction: column;
 		justify:center;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5 {
 	
 	.container-services {
 		/* border: 3px solid purple; */
-		margin: 10px;
+		margin: 10px 40px 0px 40px;
 	}
 		.box-services {
 			border: 1px solid red;
@@ -219,28 +219,30 @@ h1, h2, h3, h4, h5 {
 
 	.container-bottom {
 		border: 3px solid red;
+		margin: 10px 40px 0px 40px;
 		display: flex;
-		justify: space-between;
+		justify-content: space-around;
 	}
 
 		.box-bottom-left {
 			border: 2px solid black;
 			/* width: 350px; */
-			padding: 7px;
-			flex-wrap: wrap;
-			align-self: center
+			padding: 10px;
+			/* flex-wrap: wrap;
+			align-self: center */
 		}
 
 		.box-bottom-right {
 			border: 2px solid black;
 			/* width: 350px; */
-			padding: 7px;
-			flex-wrap: wrap;
-			align-self: center
+			/* padding: 7px; */
+			/* flex-wrap: wrap; */
+			/* align-self: center */
 		}
 	
 	.box-footer {
 		border: 3px solid red;
+		margin: 10px 40px 0px 40px;
 		display: flex;
 		justify-content: center;
 	}
