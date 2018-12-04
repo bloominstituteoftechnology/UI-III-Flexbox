@@ -206,7 +206,7 @@ hr {
 	width: 950px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-content: space-around;
 	padding-top: 10px;
 
@@ -241,10 +241,6 @@ p {
 	flex-direction: column;
 	align-items: flex-start;
 	margin-top: 19px;
-	/* padding: 5px; */
-	/* position: absolute;
-	left: 0;
-	top: 0; */
 }
 
 .about {
@@ -267,92 +263,81 @@ p {
 .second {
 	/* border: 1px black solid; */
 	display: flex;
-	justify-content: space-between;
-	/* margin-bottom: 38px; */
+	justify-content: flex-start;
+	margin-top: 8px;
+	margin-bottom: 39px;
 }
 
 .services {
 	/* border: 1px black solid; */
+	width: 30%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 5px;
-	padding-left: 21px;
-
-	/* display: inline-block;
-	width: 292px; */
 }
 
 .product {
 	/* border: 1px black solid; */
+	width: 31%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 5px;
-	/* display: inline-block;
-	margin-left: 8px;
-	width: 284px; */
-	/* padding-left: 5px; */
+	padding-left: 14px;
 
 }
 
 .vision {
 	/* border: 1px black solid; */
+	width: 30%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 5px;
-	/* display: inline-block;
-	margin-left: 13px;
-	width: 279px; */
+	margin-left: 18px;
 }
 
 footer {
-	border: 1px black solid;
+	/* border: 1px black solid; */
 	width: 950px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
 	padding: 10px;
-	/* margin-left: 74px;
-	margin-top: 38px;
-	position: relative; */
+	margin-left: 63px;
+	margin-top: 27px;
+	/* position: relative; */
 }
 
-/* .footer-content {
-	border: 1px black solid;
+footer h2 {
+	margin-left: 4px;
+	margin-bottom: 17px;
 
-	/* padding-left: 1px; */
-	/* width: 150px; */
-
-/* div {
-	/* border: 1px black solid;
-	padding: 5px; */
+}
 
 .address {
-	border: 1px black solid;
-	padding: 5px;
+	/* border: 1px black solid; */
+	margin-bottom: 21px;
+	margin-left: 3px;
 }
 
 .phone {
-	border: 1px black solid;
-	padding: 5px;
-	/* margin-bottom: 20px; */
+	/* border: 1px black solid; */
+	margin-bottom: 21px;
+	margin-left: 3px;
+
 }
 
 .email {
-	border: 1px black solid;
-	padding: 5px;
+	/* border: 1px black solid; */
+	/* padding: 5px; */
+	margin-left: 3px;
+
 }
 
 .copyright {
-	border: 1px black solid;
-	padding: 5px;
-	align-self: center;
-	/* margin-top: 53px;
-	margin-left: 360px;
-	font-size: 85%; */
-	/* padding: 15px; */
+	/* border: 1px black solid; */
+	margin-left: 361px;
+	margin-top: 54px;
+	font-size: 87%;
 }
 
