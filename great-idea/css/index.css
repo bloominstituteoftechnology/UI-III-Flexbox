@@ -63,10 +63,8 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-nav,header,#section1,#middle,.section2,address,footer{
+nav,header,#section1,#middle,.section2,.container3,.container4, address,footer{
 margin: auto;
-margin-bottom: 2.5em;
-border: red 1px solid;
 width: 95%;
 }
 
@@ -78,7 +76,6 @@ nav{
 	display:flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	border: red 1px solid;
 }
 
 .container1 .item{
@@ -98,7 +95,16 @@ margin-top: 35px;
 nav a:hover{
 	text-decoration: underline;
 }
-
+#section1{
+	margin-top: 3em;
+}
+#section2{
+	margin-bottom: 2em;
+}
+.blurb1{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
 .container2{
 	display: flex;
 	flex-wrap: wrap;
@@ -110,6 +116,12 @@ nav a:hover{
 	display: flex;
 	flex-flow: row nowrap;
 	border-top: black 1px solid;
+}
+
+.container4{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .title{
@@ -125,7 +137,6 @@ address{
 footer{
 	text-align: center;
 	margin: 4em;
-	border: red 1px solid;
 }
 
 
@@ -163,48 +174,27 @@ color: black;
 
 #section2{
 	padding-top: 15px;
-	margin-left: 5%;
-	margin-right: 5%;
 }
 
 
-.container{
-	width: 46%;
-	display: inline-block;
+.blurb1{
+	width: 50%;
 	font-size: 1.2em;
-
 }
 
-
-.container p{
-	width: 100%
+.blurb2{
+	width: 30%;
+	font-size: 1.2em;
 }
 
-#features{
-	margin-right: .5em;	
-}
-
-#about{
-	margin-left: 4%;
-}
-
-#services{
-	margin-right: 1%;
-}
-
-#product{
-	margin-right: 1%;
-}
 
 #addy{
 	font-size: 1.2em;
 }
-/* .middle-img{
-	width: 90%;
-	margin-top: 2.5em;
-	margin-left: 5%;
-	margin-right: 5%; 
-} */
+
+.middle-img{
+	width: 100%;
+} 
 
 h1{
 	font-size:5.3em;
