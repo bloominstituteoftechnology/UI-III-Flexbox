@@ -33,8 +33,6 @@ body {
 }
 ol, ul {
 	list-style: none;
-	display: flex;
-	justify-content: center;
 }
 blockquote, q {
 	quotes: none;
@@ -65,4 +63,123 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body {
+	width: 876px;
+	height: 1000px;
+	margin: 0 auto;
+}
+/* Header */
+
+header {
+	height: 30px;
+	margin: 20px 0 0;
+}
+
+nav { 
+	display: flex; 
+}
+
+nav li { 
+	display: flex;
+	flex: 1 1 auto; 
+}
+
+.nav1 > li > a {
+	text-decoration: none;
+	color: silver;
+	margin-right: 40px;
+	vertical-align: middle;
+}
+
+.logo { 
+	flex: 0 1 auto;
+	justify-content: flex-end; 
+}
+
+/* Banner */
+
+header > img {
+	max-width: 100px;
+	max-height: 30px;	
+}
+
+.get-started {
+	height: 300px;
+	width: inherit;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+.get-started > section, .get-started>img {
+	display: inline-block;
+	height: 100%;
+	width: 400px;
+	
+	vertical-align: middle;
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.get-started > section {
+	padding: 20px;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding-top: 40px;
+}
+
+.get-started > section > h1 {
+	height: 100px;
+	font-size: 3em;
+	margin-bottom: 80px;
+}
+
+.get-started > section > a > button {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 10px 34px;
+
+}
+/* Body */
+
+.main {
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;	
+}
+
+.middle-img {
+	margin-bottom: 40px;
+}
+
+section {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+#features, #about {
+	display: inline-block;
+	width: 48%;
+	height: 10%;
+}
+
+#about {
+	margin-left: 30px;
+}
+
+#services, #product, #vision, #contact {
+	display: inline-block;
+	width: 33%;
+	height: 10%;
+}
+
+/* Footer */
+
+footer > p {
+	text-align: center;
+}
