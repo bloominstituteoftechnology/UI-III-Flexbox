@@ -224,3 +224,81 @@ ul {
 .services-bottom div {
 	width: 45%;
 }
+
+.contact-header {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.contact-header-text {
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-content {
+	width: 60%;
+}
+
+.typing {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.contact-content > p {
+	margin-bottom: 10px;
+}
+
+.contact-content ul {
+	margin-top: -10px;
+	margin-left: 5px;
+}
+
+.content-form {
+	width: 40%;
+}
+
+.form {
+	list-style-type: none;
+	list-style-position: inside;
+	line-height: 2;
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #F4F3F4;
+	
+}
+
+.contact-method {
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+.contact-form input {
+	width: 100%;
+}
+
+.contact-form textarea {
+	width: 100%;
+}
+
+button {
+	border: 1px solid black;
+	width: 140px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: white;
+	font-size: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-bottom: 10px;
+}
