@@ -58,7 +58,7 @@ a {
  button {
     width:100px; 
     height: 25px;
- }\
+ }
 .section-facts {
     border-top: 1px solid black;
     display: flex;
