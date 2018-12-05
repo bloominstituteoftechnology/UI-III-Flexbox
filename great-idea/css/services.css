@@ -74,18 +74,19 @@ h1, h2, h3, h4, h5 {
   
   header{ 
 	display: flex;
-	padding: 25px;
-	justify-content: space-between;
-	 align-items: center;
+	padding-top: 35px;
+	padding-bottom: 25px;
+	align-items: center;
   }
   nav {
 	display: flex;
 	justify-content: space-between; 
 	height: 20px;
 	line-height: 25px;
-	width: 100%; 
+	width: 100%;
   }
   .link {
+	display:inline-block;	
 	text-decoration: none;
 	color: grey;
 	
@@ -105,6 +106,7 @@ h1, h2, h3, h4, h5 {
 	 display: flex;
 	 flex-wrap: wrap;
 	 padding-top: 25px;
+	 padding-bottom: 25px;
 	 
  }
  .main hr {
@@ -127,14 +129,13 @@ width: 100%;
  
 	.middle{
 		border: 1px solid darkgrey;
-		background-color: grey;
+		background-color: rgb(232, 228, 228);
 		padding: 35px;
-		
 	}
 	.button{
 		display:inline-block;
 		text-decoration: none;
-		background-color: lightgrey;
+		background-color:  rgb(237, 233, 233);
 		color: black;
 		border: 2px solid darkgrey;
 		padding: 5px 10px;
