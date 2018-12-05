@@ -168,12 +168,12 @@ header nav a:last-child {
 
 header .logo {
 	display: flex;
-	position: absolute;
-	  right: 0;
-	  top: 0;
-	margin-bottom: 10px;
-	padding-top: 20px;
-	padding-right: 300px;
+	float: right;
+	position: relative;
+	  right: 18px;
+	  bottom: 30px;
+	margin-bottom: 0;
+	padding-left: 200px;
   
   }
 
@@ -215,20 +215,27 @@ header .logo {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .main-content .top-content {
-  padding: 0 10px;
+	padding: 0 10px;
+	float: right;
 }
+
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: flex;
+  flex-direction: row;
   margin-right: 34px;
+  float: left;
+
 }
 
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
+  
 }
 
 .main-content .middle-img {
@@ -236,24 +243,31 @@ header .logo {
 }
 
 .main-content .bottom-content {
-  margin-top: 37px;
   padding: 0 10px;
+
+  flex-direction: row;
 }
 
 .main-content .bottom-content .text-content {
-  width: 275px;
-  display: flex;
-  margin-right: 12px;
+	width: 250px;
+	flex-direction: row;
+	margin-right: 34px;
+	float: left;
+	justify-content: center;
+   padding-top: 39px;
 }
 
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
+  
 }
 
 .contact {
-  margin-top: 57px;
+  margin-top: 220px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
+  position: relative;
+
 }
 
 .contact p {
