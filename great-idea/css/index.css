@@ -207,7 +207,8 @@ section {
 
 .features, .about {
 	display: flex;
-	width: 585px;
+	width: 45%;
+	margin-left: 50px;
 	height: 150px;
 	flex-direction: column;
 	overflow-wrap: normal;
@@ -227,7 +228,7 @@ section {
 
 .services, .product, .vision{
 	display: flex;
-	width: 375px;
+	width: 30%;
 	height: 200px;
 	flex-direction: column;
 	margin-top: 25px;
