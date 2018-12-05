@@ -202,3 +202,163 @@ button:hover:before {
 	width: 100%;
 	color: red;
 }
+
+/* .categories {
+    display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid red;
+} */
+
+
+.serv {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.logo {
+	margin-left: 20px;
+}
+
+.Digital-Design {
+	display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	margin-right: 20px;
+}
+
+.UX { 
+	display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	background-color: #f4f3f4;
+}
+
+.Digital-Marketing {
+	display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	background-color: #f4f3f4;
+	margin-right: 20px;
+
+}
+
+.WebDev { 
+	display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	background-color: #f4f3f4;
+}
+
+.IOSDev {
+	display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	background-color: #f4f3f4;
+	margin-right: 20px;
+
+}
+
+.Android {
+	display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: 1px solid black;
+	background-color: #f4f3f4;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+.nav a {
+	text-decoration: none;
+}
+
+
+.cont {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.header-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.row1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.row2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+	margin-bottom: 20px;
+
+}
+
+.row3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+	margin-bottom: 20px;
+
+}
+
+.Some-facts {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	padding-right: 40px;
+	
+}
+
+.bottom-section {
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+}
+
+.para {
+	padding-bottom: 20px;
+}
+
+ul {
+	list-style-position: inside;
+	line-height: 1.5;
+}
+
+.copy {
+	display: flex;
+	justify-content: center;
+	padding-top: 65px;
+}
+
+.button1 {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
