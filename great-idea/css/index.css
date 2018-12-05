@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,199 +59,176 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-html {
-	margin: 0 auto;
-	padding: 0;
-}
+
 body {
 	width: 876px;
 	margin: 0 auto;
-	padding: 0;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 876px;
+	margin-top: 25px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: grey;
 }
 
 header {
-	display: flex;
-	flex-direction:  row;
-	height: 30px;
-	margin-top: 20px;
-	margin-bottom: 40px;
-	align-content: center;
-	justify-content: space-between;
-}
-
-header>nav {
-	width: 70%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-header>nav>a {
-	display: flex;
-	align-items: center;
-	color: silver;
-	text-decoration: none;
-}
-
-.get-started {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	height: 400px;
-	width: 100%;
-	border-bottom: 1px solid black;
-}
-
-
-.get-started>section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	width: 50%;
-	order: 1;
-}
-
-.get-started>section>h1 {
-	font-size: 3em;
-	display: flex;
-	flex-direction: column;
+	height: 450px;
 	text-align: center;
-}
-
-.get-started>section>a, .grid>a {
-	text-decoration: none;
-	color: black;
-	border: 1px solid black;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
-	padding: 5px 30px;
-}
-
-.get-started>img {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
-	order: 2;
-	max-height: 100%;
-	height: 360px;
-	max-width: 50%;
-	width: 360px;
+	margin-top: 25px;
 }
 
-.main {
-	height: 500px;
-	width: 100%;
+.h1-div {
+	font-size: 75px;
+	width: 290px;
+}
+
+button {
+	text-decoration: none;
+	border: 1px solid black;
+	background: white;
+	font-size: 15px;
+	width: 140px;
+	height: 30px;
+}
+
+.top-content {
+	border-top: 2px solid black;
+	text-align: justify;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	border-bottom: 1px solid black;
 	justify-content: space-between;
-	margin-bottom: 40px;
-	padding: 0;
 }
 
-#features, #about {
+.top-content div {
+	width: 400px;
+}
+
+.bottom-content {
+	text-align: left;
+	border-bottom: 2px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.bottom-content div {
+	width: 280px;
+}
+
+.contact {
+	margin-top: 20px;
+	width: 140px;
 	height: 140px;
-	width: 44%;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
 }
 
-
-#product, #vision, #services {
-	display: flex;
-	width: 33%;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
-}
-
-.middle-img {
-	margin-bottom: 40px;
-}
-
-#contact {
-	margin-bottom: 40px;
+address {
+	line-height: 22px;
 }
 
 footer {
-	display: flex;
-	justify-content: center;
-}
-
-/* services page */
-
-#services-services {
-	display: flex;
-	flex-direction: column;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	border-bottom: 1px solid black;
-	height: 120px;
-}
-
-#services-services>h1 {
-	font-size: 1.5em;
-}
-
-.main-section {
-	width: 100%;
-	height: 660px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	border-bottom: 1px solid black;
-	justify-content: space-between;
-	margin-bottom: 40px;
-}
-
-.grid {
-	display: flex;
-	flex-direction: column;
-	width: 48%;
-	height: 200px;
-	margin: 0;
-	background-color:lightgray;
-	color: black;
-	border: 1px solid black;
-	padding: 20px;
-}
-
-.grid>a {
-	margin-top: 10px;
-	width: 140px;
-	background-color: white;
-}
-
-#facts {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	height: 300px;
-	border-bottom: 1px solid black;
-	margin-bottom: 40px;
-	justify-content: center;
-	align-content: center;
-}
-
-#facts>img, #facts>section {
-	display: flex;
-	flex-direction: column;
-	padding: 20px;
-}
-
-#facts>section>ul {
-	padding-left: 20px;
 	margin-top: 20px;
-	list-style: square;
+	text-align: center;
+}
+
+/* services.html */
+
+.services-header-img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.intro {
+	padding-bottom: 30px;
+	border-bottom: 2px solid black;
+}
+
+.main-content {
+	border-bottom: 2px solid black;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.main-content div {
+	margin-bottom: 30px;
+	padding: 20px;
+	width: 420px;
+	height: 220px;
+	background: rgb(233, 230, 230);
+	border: 1px solid black;
+}
+
+.main-content button {
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.services-bottom-section {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.facts-header-box {
+	width: 400px;
+}
+
+
+ul {
+	margin-top: 10px;
+	padding-left: 18px;
+ 	list-style-type: square;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		width: 100%;
+	}
+
+	.navigation {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 650px;
+		margin-top: 25px;
+		padding-left: 50px;
+	}
+
+	.intro {
+		width: 100%;
+		padding-left: 15px;
+		margin-right: auto;
+	}
+
+	.main-content{
+		border-bottom: 2px solid black;
+		padding-top: 30px;
+		padding-bottom: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;	
+	}
+
+	.services-bottom-section {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
