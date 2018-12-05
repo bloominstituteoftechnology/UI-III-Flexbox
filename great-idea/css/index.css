@@ -73,13 +73,12 @@ h1, h2, h3, h4, h5 {
 	height: 40px;
 	width: 880px;
 	position: fixed;
-	z-index: 1;
+	/*z-index: 0; */
 	background: darkblue;
 	top: 0;
 	display: flex;
 	justify-content: space-between;
 }
-
 
 .navbar_top {
 	display: flex;
@@ -95,7 +94,6 @@ a{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 	color: #BABABA;
 	text-decoration: none;
 	font-family: 'Raleway', sans-serif;
@@ -109,30 +107,31 @@ a{
 
 .logoIMG {
 	width: 191.78px;
+	width: 200px;
 	height: 40px;
 	background: lightgrey;
 	text-align: center;
 }
 
-header {
-	height: 420px;
-	vertical-align: top;
+.header {
+	display: flex;
+	justify-content: space-evenly;
 	border-bottom: 2px solid black;
-	position: relative;
-	padding-bottom: 30px;
-	margin-top: 76px;
+  padding-bottom: 430px;
+	padding-top: 50px;
+	margin: 40px 0 30px 0;
 }
 
 .banner {
-	width: 440px;
+	display: flex;
+	width: 400px;
+	height: 300px;
+	flex-direction: column;
 	text-align: center;
-	display: inline-block;
-	vertical-align: top;  /*  set banner div at top */
-	margin: 60px 0;
+	margin: 60px 0 0 40px;
 }
 
 h1 {
-	display: inline-block;
 	font-size: 70px;
 	width: 250px;
 	font-family: 'Questrial', sans-serif;
@@ -151,35 +150,129 @@ button:hover {
 }
 
 .headerIMG {
-	display: inline-block;
 	width: 400px;
-	height: 400px;
-	padding-left: 58px;
+	padding-left: 36px;
 }
 
 h2 {
 	font-family: 'Black Han Sans', sans-serif;
 }
 
-.top-content {
-	width: 432px;
-	display: inline-block;
-	padding: 30px 20px 30px 0;
+.top {
+	display: flex;
+	justify-content: space-between;
 }
+
+.top-content{
+	display: flex;
+	flex-direction: column;
+	width: 440px;
+}
+
+.top-content:last-child {
+	padding-left: 25px;
+}
+
+.middleIMG{
+	margin: 50px 0;
+ }
+
+.bottom{
+	border-bottom: 2px solid black;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-content {
+
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+}
+
+.bottom-content:last-child {
+	padding-left: 20px;
+}
+
+address {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-top: 30px;
+
+}
+
+.phone {
+	padding: 25px 0;
+}
+
+h4 {
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+
+/*
+.main {
+	border: 1px solid hotpink;
+	display: flex;
+	height: 500px;
+}
+
+
+.top {
+	display: flex;
+}
+
+
+section {
+	border: 1px solid purple;
+	display: flex;}
+
+}
+
+.top-content {
+	border: 5px solid blue;
+	width: 432px;
+	align-content: center;
+	padding: 30px 20px 100px 0;
+}
+
+/*
 
 .top-content:last-child {
 	padding: 30px 0 30px 22px;
 	margin-left: 10px;
 }
 
-.middle-img {
-	width: 100%;
+
+
+
+.middle {
+	display: flex;
 }
 
+.middle-img {
+	width: 100%;
+	height: 100%;
+}
+
+.bottom {
+	border: 5px solid purple;
+	display: flex;
+	height: 500px;
+
+
+}
+
+*/
+
+/*
 .bottom-content {
-	/*  width: 33%;    also works */
+
 	width: 290px;
-	display: inline-block;
+	height: 300px;
 	padding: 30px 26px 30px 0;
 }
 
@@ -209,3 +302,5 @@ h3 {
 h4 {
 	padding: 20px;
 	text-align: center;
+
+*/
