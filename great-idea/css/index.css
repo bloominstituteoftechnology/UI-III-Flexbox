@@ -240,3 +240,29 @@ footer {
 	padding: 20px;
 	margin-top: 50px;
 }
+
+/* FOR ABOUT.HTML */
+.locationCont {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.locationCont img {
+	width: 70%;
+	height: 300px;
+	margin-left: 80px;
+}
+
+.location p {
+	font-size: 1em;
+}
+
+.location h2 {
+	font-size: 2em;
+}
+
+.location {
+	display: flex;
+	flex-direction: column;
+}

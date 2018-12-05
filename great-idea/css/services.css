@@ -81,8 +81,8 @@ nav {
     align-items: center;
     position: fixed;
     background: #81DFA0;
-    height: 50px;
-    padding: 0 90px;   
+    padding: 15px 90px;   
+    flex-wrap: wrap;
 }
 
 nav a {
