@@ -149,8 +149,8 @@ h2 {
 }
 
 p {
-    padding-right: 50px;
     font-size: 16px;
+    padding-right: 0px;
 }
 
 .middle-img {
@@ -179,3 +179,65 @@ footer {
     padding-bottom: 100px;
 }
 
+/* STRETCH vision.html section */
+
+.vision-container {
+    height: 500px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vision-header {
+    padding: 100px 0 100px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vision-header h1 {
+    font-size: 40px;
+}
+
+.vision-logo {
+    border: 1px solid black;
+    height: 400px;
+    width: 100%
+}
+
+.tech-logo {
+    border: 1px solid black;
+    height: 300px;
+    margin: 20px 0;
+    width: 90%;
+}
+
+.future-img {
+    width: 100%
+}
+
+.border-bot {
+    border-bottom: 1px solid black;
+    margin-top: 100px;
+}
+
+.design {
+    margin: 80px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.design p {
+    text-align: center;
+}
+
+.design-img {
+    border: 1px solid black;
+    height: 400px;
+    margin-bottom: 50px;
+    width: 100%;
+
+}
