@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-direction: column;
 	align-content: center;
+	padding-bottom: 10px;
 }
 
 	.main .navbar {
@@ -215,7 +216,7 @@ footer {
 .services-header {
 	position: relative;
 	top: 80px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border-bottom: 1pt solid black;
 }
 h2 {
@@ -227,7 +228,8 @@ h2 {
 	flex-flow: row wrap;
 	justify-content: space-between;
 	width: 800px;
-	margin-top: 50px;
+	border-top: 1px solid black;
+	margin-top: 30px;
 }
 
 .middleblock {
@@ -236,10 +238,40 @@ h2 {
 	width: 375px;
 	background: #F4F3F4;
 	border: 1px solid black;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	padding: 10px;
 }
 body {
 	background: gray;
+}
+
+.bottom-block {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	width: 800px;
+	border-top: 1px solid black;
+	
+}
+
+.bottom-block .bottom-text {
+	height: 200px;
+	width: 375px;
+	margin-top: 10px;
+}
+
+.bottom-block .bottom-img {
+	height: 200px;
+	width: 375px;
+	margin-top: 10px;
+
+}
+
+#copyright {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
 }
