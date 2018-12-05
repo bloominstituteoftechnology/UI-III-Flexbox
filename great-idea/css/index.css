@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5 {
 
 body {
 	width: 950px;
-	/* margin: 0 auto; */
 }
 
 a {
@@ -80,12 +79,9 @@ a {
 	display: flex;
 	flex-direction: column;
 	width: 950px;
-	/* margin-bottom: 78px;  */
-
 }
 
 header {
-	/* border: 1px black solid; */
 	width: 950px;
 	display: flex;
 	justify-content: space-evenly;
@@ -100,7 +96,6 @@ header {
 }
 
 .items {
-	/* border: 1px black solid; */
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
@@ -109,7 +104,6 @@ header {
 }
 
 header nav a {
-	/* border: 1px black solid; */
 	padding: 10px;
 	color: gray;
 	font-size: 14px;
@@ -125,11 +119,11 @@ header nav a {
 	}
 	to {
 		font-size: 20px;
-		color: green;
+		color: peru;
 		font-weight: bold;
-		border: 2px green dotted;
-		background-color: lightgray;
-		padding: 
+		border: 1px dotted peru;
+		border-radius: 5px;
+		background-color: papayawhip;
 	}
 }
 
@@ -138,11 +132,10 @@ a:hover {
 	color: gray;
 	animation-name: increase;
 	animation-duration: 3s;
-	animation-iteration-count: 1;
+	animation-iteration-count: infinite;
 }
 
 .container a.home-page {
-	/* border: 1px black solid; */
 	width: 20%;
 	align-self: flex-end;
 	padding-left: 4px;
@@ -151,7 +144,6 @@ a:hover {
 
 
 .title {
-	/* border: 1px black solid; */
 	width: 950px;
 	display: flex;
 	justify-content: space-evenly;
@@ -160,7 +152,6 @@ a:hover {
 }
 
 .left {
-	/* border: 1px black solid; */
 	display: flex;
 	flex-direction: column;
 	width: 60%;
@@ -193,10 +184,8 @@ h1 {
 }
 
 .right {
-	/* border: 1px black solid; */
 	display: flex;
 	justify-content: flex-start;
-	/* align-content: center; */
 	width: 40%;
 }
 
@@ -209,22 +198,16 @@ hr.one {
 }
 
 .content {
-	/* border: 1px black solid; */
 	width: 950px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-content: space-around;
 	padding-top: 10px;
-
-	/* margin-top: 38px; */
 	margin-left: 75px;
-	/* padding-bottom: 37px; */
-
 }
 
 .first {
-	/* border: 1px black solid; */
 	display: flex;
 	justify-content: flex-start;
 	margin-bottom: 38px;
@@ -242,7 +225,6 @@ p {
 }
 
 .features {
-	/* border: 1px black solid; */
 	width: 45%;
 	display: flex;
 	flex-direction: column;
@@ -252,7 +234,6 @@ p {
 
 .about {
 	width: 47%;
-	/* border: 1px black solid; */
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -261,14 +242,12 @@ p {
 }
 
 .aside {
-	/* border: 1px black solid; */
 	display: flex;
 	justify-content: flex-start; 
 	margin-bottom: 30px;
 }
 
 .second {
-	/* border: 1px black solid; */
 	display: flex;
 	justify-content: flex-start;
 	margin-top: 8px;
@@ -276,7 +255,6 @@ p {
 }
 
 .services {
-	/* border: 1px black solid; */
 	width: 30%;
 	display: flex;
 	flex-direction: column;
@@ -284,7 +262,6 @@ p {
 }
 
 .product {
-	/* border: 1px black solid; */
 	width: 31%;
 	display: flex;
 	flex-direction: column;
@@ -294,7 +271,6 @@ p {
 }
 
 .vision {
-	/* border: 1px black solid; */
 	width: 30%;
 	display: flex;
 	flex-direction: column;
@@ -303,7 +279,6 @@ p {
 }
 
 footer {
-	/* border: 1px black solid; */
 	width: 950px;
 	display: flex;
 	flex-direction: column;
@@ -312,7 +287,6 @@ footer {
 	padding: 10px;
 	margin-left: 63px;
 	margin-top: 27px;
-	/* position: relative; */
 }
 
 footer h2 {
@@ -322,27 +296,20 @@ footer h2 {
 }
 
 .address {
-	/* border: 1px black solid; */
 	margin-bottom: 21px;
 	margin-left: 3px;
 }
 
 .phone {
-	/* border: 1px black solid; */
 	margin-bottom: 21px;
 	margin-left: 3px;
-
 }
 
 .email {
-	/* border: 1px black solid; */
-	/* padding: 5px; */
 	margin-left: 3px;
-
 }
 
 .copyright {
-	/* border: 1px black solid; */
 	margin-left: 361px;
 	margin-top: 54px;
 	font-size: 87%;
@@ -469,7 +436,6 @@ button {
 
 li {
 	margin-left: 20px;
-	
 }
 
 ul {
@@ -480,15 +446,12 @@ ul {
 
 div.copyright {
 	margin: 0;
-	/* border: 1px solid black; */
 	width: 950px;
 	display: flex;
 	justify-content: center;
 }
 
 div.copyright > p {
-	/* border: 1px solid black; */
-	/* display: inline-block; */
 	width: 950px;
 	text-align: center;
 	font-size: 87%;
