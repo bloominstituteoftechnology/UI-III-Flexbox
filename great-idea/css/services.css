@@ -98,7 +98,11 @@ nav {
 .nav-button {
 	text-decoration: none;
     color: grey;
-    
+    transition: transform 0.4s;
+}
+
+.nav-button:hover {
+	transform: scale(1.2);
 }
 
 .top-content {
