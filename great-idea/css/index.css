@@ -185,12 +185,12 @@ content a {
 }
 
 footer {
-	width: 800px;
+	width: 880px;
 }
 
 services-header-img {
 	display: flex;
-	width: 1200px;
+	width: 880px;
 	height: 200px;
 	margin: auto;
 
@@ -198,6 +198,7 @@ services-header-img {
 
 section {
 	border-top: 2px solid black;
+	width: 880px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	border-bottom: 2px solid black;
@@ -249,7 +250,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 1200px;
+	width: 880px;
 }
 
 footer {
