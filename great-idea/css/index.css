@@ -101,11 +101,6 @@ nav a {
 	width: 49%;
 }
 
-.services-header-img {
-	/*height: 100%;*/
-	width: 100%;
-}
-
 header {
 	display: flex;
 	justify-content: space-around;
@@ -176,6 +171,11 @@ header {
 
 /* Below: service page
 row-column section flexbox */
+
+.services-header-img {
+	margin-top: 50px;
+	width: 100%;
+}
 
 .services-page-top-section {
 	margin-top: 30px;
