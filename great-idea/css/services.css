@@ -112,6 +112,10 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 400px;
+    height: 500px;
     border-bottom: 2px black solid;
+}
+
+.services-header-img {
+    height: 250px;
 }
