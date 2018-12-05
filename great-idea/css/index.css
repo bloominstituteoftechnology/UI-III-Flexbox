@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5 {
 }
 
 	.container-header {
-		border: 4px solid red;
+		/* border: 4px solid red; */
 		height: 280px;
 		display: flex;
 		flex-direction: column;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5 {
 	}
 		
 		.box-nav {
-			border: 3px solid yellow;
+			/* border: 3px solid yellow; */
 			/* text-decoration: none; */
 			width: 100%;
 			height: 50px; 
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5 {
 		}
 		
 		.box-services-header {
-			border: 3px solid green;
+			/* border: 3px solid green; */
 			width: 880px;
 			display: flex;
 		}
