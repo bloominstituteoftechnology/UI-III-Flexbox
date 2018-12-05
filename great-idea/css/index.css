@@ -134,6 +134,7 @@ body (max-width:100%;) {
 	border: 1px solid red;
 	display:flex;
 	flex-direction: row;
+	margin: auto;
 	/*margin: 0px auto 0px auto;*/
 	width: 880px;
 	font-size: 16px;
