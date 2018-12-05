@@ -189,70 +189,31 @@ nav ul {
 
 .hero {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 35px;
   margin-bottom: 40px;
 }
 
+.hero > div {
+  width: 50%;
+}
+
 .hero h1 {
-	font-size: 82px;
+  font-size: 82px;
   text-align: center;
   margin-top: 20px;
-	/* position: absolute;
-	top: 65px;
-	left: 50px; */
 }
 
 .hero img {
-	padding-left: 100px;
+  padding-left: 50px;
 }
 
-.services-header-img, .middle-img {
+.services-header-img,
+.middle-img {
   width: 100%;
   height: auto;
-}
-
-.button {
-  position: absolute;
-  left: 250px;
-  top: 385px;
-  transform: translate(-50%, -50%);
-}
-
-.btn {
-  text-decoration: none;
-  color: black;
-  font-size: 14px;
-  display: block;
-  border: 2px solid black;
-  text-transform: uppercase;
-  padding: 14px 60px;
-  overflow: hidden;
-  transition: 1s all ease;
-}
-
-.btn:hover {
-  color: white;
-}
-
-.btn::before {
-  background: black;
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  transition: all 0.6s ease;
-}
-
-.btn1::before {
-  width: 0;
-  height: 100%;
-}
-.btn:hover::before {
-  width: 100%;
 }
 
 .services-header-img {
@@ -263,7 +224,7 @@ nav ul {
 }
 
 .info h2 {
-  font-size: 32px
+  font-size: 32px;
 }
 
 /* Top content */
@@ -352,8 +313,8 @@ h2 {
 .facts ul li {
   margin-bottom: 15px;
 }
-
-button {
+.learn-more,
+.get-started {
   border: 1px solid black;
   padding: 10px;
   color: black;
@@ -362,8 +323,15 @@ button {
   margin-bottom: 10px;
   text-align: center;
   width: 170px;
-  border-radius: 5px;
   cursor: pointer;
+}
+.learn-more {
+  border-radius: 5px;
+}
+
+.get-started {
+  position: absolute;
+  left: 150px;
 }
 
 button:hover {
@@ -386,7 +354,23 @@ button:hover {
     flex-direction: column;
   }
 
-  .top-content > div, .bottom-content > div {
+  .top-content > div,
+  .bottom-content > div {
     width: 100%;
+  }
+
+  .hero {
+    margin-top: 0;
+  }
+
+  .hero > div {
+    width: 100%;
+    align-content: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .hero img {
+    display: none;
   }
 }
