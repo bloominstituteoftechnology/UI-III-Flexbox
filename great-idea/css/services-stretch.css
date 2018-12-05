@@ -188,9 +188,59 @@ p {
   padding-left: 1px;
 }
 
-small {
+/* small {
   text-align: center;
   display:block;
   margin-top: 90px;
   padding-bottom: 20px;
+} */
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 667px) { 
+
+    .container {
+      width: 100%;
+    }
+
+    nav {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+
+    nav a {
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+
+    header {
+      flex-wrap: wrap;
+    }
+
+    .services-header-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .facts p {
+      width: auto;
+    }
+
+    .services-info-img {
+      margin-top: 20px;
+      width: 100%;
+      align-self: center;
+      height: auto;
+    }
+
+    /* footer {
+      display: block;
+    }
+    
+    small {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    } */
+
 }
