@@ -101,6 +101,11 @@ nav a {
 	width: 49%;
 }
 
+.services-header-img {
+	/*height: 100%;*/
+	width: 100%;
+}
+
 header {
 	display: flex;
 	justify-content: space-around;
