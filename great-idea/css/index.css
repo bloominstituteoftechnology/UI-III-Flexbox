@@ -88,7 +88,7 @@ nav {
 
 
 .menu a {
-	color: #c9c9c9;
+	color: #777;
 	text-decoration: none;
 	padding-right: 40px;
 }
@@ -127,13 +127,21 @@ nav {
 }
 
 .inner1 {
-  display: inline-block;
-  max-width: 440px;
+  max-width: 50%;
+}
+
+.top-row {
+display: flex;
+}
+
+.bottom-row {
+	display: flex;
+		justify-content: space-between;
 }
 
 .inner2 {
-  display: inline-block;
-  max-width: 286px;
+  max-width: 30%;
+
 }
 
 .inner1 h2 {
