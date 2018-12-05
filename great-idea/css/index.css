@@ -143,6 +143,7 @@ header nav {
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
+	width: 100%;
   }
   
   header nav a {
@@ -202,6 +203,7 @@ header .logo {
   background: black;
   color: white;
 
+
 }
 
 .cta img {
@@ -209,19 +211,23 @@ header .logo {
 	float: right;
 	position: relative;
 	top: -350px;
+
 }
 
 .main-content {
   border-top: 1px solid black;
-  margin-top: 76px;
-  padding-top: 39px;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-top: 340px;
+  padding-top: 0px;
+  position: relative;
+  top: -240px;
+  
+
 }
 
 .main-content .top-content {
 	padding: 0 10px;
 	float: right;
+
 }
 
 
@@ -230,11 +236,11 @@ header .logo {
   flex-direction: row;
   margin-right: 34px;
   float: left;
-
 }
 
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
+
   
 }
 
@@ -244,8 +250,8 @@ header .logo {
 
 .main-content .bottom-content {
   padding: 0 10px;
-
   flex-direction: row;
+
 }
 
 .main-content .bottom-content .text-content {
@@ -259,23 +265,31 @@ header .logo {
 
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
-  
 }
 
 .contact {
-  margin-top: 220px;
-  border-top: 1px solid black;
-  padding: 39px 10px 0;
+	border-top: 1px solid black;
+  margin-top: 10px;
+  padding: 39px 0px 0;
   position: relative;
+  bottom: 20px;
 
+}
+.contact h4 { 
+	position: relative;
+  top: -130px;
 }
 
 .contact p {
   margin: 20px 0;
+  position: relative;
+  bottom: 135px;
 }
 
 footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+  position: relative;
+  top: -120px;
 }
