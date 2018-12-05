@@ -164,11 +164,28 @@ address {
 
 /* Services Page-specific CSS */
 
+.desc-section {
+	display: flex;
+	flex-wrap: wrap;
+		justify-content: space-between;
+}
 .service-desc {
-	max-width: 50%;
-	border: 2px solid #c9c9c9;
+	max-width: 48%;
+	background-color: #F4F3F4;
+	border: 1px solid #c9c9c9;
+	padding: 20px;
+	margin: 10px 0;
+}
+
+button {
+	display: block;
+	margin-top: 15px;
+	padding: 10px 15px;
+	background-color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
 }
 
 .services-bottom-row {
-	
+
 }
