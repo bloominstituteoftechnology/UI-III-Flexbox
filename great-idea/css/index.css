@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 
  .container {
 	 display: flex;
-	 width: 900px;
+	 width: 1000px;
 	 margin: 0 auto;
 	 flex-wrap: wrap;
 	 overflow-x: hidden;
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5 {
 
  nav {
 	display: flex;
-	width: 900px;
+	width: 1000px;
 	justify-content: space-between;
 	align-items: center;
 	border: 2px solid blue;
