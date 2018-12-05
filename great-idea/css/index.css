@@ -243,17 +243,21 @@ h3 {
 }
 
 .boxes {
-	width: 400px;
+	width: 420px;
 	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
 	background: lightgray;
+	padding: 25px;
 	}
 
 
 .container1 {
 	display: flex;
 	justify-content: space-between;
-	margin: 10px;
+	margin-top: 40px;
 }
 
+.container1 .left-boxes {
+	margin-left: 
+}
