@@ -64,10 +64,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-/* Your code starts here! */
+/* Your code starts here!  */
 .container {
-	width: 1000px;
+	width: 880px;
 	margin: 0 auto;
+}
+
+.container header {
+	/* width: 100%; */
+	display: flex;
+	align-items: center;
 }
 
 .container nav {
@@ -77,8 +83,9 @@ h1, h2, h3, h4, h5 {
 	margin-top: 35px; */
 	display: flex;
 	justify-content: space-between;
-	width: 700px;
+	width: 650px;
 	margin-top: 35px;
+	margin-bottom: 35px;
 }
 
 .container nav a {
@@ -103,9 +110,7 @@ h1, h2, h3, h4, h5 {
 
 .logo {
 	/* display: inline-block; */
-	margin-top: 25px;
-	/* display: flex;
-	justify-content: flex-end; */
+	/* margin-top: 25px; */
 }
 
 .container header {
@@ -113,38 +118,84 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-between;
 }
 
-.services {
+.services_content h1 {
 	font-size: 20px;
 	margin-top: 20px;
+}
+
+.services-text {
+	width: 880px;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .main_boxes {
 	/* border-top: 50px;
 	border-top-color: 1px solid black; */
 	display: flex;
-	width: 1500px;
+	width: 880px;
 	flex-wrap: wrap;
-	/* justify-content: space-between; */
+	justify-content: space-between;
 }
 
 .box {
-	width: 500px;
-	margin-right: 25px;
+	width: 420px;
+	/* margin-right: 25px; */
 	margin-bottom: 20px;
 	border: 1px solid black;
-	background: lightgray;
+	background: whitesmoke;
+	padding: 20px;
+}
+
+.box button {
+	padding: 10px 40px;
+	margin-top: 20px;
+	cursor: pointer;
+	background: white;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.box button:hover {
+	background: black;
+	color: white;
 }
 
 .facts {
-	width: 500px;
+	/* width: 500px; */
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 2px solid black;
+	margin: 20px 0 35px 0;
+	padding-top: 40px;
+	justify-content: space-between;
 }
 
 .facts ul {
-	list-style-type: disc;
+	margin: 20px;
+}
+
+.facts ul li {
+	list-style: square;
+	padding: 5px;
+}
+
+.facts_text {
+	width: 420px;
+}
+
+/* added */
+.main {
+	display: flex;
+	justify-content: space-between;
 }
 
 .main .main-text {
-	display: inline-block;
+	/* display: inline-block; */
+	display: flex;
+	flex-direction: column;
+	width: 400px;
 	vertical-align: top;
 	font-size: 77px;
 	margin-top: 120px;
@@ -168,7 +219,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .main img {
-	display: inline-block;
+	/* display: inline-block; */
+	display: flex;
 	margin-top: 69px;
 }
 
@@ -179,13 +231,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .main-content .top-content {
-	padding: 0 10px;
+	/* padding: 0 10px; */
+	/* added */
+	display: flex;
+	justify-content: space-between;
 }
 
 .main-content .top-content .text-content {
 	width: 410px;
-	display: inline-block;
-	margin-right: 34px;
+	/* display: inline-block; */
+	/* margin-right: 34px; */
 }
 
 .main-content .top-content .text-content:last-child {
@@ -198,13 +253,16 @@ h1, h2, h3, h4, h5 {
 
 .bottom-content {
 	margin-top: 37px;
-	padding: 0 10px;
+	/* padding: 0 10px; */
+	/* added */
+	display: flex;
+	justify-content: space-between;
 }
 
 .bottom-content .text-content {
 	width: 275px;
-	display: inline-block;
-	margin-right: 12px;
+	/* display: inline-block; */
+	/* margin-right: 12px; */
 }
 
 .bottom-content .text-content:last-child {
