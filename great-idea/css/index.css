@@ -99,12 +99,10 @@ h1{
 }
 
 .headContainer{
-	display: flex;
-	justify-content: space-evenly;
 	text-align: center;
-	flex-direction: column;
+	display: flex;
 	height: 400px;
-
+	flex-wrap: wrap;
 }
 
 .button{
@@ -114,19 +112,12 @@ h1{
 	padding: 5px;
     border: 1px solid black;
 	text-align: center;
-	margin-left: 80px;
-	
-	
-	
+	order: 1;
+	position: relative;
+	left: 80px;
+	bottom: 140px;
 }
 
-	.headImg {
-		position: absolute;
-		top: 150px;
-		right: 100px;
-		width: 100%ß;
-		padding: 10px;
-	}
 	.topContent{
 		border-top: 1px solid black;
 		display: flex;
