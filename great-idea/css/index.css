@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	box-sizing: border-box;
+
+	margin: 0 auto;
+}
+nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	background-color: #59baf7;
+	position:fixed;
+	top:0;
+	width:100%;
+	margin-bottom: 50px;
+
+}
+nav a {
+	margin: 12px 12px;
+	text-decoration: none;
+	color:black;
+	font-size:14px;
+}
+.container {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid gray;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+.phrase {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1 {
+	width:50%;
+	text-align: center;
+	font-size: 48px;
+}
+.button {
+	border: 1px dashed black;
+	width: 30%;
+	height: 30%;
+}
+.button p {
+	text-align: center;
+}
+.imageOne{
+	display:flex;
+	height: 75%;
+	width: 75%;
+	justify-content: center;
+}
+.imageCode {
+	margin-top: 40px;
+	height: 45%;
+	width: 45%;
+}
+.foldOne {
+	display: flex;
+	padding: 10px 0;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.features {
+	padding-left: 17px;
+	width: 40%;
+}
+.about {
+	width: 40%;
+	padding-right:15px;
+}
+
+.imageTwo {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.middle-img {
+	flex-grow: 1;
+}
+.foldTwo{
+	display: flex;
+	justify-content: space-between;
+	width: 96%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.services {
+	width: 18%;
+}
+.product {
+	width: 18%;
+}
+.vision{
+	width: 18%;
+}
+
+footer {
+	display:flex;
+}
+.contact {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.contact > p {
+	line-height: 1.5;
+}
+.contact p {
+	width: 80%;
+	margin: 10px 0px;
+}
+.copyright {
+	font-family: "Indie Flower", cursive;
+	text-align: center;
+	align-self: flex-end;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	padding-right: 30px;
+}
+
+.services-header-img-container{
+	border: 1px solid red;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.services-header-img{
+	flex-grow:1;
+}
