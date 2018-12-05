@@ -201,3 +201,37 @@ ul {
 	padding-left: 18px;
  	list-style-type: square;
 }
+
+@media only screen and (max-width: 768px) {
+	body {
+		width: 100%;
+	}
+
+	.navigation {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 650px;
+		margin-top: 25px;
+		padding-left: 50px;
+	}
+
+	.intro {
+		width: 700px;
+		padding-left: 15px;
+	}
+
+	.main-content{
+		border-bottom: 2px solid black;
+		padding-top: 30px;
+		padding-bottom: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;	
+	}
+
+	.services-bottom-section {
+		padding-left: 15px;
+	}
+}
