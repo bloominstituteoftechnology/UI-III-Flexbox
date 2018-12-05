@@ -66,9 +66,14 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
+ul {
+	width: 50%;
+}
+
 li {
-	display: list-item;
+	border: 1px solid red;
 	list-style-type:disc;
+	margin-left: 18px;
 }
 .container {
   width: 880px;
@@ -212,8 +217,12 @@ footer {
   font-size: 14px;
 }
 
+.main-services-section {
+}
+
 .top-col {
 	display: flex;
+	vertical-align: middle;
 }
 
 .middle-col {
@@ -228,32 +237,44 @@ footer {
 	display: flex;
 }
 
+
+
 .item1 {
 	border: 1px solid black;
+	margin: 20px;
 }
 
 .item2 {
 	border: 1px solid black;
+	margin: 20px;
 }
 
 .item3 {
 	border: 1px solid black;
+	margin: 20px;
 }
 
 .item4 {
 	border: 1px solid black;
+	margin: 20px;
 }
 
 .item5 {
 	border: 1px solid black;
+	margin: 20px;
 }
 
 .item6 {
 	border: 1px solid black;
+	margin: 20px;
 }
 
 .item7 {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
+}
+
+.section-box {
+	height: 200px;
 }
