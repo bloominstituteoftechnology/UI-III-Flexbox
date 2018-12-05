@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 h1, .services {
 	font-size: 30px;
+	margin-top: 5%;
 }
 
 nav {
@@ -138,9 +139,11 @@ p {
 }
 hr {
 	margin-top: 5%;
+	color: black;
 }
 hr.line {
-	margin-top: 4%
+	margin-top: 4%;
+	color: black;
 }
 footer p {
 	margin: 0 auto;
@@ -160,15 +163,15 @@ footer p {
 }
 .one {
 	display: flex;
-	width: 446px;
+	width: 462px;
 	border: 1px solid black;
 	flex-wrap: wrap;
 	padding: 10px;
 	margin: 10px 0;
+	background-color: #F4F3F4;
 	
 }
 section.whole {
-	border: 1px solid red;
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 4%;
@@ -183,16 +186,22 @@ img.services-header-img {
 }
 .two {
 	width: 449px;
+	margin-top: 2%;
 }
 .bottom-portion {
 	display: flex;
 	width: 100%;
-	border: 5px dotted blue;
 	justify-content: space-between;
+}
+.services-info-img {
+	margin-top: 2%;
+	width: 462px;
 }
 ul {
 	list-style: disc;
 	margin-left: 25px;
+	margin-top: 20px;
+	line-height: 1.6;
 }
 .button {
 	display: flex;
@@ -209,4 +218,7 @@ ul {
 	justify-content: center;
 	height: 10px;
 	align-items: center;
+}
+footer p {
+	margin-top: 10%;
 }
