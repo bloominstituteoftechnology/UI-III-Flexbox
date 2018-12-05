@@ -105,7 +105,7 @@ h2 {
     margin-bottom: 0px;
 }
 
-p {
+p, li, footer{
     font-size: 18px;
 }
 
@@ -153,4 +153,39 @@ p {
     border-radius: 5px;
     height: 40px;
     width: 150px;
+}
+
+#outro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+#outrotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 525px;
+}
+
+#outrotext ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: square;
+    list-style-position: inside;
+    height: 150px;
+}
+
+#outro img {
+    height: 400px;
+    width: 550px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
 }
