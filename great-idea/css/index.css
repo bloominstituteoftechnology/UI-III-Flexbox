@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+:root {
+	--border: 1px solid red;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	/* border: var(--border); */
+}
+
+hr {
+	width: 95%;
+}
+.navBar {
+	display: flex;
+	/* border: var(--border); */
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.navBar nav ul {
+	display: flex;
+}
+
+.navBar nav ul li {
+	list-style: none;
+	padding-right: 30px;
+	justify-content: space-between;
+}
+
+.navBar nav ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 25px;
+}
+
+.navBar nav ul li a:hover {
+	background: #000000;
+	color: #fff;
+}
+
+.mainImage {
+	padding: 20px 0;
+}
+
+.mainImage img {
+	width: 95%;
+	margin: 0 2.5%;
+}
+
+/****** serivces info ******/
+.servicesInfo {
+	width: 95%;
+	margin: 0 2.5%;
+	padding: 20px 0;
+}
+
+.servicesInfo h2 {
+	font-size: 24px;
+}
+
+.servicesInfo p {
+	font-size: 18px;
+}
+/****** different services area ******/
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0;
+	/* justify-content: center; */
+}
+
+.differentServices {
+	width: 45%;
+	background: lightgrey;
+	border: 1px solid black;
+	padding: 20px;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+
+.learnBtn {
+	background: rgb(240, 236, 236);
+	border-radius: 5%;
+	padding: 10px 70px;
+	width: 200px;
+	text-align: center;
+}
+
+/****** facts area ******/
+.facts {
+	padding: 20px 0;
+	margin: 0 2.5%;
+	display: flex;
+}
+
+.facts .fewFacts {
+	width: 50%;
+}
+
+.factsIMG {
+	border: var(--border);
+	width: 50%;
+}
+
+.factsIMG img {
+	width: 100%;
+}
+
+/****** footer ******/
+footer {
+	text-align: center;
+}
