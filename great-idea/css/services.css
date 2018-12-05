@@ -38,7 +38,7 @@ a {
     margin-left: 110px;
 }
 
-.row-1, .row-2, .row-3, .row-4, .row-5 {
+.row-1, .row-2, .row-3 {
     display: flex;
     width: 1100px;
     flex-direction: row;
@@ -55,28 +55,11 @@ a {
     padding: 0 10px;
 }
 
-.row-4 .boxes{
-    width: 600px;
-    height: 200px;
-    border: 1px solid black;
-    background: lightgray;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    padding: 0 10px;
-}
-.row-5 .boxes{
-    width: 800px;
-    height: 200px;
-    border: 1px solid black;
-    background: lightgray;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    padding: 0 10px;
-}
 
  button {
     width:100px; 
     height: 25px;
+
  }
 .section-facts {
     border-top: 1px solid black;
