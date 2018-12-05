@@ -94,13 +94,13 @@ h1, h2, h3, h4, h5 {
 	.head{
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 	
 	}
 	
 	.innovation{
 		width: 49%;
 		height: 49%;
-		padding: 40px;
 		text-align: center;
 	}
 	.button{
@@ -112,7 +112,10 @@ h1, h2, h3, h4, h5 {
 		border: 1px solid black;
 		text-align: center;
 		order: 1;
-		align-items: flex-start;
+		margin: 0px 0px 50px 200px;
+		
+		
+		
 
 	}
 	
