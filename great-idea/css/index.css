@@ -344,3 +344,32 @@ li {
 	/* border: 1px solid red; */
 	padding: 10px 0 5px 2px;
 }
+
+.aboutus-header-img {
+	margin-bottom: 30px;
+}
+
+.aboutus-heading h2 {
+	font-size: 30px;
+}
+
+.aboutus-footer-container {
+	/* border: 1px solid red; */
+	display: flex;
+}
+
+.aboutus-footer-left {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.aboutus-footer-left h2 {
+	text-align: center;
+}
+
+.aboutus-footer-img {
+	/* border: 1px solid red; */
+}
