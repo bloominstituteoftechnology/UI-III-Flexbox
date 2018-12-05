@@ -63,82 +63,17 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	width: 880px;
-	margin: 0 auto;
+    width: 880px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
 }
 
 .navbar {
-	border: 1px solid red;
-}
-
-.navigation .logo {
-	display: flex;
-	justify-content: flex-end;
-}
-
-header .navigation {
-	display: flex;
-	justify-content: space-around;
-}
-
-.navigation a {
-	color: gray;
-}
-
-.cta {
-	display: flex;
-	width: 880px;
-	justify-content: center; 
-	align-items: center;
-}
-
-.header-img {
-	padding: 25px 0;
-}
-
-.cta-header {
-	display: flex; 
-	justify-content: center;
-	text-align: center;  
-	font-size: 64px;
-}
-
-.left .cta-button {
-	width: 150px;
-	height: 50px;
-	border-radius: 5px;
-	text-align: center;
-	font-size: 16px; 
-	display: flex;
-	justify-content: center;
-}
-
-button {
-	justify-content: center;
-}
-
-.top-section {
-	display: flex;
-	padding: 25px 0;
-	border-top: 1px solid black;
-	align-items: center;
-}
-
-.bottom-section {
-	display: flex;
-	padding: 25px 3px;
-	border-bottom: 1px solid black;
-	justify-content: center;
-}
-
-.footer {
-	display: flex;
-	padding: 25px 0;
-}
-
-.copyright {
-	position: relative;
-	left: 360px;
+    border: 1px solid red;
 }
