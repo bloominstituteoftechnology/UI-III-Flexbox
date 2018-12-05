@@ -95,3 +95,23 @@ nav a {
 .logo {
 	height: 40px;
 }
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    border-bottom: 2px black solid;
+}
