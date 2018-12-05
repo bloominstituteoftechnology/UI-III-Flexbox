@@ -160,7 +160,7 @@ nav {
 
 .facts ul li {
     list-style-type: square;
-    margin-left: 20px;
+    list-style-position: inside;
     margin-top: 15px;
 }
 
