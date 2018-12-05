@@ -197,3 +197,12 @@ small {
 	from {}
 	to {background:rgb(239, 239, 239);}
 }
+
+@media screen and (max-width: 500px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
