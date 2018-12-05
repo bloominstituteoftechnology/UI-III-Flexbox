@@ -155,4 +155,42 @@ hr {
 
 .services-header-img {
 	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.services {
+	margin-bottom: -10px;
+}
+
+.services h1 {
+	font-size: 25px;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.boxes > section {
+	background-color: #F4F3F4;
+	border: 1px solid black;
+	width: 45%;
+}
+
+span {
+	border: 1px solid black;
+	width: 140px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: white;
+	font-size: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
