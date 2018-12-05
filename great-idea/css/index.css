@@ -65,32 +65,27 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.nav-container {
-	position: fixed;
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	background: lightskyblue;
-	border: 1px solid black;
-	z-index: 2;
+.container {
+	width: 876px;
+	margin: 0px auto;
 }
 
 .nav-content {
-	width: 876px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
 }
 
 nav {
 	display: flex;
-	width: 65%;
+	width: 70%;
 	justify-content: space-between;
 }
 
 .nav-button {
 	text-decoration: none;
-	color: black;
+    color: grey;
 	transition: transform 0.4s;
 }
 
@@ -98,15 +93,9 @@ nav {
 	transform: scale(1.2);
 }
 
-.container {
-	border: 1px solid black;
-	width: 876px;
-	margin: 0px auto;
-}
-
 .call-to-action {
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 60px;
 	display: flex;
 	justify-content: space-between;
@@ -167,6 +156,6 @@ nav {
 .copyright {
 	text-align: center;
 	margin-top: 50px;
-	margin-bottom: 110px;
+	margin-bottom: 40px;
 	font-size: 14px;
 }
