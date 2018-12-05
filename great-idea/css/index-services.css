@@ -89,14 +89,16 @@ a {
 	
 }
 
-a:hover {
-	color: #FDFDFD;
-}
 
 .logo {
 	display: flex;
-	margin-left: 75px;
-	
+    padding: 0 0 0 75px;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 .header-text {
@@ -204,6 +206,7 @@ footer {
         -webkit-transform: scale(1.5);
         -ms-transform: scale(1.5);
         transform: scale(1.5);
+        font-weight: bolder;
 }
 
 /* new styles */
