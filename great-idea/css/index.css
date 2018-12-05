@@ -102,7 +102,6 @@ nav a {
 	align-items: center;
 	height: 650px;
 	border-bottom: 2px black solid;
-	margin-bottom: 50px;
 }
 
 div.banner-content {
@@ -136,35 +135,30 @@ p {
 }
 
 #main {
-	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 650px;
 	border-bottom: 2px black solid;
 	margin-bottom: 50px;
 }
 
-#section1 section {
-	width: 550px;
-	display: inline-block;
-	margin-right: 20px;
-}
-
-#section1 section:last-child {
-	margin-right: 0px;
+#section1 {
+	display: flex;
+	justify-content: space-between;
 }
 
 #section2 {
 	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 50px;
+}
+
+#section3 {
+	display: flex;
+	justify-content: space-between;
 }
 
 #section3 section {
-	width: 365px;
-	margin-right: 20px;
-	display: inline-block;
-}
-
-#section3 section:last-child {
-	margin-right: 0px;
+	width: 370px;
 }
 
 address p {
