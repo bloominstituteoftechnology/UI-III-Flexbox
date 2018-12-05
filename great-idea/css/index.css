@@ -99,7 +99,6 @@ h1{
 	justify-content: center;
 	align-content: center;
 	padding: 75px;
-	border: 1px solid black;
 }
 
 .headContainer{
@@ -185,4 +184,37 @@ h1{
 
 	}
 
+	.serviceHead{
+		border-bottom: 1px solid black;
+		padding-top: 30px; 
+		padding-bottom: 30px; 
+	}
 	
+	.firstRow{
+		display: flex;
+		margin: 0;
+		align-content: space-around
+		
+	}
+
+	.box{
+		border: 1px solid black;
+		background-color: #F4F3F4;
+		padding: 25px;
+		margin: 25px 10px 0px 10px;
+	}
+
+	.button2{
+		border: 1px solid black;
+		border-radius: 5px;
+		background-color: white;
+		height: 30px; 
+		width: 150px;
+		padding: 5px;
+		text-align: center;
+		margin: 10px  0px 0px 0px;
+	}
+
+	.bottom{
+		align-content: center;
+	}
