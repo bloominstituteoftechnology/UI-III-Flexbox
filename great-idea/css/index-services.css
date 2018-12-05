@@ -246,7 +246,8 @@ body {
 
 .container1 {
     display: flex;
-    justify-content: center;
+	justify-content: center;
+	padding-top: 40px;
     padding-bottom: 20px;
     border-bottom: solid 1px black;
 }
@@ -276,7 +277,9 @@ body {
 }
 
 .service-footer {
-    display: flex;
+	display: flex;
+	border-bottom: 1px solid black;
+	padding-bottom: 65px;
 }
 
 .service-footer h2 {
@@ -290,15 +293,18 @@ body {
 
 
 .service-footer ul {
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 50px;
     list-style-type: square;
-}
-
-.service-footer img {
-    margin: 0 0 0 20px;
 }
 
 .footer-copyright {
     display: flex;
-    justify-content: center;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.services-info-img {
+	transform: scaleX(-1);
+	margin: 0 20px 0 0;
+	padding: 0 0 0 30px;
 }
