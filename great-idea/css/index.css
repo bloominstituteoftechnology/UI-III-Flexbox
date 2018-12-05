@@ -71,13 +71,20 @@ h1, h2, h3, h4, h5 {
 	width : 100%;
 	border: solid 1px black;
 }
+
 header nav {
     display: flex;
+    justify-content: center;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    margin-bottom: 30px;
+    margin-top: 8%;
+    margin-left: 2%;
 }
 
-header nav a {
+header nav ul a {
     font-weight: bold;
     color: silver;
     text-decoration: none;
@@ -86,9 +93,9 @@ header nav a {
     margin-left: 5px;
 }
 
-header nav img {
-	margin-left: 50px;
-	margin-top: 25px;
+header nav a {
+    margin-top: 6%;
+    margin-right: 6%;
 }
 
 div.second-part {
