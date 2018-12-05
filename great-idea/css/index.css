@@ -82,7 +82,8 @@ nav a {
 	justify-content: center;
 }
 h1.index {
-	font-size: 72px;
+	font-size: 80px;
+	text-align: center;
 }
 h2 {
 	font-size: 20px;
@@ -102,7 +103,7 @@ p {
 }
 .top-left {
 	display: flex;
-	width: 49%;
+	width: 38%;
 	height: 400px;
 	flex-direction: column;
 	justify-content: center;
@@ -165,8 +166,8 @@ footer p {
 	display: flex;
     font-size: 16px;
 	cursor: pointer;
-	height: 38px;
-	width: 30%;
+	height: 32px;
+	width: 45%;
 	justify-content: center;
 	align-items: center;
 }
