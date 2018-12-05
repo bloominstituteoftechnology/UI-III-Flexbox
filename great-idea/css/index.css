@@ -129,6 +129,8 @@ a {
 
 .iod {
 margin-top: 50px;
+text-align: center;
+border: 1px solid grey;
 }
 
 h1 {
@@ -138,17 +140,15 @@ h1 {
 .button {
 	border: 1px solid black;
 	width: 120px;
-	margin: 0 15% 0 15%;
+	margin-left: 29%;
 	font-size: 20px;
 	height: 40px;
 	padding: 10px;
+	
 
 	
 }
 
-.circle {
-
-}
 
 .sectionOne {
 	display: flex;
@@ -176,7 +176,7 @@ h1 {
 .footer {
 	display: flex;
 	flex-direction: column;
-	margin: 10px;
+	margin: 30px;
 }
 
 h4 {
@@ -198,10 +198,22 @@ h4 {
 
 .more {
 	border: 1px solid black;
+	border-radius: 8px;
 	background-color: white;
 	color: black;
+	padding: 2px;
 	
 	
+}
+
+.more:hover {
+	background-color: black;
+	color: white;
+	padding: 5px;
+	border: 1px solid white;
+	border-style: outset;
+	
+
 }
 
 .blockOne {
@@ -209,8 +221,8 @@ h4 {
 	flex-direction: row;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	margin: 25px;
-	padding: 10px;
+	/* margin: 25px; */
+	/* padding: 10px; */
 }
 
  .s-box {
@@ -235,6 +247,17 @@ h4 {
 	margin: 100px;
 }
 
+.thingsList {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
 /* ==== end of services.html */
 
+/* ==== contact.html ==== */
 
+.conForm {
+	display: block;
+}
+
+/* ==== end of contact.html ==== */
