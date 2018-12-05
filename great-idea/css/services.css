@@ -165,8 +165,20 @@ nav a{
     justify-content: space-between;
 }
 
+
 address{
     margin-top:10%;
     display: flex;
     justify-content: center;
+}
+
+ol{
+    display:flex;
+    flex-direction: column;
+    list-style-type: square;   
+    list-style-position: inside;
+}
+
+li{
+    margin-bottom: 10px;
 }
