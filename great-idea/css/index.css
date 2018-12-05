@@ -66,76 +66,108 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	border: 1px solid red;
-	margin: 0 auto;
-	 
+	/* border: 1px solid red; */
+	margin: 0 auto; 
 	width: 900px;
-	background: blue;
 }
 
-nav {
+header {
+	/* border: 3px dotted black; */
+	display: flex;
+}
+
+header nav {
 	text-decoration: none;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	color: grey;
-	display: inline-block;
-	position: relative; 
-}
-
-nav a {
-	text-decoration: none;
-	margin-left: 100px;
+	width: 600px;
+	height: 50px;
+	align-items: center; 
+	display: flex;
+	justify-content: space-evenly;
 	
 }
 
-.logo {
-    border: 1px solid blue;
+header nav a {
+	text-decoration: none;
+	font-size: 14px;
+	color: grey;
+	
+}
+
+header .logo {
+    /* border: 1px solid blue; */
 	margin-left: 100px;
-	position: absolute;
+	display: flex;
+	
+	
+}
+
+.top-container {
+	height: 300px;
+	display: flex;
 }
 
 .left {
-	display: inline-block;
+	width: 49%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 h1 {
-	/* border: 1px solid brown; */
 	font-size: 60px;
-	height: 200px;
-	width: 350px;
-	margin: 20px 100px;
-	padding: 50px;
-	/* display: inline-block; */
+    height: 200px;
+    width: 350px;
+    margin: 20px 100px;
+    text-align: center;
 }
 
 button {
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 
 .right {
-	display: inline-block;
+	width: 49%;
+
+}
+
+.right img {
+	height: 300px;
 }
 
 img {
-	border: 1px solid red;
+	/* border: 1px solid red; */
+    margin-left: auto;
 }
 
 .top-content {
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 }
 
 .middle-img {
-	border: 1px solid red;
-	position: absolute;
+	/* border: 1px solid red; */
+	
 }
 
 .bottom-content {
-	border: 1px solid orange;
+	/* border: 1px solid orange; */
+}
+
+address p {
+	margin: 20px 0;
 }
 
 .contact {
-	border: 1px solid yellow;
+	/* border: 1px solid yellow; */
+	margin-top: 57px;
+    border-top: 1px solid black;
+    padding: 39px 10px 0;
 }
 
 footer {
-	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	margin: 32px 0;
+	font-size: 12px;
 }
