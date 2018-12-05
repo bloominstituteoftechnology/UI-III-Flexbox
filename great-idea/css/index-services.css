@@ -245,6 +245,7 @@ body {
 }
 
 .container1 {
+	width: 100%
     display: flex;
 	justify-content: center;
 	padding-top: 40px;
@@ -307,4 +308,8 @@ body {
 	transform: scaleX(-1);
 	margin: 0 20px 0 0;
 	padding: 0 0 0 30px;
+}
+
+.nav-header-services .disabled {
+	color: black;
 }
