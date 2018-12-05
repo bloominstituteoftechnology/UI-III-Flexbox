@@ -65,3 +65,33 @@ h1, h2, h3, h4, h5 {
 
 /* Start of my code */
 
+body {
+	width: 80%;
+	margin: auto;
+}
+
+header {
+	margin-top: 50px;
+}
+
+#topbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgray;
+	font-size: 18px;
+}
+
+.logo {
+	height: 40px;
+}
