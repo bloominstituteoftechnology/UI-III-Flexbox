@@ -77,42 +77,42 @@ h1 {
 }
 
 nav {
-  display: inline-block;
-  position: relative;
-  width: 900px;
-  margin: 34px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  width: 100%;
+  margin: 0 auto;
+	margin-top: 20px;
 }
 
-ul {
-  padding-top: 10px;
+
+
+.menu a {
+	color: #c9c9c9;
+	text-decoration: none;
+	padding-right: 40px;
 }
 
-li {
-  display: inline-block;
-  padding-right: 40px;
-  color: #999;
-}
-
-.logo {
-  position: absolute;
-  right: 20px;
-  top: 0;
+.logo-container {
+/* border: 2px solid blue; */
 }
 
 .hero {
+	display: flex;
   margin: 0 auto;
   border-bottom: 2px solid #c9c9c9;
   text-align: center;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .hero p {
   text-align: center;
 }
 
-.hero .inner1 {
-  width: 450px;
-  vertical-align: middle;
-}
+/* .hero .inner1 {
+
+} */
 
 .cta {
   width: 140px;
