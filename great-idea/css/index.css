@@ -86,9 +86,12 @@ body {
 	margin: 0 auto;
 }
 
+p {
+	line-height: 1.25em;
+}
+
 header {
 	display: flex;
-	/* align-items: center; */
 	justify-content: center;
 	height: 80px;
 	width: 100%;
@@ -123,8 +126,6 @@ nav a {
 .logo{
 	display: flex;
 	justify-content: flex-end;
-	/* flex-flow: wrap; */
-	/* height: 80px; */
 	width: 277px;
 }
 .hero {
@@ -164,7 +165,23 @@ main, .middle-img {
 	padding: 40px 0;
 
 }
+.services-header-img {
+	height: 200px;
+	margin-top: 80px;
+}
 
+.overview {
+	margin: 40px 0;
+}
+
+.overview h1 {
+	font-size: 26px;
+	font-weight: 900;
+}
+
+.overview p {
+	line-height: 1.25em;
+}
 .half div, .thirds div {
 	white-space: normal;
 	display: inline-flex;
@@ -186,30 +203,61 @@ main, .middle-img {
 .thirds div {
 	width: 33%;
 }
-ul {
-	list-style: square;
-	margin-bottom: 13px;
-}
+
 .services {
-	height: 650px;
-	/* width: 877px */
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	
-	
+	flex-direction: column;
+	padding-top: 40px;
 }
 
 .card {
-	height: 200px;
-	widows: 334px;
+	width: 417px;
+	border: 1px solid black;
+	background: #F4F3F4;
 	display: flex;
-	
-	
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.card a {
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	background: #FFFFFF;
+	color: black;
+	padding: 10px 40px;
+	font-size: 12px;
+	margin-top: 20px;
 	
 }
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+ul {
+	list-style: square;
+	margin-top: 30px;
+	list-style-position: inside;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
+
+.facts {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.facts div {
+	width: 417px;
+}
+
 /* footer */
 footer {
 	margin-top: 40px;
