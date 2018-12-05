@@ -169,17 +169,12 @@ footer p {
 	padding: 10px;
 	margin: 10px 0;
 	background-color: #F4F3F4;
-	
 }
 section.whole {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 4%;
 	justify-content: space-between;
-	
-	
-	
-
 }
 img.services-header-img {
 	width: 100%;
