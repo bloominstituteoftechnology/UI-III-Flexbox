@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5 {
 		height: 50px;
 		justify-content: space-between;
 		align-items: center;
+		background: white;
 	}
 		.main .navbar nav  {
 			display: flex;
@@ -233,7 +234,7 @@ h2 {
 	align-self: center;
 	height: 200px;
 	width: 375px;
-	background: whitesmoke;
+	background: #F4F3F4;
 	border: 1px solid black;
 	margin-top: 20px;
 	margin-bottom: 20px;
