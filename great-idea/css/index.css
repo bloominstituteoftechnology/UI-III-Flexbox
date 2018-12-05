@@ -143,7 +143,6 @@ body (max-width:100%;) {
 header {
 	/*border: 1px solid red;*/
 	display: flex;
-
 	width: 880px;
 
 
@@ -292,4 +291,15 @@ h2 {
 .copyright {
 	/*text-align: center;
     margin-top: 45px;*/
+}
+
+/* Services HTML */
+
+.container {
+	width:880px;
+	margin: auto;
+}
+.navigation1 {
+	display: flex;
+	width: 100%;
 }
