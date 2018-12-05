@@ -101,8 +101,59 @@ nav {
     
 }
 
+.top-content {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.contact-us {
+    width: 45%;
+}
+
+.vision {
+    width: 35%;
+}
+
+address,.contact-us, .vision {
+    margin-top: 40px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid black; 
+    border-radius: 4px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-form {
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
 .copyright {
 	text-align: center;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
