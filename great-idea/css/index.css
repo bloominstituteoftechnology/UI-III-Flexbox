@@ -211,13 +211,12 @@ footer {
 .services-header-img {
 	width: 800px;
 	position: relative;
-	top: 50px;
+	margin-top: 60px;
 }
 .services-header {
 	position: relative;
-	top: 80px;
-	margin-bottom: 10px;
-	border-bottom: 1pt solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 h2 {
 	font-weight: bold;
@@ -242,6 +241,16 @@ h2 {
 	margin-bottom: 20px;
 	padding: 10px;
 }
+
+	.middleblock button {
+		margin-top: 15px;
+		border-radius: 5px;
+		width: 200px;
+		height: 30px;
+		padding: 0 auto;
+		background: white;
+		border: 1px solid black;
+	}
 body {
 	background: gray;
 }
@@ -273,5 +282,7 @@ body {
 #copyright {
 	width: 100%;
 	text-align: center;
-	margin-top: 30px;
+}
+.list {
+	margin-top: 10px;
 }
