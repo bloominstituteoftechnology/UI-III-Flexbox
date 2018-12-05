@@ -70,10 +70,227 @@ h1, h2, h3, h4, h5 {
 
 .navigation {
     display: flex;
-    justify-content: space-around;
-    border: 1px solid red;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 20px 0;
 }
 
-.navbar {
-    border: 1px solid red;
+.navigation a {
+    color: gray;
+    text-decoration: none;
+}
+
+.services-header-img {
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.services h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digital-design {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+.digital-design h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.digital-design p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+button {
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 15px;
+    width: 150px;
+    height: 30px;
+}
+
+.ux-ui {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.ux-ui h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.ux-ui p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+.digital-marketing {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+.digital-marketing h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.digital-marketing p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+.web-development {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.web-development h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.web-development p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+.ios-development {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+.ios-development h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.ios-development p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+.android-development {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.android-development h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.android-development p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+.footer-header {
+    margin-top: 25px;
+    margin-bottom: -50px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-content-left {
+    border-top: 2px solid black;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 880px;
+    flex-wrap: nowrap;
+}
+
+.services-info-img {
+    justify-content: flex-end;
+    width: 420px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-header .footer-text {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 420px;
+    margin-top: 25px;
+}
+
+.footer-text {
+    padding-top: 25px;
+}
+
+.header3-p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -25px;
+}
+
+.list {
+    list-style-type: square;
+    padding-left: 25px;
+    line-height: 2;
+}
+
+.copyright {
+    width: 880px;
+    display: flex;
+    justify-content: center;
 }
