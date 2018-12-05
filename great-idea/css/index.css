@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -82,35 +82,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -143,7 +143,7 @@ header nav {
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
-  	
+    
 }
 
 header nav a {
@@ -181,36 +181,35 @@ header .logo {
 /* cta */
 
 .cta .cta-text {
-	flex-direction: row;
-	font-size: 77px;
-	margin-top: 120px;
-	text-align: center;
-	padding: 0px 75px;
-	padding-right: 560px;
+    flex-direction: row;
+    font-size: 77px;
+    margin-top: 120px;
+    text-align: center;
+    padding: 0px 75px;
+    padding-right: 560px;
 }
 
 .cta .cta-text button {
-	background: white;
-	vertical-align: top;
-	margin-top: 6px;
-	padding: 8px 44px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
+    background: white;
+    vertical-align: top;
+    margin-top: 6px;
+    padding: 8px 44px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 .cta .cta-text button:hover {
   background: black;
   color: white;
 
-
 }
 
 .cta img {
-	display: flex;
-	float: right;
-	position: relative;
-	top: -350px;
+    display: flex;
+    float: right;
+    position: relative;
+    top: -350px;
 
 }
 
@@ -225,11 +224,10 @@ header .logo {
 }
 
 .main-content .top-content {
-	padding: 0 10px;
-	float: right;
+    padding: 0 10px;
+    float: right;
 
 }
-
 
 .main-content .top-content .text-content {
   width: 410px;
@@ -255,11 +253,11 @@ header .logo {
 }
 
 .main-content .bottom-content .text-content {
-	width: 250px;
-	flex-direction: row;
-	margin-right: 34px;
-	float: left;
-	justify-content: center;
+    width: 250px;
+    flex-direction: row;
+    margin-right: 34px;
+    float: left;
+    justify-content: center;
    padding-top: 39px;
 }
 
@@ -268,7 +266,7 @@ header .logo {
 }
 
 .contact {
-	border-top: 1px solid black;
+    border-top: 1px solid black;
   margin-top: 10px;
   padding: 39px 0px 0;
   position: relative;
@@ -276,7 +274,7 @@ header .logo {
 
 }
 .contact h4 { 
-	position: relative;
+    position: relative;
   top: -130px;
 }
 
@@ -292,4 +290,5 @@ footer {
   font-size: 14px;
   position: relative;
   top: -120px;
-}
+
+
