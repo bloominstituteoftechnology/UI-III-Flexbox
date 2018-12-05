@@ -339,11 +339,15 @@ button:hover {
   background-color: black;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 874px) {
   .services > div {
     width: 100%;
     justify-content: center;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  
 
   nav {
     margin-bottom: 10px;
