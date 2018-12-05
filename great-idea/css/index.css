@@ -240,8 +240,6 @@ header .logo {
 
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
-
-  
 }
 
 .main-content .middle-img {
@@ -295,29 +293,37 @@ footer {
 }
 
 .Main .text-content{
-	display: flex;
   padding: 10px;
   border: 1px solid black;
-  width: 400px;
+  width: 420px;
   margin: 20px;
-  float:left;
   padding: 20px;
-  flex-wrap: no-wrap;
   background-color: rgb(236, 234, 234);
   top: 30px;
     left: 30px;
-  justify-content: left;
   height: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ 
   
+}
+
+.Main .text-content p {
+	line-height: 20px;
+
 }
 
 .Main .text-content button {
 	background: white;
 	vertical-align: bottom;
-	margin-top: 1px;
+	margin-top: 20px;
+	border-radius: 6px;
 	border-bottom: 10px;
-	padding: 10px 4px;
-	font-size: 10px;
+	padding: 10px 40px;
+	font-size: 11px;
 	border: 1px solid black;
 	cursor: pointer;
 	float: left;
@@ -328,9 +334,70 @@ footer {
 	color: white;
 }
 
-.main img {
+.Main img {
 	display: flex;
 	float: right;
 	position: relative;
-	bottom: -350px;
+	bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.border-top{
+	border: 1px solid black;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.border-bottom{
+	border-bottom: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	bottom: 1500px;
+
+}
+
+.Main .text-content2 {
+	display: row;
+	float: left;
+	position: relative;
+	bottom: 0x;
+	width: 420px;
+	height: 250;
+  margin: 20px;
+}
+
+.Main .text-content2 p {
+	line-height: 20px;
+}
+
+.Main .text-content2 .Facts {
+margin-top: 20px;	
+}
+
+.Facts li {
+	padding: 5px 0px;
+	position: relative;
+	right: -20px;
+}
+
+
+.Main .foot footer p { 
+	text-align: center;
+	font-size: 14px;
+
+}
+
+.Main .text-content1 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.Main .text-content1 p {
+	line-height: 20px;
+}
+
+.Main .text-content1 h4 {
+	font-size: 26px;
 }
