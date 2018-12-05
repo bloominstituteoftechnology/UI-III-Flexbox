@@ -115,7 +115,7 @@ header nav a:hover {
 .logo {
 	padding-left: 25px;
 	background-color: white;
-	justify-content: flex-end;
+	/*justify-content: flex-end;*/
 	margin: 0 0 0 0;
 	vertical-align: middle;
 }
@@ -268,6 +268,7 @@ section .container2 .list-side ul li {
 }
 .product-boxes {
 	border-bottom: 2px solid black;
+	padding-bottom: 40px;
 	margin-bottom: 40px;
 }
 
@@ -275,3 +276,21 @@ section .container2 .list-side ul li {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 40px;
+}
+
+.product-boxes .container1 .boxes {
+	width: 270px;
+	border: 1px solid black;
+	background: #F4F4F4;
+	padding: 25px;
+}
+
+.product-boxes .container1 button {
+	border-radius: 5px;
+	border: 1px solid black;
+	font-family: inherit;
+	background: white;
+	padding: 5px 25px 5px;
+	width: 120px;
+	margin-top: 20px;
+}
