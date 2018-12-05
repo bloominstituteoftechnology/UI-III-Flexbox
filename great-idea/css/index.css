@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 
 body {
 	width: 950px;
+	/* margin: 0 auto; */
 }
 
 a {
@@ -435,4 +436,61 @@ img.services-header-img {
 button {
 	padding: 5px 25px;
 	border-radius: 5px;
+}
+
+.services-footer {
+	width: 887px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.footer-left {
+	width: 50%;
+	padding: 20px;
+}
+
+.footer-left > h2 {
+	margin-left: 0;
+	margin-top: 0;
+	padding: 10px;
+}
+
+.footer-left > p {
+	margin-bottom: 10px;
+}
+
+.footer-right {
+	width: 50%;
+	padding: 20px;
+}
+
+li {
+	margin-left: 20px;
+	
+}
+
+ul {
+	list-style-type: square;
+	font-size: 90%;
+	line-height: 2em;
+}
+
+div.copyright {
+	margin: 0;
+	/* border: 1px solid black; */
+	width: 950px;
+	display: flex;
+	justify-content: center;
+}
+
+div.copyright > p {
+	/* border: 1px solid black; */
+	/* display: inline-block; */
+	width: 950px;
+	text-align: center;
+	font-size: 87%;
+	margin-top: 30px; 
 }
