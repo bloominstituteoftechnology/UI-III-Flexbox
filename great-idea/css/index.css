@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body {
-	background-color: rgba(165, 214, 74, 0.5);
+	/* background-color: rgba(165, 214, 74, 0.5); */
 	/* background-image: linear-gradient(to bottom, white, #048BA8) */
 }
 
@@ -78,22 +78,24 @@ body {
 }
 
 nav {
-	position: fixed;
+	/* position: fixed; */
 	width: 900px;
 	height: 65px;
 	display: flex;
 	justify-content: space-between;
 	z-index: 10;
-	background-color:#048BA8;
+	background-color: lightgray;
+	border-radius: 10px;
 }
 
 nav a {
-	color: white;
+	color: rgb(99, 98, 98);
 	text-decoration: none;
 	text-align: center;
 	flex-grow: 1;
 	padding-top: 22px;
 	border-radius: 10px;
+
 }
 
 .home {
@@ -104,13 +106,9 @@ nav a {
 }
 
 nav a:hover {
-	background-color: rgba(255, 255, 255, 0.125);
+	background-color: rgba(255, 255, 255, 0.25);
 	transition-duration: 1s; 
 }
-/* 
-h2 {
-	font-family: 'Black Han Sans', sans-serif;
-} */
 
 header {
 	position: relative;
@@ -135,7 +133,6 @@ header {
 .header-right {
 	width: 440px;
 	height: 380px;
-	/* margin-left: 450px; */
 	background-image: url("../img/header-img.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -201,55 +198,87 @@ header {
 	border-top: 1px solid black;
 }
 
+.contact p {
+	padding: 15px 0px 0px 0px;
+}
+
 footer {
-	margin: 0 auto 50px auto;
-	width: 900px;
+	margin: 50px auto 50px auto;
+	width: 880px;
 	text-align: center;
 }
 
+/*Services Page Only*/
+
 .subheader {
-	margin: 0 auto;
-	width: 900px;	
+	margin: 0px auto;
+	width: 880px;
+	margin-bottom: 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 20px;
+}
+
+.services-header-img {
+	margin: 10px 0px 30px 0px;
+}
+
+.subheadercontent h2 {
+	font-size: 26px;
 }
 
 .subcontainer {
 	margin: 0 auto;
-	width: 900px;
+	padding: 35px 0px 0px 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 880px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .subcontent {
-	margin: 0 auto;
-	width: 900px;
+	margin-bottom: 35px;
+	padding: 20px;
+	border: 1px solid black;
+	width: 420px;
+	background-color: rgb(238, 236, 236);
+	line-height: 20px;
+}
+
+.learnmore {
+	height: 35px;
+	width: 150px;
+	margin-top: 20px;
+	padding-top: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 12px;
+	background-color: white;
 }
 
 .subfooter {
-	margin: 0 auto;
-	width: 900px;
+	margin: 35px auto;
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
 }
 
-
-/* .information {
-	width: 900px;
-	margin: 0 auto;
-	margin-bottom: 30px;
-	padding-top: 30px;
+.subfacts {
+	width: 420px;
+	padding-right: 10px;
+	line-height: 20px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
 }
 
-.infotext{
-	display: inline-block;
-	position: absolute;
-	padding-left: 10px;
-	padding-right: 20px;
-	text-align: justify;
-	width: 450px;
-	height: 200px;
+ul {
+	margin-top: 20px;
+	padding-left: 20px;
+	list-style-type: square;
+	line-height: 30px;
 }
-
-.infoimg {
-	display: inline-block;
-	background-image: url(../img/services.jpg);
-	background-size: 430px auto;
-	margin-left: 450px;
-	width: 430px;
-	height: 200px;
-} */
