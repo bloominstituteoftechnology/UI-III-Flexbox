@@ -64,3 +64,141 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+.navigation {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/* .navigation a {
+	display: flex;
+	padding: 30px 90px;
+} */
+
+h1 {
+	font-size: 60px;
+}
+
+.blockone {
+	padding: 60px;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	/* border: 1px solid blue; */
+	width: 100%;
+	justify-content: center;
+	margin-top: 70px;
+	margin-bottom: 50px;
+
+}
+.top-content {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	flex-direction: row;
+	justify-content: space-between;
+	/* padding: 20px 20px 20px; */
+}
+
+.contact {
+	width:100%;
+	margin-left: 50px;
+	padding-bottom: 25px;
+	text-align: left;
+}
+
+.Features {
+	margin-right: 20px;
+}
+
+.bottom-content { 
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	flex-direction: row;
+	justify-content: space-between;
+	/* padding: 20px 20px 20px; */
+}
+
+.Services {
+	margin-right: 20px;
+}
+
+.Product {
+	margin-right: 20px;
+}
+
+.middle-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+footer {
+    display: inline-block;
+	width: 100%;
+	
+}
+ .Contact {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  /* align-content: space-between; */
+}
+ .copyright {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.one {
+	padding: 10px 0;
+}
+
+.two {
+	padding: 10px 0;
+}
+
+.three {
+	padding: 10px 0;
+} */
+
+
+button {
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+
+button:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 42px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 5px;
+	transition: all 2s ease;
+} 
+
+button:hover:before {
+	width: 100%;
+	color: red;
+}
