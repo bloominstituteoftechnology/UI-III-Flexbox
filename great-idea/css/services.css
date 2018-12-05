@@ -154,62 +154,51 @@ button:hover {
   background: lightgray;
 }
 
-.headerIMG {
-  display: inline-block;
-  width: 400px;
-  height: 400px;
-  padding-left: 58px;
+.services-header-img {
+  display: flex;
+  flex-direction: column;
+  width: 880px;
+  padding: 60px 0 10px 0;
+}
+
+
+
+.main {
+  border: 2px solid black;
+  padding: 20px 0 40px 0;
+}
+
+.services-banner h1 {
+  border: 1px solid purple;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
 }
 
 h2 {
   font-family: 'Black Han Sans', sans-serif;
-}
-
-.top-content {
-  width: 432px;
-  display: inline-block;
-  padding: 30px 20px 30px 0;
-}
-
-.top-content:last-child {
-  padding: 30px 0 30px 22px;
-  margin-left: 10px;
-}
-
-.middle-img {
-  width: 100%;
-}
-
-.bottom-content {
-  /*  width: 33%;    also works */
-  width: 290px;
-  display: inline-block;
-  padding: 30px 26px 30px 0;
-}
-
-.bottom-content:nth-child(2) {
-  padding: 30px 14px 30px 16px;
-}
-
-.bottom-content:last-child {
-  padding: 30px 0 30px 32px;
-}
-
-
-address {
-  border-top: 2px solid black;
-  padding: 40px 0;
-}
-
-.phone {
-  padding: 20px 0;
-}
-
-h3 {
-  font-weight: bolder;
   font-size: 20px;
 }
 
-h4 {
-  padding: 20px;
-  text-align: center;
+.all-services {
+  border: 1px solid hotpink;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 880px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.service {
+  border: 1px solid cornflowerblue;
+  padding: 15px;
+  width: 420px;
+
+}
+
+.service button {
+  margin: 20px 0;
+}
+
