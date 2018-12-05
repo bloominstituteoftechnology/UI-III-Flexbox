@@ -63,137 +63,102 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
 
-.navigation{
+	.navigation{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	
+	}
+	.navigation a {
+		padding: 30px;
+		border: 0;
+		font-size: 100%;
+		color: grey;
+		text-decoration: none;
+		list-style-type: none;
+	}
+	.container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		padding: 75px;
+	}
+
+	h1{
+		font-size: 60px;
+	}
+
+	.head{
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
-
-}
-
-.navigation a {
-    padding: 30px;
-    border: 0;
-    font-size: 100%;
-	color: grey;
-	text-decoration: none;
-	list-style-type: none;
-}
-
-.innovation{
-	width: 49%;
-	height: 49%;
-	padding: 40px;
-	display: flex;
-	text-align: center;
-}
-h1{
-	font-size: 60px;
-
-}
-
-.container{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-	padding: 75px;
-}
-
-.headContainer{
-	text-align: center;
-	display: flex;
-	height: 400px;
 	flex-wrap: wrap;
-}
+	
+	}
+	
+	.innovation{
+		width: 49%;
+		height: 49%;
+		padding: 40px;
+		text-align: center;
+	}
+	.button{
+		align-self: center;
+		width: 165px;
+		height: 40px;
+		font-size: 20px;
+		padding: 5px;
+		border: 1px solid black;
+		text-align: center;
+		order: 1;
+		align-items: flex-start;
 
-.button{
-	width: 165px;
-	height: 40px;
-	font-size: 20px;
-	padding: 5px;
-    border: 1px solid black;
-	text-align: center;
-	order: 1;
-	position: relative;
-	left: 80px;
-	bottom: 140px;
-}
-
+	}
+	
 	.topContent{
 		border-top: 1px solid black;
 		display: flex;
-	}
-	.features{
-		width: 49%;
-		padding: 20px;
-	}
+		justify-content: space-evenly;
 	
+	}
+
+	.features{
+		width: 50%;
+		padding: 30px 0px 30px 0px;
+		margin: 10px;
+	}
+
 	.about{
 		width: 49%;
-		padding: 20px;
+		padding: 30px 0px 30px 0px;
+		margin: 10px;
 	}
+
 	.bottomContent{
 		border-bottom: 1px solid black;
-		padding: 30px;
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-evenly;
 	}
 	
-	.services {
-		width:33%;
-		
+	.item{
+		padding: 30px 0px 30px 0px;
 	}
-	.products{
-		width:33%;
-		
-	}
-	.vision {
-		width:33%;
-		
-	}
-	.class{
-		display: flex;
-	}
-	
-	.middle-img{
-		width:100%;
-	}
-	
+
 	.contact{
-		padding: 30px;
-		display: block;
-		line-height: 30px;
+		line-height: 1.6;
+		padding: 30px 0px 30px 0px;
+
 	}
-	.address{
-		
-	}
-	.phone{
-		padding: 40px;
-	}
-	.footer{
+
+	footer{
 		text-align: center;
-
 	}
 
-	.topImage{
-		border: 1px solid red;
-		position: absolute;
-		bottom: 0;
-
-	}
-
-	.serviceHead{
-		border-bottom: 1px solid black;
-		padding-top: 30px; 
-		padding-bottom: 30px; 
-	}
-	
 	.firstRow{
 		display: flex;
 		margin: 0;
-		align-content: space-around
+		align-content: space-around;
 		
 	}
 
@@ -218,14 +183,22 @@ h1{
 	.bottom{
 		padding: 25px;
 		margin: 25px 10px 0px 10px;
+		display: flex;
+		flex-wrap:wrap;
 	}
-
-	.services-info-img{
-		align-content: flex-end;
-		width: 33.3%;
-	}
+.bottomPage{
+		padding: 25px;
+		margin: 25px 10px 0px 10px;
+		border-top: 1px solid black;
+}
 
 	ul {
 		list-style-type: disc;
 		padding: 15px;
+		line-height: 1.6;
+		
+	}
+
+	.services-info-img{
+		display: flex;
 	}
