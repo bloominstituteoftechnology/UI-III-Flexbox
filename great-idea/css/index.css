@@ -222,12 +222,12 @@ h3 {
 	display: inline-block;
 }*/
 
-.footer {
+footer .footer {
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
 
-.copyright {
+footer .copyright {
 	text-align: center;
 	margin-top: 40px 0;
 }
@@ -242,22 +242,56 @@ h3 {
 	padding-bottom: 35px;
 }
 
-.boxes {
-	width: 420px;
-	border: 1px solid black;
-	display: flex;
-	flex-direction: column;
-	background: lightgray;
-	padding: 25px;
-	}
+.services-boxes {
+	border-bottom: 2px solid black;
+	margin-bottom: 40px;
+}
 
-
-.container1 {
+.services-boxes .container1 {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 40px;
 }
 
-.container1 .left-boxes {
-	margin-left: 
+.services-boxes .container1 .boxes {
+	width: 420px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	background: #F4F4F4;
+	padding: 25px;
+	}
+
+.services-boxes .container1 button {
+	border-radius: 5px;
+	border: 1px solid black;
+	font-family: inherit;
+	background: white;
+	padding: 5px 25px 5px;
+	width: 120px;
+	margin-top: 20px;
+}
+.services-boxes .container1 .last-boxes {
+	margin-bottom: 40px;
+}
+
+section .container2 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+
+section .container2 .list-side {
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
+}
+section .container2 .list-side ul {
+	display: flex;
+	flex-direction: column;
+}
+
+section .container2 .list-side ul li {
+	list-style-type: disc;
+	margin: 10px 0 0 18px;
 }
