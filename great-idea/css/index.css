@@ -70,6 +70,10 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+p {
+	line-height: 1.25;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -180,7 +184,9 @@ ul {
 .boxes > section {
 	background-color: #F4F3F4;
 	border: 1px solid black;
-	width: 45%;
+	width: 48%;
+	padding: 20px;
+	margin-bottom: 40px;
 }
 
 span {
@@ -193,4 +199,5 @@ span {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 20px;
 }
