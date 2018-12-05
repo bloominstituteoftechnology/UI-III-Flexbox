@@ -65,15 +65,15 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+#navwrapper {
+	display: flex;
+}
 
 #container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-#navwrapper {
-	display: flex;
+	margin: 0 auto;
 }
 
 nav {
@@ -99,94 +99,90 @@ nav > a:hover {
 }
 
 h1 {
-	font-size: 4.5em;
-	width: 250px;
-	margin-top: 45px;
-	margin-left: 55px;
-	letter-spacing: 2px;
-	/* text-align: center; */
+	text-align: left;
+	font-size: 1.9em;
 }
 
 #banner {
-	display: flex;
-	align-content: flex-end;
-	margin-top: 50px;
-	margin-bottom: 70px;
+	margin-top: 40px;
+	width: 984px;
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
 }
 
-#titlewrap {
-	margin-right: 300px;
-	
+.services-header-img {
+	width: 984px;
+	margin-top: 20px;
 }
 
-button {
-	font-family: "Titillium Web";
-	background-color: white;
+.card {
+	width: 400px;
 	border: 1px solid black;
-	height: 30px;
+	background-color: #F2F2F2;
+	margin-left: 90px;
+	margin-top: 40px;
+	/* align-items: flex-start; */
+	padding: 20px;
+	/* font-weight: bold; */
+	line-height: 1.3em;
+	margin-right: 90px;
+	/* margin-left: 5px; */
+}
+.cardbtn {
+	height: 35px;
 	width: 175px;
-	margin-left: 100px;
-	font-size: .9em;
+	border: 1px solid black;
+	font-family: "Titillium Web";
+	color: black;
+	background-color: white;
+	margin-top: 25px;
+	border-radius: 5px;
 }
 
-button:hover {
+.cardbtn:hover {
 	text-decoration: underline;
 	color: royalblue;
 	border: 1px solid royalblue;
 }
 
-section {
-	text-align: center;
-}
-
-#doubleboxes {
-	border-top: 1px solid black;
-	width: 984px;
+.cardrow {
 	display: flex;
+	margin: auto 0;
+	margin-top: 20px;
 }
 
-.dblbox {
-	padding-top: 35px;
-	text-align: left;
-}
-
-.middle-img {
+.ftrrow {
 	display: flex;
-	width: 984px;
+	margin: auto 0;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	border-top: 2px solid black;
+	padding-top: 50px;
 }
 
-#tripleboxes {
-	border-bottom: 1px solid black;
-	width: 984px;
-	display: flex;
+.ftrcard {
+	width: 400px;
+	padding: 20px;
+	padding-top: 0px;
+	/* font-weight: bold; */
+	line-height: 1.3em;
+	margin-right: 160px;
 }
 
-.trplbox {
+.ftrul {
+	list-style-type: disc;
 	margin-left: 20px;
-	text-align: left;
-	padding-bottom: 35px;
 }
 
-#contact {
-	width: 984px;
-	margin-top: 35px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+.ftrli {
+	margin-top: 10px;
+}
+.services-info-img {
+	width: 400px;
+	margin-left: 20px;
 }
 
-#phone {
-	margin-top: 15px;
-	margin-bottom: 15px;
+.copy {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 50px;
 }
-
-#copy {
-	display: flex;
-	font-style: italic;
-	margin-top: 15px;
-	margin-bottom: 30px;
-	margin-left: 400px;
-	font-family: 'Shadows Into Light';
-} 
