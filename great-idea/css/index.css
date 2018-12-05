@@ -291,25 +291,34 @@ footer {
   position: relative;
   top: -120px;
 }
+.Main{
+	width:880px;
+}
 
 .Main .text-content{
-  padding: 10px;
-  border: 1px solid black;
-  width: 420px;
-  margin: 20px;
-  padding: 20px;
   background-color: rgb(236, 234, 234);
+  width: 420px;
+  display: flex;
+  border: 1px solid black;
+  float: right;
+  margin: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+  top: 30px;
+  height: 250px;
+  margin-top: 30px;
+	margin-bottom: 0px;
+
+}
+  /*margin: 0px;
+  padding: 20px;
   top: 30px;
     left: 30px;
   height: 250px;
   margin-top: 20px;
-  margin-bottom: 20px;
-  display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
- 
-  
-}
+  margin-bottom: 20px;*/
+
+
 
 .Main .text-content p {
 	line-height: 20px;
@@ -324,7 +333,6 @@ footer {
 	border-bottom: 10px;
 	padding: 10px 40px;
 	font-size: 11px;
-	border: 1px solid black;
 	cursor: pointer;
 	float: left;
 }
@@ -338,34 +346,30 @@ footer {
 	display: flex;
 	float: right;
 	position: relative;
-	bottom: 20px;
+	bottom: -30px;
 	margin-top: 40px;
 	margin-bottom: 60px;
+	right: 10px;
 }
-
-.border-top{
+hr {
+	height: 0px;
+	color: black; 
 	border: 1px solid black;
-margin-top: 20px;
-margin-bottom: 20px;
-}
+	width: 865px;
 
-.border-bottom{
-	border-bottom: 1px solid black;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	position: relative;
-	bottom: 1500px;
-
+	
 }
 
 .Main .text-content2 {
 	display: row;
 	float: left;
 	position: relative;
-	bottom: 0x;
+	bottom: -50px;
+	right: 20px;
 	width: 420px;
 	height: 250;
   margin: 20px;
+  left: -15px;
 }
 
 .Main .text-content2 p {
@@ -383,12 +387,6 @@ margin-top: 20px;
 }
 
 
-.Main .foot footer p { 
-	text-align: center;
-	font-size: 14px;
-
-}
-
 .Main .text-content1 {
 	margin-top: 10px;
 	margin-bottom: 30px;
@@ -400,4 +398,18 @@ margin-top: 20px;
 
 .Main .text-content1 h4 {
 	font-size: 26px;
+}
+
+.bottom{
+	position: relative;
+	bottom: -40px
+}
+
+footer .footer-content .copyright {
+	padding: 20px 0;
+	 text-align: center;
+	 position: relative;
+	 bottom:-235px;
+	 left: 180px;
+	 font-size: 16px;
 }
