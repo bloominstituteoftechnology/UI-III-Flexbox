@@ -135,24 +135,16 @@ header {
 	width: 185px;
 }
 
-/*.header-container.image {*/
-	/*text-align: right;*/
-/*}*/
-
-/*.header-image {*/
-	/*width: 80%;*/
-/*}*/
+.header-image {
+	height: 100%;
+}
 
 .divider {
 	margin-bottom: 50px;
 }
 
-/*.fifty-percent-wrapper {*/
-	/*display: inline-block;*/
-	/*width: 49.8%;*/
-/*}*/
-
 .feature-content {
+	display: flex;
 	margin-bottom: 40px;
 }
 
@@ -165,12 +157,8 @@ header {
 	margin-bottom: 40px;
 }
 
-/*.thirty-percent-wrapper {*/
-	/*display: inline-block;*/
-	/*width: 33.1%;*/
-/*}*/
-
 .service-content {
+	display: flex;
 	margin-bottom: 50px;
 }
 
