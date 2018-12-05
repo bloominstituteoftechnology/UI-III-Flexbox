@@ -150,7 +150,8 @@ content div {
 	flex-direction: column;
 	background-color: #DCDCDC;
 	border: 2px solid black;
-	width: 300px;
+	padding: 10px;
+	width: 400px;
 	text-size: 10px;
 	margin: 15px;
 }
