@@ -116,6 +116,13 @@ hr {
 	margin: 0 2.5%;
 }
 
+/* index.html page */
+
+
+
+
+/* services.html page */
+
 /****** serivces info ******/
 .servicesInfo {
 	width: 95%;
@@ -149,15 +156,21 @@ hr {
 
 .learnBtn {
 	background: rgb(240, 236, 236);
+	border: 1px solid black;
 	border-radius: 5%;
-	padding: 10px 70px;
-	width: 200px;
+	padding: 10px 50px;
+	margin: 15px;
+	width: 150px;
 	text-align: center;
+}
+
+.learnBtn a {
+	text-decoration: none;
 }
 
 /****** facts area ******/
 .facts {
-	padding: 20px 0;
+	padding: 20px 0 50px 0;
 	margin: 0 2.5%;
 	display: flex;
 }
@@ -167,7 +180,7 @@ hr {
 }
 
 .factsIMG {
-	border: var(--border);
+	/* border: var(--border); */
 	width: 50%;
 }
 
