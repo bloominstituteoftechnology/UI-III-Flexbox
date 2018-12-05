@@ -76,7 +76,7 @@ header {
 	align-items: center;
 	width: 1024px;
 	height: 100px;
-	padding: 40px 0;
+	padding: 40px 72px;
 	position: fixed;
 	top: 0;
 	z-index: 2;
@@ -85,14 +85,16 @@ header {
 
 header nav {
 	display: flex;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	line-height: 36px;
+	border: 1px solid red;
 }
 
 header nav a {
-  margin: 0 30px;
+  margin: 0 60px 0 0;
 	text-decoration: none;
 	font-size: .95rem;
+	font-weight: bold;
 	color: gray;
 }
 
@@ -101,7 +103,8 @@ header nav a:hover {
 }
 
 header .logo {
-	margin-right: 100px;
+	margin-right: 0;
+	border: 1px solid blue;
 }
 
 header, nav, .logo {
@@ -192,8 +195,12 @@ section {
 
 /* Services Page */
 .svc-section {
-	width: 1024px;
+	/* width: 1024px; */
 	/* margin: 0 auto; */
+}
+
+.services-intro {
+	text-align: center;
 }
 
 .services-list {
