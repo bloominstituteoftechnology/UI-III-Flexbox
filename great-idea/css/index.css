@@ -40,6 +40,8 @@ h1, h2, h3, h4, h5 { font-family: 'Bangers', cursive; letter-spacing: 1px; margi
 	Your code starts here! 
 *****************************/
 body { width: 100%; margin: 0 auto; padding: 0 24px 0 24px; }
+@media only screen and (min-width: 800px) { body { width: 800px; } }
+
 section { position: relative; }
 h1 { font-size: 64px; }
 h2 { font-size: 24px; }
@@ -53,17 +55,15 @@ nav {
     width: 100%;
     z-index: 5;
 }
-nav a { 
-	font-size: 12px;
-	text-decoration: unset;
-	color: #888888;
-}
+nav a { font-size: 12px; text-decoration: unset; color: #888888; }
 nav a:hover { color: black; transition-duration: 0.25s; }
+@media only screen and (min-width: 800px) { nav { width: 800px; } }
 
 .container-nav { display: flex; flex-direction: row; }
 .nav-ul { width: 100%; display: flex; justify-content: space-between;  }
 .nav-li { flex: 1 1 auto; margin: 5px 0 0 0; }
 .nav-logo { flex: 0 1 auto; margin: -5px 0 0 0; }
+@media only screen and (min-width: 800px) { .nav-ul { width: 800px; } }
 
 #header { position: relative; top: 96px; margin: 0 0 133px 0; }
 
@@ -72,6 +72,8 @@ nav a:hover { color: black; transition-duration: 0.25s; }
 
 .header-img { min-width: 200px;	max-width: 80%; }
 .middle-img { width: 100%; }
+
+.services-header { position:relative; top:72px; margin:0 0 100px 0; }
 .services-header-img { width: 100%; }
 .services-info-img { width: 100%; }
 
@@ -82,6 +84,26 @@ nav a:hover { color: black; transition-duration: 0.25s; }
 
 .container-gallery { display: flex; margin: 0 -12px 0 -12px; }
 .item-gallery { 
+	flex: 0 1 auto; 
+	background-color: #dddddd;
+	padding: 24px;
+	margin: 24px 12px 0px 12px;
+	border: 1px solid black; }
+
+.product-header { position:relative; top:96px; margin:0 0 72px 0; }
+.product-header-img { width: 50%; }
+.h1-product { 
+	margin:-200px 0 200px 0; 
+	color: #ffffff; }
+@media only screen and (min-width: 0px) and (max-width: 799px) { .h1-product { margin: -28% 0 28% 0; } }	
+.product-gallery-1 { 
+	flex: 0 1 auto; 
+	background-color: #333333;
+	color: #dddddd;
+	padding: 24px;
+	margin: 24px 12px 0px 12px;
+	border: 1px solid black; }
+.product-gallery-2 { 
 	flex: 0 1 auto; 
 	background-color: #dddddd;
 	padding: 24px;
