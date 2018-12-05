@@ -64,3 +64,245 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	
+}
+
+.mainContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;	
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	max-height: 40px;	
+}
+
+header a {
+	width: 100px;
+	margin: auto;
+	color: gray;
+	text-decoration: none;
+}
+
+header .logo {
+	width: auto;
+}
+
+.container {
+	display: flex;
+	align-items: row;
+	flex-wrap: nowrap;
+}
+
+.headTwo {
+	display: flex;
+	flex-direction: column;
+	padding-top: 15%;
+	width: 400px;
+	height: 400px;
+	align-items: center;
+}
+
+h1 {
+	font-size: 55px;
+	text-align: center;
+}
+
+.headTwo a {
+	height: 30px;
+	width: 150px;
+	font-size: 20px;
+	text-align: center;
+	align-self: center;
+	color: black;
+	text-decoration: none;
+	border: 2px solid black;
+}
+
+
+.img {
+	display: flex;
+	width: 400px;
+}
+
+content {
+	display: flex;
+	width: 880px;
+	height: 900px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 25px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	align-items: center;
+}
+
+
+content div {
+	display: flex;
+	flex-direction: column;
+	background-color: #DCDCDC;
+	border: 2px solid black;
+	padding: 10px;
+	width: 400px;
+	text-size: 10px;
+	margin: 15px;
+}
+
+h2 {
+	padding: 15px;
+}
+
+
+
+content a {
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin: 10px;
+	width: 125px;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	align-content: center;
+}
+
+.services1 {
+	width: 880px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.services1 h1 {
+	text-align: left;
+}
+
+footer {
+	width: 880px;
+}
+
+services-header-img {
+	display: flex;
+	width: 880px;
+	height: 200px;
+	margin: auto;
+
+}
+
+section {
+	border-top: 2px solid black;
+	width: 880px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid black;
+	padding: 25px 15px 25px 15px;
+}
+
+.features, .about {
+	display: flex;
+	width: 45%;
+	margin-left: 50px;
+	height: 150px;
+	flex-direction: column;
+	overflow-wrap: normal;
+}
+
+.featabout {
+	display: flex;
+	justify-content: space-around;
+}
+
+.middle-img {
+	display: flex;
+	width: 100%;
+	height: 175px;
+	margin: auto;
+}
+
+.services, .product, .vision{
+	display: flex;
+	width: 30%;
+	height: 200px;
+	flex-direction: column;
+	margin-top: 25px;
+	overflow-wrap: normal;
+}
+
+
+.servprovis {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footer {
+	width: 880px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 880px;
+}
+
+footer {
+	display: flex;
+	width: 250px;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.facts {
+	display: flex;
+	width: 880px;
+	margin-top: 25px;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+
+.facts ul {
+	margin-top: 10px;
+	list-style: square inside url("sqpurple.gif");
+}
+
+.facts li {
+	margin: 10px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+}
+
+.services-info-img{
+	display: flex;
+	width: 350px;
+}
+
+.footer ul { 
+	list-style: disc outside none;
+	
+}
+.footer li {
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+h3 {
+	display: flex;
+	width: 300px;
+	align-items: center;
+}
