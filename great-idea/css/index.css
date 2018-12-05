@@ -161,3 +161,14 @@ address {
 	text-align: center;
 	margin: 80px 0;
 }
+
+/* Services Page-specific CSS */
+
+.service-desc {
+	max-width: 50%;
+	border: 2px solid #c9c9c9;
+}
+
+.services-bottom-row {
+	
+}
