@@ -163,7 +163,7 @@ footer {
 .main-content {
 	border-bottom: 2px solid black;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -173,13 +173,31 @@ footer {
 .main-content div {
 	margin-bottom: 30px;
 	padding: 20px;
-	width: 350px;
+	width: 420px;
 	height: 220px;
-	background: lightgrey;
+	background: rgb(233, 230, 230);
 	border: 1px solid black;
 }
 
 .main-content button {
 	margin-top: 15px;
 	border-radius: 5px;
+}
+
+.services-bottom-section {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.facts-header-box {
+	width: 400px;
+}
+
+
+ul {
+	margin-top: 10px;
+	padding-left: 18px;
+ 	list-style-type: square;
 }
