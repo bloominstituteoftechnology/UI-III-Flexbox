@@ -196,3 +196,27 @@ section {
 	/* margin: 0 auto; */
 }
 
+.services-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.service-item {
+	flex: 50%;
+	/* display: inline-block; */
+	border: 1px solid black;
+	padding: 2rem;
+}
+
+.svc-button {
+	width: 130px;
+	padding: 0.25rem 2rem;
+	margin-top: 1rem;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	background: white;
+	font-size: 0.75rem;
+	cursor: pointer;
+}
+
