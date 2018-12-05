@@ -12,7 +12,7 @@ Once you have finished the home page using flex box module, go build the service
 * Open the code with your preferred integrated development environment (IDE).
 * Start on the objectives
 
-## Objectives
+## Objectives ##
 
 * [ ] Home Page Refactor:
   * Note that the provided HTML is blank.  This is because I want you to use your code from yesterday if possible.  If you didn't finish, that's fine, just use the solution from yesterday

@@ -64,3 +64,221 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	/* background-color: rgba(165, 214, 74, 0.5); */
+	/* background-image: linear-gradient(to bottom, white, #048BA8) */
+}
+
+.navigation {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	height: 65px;
+}
+
+nav {
+	/* position: fixed; */
+	width: 900px;
+	height: 65px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 10;
+	background-color: lightgray;
+	border-radius: 10px;
+}
+
+nav a {
+	color: rgb(99, 98, 98);
+	text-decoration: none;
+	text-align: center;
+	flex-grow: 1;
+	padding-top: 22px;
+	border-radius: 10px;
+
+}
+
+.home {
+	width: 215px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+nav a:hover {
+	background-color: rgba(255, 255, 255, 0.25);
+	transition-duration: 1s; 
+}
+
+header {
+	position: relative;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px 30px 0px;
+	width: 900px;
+	border-bottom: 1px solid black;
+}
+
+.header-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 440px;
+	height: 380px;
+	font-size: 80px;
+	text-align: center;
+}
+
+.header-right {
+	width: 440px;
+	height: 380px;
+	background-image: url("../img/header-img.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header-left a {
+	text-decoration: none;
+	font-size: 14px;
+	border: 1px solid gray;
+	width: 150px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+	background-color:#F18F01;
+}
+
+.header-left a:hover{
+	background-color: rgba(241, 145, 1, 0.79);
+	transition-duration: 1s; 
+	transform: scale(1.3);
+}
+
+.top-row {
+	margin: 30px auto 0 auto;
+	width: 900px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-row-content {
+	padding: 10px;
+}
+
+.mid-row {
+	margin: 0 auto;
+	width: 900px;
+	height: 220px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url(../img/mid-page-accent.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bot-row {
+	margin: 0 auto 30px auto;
+	width: 900px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.bot-row-content {
+	padding: 10px;
+}
+
+.contact {
+	margin: 0 auto;
+	width: 900px;
+	padding: 10px;
+	padding-top: 20px;
+	border-top: 1px solid black;
+}
+
+.contact p {
+	padding: 15px 0px 0px 0px;
+}
+
+footer {
+	margin: 50px auto 50px auto;
+	width: 880px;
+	text-align: center;
+}
+
+/*Services Page Only*/
+
+.subheader {
+	margin: 0px auto;
+	width: 880px;
+	margin-bottom: 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 20px;
+}
+
+.services-header-img {
+	margin: 10px 0px 30px 0px;
+}
+
+.subheadercontent h2 {
+	font-size: 26px;
+}
+
+.subcontainer {
+	margin: 0 auto;
+	padding: 35px 0px 0px 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 880px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.subcontent {
+	margin-bottom: 35px;
+	padding: 20px;
+	border: 1px solid black;
+	width: 420px;
+	background-color: rgb(238, 236, 236);
+	line-height: 20px;
+}
+
+.learnmore {
+	height: 35px;
+	width: 150px;
+	margin-top: 20px;
+	padding-top: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 12px;
+	background-color: white;
+}
+
+.subfooter {
+	margin: 35px auto;
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.subfacts {
+	width: 420px;
+	padding-right: 10px;
+	line-height: 20px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+ul {
+	margin-top: 20px;
+	padding-left: 20px;
+	list-style-type: square;
+	line-height: 30px;
+}
