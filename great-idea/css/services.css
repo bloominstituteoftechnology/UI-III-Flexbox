@@ -97,16 +97,20 @@ nav a {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 42px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 0px;
 }
 
 p, li, footer{
-    font-size: 18px;
+    font-size: 20px;
+}
+
+p {
+    line-height: 25px;
 }
 
 #intro {
@@ -126,7 +130,7 @@ p, li, footer{
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: space-evenly;
-    height: 900px;
+    height: 1000px;
     border-bottom: 2px black solid;
 }
 
@@ -135,7 +139,7 @@ p, li, footer{
     flex-direction: column;
     justify-content: space-between;
     width: 550px;
-    height: 230px;
+    height: 275px;
     padding: 20px;
     border: 1px black solid;
     background-color: #F4F3F4;
@@ -159,14 +163,14 @@ p, li, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 500px;
+    height: 450px;
 }
 
 #outrotext {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 400px;
+    height: 350px;
     width: 525px;
 }
 
@@ -180,7 +184,7 @@ p, li, footer{
 }
 
 #outro img {
-    height: 400px;
+    height: 350px;
     width: 550px;
 }
 
