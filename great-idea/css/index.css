@@ -63,15 +63,14 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-nav,header,#section1,#middle,.section2,.container3,.container4, address,footer{
+/* General */
+
+nav,header,#section1,#middle,.section2,.container4, address,footer{
 margin: auto;
 width: 95%;
 }
 
-nav{
-	width: 95%;
-}
-
+/* NAV */
 .container1{
 	display:flex;
 	flex-flow: row nowrap;
@@ -82,9 +81,6 @@ nav{
 	margin-top: 15px;
 }
 
-.container .navlogo{
-margin-top: 35px;
-}
 .container1 a{
 	padding-left: 1em;
 	padding-right:1em; 
@@ -95,16 +91,8 @@ margin-top: 35px;
 nav a:hover{
 	text-decoration: underline;
 }
-#section1{
-	margin-top: 3em;
-}
-#section2{
-	margin-bottom: 2em;
-}
-.blurb1{
-	margin-top: 2em;
-	margin-bottom: 2em;
-}
+
+/* HEADER */
 .container2{
 	display: flex;
 	flex-wrap: wrap;
@@ -112,45 +100,12 @@ nav a:hover{
 	margin-top: 2.5em;
 }
 
-.container3{
-	display: flex;
-	flex-flow: row nowrap;
-	border-top: black 1px solid;
-}
-
-.container4{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.title{
-	width: 40%;
-}
-
-address{
-
-	border-top: black 1px solid;
-	padding-top: 2em;
-}
-
-footer{
-	text-align: center;
-	margin: 4em;
-}
-
-
 #demand{
 	width: 30%;
 	margin-top: 2em;
 	margin-left: 7em;
 	margin-bottom: 5em;
 } 
-
-#ball{
-	margin-left: 5em;
-	margin-right: 3em;
-}
 
 #button{
 	border: black 1px solid;
@@ -171,15 +126,55 @@ color: black;
 	transform: scale(1.5);
 }
 
+h1{
+	font-size:5.3em;
+	text-align: center;
+	margin-bottom: 30px;
+}
 
+#ball{
+	margin-left: 5em;
+	margin-right: 3em;
+}
+
+.title{
+	width: 40%;
+}
+
+/* FEATURES/ABOUT */
+#section1{
+	margin-top: 3em;
+	border-top: black 1px solid;
+}
+
+.container3{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.blurb1{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 48%;
+	font-size: 1.2em;
+}
+
+/* Middle IMG */
+.middle-img{
+	width: 100%;
+} 
+
+/* SERVICE/PRODUCT/VISION */
 #section2{
+	margin-bottom: 2em;
 	padding-top: 15px;
 }
 
-
-.blurb1{
-	width: 50%;
-	font-size: 1.2em;
+.container4{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .blurb2{
@@ -187,17 +182,18 @@ color: black;
 	font-size: 1.2em;
 }
 
+/* ADDRESS */
+address{
 
+	border-top: black 1px solid;
+	padding-top: 2em;
+}
 #addy{
 	font-size: 1.2em;
 }
 
-.middle-img{
-	width: 100%;
-} 
-
-h1{
-	font-size:5.3em;
+/* FOOTER */
+footer{
 	text-align: center;
-	margin-bottom: 30px;
+	margin: 4em;
 }
