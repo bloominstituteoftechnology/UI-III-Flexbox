@@ -71,7 +71,6 @@ ul {
 }
 
 li {
-	border: 1px solid red;
 	list-style-type:disc;
 	margin-left: 18px;
 }
@@ -241,32 +240,74 @@ footer {
 
 .item1 {
 	border: 1px solid black;
+	height: 20px;
+	line-height: 20px;
 	margin: 20px;
+	padding: 20px;
+}
+
+.item1 p {
+	padding-bottom: 20px;
 }
 
 .item2 {
 	border: 1px solid black;
+	height: 20px;
+	line-height: 20px;
 	margin: 20px;
+	padding: 20px;
+}
+
+.item2 p {
+	padding-bottom: 20px;
 }
 
 .item3 {
 	border: 1px solid black;
+	height: 20px;
+	line-height: 20px;
 	margin: 20px;
+	padding: 20px;
+}
+
+.item3 p {
+	padding-bottom: 20px;
 }
 
 .item4 {
 	border: 1px solid black;
+	height: 20px;
+	line-height: 20px;
 	margin: 20px;
+	padding: 20px;
+}
+
+.item4 p {
+	padding-bottom: 20px;
 }
 
 .item5 {
 	border: 1px solid black;
+	height: 20px;
+	line-height: 20px;
 	margin: 20px;
+	padding: 20px;
+}
+
+.item5 p {
+	padding-bottom: 20px;
 }
 
 .item6 {
 	border: 1px solid black;
+	height: 20px;
+	line-height: 20px;
 	margin: 20px;
+	padding: 20px;
+}
+
+.item6 p {
+	padding-bottom: 20px;
 }
 
 .item7 {
@@ -276,5 +317,5 @@ footer {
 }
 
 .section-box {
-	height: 200px;
+	height: 225px;
 }
