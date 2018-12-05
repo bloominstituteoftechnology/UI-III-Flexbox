@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, f5igure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,4 +63,255 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.body1 {
+	border: 2px solid grey;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	width: 876px;
+	
+	/*background: url(file:///C:/Users/aijne/Desktop/Lambda/User-Interface/great-idea-website/img/header-img.png);*/
+}
+
+.serv:hover {
+	background-color: yellow;
+}
+
+.navigation {
+	/*display: flex;
+	flex-flow: row;
+	justify-content: center;
+	/*align-self: flex-start;*/
+	/*flex-wrap: wrap;*/
+
+	margin-right: 200px;
+	border: 2px solid black;
+	margin: auto;
+	word-spacing: 36px;
+	color: grey;
+	width: 876px;
+	height: 80px;
+	display: flex;
+	/*background-color: blue;*/
+	/*z-index: 1;
+	vertical-align: middle;*/
+}
+
+.navi {
+
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	/*align-self: flex-start;*/
+
+}
+
+.logo {
+	align-self: flex-end;
+	background-color: grey;
+}
+
+.top-container h1 {
+	font-size: 24px;
+	color: black; 
+	font-weight: bold;
+}
+
+/*.innovation {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 36px;
+	/*position: absolute;*/
+/*	top: 86px;
+	left: 96px; */
+	/*display: inline-block;*/
+	/*width: 288px;
+	height: 148px;*/
+/*	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.head {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.get {
+	position: absolute;
+	left: 188px;
+	top: 232px;
+	border: 2px solid black;
+	font-size: 14px;
+	width: 114px;
+	padding: 2px 20px 2px;
+
+}*/
+
+.top-image {
+	width: 800px;
+	height: 166px;
+	display: flex;
+	flex-direction: row;
+}
+
+.h_line {
+	position: absolute;
+	top: 275px;
+	border: 1px solid black;
+	width: 880px; 
+	height: 1px;
+}
+
+
+
+header {
+	width: 1200px;
+}
+
+ img .middle-pic {
+ 	height: 200px;
+	width: 800px;
+}
+
+.bottom-content {
+	position: absolute;
+	top: 652px;
+ }
+
+ .contact {
+ 	position: absolute;
+ 	top: 820px;
+ }
+
+ .footer {
+  position: absolute;
+  right: 0;
+  bottom: -575px;
+  left: 350px;
+  text-align: center;
+ }
+
+ 
+
+ .top-content {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	/*top: 300px;*/
+	flex-direction: column;
+	background-color: grey;
+	width: 50%;
+}
+ .top-left {
+ 	display: flex;
+ 	width: 400px;
+
+
+ }
+
+.bold {
+	font-size: 16px;
+	font-weight: bold;
+	border: 2px solid green;
+	width: 50%;
+}
+.about {
+	display: flex;
+	flex-direction: column;
+	top: 0px;
+	left: 454px;
+	border: 2px
+}
+.top-right {
+	display: flex;
+	width: 400px;
+	height: 400px;
+	/* position: absolute;
+	top: 30px;
+	left: 454px; */
+}
+
+.midd {
+	border: 2px solid blue;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.bottom-left {
+	display: block;
+	width: 266px;
+	height: 300px;
+	position: absolute;
+	top: 30px;
+}
+
+.bot-mid {
+	display: inline-block;
+	width: 266px;
+	height: 300px;
+	position: absolute;
+	top: 30px;
+	left: 290px;
+}
+
+.products {
+	position: absolute;
+	top: 0px;
+	left: 290px;
+}
+
+.bot-right {
+	display: inline-block;
+	width: 266px;
+	height: 300px;
+	position: absolute;
+	top: 30px;
+	left: 573px;
+}
+
+.vision {
+	position: absolute;
+	top: 0px;
+	left: 573px;
+}
+/*.bot-right {
+	display: inline-block;
+}*/
+
+.contacts {
+	width: 300px;
+}
+
+.h_line2 {
+	position: absolute;
+	top: 800px;
+	border: 1px solid black;
+	width: 880px; 
+	height: 1px;
+}
+
+.footer {
+	font-family: 'Lobster', cursive;
+	width: 170px;
+}
+
+.learn {
+	border: 1px solid black;
+	width: 300px;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: white;
+	margin: 10px;
+}
+.content-box {
+	display: flex;
+
+	border: 2px solid yellow;
+}
