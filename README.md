@@ -4,5 +4,5 @@ Tech: HTML, CSS, Flexbox.
 Lambda School. 
 
 ## View the Index Page of Project
-1. <a href="https://davidaceves.github.io/UI-III-Flexbox/index.html">Click here</a>
+1. <a href="https://davidaceves.github.io/UI-III-Flexbox/great-idea/index.html">Click here</a>
 
