@@ -186,6 +186,7 @@ footer {
     padding-top: 50px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .vision-header {
@@ -193,10 +194,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.vision-header h1 {
-    font-size: 40px;
 }
 
 .vision-logo {
