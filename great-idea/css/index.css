@@ -77,21 +77,12 @@ body {
 	align-items: center;
 	width: 876px;
 	margin-top: 25px;
-	/* position: relative; */	
 }
 
 .navigation a {
 	text-decoration: none;
 	color: grey;
-	/* padding: 10px; */
-	/* margin-left: 25px; */
 }
-
-/* .navigation .logo {
-	padding-right: 15px; 
-	position: absolute;
-	right: 0;
-} */
 
 header {
 	height: 450px;
@@ -100,23 +91,12 @@ header {
 	justify-content: space-evenly;
 	align-items: center;
 	margin-top: 25px;
-	/* position: relative; */
-
 }
 
 .h1-div {
 	font-size: 75px;
 	width: 290px;
-	/* height: 250px; */
-	/* position: absolute;
-	left: 115px;
-	top: 70px; */
 }
-
-/* .img-div {
-	position: absolute;
-	right: 0;
-} */
 
 button {
 	text-decoration: none;
@@ -125,9 +105,6 @@ button {
 	font-size: 15px;
 	width: 140px;
 	height: 30px;
-	/* position: absolute;
-	bottom: 110px;
-	left: 190px; */
 }
 
 .top-content {
@@ -137,23 +114,11 @@ button {
 	padding-bottom: 30px;
 	display: flex;
 	justify-content: space-between;
-	/* position: relative; */
-	
 }
 
 .top-content div {
 	width: 400px;
-	/* display: inline-block; */
 }
-
-/* .features {
-	For Future use
-} */
-
-/* .about {
-	position: absolute;
-	right: 0;
-} */
 
 .bottom-content {
 	text-align: left;
@@ -162,26 +127,11 @@ button {
 	padding-bottom: 30px;
 	display: flex;
 	justify-content: space-between;
-	/* position: relative; */
 }
 
 .bottom-content div {
 	width: 280px;
-	/* display: inline-block; */
 }
-
-/* .services {
-	For future use
-} */
-
-/* .product {
-	padding-left: 20px;
-} */
-
-/* .vision {
-	position: absolute;
-	right: 0;
-} */
 
 .contact {
 	margin-top: 20px;
@@ -196,4 +146,20 @@ address {
 footer {
 	margin-top: 20px;
 	text-align: center;
+}
+
+/* services.html */
+
+.services-header-img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.intro {
+	padding-bottom: 30px;
+	border-bottom: 2px solid black;
+}
+
+.main-content {
+	padding-top: 30px;
 }
