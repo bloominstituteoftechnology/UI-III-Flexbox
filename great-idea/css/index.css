@@ -64,11 +64,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	margin: 0px 200px 0px 200px;
+}
 
 .nav {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: flex-end;
+	margin-top: 12px;
 }
 
 nav a {
@@ -79,6 +83,21 @@ nav a {
 .top {
 	display: flex;
 	justify-content: space-evenly;
+	margin-top: 83px;
+}
+
+h1 {
+	font-size: 80px;
+	margin-top: 63px;
+}
+
+.mid-above-pic, .mid-below-pic {
+	display: flex;
+}
+
+.mid-img {
+	display: flex;
+	justify-content: center;
 }
 
 .top-left-section, .mid-above-pic-left, .mid-above-pic-right, .mid-below-pic-left, .mid-below-pic-middle, .mid-below-pic-right {
@@ -87,9 +106,7 @@ nav a {
 	align-items: center;
 }
 
-.mid-above-pic, .mid-below-pic {
-	display: flex;
-}
+
 
 /* .mid-below-pic {
 	display: flex;
