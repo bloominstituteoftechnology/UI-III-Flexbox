@@ -161,5 +161,25 @@ footer {
 }
 
 .main-content {
+	border-bottom: 2px solid black;
 	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.main-content div {
+	margin-bottom: 30px;
+	padding: 20px;
+	width: 350px;
+	height: 220px;
+	background: lightgrey;
+	border: 1px solid black;
+}
+
+.main-content button {
+	margin-top: 15px;
+	border-radius: 5px;
 }
