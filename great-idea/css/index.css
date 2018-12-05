@@ -66,8 +66,13 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .main {
-	width: 800px;
+	width: 850px;
 	margin: 0 auto;
+	background: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 }
 
 	.main .navbar {
@@ -76,19 +81,25 @@ h1, h2, h3, h4, h5 {
 		position: fixed;
 		z-index: 1;
 		width: 800px;
+		padding-right: 10px;
+		padding-left: 10px;
 		margin-bottom: 75px;
-		
 		height: 50px;
 		justify-content: space-between;
 		align-items: center;
-		background: lightcoral
 	}
 		.main .navbar nav  {
+			display: flex;
 			text-decoration: none;
-			justify-content: space-between;
+			
 		}
+		
+		
 			.main .navbar nav a {
+				justify-content: space-between;
+				margin-right: 50px;
 				color: gray;
+				
 			}
 		
 	.main .wowmuchlarge {
@@ -195,3 +206,39 @@ footer {
 	margin-top: 50px;
 }
 
+.services-header-img {
+	width: 800px;
+	position: relative;
+	top: 50px;
+}
+.services-header {
+	position: relative;
+	top: 80px;
+	margin-bottom: 20px;
+	border-bottom: 1pt solid black;
+}
+h2 {
+	font-weight: bold;
+}
+
+.middleblocks {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 800px;
+	margin-top: 50px;
+}
+
+.middleblock {
+	align-self: center;
+	height: 200px;
+	width: 375px;
+	background: whitesmoke;
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+body {
+	background: gray;
+}
