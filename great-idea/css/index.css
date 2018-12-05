@@ -67,48 +67,43 @@ h1, h2, h3, h4, h5 {
 
  .container {
 	 display: flex;
-	 width: 1000px;
-	 margin: 0px auto;
+	 width: 900px;
+	 margin: 0 auto;
 	 flex-wrap: wrap;
+	 overflow-x: hidden;
 	 border: 2px solid violet;
   } 
   
   /* header */
-  
-  header nav {
-		display: flex;
-		width: 691px;
-		align-content: flex-start;
-		margin-top: 35px;
-		border: 2px solid blue;
-  }
-  
-  header nav a {
-		display: flex;
-		margin-right: 65px;
-		font-size: 14px;
-		color: gray;
-		text-decoration: none;
-  }
-  
-  header nav a:hover {
-		text-decoration: underline;
-  }
-  
-  header nav a:first-child {
-		margin-left: 0;
-  }
-  
-  header nav a:last-child {
-	margin-right: 0;
-  }
-  
-  header .logo {
+		
+
+ nav {
 	display: flex;
-	margin-top: 25px;
-	border: 2px solid red;
-  }
-   
+	width: 900px;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid blue;
+}
+
+.links {
+border: 2px solid blue;
+}
+
+a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+border: 2px solid red;
+}
+
   /* cta */
   
   .cta .cta-text {
