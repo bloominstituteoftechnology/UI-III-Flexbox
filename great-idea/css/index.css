@@ -64,107 +64,147 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-nav {
-	display: block;
-	margin: 0 auto;
-	width: 1000px;
-	position: relative;
-}
+
 
 nav a {
-	vertical-align: center;
-	color: gray;
-	text-decoration: none;
-	padding: 30px;	
-}
-
-nav img{
-	margin-left: 30px;
-}
-
-h1 {
-	text-align: center;
-	font-size: 70px;	
+	padding: 20px;
 }
 
 header {
-	position: relative;
-	margin: 0 auto;	
-	padding-top: 20px;
-	width: 1000px;
-	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
 }
 
-.header_left_side {
-	display: inline-block;
-	width: 450px;
-	padding-left: 50px;
-	padding-bottom: 100px;		
-}
-
-.header_right_side {
-	display: inline-block;
-	padding-top: 20px;
-}
-
-.button {
-	position: block;
-	width: 180px;
-	height: 40px;
-	margin: 0 auto;
-	border: 2px solid gray;
+h1 {
+	display: block;
 	text-align: center;
-	padding-top: 10px;	
-}
-
-.top_row {
-	position: relative;
-	margin: 0 auto;
-	padding-top: 20px;
-	width: 900px;
-}
-
-.top_row_content {
-	display: inline-block;
+	font-size: 75px;
 	padding: 10px;
-	width: 440px;
+	margin: 10px;
 }
 
-.mid_row {
-	position: relative;
+button {
+	display: block;
+	width: 100px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+
+p {
+	font-size: 18px;
+}
+
+.container {
 	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
 	width: 900px;
-	
 }
 
-.bot_row {
-	position: relative;
+.top-nav {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin: 20px;
+}
+
+.logo {
+	padding: 0 20px;
+}
+
+.top-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.middle-stuff {
+	display: flex;
+	justify-content: space-evenly;
+	border-top: 1px solid black;
 	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.mid {
+	padding: 20px 0;
+	width: 49%;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.bottom-stuff {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	padding: 40px 0;
 	border-bottom: 1px solid black;
-	padding-bottom: 20px;
-	width: 900px;	
 }
 
-.bot_row_content {
-	display: inline-block;
+.bot {
 	padding: 10px;
-	width: 290px;
 }
 
 .contact {
-	position: relative;
-	margin: 0 auto;
-	width: 900px;
-	padding: 10px;
-	padding-top: 20px;
+	padding: 40px 0;
 }
 
-footer {
-	position: relative;
-	margin: 0 auto;
-	width: 900px;
+.service-options {
+	width: 910px;
+	margin-bottom: 35px;
+}
+
+.middle-1 {
+	display: flex;
+	flex-wrap: wrap;
+	border-top:  1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.mid-section {
 	padding: 10px;
-	text-align: center;
+	margin: 10px;
+	background-color: lightgray;
+	border: 1px solid black;
+	width: 400px;
+}
+
+.bottom {
+	display: flex;
+	padding: 20px;
+}
+
+.address {
+	padding-bottom: 15px;
+}
+
+.phone-number {
+	padding-bottom: 15px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-page2 {
+	margin: 20px 10px;
+}
+
+.services-header-img {
+	display: block;
+	margin: 20px auto;
+}
+
+.bigger-h2 {
+	font-size: 30px;
 }
