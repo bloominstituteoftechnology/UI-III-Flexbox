@@ -93,10 +93,6 @@ nav {
 	padding-right: 40px;
 }
 
-.logo-container {
-/* border: 2px solid blue; */
-}
-
 .hero {
 	display: flex;
   margin: 0 auto;
@@ -109,10 +105,6 @@ nav {
 .hero p {
   text-align: center;
 }
-
-/* .hero .inner1 {
-
-} */
 
 .cta {
   width: 140px;
