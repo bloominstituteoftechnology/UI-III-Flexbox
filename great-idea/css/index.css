@@ -127,12 +127,20 @@ header {
 	font-size: 94px;
 }
 
-.get-started-btn {
+.button {
 	border: 1px solid;
 	font-size: 20px;
 	margin-top: 10px;
 	padding: 5px;
 	width: 185px;
+}
+
+.btn-learn {
+	border-radius: 6px;
+	font-size: 12px;
+	margin-top: 26px;
+	padding: 8px;
+	width: 126px;
 }
 
 .header-image {
@@ -165,6 +173,72 @@ header {
 .service-wrapper {
 	padding-right: 10px;
 }
+
+/* Below: service page
+row-column section flexbox */
+
+.services-page-top-section {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.services-page-h1 {
+	font-size: 45px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	border: 1px solid;
+	background-color: #ededed;
+	margin-bottom: 40px;
+	padding: 20px;
+
+}
+
+.column-left {
+	margin-left: 20px;
+}
+
+.column-right {
+	margin-right: 20px;
+}
+
+.services-page-last-section {
+	display: flex;
+	justify-content: space-around;
+}
+
+/*.facts-section-wrapper {*/
+	/*width: 400px;*/
+/*}*/
+
+.facts-list-wrapper {
+	margin-right: 20px;
+}
+
+.facts-list {
+	list-style-type: disc;
+	margin-top: 30px;
+	padding-left: 0;
+
+}
+
+.facts-list-items {
+	margin-bottom: 20px;
+	list-style-position: inside
+}
+
+/* Above: service page row-column */
 
 .contact {
 	margin-bottom: 20px;
