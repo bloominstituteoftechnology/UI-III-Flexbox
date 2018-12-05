@@ -102,14 +102,16 @@ nav a {
 }
 
 header {
+	display: flex;
+	justify-content: space-around;
 	height: 455px;
 	margin-bottom: 100px;
 	margin-top: 90px;
 }
 
 .header-container {
-	height: 100%;
-	vertical-align: top;
+	/*height: 100%;*/
+	/*vertical-align: top;*/
 }
 
 .header-wrapper {
@@ -126,8 +128,6 @@ header {
 }
 
 .get-started-btn {
-	display: inline-block;
-	background-color: white;
 	border: 1px solid;
 	font-size: 20px;
 	margin-top: 10px;
@@ -135,22 +135,22 @@ header {
 	width: 185px;
 }
 
-.header-container.image {
-	text-align: right;
-}
+/*.header-container.image {*/
+	/*text-align: right;*/
+/*}*/
 
-.header-image {
-	width: 80%;
-}
+/*.header-image {*/
+	/*width: 80%;*/
+/*}*/
 
 .divider {
 	margin-bottom: 50px;
 }
 
-.fifty-percent-wrapper {
-	display: inline-block;
-	width: 49.8%;
-}
+/*.fifty-percent-wrapper {*/
+	/*display: inline-block;*/
+	/*width: 49.8%;*/
+/*}*/
 
 .feature-content {
 	margin-bottom: 40px;
@@ -165,10 +165,10 @@ header {
 	margin-bottom: 40px;
 }
 
-.thirty-percent-wrapper {
-	display: inline-block;
-	width: 33.1%;
-}
+/*.thirty-percent-wrapper {*/
+	/*display: inline-block;*/
+	/*width: 33.1%;*/
+/*}*/
 
 .service-content {
 	margin-bottom: 50px;
