@@ -64,3 +64,175 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	box-sizing: border-box;
+}
+.massContainer {
+	display: flex;
+	flex-direction: column;
+	margin: 0 15% 0 15%;
+
+	
+}
+
+hr {
+	color: grey;
+	width: 100%;
+	size: 5px;
+}
+
+.navContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 70%;
+	height: 60px;
+	margin-bottom: 30px;
+	position: fixed;
+	background: lavender;
+	border: 2px black;
+	border-style: none solid solid none;
+}
+
+.navBar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 75%;
+	margin-top: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+	align-self: space-around;
+}
+
+
+.logo {
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px;
+} 
+
+
+/* ==== index.html === */
+
+.callToAction {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 75px;
+}
+
+.iod {
+margin-top: 50px;
+}
+
+h1 {
+	font-size: 75px;
+}
+
+.button {
+	border: 1px solid black;
+	width: 120px;
+	margin: 0 15% 0 15%;
+	font-size: 20px;
+	height: 40px;
+	padding: 10px;
+
+	
+}
+
+.circle {
+
+}
+
+.sectionOne {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 10px;
+	
+}
+
+.middle-img {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10px;
+}
+
+.sectionTwo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 25px;
+	word-wrap: break-word
+	;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+h4 {
+	align-self: center;
+}
+
+/* ==== end of index.html ==== */
+
+/* ==== services.html ==== */
+
+.s-header-img {
+	margin-top: 75px;
+	margin-bottom: 15px;
+}
+
+.s-services {
+	font-size: 32px;
+}
+
+.more {
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+	
+	
+}
+
+.blockOne {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 25px;
+	padding: 10px;
+}
+
+ .s-box {
+	border: 1px solid black;
+	background-color: lavender;
+	height:175px;
+	margin: 25px;
+	padding: 10px;
+	width: 45%;
+}
+
+
+.blockTwo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.footTwo {
+	display: flex;
+	align-self: center;
+	margin: 100px;
+}
+
+/* ==== end of services.html */
