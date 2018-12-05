@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -64,3 +64,159 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	margin: 0 auto;
+	width: 880px;
+	font-size: 16px;
+}
+
+.navbar{
+   width: 880px;
+   top: 0;
+   border-bottom: 2px solid black;
+   position: fixed;
+   z-index: 2;
+ }
+
+header {
+   display: flex;
+   width: 100%;
+   background-color: white;
+   padding: 1px;
+   flex-direction: row;
+ }
+
+ header nav a{
+   margin: 10px 28px;
+   font-size: 15px;
+   text-decoration: none;
+   color: gray;
+   display: flex;
+   
+ }
+ 
+ header nav a:first-of-type{
+   margin-left: 0;
+ }
+ 
+ header img{
+	display: flex;
+   position: absolute;
+   right: 0;
+ }
+
+ .start-section button{
+   border: 1px solid black;
+   background-color: white;
+   padding: 0 30px ;
+   font-family: 'Titillium Web', sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   width: 170px;
+   height: 40px; 
+ }
+
+ h1 {
+	 font-size: 72px;
+	 font-weight: 500;
+ }
+
+ h2 {
+	 font-weight: 500;
+ }
+
+ .start-section {
+   margin-top: 35px;
+   width: 880px;
+   height: 440px;
+   position: relative;
+ }
+ 
+ .left-div {
+   	display: flex;
+	 padding: 50px;
+	 width: 440px;
+	 text-align: center;
+	 margin-top: 70px;
+	 position: absolute;
+	 flex-direction: column;
+	 align-items: center;
+   }
+
+   .right-div {
+	   display: flex;
+	   width: 440px;
+	   position: absolute;
+	   padding: 30px 0;
+	   right: 0;
+	 }
+
+   .top-section {
+	   border-top: 1px solid black;
+		 margin-bottom: 39px;
+  		padding-top: 39px;
+   }
+
+   .middle-section {
+	   padding: 30px 15px 35px 0;
+	 }
+
+	 .bottom-section {
+		margin-top: 41px;
+		padding-bottom: 48px;
+		border-bottom: 1px solid black;
+		margin-bottom: 39px;
+	  }
+
+
+	 p, .features, .about, h2, .services, .product, .vision {
+		display: flex;
+		flex-direction: column;
+		vertical-align: top;
+	  }
+	  
+	  .top-section, .bottom-section {
+		display: flex;
+		flex-direction: row;
+
+	}
+   .features {
+	   /* display: inline-block; */
+	   width: 425px;
+	   margin-right: 10px;
+	 }
+
+   .about {
+	   /* display: inline-block; */
+	   width: 425px;
+	   margin-left: 22px;
+   }
+
+   .services {
+	   margin-left: 0;
+	   width: 275px;
+   }
+
+   .product {
+	width: 275px;
+	margin-left: 23px;
+   }
+
+   .vision {
+	width: 275px;
+	margin-left: 24px;
+   }
+
+   .footer {
+	   margin-top: 30px;
+	   margin-bottom: 40px;
+   }
+   .copyright {
+	   text-align: center;
+	   display: flex;
+	   flex-direction: column;
+	   justify-content: flex-end;
+	   padding-left: 200px;
+}
+
