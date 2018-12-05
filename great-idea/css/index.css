@@ -213,6 +213,12 @@ row-column section flexbox */
 	margin-right: 20px;
 }
 
+.services-page-divider {
+	border-style: solid;
+	height: 3px;
+	background-color: black;
+}
+
 .services-page-last-section {
 	display: flex;
 	justify-content: space-around;
