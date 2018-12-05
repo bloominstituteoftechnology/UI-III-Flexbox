@@ -169,12 +169,12 @@ header nav a:last-child {
 
 header .logo {
   display: flex;
-  position: absolute;
-    right: 0;
-    top: 0;
-  margin-bottom: 10px;
-  padding-top: 20px;
-  padding-right: 315px;
+  position: relative;
+    right: 18px;
+    bottom: 30px;
+  margin-bottom: 0px;
+  padding-left: 200px;
+  float: right;
 
 }
 
@@ -187,49 +187,61 @@ header .logo {
 	text-align: center;
 	padding: 0px 75px;
 	padding-right: 560px;
-	
 }
 
 .cta .cta-text button {
-  background: white;
-  vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px;
-  font-size: 17px;
-  border: 1px solid black;
-  cursor: pointer;
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
 }
 
 .cta .cta-text button:hover {
   background: black;
   color: white;
+
+
 }
 
 .cta img {
-  display: flex;
-  float: right;
-  position: relative;
-    top: -350px;
+	display: flex;
+	float: right;
+	position: relative;
+	top: -350px;
+
 }
 
 .main-content {
   border-top: 1px solid black;
-  margin-top: 76px;
-  padding-top: 39px;
+  margin-top: 340px;
+  padding-top: 0px;
+  position: relative;
+  top: -240px;
+  
+
 }
 
 .main-content .top-content {
-  padding: 0 10px;
+	padding: 0 10px;
+	float: right;
+
 }
 
+
 .main-content .top-content .text-content {
-	width: 410px;
-	display: inline-block;
-	margin-right: 34px;
+  width: 410px;
+  flex-direction: row;
+  margin-right: 34px;
+  float: left;
 }
 
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
+
+  
 }
 
 .main-content .middle-img {
@@ -237,14 +249,18 @@ header .logo {
 }
 
 .main-content .bottom-content {
-  margin-top: 37px;
   padding: 0 10px;
+  flex-direction: row;
+
 }
 
 .main-content .bottom-content .text-content {
-  width: 275px;
-  display: inline-block;
-  margin-right: 12px;
+	width: 250px;
+	flex-direction: row;
+	margin-right: 34px;
+	float: left;
+	justify-content: center;
+   padding-top: 39px;
 }
 
 .main-content .bottom-content .text-content:last-child {
@@ -252,17 +268,28 @@ header .logo {
 }
 
 .contact {
-  margin-top: 57px;
-  border-top: 1px solid black;
-  padding: 39px 10px 0;
+	border-top: 1px solid black;
+  margin-top: 10px;
+  padding: 39px 0px 0;
+  position: relative;
+  bottom: 20px;
+
+}
+.contact h4 { 
+	position: relative;
+  top: -130px;
 }
 
 .contact p {
   margin: 20px 0;
+  position: relative;
+  bottom: 135px;
 }
 
 footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+  position: relative;
+  top: -120px;
 }
