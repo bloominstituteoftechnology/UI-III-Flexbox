@@ -167,6 +167,12 @@ footer .Copyright {
 	margin-top: 20px;
 }
 
+.container header a .logo {
+	/* border: 1px solid red; */
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
 .services-header-img {
 	/* border: 1px solid red; */
 	display: flex;
