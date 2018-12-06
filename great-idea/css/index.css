@@ -170,14 +170,14 @@ a {
   }
   
   h1{
-	font-size: 72px;
+	font-size: 70px;
   }
   
   .get-started{
 	
 	border: 1px solid black;
 	padding: 10px 0px;
-	margin-top: 20px;
+	margin-top: 10px;
 	width:173 px
   }
   
@@ -203,7 +203,7 @@ a {
   }
   
   main, footer, #Wowzer2 {
-	margin-left: 74px;
+	margin-left: 75px;
 	margin-right: 75px;
 	
   }
@@ -214,6 +214,7 @@ a {
   
   p, .features, .about, h2, .services, .product, .vision {
 	display: flex;
+	flex-direction: column;
 	vertical-align: top;
   }
   .features {
@@ -222,13 +223,12 @@ a {
   
   .about{
 	width: 425px;
-	margin-left: 20px;
+	margin-left: 22px;
   }
   
-  .top-section {
-	border-top: 1 px solid black;
-	margin-bottom: 40ox;
-	padding-top: 38px;
+  .top-section, .bottom-section {
+	display: flex;
+	flex-direction: row;
   }
   
   section h2 {
@@ -253,16 +253,14 @@ a {
 	margin-left: 50px;
   }
   
-  .middle-img{
-	margin-left: 1px;
-	width: 876px;
-	height: 182px;
-	background-image: url()
-	"https://raw.githubusercontent.com/LambdaSchool/User-Interface/master/great-idea-website/img/mid-page-accent.jpg"
+  .top-section{
+	  border-top: 1px solid black;
+	  margin-bottom: 39px;
+	  padding-top: 39px;
   }
-  
+
   .bottom-section {
-	margin-top: 42px;
+	margin-top: 41px;
 	padding-bottom: 48px;
 	border-bottom: 1px solid black;
 	margin-bottom: 39px;
@@ -274,12 +272,12 @@ a {
   
   .product {
 	width: 275px;
-	margin-left: 20px;
+	margin-left: 23px;
   }
   
   .vision {
 	width: 275px;
-	margin-left: 21px;
+	margin-left: 24px;
   }
   
   small {
