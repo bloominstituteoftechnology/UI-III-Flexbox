@@ -78,11 +78,12 @@ header {
 .header-top {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 20px;
+	height: 85px;
 }
 
 .header-top nav {
 	font-size: 16px;
+	font-weight: bold;
 	width: 620px;
 	display: flex;
 	justify-content: space-between;
@@ -105,7 +106,7 @@ header {
 
 .logo {
 	width: 183px;
-	align-self: flex-end;
+	align-self: center;;
 }
 
 header nav a {
@@ -114,10 +115,9 @@ header nav a {
 }
 
 h1 {
-	font-size: 78px;
-	letter-spacing: 3px;
+	font-size: 26px;
 	line-height: 0.95;
-	text-align: center;
+	text-align: left;
 }
 
 button {
@@ -146,13 +146,23 @@ button:hover {
 	border-bottom: 2px solid black;
 }
 
+section>a {
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 30px;
+	width: 120px;
+	font-size: 12px;
+	color: black;
+}
+
 main p {
 	font-size: 16px;
 	line-height: 1.2;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .features {
@@ -199,10 +209,6 @@ footer {
 	font-size: 16px;
 }
 
-.services-header-img {
-	margin: 50px 0;
-}
-
 .services-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -210,24 +216,29 @@ footer {
 }
 
 .services-main {
-	border-bottom: 2px solid black;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	height: 170px;
+	border-bottom: 1px solid black;
 }
 
 .item a {
-	align-self: center;
+	align-self: left;
 	margin-top: 20px;
+	text-align: center;
+	padding: 8px 0;
 }
 
 .item h2 {
-	align-self: center;
+	align-self: flex-start;
 }
 
 .item {
-	width: 30%;
+	width: 48%;
 	margin: 40px 0;
 	display: flex;
 	flex-direction: column;
+	border: 1px solid black;
+	padding: 20px;
 }
 
 .btm-services {
