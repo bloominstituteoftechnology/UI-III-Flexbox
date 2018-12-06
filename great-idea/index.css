@@ -1,70 +1,6 @@
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-	height: 400%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 5px;
-    margin-bottom: 15px;
-}
 
 .container {
   width: 950px;
@@ -72,6 +8,42 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
 }
 
+/*Nav header*/
+.navigation header{
+	width: 100%;
+	position: fixed;
+	margin-bottom: 85px;
+	padding: 30px;
+	background-color: rgba(248, 223, 78, 0.863);
+}
+ nav{
+	display: inline-block;
+}
+.logo-container{
+	display: relative;
+}
+.logo{
+	display:inline-block;
+	position: absolute;
+	right: 5px;
+	top: 20px;
+}
+header h1{
+	display: inline-block;
+}
+nav a{
+	text-decoration: none;
+	color: rgb(2, 2, 2);
+	font-size: 1.1em;
+	margin-left: 20px; 
+	margin-right: 20px;
+	transition: 0.5s;
+}
+nav a:hover{
+	color:black;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+	transition: 0.1s;
+}
 /* header */
 
  .main-article section{
