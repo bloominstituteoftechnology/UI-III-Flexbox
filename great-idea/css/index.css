@@ -123,8 +123,7 @@ h1 {
   
   .logo {
 	vertical-align: right;
-	margin-left: 100px;
-	border: 1px solid black;
+	margin-left: 135px;
   }
   
   #header-row {
@@ -145,6 +144,7 @@ h1 {
   
   h1 {
 	font-size: 40px;
+	margin-left: 50px;
   }
   
   .get-started {
@@ -222,16 +222,16 @@ h1 {
 
   .services-header-img{
 	display: flex;
-	margin: auto;
+	margin-left: 50px;
 	justify-content: center;
-	width: 95%;
-	height: 200px;
+	padding: 5px;
   }
 
   .learn-more {
 	display: inline-block;
 	border-radius: 5px;
 	text-transform: capitalize;
+	background-color: rgb(255, 255, 255);
 	border: 1px solid black;
 	padding: 5px 30px;
 	margin-top: 10px;	
@@ -240,23 +240,37 @@ h1 {
 
   p {
 	display: flex;
+	flex-flow: wrap;
 	vertical-align: top;
+	text-align: center;
+	font-size: 14px;
 	height: 100px;
-	width: 35%;
 	border: 1px solid black;
   }
 
-  #middle-section {
+	longparagraph{
 	display: flex;
-	flex-direction: column;
-	align-content: center;
-	align-items: space-around;
+	text-align: left;
+	font-size: 14px;
+	width:  880px;
+	height: 50px;
+	margin-left: 50px;
+	align-items: stretch;
+	margin-bottom: 10px;
+	padding-bottom: 70px;
+	border-bottom: 1px solid black;
 }
 
- #service-row p {
+#middle-section .digital-design, .ux-ui, .digital-marketing, .web-development, .ios-development , .android-development {
 	display: flex;
-	vertical-align: top;
-	width: 85%;
-	height: 50px;
+	display: inline-block;
+	flex-direction: column;
+	margin-top: 40px;
+	margin-left: 50px;
+	padding: 15px;
+	align-items: stretch;
+	height: 200px;
+	width: 400px;
+	background-color: rgb(221, 221, 221);
 	border: 1px solid black;
-}
+  }
