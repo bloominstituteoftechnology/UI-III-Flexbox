@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{
+	width: 880px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.navigation {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.navigation a{
+	color: grey;
+    text-decoration: none; 
+}
+
+.logo{
+	display: flex;
+}
+ 
+header{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2{
+	font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    padding: 8px 35px;
+	font-size: 14px;
+    background: white;
+    border-radius: 6px;
+    width: 40%;
+}
+
+.blocks{
+    display: flex;
+    width: 49%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+    background-color: rgb(243, 241, 241);
+    border: 1px solid;
+    padding: 20px;
+}
+
+.blockContainer{
+    display: flex;  
+    justify-content: space-between;
+}
+
+.bottomHr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}   
+
+.bottomBlock{
+    display: flex;
+    width: 49%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.bottomBlockContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    margin-top: 10px;
+    list-style-type: square;
+    margin-bottom: 80px;
+    padding-left:20px;
+}
+
+li{
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
