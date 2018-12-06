@@ -4,6 +4,10 @@
   width: 1000px;
 }
 
+.logo {
+ cursor: pointer; 
+}
+
 .services-header {
   margin-bottom: 45px;
   line-height: 1.25;
