@@ -83,7 +83,6 @@ header {
 
 .header-top nav {
 	font-size: 16px;
-	font-weight: bold;
 	width: 620px;
 	display: flex;
 	justify-content: space-between;
@@ -111,10 +110,16 @@ header {
 
 header nav a {
 	text-decoration: none;
-	color: lightgray;
+	color: #b9b9b9;
 }
 
-h1 {
+.left>h1 {
+	font-size: 78px;
+	line-height: 0.95;
+	text-align: center;
+}
+
+.services-main>h1 {
 	font-size: 26px;
 	line-height: 0.95;
 	text-align: left;
@@ -154,6 +159,7 @@ section>a {
 	width: 120px;
 	font-size: 12px;
 	color: black;
+	background-color: white;
 }
 
 main p {
@@ -189,15 +195,33 @@ h2 {
 	width: 280px;
 }
 
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	margin-top: 20px;
+	line-height: 2;
+}
+
 footer {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 40px;
+	font-size: 16px;
 }
 
 .contact {
 	width: 140px;
 	line-height: 1.2;
 	font-size: 16px;
+}
+
+.some-facts {
+	width: 48%
+}
+
+main {
+	border-bottom: 2px solid black;
 }
 
 .copyright {
@@ -207,6 +231,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	font-size: 16px;
+	width: 100%;
 }
 
 .services-container {
@@ -218,7 +243,7 @@ footer {
 .services-main {
 	padding-top: 30px;
 	height: 170px;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 }
 
 .item a {
@@ -239,6 +264,7 @@ footer {
 	flex-direction: column;
 	border: 1px solid black;
 	padding: 20px;
+	background-color: #ececec;
 }
 
 .btm-services {
@@ -247,23 +273,10 @@ footer {
 	justify-content: center;
 }
 
-.btm-services nav {
-	width: 600px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.services-info-img {
-	width: 600px;
-	margin-top: 20px;
-}
-
-.some-facts {
-	margin: 20px auto 50px auto;
-	width: 800px;
-	padding: 20px 30px;
-	border: 2px dashed black;
-	text-align: center;
+.contact>a {
+	text-decoration: none;
+	border: none;
+	font-size: 16px;
 }
 
 @media (max-width: 700px) {
@@ -274,8 +287,12 @@ footer {
 		border-bottom: none;
 	}
 
-	h1 {
-		font-size: 1.8em;
+	body {
+		position: relative;
+	}
+
+	.left>h1 {
+		font-size: 60px;
 	}
 
 	.header-top nav a {
@@ -287,13 +304,19 @@ footer {
 		margin-bottom: 20px;
 	}
 
+	.services-info-img {
+		width: 400px;
+		height: auto;
+	}
+
 	.header-top nav {
 		position: relative;
 	}
 
 	.services-main {
 		padding-bottom: 40px;
-		margin-bottom: 40px;
+		margin-bottom: 20px;
+		height: 230px;
 	}
 
 	.logo {
@@ -306,7 +329,7 @@ footer {
 
 	.header-btm {
 		position: relative;
-		margin-bottom: 100px;
+		margin-bottom: 300px;
 		height: 380px;
 		display: flex;
 	}
@@ -327,6 +350,8 @@ footer {
 	.middle-img {
 		width: 400px;
 		height: 100px;
+		position: absolute;
+		bottom: -150px;
 	}
 
 	.features,
@@ -339,8 +364,20 @@ footer {
 		border-bottom: 2px dashed black;
 	}
 
-	.item {
+	.item,
+	.some-facts {
 		width: 100%;
+	}
+
+	ul {
+		display: flex;
+		font-size: 12px;
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+
+	li span {
+		margin-left: -0.5em;
 	}
 
 	h2 {
@@ -350,9 +387,15 @@ footer {
 	.contact {
 		width: 100%;
 		text-align: center;
+		height: 240px;
+		border-bottom: 2px solid black;
 	}
 
 	.btm-services nav {
 		font-size: 0.8em;
+	}
+
+	.copyright {
+		font-size: 12px;
 	}
 }
