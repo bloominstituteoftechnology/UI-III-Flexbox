@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -63,4 +63,100 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* Index */
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+    margin: 30px;
+}
+
+nav {
+    padding: 25px;
+}
+
+.pagetwo {
+    width: 100%;
+    padding: 15px;
+}
+
+.logo {
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.item {
+    justify-content: space-between;
+    padding: 15px;
+    background-color: lightgrey;
+}
+
+section {
+    width: 100%;
+}
+
+.midsection {
+    text-align: center;
+}
+
+footer {
+    padding: 15px;
+    width: 100%;
+}
+
+.copyright {
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Services */
+
+.services {
+    padding: 60px;
+    
+}
+
+hr {
+    width: 80%
+    border: 5px solid black;
+}
+
+.one, .two {
+margin: 10px;
+    border: 2px solid black;
+}
+
+.container_facts {
+    display: flex;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+.facts, .pic {
+    padding: 15px;
+}
+
+ul {
+    list-style-type: circle;
+}
