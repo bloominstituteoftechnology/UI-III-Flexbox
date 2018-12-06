@@ -82,6 +82,11 @@ nav {
     padding: 25px;
 }
 
+.pagetwo {
+    width: 100%;
+    padding: 15px;
+}
+
 .logo {
     
 }
@@ -90,23 +95,21 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-.one {
-    text-align: center;
-}
-
-.button {
+button {
     text-align: center;
     border: 2px solid black;
-    padding: 5px 100px;
     font-weight: bold;
-    font-size: 18px;
+    margin-top: 10px;
+    background-color: white;
 }
 
 .item {
     justify-content: space-between;
     padding: 15px;
+    background-color: lightgrey;
 }
 
 section {
@@ -131,6 +134,7 @@ footer {
 
 .services {
     padding: 60px;
+    
 }
 
 hr {
@@ -139,6 +143,20 @@ hr {
 }
 
 .one, .two {
-    justify-content: center;
+margin: 10px;
     border: 2px solid black;
+}
+
+.container_facts {
+    display: flex;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+.facts, .pic {
+    padding: 15px;
+}
+
+ul {
+    list-style-type: circle;
 }
