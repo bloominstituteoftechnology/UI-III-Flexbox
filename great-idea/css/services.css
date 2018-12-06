@@ -148,6 +148,33 @@ a {
       outline: 0;
   }
   
+  .services h2, .facts h2 {
+      margin-top: 2px;
+  }
+
+.services p, .facts p{
+    margin-top: 17px;
+}
+
+.facts p {
+    width: 400px;
+}
+
+
+.facts ul{
+    margin-top: 27px;
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 1px;
+}
+
+.facts li {
+    margin-top: 14px;
+}
+.facts li span {
+    padding-left: 1px;
+}
+
   small {
 	text-align: center;
 	display: block;
