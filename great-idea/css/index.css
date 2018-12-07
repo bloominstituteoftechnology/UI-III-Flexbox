@@ -65,21 +65,23 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	width: 1024px;
-	margin: 40px auto;
+	width: 90%;
+	margin: 2rem auto;
+	border: 1px solid orange;
 }
 
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 1024px;
+	width: 90%;
 	height: 100px;
-	padding: 40px 72px;
+	padding: 2rem 4.5rem;
 	position: fixed;
 	top: 0;
 	z-index: 2;
 	background: white;
+	border: 1px solid red;
 }
 
 header nav {
@@ -88,7 +90,7 @@ header nav {
 }
 
 header nav a {
-  margin: 0 60px 0 0;
+  margin: 0 3.75rem 0 0;
 	text-decoration: none;
 	font-size: .95rem;
 	font-weight: bold;
@@ -100,7 +102,7 @@ header nav a:hover {
 }
 
 header .logo {
-	margin-right: 0;
+	/* margin-right: 0; */
 }
 
 header, nav, .logo {
@@ -108,8 +110,8 @@ header, nav, .logo {
 }
 
 section {
- margin: 50px auto;
- width: 876px;
+ margin: 3.125rem auto;
+ width: 85%;
  line-height: 1.5;
 }
 
@@ -130,7 +132,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 75px 0;
+	padding: 4.68rem 0;
 	text-align: center;
 	line-height: 1;
 }
@@ -160,7 +162,7 @@ section {
 
 .product-and-services {
 	display: flex;
-	padding: 0 0 40px 0;
+	padding: 0 0 2.5rem 0;
 	border-bottom: 1px solid black;
 	
 }
@@ -245,3 +247,15 @@ section {
 }
 
 
+/* Responsive Design */
+@media only screen and (max-width: 1044px) {
+	.about-services {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.services-list {
+		flex-direction: column;
+	}
+}
