@@ -133,24 +133,26 @@ hr {
 }
 
 .six-boxes div.box {
+    display: flex;
+    flex-direction: column;
     border: solid 1px black;
     width: 42%;
     background: whitesmoke;
     padding: 3%;
-    height: 27%;
+    height: 30%;
 }
 
 .six-boxes div.box a {
     font-size: 10px;
-    display: block;
     text-decoration: none;
     border: solid 1px black;
     border-radius: 5px;
-    padding: 3% 28px;
-    margin-top: 5%;
-    width: 30%;
     background: white;
     color: black;
+    width: 40%;
+    text-align: center;
+    padding: 3%;
+    margin-top: 7%;
 }
 
 .last-part {
@@ -158,6 +160,7 @@ hr {
     flex-direction: row;
     width: 90%;
     margin-left: 5%;
+    margin-top: 3%;
 }
 
 .last-part div {
