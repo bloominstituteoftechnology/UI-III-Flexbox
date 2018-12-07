@@ -170,7 +170,7 @@ hr {
 .last-part div ul {
     line-height: 2;
     list-style-type: square;
-    padding-left: 5%;
+    list-style-position: inside;
     margin-top: 5%;
 }
 
