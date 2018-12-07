@@ -62,154 +62,227 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-body {
-	width:900px;
-	margin: auto;
+h2 {
+	font-size: 1.5em;
 }
+.container {
+	width: 900px;
+	margin: 20px auto;
+}
+
 nav {
 	width: 100%;
-	margin-top: 10px;
-	position: relative;
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
 }
 
 nav .nav-items {
 	width: 65%;
-	display: inline-block;
-	position: relative;
-	text-align: center;
-	vertical-align: middle;
-	margin-bottom: 16px;
-}
-
-nav .nav-items a {
-	display: inline-block;
-	position: relative;
-	padding-left: 10px;
-	padding-right: 30px;
 	font-size: 16px;
 	text-decoration: none;
 	color: grey;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav .logo {
 	width: 25%;
-	position: relative;
-	margin: 25px 40px 30px 40px;
-	padding: 5px 5px 5px 5px;
-	vertical-align: middle;
-	;
+	justify-content: flex-end;
+}
+
+.services-header {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 30px auto;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.services-info {
+	margin: 17px auto;
 }
 
 header {
 	width: 100%;
-	position: relative;
-	display: inline-block;
-	margin-bottom: 20px;
-	border-bottom: 1px solid black; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px auto 40px auto;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
 }
 
 header  .getting-started {
 	width: 49.5%;
-	position: relative;
-	display: inline-block;
-	margin: 50px auto;
-	padding: 50px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	text-align: center;
-	vertical-align: middle;
-	font-size: 90px;
+	font-size: 80px;
 }
 
 header .getting-started .start {
-	position: relative;
-	display: inline-block;
+	justify-content: center;
 	font-size: 16px;
-	padding: 10px 20px;
+	padding: 5px 30px;
 	border: 1px solid black;
-	text-align: center;
 }
 
 header .snippet {
 	width: 49.5%;
-	position: relative;
-	display: inline-block;
 	margin: 20px auto;
-	text-align: center;
-	vertical-align: middle;
+	justify-content: flex-end;
+	align-self: center;
+}
+
+services-header-img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 main {
 	width: 100%;
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+main .top {
+	width: 100%;
+	display: flex;
 }
 
 main .top .features {
-	width: 49.5%;
-	position: relative;
-	display: inline-block;
-	margin: 0 auto;
-	padding: 50px;
+	margin: 30px auto;
+	justify-content: flex-start;
 }
 
 main .top .about {
-	width: 49.5%;
-	position: relative;
-	display: inline-block;
-	margin: 0 auto;
-	padding: 50px;
+	margin: 30px auto;
+	justify-content: flex-end;}
+
+main .middle {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 main .middle .middle-img {
 	width: 100%;
-	position: relative;
-	display: inline-block;
+}
+
+main .bottom {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-bottom: 40px;
 }
 
 main .bottom .services {
 	width: 33%;
-	position: relative;
-	display: inline-block;
-	margin: 0 auto;
-	padding: 50px;
+	margin-top: 30px;
+	justify-content: flex-start;
 }
 
 main .bottom .product {
 	width: 33%;
-	position: relative;
-	display: inline-block;
-	margin: 0 auto;
-	padding: 50px;
+	margin-top: 30px;
+	justify-content: center;
 }
 main .bottom .vision {
 	width: 33%;
-	position: relative;
-	display: inline-block;
-	margin: 0 auto;
-	padding: 50px;
+	margin-top: 30px;
+	justify-content: flex-end;
+}
+
+.services-main {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+.service-description {
+	width: 48%;
+	background-color: #F4F3F4;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	margin-top: 40px;
+	padding: 20px;
+	border: 1px solid black;
+}
+.service-description p {
+	margin-bottom: 20px;
+}
+
+.services-buttons {
+	border: 1px solid black;
+	border-radius: 2px;
+	background-color: white;
+	font-size: 10px;
+	padding: 10px 15px;
+}
+
+.some-facts {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 30px auto;
+	border-top: 1px solid black;
+}
+
+.fact-list {
+	width: 48%;
+	margin: 30px 0;
+}
+
+.fact-list ul {
+	margin-top: 30px;
+}
+
+.fact-list ul li {
+	list-style-type: square;
+	list-style-position: inside;
+	margin: 0 0 10px 0;
+}
+
+.services-info-img {
+	width: 48%;
+	margin: 30px 0;
+
 }
 
 .contact {
 	width: 100%;
-	padding: 5px;
-	display: block;
-	position : relative;
-	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: space-around;
 	border-top: 1px solid black;
 }
 
-.contact p {
-	text-align:left;
-	font-size: 16px;
-	margin-bottom: 16px;
+.contact h2 {
+	margin-top: 30px;
 }
 
 footer {
 	width: 100%;
-	padding: 5px;
-	display: block;
-	position : relative;
-	margin: 0 auto;
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
