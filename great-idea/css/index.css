@@ -277,8 +277,9 @@ main .bottom .vision {
 	border-top: 1px solid black;
 }
 
-.contact h2 {
+.contact h2, p {
 	margin-top: 30px;
+	margin-bottom: 0;
 }
 
 footer {
