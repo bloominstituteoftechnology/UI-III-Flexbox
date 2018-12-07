@@ -119,20 +119,20 @@ section {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	height: 450px;
 	margin-top: 120px;
 	border-bottom: 1px solid black;
 }
 
-.banner .banner-column {
-	width: 50%;
+.banner-column {
+	flex: 0 0 50%;
+	border: 1px solid green;
 }
 
 .banner #headline {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 4.68rem 0;
+	/* padding: 4.68rem 0; */
 	text-align: center;
 	line-height: 1;
 }
@@ -254,7 +254,14 @@ section {
 	}
 }
 
+@media only screen and (max-width: 991px) {
+
+}
+
 @media only screen and (max-width: 768px) {
+	.banner {
+		flex-direction: column;
+	}
 	.services-list {
 		flex-direction: column;
 	}
