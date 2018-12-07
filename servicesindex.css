@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+     
+ }
+  
+ html, body {
+    font-family: 'Titillium Web', sans-serif;
+ }
+  
+ .container {
+    margin: auto;
+    width: 900px;
+  /*   display: flex; */
+ }
+  
+ h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+ }
+   
+  
+ body {
+    width: 900px;
+    height: 1000px;
+    margin: auto;
+ }
+  
+ header {
+    height: 30px;
+    padding: 0;
+    display: flex;
+ }
+  
+ .searchbar {
+    display: flex;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+ }
+  
+ .logo {
+    display: flex;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+ }
+  
+ nav>a {
+    text-decoration: none;
+    color: silver;
+    margin-left: 50px;
+ }
+  
+ nav {
+    width: 750px;
+ }
+  
+ nav>a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+ }
+  
+ header>img {
+    width: 100px;
+    height: 30px;
+    padding-left: 400px;
+ }
+
+ .content {
+    padding: 20px;
+  }
+
+  .title {
+      border-bottom: 1px solid black;
+      height: 100px;
+      width: inherit;
+      display: block;
+  }
+
+  button {
+      border: 1px solid black;
+      text-color: gray;
+      padding: 10px;
+  }
+
+  .content-row-one, .content-row-two, .content-row-three {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  #digital-design, #user, #digital-marketing, #web-development, #ios-development, #android {
+    width: 100px;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .about {
+
+  }
