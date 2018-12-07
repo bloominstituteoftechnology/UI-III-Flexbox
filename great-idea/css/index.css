@@ -125,7 +125,7 @@ section {
 
 .banner-column {
 	flex: 0 0 50%;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 
 .banner #headline {
@@ -146,6 +146,11 @@ section {
 	padding: 5px 10px;
 	border: 1px solid black;
 	cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .introduction {
@@ -249,9 +254,9 @@ section {
 
 /* Responsive Design */
 @media only screen and (max-width: 1044px) {
-	.about-services {
+	/* .about-services {
 		flex-direction: column;
-	}
+	} */
 }
 
 @media only screen and (max-width: 991px) {
