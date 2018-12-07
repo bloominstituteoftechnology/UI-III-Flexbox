@@ -105,8 +105,22 @@ div nav a{
 	font-size: 12px;
 	width: 60px;
 	color: grey;
-}
+	
+	}
 
+
+
+	
+  nav a:hover{
+	/* animation: wiggle 1s ease;
+  animation-iteration-count: 1; */
+  /* background: black; */
+	background: whitesmoke;
+	
+	border-radius: 10px;
+	color:grey;
+	font-size: 20px;
+  }
 
 .Header .imglogo{
 	/* border: 1px solid yellowgreen; */
@@ -135,6 +149,12 @@ div nav a{
 	/* position: absolute;
 	background-image: url("img/logo.png"); */
  }
+
+.logo:hover{
+	width: 230px;
+	height: 60px;
+}
+
 
 .section1{
 	/* border: 1px solid purple; */
@@ -451,6 +471,12 @@ p{
 	display: flex;
 }
 
+.SVlogo:hover{
+	width: 230px;
+	height: 60px;
+}
+
+
 div .topImage{
 	/* border: 1px solid red; */
 	margin-top: 50px;
@@ -527,7 +553,16 @@ button{
 	height: 25px;
 	margin-top: 50px;
 	background: white;
+	
 }
+
+button .GS, button:hover{
+opacity: 0.5;
+transition:all 0.25s ease;
+	
+} 
+
+
 
 .SVsection2{
 	/* border: 1px solid red; */
