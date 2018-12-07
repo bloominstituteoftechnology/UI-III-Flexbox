@@ -170,7 +170,6 @@ img {
 .introduction .intro-column {
 	flex: 0 0 50%;
 	padding: 1rem 1rem 1rem 0;
-	border: 1px solid purple;
 }
 
 .middle-image-wrapper {
@@ -189,7 +188,6 @@ img {
 .product-and-services .p-and-s-column {
 	flex: 0 0 33%;
 	padding: 1rem 1rem 1rem 0;
-	border: 1px solid purple;
 }
 
 .contact-info {
