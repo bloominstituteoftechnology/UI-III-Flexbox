@@ -71,10 +71,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav-holder {
-	width: 100%;
+	background: white;
+	border-bottom: 1px solid black;
+	width: 47.4%;
 	display: flex;
-	align-items: center;
-	justify-content: space-between
+	justify-content: space-between;
+	position: fixed;
+	
 }
 
 .nav-container {
@@ -82,13 +85,13 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	align-self: flex-start;
-	align-items: center;
 }
 
 .nav-container a {
 	text-decoration: none;
 	color: #F4F3F4;
 	font-size: 16px;
+	line-height: 2;
 }
 
 .logo {
@@ -102,7 +105,7 @@ header {
 }
 
 .services-header-img {
-	margin: 20px 0;
+	margin: 50px 0;
 }
 
 h1 {
@@ -142,17 +145,17 @@ button {
 	width: 33%;
 }
 
+button:hover {
+	background: gray;
+	color: white;
+}
+
 .something {
 	border-top: solid 1px black;
 	display: flex;
 	margin-top: 30px;
-	padding: 20px;
+	padding: 20px 0;
 	width: 100%;	
-}
-
-.closing-container {
-	padding: 20px;
-	margin-right: 20px;
 }
 
 ul {
@@ -162,6 +165,10 @@ ul {
 
 li {
 	line-height: 1.5;
+}
+
+.services-info-img {
+	margin-left: 50px;
 }
 
 footer {

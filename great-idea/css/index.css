@@ -62,11 +62,11 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* Your code starts */
 
 .container {
     width: 1024px;
     margin: 0 auto;
-    padding: 20px;
     
 }
 
@@ -77,14 +77,17 @@ header {
 }
 
 .nav-holder {
-	width: 100%;
+    background: white;
+    border-bottom: 1px solid black;
+    width: 54%;
 	display: flex;
 	align-items: center;
-	justify-content: space-between
+    justify-content: space-between;
+    position: fixed;
 }
 
 .nav-container {
-	width: 70%;
+    width: 70%;
 	display: flex;
 	justify-content: space-between;
 	align-self: flex-start;
@@ -92,9 +95,10 @@ header {
 }
 
 .nav-container a {
-	text-decoration: none;
 	color: #F4F3F4;
-	font-size: 16px;
+    font-size: 16px;
+    line-height: 2;
+	text-decoration: none;
 }
 
 .logo {
@@ -183,6 +187,7 @@ footer {
 
 .vision-container {
     height: 500px;
+    margin-top: 50px;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -190,7 +195,7 @@ footer {
 }
 
 .vision-header {
-    padding: 100px 0 100px 15px;
+    padding: 100px 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
