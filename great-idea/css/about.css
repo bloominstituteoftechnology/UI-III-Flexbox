@@ -106,8 +106,12 @@ a{
   color: white;
 }
 
+.navbar_top a:first-child {
+  padding-left: 10px;
+}
+
 .navbar_top a:last-child {
-  padding-left: 56px;
+  padding-left: 46px;
 }
 
 .logoIMG {
