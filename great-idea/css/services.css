@@ -70,7 +70,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .container nav { 
-	border: 1px solid red; 
 	display: flex; 
 	justify-content: space-between; 
 	padding: 15px; 
@@ -102,6 +101,8 @@ h1, h2, h3, h4, h5 {
 	display: flex; 
 	flex-wrap: wrap; 
 	justify-content: space-between; 
+	border-bottom: 2px solid black; 
+	padding-bottom: 30px; 
 }
 
 .container .content-box { 
@@ -120,16 +121,52 @@ h1, h2, h3, h4, h5 {
 	padding-bottom: 15px; 
 }
 
+.container .content-box p { 
+	padding-bottom: 15px; 
+}
+
 .container .content-box a { 
 	border: 1px solid black; 
+	text-align: center; 
 	background: #ffffff;
 	border-radius: 5px; 
-	width: 160px;
+	width: 120px;
 	height: 30px;  
-	padding-top: 5px;
+	padding-top: 7px;
 	padding-bottom: 5px;
 	padding-left: 30px; 
 	padding-right: 30px; 
 	text-decoration: none; 
 	color: black; 
+	font-size: 0.7em; 
+	
+}
+
+.container .bottom-header { 
+	display: flex; 
+	padding-top: 40px; 
+	justify-content: space-between; 
+}
+
+.container .bottom-header-left { 
+	display: flex; 
+	flex-direction: column; 
+	width: 400px; 
+	justify-content: flex-start; 
+}
+
+.container .bottom-header-left p { 
+	margin-bottom: 15px; 
+}
+
+.container .bottom-header-left ul { 
+	margin-left: 15px;
+	list-style-type: square; 
+	line-height: 1.5; 
+}
+
+.container .copyright { 
+	margin: 0 auto; 
+	text-align: center; 
+	padding-top: 50px; 
 }
