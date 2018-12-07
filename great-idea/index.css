@@ -35,7 +35,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-bottom: 15px;
 }
 
@@ -69,18 +69,19 @@ header .logo{
 	margin: 28px 0 0 91px;
 }
 
+/* Title, circle img, button*/
 .cta{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: right;
 }
 .cta img{
-	margin-top: 75px;
+	margin-top: 95px;
 }
 .cta .cta-text{
-	margin-left: 100px;
+	margin-left: 25px;
 	margin-top: 75px;
-	font-size: 70px;
+	font-size: 45px;
 	align-content: center;
 	text-align: center;
 }
@@ -100,7 +101,7 @@ header .logo{
 .main-content .top-content{
 	display: flex;
 	flex-direction: row;
-	margin-top: 20px;
+	margin-top: 150px;
 	margin-bottom: 20px;
 	border-top: 1px solid black;
 	padding-top: 30px;
@@ -108,7 +109,7 @@ header .logo{
 .main-content .bottom-content{
 	display: flex;
 	flex-direction: row;
-	margin-top: 20px;
+	margin-top: 70px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid black;
 	padding-bottom: 30px;
