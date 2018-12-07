@@ -194,3 +194,38 @@ footer {
 .services-header-img{
 	flex-grow:1;
 }
+.container-one {
+	margin-bottom: 10px;
+}
+
+.container-two {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	
+}
+.vertical-container-one{
+	display: flex;
+	border: 1px solid green;
+	flex-direction: column;
+	align-items: center;
+}
+.vertical-container-two{
+	display: flex;
+	border: 1px solid green;
+	flex-direction: column;
+	align-items: center;
+}
+.little-boxes {
+	width: 60%;
+	border: 1px solid black;
+	background-color: tan;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.learn-more {
+	border: 1px solid black;
+	align-self: justify;
+}
