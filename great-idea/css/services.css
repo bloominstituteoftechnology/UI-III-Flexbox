@@ -119,7 +119,7 @@ nav {
     border-bottom: 1px solid black;
     padding-top: 40px;
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -133,7 +133,7 @@ nav {
     flex-direction: column;
 }
 
-.middle-content a {
+.learn-more {
     border: 1px solid black;
     border-radius: 5px;
     text-decoration: none;

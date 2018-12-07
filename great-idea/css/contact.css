@@ -126,6 +126,12 @@ address,.contact-us, .vision {
     margin-top: 40px;
 }
 
+address {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;

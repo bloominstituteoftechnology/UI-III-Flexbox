@@ -153,6 +153,12 @@ nav {
 	margin-top: 40px;
 }
 
+address {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
 .copyright {
 	text-align: center;
 	margin-top: 50px;
