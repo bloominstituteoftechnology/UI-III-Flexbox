@@ -356,6 +356,7 @@ li {
 .aboutus-footer-container {
 	/* border: 1px solid red; */
 	display: flex;
+	height: 300px;
 }
 
 .aboutus-footer-left {
@@ -371,5 +372,6 @@ li {
 }
 
 .aboutus-footer-img {
-	/* border: 1px solid red; */
+	width: 49%;
+	height: 
 }
