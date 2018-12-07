@@ -70,7 +70,6 @@ h1, h2, h3, h4, h5 {
 	align-items: center;
 	width: 90%;
 	margin: 2rem auto;
-	border: 1px solid orange;
 }
 
 header {
@@ -84,13 +83,11 @@ header {
 	top: 0;
 	z-index: 2;
 	background: white;
-	border: 1px solid red;
 }
 
 header nav {
 	display: flex;
 	line-height: 36px;
-	border: 1px solid purple;
 }
 
 header nav a {
@@ -105,14 +102,6 @@ header nav a:hover {
 	text-decoration: underline;
 }
 
-header .logo {
-	/* margin-right: 0; */
-	border: 1px solid green;
-}
-
-header, nav, .logo {
-	/* height: 40px; */
-}
 
 section {
  margin: 3.125rem auto;
@@ -135,21 +124,18 @@ section {
 
 .banner-column {
 	flex: 0 0 50%;
-	/* border: 1px solid green; */
 }
 
 .banner #headline {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* padding: 4.68rem 0; */
 	text-align: center;
 	line-height: 1;
 }
 
 .banner #headline h1 {
-	font-size: 4rem;
-	
+	font-size: 4rem;	
 }
 
 .banner #headline .button {
@@ -213,11 +199,6 @@ img {
 }
 
 /* Services Page */
-.svc-section {
-	/* width: 1024px; */
-	/* margin: 0 auto; */
-}
-
 .services-intro {
 	display: flex;
 	flex-direction: column;
@@ -276,7 +257,6 @@ img {
 	}
 
 	header {
-		/* justify-content: space-around; */
 		justify-content: center;
 	}
 
@@ -312,9 +292,9 @@ img {
 		flex-direction: column;
 	}
 
-.product-and-services .p-and-s-column {
-	flex: 0 0 48%;
-}
+	.product-and-services .p-and-s-column {
+		flex: 0 0 48%;
+	}
 
 	.about-services {
 		flex-direction: column-reverse;
