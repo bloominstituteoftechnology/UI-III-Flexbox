@@ -95,6 +95,58 @@ header{
 	flex-direction: column;
 }
 
+.innovationDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.blockInn{
+    margin-left: 125px;
+    margin-top: 50px;
+}
+
+.innovation{
+    font-size: 75px;
+    text-align: center;
+    width: 75%;
+}
+
+.getStarted{
+    width: 160px;
+    margin-left: 57px;
+}
+
+.top-content{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.bottom-content{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+.product{
+    margin-right: 10px;
+}
+
+.vision{
+    margin-right: 10px;
+}
+
+.contact p{
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 h1{
     font-size: 24px;
     font-weight: bold;
