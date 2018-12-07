@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 90%;
 	margin: 2rem auto;
 	border: 1px solid orange;
@@ -115,6 +118,10 @@ section {
  line-height: 1.5;
 }
 
+.middle-image-wrapper {
+	width: 85%;
+}
+
 .banner {
 	display: flex;
 	justify-content: space-evenly;
@@ -122,6 +129,7 @@ section {
 	/* margin-top: 7.5rem; */
 	padding: 4rem 0;
 	border-bottom: 1px solid black;
+	
 }
 
 .banner-column {
@@ -140,6 +148,7 @@ section {
 
 .banner #headline h1 {
 	font-size: 4rem;
+	
 }
 
 .banner #headline .button {
@@ -159,7 +168,9 @@ img {
 }
 
 .introduction .intro-column {
-	width: 50%;
+	flex: 0 0 50%;
+	padding: 1rem 1rem 1rem 0;
+	border: 1px solid purple;
 }
 
 .middle-image-wrapper {
@@ -168,13 +179,17 @@ img {
 
 .product-and-services {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	padding: 0 0 2.5rem 0;
 	border-bottom: 1px solid black;
 	
 }
 
 .product-and-services .p-and-s-column {
-	width: 33%;
+	flex: 0 0 33%;
+	padding: 1rem 1rem 1rem 0;
+	border: 1px solid purple;
 }
 
 .contact-info {
@@ -254,6 +269,7 @@ img {
 
 
 /* Responsive Design */
+/* Medium Size Screens (Tablets) */
 @media only screen and (max-width: 768px) {
 	.banner {
 		flex-direction: column-reverse;
@@ -272,8 +288,19 @@ img {
 		flex-direction: column;
 	}
 
+.product-and-services .p-and-s-column {
+	flex: 0 0 48%;
+}
+
 	.about-services {
 		flex-direction: column-reverse;
 		align-items: center;
+	}
+}
+
+/* Small Screens (Mobile Phones) */
+@media only screen and (max-width: 568px) {
+	.introduction, .product-and-services {
+		flex-direction: column;
 	}
 }
