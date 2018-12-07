@@ -55,19 +55,31 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    font-weight: 560;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: 26px;
+} 
+
+h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+p {
+    line-height: 20px;
+}
+
+/* Code Begin */
 
 .container {
-	width: 876px;
-	margin: 0px auto;
+    width: 880px;
+    margin: 0px auto;
 }
 
 .nav-content {
@@ -86,71 +98,32 @@ nav {
 .nav-button {
 	text-decoration: none;
     color: grey;
-	transition: transform 0.4s;
+    transition: transform 0.4s;
 }
 
 .nav-button:hover {
 	transform: scale(1.2);
 }
 
-.call-to-action {
-	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 60px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.cta-text {
-	text-align: center;
-	align-self: center;
-	width: 100%;
-}
-
-.innovation {
-	font-size: 80px;
-	margin-bottom: 15px;
-}
-
-.get-started a {
-	text-decoration: none;
-	border: 1px solid black;
-	padding-left: 35px;
-	padding-right: 35px;
-	color: black;
-}
-
-.get-started {
-	transition: 1s
-}
-
-.get-started:hover {
-	transform: scale(1.5);
-}
-
 .top-content {
-	border-top: 1px solid black;
-	display: flex;
-	padding-top: 35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-.middle-img {
-	padding-top: 35px;
-	padding-bottom: 35px;
+.contact-us {
+    width: 45%;
 }
 
-.bottom-content {
-	border-bottom: 1px solid black;
-	padding-bottom: 45px;
-	display: flex;
+.vision {
+    width: 35%;
 }
 
-.services, .product {
-	margin-right: 13.6px;
-}
-
-.contact {
-	margin-top: 40px;
+address,.contact-us, .vision {
+    margin-top: 40px;
 }
 
 address {
@@ -159,9 +132,38 @@ address {
     align-content: space-between;
 }
 
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid black; 
+    border-radius: 4px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-form {
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
 .copyright {
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 40px;
-	font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
