@@ -84,11 +84,19 @@ h1, h2, h3, h4, h5 {
 	/* border: 1px solid blue; */
 }
 
-a {
+.buttons a {
 	justify-content: space-between;
 	text-decoration: none;
 	color: lightgray;
 	/* border: 1px solid blue; */
+}
+
+a:hover {
+	opacity: 1;
+	opacity: 0.8;
+    transition: 0.3s;
+    background-color: lightblue;
+    color: black;
 }
 
 .logo {
@@ -139,6 +147,12 @@ span {
 	padding-right: 25px;
 	width: 40%;
 	margin-top: 10px;
+}
+
+.get-started a {
+	text-decoration: none;
+	color: black;
+  	transition: 0.3s;
 }
 
 .code-pic {
