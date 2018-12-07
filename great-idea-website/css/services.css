@@ -102,38 +102,43 @@ margin-bottom: 15px;
    color: white;
 }
 .logoImg {
-   margin-top: 20px;
-   height: 40px;
+   margin-top: 27px;
+   height: 27px;
 }
 
 
 .description{
    display: flex;
    flex-direction: column;
-   text-align: center;
-   padding: 50px;
+   text-align: flex-start;
+   margin: 0 auto;
    border-bottom: solid black;
 }
-.servicesHeader {
-   width: 100%;
-   padding: 30px;
-}
+
 .headerDesc {
    display: flex;
-   flex-direction: column;
-   text-align: start;
-   font-size: 30px;
+   flex-direction: row;
+   justify-content: start;
+  margin: 20px;
 }
 
-.headerP {
-   width: 800px;
-   font-size: 20px;
+.headP {
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   width: 600px;
+   margin: 20px;
 }
 
 h1 {
    font-size: 40px;
 }
 
+.box{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
 .main {
    display: flex;
    flex-direction: column;

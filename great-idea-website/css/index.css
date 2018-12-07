@@ -103,13 +103,28 @@ h1, h2, h3, h4, h5 {
     color: white;
  }
 .logoImg {
-    margin-top: 20px;
-    height: 40px;
+  margin-top: 27px;
+  height: 27px;
 }
 
 
-.services-header-img {
-  width: 100%;
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.headerDesc {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.headP {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: start ;
 }
 
 .frontTitle {   
