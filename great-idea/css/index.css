@@ -1,66 +1,101 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+<!doctype html>
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
+  <title>Great Idea!</title>
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+  <body>
+
+      <div class = "container">
+        <nav class= 'navigation'>  
+          
+            <a href = "services.html">Services</a>
+            <a href = "products.html">Product</a>
+            <a href = "#">Vision</a>
+            <a href = "#">Features</a>
+            <a href = "#">About</a>
+            <a href = "#">Contact</a>
+          
+             <a href = "index.html">
+<img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+</a>   
+        </nav>
+      
+        
+        <header class= "header"> 
+          <div>
+            <h1>Innovation </br>
+            On </br>
+            Demand
+            </h1>
+            <button>Get Started</button>
+          </div>
+          
+          <img src="img/header-img.png" alt="Image of a code snippet.">
+        </header>
+        
+        <div id= 'lineThing'></div>
+        
+        <section class= "top-section">
+          <div class= 'div1'>
+          <h2>Features</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis. </p>
+          </div>
+          
+          <div>
+          <h2>About</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+          </div>
+        </section>
+        
+        <div id= 'image'>
+        <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+        </div>
+        
+        <section class = "bottom-section">
+          
+          <div id= 'div2'>
+          <h2>Services</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+          </div>
+        
+          <div>
+          <h2>Product</h2>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+          </div>
+        
+          <div id= 'div3'>
+          <h2>Vision</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </div>
+        </section>
+        
+        <section class= 'contact'>
+          <div></div>
+          <h2>Contact</h2>
+          <address>123 Way 456 Street </br>
+          Somewhere, USA</address>
+          <p>1 (888) 888-8888</p>
+          <p>sales@greatidea.io</p> 
+        </section>
+        
+        
+        
+        <footer class= 'footer'>
+          <p>Copyright Great Idea! 2018</p>
+        </footer>
+        </div>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,365 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+/* Navigation */
+
+.navigation {
+width: 876px;
+display: flex;
+justify-content: space-between; 
+margin-bottom: 20px;
+margin-top: 20px;
+font-weight: bold;
+/* border: 1px solid red; */
+}
+
+a {
+	text-decoration: none;
+	margin-right: 65px;
+	display: flex;
+	align-items: flex-end; 
+	color: grey;
+	text-decoration: none;
+}
+
+.logo {
+	display: flex;
+}
+
+/* Header */
+
+h1 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+/* Main */
+#linething {
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 870px;
+}
+
+.main div {
+    height: 250px;
+    width: 425px; 
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(238, 229, 238);
+}
+
+.main button {
+    /* display: flex; */
+    justify-content: center;
+	margin-top: 10px;
+	background-color: white;
+	border: 1px solid black;
+	height: 40px;
+    width: 130px;
+    border-radius: 4px;
+}
+
+.main p {
+    line-height: 20px;
+}
+
+/* BOTTOM */
+
+#linethingy {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bottom {
+    display: flex;
+    line-height: 20px;
+}
+
+.bottom ul {
+    margin-left: 20px;
+    list-style: square;
+    /* margin-top: 50px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 30px;
+
+}
+.bottom div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.bottom p {
+    width: 425px;
+    margin-right: 40px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+/* Navigation */
+
+.navigation {
+width: 876px;
+display: flex;
+justify-content: space-between; 
+margin-bottom: 20px;
+margin-top: 20px;
+font-weight: bold;
+/* border: 1px solid red; */
+}
+
+a {
+	text-decoration: none;
+	margin-right: 65px;
+	display: flex;
+	align-items: flex-end; 
+	color: grey;
+	text-decoration: none;
+}
+
+.logo {
+	display: flex;
+}
+
+/* Header */
+
+h1 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+/* Main */
+#linething {
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 870px;
+}
+
+.main div {
+    height: 250px;
+    width: 425px; 
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(238, 229, 238);
+}
+
+.main button {
+    /* display: flex; */
+    justify-content: center;
+	margin-top: 10px;
+	background-color: white;
+	border: 1px solid black;
+	height: 40px;
+    width: 130px;
+    border-radius: 4px;
+}
+
+.main p {
+    line-height: 20px;
+}
+
+/* BOTTOM */
+
+#linethingy {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bottom {
+    display: flex;
+    line-height: 20px;
+}
+
+.bottom ul {
+    margin-left: 20px;
+    list-style: square;
+    /* margin-top: 50px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 30px;
+
+}
+.bottom div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.bottom p {
+    width: 425px;
+    margin-right: 40px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
