@@ -4,7 +4,7 @@ Tech: HTML, CSS, Flexbox.
 Lambda School. 
 
 ## View the Index Page of Project
-1. <a href="https://aaharbaugh.github.io/UI-III-Flexbox/index.html">Click here</a>
+1. <a href="https://aaharbaugh.github.io/UI-III-Flexbox/test/test.txt">Click here</a>
 
 For full effect: 
 Check out the navbar + buttons
