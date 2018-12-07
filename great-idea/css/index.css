@@ -221,7 +221,9 @@ nav {
 
 
 
-.button {
+.button1 {
+
+  border: 1px solid black;
 
 }
 
@@ -229,51 +231,46 @@ nav {
 
 }
 
-.bio {
 
+
+.bio {
+	margin-top: 30px;
 
 }
 
 .major {
-  border: 1px dashed red;
-}
-
-.design {
-  border: 1px solid black;
-}
-
-.ui {
-  border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 
 }
-.marketing {
-  border: 1px solid black;
+
+.box {
+	border: 2px solid black;
+	width: 43%;
+	padding: 10px 5px 10px 5px;
+	margin: 20px;
+	background-color: #f4f3f4;
 }
 
-.web {
-  border: 1px solid black;
+.foot {
+	display:flex;
+	flex-direction: row;
 }
-
-.ios {
-  border: 1px solid black;
-}
-
-.andriod {
-  border: 1px solid black;
-}
-
 .fun-facts {
-
 }
 
-.fun-facts ul li {
 
-}
 
 .services-info-img {
-
+	margin-top: 15px;
+	padding: 25px;
 }
 
 .bottom {
-
+	width: auto;
+	margin-top: 50px;
+  padding: 25px;
+  margin: 0;
+	text-align: center;
 }
