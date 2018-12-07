@@ -69,7 +69,9 @@ h5 {
 }
 
 /* Your code starts here! */
-
+.container{
+	display: flex;
+}
 body {
 	width: 876px;
 	height: 1000px;
@@ -80,6 +82,10 @@ body {
 header {
 	height: 30px;
 	margin: 20px 0 0;
+}
+
+.container{
+	display: flex;
 }
 
 nav { 

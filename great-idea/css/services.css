@@ -107,8 +107,7 @@ header > nav > a {
     color: lightgray;
 }
 
-.logo {
-    margin: 15px;
+header > nav > a > .logo {
     width: 183px;
     height: 36px;
     position: 2;
