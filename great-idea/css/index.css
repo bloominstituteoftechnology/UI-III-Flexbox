@@ -90,6 +90,7 @@ header {
 header nav {
 	display: flex;
 	line-height: 36px;
+	border: 1px solid purple;
 }
 
 header nav a {
@@ -106,10 +107,11 @@ header nav a:hover {
 
 header .logo {
 	/* margin-right: 0; */
+	border: 1px solid green;
 }
 
 header, nav, .logo {
-	height: 40px;
+	/* height: 40px; */
 }
 
 section {
@@ -272,9 +274,23 @@ img {
 	section {
 		margin: 2rem auto;
 	}
+
+	header {
+		/* justify-content: space-around; */
+		justify-content: center;
+	}
+
+	header nav a {
+		margin: 0 2rem 0 0;
+	}
 }
 
 @media only screen and (max-width: 768px) {
+		header {
+			flex-direction: column-reverse;
+			padding: 0;
+	}
+
 	section {
 		margin: 1.5rem auto;
 	}
@@ -307,9 +323,15 @@ img {
 
 /* Small Screens (Mobile Phones) */
 @media only screen and (max-width: 568px) {
+	header nav a {
+		margin: 0 0.5rem 0 0;
+		font-size: .75rem;
+	}
+
 	section {
 		margin: 1rem auto;
 	}	
+
 	.introduction, .product-and-services {
 		flex-direction: column;
 	}
