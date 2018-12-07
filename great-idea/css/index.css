@@ -65,15 +65,36 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+@media all and (max-width: 600px)
+{
+  /* .boxesContainer{ 
+	  display: flex; 
+	flex-direction: column;
+		} */
+   /* .SVsection1, .SVsection2, .SVsection3
+   {
+	   display: flex;
+	   flex-direction: column;
+   } */
+
+   .SVmain1, .SVmain2, .SVmain3, .SVmain4, 
+   .SVmain5, .SVmain6 {
+		   display: block;
+		   float: none;
+		   width: 100%;
+		   background-color: pink;
+   }
+}
+
 body{
-	width:800px;
+	width:100%
 	display: flex;
 	margin: 0 auto;
 }
 
 .container{
 	/* border: 1px solid red; */
-	width: 800px;
+	width: 100%
 	margin:0 auto;
 	/* display: flex;
 	justify-content: center; */
