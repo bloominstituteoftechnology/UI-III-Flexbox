@@ -1,0 +1,145 @@
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+
+.container {width: 880px;
+	margin: 0 auto; 
+	
+	}
+	header{
+		display: flex;
+		flex-direction: row;
+		
+		
+	}
+	header nav{
+	display: flex;
+	width: 625px;
+	 margin-top: 65px;
+	 justify-content: space-between;
+	 
+
+}
+header nav a{
+	text-decoration: none;
+	color: gray;
+	
+	
+}
+header .logo{
+	align-self: flex-end;
+	margin: 28px 0 0 91px;
+}
+
+/* Title, circle img, button*/
+.cta{
+	display: flex;
+	justify-content: space-between;
+	align-items: right;
+}
+.cta img{
+	margin-top: 95px;
+	width: 425px
+}
+.cta .cta-text{
+	margin-left: 25px;
+	margin-top: 75px;
+	font-size: 45px;
+	align-content: center;
+	text-align: center;
+}
+.cta .cta-text button{
+	background: white;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	margin-top: 6px;
+	padding: 8px 44px;
+}
+
+/*Main content in the middle */
+.main-content{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.main-content .top-content{
+	display: flex;
+	flex-direction: row;
+	margin-top: 150px;
+	margin-bottom: 20px;
+	border-top: 1px solid black;
+	padding-top: 30px;
+}
+.main-content .bottom-content{
+	display: flex;
+	flex-direction: row;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+
+/* footer */
+} .contact{
+	margin-top: 57px;
+	padding: 39px 10px 0;
+}
+.contact p{
+	margin: 20px 0;
+}
+footer{
+	margin: 32px 0;
+	text-align: center;
+	font-size: 184px;
+}
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
