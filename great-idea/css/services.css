@@ -198,6 +198,10 @@ ul {
     list-style-position: inside;
 }
 
+ul li {
+    padding: 5px;
+}
+
 .copyright {
     display: flex;
     justify-content: center;
