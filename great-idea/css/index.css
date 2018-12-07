@@ -128,7 +128,6 @@ section {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	/* margin-top: 7.5rem; */
 	padding: 4rem 0;
 	border-bottom: 1px solid black;
 	
@@ -222,6 +221,7 @@ img {
 .services-intro {
 	display: flex;
 	flex-direction: column;
+	padding-top: 4rem;
 }
 
 .services-list {
@@ -286,7 +286,7 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-		header {
+	header {
 			flex-direction: column-reverse;
 			padding: 0;
 	}
@@ -297,6 +297,7 @@ img {
 	.banner {
 		flex-direction: column-reverse;
 		padding: 2rem 0;
+		padding-top: 4rem;
 	}
 
 	.banner #hero-image-wrapper {
