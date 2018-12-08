@@ -1,4 +1,4 @@
-### Stage Link: https://itelsunday.github.io/UI-III-Flexbox/
+#### Stage Link: https://itelsunday.github.io/UI-III-Flexbox/great-idea/
 
 # User Interface Project II: Great Idea Web Page With Flexbox
 
