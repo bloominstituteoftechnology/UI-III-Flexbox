@@ -156,10 +156,9 @@ header {
 	margin-bottom: 40px;
 }
 
-/* TODO Features section-specify flex items width */
-
 .feature-wrapper {
 	padding-right: 20px;
+	width: 50%;
 }
 
 .middle-img {
@@ -174,6 +173,7 @@ header {
 
 .service-wrapper {
 	padding-right: 10px;
+	width: 33.4%;
 }
 
 /* Below: service page
