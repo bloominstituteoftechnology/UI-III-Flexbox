@@ -98,7 +98,7 @@ h1 {
 	margin: 60px 0px 0px 58px;
 }
 
-.mid-above-pic, .mid-below-pic {
+.mid-above-pic, .mid-below-pic, .footer {
 	display: flex;
 }
 
@@ -109,7 +109,7 @@ h1 {
 }
 
 .mid-below-pic {
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	margin: 40px 0px 0px 0px;
 }
 
@@ -128,9 +128,21 @@ h1 {
 	/* border: 1px solid orange;	 */
 }
 
+.address {
+	margin: 95px 0px 0px 0px;
+}
 
-
-/* .mid-below-pic {
+.copyright {
+	border: 1px solid brown;
 	display: flex;
-	
-} */
+	margin: 0px 194px 5px 194px;
+	justify-content: center;
+	align-items: flex-end;
+	width: 200px;
+	font-size: 14px;
+}
+
+.footer {
+	border: 1px solid orange;
+	height: 312px;
+}
