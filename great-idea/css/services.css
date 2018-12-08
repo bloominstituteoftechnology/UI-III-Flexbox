@@ -63,6 +63,12 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+/* MEDIA QUERY */
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
 /* NAV */
 .container1{
 	display:flex;
