@@ -1,27 +1,27 @@
 * {
     box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
+    /* margin: 0 auto;
+    padding: 0; */
  }
   
- html, body {
+html, body {
     font-family: 'Titillium Web', sans-serif;
  }
   
- .container {
+.container {
     margin: auto;
     width: 1000px;
-  /*   display: flex; */
+    display: flex;
  }
   
- h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 2px;
     margin-bottom: 20px;
  }
    
   
- body {
+body {
     width: 900px;
     height: 1000px;
     margin: auto;
@@ -35,13 +35,13 @@ p {
     margin-inline-end: 0px;
 }
   
- header {
+header {
     height: 30px;
     padding: 0;
     display: flex;
- }
+}
   
- .searchbar {
+.searchbar {
     display: flex;
     height: 30px;
     margin: 0;
@@ -49,9 +49,9 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
- }
+}
   
- .logo {
+.logo {
     display: flex;
     height: 30px;
     margin: 0;
@@ -60,68 +60,75 @@ p {
     justify-content: flex-end;
     align-items: flex-start;
     position: relative;
- }
+}
   
- nav>a {
+nav>a {
     text-decoration: none;
     color: silver;
     margin-left: 50px;
- }
+}
   
- nav {
+nav {
     width: 750px;
- }
+}
   
- nav>a {
+nav>a {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: space-between;
  }
   
- header>img {
+header>img {
     width: 100px;
     height: 30px;
     padding-left: 400px;
- }
+}
 
- .content {
+.content {
     padding: 0;
+    margin: 0;
+    display: flex;
   }
 
-  .title {
-      border-bottom: 1px solid black;
-      height: 100px;
-      width: inherit;
-      display: block;
-  }
+.title {
+    border-bottom: 1px solid black;
+    height: 100px;
+    width: inherit;
+    display: block;
+}
 
-  button {
-      border: 1px solid black;
-      text-color: black;
-      padding: 10px;
-      background-color: #e5e5e5;
-      margin-top: 10px;
-  }
-
-  .content-row-one, .content-row-two, .content-row-three {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-     }
-
-  #digital-design, #user, #digital-marketing, #web-development, #ios-development, #android {
-    width: 500px;
-    height: 100%;
+.content-block {
+    align-self: center;
+    width: 375px;
+    height: 200px;
     padding: 10px;
     border: 1px solid black;
     background-color: #b2b2b2;
     margin: 20px;
-  }
+    display: flex;
+    flex-direction: row;
+}
 
-  .about {
+
+button {
+    border: 1px solid black;
+    text-color: black;
+    padding: 10px;
+    background-color: #e5e5e5;
+    margin-top: 10px;
+}
+
+.content-row-one, .content-row-two, .content-row-three {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.about {
     float: left;
-    width: 500px;
+    width: 300px;
     height: 100%;
   }
 
