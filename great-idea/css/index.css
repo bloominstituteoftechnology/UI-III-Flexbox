@@ -63,9 +63,16 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+.mid-above-pic {
+	/* border: 1px solid green; */
+	margin: 120px 0px 0px 0px;
+}
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-body {
-	margin: 0px 200px 0px 200px;
+.container {
+	margin: 0px 194px 0px 194px;
+	height: 1430px;
+	border: 1px solid red;
 }
 
 .nav {
@@ -88,7 +95,7 @@ nav a {
 
 h1 {
 	font-size: 80px;
-	margin-top: 63px;
+	margin: 60px 0px 0px 58px;
 }
 
 .mid-above-pic, .mid-below-pic {
@@ -96,14 +103,29 @@ h1 {
 }
 
 .mid-img {
-	display: flex;
-	justify-content: center;
+	margin: 40px 0px 0px 0px;
+	/* display: flex; */
+	/* justify-content: center; */
+}
+
+.mid-below-pic {
+	border: 1px solid purple;
+	margin: 40px 0px 0px 0px;
 }
 
 .top-left-section, .mid-above-pic-left, .mid-above-pic-right, .mid-below-pic-left, .mid-below-pic-middle, .mid-below-pic-right {
 	display: flex;
 	flex-direction: column; 
-	align-items: center;
+}
+
+.top-left-section {
+	text-align: center;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid orange;	 */
 }
 
 
