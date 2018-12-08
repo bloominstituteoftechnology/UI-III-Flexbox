@@ -474,6 +474,7 @@ div.main-conteiner {
 	width: 950px;
 }
 
+/* ---- Contact page /header/ ----- */
 div.header-img-contact {
 	width: 100%;
 	margin-top: 78px;
@@ -487,7 +488,7 @@ div.header-img-contact {
 }
 
 
-/* ---- main content ----- */
+/* ---- Contact page /main content/ ----- */
 div.content-contact {
 	width: 100%;
 	margin: 0 auto;
@@ -500,7 +501,6 @@ div.content-contact {
 
 div.content-contact > div.contact-left {
 	margin: 0;
-	/* display: flex; */
 	padding: 0;
 	width: 50%;
 	border: 1px solid black;
@@ -511,15 +511,12 @@ div.content-contact > div.contact-left {
 .contact-header {
 	padding: 0;
 	align-self: flex-start;
-	/* font-size: 45px; */
 	display: flex;
 	align-items: center;
-	/* flex-direction: column; */
 }
 
 .contact-header > p.contact-header-right {
 	font-size: 30px;
-	/* font-weight: bold; */
 	padding: 10px;
 	font-family: 'Bangers', cursive;
 }
@@ -527,7 +524,12 @@ div.content-contact > div.contact-left {
 .contact-header > p.contact-header-left {
 	font-size: 70px;
 	font-family: 'Bangers', cursive;
-	/* font-weight: bold; */
+}
+
+div.content-contact > div.contact-left > p.contact-us {
+	font-family: "Titillium Web", sans-serif;
+	font-size: 14px;
+	margin-bottom: 25px;
 }
 
 div.content-contact > div.contact-left > div {
@@ -540,12 +542,30 @@ div.content-contact > div.contact-left > div {
 div.content-contact > div.contact-left > div:not(.contact-header) {
 	font-size: 18px;
 	font-family: "Titillium Web", sans-serif;
+	display: flex;
+	align-items: center;
+}
+
+div.content-contact > div.contact-left > div:not(.contact-header) > img {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 5px;
+	background-color: white; 
+}
+
+div.content-contact > div.contact-left > div:not(.contact-header) > p {
+	padding-left: 10px;
+}
+
+div.content-contact > div.contact-left >iframe {
+	margin-top: 15px;
 }
 
 
 div.content-contact > div.contact-right {
 	margin: 0;
-	/* display: flex; */
 	padding: 0;
 	width: 50%;
 	border: 1px solid black;
@@ -575,8 +595,8 @@ p.privacy-policy > a:hover {
 
 .terms-agreement {
 	margin-top: 10px;
-	/* line-height: 0.4em; */
 }
+
 div.content-contact > div.contact-right > p.privacy-policy {
 	font-size: 12px;
 	width: 316px;
@@ -609,6 +629,15 @@ div.terms-agreement > p {
 button.send-message {
 	padding: 5px 25px;
 	border-radius: 5px; 
+}
+
+footer.contact-footer {
+	margin-top: 15px;
+	/* height: 20px; */
+}
+
+footer.contact-footer > p.copyright {
+	margin-top: 0;
 }
 
 
