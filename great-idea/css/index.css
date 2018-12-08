@@ -121,6 +121,7 @@ hr {
 	margin: 0 2.5%;
 }
 
+<<<<<<< HEAD
 /* mobile responsiveness */
 @media screen and (max-width: 640px) {
 	.navBar, .navBar ul {
@@ -139,6 +140,111 @@ header {
 	/* border: 1px solid orange; */
 	position: relative;
 	padding: 90px 0 460px 0;
+=======
+/***** index.html page ******/
+
+/****** header ******/
+header {
+	/* border: 1px solid orange; */
+	position: relative;
+	padding: 90px 0 460px 0;
+}
+
+header h1 {
+	font-size: 72px;
+	width: 25%;
+	left: 146px;
+	top: 160px;
+	position: absolute;
+	padding-right: 40px;
+	text-align: center;
+}
+
+.headerImage {
+	width: 40%;
+	right: 75px;
+	position: absolute;
+	padding-left: 40px;
+}
+
+.button {
+/* padding: 5px 38px; */
+/* border: 1px solid black; */
+display: inline;
+position: absolute;
+left: 160px;
+top: 400px;
+font-size: 17.5px;
+}
+
+.button a {
+	text-decoration: none;
+	border: 1px solid green;
+	color: green;
+	padding: 5px 38px;
+}
+
+.button a:hover {
+	color: #0070d2;
+	border-color: #0070d2;
+}
+
+/****** information section ******/
+.info {
+	/* border: 1px solid red; */
+	/* border-top: 1px solid black; */
+	/* border-width: 10px; */
+	padding: 30px 0;
+	display: flex;
+}
+
+.information {
+	width: 45%;
+	padding-left: 70px;
+	/* margin: 10px; */
+	/* display: flex; */
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+/****** body image ******/
+.bodyImage img {
+	width: 100%;
+	padding: 0 70px;
+}
+
+/****** additional information section ******/
+.additionalInfo {
+	padding: 40px 70px;
+}
+
+.extraInfo {
+	width: 30%;
+	display: inline-block;
+	margin-right: 27px;
+}
+
+
+/****** contact section ******/
+.contact {
+	padding: 30px 0 0 70px;
+}
+
+/****** footer ******/
+footer {
+	padding: 60px 0 114px 0;
+}
+
+footer p {
+	text-align: center;
+}
+
+.visionSection p{
+	width: 50%;
+	display: inline-block;
+>>>>>>> 7e89bb962cd0c3fa9a2662026de1261a781b36ef
 }
 
 header h1 {
@@ -254,15 +360,21 @@ footer p {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 20px 0;
+<<<<<<< HEAD
 	/* height: 100vh; */
 	/* width: 50%; */
 	flex-direction: row;
+=======
+	margin: 20px 0;
+	/* justify-content: center; */
+>>>>>>> 7e89bb962cd0c3fa9a2662026de1261a781b36ef
 }
 
 .differentServices {
 	width: 45%;
 	background: lightgrey;
 	border: 1px solid black;
+<<<<<<< HEAD
 	padding: 20px;
 	margin-right: 2.5%;
 	margin-left: 2.5%;
@@ -278,6 +390,10 @@ footer p {
 		flex-direction: column;
 		/* flex-wrap: nowrap; */
 	}
+=======
+	padding: 25px;
+	margin: 1% 2.5%;
+>>>>>>> 7e89bb962cd0c3fa9a2662026de1261a781b36ef
 }
 
 .learnBtn {
@@ -286,12 +402,13 @@ footer p {
 	border-radius: 5%;
 	padding: 10px 50px;
 	margin: 15px;
-	width: 150px;
 	text-align: center;
+	display: inline-block;
 }
 
 .learnBtn a {
 	text-decoration: none;
+	color: black;
 }
 
 /****** facts area ******/
