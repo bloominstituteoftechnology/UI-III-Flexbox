@@ -114,8 +114,9 @@ h1{
 	background-color:	#DFDFDF;
 	padding: .5em;
 	border: black 1px solid;
-	margin-top: .75em;
-	margin-bottom: .75em;
+	
+	margin-bottom: 2em;
+	height: 190px;
 }
 
 
@@ -146,7 +147,7 @@ h1{
 	justify-content: space-between;
 	width: 95%;
 	margin: auto;
-
+	margin-top: 1.5em;
 	height: 200px;
 }
 
@@ -166,7 +167,7 @@ h1{
 	justify-content: space-between;
 	width: 95%;
 	margin: auto;
-	height: 200px;
+	margin-top: 1.5em;
 }
 
 .ios{
@@ -185,7 +186,7 @@ h1{
 	width: 95%;
 	margin: auto;
 	margin-top: 1em;
-	padding-top: 1.5em;
+	padding-top: 2em;
 	border-top: black 1px solid;
 	height: 300px;
 }
