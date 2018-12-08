@@ -1,4 +1,4 @@
-# User Interface Project 2: Great Idea Web Page
+# User Interface Project 3: Great Idea Web Page
 Tech: Flexbox. 
 
 Lambda School. 
