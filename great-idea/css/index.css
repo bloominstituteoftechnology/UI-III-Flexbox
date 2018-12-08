@@ -187,7 +187,6 @@ footer {
 }
 .container-one {
 	margin-bottom: 10px;
-	border:  1px solid red;
 	width: 95%;
 	border-bottom: 1px solid black;
 	margin: 0 auto;
@@ -196,7 +195,6 @@ footer {
 }
 .container-one h1 {
 	align-self: flex-start;
-	border: 1px solid red;
 	width: 10%;
 }
 
@@ -204,7 +202,6 @@ footer {
 	display: flex;
 	flex-direction: row;
 	border-bottom: 1px solid black;
-	margin-bottom: 30px;
 	width: 95%;
 	margin: 0 auto;
 }
