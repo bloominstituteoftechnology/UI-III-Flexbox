@@ -65,19 +65,23 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/********************* GENERAL STYLES *********************/
 :root {
 	--border: 1px solid red;
 }
 
 .container {
+	max-width: 100%;
 	width: 1200px;
 	margin: 0 auto;
+	height: 100vh;
 	/* border: var(--border); */
 }
 
 hr {
 	width: 95%;
 }
+
 .navBar {
 	display: flex;
 	/* border: var(--border); */
@@ -99,7 +103,8 @@ hr {
 .navBar nav ul li a {
 	text-decoration: none;
 	color: black;
-	padding: 25px;
+	padding: 10px 20px;
+	transition: all 0.5s ease;
 }
 
 .navBar nav ul li a:hover {
@@ -116,12 +121,119 @@ hr {
 	margin: 0 2.5%;
 }
 
-/* index.html page */
+/* mobile responsiveness */
+@media screen and (max-width: 640px) {
+	.navBar, .navBar ul {
+		flex-direction: column;
+	}
+
+	.navBar li {
+		margin: 0 0 20px 0;
+	}
+}
+
+/********************* INDEX PAGE *********************/
+
+/****** header ******/
+header {
+	/* border: 1px solid orange; */
+	position: relative;
+	padding: 90px 0 460px 0;
+}
+
+header h1 {
+	font-size: 72px;
+	width: 25%;
+	left: 146px;
+	top: 160px;
+	position: absolute;
+	padding-right: 40px;
+	text-align: center;
+}
+
+.headerImage {
+	width: 40%;
+	right: 75px;
+	position: absolute;
+	padding-left: 40px;
+}
+
+.button {
+/* padding: 5px 38px; */
+/* border: 1px solid black; */
+display: inline;
+position: absolute;
+left: 160px;
+top: 400px;
+font-size: 17.5px;
+}
+
+.button a {
+	text-decoration: none;
+	border: 1px solid green;
+	color: green;
+	padding: 5px 38px;
+}
+
+.button a:hover {
+	color: #0070d2;
+	border-color: #0070d2;
+}
+
+/****** information section ******/
+.info {
+	/* border: 1px solid red; */
+	/* border-top: 1px solid black; */
+	/* border-width: 10px; */
+	padding: 30px 0;
+}
+
+.information {
+	width: 45%;
+	padding-left: 70px;
+	/* margin: 10px; */
+	display: flex;
+}
+
+/****** body image ******/
+.bodyImage img {
+	width: 100%;
+	padding: 0 70px;
+}
+
+/****** additional information section ******/
+.additionalInfo {
+	padding: 40px 70px;
+}
+
+.extraInfo {
+	width: 30%;
+	display: flex;
+	margin-right: 27px;
+}
 
 
+/****** contact section ******/
+.contact {
+	padding: 30px 0 0 70px;
+}
+
+/****** footer ******/
+footer {
+	padding: 60px 0 114px 0;
+}
+
+footer p {
+	text-align: center;
+}
+
+.visionSection p{
+	width: 50%;
+	display: flex;
+}
 
 
-/* services.html page */
+/********************* SERVICES PAGE *********************/
 
 /****** serivces info ******/
 .servicesInfo {
@@ -142,7 +254,9 @@ hr {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 20px 0;
-	/* justify-content: center; */
+	/* height: 100vh; */
+	/* width: 50%; */
+	flex-direction: row;
 }
 
 .differentServices {
@@ -152,6 +266,18 @@ hr {
 	padding: 20px;
 	margin-right: 2.5%;
 	margin-left: 2.5%;
+	margin-bottom: 2.5%;
+	margin: 0 2.5% 2.5% 2.5%;
+	/* align-content: center; */
+	/* justify-content: center; */
+}
+
+/* mobile responsiveness */
+@media screen and (max-width: 700px) {
+	.services {
+		flex-direction: column;
+		/* flex-wrap: nowrap; */
+	}
 }
 
 .learnBtn {
@@ -191,4 +317,152 @@ hr {
 /****** footer ******/
 footer {
 	text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+	.services {
+		flex-direction: column;
+		align-items: center;
+		/* padding: 0 0 20px 0; */
+	}
+
+	.facts {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+/********************** CONTACT PAGE **********************/
+.contactWrapper {
+	max-width: 800px;
+	margin: 50px auto;
+	padding: 40px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	/* border: var(--border); */
+}
+
+.contactWrapper h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-size: 35px;
+}
+
+.address {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.inner-address p {
+	font-size: 18px;
+}
+
+.inner-address .fas {
+	font-size: 30px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.form-title {
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.input-form {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	/* border: var(--border); */
+}
+
+.inner-msg {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.input > input {
+	/* border: 0; */
+	width: 260px;
+	padding: 10px 20px;
+	outline: none;
+}
+
+.msg > textarea {
+	width: 100%;
+	/* border: 0; */
+	padding: 10px 20px;
+	height: 80px;
+	outline: none;
+}
+
+.msgBtn {
+	border: 2px solid #000;
+	padding: 20px 30px;
+	cursor: pointer;
+	background: black;
+	color: #fff;
+	transition: all 0.5 ease;
+}
+
+.msgBtn:hover {
+	background: grey;
+	border: 1px solid grey;
+}
+
+.socialMedia {
+	/* border: var(--border); */
+	display: flex;
+	justify-content: center;
+}
+
+.socialMedia .fab {
+	font-size: 30px;
+	margin: 0 20px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	background: #fff;
+	color: #000;
+}
+
+.fab:hover {
+	color: grey;
+}
+
+/* mobile responsiveness for contact page */
+@media screen and (max-width: 640px) {
+
+	.contactWrapper {
+
+	}
+
+	.input-form {
+		flex-direction: column;
+	}
+
+	.input:first-child > input {
+		margin-bottom: 20px;
+	}
+
+	.form .input > input {
+		width: 100%;
+	}
+
+	.address,
+	.socialMedia {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.inner-address, .inner-social {
+		margin: 0 0 20px 0;
+	}
 }
