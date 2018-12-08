@@ -9,27 +9,48 @@
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="services.html">Services</a></li>
-      <li>Product</li>
-      <li>Vision</li>
-      <li>Features</li>
-      <li>About</li>
-      <li>Contact</li>
-    </ul>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Vision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <ul>
+        <li><img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></li>
+      </ul>
+    </div>
   </nav>
-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-  <section id="header-section">
+
+  <section class="container">
     <header>
-      <h1>Innovation
+      <h1 class="text-center displa-4">Innovation
         On
         Demand</h1>
       <button>Get Started</button>
@@ -38,14 +59,14 @@
   </section>
   <hr>
 
-  <section id="section1">
-    <div class="features">
+  <section class="container row">
+    <div class="column">
       <h2>Features</h2>
       <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
         Suspendisse
         eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
     </div>
-    <div class="about">
+    <div class="column">
       <h2>About</h2>
       <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
         Suspendisse
@@ -85,7 +106,9 @@
     <br>
     <a href="sales@greatidea.io">sales@greatidea.io</a>
   </address>
-  <footer><p>Copyright Great Idea! 2018</p></footer>
+  <footer>
+    <p>Copyright Great Idea! 2018</p>
+  </footer>
 
 </body>
 
