@@ -165,7 +165,7 @@ nav a {
 
 /* services.html */
 .services-container {
-	margin: 0px 388px 0px 388px;
+	margin: 0px 392px 0px 392px;
 	height: 1630px;
 	border: 1px solid orange;
 }
@@ -195,6 +195,22 @@ nav a {
 
 .services-header-title {
 	font-size: 25px;
+}
+
+.top-row, .middle-row, .bottom-row, .footer-row 
+{
+	display: flex;
+	margin-top: 40px;
+	height: 253px;
+	/* justify-content: space-between; */
+}
+
+.first-box-row-left, .first-box-row-right, 
+.second-box-row-left, .second-box-row-right,
+.third-box-row-left, .third-box-row-right  
+{
+	border: 1px solid black;
+	width: 500px;
 }
 
 
