@@ -113,6 +113,7 @@ border: 2px solid red;
 	margin-top: 120px;
 	text-align: center;
 	padding: 0px 75px;
+	float: left;
   }
   
   .cta .cta-text button {
@@ -133,6 +134,7 @@ border: 2px solid red;
   .cta img {
 	display: flex;
 	margin-top: 69px;
+	float: right;
   }
   
   .main-content {
@@ -149,6 +151,7 @@ border: 2px solid red;
 	width: 410px;
 	display: flex;
 	margin-right: 34px;
+	float: left;
   }
   
   .main-content .top-content .text-content:last-child {
@@ -162,12 +165,14 @@ border: 2px solid red;
   .main-content .bottom-content {
 	margin-top: 37px;
 	padding: 0 10px;
+	float: left;
   }
   
   .main-content .bottom-content .text-content {
 	width: 275px;
 	display: flex;
 	margin-right: 12px;
+	float: left;
   }
   
   .main-content .bottom-content .text-content:last-child {
