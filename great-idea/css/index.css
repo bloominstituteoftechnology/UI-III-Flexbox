@@ -70,9 +70,9 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	margin: 0px 194px 0px 194px;
+	margin: 0px 388px 0px 388px;
 	height: 1430px;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .nav {
@@ -93,10 +93,20 @@ nav a {
 	margin-top: 83px;
 }
 
-h1 {
+.top-title {
 	font-size: 80px;
 	margin: 60px 0px 0px 58px;
 }
+
+.button {
+	margin: 2px 0px 0px 148px;
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+	width: 183px;
+	height: 34px;
+	font-size: 16px;
+  }
 
 .mid-above-pic, .mid-below-pic, .footer {
 	display: flex;
@@ -104,12 +114,11 @@ h1 {
 
 .mid-img {
 	margin: 40px 0px 0px 0px;
-	/* display: flex; */
-	/* justify-content: center; */
 }
 
 .mid-below-pic {
-	/* border: 1px solid purple; */
+	display: flex;
+	justify-content: space-between;
 	margin: 40px 0px 0px 0px;
 }
 
@@ -125,15 +134,19 @@ h1 {
 .top {
 	display: flex;
 	justify-content: space-between;
-	/* border: 1px solid orange;	 */
 }
+
+.below-text-content {
+	width: 280px;
+}
+
+
 
 .address {
 	margin: 95px 0px 0px 0px;
 }
 
 .copyright {
-	border: 1px solid brown;
 	display: flex;
 	margin: 0px 194px 5px 194px;
 	justify-content: center;
@@ -142,7 +155,46 @@ h1 {
 	font-size: 14px;
 }
 
+.text-content {
+	line-height: 1.1;
+}
+
 .footer {
-	border: 1px solid orange;
 	height: 312px;
 }
+
+/* services.html */
+.services-container {
+	margin: 0px 388px 0px 388px;
+	height: 1630px;
+	border: 1px solid orange;
+}
+
+.services-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 85px;
+	/* border: 1px solid red; */
+}
+
+.services-header-img {
+	margin-bottom: 30px;
+}
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.2;
+	border-bottom: 1px solid black;
+}
+
+.services-header-content {
+	margin-bottom: 38px;
+}
+
+.services-header-title {
+	font-size: 25px;
+}
+
+
