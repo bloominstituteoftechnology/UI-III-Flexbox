@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+90/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -121,45 +121,36 @@ h1 {
 	margin-left: 50px;
   }
   
-  .logo {
-	vertical-align: right;
-	margin-left: 135px;
+  img#logo {
+	margin-left: 75px;
   }
   
   #header-row {
+	display: flex;
+	justify-content: space-evenly;
 	margin-top: 70px;
-	margin-bottom: 75px;
+	margin-bottom: 65px;
   }
   
   .demand {
-	display: inline-block;
-  	text-transform: uppercase;
-  	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: space-evenly;
+  text-transform: uppercase;
 	text-align: center;
-	margin-left: 150px;
-	margin-top: 50px;
-	vertical-align: top;
-	line-height: 1;
   }
   
   h1 {
-	font-size: 40px;
-	margin-left: 50px;
+	font-size: 80px;
   }
   
   .get-started {
 	display: inline-block;
-  	text-transform: capitalize;
+  text-transform: capitalize;
 	border: 1px solid black;
-	padding: 5px 30px;
+	padding: 8px 40px;
 	margin-top: 10px;	
-  	text-align: center;  
-  }
-  
-  .circle-img {
-	display:inline-block;
-	margin-left: 100px;
-
+  text-align: center;  
   }
   
   main, footer {
@@ -183,7 +174,6 @@ h1 {
   
   .top-section {
 	border-top: 1px solid black;
-	margin-bottom: 30px;
 	padding-top: 30px;
   }
   
@@ -191,16 +181,17 @@ h1 {
 	margin-left: 1px;
   }
   
-  .bottom-section {
-	margin-top: 42px;
-	padding-bottom: 48px;
-	border-bottom: 1px solid black;
-	margin-bottom: 39px;
+	.bottom-section {
+		display: flex;
+		margin-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid black;
+		margin-bottom: 10px;
   }
   
-  /* .services {
-	width: 275px;
-  } */
+  .services {
+	width: 33%;
+  }
   
   .product {
 	width: 280px;
@@ -210,14 +201,6 @@ h1 {
   .vision {
 	width: 280px;
 	margin-left: 10px;
-  }
-  
-   .copyright {
-	text-align: center;
-	display: inline-block;
-	font-size: 14px;
-	margin-top: 60px;
-	margin-bottom: 120px;
   }
 
   .services-header-img{
@@ -235,17 +218,14 @@ h1 {
 	border: 1px solid black;
 	padding: 5px 30px;
 	margin-top: 10px;	
-  	text-align: center;  
   }
 
   p {
 	display: flex;
 	flex-flow: wrap;
 	vertical-align: top;
-	text-align: center;
 	font-size: 14px;
-	height: 100px;
-	border: 1px solid black;
+	height: 90px;
   }
 
 	longparagraph{
@@ -273,4 +253,62 @@ h1 {
 	width: 400px;
 	background-color: rgb(221, 221, 221);
 	border: 1px solid black;
+  }
+
+  #bottom footer{
+	display: flex;
+	flex-flow: column;
+	align-content: flex-start;
+	margin-top: 40px;
+	margin-left: 50px;
+	padding: 15px;
+	height: 400px;
+	width: 880px;
+	border-top:  1px solid black;
+  }
+
+  shortparagraph {
+	display: flex;
+	text-align: left;
+	font-size: 14px;
+	width:  350px;
+	height: 200px;
+	padding-bottom: 80px;
+	border: 1px solid black;
+  }
+
+  ul li {
+	display: flex;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 2px;
+	width: 200px;
+	list-style-type: circle;
+	border: 1px solid black;
+  }
+
+  .facts {
+	  display: flex;
+	  flex-flow: column;
+  }
+
+  #bottom .services-info-img {
+	display: flex;
+	display: inline-block;
+	/* vertical-align: top; */
+	justify-content: flex-end;
+	/* margin-left: 10px;
+	margin-top: 100px;
+	width: 400px;
+	padding: 5px; */
+	border: 1px solid black;
+  }
+
+  copyright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	font-size: 14px;
   }
