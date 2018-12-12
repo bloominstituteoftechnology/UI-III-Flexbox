@@ -282,6 +282,8 @@
      .list {
         padding-top: 20px;
         list-style-type: circle;
+        list-style-type: square;
         padding-left: 20px;
         line-height: 2;
     }
+
