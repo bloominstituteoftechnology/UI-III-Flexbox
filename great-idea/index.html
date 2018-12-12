@@ -7,7 +7,10 @@
   <title>Great Idea!</title>
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/index.css">
+    <script src="script.js"></script>
+  
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -19,32 +22,32 @@
     <!-- Copy and paste your HTML from the first UI project here -->
     <div class="container">
         <header>
-          <nav class="nav-container">
+          <nav id="myNav" class="nav-container">
+            <a><img class="logo" src="img/logo.png" alt="Great Idea! Company logo." onclick="foo()"></a>
+            
             <a class="anav" href="services.html">Services</a>
             <a class="anav" href="products.html">Product</a>
             <a class="anav" href="#">Vision</a>
             <a class="anav" href="#">Features</a>
             <a class="anav" href="#">About</a>
             <a class="anav" href="#">Contact</a>
-      
-            <a class="img-link" href="index.html"><img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a>
-
-
           </nav>
+
+          <section class="sector">
+              <section class="innovation">
+                <h1>Innovation<br> On<br> Demand</h1>
+                <strong>Get Started</strong>
+              </section>
+              
+              <img class="ino-img" src="img/header-img.png" alt="Image of a code snippet." onclick="click()">
+              
+          </section>
+
+
       </header>
   
   
-    <section class="sector">
-      <section class="innovation">
-        <h1>Innovation<br> On<br> Demand</h1>
-      
-        <strong>Get Started</strong>
-      </section>
-      
-      
-        <img class="ino-img" src="img/header-img.png" alt="Image of a code snippet.">
-      
-    </section>
+
   
   <div class='divider'></div>
   
