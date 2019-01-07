@@ -53,7 +53,9 @@ table {
 }
 
 html, body {
-    height: 100%;
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +66,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Your code starts here! */
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+hr {
+	color: black;
+}
+
+/* Header CSS*/
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+nav .links {
+	color: gray;
+}
+
+nav .links:hover {
+	color: blue;
+}
+
+nav .items {
+
+}
+
+/* Hero CSS*/
+
+.hero {
+	display: flex;
+	padding: 20px;
+}
+
+.hero-left {
+	padding: 20px;
+}
+
+.title {
+	font-size: 70px;
+	text-align: center;
+}
+
+.get-started {
+	font-size: 20px;
+	background-color: white;
+	border-color: black;
+	padding: 5px 30px 5px 30px;
+	margin-left: 60px;
+}
+
+.hero-right {
+	margin-left: 100px;
+}
+
+
+/* Hero CSS*/
+
+.features-about {
+	display: flex;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+/* Code Image CSS */
+
+.code-img {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/* Services / Product / Vision CSS */
+
+.services-product-vision {
+	display: flex;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+/* Contact CSS */
+
+.contact {
+	display: flex;
+}
+
+.phone, .email {
+	padding-top: 10px;
+}
+
+/* Copywright CSS */
+
+.copyright {
+	display: flex;
+	
+}
