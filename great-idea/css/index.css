@@ -227,3 +227,42 @@ nav .items {
 	display: flex;
 	margin-top: 50px;
 }
+
+/* ******************************* */
+/* Media Queries */
+/* *********************** */
+
+@media only screen and (max-width: 800px) {
+
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.services-header-img {
+		display: none;
+	}
+
+	.services-services {
+		width: 100vw;
+		padding: 20px;
+	}
+
+
+	.services-list {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.serv {
+		width: 100vw;
+		padding: 20px;
+	}
+
+	.facts {
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+	}
+
+  }
