@@ -165,5 +165,65 @@ nav .items {
 
 .copyright {
 	display: flex;
-	
+}
+
+
+
+/* ******************************* */
+/* Services Page */
+/* *********************** */
+
+.services-services {
+	padding: 20px;
+}
+
+.services-services h1 {
+	font-size: 30px;
+}
+
+.services-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.serv {
+	padding: 10px;
+	margin: 10px;
+	background-color: lightgray;
+	border-color: black;
+}
+
+.left, .right {
+	flex: 1 47%;
+	min-width: 0;
+  }
+
+  button {
+	  margin-top: 14px;
+	  margin-bottom: 10px;
+	  background-color: white;
+	  padding: 10px 30px 10px 30px;
+	  border-color: black;
+	  border-radius: 5px;
+  }
+
+  .facts {
+	  display: flex;
+  }
+
+  .facts-text {
+	  padding: 20px;
+  }
+
+  .facts-text ul {
+	  margin-top: 20px;
+  }
+
+  .facts-text ul {
+	  list-style-type: square;
+  }
+
+.copyright-services {
+	display: flex;
+	margin-top: 50px;
 }
