@@ -192,8 +192,8 @@ header nav a:first-child {
 
   /* services-top p */
   .services-top p {
-	  margin: 10px 0 40px;
-	  padding: 20px 0;
+	  margin: 10px 0 20px;
+	  padding: 10px 0 40px;
 	  border-bottom: 1px solid black;
   }
 
@@ -209,12 +209,12 @@ header nav a:first-child {
 	margin: 20px 0;
 	background: rgba(240, 240, 240, 0.831);
 	width: 48%;
-	padding: 30px 20px 0;
+	padding: 20px 20px;
   }
 
 .services-list .service-listing button {
 	background: white;
-	margin: 20px 0;
+	margin: 20px 0 0;
 	padding: 5px 10px;
 	font-size: 12px;
 	border: 1px solid black;
@@ -222,4 +222,38 @@ header nav a:first-child {
 	width: 100px;
 	text-align: center;
 	border-radius: 7%;
+  }
+
+  .services-bottom {
+	border-top: 2.5px solid black;
+	margin-top: 30px; 
+	padding-top: 40px;
+	display: flex;
+  }
+
+  .service-bottom-text {
+	/* border: 1px solid red; */
+	margin: 0 60px 20px 0;
+  }
+
+  .services-bottom ul {
+	margin: 20px 0;
+  }
+
+  .services-bottom li {
+	list-style-type: square;
+	margin-left: 20px;
+	line-height: 1.75;
+  }
+
+  .service-bottom-text p,
+  .service-bottom-text li
+   {
+	  font-weight: 500;
+  }
+
+  footer p {
+	  margin: 75px 0 25px;
+	  text-align: center;
+	  font-weight: 800;
   }
