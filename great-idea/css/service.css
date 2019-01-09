@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -71,10 +69,10 @@ h1, h2, h3, h4, h5 {
 
 .container{
     display:flex;
+    margin:0 auto;
     flex-direction: column;
-    margin:0px 15%;
+    justify-content: center;
     width:1000px;
-
 }
 header {
     display: flex;
@@ -84,7 +82,7 @@ header {
     background-color: #e0e2e4;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width:100%;
+    width:70%;
 }
 
 
@@ -94,9 +92,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    
-}
+
 
 .image-top {
     margin-top: 100px;
@@ -104,6 +100,10 @@ a:hover {
     text-align: center;
     max-width: 100%;
     
+}
+
+.section-services {
+    margin-top:30px;
 }
 
 
@@ -184,7 +184,7 @@ a:hover {
 }
 
 .footer-list {
-
+    margin-left: 20px;
     margin-top: 50px;
 }
 
@@ -207,4 +207,3 @@ button:hover{
 section p {
     margin-top:40px;
 }
-

@@ -68,7 +68,8 @@ h1, h2, h3, h4, h5 {
 
 
 .container {
-    margin: 30px 15%;
+    margin: 0 auto;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,12 +77,13 @@ h1, h2, h3, h4, h5 {
 
 header {
     display: flex;
-    flex-direction:row;
+    flex-direction:row; 
     justify-content: space-between;
     background-color: #e0e2e4;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     padding-top:30px;
+    width:70%;
 }
 
 a {
@@ -121,11 +123,7 @@ a:hover {
     background-size: 100%;
 }
 
-#section-two-right{
-    text-align: center;
-    width: 100%;
-    background-size: 100%;
-}
+
 
 .section-four {
     display:flex;
