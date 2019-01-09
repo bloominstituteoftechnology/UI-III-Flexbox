@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+	v2.0 | 20110126
+	License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -146,7 +146,6 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid #000;
 }
 
-
 /*========== MAIN ======== */
 .main {
 	height: 30%;
@@ -219,6 +218,9 @@ h1, h2, h3, h4, h5 {
 img {
 	max-width: 100%;
 }
+.footer-paragraph {
+	padding-top: 1rem;
+}
 
 /* Additional CSS only for Services page */
 img {
@@ -269,4 +271,3 @@ img {
 .footer-list li {
 	line-height: 1.5;
 }
-
