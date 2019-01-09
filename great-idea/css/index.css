@@ -259,3 +259,12 @@ header nav a {
 	transition: 0.3s;
 	outline: none;
 }
+
+@media (max-width: 415px) {
+  .main-services {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	}
+}
