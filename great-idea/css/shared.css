@@ -80,22 +80,22 @@ body {
 }
 
 .navigation nav {
-	/* display: inline-block; */
 	margin-top: 45px;
 	display: flex;
-	flex-wrap: wrap;
-	width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 85%;
 }
 
 .navigation nav a {
-	margin-right: 15px;
 	text-decoration: none;
 	color: #EAD7D7;
 	background-color: #412234;
-	padding: 10px 50px;
+  padding: 10px 0;
+  text-align: center;
 	border-radius: 10px;
 	transition: 0.2s;
-	width: 10%;
+	width: 15%;
 }
 
 .navigation nav a:hover {
