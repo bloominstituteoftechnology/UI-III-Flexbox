@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 900px;
+	
+	margin: auto;
+}
+
+nav {
+	
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.nav-items {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+nav a{
+	color: rgb(68, 57, 57);
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+	padding-bottom: 30px;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+	padding: 7px 70px;
+	border: 2px solid black;
+}
+
+.div-line {
+	
+	margin: 30px 0;
+	border: 1px solid black;
+}
+
+.central-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top div:first-child {
+	padding-right: 20px;
+}
+
+.middle-img {
+	padding: 50px 0;
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.middle {
+	padding: 0 20px;
+}
+
+p {
+	font-size: 1.5em;
+	
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+address p {
+	line-height: 3;
+	font-size: 1em;
+}
+
+footer {
+	padding: 60px 0;
+	text-align: center;
+}
+
+address a {
+	text-decoration: none;
+	color: black;
+}
+
