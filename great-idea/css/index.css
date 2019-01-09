@@ -64,3 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*shared CSS*/
+.header-container {
+	border: 1px solid blue;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-menu a {
+	font-family: 'Titillium Web';
+	color: #bfbfbf;
+	text-decoration: none;
+	border: 1px solid red;
+	padding: 50px;
+	width: 160px;
+}
+
+.logo {
+	border: 1px solid red;
+	padding: 50px;
+}
+
+/*CSS for index*/
+
+
+
+
+
+/*CSS for services*/
