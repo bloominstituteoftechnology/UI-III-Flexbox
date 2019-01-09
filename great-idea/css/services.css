@@ -1,0 +1,17 @@
+.upper-content {
+    margin-top: 36px;
+}
+
+.services-mainContent {
+    border-top: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.services-mainContent div {
+    width: 410px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
