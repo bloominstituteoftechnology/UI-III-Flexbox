@@ -65,20 +65,23 @@ h1, h2, h3, h4, h5 {
 
 /*MY CODE BEGINS HERE*/
 
+
 .container {
     border: 4px solid black;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	align-self: center;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 15%;
+	padding-right: 15%;
+	background: black;
 }
 
 header {
     border: 4px solid orange;
 	display: flex;
 	justify-content: space-around;
+	background: white;
 }
 
 nav {
@@ -86,6 +89,7 @@ nav {
 	display: flex;
 	width: 60%;
 	justify-content: space-between;
+	background: white;
 }
 
 nav a {
@@ -97,18 +101,31 @@ nav a {
 
 .logo {
 	display: flex;
-}
 
-.main-content {
-	border: 4px solid black;
 }
 
 .services {
 	border: 4px solid blue;
+	background: white;
+	padding: 15px;
+}
+
+.main-content {
+	border: 4px solid hotpink;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: white;
 }
 
 .infoBox {
-	border: 4px solid black;\
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	background-color: rgb(240, 240, 240);
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .learn {
