@@ -71,18 +71,18 @@ body {
 	margin: 0 auto;
 }
 .menu {
-	width: 100%;
+	width: 876px;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 }
 
 .menu nav {
 	display: inline-flex;
-	justify-content: flex-start;
+	justify-content: space-around;
   }
 
 .menu nav a {
-	padding: 10px 30px 10px 0;
+	padding: 10px 50px 10px 0;
 	font-size: 75%;
 	color: lightgray;
 	text-decoration: none;
@@ -90,11 +90,14 @@ body {
 }
 
 .menu img {
-
+	align-self: flex-end;
 }
 
 .cta {
 	/* border: 1px solid red; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .cta div{
@@ -116,12 +119,18 @@ body {
 	padding: 5px 25px;
 }
 
+.header-image {
+	padding: 30px 0;
+}
+
 .top-content {
 	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between; 
 }
 
 .top-content div {
-	width: 49.5%;
+	width: 50%;
 	display: inline-block;
 	padding: 25px 10px 25px 0px;
 }
