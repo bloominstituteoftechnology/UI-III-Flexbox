@@ -198,3 +198,25 @@ footer p {
 	font-size: 8pt;
 	text-align: center;
 }
+
+ul {
+	list-style-type: square;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+li {
+	line-height: 1.6;
+}
+
+.conclusion {
+	border-top: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+.conclusion-text {
+	width: 50%;
+	padding: 0 10px 10px 10px;
+}
