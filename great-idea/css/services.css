@@ -63,11 +63,53 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* My code here, obviously, and hey, Jake, if you see, this, shout it out :) */
 
-.testing {
-	border: 0px solid red;
+.header-image, .service-description, .track-container, .some-facts {
+    margin: 30px auto;
+    width: 880px;
 }
+.track-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.track {
+    width: 420px;
+    margin: 15px 0px;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: lightgray;
+}
+.track p {
+    padding: 5px 0px;
+}
+.some-facts {
+    display: flex;
+}
+.some-facts p {
+    padding: 10px 0px;
+}
+.some-facts ul {
+    list-style: square;
+    margin-left: 22px;
+}
+.some-facts ul li {
+    padding: 3px 0px;
+}
+
+
+
+
+.copyright {
+	text-align: center;
+	padding:30px;
+}
+
 header {
 	margin: 20px auto;
 	width: 880px;
@@ -77,22 +119,6 @@ header {
 }
 .header-section {
 	text-align: left;
-}
-section.text, section.jumbotron, section.contact {
-	margin: auto;
-	width: 880px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-section.image {
-	margin: auto;
-	width: 878px;
-}
-section.contact {
-	border-top: 2px solid black;
-}
-section.text {
-	display: flex;
 }
 header a {
 	font-size: 16px;
@@ -107,38 +133,4 @@ header a:hover {
 }
 header img {
 	margin-left: 20px;
-}
-section.jumbotron {
-	border-bottom: 2px solid black;
-	display:flex;
-}
-.jumbotron-text {
-	width:49%;
-	vertical-align: top;
-	padding-top: 60px;
-}
-.jumbotron-text h1 {
-	text-align: center;
-	font-size: 60px;
-}
-.jumbotron-text button {
-	width: 50%;
-	margin-left: 110px;
-	font-size: 30px;
-	border-radius: 20%;
-}
-.jumbotron-text button:hover {
-	animation: rotate 0.5s;
-}
-@keyframes rotate {
-	from {
-		transform: rotateY(0);
-	}
-	to {
-		transform: rotateY(360deg);
-	}
-}
-.copyright {
-	text-align: center;
-	padding:30px;
 }
