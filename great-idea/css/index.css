@@ -91,6 +91,10 @@ body {
 	text-decoration: none;
 }
 
+.pagetop nav a:hover {
+	text-decoration: underline;
+}
+
 
 /* top section stylings (inovation on demand and the picture, plus the horizontal bottom border*/
 
@@ -134,7 +138,7 @@ body {
 }
 
 .sectiontwo div{
-	padding: 10px;
+	padding: 10px 0;
 }
 
 .sectiontwo div h2 {
@@ -142,6 +146,7 @@ body {
 }
 .sectiontwo div p {
 	font-size: 18px;
+	line-height: 20px;
 }
 
 .middle-img {
@@ -163,6 +168,7 @@ body {
 }
 .sectionthree div p {
 	font-size: 18px;
+	line-height: 20px;
 }
 .sectionthree div{
 	padding: 10px;
@@ -192,7 +198,9 @@ footer p{
 	text-align: center;
 }
 
-
+#address {
+	line-height: 20px;
+}
 
 
 
@@ -272,6 +280,7 @@ footer p{
 .flex-items p {
 	font-size: 15px;
 	line-height: 17px;
+	padding: 5px 0 0 8px;
 }
 
 .learn-more-button {
@@ -300,8 +309,8 @@ footer p{
 }
 
 .sb-left {
-	padding: 10px;
-	padding-top: 0;
+	
+	padding: 0 20px 0 0
 }
 
 .sb-left h2 {
@@ -310,6 +319,7 @@ footer p{
 
 .sb-left p{
 	font-size: 18px;
+	line-height: 20px;
 	margin: 10px 0;
 }
 
