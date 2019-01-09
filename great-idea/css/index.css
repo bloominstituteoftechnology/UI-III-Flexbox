@@ -65,11 +65,18 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* Helper CSS class that creates a red border around any HTML element with the class border-red  */
+.border-red {
+	border: 1px solid red;
+}
+
+/* Horizontally align container with 1000px width */
 .container {
 	width: 1000px;
 	margin: 0 auto;
 }
 
+/* Add flexbox to navbar */
 header {
 	margin-top: 30px;
 	display: flex;
@@ -77,6 +84,7 @@ header {
 	align-items: center;
 }
 
+/* Add margin and styling to navbar links */
 header nav a {
 	margin: 40px;
 	color: gray;
@@ -84,6 +92,47 @@ header nav a {
 	text-decoration: none;
 }
 
+/* Left Align Services Link in navbar */
 header nav a:first-child {
 	margin-left: 0;
 }
+
+/* CTA div with cta-text and code circle image */
+.cta {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Innovation on Demand and Button */
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	align-items: center;
+}
+
+/* Innovation on Demand H1 */
+.cta-text h1 {
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0 75px;
+	width: 400px;
+}
+
+/* Get Started Button */
+.cta .cta-text button {
+	background: white;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	width: 200px;
+  }
+
+  /* Code Circle Image */
+  .cta img {
+	  margin-top: 75px;
+	  width: 375px;
+  }
