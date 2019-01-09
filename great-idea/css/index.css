@@ -63,4 +63,596 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	background-image: linear-gradient(to bottom right, #f2f2f2, #e4e4e4);
+	display: block;
+	margin: 0 auto;
+	height: 5rem;
+	text-align: center;
+	z-index: 5;
+}
+
+.header__content {
+	margin: 0 auto;
+	display: flex;
+	height: 5rem;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+	max-width: 80rem;
+
+}
+
+.header__nav ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.header__li:not(:last-child	) {
+	margin-right: 3rem;
+}
+
+.header__li.selected {
+	background: aliceblue;
+	padding: 2rem;
+	box-shadow: inset 0 0 6px #ada3a3;
+	border-radius: 6px;
+}
+
+.header__logo {
+	display: flex;
+	align-items: center;
+}
+
+
+.logo{
+	background-size: cover;
+	width: 220px;
+	height: 36px;
+	background-image: url("../img/logo.png");
+	padding: 1.3rem;
+}
+
+.title {
+	display: flex;
+	max-width: 80rem;
+	width: 100%;
+	height: 30rem;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 7rem;
+	justify-content: center;
+
+}
+
+.title__heading {
+	display: flex;
+	flex-direction: column;
+	margin-right: 6rem;
+	align-items: center;
+
+}
+
+.title__img-box {
+	display: flex;
+	height: 100%;
+	width: 430px;
+}
+
+.title__img-img {
+	background-image: url(../img/header-img.png);
+	background-size: cover;
+	max-width: 366px;
+	max-height: 379px;
+	width: 100%;
+	height: 100%;
+}
+
+.title__h1 {
+	text-align: center;
+	font-size: 5rem;
+}
+
+.title__heading-button {
+	margin-top: 2rem;
+	padding: .6rem 2rem;
+	border: 1px solid black;
+}
+
+.information {
+	display: flex;
+	margin: 3rem auto;
+	max-width: 80rem;
+	padding: 2rem 0;
+	border-top: 2px solid grey;
+	line-height: 1.5;
+	align-content: space-around;
+
+}
+
+.information__features {
+	padding: 0 2rem;
+	width: 50%;
+
+}
+
+.information__about {
+	width: 50%;
+	padding-right: 1rem;
+}
+
+.information__title {
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+
+.middle {
+	width: 100%;
+	height: fit-content;
+	max-width: 80rem;
+	display: block;
+	margin: 0 auto 2rem;
+}
+
+.middle__img {
+	background-image: url("../img/mid-page-accent.jpg");
+	width: 100%;
+	height: 9rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.information-end {
+	margin: 0 auto;
+	display: flex;
+	max-width: 80rem;
+}
+
+.information-end__services {
+	padding: 2rem;
+	width: 33.3%;
+
+}
+
+.information-end__vision {
+	padding: 2rem;
+	width: 33.3%;
+}
+
+.information-end__product {
+	padding: 2rem;
+	width: 33.3%;
+}
+
+footer {
+	border-top: 2px solid grey;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 2rem;
+	max-width: 80rem;
+	width: 100%;
+	padding-bottom: 4rem;
+	flex-direction: column;
+
+}
+
+.footer-container{
+	padding: 2rem 2rem;
+}
+
+.contact-info {
+	display: block;
+	float: left;
+	max-width: 33%;
+	line-height: 1.5;
+}
+
+.copyright {
+	padding: 2rem 2rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.hero {
+	margin: 0 0% 0 0%;
+	margin-top: 5rem;
+	width: 100vw;
+	height: 85vh;
+}
+
+.hero__img{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/daniel-chen-546446-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -700px;
+	z-index: 3;
+}
+
+.hero__text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3rem;
+	background-image: radial-gradient(white 30%, transparent 100%);
+	transition: all 1s ease-out;
+}
+
+.hero__text:hover {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 3rem;
+	transform: translate(-50%, -50%) scale(1.3);
+	font-size: 3rem;
+	border-radius: 100px;
+	background-image: radial-gradient(white 30%, transparent 100%);
+}
+
+.hero__hidden-text {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	padding: 3rem;
+	transform: translate(-50%, 0%);
+	font-size: 2rem;
+	border-radius: 100px;
+	opacity: 0;
+	transition: all 1s ease-in-out;
+}
+
+.hero__text:hover ~ .hero__hidden-text {
+	opacity: 100;
+	transform: translate(-50%, -85%);
+	background-image: radial-gradient(white 10%, transparent 100%);
+}
+
+.content {
+	padding: 2rem;
+	max-width: 70rem;
+	margin: 0 auto;
+	align-items: center;
+	background-color: #f2f2f2;
+	display: flex;
+}
+
+.content__col {
+	padding: 0 2rem;
+	width: 33%;
+}
+
+.content__col > h2 {
+	font-size: 1.4rem;
+}
+
+.footer__col > nav > ul{
+	width: max-content;
+	margin: 0 auto;
+	display: flex;
+}
+
+.footer__col > nav > ul > li{
+	padding-top: 2rem;
+	flex-direction: column;
+	font-size: 1.2rem;
+	transform: rotate(-22deg) translateY(2rem);
+	transform-origin: left;
+	transition: all .3s ease-in;
+}
+
+.footer__col > nav > ul > li:hover{
+	transform: rotate(0) translate(0);
+	transform-origin: left;
+}
+
+.footer__col > nav > ul > li > a{
+	text-decoration: underline;
+}
+
+.footer__col > nav > ul > li:not(:last-child) {
+	padding-right: 4rem;
+}
+
+.services {
+	margin: 0 auto;
+	max-width: 65rem;
+	padding-top: 6rem;
+	display: flex;
+	flex-direction: column;
+
+	border-bottom: 1px solid black;
+}
+.services-header-img {
+	background-image: url("../img/services-header.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+
+}
+
+.services__title {
+	margin-top: 3rem;
+	font-size: 2rem;
+	padding-left: .5rem;
+}
+
+.services__paragraph {
+	padding: 1rem;
+	line-height: 1.2;
+	font-size: 1.2rem;
+}
+
+.info-cards {
+
+	margin: 0 auto;
+	max-width: 60rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	padding-bottom: 3rem;
+
+}
+
+.info-cards__card {
+	margin-top: 2rem;
+	background-color: #efefef;
+	padding: 2rem;
+	max-width: 25rem;
+	border: 1px solid black;
+	line-height: 1.5;
+}
+
+.info-cards__title {
+	font-size: 1.4rem;
+}
+
+.info-cards__button {
+	margin-top: 1rem;
+	padding: .5rem 1.5rem;
+}
+
+.facts{
+	margin: 0 auto;
+	max-width: 60rem;
+	display: flex;
+	margin-bottom: 5rem;
+
+}
+
+.facts__text {
+	width: 50%;
+
+}
+
+.facts__text h2 {
+	font-size: 1.3rem;
+	padding-top: 2rem;
+}
+
+.facts__text p {
+	line-height: 1.2;
+}
+
+.facts__text ul{
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
+	line-height: 1.4;
+	list-style: square;
+}
+
+.facts__img {
+	min-width: 50%;
+	min-height: 100%;
+}
+
+.facts__img-img {
+	background: url("../img/services-info.png");
+	background-size: cover;
+	width: 90%;
+	height: 90%;
+	transform: translate(1rem, 2rem);
+
+}
+
+.features-section {
+	margin: 0 auto;
+	margin-top: 5rem;
+	max-width: 70rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #f5efef;
+	padding-bottom: 4rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.features-section__feature{
+	margin-top: 2rem;
+	max-width: 30%;
+	background: #c6c9ce;
+	padding-bottom: 10rem;
+	border-radius: 1rem;
+	position: relative;
+	box-shadow: 0 2px 7px 2px black;
+}
+
+.features-section__feature:hover{
+	transform: translateY(-3px) scale(1.1);
+	box-shadow: 0 3px 9px 3px black;
+
+}
+
+
+.features-section__heading {
+	padding: .1rem;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	font-size: 1.7rem;
+	font-weight: bold;
+	background-image: radial-gradient(white 0%, transparent 100%);
+}
+
+.features-section__paragraph {
+	padding: 0 2rem;
+	padding-top: 2rem;
+	word-break: break-word;
+
+	line-height: 1.4;
+
+}
+
+.features-section__img {
+	height: 60%;
+	width: 100%;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+
+}
+
+.features-section__img--1{
+	background-image: linear-gradient(to bottom right, #c6c9ce94, #c6c9cecf), url("../img/domenico-loia-274200-unsplash.jpg");
+	height: 70%;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	width: 100%;
+	background-size: cover;
+}
+
+.features-section__img--2{
+	background-image: linear-gradient(to bottom right, #c6c9ce94, #c6c9cecf), url("../img/emile-perron-190221-unsplash.jpg");
+	height: 70%;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	width: 100%;
+	background-size: cover;
+}
+
+.features-section__img--3{
+	background-image: linear-gradient(to bottom right, #c6c9ce94, #c6c9cecf), url("../img/fancycrave-277756-unsplash.jpg");
+	height: 70%;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	width: 100%;
+	background-size: cover;
+}
+
+.features-section__img--4{
+	background-image: linear-gradient(to bottom right, #c6c9ce94, #c6c9cecf), url("../img/lilly-rum-342740-unsplash.jpg");
+	height: 70%;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	width: 100%;
+	background-size: cover;
+}
+
+.features-section__img--5{
+	background-image: linear-gradient(to bottom right, #c6c9ce94, #c6c9cecf), url("../img/rawpixel-191102-unsplash.jpg");
+	height: 70%;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	width: 100%;
+	background-size: cover;
+}
+
+.features-section__img--6{
+	background-image: linear-gradient(to bottom right, #c6c9ce94, #c6c9cecf), url("../img/paul-calescu-1022076-unsplash.jpg");
+	height: 70%;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+	width: 100%;
+	background-size: cover;
+}
+
+.image-gallery {
+	margin: 0 auto;
+	display: block;
+	max-width: 70rem;
+	width: 100%;
+	background-image: linear-gradient(to bottom right, #8080800a, #69696980);
+	height: 50vh;
+	position: relative;
+}
+
+.image-gallery__img1 {
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+.image-gallery__img2 {
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+
+.image-gallery__img3 {
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 14%;
+	left: 40%;
+}
+
+.image-gallery__img4 {
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+}
+
+.image-gallery__img5 {
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 58%;
+}
+
+.image-gallery__img6 {
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 28%;
+	left: 70%;
+}
+
+.image-gallery__img {
+	border: 3px solid white;
+	border-radius: 20px;
+	transition: all .4s ease-in-out;
+	box-shadow: 0 1px 7px 1px black;
+}
+.image-gallery__img:hover {
+	z-index: 6;
+	transform: scale(2);
+	box-shadow: 0 2px 9px 2px black;
+}
