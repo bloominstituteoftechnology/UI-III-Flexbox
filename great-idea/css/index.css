@@ -326,3 +326,50 @@ ul {
 	  margin: 5px;
   }
    
+
+.box-item2{
+	margin: 20px;
+}
+
+.grid2{
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:20px;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid black;
+	justify-content:space-between;
+}
+
+.box2{
+	width: 	45%;
+	margin: 20px 0px 20px 0px;
+	border: 1px solid black;
+	border-radius: 40px;
+	background: red;
+}
+
+.btn{
+	/* display: flex; */
+	/* justify-content: center; */
+	width: 120px;
+	padding: 10px;
+	margin-left:130px;
+	margin-bottom:20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: green;
+	/* text-align: center; */
+}
+
+.product{
+	/* border: 1px solid orchid; */
+}
+
+.list2{
+	width: 45%;
+	margin-right: 40px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background: orange;
+}
