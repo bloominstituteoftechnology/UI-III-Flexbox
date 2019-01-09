@@ -64,10 +64,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-/* NAVBAR */
+
 .margin-top-5 {
 	margin-top: 5%;
 }
+
+/* NAVBAR */
 
 nav.navbar {
 	display: flex;
@@ -95,6 +97,7 @@ div.main-container {
 	margin: 10px 10%;
 }
 
+/*INDEX HTML SPECIFIC CSS*/
 /* SECTION 1*/
 
 section.section1 {
@@ -170,17 +173,75 @@ section.section2 div.bottom-container div.article3 p {
 	line-height: 1.25;
 }
 
-footer.footer {
+
+/*SERVICES HTML SPECIFIC CSS*/
+
+img.services-header-img {
+	width: 100%;
+}
+
+section.services1 p {
+	line-height: 1.25;
+}
+
+section.services2 {
 	display: flex;
-	justify-content: flex-start;
-	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
-footer.footer address.address {
-	margin-bottom: 20px;
+section.services2 .services-card {
+	border: 1px solid black;
+	background-color: #D4D4D4;
+	padding: 20px;
+	flex: 40%;
+	max-width: 47.5%;
+	margin-bottom: 5%;
+	
 }
 
-footer.footer div.copyright {
-	align-self: center;
-	margin-bottom: 30px;
+section.services2 .services-card p {
+	line-height: 1.25;
+	margin-bottom: 5%;
+}
+
+section.services2 .services-card a {
+	background-color: white;
+	padding: 5px 25px;
+	border-radius: 5px;
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	font-size: 0.7rem;
+}
+
+section.services3 {
+	display: flex;
+	justify-content: space-between;
+}
+
+section.services3 div.services-left-container {
+	flex: 40%;
+	max-width: 47.5%;
+}
+
+section.services3 div.services-left-container p {
+	line-height: 1.25;
+}
+
+section.services3 div.services-left-container ul {
+	list-style-type: square;
+	list-style-position: inside;
+	padding-top: 10px;
+	line-height: 2;
+}
+
+section.services3 div.services-right-container {
+	flex: 40%;
+	max-width: 47.5%;
+}
+
+div.copyright {
+	margin: 7% 0 5% 0;
+	text-align: center;
 }
