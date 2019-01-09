@@ -101,7 +101,7 @@ header nav a {
 	display: flex;
 	width: 880px;
 	padding: 10px;
-	border: 3px solid orange;
+	/*border: 3px solid orange;*/
 }
 
 .innovation h1{
