@@ -170,3 +170,36 @@ h1, h2, h3, h4, h5 {
 
 
 /*CSS for services*/
+
+.new-services {
+	border-bottom: 1px solid black;
+	width: 900px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+}
+
+.info-box {
+	border: 1px solid black;
+	width: 400px;
+	padding: 20px;
+	margin: 30px;
+}
+
+.learn-more {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 180px;
+	padding: 10px 50px 10px 50px;
+	margin-top: 20px;
+}
+
+.new-header1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.new-header2 {
+	font-size: 20px;
+	font-weight: bold;
+}
