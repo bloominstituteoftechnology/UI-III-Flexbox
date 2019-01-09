@@ -76,7 +76,7 @@ nav {
   display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 25px 100px 30px 50px;
+	margin: 25px 100px 10px 50px;
 	padding: 0 0 0 25px;
 }
 
@@ -87,6 +87,10 @@ nav a {
 	color: lightgrey;
 	/* margin: 0 auto; */
 	text-align: center;
+}
+
+nav a:hover {
+	color: black;
 }
 
 .logo {
@@ -129,11 +133,11 @@ h1 {
 .headerbutton {
 	text-align: center;
 	border: 1px solid black;
-	width: max-content;
+	width: 160px;
 	margin: 15px auto 5px;
 	font-size: 18px;
 	color: black;
-	padding: 5px 45px;
+	padding: 7px 30px;
 }
 
 .headerimage {
@@ -189,22 +193,40 @@ small {
 	display: block;
 	text-align: center;
 	font-size: smaller;
+	margin-top: 75px;
+	margin-bottom: 20px;
 }
 
 /* services.html specific */
 h2 {
 	font-size: 20px;
 }
+
 main {
 	width: 88%;
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
-	align-items: space-between;
+	flex-flow: row wrap;
 	margin: 0 auto;
 	padding: 5px;
 }
-section.flowblock {
+
+@media only screen and (max-width: 760px) {
+	.flowcontrol {
+		width: 88%;
+		display: flex;
+		justify-content: space-between;
+		flex-flow: column nowrap;
+		align-items: space-between;
+		margin: 0 auto;
+		padding: 5px;
+	}
+	section.flowblock {
+		width: 86%;
+	}
+}
+
+.flowblock {
 	width: 46%;
 	display: block;
 	border: 1px solid black;
@@ -215,18 +237,19 @@ section.flowblock {
 
 .buttonLearnMore {
 	border: 1px solid black;
-	width: max-content;
+	width: 150px;
 	margin: 20px 2px 2px 0;
-	font-size: 18px;
+	font-size: 14px;
 	color: black;
-	padding: 5px 45px;
+	padding: 10px 20px;
+	text-align: center;
 	background-color: #FFFFF0;
 }
 
 .servicesheader {
 	width: 85%;
 	display: block;
-	margin: 10px auto 20px;
+	margin: 30px auto 20px;
 	padding-bottom: 50px;
 	border-bottom: 1px solid black;
 }
@@ -256,6 +279,10 @@ footer div {
 ul {
 	margin: 10px 0px;
 	list-style: square inside;
+	padding: 10px 0;
+}
+ul li {
+	padding: 5px 0;
 }
 
 footer img {
