@@ -267,7 +267,7 @@ small {
 	flex-direction: column;
 }
 
-#product h2 {
+.product-title {
 	padding: 0 20px;
 }
 
