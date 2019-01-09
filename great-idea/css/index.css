@@ -51,11 +51,11 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Satisfy', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -67,18 +67,19 @@ body {
 	line-height: 1.6;
 	margin: 0;
 }
-ul {
+.navul{
   margin: 0;
   padding: 10rem;
   list-style: none;
   display: inline-block;
 }
-li {
-	display: inline-block;
-		margin: 0 auto;
-		padding: 0;
+
+.navli{
 		display: inline-block;
-  }
+			margin: 0 auto;
+			padding: 0;
+			display: inline-block;
+}
   hr{
 	  width: 90%;
   }
@@ -170,11 +171,7 @@ li {
 		flex-wrap: wrap;
 		
 	  }
-	  ol #today{
-		  color: #b40909;
-		
-	  }
-	
+
 	  @media screen and (max-width: 880px) {
 		.container {
 		  overflow: inherit;
