@@ -208,11 +208,11 @@ button {
 
 .box h2 {
 	margin-bottom: 20px;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .box p {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	margin-bottom: 20px;
 }
 
@@ -231,7 +231,7 @@ button {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	margin-top: 0;
 	
 }
@@ -259,5 +259,4 @@ button {
 .copyright {
 	text-align: center;
 	font-size: 75%;
-
 }
