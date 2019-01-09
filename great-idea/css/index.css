@@ -103,18 +103,24 @@ nav {
 	margin-top: 20px;
 }
 
+nav img {
+    margin-left: 60px;
+}
+
 nav div {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 100%;
 	padding: 10px 0;
 }
 
 nav div a {
 	color: gray;
-	font-size: .7rem;
+    font-size: .7rem;
+    font-weight: bold;
 }
+
 
 header {
 	display: flex;
@@ -184,3 +190,4 @@ footer {
 	text-align: center;
 	font-size: .8rem;
 }
+
