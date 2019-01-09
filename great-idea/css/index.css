@@ -65,3 +65,122 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* =================== My site wide resets & variables =================== */
+
+:root {
+
+}
+
+* {
+	/* border: 1px solid tomato !important; */
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	width: 100%;
+}
+
+body {
+	max-width: 775px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+h3, p {
+	font-size: .8rem;
+}
+
+/* ******* Nav ******* */
+nav {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+nav div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	padding: 10px 0;
+}
+
+nav div a {
+	color: gray;
+	font-size: .7rem;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	margin-top: 40px;
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+
+header h1 {
+	font-size: 58px;
+}
+
+header a {
+	color: black;
+	border: 1px solid black;
+	font-size: .8rem;
+	padding: 1px 25px;
+}
+
+header img {
+	width: 40%;
+	height: 40%;
+}
+
+.section1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	flex
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.section2 {
+	margin-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid black;
+}
+
+.section2-middle {
+	margin: 0 15px;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+address {
+	font-size: .8rem;
+}
+
+.contact p {
+	margin-top: 15px;
+}
+
+footer {
+	margin-top: 30px;
+	margin-bottom: 80px;
+	text-align: center;
+	font-size: .8rem;
+}
