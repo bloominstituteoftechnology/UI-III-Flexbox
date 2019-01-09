@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+    /* height: 100%; */
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +64,161 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 75%;
+	padding: 0 5%;
+	border: 2px solid green;
+}
+
+/* Header */
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	width: 75%;
+	margin: 0;
+}
+
+nav a {
+	display: flex;
+	justify-content: space-evenlu;
+	width: 100%;
+	text-decoration: none;
+	color: #b1b1b1;
+	align-self: flex-start;
+	margin: 0;
+	padding: 0;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 25%;
+}
+
+.logo-container img {
+	width: 80%;
+}
+
+/* Title Section */
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 40px 0px;
+	margin-bottom: 40px;
+}
+
+.title-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.title-text p {
+	font-size: 80px;
+	font-family: "Bangers", cursive;
+}
+
+.title-text button {
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	font-size: 14px;
+	padding: 5px 40px;
+	margin-top: 20px;
+}
+
+.title-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.line-break {
+	width: 100%;
+	border-top: 1px solid black;
+	margin: 0 0 40px;
+}
+
+/* Main Content */
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.upper-content, .lower-content, .img-container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.text-box {
+	margin-right: 1%;
+}
+
+.sub-header {
+	font-size: 20px;
+	font-family: "Bangers", cursive;
+	margin-bottom: 20px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+/* Footer */
+
+footer {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 30px;
+}
+
+.address, .phone, .email {
+	margin-bottom: 15px;
+}
+
+.email {
+	text-decoration: none;
+	color: black;
+}
+
+.copyright {
+	align-self: center;
+	margin-bottom: 100px;
+}
