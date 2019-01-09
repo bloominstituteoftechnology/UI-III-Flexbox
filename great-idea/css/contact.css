@@ -142,77 +142,32 @@ header h1 {
 }
 
 
-/* =================== Card Section =================== */
-
-main {
-    margin-top: 30px;
-}
-
-.cardPair {
-    width: 100%;
+/* =================== Form Section =================== */
+section {
+    border: 1px solid red;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
+    background-color:
 }
 
-.card {
+.contact div {
     display: block;
-    border: 1px solid black;
+    width: 50%;
+    text-align: left;
     padding: 15px;
-    margin-bottom: 30px;
-    background-color: #F4F2F4;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
-.card a {
-    background-color: white;
-    border: 1px solid black;
-    padding: 5px 20px;
-    border-radius: 4px;
-    margin-top: 10px;
-    color: black;
-    font-size: .7rem;
-}
-
-.cardL {
-    margin-right: 15px;
-}
-
-.cardR {
-    margin-left: 15px;
-}
-
-/* =================== About Section =================== */
-
-.about {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-top: 2px solid black;
-    padding-top: 30px;
-}
-
-.about div  {
-    width: 48%;
-    /* display: flex;
-    flex-direction: column; */
-}
-
-.about2 img {
-    width: 100%;
-}
-
-.about ul {
-    list-style-type: square;
-    padding-left: 20px;
+.contactInfo p {
+    margin-top: 15px;
     font-size: .8rem;
-    line-height: 1.3rem;
-    margin-top: 20px;
 }
 
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: .8rem;
+}
 
 
 
