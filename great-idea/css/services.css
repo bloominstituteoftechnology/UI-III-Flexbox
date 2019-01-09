@@ -164,4 +164,50 @@ footer{
     text-align: center; 
     margin-bottom: 5vh;
 }
+.dropdown{
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+  .dropdown-content a{
+    margin: 10px 0;
+  }
+
+
+
+/* Not working */
+
+@media (max-width: 600px){
+    nav{
+        display: none;
+    }
+    .dropdown{
+        display: inline;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+      }
+
+    main{
+        flex-flow: column;
+    }
+    main div{
+        width: 100%;
+    }
+}
 
