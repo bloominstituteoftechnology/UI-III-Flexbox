@@ -184,3 +184,14 @@ footer {
 .bottom-addendum li {
 	padding: 3px 0px;
 }
+
+.content-box button {
+	background: white;
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 4px 26px;
+    font-size: 9px;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+}
