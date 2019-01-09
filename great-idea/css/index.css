@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+body {
+	width: 876px;	
+	margin: 0 auto;
+}
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu nav {
+	display: inline-flex;
+	justify-content: flex-start;
+  }
+
+.menu nav a {
+	padding: 10px 30px 10px 0;
+	font-size: 75%;
+	color: lightgray;
+	text-decoration: none;
+	/* border: 1px solid red; */
+}
+
+.menu img {
+
+}
+
+.cta {
+	/* border: 1px solid red; */
+}
+
+.cta div{
+	width: 48%;
+	/* border: 1px solid red; */
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+.cta h1 {
+	font-size: 75px;
+	padding: 0;
+}
+.cta button {
+	border: 1px solid black;
+	border-radius: 0%;
+	padding: 5px 25px;
+}
+
+.top-content {
+	border-top: 1px solid black;
+}
+
+.top-content div {
+	width: 49.5%;
+	display: inline-block;
+	padding: 25px 10px 25px 0px;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+}
+
+.bottom-content div {
+	width: 33%;
+	display: inline-block;
+	padding: 25px 10px 25px 0px;
+}
+
+.contact .email-address {
+	color: black;
+	text-decoration: none;
+}
+
+.contact h2 {
+	padding: 40px 0 0 0; 
+	margin: 0;
+}
+
+.contact .street-address {
+	padding-top: 20px;
+}
+
+.contact .phone-number {
+	padding-top: 20px;
+}
+
+.contact .email-address {
+	padding-top: 20px;
+}
+
+footer {
+	text-align: center;
+	font-size: 75%;
+	padding: 40px 0 40px 0;
+}
