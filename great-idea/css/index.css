@@ -53,8 +53,10 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	display:flex;
+	justify-content:center;
+	align-items:top;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +65,196 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* FIXED HEADER NAV */
+header {
+	border-bottom: 1px dashed black;
+	background-color:white;
+	
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	
+	position:fixed;
+	/* width:876px; */
+	width:100%;
+	height:43px;
+	z-index:1;
+
+	/* display:none; */
+}
+
+header nav {
+	/* border:1px solid red; */
+	display:flex;
+	align-items:center;
+}
+
+a {
+	font-family: 'Oswald', sans-serif;
+	color:grey;
+	text-decoration:none;
+	padding:20px;
+}
+a:hover {
+	color:black;
+}
+
+.logo {
+	/* border:1px solid red; */
+	align-self:right;
+}
+
+/* MAIN BODY CONTENT */
+.container {
+	/* border: 1px solid red; */
+	display:flex;
+	flex-direction:column;
+	margin-top:43px;
+	padding:20px;
+	/* width:100% */
+	/* width:876px; */
+}
+
+/* INDEX CONTENT */
+.splash {
+	/* border: 3px dashed cyan; */
+	display:flex;
+	justify-content:space-around;
+}
+
+div .iod {
+	/* border:1px solid red; */
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+button {
+	border:1px solid black;
+	font-size:13px;
+	font-family: 'Oswald', sans-serif;
+	color:black;
+	text-decoration:none;
+	padding: 0 25px;
+	
+	animation-name: button;
+	animation-duration: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate-reverse;
+}
+@keyframes button {
+	0%   {background-color:orange;}
+	25%  {border-color:red;}
+	50%  {border-color:black;}
+	75%  {border-color:yellow;}
+	100% {border-color:red;}
+  }
+
+.top-content, .bottom-content {
+	/* border: 5px double red; */
+	display:flex;
+	justify-content:space-around;
+}
+
+.top-content .features, .top-content .about {
+	border-top:1px solid black;
+	text-align:left;
+	display:flex;
+	flex-direction:column;
+	padding:20px;
+	margin-top:20px;
+}
+
+img.middle-img {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.bottom-content .services, .bottom-content .product, .bottom-content .vision {
+	border-bottom:1px solid black;
+	text-align:left;
+	display:flex;
+	flex-direction:column;
+	padding:20px;
+}
+
+footer {
+	/* border: 5px double red; */
+	display:flex;
+	flex-direction:column;
+	padding:20px;
+}
+
+.copyright {
+	border-top: 1px dashed black;
+	text-align: center;
+	font-size:10px;
+	padding-top:20px;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	font-size:80px;
+	text-align:center;
+}
+
+/* SERVICES CONTENT */
+.services-top-content {
+	/* border:1px solid black; */
+	display:flex;
+	flex-direction:column;
+	text-align:left;
+	padding:20px;
+	/* margin-top:20px; */
+}
+
+.services-top-content h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	font-size:40px;
+	text-align:left;
+}
+
+.services-bottom-content {
+	/* border:1px solid black; */
+	display:flex;
+	flex-direction:row;
+	align-items:top;
+	text-align:left;
+	padding:20px;
+	/* margin-top:20px; */
+}
+
+div.bottom-copy {
+	/* border:1px solid red; */
+	display:flex;
+	flex-direction:column;
+	text-align:left;
+	padding-right:20px;
+	/* margin-top:20px; */
+}
+
+.services-middle-content {
+	/* border: 3px dashed cyan; */
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	/* padding:20px; */
+}
+
+.buttonbox {
+	border: 1px solid black;
+	width: 400px;
+	text-align:left;
+	padding:20px;
+	margin:20px;
+
+	display:flex;
+	flex-direction:column;
+	align-items:left;
+}
