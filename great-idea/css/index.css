@@ -334,7 +334,7 @@ section div p {
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid var(--main-color);
+  border-top: 3px solid var(--main-color);
 }
 
 .facts section {
@@ -349,7 +349,7 @@ ul {
 }
 
 ul li {
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
 }
 
 /**********/
