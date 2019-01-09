@@ -177,3 +177,24 @@ header nav a:first-child {
 	text-align:center;
 	font-size: 14px;
   }
+  
+  /*  Services Page Styles */
+
+  /* Header Image */
+  .services-header-img {
+	  margin: 20px 0;
+	  width: 100%;
+  }
+/* services-top h1 */
+  .services-top h1 {
+	  font-size: 30px;
+  }
+
+  /* services-top p */
+  .services-top p {
+	  margin: 10px 0 40px;
+	  padding: 20px 0;
+	  border-bottom: 1px solid black;
+  }
+
+  
