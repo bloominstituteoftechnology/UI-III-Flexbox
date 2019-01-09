@@ -68,56 +68,44 @@ h1, h2, h3, h4, h5 {
 body {
 	margin: 0 auto;
 	width: 1024px;
+	display:flex;
+	flex-direction: column;
 }
 
 header {
 	width: 100%;
-	position: relative;
+	display: flex;
+	justify-content: space-between;
 }
 
 nav {
-	display: inline-block;
-	width: 70%;
-	margin: auto;
-	padding: 15px 0;
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
 }
 
 a {
 	color:grey;
 	text-decoration: none;
-	/* width: 10%; */
 	padding: 30px;
 	text-align: center;
 }
 
 .logo {
-	display: inline-block;
-	vertical-align: middle;
-	position: absolute;
-	right: 0;
+	align-self: center;
 }
 
 .title-and-image {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	padding: 40px 0;
 } 
 
 .title {
-	display: inline-block;
-	width: 49%;
+	width: 100%;
 	text-align: center;
-	vertical-align: middle;
-}
-
-.round-img {
-	width: 50%;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.round-img img {
-	float: right;
 }
 
 h1 {
@@ -131,20 +119,28 @@ h1 {
 	margin: auto;
 }
 
-.middle-img {
+.hero-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero-one {
+	display: flex;
+	justify-content: space-between;
+}
+
+.middle-img img {
 	width: 100%;
 }
 
 .features, .about {
-	width: 49%;
+	width: 50%;
 	padding: 40px 0;
-	display: inline-block;
 }
 
 .services, .product, .vision {
 	width: 33%;
 	padding: 40px 0;
-	display: inline-block;
 }
 
 footer {
