@@ -157,6 +157,9 @@ flex-wrap: wrap;
 .section.aboutus .item.aboutus ul {
 	margin: 25px;
 }
+.section.aboutus .item.aboutus li {
+	margin: 5px;
+}
 
 footer {
 	margin: 10px;
