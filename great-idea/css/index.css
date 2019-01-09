@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5 {
 
 header {
 	border: 5px solid red;
+
 }
 
 header nav a {
@@ -82,6 +83,13 @@ header nav a {
 header .logo {
 	border: 1px solid blue;
 }
+
+.services-header-img {
+	border: 1px solid red;
+	position: relative;
+	margin: 15px 0px 15px 230px;
+}
+
 
 .top-content, .text-container {
 	border: 5px solid red;
@@ -93,7 +101,7 @@ header .logo {
 	border: 5px solid red;
 	display: flex;
 	flex-direction: row;
-	
+
 }
 
 .middle-content, .box1 {
@@ -102,6 +110,7 @@ header .logo {
 
 .middle-content, .box2 {
 	border: 1px solid red;
+
 }
 
 .middle-content, .box3 {
@@ -114,12 +123,35 @@ header .logo {
 
 .middle-content, .box5 {
 	border: 1px solid red;
+	
 }
 
 .middle-content, .box6 {
 	border: 1px solid red;
 }
 
+
+.services-info-img {
+	display: flex;
+	flex-direction: flex-end;
+}
+
+.copyright {
+text-align: center;
+
+}
+
 footer {
-	border: 5px solid red;
+	border-top: 3px solid black;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer h2 {
+	margin-top: 20px;
+}
+
+footer, .box7 {
+	
 }
