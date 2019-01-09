@@ -71,15 +71,14 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
-header nav {
-  display: inline-block;
-  width: 691px;
+header{
+  display: flex;
+  justify-content: space-between;
   vertical-align: top;
   margin-top: 35px;
 }
 
 header nav a {
-  display: inline-block;
   margin-right: 65px;
   font-size: 14px;
   color: gray;
@@ -105,16 +104,17 @@ header .logo {
 
 /* cta */
 
-.cta .cta-text {
-  display: inline-block;
-  vertical-align: top;
+
+.cta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 77px;
-  margin-top: 120px;
   text-align: center;
   padding: 0px 75px;
 }
 
-.cta .cta-text button {
+.cta-text button {
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -130,7 +130,6 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
   margin-top: 69px;
 }
 
@@ -141,12 +140,12 @@ header .logo {
 }
 
 .main-content .top-content {
+  display: flex;
   padding: 0 10px;
 }
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
   margin-right: 34px;
 }
 
@@ -159,13 +158,13 @@ header .logo {
 }
 
 .main-content .bottom-content {
+  display: flex;
   margin-top: 37px;
   padding: 0 10px;
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
   margin-right: 12px;
 }
 
@@ -208,6 +207,7 @@ header .logo{
   align-items: center;
   font-weight: bold;
   min-width: 100%;
+  letter-spacing: 1px;
 }
 
 .services-header-img{
