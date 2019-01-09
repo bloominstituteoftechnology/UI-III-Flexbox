@@ -65,11 +65,6 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-/* Helper CSS class that creates a red border around any HTML element with the class highlight  */
-.highlight {
-	border: 1px solid red;
-}
-
 p {
 	line-height: 1.25;
 	font-weight: 500;
@@ -159,7 +154,7 @@ header nav a:first-child {
   .middle-img {
 	  width: 100%;
   }
-
+/* Services, Product & Vision */
   .main-content .bottom-content {
 	display: flex;
 	border-bottom: 1px solid black;
@@ -169,4 +164,16 @@ header nav a:first-child {
 
   .main-content .bottom-content .text-content{
 	margin: 35px 10px 35px;
+  }
+
+  /* Contact Section */
+  #phone-number {
+	  margin: 5px 0;
+  }
+
+  /* Footer */
+  footer {
+	margin: 5px 0 25px;
+	text-align:center;
+	font-size: 14px;
   }
