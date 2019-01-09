@@ -74,6 +74,7 @@ body {
 	width: 876px;
 	display: flex;
 	justify-content: space-between;
+	margin-top: 30px;
 }
 
 .menu nav {
@@ -166,11 +167,13 @@ button {
 	padding-top: 20px;
 }
 
-footer {
+.index-footer {
 	text-align: center;
 	font-size: 75%;
 	padding: 40px 0 40px 0;
 }
+
+/* services page css below */
 
 .header-headline {
 	font-size: 150%;
@@ -193,7 +196,7 @@ footer {
 
 .box {
 	border: 1px solid black;
-	background-color: lightgoldenrodyellow;
+	background-color:#eee;
 	width: 418.5px;
 	padding: 20px;
 	margin-bottom: 30px;
@@ -215,8 +218,46 @@ footer {
 
 .box button {
 	width: 150px;
-	padding: 5px 15px;
+	padding: 10px 15px;
 	border-radius: 3px;
 	margin: 0;
+
+}
+
+.services-footer {
+	padding: 0 0 60px 0;
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	border: 1px solid red;
+	margin-top: 0;
+	
+}
+.services-footer .footer-facts-copy {
+	width: 418.5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.services-footer p {
+	padding-bottom: 20px;
+}
+
+.services-footer ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.services-footer li {
+	padding-bottom: 15px;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 75%;
 
 }
