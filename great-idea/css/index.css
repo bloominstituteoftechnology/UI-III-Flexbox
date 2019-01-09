@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	height: 100%;
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+.header, .main {
+	width: 100%;
+	padding: 20px;
+	border-bottom: 1px solid #000;
+
+}
+
+.header-nav {
+	/* display: inline; */
+	height: 10%;
+	padding: 20px 30px 70px 30px;
+	position: fixed;
+	background-color: #ddd;
+	z-index: 99;
+	width: 85%;
+}
+
+.header-nav nav a {
+	display: inline-block;
+	width: calc(97% / 6);
+	text-decoration: none;
+	color: #000;
+}
+
+.header-title {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	padding-top: 100px;
+}
+
+.header-item, .main-item {
+	display: inline-block;
+	padding: 15px;
+	margin: 5px;
+	width: calc(50% - 15px);
+	vertical-align: top;
+	height: 431px;
+}
+
+.header-item--contents {
+	height: 100%;
+}
+
+nav {
+	display: inline-block;
+	width: 80%;
+	text-align: left;
+}
+
+
+h1 {
+	font-size: 4.5rem;
+	padding: 10% 25% 7% 25%;
+	text-align: center;
+	margin: 0;
+}
+
+button {
+	background-color: transparent;
+	padding: 0.3rem 1.5rem;
+	border: 1px solid #000;
+
+}
+
+.main {
+	width: 100%;
+}
+
+.main > section > div {
+	height: 160px;
+	text-align: left;
+}
+
+.main > section > div.main-item--thirds {
+	height: 180px;
+}
+
+.main-item--thirds {
+	width: calc(33% - 15px);
+	padding-bottom: 20px;;
+}
+
+.middle-img {
+	width: calc(100% - 20px);
+	padding-bottom: 40px;
+}
+
+.footer {
+	width: 100%;
+	padding: 40px;
+}
+
+.footer ul {
+	padding: 10px 0;
+}
+
+.footer p {
+	padding: 10px 0;
+}
+
+.contact {
+	text-align: left;
+}
