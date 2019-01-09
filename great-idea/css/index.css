@@ -65,7 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-/*shared CSS*/
+
+/*CSS for index*/
 .header-container {
 	/* border: 1px solid blue; */
 	height: 200px;
@@ -88,13 +89,6 @@ h1, h2, h3, h4, h5 {
 	padding: 50px;
 }
 
-
-
-
-
-
-
-/*CSS for index*/
 
 .main-container {
 	display: flex;
@@ -171,12 +165,33 @@ h1, h2, h3, h4, h5 {
 
 /*CSS for services*/
 
+.header-container2 {
+	/* border: 1px solid blue; */
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-menu2 a {
+	font-family: 'Titillium Web';
+	color: #bfbfbf;
+	text-decoration: none;
+	/* border: 1px solid red; */
+	padding: 25px;
+}
+
+.logo2 {
+	/* border: 1px solid red; */
+	padding-left: 110px
+}
+
 .new-services {
-	border-bottom: 1px solid black;
-	width: 900px;
+	/* border-bottom: 1px solid black; */
+	width: 880px;
 	padding-top: 30px;
 	padding-bottom: 50px;
-	margin-bottom: 30px;
+	margin-left: 30px;
 }
 
 .info-box {
@@ -206,4 +221,54 @@ h1, h2, h3, h4, h5 {
 
 .two-box {
 	display: flex;
+}
+
+.bar {
+	border-top: 1px solid black;
+	width: 860px;
+	margin-left: 30px;
+	height: 30px;
+}
+
+.facts {
+	/* border: 1px solid red; */
+	width: 420px;
+	padding-bottom: 20px;
+}
+
+.list {
+	list-style-type: square;
+	margin-left: 20px;
+}
+
+.services-header-img {
+	/* border: 1px solid red; */
+	width: 880px;
+	margin: 30px;
+}
+
+.fact-and-image {
+	border-top: 3px solid black;
+	display: flex;
+	padding-top: 30px;
+	width: 860px;
+	margin-left: 30px;
+}
+
+.new-body-container {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	width: 940px;
+	align-self: center;
+}
+
+.everything {
+	display: flex;
+	flex-direction: column;
+}
+
+.services-info-img {
+	/* border: 1px solid red; */
+	padding-left: 20px;
 }
