@@ -66,8 +66,269 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday 
 here and start to refactor into flexbox */
 
+
 body {
 	width: 700px;
 	margin: 0 auto;
 	margin-top: 30px;
+}
+
+/* navigation bar and top logo*/
+.pagetop {
+	width: 100%;
+	margin-bottom: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.pagetop img {
+	margin-left: 50px;
+}
+
+.pagetop nav a{
+	margin: 10px;
+	color: gray;
+	text-decoration: none;
+}
+
+
+/* top section stylings (inovation on demand and the picture, plus the horizontal bottom border*/
+
+.firstsection {
+	display: flex;
+	padding: 10px 0 80px 0;
+	margin-bottom: 50px;
+	border-bottom: 2px solid black;
+}
+
+.firstsection .fsleft {
+	width: 48%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#bigtext h1 {
+	font-size: 70px;
+}
+
+#startedbox {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	width: 205px;
+	padding: 10px 0;
+	border: 1px solid black;
+	
+}
+
+#startedbox:hover {
+	color: white;
+	background: hsl(240, 100%, 8%);
+}
+	
+/* features/about section + middle img*/
+
+.sectiontwo {
+	display: flex;
+	padding-bottom: 50px;
+}
+
+.sectiontwo div{
+	padding: 10px;
+}
+
+.sectiontwo div h2 {
+	font-size: 30px;
+}
+.sectiontwo div p {
+	font-size: 18px;
+}
+
+.middle-img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+
+/* section 3 after the middle image*/ 
+
+.sectionthree {
+	display: flex;
+	padding-bottom: 50px;
+	border-bottom: 2px solid black;
+}
+
+.sectionthree div h2 {
+	font-size: 25px;
+}
+.sectionthree div p {
+	font-size: 18px;
+}
+.sectionthree div{
+	padding: 10px;
+}
+
+/* footer and copyright stuff */
+
+footer{
+	margin: 40px 0;
+	width: 20%;
+
+}
+
+footer h3 {
+	font-size: 20px;
+}
+
+footer p{
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.crcenter {
+	font-size: 20px;
+	line-height: 30px;
+	margin: 30px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*start of page 2*/
+
+/* header image resize and margin reduction for top of page*/
+
+.services-header-img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#services-pagetop{
+	margin-bottom: 30px;
+}
+
+
+/* services section*/
+
+.page-two-services {
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid black;
+}
+
+.page-two-services h2 {
+	font-size: 30px;
+}
+
+.page-two-services p {
+	font-size: 17px;
+}
+
+/* msin services section with the flex stuff!!*/
+
+.main-flex-section {
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid black;
+}
+
+.main-flex-section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.flex-items {
+	width: 340px;
+	height: 250px;
+	margin: 10px;
+	padding: 7px;
+	background:hsl(228, 71%, 99%);
+	border: 2px solid black;
+}
+
+
+
+.flex-items:nth-child(odd){
+	margin-left: 0;
+}
+
+.flex-items:nth-child(even){
+	margin-right: 0;
+}
+
+
+
+.flex-items h2 {
+	font-size: 20px;
+	padding: 5px 0 0 8px;
+}
+.flex-items p {
+	font-size: 15px;
+	line-height: 17px;
+}
+
+.learn-more-button {
+	font-size: 15px;
+	background: white;
+	width: 150px;
+	padding: 12px 0;
+	margin: 20px 0 0 20px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.learn-more-button:hover {
+	background: hsl(240, 100%, 8%);
+	color: white;
+}
+
+
+/* Final Section Stylings*/
+
+.services-bottom {
+	display: flex;
+	padding-bottom: 50px;
+	align-items: flex-start;
+}
+
+.sb-left {
+	padding: 10px;
+	padding-top: 0;
+}
+
+.sb-left h2 {
+	font-size: 20px;
+}
+
+.sb-left p{
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.sb-left ul li {
+	font-size: 19px;
+	line-height: 22px;
+}
+.sb-left ul li::before {
+	content: "•"; 
+	color: black;
+	margin-right: 10px;
+}
+
+.services-bottom img {
+	width: 334px;
+	height: 280px;
+}
+
+.copyright-tag {
+	text-align: center;
+	margin-bottom: 50px;
 }
