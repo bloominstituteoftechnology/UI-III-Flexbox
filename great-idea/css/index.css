@@ -64,3 +64,75 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+
+header nav {
+	display: inline-block;
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+	margin-bottom: 25px;
+  }
+  .container .service1{
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: 30px;
+  }
+  header nav a {
+	display: inline-block;
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  header .logo {
+	display: inline-block;
+	margin-top: 25px;
+	padding-bottom: 25px;
+  }
+  header .services-header-img{
+	  margin-bottom: 25px;
+  }
+.main-content{
+	margin: 25px;
+	padding-top: 20px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-wrap: flex;
+  }
+  .mid-content{
+		margin: 0px;
+		padding: 20px
+		border: 1px solid black;
+		font-size: 13px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		background-color: ; #B5B7B7;
+		
+	}
+	.text-content{
+		
+		padding: 10px;
+		border: 1px solid black;
+		margin-bottom: 20px;
+		height: 150px;
+		width: 300px;
+	}
