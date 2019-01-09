@@ -99,6 +99,15 @@ h1, h2, h3, h4, h5 {
 .main-container {
 	display: flex;
 	justify-content: center;
+	/* align-items: center; */
+}
+
+.body-container {
+	display:flex;
+	flex-direction: column;
+	border: 1px solid red;
+	justify-content: center;
+	align-items: center;
 }
 
 .header1 {
@@ -114,7 +123,6 @@ h1, h2, h3, h4, h5 {
 	width: 160px;
 	padding: 10px 40px 10px 40px;
 	align-self: flex-end;
-	
 }
 
 .circle-logo {
@@ -131,6 +139,18 @@ h1, h2, h3, h4, h5 {
 	width: 430px;
 	padding: 20px;
 	margin-top: 50px;
+}
+
+.info2 {
+	border-bottom: 1px solid black;
+	width: 280px;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.middle-img {
+	border: 1px solid red;
+	width: 820px;
 }
 
 
