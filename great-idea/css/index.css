@@ -65,9 +65,15 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-/* Helper CSS class that creates a red border around any HTML element with the class border-red  */
-.border-red {
+/* Helper CSS class that creates a red border around any HTML element with the class highlight  */
+.highlight {
 	border: 1px solid red;
+}
+
+p {
+	line-height: 1.25;
+	font-weight: 500;
+	letter-spacing: .0125em;
 }
 
 /* Horizontally align container with 1000px width */
@@ -134,5 +140,33 @@ header nav a:first-child {
   /* Code Circle Image */
   .cta img {
 	  margin-top: 75px;
+	  margin-right: 75px;
 	  width: 375px;
+  }
+
+  /* Two Column Features & About */
+  .main-content .top-content {
+	margin-top: 75px;
+	display: flex;
+	border-top: 1px solid black;
+  }
+
+  /* Features & About margin */
+  .main-content .top-content .text-content {
+	  margin: 35px 10px 35px;
+  }
+  /* Rectngule code image */
+  .middle-img {
+	  width: 100%;
+  }
+
+  .main-content .bottom-content {
+	display: flex;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+  }
+
+  .main-content .bottom-content .text-content{
+	margin: 35px 10px 35px;
   }
