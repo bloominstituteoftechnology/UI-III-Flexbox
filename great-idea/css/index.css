@@ -128,3 +128,22 @@ address {
 h5 {
 	margin-top: 20px;
 }
+
+/* services.html */
+
+.services-container {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.services-header {
+	margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+	margin: 20px 0;
+	
+}
