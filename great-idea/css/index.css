@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 .container, .svc-container {
 	width: 880px;
 	margin: 0 auto;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 header {
@@ -173,7 +173,6 @@ address {
 /* Services*/
 
 .svc-intro {
-	display: flex;
 	padding: 20px;
 
 }
@@ -187,11 +186,11 @@ address {
 }
 
 .design, .uxui, .marketing, .webdev, .ios, .android {
-	display: flex;
-	width: 300px;
+	width: 400px;
+	height: 220px;
 	background: rgb(240, 234, 234);
 	margin: 30px 0 30px 0;
-	justify-content: flex-start;
+	padding: 20px;
 	border: 1px solid black;
 }
 
