@@ -300,6 +300,90 @@ footer p{
 }
 
 
+
+
+/* media query section */
+
+@media only screen and (max-width: 800px) {
+
+	body {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.pagetop {
+		display: block;
+		text-align: center;
+	}
+
+	.pagetop nav {
+		margin-bottom: 40px;
+		line-height: 25px;
+	}
+
+	
+
+	.main-flex-section{
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.flex-items{
+		width: 80%;
+	}
+
+	.flex-items:nth-child(odd){
+		margin: auto;
+		margin-top: 20px;
+	}
+	
+	.flex-items:nth-child(even){
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	.firstsection img{
+		display: none; /* just decided to remove the image on mobile*/
+	}
+
+	.firstsection  {
+		background: #f8f6fe;
+		justify-content: center;
+		box-shadow: 2px 2px 5px black;
+	}
+
+	.sectiontwo{
+		flex-direction: column;
+	}
+
+	.sectionthree {
+		
+		flex-direction: column;
+	
+	}
+
+	.services-bottom {
+		flex-direction: column;
+	}
+	.sb-left {
+		margin-bottom: 30px;
+	}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Final Section Stylings*/
 
 .services-bottom {
@@ -342,3 +426,6 @@ footer p{
 	text-align: center;
 	margin-bottom: 50px;
 }
+
+
+
