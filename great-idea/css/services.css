@@ -94,7 +94,7 @@ button {
 	height: 40px;
 	width: 152px;
   position: relative;
-  top: 30px;
+  top: 18px;
   border-radius: 6px;
 }
 
@@ -151,11 +151,22 @@ h2 {
 
 p {
   font-weight: 500;
+  line-height: 20px;
+}
+
+li {
+  line-height: 20px;
+  margin-top: 20px;
 }
 
 .bottom-content {
   display: flex;
   margin: 40px auto;
+  justify-content: space-between;
+}
+
+.bottom-content p {
+  width: 400px;
 }
 
 .copyright {
