@@ -150,6 +150,8 @@ body {
   --top-nav-height: 5rem;
   --main-width: 876px;
   --main-color: black;
+  --gray: rgba(0, 0, 0, 0.5);
+  --lightgray: rgba(0, 0, 0, 0.05);
   color: var(--main-color);
 }
 
@@ -182,14 +184,16 @@ h5 {
   display: flex;
   width: 100%;
   justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
-  background: #ffffffee;
+  height: var(--top-nav-height);
+  background: #fffffff6;
 }
 
 .top-nav {
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   display: flex;
   width: var(--main-width);
 }
@@ -197,13 +201,18 @@ h5 {
 .top-nav nav {
   display: flex;
   justify-content: space-around;
-  width: calc(100% - 183px);
+  width: calc(100% - 14rem);
 }
 
 .top-nav nav a {
   padding: 0.5rem;
   text-decoration: none;
-  color: gray;
+  color: var(--gray);
+}
+
+.top-nav nav a:hover {
+  color: var(--main-color);
+  text-shadow: white 0 0 2px;
 }
 
 /**********/
@@ -225,6 +234,11 @@ header {
   margin-bottom: 3rem;
 }
 
+header.secondary {
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
 h1 {
   font-size: 4.8rem;
 }
@@ -241,6 +255,17 @@ header button {
   width: 11rem;
   border: 1px solid var(--main-color);
   background: none;
+}
+
+.summary {
+  padding: 1.5rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.secondary h1 {
+  font-size: 2rem;
 }
 
 /***********/
@@ -273,6 +298,44 @@ section div p {
 .contact {
   margin-top: 1rem;
   display: block;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  justify-content: space-between;
+}
+
+.cards section {
+  display: block;
+  padding: 1rem;
+  outline: 1px solid var(--main-color);
+  margin: 1rem 0;
+  background: var(--lightgray);
+  width: calc((100% / 2) - 1rem);
+}
+
+.facts {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid var(--main-color);
+}
+
+.facts section {
+  flex-direction: column;
+  padding-top: 0;
+  width: calc((100% / 2) - 1rem);
+}
+
+ul {
+  list-style: disc;
+  margin: 1rem;
+}
+
+ul li {
+  padding: 0.25rem 0;
 }
 
 /**********/
