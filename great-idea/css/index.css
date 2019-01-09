@@ -68,56 +68,89 @@ h1, h2, h3, h4, h5 {
 .container {
 	display: flex;
 	border: 4px solid red;
+	flex-direction: column;
 }
 
 header {
+	display: flex;
 	border: 4px solid green;
+	justify-content: center;
 }
 
 nav {
+	display: flex;
 	border: 4px solid purple;
 }
 
+nav a {
+	display: flex;
+	border: 4px solid hotpink;
+	color: gray;
+	text-decoration: none;
+}
+
 .logo {
+	display: flex;
 	border: 4px solid saddlebrown;
 }
 
 section {
+	display: flex;
 	border: 4px solid blue;
+	justify-content: center;
 }
 
 .cta {
+	display: flex;
 	border: 4px solid blueviolet;
 }
 
 .cta-text {
-	border: 4px solid greenyellow
+	display: flex;
+	border: 4px solid greenyellow;
+	font-size: 60px;
+	text-align: center;
+	flex-direction: column;
+}
+
+img {
+	border: 4px solid black;
 }
 
 .main-content {
+	display: flex;
 	border: 4px solid hotpink;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .top-content {
+	display: flex;
 	border: 4px solid khaki;
 }
 
 .text-content {
+	display: flex;
 	border: 4px solid palevioletred; 
 }
 
 .middle-img {
+	display: flex;
 	border: 4px solid darkolivegreen;
+	width: 100%;
 }
 
 .bottom-content {
+	display: flex;
 	border: 4px solid royalblue;
 }
 
 section .contact {
+	display: flex;
 	border: 4px solid red;
 }
 
 .footer {
+	display: flex;
 	border: 4px solid yellow;
 }
