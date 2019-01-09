@@ -134,6 +134,10 @@ body {
 		display: inline-block;
 			column-count: 2;
 	  }
+	  .seco1{
+		display: inline-block;
+			column-count: 2;
+	  }
 	  footer {
 		width: 100%;
 		background: #e5e8eb;
@@ -160,10 +164,16 @@ body {
 		  
 
 	  /* Today's */
+	  .flex-container{
+		background-color: #eceae8;
+		padding: 8px;
+		font-size: 20px;
+	  }
 	  .row { 
 		display:flex;
 		flex-wrap: wrap;
-		justify-content:  center;
+		column-count: 2;
+
 	  }
 	  
 	  .column {
