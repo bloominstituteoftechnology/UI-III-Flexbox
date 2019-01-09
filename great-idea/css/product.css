@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* My code here, obviously, and hey, Jake, if you see, this, shout it out :) */
+
+.header-image, .service-description, .track-container, .some-facts {
+    margin: 30px auto;
+    width: 880px;
+}
+.track-container {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.track {
+    width: 110px;
+    height: 110px;
+    margin: 15px 15px;
+    padding: 10px;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+.track:hover {
+    opacity: 1.0;
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.purple {
+    background-color: purple;
+}
+.blank {
+    background-color: lightgray;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+	text-align: center;
+	padding:30px;
+}
+
+header {
+	margin: 20px auto;
+	width: 880px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.header-section {
+	text-align: left;
+}
+header a {
+	font-size: 16px;
+	margin: 10px 20px;
+}
+.links {
+	display: flex;
+}
+header a:hover {
+	text-decoration: green wavy underline;
+	font-size: 20px;
+}
+header img {
+	margin-left: 20px;
+}
