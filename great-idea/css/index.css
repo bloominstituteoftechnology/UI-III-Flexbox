@@ -74,12 +74,14 @@ h1, h2, h3, h4, h5 {
 header {
 	display: flex;
 	border: 4px solid green;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 nav {
 	display: flex;
 	border: 4px solid purple;
+	width: 60%;
+	justify-content: space-between;
 }
 
 nav a {
@@ -111,10 +113,16 @@ section {
 	font-size: 60px;
 	text-align: center;
 	flex-direction: column;
+	justify-content: center;
 }
 
 img {
 	border: 4px solid black;
+}
+
+button {
+	width: 55%;
+	align-self: center;
 }
 
 .main-content {
@@ -122,14 +130,17 @@ img {
 	border: 4px solid hotpink;
 	flex-direction: column;
 	justify-content: center;
+	align-content: space-around;
 }
 
 .top-content {
 	display: flex;
 	border: 4px solid khaki;
+	width: 75%;
+	align-self: center;
 }
 
-.text-content {
+.top-content .text-content {
 	display: flex;
 	border: 4px solid palevioletred; 
 }
@@ -137,20 +148,30 @@ img {
 .middle-img {
 	display: flex;
 	border: 4px solid darkolivegreen;
-	width: 100%;
+	width: 75%;
+	align-self: center;
 }
 
 .bottom-content {
 	display: flex;
 	border: 4px solid royalblue;
+	justify-content: center;
 }
 
-section .contact {
+.bottom-content .text-content {
+	display: flex;
+	border: 4px solid black;
+	width: 25%;
+}
+
+.contact {
 	display: flex;
 	border: 4px solid red;
+	justify-content: flex-start;
 }
 
 .footer {
 	display: flex;
 	border: 4px solid yellow;
+	justify-content: center;
 }
