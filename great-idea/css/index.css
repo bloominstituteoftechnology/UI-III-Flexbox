@@ -127,7 +127,7 @@ header nav {
 }
 
 article, #cta {
-	padding: 0 10%;
+	padding: 70px 10%;
 }
 
 #cta {
@@ -174,8 +174,6 @@ button:hover {
 }
 
 #home-information-section {
-	padding-top: 70px;
-	padding-bottom: 70px;
 	background: #fff;
 }
 
@@ -206,7 +204,7 @@ small {
 
 /* services page */
 .services-header-img {
-	padding: 90px 20px 20px 20px;
+	padding: 20px;
 	width: 100%;
 }
 
@@ -235,7 +233,6 @@ small {
 
 .facts-section div {
 	width: 48%;
-	height: 100%;
 }
 
 .facts-section div:first-child {
