@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	margin-top: 80px;
+}
 
 h1 {
 	font-size: 30px;
@@ -86,8 +89,10 @@ h3 {
 	align-items: center;
 	padding: 0 250px;
 	height: 80px;
+	width: 100%;
 	justify-content: space-evenly;
 	background-color: #9EABB1;
+	position: fixed;
 }
 
 /* Navigation Buttons */
