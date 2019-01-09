@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5 {
 
 
 .container {
-    border: 4px solid black;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -78,14 +77,12 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-    border: 4px solid orange;
 	display: flex;
 	justify-content: space-around;
 	background: white;
 }
 
 nav {
-	border: 4px solid pink;
 	display: flex;
 	width: 60%;
 	justify-content: space-between;
@@ -93,7 +90,6 @@ nav {
 }
 
 nav a {
-	border: 4px solid gray;
 	display: flex;
 	color: gray;
 	text-decoration: none;
@@ -105,37 +101,51 @@ nav a {
 }
 
 .services {
-	border: 4px solid blue;
 	background: white;
 	padding: 15px;
 }
 
 .main-content {
-	border: 4px solid hotpink;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	background: white;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
 }
 
 .infoBox {
 	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	width: 40%;
 	background-color: rgb(240, 240, 240);
+	padding: 15px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
 .learn {
-	border: 4px solid tomato;
+	border: 1px solid black;
+	width: 30%;
+	background: white;
+	margin-top: 15px;
+	text-align: center;
+	padding: 4px;
 }
 
 .facts {
-	border: 4px solid hotpink;
+	display: flex;
+	flex-direction: row;
+	background: white;
+	padding-top: 15px;
 }
 
 .copyright {
-	border: 4px solid green;
+	background: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
 }
