@@ -115,6 +115,10 @@ button {
 	width: 100%;
 }
 
+.no-margin {
+	margin: 0 !important;
+}
+
 header {
 	z-index: 1;
 	position: sticky;
@@ -209,9 +213,6 @@ nav a {
 	padding-right: 20px;
 }
 
-.features-section, .about-section {
-}
-
 .info-grid-container {
 	display: flex;
 	justify-content: space-between;
@@ -242,6 +243,35 @@ nav a {
 .services-info-img {
 	display: block;
 	margin-left: auto;
+}
+
+.vision-text-container {
+	text-align: center;
+}
+
+.ceo-statement-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ceo-statement-section figure {
+	padding: 0;
+}
+
+.ceo-img {
+	/* Getting rid of the white border at the bottom */
+	transform: translateY(15px);
+}
+
+.ceo-name {
+	font-size: 40px;
+}
+
+.ceo-statement-text {
+	border: 1px solid black;
+	padding: 30px;
+	width: 45%;
 }
 
 .copyright {
