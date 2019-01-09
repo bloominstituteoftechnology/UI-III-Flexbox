@@ -64,3 +64,163 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	display: flex;
+	width: 880px;
+	margin: 0 auto;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 40px;
+	flex-wrap: now-wrap;
+	padding-bottom: 30px;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	width: 691px;
+	margin-right: 70px;
+	justify-content: space-between;
+}
+
+header nav a {
+	font-size: 14px;
+	text-decoration: none;
+	color:lightgray;
+}
+
+header nav a:hover {
+	transition: all 0.4s ease;
+	text-decoration: underline;
+}
+
+header .logo {
+	width: 200px;
+}
+
+
+/* _____TITLE_____ */
+
+.title-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.title-header .left {
+	display: block;
+	flex-direction: column;
+	font-size: 70px;
+	text-align: center;
+	width: 400px;
+	align-self: center;
+}
+
+
+button {
+	font-size: 20px;
+	background-color: white;
+	vertical-align: top;
+	text-decoration: none;
+	border-radius: 2px;
+	padding: 8px 44px;
+	border: 1px solid black;
+	margin-top: 6px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: black;
+	color: white;
+}
+
+.title-header img {
+	margin: 20px 0;
+}
+
+/* ____MAIN____ */
+
+.main {
+	display: flex;
+	flex-direction: column;
+	padding-top: 39px;
+}
+
+.content-top {
+	border-top: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+
+.main .content-top .content-text {
+	display: flex;
+	flex-direction: column;
+	width: 410px;
+	margin-right: 34px;
+	text-align: justify;
+}
+
+.main .content-top .content-text:first-child {
+	margin-left: 0;
+}
+
+.main .content-top .content-text:last-child {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+.main .middle-image {
+	margin: 30px 0;
+}
+
+.main .content-bottom {
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: space-between;
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.main .content-bottom .content-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+ 	margin-right: 34px;
+	text-align: justify;
+}
+
+.main .content-bottom .content-text:last-child {
+	margin: 0;
+}
+
+/* ___CONTACT___ */
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 39px 0 0;
+}
+
+footer  {
+text-align: center;
+padding: 60px 0 100px 0;
+padding-top: 20px;
+}
