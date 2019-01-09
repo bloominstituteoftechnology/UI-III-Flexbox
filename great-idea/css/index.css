@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -63,4 +61,83 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	margin: 0 auto;
+	width: 876px;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+.section {
+	display: flex; 
+}
+
+.section.top {
+	margin: 30px; 
+	justify-content: space-around;
+}
+
+.section.top nav {
+	order: 0;
+	align-self: flex-start;
+	position: relative;
+	top: 10px;
+}
+
+.section.top ul li {
+	display: inline;
+	list-style-type: none; 
+}
+
+.section.top li  {
+	margin-right: 25px;
+	padding: 10px;
+	border-radius: 25px; 
+}
+
+
+.section.top .logo {
+	position: relative;
+	top: 5px;
+}
+
+.section.whoweare {
+	flex-wrap: wrap;
+	margin-top: 20px;
+	height: 120px;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+.section.description {
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+.section.description .item {
+	width: 45%;
+	height:200px;
+	background-color: lightgray;
+	border: 1px solid black;
+	margin: 20px;
+	padding: 15px;
+}
+
+.section.description .learnmore {
+	display: infline-flex;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	align-self: flex-start;
+	width: 33%;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
