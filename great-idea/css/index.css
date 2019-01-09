@@ -197,3 +197,9 @@ nav a {
 .bottom-text {
 	padding-right: 50px;
 }
+
+.services-text {
+	border-bottom: solid black 1px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;  
+}
