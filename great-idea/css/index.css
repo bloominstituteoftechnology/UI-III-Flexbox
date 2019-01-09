@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	width: 950px;
+	margin: auto;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 20px;
+
+}
+
+header nav a{
+	display:flex;
+	justify-content: flex-start;
+	align-content: center;
+	text-decoration: none;
+	color: lightgrey;
+
+}
+
+header nav{
+	width: 70%;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.headline{
+	display:flex;
+	width: 50%;
+	flex-direction: column
+
+}
+
+h1{
+	font-size: 75px;
+	text-align: center;
+	font-weight: 200;
+}
+
+.headline p{
+	width: 150px;
+	background: white;
+	border: 1px solid black;
+	padding: 5px 10px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 20px auto;
+}
+
+.banner{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 50px;
+}
+.round-img{
+	width: 395px;
+}
+
+.middle-img{
+	width: 910px;
+	margin: 0 20px;
+}
+
+
+.main-1, .main-2{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+	margin: 10px 20px;
+}
+.main-1{
+	border-top: 1px solid black;
+}
+
+.main-1 section, .main-2 section{
+	display: flex;
+	flex-direction: column;
+}
+
+.main-2{
+	border-bottom: 1px solid black;
+}
+
+.main-2 section{
+	width: 32%;
+}
+
+.contact{
+	margin: 0 20px;
+	padding-top: 10px;
+}
+.contact #phone{
+	margin: 20px 0;
+}
+
+footer{
+	text-align: center;
+	font-size: 14px;
+	margin: 50px 50px 100px;
+}
