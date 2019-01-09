@@ -197,4 +197,28 @@ header nav a:first-child {
 	  border-bottom: 1px solid black;
   }
 
-  
+.services-list {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+  .service-listing {
+	border: 1px solid black;
+	margin: 20px;
+	background: rgba(240, 240, 240, 0.831);
+	width: 45%;
+	padding: 30px 20px 0;
+  }
+
+.services-list .service-listing button {
+	background: white;
+	margin: 20px 0;
+	padding: 5px 10px;
+	font-size: 12px;
+	border: 1px solid black;
+	cursor: pointer;
+	width: 100px;
+	text-align: center;
+	border-radius: 7%;
+  }
