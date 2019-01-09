@@ -95,6 +95,7 @@ a {
     margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
+    width: 100%;
     
 }
 
@@ -155,7 +156,7 @@ a {
 }
 
 .section-funfacts {
-    width: 400px;
+    width: 500px;
     height: 300px;
 }
 
@@ -171,6 +172,10 @@ a {
 button {
     padding: 10px;
     border-radius: 10px;
-    margin-top: 80px;
+    margin-top: 60px;
     width: 100px;
+}
+
+section p {
+    margin-top:40px;
 }
