@@ -78,6 +78,10 @@ header {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+    background-color: #e0e2e4;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    padding:25px;
 }
 
 a {
@@ -90,7 +94,8 @@ a {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 60px 0px;
+    margin: 50px 0px;
+    margin-top:90px;
 }
 
 .section-three {
