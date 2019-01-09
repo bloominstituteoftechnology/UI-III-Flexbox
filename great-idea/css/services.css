@@ -1,0 +1,9 @@
+.services {
+	padding-top: 140px;
+}
+
+.services img {
+	width: 100%;
+	border: 2px solid slateblue;
+	border-radius: 5px;
+}

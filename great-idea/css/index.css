@@ -1,66 +1,68 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.cta {
+	display: flex;
+	padding-top: 140px;
+	justify-content: space-evenly;
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding-bottom: 40px;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+.cta h1 {
+	font-size: 76px;
+	margin-top: 50px;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+.cta button {
+	background: repeating-radial-gradient(
+		circle,
+		purple,
+		purple 10px,
+		#4b026f 10px,
+		#4b026f 20px
+	);
+	border: 1px solid #360d81;
+	color: #EAD7D7;
+	font-weight: bold;
+	padding: 10px 40px;
+	border-radius: 5px;
+	transition: 0.1s;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.cta button:hover {
+	border: 2px solid #360d81;
+	font-size: 14px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.info {
+	margin-top: 40px;
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+}
+
+.info-container {
+	display: flex;
+	padding: 0 15px;
+}
+
+.info-img {
+	margin: 40px 0;
+}
+
+.info-img img {
+	width: 100%;
+	border: 2px solid slateblue;
+	border-radius: 5px;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+.contact p {
+	margin: 15px 0;
+}
+
+.contact a {
+	line-height: 1.5em;
+	text-decoration: none;
+}
