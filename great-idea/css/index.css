@@ -65,9 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header {
+.body-header {
   display: flex;
   flex-direction: column;
+  margin: 0px 50px;
 }
 
 .nav-logo-container, .header-section {
@@ -89,7 +90,7 @@ header {
   display: inline-flex;
   width: 75%;
   flex-direction: row;
-  margin: 40px 50px;
+  margin: 40px 0px;
   justify-content: space-between;
 }
 
@@ -102,7 +103,8 @@ header {
   display: inline-flex;
   width: 24%;
   flex-direction: row;
-  margin: 30px 50px;
+  justify-content: flex-end;
+  margin: 30px 0px 30px 50px;
 }
 
 .logo {
@@ -121,10 +123,6 @@ h1 {
   text-align: center;
 }
 
-.header-button-container {
-
-}
-
 .header-button {
   border: 1px solid black;
   font-size: 20px;
@@ -137,21 +135,32 @@ h1 {
 }
 
 #main {
-	border-top: 1px solid black;
-
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+  margin: 0px 50px 50px;
+  padding-top: 50px;
 }
 
 #footer {
-	border-top: 1px solid black;
-
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px 50px;
 }
 
-.main-container-top {
+.main-container-top, .main-container-middle, .main-container-bottom {
+  display: inline-flex;
+  flex-direction: row;
+}
 
+.features-text, .about-text {
+  width: 90%;
 }
 
 .main-container-middle {
-
+  justify-content: center;
+  margin: 50px 0px;
 }
 
 .main-container-bottom {
@@ -159,23 +168,33 @@ h1 {
 }
 
 .section-features {
-
+  width: 50%;
+  padding: 0px 10px;
 }
 
 .section-about {
-
+  width: 49%;
+  padding: 0px 10px;
 }
 
 .middle-img {
-
+  width: 100%;
 }
 
 .section-services, .section-product, .section-vision {
+  width: 33%;
+  padding: 0px 20px;
+}
 
+.footer-header {
+  padding-top: 50px;
 }
 
 .copyright-container {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 60px 0px;
 }
 
 .copyright {
