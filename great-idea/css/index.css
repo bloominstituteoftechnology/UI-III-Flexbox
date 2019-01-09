@@ -72,9 +72,11 @@ h1, h2, h3, h4, h5 {
 	  margin: 10px;
   }
   .section.mid {
+	  display: flex;
+	  flex-wrap: wrap;
 	  width: 1100px;
-	  height: 900px;
-	  background:yellow;
+	  height: 600px;
+	  background:white;
 	  border: 1px;
 	  margin: 10px;
 	 }
@@ -83,6 +85,15 @@ h1, h2, h3, h4, h5 {
 		height: 400px;
 		background: white;
 		border: 1px;
+	 }
+	 nav a{
+		 text-align: left;
+		 color: black;
+		 border: 1px;
+		 border-radius: 50px;
+	 }
+	 logo{
+		 text-align: right;
 	 }
 		.box {
 	width: 400px;
@@ -118,4 +129,8 @@ h1, h2, h3, h4, h5 {
   .box.f {
 	order: 1;
 	align-self: flex-end;
+  }
+  footer{
+	padding: 20px 0;
+	 text-align: center;
   }
