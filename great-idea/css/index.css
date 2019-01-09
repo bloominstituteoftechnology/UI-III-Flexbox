@@ -63,5 +63,33 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+body .toppage nav a {
+	color: grey;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+.toppage {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
