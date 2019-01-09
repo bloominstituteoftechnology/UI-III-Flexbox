@@ -201,13 +201,14 @@ header nav a:first-child {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
   .service-listing {
 	border: 1px solid black;
-	margin: 20px;
+	margin: 20px 0;
 	background: rgba(240, 240, 240, 0.831);
-	width: 45%;
+	width: 48%;
 	padding: 30px 20px 0;
   }
 
