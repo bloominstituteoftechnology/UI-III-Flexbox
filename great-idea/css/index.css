@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+	box-sizing: border-box;
+	color: black;
+}
+
+html, body {
+	font-family: 'Bai Jamjuree';
+	font-size: 17px;
+}
+
+p {
+	line-height: 26px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+.content-container, .header-content-container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	z-index: 1;
+	position: sticky;
+	width: 100%;
+	top: 0;
+	background-color: white;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+}
+
+nav {
+	display: inline-block;
+	height: 100px;
+}
+
+nav a {
+	line-height: 100px;
+	text-decoration: none;
+	margin-right: 70px;
+	color: #BCBCBC;
+}
+
+header img {
+	position: relative;
+	top: 50px;
+	float: right;
+	transform: translateY(-50%);
+}
+
+.hero-section {
+	height: 500px;
+}
+
+.hero-section div {
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.hero-section h1 {
+	text-align: center;
+}
+
+.hero-section button {
+	display: block;
+	margin: 45px auto 45px auto;
+	-webkit-appearance: none;
+	font-size: 16px;
+	padding: 10px 40px;
+	cursor: pointer;
+	background-color: #3f28ef;;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+	color: white;
+}
+
+.main-image-container {
+	float: right;
+}
+
+.main-image-container img {
+	display: block;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.divider {
+	height: 1px;
+	background-color: black;
+	margin-bottom: 40px;
+}
+
+.features-section {
+	padding-right: 20px;
+}
+
+.features-section, .about-section {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	padding: 40px 0;
+	padding-top: 0;
+}
+
+figure img {
+	width: 100%;
+}
+
+.services-section, .product-section, .vision-section {
+	display: inline-block;
+	width: 33.3%;
+	padding: 40px 0;
+	padding-bottom: 0;
+	margin-bottom: 40px;
+}
+
+.services-section, .product-section {
+	float: left;
+	padding-right: 20px;
+}
+
+.contact-section p {
+	margin-bottom: 20px;
+}
+
+.copyright {
+text-align: center;
+	margin-bottom: 115px;
+}
