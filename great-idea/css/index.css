@@ -335,6 +335,7 @@ summary ul {
 
 summary p {
 	margin-bottom: 25px;
+	text-decoration: 
 }
 
 summary ul li {
@@ -348,7 +349,73 @@ summary ul li {
 	summary ul li {
 		list-style: square;
 	}
-}	
+}
+
+.teamledger {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+	.teamledger{
+		justify-content: center;
+		align-content: space-between;
+	}
+}
+
+.profile {
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 10px 10px;
+	text-align: center;
+	padding: 25px 10px 10px 10px;
+}
+
+.executive .profile {
+	width: 45%;
+}
+
+@media only screen and (min-width: 768px) {
+	.executive .profile {
+		width: 20%;
+	}
+}
+
+.headline {
+	
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	margin: 30px 0 20px 0;
+	border-top: 1px solid black;
+}
+
+.headline:first-of-type {
+	border: none;
+	padding-top: 0px;
+}
+
+.slaves {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+.slaves .profile {
+	width: 30%;
+}
+
+@media only screen and (min-width: 768px) {
+	.slaves .profile {
+		width: 14%;
+	}
+}
+
+
+
+
 footer {
 	margin-top: 50px;
 	text-align: center;
