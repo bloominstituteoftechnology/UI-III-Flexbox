@@ -171,10 +171,7 @@ img{
 	  
 	  .column {
 		text-align: center;
-		
-		background-color: #efefef;
-
-		padding: 10px;
+		column-count: 1;
 		
 	  }
 	
