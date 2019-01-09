@@ -87,12 +87,15 @@ nav a {
 /* Header */
 header {
 	display: flex;
-	justify-content: space-between;
-	padding: 65px 0 75px;
 	border-bottom: 1px solid black;
 }
 
-.header-left {
+#index header {
+	justify-content: space-between;
+	padding: 65px 0 75px;
+}
+
+#index .header-left {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -100,49 +103,110 @@ header {
 	width: 489px;
 }
 
-h1 {
+#index header h1 {
 	font-size: 80px;
 	text-align: center;
 }
 
-.start {
+#index .start {
 	color: black;
 	text-decoration: none;
 	border: 1px solid black;
 	padding: 10px 45px;
 }
 
-.header-img {
+#index .header-img {
 	align-self: flex-end;
 }
 
+#services header {
+	flex-direction: column;
+	padding: 25px 0;
+}
+
+#services header section {
+	margin-top: 30px;
+}
+
+#services header h1 {
+	font-size: 25px;
+}
+
 /* Content Sections */
-.content {
+#index .content {
 	margin: 40px 0;
 	display: flex;
 	justify-content: space-between;
 }
 
-.content section {
+#index .content section {
 	margin-right: 10px;
 }
 
-.content:last-child {
+#index .content:last-child {
 	margin-right: 0;
 }
 
-/* Footer */
-footer {
-	margin-bottom: 100px;
+#index .contact {
 	border-top: 1px solid black;
 	padding-top: 40px;
 }
 
-footer p {
+#index .contact p {
 	margin-bottom: 15px;
 }
 
-.copy {
+#services .content-blocks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+#services .content-blocks section {
+	width: 420px;
+	background: #f4f4f4;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+#services .content-blocks .learn {
+	margin: 30px 0 10px 0;
+}
+
+#services .content-blocks .learn a {
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 10px 40px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#services .facts {
+	display: flex;
+	border-top: 1px solid black;
+	padding-top: 40px;
+}
+
+#services .facts-left {
+	margin-right: 20px;
+}
+
+#services .facts ul {
+	list-style-type: square;
+	margin: 20px 0 0 20px;
+}
+
+#services .facts ul li {
+	margin-top: 10px;
+}
+
+/* Footer */
+footer {
 	font-size: 14px;
 	text-align: center;
+	margin: 20px 0 100px 0;
 }
