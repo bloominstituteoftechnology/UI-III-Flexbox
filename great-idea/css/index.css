@@ -159,17 +159,11 @@ img{
 		padding: 20px 0;
 		text-align:center;
 		width: 100%;
-		
-	  }
-	  /* Today's */
+		color: #aaa;
+		  }
+		  
 
-	  .container {
-		margin: 0 auto;
-		background-color: #eaeaea;
-		max-width: 980px;
-		min-width: 320px;
-	  }
-	  
+	  /* Today's */
 	  .row { 
 		display:flex;
 		flex-wrap: wrap;
@@ -177,51 +171,13 @@ img{
 	  
 	  .column {
 		text-align: center;
-		flex-grow: 1;
-		flex-shrink: 1;
-		flex-basis: 1;
-		
-		margin: 10px;
 		
 		background-color: #efefef;
-		border: 1px solid #dedede;
+
 		padding: 10px;
 		
 	  }
-	  
-	  .col-1 {
-		max-width: calc(100% / 12);
-	  }
-	  .col-2 {
-		max-width: calc(100% / 12 * 2);
-	  }
-	  .col-3 {
-		max-width: calc(100% / 12 * 3);
-	  }
-	  .col-4 {
-		max-width: calc(100% / 12 * 4);
-	  }
-	  .col-5 {
-		max-width: calc(100% / 12 * 5);
-	  }
-	  .col-6 {
-		max-width: calc(100% / 2);
-	  }
-	  
-	  .title {
-		font-weight: 100;
-		padding: 10px;
-		text-align: center;
-	  }
-	  
-	  .hi {
-		color: #aaa;
-		text-align: center;
-		padding: 10px;
-		margin: 10px;
-	  }
-	  
-
+	
 	  @media screen and (max-width: 768px) {
 		.container {
 		  overflow: auto;
