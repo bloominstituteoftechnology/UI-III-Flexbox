@@ -53,15 +53,117 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	width: 876px;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0 40px;
+	display: flex;
+	flex-direction: column;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* generic comment */
+
+/* Your code starts here! */
+
+.navigationclass {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	flex-shrink: 0;
+}
+
+
+a {
+	display: flex;
+	align-self: center;
+	text-decoration: none;
+	color: gray
+}
+
+
+.headerclass {
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.topleftdivclass {
+	display: inline-block;
+	width: 40%;
+	
+
+}
+
+.headertitleclass {
+	font-size: 60px;
+	text-align: center;
+}
+
+.getstartedclass {
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	width: 42%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 100px;
+}
+
+.circle {
+	display: inline-block;
+	width: 41%;
+	height: auto;
+}
+
+.section1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px dotted black
+}
+
+.section1divclass {
+	display: inline-block;
+	width: 49%;
+}
+
+.middle-img {
+	display: flex;
+	flex-shrink: 0;
+
+}
+
+.section2 {
+	border-bottom: 1px solid black;
+	display: flex;
+}
+
+.section2divclass {
+	display: inline-block;
+	width: 32%;
+}
+
+
+
+
+.contactclass {
+	display: inline-block;
+	width: 14%;
+	display: flex;
+	flex-direction: column;
+}
+
+.footerclass {
+	text-align: center;
+	display: flex;
+}
