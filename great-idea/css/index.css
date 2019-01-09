@@ -103,7 +103,6 @@ body {
 .cta div{
 	width: 48%;
 	/* border: 1px solid red; */
-	display: inline-block;
 	text-align: center;
 }
 
@@ -131,17 +130,17 @@ body {
 
 .top-content div {
 	width: 50%;
-	display: inline-block;
 	padding: 25px 10px 25px 0px;
 }
 
 .bottom-content {
 	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
 }
 
 .bottom-content div {
 	width: 33%;
-	display: inline-block;
 	padding: 25px 10px 25px 0px;
 }
 
