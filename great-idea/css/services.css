@@ -93,6 +93,9 @@ button {
 	background-color: white;
 	height: 40px;
 	width: 152px;
+  position: relative;
+  top: 30px;
+  border-radius: 6px;
 }
 
 @keyframes colorchange {
@@ -125,20 +128,29 @@ header nav a {
 	border-top: solid 1px black;
 	border-bottom: solid 2px black;
 	height: 1000px;
-	margin: 36px auto 20px auto;
+	margin: 36px auto auto auto;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .sub-section {
-  height: 240px;
-  width: 414px;
+  height: 260px;
+  width: 420px;
+  padding: 26px;
   background-color: #EAEAEA;
   border: solid 1px black;
 }
 
-h3 {
+.sub-margin {
+  margin-top: 60px;
+}
+
+h2 {
 	font-size: 20px;
+}
+
+p {
+  font-weight: 500;
 }
 
 .bottom-content {
