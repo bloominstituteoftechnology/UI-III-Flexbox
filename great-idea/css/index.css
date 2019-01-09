@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0 30px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +64,119 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+h1 {
+	display: inline-block;
+	font-size: 80px;
+	text-align: center;
+	vertical-align: top;
+	margin: 80px 50px;
+}
+
+
+
+button {
+	color: black;
+	font-size: 14px;
+	padding: 3px 40px;
+	font-family: 'Titillium Web', sans-serif;
+	vertical-align: 125%;
+}
+
+.services {
+	margin-top: 15px;
+	border-radius: 4px;
+}
+
+.codeSnip {
+	display: inline-block;
+	margin: 40px 50px;
+}
+
+nav {	
+	display: flex;
+	flex-direction: row;
+	margin: 30px 25px;
+	justify-content: space-evenly;
+}
+
+nav a {
+	align-self: center;
+}
+
+justificator {
+	display: flex;
+	justify-content: center;
+}
+
+bjustify {
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	display: inline-block;
+	margin: 20px 25px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+
+.gottaKeepEmSeparated {
+	width: 876px;
+	border: 1px solid rgb(130, 144, 163);
+}
+
+.fullBody {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.container {
+	display: flex;
+	width: 880px;
+	justify-content: space-between;
+}
+
+.bodyBox{
+	width: 420px;
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.midPage {
+	display: inline-block;
+	width: 430px;
+	margin: 20px 8px 20px 0;
+}
+
+.middle-img {
+	display: block;
+}
+
+.bottomPage {
+	display: inline-block;
+	width: 284px;
+	margin: 20px 8px 20px 0;
+}
+
+.special {
+	width: 876px;
+}
+
+.servfoot{
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+#copyright {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
