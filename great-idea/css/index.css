@@ -181,60 +181,91 @@ button {
 /* ===============  NEW CSS FOR FLEXBOX  ============  */
 
 .container {
-	width: 90%;
-	height: 500px;
-	background-color: #000;
-	
+	margin: 0 auto;
+	width: 90%;	
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-/*========== HEADER ======== */
+
+.border {
+	height: 10px;
+	width: 90%;
+	border-bottom: 1px solid #000;
+}
+/*=============== HEADER ============= */
 .header {
-	background-color: yellow;
 	height: 30%;
 	width: 90%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
+	/* border-bottom: 1px solid #000; */
 }
 
-.header-nav {
-	background-color: pink;
-	width: 90%;
-	display: flex;
-	align-items: flex-end;
-	height: 30%;
-}
+/* ======== header nav */
+	.header-nav {
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
 
-.header-nav--items {
-	width: 70%;
-	background-color: #f66;
-	
-}
+	.header-nav--items {
+		width: 65%;
+		display: flex;
+		justify-content: space-evenly;
+	}
 
-.header-nav--logo {
-	width: 30%;
-	background-color: #f44;
-}
-.header-title {
-	width: 90%;
-	height: 70%;
-	background-color: yellowgreen;
-/* 	padding: 20px; */
-	display: flex;
-	justify-content: space-between;
-}
-.header-item--1, .header-item--2 {
-	width: 48%;
-	background-color: #fff;
-	margin 5%;
-}
+	.header-nav--items a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.header-nav--logo {
+		width: 35%;
+		padding-right: 3rem;
+	}
+
+/* ======== header title */
+	.header-title {
+		width: 90%;
+		height: 70%;
+		padding: 2rem 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	.header-title--1, .header-title--2 {
+		width: 48%;
+		margin: 5%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.header-title--1-contents {
+
+	}
+
+	.header-title--1-contents h1 {
+		text-align: center;
+		margin: 0 18%;
+		font-size: 4.5rem;
+	}
+
+	.header-title--1-contents button {
+		background-color: transparent;
+		text-align: center;
+		padding: 0.5rem 2rem;
+		margin-top: 25px;
+	}
+
+
 
 /*========== MAIN ======== */
 .main {
-	background-color: blue;
 	height: 30%;
 	width: 90%;
 	display:flex;
@@ -244,13 +275,12 @@ button {
 .main div{
 	width: 90%;
 	height: 30%;
-	margin: 10px;
+	margin: 20px 10px;
 }
 
 .main-top {
 	display: flex;
 	flex-direction: row;
-	background-color: grey;
 }
 
 .main-top--item {
@@ -262,14 +292,19 @@ button {
 .main-middle {
 	display: flex;
 	flex-direction: row;
-	background-color: grey;
 	background-image: url("img/mid-page-accent.jpg");
+}
+
+.main-middle img {
+		width: 100%;
+
 }
 
 .main-bottom {
 	display: flex;
 	flex-direction: row;
-	background-color: grey;
+	padding: 0 0 2rem 0;
+
 }
 
 .main-bottom--item {
@@ -281,7 +316,6 @@ button {
 /*========== FOOTER ======== */
 
 .footer {
-	background-color: #0ff;
 	height: 30%;
 	width: 90%;
 	
@@ -292,15 +326,17 @@ button {
 
 .footer-item--1 {
 	width: 48%;
-	height: 10px;
-	background-color: orange;
-	margin 5%;
+	margin: 2% 5%;
 }
 
 .footer-item--2 {
+	text-align: center;
 	width: 48%;
 	height: 10px;
-	background-color: red;
-	margin 5%;
+	margin: 5%;
 	align-self: center;
+}
+
+img {
+	max-width: 100%;
 }
