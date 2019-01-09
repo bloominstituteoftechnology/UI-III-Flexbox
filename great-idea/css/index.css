@@ -65,119 +65,6 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-/* 
-.container {
-	height: 100%;
-	width: 85%;
-	margin: 0 auto;
-	text-align: center;
-	position: relative;
-}
-
-.header, .main {
-	width: 100%;
-	padding: 20px;
-	border-bottom: 1px solid #000;
-
-}
-
-.header-nav {
-	height: 10%;
-	padding: 20px 30px 70px 30px;
-	position: fixed;
-	background-color: #ddd;
-	z-index: 99;
-	width: 85%;
-}
-
-.header-nav nav a {
-	display: inline-block;
-	width: calc(97% / 6);
-	text-decoration: none;
-	color: #000;
-}
-
-.header-title {
-	height: 100%;
-	width: 100%;
-	margin: auto;
-	padding-top: 100px;
-}
-
-.header-item, .main-item {
-	display: inline-block;
-	padding: 15px;
-	margin: 5px;
-	width: calc(50% - 15px);
-	vertical-align: top;
-	height: 431px;
-}
-
-.header-item--contents {
-	height: 100%;
-}
-
-nav {
-	display: inline-block;
-	width: 80%;
-	text-align: left;
-}
-
-
-h1 {
-	font-size: 4.5rem;
-	padding: 10% 25% 7% 25%;
-	text-align: center;
-	margin: 0;
-}
-
-button {
-	background-color: transparent;
-	padding: 0.3rem 1.5rem;
-	border: 1px solid #000;
-
-}
-
-.main {
-	width: 100%;
-}
-
-.main > section > div {
-	height: 160px;
-	text-align: left;
-}
-
-.main > section > div.main-item--thirds {
-	height: 180px;
-}
-
-.main-item--thirds {
-	width: calc(33% - 15px);
-	padding-bottom: 20px;;
-}
-
-.middle-img {
-	width: calc(100% - 20px);
-	padding-bottom: 40px;
-}
-
-.footer {
-	width: 100%;
-	padding: 40px;
-}
-
-.footer ul {
-	padding: 10px 0;
-}
-
-.footer p {
-	padding: 10px 0;
-}
-
-.contact {
-	text-align: left;
-} */
-
 /* ===============  NEW CSS FOR FLEXBOX  ============  */
 
 .container {
@@ -206,59 +93,58 @@ button {
 }
 
 /* ======== header nav */
-	.header-nav {
-		width: 100%;
-		display: flex;
-		align-items: center;
-	}
+.header-nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
 
-	.header-nav--items {
-		width: 65%;
-		display: flex;
-		justify-content: space-evenly;
-	}
+.header-nav--items {
+	width: 65%;
+	display: flex;
+	justify-content: space-evenly;
+}
 
-	.header-nav--items a {
-		text-decoration: none;
-		color: black;
-	}
+.header-nav--items a {
+	text-decoration: none;
+	color: black;
+}
 
-	.header-nav--logo {
-		width: 35%;
-		padding-right: 3rem;
-	}
+.header-nav--logo {
+	width: 35%;
+	padding-right: 3rem;
+}
 
 /* ======== header title */
-	.header-title {
-		width: 90%;
-		height: 70%;
-		padding: 2rem 0;
-		display: flex;
-		justify-content: space-between;
-	}
-	.header-title--1, .header-title--2 {
-		width: 48%;
-		margin: 5%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+.header-title {
+	width: 90%;
+	height: 70%;
+	padding: 2rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+.header-title--1, .header-title--2 {
+	width: 48%;
+	margin: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
-	.header-title--1-contents h1 {
-		text-align: center;
-		margin: 0 18%;
-		font-size: 4.5rem;
-	}
+.header-title--1-contents h1 {
+	text-align: center;
+	margin: 0 18%;
+	font-size: 4.5rem;
+}
 
-	.btn {
-		background-color: #fff;
-		text-align: center;
-		padding: 0.5rem 2rem;
-		margin-top: 25px;
-		border: 1px solid #000;
-	}
-
+.btn {
+	background-color: #fff;
+	text-align: center;
+	padding: 0.5rem 2rem;
+	margin-top: 25px;
+	border: 1px solid #000;
+}
 
 
 /*========== MAIN ======== */
@@ -277,7 +163,6 @@ button {
 
 .main-top {
 	display: flex;
-	flex-direction: row;
 }
 
 .main-top--item {
@@ -289,12 +174,10 @@ button {
 .main-middle {
 	display: flex;
 	flex-direction: row;
-	background-image: url("img/mid-page-accent.jpg");
 }
 
 .main-middle img {
-		width: 100%;
-
+	width: 100%;
 }
 
 .main-bottom {
@@ -315,7 +198,6 @@ button {
 .footer {
 	height: 30%;
 	width: 90%;
-	
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -338,10 +220,53 @@ img {
 	max-width: 100%;
 }
 
-/* Additional CSS for Services page */
+/* Additional CSS only for Services page */
+img {
+	width: 100%;
+}
+
+.header-title--column {
+	flex-direction: column;
+}
+
+.header-title--text {
+	padding-top: 1.5rem;
+}
+
+.main-grid {
+	align-items: center;
+}
+
+.main-border {
+	border-bottom: 1px solid #000;
+	max-width: 88%;
+}
 
 .box {
 	padding: 2%;
 	border: 1px solid #000;
 	background-color: #ddd;
 }
+
+.main div.box {
+	margin: 0 10px;
+}
+
+.main-services {
+	padding-top: 1rem;
+	width: 92%;
+	
+}
+
+.footer-top {
+	padding-bottom: 3.5rem;
+}
+.footer-list {
+	list-style-type: square;
+	margin: 5%;
+}
+
+.footer-list li {
+	line-height: 1.5;
+}
+
