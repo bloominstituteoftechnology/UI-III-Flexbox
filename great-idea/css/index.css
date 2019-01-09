@@ -64,3 +64,82 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.testing {
+	border: 0px solid red;
+}
+header {
+	margin: 20px auto;
+	width: 880px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.header-section {
+	text-align: left;
+}
+section.text, section.jumbotron, section.contact {
+	margin: auto;
+	width: 880px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+section.image {
+	margin: auto;
+	width: 878px;
+}
+section.contact {
+	border-top: 2px solid black;
+}
+section.text {
+	display: flex;
+}
+header a {
+	font-size: 16px;
+	margin: 10px 20px;
+}
+.links {
+	display: flex;
+}
+header a:hover {
+	text-decoration: green wavy underline;
+	font-size: 20px;
+}
+header img {
+	display: inline-block;
+	margin-left: 20px;
+}
+section.jumbotron {
+	border-bottom: 2px solid black;
+	display:flex;
+}
+.jumbotron-text {
+	width:49%;
+	vertical-align: top;
+	padding-top: 60px;
+}
+.jumbotron-text h1 {
+	text-align: center;
+	font-size: 60px;
+}
+.jumbotron-text button {
+	width: 50%;
+	margin-left: 110px;
+	font-size: 30px;
+	border-radius: 20%;
+}
+.jumbotron-text button:hover {
+	animation: rotate 0.5s;
+}
+@keyframes rotate {
+	from {
+		transform: rotateY(0);
+	}
+	to {
+		transform: rotateY(360deg);
+	}
+}
+.copyright {
+	text-align: center;
+	padding:30px;
+}
