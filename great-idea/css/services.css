@@ -84,101 +84,88 @@ a {
 nav {
 	margin-top: 50px;
 }
-/* End of Navigation */
+/* End of navigation */
 
-#mainheading {
-	margin-top: 50px;
-	padding-bottom: 50px;
+.services-header-img {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#mainheading .title {
-	display: inline-block;
-	margin-right: 250px;
-	width: 30%;
-	border: 2px solid none;
+h1 {
+    font-size: 30px;
 }
 
-.title {
-	font-size: 75px;
-	text-align: center;
-	height: 220px;
-
+.container-2 {
+    display: flex;
+    height: 912px;
+    width: 891px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    padding-top: 35px;
 }
 
-#mainheading .circle-image {
-	display: inline-block;
-	width: 19%;
-	border: 2px solid none;
+.box {
+    border: 1px solid black;
+    background-color: rgb(235, 235, 235);
+    width: 413px;
+    height: 250px;
+    margin: 10px;
+}
+
+.box p {
+    font-size: 15px;
+    height: 100px;
+    width: 330px;
+    margin: 20px;
+}
+
+.box h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
 }
 
 button {
-	width: 200px;
-	height: 40px;
-	background-color: white;
-	border: 2px solid black;
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: white;
+    border: 1px solid black;
 }
 
-.section1 {
-	font-size: 60px;
-	width: 100px;
+.facts {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 30px;
 }
 
-p {
-	font-size: 16px;
+.facts h2 {
+    font-size: 20px;
 }
 
-.first-content {
-	border-top: 5px solid grey;
-	padding-top: 50px;
-	padding-bottom: 50px;
+.some-facts {
+    height: 170px;
+    padding-right: 60px;
+}
+.some-facts p {
+    line-height: 20px;
+    padding-bottom: 20px;
 }
 
-.first-content .features {
-	display: inline-block;
-	width: 49%;
-	border: 2px solid none;
-	padding-right: 50px;
-}
-.first-content .about {
-	display: inline-block;
-	width: 49%;
-	position: absolute;
+.list {
+    width: 100px;
 }
 
-.first-content .about p {
-	width: 55%;
+.lists li {
+    padding: 10px;
 }
 
-.main-image {
-	margin-left: 480px;
-}
-
-h2 {
-	font-size: 25px;
-}
-
-.second-content {
-	padding-top: 25px;
-}
-
-.second-content .services {
-	display: inline-block;
-	width: 32%;
-	border: 2px none;
-}
-
-.second-content .product {
-	display: inline-block;
-	width: 32%;
-	border: 2px none;
-}
-
-.second-content .vision {
-	display: inline-block;
-	width: 32%;
-	border: 2px none;
+.services-main {
+    padding-bottom: 35px;
+    border-bottom: 2px solid black;
 }
 
 .copyright {
-	margin-left: 50%;
+	margin-left: 40%;
 }
