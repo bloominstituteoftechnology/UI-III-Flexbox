@@ -111,7 +111,22 @@ h1, h2, h3, h4, h5 {
 	padding-top: 1.5rem;
 }
 
+.header-nav--items a:hover {
+	color: blue;
+    transform: scale(1.1);
+  	transition: all 0.3s ease-in-out;
+	text-decoration: underline;
+}
+
 .header-nav--logo {
+	padding: 1rem 0 0 4.5rem;
+}
+
+.header-nav--logo:hover {
+    transform: scale(1.05);
+	transform: translateY(-2px);
+  	transition: all 0.3s ease-in-out;
+} {
 	padding: 1rem 0 0 4.5rem;
 }
 
@@ -144,6 +159,20 @@ h1, h2, h3, h4, h5 {
 	padding: 0.5rem 2rem;
 	margin-top: 25px;
 	border: 1px solid #000;
+	transition: all 0.3s ease-in-out;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+	cursor: pointer;
+	box-shadow: 0 1rem 2rem #ccc;
+}
+
+.btn:active {
+	outline: none;
+    transform: scale(0.99);
+
 }
 
 /*========== MAIN ======== */
@@ -271,3 +300,4 @@ img {
 .footer-list li {
 	line-height: 1.5;
 }
+
