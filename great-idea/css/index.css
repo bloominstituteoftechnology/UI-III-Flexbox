@@ -175,3 +175,76 @@ body footer {
 	text-align: center;
 	margin-bottom: 50px;
 }
+
+
+/* New CSS from Services Page */
+
+body .services-header-img {
+	width:100%;
+}
+
+body .services {
+	border-bottom: 1px solid black;
+	padding: 30px 0;
+}
+
+body .services h2 {
+	font-size: 25px;
+}
+
+body .main-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.main-boxes {
+	border: 1px solid black;
+	width: 45%;
+	background-color: rgb(238, 238, 238);
+	padding: 15px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 20px;
+}
+
+.main-boxes button {
+	background-color: white;
+	border-radius: 5px;
+	width: 150px;
+	height: 40px;
+	border: 1px solid black;
+	margin-top: 45px;
+}
+
+body .bottom {
+	display: flex;
+	flex-flow: row nowrap;
+	border-top: 1px solid black;
+	
+
+}
+
+body .bottom .facts, img, ul {
+	margin: 20px;
+	list-style-type: disc;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	align-content: space-between;
+	width: 50%;
+}
+
+body .bottom .facts h5, p ul {
+	margin: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+
