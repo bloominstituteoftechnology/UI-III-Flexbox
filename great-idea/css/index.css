@@ -31,9 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -104,9 +101,7 @@ li {
 .main-nav a:hover {
 	color: green;
 }
-img{
-	border-radius: 10px;
-}
+
 	 div {
 		background-color: white;
 		 color:grey;
@@ -167,17 +162,22 @@ img{
 	  .row { 
 		display:flex;
 		flex-wrap: wrap;
+		justify-content:  center;
 	  }
 	  
 	  .column {
 		text-align: center;
-		column-count: 1;
+		flex-wrap: wrap;
+		
+	  }
+	  ol #today{
+		  color: #b40909;
 		
 	  }
 	
-	  @media screen and (max-width: 768px) {
+	  @media screen and (max-width: 880px) {
 		.container {
-		  overflow: auto;
+		  overflow: inherit;
 		}
 		 .column {
 		   min-width: 100%;
