@@ -116,11 +116,11 @@ header nav {
 	display: none;
 }
 
-header nav a {
+.nav-link {
 	text-decoration: none;
 }
 
-header nav a:hover {
+.nav-link:hover {
 	text-decoration: none;
 	font-weight: 800;
 	color: #000;
@@ -221,36 +221,36 @@ small {
 }
 
 .row div {
-	padding: 20px;
+	padding: 30px;
 	width: 48%;
 	border-radius: 5px;
 	background: #fff;
 	box-shadow: 0 0 2rem rgba(0,0,0,.1);
 }
 
-#facts-section {
+.facts-section {
 	display: flex;
 	justify-content: space-between;
 }
 
-#facts-section div {
+.facts-section div {
 	width: 48%;
 	height: 100%;
 }
 
-#facts-section div:first-child {
+.facts-section div:first-child {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-#facts-section div:last-child {
+.facts-section div:last-child {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 }
 
-#facts-list li {
+.facts-list li {
 	margin-left: 20px;
 	list-style-type: square;
 }
@@ -272,12 +272,8 @@ small {
 		align-items: center;
 	}
 
-	header nav a {
+	.nav-link {
 		display: none;
-	}
-
-	.logo {
-		display: block;
 	}
 
 	main, article {
@@ -310,7 +306,7 @@ small {
 		max-width: 100%;
 	}
 
-	/* services */
+	/* services page*/
 	.row {
 		padding: 0 20px;
 		display: flex;
@@ -327,16 +323,16 @@ small {
 		box-shadow: 0 0 2rem rgba(0,0,0,.1);
 	}
 
-	#facts-section {
+	.facts-section {
 		flex-direction: column;
 	}
 	
-	#facts-section div {
+	.facts-section div {
 		width: 100%;
 		overflow: hidden;
 	}
 
-	#facts-section div:last-child {
+	.facts-section div:last-child {
 		display: flex;
 		justify-content: center;
 		align-items: center;
