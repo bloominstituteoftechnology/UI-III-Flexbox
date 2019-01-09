@@ -173,11 +173,26 @@ h3 {
 	font-size: 22pt;
 }
 
+.service-descriptions {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 
+.service-items {
+	padding: 30px;
+	width: 48%;
+	height: 250px;
+	background: #EDEDED;
+	border: 1px solid black;
+	margin: 25px 10px 25px 10px;
+}
 
-
-
-
+.service-items button {
+	border-radius: 5px;
+	margin-top: 20px;
+	height: 30px;
+}
 
 footer p {
 	font-size: 8pt;
