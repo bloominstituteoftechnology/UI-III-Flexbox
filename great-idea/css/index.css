@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 900px;
-	
 	margin: auto;
 }
 
@@ -75,7 +74,7 @@ nav {
 	
 	display: flex;
 	justify-content: space-between;
-	padding: 30px 0;
+	padding: 50px 0;
 }
 
 .nav-items {
@@ -87,6 +86,7 @@ nav {
 nav a{
 	color: rgb(68, 57, 57);
 	text-decoration: none;
+	padding-top: 10px;
 }
 
 header {
