@@ -88,7 +88,54 @@ h1, h2, h3, h4, h5 {
 	padding: 50px;
 }
 
+
+
+
+
+
+
 /*CSS for index*/
+
+.main-container {
+	display: flex;
+	justify-content: center;
+}
+
+.header1 {
+	font-size: 100px;
+	text-align: center;
+	border: 1px solid red;
+	width: 500px;
+	height: 300px;
+}
+
+.get-started {
+	border: 1px solid black;
+	width: 160px;
+	padding: 10px 40px 10px 40px;
+	align-self: flex-end;
+	
+}
+
+.circle-logo {
+	border: 1px solid red;
+}
+
+.features-about {
+	display: flex;
+	justify-content: center;
+}
+
+.info {
+	border-top: 1px solid black;
+	width: 430px;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+
+
+
 
 
 
