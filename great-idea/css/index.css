@@ -57,7 +57,7 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, label {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -200,7 +200,7 @@ header nav a {
 	padding: 25px;
 }
 
-.box button {
+.box button, .contact-form button {
 	margin: 15px 0;
 	width: 150px;
 	height: 40px;
@@ -244,3 +244,9 @@ header nav a {
 	width: 600px;
 }
 
+.contact-form input, .contact-form textarea {
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: #f4f3f4;
+}
