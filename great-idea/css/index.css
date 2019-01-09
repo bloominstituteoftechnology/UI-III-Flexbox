@@ -151,7 +151,7 @@ body {
   --main-width: 876px;
   --main-color: black;
   --gray: rgba(0, 0, 0, 0.5);
-  --lightgray: rgba(0, 0, 0, 0.05);
+  --lightgray: rgba(127, 127, 127, 0.05);
   color: var(--main-color);
 }
 
@@ -314,6 +314,20 @@ section div p {
   margin: 1rem 0;
   background: var(--lightgray);
   width: calc((100% / 2) - 1rem);
+}
+
+.cards button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  background: white;
+}
+
+.cards button:hover {
+  transition: 200ms;
+  color: white;
+  background: var(--main-color);
 }
 
 .facts {
