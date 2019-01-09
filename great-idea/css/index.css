@@ -195,3 +195,9 @@ footer {
     border-radius: 3px;
     color: black;
 }
+
+@media screen and (max-width: 575px) {
+	.main-content-boxes {
+	  display: block;
+	}
+  }
