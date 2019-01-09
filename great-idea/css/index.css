@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
+/* 
 .container {
 	height: 100%;
 	width: 85%;
@@ -82,7 +82,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .header-nav {
-	/* display: inline; */
 	height: 10%;
 	padding: 20px 30px 70px 30px;
 	position: fixed;
@@ -177,4 +176,131 @@ button {
 
 .contact {
 	text-align: left;
+} */
+
+/* ===============  NEW CSS FOR FLEXBOX  ============  */
+
+.container {
+	width: 90%;
+	height: 500px;
+	background-color: #000;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/*========== HEADER ======== */
+.header {
+	background-color: yellow;
+	height: 30%;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-nav {
+	background-color: pink;
+	width: 90%;
+	display: flex;
+	align-items: flex-end;
+	height: 30%;
+}
+
+.header-nav--items {
+	width: 70%;
+	background-color: #f66;
+	
+}
+
+.header-nav--logo {
+	width: 30%;
+	background-color: #f44;
+}
+.header-title {
+	width: 90%;
+	height: 70%;
+	background-color: yellowgreen;
+/* 	padding: 20px; */
+	display: flex;
+	justify-content: space-between;
+}
+.header-item--1, .header-item--2 {
+	width: 48%;
+	background-color: #fff;
+	margin 5%;
+}
+
+/*========== MAIN ======== */
+.main {
+	background-color: blue;
+	height: 30%;
+	width: 90%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main div{
+	width: 90%;
+	height: 30%;
+	margin: 10px;
+}
+
+.main-top {
+	display: flex;
+	flex-direction: row;
+	background-color: grey;
+}
+
+.main-top--item {
+	background-color: #fff;
+	width: 50%;
+	height: 10px;
+}
+
+.main-middle {
+	display: flex;
+	flex-direction: row;
+	background-color: grey;
+	background-image: url("img/mid-page-accent.jpg");
+}
+
+.main-bottom {
+	display: flex;
+	flex-direction: row;
+	background-color: grey;
+}
+
+.main-bottom--item {
+	background-color: #fff;
+	width: 33%;
+	height: 10px;
+}
+
+/*========== FOOTER ======== */
+
+.footer {
+	background-color: #0ff;
+	height: 30%;
+	width: 90%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.footer-item--1 {
+	width: 48%;
+	height: 10px;
+	background-color: orange;
+	margin 5%;
+}
+
+.footer-item--2 {
+	width: 48%;
+	height: 10px;
+	background-color: red;
+	margin 5%;
+	align-self: center;
 }
