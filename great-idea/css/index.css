@@ -66,12 +66,16 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 * {
 	box-sizing: border-box;
-	color: black;
 }
 
 html, body {
 	font-family: 'Bai Jamjuree';
 	font-size: 17px;
+	color: black;
+}
+
+body {
+	margin-bottom: 75px;
 }
 
 p {
@@ -86,49 +90,45 @@ h2 {
 	font-size: 22px;
 }
 
+header {
+	z-index: 1;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .content-container, .header-content-container {
 	width: 1024px;
 	margin: 0 auto;
 }
 
-header {
-	z-index: 1;
-	position: sticky;
-	width: 100%;
-	top: 0;
-	background-color: white;
-	box-shadow: 0 1px 10px rgba(0,0,0,0.2);
-}
-
-nav {
-	display: inline-block;
-	height: 100px;
+.header-content-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav a {
-	line-height: 100px;
 	text-decoration: none;
 	margin-right: 70px;
 	color: #BCBCBC;
 }
 
-header img {
-	position: relative;
-	top: 50px;
-	float: right;
-	transform: translateY(-50%);
+.content-container {
+	display: flex;
+	flex-direction: column;
 }
 
 .hero-section {
 	height: 500px;
-}
-
-.hero-section div {
-	width: 50%;
-	display: inline-block;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .hero-section h1 {
@@ -137,24 +137,23 @@ header img {
 
 .hero-section button {
 	display: block;
-	margin: 45px auto 45px auto;
 	-webkit-appearance: none;
 	font-size: 16px;
-	padding: 10px 40px;
+	padding: 15px 40px;
 	cursor: pointer;
 	background-color: #3f28ef;;
 	box-shadow: 0 1px 10px rgba(0,0,0,0.2);
 	color: white;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 200px;
 }
 
-.main-image-container {
-	float: right;
-}
-
-.main-image-container img {
-	display: block;
-	margin-right: 0;
-	margin-left: auto;
+.main-title-container {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .divider {
@@ -163,33 +162,29 @@ header img {
 	margin-bottom: 40px;
 }
 
+.text-grid-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.text-grid-container section {
+	padding: 40px 0;
+	padding-top: 0;
+}
+
 .features-section {
 	padding-right: 20px;
 }
 
 .features-section, .about-section {
-	display: inline-block;
-	width: 50%;
-	float: left;
-	padding: 40px 0;
-	padding-top: 0;
+}
+
+figure {
+	padding-bottom: 40px;
 }
 
 figure img {
 	width: 100%;
-}
-
-.services-section, .product-section, .vision-section {
-	display: inline-block;
-	width: 33.3%;
-	padding: 40px 0;
-	padding-bottom: 0;
-	margin-bottom: 40px;
-}
-
-.services-section, .product-section {
-	float: left;
-	padding-right: 20px;
 }
 
 .contact-section p {
@@ -197,6 +192,6 @@ figure img {
 }
 
 .copyright {
-text-align: center;
-	margin-bottom: 115px;
+	text-align: center;
+	margin: 40px 0;
 }
