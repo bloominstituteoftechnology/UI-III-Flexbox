@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	color: black;
 }
 
 html, body {
@@ -58,9 +59,113 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+nav{
+	width: 100vw;
+	height: 10vh;
+	position: fixed;
+	top: 0px;
+	background-color: cadetblue;
+	padding-top: 3vh;
+	border-bottom: 1px solid black;
+	z-index: 10;
+	background-image: url('img/logo.png');
+	background-repeat: no-repeat;
+	background-position: top 41% right 11%;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+header{
+	display: flex;
+	align-items: center;
+	padding:5vh 0;
+}
+
+
+nav .logo{
+	width: min-content;
+}
+
+.header-text-container{
+	padding: 10vh 5vw;
+	width: 60vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-text-container h1{
+    font-size: 6em;
+    width: 24vw;
+}
+
+.header-text-container h1,button{
+	margin: auto;
+}
+
+button{
+	background: none;
+    border: 2px solid black;
+    width: 10vw;
+    height: 7vh;
+}
+
+.header-img{
+	width: 20vw;
+	height: 20vw;
+}
+
+.main{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 10vw;
+}
+
+
+.main img{
+	width: 100%;
+}
+
+.main div, .contact{
+	width: calc(100%/2.01);
+	padding: 5vh 5vh;
+}
+
+.main .more{
+	width: calc(100%/3.02);
+}
+
+.contact-wrapper{
+	border: none;
+}
+
+footer {
+	padding: 5vh;
+    text-align: center;
+    height: 20vh;
+}
+
+body{
+	background-image: url('/User-Interface/great-idea-website/img/header-img.png'),url('/User-Interface/great-idea-website/img/mid-page-accent.jpg');
+	background-repeat: no-repeat,no-repeat;
+	background-position: top 33% right 13%, top 122% left 50%;
+	background-color: #faebd7;
+}
+
+a:hover{
+	cursor: pointer;
+	border-bottom: 3px solid cornsilk;
+	transition-duration: 300ms;
+}
+
+
