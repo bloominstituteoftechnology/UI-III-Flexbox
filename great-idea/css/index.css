@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.help {
+	border: red solid 2px;
+}
+
+.container {
+	width: 870px;
+	margin: auto;
+}
+
+nav {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 70px; 
+}
+
+ul {
+	list-style-type: disc;
+}
+	li {
+	margin: 10px 0;
+}
+
+footer {
+	text-align: center;
+	padding-top: 100px;
+	font-weight: bold;
+}
+
+nav a {
+	padding: 10px;
+}
+
+.logo {
+	padding-bottom: 10px;
+}
+.banner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+.banner-text {
+	margin-top: 50px;
+}
+
+.banner-content {
+	text-align: center;
+}
+
+.primary-content {
+	border-top: 1px solid black;
+	padding: 30px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: row	
+	
+}
+
+.secondary-content {
+	border-bottom: solid black 1px;
+	padding: 30px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: space-around;
+	justify-content: space-between;
+}
+
+.secondary-text-block {
+	padding: 0 10px;
+}
+
+.contact {
+	margin-top: 20px;
+}
+
+.phone {
+	padding: 10px;
+}
+
+.top-content {
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+.box-content {
+	width: 400px;
+	border: solid black 1px;
+	margin: 20px 0;
+	padding: 10px;
+	background: #E8E8E8;
+}
+
+.box-content button {
+	margin: 10px 5px;
+	padding: 0 10px;
+	border-radius: 7px;
+}
+.content-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+}
+
+.bottom-content {
+	border-top: solid black 1px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: row;
+}
+
+.bottom-content {
+	display: flex;
+}
+
+.list {
+	padding: 20px;
+}
+
+.bottom-text {
+	padding-right: 50px;
+}
