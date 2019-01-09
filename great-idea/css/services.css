@@ -57,7 +57,7 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -113,86 +113,79 @@ header > a img {
 	width: 100%;
 }
 
-
-
 main {
-	padding-top: 80px;
+	padding-top: 60px;
 	width: 100%;
 }
 
-.landing {
-	display: flex;
-	height: 500px;
-	/* border: 1px solid red; */
-	margin-top: 20px;
+.landing img {
+    width: 100%;
 }
 
-.landing-text {
-	/* border: 1px solid red; */
-	width: 55%;
+.landing h1 {
+    margin-top: 35px;
+    font-size: 30px;
 }
 
-.landing-image {
-	/* border: 1px solid red; */
-	width: 45%;
+.landing p {
+    padding-bottom: 35px;
 }
 
-.landing div h1 {
-	font-size: 70px;
-	margin-top: 90px;
-	text-align: center;
+.main-content {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 35px;
 }
 
-.landing button {
-	border: 1px solid black;
-	border-radius: 0px;
-	font-size: 16px;
-	display: block;
-	margin: auto;
-	padding: 4px 20px;
+.main-content article {
+    background-color: #f4f3fa;
+    border: 1px solid black;
+    margin-top: 35px;
+    padding: 15px;
+    width: 48%;
 }
 
-.landing-image img {
-	margin-top: 50px;
+.main-content article h6,
+.facts h6 {
+    font-size: 20px;
 }
 
-.article-top-section {
-	border-top: 1px solid black;
-	display: flex;
-	justify-content: space-between;
-	padding-top: 40px;
+.main-content article button {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 5px 25px;
 }
 
-.article-top-section div {
-	/* border: 1px solid red; */
-	width: 49%;
+.facts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
-article img {
-	margin: 40px 0;
-	max-width: 877px;
-	width: 100%;
+.facts div {
+    width: 48%;
 }
 
-.article-middle-section {
-	border-bottom: 1px solid black;
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 40px;
+.facts div p {
+    padding-bottom: 15px;
 }
 
-.article-middle-section div {
-	/* border: 1px solid red; */
-	width: 31%;
+.facts div li {
+    list-style: square inside;
+    margin-top: 10px;
 }
 
-.article-bottom-section {
-	padding-top: 30px;
+.facts img {
+    width: 48%;
 }
-
 
 footer {
-	height: 180px;
-	padding-top: 50px;
+	height: 60px;
+    margin-top: 100px;
 	text-align: center;
 }
