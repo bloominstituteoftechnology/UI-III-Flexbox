@@ -91,6 +91,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: purple;
+}
+
 .image-top {
     margin-top: 100px;
     margin-bottom: 50px;
@@ -168,12 +172,13 @@ a {
 .copyright {
     margin: 60px 100px;
     text-align: center;
+    font-family: Brush Script MT;
 }
 button {
     padding: 10px;
     border-radius: 10px;
     margin-top: 60px;
-    width: 100px;
+    width: 130px;
 }
 
 section p {

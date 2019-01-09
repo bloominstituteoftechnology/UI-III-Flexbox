@@ -89,6 +89,9 @@ a {
     color: grey;
     text-decoration:none;
 }
+a:hover {
+    color: purple;
+}
 
 .section-two {
     display:flex;
@@ -156,4 +159,5 @@ a {
 .paragraph-center {
     text-align: center;
     margin: 80px 200px;
+    font-family: Brush Script MT;
 }
