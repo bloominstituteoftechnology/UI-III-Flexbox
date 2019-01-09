@@ -108,6 +108,11 @@ h1{
 	font-weight: 200;
 }
 
+h2{
+	font-size: 20px;
+	font-weight: 200;
+}
+
 .headline p{
 	width: 150px;
 	background: white;
@@ -128,7 +133,7 @@ h1{
 	width: 400px;
 }
 
-.middle-img{
+.middle-img, .services-header-img{
 	width: 910px;
 	margin: 0 20px;
 }
