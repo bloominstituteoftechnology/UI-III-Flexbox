@@ -160,6 +160,25 @@ p {
 	color: black;
 }
 
+.services-header-img {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.services-intro-text {
+	margin: 50px 0 50px 0;
+}
+
+h3 {
+	font-size: 22pt;
+}
+
+
+
+
+
+
+
 footer p {
 	font-size: 8pt;
 	text-align: center;
