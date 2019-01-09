@@ -3,64 +3,330 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* global */
+
+#wrapper {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+p {
+  padding: 0.5em 0;
+  line-height: 1.4em;
+}
+
+h2 {
+  margin: 0.75em 0;
+}
+
+ul {
+  margin: 1em 0;
+}
+
+ul li {
+  line-height: 1.75em;
+  list-style: square inside;
+}
+
+/* header */
+
+header {
+  margin: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header div {
+  margin-left: auto;
+}
+
+header nav ul {
+  padding: 10px 0;
+  display: flex;
+  margin: 0;
+}
+
+header nav li {
+  list-style: none;
+  line-height: inherit;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: gray;
+  padding: 30px;
+  font-size: 0.9em;
+}
+
+header nav li:first-child a {
+  padding-left: 0;
+}
+
+/* hero */
+
+#hero {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+}
+
+#hero div {
+  flex-grow: 1;
+}
+
+#hero div.left {
+  text-align: center;
+}
+
+#hero div.right {
+  text-align: right;
+}
+
+#hero div.right img {
+  max-width: 80%;
+}
+
+#hero h1 {
+  font-size: 4.75em;
+}
+
+#hero button {
+  border: 1px solid black;
+  background: transparent;
+  font-size: 1em;
+  padding: 5px 40px;
+}
+
+/* main */
+main {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 30px 0 40px;
+}
+
+main section {
+  display: flex;
+}
+
+main div img {
+  width: 100%;
+  padding: 30px 0;
+}
+
+main section div {
+  padding-right: 20px;
+}
+
+main section div:last-child {
+  padding-right: 0;
+}
+
+/* contact */
+#contact {
+  padding-top: 30px;
+}
+/* footer */
+
+footer {
+  padding: 40px 0;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* services page */
+
+#page-banner img {
+  width: 100%;
+}
+
+#services-intro {
+  padding: 30px 0;
+}
+
+#services-intro h1 {
+  font-size: 1.5em;
+}
+
+#services-list {
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.services-list-item {
+  width: calc(50% - 20px);
+  background: #eee;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.services-list-item button {
+  background: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 40px;
+  margin-top: 1em;
+}
+
+#services-facts {
+  display: flex;
+  padding: 40px 0;
+}
+
+#services-facts > div:first-child {
+  padding-right: 45px;
+}
