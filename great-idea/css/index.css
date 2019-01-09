@@ -100,8 +100,8 @@ header nav a {
 }
 
 header nav a:hover {
-	transition: all 0.4s ease;
 	text-decoration: underline;
+	color: #1b1d1b;
 }
 
 header .logo {
@@ -120,7 +120,6 @@ header .logo {
 
 .title-header .left {
 	display: block;
-	flex-direction: column;
 	font-size: 70px;
 	text-align: center;
 	width: 400px;
@@ -141,7 +140,9 @@ button {
 }
 
 button:hover {
-	background: black;
+	box-shadow: 2px 2px 22px 4px rgba(0,0,0,0.35);
+	background: #1b1d1b;
+	border: 1px solid #f3f4f3;
 	color: white;
 }
 
@@ -157,8 +158,8 @@ button:hover {
 	padding-top: 39px;
 }
 
-.main h2 {
-	font-size: 18px;
+.main h3 {
+	font-size: 20px;
 }
 
 .content-top {
@@ -169,7 +170,6 @@ button:hover {
 	padding-top: 40px;
 	padding-bottom: 20px;
 }
-
 
 .main .content-top .content-text {
 	display: flex;
@@ -223,6 +223,10 @@ button:hover {
 	padding: 39px 0;
 }
 
+.contact h3 {
+	font-size: 20px;
+}
+
 footer  {
 text-align: center;
 padding: 60px 0 100px 0;
@@ -261,7 +265,7 @@ padding: 60px 0 100px 0;
 }
 
 .services-text h3 {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .services-facts {
@@ -270,6 +274,10 @@ padding: 60px 0 100px 0;
 	flex-direction: row;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.services-facts h3 {
+	font-size: 20px;
 }
 
 .services-facts:first-child {
@@ -304,4 +312,10 @@ footer {
 	padding: 10px;
 	border-radius: 5px;
 	margin-top: 20px;
+}
+
+.info:hover {
+	box-shadow: 2px 2px 22px 4px rgba(0,0,0,0.35);
+	background: #1b1d1b;
+	border: 1px solid #f3f4f3;
 }
