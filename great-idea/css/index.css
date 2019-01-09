@@ -262,8 +262,8 @@ section.photo-collage {
 }
 
 section.photo-collage div.photo {
-	flex: 17%;
-	max-width: 19%
+	flex: 15%;
+	max-width: 15%
 }
 
 section.photo-collage div.photo img {
@@ -292,29 +292,30 @@ section.products-examples-container {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+/* image */
 
 section.products-examples-container div.product-example-image-container {
-	flex: 40%;
-	max-width: 47.5%;
-	margin-bottom: 5%
+	flex: 45%;
+	max-width: 45%;
+	margin-bottom: 5%;
 }
 
-section.products-examples-container div.product-example-image-container p {
-	line-height: 1.25;
-	padding: 20px 0;
-}
-
-section.products-examples-container div.product-example-image-container h2 {
-	line-height: 1.25;
-}
-
-section.products-examples-container div.product-example-text-container {
-	flex: 40%;
-	max-width: 47.5%;
-	margin-bottom: 5%
-}
-
-section.products-examples-container div.product-example-text-container img {
+section.products-examples-container div.product-example-image-container img {
 	max-width: 100%;
 	border-radius: 20px;
+}
+
+/* text */
+section.products-examples-container div.product-example-text-container {
+	flex: 43%;
+	max-width: 47.5%;
+	margin-bottom: 5%
+}
+
+section.products-examples-container div.product-example-text-container p {
+	line-height: 1.25;
+}
+
+section.products-examples-container div.product-example-text-container h2 {
+	line-height: 1.25;
 }
