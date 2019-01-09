@@ -105,6 +105,17 @@ nav a {
 	align-self: center;
 }
 
+ul {
+	list-style-type: disc;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+li {
+	margin: 20px 20px;
+}
+
 justificator {
 	display: flex;
 	justify-content: center;
