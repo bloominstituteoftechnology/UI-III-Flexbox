@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 880px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+
+header {
+	/*border: 2px dotted purple;*/
+	display: flex;
+	width: 880px;
+	height: 75px;
+	justify-content: space-around;
+	align-items: center;
+
+}
+header nav {
+	display: flex;
+	align-items: center;
+	margin: 20px 150px 5px 0px;
+	/*border: 2px dashed green;*/
+}
+
+header nav a {
+	padding: 20px;
+	color: gray;
+}
+.logo {
+	display: flex;
+	width: 150px;
+	height: 30px;
+	align-items: center;
+	/*border: 2px solid magenta;*/
+}
+.innovation {
+	display: flex;
+	width: 880px;
+	padding: 10px;
+	border: 3px solid orange;
+}
+
+.innovation h1{
+	display: flex;
+	font-family: "Bangers" cursive;
+	font-size: 75px;
+	text-align: center;
+	flex-wrap: wrap;
+	margin: 0 70px 0;
+}
+.innovation .header-image {
+	width: 40%;
+	height: 40%;
+}
+	
+button {
+	background: white;
+	width: 150px;
+	height: 30px;
+	margin-left: 15px;
+	border: 1px solid black;
+}
+
+.main-content-top {
+	border-top: 1px solid black;
+	margin: 10px 0 10px 0;
+}
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.main-content-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.features, .about {
+	width: 350px;
+	margin: 20px 0 40px 55px;
+}
+.main-content-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services, .product, .vision {
+	width:220px;
+	margin: 20px 0 40px 50px;
+}
+p {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.main-content-bottom {
+border-bottom: 1px solid black;
+}
+
+footer {
+	margin: 40px;
+}
+address {
+	margin: 15px 0 15px 0;
+}
+.copyright {
+	display: flex;
+	justify-content: center;
+}
