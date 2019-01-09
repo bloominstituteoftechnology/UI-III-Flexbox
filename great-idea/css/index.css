@@ -162,7 +162,7 @@ h2{
 	width: 32%;
 }
 
-.contact h3, .service-details section h3, .service-facts h3{
+.contact h3, .services-details section h3, .services-facts h3{
 	margin: 0;
 }
 .contact{
@@ -179,7 +179,11 @@ footer{
 	margin: 30px 0 100px;
 }
 
-.service-details{
+.services-intro{
+	margin: 30px 20px 40px;
+}
+
+.services-details{
 	height:800px;
 	display: flex;
 	flex-flow: row wrap;
@@ -190,27 +194,28 @@ footer{
 	border-top: 1px solid black;
 }
 
-.service-details section{
+.services-details section{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	height: 220px;
-	width: 410px;
+	width: 420px;
 	padding: 20px;
 	border: 1px solid black;
-	background: pink;
+	background: #F8F8F8;
 }
 
 .learn-button{
 	height: 30px;
-	width: 100px;
+	width: 140px;
 	border: 1px solid black;
 	background: white;
 	text-align: center;
 	vertical-align: middle;
+	border-radius: 5px;
 }
 
-.service-facts{
+.services-facts{
 	border-top: 2px solid black;
 	margin: 20px;
 	padding: 40px 0;
@@ -218,14 +223,24 @@ footer{
 	justify-content: space-between;
 }
 
-.service-facts section{
+.services-facts section{
 	height: 300px;
-	width: 50%;
+	width: 410px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
 ul{
-	
+	list-style: square;
+	text-indent: 8px;
+	padding-left: 15px;
+}
+
+li{
+	margin-bottom: 25px;
+}
+
+li:last-child{
+	margin: 0;
 }
