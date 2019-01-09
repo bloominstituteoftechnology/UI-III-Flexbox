@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+input, button, submit { border:none; } 
+
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
@@ -105,31 +107,71 @@ header .logo {
 
 .cta {
 	display: flex;
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
 .cta .cta-text {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid blue;
+	border-bottom: 1px solid blue;
 	margin: 25px 0px 25px 0px;
+	padding-bottom: 30px;
 }
 
 .main {
 	
 	display: flex;
 	justify-content: space-evenly;
-	
-	border: 1px solid royalblue;
-	
-	justify-content: center;
-  	align-items: center;
+	flex-wrap: wrap;
+	/* border: 1px solid royalblue; */
+	padding-top: 25px;
+	padding-bottom: 25px;
+  	
 }
 
 .main .main-content {
-	
-	width: 300px;
-	border: 1px solid hotpink;
-	margin: 25px;
+
+	padding: 10px;
+	margin: 10px 0px 10px 0px;
+	width: 400px;
+	border: 1px solid black;
+	flex-direction: column;
+	background-color: #eee;
 }
 
+
+button {
+	width: 150px;
+	height: 25px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	margin: 20px 0px 10px 0px;
+}
+.services-header-img {
+	margin-top: 15px; 
+}
+
+.footer-content	{
+	border-top: 1px solid black;
+	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-content section {
+
+}
+
+.footer-content section img {
+	display: inline-flex;
+	justify-content: right;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.services {
+	font-size: 1.5em
+}
