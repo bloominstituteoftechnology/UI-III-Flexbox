@@ -63,7 +63,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
 	width: 900px;
@@ -89,7 +88,7 @@ nav a{
 	padding-top: 10px;
 }
 
-header {
+.header-index {
 	display: flex;
 	justify-content: space-around;
 	text-align: center;
@@ -165,3 +164,62 @@ address a {
 	color: black;
 }
 
+.h1-services {
+	font-size: 3em;
+	padding: 25px 0;
+}
+
+.services-main-section {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	
+
+}
+
+.box {
+	background-color: rgba(120, 164, 194, 0.61);
+	width: 430px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+
+.box h2 {
+	padding: 20px 0 0 10px;
+}
+
+.box p {
+	padding: 0 10px;
+}
+
+.button {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px 30px;
+	margin: 20px 0 20px 10px;
+	color: black;
+	text-decoration: none;
+	background: white;
+	border-radius: 5px;
+}
+
+.services-bot-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-bot-section img {
+	width: 2630px;
+}
+
+.services-bot-section p {
+	padding-right: 40px;
+	padding-bottom: 20px;
+}
+
+.services-bot-section ul {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 2;
+}
