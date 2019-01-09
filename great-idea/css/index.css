@@ -245,21 +245,18 @@ button {
 		align-items: center;
 	}
 
-	.header-title--1-contents {
-
-	}
-
 	.header-title--1-contents h1 {
 		text-align: center;
 		margin: 0 18%;
 		font-size: 4.5rem;
 	}
 
-	.header-title--1-contents button {
-		background-color: transparent;
+	.btn {
+		background-color: #fff;
 		text-align: center;
 		padding: 0.5rem 2rem;
 		margin-top: 25px;
+		border: 1px solid #000;
 	}
 
 
@@ -333,10 +330,18 @@ button {
 	text-align: center;
 	width: 48%;
 	height: 10px;
-	margin: 5%;
+	margin: 2%;
 	align-self: center;
 }
 
 img {
 	max-width: 100%;
+}
+
+/* Additional CSS for Services page */
+
+.box {
+	padding: 2%;
+	border: 1px solid #000;
+	background-color: #ddd;
 }
