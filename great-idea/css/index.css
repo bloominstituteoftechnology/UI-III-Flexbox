@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 
 /*shared CSS*/
 .header-container {
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	height: 200px;
 	display: flex;
 	justify-content: center;
@@ -78,13 +78,13 @@ h1, h2, h3, h4, h5 {
 	font-family: 'Titillium Web';
 	color: #bfbfbf;
 	text-decoration: none;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	padding: 50px;
 	width: 160px;
 }
 
 .logo {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	padding: 50px;
 }
 
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5 {
 .body-container {
 	display:flex;
 	flex-direction: column;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	justify-content: center;
 	align-items: center;
 }
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5 {
 .header1 {
 	font-size: 100px;
 	text-align: center;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 500px;
 	height: 300px;
 }
@@ -122,11 +122,11 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid black;
 	width: 160px;
 	padding: 10px 40px 10px 40px;
-	align-self: flex-end;
+	margin-left: 170px;
 }
 
 .circle-logo {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .features-about {
@@ -149,12 +149,20 @@ h1, h2, h3, h4, h5 {
 }
 
 .middle-img {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 820px;
 }
 
+.copyright {
+	/* border: 1px solid red; */
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
 
-
+.contact {
+	margin-right: 650px;
+}
 
 
 
