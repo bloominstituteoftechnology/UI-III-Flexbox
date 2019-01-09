@@ -121,11 +121,11 @@ h1{
 .banner{
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
-	padding: 50px;
+	justify-content: space-between;
+	padding: 50px 20px;
 }
 .round-img{
-	width: 395px;
+	width: 400px;
 }
 
 .middle-img{
@@ -157,16 +157,19 @@ h1{
 	width: 32%;
 }
 
-.contact{
-	margin: 0 20px;
-	padding-top: 10px;
+.contact h2{
+	margin: 0;
 }
-.contact #phone{
-	margin: 20px 0;
+.contact{
+	height: 180px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 footer{
 	text-align: center;
 	font-size: 14px;
-	margin: 50px 50px 100px;
+	margin: 30px 0 100px;
 }
