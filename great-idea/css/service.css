@@ -103,6 +103,31 @@ div {
   img{
       width: 100%;
   }
+  /* update */
+  #banner-content.row {
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+
+#banner h1 {
+    padding-top: 5%;
+}
+
+#banner .section-heading:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-top: 30px;
+}
+
+.section-heading {
+    padding: 0 0 15px 0;
+    text-align: center;
+}
+.col-1 {
+    width: 38.2%;
+}
 
 @media screen and (min-width: 768px) {
     .navbar {
