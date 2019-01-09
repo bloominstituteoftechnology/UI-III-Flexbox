@@ -185,7 +185,7 @@ display: flex;
 }
 
 footer {
-  margin: 32px 0;
+    margin: 32px 0;
   text-align: center;
   font-size: 14px;
 }
@@ -224,10 +224,15 @@ footer {
  width: 120px;
  height: 30px;
  border-radius: 10px;
- margin: 10px;
+ margin: 20px;
 }
 
-.footerServ {
+.footer {
+  display: flex;
+  padding: 15px;
+}
+
+.footerServ {w
   display: flex;
   padding-top: 15px;
 }
@@ -239,11 +244,6 @@ ul {
  
 ul li {
  padding-top: 15px;
-}
-
-.services-info-image {
-
-margin-left: 0;
 }
 
  .copy {
