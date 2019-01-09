@@ -203,3 +203,20 @@ footer {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.servicestopsection {
+    margin: 10px; 
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.logo {
+	margin: 50px;   
+	display: flex;
+	justify-content: center; 
+	}
+
+.services header {
+display: flex;
+justify-content: flex-start;
+}
