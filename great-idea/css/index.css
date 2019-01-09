@@ -141,3 +141,27 @@ a {
 	margin-top: 15px;
 	margin-bottom: 5px;
 }
+
+.section.aboutus {
+
+margin-top: 30px;
+flex-wrap: wrap;
+
+}
+
+.section.aboutus .item.aboutus {
+	width: 45%;
+	margin: 15px;
+}
+
+.section.aboutus .item.aboutus ul {
+	margin: 25px;
+}
+
+footer {
+	margin: 10px;
+	text-align: center;
+	align-self: center;
+	margin-left: 40%;
+	margin-right: 40%;
+}
