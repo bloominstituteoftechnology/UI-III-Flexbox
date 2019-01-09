@@ -64,3 +64,171 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+body {
+	background: white;
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+
+header nav {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #999;
+}
+
+header nav a:hover {
+	color: #555;
+}
+
+.herocontent {
+	margin: 45px 0 30px 0;
+	padding-bottom: 55px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+.herocontent h1 {
+	margin: 50px 0 40px 0;
+	font-size: 5em;
+}
+
+.herocontent a, .button {
+	padding: 5px 42px 5px 42px;
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	background-color: #fefefe;
+}
+
+.herocontent a:hover, .button {
+	background-color: #fff;
+	text-decoration: underline;
+}
+
+.herotext {
+	width: 50%;
+}
+
+.upper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.upper-section {
+	width: 50%;
+	padding: 10px 10px 40px 0;
+}
+
+.lower {
+	margin: 45px 0;
+	padding-bottom: 45px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.lower-section {
+	padding-right: 20px; 
+}
+
+.lower-section:last-child {
+	padding-right: 0;
+}
+
+.phone {
+	margin: 10px 0;
+}
+
+.services-header-img {
+	margin: 20px 0 0 0;
+}
+
+.description {
+	padding: 40px 0;
+	border-bottom: 1px solid black;
+}
+
+.sectionHolder {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+
+.sectionHolder section {
+	background-color: #eee;
+	border: 1px solid black;
+	padding: 20px 20px 0 20px;
+	width: 430px;
+	margin-top: 40px;
+	padding: 30px;
+}
+
+.sectionHolder section p {
+	margin-bottom: 25px;
+}
+
+.button {
+	border-radius: 7px;
+	text-decoration: none;
+}
+
+.split {
+	display: flex;
+	justify-content: space-between;
+}
+summary {
+	width: 400px;
+}
+
+summary p {
+	margin-bottom: 25px;
+}
+
+summary ul li {
+	list-style: square;
+	margin: 15px 0 0 20px;
+	text-decoration: underline;
+	line-height: 1.2em;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 500;
+	padding: 25px 0 100px 0;
+}
+/* 
+	Question: is it best practice to be as specific as possible in CSS or is it acceptable,
+	when dealing with a semantic element with a single child (Like this <footer> with the <p> tag)
+	to style the <footer> with styles destined for the <p> tag?
+	Or should I make a separate 'footer p { ... }' in CSS to style the font-weight and text-decoration?
+*/
