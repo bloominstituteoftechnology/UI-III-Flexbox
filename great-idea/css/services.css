@@ -65,3 +65,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Services Styles */
+body{
+    padding: 0 10vw;
+}
+
+nav{
+	width: 100vw;
+	height: 10vh;
+	position: fixed;
+    top: 0px;
+    left: 0px;
+	background-color: cadetblue;
+	padding-top: 3vh;
+	border-bottom: 1px solid black;
+	z-index: 10;
+	background-image: url('img/logo.png');
+	background-repeat: no-repeat;
+	background-position: top 41% right 11%;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+nav a:hover{
+	cursor: pointer;
+	border-bottom: 3px solid cornsilk;
+	transition-duration: 300ms;
+}
+
+header{
+    margin: 10vh 0 5vh;;
+}
+
+header img{
+    margin: 30px 0;
+    width: 100%;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+
+main{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 5vh 0;
+}
+
+main div{
+    width: calc(100%/2.04);
+    border: 1px solid black;
+    margin: 2vh 0;
+    padding: 2vw;
+
+    background: lightgray;
+}
+
+main div a{
+    text-decoration: none;
+    border: 1px solid black;
+    width: max-content;
+    padding: 5px 25px;
+    display: block;
+    margin-top: 5px;
+}
+
+.bottom{
+    margin: 5vh 0 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom div{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2.04);
+}
+
+.bottom p{
+    margin-bottom: 20px;
+}
+
+ul li{
+    list-style: inside;
+    margin-bottom: 10px;
+}
+
+.bottom img{
+    width: 100%;
+}
+
+footer{
+    /* margin: 0 auto;  ABSOLUTELY NO IDEA WHY THIS DOES NOT WORK FOR CENTERING */
+    text-align: center; 
+    margin-bottom: 5vh;
+}
+
