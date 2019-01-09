@@ -108,11 +108,11 @@ h1, h2, h3, h4, h5 {
 .header-nav--items a {
 	text-decoration: none;
 	color: black;
+	padding-top: 1.5rem;
 }
 
 .header-nav--logo {
-	width: 35%;
-	padding-right: 3rem;
+	padding: 1rem 0 0 4.5rem;
 }
 
 /* ======== header title */
