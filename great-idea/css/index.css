@@ -81,7 +81,7 @@ header {
     background-color: #e0e2e4;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    padding:25px;
+    padding-top:30px;
 }
 
 a {
@@ -114,11 +114,17 @@ a:hover {
     width: 48%;
 }
 
-.image-center {
+
+.middle-image{
     text-align: center;
-    max-width: 100%;
-    background-size: 100% 100%;
-   
+    width: 100%;
+    background-size: 100%;
+}
+
+#section-two-right{
+    text-align: center;
+    width: 100%;
+    background-size: 100%;
 }
 
 .section-four {

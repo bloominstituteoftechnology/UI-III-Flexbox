@@ -68,20 +68,23 @@ h1, h2, h3, h4, h5 {
 /* body {
     padding: 0 20%;
 } */
+
 .container{
     display:flex;
     flex-direction: column;
     margin:0px 15%;
+    width:1000px;
+
 }
 header {
     display: flex;
-    flex-flow: nowrap;
+    flex-flow: wrap;
     justify-content: space-between;
     padding-top:30px;
     background-color: #e0e2e4;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width:70%;
+    width:100%;
 }
 
 
@@ -92,14 +95,14 @@ a {
 }
 
 a:hover {
-    color: purple;
+    
 }
 
 .image-top {
     margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     
 }
 
@@ -119,6 +122,14 @@ a:hover {
     border: 1px solid black;
     padding:30px;
     background:#f0efef;
+    opacity:0.8;
+}
+.section-design:hover, .section-ui:hover {
+    opacity:2;
+    color: purple;
+    -webkit-transform: rotateZ(-05deg);
+    -ms-transform: rotateZ(-05deg);
+    transform: rotateZ(-05deg);
 }
 
 .section-two {
@@ -134,7 +145,14 @@ a:hover {
     border: 1px solid black;
     padding:30px;
     background:#f0efef;
+    
 }
+
+.section-digital:hover, .section-web:hover {
+    border-radius:25%;
+}
+
+
 
 .section-three {
     display: flex;
@@ -150,6 +168,7 @@ a:hover {
     padding:30px;
     background:#f0efef;
 }
+
 
 .section-footer {
     display: flex;
@@ -181,6 +200,11 @@ button {
     width: 130px;
 }
 
+button:hover{
+    color:pink;
+}
+
 section p {
     margin-top:40px;
 }
+
