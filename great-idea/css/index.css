@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* NAVBAR */
+.margin-top-5 {
+	margin-top: 5%;
+}
+
+nav.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav.navbar div.nav-navigation {
+	flex: 70%;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav.navbar div.nav-navigation a {
+	text-decoration: none;
+	color: gray;
+}
+
+nav.navbar div.nav-logo {
+	flex: 20%;
+	text-align: right;
+}
+
+div.main-container {
+	margin: 10px 10%;
+}
+
+/* SECTION 1*/
+
+section.section1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+section.section1 div.right-container {
+	flex:1;
+	text-align: center;
+}
+
+section.section1 div.left-container {
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section.section1 div.left-container h1 {
+	font-size: 4rem;
+	text-align: center;
+}
+
+section.section1 div.left-container a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 5px 25px;
+}
+
+/* SECTION 2*/
+
+section.section2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+section.section2 div.top-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+section.section2 div.top-container div.article2 {
+	flex: 0.45;
+}
+
+section.section2 div.top-container div.article2 p {
+	line-height: 1.25;
+}
+
+section.section2 div.image {
+	align-self: stretch;
+	margin: 5% 0;
+}
+
+section.section2 div.image img.middle-img {
+	width: 100%;
+}
+
+section.section2 div.bottom-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+section.section2 div.bottom-container div.article3 {
+	flex: 0.3;
+}
+section.section2 div.bottom-container div.article3 p {
+	flex: 0.3;
+	line-height: 1.25;
+}
+
+footer.footer {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+footer.footer address.address {
+	margin-bottom: 20px;
+}
+
+footer.footer div.copyright {
+	align-self: center;
+	margin-bottom: 30px;
+}
