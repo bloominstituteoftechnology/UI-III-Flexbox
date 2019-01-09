@@ -67,21 +67,22 @@ h1, h2, h3, h4, h5 {
 
 
 
-html, body, h1, h3, p, div, section, address, footer {
-
+html, header, body, nav, h1, h3, p, div, section, address, footer {
+	/* border: 1px dashed red; */
 }
 
 nav {
-	width: 100%;
-  display: inline-block;
-	margin: 0 auto;
-	padding: 50px 100px 0px;
+	width: 93%;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 25px 100px 30px 50px;
+	padding: 0 0 0 25px;
 }
 
 nav a {
 	width: 12%;
-	display: inline-block;
-	padding: 5px 5px 10px 5px;
+	padding: 5px 5px 30px;
 	text-decoration: none;
 	color: lightgrey;
 	/* margin: 0 auto; */
@@ -89,77 +90,91 @@ nav a {
 }
 
 .logo {
-	width: 24%;
-	display: inline-block;
-	margin: 0 auto;
-	padding-left: 10px;
+	width: 30%;
+	/* margin: 0px auto 10px; */
+	object-fit: scale-down;
+	padding: 5px 5px 20px;
 }
 
 section {
-	width: 100%;
-	padding: 90px;
+	width: 85%;
+	display: flex;
+	margin: 0 50px 0 100px;
+}
+
+header {
+	width: 90%;
+	display: flex;
+	margin: 10px 50px 10px 100px;
+	justify-content: space-between;
+	align-items: center;
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 75px;
 	text-align: center;
-	padding: 10px;
+	margin: 5px auto 15px;
+	padding: 2px;
 }
 
 .lefttopheader {
-	display: inline-block;
 	width: 55%;
-	padding: auto 0 auto 100px;
+	display: block;
+	margin: 0 auto;
+	/* justify-content: center;
+	flex-wrap: wrap;
+	align-items: center; */
 }
 
 .headerbutton {
 	text-align: center;
 	border: 1px solid black;
 	width: max-content;
-	margin: 0 auto;
+	margin: 15px auto 5px;
 	font-size: 18px;
 	color: black;
-	padding: 10px 50px;
+	padding: 5px 45px;
 }
 
 .headerimage {
-	display: inline-block;
-	width: 44%;
-	object-fit: scale-down;
-	margin: 10px 0 0 0;
-	padding: 20px 100px 0px 0px;
+	width: 50%;
+	object-fit: contain;
+	padding: 10px 55px 10px 10px;
 }
 
 section.first-in-line {
 	border-top: 1px solid black;
-	width: 83%;
-	margin: 0 auto;
-	padding: 5px;
+	margin: 50px 80px 20px 100px;
+	width: 85%;
+	justify-content: space-between;
 }
 
 .first-in-line div {
 	display: inline-block;
-	width: 45%;
-	padding: 10px 10px 10px 2px;
+	width: 50%;
+	margin: 25px 0px;
+	padding: 2px;
 }
 
 .middle-img {
-	width: 100%;
-	padding: 10px 100px;
+	width: 88%;
+	margin: 10px 100px 20px 50px;
 	display: block;
 	object-fit: contain;
-	object-position: center;
+	padding-left: 50px;
 }
 
 section.second-in-line {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0 95px;
+	margin-top: 20px;
+	justify-content: space-between;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
 }
 .second-in-line div {
 	display: inline-block;
 	width: 33%;
-	padding: 10px;
+	padding: 2px 5px;
 }
 
 address {
@@ -169,7 +184,81 @@ address {
 address p {
 	margin: 15px 0;
 }
-footer {
+
+small {
+	display: block;
 	text-align: center;
 	font-size: smaller;
+}
+
+/* services.html specific */
+h2 {
+	font-size: 20px;
+}
+main {
+	width: 88%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: space-between;
+	margin: 0 auto;
+	padding: 5px;
+}
+section.flowblock {
+	width: 46%;
+	display: block;
+	border: 1px solid black;
+	padding: 25px;
+	margin: 20px 10px;
+	background-color: gainsboro;
+}
+
+.buttonLearnMore {
+	border: 1px solid black;
+	width: max-content;
+	margin: 20px 2px 2px 0;
+	font-size: 18px;
+	color: black;
+	padding: 5px 45px;
+	background-color: #FFFFF0;
+}
+
+.servicesheader {
+	width: 85%;
+	display: block;
+	margin: 10px auto 20px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+.services-header-img {
+	width: 85%;
+	display: block;
+	margin: 0 auto;
+}
+
+footer {
+	width: 85%;
+	margin: 30px auto 20px;
+	padding-top: 50px;
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+footer p {
+	margin: 5px 20px 5px 0px
+	padding: 5px 10px 5px 0;
+}
+footer div {
+	margin: 5px 40px 5px 0px
+	padding: 5px 15px 5px 0;
+}
+
+ul {
+	margin: 10px 0px;
+	list-style: square inside;
+}
+
+footer img {
+	margin-left: 20px;
+	object-fit: contain;
 }
