@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.blurb:not(:last-child){
+	margin-right: 1em;
+}
+.blurb-container {
+	display: flex;
+	justify-content: space-between;
+}
+.blurb-section {
+	padding: 2em 0;
+}
+body {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0px 80px 32px;
+	height: auto;
+	border: 1px solid black;
+}
+.contact-section {
+	padding: 2em 0;
+	border-bottom: none;
+}
+.contact-section p {
+	margin: 1em 0;
+}
+.facts-section {
+	display: flex;
+	padding: 2em 0;
+	border-bottom: none;
+}
+.facts-section img {
+	flex: 1;
+	margin: 0 0 0 2em;
+}
+.facts {
+	flex: 1;
+}
+.facts-section ul {
+	list-style-position: inside;
+	list-style-type: square;
+	/* padding: 1em; */
+}
+.facts-section ul li {
+	padding-top: 1em;
+}
+footer {
+	padding: 2em 0;
+}
+header {
+	padding: 2em 0;
+}
+.hero-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	padding: 2em 0 4em;
+}
+.hero-section div {
+	flex-grow: 1;
+	text-align: center;
+}
+.hero-section h1 {
+	font-size: 4.5em;
+	margin: 1rem;
+}
+.intro-section {
+	padding-bottom: 2em;
+}
+.intro-section h1 {
+	font-size: 1.5em;
+}
+.intro-section img {
+	margin-top: 0;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav a {
+	color: gray;
+	text-decoration: none;
+	font-size: .85em;
+}
+nav a:hover, nav a:active {
+	text-decoration: underline;
+}
+p {
+	line-height: 1.2;
+}
+.pseudo-button {
+	border: 1px solid black;
+	display: inline-block;
+	padding: 8px 40px;
+	margin: 1rem;
+}
+section {
+	border-bottom: 1px solid black;
+}
+section img {
+	margin: 32px 0;
+	width: 100%;
+}
+.service {
+	border: 1px solid black;
+	background: rgba(0, 0, 0, 0.05);
+	padding: 1.5em;
+	margin-top: 2em;
+	width: 412px;
+}
+.services-button {
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 1.2rem;
+	padding: 10px 40px;
+	font-size: .75em;
+}
+.services-section {
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 2em;
+}
