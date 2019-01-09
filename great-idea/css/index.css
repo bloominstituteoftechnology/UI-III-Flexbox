@@ -101,7 +101,6 @@ a {
 	border-radius: 25px; 
 }
 
-
 .section.top .logo {
 	position: relative;
 	top: 5px;
@@ -113,6 +112,22 @@ a {
 	height: 120px;
 	border-bottom: 1px solid black;
 	padding-bottom: 20px;
+}
+
+.section.main .border {
+	display: infline-flex;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	align-self: flex-start;
+	width: 33%;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.section.main .item h1 {
+	font-size: 75px;
 }
 
 .section.description {
@@ -128,6 +143,13 @@ a {
 	border: 1px solid black;
 	margin: 20px;
 	padding: 15px;
+} 
+
+.section.description .item.mainpage {
+	height:200px;
+	margin: 20px;
+	padding: 15px;
+	background-color: white; 
 }
 
 .section.description .learnmore {
