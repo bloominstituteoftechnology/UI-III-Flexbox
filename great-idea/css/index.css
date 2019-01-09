@@ -75,8 +75,6 @@ footer {
 	display: flex;
     justify-content: space-evenly;
     align-items: stretch;
-    padding-left: 10px;
-	padding-right: 10px;
 }
 
 .bottom-content .text-content {
@@ -166,8 +164,6 @@ footer {
 	display: flex;
     justify-content: space-evenly;
     align-items: stretch;
-    padding-left: 10px;
-	padding-right: 10px;
 }
 
 .top-content .text-content {
