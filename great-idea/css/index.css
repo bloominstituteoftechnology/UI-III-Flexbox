@@ -204,24 +204,43 @@ div .title-p{
 	border-bottom: 1px solid black;
 	padding-bottom: 40px;
 	margin-bottom:40px;
+	width:absolute;
 }
 
-.flex section{
+.flex{
 	display:flex;
 	flex-wrap:wrap;
-	width:400px;
-	border: 1px solid red;
+	flex-direction: row;
+	width:absolute;
+	justify-content:space-between;
+	
 }
+.flex section{
+	width:400px;
+	border: 1px solid black;
+	padding: 20px;
+	margin-bottom: 15px;
+	background: rgb(236, 236, 236);
+} 
 
 .flex h2{
-font-size: 20px;
+	font-size: 20px;
 
 }
 .flex p{
 	font-size:17px;
+	margin-bottom:10px;
 }
 .flex button{
 	width:80px;
 	height:30px;
-	border-radius:10px;
+	border-radius:5px;
+}
+
+footer div{
+	display:flex;
+
+}
+footer .foot-service{
+	
 }
