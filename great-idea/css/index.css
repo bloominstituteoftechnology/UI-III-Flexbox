@@ -157,6 +157,10 @@ button:hover {
 	padding-top: 39px;
 }
 
+.main h2 {
+	font-size: 18px;
+}
+
 .content-top {
 	border-top: 1px solid black;
 	display: flex;
@@ -300,4 +304,37 @@ footer {
 	padding: 10px;
 	border-radius: 5px;
 	margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 320px;
+	}
+
+	header {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		margin: 40px;
+		flex-wrap: now-wrap;
+		padding-bottom: 30px;
+	}
+
+	.services-facts {
+		border-top: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.services-info-img {
+		width: 480px;
+	}
+  
 }
