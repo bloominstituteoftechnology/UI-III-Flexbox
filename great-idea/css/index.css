@@ -189,4 +189,138 @@ footer {
   font-size: 14px;
 }
 
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.services-page {
+  margin: 0 10%;
+}
+
+
+header .logo{
+  margin: 0;
+}
+
+.services-page nav, .services-header-img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  min-width: 100%;
+}
+
+.services-header-img{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.header-content{
+  border-bottom: 1px solid black;
+}
+
+header section h1{
+  font-size: 30px;
+}
+
+header p{
+  font-size: 20px;
+  margin-bottom: 4%;
+  margin-left: 0;
+}
+
+main {
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-between;
+
+/*border: 2px solid dodgerblue;*/
+}
+
+.content-boxes{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  width: 550px;
+  border: 1px solid black;
+  margin-top: 4%;
+  background-color: #f4f3f4;
+}
+
+.content-boxes button{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+.content-boxes h2, p, button{
+  margin: 2%;
+  line-height: 1.3;
+}
+
+.content-boxes p {
+  font-size: 17px;
+}
+
+.content-boxes h2{
+  font-size: 18px;
+}
+
+.facts-content{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid black;
+  margin-top: 4%;
+}
+
+.facts-content p{
+  margin-left: 0;
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.facts-content h2{
+  margin-top: 8%;
+  font-size: 18px;
+
+}
+
+.facts-content img{
+  width: 550px;
+  margin-top: 8%;
+}
+
+.facts{
+  display: flex;
+  width: 550px;
+  flex-flow: column wrap;
+}
+
+ul{
+  list-style-type: square;
+  line-height: 2;
+  margin-left: 4%;
+  font-size: 17px;
+}
+
+.services-footer{
+  margin-top: 5%;
+}
+
+.services-footer p{
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
