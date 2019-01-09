@@ -239,6 +239,11 @@ nav a {
 	padding-right: 30px;
 }
 
+.services-info-img {
+	display: block;
+	margin-left: auto;
+}
+
 .copyright {
 	text-align: center;
 	margin: 40px 0;
