@@ -152,34 +152,31 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /* Flexbox Layout */
-
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0 -15px;
 }
 
 .col-6 {
   flex: 0 0 50%;
   max-width: 50%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
 }
 
 .col-4 {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
 }
 
 /* Container */
 
 .container {
   /* Same size as image */
-  width: 880px;
+  max-width: 900px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .container p {
@@ -189,12 +186,12 @@ h5 {
 /* Nav and layout*/
 
 nav {
+  width: 880px;
   padding: 20px 0px;
   background: white;
   /* Fix the nav at the top */
   position: fixed;
   top: 0;
-  width: 880px;
   z-index: 10;
 }
 
