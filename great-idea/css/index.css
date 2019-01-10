@@ -158,12 +158,12 @@ h1, h2, h3, h4, h5 {
 	display: inline-flex;
 	width: 410px;
 	height: 260px;
-	padding: 0 50px 0;
+	padding: 0 20px 0;
 	border: 1px solid black;
 	justify-content: space-evenly;
 	align-items: space-between;
 	flex-direction: column;
-	background: lightgrey;
+	background: #e3e0e0;
 }
 
 .services-head {
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5 {
 .services-head p strong {
 	font-family: 'Bangers', cursive;
 	font-size: 24px;
-	
+	padding-bottom: 40px;
 	
 }
 
@@ -191,16 +191,32 @@ h1, h2, h3, h4, h5 {
 	padding-top: 40px;
 }
 
-
 .bottom-text {
 	display: flex;
 	border-top: 1px solid black;
+	padding-top: 40px;
+	justify-content: space-between;
+}
+
+.bottom-text div {
+	width: 360px;
+	padding: 0 0 40px 0;
 	padding-top: 40px;
 }
 
 .bottom-text p strong {
 	font-family: 'Bangers', cursive;
 	font-size: 16px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
+	
 }
 
+ul {
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+button {
+	height: 35px;
+	width: 85px;
+}
