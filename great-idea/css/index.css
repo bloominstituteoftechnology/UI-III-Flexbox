@@ -114,6 +114,11 @@ a {
 	padding-bottom: 20px;
 }
 
+.section.main {
+	border-bottom: 1px solid black;
+	padding-bottom: 25px;
+}
+
 .section.main .border {
 	display: infline-flex;
 	background-color: white;
@@ -121,13 +126,20 @@ a {
 	text-align: center;
 	padding: 5px;
 	align-self: flex-start;
-	width: 33%;
+	width: 50%;
 	margin-top: 15px;
 	margin-bottom: 5px;
+	margin-left: 69px;
 }
 
 .section.main .item h1 {
 	font-size: 75px;
+}
+
+.section.main .item.maintext {
+	width: 30%;
+	margin: 50px 125px 50px 112px;
+	text-align: center;
 }
 
 .section.description {
@@ -143,7 +155,15 @@ a {
 	margin: 20px;
 	padding: 15px;
 	background-color: white; 
-	width: 33%;
+	
+} 
+
+.section.description .item.mainpage.row1 {
+	width: 44%;
+}
+
+.section.description .item.mainpage.row2 {
+	width: 26%;
 }
 
 .section.description .item.servicespage {
@@ -167,15 +187,18 @@ a {
 }
 
 .section.bottom {
-
 margin-top: 30px;
 flex-wrap: wrap;
-
 }
 
 .section.bottom .item.bottom {
 	width: 45%;
 	margin: 15px;
+}
+
+.section.bottom .item.mainbottom {
+	margin-top: 15px;
+	margin-left: 26px; 
 }
 
 .section.bottom .item.bottom ul {
