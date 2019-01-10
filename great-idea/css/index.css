@@ -65,3 +65,111 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+header {
+	font-size: 14px;
+}
+
+header nav {
+	display: inline-flex;
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+}
+
+header nav a {
+	display: flex;
+	margin-right: 65px;
+	color: gray;
+	text-decoration: none;
+}
+
+header .logo {
+	margin-top: 27px;
+}
+
+
+
+.pic1 {
+	margin-top: 21px;
+}
+
+.top-text h1 {
+	font-size: 28px;
+	margin-top: 28px;
+}
+
+.top-text p {
+	line-height: 20px;
+}
+
+.boxes {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 40px;
+}
+
+.row1 {
+	display: inline-flex;
+
+}
+
+.row2 {
+	display: inline-flex;
+}
+
+.row3 {
+	display: inline-flex;
+	margin-bottom: 40px;
+}
+
+.box {
+	border: 1px solid black;
+	margin: 45px 12px 7px 12px;
+	padding: 14px;
+	line-height: 20px;
+	background-color: rgb(230, 230, 230);
+}
+
+.box button {
+	margin-top: 20px;
+	padding: 9px 35px;
+	border-radius: 9px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+.bottom {
+	display: inline-flex;
+	justify-content: space-evenly;
+	margin-top: 43px;
+}
+
+.words {
+	line-height: 20px;
+	margin-right: 58px;
+}
+
+.bottom ul {
+	line-height: 29px;
+	margin-top: 21px;
+	list-style-type: square;
+}
+
+.bottom li {
+	margin-left: 30px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 90px;
+	font-size: 15px;
+}
