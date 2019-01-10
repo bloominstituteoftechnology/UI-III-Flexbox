@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 .services-body-header {
   display: flex;
   flex-direction: column;
-  margin: 0px 50px;
+  margin: 0px 70px;
 }
 
 .services-nav-logo-container, .services-header-section {
@@ -114,8 +114,32 @@ h1, h2, h3, h4, h5 {
   margin: 30px 0px 30px 50px;
 }
 
+#services-main {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 70px 0px;
+  padding-top: 50px;
+  border-top: 1px solid gray;
+}
+
 .services-main-container-top, .services-main-container-middle, .services-main-container-bottom {
   display: inline-flex;
+  flex-direction: row;
+  margin: 0px 0px 50px;
+}
+
+.services-main-container-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-main-container-middle {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-main-container-bottom {
+  display: flex;
   flex-direction: row;
 }
 
@@ -124,21 +148,29 @@ h1, h2, h3, h4, h5 {
   border: 1px solid black;
   display: inline-flex;
   flex-direction: column;
-  background: lightgray;
+  justify-content: flex-end;
+  background: #f2f2f2;
+  padding: 25px 25px 20px;
 }
 
 .services-section-digital-design, .services-section-digital-marketing, 
 .services-section-iOS-development {
   width: 50%;
+  margin-right: 25px;
+  padding-right: 25px;
 }
 
 .services-section-UX-UI, .services-section-web-development, 
 .services-section-android-development {
   width: 49%;
+  margin-left: 25px;
+  padding-right: 25px;
 }
 
 .services-section-digital-design {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .services-section-UX-UI {
@@ -162,37 +194,57 @@ h1, h2, h3, h4, h5 {
 }
 
 .learn-more-button {
-
+  padding: 10px 40px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .learn-more-button-container {
-
+  margin: 20px 0px 5px;
 }
 
 #services-footer {
   display: flex;
   flex-direction: column;
+  border-top: 2px solid darkgray;
+  margin: 0px 70px 50px;
+  padding-top: 50px;
 }
 
 .services-footer-containter-top {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .services-footer-containter-bottom {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px 0px 0px;
 }
 
 .services-footer-section-some-facts {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 30px;
 
 }
 
 .footer-unordered-list {
+  padding-left: 20px;
+}
 
+.footer-unordered-list li {
+  list-style-type: square;
+  margin: 10px 0px;
 }
 
 .services-info-img-container {
-
+  display: flex;
+  width: 49%;
+  justify-content: flex-end;
 }
 
 .services-info-img {
