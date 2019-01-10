@@ -144,7 +144,7 @@ nav a {
 
 .main-content-services {
 	/* Negative horizontal margin for container was the best solution I could find to get a margin in between each .service-item and _not_ have margins at the beginning and end of each row. */
-	margin: 20px -10px;
+	margin: 20px 0;
 	padding-bottom: 20px;
 	display: flex;
 	flex-wrap: wrap;
@@ -156,9 +156,8 @@ nav a {
 	border: 2px solid gray;
 	background: rgb(240, 240, 240);
 	padding: 15px;
-	margin: 10px 10px;
-	flex-basis: 400px;
-	flex-grow: 1;
+	margin: 10px 0;
+	width: 49%;
 }
 
 .service-item button {
@@ -171,7 +170,7 @@ nav a {
 }
 
 .main-content-about {
-	margin: 20px -10px;
+	margin: 20px 0;
 	padding-bottom: 20px;
 	display: flex;
 	flex-wrap: wrap;
@@ -183,17 +182,28 @@ nav a {
 	border: 2px solid gray;
 	background: rgb(240, 240, 240);
 	padding: 15px;
-	margin: 10px 10px;
-	flex-grow: 1;
+	margin: 10px 0;
+	width: 32%;
+}
+
+.about-item:hover {
+	background: rgb(150, 150, 150);
+	visibility: visible;
+}
+
+.about-item:hover .hidden-trivia {
+	visibility: visible;
 }
 
 .about-item p {
 	padding: 5px 0;
 }
 
-.about-item img {
-	display: flex;
-	flex-shrink: 1;
+.hidden-trivia {
+	text-align: center;
+	font-size: 35px;
+	color: yellow;
+	visibility: hidden;
 }
 
 .facts {
