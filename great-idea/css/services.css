@@ -70,7 +70,6 @@ section {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	border: 1px solid red;
 }
 
 .box {
@@ -94,6 +93,9 @@ button {
 	justify-content: space-between;
 	width: 880px;
 	margin: 20px auto;
+}
+
+.boxes.mid {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
@@ -101,18 +103,29 @@ button {
 a {
 	text-decoration: none;
 	color: grey;
-	border: 1px solid red;
+	margin: 10px 20px;
 }
 
 .services {
 	width: 800px;
 	margin: 10px;
 	padding: 10px;
-	border: 1px solid red;
 }
 
 .facts {
-	border: 1px solid red;
-	width: 450px;
+	width: 400px;
 }
 
+ul {
+	font-weight: 400;
+	list-style-type: disc;
+	margin: 20px 20px;
+}
+
+li {
+	margin: 10px auto;
+}
+
+footer {
+	text-align: center;
+}
