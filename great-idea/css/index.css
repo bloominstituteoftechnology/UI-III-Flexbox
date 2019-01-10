@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: circle;
 }
 blockquote, q {
 	quotes: none;
@@ -189,12 +189,12 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .boxs {
 	display: flex;
-	border: 1px solid red;
+  border-sizing: border-box;
 	flex-wrap: wrap;
 	height: 1000px;
 	width: 800px;
 	flex-direction: row;
-	justify-content: space-around;
+	
 	margin-left: 200px;
 	
 	
@@ -202,19 +202,29 @@ h1, h2, h3, h4, h5 {
 
 .box {
 	width: 300px;
-	border: 1px solid grey;
 	margin: 25px;
-	height: 200px
+	height: 200px;
+	background-color: grey;
+	padding: 10px;
 }
 
 .fin {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	border: 1px solid red;
-
+	justify-content: space-around;
 
 }
+
+.section {
+	padding: 10px;
+}
+
+.some {
+	padding: 15px;
+
+}
+
 
 
 
