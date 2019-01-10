@@ -136,7 +136,17 @@ a {
 	padding-bottom: 20px;
 }
 
-.section.description .item {
+
+
+.section.description .item.mainpage {
+	height: auto;
+	margin: 20px;
+	padding: 15px;
+	background-color: white; 
+	width: 33%;
+}
+
+.section.description .item.servicespage {
 	width: 45%;
 	height:200px;
 	background-color: lightgray;
@@ -144,14 +154,6 @@ a {
 	margin: 20px;
 	padding: 15px;
 } 
-
-.section.description .item.mainpage {
-	height:200px;
-	margin: 20px;
-	padding: 15px;
-	background-color: white; 
-}
-
 .section.description .learnmore {
 	display: infline-flex;
 	background-color: white;
@@ -164,22 +166,22 @@ a {
 	margin-bottom: 5px;
 }
 
-.section.aboutus {
+.section.bottom {
 
 margin-top: 30px;
 flex-wrap: wrap;
 
 }
 
-.section.aboutus .item.aboutus {
+.section.bottom .item.bottom {
 	width: 45%;
 	margin: 15px;
 }
 
-.section.aboutus .item.aboutus ul {
+.section.bottom .item.bottom ul {
 	margin: 25px;
 }
-.section.aboutus .item.aboutus li {
+.section.bottom.item.bottom li {
 	margin: 5px;
 }
 
