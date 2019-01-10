@@ -122,8 +122,7 @@ header .logo {
 }
 
 .cta .cta-text {
-	display: flex;
-	justify-content: space-between;
+	align-items: center;
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
@@ -138,7 +137,6 @@ header .logo {
   font-size: 17px;
   border: 1px solid black;
 	cursor: pointer;
-	/* justify-content: flex-start: */
 	align-self: flex-end;
 }
 
@@ -148,7 +146,6 @@ header .logo {
 }
 
 .cta img {
-  /* display: inline-block; */
 	margin-top: 69px;
 }
 
