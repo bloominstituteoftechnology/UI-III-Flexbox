@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.services-body-header {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+}
+
+.services-nav-logo-container, .services-header-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-nav-logo-container {
+  justify-content: space-between;
+}
+
+.services-header-figure {
+  width: 100%;
+}
+
+.services-header-img {
+  width: 100%;
+}
+
+.services-header-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#services-header-nav {
+  display: inline-flex;
+  width: 75%;
+  flex-direction: row;
+  margin: 40px 0px;
+  justify-content: space-between;
+}
+
+#services-header-nav a {
+	text-decoration: none;
+  color: lightgray;
+}
+
+.services-logo-container {
+  display: inline-flex;
+  width: 24%;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 30px 0px 30px 50px;
+}
+
+.services-main-container-top, .services-main-container-middle, .services-main-container-bottom {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.services-section-digital-design, .services-section-UX-UI, .services-section-digital-marketing, 
+.services-section-web-development, .services-section-iOS-development, .services-section-android-development {
+  border: 1px solid black;
+  display: inline-flex;
+  flex-direction: column;
+  background: lightgray;
+}
+
+.services-section-digital-design, .services-section-digital-marketing, 
+.services-section-iOS-development {
+  width: 50%;
+}
+
+.services-section-UX-UI, .services-section-web-development, 
+.services-section-android-development {
+  width: 49%;
+}
+
+.services-section-digital-design {
+
+}
+
+.services-section-UX-UI {
+
+}
+
+.services-section-digital-marketing {
+
+}
+
+.services-section-web-development {
+
+}
+
+.services-section-iOS-development {
+
+}
+
+.services-section-android-development {
+
+}
+
+.learn-more-button {
+
+}
+
+.learn-more-button-container {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
