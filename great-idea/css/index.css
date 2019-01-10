@@ -53,7 +53,6 @@ table {
 }
 
 html, body {
-    height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,6 +63,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 header{
 	width: 100%;
 	height: 200px;
@@ -73,18 +78,16 @@ header{
 	align-items: center;
 }
 nav {
-	width: 1600px;
+	width: 1200px;
 	height: 200px;
 	position: fixed;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 }
 nav img{
 	display: flex;
 	justify-content: flex-start;
-	width: 125px;
-	height: 75px;
 	align-items: center;
 }
 nav a{
@@ -95,18 +98,18 @@ nav a{
 	font-size: 16px;
 }
 .main-banner{
-	width: 100%;
+	width: 1600px;
 	height: 49%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	padding-bottom: 60px;
 }
 .title{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
 }
 .title h1{
 	font-size: 80px;
@@ -128,16 +131,16 @@ nav a{
 	align-items: center;
 }
 .Paragraph-1{
-	width: 100%;
+	width: 1200px;
 	border-top: 1px black solid;
 	padding-top: 20px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .Paragraph-1 .Features{
-	width: 400px;
+	width: 600px;
 	height: 100%;
 	padding-right: 100px;
 }
@@ -149,7 +152,7 @@ font-size: 18px;
 font-weight: 500;
 }
 .Paragraph-1 .About {
-	width: 400px;
+	width: 600px;
 	height: 100%;
 	text-align: left;
 }
@@ -162,29 +165,28 @@ font-size: 36px;
 }
 .big-image {
 	padding-top: 20px;
-	width: 100%;
 	height: 200px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 .big-image img{
-	height: 100%;
+	width: 1200px;
 	text-align: center;
 }
 
 .Paragraph-2{
-	width: 100%;
+	width: 1200px;
 	height: 200px;
 	display: flex;
 	border-bottom: 1px black solid;
 	padding-bottom: 20px;
 	padding-top: 30px;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 .Paragraph-2 .Services{
 	height: 200px;
-	width: 400px;
+	width: 350px;
 }
 .Paragraph-2 h2 {
 	font-size: 36px;
@@ -195,11 +197,11 @@ font-size: 36px;
 }
 .Paragraph-2 .Product {
 	height: 200px;
-	width: 400px;
+	width: 350px;
 }
 .Paragraph-2 .Vision{
 	height: 200px;
-	width: 400px;
+	width: 350px;
 	padding-right: 20px;
 }
 .address {
@@ -207,6 +209,10 @@ font-size: 36px;
 	align-items: flex-start;
 	flex-direction: column;
 	line-height: 2;
+}
+footer {
+	width: 1200px;
+	padding-top: 20px;
 }
 footer .Copyright{
 	display: flex;
