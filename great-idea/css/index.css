@@ -65,147 +65,131 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* CSS FOR ALL PARTS OF WEBSITE*/
 .margin-top-5 {
+	margin-top: 5%;
+}
+
+.margin-bottom-5 {
+	margin-bottom: 5%;
+}
+
+.margin0 {
+	margin: 0;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+.main-container {
+	margin: 10px 10%;
+}
+
+.copyright {
+	margin: 7% 0 5% 0;
+	text-align: center;
+}
+
+.two-flex-boxes {
+	flex: 0.47;
+}
+
+.three-flex-boxes {
+	flex: 0.3;
+}
+
+img.full-length-img {
+	width: 100%;
+}
+
+p {
+	line-height: 1.25;
+}
+
+a {
+	text-decoration: none;
+	line-height: 1.25;
+	color: black;
+}
+
+hr {
 	margin-top: 5%;
 }
 
 /* NAVBAR */
 
-nav.navbar {
+.navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-nav.navbar div.nav-navigation {
-	flex: 70%;
+.navbar div.navigation {
+	flex: 0.7;
 	display: flex;
 	justify-content: space-between;
 }
 
-nav.navbar div.nav-navigation a {
-	text-decoration: none;
+.navbar div.navigation a {
 	color: gray;
 }
 
-nav.navbar div.nav-logo {
-	flex: 20%;
+.navbar div.logo {
+	flex: 0.2;
 	text-align: right;
 }
 
-div.main-container {
-	margin: 10px 10%;
-}
+/*INDEX HTML SPECIFIC CSS */
 
-/*INDEX HTML SPECIFIC CSS*/
-/* SECTION 1*/
-
-section.section1 {
-	display: flex;
-	justify-content: space-around;
-}
-
-section.section1 div.right-container {
-	flex:1;
-	text-align: center;
-}
-
-section.section1 div.left-container {
-	flex:1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+.index-top-container {
 	align-items: center;
 }
 
-section.section1 div.left-container h1 {
+.index-top-container div.landing-container {
+	flex: 0.5;
+	text-align: center;
+}
+
+.index-top-container div.landing-container h1 {
 	font-size: 4rem;
 	text-align: center;
 }
 
-section.section1 div.left-container a {
+.index-top-container div.landing-container a {
 	text-decoration: none;
 	color: black;
 	border: 1px solid black;
 	padding: 5px 25px;
 }
 
-/* SECTION 2*/
-
-section.section2 {
-	display: flex;
+.index-content-section {
 	flex-direction: column;
-	justify-content: space-between;
 }
 
-section.section2 div.top-container {
-	display: flex;
-	justify-content: space-between;
-}
-
-section.section2 div.top-container div.article2 {
-	flex: 0.45;
-}
-
-section.section2 div.top-container div.article2 p {
-	line-height: 1.25;
-}
-
-section.section2 div.image {
+.index-content-section div.middle-img {
 	align-self: stretch;
 	margin: 5% 0;
 }
 
-section.section2 div.image img.middle-img {
-	width: 100%;
-}
-
-section.section2 div.bottom-container {
-	display: flex;
-	justify-content: space-between;
-}
-
-section.section2 div.bottom-container div.article3 {
-	flex: 0.3;
-}
-section.section2 div.bottom-container div.article3 p {
-	flex: 0.3;
-	line-height: 1.25;
-}
-
-
 /*SERVICES HTML SPECIFIC CSS*/
 
-img.services-header-img {
-	width: 100%;
-}
-
-section.services1 p {
-	line-height: 1.25;
-}
-
-section.services2 {
-	display: flex;
+.services-content-container {
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
-section.services2 .services-card {
+.services-content-container .card {
 	border: 1px solid black;
 	background-color: #D4D4D4;
 	padding: 20px;
-	flex: 40%;
-	max-width: 47.5%;
-	margin-bottom: 5%;
-	
+	max-width: 47%;
 }
 
-section.services2 .services-card p {
-	line-height: 1.25;
-	margin-bottom: 5%;
-}
-
-section.services2 .services-card a {
+.services-content-container .card a {
 	background-color: white;
 	padding: 5px 25px;
 	border-radius: 5px;
@@ -215,107 +199,46 @@ section.services2 .services-card a {
 	font-size: 0.7rem;
 }
 
-section.services3 {
-	display: flex;
-	justify-content: space-between;
-}
-
-section.services3 div.services-left-container {
-	flex: 40%;
-	max-width: 47.5%;
-}
-
-section.services3 div.services-left-container p {
-	line-height: 1.25;
-}
-
-section.services3 div.services-left-container ul {
+.two-flex-boxes ul {
 	list-style-type: square;
 	list-style-position: inside;
 	padding-top: 10px;
 	line-height: 2;
 }
 
-section.services3 div.services-right-container {
-	flex: 40%;
-	max-width: 47.5%;
-}
-
-div.copyright {
-	margin: 7% 0 5% 0;
-	text-align: center;
-}
-
-/*PRODUCT PAGE*/
-
-img.product-header-img {
-	width: 100%;
-}
-
-section.product1 p {
-	line-height: 1.25;
-}
-
-section.photo-collage {
-	display: flex;
-	justify-content: space-between;
-}
-
-section.photo-collage div.photo {
-	flex: 15%;
-	max-width: 15%
-}
-
-section.photo-collage div.photo img {
+/*PRODUCT HTML SPECIFIC CSS*/
+.img-radius {
 	width: 100%;
 	border-radius: 5px
 }
 
-section.photo-collage div.photo2 {
+div.photo {
+	flex: 15%;
+	max-width: 15%
+}
+
+div.photo5 {
 	margin-top: 5%;
 }
 
-section.photo-collage div.photo3 {
+div.photo2 {
 	margin-top: 2%;
 }
 
-section.photo-collage div.photo4 {
+div.photo-2 {
 	margin-top: -2%;
 }
 
-section.photo-collage div.photo5 {
+div.photo3 {
 	margin-top: 3%;
 }
 
-section.products-examples-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-/* image */
-
-section.products-examples-container div.product-example-image-container {
+div.product-example-image-container {
 	flex: 45%;
 	max-width: 45%;
-	margin-bottom: 5%;
 }
 
-section.products-examples-container div.product-example-image-container img {
-	max-width: 100%;
-	border-radius: 20px;
-}
 
-/* text */
-section.products-examples-container div.product-example-text-container {
+div.product-example-text-container {
 	flex: 43%;
 	max-width: 47.5%;
-	margin-bottom: 5%
-}
-
-section.products-examples-container div.product-example-text-container p {
-	line-height: 1.25;
-}
-
-section.products-examples-container div.product-example-text-container h2 {
-	line-height: 1.25;
-}
