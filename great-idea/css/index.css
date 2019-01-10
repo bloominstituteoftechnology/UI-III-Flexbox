@@ -104,7 +104,10 @@ header h1 {
 }
 
 header button {
-	 
+	margin: 20px;
+	padding: 10px 20px;
+	border: 1px solid black;
+	background-color: white;
 }
 
 .billboard {
@@ -158,7 +161,7 @@ header button {
 }
 
 button {
-	margin: 20px;
+	margin: 20px 0;
 	padding: 10px 30px;
 	border: 1px solid black;
 	background-color: white;
