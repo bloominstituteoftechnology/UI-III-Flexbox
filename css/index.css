@@ -111,21 +111,21 @@ header .logo {
 	border: 1px solid red;
 	width: 300px;
 	height: 200px;
-	margin: 20px 0px 0px 100px;
+	margin: 20px;
 }
 
 .middle-content .box2 {
 	border: 1px solid red;
 	width: 300px;
 	height: 200px;
-	margin: 20px 0px 0px 100px;
+	margin: 20px;
 }
 
 .middle-content .box3 {
 	border: 1px solid red;
 	width: 300px;
 	height: 200px;
-	margin: 20px 0px 0px 30px;
+	margin: 20px;
 }
 
 
@@ -133,14 +133,14 @@ header .logo {
 	border: 1px solid red;
 	width: 300px;
 	height: 200px;
-	margin: 20px 0px 0px 30px;
+	margin: 20px;
 }
 
 .middle-content .box5 {
 	border: 1px solid red;
 	width: 300px;
 	height: 200px;
-	margin: 20px 0px 0px 30px;
+	margin: 20px;
 	
 }
 
@@ -148,7 +148,7 @@ header .logo {
 	border: 1px solid red;
 	width: 300px;
 	height: 200px;
-	margin: 20px 0px 0px 30px;
+	margin: 20px;
 }
 
 
