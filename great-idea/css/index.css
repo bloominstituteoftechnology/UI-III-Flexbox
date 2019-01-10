@@ -125,14 +125,25 @@ header nav {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		background-color: #F0F0F0;
+	
 		
 	}
-	.text-content{
-		
-		padding: 10px;
+	.text-content{	
+		padding: 20px 10px;
 		border: 1px solid black;
-		margin-bottom: 20px;
-		height: 150px;
+		margin: 20px;
+		height: 200px;
 		width: 300px;
+		background-color: #F0F0F0;
+	}
+	.text-content button{
+		margin: 20px 0;
+	}
+	.last-content {
+		margin-left: 80px;
+	}
+	footer {
+		margin: 32px 0;
+		text-align: center;
+		font-size: 14px;
 	}
