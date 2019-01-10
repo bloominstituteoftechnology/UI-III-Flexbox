@@ -76,20 +76,47 @@ body{
 	
 }
 
-section{
+#blocks{
+	display: flex;
 	
+	flex-direction: column;
+	justify-content: space-around;
 	
-
-
 }
+.row{
+	display: flex;
+	justify-content: space-around;
+	margin: 40px;
+	
+}
+
 
 .block{
+	display: flex;
+	border: 1px solid black;
+	background: lightgray;
+	height: 5%;
+	width: 45%;
+	flex-direction: column;
+	padding: 20px;
+	
+}
 
-	margin: 15px;
-	height: 200px;
+.block h4{
+	
+	justify-content: flex-start;
 }
 .block p{
-	font-size: 22px;
+	justify-content: flex-end;
+	font-size: 18px;
+}
+.block button{
+		margin-top: 20px;
+		font-size: 18px;
+		border-radius: 9px;
+		justify-content:flex-start;
+		width: 150px;
+		height: 30px;
 }
 
 h4{
@@ -125,56 +152,60 @@ header{
 	
 
 
-#bar1{
-	display: flex;
-	justify-content: space-around;
-	height: 35%;
-}		
 
-	#bar1 #text{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-		#bar1 h1{
-			padding: 100px 0px 0px 5px;
-			text-align: center;
-			font-size: 75px;
-			width: 75%;
-		}
-		#bar1 button{
 		
-			font-size: 18px;
-			
-	
-			
-		
-		}
-	#bar1 img{
-		margin-top: 30px;
-		height: 400px;
-		width: 400px;
-	
-		
-		
-	}
 
+.blockx{
 
-#middle-img, #services-header-img{
+	margin: 15px;
+	height: 200px;
+}
+.blockx p{
+	font-size: 18px;
+}
+ #services-header-img{
 	width:100%;
 }
-#bar2{
-	display: flex;
-	border-top: 1px solid black;
-}
-#bar4{
-	display: flex;
-}
-footer{
-	border-top: 1px solid black;
+#services{
+	display:flex;
+	height: 8%;
+	border-bottom: 1px solid black;
 }
 
-footer p{
+#finaltry{
+	display: flex;
+	justify-content: space-between;
+
+}
+#service-facts{
+
+	width: 40%;
+	flex-direction: row;
+	
+}
+	
+
+
+
+#endpic{
+	display: flex;			
+	align-items: center;
+}
+ footer{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	
+
+}
+
+ul li{
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+footer p{	
+
 	font-size: 15px;
 	margin-top: 15px;
 }
@@ -184,7 +215,4 @@ footer p{
 		text-align: center;
 		font-size: 15px;
 		padding: 0px ;
-}
-
-
-
+} 
