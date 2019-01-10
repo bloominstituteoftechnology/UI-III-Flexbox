@@ -144,11 +144,11 @@ header h1 {
 
 /* =================== Form Section =================== */
 section {
-    border: 1px solid red;
+    border: 1px solid black;
     margin-top: 40px;
     display: flex;
     flex-direction: row;
-    background-color:
+    background-color: #F4F1F4;
 }
 
 .contact div {
@@ -167,6 +167,13 @@ form label {
     display: block;
     margin-bottom: 10px;
     font-size: .8rem;
+    text-align: left;
+}
+
+input {
+    display: block;
+    margin-top: 2px;
+    margin-right: auto;
 }
 
 
