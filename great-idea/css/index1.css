@@ -143,7 +143,7 @@ header nav a, header img {
     padding: 20px;
 }
 
-.middle-img {
+.middle-img, .services-header-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -163,4 +163,74 @@ footer {
 .copyright {
 	text-align: center;
 	margin: 10px 10px 50px 10px;
+}
+
+/*most of the service pg css*/
+
+.service-description h1 {
+    font-size: 80px;
+}
+
+.services-description {
+    margin: 25px;
+}
+
+.services {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 40px 20px 40px 20px;
+}
+
+.services section p {
+    margin 10px 10px 40px 10px;
+}
+
+.services section a {
+    margin: 10px;
+    background-color: white;
+	border-radius: 5px;
+	border: 1px solid gray;
+	color: gray;
+	padding: 5px 20px;
+	text-decoration: none;
+}
+
+.digital-design, .ui-ux, .digital-marketing, .web-development, .ios-development, .android-development {
+    margin: 20px;
+    padding: 20px;
+    width: 45%;
+    background-color: lightgray;
+    height: 200px;
+}
+
+.digital-design, .digital-marketing, .ios-development {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.ui-ux, .web-development, .android-development {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul {
+    list-style-type: circle;
+    margin: 20px;
+}
+
+footer p {
+    margin: 10px;
 }
