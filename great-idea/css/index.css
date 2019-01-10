@@ -237,8 +237,10 @@ header .logo-2 {
 }
 
 .final-footer {
+  display: flex;
   border-top: 2px solid black;
   padding-top: 30px;
+  height: 350px;
 }
 .contact {
   margin-top: 57px;
@@ -254,4 +256,12 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+
+.box-g {
+  padding: 0 25px;
+}
+
+.end {
+  display: block;
 }
