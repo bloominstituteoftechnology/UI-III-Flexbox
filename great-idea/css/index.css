@@ -75,8 +75,9 @@ header{
 
 body{
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+	flex-direction: column;
+	width: 880px;
+	margin: 0 auto;
 
 }
 .navigation a{
@@ -88,14 +89,8 @@ body{
 	text-align: center;
 	
 }
-
-.logo{
-	display: inline-block;
-	padding-bottom: 15px;
-	margin-left: 750px;
-	margin-top: -70px;
-	width: 180px;
-	
+main {
+	margin-top: 20px;
 }
 
 button {
@@ -106,6 +101,12 @@ color: black;
 	
 }
 
+section{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
 .top-content{
 	display: flex;
 	justify-content: center;
@@ -124,8 +125,8 @@ h1{
 	font-size: 125px;
 	display: flex;
 	justify-content: space-between;
-	justify-content: flex-start
-	
+	justify-content: flex-start;
+	border: 1px solid black;
 	
 
 }
@@ -188,50 +189,116 @@ bold{
 
 /* from here down is my services css*/
 
+
+
 .services-services{
+
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
-align-content: center;
+/* background-color: gray;
+border: 1px solid black; */
+height: 200px;
+margin: auto;
+padding: 10px;
+font-size: 20px;
+}
+
+.services-services h2{
+	text-align: left;
+	font-size: 30px;
+	/* border-bottom: 1px black; */
+
+	
+}
+
+.opener{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	
+}
+
+.service-header-img{
+	width: auto;
+}
+
+.main-container{
+	display: flex;
+	flex-direction: column;
+	width: 880px;
+}
+
+.middle-section{
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	height: 880px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+
+
+}
+
+.middle-section h3{
+	font-size: 21px;
+	text-align: left;
+	padding: 5px;
+}
+
+.middle-section div{
+	width: 48%;
+	height: 30%;
+	background: lightgray;
+	border: 1px solid black;
+	padding: 15px;
+	font-size: 18px;
+	/* margin: 15px; */
+}
+
+.middle-section button{
+margin: 15px;
+
+}
+
+.bottom-container{
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+	margin-top: 25px;
+
 }
 
 
+.services-fact{
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	font-size: 18px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.services-fact, h3{
+	font-size: 21px;
+	padding: 5px;
+}
 
 .services-info-img {
 	justify-content: flex-start;
+	width: auto;
+}
+
+.services, li{
+	list-style:disc;
+	padding: 10px;
+	width: auto;
+	font-size: 17px;
+}
+
+.services, p, h3{
+	margin: 0;
+}
+
+footer{
+	margin-top: 25px;
 }
