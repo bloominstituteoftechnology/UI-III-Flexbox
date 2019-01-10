@@ -67,11 +67,11 @@ h1, h2, h3, h4, h5 {
 .container, .svc-container {
 	width: 880px;
 	margin: 0 auto;
-	/*border: 1px solid red;*/
+	/* border: 1px solid red; */
 }
 
 header {
-	/*border: 2px dotted purple;*/
+	/* border: 2px dotted purple; */
 	display: flex;
 	width: 880px;
 	height: 75px;
@@ -81,26 +81,29 @@ header {
 }
 header nav {
 	display: flex;
-	align-items: center;
-	margin: 20px 150px 5px 0px;
+	/* justify-content: space-between; */
+	margin: 20px 120px 25px 0px;
 	/*border: 2px dashed green;*/
 }
 
 header nav a {
-	padding: 20px;
+	/* border: 2px dashed green; */
+	margin: 0 20px 0 20px;
+	padding: 10px;
+	font-size: 14px;
 	color: gray;
 }
 .logo {
-	display: flex;
-	width: 150px;
-	height: 30px;
-	align-items: center;
-	/*border: 2px solid magenta;*/
+	width: 160px;
+	height: 35px;
+	margin-right: 40px;
+	/* border: 2px solid magenta; */
 }
 .innovation {
 	display: flex;
 	width: 880px;
 	padding: 20px;
+	margin-top: 30px;
 	/*border: 3px solid orange;*/
 }
 
@@ -113,11 +116,11 @@ header nav a {
 	margin: 0 70px 0;
 }
 .innovation .header-image {
-	width: 35%;
-	height: 35%;
+	width: 40%;
+	height: 40%;
 }
 	
-button  {
+.innovation button  {
 	background: white;
 	width: 150px;
 	height: 30px;
@@ -142,7 +145,7 @@ h2 {
 
 .features, .about {
 	width: 400px;
-	margin: 20px 0 40px 0;
+	margin: 30px 0 40px 0;
 }
 .main-content-bottom {
 	/* border: 3px solid magenta; */
@@ -152,15 +155,15 @@ h2 {
 
 .services, .product, .vision {
 	width:250px;
-	margin: 20px 0 40px 0;
+	margin: 30px 0 40px 0;
 }
 
 .main-content-bottom {
-border-bottom: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 footer {
-	margin: 40px;
+	margin-top: 40px;
 }
 address {
 	margin: 15px 0 15px 0;
@@ -179,21 +182,35 @@ address {
 .svc-main-content {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-top: 50px;
 	padding-top: 30px;
 	border-top: 1px solid black;
 }
 
+.svc-main-content button {
+	margin-top: 30px;
+	background: white;
+	width: 150px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
 .design, .uxui, .marketing, .webdev, .ios, .android {
-	width: 400px;
-	height: 220px;
+	width: 420px;
+	height: 250px;
 	background: rgb(240, 234, 234);
 	margin: 30px 0 30px 0;
 	padding: 20px;
 	border: 1px solid black;
 }
 
+.facts-content{
+	display: flex;
+	margin-top: 35px;
+
+}
 .facts p {
 	display:flex;
 	width: 300px;
