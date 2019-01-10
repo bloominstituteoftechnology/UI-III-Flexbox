@@ -82,14 +82,99 @@ body .toppage nav a {
 	margin-bottom: 20px;
 }
 
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid grey;
+}
 
+#centered {
+	display: flex;
+	justify-content: center;
+}
 
+.middle6 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 350px;
+	border: 1px solid grey;
+	margin: 20px;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #ECEBEB;
+}
 
+button {
+	margin-top: 20px;
+	background-color: white;
+	border: 1px solid grey;
+	padding: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
 
+#mids {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
 
+.container-services {
+	width: 880px;
+	margin: 0 auto;
+}
 
+.servicefacts {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+	flex-direction: column;
+	margin-left: 20px;
+}
 
+.bottom3 {
+	display: flex;
+	justify-content: center;
+}
 
+.thelist li {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+	list-style-type: circle;
+}
+
+.thelist {
+	margin-top: 20px;
+	
+}
+
+.servicefacts h3 {
+	margin: 0px;
+display: flex;
+height: 25px;
+margin-top: 40px;
+}
+
+.spacee {
+	margin-right: 25px;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.h20 {
+	font-size: 20px;
+}
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
