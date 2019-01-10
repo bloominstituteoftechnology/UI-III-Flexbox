@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +63,84 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body.container {
+	width: 900px;
+	margin: auto;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin-top: 25px;
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+
+.title{
+	font-size: 80px;
+	text-align: center;
+}
+
+.getstarted{
+	width: 190px;
+	margin-top: 20px;
+	margin-left: 65px;
+	font-size: 20px;
+	border: 1px solid black;
+	padding: 5px 45px 5px 45px;
+}
+
+.line1{
+	border-top: 1px solid black;
+	margin-top: 25px;
+}
+
+.section1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	width: 900px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+
+.section2{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: space-evenly;
+ width: 900px;
+ margin-top: 30px;
+ padding-bottom: 30px;
+}
+
+footer{
+	 border-top: 1px solid black;
+	 padding: 20px 0;
+}
+
+.address{
+	margin-bottom: 15px;
+}
+
+.phone{
+	margin-bottom: 15px;
+}
+
+.copyright {
+	text-align: center;
+	margin-bottom: 80px;
+}
