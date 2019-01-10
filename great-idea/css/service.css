@@ -63,8 +63,49 @@ div {
      display: inline-block;
 
   }
-
-  footer {
+  hr{
+      width: 90%;
+      margin: 40px auto;
+  }
+  /* borja */
+  .footer {
+    height: 30%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ffffff;
+}
+.contact {
+    width: 50%;
+    margin: 2% 5%;
+}
+.Copyright {
+    text-align: center;
+    height: 10px;
+   margin:  20px 0;
+    align-self: center;
+    padding: 20px 0;
+    text-align:center;
+    width: 100%;
+    color: #aaa;
+}
+.footer-left {
+    padding-bottom: 3.5rem;
+}
+.footer-list {
+    list-style-type: square;
+    margin: 5%;
+}
+.footer-list li {
+    line-height: 1.5;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+}
+/* ******* */
+  /* footer {
     width: 100%;
     background: #e5e8eb;
    
@@ -85,7 +126,7 @@ div {
     text-align:center;
     width: 100%;
     color: #aaa;
-      }
+      } */
   
   .first{
       display: inline-block;
