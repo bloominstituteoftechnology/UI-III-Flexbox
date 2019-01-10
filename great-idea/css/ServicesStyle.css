@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -62,94 +57,119 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
 .container {
-	
+	width: 950px;
 	display: flex;
-	/* border: 1px solid red; */
-	margin: auto;
 	flex-direction: column;
-	width: 1000px;
+	margin: auto;
+	
+    
 }
 header {
 	display: flex;
 	flex-direction: row;
-	margin-top: 20px;
-}
-header nav {
-	/* border: 1px solid red; */
-	margin-top: 10px;
+	padding: 20px;
+	margin-top: 30px;
 }
 header nav a {
-	padding: 20px;
-	color: Gray;
-	text-decoration: none;	
-	
-}
-.logo {
-	margin-left: 100px;
+	padding: 30px;
 }
 .cta {
-	/* border: 1px solid red; */
+	padding: 20px;
 	display: flex;
-	flex-direction: row;
-	margin: 40px;
-	padding: 40px;	
-	justify-content: center;
-	align-items: center;
+	flex-direction: column;
 	border-bottom: 1px solid black;
-	padding-bottom: 100px;
-}
-.cta h1 {
-	font-size: 70px;
-	text-align: center;
 	
 }
-
-.cta img {
-	/* border: 1px solid red; */
-	margin-left: 150px;
-}
-.cta button {
-	margin-left: 70px;
-	background-color: white;
-	border: 1px solid black;
-	width: 150px;
-	height: 30px;
-}
-.top-content {
-	/* border: 1px solid red;	 */
-	display: flex;
-	flex-direction: row;
-	margin-left: 20px; 
-	margin-right: 20px;
-	margin-bottom: 30px;	
-}
-.text-content {
+.services-header-img {
 	padding: 20px;
 }
-.middle-img {
-		
-	margin-left: 40px;
-	
+.cta-text {
+	margin-left: 20px;
 }
-.bottom-content {
+.main-content {
+	padding: 30px;
 	display: flex;
 	flex-direction: row;
-	padding: 15px;
-	margin-bottom: 30px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 	border-bottom: 2px solid black;
+	
 }
-.contact {
-	margin-left: 30px;
-}
-.contact p {
+.main-content p {
 	padding: 10px;
 }
+.main-content h4 {
+	padding 10px;
+}
+.main-content button {
+	padding: 5px;
+	border-radius: 8px;
+	width: 120px;
+	background-color: white;
+	
+}
+.digital-design-div {
+	width: 300px;
+	border: 1px solid black;
+	background-color: Gray;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.UX-div {
+	width: 300px;
+	border: 1px solid black;
+	background-color: Gray;
+	margin-bottom: 20px;
+	padding: 20px;
+
+}
+.Digital-marketing-div {
+	width: 300px;
+	border: 1px solid black;
+	background-color: Gray;
+	margin-bottom: 20px;
+
+}
+.Web-dev-div {
+	width: 300px;
+	border: 1px solid black;
+	background-color: Gray;
+	margin-bottom: 20px;
+
+}
+.ios-div {
+	width: 300px;
+	border: 1px solid black;
+	background-color: Gray;
+	margin-bottom: 20px;
+
+}
+.android-div {
+	width: 300px;
+	border: 1px solid black;
+	background-color: Gray;
+	margin-bottom: 20px;
+
+}
+
+.bottom-content {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+}
+.bottom-content p h4 {
+	padding: 20px;
+}
+.bottom-content ul li {
+	margin-left: 20px;
+}
+
 footer {
 	display: flex;
 	justify-content: center;
 	padding: 20px;
-} 
+}
+
+
