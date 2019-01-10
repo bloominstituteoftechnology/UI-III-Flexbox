@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body{
-	width: 950px;
+	width: 920px;
 	margin: auto;
 }
 
@@ -114,12 +114,13 @@ h2{
 }
 
 .headline p{
+	display: flex;
 	width: 150px;
+	height: 30px;
 	background: white;
 	border: 1px solid black;
-	padding: 5px 10px;
-	text-align: center;
-	vertical-align: middle;
+	justify-content: center;
+	align-items: center;
 	margin: 20px auto;
 }
 
@@ -129,12 +130,13 @@ h2{
 	justify-content: space-between;
 	padding: 50px 20px;
 }
+
 .round-img{
 	width: 400px;
 }
 
 .middle-img, .services-header-img{
-	width: 910px;
+	width: 880px;
 	margin: 0 20px;
 }
 
@@ -176,7 +178,7 @@ h2{
 footer{
 	text-align: center;
 	font-size: 14px;
-	margin: 30px 0 100px;
+	margin: 30px 0;
 }
 
 .services-intro{
@@ -184,7 +186,7 @@ footer{
 }
 
 .services-details{
-	height:800px;
+	height:820px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -206,12 +208,13 @@ footer{
 }
 
 .learn-button{
+	display: flex;
 	height: 30px;
 	width: 140px;
 	border: 1px solid black;
 	background: white;
-	text-align: center;
-	vertical-align: middle;
+	justify-content: center;
+	align-items: center;
 	border-radius: 5px;
 }
 
