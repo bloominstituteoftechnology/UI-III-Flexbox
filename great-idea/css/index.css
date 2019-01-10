@@ -149,5 +149,5 @@ h1, h2, h3, h4, h5 {
   text-align: right;
 }
 ul  {
-	list-style: square inside url("sqpurple.gif");
+	list-style: square inside;
   }
