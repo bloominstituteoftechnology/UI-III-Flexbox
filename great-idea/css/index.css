@@ -63,6 +63,36 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-header {
+header nav {
   border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a {
+  border: 1px solid red;
+}
+header img {
+  border: 1px solid red;
+}
+
+.middle-boxes {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-box {
+  border: 1px solid black;
+  padding: 20px;
+  background: #f4f3f4;
+  margin: 10px;
+  width: 300px;
+}
+
+.learn-more-button {
+  border:1px solid black;
+  margin-top: 20px;
+  padding: 10px 30px;
 }
