@@ -159,3 +159,14 @@ ul  {
 	font-size: 15px;
 	color: black;
 	margin: 10px;
+  }
+  .button {
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	background: white;
+	border: 1px solid black;
+	font-size: 15px;
+	color: black;
+	margin: 10px;
+  }
