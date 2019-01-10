@@ -190,10 +190,11 @@ header nav {
 
 	.last-content{
 		display: flex;
-    flex-direction: column-reverse;
-    padding-right: 139px;
-    padding-left: 500px;
+    flex-direction: row;
+    padding-right: 200px;
+    padding-left: 50px;
     padding-top: 5px;
+    font-size: 15px;
 	}
 	
 	.par{
