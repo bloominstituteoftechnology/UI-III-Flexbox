@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	margin: auto;
+}
+
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: lightgray;
+	margin-right: 60px;
+}
+
+.logo {
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 50px 0 50px 0;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+	height: 400px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+	height: 800px;
+}
+
+.box {
+	background: lightgray;
+	display: flex;
+	flex-direction: column;
+	width: 420px;
+	height: 240px;
+	border: 1px solid black;
+	justify-content: space-between;
+}
+
+.bh2 {
+	font-size: 20px;
+	margin: 10px 0 0 10px;
+}
+
+.bp {
+	margin: 0 10px 0 10px;
+}
+
+.butn {
+	background: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 2.5px;
+	display: flex;
+	justify-content: space-around;
+	height: 30px;
+	width: 200px;
+	margin: 0 0 10px 10px;;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding-top: 50px;
+	border-top: 1px solid black;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.fdiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 420px;
+	height: 300px;
+}
+
+ul {
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+li {
+	margin: 10px 0;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+}
