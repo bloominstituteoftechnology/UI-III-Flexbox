@@ -66,10 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	width: 80%;
+	margin: auto;
+	width: 800px;
 }
 
 header {
@@ -96,9 +94,11 @@ nav a {
 
 .cta {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
+	align-content: center;
 	height: 500px;
+	width: 800px;
 	border-bottom: 1px solid black;
 }
 
@@ -123,36 +123,39 @@ button {
 	justify-content: space-around;
 	align-self: center;
 	height: 600px;
+	width: 100%;
 	border-bottom: 1px solid black;
+	padding-top: 10px;
 }
 
 .top-content {
 	display: flex;
-	width: 75%;
+	width: 100%;
 	align-self: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .top-content .text-content {
 	display: flex;
 	flex-wrap: wrap;
-	width: 550px;
+	width: 500px;
 }
 
 .middle-img {
 	display: flex;
-	width: 75%;
+	width: 100%;
 	align-self: center;
 }
 
 .bottom-content {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .bottom-content .text-content {
 	display: flex;
-	width: 25%;
+	width: 30%;
 	flex-wrap: wrap;
 }
 
