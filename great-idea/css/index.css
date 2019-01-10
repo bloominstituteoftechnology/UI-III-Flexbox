@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
 	margin-top: 60px;
+	background-color: #F6F6F6;
 }
 
 h1 {
@@ -74,6 +75,10 @@ h1 {
 
 h3 {
 	font-size: 25px;
+}
+
+img {
+	border-radius: 10px;
 }
 
 /* Page Containter */
@@ -92,21 +97,22 @@ h3 {
 	height: 80px;
 	width: 100%;
 	justify-content: space-evenly;
-	background-color: #9EABB1;
+	background-color: #E9E9E9;
 	position: fixed;
 }
 
 /* Navigation Buttons */
 nav a {
  padding: 35px 20px;
- color: #F4F5F2;
+ color: black;
  text-decoration: none;
  transition: 0.3s;
 }
 
 /* Navigation Button Animation */
 nav a:hover {
-	background-color: #4B495E;
+	background-color: #024351;
+	color: white;
 }
 
 /* Header Text */
@@ -137,7 +143,7 @@ main {
 
 /* Material Card Design */
 .card {
-	background-color: #4B495E;
+	background-image: linear-gradient(to bottom left, #25898A , #024452);
 	color: #F4F5F2;
 	padding: 20px 35px;
 	width: 48%;
