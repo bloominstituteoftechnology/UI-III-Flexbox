@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
 body{
 	width: 920px;
 	margin: auto;
+	padding: 20px;
 }
 
 header{
@@ -75,8 +76,7 @@ header{
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 20px;
-
+	margin-bottom: 20px;
 }
 
 header nav a{
@@ -131,7 +131,7 @@ h2{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 50px 20px;
+	padding: 50px 0 80px;
 }
 
 .round-img{
@@ -140,15 +140,13 @@ h2{
 
 .middle-img, .services-header-img{
 	width: 880px;
-	margin: 0 20px;
 }
 
 
 .main-1, .main-2{
 	display: flex;
 	justify-content: space-between;
-	padding: 30px 0;
-	margin: 10px 20px;
+	padding: 40px 0;
 }
 .main-1{
 	border-top: 1px solid black;
@@ -167,12 +165,14 @@ h2{
 	width: 32%;
 }
 
+/*provided code gave a bottom margin of 15px and I wanted to reset this*/
 .contact h3, .services-details section h3, .services-facts h3{
-	margin: 0;
+	margin-bottom: 0;
 }
+
 .contact{
 	height: 180px;
-	margin: 20px;
+	margin: 20px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -185,18 +185,17 @@ footer{
 }
 
 .services-intro{
-	margin: 30px 20px 40px;
+	margin: 30px 0 40px;
 }
 
 .services-details{
-	height:830px;
+	height:820px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	align-content: space-between;
-	margin: 20px 20px 0;
-	padding: 40px 0;
+	align-content: space-evenly;
 	border-top: 1px solid black;
+	border-bottom: 2px solid black;
 }
 
 .services-details section{
@@ -224,8 +223,6 @@ footer{
 }
 
 .services-facts{
-	border-top: 2px solid black;
-	margin: 0 20px;
 	padding: 40px 0;
 	display: flex;
 	justify-content: space-between;
