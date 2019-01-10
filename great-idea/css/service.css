@@ -118,11 +118,10 @@ nav a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
-	background: white;
 	border-bottom: 2px solid black;
 	border-top: 2px solid black;
 	height: 800px;
+	padding-top: 20px;
 }
 
 .infoBox {
@@ -131,13 +130,13 @@ nav a {
 	flex-direction: column;
 	justify-content:center;
 	align-items: center;
-	width: 400px;
+	width: 380px;
 	height: 200px;
 	background-color: rgb(240, 240, 240);
 }
 
 .infoBoxContent {
-	width: 385px;
+	width: 365px;
 }
 
 .learn {
