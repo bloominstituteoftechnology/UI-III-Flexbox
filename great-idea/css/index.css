@@ -64,113 +64,45 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-body{
-	width: 80%;
+ .container{
+	display: flex;
+	max-width: 880px;
 	margin: 0 auto;
-}
-
-header{
+	flex-direction: column;
+	border: 1px solid black;
+} 
+ .fixed-nav{
 	width:inherit;
-	height: 1%;
+	height: 2%;
 	text-align: center;
 	padding-bottom: 2%;
-	/* z-index: 1; */
+	z-index: 1;  
 	position:fixed;
-}
+} 
 
-nav{
-	display: inline-block;
-	margin-right: 2%;
-}
-/* for the logo to stay attached to the header */
-header img{
-	position: relative;
-
-}
-
-main{
-	margin-top: 20px;
+.fixedNav nav{
+	display: flex;
+	justify-content: space-evenly;
+	align-content: center ;
+	flex-wrap: wrap;
 }
 
 a{
 	text-decoration:none;
-	padding: 5px;
-	margin: 0 2.5vw;
+	align-self: center;
 }
 
- button{
-	letter-spacing: 1px;
-	font-size: 20px;
-	background: white;
-	color:black;
-} 
-
-section{
+.opener{
 	display: flex;
-	justify-content: center;
-	align-content: center;
-	flex-wrap: wrap;
-}
-
-footer{
-	padding-top: 15px;
-	border-top: 1px solid black;
-}
-footer p{
-	text-align:center;
-	margin: 15px;
-}
-footer strong{
-	font-weight:400;
-	line-height: 2em;
-}
-
-.UI{ 
-	display:inline-block;
-	margin:100px;
-	top:-50px;
-	order:1;
-}
-
-.UI h1{
-	font-size:80px;
-}
-.circleIMG{
-	margin-bottom: 25px;
-	order: 0;
-}
-.section-1 {
+	flex-direction: column;
 	border-bottom: 1px solid black;
-	flex-wrap: wrap;
-	align-content: center;
-	text-align:center;
-	padding-bottom: 15px;
-	padding-top: 15%;
 }
-
-.section-2 .features , .about{
-	display:block;
-	width:49%;
-	padding: 15px;
+.main-container{
+	display: flex;
+	justify-content: space-evenly;
+	
 }
-
-.middle-img{
-	width: ;
-}
-
-.section-3 .services, .product, .vision{
-	display:block;
-	width: 32%;
-	padding: 15px;
-}
-/* I want to go back and refactor to remove element selectors */
-/* From here out is the styling  for the services page alone */
 
 .main-container div{
-	width: 300px;
-	height:300px;
-	margin: 25px;
-	background: gray;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	width: 35%;
 }
