@@ -64,20 +64,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+ 
+/* Services page styling*/
+/* Main body container used to house all elemenets */
  .container{
 	display: flex;
 	max-width: 880px;
 	margin: 0 auto;
 	flex-direction: column;
-	border: 1px solid black;
-} 
- .fixed-nav{
-	width:inherit;
-	height: 2%;
-	text-align: center;
-	padding-bottom: 2%;
-	z-index: 1;  
-	position:fixed;
+	/* border: 1px solid black; */
 } 
 
 .fixedNav nav{
@@ -92,17 +87,67 @@ a{
 	align-self: center;
 }
 
+/* parent  of first section*/
 .opener{
 	display: flex;
 	flex-direction: column;
-	border-bottom: 1px solid black;
+	/* border: 1px solid black; */
 }
+
+.services{
+	padding: 25px 0;
+}
+
+/*  */
 .main-container{
 	display: flex;
-	justify-content: space-evenly;
-	
+	justify-content: space-between;
+	padding: 25px 0;
+	align-content: space-between;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	border-top:1px solid black;
 }
 
 .main-container div{
-	width: 35%;
+	width: 48%;
+	padding: 25px;
+	margin: 15px 0;
+	border: 1px solid black;
+	background: lightgray;
+	
+}
+
+.main-container div button{
+	margin-top: 15px;
+	background: white;
+}
+
+
+/* This is the closing section of the services page */
+
+/* Parent */
+.closing{
+	display: flex;
+	justify-content: space-between;
+	border-top:1px solid black;
+	padding-top: 25px;
+}
+
+.facts{
+	width: 48%;
+}
+
+.facts p, .opener p{
+	padding: 15px 0;
+}
+.facts li{
+	list-style: disc;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+footer{
+	text-align: center;
+	margin: 25px;
 }
