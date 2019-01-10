@@ -65,20 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* The Codes */
 
+
+
 section {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-}
-
-.box {
-	border: 1px solid black;
-	padding: 20px;
-	width: 420px;
-	height: 250px;
-	background: cyan;
-	margin: 20px 0;
 }
 
 button {
@@ -87,33 +80,6 @@ button {
 	width: 150px;
 	height: 25px;
 	border: 1px solid black;
-}
-
-.boxes {
-	justify-content: space-between;
-	width: 880px;
-	margin: 20px auto;
-}
-
-.boxes.mid {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-}
-
-a {
-	text-decoration: none;
-	color: grey;
-	margin: 10px 20px;
-}
-
-.services {
-	width: 800px;
-	margin: 10px;
-	padding: 10px;
-}
-
-.facts {
-	width: 400px;
 }
 
 ul {
@@ -128,4 +94,56 @@ li {
 
 footer {
 	text-align: center;
+	margin: 80px auto 20px;
 }
+
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 500px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+
+
+.box {
+	border: 1px solid black;
+	padding: 20px;
+	width: 420px;
+	height: 250px;
+	background: cyan;
+	margin: 20px 0;
+}
+
+.boxes {
+	justify-content: space-between;
+	width: 880px;
+	margin: 20px auto;
+}
+
+header.boxes {
+	display: flex;
+}
+
+.boxes.mid {
+
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.services {
+	width: 800px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.facts {
+	width: 400px;
+}
+

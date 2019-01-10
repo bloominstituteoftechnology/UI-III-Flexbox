@@ -83,29 +83,17 @@ a {
 	text-decoration: none;
 }
 
-.content {
+footer {
+	text-align: center;
+	margin: 20px;
+}
+
+nav {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.contHalf {
-	width: 30%;
-	padding: 10px;
-	margin: 10px;
-}
-
-.contThird {
-	width: 20%;
-	padding: 10px;
-	margin: 10px;
-}
-
-.landLink {
-	padding: 10px;
-	height: 379px;
-	width: 379px;
+	justify-content: space-between;
+	width: 600px;
 }
 
 button {
@@ -114,8 +102,36 @@ button {
 	color: grey;
 	background: white;
 	border: 1px solid grey;
+	margin-left: 38%;
 }
 
-.logo {
-	margin: 10px;
+
+
+.boxes {
+	display: flex;
+	justify-content: space-between;
+	width: 880px;
+	margin: 20px auto;
+}
+
+.contHalf {
+	width: 50%;
+	margin: 20px 0;
+}
+
+.contThird {
+	width: 33%;
+	margin: 20px 0;
+}
+
+.landLink {
+	padding: 10px;
+	height: 379px;
+	width: 379px;
+}
+
+.toTheLeft {
+	justify-content: left;
+	margin-left: 275px;
+	margin-bottom: 50px;
 }
