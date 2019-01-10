@@ -136,6 +136,7 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto
 }
 header{
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -242,6 +243,9 @@ font-size: 55px;
 .header-css nav{
     color: grey;
 }
+.header-css .logo{
+	margin: 31px 0 0 0
+}
 .mainpicture{
 	margin: 31px;
 }
@@ -309,10 +313,13 @@ font-size: 55px;
 	justify-content: space-between;
 }
 ul{
-	list-style-type: disc;
+	list-style-type: square;
 	list-style-position: inside;
 }
 .footer-css{
 	display: flex;
 	justify-content: center;
+}
+.seven .services-info-img{
+	margin-left: 31px;
 }
