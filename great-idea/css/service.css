@@ -140,6 +140,25 @@ nav a {
 	flex-direction: row;
 	background: white;
 	padding-top: 15px;
+	justify-content: space-around;
+}
+
+.listBlurb {
+	display: flex;
+	flex-direction: column;
+	width: 42%;
+}
+
+.title {
+	
+}
+
+.list {
+
+}
+
+.services-info-img {
+	width: 40%;
 }
 
 .copyright {
