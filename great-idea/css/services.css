@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* The Codes */
 
 section {
 	display: flex;
@@ -72,50 +72,33 @@ section {
 	justify-content: center;
 }
 
-h1 {
-	font-size: 50pt;
-	text-align: center;
-	margin-top: 25%;
-}
-
-a {
-	color: grey;
-	text-decoration: none;
-}
-
-.content {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.contHalf {
-	width: 30%;
+.box {
+	border: 1px solid black;
 	padding: 10px;
 	margin: 10px;
-}
-
-.contThird {
-	width: 20%;
-	padding: 10px;
-	margin: 10px;
-}
-
-.landLink {
-	padding: 10px;
-	height: 379px;
-	width: 379px;
+	width: 450px;
+	height: 250px;
+	background: cyan;
 }
 
 button {
-	height: 25px;
-	width: 150 px;
-	color: grey;
 	background: white;
-	border: 1px solid grey;
+	border-radius: 5px;
+	width: 200px;
+	height: 40px
 }
 
-.logo {
-	margin: 10px;
+.boxes {
+	padding: 10px;
+	width: 75%;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+.services {
+	width: 800px;
 }
