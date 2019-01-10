@@ -64,13 +64,14 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 header{
-	width: 100%;
+	width: 80%;
 	height: 200px;
 	display: flex;
 	justify-content: center;
@@ -78,9 +79,8 @@ header{
 	align-items: center;
 }
 nav {
-	width: 1200px;
+	width: 65%;
 	height: 200px;
-	position: fixed;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -97,8 +97,16 @@ nav a{
 	display: inline-block;
 	font-size: 16px;
 }
+nav a:hover {
+	animation-name: skale;
+	animation-duration: 3000000s;
+}
+@keyframes skale {
+	0% {transform: scale3d(1.2, 1.2, 1.2);}
+	100% {transform: scale3d(1.2, 1.2, 1.2);}
+}
 .main-banner{
-	width: 1600px;
+	width: 80%;
 	height: 49%;
 	display: flex;
 	flex-direction: row;
@@ -126,12 +134,12 @@ nav a{
 }
 	
 .article{
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .Paragraph-1{
-	width: 1200px;
 	border-top: 1px black solid;
 	padding-top: 20px;
 	display: flex;
@@ -164,6 +172,7 @@ font-size: 36px;
 	font-weight: 500;
 }
 .big-image {
+	width: 100%;
 	padding-top: 20px;
 	height: 200px;
 	display: flex;
@@ -171,12 +180,12 @@ font-size: 36px;
 	justify-content: center;
 }
 .big-image img{
-	width: 1200px;
+	width: 80%;
 	text-align: center;
 }
 
 .Paragraph-2{
-	width: 1200px;
+	width: 80%;
 	height: 200px;
 	display: flex;
 	border-bottom: 1px black solid;
@@ -184,7 +193,7 @@ font-size: 36px;
 	padding-top: 30px;
 	justify-content: space-between;
 }
-.Paragraph-2 .Services{
+.Paragraph-2 .box{
 	height: 200px;
 	width: 350px;
 }
@@ -195,15 +204,7 @@ font-size: 36px;
 	font-size: 18px;
 	font-weight: 500;
 }
-.Paragraph-2 .Product {
-	height: 200px;
-	width: 350px;
-}
-.Paragraph-2 .Vision{
-	height: 200px;
-	width: 350px;
-	padding-right: 20px;
-}
+
 .address {
 	display: flex;
 	align-items: flex-start;
@@ -211,7 +212,7 @@ font-size: 36px;
 	line-height: 2;
 }
 footer {
-	width: 1200px;
+	width: 63%;
 	padding-top: 20px;
 }
 footer .Copyright{

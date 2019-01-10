@@ -67,18 +67,20 @@ h1, h2, h3, h4, h5 {
 /*Your code*/
 
 .page {
+    width: 100%;
     display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 header{
-    width: 100%;
-	height: 200px;
+    width: 80%;
+	height: 120px;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-	align-items: center;
+    align-items: flex-start;
+    padding-top: 30px;
 }
 nav {
     width: 1200px;
@@ -90,16 +92,29 @@ nav a{
     text-decoration: none;
     color: black;
 }
+nav a:hover {
+	animation-name: skale;
+	animation-duration: 3000000s;
+}
+@keyframes skale {
+	0% {transform: scale3d(1.2, 1.2, 1.2);}
+	100% {transform: scale3d(1.2, 1.2, 1.2);}
+}
 header .logo{
     display: flex;
     align-items: baseline;
 }
+.header-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .header-img .services-header-img {
-    width: 1200px;
+    width: 63%;
     height: 400px;
 }
 .services {
-    width: 1200px;
+    width: 63%;
     padding-bottom: 20px;
     border-bottom: 1px solid black;
 }
@@ -113,11 +128,12 @@ header .logo{
 
 .first-row{
     display: flex;
-    width: 1200px;
+    width: 63%;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 40px;
 }
+
 .box .learn-more{
     justify-self: flex-end;
     margin: auto; 
@@ -125,93 +141,44 @@ header .logo{
     padding: 10px;
     border-radius: 3px;
 }
-.first-row .Digital{
-    display: flex;
-    flex-direction: column;
-    background: #F4F3F4;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
-}
+
 .box {
     padding: 20px;
-}
- .box p {
-    font-size: 18px;
-    text-align: left;
-}
-.first-row .UI {
     display: flex;
     flex-direction: column;
     background: #F4F3F4;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
-}
-.second-row{
-    display: flex;
-    width: 1200px;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 40px;
-}
-.second-row .marketing {
-    display: flex;
-    flex-direction: column;
-    background: #F4F3F4;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
-}
-.second-row .web-development {
-    display: flex;
-    flex-direction: column;
-    background: #F4F3F4;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
+    width: 40%;
     height: 300px;
     border: 1px solid black;
 }
 
+ .box p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.second-row{
+    display: flex;
+    width: 63%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
 .third-row{
     display: flex;
-    width: 1200px;
+    width: 63%;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 40px;
     padding-bottom: 40px;
     border-bottom: solid 1px black;
 }
-.third-row .ios-development{
-    display: flex;
-    flex-direction: column;
-    background: #F4F3F4;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
-}
-.third-row .android-development{
-    display: flex;
-    flex-direction: column;
-    background: #F4F3F4;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
 
-}
 footer {
-    width: 1200px;
+    width: 63%;
     padding-top: 20px;
     align-items: center;
     display: flex;
@@ -222,7 +189,7 @@ footer {
 footer .service-facts{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 30%;
     justify-content: flex-start;
 }
 footer .list-of-things{
