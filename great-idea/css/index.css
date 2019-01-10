@@ -160,7 +160,7 @@ header nav a {
 }
 .a{
 	display:flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	margin: 50px 0
 }
 .icd{
@@ -310,6 +310,7 @@ font-size: 55px;
 }
 ul{
 	list-style-type: disc;
+	list-style-position: inside;
 }
 .footer-css{
 	display: flex;
