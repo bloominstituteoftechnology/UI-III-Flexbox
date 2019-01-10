@@ -66,125 +66,109 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	border: 2px solid black;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	align-self: center;
-	padding-left: 10%;
-	padding-right: 10%;
+	justify-content: space-around;
+	width: 80%;
 }
 
 header {
-	border: 2px solid black;
 	display: flex;
 	justify-content: space-around;
 }
 
 nav {
-	border: 2px solid black;
 	display: flex;
 	width: 60%;
 	justify-content: space-between;
 }
 
 nav a {
-	border: 2px solid black;
 	display: flex;
 	color: gray;
 	text-decoration: none;
+	align-items: center;
 }
 
 .logo {
-	border: 2px solid black;
 	display: flex;
-}
-
-section {
-	border: 2px solid black;
-	display: flex;
-	justify-content: center;
 }
 
 .cta {
-	border: 2px solid black;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 500px;
 	border-bottom: 1px solid black;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
 }
 
 .cta-text {
-	border: 2px solid black;
 	display: flex;
-	font-size: 60px;
+	font-size: 80px;
 	text-align: center;
 	flex-direction: column;
 	justify-content: center;
+	width: 500px;
 }
 
 button {
-	border: 2px solid black;
-	width: 55%;
+	background: white;
+	width: 125px;
 	align-self: center;
 }
 
 .main-content {
-	border: 2px solid black;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-self: center;
+	height: 600px;
 	border-bottom: 1px solid black;
-	padding-bottom: 20px;
 }
 
 .top-content {
-	border: 2px solid black;
 	display: flex;
 	width: 75%;
 	align-self: center;
+	justify-content: space-around;
 }
 
 .top-content .text-content {
-	border: 2px solid black;
 	display: flex;
 	flex-wrap: wrap;
+	width: 550px;
 }
 
 .middle-img {
-	border: 2px solid black;
 	display: flex;
 	width: 75%;
 	align-self: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 
 .bottom-content {
-	border: 2px solid black;
 	display: flex;
 	justify-content: center;
 }
 
 .bottom-content .text-content {
-	border: 2px solid black;
 	display: flex;
 	width: 25%;
 	flex-wrap: wrap;
 }
 
 .contact {
-	border: 2px solid black;
 	display: flex;
-	justify-content: left;
-	padding-top: 20px;
 	flex-wrap: wrap;
+	height: 175px;
+	width: 175px;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-content: space-around;
 }
 
 footer {
-	border: 2px solid black;
+	display: flex;
 	justify-content: center;
-	text-align: center;
-	padding-top: 50px;
+	align-items: flex-end;
+	height: 100px;
 }

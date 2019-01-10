@@ -107,7 +107,6 @@ nav a {
 
 .services {
 	display: flex;
-	background: white;
 	height: 100px;
 	flex-direction: column;
 	justify-content: center;
@@ -177,7 +176,6 @@ nav a {
 
 .copyright {
 	display: flex;
-	background: white;
 	justify-content: center;
 	align-items: flex-end;
 	height: 100px;
