@@ -239,11 +239,11 @@ section.last-content{
 }
 
 section.last-content div.text-content{
-	
+	width: 50%;
 	padding-right: 15px;
 }
 section.last-content img {
-	
+	width: 50%;
 	padding-left: 15px;
 }
 section.last-content div.text-content p {
