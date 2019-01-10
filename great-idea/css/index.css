@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.navigation a {
+	align-content: stretch;
+	color: grey;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+.invitation {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.invitation h1 {
+	display: flex;
+	font-size: 65px;
+	text-align: center;
+	align-items: center;
+	padding: 60px 0 0 0;
+	flex-direction: column;
+}
+
+.invitation button {
+	height: 35px;
+	width: 150px;
+	margin-top: 20px;
+	
+}
+
+.text-layouts {
+	display: flex;
+	padding: 40px 1px 40px 1px;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.second-text {
+	padding: 40px 1px 40px 1px;
+}
+
+.text-layouts p strong {
+	font-family: 'Bangers', cursive;
+	font-size: 24px;
+}
+
+.contact {
+	padding: 40px 1px 40px 1px;
+}
+
+.contact h4 {
+	font-size: 24px;
+}
+
+.address {
+	padding: 20px 0 20px 0;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+}
+
+/* services page begins */
+
+.services-text-boxes {
+	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	height: 1000px;
+	padding: 40px 0 40px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.services-text-boxes p {
+	display: inline-flex;
+	width: 410px;
+	height: 260px;
+	padding: 0 50px 0;
+	border: 1px solid black;
+	justify-content: space-evenly;
+	align-items: space-between;
+	flex-direction: column;
+	background: lightgrey;
+}
+
+.services-head {
+	padding: 40px 0 40px 0;
+}
+
+.services-head p {
+	padding-top: 20px;
+
+}
+
+.services-head p strong {
+	font-family: 'Bangers', cursive;
+	font-size: 24px;
+	
+	
+}
+
+.services-text-boxes p strong {
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+}
+
+.services-header-img {
+	padding-top: 40px;
+}
+
+
+.bottom-text {
+	display: flex;
+	border-top: 1px solid black;
+	padding-top: 40px;
+}
+
+.bottom-text p strong {
+	font-family: 'Bangers', cursive;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
