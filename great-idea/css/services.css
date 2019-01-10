@@ -175,3 +175,11 @@ button {
 .services {
 	font-size: 1.5em
 }
+
+ul li {
+	
+	margin-top: 15px;
+	display: list-item;
+	list-style-type: disc;
+	list-style-position: inside; 
+  }
