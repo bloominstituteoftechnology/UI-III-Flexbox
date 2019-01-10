@@ -78,16 +78,15 @@ footer {
 }
 
 .bottom-content .text-content {
-	margin: 0 10px;
+	margin: 0 1px;
 }
 
 .contact {
-	padding: 0px 10px;
+	margin-left: 1px;
 }
 
 .container {
 	width: 880px;
-	/* TB LR */
 	margin: 0 auto;
   }
 
@@ -167,7 +166,7 @@ footer {
 }
 
 .top-content .text-content {
-	margin: 0 5px;
+	margin: 0;
 }	
 	
 .bottom-addendum {
