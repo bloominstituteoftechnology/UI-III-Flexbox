@@ -69,40 +69,35 @@ h1, h2, h3, h4, h5 {
 .container {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	width: 100%;
-	align-self: center;
-	padding-left: 15%;
-	padding-right: 15%;
+	width: 800px;
+	margin: auto;
 }
 
 header {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	background: white;
 }
 
 nav {
 	display: flex;
-	width: 75%;
-	height: 100px;
-	flex-direction: row;
+	width: 60%;
 	justify-content: space-between;
-	align-items: center;
-	background: white;
 }
 
 nav a {
 	display: flex;
 	color: gray;
 	text-decoration: none;
+	align-items: center;
 }
 
-.logoContainer {
+.logo {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+}
+
+.services-header-img {
+	padding-top: 20px;
 }
 
 .services {
@@ -111,6 +106,8 @@ nav a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .servicesContent {
@@ -171,7 +168,7 @@ nav a {
 }
 
 .services-info-img {
-	width: 40%;
+	width: 50%;
 }
 
 .copyright {
