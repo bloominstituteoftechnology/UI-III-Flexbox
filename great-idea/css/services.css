@@ -47,10 +47,13 @@
 .facts {
 	margin-top: 40px;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .facts aside {
 	padding-right: 5%;
+	flex: 1;
+	margin-bottom: 15px;
 }
 
 .facts ul {
@@ -65,4 +68,12 @@
 
 .facts img {
 	border: 2px solid darkslategrey;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 433px) {
+	.navigation .logo-anchor {
+		display: flex;
+		align-self: center;
+	}
 }

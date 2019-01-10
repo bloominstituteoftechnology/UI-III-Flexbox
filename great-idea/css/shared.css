@@ -116,3 +116,39 @@ footer {
 	margin: 40px 0;
 	text-align: center;
 }
+
+@media screen and (max-width: 433px) {
+	.navigation nav {
+		margin-top: 45px;
+		margin-top: 5px;
+		display: flex;
+		justify-content: space-between;
+		flex-basis: 85%;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.navigation nav a {
+		text-decoration: none;
+		color: #EAD7D7;
+		background-color: #412234;
+		padding: 10px 0;
+		text-align: center;
+		padding: 5px 0;
+		text-align: center;
+		border-radius: 10px;
+		transition: 0.2s;
+		width: 15%;
+		flex: 1 1 40%;
+		margin: 2px 2px;
+	}
+
+	.navigation nav a:hover {
+		color: black;
+	}
+
+	.navigation img {
+		margin-top: 30px;
+		margin-left: 15px;
+	}
+}

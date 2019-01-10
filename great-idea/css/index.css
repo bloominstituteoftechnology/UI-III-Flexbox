@@ -5,6 +5,7 @@
 	text-align: center;
 	border-bottom: 2px solid black;
 	padding-bottom: 40px;
+	flex-wrap: wrap;
 }
 
 .cta h1 {
@@ -65,4 +66,10 @@
 .contact a {
 	line-height: 1.5em;
 	text-decoration: none;
+}
+
+@media screen and (max-width: 433px) {
+	.cta {
+		flex-direction: column-reverse;
+	}
 }
