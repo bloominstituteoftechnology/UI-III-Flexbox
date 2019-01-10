@@ -117,7 +117,7 @@ nav a {
 	padding: 5px 25px;
 }
 
-.services {
+.services-splash {
 	margin-top: 30px;
 	padding-bottom: 30px;
 	border-bottom: 1px solid black;
@@ -128,12 +128,23 @@ nav a {
 	font-size: 25px;
 }
 
+.main-content-services {
+	/* Negative horizontal margin for container was the best solution I could find to get a margin in between each .service-item and _not_ have margins at the beginning and end of each row. */
+	margin: 20px -10px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
 .service-item {
 	border: 2px solid gray;
-	width: 420px;
 	background: rgb(240, 240, 240);
 	padding: 15px;
-	margin: 20px 0;
+	margin: 10px 10px;
+	flex-basis: 400px;
+	flex-grow: 1;
 }
 
 .service-item button {
@@ -147,15 +158,6 @@ nav a {
 
 .main-content {
 	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-}
-
-.main-content-services {
-	margin: 20px 0;
-	padding-bottom: 20px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
 	border-bottom: 1px solid black;
 }
 
