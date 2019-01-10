@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	border: 1px solid red;
-	width: 880px;
+	width: 1200px;
 	margin: auto;
 }
 
@@ -87,7 +87,7 @@ header .logo {
 .services-header-img {
 	border: 1px solid red;
 	position: relative;
-	margin: 15px 0px 15px 230px;
+	margin: 15px 0px 15px 30px;
 }
 
 
@@ -100,46 +100,67 @@ header .logo {
 .middle-content {
 	border: 5px solid red;
 	display: flex;
-	flex-direction: row;
-
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 95vw;
+	margin: 0 auto;
 }
 
-.middle-content, .box1 {
+
+.middle-content .box1 {
 	border: 1px solid red;
+	width: 300px;
+	height: 200px;
+	margin: 20px 0px 0px 100px;
 }
 
-.middle-content, .box2 {
+.middle-content .box2 {
 	border: 1px solid red;
-
+	width: 300px;
+	height: 200px;
+	margin: 20px 0px 0px 100px;
 }
 
-.middle-content, .box3 {
+.middle-content .box3 {
 	border: 1px solid red;
+	width: 300px;
+	height: 200px;
+	margin: 20px 0px 0px 30px;
 }
 
-.middle-content, .box4 {
+
+.middle-content .box4 {
 	border: 1px solid red;
+	width: 300px;
+	height: 200px;
+	margin: 20px 0px 0px 30px;
 }
 
-.middle-content, .box5 {
+.middle-content .box5 {
 	border: 1px solid red;
+	width: 300px;
+	height: 200px;
+	margin: 20px 0px 0px 30px;
 	
 }
 
-.middle-content, .box6 {
+.middle-content .box6 {
 	border: 1px solid red;
+	width: 300px;
+	height: 200px;
+	margin: 20px 0px 0px 30px;
 }
 
 
 .services-info-img {
 	position: absolute;
-    width: 350px;
+    width: 400px;
     height: 250px;
     border: 1px solid red;
     left: 650px;
     top: 603px;
 }
-}
+
 
 .copyright {
 text-align: center;
