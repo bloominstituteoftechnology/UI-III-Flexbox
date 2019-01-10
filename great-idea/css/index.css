@@ -1,95 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-main {
-	width: 876px;
-	margin: 0 auto;
-}
-
-/* Navigation */
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 25px;
-}
-
-nav a {
-	color: gray;
-	font-size: 14px;
-	text-decoration: none;
-}
-
 /* Header */
-header {
-	display: flex;
-	border-bottom: 1px solid black;
-}
-
 #index header {
 	justify-content: space-between;
 	padding: 65px 0 75px;
@@ -121,19 +32,6 @@ header {
 	align-self: flex-end;
 }
 
-#services header {
-	flex-direction: column;
-	padding: 25px 0;
-}
-
-#services header section {
-	margin-top: 30px;
-}
-
-#services header h1 {
-	font-size: 25px;
-}
-
 /* Content Sections */
 #index .content {
 	margin: 40px 0;
@@ -156,57 +54,4 @@ header {
 
 #index .contact p {
 	margin-bottom: 15px;
-}
-
-#services .content-blocks {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 20px 0;
-}
-
-#services .content-blocks section {
-	width: 420px;
-	background: #f4f4f4;
-	border: 1px solid black;
-	padding: 20px;
-	margin: 20px 0;
-}
-
-#services .content-blocks .learn {
-	color: black;
-	text-decoration: none;
-	font-size: 12px;
-	padding: 10px 40px;
-	background: white;
-	border: 1px solid black;
-	border-radius: 5px;
-	margin-top: 20px;
-	cursor: pointer;
-}
-
-#services .facts {
-	display: flex;
-	border-top: 1px solid black;
-	padding-top: 40px;
-}
-
-#services .facts-left {
-	margin-right: 20px;
-}
-
-#services .facts ul {
-	list-style-type: square;
-	margin: 20px 0 0 20px;
-}
-
-#services .facts ul li {
-	margin-top: 10px;
-}
-
-/* Footer */
-footer {
-	font-size: 14px;
-	text-align: center;
-	margin: 20px 0 100px 0;
 }
