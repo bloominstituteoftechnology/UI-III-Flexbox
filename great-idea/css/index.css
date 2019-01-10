@@ -106,6 +106,7 @@ h1{
 	font-size: 75px;
 	text-align: center;
 	font-weight: 200;
+	margin-bottom: 0;
 }
 
 h2{
@@ -113,11 +114,13 @@ h2{
 	font-weight: 200;
 }
 
-.headline p{
+.headline a{
 	display: flex;
+	text-decoration: none;
 	width: 150px;
 	height: 30px;
 	background: white;
+	color: black;
 	border: 1px solid black;
 	justify-content: center;
 	align-items: center;
@@ -186,12 +189,12 @@ footer{
 }
 
 .services-details{
-	height:820px;
+	height:830px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 	align-content: space-between;
-	margin: 20px;
+	margin: 20px 20px 0;
 	padding: 40px 0;
 	border-top: 1px solid black;
 }
@@ -207,8 +210,10 @@ footer{
 	background: #F8F8F8;
 }
 
-.learn-button{
+.services-details section a{
 	display: flex;
+	text-decoration: none;
+	color: black;
 	height: 30px;
 	width: 140px;
 	border: 1px solid black;
@@ -220,7 +225,7 @@ footer{
 
 .services-facts{
 	border-top: 2px solid black;
-	margin: 20px;
+	margin: 0 20px;
 	padding: 40px 0;
 	display: flex;
 	justify-content: space-between;
