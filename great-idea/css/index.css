@@ -151,3 +151,11 @@ h1, h2, h3, h4, h5 {
 ul  {
 	list-style: square inside;
   }
+  .sub {
+	width: 400px;
+	height: 170px;
+	background: white;
+	border: 1px;
+	font-size: 15px;
+	color: black;
+	margin: 10px;
