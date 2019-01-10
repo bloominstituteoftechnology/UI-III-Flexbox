@@ -64,3 +64,174 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+header{
+	display: flex;
+	justify-content: center;
+	align-content: stretch;
+	align-content: space-between;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.navigation a{
+	display: inline-block;
+	border-radius: 10px;
+	margin: 0 20px;
+	padding: 10px;
+	border: 1px solid black;
+	text-align: center;
+	
+}
+
+.logo{
+	display: inline-block;
+	padding-bottom: 15px;
+	margin-left: 750px;
+	margin-top: -70px;
+	width: 180px;
+	
+}
+
+button {
+letter-spacing: 1px;
+font-size: 20px;
+background: white;
+color: black;
+	
+}
+
+.top-content{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+
+}
+
+.top-content div{
+	display: inline-block;
+	width:40%;
+	padding-bottom: 50px;
+	
+}
+
+h1{
+	font-size: 125px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: flex-start
+	
+	
+
+}
+
+.innovation-section{
+	display: flex;
+	justify-content: center;
+	height: 450px;
+	margin-top: 0px;
+	margin: 25px 0;
+	border-bottom: 1px solid black;
+}
+.circle-img{
+	display: block;
+	
+	height: 427px;
+	width: 427px;
+	margin-left: 25%;
+	margin-bottom: 30%;
+}
+
+.middle-img{
+	display: block;
+	margin: 0px;
+	width: 100%;
+	align-content: center;
+}
+
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-content div{
+	
+	display: flex;
+	justify-content: space-around;
+}
+
+footer .address{
+	display: flex;
+	justify-content: flex-start;
+}
+
+footer .copyright{
+	display: flex;
+	justify-content: center
+	 
+}
+
+
+
+
+bold{
+	font-weight: bold;
+	
+}
+
+/* from here down is my services css*/
+
+.services-services{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services-info-img {
+	justify-content: flex-start;
+}
