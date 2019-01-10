@@ -273,6 +273,41 @@ footer {
 	align-items: flex-start;
 }
 
+.service-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.service-footer div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 48%;
+}
+
+.service-footer div p {
+	margin-bottom: 30px;
+}
+
+.footer-list ul {
+	width: 100%;
+	box-sizing: content-box;
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+.footer-list li {
+	margin-bottom: 20px;
+}
+
+.services-info-img {
+	width: 100%;
+}
+
 .contact {
 	display: flex;
 	flex-direction: column;
@@ -293,4 +328,9 @@ footer {
 .copyright {
 	align-self: center;
 	margin-bottom: 100px;
+}
+
+.service-copyright {
+	align-self: center;
+	margin: 100px 0 20px;
 }
