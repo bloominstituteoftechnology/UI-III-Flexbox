@@ -113,7 +113,7 @@ header .logo {
 .cta .cta-text {
 	display: flex;
 	flex-direction: column;
-	border-bottom: 1px solid blue;
+	border-bottom: 1px solid black;
 	margin: 25px 0px 25px 0px;
 	padding-bottom: 30px;
 }
@@ -155,17 +155,28 @@ button {
 .footer-content	{
 	border-top: 1px solid black;
 	padding-top: 25px;
-	display: flex;
-	flex-direction: column;
+	padding-bottom: 50px;
+	display: inline-flex;
+	/* flex-direction: column; */
+	flex-wrap: wrap;
 }
 
 .footer-content section {
-
+	display: inline-flex;
+	/* border: 1px solid red; */
+	flex-direction: column;
+	width: 50%;
 }
 
-.footer-content section img {
-	display: inline-flex;
+.footer-content img {
+	/* display: flex; */
 	justify-content: right;
+	padding: 0px 0px 15px 15px; 
+}
+
+.footer-content div{
+	/* width: 100px; */
+	/* border: 1px solid blue; */
 }
 
 .copyright {
