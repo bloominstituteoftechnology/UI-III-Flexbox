@@ -132,8 +132,13 @@ header .logo {
 
 
 .services-info-img {
-	display: flex;
-	flex-direction: flex-end;
+	position: absolute;
+    width: 350px;
+    height: 250px;
+    border: 1px solid red;
+    left: 650px;
+    top: 603px;
+}
 }
 
 .copyright {
