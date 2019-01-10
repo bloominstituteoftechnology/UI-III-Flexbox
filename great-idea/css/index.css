@@ -308,27 +308,38 @@ h1, h2, h3, h4, h5 {
 	}
 	
 
-/* MEDIA QUERIES */
-
 @media screen and (max-width: 600px) {
 
-	.services-main {
-		display: flex; 
-		border-bottom: 1px solid black;
-		height: 1200px;
-		margin-top: 25px;
-		padding-bottom: 25px;
-		flex-flow: column wrap;
-		justify-content: even;
-	}
+		.services-main {
+			display: flex; 
+			border-bottom: 1px solid black;
+			height: 1200px;
+			margin-top: 25px;
+			padding-bottom: 25px;
+			flex-flow: column wrap;
+			justify-content: space-evenly;
+		}
+		
+		.service-facts {
+			display: flex;
+			flex-direction: column-reverse;
+			justify-content; space-evenly;
+		}
 	
-	.about-main {
-		display: flex;
-		height: 2750px;
-		margin-top: 25px;
-		padding-bottom: 10px;
-		flex-flow: column wrap;
-		justify-content: space-evenly;
-	}
+		.services-info-img {
+			width: 50%;
+			height: auto;
+			margin-bottom: 10px;
+		}
 	
-	}
+	
+		.about-main {
+			display: flex;
+			height: 2750px;
+			margin-top: 25px;
+			padding-bottom: 10px;
+			flex-flow: column wrap;
+			justify-content: space-evenly;
+		}
+		
+		}
