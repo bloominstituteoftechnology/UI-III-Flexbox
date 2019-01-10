@@ -117,15 +117,29 @@ nav a {
 	padding: 5px 25px;
 }
 
+.about-splash-div {
+	display: flex;
+}
+
 .services-splash {
 	margin-top: 30px;
 	padding-bottom: 30px;
 	border-bottom: 1px solid black;
-
 }
 
 .services h2 {
 	font-size: 25px;
+}
+
+.about-splash {
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 .main-content-services {
@@ -156,9 +170,30 @@ nav a {
 	font-size: 11px;
 }
 
-.main-content {
-	border-top: 1px solid black;
+.main-content-about {
+	margin: 20px -10px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	border-bottom: 1px solid black;
+}
+
+.about-item {
+	border: 2px solid gray;
+	background: rgb(240, 240, 240);
+	padding: 15px;
+	margin: 10px 10px;
+	flex-grow: 1;
+}
+
+.about-item p {
+	padding: 5px 0;
+}
+
+.about-item img {
+	display: flex;
+	flex-shrink: 1;
 }
 
 .facts {
