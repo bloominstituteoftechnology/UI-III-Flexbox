@@ -85,6 +85,7 @@ nav{
 	flex-wrap: wrap;
 	justify-content: center;
 	justify-content: space-evenly;
+	align-items: center;
 	margin-top: 50px;
 }
 
