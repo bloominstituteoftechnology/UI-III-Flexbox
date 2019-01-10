@@ -112,7 +112,7 @@ button:hover {
 	animation-fill-mode: forwards;
 }
 
-header nav a {
+.anchor {
 	color: white;
 	margin-right: 38px;
 	text-decoration: none;
