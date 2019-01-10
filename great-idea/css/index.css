@@ -133,26 +133,26 @@ h2 {
 	font-size: 20px;
 	font-weight: bold;
 }
-.main-content-top {
+ .main-content-top {
+	/* border: 3px solid magenta; */
 	display: flex;
 	justify-content: space-between;
-}
+	
+} 
 
 .features, .about {
-	width: 350px;
-	margin: 20px 0 40px 55px;
+	width: 400px;
+	margin: 20px 0 40px 0;
 }
 .main-content-bottom {
+	/* border: 3px solid magenta; */
 	display: flex;
 	justify-content: space-between;
 }
 
 .services, .product, .vision {
-	width:220px;
-	margin: 20px 0 40px 50px;
-}
-p {
-	font-family: 'Titillium Web', sans-serif;
+	width:250px;
+	margin: 20px 0 40px 0;
 }
 
 .main-content-bottom {
