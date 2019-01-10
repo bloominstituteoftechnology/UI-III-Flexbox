@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
+	border: 2px solid black;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -75,32 +76,38 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
+	border: 2px solid black;
 	display: flex;
 	justify-content: space-around;
 }
 
 nav {
+	border: 2px solid black;
 	display: flex;
 	width: 60%;
 	justify-content: space-between;
 }
 
 nav a {
+	border: 2px solid black;
 	display: flex;
 	color: gray;
 	text-decoration: none;
 }
 
 .logo {
+	border: 2px solid black;
 	display: flex;
 }
 
 section {
+	border: 2px solid black;
 	display: flex;
 	justify-content: center;
 }
 
 .cta {
+	border: 2px solid black;
 	display: flex;
 	justify-content: space-around;
 	border-bottom: 1px solid black;
@@ -109,6 +116,7 @@ section {
 }
 
 .cta-text {
+	border: 2px solid black;
 	display: flex;
 	font-size: 60px;
 	text-align: center;
@@ -117,11 +125,13 @@ section {
 }
 
 button {
+	border: 2px solid black;
 	width: 55%;
 	align-self: center;
 }
 
 .main-content {
+	border: 2px solid black;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -130,17 +140,20 @@ button {
 }
 
 .top-content {
+	border: 2px solid black;
 	display: flex;
 	width: 75%;
 	align-self: center;
 }
 
 .top-content .text-content {
+	border: 2px solid black;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .middle-img {
+	border: 2px solid black;
 	display: flex;
 	width: 75%;
 	align-self: center;
@@ -149,17 +162,20 @@ button {
 }
 
 .bottom-content {
+	border: 2px solid black;
 	display: flex;
 	justify-content: center;
 }
 
 .bottom-content .text-content {
+	border: 2px solid black;
 	display: flex;
 	width: 25%;
 	flex-wrap: wrap;
 }
 
 .contact {
+	border: 2px solid black;
 	display: flex;
 	justify-content: left;
 	padding-top: 20px;
@@ -167,6 +183,7 @@ button {
 }
 
 footer {
+	border: 2px solid black;
 	justify-content: center;
 	text-align: center;
 	padding-top: 50px;
