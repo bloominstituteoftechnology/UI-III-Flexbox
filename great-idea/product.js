@@ -6,7 +6,7 @@
 
 
 window.onload = function() {
-    init();
+    initForReal();
 };
 
 let init = function() {
@@ -25,6 +25,11 @@ let initForReal = function() {
     for (var v of squares) {
         v.addEventListener('click', function(event) {
             let empty = document.getElementsByClassName('blank')[0];
+            let color = event.target.classList.item(1);
+            empty.classList.remove('blank');
+            empty.classList.add(color);
+            event.target.classList.remove(color);
+            event.target.classList.add('blank');
         });
     }
 }
