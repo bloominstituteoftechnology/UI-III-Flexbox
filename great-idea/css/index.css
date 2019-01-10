@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+ article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -54,13 +54,92 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	display: flex;
+	
+	
+}
+.iodfull .circle-image {
+	flex-direction: column;
+	display: inline-block
+}
+a {
+	font-size: 12px;
+	font-family: courier;
+	text-decoration: none;
+	color: grey; 
+	flex-direction: row;
+	margin: 25px;
+	border: 1px solid blue;
+	vertical-align: bottom;
+	flex-direction: row;
+	
+}
+.wholepage {
+	height: 1526px;
+	width: 1024px;
+	margin-left: 250px;
+	border: 1px solid red;
+
+
+}
+
+
+#copyright {
+	text-align: center
+}
+.labels {
+	font-size: 24px;
+	font-family: cursive;
+	border: 2px solid purple;
+	width: 512px;
+}
+.logo {
+	float: right;
+	float:top;
+	margin-right: 100px;
+	border: 2px solid green;
+}
+.circle-image {
+	margin-right: 100px;
+	margin-top: 20px;
+	border: 2px solid yellow;
+	width: 512px;
+
+}
+.iod {
+	font-size: 72px;
+	text-decoration: bold;
+}
+.iodfull {
+	margin-top: 150px;
+	border: 2px solid black;
+	width: 512px;
+	
+}
+.about {
+	text-align: right;
+
+}
+
+.aboutfeaures {
+	align-items: baseline;
+	border: 2px solid brown;
+	width: 512px
+}
+
+
+
+
