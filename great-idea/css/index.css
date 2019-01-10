@@ -155,5 +155,58 @@ header nav {
 	text-align: center;
 	font-size: 14px;
 	font-style: bold;}
+
+	.container {
+		display: flex;
+		border: 1px solid red;
+		height: 500px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
 	
+	.text{
+		padding: 15px;
+	}
+	.services-info-img{
+		float:right;
+	}
 	
+	.box {
+		width: 400px;
+    height: 150px;
+    background: lightgray;
+    border: 1px solid black;
+    font-size: 25;
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+    box-sizing: content-box;
+    padding: 10px;
+    float: left;
+	}
+
+	.last-content{
+		display: flex;
+    flex-direction: column-reverse;
+    padding-right: 139px;
+    padding-left: 500px;
+    padding-top: 5px;
+	}
+	
+	.par{
+
+    flex-flow: column;
+    display: flex;
+    flex-direction: reverse;
+    font-size: 12px;
+    padding-right: 400p;
+    text-align: -webkit-lef;
+    text-align: left;
+	}
+
+	.foot{
+		text-align: center;
+	}
