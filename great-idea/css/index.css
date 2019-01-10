@@ -150,6 +150,8 @@ h1, h2, h3, h4, h5 {
 }
 ul  {
 	list-style: square inside;
+	margin: 15px 0px;
+
   }
   .sub {
 	width: 400px;
