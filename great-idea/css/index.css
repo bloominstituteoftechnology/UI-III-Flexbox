@@ -132,7 +132,7 @@ h5 {
 /* services.html */
 
 .services-container {
-	width: 900px;
+	width: 950px;
 	margin: 0 auto;
 	border: 1px solid red;
 }
@@ -148,5 +148,16 @@ h2 {
 }
 
 .services-section {
-	
+	/* fill in border later */
+}
+
+.flexbox {
+	border: 1px solid;
+    /* width: 422px;
+    height: 255px; */
+    background-color: lightgrey;
+}
+
+.flexbox section {
+	border: 1px solid black;
 }
