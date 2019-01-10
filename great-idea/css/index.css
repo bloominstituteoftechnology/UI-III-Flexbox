@@ -228,3 +228,90 @@ font-size: 55px;
 	width: 880px;
 	padding-left: 425px;
 }
+
+/* Services */
+.container-css{
+	width: 880px;
+	margin: 0 auto
+}
+.header-css{
+    display: flex;
+    align-content: space-between;
+    margin: 25px;
+}
+.header-css nav{
+    color: grey;
+}
+.mainpicture{
+	margin: 31px;
+}
+.zero h1{
+	font-size: 24px;
+	font-style: bold;
+}
+.zero{
+	border-bottom: 1px solid black;
+	padding-bottom: 31px;
+	margin: 31px;
+}
+.one{
+	margin: 31px;
+	border: 1px solid black;
+	background: lightgrey;
+	padding: 25px;
+}
+.two{
+	margin: 31px;
+	border: 1px solid black;
+	background: lightgrey;
+	padding: 25px;
+}
+.three{
+	margin: 31px;
+	border: 1px solid black;
+	background: lightgrey;
+	padding: 25px;
+}
+.four{
+	margin: 31px;
+	border: 1px solid black;
+	background: lightgrey;
+	padding: 25px;
+}
+.five{
+	margin: 31px;
+	border: 1px solid black;
+	background: lightgrey;
+	padding: 25px;
+}
+.six{
+	margin: 31px;
+	border: 1px solid black;
+	background: lightgrey;
+	padding: 25px;
+}
+.seven{
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	padding: 31px;
+}
+.rowone{
+	display: flex;
+	justify-content: space-between;
+}
+.rowtwo{
+	display: flex;
+	justify-content: space-between;
+}
+.rowthree{
+	display: flex;
+	justify-content: space-between;
+}
+ul{
+	list-style-type: disc;
+}
+.footer-css{
+	display: flex;
+	justify-content: center;
+}
