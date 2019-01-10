@@ -64,3 +64,271 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  
+  /* header */
+	
+	header {
+		display: flex;
+	}
+
+  header nav {
+	display: flex;
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+  }
+  
+  header nav a {
+	display: inline-block;
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	display: flex;
+	margin-top: 25px;
+  }
+  
+  /* cta */
+	
+	.cta {
+		display: flex;
+	}
+	
+  .cta .cta-text {
+	/*	display: inline-block; */
+	vertical-align: top;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 75px;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .cta img {
+	/* display: inline-block; */
+	margin-top: 69px;
+  }
+	
+	
+	/* main content */
+
+  .main-content {
+		border-top: 1px solid black;
+		margin-top: 76px;
+		padding-top: 39px;
+  }
+  
+  .main-content .top-content {
+		display: flex;
+		padding: 0 10px;
+  }
+  
+  .main-content .top-content .text-content {
+		width: 410px;
+		/* display: inline-block; */
+		margin-right: 34px;
+  }
+  
+  .main-content .top-content .text-content:last-child {
+		margin-right: 0;
+  }
+  
+  .main-content .middle-img {
+		margin-top: 45px;
+  }
+
+
+  .main-content .bottom-content {
+		display: flex;
+		margin-top: 37px;
+		padding: 0 10px;
+  }
+  
+  .main-content .bottom-content .text-content {
+		width: 275px;
+		/* display: inline-block; */
+		margin-right: 12px;
+  }
+  
+  .main-content .bottom-content .text-content:last-child {
+		margin-right: 0;
+	}
+	
+
+	/* SERVICES PAGE */
+
+	.services-header-img {
+		margin-top: 20px;
+		margin-bottom: 25px;
+	}
+	
+	.services-intro {
+		padding-bottom: 25px;
+		border-bottom: 1px solid black;
+	}
+
+/* SERVICES MAIN */
+
+.services-main {
+	display: flex; 
+	border-bottom: 1px solid black;
+	height: 600px;
+	margin-top: 25px;
+	padding-bottom: 25px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box {
+	width: 420px;
+	height: 175px;
+	background: rgb(241, 241, 241);
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+
+.services-main .box button{
+	margin-top: 20px;
+	width: 80px;
+	height: 17px;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* SERVICE FACTS */
+
+.service-facts {
+	display: flex;
+	border: 1px red;
+	margin-top: 25px;
+}
+
+.service-facts .service-text ul {
+	list-style-type: square;
+}
+
+.service-facts .service-text li {
+	margin: 10px;
+	list-style-position: inside;
+}
+
+
+/* ABOUT US */
+
+.about-header-img {
+	width: 880px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.about-intro {
+	padding-bottom: 25px;
+	border-bottom: 1px solid black;
+}
+
+.about-main {
+	display: flex;
+	height: 1200px;
+	margin-top: 25px;
+	padding-bottom: 25px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.bio {
+	width: 400px;
+	height: 400px;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.about-main .bio button {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	width: 110px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.contact {
+		margin-top: 40px;
+		border-top: 1px solid black;
+		padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+	}
+	
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+
+	.services-main {
+		display: flex; 
+		border-bottom: 1px solid black;
+		height: 1200px;
+		margin-top: 25px;
+		padding-bottom: 25px;
+		flex-flow: column wrap;
+		justify-content: even;
+	}
+	
+	.about-main {
+		display: flex;
+		height: 2750px;
+		margin-top: 25px;
+		padding-bottom: 10px;
+		flex-flow: column wrap;
+		justify-content: space-evenly;
+	}
+	
+	}
