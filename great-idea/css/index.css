@@ -172,11 +172,12 @@ footer p{
 /* ----------- Services Page ---------*/
 .main-service{
 	width: 900px;
-	margin: 0 auto;
+	margin: auto;
 	padding: 24px;
+	border: 1px solid red;
 }
 .contain-service{
-	border: 1px solid red;
+	
 	width:absolute;
 }
 .service-head{
@@ -197,8 +198,9 @@ footer p{
 .service-head img{
 	margin-left: 80px;
 }
-.contain-service .img-class{
+.services-header-img{
 	margin: 20px 0;
+	width: 852px;
 }
 div .title-p{
 	border-bottom: 1px solid black;
@@ -219,28 +221,28 @@ div .title-p{
 	width:400px;
 	border: 1px solid black;
 	padding: 20px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	background: rgb(236, 236, 236);
 } 
 
 .flex h2{
-	font-size: 20px;
+	font-size: 15px;
 
 }
 .flex p{
-	font-size:17px;
+	font-size:10px;
 	margin-bottom:10px;
 }
 .flex button{
 	width:80px;
-	height:30px;
+	height:25px;
 	border-radius:5px;
 }
 
-footer div{
+.foot-service{
 	display:flex;
+	width: 400px;
+}
 
-}
-footer .foot-service{
-	
-}
+
+
