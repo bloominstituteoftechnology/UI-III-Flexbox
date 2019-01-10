@@ -100,28 +100,28 @@ header nav a {
 .innovation {
 	display: flex;
 	width: 880px;
-	padding: 10px;
+	padding: 20px;
 	/*border: 3px solid orange;*/
 }
 
 .innovation h1{
 	display: flex;
 	font-family: "Bangers" cursive;
-	font-size: 75px;
+	font-size: 70px;
 	text-align: center;
 	flex-wrap: wrap;
 	margin: 0 70px 0;
 }
 .innovation .header-image {
-	width: 40%;
-	height: 40%;
+	width: 35%;
+	height: 35%;
 }
 	
 button  {
 	background: white;
 	width: 150px;
 	height: 30px;
-	margin-left: 15px;
+	margin-left: 75px;
 	border: 1px solid black;
 }
 
