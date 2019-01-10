@@ -193,10 +193,11 @@ footer {
 
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+/*-------------------------------------- Services CSS --------------------------------------------*/
 
 .services-page {
   margin: 0 10%;
+  max-width: 100%;
 }
 
 
@@ -319,6 +320,46 @@ ul{
 }
 
 
+/*media queries*/
+
+@media only screen and (min-width: 375px) {
+.services-page{
+  margin: 0 6%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 2px solid dodgerblue; */
+}
+.services-header-img{
+  max-width: 100%;
+}
+
+.services-page nav {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.services-info-img{
+  max-width: 100%;
+}
+
+.facts {
+  display: flex;
+  max-width: 100%;
+  flex-flow: column wrap;
+}
+
+ul{
+  line-height: 1;
+}
+
+}
 
 
 
