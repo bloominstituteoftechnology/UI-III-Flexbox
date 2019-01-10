@@ -55,6 +55,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    margin: 0 20px;
+    line-height: 1.3;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,36 +65,90 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 header nav {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
 }
 
 header nav a {
-  border: 1px solid red;
+  color: #a7a7a7;
+  text-decoration: none;
+  font-weight: 500;
 }
-header img {
-  border: 1px solid red;
+
+.services-header-img {
+  width: 100%;
+}
+
+.services {
+  border-bottom: 1px solid black;
+  margin: 20px 0;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.services h2 {
+  font-size: 30px;
 }
 
 .middle-boxes {
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .content-box {
   border: 1px solid black;
   padding: 20px;
   background: #f4f3f4;
-  margin: 10px;
-  width: 300px;
+  margin: 20px 0;
+  width: 48%;
 }
 
 .learn-more-button {
   border:1px solid black;
   margin-top: 20px;
-  padding: 10px 30px;
+  padding: 10px 40px;
+  border-radius: 5px;
 }
+
+.some-facts {
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  padding-top: 40px;
+}
+
+.some-facts div{
+  width: 48%
+}
+
+ul { 
+  display: block;
+  list-style-type: square;
+  line-height: 1.5;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 20px;
+}
+
+.some-facts img {
+  width: 48%;
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
