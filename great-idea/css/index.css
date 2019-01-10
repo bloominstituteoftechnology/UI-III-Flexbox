@@ -147,17 +147,19 @@ h2 {
 	margin: 20px 0;
 }
 
-.services-section {
-	/* fill in border later */
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
-.flexbox {
-	border: 1px solid;
-    /* width: 422px;
-    height: 255px; */
+.box__content {
+    border: 1px solid;
     background-color: lightgrey;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    width: 450px;
+    margin-top: 4px;
 }
 
-.flexbox section {
-	border: 1px solid black;
-}
