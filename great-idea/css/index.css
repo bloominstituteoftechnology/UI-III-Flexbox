@@ -207,6 +207,7 @@ hr {
 }
 
 /*PRODUCT HTML SPECIFIC CSS*/
+
 .img-radius {
 	width: 100%;
 	border-radius: 5px
@@ -242,3 +243,61 @@ div.product-example-image-container {
 div.product-example-text-container {
 	flex: 43%;
 	max-width: 47.5%;
+}
+
+.card a.button-animation:hover {
+	animation-name: color;
+	animation-duration: 3000ms;
+}
+
+@keyframes color {
+	10% {
+		background-color: red;
+		color: white
+	}
+
+	20% {
+		background-color: white;
+		color: black;
+	}
+
+	30% {
+		background-color: red;
+		color: white
+	}
+
+	40% {
+		background-color: white;
+		color: black;
+	}
+
+	50% {
+		background-color: red;
+		color: white
+	}
+
+	60% {
+		background-color: white;
+		color: black;
+	}
+
+	70% {
+		background-color: red;
+		color: white
+	}
+
+	80% {
+		background-color: white;
+		color: black;
+	}
+
+	90% {
+		background-color: red;
+		color: white
+	}
+
+	100% {
+		background-color: white;
+		color: black;
+	}
+}
