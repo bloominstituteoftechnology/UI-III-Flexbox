@@ -241,6 +241,7 @@ header .logo-2 {
   border-top: 2px solid black;
   padding-top: 30px;
   height: 350px;
+  width: 100%;
 }
 .contact {
   margin-top: 57px;
@@ -264,4 +265,5 @@ footer {
 
 .end {
   display: block;
+  width: 100%;
 }
