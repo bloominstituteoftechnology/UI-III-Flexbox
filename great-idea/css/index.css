@@ -70,11 +70,23 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 }
 
+.container1 {
+	width: 876px;
+	margin: auto;
+}
+
 .nav-bar {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 50px;
+}
+
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	margin-top: 50px;
 }
 
@@ -175,3 +187,68 @@ li {
 	display: flex;
 	justify-content: center;
 }
+
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.tr {
+	width: 45%;
+}
+
+.tl {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	width: 45%
+}
+
+.h1t {
+	text-align: center;
+	font-size: 100px;
+}
+
+.tb {
+	margin: auto;
+	margin-top: 10px;
+	background: white;
+	border: 1px solid black;
+	width: 150px;
+	height: 50px;
+}
+
+.ts {
+	padding: 50px 0;
+	border-top: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.s1 {
+	width: 45%;
+}
+
+.bs {
+	margin-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.s2 {
+	width: 30%
+}
+
+.vbs {
+	margin: 50px 0;
+}
+
+
