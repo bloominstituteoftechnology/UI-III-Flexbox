@@ -65,6 +65,15 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+ul {
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+ul li {
+	padding:10px;
+}
+
 /* Your code starts here! */
 
 /* FIXED HEADER NAV */
@@ -91,7 +100,7 @@ header nav {
 	align-items:center;
 }
 
-a {
+header nav a {
 	font-family: 'Oswald', sans-serif;
 	color:grey;
 	text-decoration:none;
@@ -113,7 +122,7 @@ a:hover {
 	flex-direction:column;
 	margin-top:43px;
 	padding:20px;
-	/* width:100% */
+	width:86%
 	/* width:876px; */
 }
 
@@ -211,6 +220,10 @@ h1 {
 	/* margin-top:20px; */
 }
 
+.services-header-img {
+	width:100%;
+}
+
 .services-top-content h1 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
@@ -245,11 +258,13 @@ div.bottom-copy {
 	flex-wrap:wrap;
 	justify-content:space-between;
 	/* padding:20px; */
+	width:100%;
 }
 
 .buttonbox {
 	border: 1px solid black;
-	width: 400px;
+	/* width: 400px; */
+	width:46%;
 	text-align:left;
 	padding:20px;
 	margin:20px;
