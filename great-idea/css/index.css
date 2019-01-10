@@ -86,13 +86,14 @@ nav a {
 	text-decoration: none;	 
 }
 
-.logo {
-	 
+.logo-link {
+	 margin: 0;
 }
 
 header {
 	display: flex;
-	 
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
 }
 
 header h1 {
@@ -117,6 +118,7 @@ header button {
 }
 
 .header-img {
+	padding-bottom: 30px;
 	width: 400px;
 }
 
@@ -135,12 +137,11 @@ header button {
 	justify-content: space-evenly;
 	align-items: flex-start;
 	padding: 10px;
-	border-bottom: 1px solid black;
 }
 
 .content.services {
 	flex-wrap: wrap;
-	margin: 20px;
+	margin: 20px 0;
 }
 
 .description {
@@ -156,8 +157,7 @@ header button {
 	width: 350px;
 	margin: 20px 5px;
 	background-color: lightgray;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border: 1px solid black;
 }
 
 button {
@@ -172,17 +172,22 @@ button {
 }
 
 .content-block ul {
-	margin: 10px;
+	margin-top: 10px;
+	list-style-position: inside;
 }
 
 .content-block li {
-	margin: 10px;
+	margin: 10px 0;
 	list-style-type: disc;
 }
 
 address {
 	margin: 10px;
-	 
+	border-top: 1px solid black;
+}
+
+address h2 {
+	margin-top: 20px;
 }
 
 footer p {
