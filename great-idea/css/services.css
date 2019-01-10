@@ -80,7 +80,6 @@
 
 @media screen and (max-width: 433px) {
 	.navigation .logo-anchor {
-		display: flex;
 		align-self: center;
 	}
 }
