@@ -71,10 +71,10 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
-header{
+.home{
   display: flex;
   justify-content: space-between;
-  vertical-align: top;
+  align-items: center;
   margin-top: 35px;
 }
 
@@ -98,7 +98,6 @@ header nav a:last-child {
 }
 
 header .logo {
-  display: inline-block;
   margin-top: 25px;
 }
 
@@ -112,6 +111,10 @@ header .logo {
   font-size: 77px;
   text-align: center;
   padding: 0px 75px;
+}
+
+.cta-text{
+  margin-top: 15%;
 }
 
 .cta-text button {
