@@ -82,9 +82,8 @@ body {
 .navigation nav {
 	margin-top: 45px;
 	display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  width: 85%;
+  flex-basis: 85%;
 }
 
 .navigation nav a {
@@ -104,8 +103,7 @@ body {
 
 .navigation img {
 	margin-top: 30px;
-	max-width: 100%;
-	/* margin-right: 75px; */
+	margin-left: 15px;
 }
 
 .margin-auto {
