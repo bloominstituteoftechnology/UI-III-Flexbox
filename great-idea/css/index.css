@@ -73,29 +73,24 @@ h1, h2, h3, h4, h5 {
 
 header {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	align-items: baseline;
 }
 
 header nav {
 	display: flex;
-	
+	flex-direction: row;
   width: 691px;
   vertical-align: top;
 	margin-top: 35px;
 }
 
-header nav a {
-	display: flex;
-	flex-direction: row;
+header nav a {;
 	justify-content: space-evenly;
   margin-right: 65px;
   font-size: 14px;
   color: gray;
 	text-decoration: none;
-}
-
-header nav img {
-	display: flex;
 }
 
 header nav a:hover {
@@ -150,7 +145,7 @@ header .logo {
 }
 
 .main-content {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
@@ -195,7 +190,7 @@ header .logo {
 
 .contact {
   margin-top: 57px;
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   padding: 39px 10px 0;
 }
 
@@ -276,9 +271,10 @@ footer {
 }
 
 li {
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	margin-bottom: 10px;
 	list-style: square;
+	list-style-position: inside;
 }
 
 
