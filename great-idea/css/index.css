@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5 {
 }
 .iodfull .circle-image {
 	flex-direction: column;
-	display: inline-block
+	
 }
 a {
 	font-size: 12px;
