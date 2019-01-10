@@ -68,8 +68,6 @@ h1, h2, h3, h4, h5 {
 body {
 	margin: 0 auto;
 	width: 1024px;
-	/* display:flex;
-	flex-direction: column; */
 }
 
 header {
@@ -77,68 +75,44 @@ header {
 	display: flex;
 	justify-content: space-between;
 	background-color: rgb(241, 241, 241);
-	border-bottom: 1px solid grey;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 nav {
 	display: flex;
 	justify-content: space-evenly;
 	width: 100%;
+	flex-wrap: wrap;
 }
 
 nav a {
 	color:grey;
 	text-decoration: none;
-	padding: 30px;
+	padding: 1.5em;
 	text-align: center;
-}
-
-nav a:hover {
-	animation-duration: 0.75s;
-	animation-name: bounceIn;
-}
-
-@keyframes bounceIn {
-	from,
-	20%,
-	40%,
-	60%,
-	80%,
-	to {
-	  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-	}
-  
-	0% {
-	  opacity: 0;
-	  transform: scale3d(0.3, 0.3, 0.3);
-	}
-  
-	20% {
-	  transform: scale3d(1.1, 1.1, 1.1);
-	}
-  
-	40% {
-	  transform: scale3d(0.9, 0.9, 0.9);
-	}
-  
-	60% {
-	  opacity: 1;
-	  transform: scale3d(1.03, 1.03, 1.03);
-	}
-  
-	80% {
-	  transform: scale3d(0.97, 0.97, 0.97);
-	}
-  
-	to {
-	  opacity: 1;
-	  transform: scale3d(1, 1, 1);
-	}
 }
 
 .logo {
 	align-self: center;
+}
+
+nav a:hover {
+	animation-duration: 0.5s;
+	animation-name: pulse;
+}
+
+@keyframes pulse {
+	from {
+		transform: scale3d(1, 1, 1);
+	}
+	
+	50% {
+		transform: scale3d(1.2, 1.2, 1.2);
+	}
+	
+	to {
+		transform: scale3d(1, 1, 1);
+	}
 }
 
 .services-header-img {
@@ -214,8 +188,8 @@ section.section100 h1 {
 .services-offer {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
-	align-content: space-around;
+	justify-content: space-between;	
+	/* align-content: space-around; */
 	padding: 20px 0;
 	border-top: 1px solid black;
 	border-bottom: 2px solid black;
@@ -252,7 +226,6 @@ section.section50 ul {
 }
 
 .learn-more-style {
-	/* Learn More button */
 	border: 1px solid black;
 	border-radius: 5px;
 	background-color: white;
@@ -261,4 +234,173 @@ section.section50 ul {
 	font-size: 15px;
 	text-align: center;
 	margin-top: 10px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+	
+	body {
+		margin: auto;
+		width: 95%;
+	}
+
+	header {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column-reverse;
+		background-color: rgb(241, 241, 241);
+		margin: auto;
+		/* border-radius: 10px; */
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+	}
+
+	nav a {
+		color:grey;
+		text-decoration: none;
+		padding: 20px;
+		text-align: center;
+		width: 100%;
+		border-bottom: 1px solid grey;
+	}
+
+	nav a:first-child {
+		border-top: 1px solid grey;
+	}
+
+	.logo {
+		align-self: center;
+		margin: 10px 0;
+	}
+
+	.services-header-img {
+		max-width: 100%;
+	}
+
+	.title-and-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding: 40px 0;
+	} 
+
+	.title {
+		width: 100%;
+		text-align: center;
+	}
+
+	div.title h1 {
+		font-size: 500%;
+	}
+
+	section.section100 h1 {
+		font-size: 30px;
+	}
+
+	.get-started {
+		border: 1px solid black;
+		padding: 10px;
+		width: 200px;
+		margin: auto;
+	}
+
+	.hero-section {
+		display: flex;
+		flex-direction: column;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+
+	.hero-one {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.wide-img img {
+		width: 100%;
+	}
+
+	.section100 {
+		width: 100%;
+		padding: 40px 0;
+	}
+
+	.section50 {
+		width: 100%;
+		padding: 40px 0;
+	}
+
+	.section48{
+		border: 1px solid black;
+		background-color: rgb(241, 241, 241);
+		width: 100%;
+		padding: 20px;
+		margin: 20px 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	.services-offer {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-content: space-around;
+		padding: 20px 0;
+		border-top: 1px solid black;
+		border-bottom: 2px solid black;
+	}
+
+	.section33 {
+		width: 33%;
+		padding: 40px 0;
+	}
+
+	footer {
+		padding: 40px 0;
+	}
+
+	.phone-number {
+		padding: 15px 0;
+	}
+
+	.footer-copyright {
+		text-align: center;
+		padding: 40px 0;
+		font-family: 'Staatliches', sans-serif;
+	}
+
+	.services-info-img {
+		padding: 0;
+		align-self: center;
+		max-width: 100%;
+	}
+
+	section.section50 ul {
+		padding: 20px 0;
+		line-height: 2;
+		list-style-type: square;
+		margin-left: 1em;
+	}
+
+	.learn-more-style {
+		border: 1px solid black;
+		border-radius: 5px;
+		background-color: white;
+		padding: 10px;
+		width: 150px;
+		font-size: 15px;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	* {
+		color: red;
+	}
 }
