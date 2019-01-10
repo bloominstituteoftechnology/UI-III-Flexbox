@@ -84,9 +84,9 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 100px;
+	height: 80px;
 	width: 100%;
-	padding: 10px 0px;
+	margin-top: 10px;
 }
 
 nav {
@@ -114,7 +114,11 @@ nav a {
 	width: 25%;
 }
 
-.logo-container img {
+.logo-container a img {
+	width: 100%;
+}
+
+.logo-container a {
 	width: 80%;
 }
 
@@ -155,6 +159,9 @@ nav a {
 	align-items: center;
 	justify-content: center;
 }
+.services-container .title-img, .services-container .title-img img {
+	width: 100%;
+}
 
 .line-break {
 	width: 100%;
@@ -192,6 +199,31 @@ main {
 
 .middle-img {
 	width: 100%;
+}
+
+.services-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	padding: 0 0 20px;
+	margin-bottom: 20px;
+}
+
+.services-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.page-title {
+	font-size: 28px;
+	font-family: "Bangers", cursive;
+	margin: 20px 0;
 }
 
 /* Footer */
