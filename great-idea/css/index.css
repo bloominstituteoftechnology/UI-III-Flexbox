@@ -155,7 +155,7 @@ h5 {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 0 -15px;
+  margin: 0 -15px;
 }
 
 .col-6 {
