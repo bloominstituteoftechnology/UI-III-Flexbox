@@ -169,6 +169,47 @@ h1, h2, h3, h4, h5 {
 
 }
 
+#services-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-footer-containter-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-footer-containter-bottom {
+
+}
+
+.services-footer-section-some-facts {
+
+}
+
+.footer-unordered-list {
+
+}
+
+.services-info-img-container {
+
+}
+
+.services-info-img {
+
+}
+
+.services-copyright-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 60px 0px;
+}
+
+.services-copyright {
+
+}
+
 
 
 
