@@ -134,7 +134,7 @@ header button {
 
 .content {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: flex-start;
 	padding: 10px;
 }
@@ -150,12 +150,12 @@ header button {
 
 .content-block {
 	padding: 20px;
-	 
+	
 }
 
 .services-block {
-	width: 350px;
-	margin: 20px 5px;
+	width: 45%;
+	margin: 1.2rem 0.3rem;
 	background-color: lightgray;
 	border: 1px solid black;
 }
