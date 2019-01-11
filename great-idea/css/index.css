@@ -81,7 +81,6 @@ header {
 }
 header nav {
 	display: flex;
-	/* justify-content: space-between; */
 	margin: 20px 120px 25px 0px;
 	/*border: 2px dashed green;*/
 }
@@ -96,6 +95,7 @@ header nav a {
 
 header nav a:hover {
 	color: red;
+	font-weight: bold;
 	cursor: pointer;
 }
 
@@ -135,6 +135,7 @@ header nav a:hover {
 }
 .innovation button:hover {
 	color: red;
+	font-weight: bold;
 	cursor: pointer;
 }
 
@@ -209,6 +210,7 @@ address {
 
 .svc-main-content button:hover {
 	color: red;
+	font-weight: bold;
 	cursor: pointer;
 }
 
