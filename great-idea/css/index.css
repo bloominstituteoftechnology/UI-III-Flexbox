@@ -34,6 +34,11 @@
 	font-size: 14px;
 }
 
+.cta img {
+	width: 379px;
+	border-radius: 50%;
+}
+
 .info {
 	margin-top: 40px;
 	border-bottom: 1px solid black;
@@ -71,5 +76,9 @@
 @media screen and (max-width: 433px) {
 	.cta {
 		flex-direction: column-reverse;
+	}
+
+	.cta img {
+		max-width: 100%;
 	}
 }
