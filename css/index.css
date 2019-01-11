@@ -98,10 +98,11 @@ header .logo {
 }
 
 .middle-content {
-	border: 5px solid red;
+	border-bottom: 5px solid black;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
+	align-items: center;
 	width: 95vw;
 	margin: 0 auto;
 }
@@ -109,46 +110,46 @@ header .logo {
 
 .middle-content .box1 {
 	border: 1px solid red;
-	width: 300px;
+	width: 400px;
 	height: 200px;
-	margin: 20px;
+	margin: 20px 20px 20px 100px;
 }
 
 .middle-content .box2 {
 	border: 1px solid red;
-	width: 300px;
+	width: 400px;
 	height: 200px;
-	margin: 20px;
+	margin: 20px 20px 20px 100px;
 }
 
 .middle-content .box3 {
 	border: 1px solid red;
-	width: 300px;
+	width: 400px;
 	height: 200px;
-	margin: 20px;
+	margin: 20px 20px 20px 100px;;
 }
 
 
 .middle-content .box4 {
 	border: 1px solid red;
-	width: 300px;
+	width: 400px;
 	height: 200px;
-	margin: 20px;
+	margin: 20px 20px 20px 100px;
 }
 
 .middle-content .box5 {
 	border: 1px solid red;
-	width: 300px;
+	width: 400px;
 	height: 200px;
-	margin: 20px;
+	margin: 20px 20px 20px 100px;
 	
 }
 
 .middle-content .box6 {
 	border: 1px solid red;
-	width: 300px;
+	width: 400px;
 	height: 200px;
-	margin: 20px;
+	margin: 20px 20px 20px 100px;
 }
 
 
@@ -169,12 +170,11 @@ text-align: center;
 
 .facts {
 	border-top: 3px solid black;
-	margin-top: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-top: 25px;
 	border: 1px solid red;
     width: 600px;
-    height: 300px;
+	height: 300px;
+	padding: 30px;
 }
 
 .facts h2 {
