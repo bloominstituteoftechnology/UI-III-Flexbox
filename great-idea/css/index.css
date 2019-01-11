@@ -66,44 +66,73 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
+	display: flex;
+	flex-direction: column;
 	width: 880px;
 	margin: auto;
 }
 
 .container1 {
+	display: flex;
+	flex-direction: column;
 	width: 876px;
 	margin: auto;
 }
 
-.nav-bar {
+.nav-bar1 {
 	display: flex;
+	align-items: center;
 	flex-direction: row;
+	position: fixed;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 50px;
+	width: 876px;
+	background: rgba(255, 255, 255, 0.75);
+	padding:10px 10px;
+}
+
+.nav-bar {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+	width: 880px;
+	background: rgba(255, 255, 255, 0.75);
+	padding:10px 10px;
+}
+
+.logo {
+	display: flex;
 }
 
 .top {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 50px;
+	padding-top: 100px;
+}
+
+nav {
+	display: flex;
+	width: 80%;
 }
 
 a {
+	display: flex;
+	flex-direction: row;
 	text-decoration: none;
-	color: lightgray;
-	margin-right: 60px;
-}
-
-.logo {
+	align-content: center;
+	color: black;
+	padding: 10px 40px 10px 0;
 }
 
 .header {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 50px 0 50px 0;
+	margin: 100px 0 50px 0;
 	padding-bottom: 50px;
 	border-bottom: 1px solid black;
 	height: 400px;
