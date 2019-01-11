@@ -93,6 +93,12 @@ header nav a {
 	font-size: 14px;
 	color: gray;
 }
+
+header nav a:hover {
+	color: red;
+	cursor: pointer;
+}
+
 .logo {
 	width: 160px;
 	height: 35px;
@@ -126,6 +132,10 @@ header nav a {
 	height: 30px;
 	margin-left: 75px;
 	border: 1px solid black;
+}
+.innovation button:hover {
+	color: red;
+	cursor: pointer;
 }
 
 .main-content-top {
@@ -195,6 +205,11 @@ address {
 	height: 30px;
 	border: 1px solid black;
 	border-radius: 5px;
+}
+
+.svc-main-content button:hover {
+	color: red;
+	cursor: pointer;
 }
 
 .design, .uxui, .marketing, .webdev, .ios, .android {
