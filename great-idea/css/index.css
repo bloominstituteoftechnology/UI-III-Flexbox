@@ -76,14 +76,17 @@ h1, h2, h3, h4, h5 {
 
 .fixedNav nav{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-content: center ;
 	flex-wrap: wrap;
+	height:75px;
+	/* position:fixed;  */
 }
 
 a{
 	text-decoration:none;
 	align-self: center;
+	color: lightgrey;
 }
 
 
@@ -92,6 +95,8 @@ a{
 /* Section 1 container */
 .innovation{
 	display: flex;
+	justify-content: space-between;
+	align-content: center;
 	border-bottom: 1px solid black;
 	flex-wrap: wrap;
 	padding: 25px;
@@ -109,8 +114,9 @@ a{
 }
 
 .UI button {
-	width:25%;
+	width:150px;
 	margin:15px auto;
+	background: white;
 }
 
 /*Section 2 styling of Innovations page  */
@@ -129,13 +135,15 @@ a{
 /* Dividing image */
 
 /* Section 3 inoovations page */
-.section-3{
+
+ .section-3{
 	display: flex;
-	/* justify-content: space-evenly; */
-	padding:25px;
+	justify-content: space-between; 
+	margin-top: 25px; 
+	padding-bottom:25px;
 	border-bottom: 1px solid black;
 
-}
+} 
 
 .section-3 div{
 	width: 32%;
@@ -144,32 +152,13 @@ a{
 /* Contact information container styling */
 
 .contact{
-	margin:25px;
+	margin:25px 0;
 }
 
 .contact strong{
-		padding: 15px auto;
+		padding: 15px 0 ;
+		display: inline-block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Services page styling*/
@@ -180,13 +169,15 @@ a{
 .opener{
 	display: flex;
 	flex-direction: column;
-	/* border: 1px solid black; */
 }
 
 .services{
 	padding: 25px 0;
 }
 
+.services h1{
+	font-size:24px;
+}
 /*  */
 .main-container{
 	display: flex;
@@ -203,7 +194,7 @@ a{
 	padding: 25px;
 	margin: 15px 0;
 	border: 1px solid black;
-	background: lightgray;
+	background:rgb(236, 236, 238);
 	
 }
 
