@@ -64,15 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
- 
-/* Services page styling*/
-/* Main body container used to house all elemenets */
- .container{
+/* Universal styling across pages */
+
+.container{
 	display: flex;
 	max-width: 880px;
 	margin: 0 auto;
 	flex-direction: column;
-	/* border: 1px solid black; */
+	/* border: 1px solid black;  */
 } 
 
 .fixedNav nav{
@@ -86,6 +85,96 @@ a{
 	text-decoration:none;
 	align-self: center;
 }
+
+
+/* Styling of the inovations page */
+
+/* Section 1 container */
+.innovation{
+	display: flex;
+	border-bottom: 1px solid black;
+	flex-wrap: wrap;
+	padding: 25px;
+}
+
+.UI{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	width: 48%;
+	padding: 25px;
+	font-size: 72px;
+	order:1;
+}
+
+.UI button {
+	width:25%;
+	margin:15px auto;
+}
+
+/*Section 2 styling of Innovations page  */
+
+.section-2{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 0;
+	
+}
+
+.section-2 div{
+	width:46%;
+}
+
+/* Dividing image */
+
+/* Section 3 inoovations page */
+.section-3{
+	display: flex;
+	/* justify-content: space-evenly; */
+	padding:25px;
+	border-bottom: 1px solid black;
+
+}
+
+.section-3 div{
+	width: 32%;
+}
+
+/* Contact information container styling */
+
+.contact{
+	margin:25px;
+}
+
+.contact strong{
+		padding: 15px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Services page styling*/
+/* Main body container used to house all elemenets */
+
 
 /* parent  of first section*/
 .opener{
