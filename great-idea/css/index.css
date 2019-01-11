@@ -136,22 +136,20 @@ header nav a:hover {
 
 /* MAIN BODY CONTENT */
 .container {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	display:flex;
 	flex-direction:column;
-	/* margin-top:43px;
-	margin-bottom:43px; */
 	margin:43px;
-	/* padding:20px; */
-	/* width:86% */
 	width:876px;
 }
 
 /* INDEX CONTENT */
 .splash {
 	/* border: 3px dashed cyan; */
+	border-bottom:1px solid black;
 	display:flex;
 	justify-content:space-around;
+	padding:20px 0 20px 0;
 }
 
 div .iod {
@@ -161,19 +159,7 @@ div .iod {
 	align-items:center;
 	justify-content:center;
 }
-button {
-	border:1px solid black;
-	font-size:13px;
-	font-family: 'Oswald', sans-serif;
-	color:black;
-	text-decoration:none;
-	padding: 0 25px;
-	
-	animation-name: button;
-	animation-duration: 3s;
-	animation-iteration-count: 2;
-	animation-direction: alternate-reverse;
-}
+
 @keyframes button {
 	0%   {background-color:orange;}
 	25%  {border-color:red;}
@@ -185,16 +171,14 @@ button {
 .top-content, .bottom-content {
 	/* border: 5px double red; */
 	display:flex;
-	justify-content:space-around;
+	justify-content:space-between;
 }
 
 .top-content .features, .top-content .about {
-	border-top:1px solid black;
 	text-align:left;
 	display:flex;
 	flex-direction:column;
-	padding:20px;
-	margin-top:20px;
+	padding-top:20px;
 }
 
 img.middle-img {
@@ -203,15 +187,15 @@ img.middle-img {
 }
 
 .bottom-content .services, .bottom-content .product, .bottom-content .vision {
-	border-bottom:1px solid black;
 	text-align:left;
 	display:flex;
 	flex-direction:column;
-	padding:20px;
+	padding-bottom:20px;
 }
 
 footer {
 	/* border: 5px double red; */
+	border-top:1px solid black;
 	display:flex;
 	flex-direction:column;
 	padding:20px;
@@ -226,12 +210,11 @@ h1 {
 
 /* SERVICES CONTENT */
 .services-top-content {
-	/* border:1px solid black; */
+	/* border:3px solid black; */
 	display:flex;
 	flex-direction:column;
 	text-align:left;
-	padding:20px;
-	/* margin-top:20px; */
+	padding: 20px 0 20px 0;
 }
 
 .services-header-img {
@@ -251,8 +234,7 @@ h1 {
 	flex-direction:row;
 	align-items:top;
 	text-align:left;
-	padding:20px;
-	/* margin-top:20px; */
+	padding: 20px 0 20px 0;
 }
 
 div.bottom-copy {
@@ -261,30 +243,46 @@ div.bottom-copy {
 	flex-direction:column;
 	text-align:left;
 	padding-right:20px;
-	/* margin-top:20px; */
 }
 
 .services-middle-content {
-	border: 3px dashed cyan;
+	/* border: 3px dashed cyan; */
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+
 	display:flex;
 	flex-wrap:wrap;
+
 	justify-content:space-between;
-	margin:20px;
-	/* padding:20px; */
-	/* width:100%; */
+	width:100%;
 }
 
 .buttonbox {
 	border: 1px solid black;
-	/* width: 400px; */
-	/* width:46%; */
+	background:rgb(231, 235, 237);
+	width: 420px;
 	text-align:left;
 	padding:20px;
-	margin:20px;
+	margin:20px 0;
 
 	display:flex;
 	flex-direction:column;
 	align-items:left;
+}
+button {
+	border:1px solid black;
+	font-size:13px;
+	font-family: 'Oswald', sans-serif;
+	color:black;
+	text-decoration:none;
+	padding: 0 25px;
+	
+	animation-name: button;
+	animation-duration: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate-reverse;
+}
+
+.buttonbox button {
+	width:36%;
 }
