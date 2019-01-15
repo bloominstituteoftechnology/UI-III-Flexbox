@@ -94,15 +94,22 @@ button {
 	margin: 40px 50px;
 }
 
-nav {	
+.navigation {
 	display: flex;
 	flex-direction: row;
 	margin: 30px 25px;
 	justify-content: space-evenly;
 }
 
+nav {
+	width: 600px;
+	display: flex;
+	justify-content: space-around;
+}
+
 nav a {
 	align-self: center;
+	
 }
 
 ul {
@@ -148,7 +155,7 @@ bjustify {
 	margin: 20px 0;
 }
 
-.container {
+.container2 {
 	display: flex;
 	width: 880px;
 	justify-content: space-between;
@@ -190,4 +197,52 @@ bjustify {
 	display: flex;
 	justify-content: center;
 	margin: 20px 0;
+}
+
+@media (max-width: 800px) {
+
+	.container {
+		width: 780px;
+	}
+
+	nav {
+		order: 1;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+	}
+
+	.navigation {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.container2 {
+		display: block;
+	}
+
+	.box2 {
+		margin-left: 240px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 480px;
+	}
+
+	nav {
+		justify-content: center;
+	}
+
+	nav a {
+		margin: 0 5px;
+	}
+
+	.box1, .box2 {
+		margin: 5px auto;
+	}
 }
