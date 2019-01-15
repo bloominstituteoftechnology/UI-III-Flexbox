@@ -227,3 +227,22 @@ bjustify {
 		margin-left: 240px;
 	}
 }
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 480px;
+	}
+
+	nav {
+		justify-content: center;
+	}
+
+	nav a {
+		margin: 0 5px;
+	}
+
+	.box1, .box2 {
+		margin: 5px auto;
+	}
+}
