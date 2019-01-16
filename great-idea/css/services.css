@@ -64,99 +64,85 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
 .container {
-	border: 1px solid red;
-	display: flex;
-	align-content: space-between;
-	width: 100%;
-	margin: 10px;
-	
-  }
+  border: 1px solid blue;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 880px;
+}
+
+.main-title {
+  border: 1px solid red;
+  margin-top: 10px;
+}
+
+nav a {
+  margin-top: 20px;
+  padding: 1px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-content: space-between;
+  justify-content: flex-start;
+}
+
+.container .main-title .logo {
+  border: 1px solid blue;
+  margin-top: 10px;
+  padding: 1px;
+}
+
+.services-header-img {
+  border: 1px solid green;
+  margin: 10px;
+  padding: 0 5px 0 0;
+ 
+}
+
+.main {
+  border: 1px solid blue;
+  /*border-bottom: black;*/
+  margin: 10px;
+  padding: 10px 0 30px 0;
+}
+
+.main-top {
+  border: 1px solid green;
+  margin: 10px;
+  padding: 10px 0;
+}
+
+.main-middle {
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px 0;
+}
+
+.main-bottom {
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 10px 0;
+}
+
+.end {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.end .bottom {
+  border: 1px solid green;
+  padding: 10px 0;
+}
+
+.services-info-img {
+  border: 1px solid red;
   
-  .container header .top {
-	display: flex;
-	justify-content:space-between;
-	align-items: flex-end;
-  }
-  
-  .container header nav a {
-	border: 1pt solid blue;
-	color: darkgrey;
-	text-decoration: none;
-	margin: 0 110px 0px 0px;
-	display: flex;
-	justify-content: flex-start;
-  }
-  
-  .container header nav a:hover {
-	background: white;
-	color: grey;
-  }
-  
-  .container header .logo {
-	display: flex;
-	align-items: flex-end;
-	width: 25%;
-	padding: 1px;
-  }
-  
-  .text {
-	display: inline-flex;
-	flex-direction: row;
-	margin: 10px;
-	width: 100%;
-  }
-  
-  .text .title {
-	font-weight: 550;
-	font-size: 60px;
-	width: 250px;
-	margin: 120px 568px 20px 110px;
-	padding: 9px;
-	text-align: center;
-  }
-  
-  .text .button {
-	border: 1px solid black;
-	padding: 1px 20px;
-	text-decoration: none;
-	color: black;
-	margin: 180px;
-  }
-  
-  .text .top-img {
-	 margin: 30px 20px 20px 10px;
-  }
-  
-  .middle {
-	border-top: 1px solid black;
-	display: inline-flex; 
-	flex-direction: row;
-	margin: 10px;
-	padding-top: 30px;
-  }
-   
-  .middle-img {
-	width: 100%;
-	padding: 10px;
-  }
-  
-  .bottom {
-	display: inline-flex;
-	flex-direction: row;
-	margin: 10px;
-  }
-  
-  .contact {
-	border-top: 1px solid black;
-	line-height: 2;
-	margin: 10px;
-	padding-top: 20px;
-  }
-  
-  footer {
-	text-align: center;
-	padding: 20px;
-	margin-bottom: 20%;
-  }
+}
+
+footer {
+  border: 1px solid blue;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
