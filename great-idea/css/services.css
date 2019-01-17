@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
   border: 1px solid blue;
   margin: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 880px;
 }
 
@@ -77,14 +77,20 @@ h1, h2, h3, h4, h5 {
   margin-top: 10px;
 }
 
+header .top {
+	display: flex;
+	justify-content:space-between;
+	align-items: flex-end;
+}
+
 nav a {
   margin-top: 20px;
   padding: 1px;
   text-decoration: none;
   color: black;
   display: flex;
-  align-content: space-between;
-  justify-content: flex-start;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
 
 .container .main-title .logo {
