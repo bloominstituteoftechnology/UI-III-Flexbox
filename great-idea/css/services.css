@@ -65,16 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-  border: 1px solid blue;
   margin: 10px;
-  display: flex;
-  flex-direction: row;
   width: 880px;
 }
 
 .main-title {
-  border: 1px solid red;
-  margin-top: 10px;
+  margin: 10px;
 }
 
 header .top {
@@ -93,40 +89,37 @@ nav a {
 	align-items: flex-start;
 }
 
-.container .main-title .logo {
-  border: 1px solid blue;
+.main-title .logo {
   margin-top: 10px;
   padding: 1px;
 }
 
 .services-header-img {
-  border: 1px solid green;
   margin: 10px;
-  padding: 0 5px 0 0;
- 
+  padding: 10px;
 }
 
 .main {
-  border: 1px solid blue;
-  /*border-bottom: black;*/
   margin: 10px;
-  padding: 10px 0 30px 0;
+  padding: 10px;
 }
 
 .main-top {
-  border: 1px solid green;
   margin: 10px;
-  padding: 10px 0;
+  padding: 10px;
+  display: flex;
+ 	flex-direction: row;
+	margin: 10px; 
 }
 
 .main-middle {
-  border: 1px solid red;
   margin: 10px;
-  padding: 10px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .main-bottom {
-  border: 1px solid blue;
   margin: 10px;
   padding: 10px 0;
 }
