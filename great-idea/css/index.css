@@ -66,40 +66,43 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	border: 5px solid blue);
-	width: 880px;
+  width: 880px;
 	margin: 10px;
   }
-  
-  header .top {
+	
+	.main-title {
+	border: 1px solid red;
+	margin: 10px;
 	display: flex;
-	justify-content:space-between;
-	align-items: flex-end;
-  }
-  
+	
+	
+	}
+
+	.main-title .top {
+		
+	}
+	
   header nav a {
 	color: darkgrey;
 	text-decoration: none;
-	margin: 0 110px 0px 0px;
 	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-  }
+	flex-direction: row;
+	justify-content: space-between;
+	
+	
+	
+	}
   
   header nav a:hover {
 	background: white;
-	color: grey;
+	color: black;
   }
   
   header .logo {
-	display: flex;
-	align-items: flex-end;
-	width: 25%;
-	padding: 1px;
-  }
+	width: 140px;
+	}
   
   .text {
-	border: 1px solid red;	
 	display: flex;
 	flex-direction: row;
 	margin: 10px;
@@ -110,7 +113,7 @@ h1, h2, h3, h4, h5 {
 	font-weight: 550;
 	font-size: 60px;
 	width: 250px;
-	margin: 120px 568px 20px 110px;
+	margin:90px 68px 20px 100px;
 	padding: 9px;
 	text-align: center;
   }
@@ -120,11 +123,11 @@ h1, h2, h3, h4, h5 {
 	padding: 1px 20px;
 	text-decoration: none;
 	color: black;
-	margin: 180px;
+	margin: 170px;
   }
   
   .text .top-img {
-	 margin: 0 100px 10px 20px;
+	 margin: 10px 10px 10px 20px;
   }
   
   .middle {
