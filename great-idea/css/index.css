@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* HOME PAGE */
+ 
 .container {
   width: 880px;
 	margin: 10px;
@@ -153,4 +155,89 @@ footer {
 	text-align: center;
 	padding: 20px;
 	margin-bottom: 20%;
+}
+
+/* SERVICES PAGE */
+ 
+.container {
+  width: 880px;
+  margin: 10px;
+}
+
+.main-title {
+  margin: 10px;
+}
+
+header .top {
+	display: flex;
+	justify-content:space-between;
+	align-items: flex-end;
+}
+
+nav a {
+  margin-top: 20px;
+  padding: 1px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.main-title .logo {
+  margin-top: 10px;
+  padding: 1px;
+}
+
+.services-header-img {
+  margin: 10px;
+  padding: 10px;
+}
+
+.main {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.main-top {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+ 	flex-direction: row;
+	margin: 10px; 
+}
+
+.main-middle {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-bottom {
+  margin: 10px;
+  padding: 10px 0;
+}
+
+.end {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.end .bottom {
+  border: 1px solid green;
+  padding: 10px 0;
+}
+
+.services-info-img {
+  border: 1px solid red;
+  
+}
+
+footer {
+  border: 1px solid blue;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
 }
