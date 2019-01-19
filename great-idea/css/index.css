@@ -68,8 +68,9 @@ h1, h2, h3, h4, h5 {
 /* HOME PAGE */
  
 .container {
+	border: 1px solid red;
   width: 880px;
-	margin: 10px;
+	margin: 23px 40px;
 }
 	
 .main-title {
@@ -79,12 +80,15 @@ h1, h2, h3, h4, h5 {
 .main-title .top {
 	display: flex;
 	flex-direction: row;
-}
-	
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-top: 10px;
+}	
+
 header nav a {
 	color: darkgrey;
 	text-decoration: none;
-	padding: 30px;
+	padding: 10px 50px 0 10px;
 }
   
 header nav a:hover {
@@ -93,7 +97,7 @@ header nav a:hover {
 }
   
 header .logo {
-	width: 170px;
+	width: 180px;
 	padding: 0 0 0 20px;
 }
   
@@ -158,36 +162,6 @@ footer {
 }
 
 /* SERVICES PAGE */
- 
-.container {
-  width: 880px;
-  margin: 10px;
-}
-
-.main-title {
-  margin: 10px;
-}
-
-header .top {
-	display: flex;
-	justify-content:space-between;
-	align-items: flex-end;
-}
-
-nav a {
-  margin-top: 20px;
-  padding: 1px;
-  text-decoration: none;
-  color: black;
-  display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-}
-
-.main-title .logo {
-  margin-top: 10px;
-  padding: 1px;
-}
 
 .services-header-img {
   margin: 10px;
@@ -195,9 +169,13 @@ nav a {
 }
 
 .main {
-  margin: 10px;
-  padding: 10px;
+  margin: 10px 0 0 20px;
+  padding: 0 0 40px;
   border-bottom: 1px solid black;
+}
+
+.main h2 {
+	font-size: 26px;
 }
 
 .main-top {
