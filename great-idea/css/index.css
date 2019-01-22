@@ -69,26 +69,27 @@ h1, h2, h3, h4, h5 {
  
 .container {
 	border: 1px solid red;
-  	width: 880px;
-	margin: 23px 40px;
+  	width: 70%;
+	margin: 40px 40px;
 }
 	
 .main-title {
-	margin: 10px;
+	padding: 0 10px 0 10px;
 }
 
 .main-title .top {
 	display: flex;
 	flex-direction: row;
-	align-items: flex-end;
+	align-items: center;
 	justify-content: space-between;
 	margin-top: 10px;
+	width: 100%;
 }	
 
 header nav a {
 	color: darkgrey;
 	text-decoration: none;
-	padding: 10px 50px 0 10px;
+	padding: 10px 40px 0 10px;
 }
   
 header nav a:hover {
@@ -102,31 +103,49 @@ header .logo {
 }
   
 .text {
+	border: 1px solid red;
 	display: flex;
 	flex-direction: row;
-	margin: 10px;
-	width: 100%;
+	justify-content: space-around;
+	margin: 2%;
+	width: 96%;
 }
   
+.text .title-button {
+	border: 1px solid blue;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2%;
+
+}
+
 .text .title {
+	border: 1px solid red;
 	font-weight: 550;
-	font-size: 60px;
-	width: 250px;
-	margin:90px 68px 20px 100px;
-	padding: 9px;
+	font-size: 230%;
+	width: 92%;
+	margin:10px;
+	padding: 5px;
 	text-align: center;
 }
   
 .text .button {
 	border: 1px solid black;
-	padding: 1px 20px;
+	padding: 2px 1px;
 	text-decoration: none;
+	text-align: center;
 	color: black;
-	margin: 170px;
+	margin: 10px 65px;
+
 }
   
 .text .top-img {
-	margin: 10px 10px 10px 20px;
+	border: 1px solid red;
+	margin: 10px;
+	width: 50%;
+	align-items: flex-start;
 }
   
 .middle {
@@ -213,8 +232,7 @@ footer {
 }
 
 footer {
-  	border: 1px solid blue;
-  	text-align: center;
+   	text-align: center;
   	margin: 10px;
   	padding: 10px;
 }
