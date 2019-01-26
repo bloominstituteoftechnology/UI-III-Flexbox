@@ -67,35 +67,51 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	border: 1px solid red;
-	width: 1200px;
+	width: 800px;
 	margin: auto;
 }
 
 header {
-	border: 5px solid red;
+	/*border: 5px solid red;*/
 
+}
+
+nav {
+	display: flex;
+    justify-content: space-evenly;
+	margin: 30px 10px 20px 10px;
 }
 
 header nav a {
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
 }
 
 header .logo {
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
+	position: relative;
+    bottom: 10px;
 }
 
 .services-header-img {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	position: relative;
-	margin: 15px 0px 15px 30px;
-}
-
-
-.top-content, .text-container {
-	border: 5px solid red;
 	display: flex;
-	justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+	margin: 0 auto;
+	width: 90%;}
+
+.top-content {
+    border: 5px solid red;
+    width: 100%;
 }
+ .text-container {
+	border: 1px solid red;
+    width: 80%;
+    padding-left: 60px;
+}
+
 
 .middle-content {
 	border-bottom: 5px solid black;
