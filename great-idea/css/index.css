@@ -106,7 +106,7 @@ header .logo {
     border: 5px solid red;
     width: 100%;
 }
- .text-container {
+ .top-content .text {
 	border: 1px solid red;
     width: 80%;
     padding-left: 60px;
@@ -119,81 +119,103 @@ header .logo {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	width: 95vw;
+	width: 100%;
 	margin: 0 auto;
 }
 
 
 .middle-content .box1 {
 	border: 1px solid red;
-	width: 400px;
-	height: 200px;
-	margin: 20px 20px 20px 100px;
+	width: 500px;
+	height: 250px;
+	margin: 20px 60px 20px 0px;
+	padding: 20px;
+	background-color: whitesmoke;
 }
 
 .middle-content .box2 {
 	border: 1px solid red;
-	width: 400px;
-	height: 200px;
-	margin: 20px 20px 20px 100px;
+	width: 500px;
+	height: 250px;
+	margin-left: 150px;
+	padding: 20px;
+	background-color: whitesmoke;
 }
 
 .middle-content .box3 {
 	border: 1px solid red;
-	width: 400px;
-	height: 200px;
-	margin: 20px 20px 20px 100px;;
+	width: 500px;
+	height: 250px;
+	margin: 20px 60px 20px 0px;
+	padding: 20px;
+	background-color: whitesmoke;
 }
 
 
 .middle-content .box4 {
 	border: 1px solid red;
-	width: 400px;
-	height: 200px;
-	margin: 20px 20px 20px 100px;
+	width: 500px;
+	height: 250px;
+	margin-left: 150px;
+	padding: 20px;
+	background-color: whitesmoke;
 }
 
 .middle-content .box5 {
 	border: 1px solid red;
-	width: 400px;
-	height: 200px;
-	margin: 20px 20px 20px 100px;
-	
+	width: 500px;
+	height: 250px;
+	margin: 20px 60px 20px 0px;
+	padding: 20px;
+	background-color: whitesmoke;
 }
 
 .middle-content .box6 {
 	border: 1px solid red;
-	width: 400px;
-	height: 200px;
-	margin: 20px 20px 20px 100px;
+	width: 500px;
+	height: 250px;
+	margin-left: 150px;
+	padding: 20px;
+	background-color: whitesmoke;
+}
+
+
+button {   
+	color: black;
+    width: 130px;
+    height: 35px;
+    padding-left: 10px;
+	border-radius: 3px;
+	margin-top: 40px;
+    background-color: white;
+    border: 1px solid black;
 }
 
 
 .services-info-img {
-	position: absolute;
-    width: 400px;
-    height: 250px;
+	position: relative;
     border: 1px solid red;
-    left: 650px;
-    top: 603px;
 }
 
-
-.copyright {
-text-align: center;
-
-}
 
 .facts {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 0px 0px 65px;
 	border-top: 3px solid black;
-	margin-top: 25px;
 	border: 1px solid red;
-    width: 600px;
-	height: 300px;
 	padding: 30px;
+	width: 90%;
+    margin: 20px 0px 0px 70px;
 }
 
 .facts h2 {
 	margin-top: 20px;
 }
 
+ul {
+	list-style-type: square;
+
+	.copyright {
+		text-align: center;
