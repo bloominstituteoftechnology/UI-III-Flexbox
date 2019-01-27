@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	width: 800px;
 	margin: auto;
 }
@@ -100,18 +100,27 @@ header .logo {
     justify-content: center;
     align-items: center;
 	margin: 0 auto;
-	width: 90%;}
+margin-bottom: 30px;
+	width: 90%;
+}
 
 .top-content {
-    border: 5px solid red;
+    /*border: 5px solid red;*/
     width: 100%;
 }
  .top-content .text {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
     width: 80%;
-    padding-left: 60px;
+    padding-left: 70px;
 }
 
+
+hr {
+	width: 90%;
+    border-width: 1px;
+    border-color: black;
+	margin-top: 30px;
+}
 
 .middle-content {
 	border-bottom: 5px solid black;
@@ -217,5 +226,9 @@ button {
 ul {
 	list-style-type: square;
 
+
+
+
 	.copyright {
 		text-align: center;
+	}
