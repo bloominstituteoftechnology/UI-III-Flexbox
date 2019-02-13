@@ -113,10 +113,6 @@ header {
 	font-size: 63px;
 }
 
-.image-header {
-	/*margin: 37px 0;*/
-}
-
 .header-content button {
 	width: 100px;
 	height: 30px;
@@ -147,7 +143,6 @@ header.servises {
 .header-content-services h1 {
 	font-size: 25px;
 }
-
 
 /* MAIN CONTENT TOP */
 
@@ -202,7 +197,6 @@ header.servises {
 	background-color: grey;
 }
 
-
 /* MAIN CONTENT BOTTOM */
 .main-content-bottom {
 	border-top: 2px solid black;
@@ -239,7 +233,6 @@ header.servises {
 	list-style-type: square;
     margin-left: 20px;
 }
-
 
 /* CONTACT SECTION */
 
