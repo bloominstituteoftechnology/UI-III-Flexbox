@@ -270,19 +270,31 @@ header .logo {
 
 /* product page */
 
-section .product-header {
+.product-header {
   display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  padding-top: 10%;
-  padding-bottom: 5%;
+  flex-flow: row wrap;
+  justify-content: space-between;
   border-bottom: 3px solid black;
 }
 
-section .product-header h1 {
-  font-size: 64px;
+section .product-header-txt {
+  width: 45%;
+  padding-top: 18%;
   text-align: center;
+  margin-left: 50px;
+}
+
+section .product-header-img img {
+  margin-top: 20%;
+  width: 600px;
+  height: 500px;
   margin-bottom: 5%;
+}
+
+section .product-header-txt h1 {
+  font-size: 112px;
+  padding: 0 0 20px 0;
+  text-align: center;
 }
 
 .products {
@@ -327,7 +339,7 @@ section .product-header h1 {
 }
 
 .grid-content {
-  margin: 20px;
+  margin: 20px 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -335,12 +347,12 @@ section .product-header h1 {
 }
 
 .grid-content h3 {
-  margin: 15px 15px;
+  margin: 40px 0 0 55px;
 }
 
 .grid-content p {
   padding: 30px 30px;
-  margin: 25px 25px;
+  margin: 25px 25px 0 25px;
 }
 
 .grid-content button {
