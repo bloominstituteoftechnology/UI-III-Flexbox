@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+    width:800px;
+    margin: 0 auto;
+}
+/*navigation css */
+.navigation{
+	display:flex;
+	margin:20px 0;
+	padding:20px 0;
+	justify-content: space-between;
+}
+
+ nav a{
+	 margin-left: 20px;
+	 font-size:18px;
+ }
+	
+ /* header css */
+ header{
+	 display:flex;
+	 margin:20px 0;
+	 padding:20px 0;
+	 justify-content: space-between;
+	 border-bottom: 1px solid black;
+ }
+
+	header h1{
+		font-size: 70px;
+		text-align:center;
+		width:45%;
+		padding:40px 0;
+	}
+/*button css */
+button{
+	display:block;
+	margin: 280px auto 0;
+	justify-content: flex-start;
+	
+}
+
+/*middle top content */
+.middle-content{
+	display:flex;
+	padding:10px 0;
+	margin: 10px 0;	
+	justify-content: space-between
+}
+
+.top-middle-content {
+	margin-left: 20px 0;
+	margin-right: 20px;
+}
+
+/*bottom-middle content below picture */
+.bottom-content{
+	display:flex;
+	padding:10px 0;
+	margin: 10px 0;	
+	justify-content: space-between;
+}
+
+.bottom-middle-content{
+	margin: 4px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+/*style midle picture */
+.middle-img{
+	width: 800px;
+}
+
+/*address css */
+	address h2{
+		font-weight:bold;
+		margin:5px 0;
+	}
+	
+/*footer css */
+footer{
+	text-align: center;
+	}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
