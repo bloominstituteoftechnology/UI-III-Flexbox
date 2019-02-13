@@ -78,6 +78,8 @@ header {
 }
 
 header nav {
+  display: flex;
+  /* align-items: baseline; */
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
