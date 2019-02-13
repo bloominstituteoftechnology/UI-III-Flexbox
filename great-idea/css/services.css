@@ -65,7 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-	margin: 2% 5%;
+    max-width: 1000px;
+    margin: 2% auto;
 }
 
 header {
@@ -92,6 +93,10 @@ nav a {
 	width: 100%;
 }
 
+.services-info-img {
+	width: 45%
+}
+
 .services-top {
 	line-height: 1.5em;
 }
@@ -108,25 +113,25 @@ nav a {
 .services-cards button {
 	border: 1px solid black;
 	border-radius: 5px;
-	height: 30%;
+	height: 20%;
 	width: 20%;
 	margin: 2% 0;
 }
 
-.services-bottom {
+.facts-container {
 	display: flex;
+	justify-content: space-between;
 	line-height: 1.5em;
 }
 
-.services-facts {
-	display: inline;
-	width: 50px;
+#services-facts {
+	width: 50%
 }
 
 li {
 	display: list-item;
 	list-style-type: disc;
-	margin-left: 2%;
+	margin-left: 4%;
 }
 
 #design, #ux, #marketing, #web, #ios, #android {
