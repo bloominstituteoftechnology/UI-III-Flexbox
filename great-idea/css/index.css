@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width:1000px;
+	margin: 0 auto;
+	
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+}
+header nav{
+margin:20px;
+height: 100%;
+width:70%;
+}
+
+header nav a{
+	padding-right: 20px;
+}
+
+header a{
+	font-weight:bold;
+	height:50%;
+	width:20%;
+}
+
+/* SECTIONS */
+.title section /*home*/{
+	white-space:pre-line;
+	text-align:center;
+ 	width: 45%;
+	display: flex;
+}
+.top /*home*/{
+	display:flex;
+	justify-content: space-between;
+	/* margin: 10px; */
+	padding: 30px 40px 30px 0;
+
+}
+.bottum /*home*/{
+	display:flex;
+	justify-content: space-between;
+	margin: 20px 20px 20px 0;
+	padding: 10px;
+}
+.title-line /*home*/{
+	display:flex;
+	justify-content: space-between;
+
+}
+.main{
+	font-weight:bold;
+	font-size:50px;
+	text-align:center;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	/* border: 1px solid red; */
+}
+.service-header h2{
+	margin-top:20px;
+}
+
+.service-body {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	/* border: 2px dotted red; */
+}
+
+.service-bottum{
+	display: flex;
+	justify-content: space-between;
+}
+
+/* BUTTONS */
+button{
+width: 20%;
+border-radius: 15%;
+padding: 20px 0;
+margin: 20px 0;
+}
+
+
+
+/* SPANNING PAGE IMAGES*/
+.middle-img, .services-header-img{
+	width:1000px; 
+}
+
+/* BORDER-LINES */
+.title, .bottum, .service-header, .service-body, .service-bottum{
+	border-bottom:1px solid black;
+	padding: 20px 0;
+}
+/* BORDER_BOXES */
+.digital-design, .UX, .digital-marketing, .web-development, .ios, .android{
+	border:1px solid black;
+	width: 45%;
+	padding: 20px;
+	margin: 40px 0;	
+}
+ul{
+	list-style-type: square;
+	padding: 20px 0 4px 23px;
+}
+.facts{
+	padding: 20px;
+	margin: 0 40px 0 0;
+	width:45%;
+}
+.service-buttom-img{
+	margin: 0 0 0 40px;
+	width: 45%;
+}
+.contact{
+	margin: 20px;
+	padding-bottom:20px;
+}
+
+address{
+white-space:pre-line;
+text-align:left;
+}
+
+footer{
+	text-align:center;
+	font-size:14px;
+	margin:20px;
+}
