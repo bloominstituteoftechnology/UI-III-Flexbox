@@ -79,17 +79,22 @@ header {
 
 header nav {
   display: flex;
-  /* align-items: baseline; */
-  width: 691px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
   vertical-align: top;
   margin-top: 35px;
 }
 
 header nav a {
-  margin-right: 65px;
+ /* margin-right: 65px; */
   font-size: 14px;
   color: gray;
   text-decoration: none;
+}
+
+.logo {
+    padding-bottom: 20px;
 }
 
 header nav a:hover {
@@ -109,6 +114,27 @@ header .logo {
 }
 
 /* cta */
+
+.main-text h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.main-text p {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    background-color: lightgray;
+}
+
+.box-container {
+    display: flex;
+}
 
 .cta .cta-text {
   display: inline-block;
