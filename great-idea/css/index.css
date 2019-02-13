@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -64,3 +64,197 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+    width: 876px;
+    margin: auto;
+}
+
+@media screen and (max-width: 876px) {
+    body {
+        width: 90%;
+    }
+}
+
+header {
+    position: fixed;
+    background: white;
+    width: inherit;
+    /* for vertical centering */
+    height: 50px;
+    line-height: 45px;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    line-height: normal;
+    color: black;
+    margin-right: 55px;
+    opacity: 0.6;
+    transition: 0.6s;
+    display: inline-block;
+}
+
+header nav a:last-child {
+    margin-right: 0px;
+}
+
+header nav a:hover {
+    opacity: 1;
+    text-shadow: 0 0 15px grey;
+}
+
+header nav a:link {
+    text-decoration: none;
+}
+
+.menu-burger {
+    display: none;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu {
+    display: block;
+}
+
+@media screen and (max-width: 876px) {
+    #menu {
+        display: none;
+        background: white;
+        box-shadow: 5px 5px 5px grey;
+    }
+    header nav a {
+        margin: 5px 15px;
+        display: block;
+        font-size: 25px;
+    }
+    .menu-burger {
+        display: inline-block;
+    }
+}
+
+.burger {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin-top: 6px;
+}
+
+.logo-container {
+    display:block;
+    float:right;
+}
+
+.logo {
+    line-height: normal;
+}
+
+.content {
+    padding-top: 50px;
+    line-height: 1.25;
+}
+
+.card-container {
+    /* hack to account for .card margins */
+    margin-top: -35px;
+}
+
+.card {
+    background: #f4f3f4;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.card button {
+    border-radius: 5px;
+}
+
+.flex-sb {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.left {
+    width: 49%;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+.right {
+    width: 49%;
+    margin-left: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (min-width: 876px) {
+    .half-dt {
+        width: 48%;
+    }
+    .third-dt {
+        width: 33%;
+    }
+}
+
+.full {
+    width: 100%;
+}
+
+@media screen and (max-width: 876px) {
+    .full-mb {
+        width: 100%;
+    }
+    .padding-mb {
+        padding-bottom: 20px;
+    }
+}
+
+.center-vert {
+    vertical-align: middle;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+button {
+    background-color: white;
+    text-decoration: none;
+    padding: 7px 40px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+h1 {
+    font-size: 75px;
+    margin-top: 30px;
+}
+
+hr {
+    margin: 30px 0px;
+    border: 0.5px solid black;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+footer {
+    margin: 100px 0px;
+    text-align: center;
+}
