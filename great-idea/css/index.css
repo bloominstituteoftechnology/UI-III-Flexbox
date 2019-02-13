@@ -71,18 +71,19 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
+header .container{
+  display: flex;
+  margin-left: 20px;
+  
+}
+
 header nav {
-/*   display: inline-block;
-  width: 691px;
-  vertical-align: top;
-  margin-top: 35px; */
   display: flex;
   margin-top:35px;
   flex-wrap: nowrap;
 }
 
 header nav a {
-  display: inline-block;
   margin-right: 65px;
   font-size: 14px;
   color: gray;
@@ -98,15 +99,19 @@ header nav a:first-child {
 }
 
 header nav a:last-child {
-  margin-right: 0;
+  margin-right: 50px;
 }
 
+
 header .logo {
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 /* cta */
 
+.cta .container{
+  display: flex;
+}
 .cta .cta-text {
   display: inline-block;
   vertical-align: top;
