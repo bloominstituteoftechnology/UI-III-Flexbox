@@ -165,10 +165,6 @@ ul li {
   margin: 10px 0;
 }
 
-p {
-  font-family: cursive;
-}
-
 a {
   text-decoration: none;
   color: #989898;
@@ -343,12 +339,12 @@ section .product-header h1 {
 }
 
 .grid-content p {
-  padding: 10px 10px;
+  padding: 30px 30px;
   margin: 25px 25px;
 }
 
 .grid-content button {
-  margin: 0 20px;
+  margin: 0 50px;
   font-family: "Bangers";
   border: 1px outset black;
   background-color: white;
@@ -369,8 +365,8 @@ section .product-header h1 {
   margin: 20px;
   border: 2px solid black;
   background-color: #e8e8e8;
-  width: 45%;
-  height: 240px;
+  width: 46%;
+  height: 300px;
 }
 
 .bottom-content {
