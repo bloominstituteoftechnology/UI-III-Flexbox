@@ -1,0 +1,31 @@
+{
+  "name": "ui-iii-flexbox",
+  "version": "1.0.0",
+  "description": "Lambda UI III Flexbox Project",
+  "main": "index.html",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "cd great-idea && live-server --no-css-inject",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamConnatser/UI-III-Flexbox.git"
+  },
+  "keywords": [
+    "Lambda",
+    "UI",
+    "III",
+    "Flexbox",
+    "Project"
+  ],
+  "author": "William Connatser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamConnatser/UI-III-Flexbox/issues"
+  },
+  "homepage": "https://github.com/WilliamConnatser/UI-III-Flexbox#readme"
+}

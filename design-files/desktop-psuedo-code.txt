@@ -1,0 +1,35 @@
+CONTAINER - MARGIN 3
+HEADER
+    SECTION
+        NAV
+            NAV ELEMENT - INLINE - GREY NO STYLE
+        LOGO - INLINE BLOCK - LEFT/RIGHT MARGIN
+    SECTION
+        TITLE - INLINE BLOCK
+            GET STARTED BUTTON - B&W STYLES
+        IMAGE - INLINE BLOCK - CIRCLE
+HR
+MAIN
+    SECTION - INLINE BLOCK
+        H2
+        P
+    SECTION - INLINE BLOCK
+        H2
+        P
+    SECTION - BLOCK - BG IMAGE
+    SECTION - INLINE BLOCK
+        H2
+        P
+    SECTION - INLINE BLOCK
+        H2
+        P
+    SECTION - INLINE BLOCK
+        H2
+        P
+HR
+FOOTER
+    H2
+    ADDRESS
+    PHONE
+    EMAIL
+    COPYWRIGHT - CENTER
