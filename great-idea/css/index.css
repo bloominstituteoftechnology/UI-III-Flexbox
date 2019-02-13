@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style-type: square;
 }
 blockquote, q {
 	quotes: none;
@@ -64,3 +64,191 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container, .services-container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  	margin-top: 35px;
+}
+
+header nav a {
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header .logo {
+}
+
+/* cta */
+
+.cta {
+	display: flex;
+	justify-content: space-evenly;
+}
+.cta .cta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 95px;
+  text-align: center;
+  align-items: center;
+  font-size: 77px;
+}
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+	display: flex;
+	justify-content: space-between;
+
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+ }
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  display: flex;
+  justify-content: space-between;
+
+	margin-top: 37px;
+  	padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.services-header {
+	margin-bottom: 20px;
+}
+
+.services-top-content {
+	height: 150px;
+	border-bottom: 1px solid black;
+	padding: 26px 0;
+	/* margin-bottom: 20px; */
+	font-size: 18px;
+}
+
+.services-title {
+	font-size: 26px;
+}
+
+.services-middle-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding-bottom: 25px;
+	margin: 20px 0 0;
+}
+
+.services-middle-text-box {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	background: rgb(236, 234, 234);
+	border: 1px solid black;
+	width: 47.5%;
+	height: 260px;
+	margin: 2.5% 0;
+	padding: 20px;
+	font-size: 18px;
+}
+
+.services-middle-text-box button {
+	width: 125px;
+	height: 40px;
+	margin: 15px 0 0 0;
+	border: 1px solid black;
+	border-radius: 6px;
+}
+
+.services-bottom-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0;
+	font-size: 18px;
+}
+
+.services-bottom-text-box {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	width: 47.5%;
+}
+
+.copyright {
+	text-align: center;
+	margin: 20px;
+}
+
+.services-bottom-content-list {
+	padding: 25px;
+}
