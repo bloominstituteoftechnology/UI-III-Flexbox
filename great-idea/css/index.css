@@ -301,21 +301,29 @@ h1, h2, h3, h4, h5 {
 *****                                        *****
 **************************************************/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+
+	/* this kinda works, im not sure */
+
 	.mobile {
-	  flex-direction: column !important;
-	  align-items: center;
+		flex-direction: column !important;
+		align-items: center !important;
 	}
 
 	.mobile div {
 		margin-top: 40px;
 	}
 
-	.services .main-content {
-		align-items: center;
+	.services .main-content .content-box {
+		width: 100%;
+		margin: 15px;
 	}
 
-	.services .main-content .content-box {
+	.services footer div.footer-box div.footer-content {
 		width: 95%;
 	}
-  }
+
+	.services footer .footer-box .footer-content {
+		width: 95%;
+	}
+}
