@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -198,6 +198,25 @@ header .logo {
 
 .bottom-content {
 	display: flex;
+	justify-content: space-between;
+	margin: 30px 0 50px 0;
+}
+
+.bottom-content .text-content {
+	width: 48%;
+}
+
+.bottom-content .image-content {
+	width: 48%;
+}
+
+.bottom-content ul {
+	margin: 20px 0 0 0;
+	list-style-position: inside;
+}
+
+.bottom-content li {
+	padding: 5px;
 }
 
 /* contact section */
@@ -215,7 +234,7 @@ header .logo {
 
 footer {
 	width: 100%;
-	margin: 30px 0 50px 0;
+	margin: 0 0 50px 0;
 }
 
 footer .footer-content {
