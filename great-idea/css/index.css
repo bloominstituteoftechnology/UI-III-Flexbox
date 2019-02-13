@@ -65,18 +65,18 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-	margin: 2%;
+	margin: 2% 5%;
 }
 
 header {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 nav {
-	width: 80%;
+	width: 70%;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -90,6 +90,32 @@ nav a {
 	margin: 5%;
 	display: flex;
 	justify-content: space-evenly
+}
+
+.section2 {
+	border: 1px black;
+	border-style: solid none;
+	margin: 2% 0;
+	padding: 2% 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.middle-img {
+	display: block;
+	margin: 1%;
+	width: 100%;
+}
+
+#features, #about {
+	width: 40%;
+	margin: 1%;
+}
+
+#services, #product, #vision {
+	width: 30%;
+	margin: 1%;
 }
 
 .tagline {
