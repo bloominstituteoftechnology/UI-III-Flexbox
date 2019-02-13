@@ -194,6 +194,12 @@ header .logo {
   cursor: pointer;
 }
 
+/* Bottom content styles */
+
+.bottom-content {
+	display: flex;
+}
+
 /* contact section */
 
 .contact-section address {
