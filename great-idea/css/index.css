@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.test {
+	border: 2px solid red;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+/* Styling our banner */
+.banner .nav-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 15px 0;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner .nav-container nav a {
+	font-family: inherit;
+	color: inherit;
+	text-decoration: none;
+
+	margin-left: 30px;
+}
+
+/* styling our header content */
+
+.container header section {
+	/* flex container */
+	display: flex;
+	justify-content: space-around;
+	align-items: center
+
+}
+
+.container header section div {
+	/* flex child */
+	display: block;
+	text-align: center;
+}
+
+.container header section div.first h1 {
+	font-size: 80px;
+}
+
+.container header section div.first button {
+	background: inherit;
+	font-family: inherit;
+
+	border: 1.5px solid black;
+	width: 180px;
+	height: 30px;
+}
+
+
+/* main-content */
+
+.container .main-content {
+	display: flex;
+	flex-direction: column;
+
+	margin: 30px 0;
+
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+}
+
+/* 
+	styling our main content
+	2 sections @ once!!!
+	above-img | below-img
+*/
+
+.container .main-content div section {
+	/* 
+
+		above-img | below-img 
+		we're making both of these sections flex boxes
+
+	*/
+
+	display: flex;
+	padding: 30px 0;
+}
+
+.container .main-content section div{
+	/* 
+
+		above-img | below-img 
+		add a little padding so the content isnt rubbing each other
+
+	*/
+	padding-left: 15px;
+}
+
+/* middle-img | img */
+.container .main-content .middle-img {
+	display: inline-block; /* lets this element join in the flex fun*/
+}
+
+
+/* footer section */
+
+.container footer small.copyright {
+	font-size: 13px;
+	text-align: center;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
