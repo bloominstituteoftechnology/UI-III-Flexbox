@@ -63,4 +63,110 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+html {
+	width: 875px;
+	margin: 0 auto;
+}
+
+header {
+	margin-top: 100px;
+  margin: 20px 0;
+	padding: 20px 0;
+}
+
+header nav {
+	margin: 10px 0;
+	padding: 30px;
+  display: inline;
+	margin-left: -50px;
+}
+
+header nav a {
+	padding: 20px;
+  margin: 0px;
+	font-size: 12px;
+	color: grey;
+}
+
+.logo {
+	margin-left: 600px;
+	margin-top: -100px;
+	width: 20%;
+	height: 40px;
+	display: inline;
+}
+
+
+
+h1 {
+	font-size: 60px;
+	margin-top: 0px;
+	margin: 20px;
+	margin-bottom: 0px;
+	display: inline-block;
+	white-space: pre-line;
+	text-align:center;
+}
+
+button {
+	margin-bottom: 100px;
+	margin-left: 50px;
+  display: inline;
+	padding: 8px 60px;
+	background: white;
+	border: 2px solid black;
+}
+
+button:hover {
+	color: white;
+	background: darkblue;
+}
+
+.header-line {
+	margin-left: 450px;
+	margin-top: -250px;
+	margin-bottom: 0px;
+	width: 30%;
+	height: 40px;
+	display: inline-block;
+}
+
+p {
+  line-height: 1.25;
+  margin: 20px 0;
+}
+
+.my-inline {
+  margin: 20px 2%;
+  width: 45%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.my-inline2 {
+  margin: 20px 2%;
+  width: 28%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.upper-content {
+	border-top: 2px solid black;
+	margin-top: 10px;
+}
+
+.lower-content {
+	border-bottom: 2px solid black;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+address {
+	margin-bottom: 20px;
+}
+
+.footer {
+	margin-left: 400px;
+}
+
