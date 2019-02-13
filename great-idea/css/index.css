@@ -59,8 +59,182 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+	
+}
+
+header nav {
+	display: flex;
+	margin-top: 35px;
+}
+
+header img.logo {
+ margin-left: 700px;
+ justify-content: flex-end;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: gray;
+
+}
+
+.headingSection {
+	margin: 50px;
+	width: 30%;
+}
+
+.headerSection {
+	display: flex;
+}
+.logoimg {
+	display: flex;
+}
+
+h1 { 
+	white-space: pre-line;
+	text-align:center;
+	font-size: 60px;
+}
+
+button {
+	margin: 15px;
+	padding: 0px 20px 0px 20px;
+	background-color: white; 
+	font-size: 12px;
+	width: 130px
+	
+	
+}
+
+h3 {
+	margin-top: 20px;
+	
+}
+
+h6 {
+	border-top: 3px solid black;
+	padding: 30px 0 0 0;
+	font-family: 'Bangers';
+	font-size: 20px;
+	
+}
+img.middle-img {
+	border: 0px;
+	width: 800px;
+}
+
+.topSection {
+	display: flex;
+	margin-bottom: 30px;
+	border-top: 1px solid black;
+	padding: 10px;
+}
+
+
+.bottomSection {
+	display: flex;
+	border-bottom: 1px solid black;
+	padding: 20px 0 20px 0;
+}
+
+
+footer {
+	text-align: center;
+}
+
+/*services css starts here! */
+
+
+span {
+	font-family: 'Bangers';
+	font-size: 30px;
+}
+
+.services {
+border-bottom: 1px solid black;
+padding: 25px;
+}
+
+.house1 {
+	display: flex;    
+}
+
+.house2 {
+	display: flex;
+}
+
+.house3 {
+	display: flex;
+}
+
+.house4 {
+	display: flex;
+}
+
+
+
+.p1 {
+	margin: 20px;
+	border: 1px solid black;
+	padding: 20px;
+	background: #F0F0F0;
+}
+.p2 {
+	margin: 20px;
+	border: 1px solid black;
+	padding: 20px;
+	background: #F0F0F0;
+}
+.p3 {
+	margin: 20px;
+	border: 1px solid black;
+	padding: 20px;
+	background: #F0F0F0;
+}
+.p4 {
+	margin: 20px;
+	border: 1px solid black;
+	padding: 20px;
+	background: #F0F0F0;
+}
+.p5 {
+	margin: 20px;
+	border: 1px solid black;
+	padding: 20px;
+	background: #F0F0F0;
+}
+.p6 {
+	margin: 20px;
+	border: 1px solid black;
+	padding: 20px;
+	background: #F0F0F0;
+}
+
+button {
+	margin: 20px;
+	border: 1px solid black;
+	padding: 5px;
+ background: white;
+ box-shadow: none;
+ border-radius: 7%;
+ 
+}
+
+.bottomImage {
+	border-top: 3px solid black;
+	padding: 30px;
+}
+
+img.services-header-img {
+	padding: 25px;
+}
