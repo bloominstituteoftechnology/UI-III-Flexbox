@@ -256,3 +256,74 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* Services Page Start */
+
+.services-header-img{
+ margin: 20px 0;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+}
+
+.top h1 {
+  font-size: 25px;
+}
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0 50px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+
+}
+
+.mid-p {
+  border: 1px solid black;
+  background: rgb(218, 218, 218);
+  height: 235px;
+  width: 400px;
+  margin: 20px;
+  padding: 30px;
+}
+
+.middle button {
+  margin-top: 15px;
+  width: 100px;
+  height: 30px;
+}
+
+/*.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-left: 200px;
+} */
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-lists {
+width: 550px;
+padding-left: 190px;
+}
+
+.bullet-list {
+  list-style-type:square;
+  list-style-position: inside;
+}
+
+.bottom-p {
+  margin-bottom: 30px;
+}
+
+.bottom img {
+  padding-right: 190px;
+}
