@@ -175,6 +175,7 @@ footer {
 .services-content {
 	height: 830px;
 	display: flex;
+	/* flex-direction: column; */
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: space-between;
@@ -217,4 +218,14 @@ footer {
 
 .services-footer {
 	margin: 100px 0;
+}
+
+@media(max-width: 640px) {
+  .services-content {
+		flex-direction: column;
+		height: 1740px;
+  }
+	* {
+		flex-direction: column;
+	}
 }
