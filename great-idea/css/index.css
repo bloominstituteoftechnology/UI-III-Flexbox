@@ -204,7 +204,7 @@ header .main-nav a {
 .about-services ul {
 	padding: 20px;
 	line-height: 2;
-	list-style-type: disc;
+	list-style-type: square;
 }
 
 /* Media Queries */
