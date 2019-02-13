@@ -216,3 +216,14 @@ footer {
 	padding-left: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+	.services-main-content {
+		flex-wrap: none;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.services-box {
+		width: 90%;
+	}
+}
