@@ -31,9 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -97,9 +96,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -266,34 +264,41 @@ footer {
 	border: 1px solid black;
 	background: lightgrey;
 	margin-right: 10px;
+	padding: 10px;
 }
 .UX {
 	border: 1px solid black;
 	background: lightgrey;
 	margin-left: 10px;
+	padding: 10px;
 }
 .Digital {
 	border: 1px solid black;
 	background: lightgrey;
 	margin-right: 10px;
+	padding: 10px;
 }
 .service {
 	border-bottom: 1px solid black;
+	padding: 20px 0 20px 0;
 }
 .Web {
 	border: 1px solid black;
 	background: lightgrey;
 	margin-left: 10px;
+	padding: 10px;
 }
 .iOS {
 	border: 1px solid black;
 	background: lightgrey;
 	margin-right: 10px;
+	padding: 10px;
 }
 .Android {
 	border: 1px solid black;
 	background: lightgrey;
 	margin-left: 10px;
+	padding: 10px;
 }
 
 
@@ -321,4 +326,26 @@ footer {
   border: 1px solid black;
   cursor: pointer;
   border-radius: 5px;
+}
+.bottom-part {
+	width: 880px;
+	display: flex;
+	border-top: 1px solid black;
+	margin-top: 50px;
+
+}
+.facts {
+	display: flex;
+	flex-direction: column;
+}
+.list {
+	display: flex;
+	margin: 20px;
+
+}
+.copyright {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+
 }
