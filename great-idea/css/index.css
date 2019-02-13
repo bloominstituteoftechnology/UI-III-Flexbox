@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
 html {
 	width: 875px;
 	margin: 0 auto;
@@ -152,8 +155,10 @@ p {
 }
 
 .upper-content {
+	display: flex; 
 	border-top: 2px solid black;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .lower-content {
@@ -170,3 +175,30 @@ address {
 	margin-left: 400px;
 }
 
+
+
+
+/* Services CSS code */
+
+.services-content {
+	border: 2px solid red;
+	margin: auto 0;
+	display: flex;
+	width: auto 0;
+	background: grey;
+	flex-direction: row;
+	align-items: flex-start; 
+	justify-content: center;
+	flex-wrap: wrap;
+	/* margin: 20px 0;
+
+}
+
+.services-child {
+	display: flex;
+	width: 50px;
+  height: 50px;
+  background: gray;
+  border: 1px solid black;
+  color: white;
+}
