@@ -1,0 +1,18 @@
+.nav {
+	display: flex;
+	overflow: hidden;
+    background-color: white;
+   position: fixed;
+  }
+
+.nav a {
+	background-color: white;
+	color: grey;
+	padding: 10px;
+	margin: 5px;
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+}
+
