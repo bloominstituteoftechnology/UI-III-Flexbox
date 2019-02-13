@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5 {
 
 @media only screen and (max-width: 768px) {
 
-	/* this kinda works, im not sure */
+	/* this kinda works, im not sure, how the query works */
 
 	.mobile {
 		flex-direction: column !important;
