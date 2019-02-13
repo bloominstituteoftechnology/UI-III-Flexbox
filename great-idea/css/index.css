@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+p {
+	line-height: 1.25;
+}
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+/* Header styles */
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav {
+	margin-top: 35px;
+	width: 690px;
+}
+
+header nav a {
+	margin-right: 65px;
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+header .logo {
+	margin-top: 25px;
+}
+
+/* Top content styles */
+
+.banner {
+	display: flex;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.banner .banner-text {
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0 75px;
+}
+
+.banner .banner-text button {
+  background: white;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.banner .banner-text button:hover {
+  background: black;
+  color: white;
+}
+
+.banner img {
+  display: inline-block;
+  margin-top: 69px;
+}
+
+/* Main content styles */
+
+.main-content {
+	margin: 30px 0 20px 0;
+	border-bottom: 1px solid black;
+}
+
+.main-content .top-content {
+	display: flex;
+	justify-content: space-around;
+	
+	margin: 10px 0 30px 0;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0 30px 0;
+}
+
+/* contact section */
+
+.contact-section address {
+	line-height: 1.15;
+	margin-bottom: 5px;
+}
+
+.contact-section info {
+	line-height: 2;
+}
+
+
+/* footer section */
+
+footer {
+	width: 100%;
+	margin: 30px 0 50px 0;
+}
+
+footer .footer-content {
+	text-align: center;
+}
+
+.test {
+	border: 1px solid black;
+}
