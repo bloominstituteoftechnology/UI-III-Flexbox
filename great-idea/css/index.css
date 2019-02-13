@@ -65,6 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/*************************************************
+******                                       *****
+******    These Styles are for every page    *****
+******                                       *****
+**************************************************/
+
+
 .test {
 	border: 2px solid red;
 }
@@ -73,9 +80,17 @@ h1, h2, h3, h4, h5 {
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 15px 0;
+	padding-top: 80px;
 }
 
 /* Styling our banner */
+.banner {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	box-shadow: 2px 0 3px black;
+	background: rgba(255,255,255, 0.7);
+}
 .banner .nav-container {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -87,6 +102,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .banner .nav-container nav a {
+	display: inline-block;
 	font-family: inherit;
 	color: inherit;
 	text-decoration: none;
@@ -94,27 +110,13 @@ h1, h2, h3, h4, h5 {
 	margin-left: 30px;
 }
 
-/* styling our header content */
-
-.container header section {
-	/* flex container */
-	display: flex;
-	justify-content: space-around;
-	align-items: center
-
+.banner .nav-container nav a:hover {
+	transform: scale(1.1);
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
-.container header section div {
-	/* flex child */
-	display: block;
-	text-align: center;
-}
-
-.container header section div.first h1 {
-	font-size: 80px;
-}
-
-.container header section div.first button {
+/* button Style */
+.container button {
 	background: inherit;
 	font-family: inherit;
 
@@ -123,10 +125,49 @@ h1, h2, h3, h4, h5 {
 	height: 30px;
 }
 
+.container button:hover {
+	transform: scale(1.05);
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.container footer small.copyright {
+	font-size: 13px;
+	text-align: center;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+
+/*************************************************
+******                                       *****
+******    These Styles are for Index.html    *****
+******                                       *****
+**************************************************/
+
+
+/* styling our header content */
+
+.index header section {
+	/* flex container */
+	display: flex;
+	justify-content: space-around;
+	align-items: center
+
+}
+
+.index header section div {
+	/* flex child */
+	text-align: center;
+}
+
+.index header section div.first h1 {
+	font-size: 80px;
+}
 
 /* main-content */
 
-.container .main-content {
+.index .main-content {
 	display: flex;
 	flex-direction: column;
 
@@ -142,7 +183,7 @@ h1, h2, h3, h4, h5 {
 	above-img | below-img
 */
 
-.container .main-content div section {
+.index .main-content div section {
 	/* 
 
 		above-img | below-img 
@@ -154,7 +195,7 @@ h1, h2, h3, h4, h5 {
 	padding: 30px 0;
 }
 
-.container .main-content section div{
+.index .main-content section div{
 	/* 
 
 		above-img | below-img 
@@ -165,17 +206,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* middle-img | img */
-.container .main-content .middle-img {
+.index .main-content .middle-img {
 	display: inline-block; /* lets this element join in the flex fun*/
 }
 
+/*************************************************
+******                                       *****
+******  These Styles are for Services.html   *****
+******                                       *****
+**************************************************/
 
-/* footer section */
+/* header styles */
 
-.container footer small.copyright {
-	font-size: 13px;
-	text-align: center;
+.services header img.services-header-img {
+	width: 100%;
+}
+
+.services header section{
+	margin: 30px 0;
+}
+
+.services header section h1 {
+	font-size: 30px;
+}
+
+/* main content block */
+
+.services section.main-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	padding: 50px 0 20px;
+	margin: 50px 0;
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+}
+
+.services section .content-box {
+	border: 1.5px solid black;
+	background: rgb(238, 237, 237);
+	padding: 30px;
+	width: 48%;
+	margin-bottom: 30px;
+}
+
+.services section .content-box h2 {
+	font-size: 18px;
+}
+
+.services section .content-box p {
+	margin: 30px 0;
+}
+
+.services section .content-box button {
+	background: white;
+	border-radius: 6px;
+	height: 40px;
+}
+
+/* services page footer section */
+
+.services footer .footer-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services footer .footer-box .footer-content {
 	display: block;
-	padding-top: 50px;
-	padding-bottom: 100px;
+	width: 48%;
+}
+
+.services footer .footer-box .footer-content * {
+	margin: 20px 0;
+}
+
+.services footer .footer-box .footer-content h1 {
+	margin-top: 0px;
+}
+
+.services footer .footer-box .footer-content ul {
+	list-style-type: square;
+	margin-left: 20px;
+}
+
+.services footer small.copyright {
+	margin-top: 80px;
+	padding-bottom: 10px;
 }
