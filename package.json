@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "cd great-idea && live-server --no-css-inject",
+    "start": "cd great-idea && live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

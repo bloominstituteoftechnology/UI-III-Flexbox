@@ -19,17 +19,10 @@
 <body>
   <div class="container">
     <header>
-      <nav class="nav-grouping">
-        <a href="#" class="nav-element">Services</a>
-        <a href="#" class="nav-element">Product</a>
-        <a href="#" class="nav-element">Vision</a>
-        <a href="#" class="nav-element">Features</a>
-        <a href="#" class="nav-element">About</a>
-        <a href="#" class="nav-element">Contact</a>
-        <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-      </nav>
+      <!--Nav Bar code in nav-component.html-->
+      <div w3-include-html="nav-component.html"></div>
       <section class="header-section">
-        <div class="half-page-block">
+        <div class="half-page-block flex-item-center">
           <h1 class="title">
             Innovation <br />
             On <br />
@@ -44,38 +37,42 @@
     </header>
     <hr class="hr-style">
     <main>
-      <section class="half-page-block">
-        <h2>Features</h2>
-        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
-          Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-      </section>
+      <div class="information">
+        <section class="half-page-block">
+          <h2>Features</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </section>
 
-      <section class="half-page-block">
-        <h2>About</h2>
-        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
-          Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-      </section>
+        <section class="half-page-block">
+          <h2>About</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </section>
+      </div>
 
       <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
       </section>
 
-      <section class="third-page-block">
-        <h2>Services</h2>
-        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
-          Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-      </section>
+      <div class="information">
+        <section class="third-page-block">
+          <h2>Services</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </section>
 
-      <section class="third-page-block">
-        <h2>Product</h2>
-        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
-          Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-      </section>
+        <section class="third-page-block">
+          <h2>Product</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </section>
 
-      <section class="third-page-block">
-        <h2>Vision</h2>
-        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
-          Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-      </section>
+        <section class="third-page-block">
+          <h2>Vision</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </section>
+      </div>
     </main>
     <hr class="hr-style">
     <footer class="footer">
@@ -93,6 +90,10 @@
       <span class="copyright">&copy; Copyright Great Idea! 2019</span>
     </footer>
   </div>
+
+  <script>
+    includeHTML();
+  </script>
 
 </body>
 

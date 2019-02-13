@@ -1,0 +1,45 @@
+CONTAINER - MARGIN 3
+HEADER
+    SECTION
+        NAV
+            NAV ELEMENT - INLINE - GREY NO STYLE
+        LOGO - INLINE BLOCK - LEFT/RIGHT MARGIN
+    PICTURE - BLOCK
+    SECTION - BLOCK
+        TITLE
+        PARAGRAPH
+HR
+MAIN - DISPLAY: FLOW & SPACE-BETWEEN
+    SECTION
+        H2
+        P
+        BUTTON
+    SECTION
+        H2
+        P
+        BUTTON
+    SECTION
+        H2
+        P
+        BUTTON
+    SECTION
+        H2
+        P
+        BUTTON
+    SECTION
+        H2
+        P
+        BUTTON
+    SECTION
+        H2
+        P
+        BUTTON
+HR
+FOOTER
+    DIV - DISPLAY: FLOW SPACE-BETWEEN
+        SECTION
+            H2
+            P
+            UL
+        IMAGE
+    COPYRIGHT - BLOCK CENTER
