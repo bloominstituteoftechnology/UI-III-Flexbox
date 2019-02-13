@@ -108,10 +108,7 @@ section {
 body {
   line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
-}
+
 blockquote,
 q {
   quotes: none;
@@ -137,7 +134,6 @@ html,
 body {
   height: 100%;
   font-family: "Roboto", sans-serif;
-  letter-spacing: -0.8px;
 }
 
 h1,
@@ -147,7 +143,7 @@ h4,
 h5 {
   font-family: "Bangers", cursive;
   letter-spacing: 1px;
-  margin-bottom: 15px;
+  margin: 10px 0 15px;
 }
 
 /* Your code starts here! - Thank you for the Reset! - Christian*/
@@ -170,51 +166,60 @@ p {
 }
 
 .header {
-	
+  margin: 30px 0;
+}
+
+.header__pagesH1 {
+  font-size: 35px;
 }
 
 .header__nav {
-
+  display: flex;
+  justify-content: space-between;
 }
 
-.header__nav a {
-  margin-right: 33px;
+.header__navAnchors {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header__navAnchors a {
+  padding: 20px;
   text-decoration: none;
-  color: #000;
-  vertical-align: middle;
+	color: #ddd;
+	transition: background-color 0.5s ease;
 }
 
-.header__nav img {
-  margin-left: 55px;
-  vertical-align: middle;
+/* // Selected anchor */
+.selected {
+  color: #ddd;
+	background: black;
+}
+
+.header__navAnchors a:hover {
+	color: white;
+	background: black;
 }
 
 .header__hero {
-  margin: 70px 0;
-  height: 100%;
-  text-align: center;
+	display: flex;
+	margin-top: 35px;
 }
 
 .header__description {
-  display: inline-block;
-  margin: 0 1%;
-  width: 45%;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* style for each phrase */
-.header__description > div {
-  margin: 10px;
+  width: 50%;
+  text-align: center;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .header__img {
   background: url("./../img/header-img.png") no-repeat;
-  margin: 0 1%;
-  width: 45%;
   height: 379px;
-  display: inline-block;
-  vertical-align: middle;
+  width: 50%;
 }
 
 .header__callToAction {
@@ -230,40 +235,67 @@ p {
 .header__callToAction:hover {
   border: 1px solid #000;
   background: black;
-  color:white;
+  color: white;
   cursor: pointer;
 }
 
+.header__pagesImage {
+  margin: 25px 0;
+}
+
+/* INDEX mainContent*/
 .mainContent {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   padding: 20px 0;
 }
 
-.mainContent > div {
-  margin: 40px 0;
+.mainContent__top {
+	display: flex;
 }
 
 .mainContent__top > div {
-  width: 45%;
-  display: inline-block;
-  margin: 0 1%;
+	width: 48%;
+	padding: 20px;
 }
 
 .mainContent__middle {
   background: url("./../img/mid-page-accent.jpg");
   width: 100%;
-  height: 182px;
+	height: 182px;
+	margin: 35px 0;
+}
+
+.mainContent__bottom {
+	display: flex;
 }
 
 .mainContent__bottom > div {
-  width: 30%;
-  display: inline-block;
-  margin: 0 1%;
+	width: 48%;
+	padding: 20px;
+}
+
+/* SERVICES mainContent */
+.mainContent__servicesContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.mainContent__servicesItems {
+  width: 48%;
+  border: 1px solid #000;
+  background: #eee;
+  padding: 20px;
+  margin: 1rem 0;
+}
+
+.mainContent__servicesLearnMore {
+  margin: 25px 0;
+  padding: 10px 60px;
 }
 
 .footer {
-  padding: 20px 0;
   margin: 40px 0;
 }
 
@@ -273,4 +305,21 @@ p {
 
 .footer__copyright {
   text-align: center;
+}
+
+.footer__pages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__pages div {
+  width: 48%;
+}
+
+.footer__factsUL {
+  margin: 22px;
+}
+
+.footer__factsUL li {
+  margin: 15px 0;
 }
