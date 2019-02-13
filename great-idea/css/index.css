@@ -74,11 +74,7 @@ div.top-page-container{
 	/* border: 5px solid red; */
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-}
-div.top-page-container section.top-page-item{
-	/* border: 1px solid black; */
-	flex-grow:1;
+	justify-content: space-between;
 }
 div.top-page-container section.top-page-item nav a{
 	color: grey;
@@ -86,7 +82,6 @@ div.top-page-container section.top-page-item nav a{
 	margin-left: 10px;
 	font-size: 25px;
 }
-
 /* ------------------header------------------------ */
 header.header-container{
 	/* border: 1px solid red; */
@@ -100,6 +95,14 @@ header.header-container section.header-item{
 	color: black;	
 	/* border: 1px solid black; */
 	
+}
+header.header-container section.header-item button{
+	font-size: 20px;
+	border: 1px solid black;
+}
+header.header-container section.header-item button:hover{
+background: black;
+color:white;
 }
 
 /*----------------Body top--------------------------*/
@@ -147,10 +150,10 @@ body.services-container{
 div.nav-container{
 	/* border: 4px solid red; */
 	display: flex;
+	justify-content:space-between;
 }
 div.nav-container section.nav-item{
-	flex-grow:1;
-	justify-content:space-evenly;
+	/* border: 1px solid black; */
 	margin-right: 20px;
 
 }
@@ -186,6 +189,13 @@ div.main-container section.main-item{
 	padding: 20px;
 	background: WhiteSmoke ;
 	border: 1px solid black;
+}
+div.main-container section.main-item button{
+	border: 1px solid black;
+}
+div.main-container section.main-item button:hover{
+	background: black;
+	color:white;
 }
 /*-------------services.html bottom-------------*/
 div.bottom-container{
