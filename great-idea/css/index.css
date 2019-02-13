@@ -253,7 +253,8 @@ footer .footer-content {
 		width: 100%;
 	}
 	.mid-content .card {
-		width: 100%;
+		width: 90%;
+		/* height: 225px; */
 	}
 	.bottom-content .image-content {
 		width: 100%;
