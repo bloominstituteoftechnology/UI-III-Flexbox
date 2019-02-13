@@ -108,6 +108,12 @@ nav a {
 	width: 100%;
 }
 
+.services-header-img {
+	display: block;
+	padding: 1% 0;
+	width: 100%;
+}
+
 #features, #about {
 	width: 40%;
 	margin: 1%;
