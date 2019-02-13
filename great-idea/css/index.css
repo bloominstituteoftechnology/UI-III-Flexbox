@@ -215,6 +215,7 @@ header nav a:last-child {
 .cta img {
   display: flex;
   align-items: center;
+  align-content: center;
   justify-content: space-evenly;
   flex-direction: row;
   /* margin-top: 69px; */
@@ -226,8 +227,10 @@ header nav a:last-child {
   padding-top: 39px; */
   display: flex;
   align-items: center;
+  align-content: center;
   justify-content: space-evenly;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .main-content section {
