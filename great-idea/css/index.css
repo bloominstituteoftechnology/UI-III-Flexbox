@@ -294,3 +294,28 @@ h1, h2, h3, h4, h5 {
 	margin-top: 80px;
 	padding-bottom: 10px;
 }
+
+/*************************************************
+*****                                        *****
+****  im hoping these make this responsive   *****
+*****                                        *****
+**************************************************/
+
+@media only screen and (max-width: 600px) {
+	.mobile {
+	  flex-direction: column !important;
+	  align-items: center;
+	}
+
+	.mobile div {
+		margin-top: 40px;
+	}
+
+	.services .main-content {
+		align-items: center;
+	}
+
+	.services .main-content .content-box {
+		width: 95%;
+	}
+  }
