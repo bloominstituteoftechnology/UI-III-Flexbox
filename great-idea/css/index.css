@@ -239,13 +239,57 @@ header nav a:last-child {
 	display: flex;
 	justify-content: space-evenly;
 }
+.learn-more-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 25px 0 25px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 25px;
+}
+.one-box {
+	border: 1px solid black;
+	width: 420px;
+	height: 250px;
+	padding: 25px;
+	margin: 25px 10px 25px 0;
+	background-color:  lightgrey;
 
+}
+.one-box button {
+	height: 35px;
+	width: 120px;
+	background-color:  white;
+	margin: 25px;
+	text-align: center;
+}
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
 }
+.bottom-box {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 25px 0 25px 0;
+	padding-bottom: 25px;
+}
+.right-text {
+	width: 420px;
+}
+.right-text ul {
+	padding: 25px;
+	list-style-type: disc;
+	line-height: 1.5;
+}
 
+.left-image {
+	padding: 10px;
+}
+.copyright {
+	margin-bottom: 100px;
+	text-align: center;
+}
 .contact p {
   margin: 20px 0;
 }
