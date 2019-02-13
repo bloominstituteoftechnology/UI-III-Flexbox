@@ -55,6 +55,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    line-height: 1.25;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,15 +67,15 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body{
-	width: 1000x;
-	margin: 0 auto;
+	width: 1000px;
+    margin: 0 auto;
 }
 
 body nav{
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
-
+	justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 body nav a{
@@ -83,64 +84,45 @@ body nav a{
 }
 
 header{
-	display: flex;
-	padding: 5%;
-	justify-content: space-evenly;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
 }
 
 h1{
-	font-size: 72px;
-	text-align: center;
-	padding: 25% 10% 0 10%;
+	font-size: 28px;
+}
+
+.main-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;;
+	height: 750px;
+}
+
+.main-content div{
+	width: 490px;
+	border: 1px solid black;
+	padding: 19px;
+	margin: 10px 0;
+	background: lightblue;
 }
 
 button{
-	border: 1px solid black;
-	background: white;
+	padding: 5px 20px;
+}
+
+.main-content div p{
+	margin-bottom: 10px;
+}
+
+.main-content img{
+	width: 490 px;
+	padding: 0;
+}
+
+.copyright{
 	text-align: center;
-	margin: 5% 30%;
-	width: 35%
-}
-
-.above-img section{
-	width: 45%;	
-}
-
-.above-img{
-	border-top: 1px solid black;
-	padding-top: 2%;
-	margin-bottom: 2%;
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.mid-img{
-	display: flex;
-	justify-content: center;
-}
-
-.middle-img{
-	margin: 0 auto 2%;
-}
-
-.below-img section{
-	width: 30%;
-}
-
-.below-img{
-	border-bottom: 1px solid black;
-	padding-bottom: 2%;
-	margin-bottom: 2%;
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.contact{
-	padding-left: 3%;
-}
-
-footer{
-	text-align: center;
-	font-size: 10px;
-	padding-top: 2%;
+	font-size: 8px;
 }
