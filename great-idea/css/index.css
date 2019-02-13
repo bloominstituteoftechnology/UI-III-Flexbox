@@ -64,3 +64,179 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Global Styles */
+
+body {
+	background: lightgrey;
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+	padding: 20px 50px;
+	background: white;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .main-nav a {
+	margin-right: 60px;
+	text-decoration: none;
+	color: rgb(158, 158, 158);
+}
+
+.main-footer {
+	padding: 40px;
+	text-align: center;
+}
+
+/* Home Page */
+
+.showcase {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+.showcase .main-heading h1 {
+	font-size: 80px;
+}
+
+.showcase img {
+	width: 40%;
+}
+
+.showcase button {
+	padding: 5px 0;
+	width: 175px;
+	border: 1px solid black;
+	font-size: 17px;
+	background: white;
+}
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 40px 0;
+	border-bottom: 1px solid black;
+}
+
+.main-content .top-row {
+	display: flex;
+}
+
+.main-content .middle-img {
+	width: 100%;
+	margin: 40px 0;
+}
+
+.main-content .bottom-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-row .bottom-box {
+	width: 32%;
+}
+
+.contact {
+	padding-top: 40px;
+}
+
+.contact p strong {
+	line-height: 2.5;
+}
+
+/* Services Page */
+
+.services-showcase {
+	padding: 40px 0;
+	border-bottom: 1px solid black;
+}
+
+.services-showcase h1 {
+	margin-top: 40px;
+}
+
+.services-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 40px;
+	border-bottom: 3px solid black;
+}
+
+.services-content .services-box {
+	height: 220px;
+	width: 430px;
+	margin-top: 40px;
+	padding: 15px;
+	border: 2px solid black;
+	background: rgb(230, 230, 230);
+}
+
+.services-box button {
+	padding: 5px 25px;
+	margin-top: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+}
+
+.about-services {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+
+.about-services .facts {
+	width: 50%;
+}
+
+.about-services ul {
+	padding: 20px;
+	line-height: 2;
+	list-style-type: disc;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+	.services-content {
+		flex-direction: column;
+	}
+
+	.services-content .services-box {
+		width: 100%;
+		text-align: center;
+	}
+
+	.services-content button {
+		padding: 30px;
+	}
+
+	.about-services {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.about-services .facts {
+		width: 100%;
+	}
+
+	.about-services ul {
+		list-style: none;
+	}
+
+	.about-services img {
+		width: 100%;
+	}
+}
