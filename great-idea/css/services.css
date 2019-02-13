@@ -86,47 +86,21 @@ nav a {
 	cursor: pointer;
 }
 
-.home-banner {
-	margin: 5%;
-	display: flex;
-	justify-content: space-evenly
-}
-
-.tagline {
-	width: 50%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-.tagline h1 {
-	font-size: 6em;
-	width: 50%
-}
-
-.tagline button {
-	border: 1px solid black;
-	height: 10%;
-	width: 20%;
-	text-align: center;
-}
-
-.home-cards {
-	border: 1px black;
-	border-style: solid none;
-	margin: 2% 0;
-	padding: 2% 0;
+.services-cards {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	margin: 2% 0;
 }
 
-.middle-img {
-	display: block;
-	margin: 1%;
-	width: 100%;
+.services-cards button {
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 30%;
+	width: 20%;
+	margin: 2% 0;
 }
 
 .services-header-img {
@@ -135,18 +109,12 @@ nav a {
 	width: 100%;
 }
 
-#features, #about {
-	width: 40%;
-	margin: 1%;
-}
-
-#services, #product, #vision {
-	width: 30%;
-	margin: 1%;
-}
-
-#phone {
-	margin: 1% 0;
+#design, #ux, #marketing, #web, #ios, #android {
+	width: 45%;
+	margin: 2% 0;
+	padding: 2%;
+	border: 1px solid black;
+	background-color: lightgray;
 }
 
 #copyright {
