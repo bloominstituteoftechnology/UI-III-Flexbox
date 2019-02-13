@@ -138,3 +138,13 @@ nav a {
 	width: 20%;
 	text-align: center
 }
+
+#phone {
+	margin: 1% 0;
+}
+
+#copyright {
+	margin: 5% 0;
+	text-align: center;
+	font-size: 0.9em;
+}
