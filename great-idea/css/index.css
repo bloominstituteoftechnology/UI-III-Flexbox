@@ -3,64 +3,274 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.8px;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! - Thank you for the Reset! - Christian*/
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.35;
+}
+
+.container {
+  position: relative;
+  width: 876px;
+  margin: 20px auto;
+}
+
+.header {
+	
+}
+
+.header__nav {
+
+}
+
+.header__nav a {
+  margin-right: 33px;
+  text-decoration: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.header__nav img {
+  margin-left: 55px;
+  vertical-align: middle;
+}
+
+.header__hero {
+  margin: 70px 0;
+  height: 100%;
+  text-align: center;
+}
+
+.header__description {
+  display: inline-block;
+  margin: 0 1%;
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* style for each phrase */
+.header__description > div {
+  margin: 10px;
+}
+
+.header__img {
+  background: url("./../img/header-img.png") no-repeat;
+  margin: 0 1%;
+  width: 45%;
+  height: 379px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__callToAction {
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 10px 50px;
+  margin: 10px 0;
+  font-family: inherit;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.header__callToAction:hover {
+  border: 1px solid #000;
+  background: black;
+  color:white;
+  cursor: pointer;
+}
+
+.mainContent {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 20px 0;
+}
+
+.mainContent > div {
+  margin: 40px 0;
+}
+
+.mainContent__top > div {
+  width: 45%;
+  display: inline-block;
+  margin: 0 1%;
+}
+
+.mainContent__middle {
+  background: url("./../img/mid-page-accent.jpg");
+  width: 100%;
+  height: 182px;
+}
+
+.mainContent__bottom > div {
+  width: 30%;
+  display: inline-block;
+  margin: 0 1%;
+}
+
+.footer {
+  padding: 20px 0;
+  margin: 40px 0;
+}
+
+.footer__address > div {
+  padding: 10px 0;
+}
+
+.footer__copyright {
+  text-align: center;
+}
