@@ -236,6 +236,34 @@ h1 .neon:hover {
   color: #ffffff;
 }
 
+.middle {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.middle .body-content {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 20px;
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: #dcdcdc;
+  border: 1px solid black;
+}
+
+.middle .body-content h1 {
+  font-size: 38px;
+}
+
+.middle .body-content p {
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+
 /*glow for webkit*/
 
 @-webkit-keyframes neon1 {
@@ -261,6 +289,6 @@ address h2 {
 }
 
 footer {
-  margin-bottom: 40px;
+  margin: 40px 0;
   text-align: center;
 }
