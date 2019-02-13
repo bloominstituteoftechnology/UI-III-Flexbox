@@ -180,9 +180,6 @@ header nav a:last-child {
 
 .cta .cta-text button {
   background: white;
-  /* vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px; */
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
@@ -193,31 +190,28 @@ header nav a:last-child {
   color: white;
 }
 
-.cta img {
-  /* display: inline-block;
-  margin-top: 69px; */
-}
-
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
 
-.main-content .top-content {
-  padding: 0 10px;
+.top-content {
+	display: flex;
+	justify-content: space-evenly;
 }
 
-.main-content .top-content .text-content {
-  width: 410px;
-  display: inline-block;
-  margin-right: 34px;
+.main-content .top-content {
+  padding: 0 10px;
 }
 
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
 }
-
+.middle-img {
+	display: flex;
+	justify-content: space-evenly;
+}
 .main-content .middle-img {
   margin-top: 45px;
 }
@@ -227,14 +221,13 @@ header nav a:last-child {
   padding: 0 10px;
 }
 
-.main-content .bottom-content .text-content {
-  width: 275px;
-  display: inline-block;
-  margin-right: 12px;
-}
-
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .contact {
