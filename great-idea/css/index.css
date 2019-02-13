@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 960px;
+	margin-left: 75px;
+}
+
+.service-b {
+	width: 875px;
+}
+
+.top1 {
+	margin: 1%;
+	padding: 20px 0px;
+  	width: 45%;
+	vertical-align: top;
+}
+
+.top-content {
+	display: flex;
+	border-top: 1px solid black;
+	width: 960px;
+}
+
+.middle-img {
+	display: block
+}
+
+.bot1 {
+	margin: 40px 1%;
+	padding-bottom: 10px;
+	width: 30%;
+	vertical-align: top;
+  }
+
+.bottom-content {
+	display: flex;
+	border-bottom: 1px solid black;
+	width: 960px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	color: lightgrey;
+	align-items: baseline;
+}
+
+header {
+	display: flex;
+	height: 500px;
+	align-items: space-around;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+header div {
+	text-align: center;
+}
+
+header h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.service-head {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.service-head h2 {
+	font-size: 25px;
+}
+
+.service-body {
+	height: 650px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: space-between;
+}
+
+.service-box {
+	padding: 10px;
+	margin: 10px;
+	width: 45%;
+	border: 1px solid black;
+	background: rgb(238, 237, 237);
+}
+
+.service-box button {
+	margin: 15px 0px 5px 0px;
+}
+
+.service-bottom {
+	display: flex;
+	border-top: 1px solid black;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.services-info-img {
+	margin-left: 50px;
+}
+
+li {
+	margin: 15px 0px;
+}
+
+.logo {
+	margin-left: 40px;
+}
+
+.services-header-img {
+	margin: 30px;
+	margin-left: 0px;
+}
+
+.matrix {
+	margin-top: 50px;
+}
+
+address {
+	margin-top: 20px;
+}
+
+.phone {
+	margin: 20px 0;
+}
+
+footer {
+	margin: 20px;
+	text-align: center;
+}
