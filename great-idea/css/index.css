@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 header h1 {
-	font-size: 65px;
+	font-size: 100px;
+	text-align: center;
 }
 
 .container {
@@ -78,22 +79,20 @@ header h1 {
 nav {
 	margin-top: 2%;
 	background-size: cover;
-	
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+	flex-wrap: wrap;
 }
 nav section{
-	display: inline-block;
 	padding: .5%;
 }
 
-.main-content{
-}
-
 .logo{
-	margin-left: 135px;
+	
 }
 
 nav a {
-	margin: 0 20px;
 	font-family: 'Titillium Web', sans-serif;
 	color: gray;
 	text-decoration: none;
@@ -101,63 +100,65 @@ nav a {
 
 header{
 	border-bottom: 1px solid black;
+	padding-top: 5%;
     padding-bottom: 5%;
-	margin-top: 5%;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+header .cta{
+	display: flex;
+    flex-direction: column;
 }
 
-header section{
-	display: inline-block;
-	width: 49%;
-}
-header .call-to-action {
-    width: 49%;
-    vertical-align: bottom;
-    text-align: center;
-    padding-bottom: 10%;
-}
-
-header .header-image{
-}
-
-header .header-image img{
-	margin-left: 10%;
-}
-
-.call-to-action button{
+header .cta button{
 	background: none;
     border: 1px solid black;
-	padding: 5px 30px;
+	padding: 1% 3%;
 	font-family: 'Titillium Web', sans-serif;
 	cursor: pointer;
 }
 
 .top-content{
-	
+	width: 100%;
+	margin: 5% auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-content: center;
 }
 
 .top-content section{
-	display: inline-block;
-	width: 49%;
-	margin: 5% auto;
 	text-align: left;
+}
+
+.container .middle-img{
+	
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+
+.bottom-content{
+	width: 100%;
+	margin: 5% auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-content: center;
+	border-bottom: 1px solid black;
+	padding-bottom: 5%;
 }
 
 .bottom-content section{
-	display: inline-block;
-	width: 33%;
-	margin: 5% auto;
-	text-align: left;
+	margin: 0 1%;
 }
-
-.bottom-content{
-	border-bottom: 1px solid black;
-	padding-bottom: .5%;
-}
-
 address{
 	width: 40%;
 	margin-top: 5%;
-
 }
 
 footer{
