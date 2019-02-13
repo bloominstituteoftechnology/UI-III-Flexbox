@@ -64,3 +64,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 900px;
+	margin: 0 auto;
+	line-height: 1.25;
+}
+
+header {
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header nav {
+	width: 70%;
+	
+
+}
+
+header nav a {
+	text-decoration: none;
+	padding: 10px 50px 10px 0;
+	color: gray;
+}
+
+ button {
+	padding: 0;
+	border: 1px solid black;
+	border-radius: 2px;
+	background-color: white;
+	padding: 7px 30px;
+}
+
+.top-content {
+	padding: 40px 0;
+	display: flex;
+}
+
+
+.logo {
+	padding-left: 40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.top-content-left {
+	height: 379px;
+	font-size: 60px;
+	text-align: center;
+	width: 55%;
+	padding: 50px 0 0 50px;
+}
+
+
+
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.main-top {
+	display: flex;
+}
+
+.container-padding {
+	padding: 30px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.main-bottom {
+	display: flex;
+	
+}
+
+.main-bottom section:not(:first-child) {
+	padding-left: 10px;
+}
+
+
+.contact {
+	padding: 30px 0 30px;
+}
+
+address {
+	padding-bottom: 20px;
+}
+
+.contact p {
+	padding-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 100px;
+} 
+
+/* SERVICES STYLES*/
+
+.services-header-img {
+	width: 100%;
+}
+
+.services-top-content {
+	padding: 30px 0;
+}
+
+.services-top-content h2 {
+	font-size: 24px;
+}
+
+.services-main-content {
+	border-top: 1px solid black;
+	border-bottom: 1.5px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+.services-box {
+	width: 47%;
+	background-color: whitesmoke;
+	border: 1px solid black;
+	margin: 20px 0;
+	padding: 20px 20px 20px 15px;
+}
+
+.services-btn {
+	margin-top: 20px;
+}
+
+.services-bottom-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+	margin-bottom: 40px;
+}
+
+.services-bottom-content section {
+	width: 47%;
+}
+
+.services-bottom-content section ul {
+	line-height: 1.8;
+	list-style-type: square;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
