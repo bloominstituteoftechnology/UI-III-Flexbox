@@ -123,6 +123,12 @@ nav a {
 	width: 50px;
 }
 
+li {
+	display: list-item;
+	list-style-type: disc;
+	margin-left: 2%;
+}
+
 #design, #ux, #marketing, #web, #ios, #android {
 	width: 45%;
 	margin: 2% 0;
