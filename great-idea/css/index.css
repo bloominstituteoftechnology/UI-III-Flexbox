@@ -51,6 +51,9 @@ table {
 * {
     box-sizing: border-box;
 }
+hr .divider {
+  margin: 20px 0;
+}
 
 html, body {
     height: 100%;
@@ -79,8 +82,8 @@ header .container{
 
 header nav {
   display: flex;
+  justify-content: center;
   margin-top:35px;
-  flex-wrap: nowrap;
 }
 
 header nav a {
@@ -99,7 +102,7 @@ header nav a:first-child {
 }
 
 header nav a:last-child {
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 
@@ -113,7 +116,7 @@ header .logo {
   display: flex;
 }
 .cta .cta-text {
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
