@@ -139,36 +139,42 @@ h1, h2, h3, h4, h5 {
 /* header */
 
 header nav {
-  display: inline-block;
+  /* display: inline-block;
   width: 691px;
   vertical-align: top;
+  margin-top: 35px; */
   margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 header nav a {
-  display: inline-block;
-  margin-right: 65px;
+  /* display: inline-block;
+  margin-right: 65px; */
   font-size: 14px;
-  color: gray;
+  color: grey;
   text-decoration: none;
+  align-items: center;
 }
 
 header nav a:hover {
   text-decoration: underline;
 }
 
-header nav a:first-child {
+/* header nav a:first-child {
   margin-left: 0;
 }
 
 header nav a:last-child {
   margin-right: 0;
-}
+} */
 
-header .logo {
+/* header .logo {
   display: inline-block;
   margin-top: 25px;
-}
+} */
 
 /* cta */
 
