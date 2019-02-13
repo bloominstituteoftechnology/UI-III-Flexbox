@@ -121,28 +121,27 @@ nav a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	line-height: 1.5em;
 }
 
 .middle-img {
 	display: block;
-	margin: 1%;
-	width: 100%;
-}
-
-.services-header-img {
-	display: block;
-	padding: 1% 0;
+	margin: 1% 0;
 	width: 100%;
 }
 
 #features, #about {
 	width: 40%;
-	margin: 1%;
+	margin: 1% 0;
 }
 
 #services, #product, #vision {
 	width: 30%;
-	margin: 1%;
+	margin: 1% 0;
+}
+
+#contact {
+	line-height: 1.5em;
 }
 
 #phone {
