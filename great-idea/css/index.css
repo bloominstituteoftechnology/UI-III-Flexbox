@@ -212,6 +212,16 @@ header nav a:last-child {
 	display: flex;
 	justify-content: space-evenly;
 }
+.services-header-img {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 25px;
+}
+.services-text {
+	margin: 25px 0 25px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 25px;
+}
 .main-content .middle-img {
   margin-top: 45px;
 }
