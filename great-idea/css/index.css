@@ -67,18 +67,14 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container {
 	width: 900px;
-	margin: auto;
-	
+	margin: auto;	
 }
 
-header nav {
+.banner {
 	display: flex;
-	margin-top: 35px;
-}
-
-header img.logo {
- margin-left: 700px;
- justify-content: flex-end;
+	align-items:baseline;
+	padding-top: 10px;
+	
 }
 
 header nav a {
@@ -95,6 +91,7 @@ header nav a {
 
 .headerSection {
 	display: flex;
+	margin-top: 30px;
 }
 .logoimg {
 	display: flex;
