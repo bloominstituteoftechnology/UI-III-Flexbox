@@ -135,6 +135,14 @@ header .logo {
   margin-top: 69px;
 }
 
+.top-banner {
+	margin: 30px 0;
+}
+
+.top-banner img {
+	margin-bottom: 20px;
+}
+
 /* Main content styles */
 
 .main-content {
