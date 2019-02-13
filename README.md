@@ -27,9 +27,9 @@ Once you have finished the home page using flex box module, go build the service
   * Using the provided [design file](design-files/services-desktop-design.png), create the services page layout using flexbox and box model.
   * Wrap the great idea logo in an anchor tag and point the `href` to `index.html`
   
-  **Remember, you should continue using box model properties this whole time.  Flexbox is only used for bigger layout pieces.  You will still need content width, padding, border, and margins to succeed.**
+  **Remember, you should continue using box model properties this whole time.  Flexbox is only used for bigger layout pieces.  You will still need content width, padding, border, and margins to succeed and u da man.**
 
-## Stretch Goals
+## Stretch Goals 
 
 * [ ] Create another page based on one of the navigation items in addition to services.  Try to create a layout that follows the patterns of the first two designs but with your own creative twist.  Use lorem ipsum text for all your content.
 * [ ] Introduce media queries into your services page to create a mobile view that stacks all the boxes on top of each other on phone but looks like the layout file on desktop.
