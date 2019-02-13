@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+ 
+
+.logo {
+	display: flex;
+	flex-direction: flex-end;
+	justify-content: space-evenly;
+	background-color: white;
+	padding: 20px;
+}
+
+.navi {
+	display: flex;
+	overflow: hidden;
+    background-color: white;
+   position: fixed;
+  
+}
+
+.navi a{
+	background-color: white;
+	color: grey;
+	padding: 10px;
+	margin: 5px;
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+}
+
+.welcome {
+	display: flex;
+	font-size: 50px;
+	justify-content: space-between;
+	padding: 20px;
+	
+}
+.welcome button {
+	color: white;
+	background-color: rgb(25, 170, 238);
+	border-radius: 20px;
+	margin: 10px 1%;
+	width: 40px;
+	display: inline-block;
+	vertical-align: bottom;
+	}
+
+.welcome button:hover {
+	color: white;
+	background-color: pink;
+
+}
+
+.welcome .header {
+	display: flex;
+	font-size: 60px;
+	margin: 15px 1%;
+	width: 45%;
+	
+	}
+
+	h1 {
+	display: flex;
+	font-size: 100px;
+	/* margin: 15px 1%;
+	width: 45%; */
+	}
+
+.main-content {
+	border-top: 1px solid black;
+	display: flex;
+	}
+
+.main-content section {
+    margin: 20px 1%;
+	padding: 20px;
+	
+  }
+
+
+
+
+.second{
+	display: flex;
+	/* align-content: space-between;
+	justify-content: space-between; */
+	margin: 30px 1%;
+	padding: 20px;
+}
+
+  footer p {
+	  display: flex;
+	  align-items: center;
+	  align-items: space-around;
+	  padding: 2px 1px;
+	  
+  }
+
+  footer .contact {
+	margin-top: 40px 0; 
+	width: 700px;
+	padding: 20px;
+  } 
