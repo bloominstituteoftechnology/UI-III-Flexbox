@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header h1 {
+	font-size: 65px;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+
+}
+
+nav {
+	margin-top: 2%;
+	background-size: cover;
+	
+}
+nav section{
+	display: inline-block;
+	padding: .5%;
+}
+
+.main-content{
+}
+
+.logo{
+	margin-left: 135px;
+}
+
+nav a {
+	margin: 0 20px;
+	font-family: 'Titillium Web', sans-serif;
+	color: gray;
+	text-decoration: none;
+}
+
+header{
+	border-bottom: 1px solid black;
+    padding-bottom: 5%;
+	margin-top: 5%;
+}
+
+header section{
+	display: inline-block;
+	width: 49%;
+}
+header .call-to-action {
+    width: 49%;
+    vertical-align: bottom;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+header .header-image{
+}
+
+header .header-image img{
+	margin-left: 10%;
+}
+
+.call-to-action button{
+	background: none;
+    border: 1px solid black;
+	padding: 5px 30px;
+	font-family: 'Titillium Web', sans-serif;
+	cursor: pointer;
+}
+
+.top-content{
+	
+}
+
+.top-content section{
+	display: inline-block;
+	width: 49%;
+	margin: 5% auto;
+	text-align: left;
+}
+
+.bottom-content section{
+	display: inline-block;
+	width: 33%;
+	margin: 5% auto;
+	text-align: left;
+}
+
+.bottom-content{
+	border-bottom: 1px solid black;
+	padding-bottom: .5%;
+}
+
+address{
+	width: 40%;
+	margin-top: 5%;
+
+}
+
+footer{
+	margin: 5% 43%;
+}
