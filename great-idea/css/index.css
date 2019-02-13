@@ -137,6 +137,8 @@ header .logo {
 
 .top-banner {
 	margin: 30px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
 }
 
 .top-banner img {
@@ -161,6 +163,29 @@ header .logo {
 	display: flex;
 	justify-content: space-between;
 	margin: 30px 0 30px 0;
+}
+
+/* Mid-content styles */
+
+.mid-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+.mid-content .card {
+	width: 48%;
+	height: 200px;
+	border: 1px solid black;
+	background: rgb(243, 241, 241);
+	padding: 15px 10px 0 10px;
+	margin-bottom: 30px;
+}
+
+.card button {
+	
 }
 
 /* contact section */
