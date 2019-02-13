@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -107,6 +107,7 @@ header .logo {
 
 .cta .cta-text {
   display: flex;
+  flex-direction: column;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
@@ -138,15 +139,20 @@ header .logo {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .main-content .top-content {
+  display: flex;
   padding: 0 10px;
 }
 
 .main-content .top-content .text-content {
   width: 410px;
   display: flex;
+  flex-direction: column;
   margin-right: 34px;
 }
 
@@ -156,9 +162,11 @@ header .logo {
 
 .main-content .middle-img {
   margin-top: 45px;
+ 
 }
 
 .main-content .bottom-content {
+  display: flex;
   margin-top: 37px;
   padding: 0 10px;
 }
@@ -166,6 +174,7 @@ header .logo {
 .main-content .bottom-content .text-content {
   width: 275px;
   display: flex;
+  flex-direction: column;
   margin-right: 12px;
 }
 
@@ -174,6 +183,8 @@ header .logo {
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
   margin-top: 57px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
