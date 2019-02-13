@@ -180,12 +180,18 @@ header .logo {
 	height: 200px;
 	border: 1px solid black;
 	background: rgb(243, 241, 241);
-	padding: 15px 10px 0 10px;
+	padding: 15px 10px 10px 10px;
 	margin-bottom: 30px;
 }
 
 .card button {
-	
+	background: white;
+  margin-top: 8px;
+  padding: 8px 40px;
+  font-size: 12px;
+	border: 1px solid black;
+	border-radius: 3px;
+  cursor: pointer;
 }
 
 /* contact section */
