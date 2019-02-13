@@ -70,7 +70,7 @@ p {
 }
 
 .container {
-	width: 880px;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -241,6 +241,26 @@ footer .footer-content {
 	text-align: center;
 }
 
-.test {
-	border: 1px solid black;
+/* Media queries */
+
+@media(max-width: 600px) {
+	.mid-content, .bottom-content {
+		/* width: 100%; */
+		flex-direction: column;
+		align-items: center;
+	}
+	.bottom-content .text-content {
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.mid-content .card {
+		width: 100%;
+	}
+	.bottom-content .image-content {
+		width: 100%;
+	}
 }
+
+/* .test {
+	border: 1px solid black;
+} */
