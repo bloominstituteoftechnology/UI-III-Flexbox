@@ -1,66 +1,404 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+ul {
+  margin: 30px 0;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+p {
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #989898;
+}
+
+a:hover {
+  color: #00ffff;
+}
+
+header {
+  padding: 0 15px 15px 15px;
+  background: #f5f5f5;
+  position: fixed;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+header nav {
+  margin-top: 30px;
+}
+
+header nav a {
+  margin: 0 60px;
+}
+
+header .logo {
+  padding-top: 20px;
+  margin-left: 150px;
+}
+
+.cta {
+  padding-top: 150px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.cta button {
+  font-family: inherit;
+  border: 1px outset black;
+  background-color: white;
+  height: 40px;
+  width: 160px;
+}
+
+.cta button a {
+  color: black;
+}
+
+.cta button a:hover {
+  color: #00ffff;
+}
+
+.cta-text {
+  padding-top: 45px;
+  text-align: center;
+  font-size: 84px;
+}
+
+.cta img {
+  height: 400px;
+  width: 400px;
+}
+
+/* top main content */
+
+.top-main-content {
+  border-top: 3px solid black;
+  padding-top: 50px;
+  display: flex;
+}
+
+.top-main-content section {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.middle-img {
+  display: flex;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* bottom main content */
+
+.bottom-main-content {
+  padding-bottom: 40px;
+  border-bottom: 3px solid black;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.bottom-main-content section {
+  width: 32%;
+  margin-right: 15px;
+}
+
+/* product page */
+
+section .product-header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  border-bottom: 3px solid black;
+}
+
+section .product-header h1 {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.products {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-bottom: 3px solid black;
+}
+
+.products h2 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.products section {
+  width: 32%;
+  padding-right: 25px;
+}
+
+.products section h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* services stuff */
+
+.services-header-img {
+  margin-top: 70px;
+  width: 100%;
+}
+
+.services-top-content h2 {
+  font-size: 24px;
+}
+
+.services-top-content {
+  margin-bottom: 2%;
+  padding: 3% 0;
+  border-bottom: 1px solid black;
+}
+
+.grid-content {
+  margin: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.grid-content h3 {
+  margin: 15px 15px;
+}
+
+.grid-content p {
+  padding: 10px 10px;
+  margin: 25px 25px;
+}
+
+.grid-content button {
+  margin: 0 20px;
+  font-family: "Bangers";
+  border: 1px outset black;
+  background-color: white;
+  border-radius: 10%;
+  height: 30px;
+  width: 140px;
+}
+
+.grid-content button a {
+  color: black;
+}
+
+.grid-content button a:hover {
+  color: #00ffff;
+}
+
+.grid-content .box {
+  margin: 20px;
+  border: 2px solid black;
+  background-color: #e8e8e8;
+  width: 45%;
+  height: 240px;
+}
+
+.bottom-content {
+  padding-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-top: 2px solid black;
+  padding-bottom: 50px;
+}
+
+.bottom-content section {
+  width: 40%;
+}
+
+/* footer stuff */
+
+address {
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+address h2 {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
