@@ -64,3 +64,157 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 876px;
+	margin: auto;
+}
+
+.top-nav {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	color: lightgray;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+.index-head {
+	margin: 80px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.left-index-head {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 72px;
+	text-align: center;
+}
+
+header button {
+	background: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	border: 1px solid black;
+	width: 150px;
+}
+
+
+.page-divider {
+	border-bottom: black solid 1px;
+	margin: 40px 0;
+}
+
+.page-divider-thick {
+	border-bottom: black solid 2px;
+	margin: 40px 0;
+}
+
+.top-content {
+	display: flex;
+	margin: 20px 0;
+}
+
+.bottom-content {
+	display: flex;
+	margin: 20px 0;
+}
+
+.column {
+	margin-left: 20px;
+}
+
+.column:first-child {
+	margin-left: 0;
+}
+
+address a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	margin: 50px 0;
+	text-align: center;
+	font-size: .9em;
+}
+
+/* Services Page Markup Starts Here */
+
+.services-container {
+	width: 880px;
+	margin: auto;
+}
+
+.services-header-img {
+	margin: 20px 0;
+}
+
+.services-head {
+	font-size: 26px;
+}
+
+.services-top {
+	margin: 20px 0;
+}
+
+.services-content {
+	height: 830px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.content-box {
+	width: 425px;
+	height: 250px;
+	padding: 25px;
+	background: #F4F4F4;
+	border: 1px solid black;
+}
+
+.services-bottom {
+	display: flex;
+}
+
+.content-box button {
+	background: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 0.8em;
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 10px 40px;
+	margin-top: 25px;
+}
+
+.services-bottom p{
+	padding: 0 50px 30px 0;
+}
+
+.services-bottom ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.services-bottom li {
+	padding: 10px 0;
+}
+
+.services-footer {
+	margin: 100px 0;
+}
