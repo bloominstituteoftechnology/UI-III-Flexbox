@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -137,15 +137,21 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
+header {
+	display: flex;
+	align-items: space-around;
+	margin-bottom: 20px;
+}
+
 header nav {
-  display: inline-block;
+  display: flex;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
 }
 
 header nav a {
-  display: inline-block;
+  display: flex;
   margin-right: 65px;
   font-size: 14px;
   color: gray;
@@ -166,6 +172,7 @@ header nav a:last-child {
 
 header .logo {
   display: inline-block;
+  justify-content: flex-end;
   margin-top: 25px;
 }
 
@@ -253,4 +260,65 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+
+.design {
+	border: 1px solid black;
+	background: lightgrey;
+	margin-right: 10px;
+}
+.UX {
+	border: 1px solid black;
+	background: lightgrey;
+	margin-left: 10px;
+}
+.Digital {
+	border: 1px solid black;
+	background: lightgrey;
+	margin-right: 10px;
+}
+.service {
+	border-bottom: 1px solid black;
+}
+.Web {
+	border: 1px solid black;
+	background: lightgrey;
+	margin-left: 10px;
+}
+.iOS {
+	border: 1px solid black;
+	background: lightgrey;
+	margin-right: 10px;
+}
+.Android {
+	border: 1px solid black;
+	background: lightgrey;
+	margin-left: 10px;
+}
+
+
+.top2 {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+
+}
+.middle2 {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+.bottom2 {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+.boxes button{
+	display: flex;
+	margin: 10px;
+	background: white;
+  font-size: 11px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
 }
