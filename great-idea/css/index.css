@@ -205,31 +205,31 @@ h1, h2, h3, h4, h5 {
 
 
 
-  /* ============	SERVICES	============ */
-
+  /* ============	SERVICES CSS	============ */
+  
+/* service about section */					 
   .services-header-img {
 	  margin: 30px 0;
   }
-
+/* services content container*/
   .services-content {
-	  display: flex;
-	  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-	border-top: 1px solid black;
-	margin-top: 50px;
-	padding-top: 50px;
+	  border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px 0px;
   }
-
+/* services content boxes */
   .services-content .services-content-box{
-	  border: 1px solid black;
-	  width: 100%;
-	  flex: 0 50%;
-	  background: rgb(219, 219, 219);
-	  padding: 20px;
+	border: 1px solid black;
+	width: 48%;
+	margin: 20px 0;
+	padding: 20px;
+	background-color: rgba(218, 218, 218, 0.849);
 		
   }
-
+/* button for the services content boxes */
   .services-content .services-content-box button{
 	background: white;
 	/* vertical-align: top; */
@@ -242,15 +242,18 @@ h1, h2, h3, h4, h5 {
 	  border: 1px solid black;
   }
 
+  /* Services Facts Section */
 .services-facts {
 	border-top: 1px solid rgb(0, 0, 0);
 	margin-top: 50px;
 	padding-top: 50px;
 	display: flex;
 }
-.services-facts .facts {
+/* .services-facts .facts {
 
-}
+} */
+
+/* Listed Points */
   ul {
 	margin: 30px 20px;
 	/* padding-top: 50px; */
