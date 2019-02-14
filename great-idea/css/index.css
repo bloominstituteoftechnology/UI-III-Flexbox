@@ -239,7 +239,6 @@ footer {
   flex-direction: column;
   width: 800px;
   margin: 0 auto;
-  line-height: 1.25;
 }
 .services-header {
   display: flex;
@@ -282,6 +281,7 @@ footer {
   display: flex;
   padding: 20px 0;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .details {
@@ -301,7 +301,7 @@ footer {
 .list-item {
   padding: 5px;
 }
-footer {
+.services-footer {
   padding-top: 20px;
   margin: 20px 0;
   text-align: center;
