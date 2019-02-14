@@ -101,19 +101,11 @@ header nav a:hover {
 
 }
 
-header nav a:first-child {
-    margin-left: 0;
 
-}
 
-header nav a:last-child {
-    margin-right: 0;
 
-}
 
-header .logo {
 
-}
 
 /* cta */
 
@@ -147,7 +139,6 @@ header .logo {
 }
 
 .cta img {
-    display: inline-block;
     margin-top: 69px;
 
 }
@@ -171,9 +162,7 @@ header .logo {
 
 }
 
-.main-content .top-content .text-content:last-child {
 
-}
 
 .main-content .middle-img {
     margin-top: 45px;

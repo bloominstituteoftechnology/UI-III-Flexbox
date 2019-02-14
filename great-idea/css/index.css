@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    line-height: 1;
+    line-height: 1.25;
 }
 ol, ul {
     list-style: none;
@@ -41,10 +41,6 @@ blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -66,7 +62,6 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
     width: 880px;
-    border:1px solid blue;
     /* TB LR */
     margin: 0 auto;
 
@@ -76,12 +71,12 @@ h1, h2, h3, h4, h5 {
 
 header{
     display:flex;
-    align-items:flex-bottom;
 }
 header nav {
     width: 691px;
-    margin-top: 35px;
 
+    align-self:center;
+    height:20px;
 }
 
 header nav a {
@@ -97,15 +92,9 @@ header nav a:hover {
 
 }
 
-header nav a:first-child {
-    margin-left: 0;
 
-}
 
-header nav a:last-child {
-    margin-right: 0;
 
-}
 
 header .logo {
     display: inline-block;
@@ -121,39 +110,26 @@ header .logo {
 
 }
 
-.cta .cta-text button {
-    background: white;
-    vertical-align: top;
-    margin-top: 6px;
-    padding: 8px 44px;
-    font-size: 17px;
-    border: 1px solid black;
-    cursor: pointer;
 
-}
-
-.cta .cta-text button:hover {
-    background: black;
-    color: white;
-
+.cta .cta-text h2{
+    font-size:25px;
 }
 
 .cta img {
     display: inline-block;
-    margin-top: 69px;
+    margin-top: 10px;
 
 }
 
 .main-content {
     border-top: 1px solid black;
-    margin-top: 76px;
+    margin-top: 46px;
     padding-top: 39px;
 
 }
 
 .main-content .top-content {
     padding: 0 0px;
-    border:1px solid red;
 
     width:880px;
     display:flex;
@@ -165,7 +141,7 @@ header .logo {
 .main-content .top-content .text-content {
     width: 420px;
 
-    background:#e2e2e2;
+    background:whitesmoke;
     border:1px solid grey;
 
     margin-bottom:30px;
@@ -173,48 +149,61 @@ header .logo {
 }
 
 .main-content .top-content .text-content button {
-    padding:5px 25px;
-    margin:10px auto;
-    display:block;
+    padding:10px 40px;
     border-radius:5px;
+    margin-top:10px;
     border:1px solid black;
 }
 
 
-}
 
 
 
-/* .main-content .bottom-content .text-content { */
-/* width: 400px; */
-/* margin-right: 12px; */
 
-/* } */
-
-/* .main-content .bottom-content .text-content:last-child { */
-/* margin-right: 0; */
 .bottom-content .bottom-content-div{
     display:flex;
+    border-top:2px solid black;
+    margin-top:40px;
     justify-content:space-between;
 }
 
 
-
-.contact {
-    margin-top: 57px;
-    border-top: 1px solid black;
-    padding: 39px 10px 0;
-
+.bottom-text{
+    width:400px;
+    padding-top:40px;
 }
 
-.contact p {
-    margin: 20px 0;
-
+.bottom-text ul{
+    margin-top:40px;
+    list-style-type: square;
+    list-style-position: inside;
 }
+
+.bottom-text ul li{
+    margin:10px;
+}
+
+.services-info-img{
+    padding-top:40px;
+}
+
+
+
+
 
 footer {
-    margin: 32px 0;
+    margin-top: 50px;
     text-align: center;
     font-size: 14px;
 
 }
+
+
+@media (max-width:600px){
+    .top-content{
+
+        flex-direction:column;
+        align-items:center;
+    }
+
+
