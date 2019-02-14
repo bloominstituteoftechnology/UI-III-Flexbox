@@ -223,7 +223,7 @@ header nav a:last-child {
 
 .main-content {
   border-top: 1px solid black;
-  margin-top: 76px;
+  margin-top: 39px;
   padding-top: 39px;
   display: flex;
   /* align-items: center;
@@ -298,8 +298,18 @@ header nav a:last-child {
   margin: 20px 0;
 }
 
+.very-bottom {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+  margin-bottom: 57px;
+}
+
 footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+.list-bottom {
+  margin: 20px;
 }
