@@ -68,7 +68,9 @@ h1, h2, h3, h4, h5 {
 	width: 90%;
 	margin: 0 auto;
 }
-
+h1{
+	font-size: 50px;
+}
 h2{
 	font-size: 30px;
 }
@@ -78,7 +80,7 @@ p{
 }
 .top{
 	display:flex;
-	margin: 14% 0% 8% 0%;
+	margin: 6% 0% 8% 0%;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -100,6 +102,10 @@ p{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 3%;
+}
+.middle2{
+	border-bottom: 1px solid black;
+	padding: 0% 0% 3% 0%;
 }
 .state{
 	padding: 5px;
@@ -127,13 +133,10 @@ p{
 }
 .duck{
 	display: flex;
-	width: 100%;
-	position: absolute;
-	top: 0%;
-	left: -4%;
+	width: 90%;
 	height: 70px;
 	align-items: center;
-	margin: 2% 0%;
+	margin: 2% 0% 0% 0%;
 }
 nav {
 	display: flex;
@@ -160,7 +163,7 @@ footer{
 }
 .services-header-img{
 	width: 100%;
-	margin: 6% 0%;
+	margin: 0% 0% 6% 0%;
 }
 .six-boxes{
 	margin: 4%;
@@ -168,4 +171,35 @@ footer{
 	border-bottom: 1px solid black;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+.boxed{
+	width: 45%;
+	border: 1px solid rgb(112, 108, 108);
+	background-color: rgba(209, 207, 207, 0.541);
+	padding: 2%;
+	margin: 1%;
+}
+.button2{
+	height: 40px;
+	width: 150px;
+	margin: 4%;
+}
+.some{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.facts{
+	width: 40%;
+	margin: 0% 12% 0% 0%;
+}
+ul{
+	margin: 3%;
+	list-style-type: square;
+}
+li{
+	font-size: 20px;
+	padding: 1%;
 }
