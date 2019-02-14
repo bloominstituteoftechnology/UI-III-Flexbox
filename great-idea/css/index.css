@@ -48,9 +48,9 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 html, body {
     height: 100%;
@@ -60,110 +60,132 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
-}
+    }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
- 
+body {
+	max-width: 800px;
+	margin: 2% auto;
+}
 
 .logo {
-	display: flex;
-	flex-direction: flex-end;
-	justify-content: space-evenly;
 	background-color: white;
-	padding: 20px;
+	margin: 0px 20px 0px 60px;
+	overflow: hidden;
+	padding: 0 5px 0 5px;
+}
+
+.navi a {
+	background-color: white;
+	color: grey;
+text-decoration: none;
+display: flex;
+	justify-content: space-around;
+	margin: 20px 15px;
+	padding: 0 5px;
+	cursor: pointer;
 }
 
 .navi {
-	display: flex;
-	overflow: hidden;
-    background-color: white;
-   position: fixed;
-  
-}
-
-.navi a{
 	background-color: white;
-	color: grey;
-	padding: 10px;
-	margin: 5px;
-	text-decoration: none;
-	display: flex;
-	flex-direction: row;
-	padding: 30px;
-}
+ position: fixed;
+ width: auto;
+display: flex;
+justify-content: space-evenly;
+	align-items: center;
+overflow: hidden;
+top: 0;
+	}
 
-.welcome {
-	display: flex;
-	font-size: 50px;
-	justify-content: space-between;
-	padding: 20px;
-	
-}
-.welcome button {
+
+button{
 	color: white;
 	background-color: rgb(25, 170, 238);
-	border-radius: 20px;
-	margin: 10px 1%;
-	width: 40px;
-	display: inline-block;
-	vertical-align: bottom;
-	}
+	border-radius: 10px;
+	outline: none;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+	display: flex;  
+}
 
-.welcome button:hover {
+button:hover {
 	color: white;
 	background-color: pink;
+	margin-top: 6px;
+}
+
+.closing {
+	display: flex;
+	border: 10px solid red;
+	border: 10px solid green;
+align-items: space-around;
 
 }
 
-.welcome .header {
+.closing .facts {
 	display: flex;
-	font-size: 60px;
-	margin: 15px 1%;
-	width: 45%;
-	
-	}
+	flex-direction: row;
+  font-size: 77px;
+	padding: 0px 25px;
+	flex-wrap: wrap;
+	border: 10px solid yellow;
+	justify-content: space-evenly;
+	justify-content: space-around;
+}
 
-	h1 {
+.services-info-img{
 	display: flex;
-	font-size: 100px;
-	/* margin: 15px 1%;
-	width: 45%; */
-	}
+	/* flex-wrap: wrap; */
+	flex-direction: row;
+	border: 10px solid blue;
+	margin-top: 69px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
 
 .main-content {
-	border-top: 1px solid black;
 	display: flex;
+	line-height: 1.5em;   
+	padding: 10px;
 	}
 
 .main-content section {
     margin: 20px 1%;
-	padding: 20px;
+	padding: 0 10px;
+	}
 	
-  }
+	.img-middle {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-bottom: 20px;
+	}
 
-
-
-
-.second{
+.second {
 	display: flex;
+	/* flex-wrap: wrap; */
 	/* align-content: space-between;
 	justify-content: space-between; */
-	margin: 30px 1%;
-	padding: 20px;
+	/* margin: 0 25px; */
+	padding: 20px 0px;
+	line-height: 1.5em; 
+	justify-content: space-evenly;
+	padding-bottom: 30px;
 }
 
-  footer p {
-	  display: flex;
-	  align-items: center;
-	  align-items: space-around;
-	  padding: 2px 1px;
-	  
-  }
 
   footer .contact {
 	margin-top: 40px 0; 
 	width: 700px;
-	padding: 20px;
-  } 
-
+	padding-top: 20px;
+	padding-top: 20px;
+	} 
+	
+.copyright {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
