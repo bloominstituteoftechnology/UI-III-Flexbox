@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5 {
  nav a{
 	 margin-left: 20px;
 	 font-size:18px;
+	 text-decoration: none;
  }
 	
  /* header css */
@@ -148,16 +149,79 @@ footer{
 	}
 
 
+/*CODE FOR SERVICE.HTML PAGE */
 
 
- 
+.service-navigation{
+	display:flex;
+	margin:20px 0;
+	padding:20px 0;
+	justify-content: space-between;
+}
 
+ nav a{
+	 margin-left: 20px;
+	 font-size:18px;
+	 text-decoration: none;
+ }
 
+ .services-header-img{
+	
+	 width: 800px;	
+ }
 
+ /*header*/
+ .service-header{
+	 border-bottom:1px solid black;
+	 display:flex;
+	 flex-direction: column;	 	 
+ }
+ .service-header h1{
+	 display:flex;
+	 align-content: flex-start;
+	 font-size: 18px;
 
+ }
 
+ .service-middle-content{
+	
+	 display:flex;
+	 flex-direction: row;
+	 flex-wrap:wrap;
+	 border-bottom:1px solid black;
+	 margin-bottom: 30px 0;
+	
+ }
+	
 
+ .style1{
+	display:flex;
+	
+	background: gray;
+   
+}
+.style2{
+   display:flex;
+   background: gray;
+}
+.style3{
+   display:flex;
+   background: gray;
+}
 
+.last-part{
+	display:flex;
+	margin:20px 0;
+}
+
+.last-part p{
+	width: 95%;
+}
+
+.services-footer{
+	margin: 20px 0;
+
+}
 
 
 
