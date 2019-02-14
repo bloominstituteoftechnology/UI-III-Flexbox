@@ -177,3 +177,32 @@ footer {
   margin: 50px 0 20px 0;
   text-align: center;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+
+/* Removes nav and header iamges*/
+  header {
+    display: none;
+  }
+
+  /* Main content */
+  .main-content {
+    margin-top: 50px;
+  }
+
+  .main-content div.box {
+    width: 100%;
+  }
+
+  /* Removes bottom image and expands width on facts div */
+  .bottom-content div {
+    width: 100%;
+  }
+
+  .bottom-content div.image {
+    display: none;
+  }
+
+}
