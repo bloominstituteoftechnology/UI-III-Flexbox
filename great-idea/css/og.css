@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-v2.0 | 20110126
-License: none (public domain)
- */
+ *    v2.0 | 20110126
+ *       License: none (public domain)
+ *       */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -22,29 +22,36 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
+
 }
 body {
     line-height: 1;
+
 }
 ol, ul {
     list-style: none;
+
 }
 blockquote, q {
     quotes: none;
+
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
+
 }
 table {
     border-collapse: collapse;
     border-spacing: 0;
+
 }
 
 /* Set every element's box-sizing to border-box */
@@ -62,11 +69,8 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.container {
+.container-home {
     width: 880px;
-    border:1px solid blue;
     /* TB LR */
     margin: 0 auto;
 
@@ -76,11 +80,11 @@ h1, h2, h3, h4, h5 {
 
 header{
     display:flex;
-    align-items:flex-bottom;
+    justify-content:space-between;
+    align-items:flex-end;
 }
 header nav {
     width: 691px;
-    margin-top: 35px;
 
 }
 
@@ -108,16 +112,20 @@ header nav a:last-child {
 }
 
 header .logo {
-    display: inline-block;
-    margin-top: 5px;
 
 }
 
 /* cta */
 
+.cta{
+    display:flex;
+    justify-content:space-between;
+}
 .cta .cta-text {
-    text-align:left;
-    padding-top:25px;
+    font-size: 77px;
+    margin-top: 120px;
+    text-align: center;
+    padding: 0px 75px;
 
 }
 
@@ -152,50 +160,37 @@ header .logo {
 }
 
 .main-content .top-content {
-    padding: 0 0px;
-    border:1px solid red;
-
-    width:880px;
+    padding: 0 10px;
     display:flex;
-    flex-wrap:wrap;
     justify-content:space-between;
-}
 
+}
 
 .main-content .top-content .text-content {
-    width: 420px;
-
-    background:#e2e2e2;
-    border:1px solid grey;
-
-    margin-bottom:30px;
-    padding:30px;
-}
-
-.main-content .top-content .text-content button {
-    padding:5px 25px;
-    margin:10px auto;
-    display:block;
-    border-radius:5px;
-    border:1px solid black;
-}
-
+    width: 410px;
 
 }
 
+.main-content .top-content .text-content:last-child {
 
+}
 
-/* .main-content .bottom-content .text-content { */
-/* width: 400px; */
-/* margin-right: 12px; */
+.main-content .middle-img {
+    margin-top: 45px;
 
-/* } */
+}
 
-/* .main-content .bottom-content .text-content:last-child { */
-/* margin-right: 0; */
-.bottom-content .bottom-content-div{
+.main-content .bottom-content {
+    margin-top: 37px;
     display:flex;
+
     justify-content:space-between;
+
+}
+
+.main-content .bottom-content .text-content {
+    width: 275px;
+
 }
 
 
