@@ -258,10 +258,12 @@ header nav a:last-child {
 
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
+  display: flex;
 }
 
 .main-content .middle-img {
   margin-top: 45px;
+  display: flex;
 }
 
 .main-content .bottom-content {
@@ -273,6 +275,9 @@ header nav a:last-child {
   display: flex;
 }
 
+.top-content {
+  display: flex;
+}
 
 /* .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
