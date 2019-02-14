@@ -150,65 +150,63 @@ footer{
 
 
 /*CODE FOR SERVICE.HTML PAGE */
-
-
-.service-navigation{
+/*nav header */
+header  nav {
 	display:flex;
-	margin:20px 0;
-	padding:20px 0;
-	justify-content: space-between;
-}
-
- nav a{
-	 margin-left: 20px;
+	justify-content: space-around;
 	 font-size:18px;
 	 text-decoration: none;
  }
 
- .services-header-img{
-	
-	 width: 800px;	
+ /*top image*/
+ .services-content .services-header-img{
+	 width: 797px;	
  }
 
- /*header*/
- .service-header{
-	 border-bottom:1px solid black;
-	 display:flex;
-	 flex-direction: column;	 	 
- }
- .service-header h1{
-	 display:flex;
-	 align-content: flex-start;
-	 font-size: 18px;
+ /*h1 below first image */
 
- }
+.services-content h1{
+	margin: 20px 0;
+	font-size:18px;
+}
+/*services and paragraph */
+.services-content .services-text {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
 
- .service-middle-content{
-	
-	 display:flex;
-	 flex-direction: row;
-	 flex-wrap:wrap;
-	 border-bottom:1px solid black;
-	 margin-bottom: 30px 0;
-	
- }
-	
-
- .style1{
+/*main-content-boxes */
+.main-content-boxes{
 	display:flex;
-	
-	background: gray;
-   
-}
-.style2{
-   display:flex;
-   background: gray;
-}
-.style3{
-   display:flex;
-   background: gray;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height: 1.3;
 }
 
+.main-content-boxes .content{
+	border:1px solid black;
+	padding:20px;
+	width:385px;
+	background:whitesmoke;
+	margin:20px 0;
+}
+
+.main-content-boxes .content button{
+	padding: 10px 30px;
+	margin-top:20px;
+	cursor: pointer;
+	background:white;
+	border-radius:5px;
+	border:1px solid black;
+	margin-right:220px;
+}
+
+.main-content-boxes {
+	border-bottom:1px solid black;
+}
+
+/* last part with ul */
 .last-part{
 	display:flex;
 	margin:20px 0;
@@ -217,15 +215,25 @@ footer{
 .last-part p{
 	width: 95%;
 }
-
-.services-footer{
-	margin: 20px 0;
-
+.last-part ul{
+	list-style: square;
+	padding:10px 0;
+	margin:10px 0;
+	margin-left:10px;
+	padding-left:10px;
+	line-height: 1.75;	
 }
 
+/* last part img css */
+.services-info-img{
+	width:380px;
+	height:260px;
+}
+/*footer */
+.services-footer{
+	margin: 0 auto;
 
-
-
+}
 
 
 
