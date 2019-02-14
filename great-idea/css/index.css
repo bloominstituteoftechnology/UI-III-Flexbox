@@ -185,3 +185,12 @@ body {
 	display: block;
 	text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .nav-element {
+        margin: .5rem;
+        text-align: center;
+        display: block;
+	}
+}
