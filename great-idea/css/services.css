@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 880px;
-	margin: auto;
+    margin: auto;
 }
 
 nav {
@@ -80,7 +80,8 @@ nav {
 nav a {
 	font-family: 'Titillium Web', sans-serif;
 	color: gray;
-	text-decoration: none;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 header{
@@ -104,7 +105,9 @@ h1{
     margin-top: 3%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+    padding-bottom: 3%;
 }
 
 .main-content section{
@@ -112,14 +115,48 @@ h1{
     background-color: rgb(244, 244, 248);
     border: 1px solid black;
     padding: 2%;
-    margin: 2% auto;
+    margin: 2% 0;
+}
+
+.main-content .main-content-left{
+    margin-right: 10%;
 }
 
 .main-content section button{
     margin-top: 5%;
-    padding: 2% 7%;
+    padding: 2% 8%;
     background-color: white;
     border: 1px solid black;
     border-radius: 6%;
 }
+
+footer {
+    margin-top: 5%;
+    display: flex;
+}
+
+footer .footer-content{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-caption{
+    height: 45%;
+}
+
+footer .footer-list{
+    height: 45%;
+    list-style: square;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 5%;
+}
+small{
+    font-size: 80%;
 }
