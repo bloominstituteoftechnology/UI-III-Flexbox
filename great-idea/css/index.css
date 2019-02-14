@@ -277,6 +277,7 @@ header nav a:last-child {
 
 .top-content {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .text-content {
