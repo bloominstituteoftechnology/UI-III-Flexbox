@@ -65,204 +65,94 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* Main Container */
+.whole-page {
+	width: 1200px;
+	margin: auto;
+}
 
+/* Header */
 
-
-/* ------------------MAIN PAGE------------------ */
-
-/* NAVBAR */
-nav {
-	text-align: center;
-	background-color: lightblue;
+header {
+	width: 100%;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .navbar {
-	overflow: hidden;
-	background-color: white;
-	position: fixed;
-	top: 0;
-	width: 100%;
-  }
+	margin: 20px 0;
+	width: 1200px;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
 
 nav a {
-	display: flex;
-	justify-content: center;
-	color: black;
 	text-decoration: none;
-	margin: 15px 40px;
-	vertical-align: middle;
+	color: black;
 }
 
 nav a:hover {
-	animation: nav;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-}
-
-
-/* MAIN SECTION */
-.main {
-	display: flex;
-	text-align: center;
-	margin-top: 40px;
-	margin-left: 100px;
-	align-items: center;
-}
-
-.main section {
-	margin: 40px 20px;
-	vertical-align: middle;
-	width: 40%;
-}
-
-h1 {
-	font-size: 60px;
-	text-align: center;
-}
-
-button {
-	border: 1px solid gray;
-	color: gray;
-	font-size: 20px;
-	padding: 2px 30px;
-	font-family: 'Titillium Web', sans-serif;
-}
-
-hr {
-	width: 89%;
-}
-
-
-
-/* ABOUT */
-.aboutOne {
-	display: flex;
-	margin-left: 100px;
-}
-
-.aboutOne section {
-	width: 45%;
-	margin: 20px 10px;
-}
-
-.aboutTwo img {
-	display: flex;
-	width: 80%;
-	margin: 20px 0 20px 120px;
-}
-
-.aboutThree {
-	display: flex;
-	margin-left: 100px;
-}
-
-.aboutThree section {
-	width: 30%;
-	margin: 20px 10px;
-}
-
-
-
-/* FOOTER */
-footer {
-	margin-top: 20px;
-	margin-left: 110px;
-}
-
-.address-space {
-	margin: 15px 0;
-}
-
-footer p {
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-p {
-	font-family: 'Montserrat', sans-serif;
-}
-
-
-
-/* ANIMATION */
-@keyframes nav {
-	0% {background-color: white; color: black;}
-	50% {background-color: black; color: white;}
-	100% {background-color: white; color: black;}
-}
-
-
-
-
-/* ------------------SERVICE PAGE------------------ */
-
-
-/* Header image */
-.header-image {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	text-decoration: underline;
 }
 
 .services-header-img {
-	height: 300px;
-	width: 80%;
+	display: flex;
+	width: 1200px;
 }
 
-/* Service info */
 .service-box {
-	margin: 30px 120px;;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 0; 
 }
 
-.service-box h1 {
-	text-align: left;
-}
-
-/* About boxes */
 .parent-box {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height: 1.1;
 }
 
 .child-box {
-	flex: 1 0 40%;
-	margin: 30px;
-	padding: 20px;
 	border: 1px solid black;
+	padding: 20px;
 	background: lightgray;
+	margin: 20px 0;
+	width: 570px;
 }
 
 .small-button {
-	margin: 10px 0;
-	border-radius: 5px;
 	border: 1px solid black;
 	color: black;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 10px;
-	height: 30px;;
+	background: white;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px 20px;
 }
-
-/* Facts info */
 
 .facts-parent {
 	display: flex;
-	margin-left: 35px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
 }
 
 .facts-item {
-	width: 45%;
-	margin: 30px 40px;
+	width: 500px;
 }
 
 ul {
-	margin-top: 15px;
+	list-style: square;
+	line-height: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
-li {
-	list-style-type: square;
-	line-height: 30px;
-	margin-left: 20px;
+.services-info-img {
+	margin-left: 80px;
+}
+
+footer {
+	text-align: center;
+	margin: 50px 0;
 }
