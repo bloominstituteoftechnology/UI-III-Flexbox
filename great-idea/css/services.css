@@ -76,7 +76,8 @@ h1, h2, h3, h4, h5 {
   header {
 	  display: flex;
 	  flex-direction: row;
-	  justify-content: space-evenly;
+		justify-content: space-evenly;
+		margin-bottom: 10px;
   }
   
   header nav {
@@ -115,10 +116,9 @@ h1, h2, h3, h4, h5 {
   
   .cta {
 	display: flex;
-	justify-content: space-evenly
+	justify-content: space-evenly;
 	/* flex-direction: row; */
 	/* justify-content: flex-start; */
-  
 }
   .cta .cta-text {
 	display: flex;
@@ -158,20 +158,26 @@ h1, h2, h3, h4, h5 {
 }
   
   .main-content {
-	border-top: 1px solid black;
-	margin-top: 76px;
-	padding-top: 39px;
+	border-bottom: 1.25px solid black;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
   }
-  
+	
+	.main-content h1 {
+		font-size: 23px;
+	}
+
   .main-content .top-content {
 	padding: 0 10px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
   }
   
   .main-content .top-content .text-content {
-	width: 410px;
+	/* width: 410px; */
+	
 
   }
   
@@ -179,8 +185,8 @@ h1, h2, h3, h4, h5 {
 	  /* nothing here */
   /* } */
   
-  .main-content .middle-img {
-	margin-top: 45px;
+  .main-content .services-header-img {
+	margin-bottom: 27px;
   }
   
   .main-content .bottom-content {
@@ -192,13 +198,49 @@ h1, h2, h3, h4, h5 {
   }
   
   .main-content .bottom-content .text-content {
-	width: 275px;
+	/* width: 275px; */
   }
   
   /* .main-content .bottom-content .text-content:last-child { */
 	/* nothing here */
   /* } */
-  
+	
+	
+.realMain {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	border-bottom: 1.25px solid black;
+	margin-bottom: 35px;
+	padding-bottom: 30px;
+	margin-top: 0px;
+
+}
+
+.realMain .text-content{
+	border: 1.25px solid black;
+	border-style: border-box;
+	background-color: lightgray;
+	padding: 15px;
+	height: 230px;
+	width: 380px;
+	margin: 15px;
+
+
+}
+
+.realMain .text-content h1 {
+
+}
+
+.realMain.text-content p{
+
+}
+
+.realMain.text-content button {
+
+}
+
   .contact {
 	margin-top: 57px;
 	border-top: 1px solid black;
