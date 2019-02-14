@@ -64,15 +64,11 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-.container, .services-container {
-  width: 880px;
-  /* TB LR */
-  margin: 0 auto;
-}
-
-/* header */
+.services-container {
+    width: 880px;
+    /* TB LR */
+    margin: 0 auto;
+  }
 
 header nav {
 	display: flex;
@@ -91,96 +87,75 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-header .logo {
+.services-header {
+	margin-bottom: 20px;
 }
 
-/* cta */
+.services-top-content {
+	height: 150px;
+	border-bottom: 1px solid black;
+	padding: 26px 0;
+	/* margin-bottom: 20px; */
+	font-size: 18px;
+}
 
-.cta {
+.services-title {
+	font-size: 26px;
+}
+
+.services-middle-content {
 	display: flex;
-	justify-content: space-evenly;
-}
-.cta .cta-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 95px;
-  text-align: center;
-  align-items: center;
-  font-size: 77px;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding-bottom: 25px;
+	margin: 20px 0 0;
 }
 
-.cta .cta-text button {
-  background: white;
-  vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px;
-  font-size: 17px;
-  border: 1px solid black;
-  cursor: pointer;
+.services-middle-text-box {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	background: rgb(236, 234, 234);
+	border: 1px solid black;
+	width: 47.5%;
+	height: 260px;
+	margin: 2.5% 0;
+	padding: 20px;
+	font-size: 18px;
 }
 
-.cta .cta-text button:hover {
-  background: black;
-  color: white;
+.services-middle-text-box button {
+	width: 125px;
+	height: 40px;
+	margin: 15px 0 0 0;
+	border: 1px solid black;
+	border-radius: 6px;
 }
 
-.cta img {
-  margin-top: 69px;
-}
-
-.main-content {
-  border-top: 1px solid black;
-  margin-top: 76px;
-  padding-top: 39px;
-}
-
-.main-content .top-content {
+.services-bottom-content {
 	display: flex;
 	justify-content: space-between;
-
-  padding: 0 10px;
+	margin: 50px 0;
+	font-size: 18px;
 }
 
-.main-content .top-content .text-content {
- }
-
-.main-content .top-content .text-content:last-child {
-  margin-right: 0;
+.services-bottom-text-box {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	width: 47.5%;
 }
 
-.main-content .middle-img {
-  margin-top: 45px;
+.copyright {
+	text-align: center;
+	margin: 20px;
 }
 
-.main-content .bottom-content {
-  display: flex;
-  justify-content: space-between;
-
-	margin-top: 37px;
-  	padding: 0 10px;
+.services-bottom-content-list {
+	padding: 25px 0;
 }
 
-.main-content .bottom-content .text-content {
-
-}
-
-.main-content .bottom-content .text-content:last-child {
-  margin-right: 0;
-}
-
-.contact {
-  margin-top: 57px;
-  border-top: 1px solid black;
-  padding: 39px 10px 0;
-}
-
-.contact p {
-  margin: 20px 0;
-}
-
-footer {
-  margin: 32px 0;
-  text-align: center;
-  font-size: 14px;
+li {
+	padding: 5px;
 }
