@@ -43,7 +43,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+* not:.main-content {
     box-sizing: border-box;
 }
 
@@ -51,6 +51,24 @@ table {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
+}
+
+p{
+	line-height: 1.3;
+}
+
+.main-content button {
+	padding: 10px 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-top: 20px;
+    transition: 2s;
+}
+
+.main-content button:hover {
+	transition: 2s;
+    box-shadow: 0 0px 15px 3px lightgrey;
 }
 
 header{
@@ -98,19 +116,66 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+.top-content {
+	border-bottom: 1px solid black;
+    padding-bottom: 42px;
+}
+
+.top-content h1 {
+	font-size: 30px;
+}
+
 .main-content {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-between;
-
+    margin-top: 21px;
 }
 
 .main-content div {
 	border: 1px solid black;
 	width: 300px;
-	 
+    background-color: #f4f2fb;
+    padding: 20px;
+    margin: 20px 0px 15px 0px;
+	padding-right: 24px;
+	width: 375px;
 }
 
+.bottom-content {
+	height: 385px;
+	border-top: 1px solid black;
+    padding-top: 45px;
+    margin-top: 30px;
+    display: flex;
+	flex-flow: column wrap;
+
+}
+
+.bottom-content p {
+	box-sizing: border-box;
+	width: 455px;
+	height: 115px;
+    padding-right: 60px;
+}
+
+.bottom-content ul {
+	line-height: 2;
+	list-style: disc;
+	margin-left: 17px;
+}
+
+.bottom-content img {
+	height: 300px;
+    width: 400px;
+    padding-left: 27px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 20px;
+}
 
  
   
