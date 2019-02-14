@@ -51,9 +51,6 @@ table {
 * {
     box-sizing: border-box;
 }
-hr .divider {
-  margin: 20px 0;
-}
 
 html, body {
     height: 100%;
@@ -144,12 +141,21 @@ header .logo {
   margin-top: 69px;
 }
 
+.divider {
+  margin: 40px 0;
+}
+
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
 
+.main-content .container{
+  display: block;
+  width: 50%;
+  padding: 30px;;
+}
 .main-content .top-content {
   padding: 0 10px;
 }
