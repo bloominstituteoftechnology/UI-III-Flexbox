@@ -359,7 +359,8 @@ footer {
 }
 
 .service-about .left ul {
-	padding: 20px 0;
+	padding: 20px;
+	list-style-type: square;
 }
 
 
@@ -379,7 +380,8 @@ footer {
 }
 
 .vision-info .left ul {
-	padding: 20px 0;
+	padding: 20px;
+	list-style-type: square;
 }
 
 .vision-info img {
