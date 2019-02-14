@@ -1,0 +1,42 @@
+CONTAINER - MARGIN 3
+HEADER
+    NAV - COMPONENT
+    PICTURE - BLOCK
+    SECTION - BLOCK
+        TITLE
+        PARAGRAPH
+HR
+MAIN - DISPLAY: FLOW & SPACE-BETWEEN
+    SECTION - 2REM PADDING
+        H2
+        P
+        BUTTON - MARGIN-TOP
+    SECTION
+        H2
+        P
+        BUTTON
+    SECTION
+        H2
+        P
+        BUTTON
+    SECTION
+        H2
+        P
+        BUTTON
+    SECTION
+        H2
+        P
+        BUTTON
+    SECTION
+        H2
+        P
+        BUTTON
+HR
+FOOTER
+    DIV - DISPLAY: FLOW
+        SECTION
+            H2
+            P
+            UL
+    IMAGE
+    COPYRIGHT - DISPLAY: BLOCK CENTER

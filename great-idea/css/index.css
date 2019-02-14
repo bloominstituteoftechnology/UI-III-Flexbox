@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* 1 REM  = 1 px */
+html,
+body {
+	font-size: 62.5%;
+}
+
+/* sticky nav */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* sticky nav */
+.sticky+.dummy-div {
+	padding-top: 8rem;
+}
+
+.hr-style {
+	color: black;
+	border: .05rem solid black;
+}
+
+.container {
+	max-width: 85rem;
+	margin: 0rem auto 3rem auto;
+	font-size: 1.5rem;
+}
+
+.nav-grouping {
+	padding: 2rem 0 2rem 0;
+	background: white;
+}
+
+.nav-element {
+	margin: 0 2rem;
+	color: grey;
+	text-decoration: none;
+}
+
+.logo {
+	padding: 0 7rem;
+	height: 3rem;
+	vertical-align: middle;
+}
+
+.header-section {
+	margin: 2rem 0;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.half-page-block {
+	margin: 2rem 0;
+	align-content: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.flex-item-center{
+	align-items: center;
+}
+
+.title {
+	font-size: 6rem;
+}
+
+.get-started-button {
+	width: 15rem;
+	padding: .6rem 0;
+	background: white;
+	border: .1rem solid black;
+}
+
+.get-started-button:hover{
+	background: black;
+	color: white;
+}
+
+.circle-img {
+	border-radius: 50%;
+}
+
+.information {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.third-page-block {
+	margin: 2rem 1rem;
+	text-align: left;
+}
+
+.middle-img {
+	margin: 1.5rem 0;
+	display: block;
+	width: 100%;
+	height: 15rem;
+}
+
+.footer {
+	margin: 3rem 0;
+}
+
+.address-element {
+	margin: 2rem 0;
+}
+
+.email {
+	color: black;
+	text-decoration: none;
+}
+
+.copyright {
+	display: block;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nav-element {
+        margin: .5rem;
+        text-align: center;
+        display: block;
+	}
+}

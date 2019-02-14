@@ -1,23 +1,101 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Great Idea!</title>
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+  <link href="css/index.css" rel="stylesheet" type="text/css">
+  <script src="js/navbar.js"></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
-  <body>
+<body>
+  <div class="container">
+    <header>
+      <!--Nav Bar code in nav-component.html-->
+      <div w3-include-html="nav-component.html"></div>
+      <section class="header-section">
+        <div class="half-page-block flex-item-center">
+          <h1 class="title">
+            Innovation <br />
+            On <br />
+            Demand <br />
+          </h1>
+          <button class="get-started-button">Get Started</button>
+        </div>
+        <div class="half-page-block">
+          <img class="circle-img" src="img/header-img.png" alt="Image of a code snippet.">
+        </div>
+      </section>
+    </header>
+    <hr class="hr-style">
+    <main>
+      <div class="information">
+        <section class="half-page-block">
+          <h2>Features</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </section>
 
-    <!-- Copy and paste your HTML from the first UI project here -->
-      
-    
-  </body>
+        <section class="half-page-block">
+          <h2>About</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </section>
+      </div>
+
+      <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+      </section>
+
+      <div class="information">
+        <section class="third-page-block">
+          <h2>Services</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </section>
+
+        <section class="third-page-block">
+          <h2>Product</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </section>
+
+        <section class="third-page-block">
+          <h2>Vision</h2>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </section>
+      </div>
+    </main>
+    <hr class="hr-style">
+    <footer class="footer">
+      <h2>Contact</h2>
+      <address class="address-element">
+        123 Way 456 Street <br />
+        Somewhere, USA
+      </address>
+      <address class="address-element">
+        1 (888) 888-8888 <br />
+      </address>
+      <address class="address-element">
+        <a class="email" href="mailto:sales@greatidea.io">sales@greatidea.io</a>
+      </address>
+      <span class="copyright">&copy; Copyright Great Idea! 2019</span>
+    </footer>
+  </div>
+
+  <script>
+    includeHTML();
+  </script>
+
+</body>
+
 </html>
