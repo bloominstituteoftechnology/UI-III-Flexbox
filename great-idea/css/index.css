@@ -79,7 +79,7 @@ body {
 }
 
 /* sticky nav */
-.sticky+.header-section {
+.sticky+.dummy-div {
 	padding-top: 8rem;
 }
 
