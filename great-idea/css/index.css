@@ -279,6 +279,10 @@ header nav a:last-child {
   display: flex;
 }
 
+.text-content {
+  background-color: lightgrey;
+}
+
 /* .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
 } */
