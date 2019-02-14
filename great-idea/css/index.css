@@ -64,3 +64,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* top nav bar css */
+header{
+	display: flex;	
+	/* border: 1px solid blue; */
+	margin: 20px 0;
+	padding: 20px 0;
+	justify-content: space-around;
+}
+header nav{
+	display: flex;
+	width: 90%;
+	/* border: 1px solid red; */
+	justify-content: space-around;
+	
+}
+nav a{
+	font-size: 20px;
+	padding-top: 5px;
+	text-decoration: none;
+	color: gray;
+}
+nav a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+/* index page css */
+.top-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	padding:10px;
+}
+.top-container h1{
+	font-size:100px;
+	text-align: center;
+	/* border: 1px solid red; */
+	padding-top: 20px;
+}
+.top-container .top-img{
+	/* border: 1px solid red; */
+}
+.mainpage-content{
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.mainpage-mid-content{
+	/* border:1px solid red; */
+	display: flex;
+	justify-content: space-evenly;
+}
+.middle-img{
+	display: block;
+	margin: 20px auto 20px;
+}
+.indexPageContent{
+	margin: 20px 5%;
+	width: 35%;
+}
+.get-btn{
+	display: block;
+	margin: 10px auto 20px;
+	font-size: 15px;
+}
+.mainFooter{
+	/* border: 1px solid yellow; */
+	display: flex;
+	padding-left: 10%;
+	justify-content: flex-start;
+}
+.mainFooter h3{
+	/* border: 1px solid green; */
+	padding-top: 10%;
+}
+
+/* copyright css */
+.copyright{
+	display: flex;
+	justify-content: center;
+}
+/* services page css */
+.svc-topimg{
+	display: flex;
+	justify-content: center;
+}
+
+.svc-topCantainer{
+	display: flex;
+	/* border: 1px solid yellow; */
+	justify-content: center;
+}
+.svcsPage-info{
+	border-bottom: 1px solid gray;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+}
+
+.svcsPage-info h1{
+	padding-top: 15px;
+	font-size: 25px;
+}
+.svcsPage-info p{
+	font-family: "Titillium Web", sans-serif;
+	font-size: 16px;
+}
+.svcPage-content{
+
+	display: flex;
+	justify-content: center;
+}
+.svc-offered{
+	
+	border-bottom: 1px solid gray;
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.svc-offered div{
+	height: 310px;
+	width: 400px;
+	line-height: 1.5;
+	border: 1px solid black;
+	padding: 1%;
+	background: gray;
+	margin: 2% 2%;
+}
+.svc-offered div button{
+	padding: 10px 30px;
+	border-radius: 5%;
+	margin-top: 10%;
+}
+.svcPage-footer{
+	border: 1px solid gray;
+	display: flex;
+	justify-content: center;
+}
+.svc-footer{
+	width: 23%;
+	border: 1px solid red;
+	padding: 10px;
+	margin: 1%;
+	line-height: 1.25;
+}
+.svc-footer ul{
+	padding: 20px;
+	list-style-type: square;
+}
