@@ -83,10 +83,14 @@ header nav {
   header img.logo{
     display:flex;
     justify-content:flex-end;
+    margin-left:350px;
   }
   .head{
     display:flex;
     justify-content:space-around;
+  }
+  header{
+    display:flex;
   }
   .firstpic{
     width: 100%;
@@ -111,7 +115,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 .services-header-img {
@@ -136,7 +140,13 @@ footer {
     background: lightgray;
     margin: 20px 0;
 }
-
+button{
+  margin-top: 10px;
+    background: white;
+    width:120px;
+    height: 40px;
+    border: 1px solid black
+}
 
 .services-content .services-info ul {
     margin: 20px;
