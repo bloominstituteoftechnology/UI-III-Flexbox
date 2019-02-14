@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
@@ -63,4 +63,181 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color:lightgray;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header .logo {
+    margin: 28px 0 0 85px;
+}
+
+
+
+.cta {
+    display: flex;
+    margin-top: 75px;
+    justify-content: flex-end;
+}
+
+.cta .cta-text {
+    font-size: 75px;
+    text-align: center;
+        display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 75px;
+}
+
+.cta .cta-text button {
+    border: 1px solid black;
+    background: white;
+    width: 200px;
+    height: 32px;
+    font-size: 14px;
+  
+
+}
+
+.cta .cta-text button:hover {
+    background: black;
+    color: white;
+}
+
+
+
+.main-content {
+  
+   margin: 75px 0 35px 0;
+font-size: 16px;
+   padding: 35px 0;
+   border-top: 1px solid black; 
+   border-bottom: 1px solid black;
+  
+}
+
+.main-content .top-content {
+    display: flex;
+}
+
+.main-content .middle-img {
+    display: block;
+    margin: 30px auto;
+}
+
+.main-content .bottom-content {
+    display: flex;
+}
+
+.main-content .bottom-content p {
+    padding-right: 20px;
+}
+
+.contact p {
+    margin: 15px 0;
+}
+
+
+footer {
+    text-align: center;
+    margin: 35px 20px;
+}
+
+.services-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-main .services-header-img {
+    margin: 20px 0;
+}
+
+.services-main h1 {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.services-main .services-text {
+ border-bottom: 1px solid black;
+ padding:35 30;
+  margin: 30px 0;
+}
+
+.services-main .card {
+    padding: 20px;
+    border: 1px solid black;
+    background: lightgray;
+    margin: 20px 0;
+     width: 380px;
+}
+
+
+.services-main .card button {
+   padding:35px 30px;
+    border: 1px solid black; ;
+    margin: 10px 0:
+       
+}
+
+.services-main .card button:hover {
+    background: black;
+    color: white;
+} 
+
+.services-main .services-info ul {
+    margin: 20px;
+}
+
+.services-main .services-info ul li{
+    list-style: circle;
+    
+}
+
+.services-main .services-info {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 20px 0;
+    padding-top: 40px; 
+    border-top: 1px solid black; 
+}
+
+.services-main .services-info .factoids {
+  width: 400px;
+  margin: 20px 0;
+}
+
+.services-main .services-info .factoids p {
+  margin-bottom: 20px;
+}
+
+.services-main .services-info .services-info-img {
+  width: 400px;
+  height: 300px;
+}
