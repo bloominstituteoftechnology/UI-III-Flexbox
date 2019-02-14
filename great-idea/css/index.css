@@ -257,11 +257,11 @@ header nav a:last-child {
 
 }
 .one-box button {
-	height: 35px;
-	width: 120px;
-	background-color:  white;
+	background: white;
 	margin: 25px;
-	text-align: center;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
 }
 .contact {
   margin-top: 57px;
