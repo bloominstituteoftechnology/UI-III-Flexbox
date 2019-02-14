@@ -252,3 +252,7 @@ footer {
 .services-bottom-content-list {
 	padding: 25px;
 }
+
+li {
+	padding: 5px;
+}
