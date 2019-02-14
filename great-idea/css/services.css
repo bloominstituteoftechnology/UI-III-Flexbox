@@ -1,0 +1,190 @@
+/* My code starts here */
+
+.navigation {
+    margin: 5px;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.services-img {
+    display: flex;
+    justify-content: center;
+}
+
+.services-header-img {
+    width: 1000px;
+}
+
+.services {
+    font-size: 35px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.p-services {
+    margin: 20px 0px;
+    font-size: 20px;
+    line-height: 1.25;
+    display: flex;
+}
+
+
+/* .digital {
+    margin: 20px auto;
+    font-size: 20px;
+    display: flex;
+}
+
+.p-digital {
+    margin: 10px 0px;
+    font-size: 20px;
+    line-height: 1.25;
+    display: flex;
+}
+
+.button1 {
+    margin: 10px auto;
+} */
+
+
+/* .ux-ui {
+    margin: 20px auto;
+    font-size: 20px;
+    display: flex;
+}
+
+.p-ux {
+    margin: 10px 0px;
+    font-size: 20px;
+    line-height: 1.25;
+    display: flex;
+}
+
+.button2 {
+    margin: 10px auto; 
+} */
+
+.container-top {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-middle {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-lower {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.final-bottom {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.digital-container {
+    border: 1px solid gray;
+    margin: 20px 10px;
+    line-height: 1.25;
+    padding: 10px;
+    background: lightslategrey;
+}
+
+.ux-container {
+    border: 1px solid gray;
+    margin: 20px 10px;
+    line-height: 1.25;
+    padding: 10px 10px;
+    background: lightslategrey;
+}
+
+.market-container {
+    border: 1px solid gray;
+    margin: 20px 10px;
+    line-height: 1.25;
+    padding: 20px;
+    background: lightslategrey;
+}
+
+.web-container {
+    border: 1px solid gray;
+    margin: 20px 10px;
+    line-height: 1.25;
+    padding: 20px;
+    background: lightslategrey;
+}
+
+.ios-container {
+    border: 1px solid gray;
+    margin: 20px 10px;
+    line-height: 1.25;
+    padding: 20px;
+    background: lightslategrey;
+}
+
+.android-container {
+    border: 1px solid gray;
+    margin: 20px 10px;
+    line-height: 1.25;
+    padding: 20px;
+    background: lightslategrey;
+}
+
+.fact-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.fact {
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+}
+
+.p-fact {
+    padding: 5px;
+    margin: 10px;
+    line-height: 1.25;
+}
+
+.list {
+    margin: 10px;
+    padding: 5px;
+    line-height: 1.25;
+}
+
+footer {
+    /* margin: 0px auto; */
+    /* border: 1px solid red; */
+    display: block;
+    text-align: center;
+}
+
+
+/* .lower-image {
+    display: flex;
+    flex-direction: row;
+} */
