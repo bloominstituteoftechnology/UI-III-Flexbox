@@ -71,11 +71,11 @@ header{
 	/* border: 1px solid blue; */
 	margin: 20px 0;
 	padding: 20px 0;
-	justify-content: space-around;
+	justify-content: center;
 }
 header nav{
 	display: flex;
-	width: 90%;
+	width: 40%;
 	/* border: 1px solid red; */
 	justify-content: space-around;
 	
@@ -93,13 +93,15 @@ nav a:hover{
 
 /* index page css */
 .top-container{
-	width: 100%;
+	/* border: 1px solid blue; */
+	width: 60%;
+	margin-left: 20%;
 	display: flex;
 	justify-content: space-evenly;
 	padding:10px;
 }
 .top-container h1{
-	font-size:100px;
+	font-size:75px;
 	text-align: center;
 	/* border: 1px solid red; */
 	padding-top: 20px;
@@ -110,13 +112,24 @@ nav a:hover{
 .mainpage-content{
 	/* border: 1px solid red; */
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	width: 50%;
+	margin-left: 25%;
 }
+.mainpage-content div{
+	/* border: 1px solid red; */
 
+}
 .mainpage-mid-content{
 	/* border:1px solid red; */
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	width: 50%;
+	margin-left: 25%;
+}
+.mainpage-mid-content div{
+	/* border: 1px solid gray; */
+
 }
 .middle-img{
 	display: block;
@@ -133,8 +146,10 @@ nav a:hover{
 }
 .mainFooter{
 	/* border: 1px solid yellow; */
+	margin-left: 26%;
+	width: 40%;
 	display: flex;
-	padding-left: 10%;
+	padding-left: 30px;
 	justify-content: flex-start;
 }
 .mainFooter h3{
@@ -159,7 +174,7 @@ nav a:hover{
 	justify-content: center;
 }
 .svcsPage-info{
-	border-bottom: 1px solid gray;
+	
 	width: 45%;
 	display: flex;
 	flex-direction: column;
@@ -174,13 +189,13 @@ nav a:hover{
 	font-size: 16px;
 }
 .svcPage-content{
-
+	/* border: 1px solid green; */
 	display: flex;
 	justify-content: center;
 }
 .svc-offered{
-	
-	border-bottom: 1px solid gray;
+	border-top: 3px solid gray;
+	border-bottom: 3px solid gray;
 	width: 60%;
 	display: flex;
 	flex-wrap: wrap;
@@ -201,18 +216,33 @@ nav a:hover{
 	margin-top: 10%;
 }
 .svcPage-footer{
-	border: 1px solid gray;
-	display: flex;
+	width: 70%;
+	margin-top: 2%;
+	margin-left:10%;
+	/* border: 1px solid gray; */
+	display: flex;	
 	justify-content: center;
 }
 .svc-footer{
-	width: 23%;
-	border: 1px solid red;
-	padding: 10px;
-	margin: 1%;
+	width: 30%;
+	/* border: 1px solid red; */
+	padding: 0 3%;
+	margin-left:10%;
 	line-height: 1.25;
 }
 .svc-footer ul{
 	padding: 20px;
 	list-style-type: square;
+}
+
+.svcfooter-img{
+	height: 350px;
+	width: auto;
+	
+	padding-left: 5%;
+	/* border: 1px solid blue; */
+	/* padding: 1%; */
+	
+
+
 }
