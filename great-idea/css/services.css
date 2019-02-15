@@ -43,14 +43,15 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* not:.main-content {
-    box-sizing: border-box;
+* {
+		box-sizing: border-box;
 }
 
 .container {
-  width: 880px;
-  /* TB LR */
-  margin: 0 auto;
+	width: 1185px;
+	margin: 0 auto;
+	font-size: 23px;
+	margin-top: 5px;
 }
 
 p{
@@ -58,7 +59,7 @@ p{
 }
 
 .main-content button {
-	padding: 10px 50px;
+		padding: 10px 50px;
     background-color: white;
     border: 1px solid black;
     border-radius: 7px;
@@ -68,23 +69,27 @@ p{
 
 .main-content button:hover {
 	transition: 2s;
-    box-shadow: 0 0px 15px 3px lightgrey;
+  box-shadow: 0 0px 15px 3px lightgrey;
 }
 
 header{
 	display: flex;
-	margin-bottom: 20px;
+	margin-bottom: 26px;
+	justify-content: space-between;
+	font-size: 23px;
 }
 
 header nav {
-  width: 691px;
-  vertical-align: top;
-  margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+	width: 886px;
+	vertical-align: top;
+	margin-top: 35px;
 }
 
 header nav a {
   margin-right: 65px;
-  font-size: 16px;
+  font-size: 19px;
   color: gray;
   text-decoration: none;
 }
@@ -107,69 +112,70 @@ header .logo {
 
 .services-header-img{
 	display: inline;
-	padding-bottom: 40px;
+	padding-bottom: 43px;
+	width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 
 .top-content {
 	border-bottom: 1px solid black;
-    padding-bottom: 42px;
+  padding-bottom: 53px;
 }
 
 .top-content h1 {
-	font-size: 30px;
+	font-size: 45px;
 }
 
 .main-content {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-between;
-    margin-top: 21px;
+  margin-top: 31px;
 }
 
 .main-content div {
 	border: 1px solid black;
-	width: 300px;
-    background-color: #f4f2fb;
-    padding: 20px;
-    margin: 20px 0px 15px 0px;
+	width: 573px;
+  background-color: #f4f2fb;
+  padding: 20px;
+  margin: 20px 0px 15px 0px;
 	padding-right: 24px;
-	width: 375px;
+	height: 317;
 }
 
 .bottom-content {
-	height: 385px;
+	height: 582px;
 	border-top: 1px solid black;
-    padding-top: 45px;
-    margin-top: 30px;
-    display: flex;
+  padding-top: 45px;
+	margin-top: 30px;
+  display: flex;
 	flex-flow: column wrap;
 
 }
 
 .bottom-content p {
 	box-sizing: border-box;
-	width: 455px;
-	height: 115px;
-    padding-right: 60px;
+	width: 611px;
+	height: 174px;
+	padding-right: 60px;
 }
 
 .bottom-content ul {
 	line-height: 2;
 	list-style: disc;
-	margin-left: 17px;
+	margin-left: 20px;
 }
 
 .bottom-content img {
-	height: 300px;
-    width: 400px;
-    padding-left: 27px;
+	margin-left: 23px;
+	height: 428px;
+	width: 549px;
 }
 
 footer {
