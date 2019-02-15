@@ -6,6 +6,7 @@
 .top-header{
 	display: flex;
 	justify-content: space-between;
+	
 }
 
 .top-header nav a {
@@ -31,7 +32,7 @@
 }
 .main-content .content {
     width: 40%;
-    
+    text-align: center;
 	border: 1px solid black;
 	margin: 15px 0;
 	background: lightgray;
