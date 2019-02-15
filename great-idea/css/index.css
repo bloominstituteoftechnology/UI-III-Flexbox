@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -89,10 +89,12 @@ nav.top {
 }
 
 nav.top a {
-	text-decoration: none;
-	color: grey;
-	margin-right: 20px;
+    text-decoration: none;
+    color: grey;
+    margin-right: 20px;
+    text-shadow: 1px 0px grey;
 }
+
 
 nav.top a:hover {
 	color: black;
@@ -135,13 +137,33 @@ header.servises {
 
 .services-header-img {
 	width: 100%;
-    height: 200px;
 }
+
+
 .header-content-services {
 	margin: 19px auto;
 }
 .header-content-services h1 {
 	font-size: 25px;
+}
+
+/* HEADER-CONTACT */
+header.contact {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-header-img {
+    margin-top: 20px;
+    object-fit: cover;
+    width: 900px;
+    height: 200px;
+}
+
+.header-content-contact {
+	margin-top: 25px;
 }
 
 /* MAIN CONTENT TOP */
@@ -154,7 +176,7 @@ header.servises {
 	align-items: center;
 	height: 170px;
 }
-.main-content-top .features, .main-content-top .about   {
+.main-content-top .features, .main-content-top .about {
   width: 46%;
 }
 
@@ -192,10 +214,49 @@ header.servises {
 	margin-top: 15px;
 }
 
-
 .services-list button:hover {
 	background-color: grey;
 }
+
+/* CONTACT MAIN CONTENT */
+
+.contact-form{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 40px 0;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 17px;
+    margin-bottom: 16px;
+  }
+  
+  input[type=submit] {
+	background-color:grey;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color:rgb(76, 76, 207);
+  }
+
+  textarea #subject {
+	  height: 200px;
+  }
+
+
 
 /* MAIN CONTENT BOTTOM */
 .main-content-bottom {
@@ -234,7 +295,7 @@ header.servises {
     margin-left: 20px;
 }
 
-/* CONTACT SECTION */
+/* CONTACT FOOTER SECTION */
 
 .contact-info {
 	border-top: 2px solid black;
