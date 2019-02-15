@@ -307,3 +307,13 @@ footer{
 	text-align: center;
 	margin-top: 42px;
 }
+
+@media screen and (max-width: 800px) {
+	.services-main-content, .services-bottom-content, nav.top  {
+		height: auto;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+
+}
