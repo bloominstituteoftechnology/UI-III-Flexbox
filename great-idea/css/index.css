@@ -91,18 +91,24 @@ h1, h2, h3, h4, h5 {
 	 border-bottom: 1px solid black;
  }
 
+
 	header h1{
 		font-size: 70px;
 		text-align:center;
-		width:45%;
-		padding:40px 0;
+		width:90%;
+		padding:40px 0; 
 	}
-/*button css */
+
+.content-btn{
+	width: 70%;
+	margin: 0 60px;
+	text-align: center;
+}
+
 button{
-	display:block;
-	margin: 280px auto 0;
-	justify-content: flex-start;
-	
+	width:240px;
+	height:80px;
+	font-size: 20px;
 }
 
 /*middle top content */
@@ -110,7 +116,8 @@ button{
 	display:flex;
 	padding:10px 0;
 	margin: 10px 0;	
-	justify-content: space-between
+	justify-content: space-between;
+	font-size: 18px;
 }
 
 .top-middle-content {
@@ -124,6 +131,7 @@ button{
 	padding:10px 0;
 	margin: 10px 0;	
 	justify-content: space-between;
+	font-size: 18px;
 }
 
 .bottom-middle-content{
