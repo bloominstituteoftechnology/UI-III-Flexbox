@@ -1,8 +1,8 @@
 body {
     display: flex;
-    width: 880px;
+    width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px;
 }
 
 header nav a {
@@ -22,3 +22,89 @@ a {
     border-bottom: 1px solid black;
 
 }
+
+.box1 {
+    width: 250px;
+    height: 250px;
+    border: 1px;
+    margin: 20px;
+}
+
+.box2 {
+    width: 250px;
+    height: 250px;
+    border: 1px;
+    margin: 20px;
+}
+
+.box3 {
+    width: 250px;
+    height: 250px;
+    border: 1px;
+    margin: 20px;
+}
+
+.box4 {
+    width: 250px;
+    height: 250px;
+    border: 1px;
+    margin: 20px;
+}
+
+.box5 {
+    width: 250px;
+    height: 250px;
+    border: 1px;
+    margin: 20px;
+}
+
+.box6 {
+    width: 250px;
+    height: 250px;
+    border: 1px;
+    margin: 20px; 
+} 
+
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    background-color: lightgray;
+    border: 2px solid black;
+    width: 45%; 
+}
+
+footer {
+    margin: 20px;
+}
+
+.bottom {
+    /* display: flex;
+    flex-wrap: wrap; */
+    text-align: start;
+}
+
+.foot, p {
+    justify-content: flex-start;
+    text-align: left;
+    /* display: flex; */
+    /* text-align: left; */
+}
+
+.last {
+    text-align: center;
+}
+
+.services-info-img {
+    margin-left: 40%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+
+
