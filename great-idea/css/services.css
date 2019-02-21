@@ -1,3 +1,24 @@
-html {
-    box-sizing: border-box;
+body {
+    display: flex;
+    width: 880px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header nav a {
+    margin-right: 50px;
+}
+
+nav {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.topContent {
+    border-bottom: 1px solid black;
+
 }
