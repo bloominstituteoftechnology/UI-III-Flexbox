@@ -64,11 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.container {
+
+
+
+.topp {
+	
 	display: flex;
-	border: red 4px solid;
-	margin-top: 30px;
+	justify-content: space-between;
+	padding-bottom: 15px; 
+	padding-top: 15px;
 }
-.navigation {
-	border: solid red 1px;
+.services-header-img {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+
+}
+footer {
+	margin: 30px;
+	
+}
+#navigation {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	width: 450px;
+	margin-left: 5px;
+}
+.logo {
+	margin-right: 30px;
+}
+.serve {
+	border-bottom: 1px solid black;
+	padding-top: 25px;
+	padding-bottom: 27px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.section {
+	display: flex;
+}
+.boxes {
+	border: 1px solid black;
+	width: 250px;
+	height: 150px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	background: lightgray;
+	padding: 15px;
+	padding-bottom: 40px;
+}
+.contain {
+
+	}
+.top {
+	display: flex;
+	justify-content: space-around;
+}
+.middle {
+	display: flex;
+	justify-content: space-around;
+}
+.bottom {
+	display: flex;
+	justify-content: space-around;
+}
+button {
+	font-size: 5px;
+	padding: 4px 20px;
+	margin: 0px 0px 20px 0px;
+	border: 1px solid gray; 
+}
+p {
+font-size: 10px;
+padding-bottom: 12px;	
+}
+.fall {
+	display: flex;
+	margin: 12px;
+	padding: 15px;
+	border-top: 2px black solid;
+	
+}
+#low {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	align-items: space-around;
+}
+.services-info-img {
+	height: 160px;
+	width: 220px;
+	margin-left: 100px;
+}
+.foot {
+	margin-left: 230px;
+}
+
+#bl {
+ margin-bottom: 0px;
+ 
+}
+.trouble {
+	padding-bottom: 5px;
+	
+}
+#SomeFacts {
+	padding-right: 25x;
+
+}
+#table {
+padding: 8px;
+font-size: 12px;
+height: 120px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-right: 165px;
+
+}
+li {
+	list-style-type: disc;
 }
