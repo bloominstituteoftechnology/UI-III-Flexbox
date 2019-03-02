@@ -106,9 +106,12 @@ header nav {
   }
  
   /* ------   Header   ------ */
+
+  .top-content{
+	  display:flex;
+  }
   
   .top-content .tc-text{
-	display:inline-block;
 	vertical-align: top;
 	margin-top:120px;
 	text-align:center;
@@ -123,9 +126,10 @@ header nav {
   }
 
   .top-content img {
-	display: inline-block;
 	margin-top: 70px;
   }
+
+	/* ------   Main Content   ------ */
 
   .main-content {
 	border-top: 1px solid black;
@@ -162,6 +166,8 @@ header nav {
 	margin-right: 0;
   }
   
+    /* ------   Contact & Footer   ------ */
+
   .contact {
 	margin-top: 60px;
 	border-top: 1px solid black;
