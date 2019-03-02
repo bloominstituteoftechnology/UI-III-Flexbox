@@ -71,8 +71,11 @@ h1, h2, h3, h4, h5 {
   }
 
 /* ------   Navigation   ------ */
+
+header{
+	display:flex;
+}
 header nav {
-	display: inline-block;
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
@@ -99,6 +102,7 @@ header nav {
   
   header .logo {
 	margin-top: 25px;
+	display:flex;
   }
  
   /* ------   Header   ------ */
