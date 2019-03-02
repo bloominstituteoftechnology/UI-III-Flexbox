@@ -135,15 +135,16 @@ header nav {
 	border-top: 1px solid black;
 	margin-top: 75px;
 	padding-top: 40px;
+	
   }
 
   .main-content .first-sec {
 	padding: 0 10px;
+	display:flex;
   }
   
   .main-content .first-sec .text-content {
 	width: 410px;
-	display: inline-block;
 	margin-right: 35px;
 	margin-bottom: 30px;
   }
@@ -154,10 +155,10 @@ header nav {
   .main-content .second-sec {
 	margin-top: 35px;
 	padding: 0 10px;
+	display:flex;
   }
   
   .main-content .second-sec .text-content {
-	display: inline-block;
 	width: 275px;
 	margin-right: 12px;
   }
