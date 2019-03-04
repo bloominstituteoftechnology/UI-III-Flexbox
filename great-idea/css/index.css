@@ -77,35 +77,49 @@ h1, h2, h3, h4, h5 {
 
 .column-container {
 	display: flex;
+	justify-content: space-between;
+}
+
+.wrap {
+	flex-wrap: wrap;
+	margin: 20px 0px;
+}
+
+.box {
+	width: 48%;
+	border: 1px solid;
+	margin: 20px 0px;
+	padding: 20px;
+	background: lightgrey;
 }
 
 .column {
 	margin: 30px 10px;
 }
 
-header {
+.title-header {
 	margin-bottom: 70px;
-	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-header section {
-	width: 49%;
+.title {
 	text-align: center;
+	margin-left: 90px;
 }
 
-header section h1 {
+.title h1 {
 	font-size: 55pt;
 }
 
-header img {
+.title-img {
 	width: 380px;
 	height: 380px;
 }
 
 footer {
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .contact-info {
@@ -117,22 +131,59 @@ footer {
 }
 
 nav {
-	width: 900px;
-	position: fixed;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 30px;
+	padding: 10px 0px;
+	margin-bottom: 10px; 
+}
+
+.fixed {
+	width: 900px;
+	position: fixed;
 	background-image: linear-gradient(indigo 45%, rgba(0, 0, 0, 0));
+	padding: 10px 30px;
 }
 
 nav a {
 	text-decoration: none;
+	color: grey;
+}
+
+nav.fixed a {
 	color: lightgray;
 }
 
 nav img {
 	cursor: pointer;
+}
+
+.services-header-img {
+	width: 100%;
+}
+
+button.plain-white {
+	margin-top: 20px;
+	background: white;
+	padding: 10px 30px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+.services-facts-list {
+	list-style: square;
+	list-style-position: inside;
+	line-height: 2;
+	margin-top: 20px;
+}
+
+section.services-intro {
+	margin: 30px 0px;
+}
+
+section.services-intro h1 {
+	font-size: 20pt;
 }
 
 /* ~BUTTON NONSENSE~ */
@@ -151,7 +202,7 @@ nav img {
 	But doing this in pure CSS is still a bit over my head.
 */
 
-button {
+button.btn-fancy {
 	position: relative;
 	height: 50px;
 	width: 200px;
@@ -177,9 +228,6 @@ button {
 	transition: all 0.4s ease;
   opacity: 0;
 	transition: opacity 0.5s ease-out;
-}
-
-.fill {
 	width: 420px;
 }
 
