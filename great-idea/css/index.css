@@ -69,6 +69,15 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+h2 {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: 600;
+}
+
 /* Header Styles here */
 header {
 	width: 100%;
@@ -85,7 +94,8 @@ header nav {
 
 header nav a {
 	text-decoration: none;
-	color: gray;
+	color: #ACA7A7;
+	font-weight: 600;
 }
 
 header nav a:first-child {
@@ -150,4 +160,79 @@ address p {
 
 footer {
 	text-align: center;
+}
+
+/* Styles for services.html*/
+div.service-page {
+	width: 850px;
+}
+
+.services-header-img {
+	width: 850px;
+	height: 170px;
+	margin: 20px 0px;
+}
+
+.services-description {
+	border-bottom: 2px solid gray;
+	padding-bottom: 30px;
+}
+
+.services-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 10px 0px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid gray;
+}
+
+.services-container div {
+	border: 2px solid gray;
+	background-color: #F4F3F4;
+	width: 400px;
+	padding: 15px;
+	margin: 15px 0px;
+}
+
+.services-container div p {
+	margin-bottom: 15px;
+}
+
+.services-container div button {
+	padding: 10px 30px;
+	font-size: 11px;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid gray;
+}
+
+.about-services {
+	margin: 40px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-services div {
+	width: 410px;
+}
+
+.about-services-image img {
+	width: 410px;
+}
+
+.about-services-text p {
+	margin-bottom: 25px;
+}
+
+.about-services-text ul {
+	list-style-type: square;
+}
+
+.about-services-text li {
+	margin: 20px;
+}
+
+.services-footer {
+	margin-bottom: 40px;
 }
