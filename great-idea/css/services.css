@@ -118,22 +118,19 @@ h1 {
 ***************************************************/ 
 .services-container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: row wrap; /* chose wrap to facilitate responsive design */
+    justify-content: space-between; /* should I opt for box model properties rather than flex? */
     align-content: space-evenly;
 
     min-height: 920px;
-    /* padding: 40px 0; */
     border-bottom: 2px solid black;
 }
 
 .services {
-    
     width: 420px;
     height: 250px;
 
     border: 1px solid black;
-
     padding: 20px;
 
     background-color: #F2F1F2;
@@ -145,27 +142,63 @@ h1 {
 }
 
 .services a {
-    display: inline-block; /* opted out of flex module to center text, seems uneccessary*/
-    padding: 10px 0;
-
+    display: inline-block; /* opted out of flex module to center text, seems uneccessary */
     width: 140px;
     height: 35px;
 
     margin-top: 20px;
-
+    padding: 10px 0;
     border: 1px solid black;
     border-radius: 5px;
 
     font-family: inherit;
     font-size: 12px;
+    text-align: center;
     text-decoration: none;
     color: black;
-
-    text-align: center;
 
     background-color: white;
 }
 
 /* ************************************************
-*                    FACTS CONTAINER               *
+*                  FACTS CONTAINER                *
 ***************************************************/ 
+.facts-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.facts-container section {
+    width: 420px;
+    padding-right: 4px;
+
+    line-height: 20px;
+}
+
+.facts-container ul {
+    margin-top: 35px;
+    
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.facts-container ul li {
+    margin-bottom: 9px;
+}
+
+.facts-container ul li:last-of-type {
+    margin-bottom: none;
+}
+
+/* ************************************************
+*                 COPYRIGHT (FOOTER)              *
+***************************************************/ 
+.copyright {
+    
+    margin-top: 90px;
+    text-align: center;
+
+    /* remove this */
+    margin-bottom: 35px;
+}
