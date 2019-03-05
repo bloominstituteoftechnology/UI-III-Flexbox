@@ -212,6 +212,11 @@ div.service-page {
 	border: 1px solid gray;
 }
 
+.services-container div button:hover {
+	background-color: blue;
+	color: white;
+}
+
 .about-services {
 	margin: 40px 0px;
 	display: flex;
