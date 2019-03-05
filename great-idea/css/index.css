@@ -172,40 +172,36 @@ justify-content: space-evenly;
 
  }
 
- 
-
-
-
 
    .SPV{
-		 display: flex;
-		 flex-wrap: wrap;
-		 justify-content: space-between;
-		 justify-content: space-around;
-		 justify-content: space-evenly;
-		 justify-content: stretch;
+		display: flex;
+		justify-content: space-around;
+		justify-content: space-evenly;
    }
 
 
- .services{
-	 justify-content: space-around;
-	 justify-content: space-evenly;
-
-  width:33%;
-   padding: 2%;
+ .services-section{
+	 flex-wrap: wrap;
+	 margin: 2%;
+   width:33%;
+	
+	 
 
  }
- .product{
-	justify-content: space-around;
-	 justify-content: space-evenly;
-   width: 33%;
-   padding: 2%;
+ .product-section{
+	flex-wrap: wrap;
+	margin: 2%;
+	 width: 33%;
+	 justify-content: center;
+
+	 
  }
- .vision{
-	justify-content: space-around;
-	justify-content: space-evenly;
+ .vision-section{
+	flex-wrap: wrap;
+	margin: 2%;
   width: 33%;
-   padding: 2%;
+	
+
  }
 
 
@@ -236,3 +232,139 @@ hr{
 	border-style: inset;
 	border-width: 1px;
 }
+.services-header-img{
+	width: 100%;
+	height: auto;
+}
+
+.dui{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 2%;
+	margin: 2% 2% 2% 2%;
+
+}
+.d{
+
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	width: 40%;
+	height: auto;
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+
+}
+.ui{
+	width: 40%;
+	height: auto;
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+}
+
+.dmwd{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+	justify-content: space-evenly;
+	padding: 2%;
+	margin: 2% 2% 2% 2%;
+}
+
+.dm{
+	width: 40%;
+	height: auto;
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+
+}
+.wd{
+	width: 40%;
+	height: auto;
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+
+}
+
+.ioa{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+	justify-content: space-evenly;
+	padding: 2%;
+	margin: 2% 2% 2% 2%;
+}
+
+.i{
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	width: 40%;
+	height: auto;
+	padding: 20px
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+}
+
+.oa{
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	width: 40%;
+	height: auto;
+	padding: 20px
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+}
+
+.information{
+
+	justify-content: space-around;
+	justify-content: space-between;
+	justify-content: space-evenly;
+	flex-flow: <‘flex-direction’> || <‘flex-wrap’>
+
+	
+}
+
+.services{
+	border-radius: 50px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0 20px 90px 20px;
+	padding: 0;
+	width: auto;
+	text-decoration:  none;
+	background: whitesmoke;
+	color: black;
+}
+.services:hover{
+	color: aqua ;
+	 background-color: black;
+}
+
+.facts {
+	display: flex;
+}
+.services-copy{
+	width: auto;
+	text-align: center;
+}
+	.learn{
+		margin: 5%;
+		border-radius: 20%;
+	}
