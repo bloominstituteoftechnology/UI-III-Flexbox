@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	background: bisque;
+}
+
+#header1{
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+	margin: 0 auto;
+	height: 50px; 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.nav, #logo{
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav{
+	width: 100%;
+	padding: 0px ;
+	border: 2px solid black;
+	margin: 0 auto;
+	background: cyan;
+
+}
+
+.header{
+	background-image: url("header-ing.png");
+	width: 100%;
+	padding: 20px;
+	margin: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+#bold, .logo{
+	display: inline-block;
+	vertical-align: middle;
+}
+#bold{
+	font-size: 50px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.button{
+	padding: 5px;
+	margin: 0px;
+	border: 2px black solid;
+	background-color: orange;
+	color: black;
+}
+.button:hover{
+	color: pink;
+}
+#big{
+	margin: 5px;
+	padding: 5px;
+}
+
+
+.wrapper{
+	width: 100%;
+	vertical-align: middle;
+}
+.sec1{
+	display: inline-block;
+	text-align: left;
+	max-width: 41%;
+	margin: 20px;
+	
+}
+.wrapper img{
+	width: 100%;
+	padding: 20px;
+}
+
+
+
+.sec2{
+display: inline-block;
+text-align: left;
+max-width: 29%;
+margin: 20px;
+}
+
+.paw{
+	margin: 20px;
+}
+.paw a{
+	color: orchid;
+}
+#legal{
+	text-align: center;
+}
