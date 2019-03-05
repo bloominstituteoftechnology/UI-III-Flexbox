@@ -169,42 +169,48 @@ h1 {
 }
 
 .main-content {
+	display: flex;
+	flex-flow: row wrap;
 	margin-top: 20px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	padding: 20px 0 20px 0;
+	padding: 20px 0px 20px 20px;
 }
 
 .mc-top {
 	display: flex;
 	width: 100%;
-	padding: 0 0 20px 20px;
+	padding-bottom: 20px;
 }
 
 .mc-top-1, .mc-top-2 {
 	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+	flex-flow: column wrap;
 	width: 50%;
 }
 
 /* Stretch #4c - background image */
 .mc-img {
-	width: 100%;
+	width: 900px;
 	height: 182px;
 	background-image: url("../img/mid-page-accent.jpg");
 	background-repeat: no-repeat;
 }
 
 .mc-bottom {
-	display: inline-block;
-	width: 290px;
-	margin-bottom: 20px;
+	display: flex;
 	margin-top: 20px;
+}
+
+.mcb-1, .mcb-2, .mcb-3 {
+	display: flex;
+	flex-flow: column wrap;
+	width: 33%;
 }
 
 address {
 margin-top: 30px;
+margin-left: 20px;
 }
 
 .number {
