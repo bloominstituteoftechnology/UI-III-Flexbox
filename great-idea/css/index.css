@@ -85,7 +85,7 @@ h1 {
 	top: 211px;
 	text-align: center;
 }
-button {
+.tricky {
 	position: absolute;
 	left: 554px;
 	top: 445px;
@@ -156,4 +156,101 @@ img.middle-img {
 }
 .c {
 	text-align: center;
+}
+
+/*********************************ServicesUnderHere*/
+
+.top {
+	display: flex;
+	align-content: center;
+	flex-direction: row;
+	margin-bottom: 30px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 75px;
+}	
+ 
+.toppic img {
+	width: 300px;
+}
+
+.serhead {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.serhead img {
+	width: 1200px;
+}
+.service {
+	display: flex;
+	margin-left: 73px;
+	margin-right: 53px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	font-size: 25px;
+}
+
+
+.big_flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+
+.big_flex div {
+	display: flex;
+	flex-direction: column;
+	width: 575px;
+	height: 233px;
+	font-size: 25px;
+	border: 1px solid grey;
+	margin-left: 73px;
+	background-color: white;
+	margin-top: 30px;
+
+}
+.big_flex p {
+	background-color:white;
+}
+
+.big_flex h5 {
+	background-color: white;
+}
+.fin1, .fin2, .fin3, .fin4, .fin5, .fin6 {
+	width: 125px;
+	border-radius: 26px;
+	background-color: grey;
+	
+
+} 
+.final {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	justify-content: space-around;
+	margin-right: 54px;
+}
+.final div {
+	width: 500px;
+	height: 300px;
+	font-size: 25px;
+
+}
+.foot {
+	text-align: center;
+}
+.services-info-img {
+	width: 575px;
+	height: 352px;
+
+}
+.laslis {
+	margin-top: 25px;
+	list-style-type: square;
+	margin-left: 50px;
 }
