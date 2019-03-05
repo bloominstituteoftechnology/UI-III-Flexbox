@@ -126,7 +126,7 @@ h1 {
     border-bottom: 2px solid black;
 }
 
-.services {
+.services-container section {
     width: 420px;
     height: 250px;
 
@@ -136,12 +136,12 @@ h1 {
     background-color: #F2F1F2;
 }
 
-.services p {
+.services-container section p {
     margin-top: 20px;
     line-height: 20px;
 }
 
-.services a {
+.services-container section a {
     display: inline-block; /* opted out of flex module to center text, seems uneccessary */
     width: 140px;
     height: 35px;
