@@ -242,6 +242,66 @@ div.service-page {
 	margin-bottom: 40px;
 }
 
+
+/*Contact Page*/
+input {
+	border-radius: 5px;
+}
+textarea {
+	border-radius: 5px;
+}
+
+.contact-us {
+	margin: 30px 0;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 2px solid gray;
+	padding-bottom: 40px;
+	height: 300px;
+}
+
+.contact-us-img {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.contact-form {
+	width: 40%;
+}
+
+.contact-form form {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: stretch;
+}
+
+.contact-form form input {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.contact-us .address {
+	width: 30%;
+	border: 2px solid lightslategray;
+	border-radius: 10px;
+	height: 140px;
+}
+
+.address address {
+	display: flex;
+	justify-content: space-between;
+}
+.address address p {
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.contact-us .address img {
+	width: 60px;
+	height: 60px;
+}
+
 @media(max-width: 500px) {
 	div.service-page {
 		width: 100%;
