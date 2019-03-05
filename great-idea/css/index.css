@@ -64,3 +64,175 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	 margin: 0 auto;
+	 width: 1000px;
+ }
+
+.main-header {
+
+	
+	
+	text-align: center;
+   margin: 100px 40px 0px 20px;
+	font-size: 90px;
+   
+   
+   
+ }
+ 
+ .nav {
+   border-radius: 50px;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin: 0 20px 90px 20px;
+   padding: 0;
+   width: auto;
+   text-decoration:  none;
+   background: whitesmoke;
+   color: black;
+
+ }
+ .nav:hover{
+	 color: aqua ;
+	 background-color: black;
+	 
+ }
+ .logo{
+	 flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+	 width: auto;
+	 padding: 20px;
+
+	 margin: 0 20px;
+ }
+ .image{
+display: flex;
+ }
+
+ img{
+	width: 300px;
+	height: auto;
+ }
+
+ 
+ 
+ .button{
+	
+	 vertical-align: top; 
+	 margin-left: 40px;
+	 border-radius: 30px;
+	 width: 200px;
+	 background: whitesmoke;
+	 font: black;
+	 font-size: 25px;
+	 border: black;
+   
+
+	 }
+
+ button:hover{
+	 background: black;
+	 color: aqua;
+ }
+
+ .top{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+justify-self: right;
+justify-content: space-evenly;
+ }
+
+ .features{
+flex-wrap: wrap;
+	 padding: .5%;
+
+	 
+	 width: 40%*
+	 justify-content: space-around;
+	 justify-content: space-evenly;
+	}
+
+
+ .about{
+	 flex-wrap: wrap;
+	padding: .5%;
+	
+	width: 40%*
+ }
+
+ .FB{
+	 display: flex;
+justify-content: space-around;
+justify-content: space-evenly;
+
+ }
+
+ 
+
+
+
+
+   .SPV{
+		 display: flex;
+		 flex-wrap: wrap;
+		 justify-content: space-between;
+		 justify-content: space-around;
+		 justify-content: space-evenly;
+		 justify-content: stretch;
+   }
+
+
+ .services{
+	 justify-content: space-around;
+	 justify-content: space-evenly;
+
+  width:33%;
+   padding: 2%;
+
+ }
+ .product{
+	justify-content: space-around;
+	 justify-content: space-evenly;
+   width: 33%;
+   padding: 2%;
+ }
+ .vision{
+	justify-content: space-around;
+	justify-content: space-evenly;
+  width: 33%;
+   padding: 2%;
+ }
+
+
+ .middle-img{
+   margin-right: 0 70px 0 0;
+   margin-left: 0;
+   width: 1000px;
+   
+
+ }
+
+ .contact{
+	 
+ }
+
+ .copyright{
+	 width: auto;
+	 text-align: center;
+	 
+ }
+hr{
+	display: block;
+	margin-before: 0.5em;
+	margin-after: 0.5em;
+	margin-start: auto;
+	margin-end: auto;
+	overflow: hidden;
+	border-style: inset;
+	border-width: 1px;
+}
