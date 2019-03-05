@@ -69,11 +69,6 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 	margin: auto;
 	border: 1px solid black;
-}
-
-/* Stretch #1 - fixed nav bar */
-
-.container {
 	background-color: lightgray;
 }
 
@@ -94,7 +89,6 @@ header nav {
 	justify-content: space-evenly;
 }
 
-/* Stretch #2 - new font */
 header nav a {
 	font-family: 'Orbitron', sans-serif;
 	color: white;
@@ -106,7 +100,6 @@ header nav a:hover{
 	opacity: 1.0;
 }
 
-/* Stretch #4a - background image */
 .logo {
 	width: 200px;
 	height: 36px;
@@ -133,8 +126,6 @@ display: inline-block;
 	margin-left: 40px;
 }
 
-
-/* Stretch #5 - animation */
 h1 {
 	font-size: 65px;
 
@@ -159,7 +150,6 @@ h1 {
 }
 }
 
-/* Stretch #4b - background image */
 .top-image {
 	width: 400px;
 	height: 400px;
@@ -189,7 +179,6 @@ h1 {
 	width: 50%;
 }
 
-/* Stretch #4c - background image */
 .mc-img {
 	width: 900px;
 	height: 182px;
