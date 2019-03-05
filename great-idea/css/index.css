@@ -70,23 +70,26 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Header Styles here */
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 header nav {
-	display: inline-block;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
 }
 
 header nav a {
-	margin: 28px;
 	text-decoration: none;
 	color: gray;
 }
 
 header nav a:first-child {
 	margin-left: 0px;
-}
-
-header img {
-	display: inline-block;
-	margin-left: 80px;
 }
 
 /* top-section styles here */
@@ -96,15 +99,12 @@ header img {
 	margin-bottom: 25px;
 	padding-bottom: 40px;
 	height: 472px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 .top-section .caption {
-	width: 48%;
 	text-align: center;
-	display: inline-block;
-	position: relative;
-	bottom: 60px;
-	left: 50px;
-	padding-right: 80px;
 }
 
 .top-section .caption button {
@@ -115,21 +115,12 @@ header img {
 
 .top-section .caption h1 {
 	font-size: 80px;
-
-}
-
-.top-section img {
-	width: 48%;
 }
 
 .top-columns {
 	width: 100%;
-	margin-bottom: 20px;
-}
-
-.top-columns div {
-	width: 49%;
-	display: inline-block;
+	margin-bottom: 30px;
+	display: flex;
 }
 
 .bottom-columns {
@@ -137,12 +128,12 @@ header img {
 	margin: 20px 0;
 	border-bottom: 1px solid black;
 	padding-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .bottom-columns div {
-	width: 30%;
-	display: inline-block;
-	margin-right: 25px;
+	margin: 15px;
 }
 
 address {
