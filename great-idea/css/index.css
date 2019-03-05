@@ -140,23 +140,18 @@ nav > a {
 }
 
 .content-row-2 {
+	display: flex;
+	justify-content: space-between;
 	margin-top: 35px;
 	margin-bottom: 61px;
 }
 
-.content-row-1 section {
-	
-	
-}
-
 .content-row-2 section {
-	display: inline-block;
-	width: 33.3%;
-	padding-right: 2px;
+	width: 33%; /* flex ? */
 }
 
 .middle-img {
-	width: 100%;
+	width: 100%; /* flex ? */
 }
 
 /* ************************************************
