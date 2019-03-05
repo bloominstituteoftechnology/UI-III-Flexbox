@@ -75,10 +75,12 @@ h1, h2, h3, h4, h5 {
 header {
 	display: flex;
 	justify-content: space-evenly;
+	height: 45px;
 	position: fixed;
 	width: 900px;
 	top: 0;
 	background-color: teal;
+	padding-top: 20px 0 20px 0;
 	z-index: 9999;
 }
 
@@ -101,6 +103,7 @@ header nav a:hover{
 }
 
 .logo {
+	align-self: flex-end;
 	width: 200px;
 	height: 36px;
 	margin-right: 20px;
@@ -118,7 +121,6 @@ header nav a:hover{
 }
 
 button {
-display: inline-block;
 }
 
 .tc-text {
@@ -126,7 +128,7 @@ display: inline-block;
 	margin-left: 40px;
 }
 
-h1 {
+.inno {
 	font-size: 65px;
 
 	animation: slam 0.5s;
@@ -198,15 +200,38 @@ h1 {
 }
 
 address {
-margin-top: 30px;
-margin-left: 20px;
+	margin-top: 30px;
+	margin-left: 20px;
 }
 
 .number {
-margin: 15px 0 15px 0;
+	margin: 15px 0 15px 0;
 }
 
 footer {
-text-align: center;
-margin-top: 30px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* Services page */
+
+.services-header-img {
+	margin-top: 44px;
+}
+
+.services-text {
+	font-size: 50px;
+}
+
+.main-content-services {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.mcs {
+	border: 1px solid black;
+	width: 400px;
+	margin: 20px 0 20px 0;
+	background-color: white;
 }
