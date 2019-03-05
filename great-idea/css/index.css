@@ -55,6 +55,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+		margin:20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -83,6 +84,7 @@ element {
 }
 p{
 	color:black;
+
 }
 footer{
   margin: 50px;
@@ -93,26 +95,22 @@ footer{
 	justify-content: space-evenly;
 }
 
-.logo{
-	float: right;
-}
+
 nav{
-display: flex;
+  display: flex;
 	justify-content: space-evenly;
-	width:800px;
 	padding:10px;
+	width: 100%;
 }
 
 .mainPhoto{
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .servContainer{
-	width: 800px;
 	padding: 20px;
-	border: 1px solid black;
-
 }
 
 .container{
@@ -127,16 +125,26 @@ display: flex;
 	margin:20px;
 	width:500px;
 	padding:10px;
+	background-color: lightgray;
 }
 button{
 	margin:10px;
+	padding: 20px
+	border: 1px solid black;
 }
 
-.services-info-img{
-	float: right;
+footer{
+	display:flex;
+	justify-content: space-evenly;
 }
 
 ul{
 	list-style-type: square;
 	padding:20px;
+}
+
+copyright{
+	display: flex;
+	justify-content: center;
+
 }
