@@ -82,8 +82,61 @@ element {
   }
 }
 p{
-	color:white;
+	color:black;
 }
 footer{
   margin: 50px;
+}
+
+.headContainer {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.logo{
+	float: right;
+}
+nav{
+display: flex;
+	justify-content: space-evenly;
+	width:800px;
+	padding:10px;
+}
+
+.mainPhoto{
+	display: flex;
+	justify-content: center;
+}
+
+.servContainer{
+	width: 800px;
+	padding: 20px;
+	border: 1px solid black;
+
+}
+
+.container{
+	  display: flex;
+		flex-direction:row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+}
+
+.box{
+	border: 1px solid black;
+	margin:20px;
+	width:500px;
+	padding:10px;
+}
+button{
+	margin:10px;
+}
+
+.services-info-img{
+	float: right;
+}
+
+ul{
+	list-style-type: square;
+	padding:20px;
 }
