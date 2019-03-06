@@ -64,37 +64,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-/* index.html */
-	.container {
-		width: 878px;
-		margin: auto;
+.container, .services-container {
+	width: 878px;
+	margin: auto;
+}
+
+/* header */
+	header {
+		display: flex;
+		align-items: center;
+		flex-wrap: nowrap;
+		height: 100%;
+		justify-content: space-around;
+		margin-top: 20px;
 	}
-	/* header */
-		header {
-			display: flex;
-			align-items: center;
-			flex-wrap: nowrap;
-			height: 100%;
-			justify-content: space-around;
-			margin-top: 20px;
-		}
-		header nav {
-			display: flex;
-			align-items: flex-start;
-			flex-wrap: nowrap;
-			height: 100%;
-		}
+	header nav {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: nowrap;
+		height: 100%;
+		margin-bottom: 25px;
+	}
 
-		header nav a {
-			color: gray;
-			text-decoration: none;
-			margin: 0 20px;
-		}
+	header nav a {
+		color: gray;
+		text-decoration: none;
+		margin: 0 20px;
+	}
 
-		header img.logo {
-			margin-left: 50px;
-		}
-	/* /header */
+	header img.logo {
+		margin-left: 50px;
+		margin-bottom: 25px;
+	}
+/* /header */
+
+/* index.html */
 
 	/* cta */
 		.cta {
@@ -186,3 +190,54 @@ h1, h2, h3, h4, h5 {
 /* index.html */
 
 /* services.html */
+	.services-p {
+		padding: 20px 0px 20px 0px;
+	}
+	.services-p h2 {
+		font-size: 23px;
+	}
+
+	/* services-boxes */
+		section.services-boxes {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-content: space-around;
+		}
+		div.service-box {
+			border: 1px solid black;
+			width: 48%;
+			margin: 15px 0px 15px 0px;
+			padding: 15px;
+			background-color: Gainsboro;
+		}
+		div.service-box button {
+			margin-top: 15px;
+			font-size: 10px;
+			background: white;
+			border-color: black;
+			box-shadow: none;
+			border-radius: 5px;
+			width: 100px;
+			height: 25px;
+		}
+	/* services-boxes */
+
+	/* facts */
+		section.facts {
+			display: flex;
+			justify-content: space-around;
+			margin: 40px 0px 65px 0px;
+		}
+		div.some-facts {
+			width: 45%
+		}
+		div.some-facts ul {
+			display: flex;
+			flex-direction: column;
+			align-content: space-between;
+			margin: 10px 0px 10px 30px;
+		}
+		section.facts img {
+			width: 45%
+		}
