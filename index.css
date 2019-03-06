@@ -105,6 +105,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 #bold{
@@ -189,6 +190,7 @@ margin: 20px;
 	justify-content: space-around;
 	flex-flow: column wrap;
 	align-content: center;
+	flex-wrap: wrap;
 }
 
 .infobox{
@@ -211,6 +213,7 @@ margin: 20px;
 	padding: 20px;
 	text-align: left;
 	display: flex;
+	flex-wrap: wrap;
 }
 #bottext{
 	width: 50%;
