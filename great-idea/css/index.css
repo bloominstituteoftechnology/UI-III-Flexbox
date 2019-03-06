@@ -94,11 +94,12 @@ footer {
 header {
 	/* border: 1px solid forestgreen; */
 	margin-top: 20px;
+	display: flex;
 }
 
 header nav {
 	/* border: 1px solid red; */
-	display: inline-block;
+	/* display: inline-block; */
 	align-content: center;
 	vertical-align: top;
 }
@@ -121,12 +122,26 @@ a:first-child {
 
 .h1-image-content {
 	/* border: 1px solid green; */
+	display: flex;
 }
+
+.h1-button {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+
+button {
+	margin-left: 148px;
+}
+
 
 h1 {
 	/* border: 1px solid red; */
 	font-size: 6.0rem;
-	display: inline-block;
+	/* display: inline-block; */
 	text-align: center;
 	width: 300px;
 	vertical-align: top;
@@ -136,8 +151,9 @@ h1 {
 
 .code-image {
 	/* border: 1px solid red; */
-	display: inline-block;
+	/* display: inline-block; */
 	margin-top: 40px;
+	margin-left: 50px;
 }
 
 button {
