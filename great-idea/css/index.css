@@ -65,15 +65,36 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	display: flex;
 	width: 850px;
 	margin: auto;
 }
 
-header nav {
-	display: flex;
+.cta-text {
+	display:flex;
+	justify-content: space-around;
 }
 
+.contact {
+	margin: auto;
+}
+.text {
+	display:flex;
+	justify-content: space-around;
+}
+
+header {
+	display:flex;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+header img {
+	display:flex;
+	justify-content: flex-end;
+}
 header nav a {
 	margin: 0 27px;
 }
@@ -94,7 +115,16 @@ p {
 	width: 50%;
 }
 
+.bottom{
+	display:flex;
+	justify-content: space-around;
+}
+contact {
+	margin-left: 20px;
+}
+
 footer {
+	
 	text-align: center;
 	padding: 10px;
 }
