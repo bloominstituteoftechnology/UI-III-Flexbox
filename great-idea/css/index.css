@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol {
 	list-style: none;
 }
 blockquote, q {
@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	margin: 5px 50px 3px 50px;
+}
+
+nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+nav a {
+	text-decoration: none;
+	background-color: lightblue;
+	padding: 5px 1.75em 5px 1.75em;
+	order: 0;
+}
+
+nav .logo {
+	order: 5;
+}
+
+
+header {
+	display: flex;
+	flex-flow: column nowrap;
+	box-sizing: border-box;
+	padding-bottom: 25px;
+	border-bottom: 1px solid black;
+	margin-bottom: 25px;
+}
+
+.services-description {
+	margin-top: 20px;
+}
+
+
+
+.body {
+	display: flex;
+	flex-flow: column nowrap;
+	padding-bottom: 35px;
+	border-bottom: 1px solid black;
+	margin-bottom: 35px;
+	align-items: stretch;
+}
+
+
+
+.box {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	border: 1px solid black;
+	background-color: lightgray;
+	box-sizing: border-box;
+	padding: 9px;
+	margin: 15px;
+}
+
+.body .body-div {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}
+
+.learn {
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 3px 10px 3px 10px;
+}
+
+
+
+.facts {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.facts-half {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+ul {
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 20px 0px 0px 25px;
+
+}
+
+
+
+footer {
+	text-align: center;
+}
