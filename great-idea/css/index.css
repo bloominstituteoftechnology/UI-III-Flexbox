@@ -228,4 +228,17 @@ background-color: rgb(238, 238, 238);
 
   /* ----------- Bottom Content ------------- */
 
+.facts{
+	display:flex;
+	margin-top:35px;
+}
 
+.facts ul{
+	margin-top:10px;
+	margin-left:20px;
+	line-height: 35px;
+}
+
+.facts li{
+	list-style-type: square;
+}
