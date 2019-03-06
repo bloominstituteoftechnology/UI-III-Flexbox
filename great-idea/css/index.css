@@ -132,7 +132,52 @@ hr {
 
 .section6 {
 	display: flex;
-	justify-content: space-around;
-	margin-top: 20px
+	justify-content: flex-start;
+	margin-top: 20px;
+	
+}
+.services {
+	margin-left: 5%;
+}
+.product {
+	margin-left: 25%
+}
+.vision {
+	margin-left: 25%
+}
 
+.section7 {
+	display:flex;
+	justify-content: flex-start;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+.p-services {
+	margin-left: 5%;
+}
+.p-product {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.p-vision {
+	margin-right: 5%;
+}
+
+.section8 {
+	display:flex;
+	flex-direction:column;
+	margin-left: 5%;
+	
+	
+}
+.phone {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.small {
+	margin-left: 35%;
+	margin-top: 15px;
+	margin-bottom:40px;
 }
