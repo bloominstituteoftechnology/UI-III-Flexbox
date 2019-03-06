@@ -254,3 +254,36 @@ img.middle-img {
 	list-style-type: square;
 	margin-left: 50px;
 }
+.lorum {
+	font-size: 25px;
+	margin-left: auto;
+}
+.allstretch {
+	background-color: greenyellow;
+}
+.newlogo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+
+}
+.newlogo div {
+	margin-left: 73px;
+	width: 575px;
+	height: 300px;
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 2px solid black;
+	
+
+}
+.newlogo p {
+	font-size: 25px;
+	background-color: white;
+}
+.newlogo h5 {
+	font-size: 25px; 
+	background-color: white;
+}
