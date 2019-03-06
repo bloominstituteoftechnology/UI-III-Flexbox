@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.section1 {
+	display: flex;
+	height: 100px;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+
+nav {
+	word-spacing: 40px;
+	width: 60%;
+	
+
+}
+
+.section2 {
+	display: flex;
+	height: 379px;
+	align-items: center;
+	justify-content: space-around;
+}
+.innovation, .on, .demand {
+	width: 60%;
+	font-size: 100px;
+	text-align: center;
+	
+}
+button {
+	text-align: center;
+	font-size: 25px;
+	margin-left: 20%;
+}
+
+hr {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.section3 {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;	
+	
+}
+.features {
+	margin-right: 30%
+}
+.about {
+	margin-right: 40%
+}
+.section4 {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	justify-content: space-around;
+	width: 90%;
+	margin-left: 5%;
+	
+}
+.middle-img {
+	margin-left: 5%;
+	width:90%;
+	height:auto;
+}
+
+.section6 {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+	
+}
+.services {
+	margin-left: 5%;
+}
+.product {
+	margin-left: 25%
+}
+.vision {
+	margin-left: 25%
+}
+
+.section7 {
+	display:flex;
+	justify-content: flex-start;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+.p-services {
+	margin-left: 5%;
+}
+.p-product {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.p-vision {
+	margin-right: 5%;
+}
+
+.section8 {
+	display:flex;
+	flex-direction:column;
+	margin-left: 5%;
+	
+	
+}
+.phone {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.small {
+	margin-left: 35%;
+	margin-top: 15px;
+	margin-bottom:40px;
+}
