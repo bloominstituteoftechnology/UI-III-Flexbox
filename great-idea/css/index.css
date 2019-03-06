@@ -201,13 +201,15 @@ header nav {
 	  font-size: 25px;
   }
 
+
+  /* ----------- Boxes ------------- */
+
 .boxes{
 	display:flex;
 	flex-wrap: wrap;
 	align-content: space-between;
-	
+	border-bottom:1px solid black;
 }
-
 
 .boxes div{
 border:1px solid black;
@@ -220,7 +222,10 @@ background-color: rgb(238, 238, 238);
 
 
 .boxes div button{
-	margin-top:12px;
+	margin-top:22px;
+	border-radius:5px;
 }
+
+  /* ----------- Bottom Content ------------- */
 
 
