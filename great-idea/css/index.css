@@ -196,9 +196,13 @@ button {
 	margin: 30px 0;
 }
 
+.bottom-paragraphs {
+	display: flex;
+}
+
 .bottom-content {
 	width: 300px;
-	display: inline-block;
+	/* display: inline-block; */
 	margin-bottom: 30px;
 }
 
