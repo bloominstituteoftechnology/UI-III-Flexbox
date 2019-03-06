@@ -70,7 +70,12 @@ h1, h2, h3, h4, h5 {
 /* Beginning of my code 	*/
 
 body {
-	background-color: #B0B0B0;
+	/*background-color: #B0B0B0;*/
+}
+
+h1 {
+	font-size: 1.5em;
+	margin-top: 20px;
 }
 
 button {
@@ -86,25 +91,37 @@ hr {
 	display: flex;
 	flex-direction: column;
 	margin: 20px 2% 20px 2%;
+	width: 800px;
+	margin: 0 auto;
 }
 
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 
-	margin: 0 0 30px 0;
+	margin: 20px 0 30px 0;
 }
 
 nav a {
 	text-decoration: none;
 }
 
+header {
+	display: flex;
+	flex-direction: column;
+}
+
+header p {
+	margin-bottom: 20px;
+}
+
 section {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	
+	margin; ;
 }
 
 article {
@@ -112,12 +129,38 @@ article {
 	width: 250px;
 	height: 250px;
 	border: 1px solid black;
-}
 
-section {
-	margin: 0 0 20px;
+	margin-bottom: 20px;
+	background-color: #E8E8E8;
 }
 
 ul li {
 	list-style-type: square;
+}
+
+footer {
+	display: flex;
+}
+
+footer div {
+	display: flex;
+	flex-direction: column;
+}
+
+footer p {
+	margin-right: 20px;
+}
+
+ul {
+	margin: 20px 0 0 20px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+#copyright {
+	display: flex;
+	justify-content: center;
+	margin: 40px 0 40px 0;
 }
