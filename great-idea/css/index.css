@@ -67,11 +67,22 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 850px;
 	margin: auto;
+	border: 1px dotted blue;
+}
+
+.cta {
+	display: flex;
+	justify-content: center;
 }
 
 .cta-text {
-	display:flex;
-	justify-content: space-around;
+	width: 50%;
+	font-size: 90px;
+	border: 1px solid green;
+}
+
+.cta img {
+	border: 1px solid green;
 }
 
 .contact {
@@ -80,6 +91,12 @@ h1, h2, h3, h4, h5 {
 .text {
 	display:flex;
 	justify-content: space-around;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	border: 1px solid green;
 }
 
 header {
@@ -101,11 +118,6 @@ header nav a {
 
 header img logo{
 	margin-left: 20px;
-}
-
-.cta-text {
-	font-size: 90px;
-	display: flex;
 }
 
 p {
