@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 }
  header nav {
-	display: inline-block;
+	display: flex;
 	position: fixed;
 	background-color: #F5F5F5;
 	padding-bottom: 20px;
@@ -82,6 +82,7 @@ header nav a {
 	font-size: 15px;
 	color: black;
   margin-left: 50px;
+	padding-top: 40px;
 }
 header nav a:hover {
 	text-decoration: underline;
@@ -94,24 +95,20 @@ header nav img {
 	padding: 0 10px;
 }
 .tag-line {
-	display: inline-block;
-	font-size: 60px;
 	text-align: center;
-	margin-left: 120px;
+	display: flex;
+	flex-direction: row;
+	font-size: 60px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: stretch;
 }
-.first {
-	margin-bottom: 0px;
-}
-.second {
-	margin-bottom: 0px;
-}
-.third {
-	margin-top: 0px;
-	margin-bottom: -20px;
-}
+
 .top-image {
-	width: 280px;
-  margin-left: 150px;
+	display: flex;
+	width: 200px;
+
   margin-top: 85px;
 }
 .button {
@@ -121,7 +118,6 @@ header nav img {
 	cursor: pointer;
 	padding: 6px 30px;
 	background-color: white;
-	display: inline-block;
 	margin-bottom: 85px;
 	border-radius: 5px;
 }
@@ -135,18 +131,22 @@ header nav img {
 	width: 100%;
 	border-top: 1px solid black;
 }
-.main-content p {
-	text-align: left;
+.wrap-content {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
 }
 .features {
-	display: inline-block;
 	width: 40%;
 	margin-top: 30px;
 	margin-left: 20px;
 	margin-bottom: 30px;
 }
 .about {
-	display: inline-block;
 	width: 40%;
 	margin-top: 30px;
 	margin-left: 60px;
@@ -157,14 +157,12 @@ header nav img {
 	border-radius: 10px;
 }
 .services {
-	display: inline-block;
 	width: 30%;
 	margin-left: 20px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 .product {
-	display: inline-block;
 	width: 30%;
 	margin-left: 20px;
 	margin-top: 30px;
@@ -172,7 +170,6 @@ header nav img {
 }
 
 .vision {
-	display: inline-block;
 	width: 30%;
 	margin-left: 20px;
 	margin-top: 30px;
