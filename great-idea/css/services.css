@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
 }
 
-/* Your code starts here! */
+/* Your code starts here */
 
 /* ************************************************
 *                    CONTAINER                     *
@@ -95,18 +95,20 @@ nav > a {
 /* ************************************************
 *                      BANNER                     *
 ***************************************************/ 
-.services-header-img
-{
+.services-header-img {
     width: 100%;
 }
 
 /* ************************************************
 *                  SERVICES HEADER                *
 ***************************************************/ 
+.service-header-container {
+    border-bottom: 1px solid black;
+}
+
 .services-header {
     padding-top: 30px;
     padding-bottom: 50px;
-    border-bottom: 1px solid black;
 }
 
 h1 {
@@ -161,33 +163,33 @@ h1 {
 }
 
 /* ************************************************
-*                  FACTS CONTAINER                *
+*                  INFO CONTAINER                *
 ***************************************************/ 
-.facts-container {
+.info-container {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
 }
 
-.facts-container section {
+.info-container section {
     width: 420px;
     padding-right: 4px;
 
     line-height: 20px;
 }
 
-.facts-container ul {
+.info-container ul {
     margin-top: 35px;
     
     list-style-type: square;
     list-style-position: inside;
 }
 
-.facts-container ul li {
+.info-container ul li {
     margin-bottom: 9px;
 }
 
-.facts-container ul li:last-of-type {
+.info-container ul li:last-of-type {
     margin-bottom: none;
 }
 
@@ -195,10 +197,61 @@ h1 {
 *                 COPYRIGHT (FOOTER)              *
 ***************************************************/ 
 .copyright {
-    
     margin-top: 90px;
-    text-align: center;
-
-    /* remove this */
     margin-bottom: 35px;
+    text-align: center;    
 }
+
+/* **************************************************************************************************************
+*                                                   MEDIA QUERIES                                               *
+*****************************************************************************************************************/ 
+
+/* 
+@media (max-width: 895px)
+{
+    nav {
+        justify-content: space-around;
+    }
+
+    .services-header-img {
+        min-width: 700px;
+    }
+    
+    .services-header {
+        max-width: 620px;
+        margin: 0 auto;
+        padding: 30px 20px 50px 20px;
+        text-align: center;
+    }
+    
+    .services-container {
+        flex-direction: column;
+        justify-content: space-around;
+
+        min-height: 1700px;
+    }
+
+    .info-container {
+        flex-direction: column-reverse;
+
+        min-height: 600px;
+        margin-top: 0px;
+    }
+
+    .info-container section {
+        align-self: center;
+        text-align: center;
+
+        margin-top: 20px;
+    }
+
+    .info-container ul {
+        text-align: left;
+        margin-left: 135px;
+    }
+
+    .info-container img {
+        object-fit: cover;
+        object-position: 50% 60%;
+    }
+} */
