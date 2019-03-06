@@ -64,91 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.container {
-	width: 878px;
-	margin: auto;
-}
-/* header */
-	header nav {
-		display: inline-block;
-		margin-top: 35px;
-		margin-left: 40px;
+/* index.html */
+	.container {
+		width: 878px;
+		margin: auto;
 	}
+	/* header */
+		header {
+			display: flex;
+			align-items: center;
+			flex-wrap: nowrap;
+			height: 100%;
+			justify-content: space-around;
+			margin-top: 20px;
+		}
+		header nav {
+			display: flex;
+			align-items: flex-start;
+			flex-wrap: nowrap;
+			height: 100%;
+		}
 
-	header nav a {
-		margin: 0 20px;
-		color: gray;
-		text-decoration: none;
-	}
+		header nav a {
+			color: gray;
+			text-decoration: none;
+			margin: 0 20px;
+		}
 
-	header img.logo {
-		margin-left: 50px;
-	}
-/* /header */
+		header img.logo {
+			margin-left: 50px;
+		}
+	/* /header */
 
-/* cta */
-	.cta-text {
-		display: inline-block;
-		font-size: 70px;
-		text-align: center;
-		vertical-align: top;
-		padding: 55px;
-		margin-left: 25px;
-		margin-top: 30px;
-	}
-	.cta-text button {
-		font-size: 20px;
-		background-color: white;
-	}
-	.circle-code {
-		display: inline-block;
-		vertical-align: top;
-		margin-left: 60px;
-		margin-top: 45px;
-	}
-/* cta */
+	/* cta */
+		.cta {
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: space-around;
+			align-items: center;
+			margin-bottom: 50px;
+		}
+		.cta-text {
+			display: flex;
+			font-size: 70px;
+			text-align: center;
+			vertical-align: top;
+			padding: 55px;
+			margin-left: 25px;
+			margin-top: 30px;
+			flex-direction: column;
+			align-items: center;
+		}
+		.cta-text button {
+			font-size: 12px;
+			background: none;
+			box-shadow: none;
+			border-radius: 1px;
+			width: 120px;
+			height: 25px;
+		}
+		.circle-code {
+			display: flex;
+			vertical-align: top;
+			margin-left: 50px;
+			margin-top: 45px;
+		}
+	/* cta */
 
-/* main-content */
-	section div.top-content {
-		width: 100%;
-		display: inline-block;
-	}
-	div.top-content div.text-content {
-		display: inline-block;
-		vertical-align: top;
-		width: 49%;
-		margin: 30px 0;
-	}
+	/* main-content */
+		div.top-content {
+			display: flex;
+			flex-flow: row nowrap;
+			align-content: flex-start;
+			justify-content: space-between;
+			padding: 20px 0px 20px 0px;
+		}
+		div.top-content div.text-content-a {
+			width: 49%;
+		}
+		div.top-content div.text-content-b {
+			width: 49%;
+		}
 
-	div.bottom-content{
-		display: inline-block;
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
-	div.bottom-content div.text-content-0 {
-		display: inline-block;
-		width: 32%;
-		margin-right: 1%;
-	}
-	div.bottom-content div.text-content-1 {
-		display: inline-block;
-		width: 32%;
-		margin-right: 1%;
-	}
-	div.bottom-content div.text-content-2 {
-		display: inline-block;
-		width: 32%;;
-	}
-/* main-content */
+	 	img.middle-img {
+			width: 100%;
+			display: flex;
+		}
 
-/* contact */
-	.contact {
-		line-height: 1.6;
-	}
-/* contact */
+		div.bottom-content{
+			display: flex;
+			flex-flow: row nowrap;
+			align-content: flex-start;
+			justify-content: space-between;
+			padding: 20px 0px 20px 0px;
+			/* border: 1px solid green;*/
+		}
+		div.bottom-content div.text-content-0 {
+			width: 32%;
+		}
+		div.bottom-content div.text-content-1 {
+			width: 32%;
+		}
+		div.bottom-content div.text-content-2 {
+			width: 32%;;
+		}
+	/* main-content */
 
-/* footer */
-	footer {
-		text-align: center;
-		font-size: 12px;
-	}
+	/* contact */
+		.contact {
+			line-height: 1.6;
+		}
+	/* contact */
+
+	/* footer */
+		footer {
+			text-align: center;
+			font-size: 12px;
+			margin-bottom: 80px;
+		}
+	/* footer */
+/* index.html */
+
+/* services.html */
