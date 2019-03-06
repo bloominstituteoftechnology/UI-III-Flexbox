@@ -93,14 +93,6 @@ nav > a {
 }
 
 /* ************************************************
-*                      BANNER                     *
-***************************************************/ 
-.services-header-img
-{
-    width: 100%;
-}
-
-/* ************************************************
 *                  SERVICES HEADER                *
 ***************************************************/ 
 .services-header {
@@ -197,8 +189,6 @@ h1 {
 .copyright {
     
     margin-top: 90px;
-    text-align: center;
-
-    /* remove this */
     margin-bottom: 35px;
+    text-align: center;
 }
