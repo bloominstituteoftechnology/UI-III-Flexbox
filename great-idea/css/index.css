@@ -64,3 +64,141 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 880px;
+	margin: 100px 0 50px 100px;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.top-img {
+	object-fit: contain;
+	padding: 0px 0px 15px 0;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.header {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0; 
+}
+
+.nav {
+	width: 750px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin: 2x 0 2px 0;
+	padding: 10px 0 10px 0;
+	align-items: flex-end;
+}
+
+.nav-link {
+	margin: 2x 10px 2px 0;
+	padding: 2x 10px 2px 0;
+	color: gray;
+}
+
+.logo {
+	height: 40px;
+	margin: 10px 0 10px 30px;
+	padding: 10px 0 10px 30px;
+}
+
+.top-img {
+	background-size: cover;
+}
+
+.h1-div {
+	margin: 10px 0 10px 0;
+	padding: 10px 0 10px 0;
+}
+
+.top-info {
+	margin: 10px 0 10px 0;
+	padding: 10px 0 10px 0;
+}
+
+.middle-portion {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0; 
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-bottom: 2px solid black;
+	border-top: 1px solid black;
+}
+
+.content-box {
+	width: 400px;
+	border: 1px solid black;
+	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: #D6E9F2;
+}
+
+.content-box p {
+	font-size: 15px;
+	margin: 10px 0 10px 3px;
+}
+
+.unordered {
+	list-style-type: square;
+	padding: 20px
+}
+
+.content-box H2 {
+	margin: 10px 0 10px 3px;
+	padding: 10px 0 10px 3px;
+}
+
+.content-box .button {
+	border: 1px solid black;
+	border-radius: 25px;
+	width: 150px;
+	height: 45px;
+	text-align: center;
+	background-color: white;
+}
+
+.bottom-portion {
+	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
+	width: 880px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-info {
+	margin: 0 20px 10px 0;
+	padding: 0 10px 10px 0;
+	display: flex;
+	width: 450px;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+footer { 
+	margin: 10px 0 10px 0;
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
