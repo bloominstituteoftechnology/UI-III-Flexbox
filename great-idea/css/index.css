@@ -268,3 +268,11 @@ footer {
 	margin-left: 50px;
 	align-self: flex-end;
 }
+
+@media (max-width: 600px) {
+	.main-content-services {
+		width: 100%;
+		display: flex;
+		flex-flow: column wrap;
+	}
+}
