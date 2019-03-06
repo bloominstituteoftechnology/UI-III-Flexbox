@@ -168,6 +168,9 @@ h5 {
 .f4 {
   font-size: 1.25rem;
 }
+.f7 {
+  font-size: 0.75rem;
+}
 .fw-l {
   font-weight: lighter;
 }
@@ -176,6 +179,10 @@ h5 {
 }
 .no-underline {
   text-decoration: none;
+}
+
+.list-style-square {
+  list-style-type: square;
 }
 
 /* Cursor */
@@ -207,6 +214,12 @@ h5 {
 .mt30px {
   margin-top: 30px;
 }
+.mt40px {
+  margin-top: 40px;
+}
+.mt80px {
+  margin-top: 80px;
+}
 
 .mb15px {
   margin-bottom: 15px;
@@ -219,6 +232,9 @@ h5 {
 }
 
 /* Rem */
+.mb1 {
+  margin-bottom: 1rem;
+}
 .ml3 {
   margin-left: 3rem;
 }
@@ -234,6 +250,10 @@ h5 {
 }
 
 /* Rem */
+.pa1 {
+  padding: 1rem;
+}
+
 .pt025 {
   padding-top: 0.25rem;
 }
@@ -248,12 +268,19 @@ h5 {
 .pb025 {
   padding-bottom: 0.25rem;
 }
+
+.pb1 {
+  padding-bottom: 1rem;
+}
 .pb5 {
   padding-bottom: 5rem;
 }
 
 .pl025 {
   padding-left: 0.25rem;
+}
+.pl1 {
+  padding-left: 1rem;
 }
 
 /* Width related classes */
@@ -262,6 +289,9 @@ h5 {
 }
 .w-33 {
   width: 33.33%;
+}
+.w-47-75 {
+  width: 47.75%;
 }
 .w-50 {
   width: 50%;
@@ -276,6 +306,14 @@ h5 {
 }
 .bt {
   border-top: 1px solid black;
+}
+
+.br2 {
+  border-radius: 0.25rem;
+}
+
+.bw2 {
+  border-width: 2px;
 }
 
 /* Flex related classes */
