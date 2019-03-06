@@ -164,3 +164,63 @@ margin: 20px;
 	text-align: center;
 }
 /* css for the services page */
+#header2{
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	margin: 10px auto;
+	height: 50px; 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+}
+.services-header{
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	margin: 100px 0px 0px 0px;
+}
+.columns{
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-flow: column wrap;
+	align-content: center;
+}
+
+.infobox{
+	width: 50%;
+	margin: 0 auto;
+	height: 200px;
+	background: cyan;
+	border: 2px solid black;
+}
+.infobutton{
+	background: gray;
+	color: pink'
+}
+.infobutton:hover{
+	color: yellow;
+}
+.bottom{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+	display: flex;
+}
+#bottext{
+	width: 50%;
+	padding: 20px;
+	margin: 0 auto;
+}
+#list{
+	padding-left: 20px;
+}
+#awesomeimage{
+	justify-content: right;
+	align-self: flex-start;
+}
