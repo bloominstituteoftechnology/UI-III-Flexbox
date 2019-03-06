@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,4 +63,396 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav{
+	display: flex;
+	padding: 10px;
+	width: 100%;
+	justify-content: space-around;
+	align-items:center;
+	flex-wrap: wrap;
+}
+nav a{
+	padding:10px;
+	margin:10px;
+	text-decoration: none;
+	color: gray;
+	box-sizing: border-box;
+	text-align: : center;
+	font-size:16px;
+}
+
+nav img{
+	padding: 10px;
+	margin:10px;
+}
+
+.hero-section{
+	width:100%;
+	height: 550px;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #717171
+}
+
+.hero-section .copy{
+	width: 470px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.hero-section  h1{
+	font-size: 85px;
+	text-align: center;
+	width: 300px;
+}
+
+.hero-section img{
+	width:500px;
+	height: 500px;
+}
+
+.hero-section button{
+	width: 200px;
+	font-size:16px;
+	height: 50px;
+	background: white;
+	border-style: solid;
+	border-radius: : 2px;
+	border-color: black;
+}
+
+.intro{
+	width: 100%;
+	height: 275px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.intro h2{
+	font-size: 24px;
+}
+.intro .features{
+	width: 500px;
+	margin: 20px;
+	padding: 20px;
+}
+.intro .about{
+	width: 500px;
+	margin:20px;
+	padding: 20px;
+}
+
+.middle-img{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	width: 100%
+}
+
+
+
+.details{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 1px solid #717171;
+}
+
+.details h2{
+	font-size: 24px;
+}
+
+.details .services{
+	width: 250px;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+.details .products{
+	width: 250px;
+	margin: 20px;
+	padding: 20px;
+
+}
+.details .vision{
+	width: 250px;
+	margin: 20px;
+	padding: 20px;
+}
+footer{
+	width: 100%;
+	margin-left: 80px;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+}
+
+span{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	padding: 10px;
+	align-self: center;
+}
+
+
+footer p{
+	line-height: 25px;
+}
+
+footer address{
+	padding-bottom: 20px;
+}
+
+footer h2{
+	font-size: 24px;
+}
+
+.Services-nav nav{
+	display: flex;
+	padding: 10px;
+	justify-content: space-around;
+	align-items:center;
+	flex-wrap: wrap;
+}
+.Services-nav a{
+	padding:5px;
+	margin:5px;
+	text-decoration: none;
+	color: gray;
+	box-sizing: border-box;
+	text-align: : center;
+	font-size:16px;
+}
+
+.Services-nav img{
+	padding: 5px;
+	margin:5px;
+}
+
+.Hero-section-services .services-header-img{
+	height: 300px;
+	width: 1300px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.Hero-section-services .hero-copy-services{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	width: 1300px;
+	margin-top: 20px;
+}
+.Hero-section-services .hero-copy-services h1{
+	font-size: 36px;
+}
+
+.Hero-section-services{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 450px;
+	border-bottom: 2px solid black;
+	margin: 25px;
+	padding: 25px;
+}
+
+.Design {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.Design .digital_design {
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 600px;
+	height: 300px;
+}
+
+.Design .UX_UI{
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 600px;
+	height: 300px;
+}
+
+.Design h2{
+	font-size: 24px;
+	margin: 10px;
+	padding:10px;
+}
+
+.Design p{
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.Design button{
+	width: 150px;
+	font-size:16px;
+	height: 50px;
+	background: white;
+	border-style: solid;
+	border-radius: : 2px;
+	border-color: black;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+
+
+.Marketing {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.Marketing .digital_marketing {
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 600px;
+	height: 300px;
+}
+
+.Marketing .Web-dev{
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 600px;
+	height: 300px;
+}
+
+.Marketing h2{
+	font-size: 24px;
+	margin: 10px;
+	padding:10px;
+}
+
+.Marketing p{
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.Marketing button{
+	width: 150px;
+	font-size:16px;
+	height: 50px;
+	background: white;
+	border-style: solid;
+	border-radius: : 2px;
+	border-color: black;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+
+.App-dev {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.App-dev .ios {
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 600px;
+	height: 300px;
+}
+
+.App-dev .android{
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 600px;
+	height: 300px;
+}
+
+.App-dev h2{
+	font-size: 24px;
+	margin: 10px;
+	padding:10px;
+}
+
+.App-dev p{
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.App-dev button{
+	width: 150px;
+	font-size:16px;
+	height: 50px;
+	background: white;
+	border-style: solid;
+	border-radius: : 2px;
+	border-color: black;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+.Services-facts{
+	border-top: 2px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	height: 500px;
+}
+
+.Services-facts .facts{
+	margin-top: 40px;
+	width: 600px;
+}
+
+.Services-facts .services-info-img{
+	margin-top: 40px;
+	width: 600px;
+}
+.Services-facts h2{
+	font-size: 24px;
+}
+
+.Services-facts p{
+	font-size: 16px;
+}
+
+.footer {
+	display: flex;
+	height: 100px;
+	justify-content:center;
+	align-content: center;
+}
+.footer p{
+	color: lightgray;
+	width: 400px;
+	margin: 20px;
+	padding: 20px;
+}
