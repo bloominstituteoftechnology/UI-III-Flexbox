@@ -69,12 +69,12 @@ h1, h2, h3, h4, h5 {
 }
  header nav {
 	display: flex;
-	position: fixed;
+	position: relative;
 	background-color: #F5F5F5;
 	padding-bottom: 20px;
 	opacity: 0.9;
 	border-radius: 10px;
-
+	width: 900px;
 }
 header nav a {
 	font-family: 'Permanent Marker', cursive;
@@ -94,22 +94,24 @@ header nav img {
 	margin-top: 20px;
 	padding: 0 10px;
 }
-.tag-line {
-	text-align: center;
+.main-tag {
 	display: flex;
 	flex-direction: row;
-	font-size: 60px;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
 	align-items: center;
 	align-content: stretch;
+
+}
+.tag-line {
+	text-align: center;
+	font-size: 60px;
+	padding-top: 30px;
 }
 
 .top-image {
-	display: flex;
-	width: 200px;
-
-  margin-top: 85px;
+	width: 250px;
+  margin-top: -20px;
 }
 .button {
 	font-family: 'Permanent Marker', cursive;
@@ -193,4 +195,73 @@ footer {
 	margin-top: 30px;
 	font-size: 15px;
 	padding-bottom: 50px;
+}
+.top {
+	margin-top: 105px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: stretch;
+	}
+	.services-content {
+		width: 100%;
+		padding: 5px 60px;
+		text-decoration: none;
+	}
+.flex-services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	border: 2px solid black;
+	margin-bottom: 35px;
+	padding-bottom: 30px;
+	margin-top: 0px;
+}
+.box {
+
+	border: 1px double black;
+	background-color: lightgray;
+	padding: 15px;
+	height: 220px;
+	width: 370px;
+	margin: 15px;
+}
+.button {
+	margin-top: 10px;
+	height: 20%;
+	width: 40%;
+	border-radius: 10px;
+	border: 2px solid black;
+	font-size: 12px;
+}
+.services-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 5px 60px;
+}
+.half-section {
+	padding: 15px;
+	height: 270px;
+	width: 400px;
+	margin: 15px;
+
+}
+.list {
+	list-style-type: square;
+    line-height: 1.5;
+    padding-left: 20px;
+}
+.services-info-img {
+	width: 100%;
+	height: 100%;
+}
+.copyright {
+	text-align: center;
 }
