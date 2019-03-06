@@ -185,4 +185,42 @@ header nav {
 	font-size: 14px;
   }
 
-  /* ----------- Stretch Goals ------------- */
+  /* ----------- Services Page ------------- */
+
+  header{
+	margin-bottom:15px;
+  }
+
+  .services{
+	  margin:30px 0 30px 0;
+	  padding-bottom: 30px;
+	  border-bottom: 1px solid black;
+  }
+
+  .services h1{
+	  font-size: 25px;
+  }
+
+.boxes{
+	display:flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	
+}
+
+
+.boxes div{
+border:1px solid black;
+padding:20px;
+width:45%;
+margin:0 auto;
+margin-bottom:30px;
+background-color: rgb(238, 238, 238);
+}
+
+
+.boxes div button{
+	margin-top:12px;
+}
+
+
