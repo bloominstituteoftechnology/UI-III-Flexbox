@@ -64,3 +64,279 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container-home {
+		max-width: 800px;
+		margin: 0 auto;
+  }
+  
+  hr {
+		width: 100%;
+  }
+  
+  h2 {
+	  font-size: 20px;
+  }
+	
+	
+	/*HEADER START */
+
+
+  header nav {
+		background: white;
+		width: 800px;
+		display: flex;
+		justify-content: space-between;
+		text-decoration: none;
+  }
+  
+  header nav a {
+		padding: 2px;
+		font-size: 16px;
+		color: gray;
+		display: flex;
+		font-family: 'Titillium Web', sans-serif;
+		justify-content: space-between;
+		align-items: center;
+		text-decoration: none;
+	}
+  
+  .logo {
+    padding-left: 40px;
+	}
+	/*HEADER END*/
+	
+	/* FEATURE CONTENT SECTION START */
+  .feature-content {
+	  width: 100%;
+	  display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+  
+  .get-started {
+		padding: 10px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+  
+  .feature-image {
+		padding: 25px;
+  }
+  
+  .get-started p {
+		font-family: 'Bangers', cursive;
+		font-size: 80px;
+  }
+  
+  button {
+		padding: 1px 35px 1px 35px;
+		font-family: 'Titillium Web', sans-serif;
+		cursor: pointer;
+  }
+  
+  button:hover {
+		background: green;
+  }
+  
+  button:active {
+		background: black;
+		color: white;
+  }
+	/* FEATURE CONTENT SECTION END */
+	
+	/* TOP CONTENT START */
+  .top-content {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		display: flex;
+   }
+  
+  .top-content section {
+		padding: 10px;
+	}
+	/* TOP CONTENT END */
+  
+	/* MID START */
+	.middle-content {
+		padding: 30px 0px 30px 10px;
+		background-image: url("http://i64.tinypic.com/zbpkg.jpg");
+		height: 150px;
+	}
+	/* MID END */
+	
+	/* BOTTOM CONTENT START */
+  .bottom-content {
+		padding-bottom: 30px;
+		padding-top: 30px;
+		display: flex;
+  }
+  
+  .bottom-content section {
+		padding: 10px;
+	}
+	/* BOTTOM CONTENT END*/
+  
+  .contact {
+		padding: 30px 10px 40px 10px;
+  }
+  
+  .contact section {
+		text-decoration: none;
+  }
+  
+  footer  {
+		display: flex;
+		padding: 40px;
+		justify-content: center;
+  }
+	
+	
+	
+/* SERVICES PAGE  START */
+.container-services {
+	max-width: 800px;
+	margin: 0 auto;
+	letter-spacing: 0.02em;
+	line-height: 20px;
+}
+
+.services-header-img {
+	width: 800px;
+	padding-bottom: 25px;
+}
+
+.services {
+	padding-bottom: 25px;
+}
+
+/*MAIN BOXES START */
+.services-main-boxes {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.box {
+	flex-direction: column;
+	align-content: center;
+	background-color: whitesmoke;
+	border: solid black 0.5px;
+	padding: 25px;
+	width: 385px;
+	height: 275px;
+}
+
+
+.box-row-1 {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	margin-top: 25px;
+}
+
+.box-row-2 {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	margin-top: 25px;
+}
+.box-row-3 {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	margin-top: 25px;
+}
+
+#button-services {
+	padding: 5px 35px 5px 35px;
+	font-family: 'Titillium Web', sans-serif;
+	cursor: pointer;
+	margin-top: 15px;
+	border-radius: 4px;
+	border: solid black 0.5px;
+	background-color: white;
+}
+
+#button-services:hover {
+	background: green;
+}
+
+#button-services:active {
+	background: black;
+	color: white;
+}
+/*MAIN BOXES END*/
+
+/*BOTTOM CONTENT START */
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.facts-about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 385px;
+}
+
+.services-info-img {
+	width: 385px;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+
+/*BOTTOM CONTENT END*/
+
+@media (max-width:632px) {
+	.box {
+		margin-bottom: 10px;
+	}
+	.box-row-1 {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.box-row-2 {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.box-row-3 {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+}
+
+
+
+
+
+/* ABOUT PAGE START */
+.about-us-header {
+	width: 800px;
+}
+
+.container-about {
+	max-width: 800px;
+	margin: 0 auto;
+	letter-spacing: 0.02em;
+	line-height: 20px;  
+}
+
+.main-about {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	color: white;
+	padding: 25px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
