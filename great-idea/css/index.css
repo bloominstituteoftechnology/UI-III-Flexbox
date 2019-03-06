@@ -458,11 +458,18 @@ p {
 
 .about-img {
     width: 876px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .about-section {
-    margin: 30px 0;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.virtues-section {
+    margin-bottom: 30px;
 }
 
 .about-section h1 {
@@ -476,5 +483,5 @@ p {
 }
 
 .virtues {
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
