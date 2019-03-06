@@ -70,24 +70,27 @@ a:hover{
 
 
 .mainContainer{
-	display: flex;
-		margin: 50px;
-		justify-content: space-evenly;
+
+		display: flex;
+		justify-content: space-around;
+		display: flex;
+		margin:50px;
 }
 
-.main h2{
+
+.mainContainer h2{
 	font-size: 80px;
-	display: flex;
-	flex-flow: column nowrap;
+	margin:10px;
 	width: 100px;
-	margin:50px;
-}
+	}
+
 p{
 	color:black;
 
 }
 footer{
   margin: 50px;
+	 border-top: 1px solid black;
 }
 
 .headContainer {
@@ -96,6 +99,21 @@ footer{
 }
 
 
+	.text{
+		margin: 20px;
+		display: flex;
+		flex-direction: column;
+
+	}
+	.element {
+		display: flex;
+		margin: 20px;
+		justify-content: space-evenly;
+		}
+
+.text1{
+		margin:10px;
+}
 nav{
   display: flex;
 	justify-content: space-evenly;
@@ -111,6 +129,7 @@ nav{
 
 .servContainer{
 	padding: 20px;
+	 border-bottom: 1px solid black;
 }
 
 .container{
@@ -138,6 +157,7 @@ button{
 .footerText{
 	display:flex;
 	justify-content: space-evenly;
+
 }
 
 ul{
@@ -151,19 +171,11 @@ copyright{
 
 }
 
-.element {
-	display: flex;
-	justify-content: space-around;
-	margin: 50px;
-	}
+.main{
+	border-top: 1px solid black;
+}
 
-	.text{
-		display: flex;
-		flex-direction: column;
-		margin: 20px;
-	}
-
-.main button{
+.mainContainer button{
 	background-color: white;
 		border: 1px solid black;
 }
@@ -171,9 +183,14 @@ copyright{
 .footerContainer{
 	display: flex;
 	flex-direction: column;
+	margin: 20px;
 
 }
 
 .prodContainer{
 	padding:50px;
+}
+
+.services-info-img{
+	margin:20px;
 }
