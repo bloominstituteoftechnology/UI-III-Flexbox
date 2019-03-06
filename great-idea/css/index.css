@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,16 +24,16 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -63,4 +63,226 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! for great idea webpage */
+.main-container{
+	width:1160px;
+	margin:auto;
+/*	border: 1px solid red;*/
+}
+
+
+.navigation  {
+margin: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.navigation p{
+	color:gray;
+}
+
+.inlineblock h1{
+ margin-left:  100px;
+ width: 175px;
+ height:175px;
+ font-size: 400%;     /* Here */
+ margin-right: 400px;
+ display: inline-block;
+}
+.imageandtitle{
+	display:flex;
+	justify-content: center;
+	margin:250px;
+}
+.buttonfirst{
+	border: 1px solid black;
+		width: 120px;
+		height:50px;
+		margin:50px;
+		margin-left: 140px;
+		padding:12px;
+		text-align: center;
+}
+.inlineblock {
+	display: inline-block;
+}
+.firstsection{
+	display: flex;
+	justify-content: flex-start;
+	margin-top:100px;
+}
+.paragraph1{
+width: 580px;
+ height:200px;
+
+}
+ .paragraph2{
+ width: 580px;
+  height:200px;
+	margin-left: : 20px;
+
+}
+	.paragraph3{
+	 width: 380px;
+	 height:200px;
+
+ }
+	 .paragraph4{
+	 width: 380px;
+	  height:200px;
+		margin: 20px;
+	 }
+		.paragraph5{
+		 width: 380px;
+		 height:200px
+		 margin: 20px; }
+	.secondsection{
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 100px;
+	}
+.footer{
+width: 200px;
+ height:80px;
+ margin:20px,20px;
+}
+.copyright{
+	margin-left: 500px;
+}
+/* CSS for services webpage starts here*/
+
+.containerservices{
+	width:880px;
+margin:auto;
+	/*border:1px solid black;*/
+}
+.logoandservices{
+	display: flex;
+	justify-content: space-between;
+}
+.logoandservices nav a{
+	margin: 25px;
+	color:gray;
+}
+.services-header-img{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.ourservices p{
+	width:850px;
+	text-align: justify;
+}
+
+.allsections{
+	display: flex;
+	flex-flow: wrap;
+
+}
+section{
+	width: 400px;
+	border:1px solid black;
+	padding:10px;
+}
+.sectiononeandtwo{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	margin-bottom: :30px;
+
+}
+.one{
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	background-color:#c9c9c5;
+	text-align: justify;
+	}
+.two{
+		margin-top: 30px;
+		margin-left: 20px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+	  background-color:#c9c9c5;
+		text-align: justify;
+		}
+.three{
+			margin-top: 30px;
+			margin-left: 50px;
+			margin-right: 50px;
+			margin-bottom: 30px;
+		  background-color:#c9c9c5;
+			text-align: justify;
+			}
+.four{
+				margin-top: 30px;
+				margin-left: 20px;
+				margin-right: 50px;
+				margin-bottom: 40px;
+        background-color:#c9c9c5;
+				text-align: justify;
+				}
+.five{
+		margin-top: 30px;
+		margin-left: 50px;
+		margin-right: 50px;
+	  margin-bottom: 80px;
+		background-color:#c9c9c5;
+		text-align: justify;
+	}
+	.six{
+			margin-top: 30px;
+			margin-left: 20px;
+			margin-right: 50px;
+	  	margin-bottom: 80px;
+			background-color:#c9c9c5;
+			text-align: justify;
+		}
+
+.sectionthreeandfour{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sectionfiveandsix{
+	display: flex;
+justify-content: center;
+align-items: center;
+}
+.button{
+	border: 1px solid black;
+		width: 120px;
+		height:50px;
+		margin:50px;
+		margin-left: 40px;
+		padding:12px;
+		text-align: center;
+}
+h2{
+	font-size: 200%
+}
+.ourservices{
+	width:1000px;
+	border: white;
+	margin-bottom:30px;
+}
+.lastcontainer{
+	display:flex;
+	justify-content:flex-start;
+	margin-top: 40px;
+}
+ .last {
+padding-right: 30px;
+   }
+.last p{
+	margin-top:30px;
+	margin-bottom:30px;
+	text-align: justify;
+}
+ .last ul li {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.copyrightnew{
+	margin-left: 400px;
+}
