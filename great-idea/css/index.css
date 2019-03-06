@@ -170,10 +170,15 @@ button {
 	margin-top: 60px;
 }
 
+.top-paragraphs {
+	display: flex;
+	/* border: 1px solid red; */
+}
+
 .top-content {
 	/* border: 1px solid green; */
 	width: 450px;
-	display: inline-block;
+	/* display: inline-block; */
 	margin-top: 30px;
 }
 
