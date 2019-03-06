@@ -64,3 +64,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	display: flex;
+	width: 850px;
+	margin: auto;
+}
+
+header nav {
+	display: flex;
+}
+
+header nav a {
+	margin: 0 27px;
+}
+
+header img logo{
+	margin-left: 20px;
+}
+
+.cta-text {
+	font-size: 90px;
+	display: flex;
+}
+
+p {
+	line-height: 1;
+	margin: 20px 0;
+	display: flex;
+	width: 50%;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+}
