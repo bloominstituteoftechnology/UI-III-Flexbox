@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here */
 
 /* ************************************************
-*                    CONTAINER                     *
+*                    CONTAINER                    *
 ***************************************************/ 
 .container {
 	max-width: 880px;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5 {
 nav {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+    align-items: center;
 
     margin-top: 28px;
     margin-bottom: 20px;
@@ -107,8 +107,7 @@ nav > a {
 }
 
 .services-header {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding: 30px 20px 50px 20px;
 }
 
 h1 {
@@ -120,8 +119,8 @@ h1 {
 ***************************************************/ 
 .services-container {
     display: flex;
-    flex-flow: row wrap; /* chose wrap to facilitate responsive design */
-    justify-content: space-between; /* should I opt for box model properties rather than flex? */
+    flex-flow: row wrap; 
+    justify-content: space-between;
     align-content: space-evenly;
 
     min-height: 920px;
@@ -129,8 +128,7 @@ h1 {
 }
 
 .services-container section {
-    width: 420px;
-    height: 250px;
+    width: 48%;
 
     border: 1px solid black;
     padding: 20px;
@@ -144,7 +142,7 @@ h1 {
 }
 
 .services-container section a {
-    display: inline-block; /* opted out of flex module to center text, seems uneccessary */
+    display: inline-block; /* opted out of flex module to center the link text, seemed uneccessary */
     width: 140px;
     height: 35px;
 
@@ -172,7 +170,7 @@ h1 {
 }
 
 .info-container section {
-    width: 420px;
+    width: 48%;
     padding-right: 4px;
 
     line-height: 20px;
@@ -193,6 +191,11 @@ h1 {
     margin-bottom: none;
 }
 
+.info-container img {
+    width: 48%;
+    height: 100%;
+}
+
 /* ************************************************
 *                 COPYRIGHT (FOOTER)              *
 ***************************************************/ 
@@ -202,10 +205,13 @@ h1 {
     text-align: center;    
 }
 
+
 /* **************************************************************************************************************
 *                                                   MEDIA QUERIES                                               *
 *****************************************************************************************************************/ 
-@media (max-width: 895px)
+
+
+@media (max-width: 700px)
 {
     /* ************************************************
     *                       NAV                       *
@@ -222,9 +228,8 @@ h1 {
     }
     
     .services-header {
-        max-width: 620px;
+        width: 80%;
         margin: 0 auto;
-        padding: 30px 20px 50px 20px;
         text-align: center;
     }
 
@@ -233,9 +238,14 @@ h1 {
     ***************************************************/ 
     .services-container {
         flex-direction: column;
-        justify-content: space-around;
+        align-content: space-around;
+    }
 
-        min-height: 1700px;
+    .services-container section {
+        width: 80%;
+        margin: 20px 0;
+
+        text-align: center;
     }
 
     /* ************************************************
@@ -252,15 +262,18 @@ h1 {
         align-self: center;
         text-align: center;
 
+        width: 80%;
         margin-top: 20px;
+        padding: 0 40px;
     }
 
     .info-container ul {
         text-align: left;
-        margin-left: 135px;
     }
 
     .info-container img {
+        width: initial;
+
         object-fit: cover;
         object-position: 50% 60%;
     }
