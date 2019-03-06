@@ -64,3 +64,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.section1 {
+	display: flex;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+nav {
+	word-spacing: 40px;
+	width: 60%;
+}
