@@ -152,12 +152,18 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
   margin: 0 auto;
-  width: 876px;
+  width: 880px;
 }
 
 /* Font / Text related classes */
 .f1 {
   font-size: 5rem;
+}
+.f2 {
+  font-size: 2.25rem;
+}
+.f3 {
+  font-size: 1.5rem;
 }
 .f4 {
   font-size: 1.25rem;
@@ -178,6 +184,9 @@ h5 {
 }
 
 /* Color related classes */
+.light-gray {
+  color: #f4f3f4;
+}
 .medium-gray {
   color: #9c9c9c;
 }
@@ -189,29 +198,51 @@ h5 {
 .bg-white {
   background-color: white;
 }
+.bg-light-gray {
+  background-color: #f4f3f4;
+}
 
 /* Margin related classes */
-.mt30 {
+/* Pixel */
+.mt30px {
   margin-top: 30px;
 }
 
+.mb15px {
+  margin-bottom: 15px;
+}
+.mb30px {
+  margin-bottom: 30px;
+}
+.mb40px {
+  margin-bottom: 40px;
+}
+
+/* Rem */
 .ml3 {
   margin-left: 3rem;
 }
 
-.mb15 {
-  margin-bottom: 15px;
-}
-.mb30 {
-  margin-bottom: 30px;
-}
-.mb40 {
-  margin-bottom: 40px;
+/* Padding related classes */
+/* Pixel */
+.pt30px {
+  padding-top: 30px;
 }
 
-/* Padding related classes */
-.pt30 {
-  padding-top: 30px;
+.pb30px {
+  padding-bottom: 30px;
+}
+
+/* Rem */
+.pt025 {
+  padding-top: 0.25rem;
+}
+.pt5 {
+  padding-top: 5rem;
+}
+
+.pr025 {
+  padding-right: 0.25rem;
 }
 
 .pb025 {
@@ -221,11 +252,8 @@ h5 {
   padding-bottom: 5rem;
 }
 
-.pt025 {
-  padding-top: 0.25rem;
-}
-.pt5 {
-  padding-top: 5rem;
+.pl025 {
+  padding-left: 0.25rem;
 }
 
 /* Width related classes */
@@ -253,6 +281,9 @@ h5 {
 /* Flex related classes */
 .flex {
   display: flex;
+}
+.flex-column {
+  flex-direction: column;
 }
 .items-center {
   align-items: center;
