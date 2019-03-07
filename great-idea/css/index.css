@@ -182,6 +182,7 @@ header a {
 
 .facts #facts_left {
 	text-align: left;
+	margin-right: 50px;
 }
 
 .facts #facts_left ul {
