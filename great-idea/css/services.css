@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/*  HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -90,13 +90,6 @@ nav > a {
 	font-size: 14px;
 	color: #B3B3B3;
 	text-decoration: none;
-}
-
-/* ************************************************
-*                      BANNER                     *
-***************************************************/ 
-.services-header-img {
-    width: 100%;
 }
 
 /* ************************************************
@@ -205,11 +198,9 @@ h1 {
     text-align: center;    
 }
 
-
 /* **************************************************************************************************************
 *                                                   MEDIA QUERIES                                               *
 *****************************************************************************************************************/ 
-
 
 @media (max-width: 700px)
 {
