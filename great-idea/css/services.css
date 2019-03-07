@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/*  http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
 }
 
-/* Your code starts here! */
+/* Your code starts here */
 
 /* ************************************************
-*                    CONTAINER                     *
+*                    CONTAINER                    *
 ***************************************************/ 
 .container {
 	max-width: 880px;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5 {
 nav {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+    align-items: center;
 
     margin-top: 28px;
     margin-bottom: 20px;
@@ -95,10 +95,12 @@ nav > a {
 /* ************************************************
 *                  SERVICES HEADER                *
 ***************************************************/ 
-.services-header {
-    padding-top: 30px;
-    padding-bottom: 50px;
+.service-header-container {
     border-bottom: 1px solid black;
+}
+
+.services-header {
+    padding: 30px 20px 50px 20px;
 }
 
 h1 {
@@ -110,8 +112,8 @@ h1 {
 ***************************************************/ 
 .services-container {
     display: flex;
-    flex-flow: row wrap; /* chose wrap to facilitate responsive design */
-    justify-content: space-between; /* should I opt for box model properties rather than flex? */
+    flex-flow: row wrap; 
+    justify-content: space-between;
     align-content: space-evenly;
 
     min-height: 920px;
@@ -119,8 +121,7 @@ h1 {
 }
 
 .services-container section {
-    width: 420px;
-    height: 250px;
+    width: 48%;
 
     border: 1px solid black;
     padding: 20px;
@@ -134,7 +135,7 @@ h1 {
 }
 
 .services-container section a {
-    display: inline-block; /* opted out of flex module to center text, seems uneccessary */
+    display: inline-block; /* opted out of flex module to center the link text, seemed uneccessary */
     width: 140px;
     height: 35px;
 
@@ -153,42 +154,118 @@ h1 {
 }
 
 /* ************************************************
-*                  FACTS CONTAINER                *
+*                  INFO CONTAINER                 *
 ***************************************************/ 
-.facts-container {
+.info-container {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
 }
 
-.facts-container section {
-    width: 420px;
+.info-container section {
+    width: 48%;
     padding-right: 4px;
 
     line-height: 20px;
 }
 
-.facts-container ul {
+.info-container ul {
     margin-top: 35px;
     
     list-style-type: square;
     list-style-position: inside;
 }
 
-.facts-container ul li {
+.info-container ul li {
     margin-bottom: 9px;
 }
 
-.facts-container ul li:last-of-type {
+.info-container ul li:last-of-type {
     margin-bottom: none;
+}
+
+.info-container img {
+    width: 48%;
+    height: 100%;
 }
 
 /* ************************************************
 *                 COPYRIGHT (FOOTER)              *
 ***************************************************/ 
 .copyright {
-    
     margin-top: 90px;
     margin-bottom: 35px;
-    text-align: center;
+    text-align: center;    
+}
+
+/* **************************************************************************************************************
+*                                                   MEDIA QUERIES                                               *
+*****************************************************************************************************************/ 
+
+@media (max-width: 700px)
+{
+    /* ************************************************
+    *                       NAV                       *
+    ***************************************************/ 
+    nav {
+        justify-content: space-around;
+    }
+
+    /* ************************************************
+    *                  SERVICES HEADER                *
+    ***************************************************/ 
+    .services-header-img {
+        min-width: 700px;
+    }
+    
+    .services-header {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* ************************************************
+    *               SERVICES (MAIN CONTENT)           *
+    ***************************************************/ 
+    .services-container {
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    .services-container section {
+        width: 80%;
+        margin: 20px 0;
+
+        text-align: center;
+    }
+
+    /* ************************************************
+    *                  INFO CONTAINER                 *
+    ***************************************************/ 
+    .info-container {
+        flex-direction: column-reverse;
+
+        min-height: 600px;
+        margin-top: 0px;
+    }
+
+    .info-container section {
+        align-self: center;
+        text-align: center;
+
+        width: 80%;
+        margin-top: 20px;
+        padding: 0 40px;
+    }
+
+    .info-container ul {
+        text-align: left;
+    }
+
+    .info-container img {
+        width: initial;
+
+        object-fit: cover;
+        object-position: 50% 60%;
+    }
 }
