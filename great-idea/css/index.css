@@ -94,7 +94,7 @@ h1 {
 }
 nav {
 	display: flex;
-	justify-content; space-evenly;
+	justify-content: space-evenly;
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -142,7 +142,7 @@ address {
 }
 .body3 {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: row;
 }
 ul {
 	list-style-type: square;
