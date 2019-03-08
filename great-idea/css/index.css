@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5 {
 			font-size: 12px;
 			background: none;
 			box-shadow: none;
+			border: 1px solid black;
 			border-radius: 1px;
 			width: 120px;
 			height: 25px;
@@ -216,6 +217,7 @@ h1, h2, h3, h4, h5 {
 			font-size: 10px;
 			background: white;
 			border-color: black;
+			border-width: thin;
 			box-shadow: none;
 			border-radius: 5px;
 			width: 100px;
