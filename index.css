@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	background: bisque;
+}
+
+#header1{
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+	margin: 0 auto;
+	height: 50px; 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.nav, #logo{
+	display: flex;
+	justify-content: center;
+}
+.nav{
+	width: 100%;
+	padding: 0px ;
+	border: 2px solid black;
+	margin: 0 auto;
+	background: cyan;
+
+}
+
+.header{
+	background-image: url("header-ing.png");
+	width: 100%;
+	padding: 20px;
+	margin: 100px 0px 0px 0px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#bold{
+	font-size: 50px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.button{
+	padding: 5px;
+	margin: 0px;
+	border: 2px black solid;
+	background-color: orange;
+	color: black;
+}
+.button:hover{
+	color: pink;
+}
+#big{
+	margin: 5px;
+	padding: 5px;
+}
+
+
+.wrapper{
+	width: 100%;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: row;
+}
+.sec1{
+	max-width: 41%;
+	margin: 20px;
+	
+}
+.wrapper img{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.sec2{
+max-width: 29%;
+margin: 20px;
+}
+
+.paw{
+	margin: 20px;
+}
+.paw a{
+	color: orchid;
+}
+#legal{
+	text-align: center;
+}
+/* css for the services page */
+#header2{
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	margin: 10px auto;
+	height: 50px; 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+}
+.services-header{
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	margin: 100px 0px 0px 0px;
+}
+.columns{
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-flow: column wrap;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.infobox{
+	width: 50%;
+	margin: 0 auto;
+	height: 200px;
+	background: cyan;
+	border: 2px solid black;
+}
+.infobutton{
+	background: gray;
+	color: pink'
+}
+.infobutton:hover{
+	color: yellow;
+}
+.bottom{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+	display: flex;
+	flex-wrap: wrap;
+}
+#bottext{
+	width: 50%;
+	padding: 20px;
+	margin: 0 auto;
+}
+#list{
+	padding-left: 20px;
+}
+#awesomeimage{
+	justify-content: right;
+	align-self: flex-start;
+}
