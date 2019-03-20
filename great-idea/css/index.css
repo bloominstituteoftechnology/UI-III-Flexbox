@@ -88,10 +88,6 @@ p {
   justify-content: center;
 }
 
-.justify-content-space-between {
-  justify-content: space-between;
-}
-
 .col, .col-3, .col-4, .col-6, .col-9, .col-12 {
   padding: 0px 20px;
 }
