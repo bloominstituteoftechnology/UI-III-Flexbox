@@ -1,3 +1,5 @@
+/*GIT FINAL CHECK*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -69,7 +71,13 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
 }
 
+.containerS {
+    width: 880px;
+    margin: 0 auto;
+}
 /* header */
+
+
 
 
 header {
@@ -219,3 +227,75 @@ footer {
 /*Services.html CSS*/
 
 
+.headerS {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navS {
+    margin-bottom: 10px;
+}
+
+.services-header-img {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border
+}
+
+
+
+.top-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+   
+}
+
+.top-text h2 {
+    font-size: 25px;
+}
+
+.main-text {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    background: lightgrey;
+    height: 250px;
+    width: 400px;
+}
+
+.services-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.services-main h2 {
+    font-size: 20px;
+}
+
+.services-main button {
+    margin-top: 30px;
+    width: 80px;
+    height: 36px;
+    border: .5px solid black;
+}
+
+
+
+.services-bottom {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin: 10px;
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+/*GIT FINAL CHECK*/
