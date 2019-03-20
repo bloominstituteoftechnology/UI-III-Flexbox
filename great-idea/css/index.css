@@ -63,4 +63,93 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+
+/* Global */
+.container {
+	width: 90%;
+	margin: 3vh auto;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+/* navigation */
+
+.navigation {
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: gray;
+}
+
+.navigation a:hover {
+	color:red;
+	font-size: 110%;
+}
+
+/* header */
+
+header {
+	/* border: red 1px solid; */
+	display: flex;
+	justify-content: space-evenly;
+	margin: 50px 0;
+	flex-wrap: wrap;
+	/* margin: 50px 0;
+	position: relative; */
+}
+
+
+header h1 {
+	font-size: 100px;
+	text-align: center;
+}
+
+header p {
+	border: 1px solid black;
+	border-radius: 5%;
+}
+
+
+/* Top Content */
+.top-content {
+	font-size: 18px;
+	/* margin-top: 40px; */
+	display: flex;
+	justify-content: space-between;
+	/* border: red 1px solid; */
+	margin: 60px 0;
+}
+
+/* middle accent img */
+
+.middle-img {
+	width: 100%;
+}
+
+/* bottom content */
+.bottom-content {
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	margin: 60px 0;
+}
+
+/* Contact info */
+
+.contact-info {
+	margin: 45px 0;
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+}
