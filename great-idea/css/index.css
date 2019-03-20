@@ -73,9 +73,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* header */
+header {
+	display:flex;
+}
+
 
 header nav {
-  display: inline-block;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
@@ -105,10 +108,12 @@ header .logo {
 }
 
 /* cta */
+.cta {
+	display:flex;
+}
+
 
 .cta .cta-text {
-  display: inline-block;
-  vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
@@ -131,7 +136,6 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
   margin-top: 69px;
 }
 
@@ -141,13 +145,17 @@ header .logo {
   padding-top: 39px;
 }
 
+.top-content {
+	display:flex;
+}
+
 .main-content .top-content {
   padding: 0 10px;
 }
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
+  
   margin-right: 34px;
 }
 
@@ -164,9 +172,12 @@ header .logo {
   padding: 0 10px;
 }
 
+.bottom-content {
+	display:flex;
+}
+
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
   margin-right: 12px;
 }
 
