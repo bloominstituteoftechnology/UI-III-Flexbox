@@ -69,6 +69,11 @@ h1, h2, h3, h4, h5 {
 	/* TB LR */
 	margin: 0 auto;
   }
+  .container2 {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
   
   /* header */
   /*Firealem :commented out the inline block and made the header flex*/
@@ -213,3 +218,48 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	font-size: 14px;
   }
+
+  /* Services 
+  */
+
+  .services-header-img{
+	  margin-top:20px;
+	  margin-bottom: 30px;
+	  }
+.middle-content{
+	  border-bottom: 1px solid black;
+	  padding-bottom: 30px;
+	  margin-bottom: 30px;
+}
+
+.list-content
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap:wrap;
+}
+.list-item{
+	margin:20px;
+	padding:10px;
+	border: 1px solid black;
+	width: 400px;
+    height: 200px;
+	background: lightgray
+}
+.last-section
+{
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+
+.last-section-text
+{
+	margin-right: 30px;
+}
+.last-section-text ul
+{
+margin-left:30px;
+}
