@@ -159,11 +159,11 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-/*header nav a:first-child {
+header nav a:first-child {
   margin-left: 0;
 }
 
-header nav a:last-child {
+/*header nav a:last-child {
   margin-right: 0;
 }
 
@@ -181,6 +181,7 @@ header .logo {
   text-align: center;
   padding: 0px 75px;
 }
+
 
 .cta .cta-text button {
   background: white;
@@ -300,19 +301,20 @@ h2 {
 
 .factsContainer {
 	display: flex;
-	justify-content: space-between;
-	
-}
-.factsChild {
-	line-height: 1.25;
+	justify-content: space-between;	
 }
 
-.factsChild child1 {
+.factsChild {
+	line-height: 1.25;
+	width: 420px;
+	padding-right: 20px;
+}
+.factsChild1 {
 	padding-right: 20px;
 }
 
 ul {
 	list-style-type: square;
 	list-style-position: inside;
-	
+	line-height: 2;	
 }
