@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5 {
 
 
 body {
-	max-width: 800px;
+	max-width: 875px;
 	width: 90vw;
 	margin: 0 auto;
 }
@@ -96,20 +96,25 @@ header {
 	margin: 20px 0 0 0;
 	border-bottom: 1px solid black;
 }
+nav {
+	display: flex;
+	justify-content: space-between;
+}
 nav .nav{
 	text-decoration: none;
 	color: rgb(173, 173, 173);
-	font-size: 10px;
-	margin: 0 3%;
-	padding: 0 2px;
+	font-size: 14px;
+	padding: 0 5px;
 	transition: .1s ease-in;
+	display: flex;
+	align-items: center;
+	margin: 5px 0 0 0;
 }
 nav .nav:hover {
 	border-radius: 2px;
 }
 nav img {
-	width: 100px;
-	margin: 0 0 0 50px;
+	width: 150px;
 }
 section {
 	display: flex;
@@ -158,7 +163,7 @@ section {
 
 /*main start */
 main, footer {
-	font-size: 75%;
+	font-size: 100%;
 	border-bottom: 1px solid black;
 }
 .sec1, .sec2 {
@@ -189,3 +194,4 @@ footer section {
 	flex-direction: column;
 }
 /*footer end*/
+
