@@ -73,16 +73,35 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-    margin-top: 10px;
     display:flex;
+    justify-content: space-evenly;
+}
+
+header nav {
+    margin-top: 35px;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+
 }
 
 .logo {
+    margin-top: 25px;
     margin-bottom: 5px;
+    margin-left: 40px;
 }
 
 .services {
     border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .sixWrapper{
@@ -92,7 +111,41 @@ header {
 }
 
 .sixBox {
-    background-color: lightblue;
+    background-color: whitesmoke;
     margin: 10px;
     width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.servicesTwo {
+    display:flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.facts {
+    width: 400px;
+    margin-right: 10px
+}
+
+.services-info-img {
+    width: 400px;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+}
+
+ul {
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+li {
+    padding: 5px;
 }
