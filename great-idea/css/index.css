@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+html {
+	box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+
+nav {
+	margin: 50px 100px 50px;
+	display: inline-block;
+
+  }
+  
+nav a {
+  margin-left: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  color: gray;
+}
+
+.logo{
+  display:inline-block;
+  margin-left: 150px;
+  width:100%;
+}
+
+.top-inov{
+  margin-left: 130px;
+  margin-top: -300px;
+}
+
+.top-on{
+ margin-left: 200px;
+}
+
+.top-demand {
+
+  margin-left: 150px;
+}
+
+button{
+  margin: 10px 180px;
+}
+
+ h1 strong {
+  font-size: 60px;
+	font-weight: extra-bold;
+	color: black;
+  }
+
+.code-snip{
+  margin-left: 1000px;
+}
+
+.get-started{
+  margin-left: 170px;
+  border: 1px solid black;
+  width:120px;
+  text-align:center;
+  padding:5px;
+}
+
+.top-content1  {
+ width:350px;
+  margin:50px 50px;
+}
+
+.top-content2 {
+ 
+  width:350px;
+  margin:50px 50px;
+}
+
+.top-content1, .top-content2 {
+  display:inline-block;
+  margin: 100px 200px;
+}
+
+.services {
+ width:200px;
+}
+
+.product {
+  width:200px;
+  margin-left: 50px;
+}
+.vision {
+  width:200px; 
+}
+
+.services, .product, .vision {
+  display:inline-block;
+  margin: 100px 200px 50px 50px;
+}
+
+address {
+ width: 150px;
+}
+
+.copyright {
+  text-align: center;
+}
