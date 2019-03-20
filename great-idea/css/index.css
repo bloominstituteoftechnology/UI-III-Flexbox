@@ -82,6 +82,7 @@ p {
   display: flex;
   flex-flow: row wrap;
   padding: 20px 0px;
+  height: 100%;
 }
 
 .justify-content-center {
@@ -140,6 +141,10 @@ p {
   margin-top: 80px;
 }
 
+.p-0 {
+  padding: 0;
+}
+
 .pb-6 {
   padding-bottom: 100px;
 }
@@ -154,4 +159,8 @@ p {
 
 .img-100 {
   width: 100%;
+}
+
+.align-content-center {
+  align-content: center;
 }
