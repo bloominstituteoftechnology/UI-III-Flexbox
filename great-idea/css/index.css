@@ -76,16 +76,18 @@ h1, h2, h3, h4, h5 {
 /* Header CSS */
 /* My header contains my nav and logo */
 
-	/* I visualized my header with a border while building
 	header {
-		border: 3px solid green; 
-	} */
+		/* Makes everything auto-display in a row */
+		display: flex;  
+	} 
 
-	/* Nav wraps around my entire list of items */
+	/* header nav wraps around my entire list of items */
 	header nav {
-		/* inline-block so the list can display in line with logo */
-		display: inline-block;
+		display: flex; 
+		/* where I am trying to add space between list items */
+		justify-content: space-around;  
 		
+	
 		/* width that looks nice and has enough space for logo */
 		width: 691px;
 
@@ -98,40 +100,24 @@ h1, h2, h3, h4, h5 {
 	  
 		/* Styles every list item in my nav */
 		header nav a {
-			
-			/* space between each line item */
-			margin-right: 65px;
-			
 			font-size: 14px;
 			color: gray;
 		}
-	  
-			/* no space between the first item and the leftside of the page*/
-			header nav a:first-child {
-				margin-left: 0;
-			}
-	  
-			/* no space between the last item and the logo*/
-			header nav a:last-child {
-				margin-right: 0;
-			}
 
 	/* Logo image styling */
 	header .logo {
 		/* Adding margin until logo vertically aligns */
 		margin-top: 25px;
+		margin-left: 20%; 
 	}
   
 /* Tagline CSS */
 /* My tagline container holds text, a button, and the header image */
-
+	.tagline {
+		display: flex; 
+	}
+	
 	.tagline .cta-text {
-		/* inline-block allows to display next to image */
-		display: inline-block;
-
-		/* for easier alignment with img */
-		vertical-align: top;
-
 		/* creating space */
 		margin-top: 120px;
 		padding: 0px 75px;
@@ -157,9 +143,6 @@ h1, h2, h3, h4, h5 {
 	}
 
 	.tagline img {
-		/* inline-block allows to display next to  */
-		display: inline-block;
-		
 		/* creating space */
 		margin-top: 69px;
 	}
@@ -176,37 +159,24 @@ h1, h2, h3, h4, h5 {
 	}
 
 	.page-content .top-content {
+		/* Setting up display: flex for the parent container of my content-box*/
+		display: flex; 
+		justify-content: space-between; 
 		/* Set top right padding at 0; bottom left padding at 10 px */
 		padding: 0 10px;
 	} 
 
-	.page-content .top-content .content-box {
-		width: 410px;
-		display: inline-block;
-		margin-right: 34px;
-	}
-
-	.page-content .top-content .content-box:last-child {
-		margin-right: 0;
-	}
-
 	.page-content .middle-img {
+		/* Image to display in a row*/
+		display: flex; 
 		margin-top: 45px;
 	}
 
 	.page-content .bottom-content {
+		/* Setting up display: flex for bottom content*/
+		display: flex; 
 		margin-top: 37px;
 		padding: 0 10px;
-	}
-
-	.page-content .bottom-content .content-box {
-		width: 275px;
-		display: inline-block;
-		margin-right: 12px;
-	}
-
-	.page-content .bottom-content .content-box:last-child {
-		margin-right: 0;
 	}
 
 /* Contact CSS */
