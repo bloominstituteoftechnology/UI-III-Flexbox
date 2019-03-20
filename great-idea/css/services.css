@@ -130,7 +130,6 @@ h1, h2, h3, h4, h5 {
   
 
 .middlecontent {
-    border: 1px solid red;
     height: 675px;
     margin-top: 30px;
     display: flex;
@@ -142,25 +141,49 @@ h1, h2, h3, h4, h5 {
 .middlecontent div {
     border: 1px solid black;
     width: 420px;
-    height: 200px;
+    height: 205px;
     background: lightgrey;
     padding: 15px;
 }
 
 .middlecontent div button {
 
-    width: 100px;
+    margin-top: 20px;
+    width: 150px;
     height: 30px;
+    background: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
 
 }
 
 .bottomcontent {
 
-    margin-top: 30px;
+    margin-top: 40px;
     border-top: 1px solid black;
     padding-top: 30px;
-
+    display: flex;
+    justify-content: space-between
 }
+
+.bottomtext {
+    display: flex;
+    flex-flow: column wrap;
+    width: 400px;
+}
+
+.bottomtext ul {
+
+    margin-top: 10px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.bottomtext p {
+
+    width: 400px;
+}
+
 
 .footer {
 	margin: 32px 0;
