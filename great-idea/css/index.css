@@ -158,3 +158,33 @@ address span {
 main h1 {
 	font-size: 28px;
 }
+
+.services-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.services-container section {
+	max-width: 48%;
+	padding: 20px;
+	border: 1px solid red;
+	margin-bottom: 4%;
+	background: #F4F4F4;
+	border: 1px solid #373737;
+	line-height: 1.25;
+}
+
+.services-container .learn-more {
+	height: 40px;
+	background: white;
+	margin-top: 40px;
+	display: inline-block;
+	padding: 0 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	border: 1px solid #373737;
+	font-size: 12px;
+	text-decoration: none;
+}
