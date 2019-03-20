@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	margin: 0 auto;
+	width: 876px;
+  }
+  .navigation {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around
+  }
+  .navigation a{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	text-decoration: none;
+	padding: 16px;
+	color: grey;
+  
+  }
+  .logo {
+	  display: inline-block;
+	  vertical-align: top;
+	  padding: 7px;
+	  margin-left: 49px;
+  }
+  .header h1{
+	  display: inline-block;
+	  font-size: 50px;
+	  text-align: center;
+	  width: 49.5%;
+	  padding: 116px;
+	  vertical-align: top;
+  }
+  .headerImage {
+	  display: inline-block;
+	  width: 49.5%;
+	  padding: 40px;
+  }
+  .buttonHeader{
+	  display: inline-block;
+	  text-decoration: none;
+	 color:black; 
+	  font-size: 20px;
+	  border: 1px solid black;
+	  padding: 10px;
+  }
+  .divider{
+	  border-top:2px solid rgb(161, 161, 161);
+	  padding:10px 0px 10px 0px;
+  }
+  .features{
+	  width: 49.5%;
+	  display: inline-block;
+	  padding: 30px;
+	  vertical-align: top;
+  }
+  .about{
+	  width: 49.5%;
+	  display: inline-block;
+	  padding: 33px;
+	  vertical-align: top;
+  }
+  .services{
+	  display:inline-block;
+	  width:33%;
+	  padding: 30px;
+	  vertical-align: top;
+  }
+  .product{
+	  display:inline-block;
+	  width:33%;
+	  padding: 30px;
+	  vertical-align: top;
+  }
+  .vision{
+	  
+	  display:inline-block;
+	  width:30%;
+	  padding: 30px;
+	  vertical-align: top;
+  }
+  .contact {
+	  padding-top:50px;
+  }
+  .contact p{
+	  padding:10px 0px 10px 0px;
+  }
+  .copyright{
+	  display:block;
+	  text-align: center;
+	  padding: 50px 0px 50px 0px;
+	}
+	
+.container2{
+	border: solid red;
+  display: flex;
+	flexflow: column nowrap;
+	
+} 
+
+.digitaldesign{
+	border: solid black;
+	display:flex;
+}
+.UXUI{
+  border: solid black;
+}
+.digitalM{
+  border: solid black;
+}
+.webdev{
+  border: solid black;
+}
+.iosdev{
+  border: solid black;
+}
+.androidDev{
+  border: solid black;
+}
