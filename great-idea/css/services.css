@@ -69,15 +69,16 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 880px;
 	/* TB LR */
-	margin: 0 auto;
+    margin: 0 auto;
   }
   
   /* header */
   header {
 	  display: flex; 
 	  justify-content: space-between;
-	  align-items: center;
-	  margin-top: 10px;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
   }
   
   /* header nav {
@@ -106,89 +107,62 @@ h1, h2, h3, h4, h5 {
 	margin-top: 0px;
   }
   
-  /* cta */
-  .cta
-  {
-	  display: flex;
+/* top content */
 
-  }
-  .cta .cta-text {
-	vertical-align: top;
-	font-size: 77px;
-	margin-top: 120px;
-	text-align: center;
-	padding: 0px 75px;
-  }
+.topcontent {
+
+    border-bottom: 1px solid black;
+}
+
+.topcontent h1 {
+
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.topcontent p {
+
+    margin-bottom: 30px;
+
+}
+
+/* middle content */
   
-  .cta .cta-text button {
-	background: white;
-	vertical-align: top;
-	margin-top: 6px;
-	padding: 8px 44px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
-  }
-  
-  .cta .cta-text button:hover {
-	background: black;
-	color: white;
-  }
-  
-  .cta img {
-	margin-top: 69px;
-  }
-  
-  .main-content {
-	border-top: 1px solid black;
-	margin-top: 76px;
-	padding-top: 39px;
-  }
-  
-  .main-content .top-content {
-	padding: 0 10px;
-	display: flex;
-  }
-  
-  .main-content .top-content .text-content {
-	width: 410px;
-	margin-right: 34px;
-  }
-  
-  .main-content .top-content .text-content:last-child {
-	margin-right: 0;
-  }
-  
-  .main-content .middle-img {
-	margin-top: 45px;
-  }
-  
-  .main-content .bottom-content {
-	margin-top: 37px;
-	padding: 0 10px;
-	display: flex;
-  }
-  
-  .main-content .bottom-content .text-content {
-	width: 275px;
-	margin-right: 12px;
-  }
-  
-  .main-content .bottom-content .text-content:last-child {
-	margin-right: 0;
-  }
-  
-  .contact {
-	margin-top: 57px;
-	border-top: 1px solid black;
-	padding: 39px 10px 0;
-  }
-  
-  .contact p {
-	margin: 20px 0;
-  }
-  
-  footer {
+
+.middlecontent {
+    border: 1px solid red;
+    height: 675px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.middlecontent div {
+    border: 1px solid black;
+    width: 420px;
+    height: 200px;
+    background: lightgrey;
+    padding: 15px;
+}
+
+.middlecontent div button {
+
+    width: 100px;
+    height: 30px;
+
+}
+
+.bottomcontent {
+
+    margin-top: 30px;
+    border-top: 1px solid black;
+    padding-top: 30px;
+
+}
+
+.footer {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
