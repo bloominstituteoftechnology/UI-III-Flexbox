@@ -64,3 +64,274 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/*************** TOPIC STUFF ***************/
+.main__wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+  }
+
+  .hero__flex {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 220px 0 40px 0;
+  }
+
+  .hero__title {
+	text-align: center;
+  }
+
+  .hero__title h1 {
+	font-size: 3.5rem;
+	width: 280px;
+  }
+
+  .hero__title button {
+	width: 175px;
+	font-size: 1.6em;
+	background-color: transparent;
+	padding: 5px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+
+  }
+
+  .topics {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+  }
+  
+  .topic--features, .topic--about {
+	padding-bottom: 15px;
+  }
+  .topic--services {
+	padding-top: 15px;
+  }
+  .topic--product, .topic--vision {
+	padding-top: 15px;
+  }
+
+  .topic--about,
+  .topic--features {
+	max-width: 100%;
+	/* width: 300px; */
+  }
+  .topic--header {
+	font-size: 1.3rem;
+  }
+  .topic--content {
+	font-size: 1.1rem;
+	line-height: 1.2rem;
+  }
+
+/******************* NAV *******************/
+
+  .header {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 10;
+	background-color: white;
+	width: 100%;
+  }
+  .nav {
+	order: 1;
+	flex: 1;
+
+	display: flex;
+	flex-wrap: wrap;
+  }
+
+  .nav__item{
+	text-decoration: none;
+	padding: 8px;
+	font-size: 1.3rem;
+	width: 50%;
+	text-align: center;
+  }
+  .logo__container {
+	padding: 30px 0 15px 0;
+	text-align: center;
+  }
+
+
+
+/************** SERVICES PAGE *******************/
+.main-services-wrapper {
+	width: 80%; margin: 0 auto;
+}
+.content {
+	line-height: 1.2em;
+}
+.services-header{
+	padding-top: 20px;
+}
+.services-title {
+	font-size: 1.5rem;
+}
+
+.services-header-img{
+	width: 100%;
+	padding-top: 200px;
+}
+.service-container {
+	background-color: #f2f2f2;
+	border: 1px solid #a6a6a6;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+.service-container-title {
+	font-size: 1rem;
+}
+.service-container-btn {
+	background:#ffffff;
+	margin-top: 10px;
+	font-size: .8rem;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	cursor: pointer;
+}
+.service-info-img {
+	width: 100%;
+}
+ul {
+	margin-top: 15px;
+}
+ul li {
+	list-style-type: square;
+	padding: 5px 0;
+}
+ul li:last-child {
+	padding-bottom: 20px;
+}
+
+.copyright {
+	text-align: center;
+	padding: 50px 0 30px 0;
+}
+
+/******************* MEDIA QUERY ***************/
+
+  @media (min-width: 826px) {
+	  .nav {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: nowrap;
+	  }
+
+	  .services-wrapper {
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: space-between;
+	  }
+	  .service-container {
+		  margin-bottom: 25px;
+	  }
+	  .service-container, .service-facts, .service-info-img {
+		  width: 48%;
+	  }
+	  .services-header-img{
+		width: 100%;
+		padding-top: 130px;
+	}
+  }
+
+  @media (min-width: 1024px) {
+	.main__wrapper {
+	  width: 898px;
+	}
+	.main-services-wrapper {
+		width: 898px; margin: 0 auto;
+	}
+	.header__wrapper {
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	border-bottom: 1px solid gray;
+  }
+  .header {
+
+	top: none;
+	left: none;
+	transform: translate(0);
+
+
+	position: static;
+	max-width: 898px;
+	margin: 0 auto;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	flex-direction: row;
+  }
+  .nav {
+	flex: 0 0 70%;
+	order: 0;
+	display: flex;
+	/* justify-content: space-between; */
+  
+ 
+  }
+
+  .nav__item {
+	text-decoration: none;
+	font-size: 1rem;
+	color: #ddd;
+	transition: color .2s linear;
+	width: 100%;
+	text-align: none;
+  }
+
+  .nav__item:hover {
+	color: gray;
+  }
+
+  .logo__container {
+	flex: 0 0 30%;
+	text-align: none;
+	display: flex;
+	justify-content: flex-end;
+	padding: 0;
+
+}
+
+.topic--features, .topic--about {
+  width: 420px;
+}
+
+.topic--services, .topic--product, .topic--vision {
+  width: 270px;
+}
+
+.hero__title h1 {
+	font-size: 5rem;
+	width: 310px;
+  }
+
+  .hero__image {
+	width: 400px;
+  }
+
+  .services-header-img{
+	
+	padding-top: 90px;
+}
+}
