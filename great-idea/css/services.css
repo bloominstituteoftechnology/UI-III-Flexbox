@@ -196,6 +196,11 @@ header nav a {
   margin-top: 2%;
 }
 
+#services-wrapper section button a {
+	text-decoration: none;
+	color: black;
+}
+
 footer {
   margin-top: 5%;
   display: flex;
