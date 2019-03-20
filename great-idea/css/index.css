@@ -86,6 +86,7 @@ h3 {
  }
 
 .box {
+	border-radius: 10px;
 	border: 1px solid black;
 	margin: 20px;
 	padding: 20px;
@@ -133,6 +134,7 @@ nav {
   background-color: white;
   display: flex;
 	padding-top: 20px;
+	border-bottom: 1px solid black;
 }
 
 nav a {
@@ -152,6 +154,7 @@ nav:first-child {
 }
 
 header {
+
   margin: 20px 0px
 }
 
