@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+  color: #000;
+}
+
+p {
+  line-height: 1.3rem;
+}
+
+.container {
+  min-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: block;
+  padding: 20px 0px;
+}
+
+.col, .col-12, .col-9, .col-6, .col-4, .col-3 {
+  padding: 0px 20px;
+}
+
+.col-12 {
+  display: inline-block;
+  width: 100%;
+}
+
+.col-9 {
+  display: inline-block;
+  width: 75%;
+}
+
+.col-6 {
+  display: inline-block;
+  width: 49%;
+}
+
+.col-4 {
+  display: inline-block;
+  width: 33%;
+}
+
+.col-3 {
+  display: inline-block;
+  width: 24%;
+}
+
+.navlink {
+  padding: 0px 30px;
+  display: inline-block;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: #777;
+}
+
+.text-size-5x {
+  font-size: 5rem;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 8px 40px;
+  text-decoration: none;
+}
+
+.va-middle {
+  vertical-align: middle;
+}
+
+.va-top {
+  vertical-align: top;
+}
+
+.mt-3 {
+  margin-top: 12px;
+}
+
+.mt-6 {
+  margin-top: 80px;
+}
+
+.py-2 {
+  padding: 10px 0px;
+}
+
+.pb-6 {
+  padding-bottom: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.page-border {
+  border: 1px solid black;
+}
+
+.img-100 {
+  width: 100%;
+}
