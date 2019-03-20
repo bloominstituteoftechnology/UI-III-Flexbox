@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5 {
 
     margin-top: 20px;
     width: 150px;
-    height: 30px;
+    height: 33px;
     background: whitesmoke;
     border: 1px solid black;
     border-radius: 5px;
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5 {
 .bottomcontent {
 
     margin-top: 40px;
-    border-top: 1px solid black;
+    border-top: 2px solid black;
     padding-top: 30px;
     display: flex;
     justify-content: space-between
@@ -177,6 +177,10 @@ h1, h2, h3, h4, h5 {
     margin-top: 10px;
     list-style-type: disc;
     list-style-position: inside;
+}
+
+.bottomtext ul li {
+    margin-top: 10px;
 }
 
 .bottomtext p {
