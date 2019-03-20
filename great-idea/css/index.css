@@ -162,12 +162,16 @@ header .logo {
 
 .main-content .top-content {
   padding: 0 10px;
+  display: flex;
+  flex-wrap: nowrap;  
+  justify-content: space-evenly;
+  align-items: center;
+  
 }
 
 .main-content .top-content .text-content {
-  width: 410px;
-  display: inline-block;
-  margin-right: 34px;
+  width: 440px;
+  
 }
 
 .main-content .top-content .text-content:last-child {
@@ -193,6 +197,7 @@ header .logo {
   margin-right: 0;
 }
 
+/* Bottom Content */
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
