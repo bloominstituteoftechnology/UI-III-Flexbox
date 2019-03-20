@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	/* display: block; */
 }
 body {
 	line-height: 1;
@@ -64,3 +64,150 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	width: 800px;
+	margin: auto;
+	/* border: 2px solid red; */
+}
+
+
+/* header CSS */
+
+header {
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+header .logo {
+	/* justify-content: flex-end; */
+}
+
+header nav {
+	/* margin-top: 35px; */
+	justify-content: center;
+	display: flex;
+	align-items: center;	
+}
+
+
+
+
+header nav a {
+	color:gray;
+	margin-right: 30px;
+	text-decoration: none;
+} 
+
+/* end header CSS */
+
+/* top third CSS */
+
+.top-third {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.top-left {
+	/* padding-top: 100px; */
+	/* display: inline-block; */
+	/* margin-left: 100px;  */
+	/* height: 350px; */
+	/* text-align: center; */
+	/* color:purple; */
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	/* justify-items: center; */
+}
+
+h1 {
+
+	/* float:left; */
+	font-size: 60px;
+	justify-self: center;
+	/* display:flex-column; */
+	/* width: 200px; */
+	/* margin: 10px; */
+	
+}
+
+.get-started {
+	/* padding-top: 20px; */
+	/* margin-top: 20px;	 */
+	border: 1px black solid;
+	padding: 10px 20px 10px 20px;
+}
+
+.circle-photo {
+	/* margin: 20px; */
+	/* height: 330px; */
+	/* float: right; */
+	/* right: 0px; */
+	/* display: flex; */
+	/* justify-self: flex-end; */
+	/* justify-items: flex-end; */
+	/* align-self: flex-end; */
+	/* justify-self: flex-end; */
+	/* display: flex; */
+	/* justify-content: flex-end; */
+}
+
+/* end top section */
+
+/* body CSS */
+.body-class {
+	border: O solid #000;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+.text-row {
+	/* display: block; */
+	/* color:purple; */
+	display: flex;
+	justify-content: space-between;
+}
+.text-para {
+	/* display: inline-block; */
+	/* color:blue; */
+	/* width: 33%; */
+	/* display:inline-block; */
+	padding-right: 10px;
+}
+
+h2 .features {
+	float: left;
+}
+
+h2 .about {
+	float: right;
+}
+
+.middle-img {
+	width: 800px;
+	padding: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* end body CSS */
+
+address {
+	padding-top: 20px;
+}
+
+.copyright {
+	font-size: 10px;
+	margin: auto;
+	/* text-align: center; */
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+}
