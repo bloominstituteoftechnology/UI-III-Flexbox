@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 800px;
 	margin: auto;
+	font-size: 10px;
 	/* border: 2px solid red; */
 }
 
@@ -92,9 +93,6 @@ header nav {
 	display: flex;
 	align-items: center;	
 }
-
-
-
 
 header nav a {
 	color:gray;
@@ -210,4 +208,62 @@ address {
 	padding-top: 20px;
 	display: flex;
 	justify-content: center;
+}
+
+/* Services CSS classes */
+
+.services-header-img {
+	width: 800px;
+	padding: 10px 0px 10px 0px;
+}
+
+.services-top-section {
+	padding-bottom: 10px;
+}
+
+.services-middle {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: space-between;
+}
+
+.services-box {
+	padding-top: 10px;
+	width:350px;
+	background-color: #bec2c6;
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.learn-more-button {
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	width: 100px;
+	margin: 20px 20px 20px 20px;
+	padding: 0px 40px 0px 40px;
+	border-radius: 5px;
+	font-size: 8px;
+}
+
+.footer {
+	padding-top: 20px;
+	display: flex;
+}
+
+.footer-left {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-list {
+	/* list-style-type: disc; */
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.services-info-img {
+	margin: 10px;
 }
