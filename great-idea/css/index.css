@@ -242,7 +242,8 @@ footer {
 
 .service-content .service-content-items p {
 	font-size: 18px;
-	padding-top: 50px;
+	padding-top: 10px;
+	margin: 10px;
 }
 
 .service-header-img {
@@ -276,7 +277,7 @@ footer {
 
 .service-content .service-content-items button{
 	background: white;
-	margin-top: 15px;
+	margin-top: 5px;
 	padding: 8px 20px;
 	font-size: 12px;
 	border: 1px solid black;
