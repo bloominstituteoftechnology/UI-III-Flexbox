@@ -155,109 +155,86 @@ h5 {
   margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
+/* Code Starts Here */
 .container {
-  width: 876px;
+  width: 880px;
   margin: 0 auto;
 }
 
 header {
-  margin-bottom: 67px;
-}
-
-.nav-and-logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 }
 
 nav a {
+  margin: 0 0 0 40px;
   text-decoration: none;
-  color: silver;
-  margin: 30px 0 0 60px;
-  font-size: 12px;
+  color: rgb(146, 146, 146);
 }
 
 nav a:first-child {
-  margin-left: 0;
+  margin: 0;
 }
 
-.title-image {
+.picture-services {
+  padding: 20px 0 40px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.picture-services h1 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+.content {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-content: space-around; TO DO COME BACK HEREEEEEE */
+  padding-bottom: 40px;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
 }
 
-.title {
-  vertical-align: top;
-  margin: 104px 0 0 60px;
-  text-align: center;
-}
-
-.code-snippet {
-  margin: 64px 0 0 125px;
-  line-height: 55px;
-}
-
-.logo {
-  /* margin: 25px 0 0 20px; */
-}
-
-h1 {
-  font-size: 70px;
+.box {
+  width: 425px;
+  height: 200px;
+  background-color: rgb(241, 240, 240);
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 30px;
 }
 
 button {
+  margin-top: 10px;
+  border-radius: 5px;
   border-color: black;
-  width: 155px;
+  width: 110px;
   height: 29px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
-.top-section,
-.bottom-section {
-  padding: 40px 0;
-}
-
-.features,
-.about {
-  /* display: inline-block; */
-  width: 49.5%;
-}
-
-.services,
-.product,
-.vision {
-  /* display: inline-block; */
-  width: 33%;
-}
-
-.top-section {
-  border-top: 2px black solid;
+.heading-to-list {
   display: flex;
+  flex-direction: column;
+  margin-right: 21px;
 }
 
-.bottom-section {
-  border-bottom: 2px black solid;
-  display: flex;
+ul {
+  margin-top: 20px;
+  list-style-type: square;
+  padding-left: 20px;
 }
-
-
 
 footer {
-  margin-top: 40px;
+  display: flex;
 }
 
-small {
-  display: block;
+section {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
 }
