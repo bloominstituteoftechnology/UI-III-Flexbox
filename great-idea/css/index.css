@@ -84,37 +84,32 @@ p {
   padding: 20px 0px;
 }
 
-/*
-.col, .col-12, .col-9, .col-6, .col-4, .col-3 {
-  display: inline-block;
+.col, .col-3, .col-4, .col-6, .col-9, .col-12 {
   padding: 0px 20px;
 }
 
 .col-12 {
-  width: 100%;
+  max-width: 100%;
 }
 
 .col-9 {
-  width: 75%;
+  max-width: 75%;
 }
 
 .col-6 {
-  width: 49%;
+  max-width: 49%;
 }
 
 .col-4 {
-  width: 33%;
+  max-width: 33%;
 }
 
 .col-3 {
-  display: inline-block;
-  width: 24%;
+  max-width: 24%;
 }
-*/
 
 .navlink {
   padding: 0px 30px;
-  display: inline-block;
 }
 
 .navlink a {
