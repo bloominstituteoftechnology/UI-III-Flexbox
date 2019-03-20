@@ -34,11 +34,14 @@ main {
     background-color: rgb(248, 248, 255);
 }
 .item div {
-    padding: 40px;
+    padding: 20px;
     text-align: left;
 }
 .cont3 h2, .cont3 p, .cont3 ul{
     text-align: left;
+}
+.cont-1 p, .cont-2 p{
+    margin-bottom: 20px;
 }
 li {
     list-style-type: square;
@@ -46,4 +49,22 @@ li {
 }
 .copy {
     text-align: center;
+}
+.lrn-btn {
+    display: block;
+	text-decoration: none;
+    color: black;
+    background-color: white;
+	font-size: 14px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    width: 125px;
+	padding: 5px 0;
+    transition: .1s ease-in;
+    text-align: center;
+}
+.lrn-btn:hover {
+    background-color: rgb(185, 185, 185);
+    border: 1px solid grey;
+    box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.418);
 }
