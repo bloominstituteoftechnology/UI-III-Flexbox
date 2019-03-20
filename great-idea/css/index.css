@@ -213,7 +213,6 @@ width: 180px;
 
 .main .top .text {
   width: 410px;
-  display: flex;
   margin-right: 34px;
 }
 
@@ -232,7 +231,6 @@ width: 180px;
 
 .main .bottom .text {
   width: 275px;
-  display: flex;
   margin-right: 12px;
 }
 
