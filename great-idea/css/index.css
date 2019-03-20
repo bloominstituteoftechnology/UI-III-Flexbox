@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width:960px;
+	margin:0 auto;
+}
+
+.main-nav {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px;
+	padding: 0 10px;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+}
+
+.call-action {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 50px 30px;
+}
+
+.call-action h1 {
+	color: #000;
+	font-weight: bold;
+	font-size: 4em;
+	text-align: center;
+}
+
+.call-action div:first-child {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.call-action button {
+	/* display: block;
+	margin: 0 auto; */
+	background-color: #fff;
+	width: 150px;
+	align-self: center;
+	padding: 5px 0;
+	border: 1px solid black;
+}
+
+.two-col, .three-col {
+	margin: 40px 25px;
+	padding: 25px;
+}
+
+.two-col {
+	border-top: 2px solid black;
+}
+
+.two-col {
+	display: flex;
+	justify-content: space-between;
+}
+
+.middle-img {
+	display: block;
+	margin: 0 auto;
+}
+
+.three-col {
+	border-bottom: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	margin: 50px;
+}
+
+footer span {
+	margin: 10px 0;
+}
+
+footer .copyright {
+	font-size: 0.8em;
+	align-self: center;
+}
