@@ -257,3 +257,27 @@ footer {
 .start{
   display: flex;
 }
+
+.round {
+	
+  border-radius: 50%;
+  box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+}
+
+.middle-img {
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+}
+
+.services-header-img {
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+}
+
+.services-info-img {
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+}
