@@ -225,6 +225,7 @@ footer {
 .container .bottom-sec {
 	display: flex;
 	margin-top: 10px;
+	padding: 10px;
 }
 
 .bottom-sec .lower-left .bottom-head {
@@ -237,4 +238,8 @@ footer {
 	list-style-type: circle;
 	margin-left: 20px;
 	line-height: 2;
+}
+
+@media (max-width: 1000px;){
+
 }
