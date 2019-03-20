@@ -64,3 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	
+	margin:0 auto;
+	width:880px;
+}
+a{
+	text-decoration: none;
+	margin-left:10px;
+	margin-right:30px;
+	display:inline-block;
+
+}
+
+.header-contact{
+	margin-right:160px;
+	display:inline-block;
+}
+
+
+.logo{
+	margin-top: 20px;
+}
+
+.top-content{
+	margin-bottom:100px;
+}
+
+.inno-content{
+	
+	padding-bottom:50px;
+	text-align:center;
+	display:inline-block;
+	width: 49.5%;
+	vertical-align: center;
+}
+
+.inno-content-h{
+
+	
+	font-size: 60px;
+	
+}
+
+
+.inno-img{
+	margin-left:59px;
+}
+
+
+.center-content{
+	
+	width:49.5%;
+	display:inline-block;
+}
+
+.main-center-content{
+	border-top:1px solid black;
+	padding:40px 0;
+	width:99%;
+}
+
+.center-content-1{
+	
+	width:33%;
+	display:inline-block;
+}
+
+.main-center-content-1{
+	border-bottom:1px solid black;
+	padding:40px 0;
+	width:99%;
+}
+
+
+
+.bottom-content{
+	padding-top:40px;
+}
+
+
+.address-content{
+	line-height: 2.5;
+}
+
+.copyright{
+	text-align: center;
+}
