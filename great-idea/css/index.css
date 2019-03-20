@@ -300,10 +300,15 @@ h2 {
 
 .factsContainer {
 	display: flex;
+	justify-content: space-between;
 	
 }
 .factsChild {
 	line-height: 1.25;
+}
+
+.factsChild child1 {
+	padding-right: 20px;
 }
 
 ul {
