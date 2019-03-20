@@ -63,4 +63,286 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+/*header-start*/
+header {
+	margin: 20px 0 0 0;
+	border-bottom: 1px solid black;
+}
+nav .nav{
+	text-decoration: none;
+	color: rgb(173, 173, 173);
+	font-size: 12px;
+	margin: 0 25px;
+	padding: 0 2px;
+	transition: .1s ease-in;
+}
+nav .nav:hover {
+	border-radius: 2px;
+}
+nav img {
+	width: 150px;
+	margin-right: 10px;
+  margin-left: 30px;
+}
+section {
+	display: block;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.txtNbtn {
+	float: left; /* not sure if aloud */
+	width: 50%;
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+	display: block;
+}
+.txtNbtn h1 {
+	margin: 70px 0 10px 0;
+}
+.centered a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	border: 1px solid rgb(175, 175, 175);
+	width: 100px;
+	padding: 3px 0;
+	margin: auto;
+	transition: .1s ease-in;
+}
+.centered a:hover, nav .nav:hover {
+	color: white;
+	background-color: rgb(97, 97, 97);
+	transform: scale(1.1);
+  box-shadow: 0 1px 10px grey;
+  border: none;
+}
+.rnd-img {
+	width: 50%;
+	float: right; /*not sure if aloud */
+	text-align: center;
+	display: block;
+}
+.rnd-img img {
+	width: 70%;
+	padding: 30px 0 0 0;
+}
+/* end header */
+
+/*main start */
+main, footer {
+	font-size: 90%;
+	border-bottom: 1px solid black;
+}
+.sec1, .sec2 {
+	text-align: left;
+	margin-top: 20px;
+}
+.cont, .cont2 {
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	float: left;
+	padding: 0 10px 0 0;
+}
+main img {
+	width: 100%;
+}
+.cont2 {
+	width: 33.33%;
+}
+/*main end*/
+
+/*footer start*/
+footer {
+	border: none;
+	text-align: center;
+}
+footer section {
+	text-align: left;
+	margin-top: 20px;
+}
+/*footer end*//* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+	max-width: 800px;
+	width: 90vw;
+	margin: 0 auto;
+}
+/*header-start*/
+header {
+	margin: 20px 0 0 0;
+	border-bottom: 1px solid black;
+}
+nav .nav{
+	text-decoration: none;
+	color: rgb(173, 173, 173);
+	font-size: 10px;
+	margin: 0 3%;
+	padding: 0 2px;
+	transition: .1s ease-in;
+}
+nav .nav:hover {
+	border-radius: 2px;
+}
+nav img {
+	width: 100px;
+	margin-right: 10px;
+	float: right;
+}
+section {
+	display: block;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.txtNbtn {
+	float: left;
+	width: 50%;
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+	display: block;
+}
+.txtNbtn h1 {
+	margin: 70px 0 10px 0;
+}
+.centered a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 10px;
+	border: 1px solid rgb(175, 175, 175);
+	width: 100px;
+	padding: 3px 0;
+	margin: auto;
+	transition: .1s ease-in;
+}
+.centered a:hover, nav .nav:hover {
+	color: white;
+	background-color: rgb(97, 97, 97);
+	transform: scale(1.1);
+}
+.rnd-img {
+	width: 50%;
+	float: right;
+	text-align: center;
+	display: block;
+}
+.rnd-img img {
+	width: 70%;
+	padding: 30px 0 0 0;
+}
+/* end header */
+
+/*main start */
+main, footer {
+	font-size: 75%;
+	border-bottom: 1px solid black;
+}
+.sec1, .sec2 {
+	text-align: left;
+	margin-top: 20px;
+}
+.cont, .cont2 {
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	float: left;
+	padding: 0 10px 0 0;
+}
+main img {
+	width: 100%;
+}
+.cont2 {
+	width: 33.33%;
+}
+/*main end*/
+
+/*footer start*/
+footer {
+	border: none;
+	text-align: center;
+}
+footer section {
+	text-align: left;
+	margin-top: 20px;
+}
+/*footer end*/
