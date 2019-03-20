@@ -60,7 +60,133 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	display: flex;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	display: flex;
+	/* TB LR */
+	flex-wrap: wrap;
+	width: 900px;
+	justify-content: center;
+  }
+  
+  /* header */
+  
+  header nav {
+	display: flex;
+	vertical-align: top;
+	margin-top: 35px;
+  }
+  
+  header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	  display: flex;
+	margin-top: 25px;
+  }
+  
+  /* cta */
+  
+  .cta .cta-text {
+	display: flex;
+	font-size: 77px;
+	text-align: center;
+	margin-top: 69px;
+	flex-direction: column;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	display: flex;
+	flex-wrap: wrap;
+	width: 150px;
+	text-align: center;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .cta img {
+	display: flex;
+	margin-top: 69px;
+	width: 379px;
+	flex-direction: row;
+  }
+  
+  .main-content {
+	margin-top: 76px;
+	padding-top: 39px;
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .main-content .top-content {
+	padding: 0 10px;
+	display: flex;
+  }
+  
+  .main-content .top-content .text-content {
+	display: flex;
+  }
+  
+  .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main-content .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+	display: flex;
+  }
+  
+  .main-content .bottom-content .text-content {
+	display: flex;
+	margin-right: 12px;
+	align-content: flex-end;
+  }
+  
+  .main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
