@@ -74,14 +74,12 @@ p {
 }
 
 .container {
-  min-width: 900px;
   width: 90%;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .row {
-  display: block;
+  display: flex;
   padding: 20px 0px;
 }
 
