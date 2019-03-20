@@ -143,6 +143,10 @@ ul li {
   text-decoration: none;
 }
 
+.m-3 {
+  margin: 12px;
+}
+
 .mt-3 {
   margin-top: 12px;
 }
@@ -153,6 +157,10 @@ ul li {
 
 .p-0 {
   padding: 0;
+}
+
+.p-3 {
+  padding: 12px;
 }
 
 .pb-6 {
@@ -181,4 +189,20 @@ ul li {
 
 .list-nostyle {
   list-style-type: none;
+}
+
+.bg-grey {
+  background-color: #EEE;
+}
+
+.bg-white {
+  background-color: #FFF;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.rounded {
+  border-radius: 5px;
 }
