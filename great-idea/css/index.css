@@ -64,3 +64,55 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+html {
+	margin: 50px;
+}
+
+header {
+	display: flex; 
+	justify-content: space-evenly;
+}
+header nav a {
+	margin: 20px;	
+}
+
+section h1 {
+	font-size: 100px;
+	text-align: center;
+	
+}
+
+.cta {
+	display: flex;
+	justify-content: center
+}
+.cta-text button {
+ 	display: flex;
+ 	align-items: center;
+
+}
+.top-content {
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+.bottom-content {
+	display: flex;
+	justify-content: space-evenly;	
+}
+
+.text-content {
+	margin: 10px;
+}
+.middle-img {
+	display: flex; 
+	align-content: center;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
