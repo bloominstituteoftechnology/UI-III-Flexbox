@@ -180,6 +180,16 @@ hr {
   color: lightgray;
 }
 
+nav a.current {
+  color: blue;
+  font-weight: 600;
+}
+
+.navigation a:hover {
+  color: red;
+  font-size: 110%;
+}
+
 /* header */
 
 header {
