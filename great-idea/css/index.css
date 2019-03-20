@@ -178,3 +178,7 @@ ul li {
 .d-flex {
   display: flex;
 }
+
+.list-nostyle {
+  list-style-type: none;
+}
