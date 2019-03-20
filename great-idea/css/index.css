@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container .heading .innovate h3{
-	margin-top: 20px;;
+	margin-top: 20px;
 	font-size: 25px;
 	padding: 10px;
 	padding-left: 40px;
@@ -155,4 +155,121 @@ margin-right: 50px;
 .container footer .footer-content .copyright-info {
 	margin-top: 50px;
 	align-self: center;
+}
+
+/* -------------------Services page-------------- */
+
+.serviceContainer{
+	margin: 0 80px;
+}
+
+.serviceContainer .nav-items {
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.serviceContainer .nav-items a{
+	color: gray;
+	text-decoration: none;
+}
+
+.serviceContainer .services-header-img{
+	margin-top: 30px;
+	width: 100%;
+	height: 250px;
+}
+
+.serviceContainer h1 {
+	margin-top: 30px;
+	font-size: 2em;
+}
+
+.serviceContainer .services-para{ 
+	font-size: 18px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+.serviceContainer .service-content{
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+
+.serviceContainer .service-content .content1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.serviceContainer .service-content .content2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 70px;
+}
+
+.serviceContainer .service-content .learn-more {
+	height: 260px;
+	width: 570px;
+	margin-top: 30px;
+	border: 1px solid black;
+	background: #DCDCDC;
+	padding: 30px;
+}
+
+.serviceContainer .service-content .click {
+	border: 1px solid black;
+	width: 150px;
+	height: 40px;
+	padding: 10px 30px;
+	margin-top: 40px;
+	border-radius: 10px;
+	background: #FFFFFF;
+}
+
+.serviceContainer .service-content button {
+	margin-top: 20px;
+}
+
+.serviceContainer .content-bottom{
+	height: 430px;
+	display: flex;
+	margin-top: 50px;
+}
+
+.serviceContainer .content-bottom .service-facts h2{
+font-size: 24px;
+}
+
+.serviceContainer .content-bottom .service-facts p {
+	margin-right: 100px;
+}
+
+.serviceContainer .content-bottom .list{
+	margin-left: 20px;
+	margin-top: 20px;
+	list-style: disc;
+	line-height: 2.5em;
+}
+
+.serviceContainer footer p{
+	margin-left: 40%;
+	margin-bottom: 25px;
+}
+
+/* ------------------Product Page------------------ */
+
+.product-container .product-nav-items {
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.productContainer .nav-items3 a{
+	color: gray;
+	text-decoration: none;
 }
