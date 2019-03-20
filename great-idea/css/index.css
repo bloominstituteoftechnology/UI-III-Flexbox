@@ -1,3 +1,6 @@
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -63,4 +66,172 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+	align-self: center;
+}
+
+.logo {
+	margin-left: 60px;
+}
+
+header h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+header button {
+	background: white;
+	border: 1px solid #595857;
+	color: #595857;
+	padding: 5px 0;
+	width: 160px;
+	margin-left: 60px;
+	margin-top: 5px;
+	letter-spacing: 1.25px;
+	font-size: 14px;
+}
+
+header .header-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 60px;
+}
+
+
+.main-header {
+	margin-top: 60px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 70px;
+}
+
+.features {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.about {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.middle-container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-container {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.child1,
+.child2 {
+	margin-right: 10px;
+}
+
+.contact {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.footer-text {
+	text-align: center;
+	padding-bottom: 150px;
+}
+
+/* Services Page Starts Here */
+
+/* list-style-type: square; */
+
+.services-header-img {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.services-section {
+	border-bottom: 1px solid;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.services-section h2 {
+	font-size: 25px;
+}
+
+.many-boxes .item {
+	border: 1px solid;
+	height: 252px;
+	width: 420px;
+	padding: 25px;
+	margin-top: 35px;
+	background-color: aliceblue;
+}
+
+.many-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid;
+	padding-bottom: 40px;
+}
+
+.item button {
+	background: white;
+	border-radius: 5px;
+	padding: 7px 45px 7px 45px;
+	margin-top: 30px;
+	border: 1px solid;
+}
+
+ul {
+	list-style-type: square;
+	line-height: 2.5;
+	margin: 15px;
+}
+
+.services-footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.services-footer-left {
+	width: 420px;
+}
+
+.services-footer-right {
+	width: 420px;
+}
+
+.services-footer-text {
+	text-align: center;
+	padding-bottom: 25px;
+}
