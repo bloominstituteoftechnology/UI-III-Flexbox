@@ -117,14 +117,16 @@ p {
   width: 24%;
 }
 
-.navbar {
-  display: flex;
-  padding: 0px 30px;
+.text-grey {
+  color: #777;
 }
 
-.navbar a {
+.a-nostyle {
   text-decoration: none;
-  color: #777;
+}
+
+.a-nostyle:hover {
+  text-decoration: underline;
 }
 
 .text-size-5x {
