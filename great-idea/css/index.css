@@ -188,3 +188,17 @@ main h1 {
 	font-size: 12px;
 	text-decoration: none;
 }
+
+.info-container {
+	display: flex;
+}
+
+.info-container section {
+	margin-right: 40px;
+}
+
+.info-container section ul {
+	margin-top: 20px;
+	list-style: square inside;
+	line-height: 2;
+}
