@@ -264,6 +264,7 @@ h2 {
 }
 .intro {
 	margin: 30px 0;
+	line-height: 1.25;
 }
 
 .parentContainer {
@@ -271,17 +272,17 @@ h2 {
 	border-bottom: 2px solid black;
 	display: flex;
 	flex-wrap: wrap;
-	align-content: space-between;
+	justify-content: space-between;
 	margin: 20px 0;
 	padding: 10px 0;
 }
 
 .childItem {
 	border: 1px solid black;
-	width:400px;
-	margin: 20px;
+	width: 420px;
+	margin: 20px 0;
 	background: whitesmoke;
-	padding: 10px;
+	padding: 20px;
 	line-height: 1.25;
 }
 
