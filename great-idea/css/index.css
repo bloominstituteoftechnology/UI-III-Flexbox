@@ -1,3 +1,6 @@
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -63,4 +66,207 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 40px;
+}
+
+/* header */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* cta */
+
+.cta {
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+}
+.cta .cta-text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  display: inline-block;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between
+}
+
+.main-content .top-content .text-content:first-child {
+	padding-left: 15px;
+
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	justify-content: space-between;
+}
+.main-content .bottom-content .text-content {
+	margin-right: 10px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+.top-content {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+	justify-content: space-evenly;
+	border-bottom: 1px solid black;
+}
+
+.top-content img, h1, p {
+	margin: 20px 0;
+	line-height: 1.25;
+}
+
+
+.top-content h1 {
+	font-size: 28px;
+	margin-bottom: 0;
+}
+
+.box-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+.service-boxes {
+	background-color: lightgray;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px 0;
+	width: 410px;
+	line-height: 1.25;
+}
+
+.service-boxes h3 {
+	font-size: 21px;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.bottom-content .text-box {
+	padding-right: 20px;
+	width: 410px;
+}
+
+.bottom-content h3 {
+	font-size: 21px;
+}
+
+.bottom-content .img {
+	width: 410px;
+}
+
+.bottom-content .text-box ul {
+	line-height: 2;
+	list-style-type: square;
+	list-style-position: inside;
+} 
+/* I don't know why these bullets aren't showing up. I worked on it for a while then gave up. */
+
+
+.testimonials .text-box {
+	width: 100%;
+	line-height: 1.25;
+}
+
+.testimonials h3 {
+	font-size: 21px;
+}
+
+.testimonials .box-container .service-boxes {
+	display: flex;
+	justify-content: space-between
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
