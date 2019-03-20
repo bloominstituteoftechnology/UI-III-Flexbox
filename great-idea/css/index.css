@@ -121,20 +121,12 @@ ul li {
   width: 24%;
 }
 
-.text-grey {
-  color: #777;
-}
-
 .a-nostyle {
   text-decoration: none;
 }
 
 .a-nostyle:hover {
   text-decoration: underline;
-}
-
-.text-size-5x {
-  font-size: 5rem;
 }
 
 .btn {
@@ -175,10 +167,6 @@ ul li {
   padding-bottom: 100px;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .page-border {
   border: 1px solid black;
 }
@@ -217,4 +205,20 @@ ul li {
 
 .line-height-2x {
   line-height: 2rem;
+}
+
+.text-grey {
+  color: #777;
+}
+
+.text-size-5x {
+  font-size: 5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
