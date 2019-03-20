@@ -138,6 +138,7 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 2.5%;
 }
 
 header nav {
@@ -147,7 +148,7 @@ header nav {
 	justify-content: space-between;
 }
 
-header .logo {
+header #logo-link {
 	height: 100%;
 	width: 18%;
 	}
