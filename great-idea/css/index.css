@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -62,5 +63,12 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+.top-page {
+	font-family: "Helvetica", "Arial", sans-serif;
+	display: flex;
+}
+
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
