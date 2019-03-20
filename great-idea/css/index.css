@@ -149,6 +149,7 @@ section {
 	color: white;
 	background-color: rgb(97, 97, 97);
 	transform: scale(1.1);
+	border-radius: 5px;
 }
 .rnd-img {
 	width: 400px;
