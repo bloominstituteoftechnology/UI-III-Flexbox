@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  
+  /* header */
+
+  header {
+	/* border-bottom: 1px solid black; */
+		margin: 20px 0;
+		padding: 20px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+  }
+  
+  header nav {
+		display: flex;
+		width: 691px;
+		vertical-align: top;
+		margin-top: 35px;
+  }
+  
+  header nav a {
+		margin-right: 65px;
+		font-size: 14px;
+		color: gray;
+		text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+		margin-left: 0;
+  }
+  
+  header nav a:last-child {
+		margin-right: 0;
+  }
+  
+  header .logo {
+		margin-top: 25px;
+  }
+  
+  /* cta */
+  
+  .cta .cta-text {
+	
+		font-size: 77px;
+		
+		/* padding: 0px 75px; */
+  }
+  
+  .cta .cta-text button {
+	
+		background: white;
+		vertical-align: top;
+		margin-top: 6px;
+		padding: 8px 44px;
+		font-size: 17px;
+		border: 1px solid black;
+		cursor: pointer;
+	}
+	
+	.cta {
+		display: flex;
+		padding: 0 0 40px 0;
+		align-items: center;
+		justify-content: space-evenly;
+
+	}
+  
+  .cta .cta-text button:hover {
+		background: black;
+		color: white;
+  }
+  
+  .main-content {
+		border-top: 1px solid black;
+	
+  }
+  
+  .top-content {
+		margin: 45px 0;
+		display: flex;
+  }
+  
+  .main-content .bottom-content {
+		margin-top: 37px;
+		display: flex;
+	}
+	
+	p {
+		margin-right: 12px;
+	}
+  
+  .contact {
+		margin-top: 57px;
+		border-top: 1px solid black;
+		padding: 39px 10px 0;
+  }
+  
+  .contact p {
+		margin: 20px 0;
+  }
+  
+  footer {
+		margin: 32px 0;
+		text-align: center;
+		font-size: 14px;
+	}
+	
+	section.contact a {
+		text-decoration: none;
+		text-decoration-color: none;
+	}
+
+	/* services.html */
+
+	img.services-header-img {
+		margin: auto;
+    padding-bottom: 19px;
+	}
+
+	img.services-info-img {
+		/* margin: auto; */
+		display: inline-flex;
+		justify-content: flex-end; 
+	}
