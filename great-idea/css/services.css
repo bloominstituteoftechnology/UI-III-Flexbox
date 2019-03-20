@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	width: 876px;
+	width: 880px;
 	margin: 0 auto;
 }
 .navigation {
@@ -83,61 +83,17 @@ h1, h2, h3, h4, h5 {
 	text-decoration: none;
 	padding: 10px 10px 10px 0px;
 }
-.header {
-	display: flex;
-	justify-content: center;
-	margin: 50px 0px;
+.services-header-img {
+    margin: 0px 0px 30px 0px;
 }
-h1 {
-	font-size: 78px;
-	text-align: center;
-	padding: 40px 70px 0px 20px;
-	margin: 0px 0px 0px 0px;
-	justify-content: flex-end;
+.services {
+    display: flex;
+    margin: 10px 0px 20px 0px;
 }
-.headerImage {
-	justify-content: flex-end;
+.services h4 {
+    font-size: 24px;
 }
-.button {
-	font-family: 'Titillium Web';
-	font-size: 16px;
-	color: #000000;
-	padding: 4px 36px;
-	border: 1px solid black;
-	text-decoration: none;
+.borderLine {
+    border: 0.5px solid black;
 }
-.button:hover {
-	background: black;
-	color: white;
-}
-.BorderLine {
-	border-top: 1px solid black;
-	margin: 20px 0px;
-}
-.topSection {
-	display: flex;
-	justify-content: center;
-}
-.bottomSection {
-	display: flex;
-	justify-content: space-between;
-	margin: 20px 0px;
-}
-.subSection {
-	width: 280px;
-	height: 150px;
-}
-.middle-img {
-	margin: 20px 0px;
-}
-.contact {
-	display: flex;
-	flex-direction: column;
-}
-.contact p {
-	margin: 20px 0px 0px 0px;
-}
-.copyright {
-	text-align: center;
-	padding: 50px 0px 70px 0px;
-}
+
