@@ -148,6 +148,10 @@ nav {
     display: flex;
 }
 
+.facts p {
+    width: 82%;
+}
+
 .facts h3   {
     font-size: 2rem;
 }
