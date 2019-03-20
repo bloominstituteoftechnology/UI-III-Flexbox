@@ -136,9 +136,9 @@ body {
 }
 
 header {
+	padding-top: 2.5%;
 	display: flex;
 	justify-content: space-between;
-	padding-top: 2.5%;
 }
 
 header nav {
@@ -160,80 +160,77 @@ header nav a {
 	font-weight: bold;
 }
 
-#main-banner {
-	border-bottom: 1px solid black;
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 5%;
-	margin-top: 5%;
-	margin-bottom: 5%;
+.services-header-img {
+  width: 100%;
+  margin: 2.5% 0;
 }
 
-#main-banner section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-left: 8%;
+#services-intro {
+  border-bottom: 1px solid black;
+  padding-bottom: 2.5%
 }
 
-#main-banner section h1 {
-	font-size: 6.5em;
-	text-align: center;
+#services-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  border-bottom: 1px solid black;
+  margin-top: 2.5%;
 }
 
-#main-banner section button {
-	background-color: white;
+#services-wrapper section {
+  width: 48.5%;
+  margin-bottom: 2.5%;
+  background-color: #F4F3F4;
+  border: 1px solid #ABAAAB;
+  padding: 2%;
+}
+
+#services-wrapper section button {
+  background-color: white;
 	border: .5px solid black;
 	padding: 0 10%;
 	font-size: 1em;
 	font-family: 'Titillium Web';
+  margin-top: 2%;
 }
 
-#main-banner img {
-	width: 40%;
-	height: 40%;
+#services-wrapper section button a {
+	text-decoration: none;
+	color: black;
 }
 
-#row-1 {
-	display: flex;
-	margin-bottom: 5%;
+footer {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.row-1-content h2 {
-	font-size: 1em;
+footer #footer-text {
+  width: 48.5%;
 }
 
-.row-1-content p {
-	font-size: 1em;
+footer #footer-text ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-top: 2.5%;
 }
 
-.middle-img {
-	width: 100%;
-	margin-bottom: 5%;
+footer img {
+  width: 48.5%;
+  height: 100%;
 }
 
-#row-2 {
-	border-bottom: 1px solid black;
-	display: flex;
-	padding-bottom: 5%;
-	margin-bottom: 3.5%;
+footer #copyright {
+  width: 100%;
+  text-align: center;
+  margin: 8%;
 }
 
-.row-2-content h2 {
-	font-size: 1em;
-}
-
-.row-2-content p {
-	font-size: 1em;
-}
-
-footer h3, address, p {
-	font-size: 1em;
-}
-
-footer p {
-	text-align: center;
-	margin-top: 5%;
-	padding-bottom: 10%;
+@media only screen and (max-width: 600px) {
+  #services-wrapper section {
+    width: 100%;
+  }
 }
