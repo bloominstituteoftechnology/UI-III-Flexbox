@@ -260,16 +260,3 @@ font-size: 24px;
 	margin-bottom: 25px;
 }
 
-/* ------------------Product Page------------------ */
-
-.product-container .product-nav-items {
-	margin-top: 25px;
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-}
-
-.productContainer .nav-items3 a{
-	color: gray;
-	text-decoration: none;
-}
