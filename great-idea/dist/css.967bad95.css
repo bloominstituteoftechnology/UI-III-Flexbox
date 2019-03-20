@@ -232,5 +232,14 @@ ul.footer-list {
 	list-style-type: disc; 
 	list-style-position: inside;
 }
+@media only screen 
+   and (max-width : 768px) {
+   .footer-content {
+	   flex-direction: column;
+   }
+   .services-info-img {
+	   padding-top: 30px;
+   }
+}
 
 /*# sourceMappingURL=/css.967bad95.css.map */
