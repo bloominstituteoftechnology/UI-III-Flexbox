@@ -64,113 +64,261 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-/* webpage container*/
 .container{
 	width: 880px;
 	margin: 0 auto;
 }
 
-/* header*/
 header nav {
   display: flex;
   margin-top: 35px;
 }
+
 header nav a{
 	margin-right: 65px;
   font-size: 14px;
   color: gray;
   text-decoration: none;
 }
+
 header nav a:hover {
   text-decoration: underline;
 }
+
 .logo{
 	display: flex;
 	margin-left: 750px;
 	margin-top: -25px;
 }
 
-/* cta/middle page */
 .cta .cta-text {
-  display: flex;
+  display: inline-block;
+  vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
   padding: 0px 75px;
 }
+
 .cta .cta-text button {
-  display: flex;
-  flex-wrap: ;
   background: white;
+  vertical-align: top;
   margin-top: 6px;
-  padding: -8px 44px;
+  padding: 8px 44px;
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
 }
+
 .cta .cta-text button:hover {
   background: black;
   color: white;
 }
+
 .cta img {
   display: inline-block;
   margin-top: 69px;
 }
 
-/*main content*/
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
-/*top content */
+
 .main-content .top-content {
   padding: 0 10px;
 }
+
 .main-content .top-content .text-content {
   width: 410px;
   display: inline-block;
   margin-right: 34px;
 }
+
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
 }
 
-/*middle image*/
 .main-content .middle-img {
   margin-top: 45px;
 }
 
-/* bottom content */
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
 }
+
 .main-content .bottom-content .text-content {
   width: 275px;
   display: inline-block;
   margin-right: 12px;
 }
+
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
 }
-
-/*contact content */
 .contact-content {
   margin-top: 57px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
 }
+
 .contact-content a {
 	color:black
 }
+
 .contact-content p {
   margin: 20px 0;
 }
 
-/* footer */
 footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* container */
+.container{
+	width: 880px;
+	margin: 0 auto;
+  }
+  /* header*/
+  header nav{
+	display: flex;
+	margin-top: 35px;
+  }
+  header nav a{
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  header nav a:hover{
+	text-decoration: underline;
+  }
+  .logo2{
+	display: flex;
+	margin-left: 750px;
+	margin-top: -25px;
+  }
+  /* pagetop-content */
+.services-header-img{
+	display: flex;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.pagetop-content h5{
+	display: flex;
+	margin-top: 40px;
+	font-size: 180%;
+}
+.pagetop-content p{
+	display: flex;
+	margin-bottom: 30px;
+}
+/*mainpage-content*/
+.mainpage-content{
+	border-top: 1px solid black;
+	margin-top: 30px;
+	padding-top: 39px;
+  }
+button{
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 24px;
+	font-size: 12px;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 10%;
+}
+.design{
+	border: 1px solid black;
+	background: rgba(161, 161, 161, 0.747);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 44%;
+	padding: 20px;
+}
+.ux{
+	border: 1px solid black;
+	background: rgba(161, 161, 161, 0.747);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 44%;
+	padding: 20px;
+}
+.marketing{
+	border: 1px solid black;
+	background: rgba(161, 161, 161, 0.747);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 44%;
+	padding: 20px;
+}
+.webDevelop{
+	border: 1px solid black;
+	background: rgba(161, 161, 161, 0.747);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 44%;
+	padding: 20px;
+}
+.ios{
+	border: 1px solid black;
+	background: rgba(161, 161, 161, 0.747);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 44%;
+	padding: 20px;
+}
+.android{
+	border: 1px solid black;
+	background: rgba(161, 161, 161, 0.747);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 44%;
+	padding: 20px;
+}
+.mainpage-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+/*endpage*/
+.endpage-content{
+	border-top: 1px solid black;
+	margin-top: 30px;
+	padding-top: 39px;
+}
+.endpage-content h3{
+	display: flex;
+	margin-top: 40px;
+	font-size: 130%;
+}
+.endpage-content p{
+	display: flex;
+	margin-bottom: 30px;
+}
+.endpage img{
+	display: flex;
+	justify-content: flex-end;
+}
+.end{
+	display: flex;
+	justify-content: center;
 }
