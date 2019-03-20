@@ -84,6 +84,14 @@ p {
   padding: 20px 0px;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
 .col, .col-3, .col-4, .col-6, .col-9, .col-12 {
   padding: 0px 20px;
 }
@@ -108,11 +116,12 @@ p {
   max-width: 24%;
 }
 
-.navlink {
+.navbar {
+  display: flex;
   padding: 0px 30px;
 }
 
-.navlink a {
+.navbar a {
   text-decoration: none;
   color: #777;
 }
