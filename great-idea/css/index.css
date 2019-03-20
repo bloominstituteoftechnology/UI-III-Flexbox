@@ -1,6 +1,9 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
+	 License: none (public domain)
+
+	 Modified by:
+	 Chase Wenner & Jonathan David
 */
 
 html, body, div, span, applet, object, iframe,
@@ -23,7 +26,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+	/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,7 +50,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
+	/* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
@@ -63,4 +66,208 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+	/* Your code starts here! */
+
+	/* UTL stylings */
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.horizatal-bar
+{
+	border: 1px solid black;
+	margin: 40px 0;
+}
+
+	/* main container styling */
+.container
+{
+	max-width: 880px;
+	min-width: 200px;
+	margin: 0 auto;
+}
+
+	/* Nav bar styling */
+.top-nav-bar 
+{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.top-nav-bar nav a
+{
+	margin: 0 20px;
+	color: gray;
+}
+
+.top-nav-bar nav a:hover
+{
+	text-decoration: underline;
+}
+
+.top-nav-bar img
+{
+	margin: 0 10px;
+}
+
+	/* header styling */
+
+header
+{
+	display: flex;
+	justify-content:  space-around;
+	align-items: center;
+	margin: 40px 0;
+}
+
+header .main-header-text h2
+{
+	margin: 20px 0;
+	text-align: left;
+	font-size: 28px;
+}
+
+.main-header-text
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.main-header-text h1
+{
+	font-size: 72px;
+	text-align: center;
+}
+
+.action-button
+{
+	size: 200px 400px;
+	border: 1px solid black;
+	margin: auto 100px;
+	padding: 5px 20px;
+	border-bottom: 1px solid gray;
+}
+
+	/* Main content styling */
+
+.main-content
+{
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.main-content article 
+{
+	width: 100%;
+}
+
+.main-content article p 
+{
+ margin-top: 20px;
+ width: 98%;
+}
+
+.main-content article .image-box 
+{
+	border:grey solid 1.2px;
+	float: right;
+	text-align: center;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-weight: 550;
+}
+
+.main-content article .image-box img 
+{
+border-bottom: grey solid 1.2px;
+}
+
+.top-content
+{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.bottom-content
+{
+display: flex;
+margin-top: 20px;
+justify-items: space-between;
+}
+
+.bottom-content section
+{
+margin-right: 10px;
+}
+
+.bottom-content section:last-child
+{
+margin-right: 0;
+}
+
+	/*big-box styling*/
+
+.big-box 
+{
+	max-width: 400px;
+	margin: 20px;
+	font-size: 16px;
+	background-color: #f3f3f3;
+	border: solid thin black;
+	padding: 20px;
+}
+
+.big-box .action 
+{
+	margin-top:20px;
+	background-color: #fafafa; /* Green */
+	border: black solid thin;
+	border-radius: 8px;
+	color: black;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.big-box .action a:hover 
+{
+	text-decoration: underline;
+}
+
+.big-box-container 
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+	/*footer styling*/
+
+.footer-content .services
+{
+	display: flex;
+	margin-bottom: 75px;
+}
+
+.footer-content ul
+{
+list-style-type: square;
+line-height: 2;
+margin: 20px;
+}
+
+.footer-content img
+{
+	margin-left: 40px;
+}
+
+.copyright-footer
+{
+	text-align: center;
+	margin: 20px 0;
+	color: gray;
+}
