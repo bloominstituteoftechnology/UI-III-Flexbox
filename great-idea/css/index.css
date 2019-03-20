@@ -140,8 +140,12 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
+.header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 header nav {
-  display: inline-block;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
@@ -172,8 +176,11 @@ header .logo {
 
 /* cta */
 
+.cta {
+	display: flex;
+}
+
 .cta .cta-text {
-  display: inline-block;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
@@ -197,7 +204,6 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
   margin-top: 69px;
 }
 
@@ -240,6 +246,10 @@ header .logo {
   margin-right: 0;
 }
 
+.top-content {
+	margin-top: 25px;
+}
+
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
@@ -254,4 +264,23 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+
+.learn-more {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.learn-more section {
+	width: 49%;
+	padding: 25px;
+}
+
+.services-header-img {
+	margin-top: 25px;
+}
+
+button {
+	margin: 10px;
 }
