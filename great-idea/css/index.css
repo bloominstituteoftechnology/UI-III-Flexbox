@@ -224,7 +224,11 @@ ul li {
 }
 
 @media only screen and (max-width: 600px) {
+  .row {
+    padding: 0px 0px;
+  }
   .col-12, .col-9, .col-6, .col-4, .col-3 {
+    padding: 20px 0px;
     width: 100%;
   }
 }
