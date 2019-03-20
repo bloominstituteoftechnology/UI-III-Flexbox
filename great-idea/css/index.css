@@ -107,7 +107,7 @@ header nav a {
 .top-third {
 	padding-top: 10px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .top-left {
@@ -120,6 +120,8 @@ header nav a {
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
+	justify-items: center;
+	text-align: center;
 	/* justify-items: center; */
 }
 
@@ -128,6 +130,7 @@ h1 {
 	/* float:left; */
 	font-size: 60px;
 	justify-self: center;
+	text-align: center;
 	/* display:flex-column; */
 	/* width: 200px; */
 	/* margin: 10px; */
@@ -139,6 +142,7 @@ h1 {
 	/* margin-top: 20px;	 */
 	border: 1px grey solid;
 	padding: 10px 20px 10px 20px;
+	text-align: center;
 }
 
 .circle-photo {
@@ -153,6 +157,8 @@ h1 {
 	/* justify-self: flex-end; */
 	/* display: flex; */
 	/* justify-content: flex-end; */
+	text-align: right;
+
 }
 
 /* end top section */
@@ -243,7 +249,7 @@ address {
 	text-align: center;
 	width: 100px;
 	margin: 20px 20px 20px 20px;
-	padding: 0px 40px 0px 40px;
+	padding: 5px 20px 5px 20px;
 	border-radius: 5px;
 	font-size: 8px;
 }
