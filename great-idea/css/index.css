@@ -120,17 +120,13 @@ hr {
 }
 
 [class$="-section-wrapper"] {
-	margin: 35px 0;
+	display: flex;
+	justify-content: space-around;
+	margin: 30px 0;
 }
 
-.top-section-wrapper section {
-	width: 49.5%;
-	display: inline-block;
-}
-
-.bottom-section-wrapper section {
-	width: 33%;
-	display: inline-block;
+[class$='-section-wrapper'] section:not(:first-child) {
+	margin-left: 10px;
 }
 
 address {
