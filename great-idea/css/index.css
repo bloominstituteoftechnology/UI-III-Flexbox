@@ -224,6 +224,9 @@ ul li {
 }
 
 @media only screen and (max-width: 600px) {
+  .brand-center-mobile {
+    text-align: center;
+  }
   .row {
     padding: 0px 0px;
   }
