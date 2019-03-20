@@ -169,7 +169,6 @@ main h1 {
 .services-container section {
 	max-width: 48%;
 	padding: 20px;
-	border: 1px solid red;
 	margin-bottom: 4%;
 	background: #F4F4F4;
 	border: 1px solid #373737;
@@ -177,12 +176,12 @@ main h1 {
 }
 
 .services-container .learn-more {
-	height: 40px;
+	height: 30px;
 	background: white;
-	margin-top: 40px;
+	margin-top: 20px;
 	display: inline-block;
 	padding: 0 40px;
-	line-height: 40px;
+	line-height: 30px;
 	border-radius: 3px;
 	border: 1px solid #373737;
 	font-size: 12px;
@@ -201,4 +200,58 @@ main h1 {
 	margin-top: 20px;
 	list-style: square inside;
 	line-height: 2;
+}
+
+/* Stretch */
+.showcase-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 0;
+}
+
+.showcase-container section {
+	padding: 20px;
+	margin-bottom: 4%;
+	background: #F4F4F4;
+	border: 1px solid #373737;
+	line-height: 1.25;
+}
+
+.showcase-container .learn-more {
+	height: 30px;
+	background: white;
+	margin-top: 20px;
+	display: inline-block;
+	padding: 0 40px;
+	line-height: 30px;
+	border-radius: 3px;
+	border: 1px solid #373737;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.showcase-container section h2 {
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+.comments-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.comment {
+	display: flex;
+	border: 1px solid #373737;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.customer {
+	margin-right: 40px;
+}
+
+.customer-name {
+	font-weight: 700;
+	margin-bottom: 20px;
 }
