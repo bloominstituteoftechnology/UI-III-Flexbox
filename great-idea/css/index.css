@@ -176,3 +176,82 @@ footer {
 	margin:32px 0;
 	font-size:14px;
 }
+
+/* -------------------------------------------------------------------- */
+
+.container1{
+	max-width:1000px;
+	margin: 0 auto;
+}
+header{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width:1000px;
+}
+.logo{
+	margin-left: 90px;
+}
+
+.services-header-img{
+	width:1000px;
+}
+
+.intro{
+	margin-top: 30px;
+	line-height: 1.5;
+}
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top:35px;
+	padding-top:30px;
+	
+}
+
+.main-content .box-content{
+	border:black 1px solid;
+	width: 480px;
+	padding:20px;
+	background-color:rgb(228, 225, 225);
+	line-height: 1.5;
+	margin: 20px 0;
+}
+
+button{
+	margin-top: 10px;
+	width:180px;
+	height:35px;
+	padding:10 20px;
+	border-radius: 5px;
+}
+
+.bottom-content{
+	border-top: black 2px solid;
+	display: flex;
+	justify-content: space-between;
+	margin-top:30px;	
+}
+
+.bottom-content .box-content{
+	width: 480px;
+	padding-top: 30px;
+	margin: 20px 0;
+}
+.bottom-content .box-content p{
+	line-height: 1.5;
+}
+
+.list{
+	margin-top:20px;
+	padding-left: 20px;
+	line-height: 2;
+}
+
+.services-info-img{
+	width:479px;
+}
+footer{
+	padding-top:30px;
+}
