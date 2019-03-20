@@ -332,3 +332,31 @@ footer {
 	text-align: center;
 	font-size: 14px;
 }
+
+@media only screen and (max-width: 768px) {
+	header {
+		flex-wrap: wrap;
+	}
+	.services {
+		flex-direction: column;
+	}
+	.container {
+		width: 100%;
+	}
+	.services-items {
+		width: 100%;
+	}
+	.top-content-services {
+		width: 100%;
+	}
+	.bottom-content-services {
+		width: 100%;
+		flex-direction: column;
+	}
+	.bottom-content-services .left-content {
+		width: 100%;
+	}
+	.services-info-img {
+		max-width: 100%;
+	}
+}
