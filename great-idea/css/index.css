@@ -114,13 +114,18 @@ h1, h2, h3, h4, h5 {
 
   .cta{
 	  display: flex;
+	  margin-top:80px;
+	  align-items:center;
   }
+  /*removed display inline block from cta text and cta img and made cta flex
+  removed top margins from cta text and cta img. Instead used align-items
+  */
   
   .cta .cta-text {
-	display: inline-block;
+	/*display: inline-block;*/
 	vertical-align: top;
 	font-size: 77px;
-	margin-top: 120px;
+	/*margin-top: 120px;*/
 	text-align: center;
 	padding: 0px 75px;
   }
@@ -141,8 +146,8 @@ h1, h2, h3, h4, h5 {
   }
   
   .cta img {
-	display: inline-block;
-	margin-top: 69px;
+	/*display: inline-block;*/
+	/*margin-top: 69px;*/
   }
   
   .main-content {
@@ -150,14 +155,19 @@ h1, h2, h3, h4, h5 {
 	margin-top: 76px;
 	padding-top: 39px;
   }
+
+  .top-content{
+	  display:flex;
+	  
+  }
   
   .main-content .top-content {
 	padding: 0 10px;
   }
   
   .main-content .top-content .text-content {
-	width: 410px;
-	display: inline-block;
+	/*width: 410px;*/
+	/*display: inline-block;*/
 	margin-right: 34px;
   }
   
@@ -169,14 +179,18 @@ h1, h2, h3, h4, h5 {
 	margin-top: 45px;
   }
   
+  /*Firealem: added flex display to bottom content, removed inline-block and width from text content*/
+  .bottom-content{
+	  display:flex;
+  }
   .main-content .bottom-content {
 	margin-top: 37px;
 	padding: 0 10px;
   }
   
   .main-content .bottom-content .text-content {
-	width: 275px;
-	display: inline-block;
+	/*width: 275px;*/
+	/*display: inline-block;*/
 	margin-right: 12px;
   }
   
