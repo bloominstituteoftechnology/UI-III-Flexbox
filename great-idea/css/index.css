@@ -191,3 +191,50 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+.services-header-img {
+	margin: 10px 0;
+}
+
+.serv-intro {
+	margin-bottom: 30px;
+}
+
+.serv-sqr {
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.serv-sqr .serv {
+	border: 1px solid black;
+	width: 39.5%;
+	margin: 30px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.serv-sqr .serv button {
+	width: 130px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.container .bottom-sec {
+	display: flex;
+	margin-top: 10px;
+}
+
+.bottom-sec .lower-left .bottom-head {
+}
+
+.bottom-sec .lower-left .bottom-list {
+	margin-top: 30px;
+    display: flex;
+	flex-direction: column;
+	list-style-type: circle;
+	margin-left: 20px;
+	line-height: 2;
+}
