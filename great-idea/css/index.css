@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -85,8 +83,9 @@ h1, h2, h3, h4, h5 {
 	header nav {
 		display: flex; 
 		/* where I am trying to add space between list items */
-		justify-content: space-around;  
+		justify-content: space-between;  
 		
+		align-items: center; 
 	
 		/* width that looks nice and has enough space for logo */
 		width: 691px;
@@ -95,20 +94,21 @@ h1, h2, h3, h4, h5 {
 		vertical-align: top;
 		
 		/* setting some space between nav and top of page */
-		margin-top: 35px;
+
 	  }
 	  
 		/* Styles every list item in my nav */
 		header nav a {
 			font-size: 14px;
 			color: gray;
+			margin-top: 20px; 
 		}
 
 	/* Logo image styling */
 	header .logo {
 		/* Adding margin until logo vertically aligns */
-		margin-top: 25px;
-		margin-left: 20%; 
+		margin-left: 10%; 
+		margin-top: 20px; 
 	}
   
 /* Tagline CSS */
@@ -195,8 +195,82 @@ h1, h2, h3, h4, h5 {
 /* Footer CSS */
 /* Styling the copyright to be center of the page */
 
-footer {
-	margin: 32px 0;
-	text-align: center;
-	font-size: 14px;
-}
+	footer {
+		margin: 32px 0;
+		text-align: center;
+		font-size: 14px;
+	}
+
+/*Services-specific CSS starts here!  */
+
+	/*Styling the intro at the top of the page */
+		/*Header styling*/
+		.services-summary h2 {
+			font-size: 30px; 
+		}
+
+		.services-summary div {
+			padding-bottom: 30px; 
+			border-bottom: 1px solid black; 
+		}
+
+		.services-header-img {
+			/* Set only a top and bottom margin so image still centers */ 
+			margin-top: 30px; 
+			margin-bottom: 30px; 
+		}
+
+	/*Styling the details section*/
+		.services-details {
+			display: flex; 
+			flex-wrap: wrap;
+			justify-content: space-between; 
+			padding-top: 30px; 
+			padding-bottom: 30px; 
+			border-bottom: 1px solid black; 
+		}
+
+		.detail-box {  
+			border: 1px solid black;
+			background-color: lightgray;  
+			padding: 20px; 
+			width: 45%;  
+			margin-bottom: 40px; 
+		}
+
+		.detail-box button {
+			padding: 10px; 
+			padding-right: 40px; 
+			padding-left: 40px; 
+			margin-top: 10px; 
+			border: 1px solid black;
+			border-radius: 5px; 
+		}
+
+	/*Styling the services facts section*/
+	.services-facts {
+		display: flex; 
+	}
+
+	.services-facts h2 {
+		padding-top: 20px; 
+	}
+
+	.services-facts p {
+		padding-top: 10px; 
+		padding-bottom: 20px;  
+		margin-right: 50px; 
+	}
+
+	.services-facts ul {
+		padding-left: 30px; 
+		padding-bottom: 20px; 
+	}
+
+	.services-facts li {
+		padding: 5px; 
+	}
+
+	.services-info-img {
+		margin-top: 20px; 
+	}
