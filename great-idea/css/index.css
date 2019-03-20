@@ -297,13 +297,15 @@ button{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	
 }
+
 /*endpage*/
 .endpage-content{
 	border-top: 1px solid black;
 	margin-top: 30px;
 	padding-top: 39px;
+	display: flex;
+	flex-wrap: wrap;
 }
 .endpage-content h3{
 	display: flex;
@@ -314,10 +316,14 @@ button{
 	display: flex;
 	margin-bottom: 30px;
 }
-.endpage img{
+.endpage-content ul{
+	margin-bottom: 25px;
+}
+.endpage-content{
 	display: flex;
 	justify-content: flex-end;
 }
+
 .end{
 	display: flex;
 	justify-content: center;
