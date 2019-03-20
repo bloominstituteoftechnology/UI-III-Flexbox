@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* services.html styles */
+
+/* global */
+body {
+  width: 50%;
+  margin: 30px auto;
+}
+
+hr {
+  margin-bottom: 40px;
+  border: none;
+  height: 2px;
+  /* Set the hr color */
+  background-color: #333;
+}
+
+/* navigation */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid blue; */
+  margin-bottom: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header img {
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+header p {
+  margin-bottom: 30px;
+}
+
+/* Main section */
+
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.flexbox-child {
+  border: 1px solid black;
+  background: #e8eaed;
+  width: 48%;
+  margin-bottom: 40px;
+  padding: 12px;
+}
+
+p.button {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 20px 0 10px 0;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 5%;
+}
+
+/* Facts section */
+section.facts-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section.facts-section div {
+  width: 45%;
+}
+
+section ul {
+  margin-top: 40px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+section ul li {
+  margin: 10px 0;
+}
+
+.services-info-img {
+  display: inline-block;
+  width: 49%;
+}
+/* footer */
+
+footer {
+  margin-top: 70px;
+  text-align: center;
+}
