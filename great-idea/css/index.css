@@ -204,6 +204,7 @@ h1, h2, h3, h4, h5 {
 		padding-bottom: 20px;
 		display:flex;
 		flex-wrap: wrap;
+		justify-content: space-evenly;
 		border-top: 1px black solid;
 	}
 	.flexboxcontent button {
@@ -216,5 +217,24 @@ h1, h2, h3, h4, h5 {
 		margin: 4px;
 		border: 1px black solid;
 		background: rgb(252, 209, 243);
-		width: 49%;
+		width: 420px;
 	}
+.closings {
+	padding-top: 25px;
+	border-top: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.facts {
+
+	width: 48%;
+
+}
+ul {
+	list-style-type: circle;
+	list-style-position: inside;
+}
+.list {
+	margin-top: 25px;
+}
