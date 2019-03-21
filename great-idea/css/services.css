@@ -46,6 +46,7 @@ main {
 li {
     list-style-type: square;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 .copy {
     text-align: center;
