@@ -194,12 +194,17 @@ header .header-left {
 	background-color: aliceblue;
 }
 
+.item.child2 {
+	position: relative;
+	left: 10px;
+}
+
 .many-boxes {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	border-bottom: 1px solid;
 	padding-bottom: 40px;
+	max-width: 1250px;
 }
 
 .item button {
@@ -221,6 +226,8 @@ ul {
 	justify-content: space-between;
 	margin-top: 40px;
 	margin-bottom: 80px;
+	border-top: 1px solid;
+	padding-top: 60px;
 }
 
 .services-footer-left {
