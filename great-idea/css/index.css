@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 .container {
   width: 880px;
   /* TB LR */
-  margin: 40px;
+	margin: 0 auto;
 }
 
 /* header */
@@ -135,18 +135,13 @@ header nav a:hover {
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
-  padding-top: 39px;
+  padding-top: 40px;
 }
 
 .main-content .top-content {
-  padding: 0 10px;
   display: flex;
-  justify-content: space-between
-}
-
-.main-content .top-content .text-content:first-child {
-	padding-left: 15px;
-
+	justify-content: space-between;
+	padding-bottom: 40px;
 }
 
 .main-content .top-content .text-content:last-child {
@@ -159,7 +154,7 @@ header nav a:hover {
 
 .main-content .bottom-content {
   margin-top: 37px;
-  padding: 0 10px;
+  margin-bottom: 20px;
 }
 
 .main-content .bottom-content {
@@ -185,23 +180,23 @@ header nav a:hover {
 }
 
 .top-content {
-	display: flex;
-	flex-direction: column;
-	margin: 20px 0;
-	justify-content: space-evenly;
 	border-bottom: 1px solid black;
+	margin: 20px auto;
+	padding-bottom: 20px;
 }
 
-.top-content img, h1, p {
+.top-content .top-text {
 	margin: 20px 0;
 	line-height: 1.25;
+	padding-bottom: 20px;
 }
 
 
 .top-content h1 {
 	font-size: 28px;
-	margin-bottom: 0;
+	margin: 20px 0;
 }
+
 
 .box-container {
 	display: flex;
@@ -214,15 +209,21 @@ header nav a:hover {
 .service-boxes {
 	background-color: lightgray;
 	border: 1px solid black;
-	padding: 10px;
-	margin: 10px 0;
+	padding: 20px;
 	width: 410px;
 	line-height: 1.25;
+	margin: 10px 0;
 }
 
 .service-boxes h3 {
 	font-size: 21px;
 }
+
+.service-boxes button {
+	margin: 10px 0;
+}
+
+
 
 .bottom-content {
 	display: flex;
@@ -230,23 +231,21 @@ header nav a:hover {
 	margin: 30px 0;
 }
 
-.bottom-content .text-box {
-	padding-right: 20px;
-	width: 410px;
+.bottom-content .bottom-text-box {
+	margin: 0 40px 20px 0;
+	line-height: 1.25;
 }
 
 .bottom-content h3 {
 	font-size: 21px;
 }
 
-.bottom-content .img {
-	width: 410px;
-}
 
-.bottom-content .text-box ul {
-	line-height: 2;
+ul {
+	line-height: 1.75;
 	list-style-type: square;
 	list-style-position: inside;
+	margin: 10px 0;
 } 
 /* I don't know why these bullets aren't showing up. I worked on it for a while then gave up. */
 
