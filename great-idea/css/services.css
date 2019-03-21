@@ -119,14 +119,15 @@ header nav {
   }
 
   .top-content p{
+	  margin-bottom:20px;
 	  line-height:1.25;
   }
 
   .main-content{
 	  display:flex;
 	  flex-wrap:wrap;
-	  margin:20px 0;
-	  /* justify-content: space-between; */
+	  margin:40px 0; 
+	  justify-content: space-between;
 	  /* align-items:baseline; */
   }
 
@@ -135,7 +136,7 @@ header nav {
 	  width:400px;
 	  height:250px;
 	  padding:20px;
-	  margin:20px;
+	  margin:20px 0;
 	  background:#f0efef;
 
 	  
@@ -157,6 +158,7 @@ header nav {
   .bottom-content{
 	  border-top:2px solid black;
 	  display:flex;
+	  margin-top:30px;
 	  margin-bottom: 80px;
 	  padding:40px;
   }
