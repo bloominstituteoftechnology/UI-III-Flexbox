@@ -347,3 +347,15 @@ div .item {
 #extra-sec h1 {
 	font-size: 20px;
 }
+.active {
+	color: white;
+	border-bottom: 2px solid black;
+}
+.works::before {
+	content: "WORKS!";
+	font-size: 8px;
+	transform: rotate(20deg);
+	color: rgb(122, 122, 255);
+	font-family: sans-serif;
+	font-weight: bolder;
+}
