@@ -69,3 +69,16 @@ li {
     border: 1px solid grey;
     box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.418);
 }
+
+
+
+
+/*product css */
+
+.prod-img {
+    content: "";
+    border: 1px solid black;
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+}
