@@ -65,114 +65,123 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
+/* Master keeps the entire page aligned, contains all content*/
 .container {
-	width: 880px;
+	width: 880px; /* so that no page content is wider than the widest image /*
 	/* TB LR */
-	margin: 0 auto;
+	margin: 0 auto; /* makes sure everything sits centrally, browser auto-sets margins */
   }
   
-  /* header */
+  /* header - contains nav and logo */
   
-  header nav {
-	display: inline-block;
-	width: 691px;
-	vertical-align: top;
-	margin-top: 35px;
+  header {
+	display: flex; /* auto display in a row */  
+  }
+
+  header nav { /* wraps arpund entire list of items */
+	display: flex; 
+	justify-content: space-around; /* adding space between list items */
+	width: 691px; /* has enough space for logo */
+	vertical-align: top; /* to match logo */
+	margin-top: 35px; /* space between nav and top of page */
   }
   
-  header nav a {
+  header nav a { /* styles every list item in nav */
 	margin-right: 65px;
 	font-size: 14px;
 	color: gray;
 	text-decoration: none;
   }
   
-  header nav a:hover {
+  header nav a:hover { /* hovering attribute to every list item in nav */
 	text-decoration: underline;
   }
   
-  header nav a:first-child {
+  header nav a:first-child { /* white space for first item in nav */
 	margin-left: 0;
   }
   
-  header nav a:last-child {
+  header nav a:last-child { /* white space for last item in nav */
 	margin-right: 0;
   }
   
-  header .logo {
-	margin-top: 25px;
+  header .logo { 
+	margin-top: 25px; /* margin until logo vertically aligns */
+	margin-left: 5%;
   }
   
-  /* cta */
+  /* cta - */
   
-  .cta .cta-text {
-	display: inline-block;
-	vertical-align: top;
+  .cta {   /* top banner containing text, button, and header image*/
+	  display:flex;
+  }
+  
+  .cta .cta-text {  /* left side banner containing text, button*/
+	/* font styling*/
 	font-size: 77px;
-	margin-top: 120px;
 	text-align: center;
+	/* creating space*/
+	margin-top: 120px;
 	padding: 0px 75px;
   }
   
   .cta .cta-text button {
+	/* font styling*/
+	font-size: 17px;
 	background: white;
+	/* easier alignment with img*/
 	vertical-align: top;
+	/* creating space*/
 	margin-top: 6px;
 	padding: 8px 44px;
-	font-size: 17px;
 	border: 1px solid black;
 	cursor: pointer;
   }
   
-  .cta .cta-text button:hover {
+  .cta .cta-text button:hover { /* hovering attribute button */
 	background: black;
 	color: white;
   }
   
   .cta img {
-	display: inline-block;
+	  /* creating space*/
 	margin-top: 69px;
   }
   
+ /* main content of page, includes: top content, a middle img, and bottom content */
+  
   .main-content {
+	/* border set as a line break to seperate the top banner*/
 	border-top: 1px solid black;
+	/* creating space*/
 	margin-top: 76px;
 	padding-top: 39px;
   }
   
   .main-content .top-content {
+	 /* for the parent container of content box*/
+	display: flex;
+	justify-content: space-between;
+	/* set top right padding to 0 and bottom left padding to 10px */ 
 	padding: 0 10px;
   }
   
-  .main-content .top-content .text-content {
-	width: 410px;
-	display: inline-block;
-	margin-right: 34px;
-  }
-  
-  .main-content .top-content .text-content:last-child {
-	margin-right: 0;
-  }
   
   .main-content .middle-img {
+	  /* img to display in a row*/
+	display: flex;
 	margin-top: 45px;
   }
   
   .main-content .bottom-content {
+	/* display: flex for bottom content*/
+	display:flex;
 	margin-top: 37px;
 	padding: 0 10px;
   }
   
-  .main-content .bottom-content .text-content {
-	width: 275px;
-	display: inline-block;
-	margin-right: 12px;
-  }
-  
-  .main-content .bottom-content .text-content:last-child {
-	margin-right: 0;
-  }
-  
+  /* includes address and paragraphs */
   .contact {
 	margin-top: 57px;
 	border-top: 1px solid black;
@@ -180,9 +189,11 @@ h1, h2, h3, h4, h5 {
   }
   
   .contact p {
-	margin: 20px 0;
+	margin: 20px 0; 
   }
   
+
+  /* copyright paragraph, styling to be page centered*/
   footer {
 	margin: 32px 0;
 	text-align: center;
