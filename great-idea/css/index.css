@@ -213,8 +213,17 @@ footer {
   justify-content: space-between;
 }
 
-.learn-boxes section {
+.service-box {
   width: 49%;
   padding: 25px;
+  
+}
+
+.service-button {
+  background: white;
+
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
 
 }
