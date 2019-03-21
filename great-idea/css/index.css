@@ -65,13 +65,144 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* I'm only limiting the screen size because my monitor alows me to over strech 
+ the page */
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
 .nav-bar {
-	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	background: rgb(73, 73, 73);
+	justify-content: space-evenly;
+}
+
+.nav-bar-button{
+	width: 100px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-bar-button:hover {
+	background: gray;
+}
+
+.nav-home-logo {
+	margin-left:200px;
+}
+
+.top-o-page {
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 2px solid black;
+}
+
+.grabber {
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+h1 {
+
+	font-size: 50px;
+}
+
+.header {
+	align-self: flex-end;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.top {
+	display: flex;
+	margin: 20px 5px;
+}
+
+.bottom {
+	display: flex;
+	margin: 20px 5px;
+}
+
+footer {
+	border-top: 2px solid black;
+}
+  
+address {
+	text-align: left;
+	line-height: 1.25;
+}
+  
+.copyright {
+ 	background: #333;
+	padding: 5px;
+	text-align: center;
+}
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 2px solid black;
+}
+
+.services-header-img {
+ 	margin-bottom: 20px;
+}
+
+.services-header-h {
+	font-size: 30px;
+	align-self: flex-start;
+}
+
+.services-header-p {
+	margin-bottom: 20px;
+}
+
+.services-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.info-box {
+	margin: 20px;
+	border: 2px solid black;
+	background: rgb(221, 218, 218);
+	width: 400px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.services-footer {
+	border-top: 2px solid black;
 	display: flex;
 	flex-direction: row;
 }
 
-.nav-buttons {
-	display: flex;
-	flex-direction: row;
+
+
+.services-footer-h {
+
+}
+
+.services-footer-p {
+
+}
+
+.facts-list ul {
+	list-style-type: circle;
 }
