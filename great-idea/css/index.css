@@ -210,7 +210,7 @@ footer {
 
 /* additional styles for services.html */
 
-h2 {
+.page-content h2 {
 	font-size: 24px;
 }
 
@@ -226,18 +226,21 @@ h2 {
 	justify-content: space-between;
 }
 
-.services {
+.services-text {
 	width: 100%;
 	padding: 20px;
+	margin-bottom: 25px;
 	background-color: white;
+	border-bottom: 1px solid black;
 }
 
 .services-content {
 	background-color: lightgrey;
 	border: 1px solid black;
-	width: 33%;
+	width: 49.5%;
 	height: 50%;
 	margin-top: 25px;
+	margin-bottom: 25px;
 	padding: 10px;
 }
 
@@ -258,9 +261,49 @@ h2 {
 
 .services-content a {
 	margin: 0 auto;
-
+	text-decoration: none;
 }
 
-.facts-content {
+.services-content p {
+	font-size: 14px;
+}
+
+/* bottom content section */
+.bottom-content {
+	vertical-align: top;
 	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bottom-content .facts-content {
+	font-size: 14px;
+	width: 40%;
+}
+
+.bottom-content .facts-content h5 {
+	font-size: 14px;
+}
+
+.bottom-content .facts-content p {
+  vertical-align: top;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 0px 25px;
+  margin-bottom: 25px;
+}
+
+.bottom-content .facts-content ul {
+  margin: 20px;
+  line-height: 1.25;
+  font-size: 14px;
+  text-decoration-style: solid;
+}
+
+.bottom-content img {
+	display: inline-block;
+	float: right;
+	width: 40%;
+  	margin-top: 25px;
 }
