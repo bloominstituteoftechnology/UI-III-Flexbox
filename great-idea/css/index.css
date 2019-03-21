@@ -64,3 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.nav-bar {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-buttons {
+	display: flex;
+	flex-direction: row;
+}
