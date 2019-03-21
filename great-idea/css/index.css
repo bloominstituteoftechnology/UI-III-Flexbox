@@ -270,13 +270,15 @@ footer {
 }
 
 .services-desc {
-	border-bottom: 1px solid black;
 	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
 }
 
 
 .services-desc h4 {
 	font-size: 20px;
+	
 }
 
 .services-desc p {
@@ -284,29 +286,66 @@ footer {
 }
 
 .main-services-content {
+	padding: 10px 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-content: center;
 }
 
 .main-services-content .services-text-content {
 	border: 1px solid black;
-	width: 400px;
-	background: lightgray;
-	padding: 10px;
+	width: 420px;
+	background: whitesmoke;
+	padding: 20px;
+	margin: 20px 0;
 	
 
 }
 
 .main-services-content button {
 	background: white;
-  	vertical-align: top;
-  	margin-top: 6px;
-  	padding: 8px 35px;
+  	margin-top: 20px;
+  	padding: 10px 35px;
   	font-size: 13px;
   	border: 1px solid black;
 	cursor: pointer;
 	border-radius: 5px;
 	  
+}
+
+.main-services-content button:hover {
+	background: black;
+	color: white;
+}
+
+.facts {
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+
+}
+
+.facts-desc .facts-text {
+	width: 400px;
+
+}
+
+.facts-desc .list {
+	margin-top: 20px;
+	line-height: 1.5;
+}
+
+.facts .list ul {
+	list-style: square;
+	padding: 20px;
+}
+
+.services-header-img {
+	margin-top: 20px;
+}
+
+.facts .services-info-img {
+	width: 420px;
+	height: 300px;
 }
