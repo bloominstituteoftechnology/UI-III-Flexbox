@@ -64,3 +64,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.logo {
+	margin-top: 10px;
+	text-align: center;
+}
+.button {
+	width: 150px;
+	padding-left:30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid black;
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+.button:hover {
+	color: red;
+
+}
+.inno {
+	font-weight: 700;
+	font-size: 70px;
+	width: 200px;
+	padding: 5px;
+	text-align: center;
+	margin-left: 100px;
+	
+}
+.nav {
+	margin: 10px 30px 0px 0px;
+}
+.nav:hover {
+	color:red;
+}
+.footer {
+	margin: 0 auto;
+	width: 600px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.undnav {
+	display: flex;
+	width: 875px;
+	length: 300px;
+	margin: 20px 20px 0px 0px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.section {
+	width: 435px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.section2 {
+	width: 269px;
+	margin: 20px 20px 40px 0px;
+}
+.wow {
+	margin-top: 10px;
+}
+.fix { 
+	width: 150px;
+}
+.botsect {
+	border-bottom: 2px solid black;
+	width: 875px;
+	display: flex;
+	justify-content: space-between;
+}
+.cont {
+	margin-top: 30px;
+}
+.topsect {
+	border-top: 2px solid black;
+	width: 875px;
+	display: flex;
+	justify-content: space-between;
+}
+.mainpic {
+	margin: 
+}
+.container {
+	margin: 0 auto;
+	width: 880px;
+}
+.whynot {
+	margin-top: 20px;
+}
+.juice {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 880px;
+	margin-right: 100px;
+	
+}
+.one {
+	border-bottom: solid black 2px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+h1 { 
+	margin-top: 20px;
+	font-size: 30px;
+}
+.bord {
+	border-bottom: solid 2px black;
+	margin-bottom: 20px;
+}
+ul {
+	list-style-type: square;
+}
+.belly {
+	display: flex;
+	flex-wrap: wrap;	
+	width: 880px;
+	justify-content: space-between;
+}
+.boxy {
+	background: lightgrey;
+	padding: 15px;
+	width: 430px;
+	border: solid black 1px;
+	margin-bottom: 40px;
+}
+.LM {
+	border: solid black 1px;
+	font-size: 15px;
+	padding-top: 2px;
+	padding-left: 14px;
+	padding-bottom: 3px;
+	margin-top: 20px;
+	width: 100px;
+	background: white;
+}
+.LM:hover {
+	color: red;
+}
+.finally {
+	display: flex;
+	justify-content: center;
+	margin-top: 75px;
+}
+.marge {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+li {
+	margin-bottom: 10px}
+.thehomie {
+	display: flex;
+	width: 880px;
+}
