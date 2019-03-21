@@ -51,7 +51,8 @@ table {
 }
 
 	/* Set every element's box-sizing to border-box */
-* {
+* 
+{
     box-sizing: border-box;
 }
 
@@ -166,8 +167,8 @@ header .main-header-text h2
 
 .main-content article p 
 {
- margin-top: 20px;
- width: 98%;
+	margin-top: 20px;
+	width: 98%;
 }
 
 .main-content article .image-box 
@@ -193,19 +194,19 @@ border-bottom: grey solid 1.2px;
 
 .bottom-content
 {
-display: flex;
-margin-top: 20px;
-justify-items: space-between;
+	display: flex;
+	margin-top: 20px;
+	justify-items: space-between;
 }
 
 .bottom-content section
 {
-margin-right: 10px;
+	margin-right: 10px;
 }
 
 .bottom-content section:last-child
 {
-margin-right: 0;
+	margin-right: 0;
 }
 
 	/*big-box styling*/
@@ -255,9 +256,9 @@ margin-right: 0;
 
 .footer-content ul
 {
-list-style-type: square;
-line-height: 2;
-margin: 20px;
+	list-style-type: square;
+	line-height: 2;
+	margin: 20px;
 }
 
 .footer-content img
