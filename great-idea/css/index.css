@@ -1,3 +1,6 @@
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -63,4 +66,208 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+p {
+  border: 1px solid black;
+  background-color: silver;
+  
+  
+}
+.container {
+  width: 880px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header nav {
+  display: flex;
+  width: 610px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+header nav a {
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+header .logo {
+    margin: 28px 0 0 91px;
+}
+
+/* cta */
+
+.cta {
+    display: flex;
+    margin-top: 72px;
+    justify-content: flex-end;
+}
+.cta {
+    display: flex;
+    margin-top: 72px;
+    justify-content: flex-end;
+}
+
+.cta .cta-text {
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 82px 0 0;
+}
+
+.cta .cta-text button {
+    border: 1px double black;
+    font-size: 16px;
+    background: white;
+    width: 170px;
+    height: 32px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+    background: black;
+    color: white;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+  display: flex;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: inline-block;
+  margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.main-content.text-content:last-child {
+  margin-right: 0;
+}
+
+ul {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+}
+
+.services-content .services-header-img {
+    margin: 20px 0;
+}
+
+.services-content h1 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+.services-content .services-text {
+ border-bottom: 1px solid black;
+ padding-bottom: 40px;
+ margin-bottom: 20px
+}
+
+.services-content .card {
+    padding: 20px;
+    border: 1px solid black;
+    width: 420px;
+    background: whitesmoke;
+    margin: 20px 0;
+}
+
+.services-content .card button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.services-content .card button:hover {
+    background: black;
+    color: white;
+} 
+
+.services-content .services-info ul {
+    margin: 20px;
+}
+
+.services-content .services-info ul li{
+    list-style: square;
+    padding: 5px;
+}
+
+.services-content .services-info {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid black; 
+    margin: 20px 0 35px 0;
+    padding-top: 40px; 
+}
+
+.services-content .services-info .facts {
+  width: 400px;
+  margin: 0 60px 20px 0;
+}
+
+.services-content .services-info .facts p {
+  margin-bottom: 20px;
+}
+
+.services-content .services-info .services-info-img {
+  width: 420px;
+  height: 300px;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
