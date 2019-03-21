@@ -160,7 +160,7 @@ h2 {
 button {
 	width: 90px;
 	height: 25px;
-	font-size: inherit;
+	font-size: 10px;
 	display: block;
   margin: 10px 20px 20px;
 }
