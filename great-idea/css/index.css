@@ -235,17 +235,20 @@ h1, h2, h3, h4, h5 {
 .list-content
 {
 display: flex;
-justify-content: center;
-align-items: center;
+justify-content: space-between;
 flex-wrap:wrap;
+
 }
 .list-item{
-	margin:20px;
-	padding:10px;
+	/*margin:20px ;*/
+	padding:20px;
 	border: 1px solid black;
-	width: 400px;
-    height: 200px;
-	background: lightgray
+	width: 420px;
+	height: 200px;
+	margin-bottom: 35px;
+	background: lightgray;
+	
+	
 }
 .last-section
 {
@@ -262,4 +265,5 @@ flex-wrap:wrap;
 .last-section-text ul
 {
 margin-left:30px;
+
 }
