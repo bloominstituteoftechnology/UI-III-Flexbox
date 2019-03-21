@@ -77,32 +77,27 @@ h1, h2, h3, h4, h5 {
 	header {
 		/* Makes everything auto-display in a row */
 		display: flex;  
+		/* Ensures there is space between the header logo and nav bar; pushes both to edge */
+		justify-content: space-between; 
 	} 
 
-	/* header nav wraps around my entire list of items */
-	header nav {
-		display: flex; 
-		/* where I am trying to add space between list items */
-		justify-content: space-between;  
-		
-		align-items: center; 
-	
-		/* width that looks nice and has enough space for logo */
-		width: 691px;
-
-		/* vertical align to match logo */
-		vertical-align: top;
-		
-		/* setting some space between nav and top of page */
-
-	  }
-	  
-		/* Styles every list item in my nav */
-		header nav a {
-			font-size: 14px;
-			color: gray;
-			margin-top: 20px; 
-		}
+		/* header nav wraps around my entire list of items */
+		header nav {
+			/* Items in a row */
+			display: flex; 
+			/* Even space between each menu item */
+			justify-content: space-evenly; 
+			/* Aligns items in the center, so looks nice with logo */
+			align-items: center; 
+			}
+			
+				/* Styles every list item in my nav */
+				header nav a {
+					font-size: 14px;
+					color: gray;
+					margin-top: 20px; 
+					margin-right: 70px; 
+				}
 
 	/* Logo image styling */
 	header .logo {
@@ -232,7 +227,7 @@ h1, h2, h3, h4, h5 {
 
 		.detail-box {  
 			border: 1px solid black;
-			background-color: lightgray;  
+			background-color: whitesmoke;  
 			padding: 20px; 
 			width: 45%;  
 			margin-bottom: 40px; 
@@ -265,6 +260,7 @@ h1, h2, h3, h4, h5 {
 	.services-facts ul {
 		padding-left: 30px; 
 		padding-bottom: 20px; 
+		list-style-type: square; 
 	}
 
 	.services-facts li {
