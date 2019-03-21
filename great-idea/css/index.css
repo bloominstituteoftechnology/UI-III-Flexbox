@@ -68,40 +68,39 @@ h1, h2, h3, h4, h5 {
 html {
 	margin: 50px;
 }
-
 header {
 	display: flex; 
 	justify-content: space-evenly;
+	
 }
 header nav a {
 	margin: 20px;	
 }
-
 section h1 {
 	font-size: 100px;
-	text-align: center;
-	
+	text-align: center;	
 }
-
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
 .cta {
 	display: flex;
-	justify-content: center
+	justify-content: space-evenly;
 }
 .cta-text button {
- 	display: flex;
- 	align-items: center;
+	right: 1500px;
 
 }
 .top-content {
 	display: flex;
-	justify-content: space-evenly;
-	
+	justify-content: space-evenly;	
 }
 .bottom-content {
 	display: flex;
 	justify-content: space-evenly;	
 }
-
 .text-content {
 	margin: 10px;
 }
@@ -109,7 +108,6 @@ section h1 {
 	display: flex; 
 	align-content: center;
 }
-
 .middle-img {
 	display: block;
 	margin-left: auto;
