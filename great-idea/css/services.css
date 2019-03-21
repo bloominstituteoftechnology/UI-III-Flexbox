@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    background: #f8f8ff;
 	line-height: 1;
 }
 ol, ul {
@@ -53,7 +54,6 @@ table {
 }
 
 html, body {
-	background: #f8f8ff;
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -64,80 +64,86 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-#main-nav{
-	top: 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom:5%;
-}
 
+/*My code*/
+hr{
+    margin: 25px 0;
+}
 .wrapper{
-	margin: 0 auto;
-	max-width: 100vw;
-	padding: 0 25px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding:0 25px;
 }
 
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
 .nav-item{
-	text-decoration: none;
-	color: gray;
+    text-decoration: none;
+    color:gray;
 }
 
 .nav-item:hover{
-	color: #b3faff;
+    color: #b3faff;
 }
 
-.header{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.logo{
+    align-self: center;
+    padding-left: 25px;
 }
 
-.action{
-	font-size: 4.0em;
-	text-align: center;
+.services-header-img{
+    width: 100%;
+    height: auto;
 }
 
-.action-button{
-	background: none;
-	border: 1px solid black;
-	width: 55%;
-	font-size: 15px;
+.services{
+    margin-top: 25px;
+    margin-bottom: 50px;
+
 }
 
-.action-button:hover{
-	color: #b3faff;
-	border-color: #b3faff;
-	-webkit-box-shadow: 0px 26px 52px 25px rgba(179,250,255,.15);
-	-moz-box-shadow: 0px 26px 52px 25px rgba(179,250,255,.15);
-	box-shadow: 0px 26px 52px 25px rgba(179,250,255,.15);
-	-webkit-transition: color 1s ease-in;
-	-moz-transition: color 1s ease-in;
-	-ms-transition: color 1s ease-in;
-	-o-transition: color 1s ease-in;
-	transition: color 1s ease-in;
+.services h2{
+    font-size: x-large;
 }
 
 .container{
-	display: flex;
-	justify-content: space-evenly;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .box{
-	padding: 15px;
-	margin: 33px;
-	background:#e6e4e1;
-}
-.middle-img{
-	width: 100%;
+    background: #e6e4e1;
+    padding: 25px;
+    border: 1px solid black;
+    max-width: 45%;
+    margin: 10px;
+    -webkit-box-shadow: 0px 2px 24px -1px rgba(87,87,87,1);
+    -moz-box-shadow: 0px 2px 24px -1px rgba(87,87,87,1);
+    box-shadow: 0px 2px 24px -1px rgba(87,87,87,1);
 }
 
 .footer{
-	line-height: 2
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.copy{
-	margin-top: 35px;
-	text-align: center;
+.list{
+    margin-top: 15px;
+    list-style-type: square;
+    margin-left: 15px;
+}
+
+.list-item{
+    margin-bottom: 30px;
+}
+
+.footer-info{
+    padding-right: 30px;
 }
