@@ -63,6 +63,128 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*index css */
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 25px auto;
+  }
+  
+  /* header */
 
-/*>Testing<//*>
+  header {
+	  display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+  }
+  
+  header nav {
+	display:flex;
+	width: 600px;
+	
+  }
+  
+  header nav a {
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+	justify-content: right;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+ 
+
+  
+  /* cta */
+  .cta {
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	height: 379px;
+	margin-top: 69px;
+  }
+  
+  .cta .cta-text {
+	font-size: 77px;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .cta img {
+
+	justify-content: center;
+  }
+  
+  .main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .main-content .top-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+  }
+  
+  .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main-content .bottom-content {
+	padding-top: 39px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+  }
+  
+  .main-content .bottom-content .text-content {
+	width: 275px;
+	margin-right: 12px;
+  }
+  
+  
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 0px;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	text-align: center;
+	font-size: 14px;
+	}
+	
+	/* *services css */
+
+	.container_services {
+		width: 880px;
+
+		margin: 25px auto;
+	}
+
+	.container_services 
