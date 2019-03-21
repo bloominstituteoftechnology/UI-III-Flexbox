@@ -109,6 +109,8 @@ h2 {
 	align-self: flex-start;
 	padding-top: 25px;
 }
+
+
 .top {
 	display: flex;
 	justify-content: space-between;
@@ -119,8 +121,7 @@ h2 {
  height: 250px;
  width: 400px;
  border: 1px solid black;
- margin: 10px;
- margin-left: 0;
+ margin: 10px 0;
  background-color: #f6f5f5;
  padding: 15px;
 }
@@ -135,8 +136,7 @@ h2 {
 	height: 250px;
   width: 400px;
   border: 1px solid black;
-  margin: 10px;
-  margin-left: 0;
+  margin: 10px 0;
   background-color: #f6f5f5;
   padding: 15px;;
 }
@@ -151,23 +151,25 @@ h2 {
 	height: 250px;
   width: 400px;
   border: 1px solid black;
-  margin: 10px;
-  margin-left: 0;
+  margin: 10px 0;
   background-color: #f6f5f5;
   padding: 15px;
 }
 
 button {
-	width: 90px;
+	width: 100px;
 	height: 25px;
 	font-size: 10px;
-	display: block;
+	display: inline-block;
   margin: 10px 20px 20px;
+	border-radius: 8px;
+	box-shadow: none;
 }
 
 .facts {
 	display: flex;
 	padding-bottom: 25px;
+	margin-top: 20px;
  }
 
 facts-list {
@@ -183,7 +185,7 @@ ul {
 
 
 footer {
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
   font-size: 14px;
 }
