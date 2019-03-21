@@ -70,38 +70,46 @@ h1, h2, h3, h4, h5 {
 	width: 880px;
 }
 
-header nav {
-	display: inline-block;
+.header {
+	display: flex;
+}
+
+.header nav {
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
 }
 
-header nav a {
+
+
+.header nav a {
 	margin-right: 65px;
 	font-size: 14px;
 	color: gray;
 	text-decoration: none;
 }
 
-header nav a:hover {
+.header nav a:hover {
   text-decoration: underline;
 }
 
-header nav a:first-child {
+.header nav a:first-child {
 	margin-left: 0;
 }
 
-header nav a:last-child {
+.header nav a:last-child {
 	margin-right: 0;
 }
 
-header .logo {
+.header .logo {
 	margin-top: 25px;
 }
 
+.cta {
+	display: flex;
+}
+
 .cta .cta-text {
-	display: inline-block;
 	vertical-align: top;
 	font-size: 77px;
 	margin-top: 120px;
@@ -125,7 +133,6 @@ cursor: pointer;
 }
 
 .cta img {
-	display: inline-block;
 	margin-top: 69px;
 }
 
@@ -137,11 +144,12 @@ cursor: pointer;
 
 .main-content .top-content {
 padding: 0 10px;
+display: flex;
+justify-content: space-between;
 }
 
 .main-content .top-content .text-content {
 	width: 410px;
-	display: inline-block;
 	margin-right: 34px;
 }
 
@@ -156,11 +164,12 @@ padding: 0 10px;
 .main-content .bottom-content {
 	margin-top: 37px;
 	padding: 0 10px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .main-content .bottom-content .text-content {
 	width: 275px;
-	display: inline-block;
 	margin-right: 12px;
 }
 
@@ -183,3 +192,12 @@ footer {
 	text-align: center;
 	font-size: 14px;
 }
+
+.services-header-img {
+	margin-top: 25px;
+}
+
+
+
+
+
