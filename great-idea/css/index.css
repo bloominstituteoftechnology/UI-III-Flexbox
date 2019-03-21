@@ -288,6 +288,7 @@ p {
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   
 }
 
@@ -321,4 +322,8 @@ li {
   padding-bottom: 10px;
   padding-left: 10px;
   list-style: square;
+}
+.all-serv .dd {
+	display: flex;
+	order: -2;
 }
