@@ -26,14 +26,12 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -75,9 +73,10 @@ h1, h2, h3, h4, h5 {
   
   header nav {
 	  width: 691px;
-	  vertical-align: top;
+	 
 	  margin-top: 35px;
 	  display: flex;
+	  justify-content: space-between;
   }
   
   header nav a {
@@ -100,13 +99,15 @@ h1, h2, h3, h4, h5 {
   }
   
   header .logo {
-	margin-top: 25px;
+	/* margin-top: 25px; */
   }
   
   /* cta */
-  
+	.cta {
+		display: flex;
+	}
+	
   .cta .cta-text {
-	display: inline-block;
 	vertical-align: top;
 	font-size: 77px;
 	margin-top: 120px;
@@ -116,7 +117,7 @@ h1, h2, h3, h4, h5 {
   
   .cta .cta-text button {
 	background: white;
-	vertical-align: top;
+	/* vertical-align: top; */
 	margin-top: 6px;
 	padding: 8px 44px;
 	font-size: 17px;
@@ -130,7 +131,7 @@ h1, h2, h3, h4, h5 {
   }
   
   .cta img {
-	display: inline-block;
+	display: flex;
 	margin-top: 69px;
   }
   
@@ -143,10 +144,13 @@ h1, h2, h3, h4, h5 {
   .main-content .top-content {
 	padding: 0 10px;
   }
-  
+	
+	.top-content {
+		display: flex;
+	}
+	
   .main-content .top-content .text-content {
 	width: 410px;
-	display: inline-block;
 	margin-right: 34px;
   }
   
@@ -162,10 +166,13 @@ h1, h2, h3, h4, h5 {
 	margin-top: 37px;
 	padding: 0 10px;
   }
-  
+	
+	.bottom-content {
+		display: flex;
+	}
+	
   .main-content .bottom-content .text-content {
 	width: 275px;
-	display: inline-block;
 	margin-right: 12px;
   }
   
@@ -187,4 +194,68 @@ h1, h2, h3, h4, h5 {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
-  }
+	}
+	
+	/* services html part */
+
+	.services-header-img {
+		padding: 20px 0;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	.section1 {
+		margin-bottom: 25px;
+	}
+
+	.section1 .section-1-content {
+		margin-top: 10px;
+	}
+
+	.main-services {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.main-services .service-section {
+		border: 2px solid black;
+		background: lightgray;
+		justify-content: space-between;
+		width: 45%;
+		margin: 5px;
+		padding: 15px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+.service-section button  {
+	background: white;
+	margin: 20px 0;
+	padding: 8px 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.bottom-section {
+	display: flex;
+	margin-top: 30px;
+}
+
+.info {
+	margin: 20px;
+}
+
+.info .list-items {
+	padding: 20px;
+ }
+
+.info .list-items li {
+	padding: 10px;
+}
+
+footer {
+	margin-top: 50px;
+}
