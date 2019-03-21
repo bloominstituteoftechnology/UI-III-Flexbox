@@ -141,3 +141,73 @@ h1 {
 	text-align: center;
 	padding: 50px 0px 70px 0px;
 }
+.services-header-img {
+    margin: 0px 0px 30px 0px;
+}
+.services {
+    display: flex;
+	margin: 0px 0px 10px 0px;
+	line-height: 20px;
+}
+.services h4 {
+    font-size: 28px;
+}
+.borderLine2 {
+	border-bottom: 1px solid black;
+	margin: 28px 0px;
+}
+.boxes {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 20px 0px;
+}
+.child-item {
+	border: 1px solid black;
+	background: #f0f0f0;
+	width: 420px;
+	height: 240px;
+	margin: 0px;
+	margin: 20px 0px;
+	padding: 20px 15px;
+}
+.child-item p {
+	line-height: 20px;
+}
+.boxes .child-item button {
+	font-family: 'Titillium Web';
+	font-size: 12px;
+	background: #ffffff;
+	color: black;
+	padding: 8px 42px;
+	border: 1px solid black;
+	text-decoration: none;
+	border-radius: 4px;
+	margin: 10px 0px 0px 0px;
+	cursor: pointer;
+}
+.boxes .child-item button:hover {
+	background: black;
+	color: white;
+}
+.borderLine3 {
+	border-bottom: 2px solid black;
+	margin: 32px 0px;
+}
+.lowerContent {
+	display: flex;
+	justify-content: space-between;
+}
+.lowerContent p{
+	margin: 10px 20px 20px 0px;
+	line-height: 20px;
+}
+.lowerContent ul {
+	list-style-type: square;
+	margin: 20px 0px 0px 20px;
+	line-height: 30px;
+}
+footer {
+	padding: 60px 0px 20px 0px;
+	text-align: center;
+}
