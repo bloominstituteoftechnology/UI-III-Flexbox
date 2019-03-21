@@ -147,3 +147,11 @@ hr{
 .footer-info{
     padding-right: 30px;
 }
+
+.action-button{
+    background: none;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
