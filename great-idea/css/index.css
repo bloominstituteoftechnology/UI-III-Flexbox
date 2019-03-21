@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body .container {
+	margin: 0 auto;
+	width: 880px;
+}
+
+.navigation {
+	  display: flex;
+		flex-direction: row;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		justify-content: space-between;
+		align-items: center;
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+	height: inherit;
+	margin-right: 50px;
+}
+
+nav a:first-child {
+	padding-left: 0;
+}
+
+/*.logo {
+	float: right;
+	margin-left: 10px;
+}
+*/
+
+header {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+h1 {
+	padding-top: 15px;
+}
+
+h2 {
+	align-self: flex-start;
+	padding-top: 25px;
+}
+.top {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.top-content {
+ height: 250px;
+ width: 400px;
+ border: 1px solid black;
+ margin: 10px;
+ margin-left: 0;
+ background-color: #f6f5f5;
+ padding: 15px;
+}
+
+.middle {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.middle-content {
+	height: 250px;
+  width: 400px;
+  border: 1px solid black;
+  margin: 10px;
+  margin-left: 0;
+  background-color: #f6f5f5;
+  padding: 15px;;
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.bottom-content {
+	height: 250px;
+  width: 400px;
+  border: 1px solid black;
+  margin: 10px;
+  margin-left: 0;
+  background-color: #f6f5f5;
+  padding: 15px;
+}
+
+button {
+	width: 90px;
+	height: 25px;
+	font-size: inherit;
+	display: block;
+  margin: 10px 20px 20px;
+}
+
+.facts {
+	display: flex;
+	padding-bottom: 25px;
+ }
+
+facts-list {
+ flex-flow: column wrap;
+}
+
+ul {
+	list-style-type: circle;
+	margin-left: 20px;
+	padding-top: 25px;
+	align-self: flex-end;
+}
+
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+}
