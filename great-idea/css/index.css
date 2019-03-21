@@ -68,6 +68,9 @@ h1, h2, h3, h4, h5 {
 html {
 	margin: 50px;
 }
+!doctype html {
+	margin: 50px;
+}
 header {
 	display: flex; 
 	justify-content: space-evenly;
@@ -82,8 +85,15 @@ section h1 {
 }
 footer {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	padding: 50px;
+}
+ul {
+	list-style-type: circle;
+	padding: 25px;
+}
+.en {
+	margin: 50px;
 }
 .cta {
 	display: flex;
@@ -113,4 +123,32 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+}
+.services-header-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.service-block{
+	width: 300px;
+  	border: 1px solid black;
+  	padding: 25px;
+  	margin: 25px;
+}
+.services-main-content{
+	display: flex;
+	justify-content: center;
+}
+.service button {
+	display: flex;
+	align-content: baseline;
+}
+.footer-box-text {
+	margin: 100px;	
+	
+}
+.copyright {
+	text-align: center;
+	margin: 20px;
 }
