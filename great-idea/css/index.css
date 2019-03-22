@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -49,18 +136,288 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* ///////////////////////////////////////////////
+// MY CODE */
+
+.container {
+	width: 1000px;
+	height: 1450px;
+	margin: auto;
+	border: 1px solid rgba(119, 136, 153, 0.5);
+}
+
+
+/* ///////////////////////////////////////////////
+// HEADER*/
+
+header nav {
+	margin-top: 25px;
+}
+
+header nav:first-child {
+	margin-left: 30px;
+}
+
+.logo{
+	vertical-align: middle;
+	margin-left: 22px;
+}
+
+header nav a {
+	vertical-align: middle;
+	margin: 30px;
+	text-decoration: none;
+	color: rgba(145, 142, 142, 0.9);
+}
+
+
+
+.intro {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+
+
+.intro h1 {
+	margin: 0 0 50px 100px;
+	text-align: center;
+	width: 300px;
+	font-size: 80px;
+}
+
+
+.btn {
+	position: absolute;
+	top: 73%;
+	left: 22%;
+	width: 170px;
+	height: 35px;
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	border: 0.5px solid black;
+}
+
+hr {
+	width: 90%;
+	border: 0.5px solid black;
+	align: left;
+}
+
+/* /////////////////////////////////// */
+
+/* ANIMATION FOR IMAGE*/
+
+.header-img:hover {
+	animation-name: zoomOutLeft;
+	animation-duration: 3s;
+	cursor: pointer;
+}
+
+@keyframes zoomOutLeft {
+	40% {
+		opacity: 1;
+		-webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+		transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+	}
+
+	to {
+		opacity: 0;
+		-webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
+		transform: scale(0.1) translate3d(-2000px, 0, 0);
+		-webkit-transform-origin: left center;
+		transform-origin: left center;
+	}
+}
+
+
+/* ///////////////////////////////////////////////
+TOP CONTENT */
+
+.top-content {
+	display: flex;
+	text-align: left;
+	margin: 15px 30px;
+	padding: 10px;
+}
+
+.features {
+	width: 47%;
+	margin: 10px;
+}
+
+.about {
+	width: 47%;
+	margin: 10px;
+}
+
+
+.middle-img-tag {
+	margin-left: 50px;
+	width: 880px;
+	margin-bottom: 30px;
+}
+
+/* //////////////////////////////////////////////// */
+/* BOTTOM CONTENT */
+
+.bottom-content {
+	/*  GOOGLE FONT IMPLEMENTED BY ME  */
+	/* font-family: 'Germania One', cursive; */
+	display: flex;
+	text-align: left;
+	margin: 50px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.services {
+	width: 32%;
+	margin-left: 0 10px;
+}
+.product {
+
+	width: 32%;
+	margin-left: 0 10px;
+}
+.vision {
+
+	width: 32%;
+	margin-left: 0 10px;
+}
+
+
+
+/* //////////////////////////////////////
+CONTACT & FOOTER */
+
+.contact {
+	width: 170px;
+	line-height: 25px;
+	margin: 15px 50px;
+}
+
+
+footer {
+	display: flex;
+	justify-content: center;
+	font-size: 15px;
+	margin: 50px;
+}
+
+
+/* //////////////////////////////////////////////////////////// 
+
+ SERVICES PAGE CODE 
+
+ //////////////////////////////////////////////////////////// */
+
+
+.container-services {
+	width: 1000px;
+	height: 1850px;
+	margin: auto;
+	border: 1px solid rgba(119, 136, 153, 0.5);
+}
+
+.services-header {
+	margin: 30px 60px 35px 60px;
+	line-height: 20px;
+}
+
+.services-header h1 {
+ font-size: 28px;
+}
+
+.services-header-img {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 30px 0;
+}
+
+.services-hr-top {
+	width: 885px;
+	margin: 30px 60px;
+}
+
+.hr-bottom {
+	width: 890px;
+	margin: 30px 60px;
+	border: 1px solid black;
+}
+
+.block {
+	display: flex;
+}
+
+.card {
+	margin: 10px 20px 20px 20px;;
+	padding: 20px;
+	border: 1px solid black;
+	width: 424px;
+	background-color: #F4F3F4;
+}
+
+.card:first-child {
+   margin-left: 60px;
+}
+
+.card p {
+	line-height: 22px;
+}
+
+
+.card button {
+	width: 150px;
+	height: 35px;
+	background-color: #fff;
+	border: 0.5px solid black;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.facts {
+	display: flex;
+}
+
+.facts-text {
+	margin: 15px 30px 20px 60px;
+	width: 500px;
+	line-height: 22px;
+}
+
+ul {
+	list-style-type: square;
+	margin: 19px;
+}
+
+
+.facts-img {
+	margin: 15px 50px 40px 0px;
+	
+}
