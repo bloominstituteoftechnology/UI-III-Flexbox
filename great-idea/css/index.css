@@ -260,3 +260,108 @@ font-size: 24px;
 	margin-bottom: 25px;
 }
 
+/* -------------------Vision Page------------------*/
+
+.vision-container {
+	margin: 60px;
+}
+.vision-container .vision-navitems{
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.vision-container .vision-navitems a{
+	color: gray;
+	text-decoration: none;
+}	
+
+.vision-container .vision-top-content h1{
+	margin-top: 80px;
+	font-size: 40px;
+	border: 2px solid silver;
+	border-radius: 40px;
+	width: 300px;
+	padding: 50px;
+}
+
+.vision-container .vision-top-content .box{
+	border: 2px solid silver;
+	width: 200px; 
+	height: 100px;
+	border-radius: 30px;
+}
+
+.vision-container .vision-top-content .title-box1 {
+	position: relative;
+	border-color: steelblue;
+	left: 170px;
+	bottom: 40px;
+}
+
+.vision-container .vision-top-content .title-box2 {
+	position: relative;
+	bottom: 100px;
+	left: 30px;
+}
+
+.vision-container .vision-top-content .title-box3 {
+	position: relative;
+	border-radius: 20px;
+	bottom: 430px;
+	right: 40px;
+	width: 100px;
+	height: 60px;
+}
+
+.vision-container .vision-top-content .vision-section1 {
+	display: flex;
+	margin-bottom: 30px;
+	position: relative;
+	bottom: 100px;
+}
+
+.vision-container .vision-top-content .vision-section1 p {
+	margin: 30px;
+}
+
+.vision-container .vision-top-content .vision-section2 p {
+	margin-right: 20px;
+}
+
+.vision-container .vision-top-content .vision-section2 {
+	display: flex;
+}
+
+.vision-container .vision-top-content .vision-section1, .vision-section2 {
+	background: silver;
+	border: 1px solid silver;
+	border-radius: 20px;
+	margin-right: 50px;
+	
+}
+
+.vision-container .vision-section1 p, .vision-section2 p{
+	background: steelblue;
+	height: 300px;
+	padding: 60px 20px;
+	border-radius: 80px;
+	align-self: center;
+}
+
+.vision-img {
+	width: 52%;
+	margin:20px;
+	border: 2px solid gray;
+	border-radius: 100px;
+}
+
+.vision-container .vision-middle-content {
+	padding-left: 50px;
+	width: 600px;
+	height:600px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	flex-direction: column;
+}
