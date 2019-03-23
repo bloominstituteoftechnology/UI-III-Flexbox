@@ -263,7 +263,7 @@ font-size: 24px;
 /* -------------------Vision Page------------------*/
 
 .vision-container {
-	margin: 60px;
+	margin: 0 100px;
 }
 .vision-container .vision-navitems{
 	margin-top: 25px;
@@ -334,13 +334,23 @@ font-size: 24px;
 	margin-top: 70px;
 }
 
-.vision-container .vision-top-content .vision-section1 .vision-section1-box{
+.vision-container .vision-top-content .vision-section1 .vision-section1-box1{
+	border: 2px solid gray;
+	border-radius: 30px;
+	height: 100px;
+	width: 200px;
+	position: relative;
+	top: 100px;
+	left: 30px; 
+}
+
+.vision-container .vision-top-content .vision-section1 .vision-section1-box2{
 	border: 2px solid steelblue;
 	border-radius: 50px;
 	height: 200px;
 	width: 500px;
 	position: relative;
-	bottom: 200px;
+	bottom: 700px;
 	left: 200px;
 }
 
@@ -350,6 +360,25 @@ font-size: 24px;
 	height: 600px;
 	border-radius: 20px;
 	margin-right: 50px;
+}
+
+.vision-container .vision-top-content .vision-section2 {
+	background: silver;
+	border: 1px solid silver;
+	height: 600px;
+	border-radius: 20px;
+	margin-right: 50px;
+}
+
+.vision-container .vision-top-content .vision-section2 .box1, .box2 {
+	height: 200px;
+	width: 400px;
+	border: 1px solid steelblue;
+}
+
+.vision-container .vision-section1 .vision-img {
+	position: relative;
+	bottom: 60px;
 }
 
 .vision-container .vision-top-content .vision-section1 .para-img {
