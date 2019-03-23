@@ -264,6 +264,7 @@ TOP CONTENT */
 	text-align: left;
 	margin: 15px 30px;
 	padding: 10px;
+	line-height: 20px;
 }
 
 .features {
@@ -294,6 +295,7 @@ TOP CONTENT */
 	margin: 50px;
 	margin-top: 10px;
 	margin-bottom: 40px;
+	line-height: 20px;
 }
 
 .services {
