@@ -2,7 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+:root {
+	--mainColor:black;
+  }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,49 +20,212 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display:block;
 }
 body {
-	line-height: 1;
+	line-height:1;
 }
 ol, ul {
-	list-style: none;
+	list-style:none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,q {
+	quotes:none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+	content:'';
+	content:none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+	border-collapse:collapse;
+	border-spacing:0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+  height:100%;
+	font-family:'Titillium Web', sans-serif;
+	width:1080px;
+	margin:0 auto;	
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+    font-family:'Bangers', cursive;
+    letter-spacing:1px;
+    margin-bottom:15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.navbox{
+box-sizing:border-box;
+display:flex;
+flex-direction:row;
+width:1080px;
+align-items:flex-end;
+position:fixed;
+z-index:3;
+box-shadow:2px 5px 7px black ;
+background-image: radial-gradient(circle, white, lightblue, aqua);
+border-bottom: solid 2px black;
+}
+
+.navlink {
+box-sizing:border-box;
+flex-grow:1;
+height:20px;
+text-decoration:none;
+text-align:center;
+vertical-align:bottom;
+color:darkgrey;
+background:linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+background-repeat:repeat-x;
+transition:background-size .5s;
+width:100px;
+padding-bottom:1px;
+margin:0 10px 5px;
+font-size:14px;
+background-size:4px 1px;
+background-position:0 100%;
+}
+
+.navlink:hover {
+background-size:4px 60px;
+}
+	
+.logo {
+box-sizing:border-box;
+flex-grow:2;
+
+width:auto;
+}
+
+.mainheaderflexbox {
+box-sizing:border-box;
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+color:black;
+border-bottom:thick 1px black;
+width:1080px;
+padding-top:50px;
+}
+
+.subheaderflexbox {
+display:flex;
+flex-direction:column;
+box-sizing:border-box;
+justify-content:space-evenly;
+align-items:center;
+font-size:90px;
+width:400px;
+order:1;
+margin:0px;
+}
+
+.subheader {
+width:220px;
+}
+
+.getstarted {
+display:flex;
+justify-content:center;
+box-sizing:border-box;
+text-align:center;
+padding:2px;
+color:black;
+text-decoration:none;
+border:solid 1px grey;
+font-size:20px;
+width:130px;
+}
+
+.headerimgflexbox {
+display:flex;
+width:400px;
+order: 2;
+box-sizing: border-box;
+}
+
+.section1container{
+display:flex;
+justify-content:center;
+}
+
+.featuressection{
+border-top:solid 1px black;
+display:flex;
+flex-direction:column;
+flex-grow: 1;
+padding:20px;
+margin-top:25px;
+}
+
+.aboutsection{
+border-top: solid 1px black;
+display:flex;
+flex-direction:column;
+flex-grow:1;
+padding:20px;
+margin-top:25px;
+}
+
+.middleimage{
+display:flex;
+box-sizing: border-box;	
+justify-content:center;
+margin: 15px auto;
+}
+
+.section2container {
+display:flex;
+justify-content:center;
+}
+
+.servicessection{
+display:flex;
+justify-content:center;
+flex-direction:column;
+padding:20px;
+border-bottom: solid 1px black;
+}
+
+.productsection{
+display:flex;
+justify-content:center;
+flex-direction:column;	
+padding:20px;
+border-bottom: solid 1px black;
+}
+
+.visionsection{
+display:flex;
+justify-content:center;
+flex-direction:column;
+padding:20px;	
+border-bottom: solid 1px black;
+}
+
+.addresssection {
+display:flex;
+justify-content:flex-start;
+flex-direction:column;
+padding: 20px;
+}
+
+.footer {
+display:flex;
+justify-content:center;
+}
