@@ -304,7 +304,20 @@ footer {
 
 */
 
-.services-section {}
+hr {
+	border-style: inset;
+	border-width: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+	background-color: #373737;
+}
+
+.services-section {
+	padding: 0 0 35px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .services-section h1 {
 	font-size: 1.6rem;
@@ -317,4 +330,18 @@ footer {
 .services-header-img {
 	margin: 20px 0 30px 0;
 	/* box-shadow: 1px 1px 1px 1px #373737; */
+}
+
+.info-section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.info-section .info-item {
+	width: 350px;
+}
+
+.info-section .info-item button {
+	/* border: 2px solid red; */
 }
