@@ -297,3 +297,24 @@ footer {
 	text-align: center;
 	font-size: 14px;
 }
+
+/* 
+
+----- Begin Services.html css that is NOT re used from above -----
+
+*/
+
+.services-section {}
+
+.services-section h1 {
+	font-size: 1.6rem;
+}
+
+.services-section p {
+	line-height: 1.2;
+}
+
+.services-header-img {
+	margin: 20px 0 30px 0;
+	/* box-shadow: 1px 1px 1px 1px #373737; */
+}
