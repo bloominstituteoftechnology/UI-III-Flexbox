@@ -73,18 +73,28 @@ body {
 	padding-top: 30px;
 }
 
+.nav-container {
+	display:flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+
 nav a {
-	display: inline-block;
+	/* display: inline-block; */
 	text-decoration: none;
 	color: gray;
-	margin: 0 60px 0 0; 
-	position: relative;
-	bottom: 10px;
+	margin: 17px 55px 0 0; 
+	/* position: relative; */
+	/* bottom: 10px; */
 }
 
 nav .logo {
-	display: inline-block;
+	/* display: inline-block; */
 	margin-top: 10px;
+
+	
 }
 
 header h1 {
@@ -92,6 +102,7 @@ header h1 {
 	margin: 40px 20px;
 	text-align: center;
 	padding-bottom: 40px;
+	
 }
 
 header button {
@@ -102,62 +113,80 @@ header button {
 	position: relative;
 	left: 150px;
 	bottom: 60px;
+	
 }
 
 header .side-left {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 49%;
 	padding-bottom: 50px;
-
+	
 }
 
 header .side-right {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 49%;
 	position: relative;
 	left: 20px;
+	
 }
 
 .top-content {
+	display: flex;
+	flex-wrap: wrap;
 	margin-top: 40px;
 	border-bottom: 1px solid black;
+	
+	
 }
 
 .features {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 49.5%;
+	
 }
 
 .about {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 49.5%;
+	
 }
 
 .middle-content {
+	display: flex;
+	flex-wrap: wrap;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	
 }
 
 
 .bottom-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	border-bottom: 1px solid black;
+	
 }
 
 .services {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 33%;
+	
 }
 
 .product {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 33%;
+	
 }
 
 .vision {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 33%;
+	
 }
 
 footer .footer-contact {
