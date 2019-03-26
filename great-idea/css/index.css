@@ -115,6 +115,10 @@ h1, h2, h3, h4, h5 {
 
 /* Company Info */
 
+.company-info {
+	border-bottom: 1px solid #000;
+}
+
 .company-info-row-1 {
 	display: flex;
 	padding: 25px 0px;
@@ -128,4 +132,27 @@ h1, h2, h3, h4, h5 {
 .company-info-row-3 {
 	display: flex;
 	padding: 25px 0px;
+}
+
+/* Footer */
+
+.company-contact-info {
+	display: flex;
+	flex-direction: column;
+	padding: 25px 0px;
+}
+
+.company-contact-info address {
+	padding: 5px 0px;
+	width: 150px;
+}
+
+.company-contact-info a {
+	padding: 5px 0px;
+	text-decoration-line: none;
+	color: black;
+}
+
+.company-contact-info p {
+	text-align: center;
 }
