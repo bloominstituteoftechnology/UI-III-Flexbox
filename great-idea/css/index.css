@@ -169,9 +169,8 @@ h5 {
 /* header */
 
 header nav {
-    display: inline-block;
+    display: flex;
     width: 691px;
-    vertical-align: top;
     margin-top: 35px;
 }
 
@@ -203,7 +202,6 @@ header .logo {
 
 .cta .cta-text {
     display: inline-block;
-    vertical-align: top;
     font-size: 77px;
     margin-top: 120px;
     text-align: center;
@@ -212,7 +210,6 @@ header .logo {
 
 .cta .cta-text button {
     background: white;
-    vertical-align: top;
     margin-top: 6px;
     padding: 8px 44px;
     font-size: 17px;
@@ -226,7 +223,7 @@ header .logo {
 }
 
 .cta img {
-    display: inline-block;
+    display: flex;
     margin-top: 69px;
 }
 
@@ -242,7 +239,7 @@ header .logo {
 
 .main-content .top-content .text-content {
     width: 410px;
-    display: inline-block;
+    display: flex;
     margin-right: 34px;
 }
 
@@ -261,7 +258,7 @@ header .logo {
 
 .main-content .bottom-content .text-content {
     width: 275px;
-    display: inline-block;
+    display: flex;
     margin-right: 12px;
 }
 
