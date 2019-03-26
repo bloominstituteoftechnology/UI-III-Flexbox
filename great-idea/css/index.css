@@ -69,20 +69,19 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 	margin: 0 auto;
 	box-sizing: border-box;
-	vertical-align: top;
 }
 
 header {
 	height: 60px;
-	vertical-align: top;
+	display: flex;
+	justify-content: space-evenly;
+
 }
 
 header nav {
-	display: inline-block;
 	margin-top: 20px;
 	margin-right: 125px;
 	height: 35px;
-	vertical-align: top;
 }
 
 header nav a {
@@ -95,18 +94,17 @@ header nav a {
 	margin-top: 10px;
 }
 
-.content-double {
-	display: inline-block;
+.banner {
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .banner .banner-text {
 	margin: 0 auto;
 	text-align: center;
-	vertical-align: top;
-	display: inline-block;
 	width: 49.5%;
 	height: 400px;
-	margin: 20px 0;
+	margin: 50px 0;
 }
 
 .banner .banner-text#b-text {
@@ -115,7 +113,6 @@ header nav a {
 
 .banner .banner-text h1 {
 	font-size: 80px;
-	display: inline-block;
 }
 
 .banner .banner-text button {
@@ -126,21 +123,24 @@ header nav a {
 
 .main {
 	vertical-align: top;
+	display: flex;
 }
 
 .main .main-content {
 	padding: 25px 10px;
 	width: 49.5%;	
-	display: inline-block;
 }
 
 .pic-content .middle-img {
 	padding: 10px 10px;
 }
 
+.content {
+	display: flex;
+}
+
 .content .content-triple {
 	width: 33%;
-	display: inline-block;
 	padding: 25px 10px;
 }
 
@@ -156,5 +156,4 @@ footer {
 
 .address {
 	margin-top: 16px;
-	display: inline-block;
 }
