@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+header {
+	height: 60px;
+	vertical-align: top;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 125px;
+	height: 35px;
+	vertical-align: top;
+}
+
+header nav a {
+	margin: 20px;
+	color: gray;
+	text-decoration: none;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+.content-double {
+	display: inline-block;
+}
+
+.banner .banner-text {
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	width: 49.5%;
+	height: 400px;
+	margin: 20px 0;
+}
+
+.banner .banner-text#b-text {
+	padding-top: 40px;
+}
+
+.banner .banner-text h1 {
+	font-size: 80px;
+	display: inline-block;
+}
+
+.banner .banner-text button {
+	width: 170px;
+	padding: 7px 0;
+	font-size: 1.1em;
+}
+
+.main {
+	vertical-align: top;
+}
+
+.main .main-content {
+	padding: 25px 10px;
+	width: 49.5%;	
+	display: inline-block;
+}
+
+.pic-content .middle-img {
+	padding: 10px 10px;
+}
+
+.content .content-triple {
+	width: 33%;
+	display: inline-block;
+	padding: 25px 10px;
+}
+
+.contact {
+	padding: 25px 10px;
+}
+
+footer {
+	text-align: center;
+	margin: 20px 0;
+	padding: 25px 0;
+}
+
+.address {
+	margin-top: 16px;
+	display: inline-block;
+}
