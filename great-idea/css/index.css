@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5 {
 	margin-left: 50px;
 	align-items: center;
 	justify-content: space-between;
+	height: 15vh;
 }
 
 .home-navbar a {
@@ -79,3 +80,35 @@ h1, h2, h3, h4, h5 {
 	color: gray;
 }
 
+/* Hero Section */
+
+/* Create two equal columns */
+.hero-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 65vh;
+	border-bottom: 1px solid #000;
+}
+
+.call-to-action {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.call-to-action h2 {
+	font-size: 50px;
+	text-align: center;
+}
+
+#get-started {
+	background-color: white;
+	border: 1px solid black;
+	font-size: 17px;
+}
+
+#hero-img {
+	margin: 0 auto;
+}
