@@ -85,7 +85,6 @@ footer.footer {
 }
 
 .logo {
-	display:inline-block;
 	
 }
 
@@ -117,7 +116,6 @@ header nav a {
 	font-family: 'Titillium Web', sans-serif;
 	text-decoration: none;
 	color:lightgray;
-	padding:20px;
 	vertical-align: center;
 	text-align:left;
 
@@ -125,31 +123,27 @@ header nav a {
 
 #headerTOP {
 	width:100%;
-	display:inline-block;
-	vertical-align: center;
-	margin-bottom:10px;
-}
-
-
-.article2 {
-	width:33%;
-	display:inline-block;
-	padding:10px 0px;
-	margin-bottom:20px;
-	box-sizing:border-box;
-	vertical-align: top;
+	display:flex;
+	
 }
 
 .headerTEXT {
 	width:475px;
-	display:inline-block;
+	display:flex;
+	vertical-align: top;
+}
+
+.article2 {
+	width:33%;
+	display:flex;
+	padding:10px 0px;
+	margin-bottom:20px;
 	vertical-align: top;
 }
 
 header .divNAV {
 	width: 75%;
-	display:inline-block;
-	vertical-align: center;
+	align-content: center;
 	
 }
 
@@ -160,11 +154,11 @@ header .divNAV {
 .IOD {
 	line-height: 1;
 	font-size: 72px;
-	display:inline-block;
+	display:flex;
 
 }
 .button {
-	display:inline-block;
+	display:flex;
 	vertical-align:center;
 	text-align:center;
 	width:475px;
@@ -178,7 +172,6 @@ header .divNAV {
 	padding:5px;
 	border: .75px solid black;
 	width:150px;
-	display:inline;
 	margin:0px auto;
 	font-size:16px;
 }
@@ -187,11 +180,12 @@ header .divNAV {
 	border-top: 2px solid grey;
 	width:100%;
 	text-align:center;
+	display:flex;
 }
 
 .article {
 	width:435px;
-	display:inline-block;
+	display:flex;
 	padding:0px;
 	margin-bottom:20px;
 	box-sizing:border-box;
@@ -212,12 +206,6 @@ header .divNAV {
 	line-height:.5;
 }
 
-.hr {
-
-	width:100%;
-	display:block;
-
-}
 
 section .text {
 	line-height: 1;
