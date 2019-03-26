@@ -155,104 +155,132 @@ h5 {
 	margin-bottom: 15px;
 }
 
+
+
+
+
+
 /* Your code starts here! */
 
 /* ///////////////////////////////////////////////
 // MY CODE */
+
+
+
+
 
 .container {
 	width: 1000px;
 	height: 1450px;
 	margin: auto;
 	border: 1px solid rgba(119, 136, 153, 0.5);
+	box-shadow: rgba(101, 196, 236, 0.4) 0px 6px 8px;
 }
 
 
 /* ///////////////////////////////////////////////
 // HEADER*/
 
-header nav {
-	margin-top: 25px;
+.nav {
+	height: 50px;
+	display: flex;
+	justify-content: center;
 }
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1002px;
+	height: 60px;
+	position: fixed;
+	background-image: linear-gradient(to right, rgb(98, 179, 216), rgb(149, 212, 241));
+	box-shadow: rgba(101, 170, 200, 0.2) 0px 6px 8px;
+}
+
 
 header nav:first-child {
 	margin-left: 30px;
 }
 
-.logo{
+.logo {
 	vertical-align: middle;
 	margin-left: 22px;
 }
 
-header nav a {
+.nav nav a {
 	vertical-align: middle;
 	margin: 30px;
 	text-decoration: none;
-	color: rgba(145, 142, 142, 0.9);
+	color: #fff;
+}
+
+nav a:hover {
+	animation-name: neon2;
+	animation-duration: 1s;
 }
 
 
+header {
+	margin-top: 0;
+	margin-bottom: 30px;
+	box-shadow: rgba(85, 85, 85, 0.4) 0 4px 8px;
+}
 
 .intro {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	position: relative;
 	width: 100%;
 	height: 500px;
 }
 
-
-.intro h1 {
-	margin: 0 0 50px 100px;
+.intro-text {
 	text-align: center;
-	width: 300px;
-	font-size: 80px;
+	font-size: 77px;
+	margin-left: 140px;
+	margin-top: 72px;
 }
 
 
 .btn {
-	position: absolute;
-	top: 73%;
-	left: 22%;
+	vertical-align: top;
 	width: 170px;
 	height: 35px;
 	font-size: 16px;
 	color: black;
 	background-color: white;
 	border: 0.5px solid black;
+	border-radius: 5px;
+	box-shadow: rgba(101, 170, 200, 0.2) 0px 6px 8px;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+	transition: ease-out 0.5s;
+	background-image: linear-gradient(to right, rgb(98, 179, 216), rgb(149, 212, 241));
+	color: #fff;
+}
+
+
+h2:hover {
+	display: flex;
+	justify-content: center;
+	width: 100px;
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: ease-out 0.5s;
+	background-image: linear-gradient(to right, rgb(98, 179, 216), rgb(149, 212, 241));
+	color: #fff;
+	/* FIXES ANIMATION SHAKING ISSUE */
+	-webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 hr {
 	width: 90%;
 	border: 0.5px solid black;
 	align: left;
-}
-
-/* /////////////////////////////////// */
-
-/* ANIMATION FOR IMAGE*/
-
-.header-img:hover {
-	animation-name: zoomOutLeft;
-	animation-duration: 3s;
-	cursor: pointer;
-}
-
-@keyframes zoomOutLeft {
-	40% {
-		opacity: 1;
-		-webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
-		transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
-	}
-
-	to {
-		opacity: 0;
-		-webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
-		transform: scale(0.1) translate3d(-2000px, 0, 0);
-		-webkit-transform-origin: left center;
-		transform-origin: left center;
-	}
 }
 
 
@@ -302,11 +330,13 @@ TOP CONTENT */
 	width: 32%;
 	margin-left: 0 10px;
 }
+
 .product {
 
 	width: 32%;
 	margin-left: 0 10px;
 }
+
 .vision {
 
 	width: 32%;
@@ -348,18 +378,38 @@ footer {
 }
 
 .services-header {
+	width: 885px;
 	margin: 30px 60px 35px 60px;
 	line-height: 20px;
+	font-size: 16px;
+	line-height: 22px;
+	border-radius: 5px;
 }
 
-.services-header h1 {
- font-size: 28px;
+.services-text {
+	width: 885px;
 }
+
+.services-text h1 {
+	font-size: 28px;
+	padding: 0 5px;
+}
+
+.services-text p{
+	padding-bottom:10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+
+
 
 .services-header-img {
-	display: flex;
-	justify-content: center;
 	margin: 20px 0 30px 0;
+}
+
+.services-header-img img{
+ width: 885px;
+ overflow: hidden;
 }
 
 .services-hr-top {
@@ -377,17 +427,32 @@ footer {
 	display: flex;
 }
 
+.section-services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .card {
-	margin: 10px 20px 20px 20px;;
+	border: 0.5px solid #fff;
+	border-radius: 10px;
+	margin: 10px 20px 20px 20px;
 	padding: 20px;
-	border: 1px solid black;
+	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.4); 
 	width: 424px;
 	background-color: #F4F3F4;
 }
 
-.card:first-child {
-   margin-left: 60px;
+.card:hover {
+	border: 0.5px solid #fff;
+	border-radius: 20px;
+	transform: scale(1.05);
+	transition: ease-out 0.5s;
+	background-image: linear-gradient(to right, rgb(98, 179, 216), rgb(149, 212, 241));
+	color: #fff;
+	box-shadow: rgba(101, 170, 200, 0.2) 0px 6px 8px;
 }
+
 
 .card p {
 	line-height: 22px;
@@ -421,5 +486,124 @@ ul {
 
 .facts-img {
 	margin: 15px 50px 40px 0px;
-	
+
 }
+
+
+
+
+
+/* 
+/////////////////////////////////////////
+ANIMATIONS */
+
+
+
+@keyframes zoomIn {
+	from {
+		opacity: 0;
+		-webkit-transform: scale3d(0.3, 0.3, 0.3);
+		transform: scale3d(0.3, 0.3, 0.3);
+	}
+
+	50% {
+		opacity: 1;
+	}
+}
+
+
+/* 
+//////////////////////////////////////////// */
+/* NEON */
+
+/*Neon*/
+
+@keyframes neon2 {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+	}
+
+	to {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+	}
+}
+
+/*//////////////////////////////////////////////////////////////
+RESPONSIVE
+//////////////////////////////////////////////////////////////*/
+
+
+@media (max-width: 650px) {
+
+	nav {
+		width: 550px;
+	}
+	
+	.logo {
+	display: none;
+	}
+
+	.section-services {
+		justify-content: center;
+	} 
+
+	.facts {
+		flex-wrap: wrap;
+	}
+
+	.container-services {
+		font-size: 15px;
+		width: 550px;
+		height: 3000px;
+		margin: auto;
+		border: 1px solid rgba(119, 136, 153, 0.5);
+	}  
+	
+	.services-header {
+		font-size: 15px;
+		width: 500px;
+		margin: 20px 30px 35px 25px;
+	}
+	
+	.services-text {
+		width: 500px;
+	}
+	
+	.services-text h1 {
+		font-size: 20px;
+		padding: 0 5px;
+	}
+	
+	
+	.services-header-img {
+		width: 500px;
+		/* margin: 20px 0 30px 0; */
+	}
+	
+	.services-header-img img{
+	 width: 500px;
+	 overflow: hidden;
+	}
+	
+	.services-hr-top {
+		width: 425px;
+	}
+	
+	.hr-bottom {
+		width: 425px;
+	}
+	
+	
+	.facts {
+		display: flex;
+		justify-content: center;
+	}
+	
+
+		.facts-img {
+		margin: 15px 15px 20px 15px;
+	} 
+	
+
+}
+
