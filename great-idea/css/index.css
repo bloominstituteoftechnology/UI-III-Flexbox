@@ -171,14 +171,13 @@ header {}
 header nav {
 	display: flex;
 	flex-direction: row;
-	width: 890px;
 	justify-content: space-between;
-	/* align-content: ; */
+	align-items: center;
+	width: 890px;
 	margin-top: 35px;
 }
 
 header nav a {
-
 	margin-right: 65px;
 	font-size: 14px;
 	color: gray;
@@ -200,7 +199,10 @@ header nav a:last-child {
 	margin-right: 0;
 } */
 
-header .logo {}
+header .logo {
+	display: flex;
+	align-items: baseline;
+}
 
 /* cta */
 
@@ -246,11 +248,13 @@ header .logo {}
 
 .main-content .top-content {
 	padding: 0 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 
 .main-content .top-content .text-content {
 	width: 410px;
-	display: inline-block;
 	margin-right: 34px;
 }
 
@@ -265,11 +269,12 @@ header .logo {}
 .main-content .bottom-content {
 	margin-top: 37px;
 	padding: 0 10px;
+	display: flex;
+	flex-direction: row;
 }
 
 .main-content .bottom-content .text-content {
 	width: 275px;
-	display: inline-block;
 	margin-right: 12px;
 }
 
