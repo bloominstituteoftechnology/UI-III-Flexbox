@@ -20,7 +20,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border:0;
 	font-size:100%;
 	font:inherit;
 	vertical-align:baseline;
@@ -67,8 +66,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom:15px;
 }
 
-/* Your code starts here! */
-
 .navbox{
 box-sizing:border-box;
 display:flex;
@@ -81,7 +78,7 @@ box-shadow:2px 5px 7px black ;
 background-image: radial-gradient(circle, white, lightblue, aqua);
 border-bottom: solid 2px black;
 }
-
+    
 .navlink {
 box-sizing:border-box;
 flex-grow:1;
@@ -100,12 +97,14 @@ font-size:14px;
 background-size:4px 1px;
 background-position:0 100%;
 }
-
+    
 .navlink:hover {
 background-size:4px 60px;
 }
 
-
+.logocontainer {
+  display:flex;
+  }
 
 .logo {
 box-sizing:border-box;
@@ -115,116 +114,98 @@ width:auto;
 .mainheaderflexbox {
 box-sizing:border-box;
 display:flex;
-flex-direction:row;
+flex-direction:column;
 justify-content:space-evenly;
-color:black;
+align-items:space-evenly;
+border-bottom:solid 2px black;
 width:1080px;
 padding-top:50px;
+
 }
 
-.subheaderflexbox {
+.headertitle {
+font-size: 20px;
+padding-top:20px;  
+}
+
+.headerP {
+padding-bottom:20px;
+}
+
+.maincontentcontainer{
 display:flex;
-flex-direction:column;
-box-sizing:border-box;
+justify-content:space-between;
+align-content:space-between;
+border-bottom:solid 2px black;
+
+flex-wrap: wrap;
+}
+
+.subcontentcontainer{
+display:flex;
+flex-direction: column;
 justify-content:space-evenly;
-align-items:center;
-font-size:90px;
-width:400px;
-order:1;
-margin:0px;
+align-items:space-evenly;
+border:solid 1px black;
+background: lightgrey;
+width:45%;
+margin: 20px 0;
 }
 
-.subheader {
-width:220px;
-}
-
-.getstarted {
+.learnmorebutton{
 display:flex;
-justify-content:center;
-box-sizing:border-box;
-text-align:center;
-padding:2px;
-color:black;
-text-decoration:none;
-border:solid 1px grey;
-font-size:20px;
-width:130px;
+justify-content: space-evenly;
+align-items:space-evenly;
+background: white;
+padding: 10px;
+width: 120px;
+border: solid 1px black;
+border-radius:10px;
+margin:10px;
 }
 
-.headerimgflexbox {
+.subtitle {
+font-size: 18px;
+margin:15px;
+}
+
+.contentparagraph {
+margin: 10px;
+}
+
+.footercontainer{
 display:flex;
-width:400px;
-order: 2;
-box-sizing: border-box;
+justify-content:space-between;
+flex-wrap: wrap;
+padding-top: 20px;
+margin-bottom:30px;
 }
 
-.section1container{
+.footerchildcontainer{
 display:flex;
-justify-content:center;
+flex-direction: column;
+justify-content:space-between;
+width:45%;
 }
 
-.featuressection{
-border-top:solid 2px black;
+.footertitle {
+font-size: 18px;
+margin:0 0 15px 0;
+}
+
+.footerparagraph {
+margin: 10px 0;
+}
+
+.copyright {
+display:flex;
+justify-content:center; 
+padding:10px 0; 
+}
+
+ul{
 display:flex;
 flex-direction:column;
-flex-grow: 1;
-padding:20px;
-margin-top:25px;
-}
-
-.aboutsection{
-border-top: solid 2px black;
-display:flex;
-flex-direction:column;
-flex-grow:1;
-padding:20px;
-margin-top:25px;
-}
-
-.middleimage{
-display:flex;
-box-sizing: border-box;	
-justify-content:center;
-margin: 15px auto;
-}
-
-.section2container {
-display:flex;
-justify-content:center;
-}
-
-.servicessection{
-display:flex;
-justify-content:center;
-flex-direction:column;
-padding:20px;
-border-bottom: solid 2px black;
-}
-
-.productsection{
-display:flex;
-justify-content:center;
-flex-direction:column;	
-padding:20px;
-border-bottom: solid 2px black;
-}
-
-.visionsection{
-display:flex;
-justify-content:center;
-flex-direction:column;
-padding:20px;	
-border-bottom: solid 2px black;
-}
-
-.addresssection {
-display:flex;
-justify-content:flex-start;
-flex-direction:column;
-padding: 20px;
-}
-
-.footer {
-display:flex;
-justify-content:center;
+list-style-type: square;
+list-style-position:inside;
 }
