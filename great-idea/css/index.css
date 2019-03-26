@@ -166,14 +166,19 @@ h5 {
 
 /* header */
 
+header {}
+
 header nav {
-	display: inline-block;
-	width: 691px;
-	vertical-align: top;
+	display: flex;
+	flex-direction: row;
+	width: 890px;
+	justify-content: flex-start;
+	/* align-content: ; */
 	margin-top: 35px;
 }
 
 header nav a {
+
 	margin-right: 65px;
 	font-size: 14px;
 	color: gray;
@@ -184,34 +189,39 @@ header nav a:hover {
 	text-decoration: underline;
 }
 
-header nav a:first-child {
+header nav img {}
+
+/* header nav a:first-child {
 	margin-left: 0;
 }
 
 header nav a:last-child {
 	margin-right: 0;
-}
+} */
 
-header .logo {
-	margin-top: 25px;
-}
+header .logo {}
 
 /* cta */
 
+.cta {
+	width: 880px;
+	display: flex;
+
+}
+
 .cta .cta-text {
-	display: inline-block;
-	vertical-align: top;
+	/* display: flex;
+	flex-direction: column; */
 	font-size: 77px;
 	margin-top: 120px;
 	text-align: center;
-	padding: 0px 75px;
+	/* padding: 0px 75px; */
 }
 
 .cta .cta-text button {
 	background: white;
-	vertical-align: top;
 	margin-top: 6px;
-	padding: 8px 44px;
+	padding: 8px 4px;
 	font-size: 17px;
 	border: 1px solid black;
 	cursor: pointer;
@@ -223,7 +233,6 @@ header .logo {
 }
 
 .cta img {
-	display: inline-block;
 	margin-top: 69px;
 }
 
