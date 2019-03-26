@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol {
 	list-style: none;
 }
 blockquote, q {
@@ -64,3 +64,147 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+/* Your code starts here! */
+
+.container{
+	margin: 0 auto;
+	width: 876px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+}
+header nav {
+	display: flex;
+	width: 600px;
+	align-items: center;
+	justify-content: space-between;
+}
+header nav a {
+	display: flex; 
+	font-size: 15px;
+	text-decoration: none;
+	color: darkgray;
+	
+}
+header img {
+	width: 200px;
+	display: flex;
+
+}
+.section1{
+	display: flex;
+	padding-top: 30px;
+
+}
+.section1 div {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	width: 445px;
+	text-align: center;
+	/* border: 2px solid black; */
+}
+section h1 {
+	font-size: 70px;
+	
+}
+section a {
+	padding: 5px;
+	align-self: center;
+	width: 125px;
+	height: 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	border: 1px solid black;
+}
+.header-img {
+	display: flex;
+	width:435px;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+
+.features-about {
+	display: flex;
+	flex-wrap: wrap;
+	width: 435px;
+	padding: 30px 0;
+}
+.below-image {
+	display: flex;
+	flex-wrap: wrap;
+	width: 275px;
+	padding: 30px 5px;
+}
+.center-section {
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 15px 0;
+}
+footer {
+	margin-top: 30px;
+}
+footer a {
+	text-decoration: none;
+	color: black;
+}
+h6 {
+	align-self: center;
+	text-align: center;
+	padding: 30px 0;
+	margin-top: 15px;
+}
+.service-upper{
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+}
+.service-upper div {
+	width: 876px;
+	padding: 10px 0;
+}
+.services-middle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+	padding: 20px 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.services-middle div {
+	display: flex;
+	flex-wrap: wrap;
+	width: 415px;
+	border: 1px solid black;
+	margin: 20px 0;
+	padding: 20px;
+	background-color: gainsboro;
+}
+.services-middle div a {
+	margin-top: 20px;
+	text-align: center;
+	background-color: white;
+}
+.services-footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.services-footer div {
+	width: 415px;
+}
+ul {
+	margin-top: 30px;
+	list-style-position: inside;
+}
+li {
+	margin: 10px 0;
+}
