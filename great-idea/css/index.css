@@ -112,3 +112,20 @@ h1, h2, h3, h4, h5 {
 #hero-img {
 	margin: 0 auto;
 }
+
+/* Company Info */
+
+.company-info-row-1 {
+	display: flex;
+	padding: 25px 0px;
+}
+
+.company-info-row-2 {
+	display: flex;
+	width: 100vw;
+}
+
+.company-info-row-3 {
+	display: flex;
+	padding: 25px 0px;
+}
