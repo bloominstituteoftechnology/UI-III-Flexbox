@@ -144,27 +144,27 @@ header img {
 	padding-top: 25px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	display: flex;
 }
 
 .main-top h2 {
 	
-	display: inline-block;
+	display: flex;
 }
 
 .main-top .features {
 	/*border: 1px solid blueviolet; */
-	
-	vertical-align: top;
-	display: inline-block;
-	width: 49%;
+	display: flex;
+	flex-direction: column;
+
 
 }
 
 .main-top .about {
 	
 	/*border: 1px solid green; */
-	display: inline-block;
-	width: 50%;
+	display: flex;
+	flex-direction: column
 }
 
 
