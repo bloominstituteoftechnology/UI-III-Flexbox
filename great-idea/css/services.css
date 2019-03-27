@@ -1,0 +1,128 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/*Personal CSS starts here*/
+.container {
+	/*	border: 1px solid red;*/
+		margin: 30px auto;
+		width: 880px;
+	}
+.navigation {
+    /*border: 4px solid red;*/
+    display: flex;
+    flex-direction: row;
+    width: 870px;
+    background-color: #00FA9A;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+}
+.navigation nav {
+    /*border: 4px solid red;*/
+    vertical-align: top;
+    margin-top:10px;
+    width:  666px;
+}
+
+a {
+    margin: 0 25px;
+    color: grey;
+    /*GET RID OF UNDERLINE*/
+}
+a:hover {
+    color: black;
+}
+button:hover {
+     background-color: grey;
+}
+
+.topContent{
+  /*  display: flex;
+    flex-direction: column; */
+    justify-content: space-between;
+    padding: 100px auto; 
+    border: 1px solid red;
+    order: 1;
+}
+
+.middleContent{
+  /*  display: flex;
+    flex-direction: row;*/
+    width: 880px;
+    border: 1px solid red;
+    order 2;
+}
+
+.bottomContent{
+    display: flex;
+    order: 1;
+}
+footer {
+    text-align: center;
+}
+.box {
+    border: 2px solid black;
+    background-color: grey;
+}
