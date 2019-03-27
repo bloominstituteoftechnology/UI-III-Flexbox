@@ -85,7 +85,7 @@ footer.footer {
 }
 
 .logo {
-	
+	margin-left:25px;
 }
 
 
@@ -116,53 +116,53 @@ header nav a {
 	font-family: 'Titillium Web', sans-serif;
 	text-decoration: none;
 	color:lightgray;
-	vertical-align: center;
-	text-align:left;
-
 }
 
 #headerTOP {
-	width:100%;
+	width:876px;
 	display:flex;
-	
+	align-items: center;
+	justify-content: flex-start;
 }
 
 .headerTEXT {
 	width:475px;
 	display:flex;
-	vertical-align: top;
+	align-items: center;
+	justify-content: center;
 }
 
 .article2 {
 	width:33%;
-	display:flex;
 	padding:10px 0px;
 	margin-bottom:20px;
 	vertical-align: top;
 }
 
 header .divNAV {
-	width: 75%;
-	align-content: center;
-	
+	width: 876px;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 .middle-img {
 	text-align:center;
 }
 
+.codeSNIP {
+	margin-top: 55px;
+}
+
 .IOD {
 	line-height: 1;
 	font-size: 72px;
-	display:flex;
-
 }
 .button {
 	display:flex;
-	vertical-align:center;
-	text-align:center;
-	width:475px;
-	
+	align-items:flex-start;
+	flex-flow: row;
+	flex-wrap:wrap;
+	justify-content: space-around;
 }
 
 #button {
@@ -183,9 +183,12 @@ header .divNAV {
 	display:flex;
 }
 
+#special1 {
+	margin-top:95px;
+}
+
 .article {
 	width:435px;
-	display:flex;
 	padding:0px;
 	margin-bottom:20px;
 	box-sizing:border-box;
@@ -195,6 +198,7 @@ header .divNAV {
 
 .section2 {
 	border-bottom: 2px solid grey;
+	display:flex;
 }
 
 
@@ -213,6 +217,11 @@ section .text {
 	text-align:left;
 }
 
-#codeSNIPPET {
-	display:inline;
+#navID {
+	display:flex;
+}
+
+nav {
+	display:flex;	
+	justify-content:space-around; 
 }
