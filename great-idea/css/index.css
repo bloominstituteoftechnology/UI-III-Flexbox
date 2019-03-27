@@ -64,3 +64,168 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*Homepage Navigation*/
+
+.home-navbar {
+	display: flex;
+	margin-left: 50px;
+	align-items: center;
+	justify-content: space-between;
+	height: 15vh;
+}
+
+.home-navbar a {
+	text-decoration-line: none;
+	color: gray;
+}
+
+/* Hero Section */
+
+/* Create two equal columns */
+.hero-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 65vh;
+	border-bottom: 1px solid #000;
+}
+
+.call-to-action {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.call-to-action h2 {
+	font-size: 50px;
+	text-align: center;
+}
+
+#get-started {
+	background-color: white;
+	border: 1px solid black;
+	font-size: 17px;
+}
+
+#hero-img {
+	margin: 0 auto;
+}
+
+/* Company Info */
+
+.company-info {
+	border-bottom: 1px solid #000;
+}
+
+.company-info-row-1 {
+	display: flex;
+	padding: 25px 0px;
+}
+
+.company-info-row-2 {
+	display: flex;
+	width: 100vw;
+}
+
+.company-info-row-3 {
+	display: flex;
+	padding: 25px 0px;
+}
+
+/* Footer */
+
+.company-contact-info {
+	display: flex;
+	flex-direction: column;
+	padding: 25px 0px;
+}
+
+.company-contact-info address {
+	padding: 5px 0px;
+	width: 150px;
+}
+
+.company-contact-info a {
+	padding: 5px 0px;
+	text-decoration-line: none;
+	color: black;
+}
+
+.company-contact-info p {
+	text-align: center;
+}
+
+/* Service Page Styling */
+
+/* Hero Section */
+
+.service-page-hero {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid #000;
+}
+
+#service-page-hero-img {
+	width: 100vw;
+}
+
+.services-hero-text {
+	padding: 35px 0px;
+}
+
+.services-hero-text h1 {
+	font-size: 18pt;
+}
+
+/* Service Cards Section*/
+.service-cards {
+	padding: 35px 0px;
+	border-bottom: 1px solid #000;
+   }
+   
+.service-cards .card-row {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+   
+.service-cards .card-column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+.service-cards .card-column {
+	border: 1px solid #000;
+	background: #F4F3F4;
+	margin: 15px;
+	padding: 10px;
+}
+
+.service-card-btn {
+	margin: 15px 0px;
+	padding: 5px 25px;
+	background: white;
+	border-radius: 10px;
+}
+
+/* Service Facts */
+.facts-about-services {
+	display: flex;
+	padding: 35px 0px;
+}
+
+.facts-about-services p {
+	padding: 25px 0px;
+}
+
+.service-facts-info {
+	padding-right: 35px;
+}
+
+li.fact {
+	list-style-type: disc;
+}
