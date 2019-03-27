@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5 {
 	/*	border: 4px solid red;*/
 		display: flex;
 		flex-direction: row;
-		margin: 80px 0px;
+	/*	margin: 80px 0px;*/
 		padding-top: 60px;
 		padding-bottom: 80px; 
 		justify-content: space-between;
@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5 {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 	/*	border: 4px solid red;
 		vertical-align: top;
 		margin-top: 60px;
@@ -125,9 +126,6 @@ h1, h2, h3, h4, h5 {
 	}
 	
 	button {
-		display: flex;
-		align-self: center;
-	    align-items: center;
 		vertical-align: top;
 		margin-top: 20px;
 		width: 150px;
@@ -142,48 +140,56 @@ h1, h2, h3, h4, h5 {
 	
 	.midContentSection1 {
 		display: flex;
-		flex-direction: row;
-		justify-content: column-reverse;
-		/*border: 1px solid red;*/
+		flex-flow: row-reverse wrap;
+	/*	border: 1px solid red;*/
 		width: 870px;
 		margin: 30px 0px;
+		
 	}
 	.midContentSection1 p {
-		/*border: 1px solid red;*/
+		order: 1;
+	/*	border: 1px solid red;*/
 		
 		width: 425px;
 	}
 	.midContentSection1 h3 {
-		display: flex;
-		flex-direction: column;
+		
 	/*	border: 1px solid red;*/
 		width: 430px;
 	}
 	
 	.midContentSection2 {
+		display: flex;
+		flex-flow: row-reverse wrap;
 	/*	border: 1px solid red;*/
 		width: 870px;
 		margin-top: 30px;
 		border-bottom: 1px solid grey;
-		padding-bottom: 50px;
+		padding-bottom: 40px;
 	}
+	
 	.midContentSection2 h3, .midContentSection2 p {
-		display: inline-block;
+		/*border: 1px solid red;*/
+		/*display: inline-block;*/
 		width: 280px;
+	
 	}
 	.midContentSection2 h3, p {
 	  margin-right: 6px;
 	}
+	/*
 	.midContentSection2.p:last-child {
 		margin-right: 0px;
 	}
 	.midContentSection2.h3:last-child {
 		margin-right: 0px;
 	}
+	*/
 	.contactSection{
 		margin-top: 40px;
 		margin-bottom: 50px;
-		display: block;
+		display: flex;
+		flex-flow: column;
 	}
 	footer {
 		  text-align: center;
