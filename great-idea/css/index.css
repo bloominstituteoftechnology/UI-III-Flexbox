@@ -46,8 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
@@ -61,6 +59,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+    margin-top: 25px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
@@ -77,24 +76,26 @@ html {
 }
 
 .logo{
-    padding: 10px 0px 0px 51px;
-    vertical-align: bottom;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
 }
 
 .navigation {
     text-decoration: none;
-    margin: 0 auto;
-    padding: 0px 0px 13px 0px;
-    width: 960px;
-    
+    width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid blue;
+    align-items: center;
+    padding: 0px 10px 0px 15px;
 }
 
 .navigation a{
     text-decoration: none;
     color: gray;
-    margin: 0px 27px 0px 27px;
-    vertical-align: middle;
-    padding: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .header{
@@ -107,12 +108,14 @@ html {
     font-size: 85px;
     font-family: 'Bangers', cursive;
     margin-bottom: 100px;
+    display: flex;
 }
 .word-splash {
     text-align: center;
     width: 512px;
-    margin: 100px 0px 0px 0px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    padding-top: 190px;
 }
 
 .tagline{
@@ -124,11 +127,13 @@ html {
 .imageHeader{
     height: 364px;
     width: 364px;
-    display: inline-block;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 .button{
-    font-family: 'Titillium Web' ,sans
+    font-family: 'Titillium Web' , sans-serif;
     font-size: 18px;
     border: 1px solid grey;
     padding: 6px 30px;
@@ -152,33 +157,38 @@ html {
 }
 
 .top-content{
-    display: inline-block;
+    display: flex;
     box-sizing: border-box;
     margin: 0px 65px 40px;
-    width: 890px;
+    align-items: center;
 }
 
 .top-content .half-way-boxes{
-    width: 442px;
-    display: inline-block;
     padding: 0px 5px 0px 5px;
 }
 
+.middle-content{
+    display: flex;
+}
+
 .bottom-content{
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 0px 0px 0px 43px;
+    display: flex;
+    align-items: center;
+    padding: 0px 43px;
 }
 
 .bottom-content .bottom-boxes{
-    width: 310px;
-    display: inline-block;
     padding: 30px;
 }
 
 .contact-info{
-    width: 900px;
-    margin: 0 auto;}
+    width: 160px;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    margin: 40px 0px 30px 70px;
+}
 
  #contact-font-change{
     font-family: 'Bangers', cursive;
