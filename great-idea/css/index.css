@@ -227,6 +227,12 @@ h1, h2, h3, h4, h5 {
 			margin-bottom: 30px; 
 		}
 
+		.android button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
 		ul {
 			list-style-position: inside;
 		}
