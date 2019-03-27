@@ -171,34 +171,40 @@ header img {
 
 .main-top p {
 	/*border: solid yellow; */
-	display: inline-block;
+	display: flex;
 }
 
 .main-bottom {
 	
-	display: inline-block;
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 10px;
 	margin-top: 20px;
 	padding-bottom: 25px;
+	padding-left: 5px;
+	padding-right: 5px; 
 	border-bottom: 1px solid black;
 }
 
 .main-bottom .services {
 	
-	width: 32%;
+	flex-direction: column;
 	margin-bottom: 10px;
-	display: inline-block;
+	display: flex;
 }
 
 .main-bottom .product {
 	
-	width:  32%;
-	display: inline-block;
+	flex-direction: column;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .main-bottom .vision {
 	
-	width: 32%;
-	display: inline-block;
+	flex-direction: column;
+	display: flex;
 }
 
 .contact {
