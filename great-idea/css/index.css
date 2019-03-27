@@ -80,9 +80,9 @@ header {
 
 .topHeaderNav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-bottom: 50px;
-	margin-top: 20px;
+	margin-top: 30px;
 	width: 600px;
 }
 
@@ -159,6 +159,7 @@ address {
 .logo {
 	height: 45px;
 	margin-top: 10px;
+	margin-left: 70px;
 }
 
 .services-header-img {
@@ -179,7 +180,8 @@ address {
 .main-body {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;	
+	justify-content: space-between;
+	border-bottom: 1px solid black;
 }
 
 p {
@@ -202,19 +204,33 @@ p {
 .learn-more {
 	padding: 8px 40px;
 	background: white;
-	/* margin-top: 60px; */
-}
-
-.services-info-img {
-	width: 420px;
 }
 
 .services-footer {
-	flex-wrap: wrap-revers;
-	justify-content: space-between;
-	height: 500px;
+	height: 420px;
+	width: 457px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding-top: 30px;
 }
 
 .services-footer p {
-	width: 400px;
+padding-right: 50px;
+}
+
+.services-footer ul {
+	height: 170px;
+	margin-left: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	list-style-type: square;
+	
+}
+
+.services-copyright {
+	text-align: center;
+	vertical-align: top;
 }
