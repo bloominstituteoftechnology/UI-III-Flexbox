@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: 20px;
-    border: 1px solid red;
+   
 }
 
 header {
@@ -88,11 +88,12 @@ header nav {
 header a {
 	/* border: 1px solid red; */
 	display: flex;
-	margin-left: 40px;
+	justify-content: flex-start;
+	margin-right: 40px;
 	/*margin-bottom: 50px; */
 	text-align: center;
 	text-decoration: none;
-	color: black;
+	color: grey;
 	font-weight: bold;
 }
 
