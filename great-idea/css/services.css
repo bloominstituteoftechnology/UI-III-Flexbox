@@ -167,7 +167,7 @@ html {
 }
 
 .container {
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -179,7 +179,7 @@ html {
 
 .navigation {
     text-decoration: none;
-    width: 1024px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     border: 1px solid blue;
@@ -192,6 +192,13 @@ html {
     color: gray;
     display: flex;
     justify-content: space-evenly;
+}
+
+.image-banner2{
+    display: flex;
+    justify-content: center;
+    border: 1px solid blue;
+    flex-direction: column;
 }
 
 .all-boxes {
