@@ -71,20 +71,25 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	display: inline-block;
-	width: 100%;
+	
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10px;
+	
 }
 
 
 header nav {
-	display: inline-block;
+	display: flex;
+	align-self: center;
+
 	
 }
 header a {
 	/* border: 1px solid red; */
-	display: inline-block;
+	display: flex;
 	margin-left: 40px;
-	margin-bottom: 50px; 
+	/*margin-bottom: 50px; */
 	text-align: center;
 	text-decoration: none;
 	color: black;
@@ -92,20 +97,26 @@ header a {
 }
 
 header img {
-	margin-left: 120px;
-	margin-top: 15px;
+	
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+/*	margin-left: 120px;
+	margin-top: 15px; */
 	
 }
 
 .top-section {
-	/* border: 1px solid red; */
-	display: block;
+	border: 1px solid red;
+	display: flex;
 }
 
 .top-section-left {
 	text-align: center;
 	vertical-align: top;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+
 	width: 49%;
 }
 
@@ -116,10 +127,11 @@ header img {
 }
 
 .top-section-left button {
+	border: 1px solid red;
+	display: flex;
+	width: 100px;
+	justify-content: center;
 	
-	display: inline-block;
-	text-align: center;
-	margin: 10px 0 40px 0;
 }
 
 .top-section-right {
