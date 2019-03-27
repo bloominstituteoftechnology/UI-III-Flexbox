@@ -194,4 +194,30 @@ footer {
 
 /** services**/
 
+.main-content2{
+	border:1px solid red;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	
+}
+.main-content2 .top-content2 .top-text{
+	border: 1px solid blue;
+	background-color: lightgrey;
+}
+.main-content2 .middle-content2 .mid-text{
+	border: 1px solid darkgreen;
+	background-color:lightgrey;
+}
+.main-content2 .bottom-content .bot-text{
+	border: 1px solid purple;
+	background-color: lightgrey;
+}
+.main-content2 .last-content{
+	border: 1px solid black;
 
+}
+footer{
+	border: 1px solid darkorange;
+	
+}
