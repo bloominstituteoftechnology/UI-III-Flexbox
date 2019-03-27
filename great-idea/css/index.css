@@ -121,6 +121,13 @@ header nav a {
 	font-size: 1.1em;
 }
 
+.content-services .box button {
+	padding: 5px 15px;
+	width: 150px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
 .main {
 	vertical-align: top;
 	display: flex;
@@ -141,7 +148,22 @@ header nav a {
 
 .content-services {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
 }
+
+.box {
+	background-color: #f7f8f9;
+	border: 1px solid black;
+	width: 425px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 20px 0;
+}
+
 .content .content-triple {
 	width: 33%;
 	padding: 25px 10px;
