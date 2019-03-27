@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 
 
 .container {
-	width: 876px;
+	width: 880px;
 	margin: 20px auto;
 	padding:20px 0px 20px 0px;
 	background-color: white;
@@ -85,7 +85,7 @@ footer.footer {
 }
 
 .logo {
-	margin-left:25px;
+	margin-left:20px;
 }
 
 
@@ -118,8 +118,8 @@ header nav a {
 	color:lightgray;
 }
 
-#headerTOP {
-	width:876px;
+.headerTOP {
+	width:880px;
 	display:flex;
 	align-items: center;
 	justify-content: flex-start;
@@ -140,9 +140,9 @@ header nav a {
 }
 
 header .divNAV {
-	width: 876px;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: flex-start;
+	width:688px;
 }
 
 .middle-img {
@@ -217,11 +217,49 @@ section .text {
 	text-align:left;
 }
 
-#navID {
+.navID {
 	display:flex;
+	justify-content: space-around;
 }
 
 nav {
 	display:flex;	
 	justify-content:space-around; 
+}
+
+h2 {
+font-size:32px;
+}
+
+.section {
+
+}
+
+.learnMORE {
+	font-family: 'Titillium Web', sans-serif;
+	background-color:white;
+	text-align:center;
+	padding:5px;
+	border: .75px solid black;
+	width:150px;
+	margin:0px auto;
+	font-size:14px;
+	border-radius: 5px;
+}
+
+.boxes {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.box {
+	background-color:whitesmoke;
+	width:420px;
+	box-sizing: border-box;
+	padding: 17.5px;
+	border: 1px solid black;
+	margin: 20px 0px;
+	
 }
