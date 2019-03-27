@@ -168,6 +168,11 @@ h5 {
 
 /* header */
 
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
 header nav {
     display: flex;
     width: 691px;
@@ -195,17 +200,24 @@ header nav a:last-child {
 
 header .logo {
     margin-top: 25px;
+    margin-left: 75px;
 }
 
 
 /* cta */
 
+.cta {
+    display: flex;
+}
+
 .cta .cta-text {
-    display: inline-block;
+    display: flex;
     font-size: 77px;
     margin-top: 120px;
     text-align: center;
     padding: 0px 75px;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .cta .cta-text button {
