@@ -79,9 +79,10 @@ h1 {
 }
 
 footer.footer {
-	text-align:center;
-	width:876;
-	margin: 7.5% auto;
+	display:flex;
+	width:880px;
+	justify-content: center;
+	padding-top: 75px;
 }
 
 .logo {
@@ -227,12 +228,29 @@ nav {
 	justify-content:space-around; 
 }
 
-h2 {
-font-size:32px;
+.header1 {
+	display:flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.section {
+.services-header-img {
+	margin-top:20px;
+}
 
+h2 {
+	font-size:24px;
+}
+
+.sectionSERV {
+	width:880px;
+	display:flex;
+
+}
+
+.servicesFACTS {
+	width:460px;
+	padding-right:50px;
 }
 
 .learnMORE {
@@ -245,13 +263,18 @@ font-size:32px;
 	margin:0px auto;
 	font-size:14px;
 	border-radius: 5px;
+	margin-top:15px;
 }
 
 .boxes {
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-content: space-between;
+	align-content: space-around;
+	border-bottom: 2px solid grey;
+	border-top: 2px solid grey;
+	margin:40px 0px;
+	padding:20px 0px;
 }
 
 .box {
@@ -262,4 +285,14 @@ font-size:32px;
 	border: 1px solid black;
 	margin: 20px 0px;
 	
+}
+
+.ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.li {
+	padding:5px;
+	margin-top:5px;
 }
