@@ -64,32 +64,29 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+/*CSS for home page*/
 .container {
 	margin: 0 auto;
 	width: 66%;
 }
 nav {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
 }
 nav a {
 	text-decoration: none;
 }
+.innovation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+}
 
-header div.innovation {
-	display: inline-block;
-	margin: 20px;
-	padding: 75px;
-}
-header img {
-	display: inline-block;
-	margin-left: 15px;
-	width: 35%;
-}
 h1 {
 	font-size:70px;
 	text-align: center;
@@ -100,50 +97,83 @@ header div button{
 	margin-left: 100px;
 }
 .top_section {
-	border-top: 1px solid black;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-section div.features {
-	display: inline-block;
-	width: 425px;
-	margin-right: 15px;
-}
-section  div.about {
-	display: inline-block;
-	width: 425px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*border-top: 1px solid black;*/
+	padding: 15px 0;
 }
 .middle_imag {
 	
 }
 .middle_section{
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
 	 border-bottom: 1px solid black;
 	 margin-bottom: 25px;
-}
-section div.services{
-     display: inline-block;
-	 width: 275px;
-	 margin-right: 15px;
-	 margin-bottom: 20px;
-	 margin-top: 20px;
+	 padding: 25px 0;
 }
 section div.product{
-	 display: inline-block;
-	 width: 275px;
-	 margin-right: 15px;
-	 margin-bottom: 20px;
-}
-
-section div.vision{
-	 display: inline-block;
-	 width: 275px;
+	 margin: 0 15px;
 }
 .section_bottom{
-margin-bottom: 25px;
+     margin-bottom: 25px;
 }
 footer{
-	padding-bottom: 50px;
+	 padding-bottom: 50px;
 }
 footer p {
-     text-align: center
+	 text-align: center;
+	 margin-top: 50px;
+}
+
+
+/* CSS for Services page */
+header {
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+.services-header-img {
+	margin-bottom: 20px;
+}
+#services {
+	font-size: 25px;
+	text-align: left;
+}
+.servicesection {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.servicesection div {
+	margin-bottom: 25px;
+	padding: 25px;
+	border: 1px solid black;
+}
+.servicestype {
+	width: 48%;
+	background-color: beige;
+}
+.servicesection div p {
+	padding-bottom: 15px;
+}
+.servicesection div button {
+	text-align: center;
+	width: 100px;
+	padding: 5px 0;
+	border-radius: 8px;
+}
+.facts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-top: 2px solid black;
+	padding: 25px 0;
+}
+ul {
+	list-style-type: unset;
+	margin: 25px 0 0 18px ;
+	line-height: 25px;
 }
