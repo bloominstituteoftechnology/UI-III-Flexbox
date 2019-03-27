@@ -362,9 +362,14 @@ hr {
 
 .facts-section {
 	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
 	padding: 30px 0 0 0;
 }
 
-.facts-section .facts-content {}
+.facts-section .facts-content {
+	width: 400px;
+	margin: 0 60px 40px 0;
+}
+
+.facts-section .facts-content p {
+	line-height: 1.2;
+}
