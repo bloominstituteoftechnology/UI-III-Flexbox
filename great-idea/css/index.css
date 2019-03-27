@@ -139,6 +139,9 @@ header nav a {
 	display: flex;
 }
 
+.content-services {
+	display: flex;
+}
 .content .content-triple {
 	width: 33%;
 	padding: 25px 10px;
@@ -146,6 +149,10 @@ header nav a {
 
 .contact {
 	padding: 25px 10px;
+}
+
+.bottom {
+	display: flex;
 }
 
 footer {
