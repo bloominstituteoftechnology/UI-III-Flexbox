@@ -157,4 +157,26 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 }
 
+/* Service Page Styling */
+
+/* Hero Section */
+
+.service-page-hero {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid #000;
+}
+
+#service-page-hero-img {
+	width: 100vw;
+}
+
+.services-hero-text {
+	padding: 35px 0px;
+}
+
+.services-hero-text h1 {
+	font-size: 18pt;
+}
+
 
