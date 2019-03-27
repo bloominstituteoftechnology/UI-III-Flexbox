@@ -64,3 +64,164 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+  }
+  
+  header {
+	margin: 40px 0 20px;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  header nav {
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  header nav a {
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 15px; 
+	text-decoration: none;
+	color: gray;
+	cursor: pointer;
+	margin-right: 50px;
+  }
+  
+  .MainContent {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 60px;
+	margin-top: 40px;
+  }
+  
+  h1 {
+	font-size: 80px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 60px;
+  }
+  
+  .MainContent img {
+	display: flex;
+  }
+  
+  .button {
+	  border: 1px solid black;
+	  background-color: white;
+	  padding: 5px 50px; /* Top&Bottom | Left&Right*/
+	margin: 0 88px;
+	  text-align: center;
+	  font-family: 'Cabin Condensed', sans-serif;
+	  font-size: 18px;
+  }
+  
+  button:hover {
+	  background-color: black;
+	  color: white;
+  }
+  
+  .MiddleTop, .MiddleBottom {
+	display: flex;
+  }
+  
+  .MiddleBottom {
+	border-bottom: 1px solid black;
+	margin: 15px 0; /* Top&Bottom | Left&Right*/
+  }
+  
+  .MiddleText {
+	margin: 25px 15px; /* Top&Bottom | Left&Right*/
+  }
+  
+  .MiddleText p {
+	text-align: justify;
+  }
+  
+  .ContentArea .middle-img {
+	margin: 10px;
+  }
+  
+  .Contact {
+	margin: 40px 10px; /* Top&Bottom | Left&Right*/
+  }
+  
+  .footer {
+	text-align: center;
+	margin: 80px;
+	font-size: 15px;
+  }
+
+  /* Services Page Styling*/
+  
+	.services-header {
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	margin-bottom: 25px;
+  }
+
+  h2 {
+	  font-size: 25px;
+	  margin-top: 20px;
+  }
+
+  p {
+	  text-align: justify;
+  }
+
+  .Main-Services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 45px;
+  }
+
+  .Main-Services .services-text {
+	  border: 1px solid black;
+	  width: 420px;
+	  height: 250px;
+	  padding: 25px;
+	  margin-top: 35px;
+	  justify-content: space-between;
+	  background: #E8E8E8;
+  }
+
+  .services-button {
+	  background: white;
+	  border: 1px solid black;
+	  border-radius: 5px;
+	  padding: 5px 40px;
+	  margin-top: 20px;
+  }
+  
+  section.services-bottom {
+    border-top: 2px solid black;
+    display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+  }
+
+  ul li {
+	  list-style-type: square;
+	  list-style-position: inside;
+	  line-height: 2;
+  }
+
+  div.facts-text, div img.services-info-img {
+	 width: 420px;
+  }
+
+  .services-bottom img {
+	  display: flex;
+  }
+  
+  
+  
+  
+  
