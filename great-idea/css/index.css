@@ -212,6 +212,20 @@ h1, h2, h3, h4, h5 {
 	border-radius: 10px;
 }
 
+/* Service Facts */
+.facts-about-services {
+	display: flex;
+	padding: 35px 0px;
+}
 
+.facts-about-services p {
+	padding: 25px 0px;
+}
 
+.service-facts-info {
+	padding-right: 35px;
+}
 
+li.fact {
+	list-style-type: disc;
+}
