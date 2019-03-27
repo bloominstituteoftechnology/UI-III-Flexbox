@@ -31,8 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+/* ol  { */
+	list-style-position: inside;
 }
 blockquote, q {
 	quotes: none;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5 {
 	
 	header nav {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	width: 600px;
 	margin-top: 35px;
@@ -111,114 +111,160 @@ h1, h2, h3, h4, h5 {
 	width: 184px;
   }
   
-  /* cta */
+  /* top content */
  
-	h1 {
+
+
+	.services-header-img {
+		display: flex;
+		margin-top: 20px;
+		}
+	
+		.top-content {
+			margin-top: 25px;
+			border-bottom: 2px solid black;
+			padding-bottom: 30px;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			box-sizing: border-box;
+			align-content: center;
+			
+		}
+
+		.top-content h2 {
+			font-size: 20px;
+			margin-top: 
+		}
+
+		.main-content {
+			margin-top: 30px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			border-bottom: 1px solid black;
+		}
+
+		.digital-design {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgba(211, 211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.digital-design button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		.digital-design h3 {
+			margin-top: 5px;
+		}
+
+		.UX {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgba(211, 211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.UX button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		.digital-marketing {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgba(211, 211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.digital-marketing button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		.web-dev {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgba(211, 211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.web-dev button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		.iOS {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgb(211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.iOS button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		.android {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgb(211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		ul {
+			list-style-position: inside;
+		}
+
+		.bottom-content img {
+			width: 445px;
+		}
+
+		.services-section {
+			display: flex;
+			margin-top: 35px;
+			flex-wrap: wrap;
+			justify-content: space-between;
+	}
+	.services-section div {
+			width: 415px;
+	}
+	ul {
+			margin-top: 30px;
+			list-style-position: inside;
+	}
+	li {
+			margin: 10px 0;
+	}
+
+	footer {
 		text-align: center;
+		margin-top: 100px;
 	}
 
-	.cta {
-		display: flex;
-		justify-content: space-evenly;
-	}
-	
-  .cta .cta-text {
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	font-size: 77px;
-	margin-top: 120px;
-	padding: 0px 75px;
-  }
-  
-  .cta .cta-text button {
-	background: white;
-	vertical-align: top;
-	align-self: center;
-	width: 185px;
-	margin-top: 6px;
-	margin-bottom: 35px;
-	padding: 8px 44px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
-  }
-  
-  .cta .cta-text button:hover {
-	background: black;
-	color: white;
-  }
-  
-  .cta img {
-	display: flex;
-	margin-top: 69px;
-  }
-  
-  .main-content {
-	border-top: 1px solid black;
-	margin-top: 76px;
-	padding-top: 39px;
-  }
-  
-  div .top-content {
-	display: flex;
-	}
-	
-	.text-content {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-	}
-  
-  .main-content .top-content .text-content {
-	width: 410px;
-	display: flex;
-	margin-right: 34px;
-  }
-  
-  .main-content .top-content .text-content:last-child {
-	margin-right: 0;
-  }
-	
-	.middle-img {
-		display: flex;
-		justify-content: center;
-	}
 
-  .main-content .middle-img {
-	margin-top: 45px;
-  }
-	div .bottom-content {
-		display: flex;
-		justify-content: flex-start;
-	}
-	
-  .main-content .bottom-content {
-	margin-top: 37px;
-  }
+
+
+
+
+
+
+
+
+
   
-  .main-content .bottom-content .text-content {
-	width: 275px;
-	display: flex;
-	margin-right: 12px;
-  }
-  
-  .main-content .bottom-content .text-content:last-child {
-	margin-right: 0;
-  }
-  
-  .contact {
-	margin-top: 57px;
-	border-top: 1px solid black;
-	padding: 39px 0 0 0;
-  }
-  
-  .contact p {
-	margin: 20px 0;
-  }
-  
-  footer {
-	text-align: center;
-	font-size: 14px;
-	margin-bottom: 20px 
-  }
