@@ -231,4 +231,34 @@ footer {
 	padding-bottom: 30px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid black;
+
+}
+
+.middle-section {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+.middle-section .services-items  {
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	width: 40%;
+	background: lightgrey;
+	margin: 15px;
+	padding: 10px;
+
+}
+
+button {
+	margin-top: 10px;
+}
+
+.services-bottom {
+	display: flex;
+	flex-wrap: wrap;
 }
