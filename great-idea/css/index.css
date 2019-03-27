@@ -240,18 +240,19 @@ header .logo {
 }
 
 .main-content {
+    justify-content: center;
     border-top: 1px solid black;
     margin-top: 76px;
     padding-top: 39px;
 }
 
 .main-content .top-content {
+    display: flex;
     padding: 0 10px;
 }
 
 .main-content .top-content .text-content {
     width: 410px;
-    display: flex;
     margin-right: 34px;
 }
 
@@ -264,13 +265,13 @@ header .logo {
 }
 
 .main-content .bottom-content {
+    display: flex;
     margin-top: 37px;
     padding: 0 10px;
 }
 
 .main-content .bottom-content .text-content {
     width: 275px;
-    display: flex;
     margin-right: 12px;
 }
 
