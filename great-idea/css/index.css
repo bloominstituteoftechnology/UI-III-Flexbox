@@ -75,7 +75,10 @@ header {
 	height: 60px;
 	display: flex;
 	justify-content: space-evenly;
+}
 
+h1 {
+	font-size: 30px;
 }
 
 header nav {
@@ -92,6 +95,10 @@ header nav a {
 
 .logo {
 	margin-top: 10px;
+}
+
+.services-header-img {
+	width: 100%;
 }
 
 .banner {
@@ -167,6 +174,22 @@ header nav a {
 .content .content-triple {
 	width: 33%;
 	padding: 25px 10px;
+}
+
+.main-services-content {
+	margin-top: 25px;
+	/* background: blue; */
+	padding-top: 25px;
+}
+
+.header-head {
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.header-bottom {
+	margin-top: 25px;
+	margin-bottom: 50px;
 }
 
 .contact {
