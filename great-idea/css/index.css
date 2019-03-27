@@ -63,4 +63,189 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+header {
+	margin: 40px 0 20px;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav {
+	margin-top: 35px;
+	width: 620px;
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav a {
+  	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+	margin-top: 25px;
+	display: flex;
+	align-items: center;
+}
+
+/* cta */
+.cta {
+	display: flex;
+	justify-content: space-between;
+}
+.cta .cta-text {
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  display: flex;
+	justify-content: space-between;
+}
+.main-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+	margin-top: 37px;
+	display: flex;
+  justify-content: space-between;
+}
+.main-content .text-content {
+  margin: 10px;
+}
+.main-content .text-content:first-child {
+  margin-left: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
+.service-overview { 
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.service-overview h2 {
+  font-size: 25px;
+}
+.service-items {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.service-items .item {
+  display: flex;
+  justify-content: space-between;
+  background: #F4F3F4;
+  border: 1px solid black;
+  width: 425px;
+  height: 260px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.service-items .item button {
+  background: white;
+  vertical-align: top;
+  margin: 10px;
+  height: 36px;
+  padding: 10px 36px 10px 36px; 
+  font-size: 12px; 
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.service-items .item button:hover {
+  background: black;
+  color: white;
+}
+.service-info {
+  display: flex;
+  padding: 50px 10px 50px 0;
+  justify-content: space-around;
+}
+
+.service-info .infotext {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  flex-direction: column;
+  margin: 0 10px 10px 0;
+  padding-top: 0;
+}
+.service-info .infotext li {
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 5px;
+}
+
