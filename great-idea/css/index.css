@@ -386,6 +386,10 @@ section.BContent {
     margin-top: 35px;
 }
 
+.bullets {
+    list-style: square inside;
+}
+
 .BContent li {
     margin-bottom: 20px;
 }
