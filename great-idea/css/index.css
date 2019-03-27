@@ -181,9 +181,7 @@ html {
 
 .contact-info{
     width: 160px;
-    display: flex;
-    justify-content: flex-start;
-    border: 1px solid blue;
+    display: inline-block;
     flex-wrap: wrap;
     margin: 40px 0px 30px 70px;
 }
