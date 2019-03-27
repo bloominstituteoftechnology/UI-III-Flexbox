@@ -179,5 +179,39 @@ h1, h2, h3, h4, h5 {
 	font-size: 18pt;
 }
 
+/* Service Cards Section*/
+.service-cards {
+	padding: 35px 0px;
+	border-bottom: 1px solid #000;
+   }
+   
+.service-cards .card-row {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+   
+.service-cards .card-column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+.service-cards .card-column {
+	border: 1px solid #000;
+	background: #F4F3F4;
+	margin: 15px;
+	padding: 10px;
+}
+
+.service-card-btn {
+	margin: 15px 0px;
+	padding: 5px 25px;
+	background: white;
+	border-radius: 10px;
+}
+
+
 
 
