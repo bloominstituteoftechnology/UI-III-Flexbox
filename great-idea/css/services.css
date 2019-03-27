@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* My new code is beneath this comment */
+
+/* Main container centered */
+body {
+    padding: 30px;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+/* Nav bar & logo */
+.serv-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+}
+a {
+    display: flex;
+    color: darkgrey;
+    font-size: 22.1px;              /* Keep this font-size for all (p) text */
+    margin: 30px 90px 30px 0px;
+    text-decoration: none;
+}
+.logo {
+    display: inline-block;
+}
+
+/* Keyboard image at top */
+.services-header-img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* Services section */
+#service {
+    display: block;
+    font-size: 30px;
+}
+.service p {
+    display: block;
+    font-size: 22.1px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+/* Main body of text */
+.context {
+    display: flex;
+    border-top: 2px solid black;
+    padding-top: 50px;
+    border-bottom: 2px solid black;
+    padding-bottom: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.context section {
+    height: 270px;
+    width: 550px;
+    align-content: space-between;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 2%;
+    background: lightgray;
+}
+h2 {
+    font-size: 25px;
+}
+.context p {
+    font-size: 22.1px;
+}
+button {
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px 60px 10px 60px;
+    margin: 20px 0px 20px 0px;
+}
+
+/* Bottom portion of context */
+.bottom {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    padding-top: 50px;
+
+}
+.b1 {
+    font-size: 21.1px;
+    width: 550px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+.b2 {
+    width: 115px;
+    height: 100px;
+    margin-left: 20px;
+}
+ul {
+    list-style-type: square;
+    line-height: 30px;
+}
+.services-info-img {
+    display: inline-block;
+    width: 620px;
+    height: 360px;
+    margin-left: 50%;
+    margin-top: -23%;
+}
+
+/* End of page - copyright */
+#end {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
