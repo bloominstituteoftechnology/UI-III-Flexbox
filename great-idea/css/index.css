@@ -66,6 +66,12 @@ body {
 	color: gray;
 }
 
+.container {
+	width: 900px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
 h1, h2 {
 	color: black;
 }
@@ -76,12 +82,13 @@ h1 {
 }
 
 p {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 li {
 	list-style: square inside none;
 	display: list-item;
+	margin-top: 12px;
 }
 
 small {
@@ -94,10 +101,10 @@ small {
 	min-width: 250px;
 }
 
-.decorated {
+.shaded {
 	margin: 20px 0;
 	padding: 20px;
-	background-color: lightgrey;
+	background-color: lavender;
 	border: 1px solid grey;
 	color: black;
 }
@@ -119,12 +126,6 @@ small {
 	border-radius: 5px;
 }
 
-#container {
-	width: 900px;
-	max-width: 100%;
-	margin: 0 auto;
-}
-
 .flex {
 	display: flex;
 	flex-flow: row wrap;
@@ -142,11 +143,13 @@ nav a {
 	text-decoration: none;
 	color: lightgrey;
 	font-size: 13px;
-	padding: 3px 5px;
+	padding: 10px 15px;
 	border: 1px solid transparent;
 }
 
 nav a:hover {
+	font-weight: bold;
+	background: lavender;
 	color: black;
 	border: 1px solid black;
 }
@@ -182,8 +185,7 @@ nav a:hover {
 	margin: 0 auto;
 	width: 360px;
 	max-width: 40%;
-	min-width: 300px;
-	vertical-align: top;
+	min-width: 200px;
 }
 
 .middle-img {
@@ -204,3 +206,50 @@ nav a:hover {
 	text-align: center;
 	padding: 0 0 10px;
 }
+
+@media screen and (max-width: 700px) {
+	.flex {
+	  flex-direction: column;
+	}
+
+	.box {
+		width: 100%;
+	}
+
+	.logo {
+		order: 0;
+		max-width: 100%;
+		margin: 0 auto;
+		align-item: center;
+	}
+
+	.logo img {
+		margin: 0 auto;
+	}
+
+	nav {
+		order: 1;
+		margin-top: 10px;
+		max-width: 100%;
+		background: white;
+		color: white;
+	}
+
+	nav a {
+		margin-top: 5px;
+		width: 100%;
+		text-align: center;
+	}
+
+	nav a:hover {
+		border: 1px solid transparent;
+	}
+
+	.hero-img {
+		order: 0;
+		margin-bottom: 30px;
+	}
+	.hero-header {
+		order: 1;
+	}
+  }
