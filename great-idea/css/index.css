@@ -64,3 +64,217 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+body {
+	width: 67%;
+	margin: 0px auto;
+	padding-top: 30px;
+}
+
+.nav-container {
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+
+
+nav a {
+	/* display: inline-block; */
+	text-decoration: none;
+	color: gray;
+	margin: 17px 55px 0px 0px; 
+	/* position: relative; */
+	/* bottom: 10px; */
+}
+
+nav .logo {
+	/* display: inline-block; */
+	/* margin-top: 10px; */
+	margin-bottom: 30px;
+	padding-left: 80px;
+	
+}
+
+header h1 {
+	font-size: 70px;
+	margin: 40px 20px;
+	text-align: center;
+	padding-bottom: 40px;
+	
+}
+
+header button {
+	background: white;
+	border: 1px solid gray;
+	color: gray;
+	padding: 5px 40px;
+	position: relative;
+	left: 150px;
+	bottom: 60px;
+	
+}
+
+header .side-left {
+	/* display: inline-block; */
+	width: 49%;
+	padding-bottom: 50px;
+	
+}
+
+header .side-right {
+	/* display: inline-block; */
+	width: 49%;
+	position: relative;
+	left: 20px;
+	
+}
+
+.top-content {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	border-bottom: 1px solid black;
+	
+	
+}
+
+.features {
+	/* display: inline-block; */
+	width: 49.5%;
+	
+}
+
+.about {
+	/* display: inline-block; */
+	width: 49.5%;
+	
+}
+
+.middle-content {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+}
+
+
+.bottom-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.services {
+	/* display: inline-block; */
+	width: 33%;
+}
+
+.product {
+	/* display: inline-block; */
+	width: 33%;
+}
+
+.vision {
+	/* display: inline-block; */
+	width: 33%;
+}
+
+footer .footer-contact {
+	padding-top: 40px;
+}
+
+footer address {
+	padding: 10px 0px;
+}
+
+footer .phone {
+	padding: 10px 0px;
+}
+footer .email {
+	padding: 10px 0px;
+}
+
+footer .copyright {
+	text-align: center;
+	margin-top: 50px;
+	padding: 30px 0px 150px 0px;
+}
+
+
+
+   /*** Servites CSS Page ***/
+
+   .service-main {
+	 width: 100%;
+	 border-bottom: 1px solid black;
+   }
+
+
+   .services-text {
+	margin-bottom: 2%;
+   }
+
+   .services-text h2{
+	margin-top: 3%;
+	font-size: 26px;
+   }
+
+   .service-Center {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 10px;
+   } 
+
+   
+   .service-bottom {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 2px solid black;
+	margin-top: 3%;
+   }
+   
+   .service-bottom-test {
+	width: 45%;
+	height: 45%;
+	margin-top: 4%;
+	
+   }
+
+   .service-bottom-test ul li{
+	list-style: square;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 3%;
+   }
+
+   .services-info-img {
+	margin-top: 4%;
+   }
+
+   .div-boxs {
+	border: 1px solid black;
+	width: 423px;
+	height: 253px;
+	padding: 20px;
+	margin: 20px 0px 20px 0px;
+	background-color: 	#F0F0F0;
+   }
+
+
+   .service-Center .div-boxs button {
+	background: white;
+	margin-top: 30px;
+	padding: 8px 44px;
+	font-size: 12px;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 7px;
+   }
