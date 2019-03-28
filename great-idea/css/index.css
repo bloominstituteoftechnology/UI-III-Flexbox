@@ -192,12 +192,26 @@ header nav a {
 	margin-bottom: 50px;
 }
 
+ul {
+	list-style-type: square;
+	margin-left: 25px;
+}
+
 .contact {
 	padding: 25px 10px;
 }
 
 .bottom {
 	display: flex;
+}
+
+.bottom-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.bottom-content p {
+	width: 90%;
 }
 
 footer {
