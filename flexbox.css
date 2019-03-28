@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+  max-width: 900px;
+  margin: auto;
+}
+.container1 .item {
+  color: gray;
+  text-decoration: none;
+}
+.item {
+  margin-top: 20px;
+}
+.logo {
+  margin-top: 20px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.sect1 {
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+}
+.sect1 p {
+  margin-bottom: 30px;
+}
+.sect1 h2 {
+  margin-top: 30px;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.design {
+  border: 1px solid black;
+  width: 420px;
+  background-color: gainsboro;
+    margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ux {
+  border: 1px solid black;
+  width: 420px;
+  background-color: gainsboro;
+    margin-top: 30px;
+  margin-bottom: 30px;
+}
+.marketing {
+  border: 1px solid black;
+  width: 420px;
+    margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: gainsboro;
+}
+.web {
+  border: 1px solid black;
+  width: 420px;
+    margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: gainsboro;
+}
+.ios {
+  border: 1px solid black;
+  width: 420px;
+    margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: gainsboro;
+}
+.android {
+  border: 1px solid black;
+  width: 420px;
+    margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: gainsboro;
+}
+.sect2 {
+  border-bottom: 2px solid black;
+}
+.container2 h2 {
+  margin: 20px;
+}
+.container2 p {
+  margin: 20px 20px 0 20px;
+}
+.butt1 {
+  margin: 20px;
+  background-color: white;
+  border-radius: 6px;
+}
+.butt2 {
+  margin: 20px;
+  background-color: white;
+  border-radius: 6px;
+}
+.butt3 {
+  margin: 20px;
+  background-color: white;
+  border-radius: 6px;
+}
+.butt4 {
+  margin: 20px;
+  background-color: white;
+  border-radius: 6px;
+}
+.butt5 {
+  margin: 20px;
+  background-color: white;
+  border-radius: 6px;
+}
+.butt6 {
+  margin: 20px;
+  background-color: white;
+  border-radius: 6px;
+}
+.container3 {
+  display: flex;
+  justify-content: space-between;
+}
+.container3 h2 {
+  padding-top: 20px;
+}
+.closer {
+  width: 420px;
+  vertical-align: top;
+}
+.lastimg {
+  width: 420px;
+}
+ul {
+  padding-top: 20px;
+}
+li {
+  margin: 0 0 10px 20px;
+}
+footer {
+  padding-top: 50px;
+}
