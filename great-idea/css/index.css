@@ -296,3 +296,28 @@ h2 {
 	padding:5px;
 	margin-top:5px;
 }
+
+@media only screen and (max-width: 800px) {
+	body {
+		width:100%;
+		}
+	.container {
+		width:100%;
+		display:flex;
+		align-items: flex-start;
+		align-content: center;
+		flex-flow: column;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.boxes {
+		width:100%
+		display:flex;
+		align-content:center;
+		align-items:flex-start;
+		flex-flow: column;
+		justify-content:center;
+		flex-wrap:wrap;
+	}
+  }
