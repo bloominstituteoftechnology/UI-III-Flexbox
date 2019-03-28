@@ -35,4 +35,4 @@ Once you have finished the home page using flex box module, go build the service
 * [ ] Introduce media queries into your services page to create a mobile view that stacks all the boxes on top of each other on phone but looks like the layout file on desktop.
 
 ## Name Added
-Added LeRoy Gardner to Readme per instructions
+-Added LeRoy Gardner to Readme per instructions
