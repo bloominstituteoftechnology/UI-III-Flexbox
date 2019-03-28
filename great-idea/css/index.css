@@ -196,14 +196,16 @@ footer {
 
 .main-content2{
 	border:1px solid red;
-	display: flex;
-	flex-wrap:wrap;
-	flex-direction:row;
+width:878px;
+
 	
 }
 .main-content2 .top-content2 .top-text{
 	border: 1px solid blue;
 	background-color: lightgrey;
+	
+
+	
 }
 .main-content2 .middle-content2 .mid-text{
 	border: 1px solid darkgreen;
@@ -214,10 +216,19 @@ footer {
 	background-color: lightgrey;
 }
 .main-content2 .last-content{
-	border:    1px solid black;
+	border: 1px solid black;
 
 }
 footer{
 	border: 1px solid darkorange;
 	
+}
+/*.top-text{
+	display:flex;
+	width: 40%;
+	margin: 
+}*/
+
+.top-content2{
+	display:flex;
 }
