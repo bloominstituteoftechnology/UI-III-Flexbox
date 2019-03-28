@@ -63,4 +63,174 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 876px;
+	margin: 0 auto;
+}
+
+header {	
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.topHeaderNav a {
+	font-size: 14px;
+}
+
+.topHeaderNav {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	width: 600px;
+}
+
+.top-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 40px;
+
+}
+
+h1 {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+}
+
+.button {
+	padding: 8px 40px;
+	background: white;
+}
+
+.mid-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+div.aboveImage {	
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-top: 35px;
+	border-top: 2px solid gray;
+}
+
+.mid-bottom {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid gray;
+}
+
+.belowImage {	
+	margin: 40px 5px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+		
+}
+
+footer div.contactHeading {
+	margin: 0;
+	padding-top: 30px;
+}
+
+address {
+	width: 200px;
+	
+}
+
+.phoneNumber {
+	margin: 12px 0;
+}
+
+.copyright {
+	margin: 40px 0 80px;
+	align-self: center;
+}
+
+/* V V V V V Services Page V V V V V */
+
+.logo {
+	height: 45px;
+	margin-top: 10px;
+	margin-left: 70px;
+}
+
+.services-header-img {
+	padding-bottom: 30px;
+	margin-top: -30px;
+}
+
+.intro {
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.intro h2 {
+	font-size: 25px
+}
+
+.main-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+.main-body-div {
+	border: 1px solid black;
+	padding: 20px;
+	background: rgb(247, 233, 238);
+	height: 225px;
+	width: 420px;
+	margin-bottom: 36px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;	
+}
+
+.learn-more {
+	padding: 8px 40px;
+	background: white;
+}
+
+.services-footer {
+	height: 420px;
+	width: 457px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding-top: 30px;
+}
+
+.services-footer p {
+padding-right: 50px;
+}
+
+.services-footer ul {
+	height: 170px;
+	margin-left: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	list-style-type: square;
+	
+}
+
+.services-copyright {
+	text-align: center;
+	vertical-align: top;
+}
