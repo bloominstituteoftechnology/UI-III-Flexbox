@@ -31,8 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+/* ol  { */
+	list-style-position: inside;
 }
 blockquote, q {
 	quotes: none;
@@ -64,3 +64,213 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  
+  /* header */
+  
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	header nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 600px;
+	margin-top: 35px;
+  }
+  
+  header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	margin-top: 35px; 
+	width: 184px;
+  }
+  
+  /* top content */
+ 
+
+
+	.services-header-img {
+		display: flex;
+		margin-top: 20px;
+		}
+	
+		.top-content {
+			margin-top: 25px;
+			border-bottom: 2px solid black;
+			padding-bottom: 30px;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			box-sizing: border-box;
+			align-content: center;
+			
+		}
+
+		.top-content h2 {
+			font-size: 20px;
+			margin-top: 
+		}
+
+		.main-content {
+			margin-top: 30px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			border-bottom: 1px solid black;
+		}
+
+		.digital-design {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgba(211, 211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.digital-design button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		.digital-design h3 {
+			margin-top: 5px;
+		}
+
+		.UX {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgba(211, 211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.UX button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		.digital-marketing {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgba(211, 211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.digital-marketing button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		.web-dev {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgba(211, 211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.web-dev button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		.iOS {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgb(211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.iOS button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		.android {
+			border: 1px solid black;
+			padding: 20px;
+			width: 420px;
+			background-color: rgb(211, 211, 211);
+			margin-bottom: 30px; 
+		}
+
+		.android button {
+			padding: 6px 30px;
+			border: 1px solid black; 
+			margin-top: 15px;
+		}
+
+		ul {
+			list-style-position: inside;
+		}
+
+		.bottom-content img {
+			width: 445px;
+		}
+
+		.services-section {
+			display: flex;
+			margin-top: 35px;
+			flex-wrap: wrap;
+			justify-content: space-between;
+	}
+	.services-section div {
+			width: 415px;
+	}
+	ul {
+			margin-top: 30px;
+			list-style-position: inside;
+	}
+	li {
+			margin: 10px 0;
+	}
+
+	footer {
+		text-align: center;
+		margin-top: 100px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+  
