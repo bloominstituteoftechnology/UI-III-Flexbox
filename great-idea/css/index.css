@@ -211,7 +211,7 @@ width:878px;
 	border: 1px solid darkgreen;
 	background-color:lightgrey;
 }
-.main-content2 .bottom-content .bot-text{
+.main-content2 .bottom-content2 .bot-text{
 	border: 1px solid purple;
 	background-color: lightgrey;
 }
@@ -223,12 +223,39 @@ footer{
 	border: 1px solid darkorange;
 	
 }
-/*.top-text{
-	display:flex;
-	width: 40%;
-	margin: 
-}*/
+.top-text{
+margin:30px;
+}
+
+.mid-text{
+	margin:30px;
+}
+
+.bot-text{
+	margin:30px;
+}
 
 .top-content2{
 	display:flex;
+}
+
+.middle-content2{
+	display:flex;
+}
+
+.bottom-content2{
+	display:flex;
+}
+
+.last-cont ul {
+	display:flex;
+	list-style: square;
+padding-left:20px;
+justify-content: flex-start;
+flex-wrap:wrap;
+}
+
+.last-content .last-cont{
+	display:flex;
+	margin:30px;
 }
