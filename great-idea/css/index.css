@@ -185,16 +185,162 @@ footer {
 	align-items: flex-end;
 	margin-left: 200px;
 }
+/* //// services.html//// */
+
+.container {
+	width: 900px;
+	margin:  0 auto; 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 	
+}
+
+.services {
+	display: flex;
+	width: 880px;
+	border-bottom: 2px solid black;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-bottom: 36px;
+	padding-top: 30px;
+	
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.bottom-content p {
+	padding: 25px;
+}
+
+.bottom-content button {
+	height: 30px;
+	margin-left: 50 px;
+}
+
+.bottom-content h4 {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.bottom-content {
+	margin: 20px;
+}
+
+
+
+.bottom-content .text-content1 {
+	display: flex;
+	/* border: 5px solid red; */
+}
+
+.bottom-content .one-left {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start; */
+	margin: 10px;
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	height: 250px;
+}
+
+
+
+.bottom-content .one-right {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start; */
+	margin: 10px;
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	height: 250px;
+}
 
 
 
 
+.bottom-content .text-content2 {
+	display: flex;
+	/* border: 5px solid red; */
+}	
+
+.bottom-content .two-left {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start; */
+	margin: 10px;
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	height: 250px;
+}
+
+.bottom-content .two-right {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start; */
+	margin: 10px;
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	height: 250px;
+}
 
 
+ .bottom-content .text-content3 {
+	display: flex;
+	/* border: 5px solid red; */
+}	
 
+.bottom-content .three-left {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start; */
+	margin: 10px;
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	height: 250px;
+}
 
-
+.bottom-content .three-right {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start; */
+	margin: 10px;
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	height: 250px;
+}
  
 
+.facts {
+	display: flex;
+	margin-top: 20px;
+	padding: 30px;
+	border-top: 2px solid black;
+	padding-right: 0;
+}
+
+.facts h4 {
+	width: 460px;
+}
+
+.facts .bottom-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.facts .bottom-text p {
+	width: 420px;
+	height: 120px;
+	margin-right: 30px;
+}
 
 
+ .facts .list {
+	 list-style-type: square
+	 /* margin-left: 20px; */
+ }
+
+ footer {
+	 margin-left: 400px;
+ }
