@@ -232,13 +232,11 @@ h3 {
 
 .bottom-content .text-content1 {
 	display: flex;
-	/* border: 5px solid red; */
 }
 
 .bottom-content .one-left {
 	display: flex;
 	flex-direction: column;
-	/* align-items: flex-start; */
 	margin: 10px;
 	background-color: #F0F0F0;
 	border: 1px solid black;
@@ -250,7 +248,6 @@ h3 {
 .bottom-content .one-right {
 	display: flex;
 	flex-direction: column;
-	/* align-items: flex-start; */
 	margin: 10px;
 	background-color: #F0F0F0;
 	border: 1px solid black;
@@ -262,13 +259,11 @@ h3 {
 
 .bottom-content .text-content2 {
 	display: flex;
-	/* border: 5px solid red; */
 }	
 
 .bottom-content .two-left {
 	display: flex;
 	flex-direction: column;
-	/* align-items: flex-start; */
 	margin: 10px;
 	background-color: #F0F0F0;
 	border: 1px solid black;
@@ -278,7 +273,6 @@ h3 {
 .bottom-content .two-right {
 	display: flex;
 	flex-direction: column;
-	/* align-items: flex-start; */
 	margin: 10px;
 	background-color: #F0F0F0;
 	border: 1px solid black;
@@ -288,13 +282,12 @@ h3 {
 
  .bottom-content .text-content3 {
 	display: flex;
-	/* border: 5px solid red; */
+	
 }	
 
 .bottom-content .three-left {
 	display: flex;
 	flex-direction: column;
-	/* align-items: flex-start; */
 	margin: 10px;
 	background-color: #F0F0F0;
 	border: 1px solid black;
@@ -304,7 +297,6 @@ h3 {
 .bottom-content .three-right {
 	display: flex;
 	flex-direction: column;
-	/* align-items: flex-start; */
 	margin: 10px;
 	background-color: #F0F0F0;
 	border: 1px solid black;
@@ -338,7 +330,6 @@ h3 {
 
  .facts .list {
 	 list-style-type: square
-	 /* margin-left: 20px; */
  }
 
  footer {
