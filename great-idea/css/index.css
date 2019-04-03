@@ -46,8 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
@@ -61,6 +59,148 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+    margin-top: 25px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation {
+    text-decoration: none;
+    width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 26px 10px 0px 15px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header{
+    box-sizing: border-box;
+
+
+}
+
+.banner-text{
+    font-size: 85px;
+    font-family: 'Bangers', cursive;
+    margin-bottom: 100px;
+    display: flex;
+}
+.word-splash {
+    text-align: center;
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 190px;
+}
+
+.tagline{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 111px;
+    box-sizing: border-box;
+}
+
+.imageHeader{
+    height: 364px;
+    width: 364px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.button{
+    font-family: 'Titillium Web' , sans-serif;
+    font-size: 18px;
+    border: 1px solid grey;
+    padding: 6px 30px;
+    width: 175px;
+    margin: 10px 0px 0px 220px;
+}
+
+.button a{
+    text-decoration: none;
+    color: grey;
+}
+
+.horizontal-line{
+    width:900px;
+}
+
+.middle-img{
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+}
+
+.top-content{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0px 65px 40px;
+    align-items: center;
+}
+
+.top-content .half-way-boxes{
+    padding: 0px 5px 0px 5px;
+}
+
+.middle-content{
+    display: flex;
+}
+
+.bottom-content{
+    display: flex;
+    align-items: center;
+    padding: 0px 43px;
+}
+
+.bottom-content .bottom-boxes{
+    padding: 30px;
+}
+
+.contact-info{
+    width: 160px;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 40px 0px 30px 70px;
+}
+
+ #contact-font-change{
+    font-family: 'Bangers', cursive;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.email-paragraph{
+    padding: 15px 0px 0px 0px;
+}
+
+.copyright{
+    text-align: center;
+        
+    line-height: 8;
+}   
