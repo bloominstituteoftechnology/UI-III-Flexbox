@@ -237,11 +237,24 @@ hr {
 	width: 100%;
 }
 
- .features,  .about {
+.features,
+.about {
 	width: 45%;
+	justify-content: space-around;
+	margin: 30px 10px;
 }
 
+.bottom-three {
+	display: flex;
+	flex-wrap: wrap;
+}
 
+.services,
+.product,
+.vision {
+	width: 30%;
+	margin: 10px;
+}
 
 
 .middle-img {
@@ -255,8 +268,5 @@ hr {
 
 .copy {
 	text-align: center;
+	margin-bottom: 100px;
 }
-
-
-
-
