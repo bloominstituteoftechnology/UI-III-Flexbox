@@ -165,3 +165,81 @@ hr{
 	margin: 0 30px;
 	padding: 0 20px
 }
+
+.service {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0 30px;
+	padding: 0 0 0 40px;
+}
+
+.services{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.sec-service{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.sec-service div{
+	flex-basis:45%;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: whitesmoke;
+	margin: 10px;
+	justify-content: space-between;
+	padding: 25px
+}
+
+button{
+	margin: 0;
+	border-radius: 5px
+}
+.card{
+	flex-direction: row;
+}
+
+.service-card {
+	display: flex;
+	width:100%;
+	justify-content: space-between;
+	height: 50%;
+	/* flex-wrap: wrap; */
+}
+
+.service-right{
+	flex-basis: 45%;
+	margin: 0 40px;
+}
+ul{
+	margin: 40px;
+}
+li {
+	margin: 10px;
+	list-style: square;
+}
+
+.service-left{
+	flex-basis: 47%;
+	margin: 0;
+	height: 200px;
+	justify-content: space-between
+}
+
+.services-info-img{
+	width: 100%;
+	height: 300px;
+	margin: 0 40px 0 0;
+	padding: 0 20px
+}
+.p{
+	line-height: 40px
+}
+
