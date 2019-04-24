@@ -193,6 +193,9 @@ hr {
 }
 
 /* style for service page */
+.container {
+	max-width: 900px;
+}
 .services-header h1{
 font-size: 30px;
 }
@@ -219,7 +222,7 @@ font-size: 30px;
 	width: 100%;
 	flex-flow: wrap;
 	justify-content: space-between;
-	border-bottom: 1px solid;
+	border-bottom: 2px solid black;
 }
 .section-box {
 	margin-bottom: 20px;
@@ -241,4 +244,28 @@ font-size: 30px;
 margin-bottom: 20px;
 border-radius: 4px;
 font-size: 15px;
+}
+.services-info{
+	padding-top: 30px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.services-info-details h1{
+font-size: 22px;
+}
+.services-info-details {
+	line-height: 1.5;
+	width: 50%;
+}
+.services-info-details p {
+	padding-bottom: 10px;
+}
+.services-info-details ul{
+	list-style-type: initial;
+	padding-left: 20px;
+	line-height: 1.7;
+}
+.services-footer{
+	margin-top: 70px;
 }
