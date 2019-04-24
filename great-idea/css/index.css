@@ -163,3 +163,15 @@ header nav a {
 	margin: 10px;
 	list-style-type: square;
 }
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 99%;
+}
+
+body {
+	margin-left: 40px;
+	margin-right: 40px;
+}
