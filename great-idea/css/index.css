@@ -366,6 +366,7 @@ footer #emailAddress{
 .featuresIMGs{
 	width: 250px;
 	height: 250px;
+	z-index: -1;
 }
 
 .freaturesCards{
@@ -375,8 +376,8 @@ footer #emailAddress{
 	align-content: center;
 	width: 900px;
 	margin: 20px auto;
-	border: 1px solid lightgrey;
-	height: 250px;
+
+	height: 253px;
 }
 
 .freaturesCards h2{
@@ -386,10 +387,28 @@ footer #emailAddress{
 }
 
 .freaturesCards p{
-	margin-left: 20px;
+	padding: 20px;
 	margin-top: 5px;
 	text-align: left;
 
+}
+
+.featuresLearnMoreBtn{
+	position: relative;
+	border: 1px solid black;
+	background: white;
+	border-radius: 4px;
+	width: 150px;
+	height: 25px;
+	margin: 10px auto;
+	left: 225px;
+	cursor: pointer;
+}
+
+.featuresLearnMoreBtn:hover{
+	animation-name: textColorChange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 
 #featuresBottomDivider{
