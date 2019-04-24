@@ -89,11 +89,31 @@ justify-content: space-between;
 li {
 	color: grey;
 }
+
+ul#things {
+	display: block;
+	list-style: square;
+	margin-top: 20px;
+}
+	
+	li.thing {
+		color: black;
+		margin: 15px 0 15px 25px;
+	}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
  
 h1 {
 	font-size: 400%;
 	width: 255px;
 	text-align: center;
+}
+
+h2 {
+	font-size: 175%;
 }
 
 p {
@@ -107,6 +127,12 @@ button {
 	border: solid 1px black;
 	width: 150px;
 	margin: 0 auto;
+}
+
+button.lmButton {
+	border-radius: 5px;
+	background-color: white;
+	margin-top: 25px;
 }
 
 section.top {
@@ -123,6 +149,12 @@ div.left {
 
 div.top, img.top-image {
 	align-self: center;
+}
+
+div.boxContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
 }
 
 section.content {
@@ -142,9 +174,38 @@ section.content > div {
 	flex-grow: 2;
 }
 
+.learnMoreBox {
+	margin: 15px;
+	padding: 25px 15px;
+	width: 40%;
+	border: 1px solid black;
+	background: rgb(243, 243, 243);
+}
+
+.bottomBoxes {
+	margin: 15px;
+	width: 40%;
+}
+
+.bottom {
+	border-top: 2px solid black;
+	margin-top: 25px;
+	padding-top: 25px;
+	display: flex;
+}
+
 img.middle-img {
 	width: 100%;
 	flex-grow: 3;
+}
+
+img.services-info-img {
+	width: 100%;
+}
+
+img.services-header-img {
+	margin-bottom: 20px;
+	width: 100%;
 }
 
 .wrapperThird {
@@ -155,6 +216,12 @@ img.middle-img {
 .copyright {
 	text-align: center;
 	margin: 30px 0;
+}
+
+p#ourServices {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
 }
 
 #phone {
