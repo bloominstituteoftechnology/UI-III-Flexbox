@@ -75,7 +75,11 @@ header{
 	padding: 30px 0px;
 	align-items: center;
 	justify-content: space-between;
-	width: 900px;
+	width: 800px;
+}
+
+.logo{
+align-self: flex-end;
 }
 
 .services-header-img{
@@ -86,7 +90,6 @@ nav{
 	width: 600px;
 	display: flex;
 	justify-content: space-between;
-	
 }
 
 a{
@@ -94,23 +97,24 @@ a{
 	color: grey;
 }
 
-.section-top{
+.section1{
 	display: flex;
+	flex-basis: row;
 	
-	justify-content: center;
-	padding-bottom:30px;
+	padding: 30px;
 }
 
-.div-1{
+.div1{
+	padding: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 300px;
 	justify-content: space-evenly;
+	
 }
 
 .p1{
-	font-size: 60px;
+	font-size: 80px;
 	font-style: italic;
 }
 
