@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
 }
 ol, ul {
@@ -81,7 +81,7 @@ nav {
 .menu {
 	width: 65%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .menu a {
@@ -190,4 +190,55 @@ footer {
 hr {
 	width: 96%;
 	margin-left: 14px;
+}
+
+/* style for service page */
+.services-header h1{
+font-size: 30px;
+}
+.services-header p {
+	padding-bottom: 30px;
+}
+.services-header {
+	border-bottom: 1px solid;
+}
+.services-menu-logo {
+	width: 35%;
+}
+
+.services-header-img{
+	width: 100%;
+}
+.services-intro-img {
+	padding-bottom: 20px;
+}
+.services-section {
+	margin-top: 30px;
+	padding-bottom: 10px;
+	display: flex;
+	width: 100%;
+	flex-flow: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid;
+}
+.section-box {
+	margin-bottom: 20px;
+	width: 47%;
+	border: 1px solid black;
+	background: #ececec;
+	line-height: 1.5;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.section-box h3{
+	padding-top: 10px;
+	font-size: 22px;
+}
+.section-box p{
+	padding-bottom: 20px;
+}
+.section-box button {
+margin-bottom: 20px;
+border-radius: 4px;
+font-size: 15px;
 }
