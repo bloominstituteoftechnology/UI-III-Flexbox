@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{ 
+	margin: 10px;
+	padding: 10px
+}
+
+header{
+	display: flex;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin: 10px 0;
+	padding: 20px 0;
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+}
+header div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 10px;
+	padding: 0 10px;
+}
+
+#top{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 20px;
+	padding: 10px
+}
+
+#innovation {
+	display: flex;
+	flex-direction: column;
+	font-size: 70px;
+	justify-content: center
+}
+
+#innovation h1{
+	text-align: center;
+}
+
+button{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	margin: 0 60px
+}
+
+section, .sec-section,.section-3{
+	display: flex;
+	margin: 20px;
+	padding: 10px;
+}
+
+.section-2{
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.middle-img{
+	margin: 20px;
+	padding: 10px;
+	width:100%;
+	display: flex;
+	justify-content: center
+}
+.middle-im{
+	width: 100%
+}
+
+.section-3 div{
+	margin: 0 20px
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	padding: 20px;
+}
+
+footer h3,p{
+	font-family: sans-serif;
+}
+
+footer p{
+	text-align: center
+}
+
+hr{
+	font-weight: bolder;
+	margin: 0 30px;
+	padding: 0 20px
+}
