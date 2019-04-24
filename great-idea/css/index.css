@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
 }
 blockquote, q {
 	quotes: none;
@@ -69,12 +69,16 @@ section, .fullRow{
 	margin-bottom: 30px;
 }
 
+p{
+	margin-bottom: 30px;
+}
+
 .container{
-	width: 80%;
+	width: 50%;
 	margin: 0 auto;
 }
 
-.menuList, .topBar, .catSection, .leftCat, .fullRow{
+.menuList, .topBar, .catSection, .leftCat, .fullRow, .halfBox{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -96,12 +100,23 @@ section, .fullRow{
 	width: 60%;
 }
 
-.menuItem {
+nav a {
 	color: gray;
+	font-weight: bold;
 }
 
 h1{
 	font-size: 60px;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .logo{
@@ -133,4 +148,19 @@ h1{
 
 .withBorder{
 	border-top: 1px solid gray; 
+}
+
+.contentBox{
+	border: 1px solid gray;
+	padding: 10px;
+	background-color: #eee;
+}
+
+.txtLeft{
+	justify-content: flex-start;
+}
+
+.rounded{
+	border-radius: 5px;
+	background-color: whitesmoke;
 }
