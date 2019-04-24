@@ -58,18 +58,32 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 20px;
+}
+
 section, .fullRow{
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
-p{
+p {
 	margin-bottom: 30px;
 }
 
@@ -103,20 +117,6 @@ p{
 nav a {
 	color: gray;
 	text-decoration: none;
-	font-weight: bold;
-}
-
-h1{
-	font-size: 60px;
-}
-
-h2{
-	font-size: 30px;
-	font-weight: bold;
-}
-
-h3{
-	font-size: 20px;
 	font-weight: bold;
 }
 
