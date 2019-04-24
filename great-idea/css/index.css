@@ -69,16 +69,36 @@ header nav {
 	align-items: flex-start;
 }
 
-.tagline h1 {
+.tagline section h1 {
 	font-size: 75px;
 }
 
-.tagline button {
-	width: 100px;
+.tagline section button {
+	width: 85px;
+	margin-left: 55px;
+}
+
+.tagline section {
+	padding-top: 50px;
+	padding-right: 50px;
 }
 
 .tagline {
 	display: flex;
+	flex-direction: row;
+	align-content: flex-start;
+	justify-content: center;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+.top-half {
+	display: flex;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.top-half section {
+	display: flex;
 	flex-direction: column;
-	
 }
