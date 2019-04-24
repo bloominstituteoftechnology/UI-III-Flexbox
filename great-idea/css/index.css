@@ -19,25 +19,12 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 /* Column styling */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  display: flex;
+  justify-content: space-between;
 }
 
-.column {
-  float: left;
-  width: 50%;
-}
-
-.column-3 {
-  float: left;
-  width: 33%;
-}
-
-.middle-column {
-  padding: 0 10px;
-}
+.column {}
 
 hr {
   border: 0.5px solid black;
@@ -51,7 +38,9 @@ header {
 }
 
 .navlinks {
-  display: table;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: left;
   table-layout: fixed;
   height: 36px;
@@ -82,6 +71,9 @@ header {
 .cta {
   text-align: center;
   margin: 40px 0 75px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .site-title {
