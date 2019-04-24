@@ -68,11 +68,14 @@ h1, h2, h3, h4, h5 {
 
 
 html{
+	max-width: auto;
+	height: auto;
 
 
 }
 body{
  max-width: 800px;
+ height: auto;
  margin: auto;
 }
 
