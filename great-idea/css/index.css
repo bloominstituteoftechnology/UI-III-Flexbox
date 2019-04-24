@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5 {
 
 nav {
     display: flex;
-    justify-content: center;
     padding: 30px;
 }
 
@@ -122,16 +121,12 @@ body {
     margin: auto;
 }
 
-.content-block {
-    display: inline-block;
-    width: 49%;
-    margin: 50px 0px;
+.content-section {
+    display: flex;
 }
 
-.content-block-bottom {
-    display: inline-block;
-    margin: 50px 0px;
-    width: 33%;
+.content-block {
+    margin: 50px 10px;
 }
 
 footer {
