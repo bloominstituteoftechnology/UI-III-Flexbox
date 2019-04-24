@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin:0 3%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,110 +64,129 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
 
-html {
-	box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-	box-sizing: inherit;
+
+nav{
+width:100%;
+display: inline-block;
 }
 
-
-
-nav {
-	margin: 50px 100px 50px;
-	display: inline-block;
-
-  }
-  
-nav a {
-  margin-left: 50px;
-  font-size: 20px;
-  text-decoration: none;
-  color: gray;
+a {
+margin-bottom:2%;
+padding-right: 9%;
+color:gray;
+text-decoration:none;
 }
 
-.logo{
-  display:inline-block;
-  margin-left: 150px;
-  width:100%;
+p{
+font-size:23px;
 }
 
-.top-inov{
-  margin-left: 130px;
-  margin-top: -300px;
+.circle-image {
+margin-top:10%;
+margin-left:15%;
+display:inline-block;
 }
-
-.top-on{
- margin-left: 200px;
+h1 {
+width:80%;
+padding:10%;
+font-size:80px;	
 }
-
-.top-demand {
-
-  margin-left: 150px;
+h2{
+display:inline-block;
+font-size:30px;
+}
+.demand{
+width:40%;
+padding:3%;
+display:inline-block;
+text-align:center;
 }
 
 button{
-  margin: 10px 180px;
+margin-left:-25%;
+font-size:25px;
+padding:1% 2% 1% 1.5%;
+background:transparent;
+border:1px solid black;
+text-align:center;
 }
 
- h1 strong {
-  font-size: 60px;
-	font-weight: extra-bold;
-	color: black;
-  }
-
-.code-snip{
-  margin-left: 1000px;
+header, .bottom-blocks{
+border-bottom:1px solid black;
+margin:5% 2% 4% 2%;
 }
-
-.get-started{
-  margin-left: 170px;
-  border: 1px solid black;
-  width:120px;
-  text-align:center;
-  padding:5px;
-}
-
-.top-content1  {
- width:350px;
-  margin:50px 50px;
-}
-
-.top-content2 {
- 
-  width:350px;
-  margin:50px 50px;
-}
-
-.top-content1, .top-content2 {
+.bottom-blocks p{
   display:inline-block;
-  margin: 100px 200px;
+  margin-bottom:10%;
+}
+.top-blocks{
+display:inline-block;
+width:100%;
+margin-bottom:3%;
+}
+.content-block-f{
+/* display:inline-block; */
+width:51%; 
+
+
 }
 
-.services {
- width:200px;
+
+.content-block-a{
+display:inline-block;
+width:50%;
+margin-left:51%;
+margin-top:-15%; 
 }
 
-.product {
-  width:200px;
-  margin-left: 50px;
+.bottom-blocks{
+	width:100%;
+	display:inline-flex;
+	
 }
-.vision {
-  width:200px; 
-}
-
-.services, .product, .vision {
-  display:inline-block;
-  margin: 100px 200px 50px 50px;
+.content-block-s{
+	display:inline-block;
+  margin-right:1%;
+	
 }
 
-address {
- width: 150px;
+.content-block-p{
+	display:inline-block;
+  margin-right:1%;
+	
 }
 
-.copyright {
-  text-align: center;
+.content-block-v{
+	display:inline-block;
+  margin-right:1%;
+	
 }
+
+.middle-image{
+width:100%;
+}
+
+address{
+margin-bottom:5px;
+font-size:15px;
+display:block;
+width:15%;
+}
+
+copyright{
+display:inline-block;
+margin-left:45%;
+margin-bottom:3%;
+margin-top:3%;
+}
+
+.addy, .number, .email{
+  margin-bottom:2%;
+}
+
+
+
+
+
