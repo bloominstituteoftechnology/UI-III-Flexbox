@@ -74,10 +74,20 @@ header {
 }
 
 nav {
-	width: 65%;
+	width: 70%;
 }
 
- ul {
-	justify-content: space-between;
- }
+ul {
+justify-content: space-between;
+}
  
+h1 {
+	font-size: 400%;
+	width: 255px;
+	text-align: center;
+}
+
+section.top {
+	display: flex;
+	justify-content: space-around;
+}
