@@ -48,6 +48,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
 
 
 body {
@@ -79,6 +82,10 @@ nav a {
     text-align: center;
 }
 
+#light {
+    border-radius: 70px;
+}
+
 #start {
     text-decoration: none;
     color: black;
@@ -86,6 +93,12 @@ nav a {
     border: 1px solid black;
     padding: 7px 50px;
     margin-bottom: 15px;
+}
+
+#start:hover {
+  background: black;
+  border: 1px solid white;
+  color: white; 
 }
 
 article {
@@ -130,32 +143,23 @@ center {
     font-size: 15px;
 }
 
-
+img {
+    width: inherit;
+}
 
 
 
 
 /* Services specific code: */
 
+
 .side-page {
     font-weight: bold;
 }
 
-
-.flex-horizontal-wrap {
-/*    width: 880px;*/
-    padding: 15px 0;
-    
-    
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: space-evenly;
-}
-
 .box {
     box-sizing: border-box;
-    background: lightgray;
+    background: #f4f3f4;
     padding: 15px;
     min-width: 50px;
     width: 48%;
@@ -170,6 +174,8 @@ center {
 .box a {
     background: white;
     color: black;
+    transition: color .15s linear;
+    transition: background .15s linear;
     text-decoration: none;
     font-size: 12px;
     
@@ -178,6 +184,13 @@ center {
     border: 1px solid black;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+.box a:hover {
+    background: black;
+    color: white;
+    border: 1px solid white;
+/*    transition-duration: .15s;*/
 }
 
 ul {
@@ -203,9 +216,13 @@ h3 {
     margin-top: 25px;
 }
 
+footer section {
+    margin-right: 30px;
+}
 
-
-
+footer img {
+    margin-left: 20px;
+}
 
 
 
