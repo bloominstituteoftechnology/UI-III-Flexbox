@@ -376,7 +376,7 @@ footer #emailAddress{
 	align-content: center;
 	width: 900px;
 	margin: 20px auto;
-
+	border: 2px solid black;
 	height: 253px;
 }
 
@@ -419,13 +419,90 @@ footer #emailAddress{
 
 
 @media (max-width: 600px){
-	body .midSection{
+	img{
+		width: 600px;
+	}
+	hr{
+		width: 600px;
+	}
+	p{
+		width: 600px;
+	}
+	body{
+		width: 600px;
+	}
+	footer{
+		width: 600px;
+		align-content: center;
+	}
+	#freaturesCards{
+		width: 600px;
+	}
+	#hrBottom{
+		width: 600px;
+	}
+	#hrTopSection{
+		width: 600px;
+	}
+	#servicesTopSection{
+		width: 600px;
+		flex-direction: column;
+		margin-left: -10px;
+		align-content: center;
+	}
+	#servicesTopSection h1{
+		text-align: center;
+	}
+	#servicesTopSection p{
+		text-align: center;
+		widows: 600px;
+	}
+	.navigationBar{
+		position: relative;
+		flex-direction: column;
+		text-align: center;
+		width: 600px;
+	}
+
+	.midSection{
 		color: blue;
 		display: inline-flex;
 		max-width: 600px;
 		width: 600px;
 		height: 1800px;
 		flex-direction: column;
+		align-content: center;
 
+	}
+	
+	#bottomSectionServices{
+		width: 600px;
+		flex-direction: column;
+		align-content: center;
+		}
+
+
+	#factsSection{
+
+	}
+
+	#factsSection h2{
+		text-align: center;
+	}
+
+	#factsSection p{
+		margin: 0px auto;
+		text-align: center;
+	}
+
+	#factsSection ul{
+		margin: 0px auto;
+	}
+	#factsSection ul li{
+		margin: 0px auto;
+	}
+	#copyrightSection{
+		width: 600px;
+		flex-direction: column;
 	}
 }
