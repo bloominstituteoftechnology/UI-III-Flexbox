@@ -64,3 +64,235 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 900px;
+	margin: 20px;
+   
+}
+
+header {
+	
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	
+}
+
+
+header nav {
+	display: flex;
+	align-self: center;
+
+	
+}
+header a {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: flex-start;
+	margin-right: 40px;
+	/*margin-bottom: 50px; */
+	text-align: center;
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+}
+
+header img {
+	
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+/*	margin-left: 120px;
+	margin-top: 15px; */
+	
+}
+
+.top-section {
+	display: flex;
+}
+
+.top-section-left {
+	text-align: center;
+	align-items: center;
+	vertical-align: top;
+	display: flex;
+	flex-direction: column;
+	width: 49%;
+}
+
+.top-section-left h1 {
+	/*border: 1px solid green; */
+	font-size: 54px;
+	margin: 80px 0 10px 0;
+}
+
+.top-section-left button {
+
+	display: flex;
+	width: 100px;
+	justify-content: center;
+	
+}
+
+.top-section-right {
+	/*border: 1px solid green; */
+	display: flex;
+	justify-content: center;
+}
+
+.main-top {
+	border-top: 1px solid black;
+	padding-top: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.main-top h2 {
+	
+	display: flex;
+}
+
+.main-top .features {
+	/*border: 1px solid blueviolet; */
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.main-top .about {
+	
+	/*border: 1px solid green; */
+	display: flex;
+	flex-direction: column
+}
+
+
+
+.main-top p {
+	/*border: solid yellow; */
+	display: flex;
+}
+
+.main-bottom {
+	
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-bottom: 25px;
+	padding-left: 5px;
+	padding-right: 5px; 
+	border-bottom: 1px solid black;
+}
+
+.main-bottom .services {
+	
+	flex-direction: column;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.main-bottom .product {
+	
+	flex-direction: column;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.main-bottom .vision {
+	
+	flex-direction: column;
+	display: flex;
+}
+
+.contact {
+	
+	margin-top: 50px;
+	
+}
+
+.address {
+	line-height: 5px
+}
+
+footer {
+	margin-top: 10px;
+	text-align: center
+}
+
+
+
+/* Services Page */
+.services-section {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+
+}
+
+.middle-section {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+	
+}
+
+.middle-section .services-items  {
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	width: 46%;
+	background: lightgrey;
+	margin: 15px;
+	padding: 10px;
+	box-sizing: border-box; 
+}
+
+button {
+	margin-top: 10px;
+	width: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.services-bottom {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-bottom: 70px;
+}
+
+.bottom-left {
+	/*border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	
+} 
+
+.bottom-left p {
+	margin-right: 30px;
+	width: 90%;
+}
+
+ul {
+	list-style: square;
+	margin-left: 20px;
+	line-height: 25px;
+	
+}
+/*.services-info-img {
+	display: flex;
+	flex-wrap: wrap;
+} */
