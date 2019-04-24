@@ -18,20 +18,43 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* Column styling */
+
+/* Site components  -------------------------- */
+h2 { 
+  font-size: 1.6rem;
+}
+
+hr {
+  border: 0.5px solid black;
+  width: 100%;
+  margin: 40px auto;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+
+/* Column styling  ---------------------------*/
 .row {
   display: flex;
   justify-content: space-between;
 }
 
-.column {}
-
-hr {
-  border: 0.5px solid black;
-  width: 100%;
+.middle-row {
+  margin: 40px 0;
 }
 
-/* header and navbar */
+.column {}
+
+
+/* header and navbar  ------------------------ */
 header {
   padding: 30px 0;
   width: 100%;
@@ -57,7 +80,7 @@ header {
 }
 
 .navlinks a:hover {
-  color: #a8a8a8;
+  color: #999;
 }
 
 .logo {
@@ -67,10 +90,15 @@ header {
   vertical-align: middle;
 }
 
-/* Call To Action */
+.logo:hover {
+  opacity: 0.8;
+}
+
+
+/* Call To Action  ---------------------------*/
 .cta {
   text-align: center;
-  margin: 40px 0 75px 0;
+  margin: 40px 0 40px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -90,18 +118,57 @@ header {
   padding: 5px 40px;
 }
 
-/* Main content */
+/* Main content  ----------------------------- */
 .site-content {
-  margin: 50px auto;
 }
 
-.middle-img {
+.site-content a {
+  text-decoration: none;
+  color: #000;
+}
+
+.site-content a:hover {
+  color: #555;
+}
+
+.full-width-img {
   margin: 40px 0;
 }
 
-/* footer */
+.services-header-img {
+}
+
+.services-facts {
+  margin-right: 40px;
+}
+
+.services-card {
+  width: 420px;
+  min-height: 250px;
+  background-color: #f4f3f4;
+  border: 1px solid black;
+  padding: 20px;
+  line-height: 1.4rem;
+}
+
+.services-card h4 {
+  margin: 0;
+}
+
+.services-card button {
+  padding: 10px 40px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.services-card button:hover {
+  background-color: #eee;
+}
+
+
+/* footer  ----------------------------------- */
 .contact-info {
-  margin: 50px 0;
 }
 
 .contact-info p {
@@ -113,7 +180,7 @@ header {
 }
 
 .copyright {
-  margin: 30px auto;
+  margin: 50px auto;
   width: 100%;
   text-align: center;
   font-size: 12px;
