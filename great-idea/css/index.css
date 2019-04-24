@@ -67,6 +67,11 @@ header nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
+	padding-top: 30px;
+}
+
+header nav a {
+	padding-top: 10px;
 }
 
 .tagline section h1 {
@@ -74,13 +79,14 @@ header nav {
 }
 
 .tagline section button {
-	width: 85px;
-	margin-left: 55px;
+	width: 130px;
+	height: 25px;
 }
 
 .tagline section {
-	padding-top: 50px;
-	padding-right: 50px;
+	padding-top: 65px;
+	padding-right: 100px;
+	text-align: center;
 }
 
 .tagline {
@@ -88,7 +94,7 @@ header nav {
 	flex-direction: row;
 	align-content: flex-start;
 	justify-content: center;
-	padding-bottom: 20px;
+	padding: 100px;
 	border-bottom: 2px solid black;
 }
 
@@ -101,4 +107,22 @@ header nav {
 .top-half section {
 	display: flex;
 	flex-direction: column;
+}
+
+.bottom-half {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid black;
+}
+
+.bottom-half section {
+	display: flex;
+	flex-direction: column;
+}
+
+.copyright {
+	text-align: center;
+	margin: 100px;
 }
