@@ -166,6 +166,7 @@ hr {
   display: flex;
   justify-content: space-around;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 a {
@@ -185,41 +186,61 @@ h1 {
 
 h2 {
   font-size: 20px;
+  height: 20px;
+  margin-left: 10px;
 }
 
 .all-middle-material {
   display: flex;
   flex-wrap: wrap;
-  height: 1300px;
-  width: 880px;
-  justify-content: space-around;
+  height: 800px;
+  justify-content: space-between;
 }
 
 .material {
   display: flex;
-  background-color: #f5f5f5;
   flex-direction: column;
-  flex-wrap: wrap;
-  height: 200px;
-  width: 400px;
-  padding-bottom: 20px;
-  margin: auto;
+  justify-content: flex-start;
+  background-color: #f5f5f5;
+  height: 250px;
+  width: 420px;
   border: 1px solid black;
+ padding-top: 10px;
+ padding-bottom: 10px;
 }
 
 .words {
-  width: 300px;
-  height: 300px;
   color: black;
-  margin: auto;
+  margin-left: 10px;
+  padding-right: 10px;
+  font-size: 17px;
 }
 
 button {
   background-color: white;
-  width: 100px;
-  border-radius: 12px;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.list {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+
+
+.bottom-fold {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: auto;
 }
 
-.top-fold {
+footer {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
