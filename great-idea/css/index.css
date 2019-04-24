@@ -3,64 +3,215 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+body {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 20px 0;
+    box-sizing: border-box;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-right:45px;
+    text-decoration: none;
+    color: #bebebe;
+}
+
+.logo {
+    margin: 0 0 0 40px;
+    width: 100%
+}
+
+#innovation {
+    text-align: center;
+}
+
+#start {
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 7px 50px;
+    margin-bottom: 15px;
+}
+
+article {
+    margin: 30px 0;
+    padding: 0.5%;
+/*    width: 100px;*/
+}
+
+h1 {
+    font-size: 500%;
+}
+
+.main {
+    margin: 50px 0 90px;
+}
+
+.container {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 30px 0;
+
+}
+
+.flex-horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span {
+    line-height: 2;
+}
+
+center {
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/* Services specific code: */
+
+.side-page {
+    font-weight: bold;
+}
+
+
+.flex-horizontal-wrap {
+/*    width: 880px;*/
+    padding: 15px 0;
+    
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+
+.box {
+    box-sizing: border-box;
+    background: lightgray;
+    padding: 15px;
+    min-width: 50px;
+    width: 48%;
+    border: 1px solid black;
+    margin: 20px 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box a {
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    
+    box-sizing: border-box;
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: square;
+    box-sizing: border-box;
+    padding: 20px;
+    line-height: 2;
+}
+
+
+.flex-vertical-left {
+    display: flex;
+    flex-flow: column nowrap;
+/*    justify-content: space-between;*/
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#services {
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
