@@ -23,6 +23,21 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+/*
+
+	Navbar, spaced out nicely, light crey color, soft font, logo on the right links to home
+	Title and Subtitle need bigger font, given display: block along with the first picture inline.
+	Horizontal divider
+	two sections with display: inline-block, bold h3, custom fonts, and a p
+	Image spanning full width
+	three section with display: inline-block, bold h3, custom fonts, and a p
+	Horizontal divider
+	Contact info
+	centered footer
+
+*/
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -58,9 +73,247 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+body {
+	min-width: 960px;
+	margin: auto;
+	width: 50%;
+	display: block;
+	margin-top: 100px;
+}
+
+h1 {
+	font-size: 250%;
+}
+
+li {
+	margin-left: 25px;
+	list-style-type: disc;
+}
+
+.navbackground {
+	top: 0;
+	position: fixed;
+	height: 80px;
+	right: 0;
+	left: 0;
+	background: #B2B2B4;
+}
+
+nav {
+	display: flex;
+	margin: auto;
+	overflow: hidden;
+	padding: 10px 0px;
+	width: 50%;
+	min-width: 800px;
+}
+
+nav .navitem {
+	width: 12.5%;
+	padding: 20px 0;
+	text-decoration: none;
+	color: #202020;
+}
+
+nav a:hover {
+	color: white;
+}
+
+nav img {
+	vertical-align: bottom;
+	padding-top: 9.12px;
+	padding-bottom: 9.12px;
+	text-align: right;
+}
+
+hr {
+	border: 0.5px solid black;
+}
+
+#bulbimg {
+	text-align: right;
+	width: auto;
+	max-width: 25%;
+}
+
+.defaulth1 {
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin: 15px;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	width: 49%;
+}
+
+.servicesArticle {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 30px 0;
+}
+
+button {
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	background: white;
+	border: 1px solid black;
+	width: 180px;
+	height: 35px;
+}
+
+button:hover {
+	background: black;
+	color: white;
+}
+
+footer {
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+
+.services-header-img {
+	width : 100%;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+#title {
+	vertical-align: top;
+	width: 49%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: center;
+	padding: 20px;
+	margin-top: 5%;
+	font-family: 'Rubik Mono One', sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-size: 72px;
+}
+
+p {
+	margin-right: 5px;
+	margin-bottom: 10px;
+	line-height: 1.4;
+}
+
+section {
+	display: flex;
+	justify-content: space-between;
+	margin: 25px 0;
+}
+
+.titleSection {
+	display: flex;
+	align-content: space-evenly;
+}
+
+.bottomSection {
+	width: 32.5%;
+	display: flex;
+}
+
+.cardContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.cardRow {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	padding: 15px;
+	width: 49%;
+	margin: 10px 0;
+	display: flex;
+	flex-direction: column;
+	
+	background: lightgrey;
+	border: 1px solid black;
+}
+
+input {
+	font-size: 20px;
+	padding: 15px;
+	border: 1px solid black;
+	background: grey;
+	color: white;
+	width: 100%;
+	display: flex;
+}
+
+label {
+	min-width: 150px;
+	font-size: 22px;
+}
+
+form {
+	padding: 20px;
+	background: #E1E1E1;
+	display: flex;
+	flex-direction: column;
+}
+
+.field {
+	display: flex;
+	width: 49%;
+	align-content: stretch;
+	align-items: center;
+}
+
+.messageField {
+	display: flex;
+	align-content: stretch;
+	width: 49%;
+}
+
+.form-row {
+	display: flex;
+	margin-top: 20px;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.buttonField {
+	display: flex;
+	width: 49%;
+	justify-content: flex-end;
+	align-content: stretch;
+	align-items: flex-end;
+}
+
+textarea {
+	padding: 15px;
+	font-size: 20px;
+	border: 1px solid black;
+	background: grey;
+	color: white;
+	width: 100%;
+	resize: none;
+	position: relative;
+	align-items: top;
+}
+
+#contactInfo {
+	text-align: center;
+	align-content: center;
+}
