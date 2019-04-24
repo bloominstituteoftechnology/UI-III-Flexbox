@@ -253,7 +253,6 @@ footer #emailAddress{
 
 .midSection{
 	width: 900px;
-	height: 900px;
 	margin: 0px auto;
 	display: inline-flex;
 	flex-wrap: wrap;
@@ -287,6 +286,12 @@ footer #emailAddress{
 	border-radius: 5px;
 	background: white;
 	cursor: pointer;
+}
+
+.serviceCardDesign button:hover{
+	animation-name: textColorChange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 
 #hrBottom{
@@ -328,6 +333,71 @@ footer #emailAddress{
 	margin-top: 50px;
 	text-align: center;
 }
+
+
+
+
+/* Features page */
+
+#feautesTopImg{
+	position: relative;
+	max-width: 900px;
+	top: -55px;
+}
+
+#featuresTopSection{
+	margin-top: -25px;
+}
+#featuresTopSection h1{
+	font-size: 28px;
+}
+
+#topDivider{
+	width: 900px;
+	margin: 25px auto;
+	border: 1px solid grey;
+}
+
+#featureMiddleSeaction{
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.featuresIMGs{
+	width: 250px;
+	height: 250px;
+}
+
+.freaturesCards{
+	display: inline-flex;
+	justify-content: center;
+	align-self: center;
+	align-content: center;
+	width: 900px;
+	margin: 20px auto;
+	border: 1px solid lightgrey;
+	height: 250px;
+}
+
+.freaturesCards h2{
+	font-size: 22px;
+	text-align: center;
+	margin: 15px auto;
+}
+
+.freaturesCards p{
+	margin-left: 20px;
+	margin-top: 5px;
+	text-align: left;
+
+}
+
+#featuresBottomDivider{
+	width: 900px;
+	margin: 20px auto;
+	border: 1px solid black;
+}
+
 
 @media (max-width: 600px){
 	body .midSection{
