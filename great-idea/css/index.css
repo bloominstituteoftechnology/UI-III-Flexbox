@@ -152,9 +152,12 @@ button {
 }
 
 .box-two {
-	width: 32%;
+	width: 30%;
 	padding-top: 33px;
 	padding-bottom: 30px;
+}
+.box-two p{
+	padding-right: 5px;
 }
 /* style for address */
 .address {
@@ -185,6 +188,6 @@ footer {
 }
 
 hr {
-	width: 95%;
+	width: 96%;
 	margin-left: 14px;
 }
