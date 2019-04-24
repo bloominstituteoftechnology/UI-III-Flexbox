@@ -251,9 +251,9 @@ footer {
 	border: 1px solid black;
 	display: flex;
 	flex-wrap: wrap;
-	width: 46%;
+	width: 48%;
 	background: lightgrey;
-	margin: 15px;
+	margin: 15px 0px;
 	padding: 10px;
 	box-sizing: border-box; 
 }
