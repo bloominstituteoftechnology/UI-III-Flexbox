@@ -63,4 +63,84 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.navigation{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 876px;
+	margin: 0 auto;
+	
+}
+
+.header{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 876px;
+	margin: 0 auto;
+}
+.h1{
+	font-size: 90px;
+	justify-self: start;
+	width: 35%;
+	padding: 10px;
+}
+.button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.codepic{
+	display: flex;
+	padding: 20px;
+	width: 35%;
+	max-height: 300px
+}
+.top-content{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 876px;
+	margin: 0 auto;
+}
+.image{
+	display: flex;
+	max-width: 876px;
+	margin: 0 auto;
+	justify-content: center;
+}
+.bottom-content{
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 876px;
+	margin: 0 auto;
+}
+.address{
+	display: flex;
+	justify-content: start;
+	max-width: 876px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.contact{
+	max-width: 200px;
+	padding: 20px;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 876px;
+	margin: 0 auto;
+}
