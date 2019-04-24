@@ -130,3 +130,36 @@ header nav a {
 .services-header-img {
 	margin: 50px;
 }
+
+.services {
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid black;
+}
+
+.boxes {
+	display: flex;
+}
+
+.boxes section {
+	padding: 10px;
+	border: 2px solid black;
+	margin: 10px;
+}
+
+.facts {
+	display: flex;
+	border-top: 2px solid black;
+	margin-top: 50px;
+	padding-top: 50px;
+	justify-content: space-around;
+}
+
+.facts section {
+	width: 40%;
+}
+
+.facts section ul li {
+	margin: 10px;
+	list-style-type: square;
+}
