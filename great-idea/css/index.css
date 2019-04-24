@@ -129,6 +129,7 @@ button {
 	font-size: 16px;
 }
 
+/* style for section */
 .box {
 	display: flex;
 	width: 97%;
@@ -143,8 +144,9 @@ button {
 }
 
 .middle-img {
+	display: flex;
+	justify-content: center;
 	margin-top: 10px;
-	text-align: center;
 	width: 98%;
 	padding-left: 2px;
 }
@@ -154,9 +156,10 @@ button {
 	padding-top: 33px;
 	padding-bottom: 30px;
 }
-
+/* style for address */
 .address {
-	margin-left: 10px;
+	margin: 0 auto;
+	width: 97%;
 	padding-top: 20px;
 }
 
@@ -176,7 +179,8 @@ address p:last-child {
 
 footer {
 	padding-top: 30px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
 	padding-bottom: 20px;
 }
 
