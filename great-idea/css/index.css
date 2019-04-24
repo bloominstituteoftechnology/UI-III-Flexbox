@@ -164,6 +164,10 @@ h5 {
 
 }
 
+nav {
+	z-index: 1;
+}
+
 header .logo {
 	margin-left: 15px;
 }
@@ -188,6 +192,8 @@ section .hero {
 	width: 100%;
 	height: 600px;
 	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
 }
 
 section .hero h1 {
@@ -206,9 +212,12 @@ section .hero h1 {
 
 .hero button {
 	margin-left: 100px;
+	height: 30px;
 	color: black;
 	background: white;
 	border: 1px solid black;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
 	padding: 5px 30px;
 	margin-bottom: 50px;
 }
@@ -223,36 +232,17 @@ hr {
 	background-color: grey;
 }
 
-.paragraphs {
-	margin: 0;
-	padding: 0;
+.top-two {
+	display: flex;
+	width: 100%;
 }
 
-.paragraphs section {
-	width: 50%;
-}
-
-section .features {
-	width: 49%;
-	margin-bottom: 30px;
-}
-
-section .about {
-	width: 49%;
-}
-
-section .services {
-	width: 33%;
+ .features,  .about {
+	width: 45%;
 }
 
 
-section .vision {
-	width: 33%;
-}
 
-section .product {
-	width: 33%;
-}
 
 .middle-img {
 	width: 100%;
