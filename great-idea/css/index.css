@@ -91,6 +91,10 @@ body{
 	top: 0px;
 }
 
+.mobileHomeNav{
+	display: none;
+}
+
 .navigationBar a{
 	position: relative;
 	color: grey;
@@ -462,6 +466,20 @@ footer #emailAddress{
 		flex-direction: column;
 		text-align: center;
 		width: 600px;
+		margin-bottom: 240px;
+	}
+	.mobileHomeNav{
+		display: block;
+	}
+
+	.navigationBar a{
+		font-size: 18px;
+		margin: 0px auto;
+		margin-bottom: 10px;
+		border: 1px solid black;
+		padding: 10px;
+		width: 150px;
+		
 	}
 
 	.midSection{
@@ -496,10 +514,13 @@ footer #emailAddress{
 	}
 
 	#factsSection ul{
-		margin: 0px auto;
+		position: relative;
+		margin: 25px auto;
+		left: 250px;
 	}
 	#factsSection ul li{
 		margin: 0px auto;
+
 	}
 	#copyrightSection{
 		width: 600px;
