@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 .site{
 	max-width: 1000px;
 	margin: 0 auto;
+	align-self:center;
 
 }
 
@@ -80,10 +81,6 @@ header{
 
 .logo{
 align-self: flex-end;
-}
-
-.services-header-img{
-	width:900px;
 }
 
 nav{
@@ -100,7 +97,7 @@ a{
 .section1{
 	display: flex;
 	flex-basis: row;
-	
+	width: 800px;
 	padding: 30px;
 }
 
@@ -118,7 +115,7 @@ a{
 	font-style: italic;
 }
 
-.b1{
+button{
 	padding: 8px 30px;
 	margin: 10px 0px;
 }
@@ -177,14 +174,51 @@ img{
 .section4{
 	display:flex;
 	flex-direction: column;
+	width: 800px;
 	
 }
 
 .div5{
 	padding: 30px 0px;
 	border-bottom: black thin solid;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	display:flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
+
+.section5{
+	display: flex;
+	flex-direction: row;
+	width: 800px;
+	border-bottom: thin solid black;
+}
+
+button{
+	align-self: center;
+	margin: 20px 0px 0px;
+}
+
+.div7{
+	padding: 20px;
+	margin: 0px 20px 40px 0px;
+	border: thin solid black;
+}
+
+.div8{
+	padding: 20px;
+	margin: 0px 0px 40px 20px;
+	border: thin solid black;
+}
+
+.section-end{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 800px;
+	margin-bottom: 50px;
+
+}
+
 
