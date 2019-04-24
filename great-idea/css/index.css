@@ -68,3 +68,17 @@ header nav {
 	justify-content: space-around;
 	align-items: flex-start;
 }
+
+.tagline h1 {
+	font-size: 75px;
+}
+
+.tagline button {
+	width: 100px;
+}
+
+.tagline {
+	display: flex;
+	flex-direction: column;
+	
+}
