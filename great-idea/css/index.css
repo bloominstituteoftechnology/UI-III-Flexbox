@@ -75,7 +75,6 @@ h1 {
 
 .nav {
 	display: flex;
-	
 }
 
 .nav-links {
@@ -131,13 +130,11 @@ h1 {
 	width: 100%;
 }
 
-
 .top-content {
 	display: flex;
 	justify-content: space-between;
 	margin: 40px 0;
 }
-
 
 .column-1 {
 	padding: 0 15px 0 0;
@@ -248,4 +245,63 @@ div.service-box {
 p {
 	margin-bottom: 20px;
 	line-height: 130%;
+}
+
+/* About Page */
+
+.bg-image {
+	margin: 40px 0;
+	background-image: url("../img/smokebg.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+	background-position: -700px;
+}
+
+.hero-about {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.about-text-container p {
+	width: 400px;
+}
+
+div.about-box-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+div.about-box {
+	height: 230px;
+	width: 210px;
+	border: 1px solid #333;
+	background: #2d3436;
+	margin-bottom: 30px;
+	padding: 20px;
+	color: lightgrey;
+}
+
+@media (max-width: 800px) {
+	.about-box-row {
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	}
+  }
+
+.about-footer {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+h2.about-highlight {
+	font-size: 50px;
+}
+
+.middle-about-column {
+	border-left: thin solid black;
+	border-right: thin solid black;
+	width: 300px;
 }
