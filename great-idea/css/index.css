@@ -95,37 +95,40 @@ nav {
 }
 
 .menu-logo {
-	width: 20%;
+	width: 25%;
 	display: flex;
 justify-content: flex-end;
 }
 
-
+/* style for header */
 header {
+	display: flex;
 	width: 100%;
-	margin-top: 40px;
-	padding-bottom: 50px;
+	margin-top: 50px;
+	padding-bottom: 60px;
 }
 
 div.intro {
-	display: inline-block;
 	width: 50%;
-	text-align: center;
-	vertical-align: top;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	font-size: 80px;
-	padding-top: 40px;
 }
-
-.intro h2 {
-	margin: 0;
+.intro-img {
+	width: 50%;
+	display: flex;
+	justify-content: center;
 }
 
 button {
-	height: 30px;
+	height: 35px;
 	width: 150px;
 	border: 1px solid black;
 	font-size: 16px;
 }
+
 
 .box-one {
 	display: inline-block;
