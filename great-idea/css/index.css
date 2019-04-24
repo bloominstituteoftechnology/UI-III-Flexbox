@@ -77,11 +77,22 @@ h1, h2, h3, h4, h5 {
 .header{
 	display: flex;
 	justify-content: space-around;
-	padding: 20px;
-	border: 1px solid red;
-	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid red;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
 	max-width: 876px;
 	margin: 0 auto;
+	text-align: center;
+}
+.service{
+	display: flex;
+	padding: 5px;
+	max-width: 876px;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+	margin: 0 auto;
+	text-align: left;
 }
 .h1{
 	font-size: 90px;
@@ -89,11 +100,7 @@ h1, h2, h3, h4, h5 {
 	width: 35%;
 	padding: 10px;
 }
-.button{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
 .codepic{
 	display: flex;
 	padding: 20px;
@@ -138,9 +145,149 @@ h1, h2, h3, h4, h5 {
 .footer{
 	display: flex;
 	justify-content: center;
-	padding: 30px;
+	padding: 10px;
 	border: 1px solid red;
 	align-items: center;
 	max-width: 876px;
 	margin: 0 auto;
 }
+.services-header-img{
+	display: flex;
+	max-width: 876px;
+	margin: 0 auto;
+	justify-content: center;
+}
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 20px;
+	border: 1px solid red;
+	max-width: 876px;
+	margin: 0 auto;
+}
+.content1{
+	display: flex;
+	background-color: gainsboro;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 400px;
+	margin: 8px;
+}
+.content2{
+	display: flex;
+	background-color: gainsboro;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 400px;
+	margin: 8px;
+}
+.content3{
+	display: flex;
+	background-color: gainsboro;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 400px;
+	margin: 8px;
+}
+.content4{
+	display: flex;
+	background-color: gainsboro;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 400px;
+	margin: 8px;
+}
+.content5{
+	display: flex;
+	background-color: gainsboro;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 400px;
+	margin: 8px;
+}
+.content6{
+	display: flex;
+	background-color: gainsboro;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	border: 1px solid red;
+	align-items: center;
+	max-width: 400px;
+	margin: 8px;
+}
+.facts{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	border: 1px solid red;
+	max-width: 876px;
+	margin: 0 auto;
+}
+.fact-title{
+	max-width: 400px;
+}
+.left-fact{
+	max-width: 400px;
+}
+.unordered{
+	max-width: 400px;
+	text-align: left;
+	margin: 15px;
+}
+.right-fact{
+	max-width: 400px;
+}
+.services-info-img{
+	max-width: 400px;
+}
+
+
+button{
+	padding: 5px;
+	margin: 10px;
+}
+a:link {
+	color: green; 
+	background-color: transparent; 
+	text-decoration: none;
+  }
+  
+  a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
+  a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  .list{
+	  list-style-type: square;
+  }
+  
