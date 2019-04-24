@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 80%;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +66,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*css for nav bar */
+nav {
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	width: 100%;
+	margin: 0 auto;
+	width: 100%;
+	align-items: center;
+}
+
+.menu {
+	width: 65%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #cfcfd4;
+	transition: ease-in-out 300ms;
+}
+
+.menu a:hover {
+	color: grey;
+}
+
+.menu-logo {
+	width: 20%;
+	display: flex;
+justify-content: flex-end;
+}
+
+
+header {
+	width: 100%;
+	margin-top: 40px;
+	padding-bottom: 50px;
+}
+
+div.intro {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	vertical-align: top;
+	font-size: 80px;
+	padding-top: 40px;
+}
+
+.intro h2 {
+	margin: 0;
+}
+
+button {
+	height: 30px;
+	width: 150px;
+	border: 1px solid black;
+	font-size: 16px;
+}
+
+.box-one {
+	display: inline-block;
+	width: 48%;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+}
+
+.middle-img {
+	margin-top: 10px;
+	text-align: center;
+	width: 98%;
+}
+
+.box-two {
+	display: inline-block;
+	width: 32%;
+	padding-top: 33px;
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+
+.address {
+	margin-left: 10px;
+	padding-top: 20px;
+}
+
+address a {
+	padding-top: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+address p:first-child {
+	padding-bottom: 20px;
+}
+
+address p:last-child {
+	padding-top: 20px;
+}
+
+.section-two {
+	width: 100%;
+	padding: 2px;
+
+}
+
+footer {
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+hr {
+	width: 95%;
+	margin-left: 14px;
+}
