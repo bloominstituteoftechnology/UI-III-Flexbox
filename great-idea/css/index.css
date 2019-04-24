@@ -102,6 +102,7 @@ p{
 
 nav a {
 	color: gray;
+	text-decoration: none;
 	font-weight: bold;
 }
 
