@@ -67,7 +67,7 @@ h1 {
 
 .header {
 	display: flex;
-	margin: 0 0 50px 0;
+	margin: 0 0 30px 0;
 	width: 876px;
 	text-align: center;
 	justify-content: space-between;
@@ -152,7 +152,7 @@ h1 {
 .bottom-content {
 	display: flex;
 	justify-content: space-between;
-	margin: 40px 0;
+	margin: 40px 0 0 0;
 }
 
 .column-3 {
@@ -186,11 +186,66 @@ footer {
 }
 
 hr {
-	margin: 20px 0px;
+	margin: 30px 0px;
+	background-color: #333;
+	height: 1px;
 }
 
 /* Services Page */
 
+h1.title {
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+div.service-box-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+div.service-box {
+	height: 250px;
+	width: 420px;
+	border: 1px solid #333;
+	background: #f4f3f4;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.learn-more-button {
+	padding: 10px 40px;
+	background: white;
+	border: 1px solid gray;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.services-footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-service-column {
+	width: 420px;
+}
+
+.right-service-column {
+	width: 420px;
+}
+
 .facts-list li {
+	margin-left: 20px;
 	list-style: square;
+}
+
+.facts-item {
+	margin: 15px 0;
+}
+
+p {
+	margin-bottom: 20px;
+	line-height: 130%;
 }
