@@ -65,7 +65,11 @@ h1, h2, h3, h4, h5 {
 nav {
     display: flex;
     padding: 30px 0px;
-    justify-content: space-between
+    justify-content: space-between;
+}
+
+.nav-a-logo {
+    margin: 0;
 }
 
 nav a{
@@ -98,8 +102,34 @@ h2 {
 }
 
 .priority-high {
-    order: 1;
-    width: 840px;
+    order: -1;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.priority-high div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+
+.priority-high img {
+    width: 40%;
+    height: 100%;
+}
+
+.content-card-products {
+    background-color: #F4F3F4;
+    border: 1px solid black;
+    height: 320px;
+    width: 31%;
+    /* Blaze it */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .services-header {
@@ -110,6 +140,14 @@ h2 {
 
 .main-content-section {
     height: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.main-content-section-products {
+    height: 675px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
