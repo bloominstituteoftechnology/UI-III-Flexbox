@@ -218,8 +218,202 @@ footer {
 
 	/* services.html */
 
+
+ .top-services {
 	
+	display:flex;
+	width: 90%;
+	justify-content: baseline;
+	align-content: center;
+	flex-direction: column;
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+
+ }
  
+ .top-services img {
+
+	margin: .5em;
+
+ }
+.top-services h1 {
+
+	padding-top: 1em;
+	font-weight: heavy;
+	font-size: 25px;
+	padding-right: .5em;
+}
+
+
+.idk {
+   
+   height: max-content;
+	
+display: flex ;
+justify-content: space-between;
+flex-wrap: wrap;
+max-width : 1150px;
+
+
+
+
+}
+
+.box-1  {
+
+	display: flex;
+	border: 1px solid black;
+	height: 350px;
+	width: 400px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: lightgray;
+  text-align: left;
+
+	
+}
+
+.box-2 {
+
+
+
+	display: flex;
+	border: 1px solid black;
+  height: 350px;
+  align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: lightgray;
+  text-align: left;
+	width: 400px;}
+
+.box-3 {
+
+
+	display: flex;
+	border: 1px solid black;
+  height: 350px;
+  align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: lightgray;
+  text-align: left;
+	width: 400px;
+}
+
+
+
+
+
+
+
+.box-4 {
+
+	display: flex;
+	border: 1px solid black;
+  height: 350px;
+  align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: lightgray;
+  text-align: left;
+	width: 400px;
+}
+
+.box-5 {
+
+	display: flex;
+	border: 1px solid black;
+  height: 350px;
+  align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: lightgray;
+  text-align: left;
+	width: 400px;
+
+}
+
+
+.box-6 {
+
+	display: flex;
+	border: 1px solid black;
+  height: 350px;
+  align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: lightgray;
+  text-align: left;
+	width: 400px;
+
+}
+
+/*.box-2 {
+
+
+	display: flex;
+	border: 1px solid red;
+	width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+	
+
+}
+.box-3 {
+
+
+	display: flex;
+	border: 1px solid red;
+	width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+	
+}
+
+.box-4 {
+
+
+	display: flex;
+	border: 1px solid red;
+	width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.box-5 {
+
+
+	display: flex;
+	border: 1px solid red;
+	width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.box-6 {
+
+
+	display: flex;
+	border: 1px solid red;
+	width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+
+
+}*/ 
+
+
 
 
 
