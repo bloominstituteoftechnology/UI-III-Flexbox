@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	: 1;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +64,157 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 50%;
+	min-width: 980px;
+	margin: auto; 
+	display: block
+	
+}
+
+.container1 {
+	flex-direction: row;
+
+}
+
+.nav {
+	display: flex;
+}
+
+img .logo {
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	margin: 50px;
+}
+
+.services-header-img {
+	margin: 3%;
+	align-items: center;
+} 
+
+.img2 { 
+	align-items: center;
+}
+
+p {
+	margin: 3%
+}
+
+h3 {
+	margin: 3% 
+}
+
+.main-lines{
+	border-top: 1px solid black;
+	border-bottom: 3px solid black;
+}
+
+.flex-container {
+	width: 950px;
+	padding: 10px;
+	margin: 20px; 
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: center;
+}
+
+button {
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	margin: 1%;
+	border-radius: 8px;
+	border: 1px solid #000000;
+}
+
+.container3 {
+	width: 400px;
+	background-color: lightgrey;
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: 20px; 
+}
+
+.container4{
+	width: 400px;
+	background-color: lightgrey;
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: 20px; 
+}
+
+.container5{
+	width: 400px;
+	background-color: lightgrey;
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: 20px; 
+}
+
+.container6{
+	width: 400px;
+	background-color: lightgrey;
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: 20px; 
+}
+
+.container6 {
+	width: 400px;
+	background-color: lightgrey;
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: 20px; 
+}
+
+.container7 {
+	width: 400px;
+	background-color: lightgrey;
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: 20px; 
+}
+
+.container8 {
+	width: 400px;
+	background-color: lightgrey;
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: 20px; 
+}
+
+.bottom-div {
+	width: 950px;
+	padding: 10px;
+	margin: 20px; 
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: center;
+
+}
+
+.even-line-up{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li {
+	margin: 0px 20px 0px 20px;; 
+}
+
+.facts-about{
+	width: 400px;
+	padding: 0px 20px 0px 0px;
+	margin: 0px 20px 0px 0px; 
+	display: flex;
+	-webkit-flex-flow: row wrap;
+}
+	
+footer {
+	margin: 65px 0 100px 0;
+	text-align: center;
+}
