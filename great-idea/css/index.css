@@ -235,8 +235,9 @@ h1, h2, h3, h4, h5 {
 }
 .facts{
 	display: flex;
-	flex-direction: column;
-	padding: 10px;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 25px;
 	border: 1px solid red;
 	max-width: 876px;
 	margin: 0 auto;
@@ -257,6 +258,7 @@ h1, h2, h3, h4, h5 {
 }
 .services-info-img{
 	max-width: 400px;
+
 }
 
 
@@ -289,5 +291,9 @@ a:link {
   }
   .list{
 	  list-style-type: square;
-  }
+	}
+	.facts2{
+		display: flex;
+		flex-direction: column;
+	}
   
