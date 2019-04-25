@@ -97,6 +97,11 @@ h2 {
     margin-top: 15px;
 }
 
+.priority-high {
+    order: 1;
+    width: 840px;
+}
+
 .services-header {
     padding: 30px 0px;
     display: flex;
@@ -129,7 +134,8 @@ h2 {
 }
 
 .bottom-content ul {
-    margin: 20px 0 0 20px;
+    margin: 20px 0px;
+    list-style-position: inside;
     line-height: 30px;
 }
 
