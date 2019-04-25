@@ -249,7 +249,7 @@ button{
 	align-content: space-between;
 	/* flex-wrap: wrap; */
 	justify-content: space-between;
-	padding: 40px 0 0 0;
+	padding: 40px 0 40px 0;
 }
 
 .one4, .two4 {
@@ -277,6 +277,6 @@ button{
 }
 .srvfooter{
 	/* background-color: darkslategray; */
-	margin: 50px 26px 20px 26px;
+	margin: 40px 26px 20px 26px;
 	text-align: center;
 }
