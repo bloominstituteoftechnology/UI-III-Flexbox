@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+.sans {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 0.5px;
+  font-weight: bold;
+}
+
+body {
+  width: 880px;
+  margin: 0 auto;
+  background: darkgrey;
+}
+
+div.navigation {
+  padding: 15px 0;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  top: 0;
+  background: #412b61;
+  width: 100%;
+}
+
+nav {
+  display: inline-block;
+  margin: 0 10px 10px 200px;
+  box-sizing: border-box;
+  vertical-align: bottom;
+}
+
+nav a {
+  margin: 0 45px 0 0;
+  text-decoration: none;
+  color: #bebebe;
+}
+
+nav a:hover {
+  color: white;
+}
+
+#idea {
+  display: inline-block;
+  margin: 0 0 0 20px;
+  width: 20%
+}
+
+#innovation {
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+
+#start {
+  margin: 0 0 0px 0px;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 3px 50px;
+}
+
+#start:hover {
+  background: black;
+  border: 1px solid white;
+  color: white; 
+}
+
+@keyframes click{
+  0% {
+    background: 0 0 0 1;
+    color: white;
+  }
+  33% {
+    background: 65 43 97 0.5
+  }
+  66% {
+    background: 255 255 255 0.5
+  }
+  100% {
+    background: 0 0 0 1;
+    color: white;
+  }
+}
+
+#start:active {
+  background: 0 0 0;
+  animation-name: click;
+  animation-duration: 2s;
+}
+
+article {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 50px 30px;
+  box-sizing: border-box;
+  width: 40%;
+  display: inline-block;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+.main {
+  margin: 110px 0 90px;
+}
+
+.container {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 30px 0;
+}
+
+.half {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+
+.triplet {
+  width: 33%;
+}
+
+span {
+  line-height: 2;
+}
+
+center {
+  margin: 50px 0 0 0;
+}
