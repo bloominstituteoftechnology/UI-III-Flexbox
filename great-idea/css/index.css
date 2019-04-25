@@ -205,8 +205,8 @@ h2 {
   height: 250px;
   width: 420px;
   border: 1px solid black;
- padding-top: 10px;
- padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .words {
@@ -231,8 +231,6 @@ button {
   color: inherit;
 }
 
-
-
 .bottom-fold {
   display: flex;
   flex-direction: row;
@@ -241,7 +239,7 @@ button {
 }
 
 footer {
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
