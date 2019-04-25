@@ -63,4 +63,166 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	max-width: 780px;
+	margin: 0 auto;
+}
+
+header {
+  display: flex;
+	padding: 20px 20px 20px;
+
+}
+
+/* Nav Style Starts Here */
+
+.topnav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+	padding: 10px;
+	margin-bottom: 30px;
+  
+}
+
+.logo {
+  height: 35px;
+  margin-left: 30px;
+}
+
+ul li a {
+  margin: 1em;
+  color: #000;
+	text-decoration: none;
+	margin-right: 30px;
+  
+ }
+
+a:hover {
+  background-color: dogerblue;
+}
+
+.navbar {
+  display: flex;
+  color: #000;
+  
+ & li {
+    margin-right: 30px;
+    
+ & a {
+	text-decoration: none;
+    }
+& a:link,
+    a:visited {
+    color: currentColor;
+    }
+  }
+}
+  
+/* End Navigation */
+/* Start Header */
+.intro-container {
+	text-align: center;
+  display: flex;
+	/* border: 3px solid green; */
+}
+.intro  {
+	/* border: 4px dashed red; */
+
+	width: 450px;
+	text-align: center;
+	padding: 0px 0px 20px;
+}
+/* End Header */
+
+/* Top Main Section */
+ .intro h1 {
+	font-size: 4em;
+	/* border: 1px dashed red; */
+}  
+
+.introimg {
+	width: 33%;
+	padding: 10px 10px 10px 40px;
+  margin-bottom: 32px;
+}
+
+.intro button {
+	padding: 5px 40px 5px;
+	border: 1px solid black;
+	font-family: 'Roboto';
+}
+
+header p {
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
+}
+.codeimg {
+	width: 30%;
+	height: 30%;
+	padding: 0 20px 10px 80px;
+}
+
+.top-content {
+  display: flex;
+	flex-direction: row;
+	border-top: 1px solid black;
+	padding: 30px 0 30px;
+}
+
+.top-content .features {
+    width: 48%;
+}
+
+.top-content .about {
+	width: 49%;
+}
+/* End Top Main Section */
+
+/* Middle Code Image */
+.middle-img {
+	width: 100%;
+}
+
+/* Srart Bottom Main Content */
+.bottom-content {
+  display: flex;
+	border-bottom: 1px solid black;
+	padding: 20px 0 30px;
+}
+
+.bottom-content .services {
+	width: 32%;
+	/* border: 1px solid red; */
+
+}
+
+.bottom-content .product {
+	width: 32%;
+	margin: 0px 10px 0px;
+}
+
+.bottom-content .vision {
+	width: 32%;
+}
+/* End Bottom Main Content */
+
+/* Address and Phone Number */
+.contact-content {
+	margin-right: 670px;
+	margin-top: 30px;
+}
+
+/* Copyright */
+footer p {
+  display: flex;
+	justify-content: center;
+  align-items: center;
+  height: 6vh;
+  margin-top: 3vh;
+}
+
+
+
