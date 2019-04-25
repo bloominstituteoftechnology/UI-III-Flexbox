@@ -121,7 +121,7 @@ nav {
 
 .cta button {
 
-	 
+
 	 background-color: white;
 	 color: black;
 	 width: 60%;
@@ -144,7 +144,7 @@ nav {
 	flex-direction: column;
   padding-left: 1em;
 	width: 35%;
-	
+
 
 }
 #two {
@@ -156,13 +156,13 @@ width: 35%;
 
 }
 .bottom-img {
-  
+
 	 display:flex;
 	 justify-content: space-around;
 	 width: 100%;
 
 }
-.bottom-img img { 
+.bottom-img img {
 
 width: 100%;
 }
@@ -197,7 +197,7 @@ flex-direction: column;
 	flex-direction: column;
 	padding-right: 1em;
 
-	
+
 
 
 }
@@ -220,7 +220,7 @@ footer {
 
 
  .top-services {
-	
+
 	display:flex;
 	width: 90%;
 	justify-content: baseline;
@@ -231,7 +231,7 @@ footer {
 
 
  }
- 
+
  .top-services img {
 
 	margin: .5em;
@@ -247,9 +247,9 @@ footer {
 
 
 .idk {
-   
+
    height: max-content;
-	
+
 display: flex ;
 justify-content: space-between;
 flex-wrap: wrap;
@@ -272,7 +272,7 @@ max-width : 1150px;
 	background: lightgray;
   text-align: left;
 
-	
+
 }
 
 .box-2 {
@@ -351,232 +351,26 @@ max-width : 1150px;
 
 }
 
-/*.box-2 {
-
-
-	display: flex;
-	border: 1px solid red;
-	width: 100px;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-	
-
-}
-.box-3 {
-
-
-	display: flex;
-	border: 1px solid red;
-	width: 100px;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-	
+.bottom-content {
+height: 800px;
+width : 800px;
+flex-direction: column;
+display: flex;
+align-items: space-around;
+flex-wrap: wrap;
 }
 
-.box-4 {
-
-
-	display: flex;
-	border: 1px solid red;
-	width: 100px;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
+.services-info-img {
+	      display: flex;
+      align-self: flex-end;
+			 height: 400px;
+			 weight: 300px;
 
 
 }
 
-.box-5 {
+.bottom-content div {
+	height: 400;
+	weight: 400;
 
-
-	display: flex;
-	border: 1px solid red;
-	width: 100px;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-
-
-}
-.box-6 {
-
-
-	display: flex;
-	border: 1px solid red;
-	width: 100px;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-
-
-}*/ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.navigation-main {
-	display: flex;
-	width: 100%;
-	text-align: center;
-   justify-content: space-evenly;
-   flex-direction: row;
-   flex-wrap: wrap;
-   align-items: center;
-   text-align: center;
-
-
-	  }
-  .navigation-main a {
-
-	  padding: 20px;
-  }
-
-
-  .header {
-	 display: flex;
-	 width: 100%;
-  flex-direction: row;
-	justify-content: center;
-  }
-.header-main  {
-
-	display: flex;
-	font-size: 90px;
-	width:40%;
-	flex-direction: column;
-
-
-
-
-  }
-  #img{
-    width:40%;
-	  display: flex;
-		flex-direction: row;
-
-
-
-
-
-  }
-  #button {
-	  background-color: white;
-	  color: black;
-
-	  font-size: 20px;
-	  text-align: center;
-
-
-
-
-
-
-}
-
-.top-content {
-	display:flex;
-
-	border-top: 1.5px solid gray;
-	margin-left: 30px;
-	margin-right: 30px;
-}
-
-#one {
-
-	display: flex;
-	padding-top: 40px;
-    width: 300px;
-	vertical-align: middle;
-
-
-}
-
-#two {
-
-	display: flex;
-	padding-top: 40px;
-    width: 300px;
-	position: absolute;
-	right: 20px;
-	vertical-align: middle;
-
-}
-.middle-img {
-
-	display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-}
-
- #three {
-
-	display: flex;
-    width: 315px;
-    height: 125px;
-	padding: 25px;
-	margin-left: 5;
-
-
-  }
-
-  #four{
-	display: flex;
-    width: 315px;
-    height: 125px;
-	padding: 30px;
-	margin-left: 20px;
-
-
-
-  }
-
-  #five {
-
-	display: flex;
-    width: 315px;
-    height: 125px;
-	padding: 30px;
-	margin-left: 100px;
-  }
-.Contact {
-
-	border-top: 1.5px solid gray;
-	padding-top: 40px;
-	width: 1000px;
-	margin-left: 20px;
-}
-footer {
-
-   text-align: center;
 }
