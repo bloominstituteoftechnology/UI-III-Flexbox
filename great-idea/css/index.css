@@ -157,16 +157,14 @@ body {
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20 0 20 0;
   color: black;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 20 0 20 0;
 }
 
 a {
@@ -205,8 +203,7 @@ h2 {
   height: 250px;
   width: 420px;
   border: 1px solid black;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10 0 10 0;
 }
 
 .words {
@@ -221,8 +218,7 @@ button {
   width: 150px;
   height: 30px;
   border-radius: 20px;
-  margin-top: 40px;
-  margin-left: 10px;
+  margin: 40 0 0 10;
 }
 
 .list {
@@ -240,6 +236,5 @@ button {
 
 footer {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20 0 20 0;
 }
