@@ -76,13 +76,20 @@ body {
 	flex-direction: row;
 
 }
-
-.nav {
-	display: flex;
+nav {
+	padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 960πpx;
 }
 
-img .logo {
-	display: flex;
+
+.logo {
+	
 }
 
 a {
@@ -203,7 +210,7 @@ button {
 }
 
 ul li {
-	margin: 0px 20px 0px 20px;; 
+	margin: 0px 20px 0px 20px; 
 }
 
 .facts-about{
