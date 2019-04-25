@@ -73,7 +73,7 @@ header nav{
 	width: 80%;
 	box-align: border-box;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 }
 .main-content img{
 	align-content: stretch
@@ -97,22 +97,22 @@ header nav{
 .features{
 	width: 50%;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 }
 .about{
 	width: 50%;
 	display: inline-block;
-	float: right;
+	/* float: right; */
 }
 .services{
 	width: 33.3%;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 }
 .product{
 	width: 33.3%;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 }
 footer{
 	align-items: center
