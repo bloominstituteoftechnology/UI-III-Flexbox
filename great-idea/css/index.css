@@ -63,4 +63,178 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+*{
+  box-sizing:border-box;
+}
+
+nav{
+	border-bottom: black 1px solid;
+	background: lightgray;
+	position: sticky;
+	top: 0;
+	padding: 25px ;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul {
+	display: flex;
+  	list-style-type: none;
+}
+
+
+li a {
+  color:rgb(66, 66, 66);
+  font-size:20px;
+  margin: 28px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration:underline;
+}
+
+
+.banner{
+  padding:60px;
+  display:flex;
+}
+  
+.banner img{
+  margin-left:100px;
+  vertical-align:middle;
+}
+
+.banner h1{
+  vertical-align:middle;
+  font-size:80px;
+}
+.banner button{
+  border:solid 1px;
+  background-color:white;
+  width:200px;
+  height:50px;
+  font-size:18px;
+  transition: background-color 0.5s ease;
+  
+}
+
+.banner button:hover{
+  background-color:darkgrey;
+}
+button a{
+  color:black;
+  text-decoration:none;
+}
+
+section {
+  border-top:1px solid;
+ 
+}
+
+body{
+  width:1000px;
+  margin:auto;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+}
+
+.top-content {
+  display:flex;
+  font-size:18px;
+  margin:30px 0px;
+  text-align:left;
+}
+
+
+.middle-img{
+  width:100%;
+  height:200px;
+  display:block;
+}
+
+.bottom-content {
+  font-size:18px;
+  margin:30px 0px;
+  padding:0px 0px 30px;
+  display:flex;
+  text-align:left;
+  border-bottom:1px solid;
+  
+}
+
+
+address {
+  font-size:18px;
+  text-align:left;
+}
+
+footer {
+  margin:60px 0px 40px 0px;
+}
+
+#intro{
+  padding:20px 0px;
+  text-align: left;
+}
+
+#intro h1{
+  font-size: 28px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  justify-content: space-between;
+
+
+}
+
+.card {
+  display: flex;
+  flex-flow: column;
+  height: 200px;
+  width: 48%;
+  padding: 15px;
+  margin: 20px 0px;
+  text-align: left; 
+  border: solid 1px black;
+  background: rgb(243, 243, 243);
+}
+
+.card button{
+  font-size: 10px;
+  background: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-top: 25px;
+  width: 30%;
+  height:20%;
+}
+
+#facts {
+  margin-top: 35px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.f-content{
+  width: 45%;
+}
+
+.f-content ul{
+  margin-top: 20px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.f-content ul li{
+  margin-top: 10px;
+}
