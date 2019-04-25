@@ -1,5 +1,5 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
+  v2.0 | 20110126
    License: none (public domain)
 */
 
@@ -63,4 +63,131 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.container {
+	width: 880px;
+	/* border: 10px dashed black; */
+	margin: auto;
+
+}
+
+header {
+	display: flex;
+	padding: 20px 0;
+	/*TRBL*/
+}
+
+nav {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	flex: 1;
+}
+nav a {
+
+	flex: 0 0 80px;
+	margin: 5px;
+	justify-content: center;
+	color: grey;
+	text-decoration: none;
+	/* border: 3px solid blue; */
+}
+
+.intro-container {
+	text-align: left;
+	margin-bottom: 40px;
+	border-bottom: 2px solid black;
+	/* border: 3px solid green; */
+ }
+.intro  {
+	/* border: 4px dashed red; */
+	padding: 0px 0px 40px;
+}
+
+ .intro h1 {
+	font-size: 24px;
+	text-align: left;
+	margin-top: 40px;
+	/* border: 1px dashed red; */
+}  
+
+
+.introimg {
+	width: 30%;
+	/* border: 1px dashed red; */
+		/* TRBL*/
+	padding: 20px 10px 10px 20px;
+	justify-content: left;
+}
+
+ .intro button {
+	padding: 5px 40px 5px;
+	border: 1px solid black;
+	font-family: 'Titillium Web';
+}
+
+header p {
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
+}
+.codeimg {
+	width: 30%;
+	height: 30%;
+	/*TRBL*/
+	padding: 0 20px 20px 100px;
+}
+
+.top-content {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid black;
+	padding: 30px 0 30px;
+}
+ .row-container {
+	 display: flex;
+	 /*background-color: red;*/
+	 justify-content: space-between;
+	 margin-bottom: 40px;
+	 
+	}
+ .row-container .features {
+	 width: 48%;
+	 border: 1px solid black;
+	 padding: 20px;
+	 background: #eeeeee;
+	
+ }
+ .row-container .features p{
+	 margin-bottom: 20px;
+
+ }
+  
+  	button.learn-more{
+		  background-color: white;
+		  border: 1px solid black;
+		  padding: 10px 30px;
+		  border-radius: 5px;
+		  font-size: 12px;
+		
+	  }
+  
+.bottom-content {
+	margin-top: 30px;
+	align-content: right;
+
+}
+
+bottomimg {
+	display:flex;
+	width: 100%;
+	align-content: left;
+}
+footer p {
+	text-align: center;
+}
