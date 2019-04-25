@@ -64,3 +64,306 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	/* border: 10px dashed black; */
+	margin: auto;
+}
+
+header {
+	/* border: 5px dashed orange; */
+	padding: 20px 20px 20px;
+
+}
+
+nav {
+	/* border: 3px solid red; */
+    display: flex;
+	width: 75%;
+}
+nav a {
+	
+	color: grey;
+	text-decoration: none;
+	padding: 0 25px 0px;
+	flex-direction: row;
+	/* border: 3px solid blue; */
+}
+.logo-great-idea{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -15px;
+}
+
+.intro-container {
+	text-align: center;
+	display: flex;
+	/* border: 3px solid green; */
+}
+.intro  {
+	/* border: 4px dashed red; */
+	flex-direction: column;
+	width: 550px;
+	height: 100px;
+	text-align: center;
+	padding: 0px 0px 40px;
+	margin-bottom: -30px;
+}
+.started{
+	margin-top: 30px;
+}
+
+ .intro h1 {
+	font-size: 50pt;
+	/* border: 1px dashed red; */
+
+}  
+
+
+.introimg {
+	display: flex;
+	width: 40%;
+	height: 20%;
+	/* border: 1px dashed red; */
+	flex-direction: row;
+	/* TRBL*/
+	padding: 20px 10px 10px 20px;
+	margin-bottom: 15px;
+}
+
+.intro button {
+	padding: 5px 40px 5px;
+	border: 1px solid black;
+	font-family: 'Titillium Web';
+}
+
+header p {
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
+}
+.codeimg {
+	width: 30%;
+	height: 30%;
+	/*TRBL*/
+	padding: 0 20px 20px 100px;
+}
+
+.top-content {
+	border-top: 1px solid black;
+	padding: 30px 0 30px;
+	display: flex;
+}
+
+
+.top-content .features {
+	flex-direction: row;
+	/* border: 1px solid red; */
+	width: 49%;
+	margin-right: 5px;
+}
+
+.top-content .about {
+	flex-direction: row;
+	/* border: 1px solid red; */
+	width: 49%;
+}
+
+.middle-img {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.bottom-content {
+	display: flex;
+	border-bottom: 1px solid black;
+	padding: 20px 0 30px;
+}
+
+.bottom-content .services {
+	flex-direction: row;
+	width: 32%;
+	/* border: 1px solid red; */
+
+}
+
+.bottom-content .product {
+	flex-direction: row;
+	width: 32%;
+	margin: 0px 10px 0px;
+}
+
+.bottom-content .vision {
+	flex-direction: row;
+	width: 32%;
+}
+
+.contact-content {
+	margin-top: 30px;
+}
+footer p {
+	text-align: center;
+}
+
+/* service page css starts here!!
+*/
+
+.services-container{
+	max-width: 100%;
+}
+
+.services-page-nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 100px;
+}
+	
+
+.great-idea-logo{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -45px;
+	margin-right: 160px;
+	margin-bottom: auto;
+}
+.services-header-img{
+align-content: center;
+margin-left: 190px;
+margin-top: 60px;
+}
+.services-section{
+	margin-left: 190px;
+	width:70%;
+	margin-top: 30px;	
+}
+.first-border-line{
+	border: 1px solid grey;
+	margin-top: 30px;
+	width: 70%;
+	margin-left: 190px;
+
+}
+.services-h1{
+
+	font-size: 30px;
+}
+.bottom-section-content{
+	display: flex;
+	flex-wrap:wrap;
+
+	max-width: 30%;
+	margin-left: 200px;
+	margin-top: 30px;
+
+}
+.digital-design{
+background-color: lightgray;
+border: 1px solid grey;
+}
+.ux-ui{
+position: relative;
+left: 480px;
+bottom: 230px;
+background-color: lightgray;
+
+	border: 1px solid grey;
+}
+.digitalmarketing{
+	position: relative;
+	bottom: 55px;
+	margin-top:-100px;
+	background-color: lightgray;
+
+	border: 1px solid grey;
+}
+.webdev{
+	position: relative;
+	left: 480px;
+	bottom: 290px;
+    background-color: lightgray;
+	border: 1px solid grey;
+}
+.io-sdevelopment{
+	position: relative;
+	bottom: 120px;
+	margin-top:-100px;
+    background-color: lightgray;
+	border: 1px solid grey;
+}
+.android-development{
+	position: relative;
+	left: 480px;
+	bottom: 350px;
+	background-color: lightgray;
+	height: 230px;
+	
+
+	border: 1px solid grey;
+}
+h2{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+}
+p{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+button{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.second-border-line{
+border: 1px solid grey;
+margin-top: -290px;
+width: 70%;
+margin-left: 190px;
+}
+
+.facts-section{
+	position: relative;
+	right: -180px;
+	width: 45%;
+	padding: 20px;
+	margin-left: -30px;
+	
+}
+.services-info-img{
+	position: relative;
+	left: 800px;
+	margin-top: -300px;
+	height: 280px;
+	margin-left: -100px;
+	
+}
+ul li{
+	margin-top: 20px;
+	margin-left: 15px;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.copyright-text{
+text-align: center;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+
+.learnmore6{
+display: flex;
+align-content: flex-start;
+margin-left: -4px;
+}
+
+
+
+
+
+
+
