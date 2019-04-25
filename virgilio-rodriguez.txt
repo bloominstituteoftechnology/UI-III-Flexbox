@@ -1,0 +1,1 @@
+This is the file entered as the second step for the Git, Github Project.
