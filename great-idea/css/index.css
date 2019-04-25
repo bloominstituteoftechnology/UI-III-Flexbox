@@ -151,7 +151,7 @@ img{
 }
 
 .div4{
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 30px;
 	display: flex;
 	flex-direction: column;
@@ -159,16 +159,15 @@ img{
 }
 
 #num1{
-	padding: 15px 0px 15px 0px;
+	padding: 15px 0px;
 	
 }
 
 .section3{
-	padding-top:30px;
 	padding-bottom: 30px;
+	display:flex;
+	width: 800px;
 	
-	display: flex;
-	flex-direction: row;
 }
 
 .section4{
@@ -184,8 +183,8 @@ img{
 	margin-bottom: 40px;
 	display:flex;
 	flex-direction: column;
-	justify-content: space-between;
-}
+	
+	}
 
 .section5{
 	display: flex;
