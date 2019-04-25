@@ -69,7 +69,8 @@ body {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 header {
-  display: flex;
+	display: flex;
+	
 
 
 
@@ -80,6 +81,7 @@ nav {
 	display:flex;
 	justify-content: space-around;
 	padding-top: 10px;
+	text-decoration: none;
 }
 
 .top-sec {
@@ -254,6 +256,8 @@ display: flex ;
 justify-content: space-between;
 flex-wrap: wrap;
 max-width : 1150px;
+align-content: space-between;
+
 
 
 
@@ -267,9 +271,9 @@ max-width : 1150px;
 	height: 350px;
 	width: 400px;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	flex-direction: column;
-	background: lightgray;
+	background: #bbbb;
   text-align: left;
 
 
@@ -283,9 +287,9 @@ max-width : 1150px;
 	border: 1px solid black;
   height: 350px;
   align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	flex-direction: column;
-	background: lightgray;
+	background: #bbbb;
   text-align: left;
 	width: 400px;}
 
@@ -296,9 +300,9 @@ max-width : 1150px;
 	border: 1px solid black;
   height: 350px;
   align-items: center;
-	justify-content: center;
+	justify-content:space-around;
 	flex-direction: column;
-	background: lightgray;
+	background: #bbbb;
   text-align: left;
 	width: 400px;
 }
@@ -315,9 +319,9 @@ max-width : 1150px;
 	border: 1px solid black;
   height: 350px;
   align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	flex-direction: column;
-	background: lightgray;
+	background: #bbbb;
   text-align: left;
 	width: 400px;
 }
@@ -328,9 +332,9 @@ max-width : 1150px;
 	border: 1px solid black;
   height: 350px;
   align-items: center;
-	justify-content: center;
+	justify-content:space-around;
 	flex-direction: column;
-	background: lightgray;
+	background: #bbbb;
   text-align: left;
 	width: 400px;
 
@@ -343,34 +347,46 @@ max-width : 1150px;
 	border: 1px solid black;
   height: 350px;
   align-items: center;
-	justify-content: center;
+	justify-content:space-around;
 	flex-direction: column;
-	background: lightgray;
+	background: #bbbb;
   text-align: left;
 	width: 400px;
 
 }
 
-.bottom-content {
-height: 800px;
-width : 800px;
-flex-direction: column;
-display: flex;
-align-items: space-around;
-flex-wrap: wrap;
+.bottom-content  {
+ display: flex;
+ flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+text-align: unset;
+align-content: 
+
+
+ 
 }
 
-.services-info-img {
-	      display: flex;
-      align-self: flex-end;
-			 height: 400px;
-			 weight: 300px;
 
+      UL {
+		text-align: left;
+    list-style-type: circle;
+		list-style-position: outside;
+		
 
-}
+	}
+	.bottom-content p{
+		width:400px;
+		height:400px;
 
-.bottom-content div {
-	height: 400;
-	weight: 400;
-
-}
+	}
+	.services-info-img{
+		width:500px;
+		height:500px;
+	
+	}
+	.bottom-content h2 {
+		font-size: 25px;
+		font-weight: bold;
+		padding-top: 10em:
+	}
