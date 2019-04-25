@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin:0 3%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,111 +63,183 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-html {
-	box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-	box-sizing: inherit;
-}
-
-
-
-nav {
-	margin: 50px 100px 50px;
-	display: inline-block;
-
-  }
-  
-nav a {
-  margin-left: 50px;
-  font-size: 20px;
-  text-decoration: none;
-  color: gray;
-}
-
+/* Your code starts here! */
 .logo{
+  margin-top:2%;
+  display:inline-flex;
+}
+nav{
+width:100%;
+display:flex;
+flex-wrap: nowrap;
+align-items:baseline;
+}
+a {
+font-size:20px;
+margin-bottom:2%;
+padding-right: 9%;
+color:gray;
+text-decoration:none;
+}
+p{
+font-size:23px;
+}
+.circle-image {
+margin:5%;
+display:flex;
+justify-content: space-between;
+flex-direction:row;
+flex-wrap:nowrap;
+}
+h1 {
+width:80%;
+padding:10%;
+font-size:80px;	
+}
+h2{
+display:inline-block;
+font-size:30px;
+}
+.demand{
+width:40%;
+padding:3%;
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content: center;
+text-align:center;
+}
+.top-half{
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+button{
+margin-top:3%;
+display:flex;
+flex-direction: column;
+flex-wrap:wrap;
+justify-content: center;
+align-items:center;
+font-size:25px;
+padding:1% 2%;
+background:transparent;
+border:1px solid black;
+text-align:center;
+}
+header, .bottom-blocks{
+border-bottom:1px solid black;
+margin:5% 2% 4% 2%;
+}
+.bottom-blocks p{
   display:inline-block;
-  margin-left: 150px;
+  margin-bottom:10%;
+}
+.top-blocks{
+display:flex;
+flex-wrap:nowrap;
+justify-content: space-between;
+width:100%;
+margin-bottom:3%;
+}
+.content-block-f, .content-block-a{
+display:flex;
+flex-wrap:wrap;
+width:50%; 
+}
+.bottom-blocks{
+	width:100%;
+  display:flex;
+  flex-wrap: nowrap;	
+}
+.content-block-s, .content-block-p, .content-block-v {
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;	
+}
+.middle-image{
+width:100%;
+}
+address{
+font-size:15px;
+width:15%;
+}
+.services-copy, .home-copy{
+  margin:3%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.addy, .number, .email{
+  margin-bottom:2%;
+}
+/* services page styles */
+.services-page-s {
+  padding-bottom:3%;
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  margin-top:2%;
+  border-bottom: 2px solid black;
+}
+.services-button{ 
+  background-color:white;
+  padding:10px 60px;
+  text-align:center;
+  font-size:14px;
+  border-radius:2px;
+  justify-content: center;
+}
+.cards{
+  width:100%;
+  padding-bottom: 3%;
+  margin-top:2%;
+  margin-bottom:5%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  border-bottom:2px solid black;
+}
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+  margin-top:2%;
+  margin-bottom:2%;
+  width:47%;
+  padding:2% 2%;
+  border:1px solid black;
+  background-color:#d3d3d3;
+  display:flex;
+  flex-wrap:wrap;
+}
+.services-header-img{
   width:100%;
 }
-
-.top-inov{
-  margin-left: 130px;
-  margin-top: -300px;
+.services-info-img{
+  width:45%;
+  display:flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+}
+.facts{
+  width:45%;
+}
+.list{
+  line-height:1.5;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-items:space-evenly;
+  margin:3%;
+  font-size:20px;
+}
+.bottom-half{
+  width:100%;
+  margin:2% 0 0 0;
+  display:flex;
+  justify-content: space-between;
+  flex-direction:row;
 }
 
-.top-on{
- margin-left: 200px;
-}
 
-.top-demand {
 
-  margin-left: 150px;
-}
 
-button{
-  margin: 10px 180px;
-}
-
- h1 strong {
-  font-size: 60px;
-	font-weight: extra-bold;
-	color: black;
-  }
-
-.code-snip{
-  margin-left: 1000px;
-}
-
-.get-started{
-  margin-left: 170px;
-  border: 1px solid black;
-  width:120px;
-  text-align:center;
-  padding:5px;
-}
-
-.top-content1  {
- width:350px;
-  margin:50px 50px;
-}
-
-.top-content2 {
- 
-  width:350px;
-  margin:50px 50px;
-}
-
-.top-content1, .top-content2 {
-  display:inline-block;
-  margin: 100px 200px;
-}
-
-.services {
- width:200px;
-}
-
-.product {
-  width:200px;
-  margin-left: 50px;
-}
-.vision {
-  width:200px; 
-}
-
-.services, .product, .vision {
-  display:inline-block;
-  margin: 100px 200px 50px 50px;
-}
-
-address {
- width: 150px;
-}
-
-.copyright {
-  text-align: center;
-}
