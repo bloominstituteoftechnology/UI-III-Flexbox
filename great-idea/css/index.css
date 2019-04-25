@@ -238,6 +238,7 @@ button{
 	padding: 10px;
 	padding-left: 40px;
 	padding-right: 40px;
+	cursor: pointer;
 }
 .section4{
 	/* background-color: cornflowerblue; */
