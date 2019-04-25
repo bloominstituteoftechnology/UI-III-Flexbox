@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	
 }
 blockquote, q {
 	quotes: none;
@@ -65,9 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .site{
-	max-width: 1000px;
-	margin: 0 auto;
-	align-self:center;
+	
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 
 }
 
@@ -153,7 +154,6 @@ img{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	display: flex;
-	justify-content: flex-start;
 	flex-direction: column;
 	
 }
@@ -192,6 +192,7 @@ img{
 	flex-direction: row;
 	width: 800px;
 	border-bottom: thin solid black;
+	margin-bottom: 20px;
 }
 
 button{
@@ -221,4 +222,39 @@ button{
 
 }
 
+.section6{
+	display:flex;
+	width:800px;
+	align-items :center;
 
+	justify-content:space-between;
+}
+
+.div9{
+	display: flex;
+	flex-direction:column;
+	height: 250px;
+
+	justify-content: flex-start;
+	
+	
+	width: 350px;
+	
+}
+
+
+.div9 ul{
+	margin-left:5px;	
+}
+
+#img2{
+	width:380px;
+}
+
+li{
+	margin: 15px;
+}
+
+#p-end{
+	margin: 20px;
+}
