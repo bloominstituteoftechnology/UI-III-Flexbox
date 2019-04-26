@@ -82,5 +82,5 @@ body{
 flex-direction: column;
 vertical-align: left; text-align: left ; justify-content:left; }
 .logo{display: inline-block; flex-direction: row; ;}
-.break{border:1px solid blue; margin: 35px;}
+.break{border:1px solid gray; margin: 35px;}
 .footer {display: flex; flex-direction: column; }
