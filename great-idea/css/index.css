@@ -146,8 +146,7 @@ header p {
 .top-content {
 	display: flex;
 	flex-direction: column;
-	border-top: 1px solid black;
-	padding: 30px 0 30px;
+	
 }
  .row-container {
 	 display: flex;
@@ -161,33 +160,55 @@ header p {
 	 border: 1px solid black;
 	 padding: 20px;
 	 background: #eeeeee;
-	
+	 
  }
  .row-container .features p{
 	 margin-bottom: 20px;
+	 padding: 40 px;
+
+ }
+
+ .about-services {
+	align-content: left;
+	width: 48%;
 
  }
   
-  	button.learn-more{
-		  background-color: white;
-		  border: 1px solid black;
-		  padding: 10px 30px;
-		  border-radius: 5px;
-		  font-size: 12px;
+button.learn-more{
+	border: 1px solid black;
+	padding: 10px 30px;
+	border-radius: 5px;
+	font-size: 12px;
+	background-color: white;
 		
 	  }
   
 .bottom-content {
+	display: flex;
 	margin-top: 30px;
-	align-content: right;
-
+	align-content: left;
+	justify-content: space-between;
+	border-top: 2px solid black;
+	padding: 50px 0px;
 }
 
-bottomimg {
-	display:flex;
-	width: 100%;
-	align-content: left;
+.points ul {	
+	list-style-position: inside;
+	list-style-type: square;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.points li {
+	padding-top: 10px;
+}
+
+.services-info-img {
+	width: 48%; 
+	
+	align-content: right;
+	justify-content: space-between;
 }
 footer p {
 	text-align: center;
+	padding-bottom: 50px;
 }
