@@ -1,0 +1,18 @@
+<div id='opening'>
+  <h1>Very Fantastic Business</h1>
+  <p>Our product is great. You should buy it.</p>
+  <span> we offer a wide variety of services for our product too!</span>
+</div>
+<div>
+  <h2 id='important'> Locations</h2>
+  <p class='sellingpoint'> we have locations all over the world to increase convience for our customers.</p>
+  <ol > <li>United States</li> <li> Mexico </li> <li> Spain</li> <li>China</li> <li> Brazil</li></ol>
+  <p class='sellingpoint'> these are just a few of our extravagant locations </p>
+ <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"> 
+</div>
+<div>
+  <h2> Transportation </h2>
+  <p class='sellingpoint'> we also offer multiple options of transportation to our locations and will pick you up and drop you off if you want </p>
+  <a href=www.google.com> just click here to book </a>
+</div>
+<h1 style="font-family: verdana"> share us with your friends </h1>
