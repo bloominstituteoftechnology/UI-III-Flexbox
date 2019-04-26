@@ -64,3 +64,166 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header, main, footer {
+	margin: 5% 8%;
+}
+
+header, ul {
+	display: flex;
+}
+
+header {
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+	width: 70%;
+}
+
+ul {
+justify-content: space-between;
+}
+
+li {
+	color: grey;
+}
+
+ul#things {
+	display: block;
+	list-style: square;
+	margin-top: 20px;
+}
+	
+	li.thing {
+		color: black;
+		margin: 15px 0 15px 25px;
+	}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+ 
+h1 {
+	font-size: 400%;
+	width: 255px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 175%;
+}
+
+p {
+	line-height: 1.3;
+}
+
+button {
+	font-size: 100%;
+	font-family: inherit;
+	background: transparent;
+	border: solid 1px black;
+	width: 150px;
+	margin: 0 auto;
+}
+
+button.lmButton {
+	border-radius: 5px;
+	background-color: white;
+	margin-top: 25px;
+}
+
+section.top {
+	display: flex;
+	justify-content: space-around;
+	margin: 8% 0;
+}
+
+div.left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.top, img.top-image {
+	align-self: center;
+}
+
+div.boxContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+section.content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5% 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section.content > div {
+	padding: 30px 13px 30px 0;
+}
+
+.wrapperHalf {
+	width: 49%;
+	flex-grow: 2;
+}
+
+.learnMoreBox {
+	margin: 15px;
+	padding: 25px 15px;
+	width: 40%;
+	border: 1px solid black;
+	background: rgb(243, 243, 243);
+}
+
+.bottomBoxes {
+	margin: 15px;
+	width: 40%;
+}
+
+.bottom {
+	border-top: 2px solid black;
+	margin-top: 25px;
+	padding-top: 25px;
+	display: flex;
+}
+
+img.middle-img {
+	width: 100%;
+	flex-grow: 3;
+}
+
+img.services-info-img {
+	width: 100%;
+}
+
+img.services-header-img {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.wrapperThird {
+	width: 33%;
+	flex-grow: 1;
+}
+
+.copyright {
+	text-align: center;
+	margin: 30px 0;
+}
+
+p#ourServices {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+#phone {
+	margin: 15px 0;
+}
