@@ -69,19 +69,18 @@ body{
 	margin:0px auto;
 }
 .container { display: flex; 
-	justify-content: space-evenly;
+	justify-content: space-evenly; padding: 50px;
 }
 .para1 { display: flex; flex-direction: row;
 	 justify-content: flex-end; width: 800px;
 	  border: 1px ; padding: 4px;}
-.flex div { border: 1px ;
-	 padding: 4px; background: #A4F2D8; 
-	 font-family: verdana; font-size: 19px;
-	  text-align: center; color: black; }
+.middle-img{display: inline-block; margin: 50px;}
+	  .para2 { display: flex; flex-direction: row; justify-content: flex-end; 
+	width: 800px; border: 1px; padding: 4px; margin:}
 
-
-.para2 { display: flex; flex-direction: row; justify-content: flex-end; width: 800px; border: 1px solid gray; padding: 4px;}
-.flex div { border: 1px ;
-	 padding: 4px; background: #A4F2D8;
-	  font-family: verdana; font-size: 19px; text-align: center; color: gray; }
-s
+.center{display: inline-block;  
+flex-direction: column;
+vertical-align: left; text-align: ; justify-content:left; }
+.logo{display: inline-block; flex-direction: row; ;}
+.break{border:1px solid gray; margin: 35px;}
+h3 {display: inline-flex; }
