@@ -70,6 +70,10 @@ body {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 header {
 	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+
 	
 
 
@@ -224,38 +228,38 @@ footer {
  .top-services {
 
 	display:flex;
-	width: 90%;
-	justify-content: baseline;
-	align-content: center;
+	width: 90%; 
 	flex-direction: column;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	justify-content: center;
+	flex-wrap:wrap;
+	align-items: flex-start;
+  align-content: space-between;
 
 
- }
+
+ } 
 
  .top-services img {
-
-	margin: .5em;
-
+	 align-self: stretch;
  }
-.top-services h1 {
+
+ 
+top-services h1 {
 
 	padding-top: 1em;
-	font-weight: heavy;
+	font-weight: bold;
 	font-size: 25px;
-	padding-right: .5em;
 }
-
 
 .idk {
 
-   height: max-content;
-
+	
+	
+height: max-content;
 display: flex ;
 justify-content: space-between;
 flex-wrap: wrap;
-max-width : 1150px;
+max-width : 1100px;
 align-content: space-between;
 
 
@@ -268,9 +272,9 @@ align-content: space-between;
 
 	display: flex;
 	border: 1px solid black;
-	height: 350px;
-	width: 400px;
-	align-items: center;
+	height: 300px;
+	width: 300px;
+	align-items: flex-start;
 	justify-content: space-around;
 	flex-direction: column;
 	background: #bbbb;
@@ -285,26 +289,28 @@ align-content: space-between;
 
 	display: flex;
 	border: 1px solid black;
-  height: 350px;
-  align-items: center;
+	height: 300px;
+	width: 300px;
+  align-items: flex-start;
 	justify-content: space-around;
 	flex-direction: column;
 	background: #bbbb;
   text-align: left;
-	width: 400px;}
+	;
+}
 
 .box-3 {
 
 
 	display: flex;
 	border: 1px solid black;
-  height: 350px;
-  align-items: center;
+  height: 300px;
+  align-items: flex-start;
 	justify-content:space-around;
 	flex-direction: column;
 	background: #bbbb;
   text-align: left;
-	width: 400px;
+	width:300px;
 }
 
 
@@ -317,26 +323,26 @@ align-content: space-between;
 
 	display: flex;
 	border: 1px solid black;
-  height: 350px;
-  align-items: center;
+  height: 300px;
+  align-items: flex-start;
 	justify-content: space-around;
 	flex-direction: column;
 	background: #bbbb;
   text-align: left;
-	width: 400px;
+	width: 300px;
 }
 
 .box-5 {
 
 	display: flex;
 	border: 1px solid black;
-  height: 350px;
-  align-items: center;
+  height: 300px;
+  align-items: flex-start;
 	justify-content:space-around;
 	flex-direction: column;
 	background: #bbbb;
   text-align: left;
-	width: 400px;
+	width: 300px;
 
 }
 
@@ -345,13 +351,13 @@ align-content: space-between;
 
 	display: flex;
 	border: 1px solid black;
-  height: 350px;
-  align-items: center;
+  height: 300px;
+  align-items: flex-start;
 	justify-content:space-around;
 	flex-direction: column;
 	background: #bbbb;
   text-align: left;
-	width: 400px;
+	width: 300px;
 
 }
 
@@ -361,24 +367,26 @@ align-content: space-between;
 flex-wrap: nowrap;
 justify-content: space-between;
 text-align: unset;
-align-content: 
+align-content: space-between;
+
 
 
  
 }
 
-
       UL {
-		text-align: left;
+     
+		
     list-style-type: circle;
 		list-style-position: outside;
 		
 
 	}
-	.bottom-content p{
+	/*.bottom-content p {
+	display: flex;
 		width:400px;
 		height:400px;
-
+   */
 	}
 	.services-info-img{
 		width:500px;
