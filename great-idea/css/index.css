@@ -160,12 +160,20 @@ hr {
   color: black;
 }
 
+
 .header {
   display: flex;
-  padding: 20 0 20 0;
   flex-flow: column nowrap;
   align-items: center;
   width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  order: 2
 }
 
 .mobile-hr {
@@ -174,13 +182,13 @@ hr {
 }
 
 a {
-  padding-right: 50px;
   color: lightgrey;
   text-decoration: none;
   font-size: 18px;
 }
 
 .logo {
+  display: flex;
   width: 30%;
   margin-bottom: 20px;
   order: -1;
