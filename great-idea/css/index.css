@@ -295,3 +295,73 @@ footer {
     margin: 30px 0px 30px 0px;
   }
 }
+
+@media screen and (min-width: 800px) {
+  
+  body {
+    width: 980px;
+    align-content: center;
+    margin: auto;
+  }
+  
+  .mobile-hr {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .nav-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+
+  a {
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .logo {
+    display: flex;
+    width: 20%;
+    margin-bottom: 20px;
+
+  }
+
+ 
+
+  .material {
+    display: flex;
+    flex-flow: row wrap;
+    width: 40%;
+    justify-content: flex-start;
+    margin: 20px 10px 20px 10px;
+  }
+
+  .bottom-fold {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+
+  .all-middle-material {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+
+  footer {
+    margin: 30px 0px 30px 0px;
+  }
+
+}
