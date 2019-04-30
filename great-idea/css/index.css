@@ -165,7 +165,6 @@ h5 {
 }
 
 .text-button {
-  display: inline-block;
   margin: 0 auto;
   width: 50%;
 }
@@ -194,6 +193,7 @@ button {
 }
 
 header {
+  display: flex;
   margin: 0 auto;
   padding: 35px;
   border-bottom: 1px solid black;
@@ -208,6 +208,7 @@ header {
 
 .first-row {
   display: flex;
+  flex-direction: ;
   margin: 0 auto;
   padding: 20px;
 }
