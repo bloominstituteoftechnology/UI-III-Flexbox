@@ -208,23 +208,22 @@ header {
 
 .first-row {
   display: flex;
-  flex-direction: ;
   margin: 0 auto;
   padding: 20px;
 }
 
 .container-one {
-  display: flex;
-  flex-direction: flex-start;
+  /*display: inline-block;*/
+  /*justify-content: row;*/
   width: 46%;
   margin: 48px;
 }
 
 .container-two {
-  display: flex;
+  /*display: inline-block;*/
+  /*flex-direction: row;*/
   width: 45%;
   margin-left: 48px;
-  align-items: flex-end;
 }
 
 .second-text {
