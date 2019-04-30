@@ -184,6 +184,8 @@ title {
 	display: none;
 }
 
+/* Navigation bar */
+
 nav {
 	display: flex;
 	justify-content: flex-start;
@@ -202,6 +204,8 @@ nav img {
 	margin-left: 30px;
 	width: 232px;
 }
+
+/* Header Section */
 
 header {
 	display: flex;
@@ -233,12 +237,13 @@ header .btn {
     margin-right: 5px;
 }
 
-
 header img {
 	width: 475px;
 	margin-left: 100px;
 
 }
+
+/* Top Section */
 
 .top-section {
 	display: flex;
@@ -271,6 +276,8 @@ header img {
 	width: 535px;
 }
 
+/* Middle Section */
+
 .middle-section {
 	display: flex;
     justify-content: center;
@@ -281,6 +288,8 @@ header img {
 	width: 1094px;
     height: 228px;
 }
+
+/* Bottom Section */
 
 .bottom-section {
 	display: flex;
@@ -313,6 +322,8 @@ header img {
 	padding-left: 15px;
 }
 
+/* Contact Section */
+
 .contact {
 	margin: 47px 0 0 215px;
     width: 235px;
@@ -331,6 +342,8 @@ header img {
 	font-size: 20px;
 	margin: 26px 0;
 }
+
+/* Footer */
 
 footer {
 	text-align: center;
