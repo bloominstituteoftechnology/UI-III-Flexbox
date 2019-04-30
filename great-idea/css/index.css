@@ -64,3 +64,191 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+/* Defaults */
+.container {
+	width: 880px;
+	margin: auto;
+	/* border: 1px solid red; */
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	/* align-content: space-between; */
+}
+
+.container .cta,
+.container .main-content .top-content,
+.container .main-content .bottom-content,
+.container .contact {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.services-container header,
+.services-container .intro-top,
+.services-container .services,
+.services-container .bottom-content {
+	margin-bottom: 30px;
+}
+
+.services-container .services .content-box {
+	margin: 20px 0px 20px 0px;
+}
+
+/* Header and Nav */
+header,
+nav {
+	display: flex;
+	margin-top: 20px;
+	/* border: 1px solid red; */
+}
+
+nav {
+	justify-content: space-between;
+	flex: 1;
+}
+
+header {
+	justify-content: space-between;
+	flex: 5;
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+}
+
+.logo {
+	margin-left: 60px;
+} /* Use Align Self */
+
+/* CTA */
+.services-container .intro-top .intro-text {
+	margin-top: 30px;
+}
+
+.services-container .intro-top .intro-text h1 {
+	font-size: 25px;
+}
+
+.container .cta {
+	/* border: 1px solid red; */
+	align-content: center;
+	justify-content: space-between;
+	display: flex;
+}
+
+.container .cta .cta-container {
+	display: flex;
+}
+
+.cta .cta-text {
+	/* border: 1px solid red; */
+	text-align: center;
+	align-self: center;
+
+	margin-left: 100px;
+}
+
+.cta .cta-text h1 {
+	font-size: 72px;
+}
+
+/* Content */
+.container .main-content .top-content,
+.container .main-content .bottom-content {
+	justify-content: space-between;
+
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.container .main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.services-container .main-content {
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.main-content .top-content .text-content {
+	width: 400px;
+}		
+	
+.main-content .bottom-content .text-content {
+	width: 270px;
+}
+
+/* Services Content */
+.container .services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.container .services .content-box {
+	border: 1px solid black;
+	background: #e0eaf9;
+	padding: 20px;
+
+	width: 420px;
+}
+
+button {
+	background: white;
+	border: 1px solid black;
+	padding: 5px 30px;
+	border-radius: 5px;
+}
+
+.cta-btn {
+	background: white;
+	border: 1px solid black;
+	padding: 5px 40px;
+	font-size: 16px;
+	border-radius: 0px;
+}
+
+/* Bottom Content */
+.container .bottom-content {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+.container .bottom-content .closer-content {
+	width: 400px;
+}
+
+/* Footer */
+
+.contact {
+	flex-direction: column;
+}
+
+footer {
+	text-align: center;
+}
