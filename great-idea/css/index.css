@@ -3,64 +3,314 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  flex-wrap: wrap;
+}
+body {
+  width: 100vw;
+}
+h2 {
+  font-size: 40px;
+}
+@media (max-width: 880px) {
+  header img {
+    width: 40vw;
+    height: 40vw;
+  }
+  header div h1 {
+    font-size: 35px;
+  }
+  header div button {
+    width: 150px;
+    font-size: 16px;
+  }
+  nav {
+    margin: 0px;
+  }
+  nav-item {
+    padding: 2px;
+    margin: 10px 2px;
+  }
+}
+nav {
+  color: gray;
+  position: fixed;
+  width: 100%;
+  padding: 5px;
+  background: #f8d974;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+nav-item {
+  color: gray;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+nav-item:hover {
+  font-size: 20px;
+  color: #278dc3;
+  font-weight: 900;
+}
+header {
+  width: 100%;
+  padding: 80px 0px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+#left-header {
+  width: 44%;
+  height: 100%;
+  text-align: center;
+}
+#right-header {
+  width: 44%;
+  height: 100%;
+}
+
+header h1 {
+  font-weight: bolder;
+  font-size: 70px;
+}
+header button {
+  background-color: #fff;
+  border: solid 2px black;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+}
+button:hover {
+  border: inset 5px #278dc3;
+  color: #278dc3;
+  background: #f8d974;
+  font-weight: bolder;
+  font-size: 20px;
+}
+/* After header, div section should have a top and bottom border to create divider effect */
+#content {
+  width: 100%;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  padding: 2%;
+}
+
+.half-section {
+  width: 48%;
+  display: inline-flex;
+  flex-direction: column;
+}
+.middle-img {
+  width: 98%;
+  padding: 2% 0;
+}
+.third-section {
+  width: 32%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+#contact-section {
+  width: 25%;
+  padding: 2%;
+}
+
+footer {
+  text-align: center;
+  margin: 60px;
+  margin-bottom: 100px;
+}
+
+/* Services Specific CSS: */
+.services-header {
+  flex-direction: column;
+}
+.services-header h1 {
+  width: 100%;
+  text-align: left;
+}
+.services-header-img {
+  width: 100%;
+}
+.main-content {
+  width: 100%;
+  padding: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  justify-content: space-evenly;
+}
+.row {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+.half {
+  width: 42%;
+  background: lightgray;
+  border: 1px solid black;
+}
+
+.footer-half {
+  width: 40%;
+  flex-direction: column;
+  text-align: left;
+}
+.services-footer {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+.copyright {
+  text-align: center;
+}
