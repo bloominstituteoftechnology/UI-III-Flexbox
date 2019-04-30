@@ -63,4 +63,158 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+* {
+	display: inline-block;
+}
+
+title {
+	display: none;
+}
+
+nav {
+	margin: 25px 50px 0px 150px;
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+	text-align: center;
+	margin: 10px 38px 0px 50px;
+}
+
+.logo {
+	box-sizing: border-box;
+	display: inline-block;
+	margin: -28px 25px 0px 1050px;
+	border-bottom: 5px solid transparent;
+}
+
+header {
+	margin-top: 75px;
+	margin-bottom: 0;
+	padding-bottom: 100px;
+}
+
+header h1 {
+	font-size: 100px;
+	margin-top: 75px;
+	margin-left: 250px;
+	text-align: center;
+}
+
+header .btn {
+	box-sizing: border-box;
+	border: 2px solid black;
+	text-align: center;
+	margin: 0px 885px 0px 365px;
+	padding: 10px 40px;
+}
+
+
+header img {
+	margin-left: 750px;
+	margin-top: -450px;
+	height: 500px;
+}
+
+.top-section {
+	margin: 40px 200px;
+	border-top: 2px solid black;
+}
+
+.top-section div {
+	margin-top: 50px;
+}
+
+.top-section h3 {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.top-section p {
+	display: inline-block;
+	line-height: 1.25;
+	font-size: 18px;
+}
+
+.features {
+	display: inline-block;
+	width: 475px;
+}
+
+.about {
+	display: inline-block;
+	width: 500px;
+	padding-left: 43px;
+}
+
+.middle-section {
+	display: inline-block;
+	margin: 0px 0px 50px 85px;
+}
+
+.middle-img {
+	display: inline-block;
+	width: 1025px;
+	margin-left: 115px;
+}
+
+.bottom-section {
+	margin: 15px 200px;
+	border-bottom: 2px solid black;
+}
+
+.bottom-section h3 {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.bottom-section p {
+	display: inline-block;
+	line-height: 1.25;
+	font-size: 18px;
+}
+
+.bottom-section div {
+	display: inline-block;
+	width: 300px;
+	margin-right: 35px;
+	padding-bottom: 50px;
+}
+
+.contact {
+	display: inline-block;
+	margin-left: 200px;
+	width: 150px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 215px;
+}
