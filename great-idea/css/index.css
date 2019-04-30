@@ -268,6 +268,35 @@ footer {
 
 /*service Page*/
 
-.container {
+.services-header-img {
   display: flex;
+  margin: 0 auto;
+  align-self: center;
+  align-items: stretch;
+}
+
+.service-head {
+  display: flex;
+}
+/*.container {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+  width: 30%;
+  justify-content: flex-start;
+  flex-direction: center;
+  background: white;
+  border: 1px solid black;
+}*/
+
+.service-head {
+  display: flex;
+  margin-left: 38px;
+  margin-right: 38px;
+  padding: 35px;
+  align-self: auto;
+}
+
+.service-title {
+  font-size: 30px;
 }
