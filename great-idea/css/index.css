@@ -300,3 +300,58 @@ footer {
 .service-title {
   font-size: 30px;
 }
+
+.flex-one {
+  flex-basis: 100%;
+  align-items: center;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.wrapper-one {
+  display: flex;
+  margin: 20px 35px 20px 35px;
+  padding: 10px;
+  border: 1px solid red;
+  justify-content: center;
+}
+
+.wrapper-one div {
+  border: 1px solid black;
+}
+
+.wrapper-two {
+  display: flex;
+  margin: 20px 35px 20px 35px;
+  padding: 10px;
+  border: 1px solid red;
+  justify-content: center;
+}
+
+.wrapper-two div {
+  border: 1px solid black;
+}
+
+.wrapper-three {
+  display: flex;
+  margin: 20px 35px 20px 35px;
+  padding: 10px;
+  border: 1px solid red;
+  justify-content: center;
+}
+
+.wrapper-three div {
+  border: 1px solid black;
+}
+
+.wrapper-four {
+  display: flex;
+  margin: 20px 35px 20px 35px;
+  padding: 10px;
+  border: 1px solid red;
+  justify-content: center;
+}
+
+.wrapper-four {
+  border-top: 2px solid black;
+}
