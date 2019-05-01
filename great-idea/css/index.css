@@ -69,6 +69,11 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 }
 
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
 header nav {
 	display: flex;
 	justify-content: flex-start;
@@ -137,18 +142,20 @@ main {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	margin-top: 60px;
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
 	box-sizing: border-box;
     padding-bottom: 50px;
 	
 }
 section .top {
-	display: inline-block
+	display: flex;
 }
 
 div .features {
 	margin-top: 60px;
-    display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
 	margin-right: 50%;
 	float: left;
 }
@@ -169,12 +176,13 @@ div .about {
 }
 
 section .bottom {
-	display: inline-block;
+	display: flex;
 }
 
 div .services {
 	margin-right: 70%;
-    display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
     float: left;
 }
 
@@ -185,7 +193,8 @@ div .product {
 }
 
 div .vision {
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
     margin-left: 60%;
     margin-right: 18%;
     position: absolute;
