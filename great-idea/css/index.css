@@ -241,8 +241,20 @@ button {
 
 .container .bottom-content .closer-content {
 	width: 400px;
+	display: flex;
+	flex-direction: column;
 }
 
+.services-container .bottom-content .closer-content ul {
+	margin-left: 20px;
+	list-style-type: square;
+}
+
+.services-container .bottom-content .closer-content ul li {
+	display: list-item;
+	list-style-type: square;
+	padding: 5px 0;
+}
 /* Footer */
 
 .contact {
