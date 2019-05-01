@@ -154,7 +154,10 @@ h2 {
 	margin-bottom: 35px;
 	line-height: 15px;
 	justify-content: space-between;
-	padding:
+}
+
+.section-2 .subsection {
+	width: 33%;
 }
 
 .contact {
