@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 875px;
+	margin: 0 auto;
+}
+
+.menu-bar {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu-bar a {
+	text-decoration: none;
+	color: gray;
+}
+
+.header-box {
+	display: flex;
+	justify-content: space-around;	
+	margin: 20px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.header-box h1 {
+	font-size: 60px;
+}
+
+.header-box a {
+	padding: 5px 10px;
+	border: 1px solid black;
+}
+
+.header-box .item-1 {
+	align-self: center;
+	text-align: center;
+}
+
+.content-1 {
+	display: flex;
+	margin-bottom: 15px;
+
+}
+
+.content-2 {
+	display: flex;
+	padding-bottom: 15px;
+	margin: 15px 0;
+	border-bottom: 1px solid black;
+}
+
+.contact-box {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-box .contact-item {
+	padding: 10px;
+}
+
+footer .copyright {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.service-header-img {
+	margin: 15px 0;
+}
+
+.intro {
+	border-bottom: 1px solid black;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+}
+
+.service-box {
+	display: flex;
+	flex-wrap: wrap;
+	height: 800px;
+	border-bottom: 3px solid black;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.service-item {
+	background: lightgrey;
+	padding: 15px;
+	border: 1px solid black;
+	width: 350px;
+}
+.service-item a {
+	color: black;
+	background: white;
+	text-decoration: none;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.service-item a:hover {
+	background: grey;
+	color: white;
+}
+.service-item p {
+	margin-bottom: 20px;
+} 
+
+.facts-box {
+	display: flex;
+	margin: 20px 0;
+}
+
+.facts-box .box-item ul {
+	list-style: square;
+	padding: 15px;
+}
+
+.facts-box .box-item li {
+	padding: 5px;
+}
