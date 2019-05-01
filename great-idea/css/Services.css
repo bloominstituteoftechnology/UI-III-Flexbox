@@ -65,93 +65,59 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body{
+	margin:0 auto;
+}
 .container{
 	width: 900px;
 	margin:auto;
 }
 
-
 header nav{
-	display:inline-block;
-	margin-top:35px;
-	background-color:gray;
-	height:20px;
-}
-
+	margin-top:70px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: baseline;
+} 
 header nav a{
-	margin:28px;
-	color:white;
 	text-decoration:none;
-	background:gray;
-	border-radius: 6px;
-	cursor: pointer;
+	color:gray;
+	width:200px;
+	text-align:center;
+}
+.main-content{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.main-content div {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 500px;
+	height:225px;
+	margin:20px;
+	padding:10px;
+}
+
+h2{
+	font-size:25px;
+	margin:0px 0px 40px 0px;
+	display:flex;
+	justify-content:center;
+}
+p{
+	letter-spacing: 2px;
+}
+.main-content .top{
+	display: flex;
+	align-self: flex-end;
+}
+
+.last-content{
 	text-align: center;
-	transition-property: background, border-radius;
-	transition-duration: .2s, 1s;
-	transition-timing-function: linear;
-	width: 95px;
-  }
 }
-
-header img{
-	margin: 0 0 0 20px;
-}
-
-.top-main{
-	display:inline-block;
-}
-.top-main h1{
-	font-size:70px;
-	margin: 145px -47px 15px 83px;
-	display:inline-block;
-
-}
-
-.top-main img{
-	margin:-342px 12px -34px 497px;
-
-
-}
-
-.top-main button{
-    border: 1px solid black;
-    width: 156px;
-    height: 35px;
-	font-size: 17px;
-	margin: -17px 245px -7px 105px;
-}
-
-.line{
-	border:.5px solid black;
-	width:750px;
-	margin:auto;
-}
-
- .main-section div{
-	height:144px;
-	width:291px;
-	display:inline-block;
-	font-family: 'Cutive Mono', monospace;
-
-}
-
-.main-section .top{
-	height:135px;
-	width:423px;
-}
-
-.main-section img{
-	margin:10px;
-
-}
-
 footer{
-margin-left:365px;
-}
-
-
-
-header nav a:hover{
-	background:dodgerblue;
-	border-radius: 50%;
+	text-align: center;
 }
