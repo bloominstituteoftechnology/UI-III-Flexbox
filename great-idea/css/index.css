@@ -64,10 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.services-header {
-	font-family: 'Bangers', cursive;
-	font-size: 25px;
-}
+
 .container {
 	width: 880px;
 	/* TB LR */
@@ -339,23 +336,29 @@ h1, h2, h3, h4, h5 {
 
 	/*Begin CSS for services.html*/
 	.container-services {
-	width: 880px;
+	width: 883px;
 	/* TB LR */
 	margin: 0 auto;
 	border: 1px solid red;
+	}
+
+	.services-header {
+	font-family: 'Bangers', cursive;
+	font-size: 25px;
 	}
 		
 	/* header */
 	header {
 	display: flex;
-	border: 1px solid red;
+	padding-bottom: 20px;
+	border: 0px solid red;
 	}
 		
 	header nav {
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
-	border: 1px solid red;
+	border: 0px solid red;
 	}		
 		
 	header nav a {
@@ -363,27 +366,27 @@ h1, h2, h3, h4, h5 {
 	font-size: 14px;
 	color: gray;
 	text-decoration: none;
-	border: 1px solid red;
+	border: 0px solid red;
 	}
 		
 	header nav a:hover {
 	text-decoration: underline;
-	border: 1px solid red;
+	border: 0px solid red;
 	}
 		
 	header nav a:first-child {
 	margin-left: 0;
-	border: 1px solid red;
+	border: 0px solid red;
 	}
 		
 	header nav a:last-child {
 	margin-right: 0;
-	border: 1px solid red;
+	border: 0px solid red;
 	}
 		
 	header .logo {
 	margin-top: 25px;
-	border: 1px solid red;
+	border: 0px solid red;
 	}
 
 	.cta-services {
@@ -391,12 +394,18 @@ h1, h2, h3, h4, h5 {
 	}
 
 	.cta-text-services {
-	border: 1px solid red;
+	border: 0px solid red;
+	}
+
+	.cta-text-services-header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
 	}
 	.services-header {
 	font-family: 'Bangers', cursive;
 	font-size: 25px;
-	border: 1px solid red;
+	border: 0px solid red;
 	}
 
 	.main-content-services {
