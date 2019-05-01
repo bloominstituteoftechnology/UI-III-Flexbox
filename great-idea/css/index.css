@@ -64,3 +64,39 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{background-color:#84BCDA;} 
+h2{color:red;} 
+P{color:red;} 
+
+h1{color:yellow;} 
+a{color:yellow;} 
+footer{color:yellow;} 
+img{ 
+	display:flex; 
+	justify-content:
+}
+
+.nav{display:flex; 
+	flex-flow:row wrap; 
+	justify-content: flex-end; 
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 5px;}
+
+.copyright{display:flex;
+	justify-content: center;
+} 
+
+a:hover{ 
+color:purple; 
+  
+} 
+a{
+  box-shadow:10px 10px 20px purple;} 
+section{
+  border-style: dotted solid; 
+  color:purple;
+  margin:10px;
+padding:10px;} 
