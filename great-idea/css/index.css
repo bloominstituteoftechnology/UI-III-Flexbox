@@ -3,64 +3,311 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.container nav {
+    padding: 10px;
+}
+
+.container nav a {
+    font-size: 14px;
+    padding: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.logo {
+    padding: 0 0 0 50px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+h1 {
+    margin-top: 20px;
+    line-height: 45px;
+}
+
+.container2 {
+    border-bottom: 1px solid black;
+}
+
+.button1 {
+    border: 1px solid black;
+    margin-top: 0;
+    margin-bottom: 40px;
+    height: 30px;
+    width: 200px;
+}
+
+h1 {
+    margin-bottom: -10px;
+}
+
+.box1 {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    font-size: 70px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 65px;
+}
+
+.box2 {
+    width: 400px;
+    display: inline-block;
+    margin: 30px 40px 45px 0;
+}
+
+.box3 {
+    width: 260px;
+    display: inline-block;
+    margin: 35px 35px 40px 0;
+}
+
+.secondsection {
+    border-bottom: 1px solid black;
+}
+
+.footer1 {
+    margin-top: 35px;
+}
+
+.copyright {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.container7 h2 {
+    font-size: 25px;
+    margin: 25px 0 10px 0;
+}
+
+.container7 p {
+    margin-bottom: 30px;
+}
+
+.container7 {
+    margin: 15px 0 30px 0;
+    border-bottom: 1px solid black;
+}
+
+.container8 .box5 {
+    border: 1px solid black;
+    background-color: #E8E8E8;
+    width: 47%;
+    margin: 20px 0;
+}
+
+.container8 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+}
+
+.box5 h2,
+.box5 p {
+    margin: 18px;
+}
+
+.button2 {
+    border: 1px solid black;
+    margin: 0 0 15px 18px;
+    background-color: #F5F5F5;
+    height: 38px;
+    width: 110px;
+    border-radius: 11px;
+}
+
+.list2 {
+    list-style-type: square;
+    margin-left: 15px;
+}
+
+.container9 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container9 header {
+    width: 47%;
+}
+
+.container9 {
+    border-top: 1px solid black;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.box6 {
+    margin-top: 30px;
+}
