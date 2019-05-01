@@ -95,10 +95,13 @@ header nav {
 
 header nav a {
         /*border: 3px solid red;*/
-        padding: inherit;
+        /*padding: inherit;*/
         color: lightgray;
-        display: inline-block;
+		/*display: inline-block;*/
+		display: flex;
         text-decoration: none;
+        justify-content: flex-start;
+
     }
 
 header nav a:hover {
@@ -227,4 +230,16 @@ h1 {
     display: inline-block;
     width: var(--columnWidth);
     height: var(--columnHeight);
+}
+
+/*  New CSS code.  Now with Flexbox!*/
+.parentContainer{
+    display: flex;
+    width: var(--blockWidth);
+    height: var(--blockHeight);
+}
+
+.child{
+    width: var(--blockWidth);
+    height: var(--blockHeight);
 }
