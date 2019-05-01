@@ -31,9 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +61,172 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+
+.nav-a-logo {
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: darkgrey;
+    margin-right: 49px;
+    align-self: center;
+}
+
+header {
+    padding: 50px 50px;
+    display: flex;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.learn-more-span {
+    width: 130px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.priority-high {
+    order: -1;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.priority-high div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+
+.priority-high img {
+    width: 40%;
+    height: 100%;
+}
+
+.content-card-products {
+    background-color: #F4F3F4;
+    border: 1px solid black;
+    height: 320px;
+    width: 31%;
+    /* Blaze it */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-header {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-section {
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.main-content-section-products {
+    height: 675px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+    
+.content-card {
+    background-color: #F4F3F4;
+    border: 1px solid black;
+    height: 240px;
+    width: 420px;
+    /* Blaze it */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-content ul {
+    margin: 20px 0px;
+    list-style-position: inside;
+    line-height: 30px;
+}
+
+.bottom-content div {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+}
+
+p {
+    line-height: 20px;
+}
+
+.innovationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.innovationContainer span{
+    width: 200px;
+    text-align: center;
+    align-self: center;
+}
+
+header div, header img {
+    width: 50%;
+}
+
+header span {
+    border: 1px solid black;
+    padding: 3px 40px;
+}
+
+header h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+body {
+    max-width: 876px;
+    margin: auto;
+}
+
+.content-section {
+    display: flex;
+}
+
+.content-block {
+    margin: 50px 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 75px 0 20px 0;
+}
