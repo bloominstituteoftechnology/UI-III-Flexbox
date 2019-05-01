@@ -338,6 +338,7 @@ h1, h2, h3, h4, h5 {
 	.container-services {
 	width: 883px;
 	/* TB LR */
+	height: 2000px;
 	margin: 0 auto;
 	border: 1px solid red;
 	}
@@ -351,6 +352,7 @@ h1, h2, h3, h4, h5 {
 	header {
 	display: flex;
 	padding-bottom: 20px;
+	font-weight: bold;
 	border: 0px solid red;
 	}
 		
@@ -400,7 +402,9 @@ h1, h2, h3, h4, h5 {
 	.cta-text-services-header {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-bottom: 1px solid black;
+	line-height: 1.25;
+	font-weight: bold;
+	border-bottom: 2px solid black;
 	}
 	.services-header {
 	font-family: 'Bangers', cursive;
@@ -425,11 +429,28 @@ h1, h2, h3, h4, h5 {
 	
 	.main-content-services .text-content-services div {
 	flex: 50%;
+	background: rgb(228, 227, 227);
+	margin-top: 30px;
+	padding: 20px;
+	line-height: 1.25;
+	font-weight: bold;
 	border: 1px solid black;
 	}
-		
+
+	.main-content-services .text-content-services div button {
+	margin-top: 20px;
+	}	
 	.bottom-content-services {
-	border: 1px solid red;
+	line-height: 1.25;
+	font-weight: bold;
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 2px solid black;
+	}
+
+	.bottom-content-services .bottom-content-text .bottom-content-list {
+	padding-top: 20px;
+	line-height: 2;
 	}
 
 	.bottom-content-services .bottom-content-text {
