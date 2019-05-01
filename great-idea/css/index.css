@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 
 /* 
 
-	\/\/\/\/ WEB PAGE CSS \/\/\/\/
+	\/\/\/\/ INDEX PAGE CSS \/\/\/\/
 	 \/\/\/				   \/\/\/
 	  \/\/                  \/\/
 	   \/                    \/
@@ -221,9 +221,43 @@ footer p {
 	margin-left: 400px;
 }
 
-/*
-       /\               /\
-      /\/\             /\/\
-	 /\/\/\           /\/\/\
-	/\/\/\/\         /\/\/\/\
+/* 
+
+	\/\/\/\/ Services PAGE CSS \/\/\/\/
+	 \/\/\/				        \/\/\/
+	  \/\/                       \/\/
+	   \/                         \/
+
 */
+
+.services-header-img {
+	margin-top: 20px;
+}
+
+.services-text-content {
+	margin-top: 30px;
+	/* padding-bottom: 30px; */
+	/* border-bottom: 1px solid black; */
+}
+
+.services-text-content h4 {
+	font-size: 200%;
+}
+
+.services-text-content p {
+	font-size: 125%;
+}
+
+.service-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.service-list .servicebox {
+	border: 1px solid black;
+	/* margin: 20px; */
+	width: 48%;
+	/* height: 100px; */
+	background-color: #f4f3f4;
+	justify-content: space-around;
+}
