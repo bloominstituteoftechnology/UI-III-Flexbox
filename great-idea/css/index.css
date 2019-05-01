@@ -251,6 +251,7 @@ footer p {
 .service-list {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .service-list .servicebox {
@@ -259,5 +260,17 @@ footer p {
 	width: 48%;
 	/* height: 100px; */
 	background-color: #f4f3f4;
-	justify-content: space-around;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-size: 110%;
+}
+
+.learn-button {
+	display: inline-block;
+	margin-top: 15px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 30px;
+	font-size: 80%;
+	background-color: white;
 }
