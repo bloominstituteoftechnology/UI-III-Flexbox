@@ -112,6 +112,10 @@ header nav a:hover {
 
 }
 
+footer{
+    text-align: center;
+}
+
 .logo {
     /*border: 3px solid green;*/
     float: right;
@@ -199,9 +203,25 @@ h1 {
     text-align: center;
 }
 
+.paddingPush{
+    padding: var(--paddingPercentage);
+}
+
+.paddingPush5Cent{
+    padding: 5%;
+}
+.paddingPush50Cent{
+    padding: 50%;
+}
+
 .paddingPushTopBottom{
     padding-top: var(--paddingPercentage);
     padding-bottom: var(--paddingPercentage);
+}
+
+.paddingPushTopBottom5Cent{
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .paddingPushTopBottom2Cent{
@@ -213,12 +233,32 @@ h1 {
     padding-top: var(--paddingPercentage);
 }
 
+.paddingPushFromTop5Cent{
+    padding-top: 5%;
+}
+
+.paddingPushFromTop10Cent{
+    padding-top: 10%;
+}
+
 .paddingPushFromTop20Cent{
     padding-top: 20%;
 }
 
 .paddingPushFromBottom{
     padding-bottom: var(--paddingPercentage);
+}
+
+.paddingPushFromBottom5Cent{
+    padding-bottom: 5%;
+}
+
+.paddingPushFromBottom10Cent{
+    padding-bottom: 10%;
+}
+
+.paddingPushFromBottom20Cent{
+    padding-bottom: 20%;
 }
 
 .columnX2{
@@ -233,6 +273,11 @@ h1 {
     height: var(--columnHeight);
 }
 
+ul li{
+    list-style: square;
+    list-style-position: inside;
+}
+
 /*  New CSS code.  Now with Flexbox!*/
 .parentContainer{
     display: flex;
@@ -240,6 +285,14 @@ h1 {
     height: 80%;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.parentContainerNoWrap{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 .parentContainer10CentHeight{
@@ -262,6 +315,9 @@ h1 {
     margin: auto;
 }
 
+.child50Cent{
+    width: 50%;
+}
 .child2{
     margin: auto;
     flex-direction: column;
@@ -278,7 +334,7 @@ h1 {
     margin: 1%;
     padding: 2%;
     background-color: lightgray;
-    border: 1px black;
+    border: 1px solid black;
 }
 
 .services-header-img{
