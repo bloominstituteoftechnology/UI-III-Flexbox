@@ -237,10 +237,37 @@ h1 {
 .parentContainer{
     display: flex;
     width: 100%;
+    height: 80%;
+    justify-content: space-around;
+}
+
+.parentContainer10CentHeight{
+    display: flex;
+    width: 100%;
     height: 10%;
     justify-content: space-around;
 }
 
+.parentContainerColumn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+
 .child{
     margin: auto;
+}
+
+.child2{
+    margin: auto;
+    flex-direction: column;
+}
+
+.buttonChild{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
