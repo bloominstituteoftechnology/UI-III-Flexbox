@@ -63,4 +63,197 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 878px;
+	margin: auto;
+	/*border: 1px solid red;*/
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 35px;
+	/* margin-left: 15px; */
+}
+
+header nav a {
+	/* TB LR */
+	margin: 0 54px 0 0;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+}
+
+header nav a:hover { 
+	text-decoration: underline;
+}
+
+header img.logo {
+	margin-left: 50px
+}
+
+.call-to-action {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+	margin-bottom: 80px;
+}
+
+
+.call-to-action-text {
+	vertical-align: top;
+	margin-top: 120px;
+	font-size: 80px;
+	text-align: center;
+	padding: 0px 75px;
+}
+
+.call-to-action img {
+	margin-top: 70px;
+}
+
+button{
+	background-color: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 16px;
+    color:black;
+	border: 2px solid #000000;
+	cursor: pointer;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 40px;
+}
+
+.top-text {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.features {
+	width: 425px;
+	margin-right: 29px;
+}
+
+.about {
+	width: 424px;
+	margin-right: 0;
+}
+
+
+img.middle-img {
+	margin-top: 45px;
+}
+
+.bottom-text {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-top: 37px;
+	padding: 0 10px;
+}
+
+.services {
+	width: 275px;
+	margin-right: 12px;
+}
+
+.product {
+	width: 275px;
+	margin-right: 12px;
+}
+
+.vision {
+	width: 275px;
+	margin-right: 0;
+}
+	
+.contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+.copyright { 
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+img.services-header-img {
+	margin-top: 20px;
+}
+
+.services-header h1 {
+	margin-top: 22px;
+	font-size: 20px;
+}
+
+.main-content-services {
+	display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    margin-top: 45px;
+    padding-top: 8px;
+}
+
+.box {
+    width: 378px;
+    height: 180px;
+    box-sizing: content-box;
+    padding: 22px;
+    border: 1px solid black;
+	margin: 32px 15px;
+    background: #f5f5f5;	
+}
+
+.main-content-services p {
+	margin-bottom: 15px;
+}
+
+.main-content-services button {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px 35px;
+    font-size: 13px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+  }
+  
+  .column {
+	display: flex;
+	flex-direction: column;
+	/*flex: 1;*/
+  }
+
+  .facts {
+	border-top: 1px solid black;
+    padding-top: 30px;
+  }
+
+  .facts p {
+	margin-right: 40px;
+  }
+
+  .facts ui {
+	margin-top: 10px;
+  }
+
+  .facts li {
+	  margin: 15px 0;
+  }
