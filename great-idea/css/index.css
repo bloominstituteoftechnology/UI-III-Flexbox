@@ -71,10 +71,12 @@ h1, h2, h3, h4, h5 {
   }
   
   /* header */
-  
+  header{
+	  display: flex;
+	  flex-wrap: nowrap;
+  }
   header nav {
-	display: flex;
-	flex-direction: row;
+	display: flex;  
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
@@ -101,24 +103,26 @@ h1, h2, h3, h4, h5 {
   
   header .logo {
 	margin-top: 25px;
+	display: flex;
   }
   
   /* cta */
   
   .cta .cta-text {
 	display: flex;
+	flex-direction: column;
 	vertical-align: top;
 	font-size: 77px;
 	margin-top: 120px;
 	text-align: center;
-	padding: 0px 75px;
+	padding: 0 75px;
   }
   
   .cta .cta-text button {
 	background: white;
 	vertical-align: top;
 	margin-top: 6px;
-	padding: 8px 44px;
+	padding: 8px 8px;
 	font-size: 17px;
 	border: 1px solid black;
 	cursor: pointer;
@@ -131,6 +135,7 @@ h1, h2, h3, h4, h5 {
   
   .cta img {
 	display: flex;
+	justify-content: flex-end;
 	margin-top: 69px;
   }
   
@@ -147,11 +152,13 @@ h1, h2, h3, h4, h5 {
   .main-content .top-content .text-content {
 	width: 410px;
 	display: flex;
+	flex-direction: column;
 	margin-right: 34px;
   }
   
   .main-content .top-content .text-content:last-child {
 	margin-right: 0;
+	display: flex;
   }
   
   .main-content .middle-img {
@@ -166,6 +173,7 @@ h1, h2, h3, h4, h5 {
   .main-content .bottom-content .text-content {
 	width: 275px;
 	display: flex;
+	flex-direction: column;
 	margin-right: 12px;
   }
   
