@@ -218,7 +218,7 @@ footer {
 } 
 
 footer p {
-	margin-left: 400px;
+	margin-left: 400px; 
 }
 
 /* 
@@ -252,6 +252,8 @@ footer p {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	border-bottom: 2px solid black;
+	padding-bottom: 15px
 }
 
 .service-list .servicebox {
@@ -274,3 +276,26 @@ footer p {
 	font-size: 80%;
 	background-color: white;
 }
+
+.service-facts {
+	margin-top: 30px;
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.service-facts .service-facts-text {
+	width: 48%;
+	padding-right: 10px;
+	font-size: 105%;
+}
+
+.service-facts .service-facts-text ul {
+	padding-top: 15px;
+	padding-left: 20px;
+	list-style: square;
+}
+
+.service-facts .service-facts-text ul li {
+	line-height: 2;
+}
+
