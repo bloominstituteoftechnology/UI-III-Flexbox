@@ -248,6 +248,8 @@ button:hover {
 
 .half-section {
   width: 48%;
+  padding-right:10px;
+  padding-left:10px;
   display: inline-flex;
   flex-direction: column;
 }
@@ -256,7 +258,9 @@ button:hover {
   padding: 2% 0;
 }
 .third-section {
-  width: 32%;
+  width: 30%;
+  padding-right:10px;
+  padding-left:10px;
   display: inline-flex;
   flex-direction: column;
 }
@@ -339,6 +343,9 @@ footer img {
     width: 100%;
     margin: 0 0;
     flex-direction: column;
+  }
+  h2{
+    font-size:30px;
   }
   .half {
     width: 100%;
