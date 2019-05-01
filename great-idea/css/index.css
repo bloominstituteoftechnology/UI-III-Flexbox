@@ -64,3 +64,202 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+nav {
+	display: flex;
+	width: 550px;
+	justify-content: space-between;
+}
+
+.nav-logo { 
+	display: flex;
+	margin-top: 35px;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+	
+.nav-logo nav a {
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+}
+
+.logo {
+	margin-left: 80px;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.services-header-img {
+	width: 800px;
+	margin-bottom: 30px;
+}
+h1 {
+	font-size: 70px;
+}
+
+.column-left {
+	text-align: center;
+}
+
+button {
+	display: block;
+	color: black;
+	border: 1px solid black;
+	width: 103px;
+	height: 23px;
+	font-size: 15px;
+	margin: 0 auto;
+}
+
+.column-right {
+	width: 300px;
+}
+
+.get-started {
+	margin-top: 35px;
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+}
+
+h2 {
+	margin-bottom: 5px;
+	font-size: 16px;
+	}
+
+.section-1 {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 35px;
+	border-top: 1px solid black;
+	height: 80px;
+	line-height: 15px;
+}
+
+.middle-img {
+	display: block;
+	width: 795px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.section-2 {
+	display: flex;
+	margin-bottom: 35px;
+	line-height: 15px;
+	justify-content: space-between;
+}
+
+.section-2 .subsection {
+	width: 33%;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	margin-top: 35px;
+	border-top: 1px solid black;	
+}
+
+.contact h2 {
+	margin-top: 35px;
+}
+
+.phone,.email{
+	margin-top: 15px;
+}
+
+.footer {
+	margin-top: 30px;
+	text-align: center;
+}
+
+/* services css */
+
+.services-body {
+	width: 800px;
+	margin: 20px;
+}
+
+.services-content h1{
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+
+.services-content p {
+	margin-bottom: 20px;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+
+}
+
+.main-content div {
+	width: 370px;
+	height: 200px;
+	background: #E8E6E8;
+	border: 1px solid black;
+	padding: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	line-height: 14px;
+	
+	}
+
+.main-content h2 {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.main-content button {
+	margin-left: 0;
+	margin-top: 20px;
+	border-radius: 4px;
+	font-size: 10px;
+}
+
+.services-footer {
+	display: flex;
+	padding-top: 20px;
+}
+
+.fun-things p {
+	line-height: 16px;
+}
+
+.fun-things h2 {
+	font-size: 16px;
+}
+
+ul {
+	margin-top: 15px;
+	list-style-type: square;
+	margin-left: 15px;
+}
+
+li {
+	margin: 10px;
+}
+
+.copyright {
+	text-align: center;
+
+	margin-top: 30px;
+}
+
+.services-body p{
+	font-size: 14px;
+}
