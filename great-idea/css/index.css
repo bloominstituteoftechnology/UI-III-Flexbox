@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +63,206 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body {
+	padding-top: 36px;
+}
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+}
+
+p {
+	color: #525252;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0px;
+	padding: 15px 0;
+	background-color: #fff;
+	z-index: 99;
+}
+
+header nav {
+	width: 693px;
+}
+
+header nav a {
+	color: #afafaf;
+	margin-right: 50px;
+	text-decoration: none;
+}
+
+section {
+	margin: 30px 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.one-half {
+	width: 50%;
+	padding: 30px 15px 30px 0;
+}
+
+.one-third {
+	width: 33.33333%;
+	padding: 40px 15px 40px 0;
+}
+
+.hero {
+	text-align: center;
+}
+
+.hero h2 {
+	font-size: 68px;
+	margin-bottom: 40px;
+}
+
+.hero a {
+	padding: 5px 30px;
+	border: 1px solid #000;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+
+.hero a:hover,
+.hero a:visited {
+	color: #000;
+}
+
+a:hover {
+	animation: RAINBOW 4s infinite;
+}
+
+.inner-page {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #000;
+}
+
+.inner-page h2 {
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+.services {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid #000;
+}
+
+.cta {
+	width: 48%;
+	padding: 25px;
+	background-color: #f1f1f1;
+	margin-bottom: 4%;
+	border: 1px solid #000;
+}
+
+.cta h3 {
+	margin-bottom: 25px;
+}
+
+.cta a {
+	font-size: 10px;
+	padding: 10px 40px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-color: #fff;
+	display: inline-block;
+	margin-top: 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+.cta a:hover,
+.cta a:visited {
+	color: #000;
+}
+
+.facts {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.facts div {
+	width: 48%;
+}
+
+ul {
+	list-style: disc;
+	margin: 20px 0 20px 18px;
+	text-indent: 10px;
+}
+
+li {
+	margin-bottom: 15px;
+}
+
+li:last-child {
+	margin-bottom: 0px;
+}
+
+footer {
+	margin: 30px 0 60px 0;
+}
+
+footer p {
+	margin-bottom: 20px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+@keyframes RAINBOW {
+
+	0% {
+		font-weight: bold;
+		color: red;
+	}
+
+	20% {
+		font-weight: bold;
+		color: yellow;
+	}
+
+	40% {
+		font-weight: bold;
+		color: green;
+	}
+
+	60% {
+		font-weight: bold;
+		color: blue;
+	}
+
+	80% {
+		font-weight: bold;
+		color: purple;
+	}
+
+	100% {
+		font-weight: bold;
+		color: red;
+	}
+}
