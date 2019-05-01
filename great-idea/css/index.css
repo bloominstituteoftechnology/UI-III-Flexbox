@@ -184,6 +184,26 @@ title {
 	display: none;
 }
 
+/* Utilities */
+.btn {
+	border: 2px solid black;
+	text-align: center;
+	font-size: 24px;
+	padding: 8px 40px;
+	width: 217px;
+	margin-right: 5px;
+}
+
+.btn-learn-more{
+	border: 1.5px solid black;
+    border-radius: 9px;
+    width: 176px;
+    height: 45px;
+    padding: 13px 0;
+    font-size: 15px;
+}
+
+
 /* Navigation bar */
 
 nav {
@@ -209,10 +229,10 @@ nav img {
 
 header {
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 88px 160px 94px 301px;
-    width: 1000px;
+	justify-content: center;
+	align-items: center;
+	margin: 88px 160px 94px 301px;
+	width: 1000px;
 }
 
 header .innovation {
@@ -224,17 +244,8 @@ header .innovation {
 
 header h1 {
 	font-size: 100px;
-    text-align: center;
-    line-height: 0.97;
-}
-
-header .btn {
-	border: 2px solid black;
-    text-align: center;
-    font-size: 24px;
-    padding: 8px 40px;
-    width: 217px;
-    margin-right: 5px;
+	text-align: center;
+	line-height: 0.97;
 }
 
 header img {
@@ -247,25 +258,25 @@ header img {
 
 .top-section {
 	display: flex;
-    justify-content: flex-start;
-    margin: 40px auto 0 auto;
-    border-top: 2px solid black;
-    width: 1092px;
+	justify-content: flex-start;
+	margin: 40px auto 0 auto;
+	border-top: 2px solid black;
+	width: 1092px;
 }
 
 .top-section div {
 	margin-top: 46px;
-    height: 177px;
+	height: 177px;
 }
 
 .top-section h3 {
 	margin-bottom: 17px;
-    font-size: 21px;
+	font-size: 21px;
 }
 
 .top-section p {
 	line-height: 1.15;
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .features {
@@ -280,23 +291,23 @@ header img {
 
 .middle-section {
 	display: flex;
-    justify-content: center;
-    margin: 0 150px 0 153px;
+	justify-content: center;
+	margin: 0 150px 0 153px;
 }
 
 .middle-img {
 	width: 1094px;
-    height: 228px;
+	height: 228px;
 }
 
 /* Bottom Section */
 
 .bottom-section {
 	display: flex;
-    justify-content: space-evenly;
-    border-bottom: 2px solid black;
-    margin: 47px auto 0 auto;
-    width: 1098px;
+	justify-content: space-evenly;
+	border-bottom: 2px solid black;
+	margin: 47px auto 0 auto;
+	width: 1098px;
 }
 
 .bottom-section h3 {
@@ -306,19 +317,19 @@ header img {
 
 .bottom-section p {
 	line-height: 1.15;
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .bottom-section div {
 	width: 33%;
-    padding-bottom: 60px;
+	padding-bottom: 60px;
 }
 
-.product{
+.product {
 	padding-left: 10px;
 }
 
-.vision{
+.vision {
 	padding-left: 15px;
 }
 
@@ -326,19 +337,19 @@ header img {
 
 .contact {
 	margin: 47px 0 0 215px;
-    width: 235px;
+	width: 235px;
 }
 
-.contact h3{
+.contact h3 {
 	font-size: 21px;
 	margin-bottom: 21px;
 }
 
-.contact address{
+.contact address {
 	font-size: 20px;
 }
 
-.contact p{
+.contact p {
 	font-size: 20px;
 	margin: 26px 0;
 }
@@ -350,3 +361,130 @@ footer {
 	margin-top: 70px;
 	margin-bottom: 215px;
 }
+
+/* -----SERVICES SPECIFIC CSS----- */
+
+.services-header {
+	flex-direction: column;
+	justify-content: baseline;
+    width: 1100px;
+	margin: 31px 0 0 210px;
+	border-bottom: 2px solid black;
+}
+
+.services-header-img {
+	width: 1100px;
+    margin: 0 0 40px 0px;
+}
+
+.services-header-text{
+	margin-bottom: 52px;
+}
+
+.services-header-text h1{
+	font-size: 34px;
+	text-align: left;
+	line-height: 0.97;
+	margin-bottom: 21px;
+}
+
+.services-header-text p{
+	font-size: 20px;
+    line-height: 1.16;
+}
+
+/* Learn More Middle Section */
+
+.learn-more-section{
+	display: flex;
+    margin: 0 auto 0 auto;
+    width: 1100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	border-bottom: 2px solid black;
+	padding-bottom: 50px;
+}
+
+.learn-more-box{
+	display: flex;
+    flex-flow: column;
+	justify-content: space-around;
+    width: 47.75%;
+    background: lightgrey;
+    border: 1.5px solid black;
+    height: 316px;
+    margin: 49px 0px 0px 0px;
+}
+
+.learn-more-box-content{
+	display: flex;
+    flex-flow: column;
+    margin: 0 0 0 26px;
+    height: 297px;
+    justify-content: space-evenly;
+}
+
+.learn-more-box-content h3{
+    font-size: 20px;
+}
+
+.learn-more-box-content p{
+	margin: -11px 0 10px 0;
+    font-size: 20px;
+    width: 463px;
+    line-height: 1.25;
+}
+
+/* Facts Bottom Section */
+.facts-section{
+	display: flex;
+    justify-content: baseline;
+    width: 1100px;
+	margin: 44px auto 0 auto;
+}
+
+.facts-container{
+	display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    width: 46%;
+    margin-right: 69px;
+    height: 353px;
+}
+
+.facts-container h3{
+	font-size: 21px;
+    margin-top: 7px;
+}
+
+.facts-container p {
+    font-size: 20px;
+    line-height: 1.25;
+	margin-bottom: 34px;
+}
+
+.facts-section ul {
+	margin: 0px 0 0 22px;
+}
+
+.facts-section ul li{
+	list-style-type: square;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.facts-section ul li span{
+	font-size: 21px;
+    margin-left: 7px;
+}
+
+.facts-section img{
+	width: 524px;
+    height: 374px;
+    margin-top: 6px;
+}
+
+.services-footer{
+	margin-bottom: 0px;
+}
+
