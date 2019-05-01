@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+* {
+	box-sizing: border-box;
+}
+
 p, address, a {
 	/* introduced new font family */
 	font-family: 'Lato', sans-serif;
@@ -115,4 +119,98 @@ p, address, a {
 
 .top-bar nav a:hover {
 	color: white;
+}
+
+.top-section {
+	padding-top: 75px;
+}
+
+.services-header-img {
+	width: 100%;
+	height: auto;
+}
+
+.about-services {
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 16px;
+}
+
+.about-services h1 {
+	font-size: 32px;
+}
+
+.middle-services {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-size: 16px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 10px 0px;
+}
+
+.middle-services h2 {
+	font-size: 18px;
+}
+
+.box-around {
+	width: 48%;
+	text-align: left;
+	padding: 25px;
+	border: 1px solid black;
+	margin: 20px 0px;
+	background-color: #F0F0F0;
+}
+
+.middle-services button {
+	border: 1px solid black;
+	padding: 5px 25px;
+	margin-top: 15px;
+  	font-size: 14px;
+	background-color: white;
+	text-align: center;
+	border-radius: 5px;
+	transition: .2s;
+}
+
+.middle-services button:hover {
+	transform: scale(1.1);
+} 
+
+.bottom-section {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+.service-facts {
+	text-align: left;
+	font-size: 16px;
+}
+
+.service-facts h3 {
+	font-size: 18px;
+}
+
+.service-facts ul {
+	list-style: disc;
+	list-style-position: inside;
+	padding: 10px;
+	margin: 10px 0;
+	line-height: 200%;
+}
+
+.bottom-boxes {
+	width: 47%;
+}
+
+.services-info-img {
+	height: auto;
+}
+
+footer {
+	padding: 50px 50px 25px 50px;
+	font-size: 16px;
 }

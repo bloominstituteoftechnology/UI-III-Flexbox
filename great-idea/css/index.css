@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+* {
+	box-sizing: border-box;
+}
+
 p, address, a {
 	/* introduced new font family */
 	font-family: 'Lato', sans-serif;
@@ -197,6 +201,6 @@ p, address, a {
 }
 
 footer {
-	padding: 50px;
+	padding: 50px 50px 25px 50px;
 	font-size: 16px;
 }
