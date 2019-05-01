@@ -271,3 +271,12 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+.childBox{
+    background-color: lightgray;
+    border: 1px black;
+}
+
+.services-header-img{
+    width: 100%;
+}
