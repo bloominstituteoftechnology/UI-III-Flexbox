@@ -154,12 +154,16 @@ h5 {
   text-align: center;
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-top a {
   text-decoration: none;
   color: black;
-  display: inline-block;
+  /*align-content: space-between;*/
+  /* flex-flow: row wrap;*/
+
   margin: 0 auto;
   padding: 20px 60px 20px 20px;
 }
@@ -177,7 +181,7 @@ h5 {
   text-align: center;
 }
 
-button {
+.top-btn {
   background: white;
   padding: 10px 33px;
   font-size: 16px;
@@ -212,18 +216,9 @@ header {
   padding: 20px;
 }
 
-.container-one {
-  /*display: inline-block;*/
-  /*justify-content: row;*/
+section .container-one div {
   width: 46%;
   margin: 48px;
-}
-
-.container-two {
-  /*display: inline-block;*/
-  /*flex-direction: row;*/
-  width: 45%;
-  margin-left: 48px;
 }
 
 .second-text {
@@ -261,7 +256,7 @@ address {
 }
 
 footer {
-  text-align: center;
+  justify-content: center;
   margin: 20px;
   padding: 20px;
 }
@@ -274,20 +269,6 @@ footer {
   align-self: center;
   align-items: stretch;
 }
-
-.service-head {
-  display: flex;
-}
-/*.container {
-  display: flex;
-  padding: 10px;
-  margin: 20px;
-  width: 30%;
-  justify-content: flex-start;
-  flex-direction: center;
-  background: white;
-  border: 1px solid black;
-}*/
 
 .service-head {
   display: flex;
@@ -310,48 +291,66 @@ footer {
 
 .wrapper-one {
   display: flex;
-  margin: 20px 35px 20px 35px;
   padding: 10px;
-  border: 1px solid red;
-  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .wrapper-one div {
   border: 1px solid black;
+  padding: 20px;
+  flex-basis: 47%;
+}
+
+.wrapper .digital-d div {
+  height: 20%;
 }
 
 .wrapper-two {
   display: flex;
-  margin: 20px 35px 20px 35px;
   padding: 10px;
-  border: 1px solid red;
-  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .wrapper-two div {
   border: 1px solid black;
+  padding: 20px;
+  flex-basis: 47%;
 }
 
 .wrapper-three {
   display: flex;
-  margin: 20px 35px 20px 35px;
   padding: 10px;
-  border: 1px solid red;
-  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .wrapper-three div {
   border: 1px solid black;
+  padding: 20px;
+  flex-basis: 47%;
 }
 
 .wrapper-four {
   display: flex;
-  margin: 20px 35px 20px 35px;
   padding: 10px;
-  border: 1px solid red;
-  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .wrapper-four {
   border-top: 2px solid black;
+  padding: 20px;
+  flex-basis: 47%;
+}
+
+.btn {
+  display: flex;
+  justify-content: start;
+  flex-flow: column wrap;
+  background: white;
+  padding: 10px 33px;
+  font-size: 16px;
+  margin-top: 30px;
 }
