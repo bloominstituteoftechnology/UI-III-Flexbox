@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width: 900px;
+	margin: auto;
+
+}
+
+
+/*stretch goal - add google font*/
+p{
+	font-family: 'Monda';
+}
+
+/*stretch goal - add background color and fixed navigation*/
+nav{
+	background-color: white;
+	padding-bottom: 10px;
+	width: 75%;
+	position: fixed;
+	top: 0;
+}
+
+header{
+	margin-bottom: 40px;
+	display: flex;
+}
+header nav{
+	flex-direction: row;
+}
+
+header nav a{
+	margin: 0 20px;
+	color: black;
+	text-decoration: none;
+
+}
+.logo{
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+ .cta{
+	 display: flex;
+	 padding-bottom: 40px;
+	 margin-left: 15px;
+	 margin-top: 40px;
+
+ }
+
+ .cta.left h1{
+	font-size: 70px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.cta.left{
+	flex-direction: column;
+	padding-right: 150px;
+	margin-top: auto;
+}
+
+.btn{
+	font-size: 12px;
+    padding: 3px 30px;
+	background-color: white;
+	margin-left: 30px;
+}
+
+.main-content-top{
+	display: flex;
+	margin: 25px 0 25px 15px;
+}
+.mc-left, .mc-right{
+	width: 300px;
+	flex-direction: column;
+	}
+.mc-left{
+	margin-right: 200px;
+}
+
+
+.main-content-bottom{
+	 display: flex;
+	 margin: 25px 0 25px 15px;
+
+}
+
+.mc-left-bottom, .mc-center-bottom, .mc-right-bottom{
+	 width: 225px;
+	 flex-direction: column;
+}
+
+
+.mc-left-bottom, .mc-center-bottom{
+	 margin-right: 50px;
+}
+
+.bottom-border{
+	border-bottom: 2px solid black;
+}
+
+.middle-img{
+	 margin-left: 10px;
+}
+
+.contact{
+	margin-left: 15px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 15px;
+} 
+/*start of services css*/
+
+.services-header-img{
+	margin-bottom: 25px;
+}
+
+.services-intro{
+	padding-bottom: 60px;
+	border-bottom: 2px solid black;
+}
+.services-intro h1{
+	font-size: 30px;
+}
+
+.service-row-one{
+	display: flex;
+	margin: 50px 0;
+}
+
+
+.service-row-two{
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.service-row-three{
+	display: flex;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+    border-bottom: 2px solid black;	
+}
+
+.sc-left, .sc-right{
+	flex-direction: row;
+	border: 1px solid black;
+	padding: 30px;
+	background-color: lightgray;
+}
+.sc-left{
+	margin-right: 70px;
+}
+
+.service-btn{
+	font-size: 16px;
+    padding: 5px 30px;
+	background-color: white;
+	margin-top: 15px;
+}
+
+.service-facts{
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.facts{
+	flex-direction: column;
+	padding-right: 100px;
+}
+
+.facts ul{
+	padding-top: 20px;
+	list-style: disc;
+	margin-left: 20px;
+	
+}
+
+.facts ul li{
+	font-family: 'Monda';
+	text-align: justify;
+	padding-bottom: 15px;
+}
+
+/*stretch goal*/
+@media screen and (max-width: 500px){
+	
+	.services-header-img{
+		width: 50%;
+	}
+		
+	.service-row-one, .service-row-two, .service-row-three, .service-facts{
+		display: flex;
+		flex-direction: column;
+	}
+	.mc-left, .mc-right, .services-intro, .sc-left, .sc-right, .facts, .services-info-img{
+		width: 300px;
+		margin-left: 75px;
+		margin-bottom: 30px;
+	}
+
+	footer{
+		width: 50%;
+	}
+}
