@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5 {
 	/* TB LR */
 	height: 2000px;
 	margin: 0 auto;
-	border: 1px solid red;
+	border: 0px solid red;
 	}
 
 	.services-header {
@@ -353,6 +353,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	padding-bottom: 20px;
 	font-weight: bold;
+	background-image: linear-gradient(rgb(2, 30, 73), rgb(65, 95, 114), white, white);
 	border: 0px solid red;
 	}
 		
@@ -392,7 +393,7 @@ h1, h2, h3, h4, h5 {
 	}
 
 	.cta-services {
-	border: 1px solid red;
+	border: 0px solid red;
 	}
 
 	.cta-text-services {
@@ -414,17 +415,19 @@ h1, h2, h3, h4, h5 {
 
 	.main-content-services {
 	display: flex;
-	border: 1px solid red;
+	justify-content: space-between;
+	border: 0px solid red;
 	}
 	
 	.main-content-services div {
 	flex: 50%;
-	border: 1px solid red;
+	border: 0px solid red;
 	}
 
 	.main-content-services .text-content-services {
 	display: flex;
-	border: 1px solid red;
+	justify-content: space-between;
+	border: 0px solid red;
 	}
 	
 	.main-content-services .text-content-services div {
@@ -438,13 +441,18 @@ h1, h2, h3, h4, h5 {
 	}
 
 	.main-content-services .text-content-services div button {
-	width: 130px;
-	height: 35px;
+	width: 145px;
+	height: 37px;
 	margin-top: 20px;
 	border-radius: 5px;
 	border: 1px solid black;
 	background-color: white;
 	}	
+
+	/*.column-a {
+	margin-right: 20px;
+	padding-right: 20px;
+		}*/
 
 	.bottom-content-services {
 	line-height: 1.25;
@@ -467,5 +475,10 @@ h1, h2, h3, h4, h5 {
 	
 	.bottom-content-services .bottom-content-text div {
 	flex: 50%;
-	border: 1px solid red;
+	border: 0px solid red;
+	}
+
+	footer {
+	height: 100px;
+	background-image: linear-gradient(white, rgb(65, 95, 114), rgb(2, 44, 109));
 	}
