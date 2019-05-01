@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5 {
 
 header nav {
   display: flex;
+  flex-wrap: wrap;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
@@ -107,6 +108,7 @@ header .logo {
 
 .cta .cta-text {
   display: flex;
+  flex-wrap: wrap;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
@@ -114,7 +116,7 @@ header .logo {
   padding: 0px 75px;
 }
 
-.cta .cta-text button {
+button {
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -124,13 +126,14 @@ header .logo {
   cursor: pointer;
 }
 
-.cta .cta-text button:hover {
+ button:hover {
   background: black;
   color: white;
 }
 
 .cta img {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 69px;
 }
 
@@ -147,6 +150,7 @@ header .logo {
 .main-content .top-content .text-content {
   width: 410px;
   display: flex;
+  flex-wrap: wrap;
   margin-right: 34px;
 }
 
@@ -166,6 +170,7 @@ header .logo {
 .main-content .bottom-content .text-content {
   width: 275px;
   display: flex;
+  flex-wrap: wrap;
   margin-right: 12px;
 }
 
@@ -188,3 +193,16 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* Services Page */
+
+.single-service {
+  width: 50;
+  height: 50;
+}
+
+.all-services {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 12px;
+} 
