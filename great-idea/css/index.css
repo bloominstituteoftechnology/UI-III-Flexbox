@@ -1,3 +1,4 @@
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -63,4 +64,86 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.container{
+	width: 900px;
+	margin:auto;
+}
+
+header{
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	text-align: auto;
+	margin-top:35px;
+	
+}
+
+
+
+header nav a{
+	text-decoration: none;
+	margin:28px;
+	color:gray;
+}
+
+
+
+.top-main{
+	margin-top:40px;
+	display:flex;
+	justify-content: space-evenly;
+
+}
+.top-main h1{
+	font-size:70px;
+	margin: 61px 0px 0px 55px;
+    text-align: center;
+
+}
+
+
+
+
+.top-main button{
+    border: 1px solid black;
+    width: 156px;
+    height: 35px;
+	font-size: 17px;
+	margin: 22px 0px 0px 110px;
+
+	
+}
+
+
+.line{
+	border:.5px solid black;
+	width:750px;
+	margin:auto;
+}
+
+.main-section .top {
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.main-section .bottom {
+	display:flex;
+	justify-content: space-evenly;
+}
+
+ .main-section div{
+	height:135px;
+	width:423px;
+}
+
+
+.main-section img{
+	margin:12px;
+
+}
+
+footer{
+margin-left:365px;
+}
