@@ -214,11 +214,11 @@ header {
   display: flex;
   margin: 0 auto;
   padding: 20px;
+  flex-direction: row;
 }
 
-section .container-one div {
-  width: 46%;
-  margin: 48px;
+.first-row .container-one div {
+  flex-basis: 46%;
 }
 
 .second-text {
@@ -256,12 +256,12 @@ address {
 }
 
 footer {
-  justify-content: center;
+  text-align: center;
   margin: 20px;
   padding: 20px;
 }
 
-/*service Page*/
+/*Service Page*/
 
 .services-header-img {
   display: flex;
@@ -300,6 +300,7 @@ footer {
   border: 1px solid black;
   padding: 20px;
   flex-basis: 47%;
+  background: #f4f3f4;
 }
 
 .wrapper .digital-d div {
@@ -334,15 +335,22 @@ footer {
 
 .wrapper-four {
   display: flex;
-  padding: 10px;
-  justify-content: space-between;
+  border: 1px solid red;
   justify-content: space-evenly;
+  margin: 60px;
+  border-top: 2px solid black;
 }
 
-.wrapper-four {
-  border-top: 2px solid black;
+.wrapper-four .end div {
   padding: 20px;
-  flex-basis: 47%;
+  flex-basis: 20%;
+  border: 1px solid blue;
+}
+
+.wrapper-four ul {
+  list-style-type: square;
+  margin: 20px;
+  line-height: 2;
 }
 
 .btn {
@@ -353,4 +361,5 @@ footer {
   padding: 10px 33px;
   font-size: 16px;
   margin-top: 30px;
+  border-radius: 4px;
 }
