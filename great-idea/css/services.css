@@ -1,0 +1,161 @@
+/* #region */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+/* #endregion */
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  width: 880px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 25px 0;
+}
+  
+.navLinks {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    
+}
+  
+.navLinks a {
+    text-decoration: none;
+    color: #b1b1b1;
+    font-size: 11pt;
+}
+
+h1 {
+    font-size: 26px;
+    letter-spacing: .2px;
+
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header img {
+    margin-bottom: 25px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+
+}
+
+main section:first-child {
+  /* border: solid yellow 3px; */
+  height: 910px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+main section:last-child {
+  border: solid yellow 3px;
+    display: flex;
+}
+
+main section:last-child div {
+border: solid green 2px;
+}
+
+main div {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  
+
+}
+
+main div div {
+  width: 45%;
+  border: solid black 1px;
+  background-color: #f4f3f4;
+  height: 250px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 30px;
+}
