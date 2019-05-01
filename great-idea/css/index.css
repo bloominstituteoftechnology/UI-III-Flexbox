@@ -70,7 +70,7 @@ body {
 }
 
 .container {
-	width: 876px;
+	max-width: 876px;
 	margin: 0 auto;
 }
 
@@ -266,4 +266,53 @@ footer p {
 		font-weight: bold;
 		color: red;
 	}
+}
+
+@media only screen
+	and (max-device-width: 480px) {
+
+		body {
+			margin-top: 210px;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+		header,
+		header nav {
+			width: 100%;
+			flex-direction: column;
+			text-align: center;
+		}
+
+		header nav a {
+			display: block;
+			padding-bottom: 15px;
+			width: 100%;
+		}
+		
+		header nav a:last-child {
+			padding-bottom: 30px;
+		}
+
+		section {
+			flex-direction: column;
+			width: 90%;
+			margin: 30px auto;
+		}
+
+		.container {
+			width: 100%;
+		}
+
+		.cta {
+			width: 90%;
+			margin-bottom: 10%;
+		}
+
+		.facts div {
+			width: 100%;
+		}
+		
 }
