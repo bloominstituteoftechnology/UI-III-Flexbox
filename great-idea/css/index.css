@@ -275,6 +275,7 @@ p {
 
 header .logo1 {
   margin-left: 0;
+  margin-right: 20px;
 }
 
 h2 {
@@ -285,6 +286,7 @@ h2 {
 .services {
   width: 890px;
   margin-bottom: 30px;
+  margin-left: 0;
 }
 
 .top {
@@ -301,11 +303,12 @@ h2 {
 .middle {
   display: inline-flex;
   flex-wrap: wrap;
-  width: 370px;
+  width: 380px;
   border: 1px solid black;
   margin: 20px 0;
-  margin-right: 5%;
+  margin-right: 60px;
   background-color: #f5f5f5;
+  padding-right: 20px;
 }
 
 .child {
