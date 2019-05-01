@@ -199,6 +199,7 @@ header .logo {
   margin-top: 57px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
+  width: 100%;
 }
 
 .contact p {
@@ -206,10 +207,13 @@ header .logo {
 }
 
 
-footer { 
+footer {
+  display: flex;
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
-  display: flex;
-  align-content: flex-end;
 } 
+
+footer p {
+	margin-left: 400px;
+}
