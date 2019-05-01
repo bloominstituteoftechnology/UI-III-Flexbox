@@ -69,9 +69,13 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 	margin: 0 auto;
 	margin-top: 46px;
+/*	border: 1px solid red;*/
 }
 h1 {
-	font-size: 60px;
+    font-size: 60px;
+}
+.services-title {
+	font-size: 30px;
 }
 h2 {
 	font-size: 20px;
@@ -84,17 +88,17 @@ nav {
 	top: 0;
 	width: 100%;
 	height: 40px;
-	background:#8ECFFF;
-	border-bottom: 1px solid blue;
+	background:rgba(255,255,255,0.90);
+	border-bottom: 1px solid lightgrey;
 }
-nav a {
+.nav-links a {
 	color: grey;
     width: 100px;
 	height: 30px;
     padding: 5px;
 	margin-right: 5px;
 	text-align: center;
-	border: 1px solid blue;
+	border: 1px solid lightgrey;
 	background: hsla(0,0%,100%,0.74);
 }
 .nav-links {
@@ -121,10 +125,17 @@ button {
     height: 25px;
     border: 1px solid black;
     background: white;
+	cursor: pointer;
+}
+.learn-more{
+	width: 150px;
+	height: auto;
+	margin: 15px 0 5px;
+	border-radius: 5px;
+	padding: 10px;
 }
 .content {
-/*	display: inline-block;*/
-	padding: 0 5px;
+	padding: 0 10px;
 }
 .top-content, .bottom-content {
 	display: flex;
@@ -150,4 +161,36 @@ button {
 footer {
     text-align: center;
     margin: 0 0 100px;
+}
+.services-header {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+}
+.services {
+	padding: 30px 0;
+	border-bottom: 1px solid black;
+}
+.services-main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.services-content {
+	width: 48%;
+	padding: 15px;
+	margin: 20px 0;
+	background: #ECECEC;
+	border: 1px solid black;
+}
+.services-bottom {
+	display: flex;
+	padding: 30px 0;
+	border-top: 2px solid black;
+}
+ul {
+	margin-top: 20px;
+	list-style-type: square;
+	list-style-position: inside;
 }
