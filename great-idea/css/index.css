@@ -222,6 +222,7 @@ header {
 
 .second-text {
   display: flex;
+  padding-bottom: 30px;
   justify-content: space-evenly;
   border-bottom: 1px solid black;
 }
