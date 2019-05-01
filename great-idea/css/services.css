@@ -123,7 +123,8 @@ main {
 }
 
 main section:first-child {
-  /* border: solid yellow 3px; */
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;  
   height: 910px;
   display: flex;
   flex-direction: column;
@@ -131,12 +132,15 @@ main section:first-child {
 }
 
 main section:last-child {
-  border: solid yellow 3px;
-    display: flex;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 main section:last-child div {
-border: solid green 2px;
+display: flex;
+flex-direction: column;
+height: 300px;
 }
 
 main div {
@@ -158,4 +162,44 @@ main div div {
   justify-content: space-evenly;
   padding-left: 20px;
   padding-right: 30px;
+}
+
+button {
+  width: 40%;
+  font-size: 12px;
+  padding: 7px 0;
+  border-radius: 5px;
+  box-shadow: none;
+  border: solid black 1px;
+  background-color: whitesmoke;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  letter-spacing: .2px;
+  font-weight: 500;
+}
+
+.serviceFacts {
+  
+  justify-content: space-between; 
+  padding-right: 30px;
+}
+
+li {
+list-style-type: square;
+padding: 0 0 10px 5px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
 }
