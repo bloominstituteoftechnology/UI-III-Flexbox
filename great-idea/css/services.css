@@ -1,0 +1,44 @@
+
+.container {
+    width: 880px;
+    /* TB LR */
+    margin: 0 auto;
+}
+  
+/* header */
+
+header {
+    display: flex;
+    padding-bottom: 17px;
+}
+
+header nav {
+    width: 800px;
+    vertical-align: top;
+    margin-top: 35px;
+}
+  
+header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header .logo {
+    margin-top: 17px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    margin-top: 76px;
+    padding-top: 39px;
+}
+
+

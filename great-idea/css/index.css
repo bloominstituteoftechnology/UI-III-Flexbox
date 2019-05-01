@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
-header{
+header {
 	display: flex;
 }
 
@@ -116,7 +116,6 @@ header .logo {
 
 .cta .cta-text {
   display: inline-flex;
-  /* vertical-align: top; */
   flex-direction: column;
   font-size: 77px;
   margin-top: 120px;
