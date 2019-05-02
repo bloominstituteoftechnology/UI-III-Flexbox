@@ -128,3 +128,29 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 	padding-top: 5px;
 }
+.top-content{
+	border: 1px solid red;
+	width: 680px;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	Justify-content: space-between;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+
+}
+.top1{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	width:328px;
+}
+.top2{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	width: 328px;
+}
