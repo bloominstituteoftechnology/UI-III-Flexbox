@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5 {
 
 .container{
 	border: 2px solid red;
-	width: 100%;
-	margin: 0 0;
+	width: fit-content;
+    margin: auto;
 	padding: 10px;
 	
 	
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5 {
 	padding-top: 5px;
 }
 .top-content{
-	border: 1px solid red;
+	border: 0px solid red;
 	width: 680px;
 	height: 120px;
 	display: flex;
@@ -137,9 +137,10 @@ h1, h2, h3, h4, h5 {
 	flex-wrap: wrap;
 	Justify-content: space-between;
 	flex-wrap: wrap;
-	border-bottom: 1px solid black;
+	border-bottom: 0px solid black;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
+	margin-top: 30px;
 
 }
 .top1{
@@ -153,4 +154,53 @@ h1, h2, h3, h4, h5 {
 	flex-direction: column;
 	align-items: baseline;
 	width: 328px;
+}
+.middle-img{
+	width: 680px;
+}
+
+.bottom-content{
+	border: 0px solid red;
+	width: 680px;
+	height: 180px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	Justify-content: space-between;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.bottom1{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	width: 220px;
+}
+.bottom2{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	width: 220px;
+}
+.bottom3{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	width: 220px;
+}
+
+.contact{
+	border: 0px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 150px;
+	margin-top: 0px;
+}
+.footer{
+	text-align: center;
+	margin: auto;
 }
