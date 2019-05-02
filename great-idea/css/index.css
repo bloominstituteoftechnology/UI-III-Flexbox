@@ -436,6 +436,7 @@ footer {
 }
 
 /* Facts Bottom Section */
+
 .facts-section {
 	display: flex;
 	justify-content: baseline;
@@ -485,7 +486,7 @@ footer {
 }
 
 .services-footer {
-	margin-bottom: 0px;
+	margin-bottom: 25px;
     margin-top: 111px;
     font-size: 21px;
 }
