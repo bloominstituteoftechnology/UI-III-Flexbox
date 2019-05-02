@@ -278,6 +278,10 @@ header .logo1 {
   margin-right: 20px;
 }
 
+.image img {
+  margin: auto 0;
+}
+
 h2 {
   font-size: 25px;
   margin-top: 30px;
