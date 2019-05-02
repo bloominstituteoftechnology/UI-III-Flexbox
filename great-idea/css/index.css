@@ -63,4 +63,124 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+
+nav { 
+	width: 10px;
+	border: 1px solid red;
+}
+
+a {
+	color: gray;
+	border: 1px solid red;
+	text-decoration: none;
+}
+
+nav ul {
+	width:900px;
+	margin: 0 auto;
+    border: 1px solid red;
+    display: inline;
+	
+}
+
+nav li {
+	line-height: 38px;
+	float: left;
+	text-align: center;
+	width: 116px;
+	border: 1px solid red;
+  }
+
+.quote {
+	text-align: center;
+	font-size: 60px;
+	padding: 50px;
+	margin: 45px;
+	border: 1px solid red;
+	display: inline-block;
+	box-sizing: border-box;
+	
+
+}
+
+.logo {
+	display: inline-block;
+}
+.snip {
+	padding: 50px;
+	margin: 20px;
+	display: inline-block;
+	border: 1px solid red;
+	
+}
+
+
+footer {
+	text-align: center;
+	border: 1px solid red;
+}
+
+address {
+	height: 150px;
+	width: 0 auto;
+	border: 1px solid red;
+}
+
+.logo { 
+	display: inline;
+}
+
+#features {
+	width:400px;
+	height: 100px;
+	padding: 10px;
+	border: 1px solid red;
+	margin:10px;
+	display: inline-block;
+}
+
+#about {
+	width:400px;
+	height: 100px;
+	padding: 10px;
+	border: 1px solid red;
+	margin:10px;
+	display: inline-block;
+}
+
+#services{
+	width:200px;
+	height: 100px;
+	padding: 10px;
+	border: 1px solid red;
+	margin:10px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#product {
+	width:200px;
+	height: 100px;
+	padding: 10px;
+	border: 1px solid red;
+	margin:10px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#vision {
+	width:200px;
+	height: 100px;
+	padding: 10px;
+	border: 1px solid red;
+	margin:10px;
+	display: inline-block;
+	box-sizing: border-box;
+}
