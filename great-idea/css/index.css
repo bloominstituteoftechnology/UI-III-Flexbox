@@ -57,10 +57,249 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+/*
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
+}
+*/
+
+/* Your code starts here! */
+.container {
+	width: 900px; 
+	margin: auto;
+	
+}
+  
+header nav {
+ display: flex;
+  margin-top: 35px;
+  
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.logo {
+	margin-left:650px;
+	display: flex;
+	margin-top: -50px;
+
+	
+}
+
+header nav a {
+	margin: 20px; 
+	
+}
+
+
+
+.sub img{
+display: flex;
+margin-left: 450px;
+    margin-bottom: 50px;
+	margin-top: -290px;
+}
+
+
+
+.sub h1 {
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	display:flex;
+	margin-top: 30px;
+	font-size: 60px;
+	text-align: center;
+	margin-left: 100px;
+	margin-top:100px;
+}
+
+.sub h3 {
+	border: 1px solid black;
+	display:flex;
+	font-family:Arial;
+	margin-left: 180px;
+	padding: 5px 5px 5px;
+	width: 100px;
+}
+
+.line {
+	border-bottom: 1px solid;
+	width: 875px;
+}
+
+.one h6 {
+	
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	margin-top: 20px; 
+}
+
+.one p {
+	display: flex;
+	width: 50%;
+     height: 50px;
+
+}
+
+.one h3  {
+	 
+
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-left: 50%;
+	margin-top: -95px;
+	margin-bottom: 15px;
+}
+
+.two p {
+	display: flex;
+	margin-left: 50%;
+	
+}
+
+.three h4 {
+ 
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	margin-top: 20px; 
+	margin-left: -10px;
+}
+
+.three p {
+	display: flex;
+	width: 30%;
+	 height: 50px;
+	 margin-right: 50%;
+	 margin-left: -10px; 
+}
+
+.three h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-left: 40%;
+	margin-top: -76px;
+	margin-bottom: 15px;
+}
+
+.four p {
+	display: flex;
+	margin-left: 40%;
+	
+
+}
+
+.five h3 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-left: 75%;
+	margin-top: -76px;
+	margin-bottom: 15px;
+}
+
+.five p {
+	display: flex;
+	margin-left: 75%;
+}
+
+
+.contact-section {
+	border-top: 1px solid black;
+	padding: 20px 0;
+	margin-top:80px; 
+}
+
+.contact-section h2 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+}
+
+footer .footer-content {
+   padding: 20px 0;
+   text-align: center;
+   font-family: 'Schoolbell'; 
+}
+
+.menu-container {
+	display: flex; 
+	flex-direction: row;
+	width: 900px;
+	margin: auto; 
+	flex-wrap: wrap; 
+}
+
+.menu-container .item {
+	width: 370px;
+	height: 200px;
+	background: #efeeee;
+	border: 1px solid black;
+	margin: 20px;
+	flex-wrap: wrap; 
+	
+  }
+
+
+  .menu-container h2 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	 margin-top: 20px;
+	 margin-left: 20px; 
+  }
+
+   .menu-container p {
+	margin-left: 20px;
+   }
+
+.menu-container .learn {
+	margin-left: 20px;
+}
+.top h1 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.top p{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px; 
+	
+}
+
+
+
+.menu-bottom p {
+  width: 400px; 
+}
+
+.menu-bottom {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+   }
+
+.menu-bottom h2 {
+	margin-right: 100px; 
+	width: 800px; 
+}
+
+.services-info-img {
+margin-left: 450px; 
+margin-top: -270px; 
+
+}
+
+ul {
+	list-style-type: square; 
+	margin-left: 30px; 
+	margin-top: 20px; 
+}
+
+footer .footer-contenttwo {
+    padding: 30px 0; 
+	text-align: center;
+	font-family: 'Schoolbell'; 
+	margin-left: 300px; 
+	margin-top: 30px; 
+ }
