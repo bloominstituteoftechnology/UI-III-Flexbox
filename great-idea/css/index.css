@@ -63,12 +63,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-.container {
-  width: 880px;
-  /* TB LR */
-  margin: 0 auto;
-}
-
 /* 
 
 	\/\/\/\/ INDEX PAGE CSS \/\/\/\/
@@ -79,10 +73,12 @@ h1, h2, h3, h4, h5 {
 */
 
 .container {
-	display: flex;
-	flex-wrap: wrap;
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
-
 
 /* header */
 
