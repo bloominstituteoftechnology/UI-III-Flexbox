@@ -318,59 +318,75 @@ footer {
   text-align: center;
   font-size: 14px;
 }
-
-body{
-    width: 1000px;
-    margin: 40px 150px;
-  }
-   header nav {
-      display: flex;
-      justify-content: space-between;
-      max-width: 1000px;
-     align-item: center;
-  }
+body{ 
+  margin: 120px;}
   
-  
-  /.main-section {
-      border: 2px solid black;
-      margin: 75px 0 35px 0;
-      display:flex;
-      
+  header nav {
+    display: flex;
+    justify-content: space-between;
   }
-  .main-section div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /justify-content: center;
-    align-content: space-around;
-      background: lightgray;
-    border: 2px solid black;  
-    width: 400px;
-      max-width: 900px;
-      height: 250px;
-    margin:40px
-  
+  nav{
+    color:gray;
   }
-  .main-section div .right-side{
-    /display: flex;
-    align-content: flex-end;
+  .services-header-img {
+    width: 100%;
+    max-width: 1000px;
+    height: 175px;
+    margin: 40px  0
   }
-  button{
-      background: white;
-      width: 75px;
-      height: 25px;
-    text-align: center;
+  .service-section{ 
+  width: 950px;
+  margin: 30px ;
+   }
+  .service-section h2 {
+    font-size: 30px;
   }
-  footer p{
-      width: 400px;
-  
-  
+  .main-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:40px ;
+    justify-content: space-evenly;
+   }
+  button{ 
+  height: 30px;
+  width: 130px;
   }
-  hr{
-    height: 2px;
-    
+  .main-section .left-side {
+    border: 1px solid black;
+    margin: 20px;
+    background: lightgray;
+    height: 250px;
+    width: 400px;
+    
+   
+    
   }
-  .copyright {
-   font-size: 20px;
-    
+  .main-section .right-side{ 
+    border: 1px solid black;
+    margin: 20px;
+    background: lightgray;
+    height: 300px;
+    width: 400px;
+    
+   
+    
+  }
+  hr{ 
+  max-width: 1050px;
+  }
+  .some-facts  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .some-facts .sf-left {
+    width: 50%;
+  }
+  .bottom-img{
+    margin: 75px;
+  }
+  .copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
   }
