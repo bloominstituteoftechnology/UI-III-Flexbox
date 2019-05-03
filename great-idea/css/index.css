@@ -78,23 +78,30 @@ header {
   display: flex; /* or inline-flex */
   flex-flow: row wrap;	
   width: auto;	
-  align-items:center;
   margin: 50px;
+  align-items: center;
+
+
 }
 
 header nav {
   display: flex; /* or inline-flex */
-  background-color: rgb(13, 235, 235);
   width: 650px;
-  justify-content: space-between;
-  align-items: right;
+  align-items: center;
+  margin-top:50px;
+  margin-right: 50px;
+  margin-left: 125px;
+  justify-content: space-evenly;
 }
   
 header nav a {
-  
+  display: flex;
   font-size: 14px;
   color: gray;
   text-decoration: none;
+  margin: 50px;
+ 
+ 
 }
 
 header nav a:hover {
@@ -102,11 +109,53 @@ header nav a:hover {
 }
 
 header .logo {
-   align-items: left;
+   align-items: right;
    display: flex; /* or inline-flex */
-   margin: 10px;
+   margin-right: 50px;
+   margin-left: 50px;
+   margin-top: 50px;
+   
+ }
+
+
+ .services-header-img {
+   align-items: center;
+   display: flex;
+   width: 1000px;
+   height: auto;
   
  }
+
+
+.title {
+  display: flex;
+  margin-top: 50px;
+}
+
+.paragraph {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  width: 1000px;
+  height: auto;
+}
+
+hr {
+  margin-left: -2px;
+  width: 1000px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* cta */
 
