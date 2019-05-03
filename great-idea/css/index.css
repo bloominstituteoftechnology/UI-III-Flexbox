@@ -118,40 +118,126 @@ header .logo {
  }
 
 
+.middle {
+
+  flex-direction: column;
+}
+
  .services-header-img {
-   align-items: center;
    display: flex;
+   align-content: center;
    width: 1000px;
-   height: auto;
+  
   
  }
 
 
-.title {
+.middle .title {
   display: flex;
   margin-top: 50px;
+  margin-left: 50px;
 }
 
-.paragraph {
+.middle .paragraph {
   display: flex;
   margin-bottom: 50px;
   margin-top: 20px;
   width: 1000px;
-  height: auto;
+  margin-left: 50px;
 }
 
-hr {
-  margin-left: -2px;
+.middle hr {
+  margin-left: 50px;
   width: 1000px;
 
 }
 
+ul.a{
+  list-style-type: disc;
+}
+
+.cr {
+  display: flex;
+  align-content: center;
+}
+
+.boxes{
+display: flex;
+flex wrap: wrap;
+justify-content: space-evenly;
+padding-bottom: 20px;
 
 
+}
+
+.boxes .box1{
+  display: flex;
+ flex-direction: column;
+ width: 500px;
+ flex-wrap:wrap;
+ margin: 30px;
+ border-radius: 5px;
+ border: 2px solid black;
+
+}
 
 
+.boxes .box2{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  flex-wrap: wrap;
+  margin: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
 
 
+}
+
+
+.boxes .box3{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  flex-wrap: wrap;
+  margin: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+
+}
+
+.boxes .box4{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  flex-wrap: wrap;
+  margin: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+
+}
+
+
+.boxes .box5{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  flex-wrap: wrap;
+  margin: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+
+}
+
+.boxes .box6{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  flex-wrap: wrap;
+  margin: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
 
 
 
