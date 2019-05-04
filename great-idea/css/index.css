@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
   display: flex; /* or inline-flex */
-  flex-direction: column;
+  
   background-color:silver;
   margin-top: 30px;
 }
@@ -120,7 +120,7 @@ header .logo {
 
 .middle {
 
-  flex-direction: column;
+  
 }
 
  .services-header-img {
@@ -134,7 +134,7 @@ header .logo {
 
 .middle .title {
   display: flex;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: 50px;
 }
 
@@ -154,89 +154,187 @@ header .logo {
 
 ul.a{
   list-style-type: disc;
+  padding-left: 15px;
+}
+
+li.b{
+  padding-top: 15px;
+
+
+}
+.hl{
+width: 1000px;
+border: 5px;
+border-color: black;
+
 }
 
 .cr {
   display: flex;
   align-content: center;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.bottom-section{
+  width: 1000px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+
+.bottom-p{
+padding-bottom: 20px;
+
+}
+.oval {
+ margin-top: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 30px;
+ padding-right: 30px;
+ border-radius: 10px;
+ border-color: black;
+ background: white;
+}
+
+.bottom {
+display: flex;
+height: 100%;
+flex-wrap: wrap;
+
+
+}
+
+.r{
+margin: 50px;
+display: flex;
+align-content: start;
+width: 400px;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+
+
+
+.bottom-image{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  align-items: end;
+  width: auto;
 }
 
 .boxes{
 display: flex;
-flex wrap: wrap;
-justify-content: space-evenly;
-padding-bottom: 20px;
-
-
+align-content: stretch;
+height: 100%;
+flex-wrap: wrap;
 }
 
-.boxes .box1{
+
+
+
+.boxes2{
   display: flex;
- flex-direction: column;
- width: 500px;
- flex-wrap:wrap;
- margin: 30px;
+  align-content: stretch;
+  height: 100%;
+  
+  flex-wrap: wrap;
+  
+  }
+
+  .boxes3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 100%;
+    
+    
+    
+    }
+
+.boxes .box1{
+ display: flex;
+ padding: 25px;
+ width: 450px;
+ flex-wrap: wrap;
+ margin: 50px;
  border-radius: 5px;
  border: 2px solid black;
-
+ background: lightgrey;
+ align-items: start;
 }
 
 
 .boxes .box2{
   display: flex;
-  flex-direction: column;
-  width: 500px;
+  padding: 25px;
+  width: 450px;
   flex-wrap: wrap;
-  margin: 30px;
+  margin: 50px;
   border-radius: 5px;
   border: 2px solid black;
-
-
+  background: lightgrey;
+  align-items: end;
 }
 
 
-.boxes .box3{
+.boxes2 .box3{
   display: flex;
-  flex-direction: column;
-  width: 500px;
-  flex-wrap: wrap;
-  margin: 30px;
+  padding: 25px;
+  width: 450px;
+  margin: 50px;
   border-radius: 5px;
   border: 2px solid black;
-
+  background: lightgrey;
+  flex-wrap: wrap;
+  align-items: start;
 }
 
-.boxes .box4{
+.boxes2 .box4{
   display: flex;
-  flex-direction: column;
-  width: 500px;
-  flex-wrap: wrap;
-  margin: 30px;
+  padding: 25px;
+  width: 450px;
+  align-items: end;
+  margin: 50px;
   border-radius: 5px;
   border: 2px solid black;
-
+  background: lightgrey;
+  flex-wrap: wrap;
 }
 
 
-.boxes .box5{
+.boxes3 .box5{
   display: flex;
-  flex-direction: column;
-  width: 500px;
+  padding: 25px;
+  width: 450px;
   flex-wrap: wrap;
-  margin: 30px;
+  margin: 50px;
   border-radius: 5px;
   border: 2px solid black;
-
+  background: lightgrey;
+  align-items: start;
 }
 
-.boxes .box6{
+.boxes3 .box6{
   display: flex;
-  flex-direction: column;
-  width: 500px;
-  flex-wrap: wrap;
-  margin: 30px;
+  padding: 25px;
+  width: 450px;
+  margin: 50px;
   border-radius: 5px;
   border: 2px solid black;
+  background: lightgrey;
+  flex-wrap: wrap;
+  align-items: end;
 }
 
 
