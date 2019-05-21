@@ -49,8 +49,6 @@ dl,
 dt,
 dd,
 ol,
-ul,
-li,
 fieldset,
 form,
 label,
@@ -290,23 +288,26 @@ footer {
   color: rgb(38, 7, 101);
 }
 
-.bottom-information ul {
+.bottom-information {
+  display: flex;
+}
+
+
+.bottom-information .details ul {
   margin: 20px;
-  display: inline-block;
 }
 
-.bottom-information ul li {
-  list-style: disc;
+.bottom-information .details ul li {
+  list-style: square;
   padding: 5px;
-  display: inline-block;
 }
 
- .bottom-information .details { 
-  display: border-box;
-  flex-wrap: wrap;
+.bottom-information .details h2 {
   border-top: 3px hotpink;
-  margin: 20px 0 35px 0;
-  padding-top: 20px;
+}
+ .bottom-information .details { 
+  width: 400px;
+  margin: 0px 60px 20px 0;
  } 
 
 .bottom-information .details p {
