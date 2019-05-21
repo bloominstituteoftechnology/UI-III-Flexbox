@@ -75,6 +75,7 @@ menu,
 nav,
 output,
 ruby,
+section,
 summary,
 time,
 mark,
@@ -98,6 +99,7 @@ header,
 hgroup,
 menu,
 nav, 
+section 
 {
   display: block;
 }
@@ -145,7 +147,7 @@ h5 {
   margin-bottom: 15px;
 }
 .container {
-  width: 880px;
+  width: 900px;
   margin: 0 auto;
 }
 header {
@@ -240,9 +242,6 @@ footer {
   margin: 40px 0 20px;
 }
 
-.services-section .services-header-img {
-  display: flex;
-}
 .services-section {
   display: flex;
   flex-wrap: wrap;
@@ -252,6 +251,7 @@ footer {
 
 .services-section .services-header-img {
   margin: 20px 0;
+  display: flex;
 }
 
 .services-section h1 {
@@ -261,9 +261,9 @@ footer {
 }
 
 .services-section .services-text {
-  border-bottom: 3px hotpink;
   padding-bottom: 40px;
   margin-bottom: 20px;
+  border-bottom: 3px solid black;
 }
 
 .services-section .box {
@@ -290,6 +290,9 @@ footer {
 
 .bottom-information {
   display: flex;
+  border-top: 3px solid black;
+  margin: 20px 0 35px 0;
+  padding-top: 40px;
 }
 
 
@@ -302,9 +305,7 @@ footer {
   padding: 5px;
 }
 
-.bottom-information .details h2 {
-  border-top: 3px hotpink;
-}
+
  .bottom-information .details { 
   width: 400px;
   margin: 0px 60px 20px 0;
@@ -312,7 +313,10 @@ footer {
 
 .bottom-information .details p {
   margin-bottom: 20px;
-  display: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 35px 0;
+  padding-top: 40px;
 }
 
 .bottom-information .details .services-info-img {
