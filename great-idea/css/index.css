@@ -1,249 +1,361 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
+/* Your code starts here! */
+
 .container {
-    width: 880px;
-    margin: auto;
+    width: 900px;
+    margin: 0 auto;
 }
 
-/* Header Styles */
-
 header {
-    width: 100%;
     display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
 }
 
 header nav {
-    margin-top: 40px; 
-    width: 610px;
-    justify-content: space-between;
+    margin-top: 35px;
+    width: 60%px;
     display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
 }
 
 header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
     text-decoration: none;
-    color: #b0b0b0;
+}
+
+.heading img {
+    margin-left: 200px;
+    justify-content: space-evenly;
 }
 
 header nav a:hover {
     text-decoration: underline;
-    color: black;
 }
 
-header .logo {
-    margin: 28px 0 0 91px;
-}
-
-/* Call To Action (CTA) Styles */
-
-.cta {
-    display: flex;
-    margin-top: 72px;
-    justify-content: flex-end;
-}
-
-.cta .cta-text {
-    font-size: 72px;
+.heading .text {
+    /*  display: inline-block;
+    font-size: 80px;
+    margin-top: 100px;
     text-align: center;
-    letter-spacing: 5px;
+    padding: 0px 75px; */
     display: flex;
-    justify-content: center;
-    flex-flow: column;
-    align-items: center;
-    margin: 0 82px 0 0;
+    font-size: 80px;
+    margin-top: 100px;
+    text-align: center;
 }
 
-.cta .cta-text button {
-    border: 1px double black;
-    font-size: 16px;
+.heading .text {
     background: white;
-    width: 170px;
-    height: 32px;
-    margin-top: 10px;
+    vertical-align: top;
+    margin-top: 6px;
+}
+
+.heading button {
+    display: flex;
+    padding: 6px 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
     cursor: pointer;
 }
 
-.cta .cta-text button:hover {
-    background: black;
-    color: white;
+.container-div {
+    border-top: 1px solid black;
+    margin-top: 40px;
+    padding-top: 40px;
 }
 
-/* Main Content Styles */
-
-.main-content {
-   border-top: 2px solid black; 
-   border-bottom: 2px solid black;
-   margin: 75px 0 35px 0;
-   padding: 35px 0;
-   font-size: 16px;
-   line-height: 18px;
-}
-
-.main-content .top-content {
+.container-div .top-container {
     display: flex;
 }
 
-.main-content .middle-img {
-    display: block;
-    margin: 30px auto;
-}
-
-.main-content .bottom-content {
+.container-div .top-container .block {
+    width: 420px;
     display: flex;
+    flex-flow: row wrap;
+    margin-right: 40px;
 }
 
-.main-content .bottom-content p {
-    padding-right: 20px;
+.container-div .middle-img {
+    margin: 20px 0px;
 }
 
-/* Contact Styles */
+.container-div .bottom-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-div .bottom-container .block {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-container {
+    border-bottom: 1px solid black
+}
+
+.contact {
+    margin-top: 20px;
+}
 
 .contact p {
-    margin: 15px 0;
+    padding-top: 10px;
 }
-
-/* Footer Styles */
 
 footer {
     text-align: center;
-    margin: 40px 0 20px;
 }
 
-/* Services Styles */
+.service-container .services-content h1 {
+    margin: 10px 0px;
+    font-size: 30px;
+}
 
 .services-content {
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.service-container .services-text {
+    margin-bottom: 20px;
+}
+
+.service-container .top-container {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.top-container .card {
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 20px;
+    padding: 40px;
+}
+
+.middle-container {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.middle-container .card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    line-height: 1.3;
+    margin-right: 20px;
+    padding: 40px;
 }
 
-.services-content .services-header-img {
-    margin: 20px 0;
+.bottom-container {
+    display: flex;
 }
 
-.services-content h1 {
-    font-size: 26px;
-    margin: 10px 0;
-}
-
-.services-content .services-text {
- border-bottom: 1px solid black;
- padding-bottom: 40px;
- margin-bottom: 20px
-}
-
-.services-content .card {
-    padding: 20px;
-    border: 1px solid black;
-    width: 420px;
-    background: whitesmoke;
-    margin: 20px 0;
-}
-
-.services-content .card button {
-    padding: 10px 40px;
-    margin-top: 20px;
-    cursor: pointer;
-    background: white;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-
-.services-content .card button:hover {
-    background: black;
-    color: white;
-} 
-
-.services-content .services-info ul {
-    margin: 20px;
-}
-
-.services-content .services-info ul li{
-    list-style: square;
-    padding: 5px;
-}
-
-.services-content .services-info {
+.bottom-container .card {
     display: flex;
     flex-wrap: wrap;
-    border-top: 2px solid black; 
-    margin: 20px 0 35px 0;
-    padding-top: 40px; 
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding: 40px;
 }
 
-.services-content .services-info .facts {
-  width: 400px;
-  margin: 0 60px 20px 0;
+.card {
+    background-color: lightgray;
+    border: 1px solid black;
 }
 
-.services-content .services-info .facts p {
-  margin-bottom: 20px;
+button {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.services-content .services-info .services-info-img {
-  width: 420px;
-  height: 300px;
+.container .services-info {
+    display: flex;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.facts ul li {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 15px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 60px;
+}
+
+img.logo1 {
+    padding-bottom: 10px;
+    float: right;
+    margin-top: 15px;
 }
