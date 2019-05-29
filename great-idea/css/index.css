@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+	margin-top: 20px;
+	display: flex;
+	width: 1000px;
+}
+
+header a{
+	text-decoration: none;
+	color:gray;
+}
+
+header nav{
+	word-spacing: 80px;
+	font-size: 80%;
+	margin-left: 40px;
+}
+
+.main-heading {
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	width: 900px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-heading h1{
+	text-align: center;
+	font-size: 500%;
+	margin-left: 30px;
+	width: 450px;
+	margin-top: 170px;
+}
+
+.main-heading img {
+	margin-top: 100px;
+}
+
+.main-heading button {
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-left: 150px;
+	font-size: 120%;
+	border: 1px solid black;
+	width: 200px;
+	text-align: center;
+}
+
+.top-row {
+	margin: 20px;
+	margin-top: 40px;
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+}
+.features {
+	width: 45.5%;
+}
+
+.about {
+	width: 45.5%;
+}
+
+.bottom-row {
+	margin: 20px;
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+.services {
+	width: 30%;
+}
+
+.product {
+	width: 30%;
+}
+
+.vision {
+	width: 30%;
+}
+
+.middle-img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 10px;
+}
+
+#phone-number {
+	margin-top: 20px;
+}
+
+#email {
+	margin-top: 20px;
+}
+
+#copyright {
+	text-align: center;
+	margin-bottom: 200px;
+	margin-left: -10px;
+	margin-top: 50px;
+}
+
+footer {
+	margin: 30px;
+}
