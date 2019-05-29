@@ -64,3 +64,87 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+#main{
+	margin: 20px 27%;
+}
+
+#navigation-top{
+	display: flex;
+	justify-content: : space-evenly;
+}
+
+#navigation-top a {
+	margin: 10px 25px;
+	color: gray;
+	text-decoration: none;
+}
+
+header{
+	margin-bottom: 60px;
+}
+
+.tagline{
+	font-family: "Bangers";
+	font-size: 400%;
+	text-align: center;
+}
+
+#subheader {
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+	align-items: center;
+}
+
+#subheaderText{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+	align-items: center;
+}
+
+article section h4{
+	font-family: "Bangers";
+	font-size: 120%;
+}
+article section{
+	margin-bottom: 30px;
+}
+
+.point{
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+	padding: 2px;
+}
+
+
+article{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+footer h4{
+	font-family: "Bangers";
+	font-size: 120%;
+}
+
+footer p{
+	margin-bottom: 12px;
+	font-size: 80%;
+}
+
+
+.middle-img{
+	padding-bottom: 30px;
+}
+
+footer h6{
+	text-align: center;
+	margin-top: 40px;
+}
