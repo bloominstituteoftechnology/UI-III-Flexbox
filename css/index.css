@@ -64,3 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.wrapper{
+	width:90%;
+	margin: 0 auto;
+}
+
+/* ~~~~~~
+Nav
+~~~~~~ */
+nav{
+	display:flex;
+	justify-content: space-evenly;
+	width:100%;
+	align-items: center;
+}
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	flex-basis: 75%;
+}
+.nav-links a{
+	text-decoration: none;
+	color: grey;
+}
+.nav-logo{
+	flex-basis: 25%;
+}
+.nav-logo img{
+	width:100%;
+}
+
+/* ~~~~~~
+Header
+~~~~~~ */
+.hero{
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 20px 0;
+}
+.hero .tagline{
+	flex-basis: 50%;
+	text-align: center;
+}
+.tagline h1{
+	font-size: 50px;
+}
+.tagline a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+}
+.hero .hero-img{
+	flex-basis: 50%;
+}
+.hero-img img{
+	width: 100%;
+}
+/* ~~~~~~
+Main
+~~~~~~ */
+.top, .bottom{
+	margin: 20px 0;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+}
+.top div{
+	padding: 0 10px;
+}
+.bottom{
+	display: flex;
+}
+.bottom div{
+	padding: 0 5px;
+}
+.middle-img{
+	width: 100%;
+}
+
+/* ~~~~~~
+Footer
+~~~~~~ */
+footer{
+	text-align: center;
+}
