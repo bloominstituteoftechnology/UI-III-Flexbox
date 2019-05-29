@@ -83,4 +83,75 @@ body {
 .logo {
     margin-bottom: 10px;
     margin-top: -10px;
+    margin-left: 20px;
+}
+
+.services {
+    margin-top: 20px;
+}
+
+h2 {
+    font-weight: 575;
+    font-size: 20px;
+}
+
+.digital-design {
+    border: solid black 1px;
+    padding: 10px;
+    margin: 20px;
+    background: #F3F3F3
+}
+
+.uxui {
+    border: solid black 1px;
+    padding: 10px;
+    margin: 20px;
+    background: #F3F3F3
+}
+
+.digital-marketing {
+    border: solid black 1px;
+    padding: 10px;
+    margin: 20px;
+    background: #F3F3F3
+}
+
+.web-development {
+    border: solid black 1px;
+    padding: 10px;
+    margin: 20px;
+    background: #F3F3F3
+}
+
+.ios-development {
+    border: solid black 1px;
+    padding: 10px;
+    margin: 20px;
+    background: #F3F3F3
+}
+
+.android-development {
+    border: solid black 1px;
+    padding: 10px;
+    margin: 20px;
+    background: #F3F3F3
+}
+
+.learn-more {
+    border: solid grey 1px;
+    padding: 10px 0px 10px 25px;
+    margin: 10px;
+    font-size: 12px;
+    width: 13%;
+    border-radius: 12px;
+    background: white;
+}
+
+.things {
+    list-style-type: square;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 50px;
 }
