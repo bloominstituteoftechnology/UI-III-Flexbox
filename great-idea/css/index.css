@@ -68,6 +68,8 @@ h1, h2, h3, h4, h5 {
 	width: 880px;
 	margin: auto;
 }
+
+/* #### NAV BAR #### */
 .nav-container {
 	display: flex;
 	justify-content: space-between;
@@ -79,6 +81,65 @@ h1, h2, h3, h4, h5 {
 	margin-top: 12px;
 	margin-right: 20px;
 }
+
+/* #### INDEX PAGE #### */
+.intro {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 350%;
+	
+}
+.tagline {
+	line-height: 75%;
+	display: flex;
+	flex-direction: column;
+	padding-right: 50px;
+}
+.tagline button {
+	margin-left: 45px;
+	padding: 4px;
+	border: solid black 1px;
+	border-radius: 3px;
+	background-color: white;
+	width: 60%;
+}
+.code-img {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	align-self: flex-end;
+	
+}
+.column-org {
+	display: flex;
+	justify-content: space-between;
+}
+ .features {
+	 margin-top: 15px;
+	 margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+.index-features {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+.contact {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+}
+
+/* #### SERVICES PAGE #### */
 .services-header.img {
 	width: 700px;
 }
@@ -130,6 +191,7 @@ h1, h2, h3, h4, h5 {
 .services-info-img {
 	display: flex;
 }
+/* #### FOOTER #### */
 h6 {
 	font-weight: bold;
 	margin-top: 90px;
