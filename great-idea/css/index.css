@@ -318,7 +318,6 @@ li{
   flex-flow: row wrap;
   padding: 25px;
   justify-content: space-between;
-  
 }
 .child{
   border: 1px solid black;
@@ -340,7 +339,7 @@ nav{
   align-items: center;
   color: lightgray;
   padding: 10px;
-  width: 800px;
+  width: 700px;
 }
 
 .bottom-img{
@@ -364,13 +363,18 @@ button{
   text-align: center; 
   margin:auto;
 }
-.logo{
-  margin-left: 25%;
-}
 h3{
   text-decoration: underline;
   font-size: 35px;
 }
 footer{
   font-size: 50px;
+}
+body{
+  width: 950px;
+}
+.logo{
+  display: block;
+  margin-left: 80%;
+  padding: 10px;
 }
