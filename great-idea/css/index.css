@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 880px;
+	margin: auto;
+}
+
+/* #### NAV BAR #### */
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.nav-container a {
+	text-decoration: none;
+	color: gray;
+	margin-top: 12px;
+	margin-right: 20px;
+}
+
+/* #### INDEX PAGE #### */
+.intro {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 350%;
+	
+}
+.tagline {
+	line-height: 75%;
+	display: flex;
+	flex-direction: column;
+	padding-right: 50px;
+}
+.tagline button {
+	margin-left: 45px;
+	padding: 4px;
+	border: solid black 1px;
+	border-radius: 3px;
+	background-color: white;
+	width: 60%;
+}
+.code-img {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	align-self: flex-end;
+	
+}
+.column-org {
+	display: flex;
+	justify-content: space-between;
+}
+ .features {
+	 margin-top: 15px;
+	 margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+.index-features {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+.contact {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+}
+
+/* #### SERVICES PAGE #### */
+.services-header.img {
+	width: 700px;
+}
+.services {	
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.info-boxes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.learn-more {
+	border: solid black 1px;
+	width: 48%;
+	padding: 15px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.learn-more button {
+	margin-top: 15px;
+	padding: 8px;
+	border: solid black 1px;
+	border-radius: 4px;
+	background-color: white;
+	width: 40%;
+	font-size: 80%;
+}
+.fact-section {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.facts {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+}
+.facts li {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.services-info-img {
+	display: flex;
+}
+/* #### FOOTER #### */
+h6 {
+	font-weight: bold;
+	margin-top: 90px;
+	margin-bottom: 65px;
+	text-align: center;
+	font-size: 90%;
+}
