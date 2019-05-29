@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,7 +58,8 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* ^ above copy and pasted from index.css */
 
 /*My code begins*/
 
@@ -89,75 +85,19 @@ header a{
 	margin-left: auto;
 }
 
-.header-content-div{
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: space-evenly;
-	padding: 50px 0 50px 0;
-
-}
-
-.left-banner-div{
-	display: flex;
-	flex-direction: column;
-	width: 379px;
-	height: 379px;
-
-}
-
-.left-banner-font{
-	font-family: 'Bangers', cursive;
-	font-size: 77px;
-	margin: auto;
-	text-align: center;
-}
-
-.left-banner-cta{
-	font-family: 'Titillium Web', sans-serif;
-	width: 150px;
-	font-size: 18px;
-	padding: 5px;
-	margin: 0 auto auto auto;
-	border: 1px solid black;
-	text-align: center;
-}
-
-hr{
-	border: solid black .5px;
-	margin: 20px 20px 0px 20px;
-}
-
 article{
 	padding: 40px 10px 40px 10px;
+}
+
+article h2{
+	font-size: 26px;
 }
 
 article h3{
 	font-size: 18px;
 }
 
-.top-main{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin: 0px 20px 0px 20px;
+hr{
+	border: solid black .5px;
+	margin: 20px 20px 0px 20px;
 }
-
-.mid-main{
-	display: flex;
-	justify-content: center;
-}
-
-.bottom-main{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin: 0px 20px 0px 20px;
-}
-
-.copyright{
-	text-align: center;
-	padding-bottom: 100px;
-}
-
-/* for services.html */
