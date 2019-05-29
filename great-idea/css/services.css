@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -175,14 +176,23 @@ h2 {
 
 .page-bottom {
     display: flex;
+    justify-content: space-between;
 }
 
 .some-facts {
-
+    width: 45%;
 }
 
 .things {
     list-style-type: square;
+}
+.things li {
+    margin: 12px;
+}
+
+.services-info-img {
+    height: 45%;
+    width: 45%;
 }
 
 .copyright {
