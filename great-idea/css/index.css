@@ -115,9 +115,17 @@ article section{
 
 .point{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-content: space-evenly;
 	padding: 2px;
+}
+
+.iPoint{
+	border: 1px solid black;
+	padding: 10px;
+	//margin: 20px;
+	background: #f2f3f4;
+	width: 45%;
 }
 
 
@@ -140,7 +148,7 @@ footer p{
 }
 
 
-.middle-img{
+.middle-img, .services-header-img{
 	padding-bottom: 30px;
 }
 
