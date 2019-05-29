@@ -78,7 +78,7 @@ header nav {
 	display: flex;
 	flex-direction: row;
     
-	 width: 680px;
+	 width: 600px;
     margin-top: 45px;
 }
 header nav a {
@@ -93,12 +93,15 @@ header nav a:hover {
 }
 /*aliging the logo to the right */
 .logo {
-	display: inline-block;
+	display: flex;
+	justify-content: flex-end;
 	margin: 44px 0 85px 775px;
 }
 /* Resizing and positioning the header */
 header h1 {
-	margin: 85px 0 15px 185px;
+	display: flex;
+	flex-flow: row;
+	margin: 0 0 15px 185px;
 	text-align: center;
 	display: block;
 	width: 200px;
