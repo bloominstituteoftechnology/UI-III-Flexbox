@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-
 }
 ol, ul {
 	list-style: none;
@@ -64,6 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
 	width: 800px;
 	margin-left: 60px;
@@ -87,114 +87,91 @@ body {
     margin-left: 20px;
 }
 
-.services-header-img {
-    width: 800px;
-    height: auto;
-}
-
-.services {
-    margin-top: 20px;
-}
-
 h2 {
-    font-weight: 575;
-    font-size: 20px;
+	font-weight: bold;
 }
 
-.flex-row1, .flex-row2, .flex-row3  {
-    display: flex;
-    justify-content: space-between;
-    font-size: 15px;
+.middle {
+	text-align: left;
+	display: flex;
+	width: 800px;
+	margin-bottom: 25px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: ;
 }
 
-.digital-design {
-    border: solid black 1px;
-    padding: 10px;
-    background: #F3F3F3;
-    width: 45%;
+.tagline {
+	font-size: 60px;
+	font-family: 'Bangers';
+	letter-spacing: 2.5px;
+    text-align: center;
 }
 
-.uxui {
-    border: solid black 1px;
-    padding: 10px;
-    background: #F3F3F3;
-    width: 45%;
+.codeimg {
+	display: inline;
+	margin-left: 90px;
+	margin-top: 60px;
+	height: 40%;
+	width: 40%;
 }
 
-.digital-marketing {
-    border: solid black 1px;
-    padding: 10px;
-    background: #F3F3F3;
-    width: 45%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.web-development {
-    border: solid black 1px;
-    padding: 10px;
-    background: #F3F3F3;
-    width: 45%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.ios-development {
-    border: solid black 1px;
-    padding: 10px;
-    background: #F3F3F3;
-    width: 45%;
-}
-
-.android-development {
-    border: solid black 1px;
-    padding: 10px;
-    background: #F3F3F3;
-    width: 45%;
-}
-/*
-.learn-more{
-    margin: 5px;
-    padding: 10px;
-    border: 1px solid black;
-    background: white;
-    font-size: 13px;
-    border-radius: 10px;
-}
-*/
-.lmbutton {
+.get-started {
     border: 0;
-    padding: 5px 25px 5px 25px;
-    margin: 10px 0px 5px 10px;
     font-family: inherit;
     background: white;
-    font-size: 100%;
-    border: 1px solid black;
-    border-radius: 5px;
+    font-size: 50%;
     cursor: pointer;
 }
 
-.page-bottom {
-    display: flex;
-    justify-content: space-between;
 }
 
-.some-facts {
-    width: 45%;
+.line {
+	border-top: 1px solid #black;
 }
 
-.things {
-    list-style-type: square;
-    margin-top: 20px;
-}
-.things li {
-    margin: 12px;
-    margin-left: 20px;
+.top {
+	text-align: left;
+	display: flex;
+	width: 800px;
+	margin-bottom: 25px;
 }
 
-.services-info-img {
-    height: 45%;
-    width: 45%;
+.features {
+	display: inline;
+	width: 90%;
+}
+
+.about {
+	display: inline;
+	width: 90%;
+}
+
+.bottom {
+	text-align: left;
+	display: flex;
+	width: 800px;
+}
+
+.services {
+	display: inline;
+	margin-right: 10px;
+}
+
+.product {
+	display: inline;
+	margin-right: 10px;
+}
+
+.vision {
+	display: inline;
+	margin-right: 10px;
+}
+
+.middle-img {
+	width: 800px;
+	margin-bottom: 25px;
 }
 
 .copyright {
