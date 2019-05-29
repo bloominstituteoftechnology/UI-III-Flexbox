@@ -63,4 +63,170 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+html{
+	margin-left: 20px;
+	width:880px;
+}
+
+	
+
+	nav {
+		margin-top: 20px;
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	nav a {
+		color: grey;
+		text-decoration: none;
+	
+	}
+
+	
+	header {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	h1 {
+		font-size: 80px;
+		padding-top: 50px;
+		text-align: center;
+		/*border: 1px solid red*/
+	}
+	.intro-text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/*border: 1px solid red;*/
+	}
+	.start {
+		text-align: center;
+		width: 150px;
+		height: 20px;
+		border: 1px solid black;
+	}
+	
+	
+	.top {
+	padding-top:10px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+	}
+	.features {
+		width: 47%;
+	
+	}
+	.about {
+		width: 47%;	
+	
+	}
+	.middle-image{
+		padding-bottom: 50px;
+	}
+	.bottom {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		display:flex;
+		justify-content: space-between;
+	}
+
+	.services {
+		width: 31%;
+	}
+	.product {
+		width: 31%;
+	}
+	.vision {
+		width: 31%;
+	}
+	.contact{
+		margin-top: 30px;
+	}
+	.number {
+		margin-top: 20px;
+	}
+	.email {
+		margin-top: 20px;
+	}
+	
+	footer {
+		text-align: center;
+		padding-top: 60px;
+	}
+	.middle {
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-top: 40px;
+	}
+	
+	/*css for services page*/
+
+.service-page-ex {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.service-page-ex h2 {
+	font-size: 24px;
+}
+
+.services-body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-evenly;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 25px;
+}
+
+	.box {
+		background-color: aliceblue;
+		width: 425px;
+		height: 200px;
+		border: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+		margin-bottom: 25px;
+		padding: 20px;
+	}
+
+	button {
+		width: 115px;
+		margin-top: 13px;
+	}
+
+	.fun-facts {
+		padding-top: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.fun-facts-list {
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+		width: 425px;
+	}
+	.fun-facts-list p {
+		margin-top: 10px;
+	}
+
+	ul {
+		margin-top: 30px;
+	}
+
+	li {
+		list-style-type: disc;
+		margin-top: 7px;
+		margin-left: 15px;
+	}
+	
