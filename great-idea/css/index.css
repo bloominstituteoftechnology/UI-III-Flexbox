@@ -75,7 +75,7 @@ header {
 header nav {
 	background: #ddf;
 	position: fixed;
-	/* width: 680px; */
+	 width: 680px;
     margin-top: 45px;
 }
 header nav a {
