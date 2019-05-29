@@ -88,6 +88,19 @@ nav{
 	text-decoration: none;
 	color: grey;
 }
+header nav a:hover{
+	animation-duration: 0.3s;
+	animation-name: fadein;
+	animation-fill-mode: forwards;
+}
+@keyframes fadein{
+	from{
+		color: grey;
+	}
+	to{
+		color: black;
+	}
+}
 .nav-logo{
 	flex-basis: 20%;
 }
@@ -112,10 +125,19 @@ Header
 	font-size: 50px;
 }
 .tagline a{
-	padding: 10px 20px;
 	text-decoration: none;
-	color: black;
 	border: 1px solid black;
+	padding: 2px 20px;
+	color: grey;
+	box-shadow: inset 12px -12px 5px -10px black;
+	
+}
+.tagline a:hover{
+	color: Black;
+}
+.tagline a:active{
+	color:grey;
+	box-shadow: inset -12px 12px 5px -10px black;	
 }
 .hero .hero-img{
 	flex-basis: 50%;
