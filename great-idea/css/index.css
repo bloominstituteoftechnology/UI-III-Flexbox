@@ -75,12 +75,13 @@ header {
 header nav {
 	background: #ddf;
 	position: fixed;
-	width: 620px;
+	/* width: 680px; */
     margin-top: 45px;
 }
 header nav a {
 	display: flex;
-	justify-content: flex-start;
+	/* justify-content: flex-start; */
+
 	padding: 12px 25px;
 	text-decoration: none; 	
 	color: #333;
