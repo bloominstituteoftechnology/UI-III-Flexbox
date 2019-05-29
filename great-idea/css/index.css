@@ -64,3 +64,137 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.flexPositionFix
+{
+	/* z-index: 1;
+	position: fixed; */
+}
+
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin:20px 0px;
+	height: 40px;
+	background-color: darkgray;
+	z-index: 1;
+	
+
+}
+
+
+nav a
+{
+	text-decoration: none;
+	color: lightgrey;
+	margin: 25px;
+}
+
+nav img
+{
+	margin-left: 50px;
+}
+
+nav a:first-child
+{
+	margin-left: 0px;
+}
+
+nav a:hover
+{
+	color: black;
+}
+
+body
+{
+	
+	margin-left: 50px;
+}
+
+.innovOD
+{
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+.massiveH1
+{
+	font-size: 450%;
+}
+
+
+.attnGrabber
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.attnGrabber.innovOD
+{
+	padding-bottom: 50px;
+}
+
+
+.attnGrabber div img
+{
+	margin-left: 200px;
+}
+
+.getStartedBtn
+{
+	background-color: white;
+	font-size: 16px;
+	padding: 8px 30px;
+	border: 1px solid black;
+	margin-left: 30px;
+}
+
+.sideBySideTextSections
+{
+	padding: 0px 25px;
+}
+
+.featuresAbout
+{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.bottomContent
+{
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+.srvProVis
+{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-top:50px;
+	margin-bottom: 20px;
+}
+
+.sbsTS2
+{
+	padding: 0px 25px;
+}
+
+.copyrightInfo
+{
+	margin-top: 30px;
+	text-align: center;
+}
+
+
