@@ -79,7 +79,8 @@ header nav {
     margin-top: 45px;
 }
 header nav a {
-	display: inline-block;
+	display: flex;
+	justify-content: flex-start;
 	padding: 12px 25px;
 	text-decoration: none; 	
 	color: #333;
