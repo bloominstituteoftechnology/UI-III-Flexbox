@@ -186,8 +186,8 @@ footer p {
 	margin: 33px 700px 145px 700px;
 }
 /* Styling the Service page */
-
-
-header nav a {
-	justify-content: space-between;
+header  nav {
+	justify-content: left;
 }
+
+/* Making the go under the navigation */
