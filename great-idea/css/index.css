@@ -75,13 +75,14 @@ header {
 header nav {
 	background: #ddf;
 	position: fixed;
+	display: flex;
+	flex-direction: row;
+    
 	 width: 680px;
     margin-top: 45px;
 }
 header nav a {
-	/* display: flex;
-	flex-direction:  row; */
-    display: inline-block;
+	 
 	padding: 12px 25px;
 	text-decoration: none; 	
 	color: #333;
