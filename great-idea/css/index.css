@@ -3,64 +3,435 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Opera < 12.1 */
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.wholePage {
+    -webkit-animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -ms-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    animation: fadein 3s;
+    cursor: default;
+}
+
+hr {
+    border: 1px solid #202020;
+}
+
+header {
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(241, 233, 233, .8);
+    height: 80px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header nav a {
+    color: #202020;
+    font-size: 15px;
+    font-family: slabo;
+    text-decoration: none;
+    margin: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-family: slabo;
+    margin: 20px 0 100px 0;
+}
+
+.container {
+    font-family: slabo;
+    width: 725px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 80px;
+    display: inline;
+    text-align: center;
+}
+
+.topHalf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 50px 0;
+}
+
+.leftSide {
+    text-align: center;
+    width: 50%;
+    padding-right: 80px;
+}
+
+.rightSide {
+    width: 50%;
+}
+
+.rightSide img {
+    max-width: 100%;
+}
+
+.getStartedBtn {
+    font-size: 20px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    border: 2px solid black;
+    background: white;
+    margin-top: 20px;
+}
+
+.getStartedBtn:hover {
+    background: lightgrey;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottomHalf {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.leftSide_MainTop {
+    width: 50%;
+}
+
+.rightSide_MainTop {
+    width: 50%;
+}
+
+.leftSide_MainBottom {
+    width: 33%;
+}
+
+.centerSide_MainBottom {
+    width: 33%;
+}
+
+.rightSide_MainBottom {
+    width: 33%;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 33%;
+    flex-flow: column nowrap;
+    text-align: left;
+    font-family: slabo;
+}
+
+.middle-img {
+    width: 99%;
+    margin: 20px 0 20px 0;
+}
+
+.services-header-img {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 80px;
+}
+
+.box_holder {
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    align-items: flex-start;
+    height: 680px;
+}
+
+.box_item {
+    font-size: 13px;
+    border: 1px solid black;
+    padding: 20px;
+    flex-basis: 352px;
+    /* width: 45%; */
+    /* margin-top: 20px; */
+}
+
+.box_btn {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: black;
+    font-family: slabo;
+    font-size: 12px;
+    padding: 7px 40px;
+    text-decoration: none;
+    margin: 20px 0 0 0;
+}
+
+.services_top {
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-flow: column nowrap;
+    text-align: left;
+    font-family: slabo;
+    margin-bottom: 30px;
+}
+
+.services_top h1 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.fact_box {
+    margin: 30px 0 80px 0;
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fact_item {
+    font-size: 13px;
+    width: 50%;
+    padding: 0 30px 0 0;
+}
+
+.services-info-img {
+    max-width: 100%;
+}
+
+.fact_item ul {
+    list-style: square;
+    list-style-position: inside;
+}
