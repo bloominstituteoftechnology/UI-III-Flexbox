@@ -148,7 +148,7 @@ h1 {
 	width: 48%;
 	margin: 1%;
 	border: 1px solid black;
-	background-color: lightgray;
+	background-color: #F1F1F1;
 	padding: 15px;
 }
 .child1 {
@@ -160,5 +160,11 @@ hr {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+
+.services-header-img {
+	margin-bottom: 20px;
+
+}
+
 ul {list-style-type:square;}
 li {margin-left: 25px;}
