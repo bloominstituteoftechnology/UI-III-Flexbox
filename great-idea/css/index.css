@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left: 25px;
+	margin-right: 100px;
+}
+.navigation{
+	color: gray;
+	display:flex;
+	flex-direction:row;
+	margin-left: 20px;
+}
+li{
+	margin-left: 25px;
+	padding: 20px;
+	display: inline-block;
+}
+.logo{
+	margin-left: 50px;
+}
+header{
+	height: 500px;
+	width: 1100px;
+	
+}
+h1 {
+	font-size: 80px;
+	padding: 20px;
+	width: 350px;
+	margin-left: 0px;
+	display:inline-block;
+	text-align: center;
+}
+
+.code{
+	border: 1px solid black;	
+}
+button{
+	font-size: 20px;
+	width: 150px;
+}
+.section1{
+	height: 200px;
+	border-top: 1px solid black;
+	margin-right: 300px;
+}
+
+p{
+	width: 275px;
+}
+.feature{
+	width: 400px;
+}
+feature, about, service, product, vision{
+	display:inline-block;
+}
+.middle-img{
+	padding-right: 2000px;
+	padding-bottom: 50px;
+	position: relative;
+}
+.section2{
+	border-bottom: 1px solid black;
+	text-align: left;
+	margin-right: 300px;
+}
+.contact{
+	width: 150px;
+	display: block;
+}
+footer{
+	margin-left: 40%;
+}
+/*Services Page*/
+.services{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+h3{
+	font-size: 35px;
+	margin-top: 10px;
+}
+.para1{
+	width: 1000px;
+	padding-bottom:15px;
+	
+	margin-bottom:15px;
+}
+.boxes{
+	width: 1100px;
+	display:flex;
+	flex-flow: column wrap;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 50px;
+}
+section{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+box{
+	padding:30px;
+	border: 1px solid black;
+	background-color: lightgray;
+	margin: 20px;
+}
+.parabox{
+	width: 350px;
+	margin-bottom: 30px;
+}
+.facts{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content: space-around;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.lastpara{
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-start;
+}
+.servicelist{
+	padding: 10px;
+}
+.services-info-img{
+	margin-left: 100px;
+}
