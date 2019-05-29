@@ -53,7 +53,9 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +66,79 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+hr {
+
+	width: 100%;               
+	background-color: black;
+	height: 1px;
+  }
+h1{
+	font-size: 30px;
+}
+nav{
+	
+	flex-basis: 100%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color:white;
+	
+}
+nav a{
+	color: black;
+	text-decoration: none;
+}
+.services-header{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.section-img{
+	width: 100%;
+}
+/*article section*/
+
+.learn-more-article{
+	display: flex;
+	flex-flow: wrap;
+	justify-content:center;
+}
+
+.service{
+	width:400px;
+	height: 400px;
+	margin: 40px;
+	display: flex;
+	padding: 10px;
+	background-color: #f7f7f7;
+	justify-content: space-evenly;
+	flex-direction: column;
+	border: 1px inset #e8e8e8;
+
+}
+.lrn-mr-btn{
+	width: 45%;
+	height: 40px;
+	background-color: white;
+}
+.learn-more{
+	color
+	: black;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.facts{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+li{
+	list-style-type: upper-roman;
+	margin-left: 35px;
+}
