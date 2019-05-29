@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	/* list-style: none; */
 }
 blockquote, q {
 	quotes: none;
@@ -64,3 +64,124 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav a {
+	padding: 40px;
+	display: inline-block;
+	color: gray;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+
+.left-side { 
+	padding: 50px;
+	text-align: center;
+	width: 30%;
+}
+
+.right-side { 
+	padding: 50px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container div {
+	padding: 20px;
+}
+
+
+.button {
+	border: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px 15px 5px 15px;
+	margin: 15px
+}
+
+.services {
+	font-size: 25px;
+}
+
+h3 {
+	margin: 15px;
+}
+
+p {
+	margin: 15px;
+}
+
+hr { 
+	display: block;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 1px;
+  } 
+
+.middle-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.services-header-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	width: 98%;	
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+	width: 50%;
+	height: 50%;
+	background: #E8E9E9;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+.item2 {
+	width: 50%;
+	height: 50%;
+	border: 1px  ;
+	margin: 5px;
+}
+
+.list-margin {
+	margin: 30px;
+}
+.footer { 
+	padding: 50px;
+  }
+
+  .copyright {
+	text-align: center;
+	margin-top: 50px;
+  }
+
+  body {
+	  width: 80%;
+	  margin: 0 auto;
+  }
+
+  .services-info-img {
+	  width: 90%;
+	  float: right;
+  }
+  li {
+	  margin: 10px;
+  }
