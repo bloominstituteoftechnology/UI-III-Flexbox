@@ -80,7 +80,7 @@ header nav {
 }
 header nav a {
 	display: flex;
-	/* justify-content: flex-start; */
+	justify-content: flex-start;
 
 	padding: 12px 25px;
 	text-decoration: none; 	
