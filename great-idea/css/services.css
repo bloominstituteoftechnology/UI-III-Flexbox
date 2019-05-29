@@ -97,53 +97,58 @@ h2 {
 
 .flex-row1, .flex-row2, .flex-row3  {
     display: flex;
-    width: 75%;
+    justify-content: space-between;
+    font-size: 15px;
 }
 
 .digital-design {
     border: solid black 1px;
     padding: 10px;
-
-    background: #F3F3F3
+    background: #F3F3F3;
+    width: 45%;
 }
 
 .uxui {
     border: solid black 1px;
     padding: 10px;
-
-    background: #F3F3F3
+    background: #F3F3F3;
+    width: 45%;
 }
 
 .digital-marketing {
     border: solid black 1px;
     padding: 10px;
-
-    background: #F3F3F3
+    background: #F3F3F3;
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .web-development {
     border: solid black 1px;
     padding: 10px;
-
-    background: #F3F3F3
+    background: #F3F3F3;
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .ios-development {
     border: solid black 1px;
     padding: 10px;
-    background: #F3F3F3
+    background: #F3F3F3;
+    width: 45%;
 }
 
 .android-development {
     border: solid black 1px;
     padding: 10px;
-    background: #F3F3F3
+    background: #F3F3F3;
+    width: 45%;
 }
 
 .page-bottom {
     display: flex;
-    
-
 }
 
 .some-facts {
