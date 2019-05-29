@@ -1,0 +1,14 @@
+.parent-nav {
+  display: flex;
+  width: 880px;
+  height: 180px;
+  margin: 0 auto; 
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.child-nav{
+  display: flex;
+  width: 100px;
+  height: 160px;
+}
