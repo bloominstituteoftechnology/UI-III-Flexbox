@@ -95,56 +95,59 @@ h2 {
     font-size: 20px;
 }
 
+.flex-row1, .flex-row2, .flex-row3  {
+    display: flex;
+    width: 75%;
+}
+
 .digital-design {
     border: solid black 1px;
     padding: 10px;
-    margin: 20px;
+
     background: #F3F3F3
 }
 
 .uxui {
     border: solid black 1px;
     padding: 10px;
-    margin: 20px;
+
     background: #F3F3F3
 }
 
 .digital-marketing {
     border: solid black 1px;
     padding: 10px;
-    margin: 20px;
+
     background: #F3F3F3
 }
 
 .web-development {
     border: solid black 1px;
     padding: 10px;
-    margin: 20px;
+
     background: #F3F3F3
 }
 
 .ios-development {
     border: solid black 1px;
     padding: 10px;
-    margin: 20px;
     background: #F3F3F3
 }
 
 .android-development {
     border: solid black 1px;
     padding: 10px;
-    margin: 20px;
     background: #F3F3F3
 }
 
-.learn-more {
-    border: solid grey 1px;
-    padding: 10px 0px 10px 25px;
-    margin: 10px;
-    font-size: 12px;
-    width: 13%;
-    border-radius: 12px;
-    background: white;
+.page-bottom {
+    display: flex;
+    
+
+}
+
+.some-facts {
+
 }
 
 .things {
