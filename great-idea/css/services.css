@@ -1,0 +1,99 @@
+body {
+	display: flex;	
+	flex-flow: row wrap;
+	width: 100%;
+	justify-content: space-evenly;
+	font-family: Titillium web;
+}
+
+nav {
+    display: flex;	
+    flex-flow: row nowrap;
+    width:90%;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-bottom: 20px;
+	align-items: center;
+	}
+nav p {
+	display: flex;
+	width: 10%;
+	color: grey;
+}
+
+.services-header-img {
+display: flex;
+width:90%;
+}
+
+article {
+	display: flex;
+	width: 90%;
+	border-bottom: solid thin black;
+	flex-flow: row wrap;
+	padding-bottom: 20px;
+	} 
+body h2 {
+	font-family: Bangers;
+}
+body h3 {
+	font-family: Bangers;
+}
+
+div.product-cards {
+	display:flex;
+	width: 90%;
+	flex-flow: row wrap;
+	align-content: space-around;
+	justify-content:space-around;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-bottom: solid thin black;
+}
+
+aside {
+	display:flex;
+	width: 40%;
+	border: solid thin black;
+	background-color: lightgrey;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: space-around;
+	padding: 1% 2% 2% 2%;
+	margin: 2%;
+}
+
+aside button {
+	display:flex;
+	width: 33%;
+	height:30px;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	font-size: 10px;
+	border: solid thin black;
+	border-radius: 10px;
+	background-color: white;
+}
+
+article.bottom-section {
+	display: flex;
+	border-bottom: white;
+	flex-flow: column nowrap;
+	width: 30%;
+	margin-bottom: 10%;
+	padding-top: 20px;
+}
+
+.services-info-img {
+	display: flex;
+	width: 45%;
+	justify-content: space-around;
+	margin-bottom: 10%;
+	margin-top: 20px;
+}
+
+footer{
+	width:90%;
+	text-align: center;
+}
