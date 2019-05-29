@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .wrapper{
 	width:90%;
+	max-width:1000px;
 	margin: 0 auto;
 }
 
@@ -74,23 +75,23 @@ Nav
 ~~~~~~ */
 nav{
 	display:flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	width:100%;
 	align-items: center;
 }
 .nav-links{
 	display: flex;
-	justify-content: space-around;
-	flex-basis: 75%;
+	justify-content: space-between;
+	flex-basis: 70%;
 }
 .nav-links a{
 	text-decoration: none;
 	color: grey;
 }
 .nav-logo{
-	flex-basis: 25%;
+	flex-basis: 20%;
 }
-.nav-logo img{
+.nav-logo img, .nav-logo a{
 	width:100%;
 }
 
@@ -119,35 +120,96 @@ Header
 .hero .hero-img{
 	flex-basis: 50%;
 }
-.hero-img img{
+.hero img{
 	width: 100%;
 }
 /* ~~~~~~
 Main
 ~~~~~~ */
-.top, .bottom{
-	margin: 20px 0;
+.content-2col, .content-3col{
+	margin: 30px 0;
 }
-.top{
+.content-2col{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
-.top div{
+.content-2col div{
+	width:48%;
 	padding: 0 10px;
 }
-.bottom{
+.content-2col img{
+	width: 100%;
+}
+.content-2col ul{
+	list-style-type: square;
+	margin: 10px;
+}
+.content-2col ul li{
+	margin: 10px;
+}
+
+.content-3col{
 	display: flex;
 }
-.bottom div{
+.content-3col div{
 	padding: 0 5px;
 }
 .middle-img{
 	width: 100%;
 }
 
+.content-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-evenly;
+}
+.content-wrap div{
+	width: 48%;
+	padding: 10px;
+	margin: 20px 0;
+	background: lightgrey;
+	border: 1px solid black;
+}
+.content-wrap button{
+	padding: 10px 20px;
+	margin: 20px 0;
+	border-radius: 10px;
+}
+
+@media (max-width:800px){
+	.content-wrap{
+		flex-direction: column;
+	}
+	.content-wrap div{
+		width: 80%;
+	}
+}
+
+
+#gameWindow, #controlWindow{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 10px 0;
+}
+#gameCanvas, #controlCanvas{
+	width: 75%;
+	border: 1px solid black;
+}
+#gameCanvas{
+	height: 70%;
+}
+#controlCanvas{
+	height: 25%;
+}
+
+
 /* ~~~~~~
 Footer
 ~~~~~~ */
 footer{
+	margin: 20px;
 	text-align: center;
 }
