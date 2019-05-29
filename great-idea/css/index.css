@@ -185,3 +185,9 @@ footer p {
 .cpyrght {
 	margin: 33px 700px 145px 700px;
 }
+/* Styling the Service page */
+
+
+header nav a {
+	justify-content: space-between;
+}
