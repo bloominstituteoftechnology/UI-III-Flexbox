@@ -101,3 +101,28 @@ hr{
 	border: solid black .5px;
 	margin: 20px 20px 0px 20px;
 }
+
+.main-section{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.main-article{
+	background-color: lightgray;
+	width: 400px;
+	height: 250px;
+	border: solid black 1px;
+	margin: 10px;
+}
+
+.main-article-cta{
+	background-color: ghostwhite;
+	font-size: 12px;
+	text-align: center;
+	padding: 7px;
+	margin-top: 25px;
+	width: 120px;
+	height: 30px;
+	border: solid black 1px;
+	border-radius: 7px;
+}
