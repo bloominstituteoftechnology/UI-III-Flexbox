@@ -119,12 +119,13 @@ h2 {
 
 .get-started {
     border: 0;
-    font-family: inherit;
+    font-family: 'Titillium Web', sans-serif;
     background: white;
-    font-size: 50%;
+    font-size: 35%;
     cursor: pointer;
-}
-
+    font-style: normal;
+    border: 1px solid black;
+    padding: 2px 25px 2px 25px;
 }
 
 .line {
@@ -132,20 +133,28 @@ h2 {
 }
 
 .top {
-	text-align: left;
 	display: flex;
 	width: 800px;
 	margin-bottom: 25px;
 }
 
+.flex-row1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
 .features {
-	display: inline;
-	width: 90%;
+    width: 50%;
+    margin-right: 25px;
 }
 
 .about {
-	display: inline;
-	width: 90%;
+    width: 50%;
+    margin-left: 25px;
+}
+
+.flex-row2 {
+    display: flex;
 }
 
 .bottom {
