@@ -84,13 +84,16 @@ nav {
 	margin-top: 25px;
 }
 
-nav a {
+nav .nav-item {
   margin-right: 65px;
   font-size: 14px;
   color: gray;
   text-decoration: none;
 }
 
+nav .nav-img {
+	display: flex;
+}
 header nav a:hover {
   text-decoration: underline;
 }
