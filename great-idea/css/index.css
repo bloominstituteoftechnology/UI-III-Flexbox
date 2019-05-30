@@ -64,13 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-body{
+.index{
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-left: 25px;
-	margin-right: 100px;
+	flex-direction: column;
+	align-items: center;
+	/*margin-left: 25px;
+	margin-right: 100px;*/
 }
+
 .navigation{
 	color: gray;
 	display:flex;
@@ -86,30 +87,30 @@ li{
 	margin-left: 50px;
 }
 header{
-	height: 500px;
-	width: 1100px;
-	
+	display:flex;
+	flex-direction:row;
+	padding: 40px;
 }
 h1 {
-	font-size: 80px;
-	padding: 20px;
-	width: 350px;
-	margin-left: 0px;
-	display:inline-block;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	margin-top:50px;
 }
-
-.code{
-	border: 1px solid black;	
+iod{
+	font-size:75px;
+}
+.code{	
 }
 button{
-	font-size: 20px;
-	width: 150px;
+	border: 1px solid black;
 }
 .section1{
 	height: 200px;
 	border-top: 1px solid black;
-	margin-right: 300px;
+	margin-right: 0px;
+	padding: 30px;
 }
 
 p{
@@ -122,21 +123,22 @@ feature, about, service, product, vision{
 	display:inline-block;
 }
 .middle-img{
-	padding-right: 2000px;
+	padding-right: 0px;
 	padding-bottom: 50px;
 	position: relative;
 }
 .section2{
 	border-bottom: 1px solid black;
 	text-align: left;
-	margin-right: 300px;
+	margin-right: 0px;
+	padding:30px;
 }
 .contact{
+	margin-right: 675px;
 	width: 150px;
 	display: block;
 }
 footer{
-	margin-left: 40%;
 }
 /*Services Page*/
 .services{
