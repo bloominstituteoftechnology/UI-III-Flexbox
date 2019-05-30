@@ -63,4 +63,217 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	width: 880px;
+	margin: 0 auto;
+
+
+}
+
+nav {
+	margin-top: 25px;
+}
+
+nav .nav-item {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+nav .nav-img {
+	display: flex;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+nav {
+	align-items: center;
+ 
+}
+
+
+/* cta */
+.cta {
+	display: flex;
+}
+
+.cta .cta-text {
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+  display: flex;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+  display: flex;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  margin-right: 15px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+footer {
+  margin: 32px 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+/* services page */
+
+.services-header-img {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+	text-align: center;
+	background: red;
+
+}
+
+.services-text h2 {
+	font-size: 150%;
+	
+}
+
+.services-text {
+	margin-bottom: 50px;
+}
+
+.services-text p {
+	line-height: 1.2;
+}
+
+
+.text-box {
+	background: lightgray;
+	border: 1px solid black;
+	padding: 20px;
+	width: 425px;
+	height: 250px;
+	line-height: 1.2;
+	margin: 0 20px;
+}
+
+.text-box button {
+	width: 170px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.thirds {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+
+}
+
+.bottom-content {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.last-text {
+	padding: 10px;
+	width: 425px;
+	height: 250px;
+	line-height: 1.2;
+	margin: 0 20px;
+}
+
+.services-info-img {
+	padding: 20px;
+	width: 425px;
+	margin: 0 20px;
+}
+
+.final-list {
+	flex-direction: column;
+	line-height: 2;
+	margin-top: 10px;
+}
