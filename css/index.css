@@ -1,0 +1,412 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   license: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* Html5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "titillium web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.static-navbar {
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  /* background-color: rgb(0, 93, 189); */
+  z-index: 5;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-left: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #dcdfe5;
+  margin: 35px 31px 0 31px;
+  font-size: 14px;
+  justify-content: space-around;
+}
+
+nav a:hover {
+  color: rgb(176, 177, 178);
+}
+
+nav a:first-child {
+  margin-left: 10px;
+}
+
+/*nav div {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+*/
+img {
+  margin-top: 25px;
+}
+
+.logo {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.website-wrapper {
+  width: 880px;
+  margin: 130px auto 0 auto;
+  z-index: 1;
+}
+
+header {
+  border-bottom: 1px solid black;
+  position: relative;
+  height: 490px;
+}
+
+header div {
+  display: inline-block;
+  text-align: center;
+  margin: 70px 0 0 85px;
+}
+
+header div h1 {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+header div h1 span {
+  display: block;
+}
+
+header div a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 4px 48px;
+}
+
+/*header img {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}*/
+
+.services-header-img{
+display: flex;
+width: 875px;
+margin-left: 30px;
+}
+
+.section-one {
+  margin-top: 39px;
+}
+
+.section-one div {
+  width: 430px;
+  height: 100px;
+  display: inline-block;
+}
+
+.section-one div p {
+  line-height: 1.16;
+}
+
+.section-one div:first-child {
+  margin-right: 10px;
+}
+
+.middle-img {
+  margin-top: 38px;
+}
+
+.section-two {
+  border-bottom: 1px solid black;
+  margin-top: 36px;
+  padding-bottom: 47px;
+}
+
+.section-two div {
+  display: inline-block;
+  width: 280px;
+  margin-right: 10px;
+}
+
+.section-two div p {
+  line-height: 1.16;
+}
+
+address {
+  margin-top: 38px;
+}
+
+address div {
+  line-height: 1.16;
+}
+
+address div span {
+  display: inline-block;
+  margin: 17px 0 18px 0;
+}
+
+footer {
+  width: 100%;
+  height: 183px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 54px;
+  font-size: 14px;
+}
+
+#services {
+  margin-right: 7px;
+  padding: 10px;
+  width: 900px;
+  margin: 20px;
+  margin-bottom: 25px;
+}
+
+hr {
+  width: 875px;
+  margin: 20px;
+}
+#firsttext {
+  display: inline-flex;
+  margin-right: 7px;
+  justify-content: space-evenly;
+}
+#digitaldesign {
+  border: solid 1px black;
+  padding: 20px;
+  margin: 20px;
+  width: 425px;
+  background: #eff4fc;
+}
+
+#uxui {
+  border: solid 1px black;
+  padding: 20px;
+  margin: 20px;
+  width: 425px;
+  background: #eff4fc;
+}
+#secondtext {
+  display: inline-flex;
+  margin-right: 7px;
+  justify-content: space-evenly;
+}
+#digitalmarketing {
+  border: solid 1px black;
+  padding: 20px;
+  margin: 20px;
+  width: 425px;
+  background: #eff4fc;
+}
+
+#webdevelopment {
+  border: solid 1px black;
+  padding: 20px;
+  margin: 20px;
+  width: 425px;
+  background: #eff4fc;
+}
+
+#thirdtext {
+  display: inline-flex;
+  margin-right: 7px;
+  justify-content: space-evenly;
+}
+#iosdevelopment {
+  border: solid 1px black;
+  padding: 20px;
+  margin: 20px;
+  width: 425px;
+  background: #eff4fc;
+}
+#androiddevelopment {
+  border: solid 1px black;
+  padding: 20px;
+  margin: 20px;
+  width: 425px;
+  background: #eff4fc;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#somefacts {
+  display: inline-flex;
+  margin-right: 7px;
+  justify-content: space-evenly;
+}
+
+#facts {
+  padding: 20px;
+  margin: 20px;
+  width: 425px;
+}
+#pix {
+  padding: 20px;
+  margin: 20px;
+  width: 425px;
+}
+#list {
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: square;
+}
+#copyright {
+  text-align: center;
+  font-size: small;
+}

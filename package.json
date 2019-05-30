@@ -1,6 +1,7 @@
 {
-"name": "UI III",
-"version": "1.0.0",
+  "name": "UI III",
+  "version": "1.0.0",
+  "main": "services.html",
   "scripts": {
     "test": "exit 1"
   }
