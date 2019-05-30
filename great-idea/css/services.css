@@ -68,106 +68,102 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
   width: 100%;
-  max-width: 950px;
+  max-width: 880px;
   margin: 0 auto;
 }
 
-header {
-  display: inline-block;
-  width: 100%;
-  margin: 40px 0 0 0;
-}
-
-nav {
-  float: left;
-  margin-bottom: 50px;
+.serv-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto 40px auto;
+  justify-content: center;
 }
 
 nav a {
-  display: inline-block;
   margin-right: 60px;
   text-decoration: none;
-  color: lightgray;
+  color: darkgray;
   font-size: 16px;
   vertical-align: -10px;
 }
 
 nav a:hover {
-  color: blue;
+  color: orange;
 }
 
-.logo {
-  float: right;
+.header-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-section {
-  display: inline-block;
-  width: 100%;
-  margin: 40px 0;
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+.services h1 {
+  font-size: 30px;
 }
 
 hr {
   border: .5px solid black;
-  margin: 0;
+  margin: 40px 0 40px 0;
 }
 
-.top-sec {
-  margin-bottom: 70px;
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
 
-.top-text {
-  float: left;
-  text-align: center;
-  width: 55%;
-  padding-top: 60px;
+.sec1 {
+  box-sizing: border-box;
+  background-color: #F3F3F3;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 40px;
+  width: 48%;
 }
 
-.top-text h1 {
-  font-size: 74px;
-}
-
-.top-text button {
-  width: 155px;
-  padding: 4px;
-  margin-top: 15px;
+button {
+  background-color: white;
+  padding: 5px;
+  margin-top: 20px;
   font-family: 'Titillium Web';
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 2px;
   border: 1px solid black;
-  background: white;
   transition: 0.3s;
+  border-radius: 5px;
+  width: 35%;
 }
 
-.top-text button:hover {
-  background-color: #2FBC7A;
-  border: 1px solid #50E2A3;
+button:hover {
+  background-color: blue;
   color: white;
 }
 
-.text-content {
-  padding-right: 15px;
-  font-family: 'Titillium Web';
+ul {
+  padding-top: 10px;
+  line-height: 30px;
+  list-style-type: square;
+  list-style-position: inside;
 }
 
-.top-content .text-content {
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 45px 0;
+}
+
+.sec2 {
   width: 50%;
-  float: left;
-}
-
-.middle-img {
-  margin: 40px 0;
-}
-
-.bottom-content .text-content {
-  width: 33.33%;
-  float: left;
 }
 
 footer {
-  height: 100px;
   text-align: center;
-  font-size: 12px;
 }
