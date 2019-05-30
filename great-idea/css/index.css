@@ -110,57 +110,54 @@ h1, h2, h3, h4, h5 {
   }
   
   /* cta */
-  .cta{
-	  position: relative:
-	  align-items: center;
-  }
+  /*needs review*/
+.cta .cta-text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
 
-  .cta .cta-text {
-	display: flex;
-	flex-direction: column;
-	position: absolute;
-	vertical-align: top;
-	font-size: 77px;
-	margin-top: 120px;
-	text-align: center;
-	padding: 0px 75px;
-  }
-  
-  .cta .cta-text button {
-	background: white;
-	vertical-align: top;
-	margin-top: 6px;
-	padding: 8px 44px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
-	
-  }
-  
-  .cta .cta-text button:hover {
-	background: black;
-	color: white;
-  }
-  
-  .cta img {
-	/*position: absolute: */
-	margin-top: 69px;
-	margin-left: 0;
-  }
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  display: inline-block;
+  margin-top: 69px;
+}
+
   
   .main-content {
 	border-top: 1px solid black;
-	margin-top: 76px;
+	margin-top: 25px;
 	padding-top: 39px;
+	display: flex;
   }
-  
-  .main-content .top-content {
+	 
+	.top-content1{
+		display: flex;
+	}
+  .main-content .top-content1 {
 	padding: 0 10px;
   }
   
   .main-content .top-content .text-content {
 	width: 410px;
-	display: inline-block;
+/*	display: inline-block;*/
 	margin-right: 34px;
   }
   
@@ -173,28 +170,39 @@ h1, h2, h3, h4, h5 {
   }
   
   .main-content .bottom-content {
-	margin-top: 37px;
+	margin-top: 15px;
 	padding: 0 10px;
   }
   
   .main-content .bottom-content .text-content {
 	width: 275px;
-	display: inline-block;
-	margin-right: 12px;
+	display: flex;
+	margin-right: 5px;
   }
   
   .main-content .bottom-content .text-content:last-child {
 	margin-right: 0;
   }
-  
+	
+	.bottom-content{
+		display: flex;
+	
+		margin-top: 5px;
+	}
+
   .contact {
-	margin-top: 57px;
+	margin-top: 25px;
 	border-top: 1px solid black;
-	padding: 39px 10px 0;
+	padding: 10px 10px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
   }
-  
-  .contact p {
+	
+	.contact p {
 	margin: 20px 0;
+	
   }
   
   footer {
