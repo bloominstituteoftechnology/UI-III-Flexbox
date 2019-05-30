@@ -82,18 +82,21 @@ nav a {
 	text-decoration: none;
 	color: grey;
 }
+
 ul.horizNav li {
 	display:inline-block;
-	padding:0px 30px;
+	padding:35px 30px;
 }
 
 .logo {
 	margin-left:70px;
-
+	
 }
  .logoGraphic {
 	 margin-left:70px;
- }	
+	 margin-right: 80px;
+
+ }
 #Motto {
 	display:flex;
 	position:relative;
@@ -153,10 +156,12 @@ ul.horizNav li {
 
 
 	.Services {
+		display:flex;
+		align-content:center;
 		font-size:150%;
-		padding-top:20px;
-	}
+		padding:20px;
 
+	}
 
 	button {
 		margin-top: 20px;
@@ -184,7 +189,7 @@ ul.horizNav li {
     	flex-wrap: wrap;
 		justify-content: center;
 		line-height: 1.3;
-		padding-top:50px;		
+		padding:50px 0px 25px 0px;		
 	}
 
 	.someFacts {
@@ -202,4 +207,4 @@ ul.horizNav li {
 	.column3 {
 		width: 25%;
 		margin: 20px;
-	}
+}
