@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-/*body{
+body{
 	padding: 30px 250px;
 }
 header{
@@ -138,4 +138,4 @@ footer{
 	justify-content: center;
 	align-items: flex-end;
 	padding-top:35px;
-}*/
+}
