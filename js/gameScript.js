@@ -19,6 +19,9 @@ window.addEventListener("load", function() {
   var gameOverScreen = false;
   var youWinScreen = false;
 
+  var delta, lastFrameMs, now = 1;
+  var timeStep = 1000/60;
+
 //game controller constructor
 function GameController(){
   this.lives = 3;
@@ -34,7 +37,7 @@ function Paddle(){
   this.speedX = 2;
   this.width = 150;
   this.height = 30;
-  this.speed = 20;
+  this.speed = 600;
   this.moveLeft = false;
   this.moveRight= false;
 }
@@ -45,8 +48,8 @@ function Ball(){
   this.y = 0;
   this.speedX = 0;
   this.speedY = 0;
-  this.startSpeed = 10;
-  this.maxSpeed = 30;
+  this.startSpeed = 300;
+  this.maxSpeed = 900;
   this.width = 20;
   this.height = 20;
   this.isDocked = true;
@@ -67,6 +70,11 @@ var ball = new Ball();
 var blockController = [];
 
 function init() {
+
+  var date = new Date();
+  delta = date.getTime();
+  now = date.getTime();
+  lastFrameMs = date.getTime();
 
   gameController.maxBlocks = gameController.level * COLUMN_COUNT;
 
@@ -171,11 +179,13 @@ if(
   x<CONTROL_BOX_X + (2*(CONTROL_BOX_WIDTH+10)) + CONTROL_BOX_WIDTH &&
   y > CONTROL_BOX_Y &&
   y < CONTROL_BOX_Y + CONTROL_BOX_HEIGHT)
-    {
-    ball.isDocked = false;
-    ball.speedX = ball.startSpeed;
-    ball.speedY = -ball.startSpeed;
+  {
+    if(ball.isDocked){
+      ball.isDocked = false;
+      ball.speedX = ball.startSpeed;
+      ball.speedY = -ball.startSpeed;
     }
+   }
 }
 
 function clickReleased(event){
@@ -275,7 +285,7 @@ var ctx = canvas.getContext("2d");
 var contCanvas = document.getElementById('controlCanvas');
 var contCtx = contCanvas.getContext("2d");
 
-function update() {
+function update(dt) {
 
   if(gameScreen){
 
@@ -301,9 +311,9 @@ function update() {
 
     //Paddle
     if(paddle.moveLeft)
-      paddle.x-=paddle.speed;
+      paddle.x -= paddle.speed*dt;
     if(paddle.moveRight)
-      paddle.x+=paddle.speed;
+      paddle.x += paddle.speed*dt;
     if(paddle.x<=0)
       paddle.x = 0;
     if(paddle.x>=GAME_WIDTH-paddle.width)
@@ -317,8 +327,8 @@ function update() {
       ball.speedY = 0;
     }
     else {
-        ball.x+=ball.speedX;
-        ball.y+=ball.speedY;
+        ball.x += ball.speedX*dt;
+        ball.y += ball.speedY*dt;
     }
 
     if(ball.speedX>=ball.maxSpeed)
@@ -474,10 +484,19 @@ function draw() {
 }
 
 function step() {
-  update();
+  var date = new Date();
+  now = date.getTime();
+  //delta = delta + Math.min(1,(now - lastFrameMs)/1000);
+  delta = (now - lastFrameMs)/1000;
+  update(delta);
+ /*while(delta>timeStep)
+  {
+    delta = delta -timeStep;
+    update();
+  }*/
   draw();
-
-  window.requestAnimationFrame(step);
+  lastFrameMs = now;
+  requestAnimationFrame(step);
 }
 
 function checkCollision(obj1,obj2){
