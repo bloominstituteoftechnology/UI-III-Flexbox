@@ -97,6 +97,9 @@ header nav a:hover {
 	justify-content: flex-end;
 	margin: 44px 0 85px 775px;
 }
+.alignLeft {
+	margin-left: 828px;
+}
 /* Resizing and positioning the header */
 header h1 {
 	display: flex;
@@ -123,7 +126,7 @@ header h1 {
 header img {
 	display: flex;
 	justify-self: end;
-	margin: -285px 0 0 600px;
+	margin: -285px 0 0 640px;
 }
 /* Creating top border using section semantic tags */
 section {
@@ -186,21 +189,116 @@ footer p {
 	margin: 33px 700px 145px 700px;
 }
 /* Styling the Service page */
-header  nav {
-	justify-content: left;
-}
 
-/* Making the go under the navigation */
+
+
+.nav-bar {
+	margin-left: 122px;
+}
+.align-Left {
+	margin-left: 828px;
+}
+ /* Making the go under the navigationv with flex */
+	.image-container {
+		display: flex;
+	   justify-content: center;;
+	}
+	/* Removing the margin */
 .services-header-img {
-	display: none;
+	margin:-45px;
 }
 
-
-
-
-
-
-
+/* Aligning the services content with flex-controller */
+main {
+	width: 893px;
+	height: 133px;
+	overflow: hidden;
+	margin: 22px auto;
+}
+/* Aligning the h2 header */
+  main h2 {
+	font-size: 24px;
+	padding: 20px 0 -11px 0;
+}
+ /* Aligning the paragraph */
+   main p {
+	padding: 12px 2px;
+	line-height: 22px;
+	text-align: justify;
+}
+/* Top and bottom borders */
 .first-sctn {
 	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+/* Creating the content box */
+.flex-controller {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 33px 0;
+	overflow: hidden;
+}
+.box-content {
+	width: 430px;
+	height: 252px;
+	margin: 10px 10px;
+	background: #f4f3f4;
+	border: 1px solid #000;
+}
+/* Adding padding to H2 elements */
+.box-content h2 {
+	padding: 15px 0 1px 18px;
+}
+/* Creating line-height and padding */
+.box-content p {
+	line-height: 22px;
+	padding: 13px;
+}
+/* Creating the button inside the boxes */
+
+.btns {
+	width: 145px;
+	height: 32px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	text-align: center;
+	padding: 4px;
+	margin-left: 18px;
+	background: #fff;
+}
+/* Aligning content to the left*/
+.side-contents {
+	display: flex;
+	justify-content: center;
+}
+aside {
+	margin: 30px 49px;
+	width: 389px;
+}
+aside p {
+	margin-bottom: 20px;
+	line-height: 22px;
+}
+/* Recreating the ul */
+  ul {
+	list-style-type: square;
+	}
+	li {
+		padding: 6px 0;
+	}
+/* Aligning image to the right */
+
+.services-info-img {
+	justify-content: left;
+	height: 300px;
+	margin-top: 28px;
+}
+/* Aligning the copyright information in the footer section */
+footer {
+	display: flex;
+	justify-content: center;
+}
+.cpyrght-footer {
+	padding: 85px 0;
 }
