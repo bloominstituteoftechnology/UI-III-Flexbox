@@ -92,3 +92,17 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 justify-content: space-around;
 }
+.centerme {
+	display: flex;
+	justify-content: center;
+}
+.awesomeme {
+display: flex;
+width: 100;
+}
+	.acell{
+		margin: 20px;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		}
