@@ -63,4 +63,218 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+/* Index.html */
+
+body {
+	width: 880px;
+	margin: 0px 200px 0px 200px;
+}
+
+.static-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 880px;
+	height: 90px;
+}
+
+.static-nav nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 600px;
+	height: 70px;
+}
+
+
+header .static-nav {
+	margin-top: 40px;
+	width: 800px;
+}
+
+header .static-nav img {
+	margin-left: 70px;
+}
+
+
+
+header div.slogan {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin-left: 70px;
+	margin-right: 40px;
+}
+
+header div.slogan h1 {
+	font-size: 5em;
+	font-style: bold;
+	margin-right: 50px;
+}
+
+header {
+	margin-bottom: 40px;
+	border-color: grey;
+	border-width: 2px;
+}
+
+main {
+	margin-bottom: 40px;
+	border-style: solid none none none;
+	border-color: grey;
+	border-width: 2px;
+	margin-top: 20px;
+}
+
+footer {
+	border-style: solid none none none;
+	border-color: grey;
+	border-width: 2px;
+}
+
+footer address {
+	margin-top: 60px;
+}
+
+div.logo-image {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.upper {
+	display: inline-block;
+	width: 420px;
+	height: 100px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.lower {
+	display: inline-block;
+	width: 260px;
+	height: 120px;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+button {
+	height: 30px;
+	width: 150px;
+	border: 1px solid grey;
+	background: white;
+	margin-left: 30px;
+}
+
+footer p {
+	text-align: center;
+}
+
+
+/* Services page */
+
+.logo-image {
+	width: 200px;
+	height: 50px;
+
+	display: flex;
+	align-items: flex-end;
+
+}
+
+.static-nav nav a {
+	text-decoration: none;
+	color: grey;
+}
+
+.services-forward {
+	width: 880px;
+	height: 100px;
+	margin: 20px 0px 20px 0px;
+	border-style: none none solid none;
+	border-color: grey;
+	border-width: 2px;
+}
+
+div.services-content {
+	display: flex;
+	justify-content: space-around;
+	align-content: space-evenly;
+	height: 900px;
+	width: 880px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div.services-content section {
+	background: lightgrey;
+	border: 2px solid black;
+	width: 400px;
+	height: 250px;
+
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	align-items: flex-start;
+} 
+
+div.services-content section h3{
+	margin: 10px;
+} 
+
+div.services-content section p{
+	margin: 10px;
+} 
+
+div.services-content section button{
+	margin: 10px;
+} 
+
+button {
+	height: 30px;
+	width: 150px;
+	border: 1px solid grey;
+	background: white;
+	margin-left: 30px;
+	border-radius: 5px;
+}
+
+.services-content {
+	border-style: none none solid none;
+	border-width: 2px;
+	border-color: grey;
+}
+
+.footer-content {
+	height: 350px;
+	width: 880px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: none none solid none;
+	border-width: 2px;
+	border-color: grey;
+
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+
+}
+
+.copyright {
+	margin-top: 20px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: circle;
+	margin-left: 50px;
+}
+
+li {
+	margin: 5px 0 0 5px;
+}
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
