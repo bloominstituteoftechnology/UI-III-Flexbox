@@ -268,6 +268,7 @@ header img {
 
 .services-header {
   display: block;
+  line-height: 120%;
 }
 
 .services-header h1 {
@@ -386,5 +387,5 @@ footer {
 
 footer p {
   margin-top: 100px;
-  font-size: 14px;
+  font-size: 14.01px;
 }
