@@ -70,30 +70,37 @@ nav a {
 	color: gray;
 }
 
-h1 {
-	font-size: 80px;
+nav a:hover {
+	color: black;
 }
 
 
-.left-side { 
-	padding: 50px;
-	text-align: center;
-	width: 30%;
-}
 
-.right-side { 
-	padding: 50px;
-}
-
-.flex-container {
+.first-container {
 	display: flex;
 	justify-content: center;
+	
 }
 
-.flex-container div {
-	padding: 20px;
+.left-side { 
+	display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+	margin-top: 100px;
+	margin-left: 0px;
+  text-align: center;
+  padding: 0px 150px;
 }
 
+.first-container img {
+  display: inline-block;
+  margin-top: 60px;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
 
 .button {
 	border: 1px;
@@ -127,10 +134,12 @@ hr {
   } 
 
 .middle-img {
-  display: block;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 98%;
 }
 
 .services-header-img {
