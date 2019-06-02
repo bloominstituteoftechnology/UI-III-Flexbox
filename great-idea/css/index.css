@@ -65,4 +65,158 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-/*Test */
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+/*Header */
+
+#headerdiv {
+	background: #C0C0C0;
+	width: 900px;
+	margin: auto;
+	height: 80px;
+	z-index: 1;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* margin-top: 30px; */
+	
+}
+
+header nav {
+	display: flex;
+}
+
+header nav a {
+	margin-right: 65px;
+	text-decoration: none;
+	color: black;
+	margin-top: 20px;
+}
+
+header nav a:hover {
+	border-bottom: 1px solid black;
+}
+
+.logo {
+	margin-top: 20px
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .main-content {
+	padding-top: 60px;
+}
+
+/* TITLE */
+
+.cta {
+	display: flex;
+	padding: 5% 0;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	
+}
+
+.cta1 {
+	display: flex;
+	flex-direction: column;
+	padding: 5% 0;
+}
+
+.cta h1 {
+	font-size: 60px;
+}
+
+.cta-img {
+	height: 320px;
+	width: 320px;
+	/* align-self: flex-end; */
+}
+
+.cta1 button {
+	align-self: flex-start;
+	margin-right: 450px;
+	padding: 5px 40px;
+	background-color: transparent;
+	border-radius: 10px;
+	transition-property: background transform;
+	transition-duration: .2s;
+}
+
+.cta1 button:hover {
+	background-color: black;
+	color: white;
+	transform: scale(1.1);
+}
+
+
+/* MAIN CONTENT */
+
+
+.main-content {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 5% 0;
+}
+
+.main1 {
+	flex: 1;
+	/* padding: 3%; */
+	/* text-align: center; */
+	margin-right: 10px;
+}
+
+.second {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 5% 0;
+}
+
+.second-div {
+	flex: 1;
+	/* padding: 3%; */
+	margin-right: 10px;
+}
+
+/* CONTACT */
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	padding: 5% 0;
+}
+
+.contact p {
+	margin-top: 20px;
+}
+
+.contact h2 {
+	margin: 0;
+}
+
+/* FOOTER */
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
