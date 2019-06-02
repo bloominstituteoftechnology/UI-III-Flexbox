@@ -73,7 +73,9 @@ h1, h2, h3, h4, h5 {
 title {
 	display: none;
 }
-
+h4{
+	margin-top: 25px;
+}
 
 header {
 	display: flex;
@@ -132,9 +134,6 @@ header .logo {
 	display: flex;
 	flex-flow: row wrap;
 	padding-bottom: 40px;
-}
-h4{
-	margin-top: 25px;
 }
 .block1 {
 	width: 425px;
