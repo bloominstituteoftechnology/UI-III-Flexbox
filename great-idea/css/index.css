@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+
+}
+title {
+	display: none;
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: 50px;
+	padding-top: 25px;
+	align-items: center;
+}
+header nav {
+	flex-wrap: nowrap;
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+}
+header nav a{
+	color: gray;
+	text-decoration: none;
+	align-self: center;
+	margin-right: 50px;
+}
+header nav a:hover {
+	background-color: royalblue;
+	color: white;
+}
+header .logo {
+	width: 20%;
+}
+
+
+.slogan {
+	display: flex;
+	border-bottom: 2px gray solid;
+	font-family: Bangers, cursive;
+	font-size: 55px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+.slogan .left {
+	width: 60%;
+	align-self: center;
+}
+.slogan button {
+	font-size: 12px;
+	padding: 6px 28px;
+	background: transparent;
+	border: 1px black solid;
+}
+.slogan button:hover {
+	background-color: royalblue;
+	color: white;
+}
+
+
+.content {
+	display: flex;
+	flex-flow: row wrap;
+	padding-bottom: 40px;
+}
+h4{
+	margin-top: 25px;
+}
+.block1 {
+	width: 425px;
+	margin-right: 20px;
+	padding-bottom: 25px;
+}
+.block2 {
+	width: 275px;
+	margin-right: 18px;
+}
+
+
+footer {
+	padding-top: 30px;
+	border-top: 1px gray solid;
+	width: 100%;
+}
+footer .contact {
+	width: 100%;
+}
+footer address {
+	padding-bottom: 20px;
+}
+footer .footer_info {
+	padding-bottom: 20px;
+}
+footer .copy {
+	text-align: center;
+	width: 100%;
+	padding-bottom: 100px;
+}
