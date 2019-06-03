@@ -97,7 +97,7 @@ header img.logo {
    margin: 20px 0;
    padding: 20px 0;
 }
-git 
+
 .left-group {
 	display: inline-block;
     margin-left: 30px;
@@ -108,8 +108,8 @@ git
 
 .button-size {
 	font-size: 40%;
-	position: relative; /* added these */
-    bottom: 35px;ls /* two properties*/
+	position: relative; 
+    bottom: 35px;ls 
 }
 
 
