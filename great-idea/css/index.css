@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	height: 100%;
+	margin: auto;
 }
 ol, ul {
 	list-style: none;
@@ -49,12 +51,14 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
+		width: 800px;
+		box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,5 +66,240 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container {
+	margin: auto;
+	width: 800px;
+	padding: 25px;
+	text-align: left;
+}
+
+header nav {
+	display: flex;
+	margin-top: 20px;
+	text-decoration: none;
+	color: #444;
+  justify-content: space-around;
+}
+
+h1, h2 {
+	font-size: 28px;
+	display: inline;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	text-align: center;
+	font-size: 16px;
+	color: silver;
+	top: 0;
+	justify-content: space-between;
+} 
+
+li {
+	margin: auto;
+	justify-content: space-between;
+}
+
+li a {
+	display: flex;
+	list-style-type: none;
+	font-size:20px;
+	color:#444;
+	padding: 15px;
+	text-decoration: none;
+	text-align: center;
+	justify-content: space-between;
+}
+
+li a:hover {
+	background-color: silver;
+	}
+
+#logo {
+		margin: auto;
+		justify-content: flex-end;
+	}
+
+.top-content {
+	display: flex;
+	margin: 25px;
+	margin-top: 25px;
+	text-align: left;
+	padding: 0;
+}
+
+.top-content2 {
+	display: flex;
+	margin: 25px;
+	margin-top: 25px;
+	text-align: left;
+}
+
+.main-content {
+	text-align: left;
+	padding: 25px;
+}
+
+#header-img {
+	margin: auto;
+	width: 800px;
+	flex-flow: row wrap;
+}
+
+button {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border: 2px solid #333; 
+  border-radius: 5px;
+  width: 120px;
+	height: 40px;
+	padding: 11px;
+}
+
+button:hover {
+	background-color: #444;
+}
+
+.img-top {
+	margin: auto;
+}
+
+.flex-container {
+  height: 100%;
+  display: flex;
+}
+
+.flex-container1 {
+  flex: 1 1 0;
+}
+
+.flex-container2 {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-one {
+	padding: 5px;
+	height: 250px;
+	margin: 15px;
+	width: 350px;
+	background-color: silver;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	justify-content: center;
+  flex-flow: row wrap;
+}
+
+.main-two {
+	padding: 5px;
+	height: 250px;
+	margin: 15px;
+	width: 350px;
+	background-color: silver;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	justify-content: center;
+  flex-flow: row wrap;
+}
+
+
+.main-three {
+	padding: 5px;
+	height: 250px;
+	margin: 15px;
+	width: 350px;
+	background-color: silver;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	justify-content: center;
+  flex-flow: row wrap;
+}
+
+.main-four {
+	padding: 5px;
+	height: 250px;
+	margin: 15px;
+	width: 350px;
+	background-color: silver;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	justify-content: center;
+  flex-flow: row wrap;
+}
+
+.main-five {
+	padding: 5px;
+	height: 250px;
+	margin: 15px;
+	width: 350px;
+	background-color: silver;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	justify-content: center;
+  flex-flow: row wrap;
+}
+
+.main-six {
+	padding: 5px;
+	height: 250px;
+	margin: 15px;
+	width: 350px;
+	background-color: silver;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	justify-content: center;
+  flex-flow: row wrap;
+}
+
+
+.contact {
+	margin: 25px;
+	width:800px;
+}
+
+h3, h4 {
+	font-size: 16px;
+}
+
+
+#p1, #p2, #p3, #p4,#p5, #p6 {
+
+}
+
+.bottom {
+	margin-top: 20px;
+	display: inline-block;
+	float: left;
+	flex-direction: column;
+	width: 800px;
+	text-align: left;
+	color: black;
+}
+
+#img-footer {
+	float: right;
+	display: ;
+}
+footer {
+	width:800px;
+	text-align: center;
+}
