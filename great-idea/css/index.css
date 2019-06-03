@@ -70,53 +70,91 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 }
 
+.container header {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.container header .logo {
+	margin-left: 20px;
+}
+
+header nav a {
+	margin: 30px;
+}
 .container .main-content {
 	padding: 10px;
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: center;
 	margin: 20px;
+	border-bottom: 1px solid black;
 }
 .main-content #digital {
 	margin: 20px;
-	width: 300px;
+	width: 350px;
 	border: 1px solid black;
 	background-color: lightgrey;
+	padding: 10px;
 }
 .main-content #ux {
 	margin: 20px;
-	width: 300px;
+	width: 350px;
 	border: 1px solid black;
 	background-color: lightgrey;
 	padding: 10px;
 }
 .main-content #marketing {
 	margin: 20px;
-	width: 300px;
+	width: 350px;
 	border: 1px solid black;
 	background-color: lightgrey;
 	padding: 10px;
 }
 .main-content #web {
 	margin: 20px;
-	width: 300px;
+	width: 350px;
 	border: 1px solid black;
 	background-color: lightgrey;
 	padding: 10px;
 }
 .main-content #ios {
 	margin: 20px;
-	width: 300px;
+	width: 350px;
 	border: 1px solid black;
 	background-color: lightgrey;
 	padding: 10px;
 }
 .main-content #android {
 	margin: 20px;
-	width: 300px;
+	width: 350px;
 	border: 1px solid black;
 	background-color: lightgrey;
 	padding: 10px;
 }
+.container header .services {
+	margin: 20px;
+}
+.container header {
+	border-bottom: 1px solid black;
+}
+
+.container footer {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.container footer .footer-content {
+	width: 300px;
+	height: 150px;
+	margin: 20px;
+	border: 1px solid red;
+}
+/*.container footer #copyright {
+	display: flex;
+	justify-content: center;
+}*/
+
 
 
 
