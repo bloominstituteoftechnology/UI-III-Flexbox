@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	color: black;
+}
+
+header img.logo {
+	margin-left: 20px;
+	position: relative; /*added these*/
+    top: 10px; /*two properties*/
+}
+
+.top {
+   border-bottom: 1px solid black;
+   margin: 20px 0;
+   padding: 20px 0;
+}
+git 
+.left-group {
+	display: inline-block;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 520%;
+	width: 50%;
+}
+
+.button-size {
+	font-size: 40%;
+	position: relative; /* added these */
+    bottom: 35px;ls /* two properties*/
+}
+
+
+.right-group {
+	display: inline-block;
+}
+
+.top-content {
+	display: inline-block;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.text-features {
+	text-align: left;
+	padding-bottom: 10px;
+	display: inline-block;
+	width: 49%;
+}
+
+.text-about {
+	display: inline-block;
+	width: 49%;
+}
+
+.image-content {
+	padding-bottom: 10px;
+}
+
+.bottom-content {
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+.services {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.product {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+	margin-left: 14px;
+}
+
+.vision {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.contact {
+	padding-top: 10px;
+}
+
+.phone {
+	padding-top: 7px;
+}
+
+.email {
+	padding-top: 7px;
+}
+footer {
+	text-align: center;
+}
