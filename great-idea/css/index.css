@@ -163,24 +163,24 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .navigation {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
 }
 
 .navigation .topnav {
-    /* margin: 25px 25px 25px 25px; */
     color: grey;
     margin-left: 35px;
-    /* border: 5px solid red; */
+    margin-top: 30px;
+    text-decoration: none;
 }
 
 .navigation .logo {
-    /* margin: 25px 0px 0px 100px; */
     margin-top: 20px;
     margin-left: 175px;
 }
 
 .header {
-    display: inline-block;
+    width: 550px;
 }
 
 .header>h1 {
@@ -192,18 +192,17 @@ h5 {
 }
 
 .header .circle-code {
-    /* border: 5px solid red; */
     position: relative;
     left: 475px;
     bottom: 200px;
 }
 
 .header .get-started {
+    height: 20px;
     border: 1px solid black;
-    padding: 5px 30px 5px 30px;
     position: relative;
     bottom: 250px;
-    left: 245px;
+    left: 280px;
 }
 
 .line-top {
@@ -215,26 +214,26 @@ h5 {
 .line-bottom {
     width: 90%;
     position: relative;
-    bottom: 100px;
+    bottom: 65px;
 }
 
 .top-content {
     margin-left: 50px;
     position: relative;
     bottom: 180px;
+    display: flex;
+    justify-content: center;
 }
 
 .top-content .features {
     height: 100px;
     width: 400px;
-    display: inline-block;
     position: relative;
 }
 
 .top-content .about {
     height: 100px;
     width: 400px;
-    display: inline-block;
     margin-left: 50px;
 }
 
@@ -242,41 +241,44 @@ h5 {
     position: relative;
     bottom: 150px;
     left: 50px;
+    margin-left: 125px;
 }
 
 .bottom-content {
     position: relative;
     left: 25px;
     bottom: 125px;
+    display: flex;
+    justify-content: center;
 }
 
 .bottom-content .services {
     height: 100px;
     width: 250px;
-    display: inline-block;
     margin-left: 25px;
 }
 
 .bottom-content .product {
     height: 100px;
     width: 250px;
-    display: inline-block;
     margin-left: 50px;
 }
 
 .bottom-content .vision {
     height: 100px;
     width: 250px;
-    display: inline-block;
     margin-left: 50px;
 }
 
 .contact {
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px;
     position: relative;
     left: 50px;
     bottom: 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 footer {
@@ -284,4 +286,6 @@ footer {
     position: relative;
     bottom: 75px;
     margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
 }
