@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -64,3 +65,208 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	margin:50px;
+}
+
+header{
+	display:inline;
+}
+
+a{
+	color:gray;
+	padding-right: 100px;
+	text-decoration: none;
+}
+
+.logo{
+	margin-left:100px;
+}
+
+.main{
+	display: inline-block;
+	padding-top: 80px;
+}
+button{
+	height: 25px;
+	width: 160px;
+}
+.header1{
+	font-size: 60px;
+	text-align: center;
+	padding-left:250px;
+}
+
+.header2{
+	padding-left:250px;
+	
+}
+
+.line1{
+	width: 1250px;
+	height: 50px;
+	border-bottom: 1px solid black;
+}
+
+.content1{
+	height:40px;
+	width:610px;
+}
+
+.content2{
+	height:40px;
+	width:610px;
+}
+
+h2{
+	font-size: 18px;
+	font-weight:bold;
+}
+
+p{
+	font-size: 16px;
+}
+
+.first{
+	padding-top:100px;
+	display: inline-block;
+}
+
+.middle-img{
+	height:190px;
+	width:1250px;
+	margin-top: 70px;
+}
+
+.row1{
+	height:40px;
+	width: 390px;
+}
+
+.row2{
+	height:40px;
+	width: 390px;
+}
+
+.row3{
+	height:40px;
+	width: 390px;
+}
+
+.second{
+	display: inline-block;
+	margin-top: 60px;
+}
+
+.line2{
+	width: 1250px;
+	height: 50px;
+	border-bottom: 1px solid black;
+}
+
+.contact{
+	margin-top:40px;	
+}
+
+.contact p{
+	margin-bottom: 10px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+/* ...................................................... */
+
+
+body{
+	padding:20px;
+}
+
+.services-header-img{
+	width:1200px;
+	height:200px;
+	margin-top: 40px;
+}
+
+.services{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+.services h2{
+font-size:24px;
+}
+
+.lineA{
+	width: 1200px;
+	height:50px;
+	border-bottom: 1px solid black;
+}
+
+.content h3{
+	margin:18px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.content p{
+	margin:18px;
+	font-weight: 550;
+}
+
+.content button{
+	margin:18px;
+	background-color: white;
+	height: 33px;
+	width: 150px;
+	border-radius: 5px;
+}
+.content{
+	
+	border: 1px solid black; 
+	margin-top :5px;
+	margin-bottom: 27px;
+	margin-right: 20px;
+
+	height: 250px;
+	width: 580px;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	background-color: rgba(166, 166, 196, 0.212)
+	
+}
+
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	justify-content: space-around;
+	
+}
+
+.bottom-content{
+	height:300px;
+	width: 570px;
+	margin-top:20px;
+}
+
+.lineB{
+	width: 1200px;
+	height:20px;
+	border-bottom: 2px solid black;
+}
+
+
+
+.A{
+	display:inline-block;
+}
