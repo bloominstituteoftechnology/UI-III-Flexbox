@@ -108,9 +108,9 @@ header .logo {
 
 .cta {
 	display: flex;
-	flex-direction: flex-start;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	vertical-align: top;
+	align-content: space-between;
 }
 
 
@@ -123,13 +123,16 @@ header .logo {
 }
 
 .cta .txt-left .start-button {
+	align-self: center;
 	background: white;
   	vertical-align: top;
-  	margin-top: 6px;
+	  margin-top: 0px;
+	  margin-left: 40px;
   	padding: 8px 44px;
   	font-size: 17px;
   	border: 1px solid black;
-  	cursor: pointer;
+	  cursor: pointer;
+	  width: 200px;
 }
 
 .cta .txt-left .start-button:hover {
