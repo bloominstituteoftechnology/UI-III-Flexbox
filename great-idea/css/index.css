@@ -112,3 +112,7 @@ section .main-title .get-started{
 	border-radius: 5px;
 	font-weight: bold
 }
+.container .mid-page-image img{
+	width: 100%; 
+	margin: 10px 0px;
+}
