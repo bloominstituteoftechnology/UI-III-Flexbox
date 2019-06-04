@@ -116,7 +116,8 @@ header nav a:last-child {
 }
 
 header .logo {
-  margin-top: 25px;
+  margin-top: auto;
+  float: right;
   
 }
 
@@ -145,10 +146,13 @@ header .logo {
   background: black;
   color: white;
 }
+.cta{
+  display: flex;
+}
+
 
 .cta img {
-  display: inline-block;
-  margin-top: 69px;
+ 
 }
 
 .main-content {
@@ -165,6 +169,7 @@ header .logo {
   width: 410px;
   display: inline-block;
   margin-right: 34px;
+  
 }
 
 .main-content .top-content .text-content:last-child {
