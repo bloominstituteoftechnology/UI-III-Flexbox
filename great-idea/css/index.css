@@ -106,11 +106,16 @@ header .logo {
 	margin-top: 25px;
 }
 
+.cta {
+	display: flex;
+	flex-direction: flex-start;
+	flex-flow: row nowrap;
+	vertical-align: top;
+}
+
 
 .cta .txt-left {
 	font-family: 'Bangers', cursive;
-	display: flex;
-	vertical-align: top;
 	font-size: 77px;
 	margin-top: 120px;
 	text-align: center;
