@@ -97,3 +97,7 @@ header nav a{
 	padding: 1em;	 
 
 }
+
+.container .services-header-img{
+    width: 98%;
+}
