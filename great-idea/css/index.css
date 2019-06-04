@@ -277,8 +277,29 @@ header .logo {
 	margin-right: 0;
 }
 
-.service-facts {
-	margin-top 40px;
+.service-info {
+	display: flex;
+}
+
+.service-info h1 {
+	margin-top: 30px;
+}
+
+.service-info p {
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	width: 400px;
+	height: 100px;
+	order: 1;
+}
+
+.service-info ul {
+	list-style-type: square;
+}
+
+.service-info img {
+	max-height: 300px;
+	max-width: 420px;
 }
 
 .contact {
