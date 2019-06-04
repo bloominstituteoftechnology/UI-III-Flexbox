@@ -92,6 +92,12 @@ nav a {
 	text-decoration: none;
 }
 
+.logo {
+	justify-content: flex-end;
+	align-items: center; 
+	padding-left: 30px;
+}
+
 /* header */
 .header {
 	display: flex;
