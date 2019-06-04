@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
-	width: 980px;
+	width: 61.25em;
 	margin: 0 auto;
 }
 
@@ -74,6 +74,7 @@ header nav{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	flex-flow: row wrap;
 
 	
 }
@@ -89,10 +90,25 @@ header nav a{
 .container section{
 	display: flex;
 	margin: 0 auto;
-	background: yellow;
+	/* background: yellow; */
 	justify-content: space-evenly;
 	align-items: center;
 	flex-flow: row wrap-reverse;
+	margin: 2em 0em;
+	padding: 1em;	 
 
 }
 
+section .main-title{
+	width: 450px;
+	text-align: center;
+	font-size: 3.75em;
+}
+
+section .main-title .get-started{
+	padding: 5px 10px;
+	width: 180px;
+	height: 40px;
+	border-radius: 5px;
+	font-weight: bold
+}
