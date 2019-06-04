@@ -70,14 +70,13 @@ h1, h2, h3, h4, h5 {
 
 header {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	justify-content: flex-start;
 	align-items: baseline;
 	align-content: space-around;
 }
 
 header nav {
-	
 	margin: 20px 10px 20px 8px;
 	vertical-align: top;
 	padding: 1px;
@@ -98,12 +97,21 @@ header nav a:first-child {
 	margin-left: 0;
 }
   
-  header nav a:last-child {
+header nav a:last-child {
 	margin-right: 0;
 }
 
 header .logo {
 	margin-top: 25px;
+	margin-left: 65px;
+}
+
+.services-header a{
+	font-weight: bold;
+}
+
+.services-header-img {
+	margin-bottom: 40px;
 }
 
 .cta {
@@ -143,6 +151,10 @@ header .logo {
 .cta img {
 	display: flex;
 	margin-top: 69px;
+}
+
+h1 .mission-statement {
+	font-size: 20px;
 }
 
 
