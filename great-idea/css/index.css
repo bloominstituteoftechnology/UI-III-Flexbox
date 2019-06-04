@@ -90,6 +90,9 @@ header nav a{
 	display: flex;
 	margin: 0 auto;
 	background: yellow;
-	align-self: stretch;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-flow: row wrap-reverse;
+
 }
 
