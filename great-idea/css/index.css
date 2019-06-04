@@ -95,14 +95,15 @@ nav a {
 
 /* header */
 .header {
-	display: inline-block;
+	/* display: inline-block; */
+	display: flex;
 	width: 840px;
 	padding: 50px 5px 60px 80px;
 }
 
 /* big title */
 h1 {
-	display: inline-block;
+	/* display: inline-block; */
 	font-size: 72px;
 	width: 45%;
 	vertical-align: middle;
