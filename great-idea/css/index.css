@@ -187,7 +187,6 @@ header .logo {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	border-bottom: 2px solid black;
 }
 
 .main-content .container1 {
@@ -278,12 +277,14 @@ header .logo {
 }
 
 .service-info {
+	border-top: 2px solid black;
+	margin-top: 20px;
 	display: flex;
 	align-content: baseline;
 }
 
 .service-info h4 {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .service-info p {
@@ -301,7 +302,7 @@ header .logo {
 }
 
 .service-info img {
-	margin-top: 30px;
+	margin-top: 40px;
 	max-height: 300px;
 	max-width: 420px;
 }
