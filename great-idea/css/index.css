@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 880px;
-	margin: 0 auto;
+	margin-left: 200px;
 }
 
 header {
@@ -182,6 +182,7 @@ header .logo {
 }
 
 .main-content .main-services {
+	margin-bottom: 30px;
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
