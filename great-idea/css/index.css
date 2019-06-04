@@ -68,3 +68,21 @@ h1, h2, h3, h4, h5 {
 	width: 980px;
 	margin: 0 auto;
 }
+
+header nav{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	
+}
+nav :last-child{
+
+	margin-left: auto
+}
+header nav a{
+	text-decoration: none;
+	margin: 1em
+}
+
