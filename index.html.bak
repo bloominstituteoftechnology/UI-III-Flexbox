@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Just some notes on Lambda School UI-III">
+  <meta name="keywords" content="notes">
+  <meta name="author" content="Mikey Nichols">
+  <meta name="viewport" and content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <title>User Interface III - Great Idea!</title>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  
+    <!-- <div class="flex flex-row flex-wrap-reverse flex-justify-center u-fixed-top">
+        <div class="child-item">Child 1 <br> Item 1 <br> Item 2 </div>
+        <div class="child-item">Child 2 <br> Item 1</div>
+        <div class="child-item">Child 3 <br> Item 1 <br> Item 2 <br> Item 3 </div>
+        <div class="child-item flex-justify-right">Child 4 <br> Item 1 <br> Item 2 </div>
+      </div> -->
+<div class="background-bars-hue">
+    <nav class="u-fixed-top flex flex-row flex-justify-center flex-items-center flex-content-center">
+        <ul>
+          <li>
+            <a href="#">
+              Services
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Product
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Vision
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Features
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <img src="img/logo.png" alt="Great Idea! Company logo.">
+    </nav>
+    <div class="page-container">
+        <header class="flex flex-row">
+            Content
+            <br>
+        </header>
+      </div>
+</div>
+  <!--
+      <header>
+          <nav class="navbar u-fixed-top">
+            <ul>
+              <li>
+                <a href="#">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Product
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Vision
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Features
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Contact
+                </a>
+              </li>
+            </ul>
+            <img src="img/logo.png" alt="Great Idea! Company logo.">
+        </nav>
+        <div class="header-content">
+          <div class="header-left">
+            <div class="header-text">
+              <h1>
+                Innovation
+                On
+                Demand
+              </h1>
+            </div>
+            <button>
+              Get Started
+            </button>
+          </div>
+          <div class="header-right">
+            <!-- <img src="img/header-img.png" alt="Image of a code snippet."> 
+          </div>
+        </div>
+      </header>
+      <hr>
+      <main>
+        <section class="first">
+          <article>
+            <h2>Features</h2>
+            <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+              Suspendisse
+              eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+          </article>
+          <article>
+            <h2>About</h2>
+            <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+              Suspendisse
+              eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+          </article>
+        </section>
+        <div class="img-break">
+          <!-- <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen"> 
+        </div>
+        <section class="second">
+          <article>
+            <h3>Services</h3>
+            <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+              Suspendisse
+              eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+          </article>
+          <article>
+            <h3>Product</h3>
+            <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+              Suspendisse
+              eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+          </article>
+          <article>
+            <h3>Vision</h3>
+            <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+              Suspendisse
+              eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+          </article>
+        </section>
+      </main>
+      <hr>
+      <footer>
+        <h4>Contact</h4>
+        <span>
+          <address>
+            <a href="#"> Way 456 Street <br>
+              Somewhere, USA</a>
+          </address><br>
+          <a href="#">1 (888) 888-8888</a><br><br>
+          <a href="#">sales@greatidea.io</a>
+        </span>
+        <div class="copyright">
+          Copyright Great Idea! 2019
+        </div>
+      </footer>
+    
+  <script src="index.js"></script>-->
+</body> 
+
+</html>

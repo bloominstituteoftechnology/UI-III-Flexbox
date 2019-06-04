@@ -1,0 +1,7 @@
+header {
+    & img[src="img/header-img.png"] {
+    &:hover{
+        cursor: pointer;
+    }
+  }
+}

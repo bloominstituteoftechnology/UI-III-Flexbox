@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+/*  box-sizing: border-box;*/
+}
+html,body {
+ // height:fit-content;
+}
+html {
+    // This defines what 1rem is
+  font-size: 20px;
+}
+
+body {
+  box-sizing: border-box;
+}

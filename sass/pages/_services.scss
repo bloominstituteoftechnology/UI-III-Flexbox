@@ -1,0 +1,18 @@
+  .flex-w-50.u-margin-1.u-padding-1 ul{
+  list-style: square;
+  margin: 1.2rem;
+  }
+  @media only screen and (max-width: 767px) {
+    .u-margin-1.u-padding-1.u-border-1.bg-grey {
+        margin: -0.1em;
+        margin-bottom: 1em;
+  }
+}
+.bg-grey {
+  box-shadow: 1px 1px 1em black;
+  & button {
+    margin-top: 1.51em;
+    float:right;
+    @include border-radius;
+}
+}

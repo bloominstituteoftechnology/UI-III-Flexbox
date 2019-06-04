@@ -1,0 +1,14 @@
+div.background-bars-hue {
+    margin-top:-5em;
+    width: 100%; 
+    background-image: repeating-linear-gradient(45deg,
+            transparent,
+            transparent 20px,
+            black 20px,
+            black 40px);
+    background-attachment: fixed;
+    /* with multiple color stop lengths */
+    background-image: repeating-linear-gradient(45deg, transparent 0 20px, hsl(261, 86%, 46%) 20px 40px);
+    //animation: hue-rotate 5s infinite;
+    background-color: hsla(138, 100%, 47%, 0.884);
+}

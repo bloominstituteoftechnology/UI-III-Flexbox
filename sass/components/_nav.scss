@@ -1,0 +1,31 @@
+nav {
+ & img {
+   cursor: pointer;
+ }
+ & li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 25px;
+    
+  }
+
+  @media only screen and (max-width: 1200px){
+    
+    & li {
+ 
+      padding: 0 1em;
+      & a{
+        width: 100%;
+      }
+    }
+  }
+  @media only screen and (max-width: 1000px){
+    
+    & li {
+      display:none;
+      
+    }
+  }
+
+
+}

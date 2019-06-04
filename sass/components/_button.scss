@@ -1,0 +1,21 @@
+button {
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #000;
+	padding: .55em 4em;
+    transition: background ease .5s, transform ease .5s;
+    margin: .5em;
+    padding: 1em;
+&:hover {
+	background: #ccc;
+	transform: scale(1.1);
+	transition: background ease .5s, transform ease .5s;
+}
+
+&:active {
+	background: #000;
+	color: #fff;
+	transform: scale(.9);
+	transition: background ease .5s, transform ease .5s, color ease .5s;
+}
+}

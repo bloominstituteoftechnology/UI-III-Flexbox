@@ -1,0 +1,48 @@
+nav ul li a {
+    font-size: 1.5em;
+    color: #000;
+    @include transition;
+    &:hover {
+        color: #f0f;
+        animation: hue-rotate 10s infinite;
+    }
+
+}
+.header__container {
+   & h1.title {
+        vertical-align: top;
+        font-size: 5em;
+        text-align: center;
+        max-width: 4em;
+        margin-top: .5em;
+}
+}
+h1 {
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h1, h2, h3, h4, h5, a{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.u-text-center.color-black {
+    position: relative;
+    top: 2.5em;
+}
+@media only screen and (max-width: 1200px){
+    .header__container h1.title {
+        vertical-align: top;
+        font-size: 5em;
+        
+        max-width: 4em;
+        margin-top: .5em;
+        text-align: center;
+    }
+}

@@ -1,0 +1,38 @@
+form.contact{
+	display:grid;
+	align-items:center;
+
+& label,textarea{
+	text-align:justify;
+	margin-bottom:.25em;
+}
+& textarea{
+	resize:vertical;
+	max-height:15em;
+	min-height:6em;
+}
+& button{
+	justify-self:center;
+}
+& .name{
+	display:grid;
+}
+@media (min-width:550px){
+
+	max-width:50%;
+		margin:auto;
+
+	& .name{    
+	display:grid;
+	grid-template-areas: 
+		"firstName lastName";
+	grid-column-gap:1em;
+    }
+& label[for="firstName"]{
+	grid-area:firstName;
+}
+& label[for="lastName"]{
+	grid-area:lastName;
+	}
+}
+}

@@ -1,0 +1,127 @@
+.flex {
+    display: flex;
+    & > * {
+        padding: .5em;
+    }
+    &-inline {
+        display: inline-flex;
+    }
+
+    &-row {
+        flex-direction: row;
+    }
+
+    &-column {
+        flex-direction: column;
+    }
+
+    &-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    &-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    &-wrap {
+        flex-wrap: wrap;
+
+        &-reverse {
+            flex-wrap: wrap-reverse;
+        }
+    }
+
+    &-justify {
+        &-start {
+            justify-content: flex-start;
+        }
+
+        &-end {
+            justify-content: flex-end;
+        }
+
+        &-center {
+            justify-content: center;
+        }
+
+        &-between {
+            justify-content: space-between;
+        }
+
+        &-around {
+            justify-content: space-around;
+        }
+
+        &-evenly {
+            justify-content: space-evenly;
+        }
+    }
+
+    &-items {
+        &-stretch {
+            align-items: stretch;
+        }
+
+        &-start {
+            align-items: flex-start;
+        }
+
+        &-end {
+            align-items: flex-end;
+        }
+
+        &-center {
+            align-items: center;
+        }
+
+        &-baseline {
+            align-items: baseline;
+        }
+    }
+ 
+    &-w {
+
+        &-100 {
+            width: 100%;
+        }
+        &-75 {
+            width: 75%;
+        }
+        &-66 {
+            width: 66%;
+        }
+        &-50 {
+            width: 50%;
+        }
+        &-33 {
+            width: 33%;
+        }
+        &-25 {
+            width: 25%;
+        }
+    }
+
+    &-default {
+        flex-flow: row row-reverse;
+    }
+    @media only screen and (max-width: 999px) {
+        flex-direction: column;
+        &-w{
+           &-75 {
+                width: 100%;
+            }
+            &-66 {
+                width: 100%;
+            }
+            &-50 {
+                width: 100%;
+            }
+            &-33 {
+                width: 100%;
+            }
+            &-25 {
+                width: 100%;
+            }
+        }
+    }
+}

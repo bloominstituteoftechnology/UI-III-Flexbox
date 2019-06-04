@@ -1,0 +1,48 @@
+@mixin clearfix {
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin transition {
+    transition: all .2s;
+}
+
+@mixin border-radius {
+    border-radius: $border-radius-value;
+}
+
+@mixin border-radius-top {
+        border-top-left-radius: $border-radius-value;
+        border-top-right-radius: $border-radius-value;
+}
+
+@mixin border-radius-leaf {
+    border-radius: $border-radius-value;
+    border-top-left-radius: $border-radius-leaf-value;
+    border-bottom-right-radius: $border-radius-leaf-value;
+}
+
+@mixin backface-visibility {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+@mixin box-shadow-1 {
+    box-shadow: 0 0 20px rgba($color-black,.8);
+}
+
+@mixin box-shadow- {
+    box-shadow: 0 1.5 4rem rgba($color-black,.5);
+}
+
+@mixin box-shadow-btn {
+    box-shadow: 0 0 20px rgba($color-black,.8);
+}
+
+@mixin box-shadow-btn-hover {
+    box-shadow: 0 0 20px rgba($color-black,.8);
+}
