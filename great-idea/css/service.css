@@ -106,3 +106,32 @@ header nav a{
     margin: 2em 0em;
     
 }   
+
+section .section-info{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+
+.ux-ui{
+    border: 2px black solid;
+    background: #f4f3f4;
+    width: 26em;
+    height: 15em; 
+    align-items: center;
+    padding: 1em;
+}
+.digital-design{
+    border: 2px black solid;
+    background: #f4f3f4;
+    width: 26em;
+    height: 15em; 
+    align-items: center;
+    padding: 1em;
+}
