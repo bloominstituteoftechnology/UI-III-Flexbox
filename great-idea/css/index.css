@@ -66,8 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .body-area{
-	display: block;
-	max-width: 1950px;
+	isplay: flex;
+	max-width: auto;
+	margin: 0 auto;
 }
 /* Nagigation */
 .navigation{
@@ -129,22 +130,21 @@ hr{
 
 /* content */
 .big-section{
-	display: inline-block;
+	display: flex;
 }
 
 .first-section{
 	max-width: 500px;
-	display: inline-block;
+	display: block;
 	margin-top: 90px;
 	margin-left: 900px;
-	padding: 10px;
 }
 .second-section{
-	position: absolute;
+	display: flex;
+	display: block;
 	max-width: 500px;
-	display: inline-block;
-	margin-top: 5.5rem;
-	margin-left: -1300px;
+	margin-top: -70px;
+	margin-left: 5rem;
 }
 
 .middle-img{
@@ -176,7 +176,6 @@ hr{
 }
 
 .last-section{
-	position: absolute;
 	display: inline-block;
 	max-width: 500px;
 	margin-left: 70px;
@@ -196,3 +195,5 @@ hr{
 .foot{
 	margin-left: 50rem;
 }
+
+/* services.html */
