@@ -95,33 +95,33 @@ nav a {
 
 /* header */
 .header {
-	/* display: inline-block; */
 	display: flex;
 	width: 840px;
 	padding: 50px 5px 60px 80px;
+	justify-content: center;
+	align-items: center;
 }
 
 /* big title */
 h1 {
-	/* display: inline-block; */
 	font-size: 72px;
 	width: 45%;
-	vertical-align: middle;
+	/* vertical-align: middle; */
 	margin-bottom: 0px;
 }
 
-.word1, .word2, .word3 {
+/* .word1, .word2, .word3 {
 	display: block;
 	letter-spacing: 3px;
 }
 
 .word2 {
 	padding-left: 90px;
-}
+} */
 
-.word3 {
+/* .word3 {
 	padding-left: 30px;
-}
+} */
 
 .header img {
 	display: inline-block;
@@ -131,8 +131,8 @@ h1 {
 }
 
 /* button */
-button {
-	display: block;
+.header button {
+	/* display: block; */
 	box-sizing: border-box;
 	border: 2px solid black;
 	background-color: white;
