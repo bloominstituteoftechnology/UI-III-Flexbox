@@ -160,7 +160,7 @@ header .logo {
 
 .main-content {
 	border-top: 1px solid black;
-	margin: 76px 10px 10px 10px;
+	margin: 40px 10px 10px 10px;
 	padding-top: 39px;
 }
 
@@ -187,7 +187,6 @@ header .logo {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	width: 1000px;
 	border-bottom: 2px solid black;
 }
 
