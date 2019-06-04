@@ -88,9 +88,8 @@ nav {
 nav a {
 	color: lightgray;
 	font-size: 14px;
-	padding: 80px 20px 40px 40px;
+	padding: 80px 30px 40px 40px;
 	text-decoration: none;
-	margin-bottom: 20px;
 }
 
 /* header */
@@ -100,28 +99,28 @@ nav a {
 	padding: 50px 5px 60px 80px;
 	justify-content: center;
 	align-items: center;
+	flex-flow: row wrap;
 }
 
 /* big title */
 h1 {
 	font-size: 72px;
 	width: 45%;
-	/* vertical-align: middle; */
 	margin-bottom: 0px;
 }
 
 /* .word1, .word2, .word3 {
 	display: block;
 	letter-spacing: 3px;
-}
+} */
 
 .word2 {
 	padding-left: 90px;
-} */
+}
 
-/* .word3 {
+.word3 {
 	padding-left: 30px;
-} */
+}
 
 .header img {
 	display: inline-block;
