@@ -76,6 +76,10 @@ title {
 h4{
 	margin-top: 25px;
 }
+h3 {
+	margin-top: 25px;
+	font-size: 27px;
+}
 
 header {
 	display: flex;
@@ -104,11 +108,21 @@ header nav a:hover {
 header .logo {
 	width: 20%;
 }
+.lower_header {
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+	line-height: 1.3;
+}
+.services_header_img {
+	margin-top: -25px;
+	padding-bottom: 10px;
+	width: 100%;
+}
 
 
 .slogan {
 	display: flex;
-	border-bottom: 2px gray solid;
+	border-bottom: 2px solid black;
 	font-family: Bangers, cursive;
 	font-size: 55px;
 	text-align: center;
@@ -139,12 +153,62 @@ header .logo {
 	width: 425px;
 	margin-right: 20px;
 	padding-bottom: 25px;
+	line-height: 1.2;
 }
 .block2 {
 	width: 275px;
 	margin-right: 18px;
+	line-height: 1.2;
 }
-
+.block_left {
+	width: 425px;
+	margin-right: 25px;
+	margin-top: 40px;
+	padding: 0px 20px 20px 20px;
+	background-color: #ededed;
+	border: 1px solid black;
+	line-height: 1.4;
+}
+.block_right {
+	width: 425px;
+	margin-top: 40px;
+	margin-left: 25px;
+	padding: 0px 20px 20px 20px;
+	background-color: #ededed;
+	border: 1px solid black;
+	line-height: 1.4;
+}
+.learn {
+	margin-top: 20px;
+	width: 150px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+.facts {
+	border-top: 2px solid black;
+	margin-top: 50px;
+	padding-top: 20px;
+	width: 900px;
+	display: flex;
+}
+.facts_text {
+	width: 425px;
+	margin-right: 25px;
+	padding-right: 10px;
+	line-height: 1.4;
+}
+.facts_text ul {
+	list-style-type:square;
+	padding: 20px;
+}
+.facts_text ul li {
+	padding: 7px;
+}
+.services-info-img {
+	padding-left: 25px;
+	padding-top: 25px;
+}
 
 footer {
 	padding-top: 30px;
@@ -164,4 +228,8 @@ footer .copy {
 	text-align: center;
 	width: 100%;
 	padding-bottom: 100px;
+}
+.services_footer {
+	text-align: center;
+	margin-top: 50px;
 }
