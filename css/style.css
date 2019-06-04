@@ -293,8 +293,52 @@ button {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
-header img[src="img/header-img.png"]:hover {
-  cursor: pointer; }
+header {
+  transition: all .2s; }
+  header img {
+    min-width: 75%; }
+    header img:hover {
+      cursor: pointer; }
+  @media only screen and (min-width: 999px) and (max-width: 1000px) {
+    header {
+      width: 100%;
+      position: relative;
+      display: grid;
+      flex-direction: column;
+      transition: all .2s; }
+      header h1 {
+        transition: all .2s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        transform: translate(50%, 50%);
+        filter: invert(1); } }
+  @media only screen and (max-width: 500px) {
+    header {
+      transition: all .2s;
+      width: 100%;
+      position: relative;
+      display: grid;
+      flex-direction: column; }
+      header img {
+        filter: invert(1); }
+      header h1 {
+        transition: all .2s;
+        transform: none;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        right: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        z-index: 2; }
+      header button {
+        transition: all .2s;
+        position: absolute;
+        top: 85%; } }
 
 .flex {
   display: flex; }

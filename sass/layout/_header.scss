@@ -1,7 +1,57 @@
 header {
-    & img[src="img/header-img.png"] {
+  @include transition;
+    & img {
+      min-width: 75%;
     &:hover{
         cursor: pointer;
     }
   }
+  @media only screen and (min-width: 999px) and (max-width: 1000px) {
+    width: 100%;
+    position: relative;
+    display:grid;
+    flex-direction: column;
+    @include transition;
+
+  & h1 {
+    @include transition;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    transform:translate(50%,50%);
+    filter: invert(1);
+    
+  }
+}
+  @media only screen and (max-width: 500px) {
+    @include transition;
+    width: 100%;
+    position: relative;
+    display:grid;
+    flex-direction: column;
+  & img {
+    filter: invert(1);
+  }
+  & h1 {
+    @include transition;
+    transform: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    z-index:2;
+    //filter: invert(1);
+   }
+   & button {
+     @include transition;
+     position: absolute;
+     top: 85%;
+   }
+}
+
 }
