@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	margin: auto;
+	width: 45%;
+}
+nav{
+	padding:10px;
+	margin-bottom: 15px;	
+	height:50px;
+	border-radius: 25px;
+	text-align: center;
+	z-index: 1;
+}
+nav a{
+	margin-right: 40px;
+	font-size: 14px;
+	color: lightgrey;
+	text-decoration: none;
+}
+.logo{
+	vertical-align: middle;
+	margin-left: 50px;
+	height:100px;
+	width: 50px;
+}
+.About{
+	width:49%;
+	display:inline-block;
+	margin-bottom:15px;
+}
+.features{
+	width:49%;
+	display:inline-block;
+	margin-bottom:15px;
+}
+.hrClass{
+	border-top: 1px solid black;
+	margin: 10 0 10 0;
+}
+.textAndImage{
+	display: flex;
+	text-align: center;
+	height:400px;
+}
+.codeSnip{
+	width:49%;
+	vertical-align:middle;
+}
+.buttonText{
+	font-size: 33px;
+	width:49%;
+	vertical-align:middle;
+}
+h1{
+	font-size:76px;
+}
+.marginBottomTopPicture{
+	margin: 50px 0px 50px 0px;
+}
+.getStarted{
+	background: white;
+	font-size: 16px;
+	padding: 8px 40px 8px 40px;
+	border: grey solid 1.5px;
+}
+.width33 {
+	width: 33%;
+}
+.textMarginTopBot{
+	display:flex;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+.middle-img{
+	width:100%;
+}
+.logo{
+	width:175px;
+	height: 35px;
+}
+
+.imageResize{
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition:         transform .8s ease-in-out;
+}
+.imageResize:hover{
+	-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+}
+.moveTop{
+	margin-top:25px;
+}
+.copyRight{
+	text-align: center;
+	font-size: 14px;
+	margin: 75px 0px 75px 0px;
+}
+p{
+	font-style: strong;
+}
+.textMarginTopBotNoFlex{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.servicesContentBox{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 25px 0px 25px 0px;
+	width: 100%;
+}
+.services-header-img{
+	width: 100%;
+}
+.boxContent{
+	background: #F2F2F2;
+	border: black solid 1px;
+	margin: 12px;
+	height: 210px;
+	width: 400px;
+	padding: 10px;
+}
+.boxButton{
+	background-color: white;
+	border: black solid 1px;
+	font-size: 12px;
+	padding: 7px 25px 7px 25px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.bottomBoxContainer{
+	display: flex;
+	margin-top: 25px;
+	width: 99%
+}
+.serviceOrderListNodes{
+	line-height: 35px;
+}
+.entireList{
+	margin-top: 25px;
+	margin-left: 20px;
+}
