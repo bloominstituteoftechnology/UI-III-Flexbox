@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body{
-	margin:50px;
+	margin:30px;
 }
 
 header{
@@ -187,7 +187,7 @@ footer{
 
 
 body{
-	padding:20px;
+	padding:32px;
 }
 
 .services-header-img{
@@ -267,6 +267,32 @@ font-size:24px;
 
 
 
-.A{
-	display:inline-block;
+.bottom-content{
+height :300px;
+width:500px;
+border: 0px solid black;
+margin-right:120px;
+}
+
+.bottom-content h3{
+	font-size: 20px;
+	margin-top: 45px;
+}
+
+.bottom-content h4{
+	display: list-item;
+	list-style-type: square;
+	margin: 15px;
+}
+
+.services-info-img{
+	height: 350px;
+	width:650px;
+	padding: 45px;
+}
+
+.last-section{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
 }
