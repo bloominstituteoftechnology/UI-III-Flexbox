@@ -154,11 +154,14 @@ header .logo {
 
 .main-content .top-content {
 	padding: 0 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 }
 
 .main-content .top-content .text-content {
 	width: 410px;
-	display: flex;
+	align-self: baseline;
 	margin-right: 34px;
 }
 
@@ -171,9 +174,15 @@ header .logo {
 	padding: 0 10px;
 }
 
+.main-content .bottom-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
 .main-content .bottom-content .text-content {
 	width: 275px;
-	display: flex;
+	align-self: baseline;
 	margin-right: 12px;
 }
 
