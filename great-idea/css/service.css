@@ -100,4 +100,9 @@ header nav a{
 
 .container .services-header-img{
     width: 98%;
+    margin: 1.5em 0em;
 }
+.container .service-section{
+    margin: 2em 0em;
+    
+}   
