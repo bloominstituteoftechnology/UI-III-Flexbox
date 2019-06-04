@@ -88,64 +88,61 @@ a {
 
 
  .logo { 
-	border: 1px solid red;
 	justify-content: flex-end;
 } 
 
  .heading {
 	width: 100%;
 	display: flex;
-	border: 1px solid black;
+	align-items: center;
 }
 
 .leftbox a{
 	display: flex;
-	width: 40%;
-	margin: 0 auto;
-	text-align: center;
-	
-}
-.rightbox {
-	align-items: center;
-	display: flex;
-	border: 1px solid blue;
+	width: 30%;
+	margin-left: 175px;
+	text-align: center;	
 }
 h1 {
-	font-size: 70px;
+	font-size: 60px;
 	text-align: center;
+	margin-left: 100px;
 	}
 button {
 	color: black;
 	border: 1px solid black;
 }
+.image1 {
+	width: 30%;
+	margin-left: 150px;
+}
 h2 h3{
 	font-size: 25px;
 	text-align: left;
 }
-.section2 section {
+.section2 {
 	display: flex;
-	width: 49%;
+	width: 100%
 	line-height: 1.15;
-	margin: 0 auto;
 	padding: 10px 10px 10px 0;
 }
+ 
 .middle-img {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.section3 section {
-	display: inline-block;
-	width: 32%;
-	margin: 0 auto;
+.section3 {
+	display: flex;
+	width: 100%;
 	padding: 10px 10px 10px 0;
 }
 .contact {
-	width: 90%;
+	width: 800px;
 	margin: 0 auto;
 	margin-top: 20px;
 }
 .footer {
 	text-align: center;
 	margin-bottom: 50px;
-}  */
+}  
