@@ -63,22 +63,11 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-body {
-	margin: 10px 10px 10px 10px;
+.container {
+	width: 880px;
+	margin: 0 auto;
 }
 
-header {
-	margin-top: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	
-}
-
-main {
-	margin-right: 20px;
-	margin-left: 65px;
-}
 
 header nav {
 	display: inline-block;
@@ -88,155 +77,107 @@ header nav {
 }
 
 header nav a {
-	display: inline-block;
-	text-decoration: none;
-	margin: 8px 24px 10px 40px;
-	color: gray;
-	font-size: 14px;
-	height: 10px;
+	margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
 }
 
-.logo {
-	display: inline-block;
-	margin: 17px 10px 10px 58px;
+header nav a:hover {
+	text-decoration: underline;
+}
+
+header nav a:first-child {
+	margin-left: 0;
+}
+  
+  header nav a:last-child {
+	margin-right: 0;
+}
+
+header .logo {
+	margin-top: 25px;
 }
 
 
-.txt-left {
+.cta .txt-left {
 	font-family: 'Bangers', cursive;
 	display: inline-block;
-	font-size: 76px;
-	font-style: bold;
-	margin: 101px 10px 7px 41px;
-	text-align: center;
-	height: 235px;
-	width: 400px;
 	vertical-align: top;
-	letter-spacing: 4px;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 75px;
 }
 
-.start-button {
-	background-color: white;
-	border: 1px solid black;
-	margin: 15px 116px 17px 111px;
-	padding: 6px;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 16px;
-	display: block;
-	text-align: middle;
-	letter-spacing: 1px;
-	height: 33px;
+.cta .txt-left .start-button {
+	background: white;
+  	vertical-align: top;
+  	margin-top: 6px;
+  	padding: 8px 44px;
+  	font-size: 17px;
+  	border: 1px solid black;
+  	cursor: pointer;
 }
 
-.snippet {
-	display: inline;
-	margin: 45px 20px 10px 39px;
+.cta .txt-left .start-button:hover {
+	background: black;
+	color: white;
+  }
+
+.cta img {
+	display: inline-block;
+	margin-top: 69px;
 }
 
-.hr1 {
+
+.main-content {
 	border-top: 1px solid black;
-	margin-top: 63px;
-	margin-right: 80px;
-	display: block;
-	width: 100%;
+	margin-top: 76px;
+	padding-top: 39px;
 }
 
+.main-content .top-content {
+	padding: 0 10px;
+}
 
-.features {
+.main-content .top-content .text-content {
+	width: 410px;
 	display: inline-block;
-	margin-top: 14px;
-	width: 444px;
+	margin-right: 34px;
 }
 
-.features-par {
-	margin-top: 17px;
-    font-size: 16px;
+.main-content .top-content .text-content:last-child {
+	margin-right: 0;
 }
 
-.about-par {
-	margin-top: 17px;
-	font-size: 16px;
+.main-content .middle-img {
+	margin-top: 37px;
+	padding: 0 10px;
 }
 
-.about {
+.main-content .bottom-content .text-content {
+	width: 275px;
 	display: inline-block;
-	margin: 14px 0px 0px 0px; 
-	width: 444px;
+	margin-right: 12px;
 }
 
-.middle-img {
-	display: block;
-	margin: 43px 30px 17px 0px;
-
-}
-
-.services {
-	display: inline-block;
-	margin-top: 21px;
-	width: 280px;
-}
-
-.services-par {
-	margin-top: 17px;
-	font-size: 16px;
-}
-
-.product {
-	display: inline-block;
-	margin: 10px 0px 15px 8px;
-	width: 296px;
-}
-
-h4 .product {
-	margin: 10px 18px 15px 16px;
-    width: 56px;
-}
-
-.product-par {
-	margin: 2px 0px 12px 7px;
-	font-size: 16px;
-}
-
-.vision {
-	display: inline-block;
-	margin: 0px 0px 0px 3px;
-	width: 280px;
-}
-
-h4 .vision {
-	margin: 10px 18px 15px 16px;
-}
-
-.vision-par {
-	margin-top: 17px;
-	font-size: 16px;
-}
-
-.hr2 {
-	border-top: 1px solid black;
-	margin-top: 30px;
-	margin-right: 50px;
-	display: block;
-	width: 100%;
+.main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
 }
 
 .contact {
-	margin: 38px 10px 40px 1px;
-	width: 140px;
-	left: 10px;
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
 }
 
-.phone {
-	margin: 6px 0px 0px 0px;
+.contact p {
+	margin: 20px 0;
 }
 
-.email {
-	margin: 2px 0px 0px 0px;
-}
-
-footer .copy {
+footer {
 	text-align: center;
-	margin: 4px 67px 9px 0px;
-	height: 50px;
+	margin: 32px 0;
 	font-size: 14px;
 }
