@@ -92,7 +92,7 @@ header nav a{
 	margin: 0 auto;
 	justify-content: space-evenly;
 	align-items: center;
-	flex-flow: row wrap-reverse;
+	flex-flow: row wrap;
 	margin: 2em 0em;
 	padding: 1em;	 
 
@@ -137,4 +137,18 @@ section .features h3{
 }
 .main-section section .about{
 	width:45%; 
+}
+
+.services  {
+	color: red;
+	width: 30%;
+}
+
+.product{
+	color: aquamarine;
+	width: 30%;
+}
+.vision{
+	width: 30%;
+
 }
