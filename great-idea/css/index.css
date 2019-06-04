@@ -105,14 +105,13 @@ nav a {
 /* big title */
 h1 {
 	font-size: 72px;
-	width: 45%;
+	width: 47%;
 	margin-bottom: 0px;
 }
 
-/* .word1, .word2, .word3 {
-	display: block;
+.word1, .word2, .word3 {
 	letter-spacing: 3px;
-} */
+}
 
 .word2 {
 	padding-left: 90px;
@@ -123,10 +122,8 @@ h1 {
 }
 
 .header img {
-	display: inline-block;
-	width: 45%;
-	vertical-align: middle;
-	margin-left: 70px;
+	width: 47%;
+	margin-left: 30px;
 }
 
 /* button */
@@ -140,7 +137,6 @@ h1 {
 	font-size: 18px;
 	font-family: 'Titillium Web';
 	padding: 10px 25px 35px 25px;
-	margin-left: 60px;
 	margin-top: 0px;
 	letter-spacing: 1px;
 }
