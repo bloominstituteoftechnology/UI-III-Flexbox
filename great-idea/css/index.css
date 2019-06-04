@@ -142,29 +142,28 @@ h1 {
 }
 
 main {
-	display: inline-block;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
 
 .top-main {
-	display: inline-block;
-	width: 840px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 	padding-top: 20px;
 	padding-bottom: 10px;
+	align-content: center;
 }
 
 .top-p {
-	display: inline-block;
 	width: 49%;
-	padding: 10px 10px 20px 15px;
+	padding: 10px 10px 10px 15px;
 	letter-spacing: .5px;
 }
 
 .first-h5 {
-	display: inline-block;
 	width: 90px;
-	padding: 20px 400px 0px 15px;
+	padding: 10px 400px 0px 15px;
 }
 
 .middle-img {
