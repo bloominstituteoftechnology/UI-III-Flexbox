@@ -86,3 +86,10 @@ header nav a{
 	margin: 1em
 }
 
+.container section{
+	display: flex;
+	margin: 0 auto;
+	background: yellow;
+	align-self: stretch;
+}
+
