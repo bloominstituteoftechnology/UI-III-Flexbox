@@ -103,7 +103,7 @@ nav a {
 	display: flex;
 	width: 840px;
 	padding: 50px 5px 60px 80px;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	flex-flow: row wrap;
 }
@@ -112,7 +112,6 @@ nav a {
 h1 {
 	font-size: 72px;
 	width: 47%;
-	margin-bottom: 0px;
 }
 
 .word1, .word2, .word3 {
@@ -133,7 +132,7 @@ h1 {
 }
 
 /* button */
-.header button {
+button {
 	box-sizing: border-box;
 	border: 2px solid black;
 	background-color: white;
@@ -143,7 +142,7 @@ h1 {
 	font-family: 'Titillium Web';
 	padding: 10px 25px 35px 25px;
 	letter-spacing: 1px;
-	align-self: flex-start;
+	margin-left: 50px;
 }
 
 main {
@@ -167,6 +166,7 @@ main {
 }
 
 .first-h5 {
+
 	width: 90px;
 	padding: 10px 400px 0px 15px;
 }
