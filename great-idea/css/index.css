@@ -102,7 +102,7 @@ nav a {
 .header {
 	display: flex;
 	width: 840px;
-	padding: 50px 5px 60px 80px;
+	padding: 20px 5px 60px 80px;
 	justify-content: flex-start;
 	align-items: center;
 	flex-flow: row wrap;
