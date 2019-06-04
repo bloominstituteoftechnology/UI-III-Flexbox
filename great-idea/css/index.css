@@ -160,7 +160,7 @@ header .logo {
 
 .main-content {
 	border-top: 1px solid black;
-	margin-top: 76px;
+	margin: 76px 10px 10px 10px;
 	padding-top: 39px;
 }
 
@@ -187,9 +187,11 @@ header .logo {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	width: 1000px;
+	border-bottom: 2px solid black;
 }
 
 .main-content .container1 {
+	background-color: #F5F5F5;
 	margin: 10px 10px 10px 10px; 
 	border: 1px solid black;
 	padding: 30px 20px;
@@ -198,6 +200,7 @@ header .logo {
 }
 
 .main-content .container2 {
+	background-color: #F5F5F5;
 	margin: 10px 10px 10px 10px; 
 	border: 1px solid black;
 	padding: 30px 20px;
@@ -206,6 +209,7 @@ header .logo {
 }
 
 .main-content .container3 {
+	background-color: #F5F5F5;
 	margin: 10px 10px 10px 10px; 
 	border: 1px solid black;
 	padding: 30px 20px;
@@ -214,6 +218,7 @@ header .logo {
 }
 
 .main-content .container4 {
+	background-color: #F5F5F5;
 	margin: 10px 10px 10px 10px; 
 	border: 1px solid black;
 	padding: 30px 20px;
@@ -222,6 +227,7 @@ header .logo {
 }
 
 .main-content .container5 {
+	background-color: #F5F5F5;
 	margin: 10px 10px 10px 10px; 
 	border: 1px solid black;
 	padding: 30px 20px;
@@ -230,11 +236,24 @@ header .logo {
 }
 
 .main-content .container6 {
+	background-color: #F5F5F5;
 	margin: 10px 10px 10px 10px; 
 	border: 1px solid black;
 	padding: 30px 20px;
 	height: 250px;
 	width: 400px;
+}
+
+.lm-button {
+	border: 1px solid black;
+	border-radius: 25px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	background-color: white;
 }
 
 .main-content .middle-img {
@@ -256,6 +275,10 @@ header .logo {
 
 .main-content .bottom-content .text-content:last-child {
 	margin-right: 0;
+}
+
+.service-facts {
+	margin-top 40px;
 }
 
 .contact {
