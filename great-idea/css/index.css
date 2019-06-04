@@ -295,6 +295,8 @@ header .logo {
 
 .service-info ul {
 	list-style-type: square;
+	line-height: 25px;
+	margin-left: 30px;
 }
 
 .service-info img {
