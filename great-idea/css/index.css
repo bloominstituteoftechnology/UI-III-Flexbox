@@ -74,10 +74,10 @@ box-sizing: border-box;
 }
 
 .container {
-	margin: auto;
+	margin: 0 auto;
 	width: 800px;
 	padding: 25px;
-	text-align: left;
+	text-align: center;
 }
 
 header nav {
@@ -85,12 +85,25 @@ header nav {
 	margin-top: 20px;
 	text-decoration: none;
 	color: #444;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+header nav a {
+	display: flex;
+	justify-content: space-around;
+	margin: 15px;
+}
+
+.top-content-p {
+	margin: 0 auto;
+	text-align: left;
+	padding: 0  0  20px 0;
 }
 
 h1, h2 {
 	font-size: 28px;
 	display: inline;
+	padding: 20px 0 0 0;
 }
 
 ul {
@@ -178,17 +191,21 @@ button:hover {
 
 .flex-container {
   height: 100%;
-  display: flex;
+	display: flex;
+	margin: 0 auto;
 }
 
 .flex-container1 {
-  flex: 1 1 0;
+	flex: 1 1 0;
+	margin: 0 auto;
 }
 
 .flex-container2 {
   flex: 1 1 0;
   display: flex;
-  flex-direction: column;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 0 0 0 125px; 
 }
 
 .main-one {
@@ -287,18 +304,22 @@ h3, h4 {
 
 .bottom {
 	margin-top: 20px;
-	display: inline-block;
-	float: left;
-	flex-direction: column;
-	width: 800px;
+	display: flex;
+	flex: 1 1 0;
+	width:350px;
+	padding: 0; 
 	text-align: left;
 	color: black;
 }
 
-#img-footer {
-	float: right;
-	display: ;
+.footer-img {
+	display: flex;
+	flex: 1 1 0;
+	flex-direction: row;
+	width:350px;
+	padding: 0 0 0 45px;  
 }
+
 footer {
 	width:800px;
 	text-align: center;
