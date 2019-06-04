@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	width: 950px;
+	margin: auto;
+}
+
+header nav {
+	display: flex;
+	/* display: inline-block; */
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 20px;
+	text-decoration: none;
+	color: gray;
+}
+
+header img.logo {
+	margin-left: 750px;
+	margin-top: 10px;
+	
+}
+
+.content-row {
+	font-size: 72px;
+	font-family: 'Bangers';
+	padding: 20px 20px;
+	display: flex;
+	width: 80%;
+	margin-top: 30px;
+}
+
+.h1 {
+	padding: 0 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+button {
+	/* display: inline-block; */
+	display: flex;
+	padding: 5px 40px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: white;
+	border: 1px solid black;
+	margin-left: 50px;
+}
+	
+.header img {
+	margin-top: 15px;
+	/* display: inline-block; */
+	margin-left: 140px;
+	}
+
+h2 {
+	padding: 0 10px;
+	margin-bottom: 10px;
+}
+
+p {
+	padding: 0 10px;
+	margin-bottom: 10px;	
+}
+
+.top-content {
+	display: flex;
+		/* display: inline-block; */
+	border-top: 1px solid black;
+	padding: 20px 30px;
+	margin: 10px;
+}
+	.features {
+		display: inline-block;
+		width: 48%;
+	}
+
+	.about {
+		/* display: inline-block; */
+		width: 48%;
+	}
+
+.middle-img {
+	/* display: block; */
+	padding-top: 20px;
+}
+
+.bottom-content {
+	display: flex;
+	/* display: inline-block; */
+	padding: 20px 10px;
+	margin: 10px;
+}
+	
+	.services {
+		/* display: inline-block; */
+		width: 33%;
+	}
+
+	.product {
+		/* display: inline-block; */
+		width: 33%;
+	}
+
+	.vision {
+		/* display: inline-block; */
+		width: 33%;
+	}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 40px;
+	line-height: 1.2;
+}
+
+footer p.copyright {
+	/* display: block; */
+	text-align: center;
+	padding: 30px;
+}
