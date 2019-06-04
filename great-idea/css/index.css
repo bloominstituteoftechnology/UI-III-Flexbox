@@ -181,6 +181,62 @@ header .logo {
 	margin-right: 0;
 }
 
+.main-content .main-services {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 1000px;
+}
+
+.main-content .container1 {
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.main-content .container2 {
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.main-content .container3 {
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.main-content .container4 {
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.main-content .container5 {
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.main-content .container6 {
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
 .main-content .middle-img {
 	margin-top: 37px;
 	padding: 0 10px;
