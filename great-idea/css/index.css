@@ -64,3 +64,147 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width:900px;
+	margin: 0 auto;
+}
+
+.navbar {
+	margin: 25px 0px 25px 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+h1 {
+	font-size: 77px;
+	text-align: center;
+}
+
+.head {
+	
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header-column {
+	display: flex;
+	flex-flow: column;
+}
+
+
+.title {
+	display: flex;
+	flex-flow: column nowrap;
+	align-content: center;
+	
+}
+
+.main-content{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+
+
+}
+
+.header-content{
+	margin: 30px 0px 15px 0px;
+}
+
+button {
+	align-self: center;	
+	height: 30px;
+	width: 100px;
+	border: 1px solid black;
+
+}
+
+.svc-btn {
+	height: 28px;
+	width: 120px;
+	border-radius: 8px;
+}
+
+section {
+	margin: 15px 0px 15px 0px;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.digital-design, .ux, .digital-marketing, .web-dev, .ios-dev, .android-dev{
+	height: 220px;
+	width: 440px;
+	padding: 20px;
+	background-color: #f2f2f2;
+	margin: 10px 0px 10px 0px;
+
+	border: 1px solid black;
+}
+
+.block1{
+	display: flex;
+}
+
+.block2 {
+	display: flex;
+}
+
+.bottom {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.bottom-content{
+	height: 200px;
+	width: 400px;
+	padding: 10px;
+}
+
+.services-info-img {
+	align-items: center;
+
+}
+
+.hr-lower{
+	border: 1px solid;
+
+}
+
+}
+footer {
+	margin: 5px;
+}
+
+address {
+	margin: 0px 0px 10px 0px;
+}
+
+p {
+	margin: 0px 0px 10px 0px;
+	padding: 10pz;
+}
+
+li{
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+.copyright {
+	margin: 30px 0px 30px 0px;
+	text-align: center;
+}
+
+
+
