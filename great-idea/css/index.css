@@ -124,6 +124,9 @@ header .logo {
   margin-top: 120px;
   text-align: center;
   padding: 0px 75px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
 }
 
 .cta .cta-text button {
@@ -145,8 +148,9 @@ header .logo {
 
 .cta img {
  display: flex;
- margin-top: 69px;
- 
+justify-content: space-around;
+width: 25px;
+align-content: flex-end;
 }
 
 .main-content {
