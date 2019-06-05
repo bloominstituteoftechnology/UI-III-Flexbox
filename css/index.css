@@ -207,3 +207,28 @@ p{
 	margin-bottom:15px;
 	margin-right:14px;
 }
+@media screen and (max-width: 1366px) {
+	.boxContent{
+	  height: 200px;
+	  width: 90%;
+	  margin: 15px 0px 15px 0px;
+	}
+	.servicesContentBox{
+		justify-content: center;
+	}
+	.bottomBoxContainer{
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.serviceOrderListNodes{
+		list-style-type: none;
+		text-align: center;
+	}
+	.services-info-img{
+		margin-top: 15px;
+	}
+	.textMarginTopBotNoFlex{
+		text-align: center;
+	}
+  }
