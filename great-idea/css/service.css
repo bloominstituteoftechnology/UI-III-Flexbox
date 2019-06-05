@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5 {
 	width: 61.25em;
 	margin: 0 auto;
 }
+header{
+   background: #BEBEBE;
+   margin: 5em 0 0 0;
+}
 
 header nav{
     width: 61.25em;
@@ -82,11 +86,6 @@ header nav{
 }
 
 
-header{
-   background: #BEBEBE;
-   margin: 5em 0 0 0;
-
-}
 header nav a{
 	text-decoration: none;
     margin: 1em;
@@ -104,7 +103,6 @@ header nav  a:hover{
 nav :last-child{
     margin-left: auto;
     /* margin: 0px 0px 0px 80px; */
-
 }
  .container section .sec-info-card{
 justify-content: space-between;
@@ -165,4 +163,7 @@ footer .footer-text ul{
     margin: 30px 0px 0px 0px; 
     list-style-type: circle; 
     list-style-position: inside;
+}
+footer address{
+    display: inline;
 }
