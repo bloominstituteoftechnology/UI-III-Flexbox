@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5 {
 	width: 691px; 
 	
 	
-	border: 1px solid red;
+	
   }
   
    .nav a {
@@ -127,13 +127,14 @@ h1, h2, h3, h4, h5 {
 	/* display: inline-block; */
 	
 	display: flex;
-	justify-content: flex-start;
+	 
+	align-items: center;
 	flex-flow: wrap;
 	font-size: 77px;
 	margin-top: 80px;
 	text-align: center;
 	padding: 0px 45px;
-	border: 5px solid red;
+	
   }
   
     button {
@@ -152,7 +153,11 @@ h1, h2, h3, h4, h5 {
   
   .top-row {
 	display: flex;
-	
+
+  }
+  
+  .bottom-row{
+	  display: flex;
   }
   
   .top-box2 {
@@ -202,4 +207,68 @@ h1, h2, h3, h4, h5 {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
-  }
+	}
+	/* services.html */
+
+	.services {
+		
+		margin-top: 10px;
+		
+		border-bottom: 1px solid black;	
+		margin-bottom: 30px;
+	}
+
+	.button-boxes{
+		display: flex;
+		align-content: flex-start;
+		flex-flow: wrap;
+	}
+	
+	.design {
+		border: 1px solid black;
+		width: 400px;
+	}
+	.ux {
+		border: 1px solid black;
+		width: 400px;
+	}
+
+	.digital{
+		border: 1px solid black;
+		width: 400px;
+	}
+
+	.web{
+		
+		border: 1px solid black;
+		width: 400px;
+	}
+
+
+	.ios {
+		border: 1px solid black;
+		width: 400px;
+	}
+
+	.android {
+		border: 1px solid black;
+		width: 400px;
+	}
+
+	button {
+		font-size: .5em;
+		margin: 6px;
+		width: 120px;
+		height: 30px;
+
+	}
+	h2 {
+		margin: 10px;
+	}
+	footer{
+		display: flex;
+	}
+	
+	.facts{
+		text-align: left;
+	}
