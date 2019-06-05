@@ -148,7 +148,8 @@ margin-right:90px;
  /*services*/
 
  .service-container{
-	 margin:180px;
+ 
+	margin:180px;
  }
  .service-header{
 	 border-bottom:2px solid black;
@@ -162,3 +163,48 @@ margin-right:90px;
 	 width:100%;
  }
 
+.services-main{
+	display:flex;
+	 border-bottom: 3px solid black;
+	 padding-bottom:50px;
+	 margin-bottom:50px;
+flex-wrap: wrap;
+	 align-content: space-between;
+	 justify-content: space-between;
+	 width:100%;
+	 
+
+}
+
+.all-boxes{
+	border: 1px solid black;
+background:lightgray;
+padding:20px;
+margin:10px;
+justify-content: flex-start;
+align-content: center;
+flex-wrap:wrap;
+width:400px;
+
+
+}
+
+
+.service-bottom{
+	display:flex;
+	text-align: justify;
+	justify-content: space-around;
+
+}
+
+.service-bottom-left ul {
+list-style-type: square;
+}
+.service-bottom-left{
+	margin-right:50px;
+
+}
+
+.section-footer{
+	text-align:center;
+}
