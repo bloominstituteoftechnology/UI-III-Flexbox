@@ -108,13 +108,10 @@ header{
 }
 .container section{
 	display: flex;
-	margin: 0 auto;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	flex-flow: row wrap;
-	margin: 2em 0em;
-	padding: 1em;	 
-
+	margin: 2em 0em;	 
 }
 
 section .main-title{
@@ -144,29 +141,20 @@ section .main-title .get-started{
 	justify-content: flex-end;
 
 }
-.main-section section{
-	width:100%; 
-}
 .main-section section .features{
 	width:45%; 
+	line-height: 20px;
+
 }
 .main-section section .about{
 	width:45%; 
+	line-height: 20px;
 }
 
-/* .services  {
-	width: 30%;
-}
 
-.product{
-	width: 30%;
-}
-.vision{
-	width: 30%;
-
-} */
 .second-section{
-	width: 33%
+	width: 33%;
+	line-height: 20px;
 }
 address nav a {
 	text-decoration: none;
@@ -175,7 +163,7 @@ address nav a {
 	font-weight: bold;
 }
 
-footer  h4{
+footer  h5{
 	text-align: center;
 	padding: 50px;
 }

@@ -70,43 +70,42 @@ h1, h2, h3, h4, h5 {
 }
 
 header nav{
-	width: 100%;
+    width: 61.25em;
 	display: flex;
 	justify-content: flex-start;
-	align-items: center;
+    align-items: center;
     flex-flow: row wrap;
-
-
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    border-bottom: 1px #000000 solid;
 }
-nav :last-child{
 
-	margin-left: auto
-}
 
 header{
-    position: sticky;
-   top: 0px;
    background: #BEBEBE;
+   margin: 5em 0 0 0;
 
 }
 header nav a{
 	text-decoration: none;
     margin: 1em;
-    color:white;
+    color:black;
 	padding: 10px;
 	text-align: center;
 	transition: 0.1s;
-	border-radius: 20px; 
+    border-radius: 20px;  
 }
 header nav  a:hover{
-	background: grey;
+    background: grey;
 	color: aliceblue;
 	transition: .8s;
 }
+nav :last-child{
+    margin-left: auto;
+    /* margin: 0px 0px 0px 80px; */
 
-/* .container section{
-    padding: 0px
-} */
+}
  .container section .sec-info-card{
 justify-content: space-between;
 align-items: center;
@@ -130,7 +129,7 @@ section .section-info{
     flex-flow: row wrap;
     width: 100%;
     justify-content: space-between;
-    
+
 }
 
 .sec-info-card:nth-child(even){
@@ -158,10 +157,12 @@ footer .footer-text{
 
 footer h4{
     margin: 0 auto;
-    padding: 50px 
+    padding: 50px;
+    bottom: 0px;
 }
 footer .footer-text ul{
     display: list-item;
     margin: 30px 0px 0px 0px; 
     list-style-type: circle; 
+    list-style-position: inside;
 }
