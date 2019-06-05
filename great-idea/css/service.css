@@ -74,17 +74,34 @@ header nav{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	flex-flow: row wrap;
+    flex-flow: row wrap;
 
-	
+
 }
 nav :last-child{
 
 	margin-left: auto
 }
+
+header{
+    position: sticky;
+   top: 0px;
+   background: #BEBEBE;
+
+}
 header nav a{
 	text-decoration: none;
-	margin: 1em
+    margin: 1em;
+    color:white;
+	padding: 10px;
+	text-align: center;
+	transition: 0.1s;
+	border-radius: 20px; 
+}
+header nav  a:hover{
+	background: grey;
+	color: aliceblue;
+	transition: .8s;
 }
 
 .container section{
