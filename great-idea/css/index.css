@@ -142,19 +142,37 @@ header nav a {
 .container footer {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: center;
 }
 
 .container footer .footer-content {
 	width: 300px;
 	height: 150px;
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
 	margin: 20px;
-	border: 1px solid red;
 }
-/*.container footer #copyright {
+/*.container footer ol {
+	display: flex;
+	flex-direction: column;
+}*/
+.container footer #copyright {
 	display: flex;
 	justify-content: center;
-}*/
+	margin-top: 40px;
+}
 
+footer .footer-content #facts {
+	margin-bottom: 10px;
+}
 
+footer .footer-content ul {
+	list-style-type: square;
+}
 
+.container .main-content button {
+	margin: 15px 0px 15px 15px;
+	padding: 5px 15px 5px 15px;
+}
 
