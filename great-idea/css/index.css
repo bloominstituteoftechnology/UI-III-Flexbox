@@ -169,6 +169,7 @@ footer .footer-content #facts {
 
 footer .footer-content ul {
 	list-style-type: square;
+	list-style-position: inside;
 }
 
 .container .main-content button {
