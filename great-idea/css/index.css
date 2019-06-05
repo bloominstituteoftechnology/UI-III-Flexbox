@@ -223,16 +223,14 @@ footer {
     display: flex;
     width: 50%;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .digitaldesign{
     
     border: 1px solid black;
     margin: auto;
     padding: 20px;
-    width: 60%;
-    height: 40%;
-
+    width: 50%;
     
     
     
@@ -241,35 +239,31 @@ footer {
     border: 1px solid black;
     margin: auto;
     padding: 20px;
-    width: 30%;
-    height:20%;
-    
+    width: 40%;
+    height:30%;
+    flex-direction: row;
   }
   .digitalmarketing{
     border: 1px solid black;
     margin: auto;
     padding: 20px;
-    width: 30%;
-    height: 20%;
+    width: 40%;
   }
   .webdevolpment{
     border: 1px solid black;
     margin: auto;
     padding: 20px;
-    width: 60%;
-    height: 40%;
+    width: 40%;
   }
   .ios{
     border: 1px solid black;
     margin: auto;
     padding: 20px;
-    width: 60%;
-    height: 40%;
+    width: 40%;
   }
   .andriod{
     border: 1px solid black;
     margin: auto;
     padding: 20px;
-    width: 60%;
-    height: 40%;
+    width: 40%;
   }
