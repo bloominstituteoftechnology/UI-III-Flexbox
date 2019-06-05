@@ -82,21 +82,17 @@ header {
 	justify-content: space-around;
 }
 a {
-	color:lightgrey;
+	color: lightgray;
 	text-decoration: none;
 	}
-
-
  .logo { 
 	justify-content: flex-end;
 } 
-
  .heading {
 	width: 100%;
 	display: flex;
 	align-items: center;
 }
-
 .leftbox a{
 	display: flex;
 	width: 30%;
@@ -126,8 +122,7 @@ h2 h3{
 	line-height: 1.15;
 	padding: 10px 10px 10px 0;
 }
- 
-.middle-img {
+ .middle-img {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -146,3 +141,9 @@ h2 h3{
 	text-align: center;
 	margin-bottom: 50px;
 }  
+/* 2nd pg starts here! */
+.services-header-img {
+	width: 800px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
