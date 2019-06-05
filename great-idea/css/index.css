@@ -61,36 +61,27 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+  
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */<!doctype html>
 
-<html lang="en">
-<head>
-  
-  <meta charset="utf-8">
 
-  <title>Great Idea!</title>
+  h1{
+    font-size: 48px;
 
-  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
-
-  <body>.container {
+}
+  .container {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
 }
 
 /* header */
+  header{
+  display: flex;
+}
 
 header nav {
-  display: flex;
-  flex-direction: row;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
@@ -116,15 +107,18 @@ header nav a:last-child {
 }
 
 header .logo {
-  margin-top: auto;
-  float: right;
+  margin-top: 25px;
+  
   
 }
 
 /* cta */
-
+.cta{
+  display: flex;
+  border: 2px solid red;
+  
+}
 .cta .cta-text {
-  display: inline-block;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
@@ -146,12 +140,12 @@ header .logo {
   background: black;
   color: white;
 }
-.cta{
-  display: flex;
-}
+
 
 
 .cta img {
+ display: flex;
+ margin-top: 69px;
  
 }
 
