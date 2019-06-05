@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 
 
   h1{
-    font-size: 48px;
+    font-size: 60px;
 
 }
   .container {
@@ -147,10 +147,7 @@ header .logo {
 
 
 .cta img {
- display: flex;
-justify-content: space-around;
-width: 25px;
-align-content: flex-end;
+
 }
 
 .main-content {
@@ -161,11 +158,13 @@ align-content: flex-end;
 
 .main-content .top-content {
   padding: 0 10px;
+  display: flex;
+
 }
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
+
   margin-right: 34px;
   
 }
@@ -181,11 +180,12 @@ align-content: flex-end;
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
+  display: flex;
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
+  
   margin-right: 12px;
 }
 
