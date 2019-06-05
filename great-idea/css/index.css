@@ -86,7 +86,7 @@ nav {
 	justify-content: space-evenly;
 	align-items: center;
 	margin-top: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 nav a {
@@ -109,6 +109,7 @@ nav a {
 h1 {
 	font-size: 72px;
 	width: 47%;
+	padding-right: 35px;
 	letter-spacing: 2.5px;
 }
 
@@ -120,7 +121,7 @@ h1 {
 
 .header img {
 	width: 47%;
-	margin-left: 30px;
+	margin-left: 40px;
 }
 
 /* button */
@@ -134,7 +135,7 @@ button {
 	font-family: 'Titillium Web';
 	padding: 10px 25px 35px 25px;
 	letter-spacing: 1px;
-	margin-left: 90px;
+	margin-left: 80px;
 }
 
 main {
