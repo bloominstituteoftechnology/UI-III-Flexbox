@@ -67,45 +67,121 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 950px;
-	margin: auto;
+	margin: 0 auto;
+}
+
+header {    
+    width: 95%;
+    border-bottom: 1px solid black;
 }
 
 header nav {
+    flex-direction: row;
     margin: 35px;
+    width: 70%;
 }
 
 .nav {
-	display: flex;
-	margin-top: 35px;
-	justify-content: space-between;
-	word-spacing: 30px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-.nav img.logo {
-	margin: 10px auto;
-	justify-content: flex-end;
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
-.header-services h1 {	
-	font: 48px;
+nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.logo {
+    width: 25%;
+    height: 40px;
+}
+
+ .header-services-img {
+     padding-bottom: 30px;
+     width: 90%;
+}
+
+h1 {	
+    font-size: 28px;
+    padding: 10px 0;
 }
 
 .header-services p {
-
- padding: 10px 0 20px 0;
- border-bottom: 1px solid black;
- flex-direction: row;
+ padding-bottom: 30px;
+width: 90%;
 }
 
 
-.top-middle {
-	display: flex; 
-	flex-direction: column;
-	padding: 10px 15px;
-	border-top: 1px solid black;
+.middle {
+    margin: auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+	padding: 20px;
 }
-	.digital-design {
-		padding: 20px 25px;
-		border: 1px solid black;
-	}
+
+.box-content{
+        padding: 20px 20px;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 48%;
+        height: 225px;
+        border: 1px solid black;
+        border-radius: 1px;
+        background-color: lightgray;
+    }
+
+button {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 12px;
+    margin-top: 15px;
+    width: 30%;
+    height: 30px;
+}
+
+.facts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 30px 0;
+    border-top: 2px solid black; 
+}
+
+.facts-container {
+    width: 48%;
+    padding: 20px;
+}
+
+.facts-container p {
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: square;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.services-info-img {
+    width: 48%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    }
