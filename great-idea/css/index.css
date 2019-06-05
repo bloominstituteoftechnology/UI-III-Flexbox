@@ -82,20 +82,22 @@ html {
 /* navigation clickables */
 nav {
 	display: flex;
-	align-items: center;
+	flex-flow: row nowrap;
+	align-items: space-evenly;
 }
 
 nav a {
 	color: lightgray;
 	font-size: 14px;
-	padding: 80px 30px 40px 40px;
+	/* padding: 90px 30px 30px 40px; */
 	text-decoration: none;
 }
 
 .logo {
-	justify-content: flex-end;
-	align-items: center; 
-	padding-left: 30px;
+	/* justify-content: flex-end; */
+	/* align-items: center;  */
+	/* padding: 90px 30px 30px 40px; */
+	/* padding-left: 30px; */
 }
 
 /* header */
