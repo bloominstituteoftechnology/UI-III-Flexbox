@@ -64,3 +64,228 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	max-width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+	
+  }
+  
+  /* header */
+  header {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+  }
+  	.nav {
+	
+	justify-content: flex-end;
+	
+	/* display: inline-block; */
+	width: 691px; 
+	
+	
+	
+  }
+  
+   .nav a {
+	margin-right: 35px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+.nav a:hover {
+	text-decoration: underline;
+  }
+  
+.nav a:first-child {
+	margin-left: 0;
+  }
+  
+ .nav a:last-child {
+	margin-right: 0;
+	
+  }
+  
+   .logo {
+	
+	
+	justify-content: flex-end;
+
+  }
+  
+  /* cta */
+  .cta {
+	  display: flex;
+	  align-content: center;
+
+
+  }
+  
+  .top-box1 {
+	/* display: inline-block; */
+	
+	display: flex;
+	 
+	align-items: center;
+	flex-flow: wrap;
+	font-size: 77px;
+	margin-top: 80px;
+	text-align: center;
+	padding: 0px 45px;
+	
+  }
+  
+    button {
+	border: 2px solid black;
+	font-size: 1.5rem;
+	padding: 0px 30px;
+	background-color: white;
+	margin: 0px 40px 10px 10px;
+	width: 300px;
+  }
+  
+  button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .top-row {
+	display: flex;
+
+  }
+  
+  .bottom-row{
+	  display: flex;
+  }
+  
+  .top-box2 {
+	/* display: inline-block; */
+	
+	margin-top: 69px;
+  }
+  
+  .main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
+  
+  .main-content .top-content {
+	padding: 0 10px;
+  }
+  
+  
+  
+  
+  
+  .middle-img {
+	margin-top: 45px;
+  }
+  
+  .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  
+  
+  
+  
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+	}
+	/* services.html */
+
+	.services {
+		
+		margin-top: 10px;
+		
+		border-bottom: 1px solid black;	
+		margin-bottom: 30px;
+		padding: 10px;
+		
+	}
+
+	.button-boxes{
+		display: flex;
+		align-content: flex-start;
+		flex-flow: wrap;
+		justify-content: space-evenly
+		
+		
+	}
+	
+	.design {
+		border: 1px solid black;
+		width: 300px;
+		padding: 10px;
+		text-align: left;
+	}
+	.ux {
+		border: 1px solid black;
+		width: 300px;
+		padding: 10px;
+	}
+
+	.digital{
+		border: 1px solid black;
+		width: 300px;
+		padding: 10px;
+	}
+
+	.web {
+		
+		border: 1px solid black;
+		width: 300px;
+		padding: 10px;
+		
+	}
+
+
+	.ios {
+		border: 1px solid black;
+		width: 300px;
+		padding: 10px;
+	}
+
+	.android {
+		border: 1px solid black;
+		width: 300px;
+		padding: 10px;
+		
+	}
+
+	button {
+		font-size: .5em;
+		margin: 6px;
+		width: 120px;
+		height: 30px;
+
+	}
+	h2 {
+		text-align: left;
+		margin-top: 10px;
+	}
+	.bottom-section {
+		padding-top: 10px;
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.facts {
+		text-align: left;
+	}
