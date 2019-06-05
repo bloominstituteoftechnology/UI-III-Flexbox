@@ -87,9 +87,10 @@ margin-right:90px;
 	background:white;
 	border:1px solid black;
 	font-size: 15px;
+
  }
  
- header {
+ .index-header {
 	 display:flex;
 	 font-size:70px;
 	 justify-content: space-around;
@@ -143,3 +144,21 @@ margin-right:90px;
 	 display:flex;
 	 flex-direction: column;
  }
+
+ /*services*/
+
+ .service-container{
+	 margin:180px;
+ }
+ .service-header{
+	 border-bottom:2px solid black;
+	 padding-bottom:50px;
+	 margin-bottom:50px;
+	 text-align:justify;
+	
+ }
+
+ .services-header-img{
+	 width:100%;
+ }
+
