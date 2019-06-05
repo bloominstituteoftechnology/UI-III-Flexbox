@@ -202,23 +202,76 @@ footer {
   font-size: 14px;
 }
 
+
+button {
+  background-color: white;
+  width: 100px;
+  margin-right: -20px;
+}
+
 .parent-container {
-	width: 900px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 33%;
+  margin: 5px auto;
+  margin-bottom: 15px;
+  background-color: white;
 }
 
 .parent-container .child-item {
-	width: 445px;
-	margin: 30px;
-	height: 100%;
-	border: 1px solid black;
-	background-color: white;
-	color: black;
+  width: 49%;
+  margin: auto;
+  margin-bottom: 30px;
+  
+  padding: 30px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
 }
 
-.parent-container .child-1 {
-	flex-shrink: 1;
+.child-1 {
+  background-color: white;
+  flex: 0 1 auto;
+  margin-right: 15px;
+  align-self: auto;
+}
+.child-2 {
+  background-color: white;
+  flex: 0 1 auto;
+  margin-left: 15px;
+  align-self: auto;
+}
+.child-3 {
+  background-color: white;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.child-4 {
+  background-color: white;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.child-5 {
+  background-color: white;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.child-6 {
+  background-color: white;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.container-2 {
+  width: 49%;
+  align: center;
+  display: inline-block;
+  margin: right;
+}
+.container-2 .last-container {
+  width: 49%;
+  align: left;
+  display: inline-block;
+  margin: 0;
 }
