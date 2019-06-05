@@ -86,6 +86,7 @@ nav {
 	justify-content: space-evenly;
 	align-items: center;
 	margin-top: 15px;
+	margin-bottom: 20px;
 }
 
 nav a {
@@ -110,16 +111,10 @@ h1 {
 	width: 47%;
 }
 
-.word1, .word2, .word3 {
-	letter-spacing: 3px;
-}
-
-.word2 {
-	padding-left: 90px;
-}
-
-.word3 {
-	padding-left: 30px;
+.header h1 {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
 }
 
 .header img {
@@ -138,7 +133,7 @@ button {
 	font-family: 'Titillium Web';
 	padding: 10px 25px 35px 25px;
 	letter-spacing: 1px;
-	margin-left: 50px;
+	margin-left: 90px;
 }
 
 main {
