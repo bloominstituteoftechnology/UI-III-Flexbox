@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	border: 1px solid red;
+	margin: 0px 200px;
+}
+
+.menu {
+	width: 875px;
+	display: inline-block;
+}
+
+a {
+	list-style-type: none;
+	margin: 40px;
+	color: gray;
+}
+
+.logo {
+	display: inline-block;
+}
+
+h1 { 
+	font-size: 100px;
+}
+
+button {
+	font-size: 12px;
+    padding: 6px 40px;
+    background: transparent;
+    border: 1px black solid;
+}
+
+.section1 {
+	border-bottom: 2px solid gray;
+    padding-bottom: 100px;
+}
+
+.section2 {
+	border-bottom: 2px solid gray;
+	margin-top: 20px;
+	padding-bottom: 50px;
+}
+
+.block1 {
+	display: inline-block;
+}
+
+.block2 {
+	display: inline-block;
+	width: 550px;
+	margin-top: 100px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.codesnippet {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.block3 {
+	border: 1px solid red;
+	display: inline-block;
+	width: 535px;
+	margin-bottom: 50px;
+}
+
+.block4 {
+	border: 1px solid red;
+	display: inline-block;
+	width: 535px;
+	margin-bottom: 50px;
+}
+
+.block5 {
+	border: 1px solid red;
+	display: inline-block;
+	width: 355px;
+	margin-top: 50px;
+}
+
+.block6 {
+	border: 1px solid red;
+	display: inline-block;
+	width: 355px;
+	margin-top: 50px;
+}
+
+.block7 {
+	border: 1px solid red;
+	display: inline-block;
+	width: 355px;
+	margin-top: 50px;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+.cp {
+	text-align: center;
+}
