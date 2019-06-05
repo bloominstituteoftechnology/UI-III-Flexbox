@@ -154,7 +154,7 @@ section .main-title .get-started{
 	width:45%; 
 }
 
-.services  {
+/* .services  {
 	width: 30%;
 }
 
@@ -164,6 +164,9 @@ section .main-title .get-started{
 .vision{
 	width: 30%;
 
+} */
+.second-section{
+	width: 33%
 }
 address nav a {
 	text-decoration: none;

@@ -130,6 +130,7 @@ section .section-info{
     flex-flow: row wrap;
     width: 100%;
     justify-content: space-between;
+    
 }
 
 .sec-info-card:nth-child(even){
