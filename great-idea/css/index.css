@@ -263,15 +263,19 @@ button {
   align-self: auto;
 }
 
-.container-2 {
+.container2 {
   width: 49%;
-  align: center;
   display: inline-block;
   margin: right;
 }
-.container-2 .last-container {
-  width: 49%;
-  align: left;
+.container2 .last-container {
+  width: 100%;
   display: inline-block;
-  margin: 0;
+  margin-left: 300px;
+}
+
+.container2 .last-container:last-child {
+  width: 100%;
+  display: inline-block;
+  margin-left: 300px;
 }
