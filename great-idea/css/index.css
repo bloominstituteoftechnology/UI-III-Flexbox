@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5 {
   /* header */
   header {
 	  display: flex;
+	 /* margin-bottom: 20px;*/
   }
   header nav {
 	
@@ -190,6 +191,15 @@ h1, h2, h3, h4, h5 {
   .contact p {
 	margin: 20px 0;
   }
+  .services-header-img {
+	  margin: 20px;
+  }
+  .top_content {
+		margin: 20px;
+  }
+  .top_content h1 {
+	  font-size: 25px;
+  }
   .middle_content {
 	  display: flex;
 	  flex-wrap: wrap;
@@ -199,22 +209,37 @@ h1, h2, h3, h4, h5 {
   .box {
 	  display: flex;
 	  flex-direction: column;
-	  background-color: lightgray;
-	  border: 2 solid black;
+	  background-color: cyan;
+	  border: 1px solid black;
 	  width: 45%;
-	  margin: 10px;
-	  padding: 10px;
+	  margin: 20px;
+	  padding: 20px;
   }
 
   .box button {
-	  width: 30%;
+	  width: 45%;
 	  padding: 10px;
+	  border-radius: 10px;
   }
   .bottom_content {
 	  display: flex;
 	  margin: 10px;
   }
-
+.bottom_content div {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+  .bottom_content ul {
+	  list-style-type: square;
+	  padding: 10px;
+  }
+  .bottom_content img {
+	  padding: 20px;
+  }
+  hr {
+	  margin: 20px;
+  }
   footer {
 	margin: 32px 0;
 	text-align: center;
