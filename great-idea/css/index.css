@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 950px;
+	margin: auto;
+}
+
+header {
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 38px;
+	padding-left: 8px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 655px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-top: 12px;
+}
+
+
+a {
+	color: black;
+	text-decoration: none;
+	}
+
+header nav a {
+	margin: 0 30px;
+	font-size: 14px;
+	color: #AAAAAA;
+	font-weight: bolder;
+}
+
+.logo {
+	height: 36px
+}
+
+
+.intro {
+	display: flex;
+	justify-content: space-between;	
+	margin: 60px 38px 76px 134px;
+}
+.intro-left {
+	flex-flow: column space-around;
+	padding-top: 60px;
+}
+
+.intro-right {
+	
+}
+
+.header-img {
+	display: block;
+	margin: auto;
+}
+
+hr {
+	background-color: black;
+	height: 2px;
+	width: 880px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.motto {
+	display: block;
+}
+
+button {
+	display: block;
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	padding: 7px 45px;
+	font-size: 16px;
+	margin: auto;
+	margin-top: 22px;
+}
+
+p {
+	line-height: 1.15;
+}
+
+.featuresAbout {
+	display: flex;
+	justify-content: space-between;
+	margin: 37px;
+}
+
+.block2 {
+	width: 427px;
+
+}
+
+.servicesEtc {
+	display: flex;
+	justify-content: space-between;
+	padding: 19px 34px 46px 38px;
+}
+.block3 {
+	width: 280px;
+}
+
+
+.middle-img {
+	display: block;
+	margin: 20px auto;
+}
+
+footer {
+	padding: 8px 25px;
+	line-height: 1.125;
+}
+
+address {
+	margin: 30px 0 0 15px;
+}
+.copyright {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 13px;
+}

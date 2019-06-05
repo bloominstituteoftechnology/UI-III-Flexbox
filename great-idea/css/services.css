@@ -1,0 +1,41 @@
+.services-header-img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.services-intro {
+    margin: 33px 33px 44px 35px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 35px 20px 35px;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #EEEEEE;
+    width: 420px;
+    margin-bottom: 20px;
+}
+
+.learnmore {
+    border-radius: 5px;
+    display: flex;
+    margin: 20px 0px 0px 0px;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+p {
+    margin-top: 10px;
+    line-height: 1.3;
+}
