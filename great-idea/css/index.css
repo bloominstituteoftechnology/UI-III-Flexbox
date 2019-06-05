@@ -64,3 +64,163 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+main {
+	width: 800px;
+	margin: auto;
+}
+
+header nav{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+header nav a {
+	margin-right: 55px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+}
+
+header nav a:hover{
+	text-decoration: underline;
+}
+
+header .logo{
+	margin-top: 25px;
+}
+
+.services-header-img{
+	width: 800px;
+	margin-bottom: 20px;	
+}
+
+h1 {
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.services p {
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: black;
+	margin-bottom: 30px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.design {
+	background: whitesmoke;
+	border: 1px solid black;
+	width: 375px;
+	font-size: 12px;
+	margin-bottom: 30px;
+
+}
+
+.ui {
+	background: whitesmoke;
+	border: 1px solid black;
+	width: 375px;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+.marketing {
+	background: whitesmoke;
+	border: 1px solid black;
+	width: 375px;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+.webdev {
+	background: whitesmoke;
+	border: 1px solid black;
+	width: 375px;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+.ios {
+	background: whitesmoke;
+	border: 1px solid black;
+	width: 375px;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+.android {
+	background: whitesmoke;
+	border: 1px solid black;
+	width: 375px;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+.container h3 {
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.container p {
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.container button {
+	font-size: 8px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+ .end {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.end .facts {
+	font-size: 15px;
+	width: 275px;
+	
+}
+
+.end .facts h4 {
+	font-size: 18px;
+}
+
+.end ul {
+	list-style: square;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	margin: 20px;
+
+}
+
+/* .services-info-img { */
+	/* float: right; */
+
+/* } */
