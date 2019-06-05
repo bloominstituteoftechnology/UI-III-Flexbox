@@ -74,6 +74,7 @@ header {
 	justify-content: flex-start;
 	align-items: baseline;
 	align-content: space-around;
+	padding: 6px 2px;
 }
 
 header nav {
@@ -112,6 +113,11 @@ header .logo {
 
 .services-header-img {
 	margin-bottom: 35px;
+}
+
+.product-header {
+	font-size: 16px;
+	font-weight: 6px;
 }
 
 .cta {
@@ -302,6 +308,37 @@ header .logo {
 }
 
 .service-info img {
+	margin-top: 40px;
+	max-height: 300px;
+	max-width: 420px;
+}
+
+.product-info {
+	border-top: 2px solid black;
+	margin-top: 20px;
+	display: flex;
+	align-content: baseline;
+}
+
+.product-info h4 {
+	margin-top: 40px;
+}
+
+.product-info p {
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	width: 400px;
+	height: 100px;
+	order: 1;
+}
+
+.product-info ul {
+	list-style-type: square;
+	line-height: 25px;
+	margin-left: 30px;
+}
+
+.product-info-img {
 	margin-top: 40px;
 	max-height: 300px;
 	max-width: 420px;
