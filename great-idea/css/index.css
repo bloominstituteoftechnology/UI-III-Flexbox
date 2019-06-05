@@ -84,7 +84,20 @@ nav :last-child{
 }
 header nav a{
 	text-decoration: none;
-	margin: 1em
+	margin: 1em;
+	text-decoration: none;
+	margin: 1em;
+	color:white;
+	padding: 10px 20px;
+	text-align: center;
+	transition: 0.1s;
+	border-radius: 20px; 
+
+}
+header nav  a:hover{
+	background: grey;
+	color: aliceblue;
+	transition: .8s;
 }
 
 header{
@@ -128,7 +141,7 @@ section .main-title .get-started{
 .main-section{
 	display: flex; 
 	flex-flow: row wrap;
-	justify-content: start;
+	justify-content: flex-end;
 
 }
 .main-section section{
@@ -151,4 +164,15 @@ section .main-title .get-started{
 .vision{
 	width: 30%;
 
+}
+address nav a {
+	text-decoration: none;
+	line-height: 1.6 ;
+	color: black;
+	font-weight: bold;
+}
+
+footer  h4{
+	text-align: center;
+	padding: 50px;
 }

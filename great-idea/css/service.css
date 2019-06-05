@@ -104,20 +104,9 @@ header nav  a:hover{
 	transition: .8s;
 }
 
-.container section{
+/* .container section{
     padding: 0px
-}
-/* .container section .sec-info-card{
-	display: flex;
-	margin: 0 auto;
-	justify-content: space-evenly;
-	align-items: center;
-	flex-flow: row wrap;
-	/* margin: 2em 0em 0em 0em; */
-	/* padding: 1em;	  */
-
-/* } */ 
-
+} */
  .container section .sec-info-card{
 justify-content: space-between;
 align-items: center;
@@ -131,8 +120,9 @@ line-height: 1.4;
 }
 
 .container .services-header-img{
-    width: 98%;
-    margin: 1.5em 0em;
+    width: 100%;
+    margin: 1em 0em 1.5em 0em;
+
 }
 
 section .section-info{
@@ -167,7 +157,7 @@ footer .footer-text{
 
 footer h4{
     margin: 0 auto;
-   padding: 50px 
+    padding: 50px 
 }
 footer .footer-text ul{
     display: list-item;
