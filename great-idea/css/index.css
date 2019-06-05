@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container{
-	 margin: 0 80px;
+	 margin: 30px  80px;
+	 
 }
 	 
 
@@ -161,6 +162,7 @@ margin-right:90px;
 
  .services-header-img{
 	 width:100%;
+	 margin:20px;
  }
 
 .services-main{
@@ -168,8 +170,8 @@ margin-right:90px;
 	 border-bottom: 3px solid black;
 	 padding-bottom:50px;
 	 margin-bottom:50px;
-flex-wrap: wrap;
-	 align-content: space-between;
+	flex-wrap: wrap;
+	 align-items: space-between;
 	 justify-content: space-between;
 	 width:100%;
 	 
@@ -178,13 +180,13 @@ flex-wrap: wrap;
 
 .all-boxes{
 	border: 1px solid black;
-background:lightgray;
+background:whitesmoke;
 padding:20px;
-margin:10px;
+margin:20px 0px 20px; 
 justify-content: flex-start;
 align-content: center;
 flex-wrap:wrap;
-width:400px;
+width:430px;
 
 
 }
@@ -194,6 +196,8 @@ width:400px;
 	display:flex;
 	text-align: justify;
 	justify-content: space-around;
+	margin:auto;
+	
 
 }
 
@@ -207,4 +211,14 @@ list-style-type: square;
 
 .section-footer{
 	text-align:center;
+}
+.button-services{
+border-radius: 8px;	
+padding:2px 30px;
+	background:white;
+	border:1px solid black;
+	font-size: 15px;
+}
+.services-h1{
+	font-size:25px;
 }
