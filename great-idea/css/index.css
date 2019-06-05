@@ -127,7 +127,8 @@ header img {
 #onDemand {
 	font-size: 72px;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 }
 
 #startBtn {
@@ -156,7 +157,7 @@ header img {
 	max-width: 28%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-bottom: 15px;
 }
 
