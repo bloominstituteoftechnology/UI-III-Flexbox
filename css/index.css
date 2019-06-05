@@ -66,10 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
 	margin: auto;
-	width: 45%;
+	width: 50%;
 }
 nav{
-	padding:10px;
 	margin-bottom: 15px;	
 	height:50px;
 	border-radius: 25px;
@@ -89,14 +88,13 @@ nav a{
 	width: 50px;
 }
 .About{
-	width:49%;
-	display:inline-block;
+	width:48%;
 	margin-bottom:15px;
 }
 .features{
-	width:49%;
-	display:inline-block;
+	width:48%;
 	margin-bottom:15px;
+	margin-right:4%;
 }
 .hrClass{
 	border-top: 1px solid black;
@@ -130,6 +128,7 @@ h1{
 }
 .width33 {
 	width: 33%;
+	margin-right:15px;
 }
 .textMarginTopBot{
 	display:flex;
@@ -170,7 +169,6 @@ p{
 .servicesContentBox{
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: center;
 	margin: 25px 0px 25px 0px;
 	width: 100%;
 }
@@ -180,9 +178,9 @@ p{
 .boxContent{
 	background: #F2F2F2;
 	border: black solid 1px;
-	margin: 12px;
-	height: 210px;
-	width: 400px;
+	height: 225px;
+	justify-content:space-between;
+	width: 49%;
 	padding: 10px;
 }
 .boxButton{
@@ -190,7 +188,7 @@ p{
 	border: black solid 1px;
 	font-size: 12px;
 	padding: 7px 25px 7px 25px;
-	margin-top: 20px;
+	margin: 25px 0px 15px 0px;
 	border-radius: 5px;
 }
 .bottomBoxContainer{
@@ -204,4 +202,8 @@ p{
 .entireList{
 	margin-top: 25px;
 	margin-left: 20px;
+}
+.marginRight{
+	margin-bottom:15px;
+	margin-right:14px;
 }
