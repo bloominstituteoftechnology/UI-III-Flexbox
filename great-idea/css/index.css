@@ -216,43 +216,57 @@ h1, h2, h3, h4, h5 {
 		
 		border-bottom: 1px solid black;	
 		margin-bottom: 30px;
+		padding: 10px;
+		
 	}
 
 	.button-boxes{
 		display: flex;
 		align-content: flex-start;
 		flex-flow: wrap;
+		justify-content: space-evenly
+		
+		
 	}
 	
 	.design {
 		border: 1px solid black;
-		width: 400px;
+		width: 300px;
+		padding: 10px;
+		text-align: left;
 	}
 	.ux {
 		border: 1px solid black;
-		width: 400px;
+		width: 300px;
+		padding: 10px;
 	}
 
 	.digital{
 		border: 1px solid black;
-		width: 400px;
+		width: 300px;
+		padding: 10px;
 	}
 
-	.web{
+	.web {
 		
 		border: 1px solid black;
-		width: 400px;
+		width: 300px;
+		padding: 10px;
+		
 	}
 
 
 	.ios {
 		border: 1px solid black;
-		width: 400px;
+		width: 300px;
+		padding: 10px;
 	}
 
 	.android {
 		border: 1px solid black;
-		width: 400px;
+		width: 300px;
+		padding: 10px;
+		
 	}
 
 	button {
@@ -263,12 +277,15 @@ h1, h2, h3, h4, h5 {
 
 	}
 	h2 {
-		margin: 10px;
+		text-align: left;
+		margin-top: 10px;
 	}
-	footer{
+	.bottom-section {
+		padding-top: 10px;
 		display: flex;
+		flex-direction: row;
 	}
 	
-	.facts{
+	.facts {
 		text-align: left;
 	}
