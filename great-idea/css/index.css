@@ -65,13 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.body-area{
+/* .body-area{
 	isplay: flex;
 	max-width: auto;
 	margin: 0 auto;
-}
+} */
 /* Nagigation */
-.navigation{
+/* .navigation{
 display: block;
 margin-right: 50rem;
 text-align: center;
@@ -83,25 +83,25 @@ padding-top: 6px;
 	padding: 40px;
 	margin-left: 1rem;
 	text-decoration: none;
-}
+} */
 
 /* Logo section */
-
+/*
 .logo{
 	padding-left: 90rem;
 	margin-top: -20px;
-}
+} */
 
 /* code-snippet */
 
-.code-snippet{
+/* .code-snippet{
 	margin-left: 65rem;
 	margin-top: 4px;
 	padding: 0;
-}
+} */
 
 /* header */
-.header-section {
+/* .header-section {
 	position: absolute;
 	width: 50rem;
 	display: block;
@@ -126,10 +126,10 @@ hr{
 		margin-top: 10rem;
 		padding: 0;
 		margin-left: 80px;
-}
+} */
 
 /* content */
-.big-section{
+/* .big-section{
 	display: flex;
 }
 
@@ -153,20 +153,19 @@ hr{
 	width: 100rem;
 	height: 15rem;
 	padding: 10px;
-}
+} */
 
-/* last-section */
+/* last-section
 .third-section{
 	position: absolute;
 	display: inline-block;
 	max-width: 500px;
 	margin-left: 1135px;
-	/* margin-top: -700px; */
 	padding: 20px;
 	margin-top: -10px;
-}
+} */
 
-.forth-section{
+/* .forth-section{
 	position: absolute;
 	display: inline-block;
 	max-width: 500px;
@@ -181,19 +180,19 @@ hr{
 	margin-left: 70px;
 	margin-top: 1rem;
 	padding: 5px;
-}
+} */
 
-.contact{
+/* .contact{
 	max-width: 500px;
 	margin-left: 60px;
 	display: inline-block;
 	margin-top: 100px;
-}
+} */
 
 /* footer */
 
-.foot{
+/* .foot{
 	margin-left: 50rem;
-}
+} */
 
 /* services.html */
