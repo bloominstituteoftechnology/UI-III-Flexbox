@@ -75,7 +75,7 @@ nav{
 	text-align: center;
 	z-index: 1;
 }
-nav a{
+.navLinks{
 	margin-right: 40px;
 	font-size: 14px;
 	color: lightgrey;
