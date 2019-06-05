@@ -70,10 +70,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar {
-	margin: 25px;
+	margin: 25px 0px 25px 0px;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -95,6 +95,11 @@ h1 {
 	justify-content: space-around;
 }
 
+.header-column {
+	display: flex;
+	flex-flow: column;
+}
+
 
 .title {
 	display: flex;
@@ -103,6 +108,18 @@ h1 {
 	
 }
 
+.main-content{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+
+
+}
+
+.header-content{
+	margin: 30px 0px 15px 0px;
+}
 
 button {
 	align-self: center;	
@@ -112,22 +129,57 @@ button {
 
 }
 
+.svc-btn {
+	height: 28px;
+	width: 120px;
+	border-radius: 8px;
+}
+
+section {
+	margin: 15px 0px 15px 0px;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.digital-design, .ux, .digital-marketing, .web-dev, .ios-dev, .android-dev{
+	height: 220px;
+	width: 440px;
+	padding: 20px;
+	background-color: #f2f2f2;
+	margin: 10px 0px 10px 0px;
+
+	border: 1px solid black;
+}
 
 .block1{
 	display: flex;
 }
 
-section {
-	margin: 15px;
-}
-
-
 .block2 {
 	display: flex;
 }
 
+.bottom {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.bottom-content{
+	height: 200px;
+	width: 400px;
+	padding: 10px;
+}
+
+.services-info-img {
+	align-items: center;
+
+}
+
+}
 footer {
-	margin: 15px;
+	margin: 5px;
 }
 
 address {
@@ -136,10 +188,23 @@ address {
 
 p {
 	margin: 0px 0px 10px 0px;
+	padding: 10pz;
+}
+
+li{
+	list-style-position: inside;
+	list-style-type: disc;
 }
 
 .copyright {
 	text-align: center;
 }
 
+
+/*@media screen and (max-width: 600px) {
+  div.example {
+    display: flex;
+    flex-direction: column;
+  }
+}*/
 
