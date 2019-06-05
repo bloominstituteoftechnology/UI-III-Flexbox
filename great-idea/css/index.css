@@ -210,9 +210,66 @@ footer {
 }
 /*new line of code*/
 
-.container{
-
-}
-.header{
+.contain{
   display: flex;
-}
+  }
+  .bb a{
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+  }
+  .flex-container{
+    display: flex;
+    width: 50%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .digitaldesign{
+    
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    height: 40%;
+
+    
+    
+    
+  }
+  .uxui{
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    height:20%;
+    
+  }
+  .digitalmarketing{
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    height: 20%;
+  }
+  .webdevolpment{
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    height: 40%;
+  }
+  .ios{
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    height: 40%;
+  }
+  .andriod{
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    height: 40%;
+  }
