@@ -63,4 +63,299 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 880px;
+	margin-left: 200px;
+}
+
+header {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: space-around;
+	padding: 6px 2px;
+}
+
+header nav {
+	margin: 20px 10px 20px 8px;
+	vertical-align: top;
+	padding: 1px;
+}
+
+header nav a {
+	margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+header nav a:first-child {
+	margin-left: 0;
+}
+  
+header nav a:last-child {
+	margin-right: 0;
+}
+
+header .logo {
+	margin-top: 25px;
+	margin-left: 65px;
+}
+
+.services-header a{
+	font-weight: bold;
+}
+
+.services-header-img {
+	margin-bottom: 35px;
+}
+
+.product-header {
+	font-size: 16px;
+	font-weight: 6px;
+}
+
+.cta {
+	display: flex;
+	flex-flow: row wrap;
+	vertical-align: top;
+	align-content: space-between;
+}
+
+
+.cta .txt-left {
+	font-family: 'Bangers', cursive;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 75px;
+}
+
+.cta .txt-left .start-button {
+	align-self: center;
+	background: white;
+  	vertical-align: top;
+	  margin-top: 0px;
+	  margin-left: 40px;
+  	padding: 8px 44px;
+  	font-size: 17px;
+  	border: 1px solid black;
+	  cursor: pointer;
+	  width: 200px;
+}
+
+.cta .txt-left .start-button:hover {
+	background: black;
+	color: white;
+  }
+
+.cta img {
+	display: flex;
+	margin-top: 69px;
+}
+
+.mission-statement h1 {
+	font-size: 25px;
+}
+
+
+.main-content {
+	border-top: 1px solid black;
+	margin: 40px 10px 10px 10px;
+	padding-top: 39px;
+}
+
+.main-content .top-content {
+	padding: 0 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.main-content .top-content .text-content {
+	width: 410px;
+	align-self: baseline;
+	margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+	margin-right: 0;
+}
+
+.main-content .main-services {
+	margin-bottom: 30px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.main-content .container1 {
+	background-color: #F5F5F5;
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.main-content .container2 {
+	background-color: #F5F5F5;
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.main-content .container3 {
+	background-color: #F5F5F5;
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.main-content .container4 {
+	background-color: #F5F5F5;
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.main-content .container5 {
+	background-color: #F5F5F5;
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.main-content .container6 {
+	background-color: #F5F5F5;
+	margin: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	padding: 30px 20px;
+	height: 250px;
+	width: 400px;
+}
+
+.lm-button {
+	border: 1px solid black;
+	border-radius: 25px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	background-color: white;
+}
+
+.main-content .middle-img {
+	margin-top: 37px;
+	padding: 0 10px;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.main-content .bottom-content .text-content {
+	width: 275px;
+	align-self: baseline;
+	margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+}
+
+.service-info {
+	border-top: 2px solid black;
+	margin-top: 20px;
+	display: flex;
+	align-content: baseline;
+}
+
+.service-info h4 {
+	margin-top: 40px;
+}
+
+.service-info p {
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	width: 400px;
+	height: 100px;
+	order: 1;
+}
+
+.service-info ul {
+	list-style-type: square;
+	line-height: 25px;
+	margin-left: 30px;
+}
+
+.service-info img {
+	margin-top: 40px;
+	max-height: 300px;
+	max-width: 420px;
+}
+
+.product-info {
+	border-top: 2px solid black;
+	margin-top: 20px;
+	display: flex;
+	align-content: baseline;
+}
+
+.product-info h4 {
+	margin-top: 40px;
+}
+
+.product-info p {
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	width: 400px;
+	height: 100px;
+	order: 1;
+}
+
+.product-info ul {
+	list-style-type: square;
+	line-height: 25px;
+	margin-left: 30px;
+}
+
+.product-info-img {
+	margin-top: 40px;
+	max-height: 300px;
+	max-width: 420px;
+}
+
+.contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer {
+	text-align: center;
+	margin: 32px 0;
+	font-size: 14px;
+}
