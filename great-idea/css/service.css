@@ -131,6 +131,19 @@ section .section-info{
 
 }
 .sec-info-card:nth-child(odd){
-    /* color: red;/ */
+    /* color: red;/ */      
     margin: 2em 1px 2em 0em;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+footer .footer-text{
+    width:45% 
+}
+
+footer h4{
+    margin: 0 auto;
 }
