@@ -163,6 +163,11 @@ header .logo {
 	font-size: 25px;
 }
 
+.product-statement h1 {
+	color: rgb(63, 25, 25);
+	font-size: 25px;
+	text-decoration: underline solid black;
+}
 
 .main-content {
 	border-top: 1px solid black;
