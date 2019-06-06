@@ -288,6 +288,13 @@ img.resize {
 	background-color: white;
 }
 
+.main-product {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
 .main-content .middle-img {
 	margin-top: 37px;
 	padding: 0 10px;
