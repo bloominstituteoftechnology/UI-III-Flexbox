@@ -169,3 +169,21 @@ footer  h4{
 	text-align: center;
 	padding: 50px;
 }
+
+@media only screen and (max-width: 750px){
+	body{
+		background: orange;
+	}
+	body .container header nav{
+		background: orange;
+		color: red;
+	}
+
+}
+
+/* @media only screen and (min-width: 600px) {
+	body {
+	  background-color: lightblue;
+	  
+	}
+  } */
