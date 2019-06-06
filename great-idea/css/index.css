@@ -63,4 +63,257 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+@keyframes navHover {
+	from {background-color: #AAFFFF;}
+	to {background-color: #33DDDD;}
+}
+
+
+header {
+	padding: 20px 0;
+	width: 100%;
+	background: #AAFFFF;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.page-top, footer {
+	width: 876px;
+	margin: auto;
+}
+
+.page-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a:first-child {
+	margin-left: -30px;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 26px 30px;
+}
+
+nav a:hover {
+	color: white;
+	animation-name: navHover;
+	animation-duration: 0.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+.logo {
+	display: inline;
+	vertical-align: -10px;
+	margin-left: 30px;
+}
+
+/* ***SPECIFIC index.html STYLING*** */
+main {
+	width: 876px;
+	margin: auto;
+}
+
+.content-top {
+	margin-top: 116px;
+	margin-bottom: 40px;
+	display: flex;
+}
+
+.slogan-div {
+	width: 490px;
+	height: 379px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+hgroup h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 90%;
+	font-size: 80px;
+	text-align: center;
+}
+
+#get-started {
+	padding: 8px;
+	width: 180px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	border: 2px solid darkgray;
+}
+
+.content-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.content {
+	margin: 0 5px;
+}
+
+.middle-img {
+	margin-bottom: 40px;
+}
+
+/* ***SPECIFIC services.html STYLING*** */
+.summary {
+	margin-top: 40px;
+	width: 880px;
+}
+
+.summary h1 {
+	font-size: 25px;
+}
+
+hr {
+	margin: 40px 0;
+	width: 880px;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 880px;
+}
+
+@media screen and (max-width: 920px) {
+	.services {
+		width: 440px;
+	}
+}
+
+.service {
+	flex-shrink: 0;
+	margin-bottom: 30px;
+	border: 1px solid black;
+	padding: 20px;
+	background-color: #F4F3F4;
+	width: 425px;
+}
+
+.service a {
+	display: block;
+	margin-top: 15px;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 10px;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	width: 150px;
+	text-align: center;
+}
+
+.content-bottom {
+	display: flex;
+	justify-content: space-between;
+	width: 880px;
+}
+
+.facts  {
+	margin-right: 50px;
+}
+
+.thing-list {
+	margin-top: 25px;
+}
+
+.thing-list li {
+	line-height: 1.8;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.services-info-img {
+	flex-shrink: 0;
+}
+
+/* ***SPECIFIC products.html STYLING*** */
+
+.products-summary {
+	margin-top: 30px;
+}
+
+.products-summary h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+.product-desc {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	width: 100%;
+}
+
+.product-desc h2 {
+	font-size: 30px;
+	align-self: start;
+}
+
+.product-options {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+	border: 1px dashed black;
+	background-color: #EEE7FF;
+}
+
+.product-option {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	margin: 40px 0;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 25px;
+	background-color: white;
+	width: 45%;
+}
+
+.product-option a {
+	display: block;
+	margin-top: 25px;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 10px;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	width: 150px;
+	text-align: center;
+}
+
+/* ***GENERIC STYLINGS*** */
+.container {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	margin-top: 76px;
+}
+
+p {
+	line-height: 133%;
+}
+
+small {
+	display: block;
+	margin-top: 90px;
+	margin-bottom: 50px;
+	text-align: center;
+}
