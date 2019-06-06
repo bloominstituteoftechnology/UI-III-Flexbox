@@ -49,3 +49,8 @@ would be the css style that works through the entire site but page.css contain o
 .right-footer {
 	Width: 400px;
 }
+
+.vision-header{
+display: flex;
+flex-flow: column;
+}
