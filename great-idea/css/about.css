@@ -104,3 +104,20 @@ header nav a{
 	border-radius: 5px;
 }
 
+
+.main section{
+	display: flex;
+	justify-content: space-between
+}
+
+section .main-section img{
+	width: 42em;
+	height: 15em;
+	margin: 5px 0px 5px 0px;
+}
+.main aside{
+	width:30%;
+}
+section .main-section h2{
+	line-height: 10px;
+}
