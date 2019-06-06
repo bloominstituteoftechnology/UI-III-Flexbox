@@ -234,17 +234,20 @@ h1, h2, h3, h4, h5 {
 		width: 300px;
 		padding: 10px;
 		text-align: left;
+		background:#EDEDED;
 	}
 	.ux {
 		border: 1px solid black;
 		width: 300px;
 		padding: 10px;
+		background:#EDEDED;
 	}
 
 	.digital{
 		border: 1px solid black;
 		width: 300px;
 		padding: 10px;
+		background:#EDEDED;
 	}
 
 	.web {
@@ -252,7 +255,8 @@ h1, h2, h3, h4, h5 {
 		border: 1px solid black;
 		width: 300px;
 		padding: 10px;
-		
+		background: #EDEDED;
+		background:#EDEDED;
 	}
 
 
@@ -260,12 +264,14 @@ h1, h2, h3, h4, h5 {
 		border: 1px solid black;
 		width: 300px;
 		padding: 10px;
+		background:#EDEDED;
 	}
 
 	.android {
 		border: 1px solid black;
 		width: 300px;
 		padding: 10px;
+		background:#EDEDED;
 		
 	}
 
