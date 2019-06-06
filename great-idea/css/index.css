@@ -293,6 +293,7 @@ img.resize {
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
+	background-image: linear-gradient( #449DD1, #005CB9);
 }
 
 .main-content .middle-img {
