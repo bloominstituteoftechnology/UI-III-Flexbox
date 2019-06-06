@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
 }
 blockquote, q {
 	quotes: none;
@@ -58,9 +58,110 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 20px;
+}
+
+section, .fullRow{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+p {
+	margin-bottom: 30px;
+}
+
+.container{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.menuList, .topBar, .catSection, .leftCat, .fullRow, .halfBox{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.topBar, .catSection, .fullRow{
+	justify-content: space-evenly;
+}
+
+.leftCat{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center
+}
+
+.menuList{
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.logo{
+	margin: 20px;	
+}
+
+.cat{
+	border: 1px solid black;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+}
+
+.halfBox{
+	width: 45%;
+}
+
+.oneThirdBox{
+	width: 30%;
+}
+
+.addressBox{
+	margin: 20px;
+}
+
+.addressBox p{
+	color: gray;
+}
+
+.withBorder{
+	border-top: 1px solid gray; 
+}
+
+.contentBox{
+	border: 1px solid gray;
+	padding: 10px;
+	background-color: #eee;
+}
+
+.txtLeft{
+	justify-content: flex-start;
+}
+
+.rounded{
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
