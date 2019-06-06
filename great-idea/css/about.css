@@ -70,6 +70,7 @@ header{
 	position: fixed;
 	top: 0px;
 	padding: 15px;
+	background: white;
 }
 header nav{
 	display: flex;
@@ -105,19 +106,45 @@ header nav a{
 }
 
 
-.main section{
+.main {
 	display: flex;
 	justify-content: space-between
 }
-
+ section .main-section{
+	width: 42em;
+}
 section .main-section img{
 	width: 42em;
 	height: 15em;
 	margin: 5px 0px 5px 0px;
 }
 .main aside{
-	width:30%;
+	width:20%;
 }
 section .main-section h2{
-	line-height: 10px;
+	line-height: 60px;
 }
+/* .main aside ul{
+	list-style-image: url("./../img/ul.png");
+	width: 5px;
+	height: 5px;
+} */
+aside ul li{
+	background-image: url("./../img/ul.png");
+	background-position: left center;
+	background-size:20px; 
+	background-repeat:no-repeat ;
+	padding :0px 20px 0px 20px;
+}
+
+footer{
+	bottom: 0px;
+	position: fixed;
+	width: 100%;
+	border-top: 2px black solid;
+	height: 50px;
+	text-align: center;
+	padding: 20px;
+	background: white;
+}
+
