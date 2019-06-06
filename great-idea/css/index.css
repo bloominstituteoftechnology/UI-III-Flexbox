@@ -64,3 +64,169 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 876px;
+	margin: auto;
+
+}
+/*header elements styling*/
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	align-items: center;
+	background-color: rgba(0,0,0,0.9);
+	border: 3px solid green;
+}
+
+header nav a {
+	margin: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	border: 1px solid white;
+	padding: 5px;
+}
+
+header nav a:hover {
+	background-color: green;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+.logo {
+	margin-left: 100px;
+	background-color: white;
+}
+
+.cta-text {
+	display: inline-block;
+	font-size: 70px;
+	text-align: center;
+	height: 300px; 
+	width: 400px;
+	margin-bottom: 50px;
+}
+
+.cta {
+	border-bottom: 2px solid black;
+	margin-top: 50px;
+}
+
+
+.cta-image {
+	display: inline-block;
+	margin-left: 90px;
+	margin-top: 100px;
+	}
+
+.cta-text button {
+	background-color: white;
+	height: 30px;
+	width: 170px;
+	margin-left: 120px;
+	display: block;
+	border: 1px solid black;
+
+}
+
+.cta-text button:hover {
+	background-color: green;
+	border: 3px solid black;
+	height: 40px;
+	width: 190px;
+}
+
+	/*end of header elements styling*/
+
+	/*main content styling*/
+
+.main-content {
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	width: 950px;
+
+}
+
+
+.content {
+	width: 270px;
+	flex-grow: 1;
+	padding: 5px;
+}
+
+.middle-img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*end of main content styling*/
+
+.footer {
+	padding: 40px;
+	margin-left: 300px;
+}
+
+.copyright {
+	text-align: center;
+	padding: 40px;
+	margin-right: 200px;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-evenly;
+	height: 970px;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	margin-top: 15px;
+}
+
+.flex-content {
+	background-color: grey;
+	width: 400px;
+	height: 230px;
+	padding: 10px;
+}
+
+.flex-container button {
+	background-color: white;
+	height: 30px;
+	width: 170px;
+	margin-top: 55px;
+	display: block;
+	border: 1px solid black;
+
+}
+
+
+.flex-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 45px 0;
+}
+
+.flex-bottom-content{
+	width: 500px;
+}
+
+
+.footer{
+	padding-top: 40px;
+}
+
+.copyright {
+	padding-top: 40px;
+	text-align: center;
+}
+
+li {
+	list-style-type: square;
+	margin: 20px;
+}
