@@ -152,7 +152,9 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body {
-  line-height: 1.4em;
+  line-height: 1.8em;
+  background: #bfbfbf;
+ font-family: 'Exo 2', sans-serif;
 }
 
 #container {
@@ -165,17 +167,32 @@ header {
 }
 
 nav {
- padding: 30px;
+  margin: 8px;
+  padding-top: 20px;
+ padding-bottom: 40px;
+  word-spacing: 10px;
 }
 
 nav a {
-  color: gray;
+  padding: 17px;
+  color: #f5f5f0;
   text-decoration: none;
-  padding: 20px;
+  background:   #600080;
+  border-radius: 30px;
+  font-size: 17px;
+     -moz-box-shadow:    inset 0 0 30px #260033;
+   -webkit-box-shadow: inset 0 0 30px #260033;
+   box-shadow:         inset 0 0 30px #260033;
+  text-shadow: 1px 2px #000000;
 }
 
 nav a:hover {
-  color: pink;
+  color: #e0e0d1;
+  background: #000000;
+}
+
+.logo-nav {
+  background: none;
 }
 
 .services-header-img {
@@ -247,3 +264,92 @@ footer {
   text-align: center;
   padding: 60px;
 }
+
+/* Stretch Work */
+
+.products-intro {
+margin: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+  align-items: flex-start;
+padding-top: 25px;
+padding-bottom: 25px;
+ background: #260033;
+     -moz-box-shadow:  inset 0 0 10px #d966ff;
+   -webkit-box-shadow: inset 0 0 10px #d966ff;
+   box-shadow:         inset 0 0 10px #d966ff;
+  font-family: 'Arimo', sans-serif;
+}
+
+.products-item {
+  width: 370px;
+  color: #d6d6c2;
+  padding: 10px;
+}
+.product-image {
+  width: 460px;
+  height: 220px;
+  border: 5px solid white;
+}
+
+.img-caption-product {
+  padding: 3px;
+  color: #ccccb3;
+  text-align: center;
+  border-radius: 30px;
+  font-family: 'Arimo', sans-serif;
+  font-size: 13px;
+}
+
+.product-information {
+  margin: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding-top: 25px;
+padding-bottom: 25px;
+  background: black;
+}
+
+.info-box {
+  width: 280px;
+  background: #d6d6c2;
+  padding: 30px;
+}
+
+.purple {
+  background: #600080;
+}
+
+.green {
+  background: #70db70;
+}
+
+.orange {
+  background: #ff8000;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.learn-more {
+  padding: 20px;
+  width: 150px;
+  background: black;
+  color: white;
+  margin: auto;
+}
+
+footer {
+  font-size: 15px;
+}
+
+footer a {
+  color: #862d86;
+  text-decoration: none;
+}
+
