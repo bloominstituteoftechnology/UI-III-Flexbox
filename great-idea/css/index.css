@@ -171,19 +171,34 @@ footer  h4{
 }
 
 @media only screen and (max-width: 750px){
-	body{
-		background: orange;
+	.container{
+		width: 750px;
 	}
-	body .container header nav{
-		background: orange;
-		color: red;
+ 	 header{
+		position: fixed;
+		top: 0px;
+		margin-bottom: 5px;
+	}
+	.container header nav{
+		width: 750px;
+		margin-bottom: 25px;
+		justify-content: center;
+	}
+	header nav img{
+		margin: 0px auto;
+		align-items: flex-end
 	}
 
+	.container .main-section-header{
+		display: flex;
+		flex-flow: row wrap;
+		margin: 10em 0em 0em 0em;
+	}
+	.main-section-header .main-title{
+		width: 49%
+	}
+	.container section .header-image{
+		width: 49%;
+	}
 }
 
-/* @media only screen and (min-width: 600px) {
-	body {
-	  background-color: lightblue;
-	  
-	}
-  } */
