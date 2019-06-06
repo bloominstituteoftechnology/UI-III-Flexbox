@@ -92,8 +92,15 @@ header nav a{
 .container{
 	width: 61.25em;
 	margin: 0 auto;
-	border: 2px black solid;
 	height: 750px;
-	background: red;
 	margin-top: 75px; 
 }
+.about-us h1{
+	margin: 0px;
+	font-size: 30px; 
+}
+.about-us hr{
+	border: 10px dotted grey;
+	border-radius: 5px;
+}
+
