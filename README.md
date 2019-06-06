@@ -33,3 +33,5 @@ Once you have finished the home page using flex box module, go build the service
 
 * [ ] Create another page based on one of the navigation items in addition to services.  Try to create a layout that follows the patterns of the first two designs but with your own creative twist.  Use lorem ipsum text for all your content.
 * [ ] Introduce media queries into your services page to create a mobile view that stacks all the boxes on top of each other on phone but looks like the layout file on desktop.
+
+KRAIG WILLIAMS
