@@ -120,6 +120,13 @@ header .logo {
 	font-weight: 6px;
 }
 
+img.resize {
+	width: 100%;
+	height: 50%;
+	padding: 20px 0px;
+}
+
+
 .cta {
 	display: flex;
 	flex-flow: row wrap;
@@ -163,10 +170,25 @@ header .logo {
 	font-size: 25px;
 }
 
+.product-statement {
+	border: 1px solid black;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px;
+	box-shadow: 10px 10px 5px;
+}
+
 .product-statement h1 {
-	color: rgb(63, 25, 25);
-	font-size: 25px;
+	color: #005CB9;
+	font-size: 40px;
 	text-decoration: underline solid black;
+	text-align: center;
+}
+
+.product-statement p {
+	margin: 40px 20px 40px 20px;
+	text-align: justify;
+	font-weight: 3px;
+	text-shadow: 2px;
 }
 
 .main-content {
