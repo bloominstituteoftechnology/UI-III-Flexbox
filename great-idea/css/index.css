@@ -64,3 +64,316 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 1050px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+
+  
+  header nav {
+	display: inline-block;
+  width: 850px;
+  vertical-align: top;
+  margin-top: 50px;
+ 
+  
+  }
+  
+  header nav a {
+	margin-right:70px; 
+	font-size: 20px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	margin-top: 43px;
+  }
+
+.services img{
+	width: 1050px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+  
+.services-content h4{
+font-size: 30px;
+}
+  
+.services-content p{
+font-size: 20px;
+margin-bottom: 30px;
+}
+	
+.services-content hr {
+width: 1050px;
+height: 1px;
+color: black;
+background: black;
+margin-bottom: 30px;
+}
+  
+.main-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.digital-design h5{
+font-size: 20px;
+}
+
+.digital-design p1{
+	font-size: 15px;
+	display: flex;
+	justify-content: space-around
+}
+
+.digital-design p2{
+	font-size: 5px;
+	height: 30px;
+	width: 100px;
+	margin: 30px;
+	border: 1px solid black;
+	background: white;
+	color: black;
+}
+
+.digital-design{
+	height: 300px;
+	width: 450px;
+	margin: 30px;
+	border: 1px solid black;
+	background:lightgrey;
+	color: black;
+}
+
+.digital-design2{
+margin: 30px;
+}
+
+.digital-design3 {
+	margin-bottom: 30px;
+}
+
+.UX h6{
+font-size: 20px;
+}
+
+.UX3 {
+	margin-bottom: 30px;
+}
+
+.UX p1{
+	font-size: 15px;
+}
+
+.UX p2{
+	font-size: 5px;
+	height: 30px;
+	width: 100px;
+	margin: 30px;
+	border: 1px solid black;
+	background: white;
+	color: black;
+}
+
+
+.UX{
+	height: 300px;
+	width: 450px;
+	margin: 30px;
+	border: 1px solid black;
+	background:lightgrey;
+	color: black;
+}
+
+.UX2{
+	margin: 30px;
+}
+
+.digital-marketing h7{
+	font-size: 20px;
+}
+.digital-marketing p1{
+	font-size: 15px;
+}
+.digital-marketing p2{
+	font-size: 5px;
+	height: 30px;
+	width: 100px;
+	margin: 30px;
+	border: 1px solid black;
+	background: white;
+	color: black;
+}
+.digital-marketing{
+	height: 300px;
+	width: 450px;
+	margin: 30px;
+	border: 1px solid black;
+	background:lightgrey;
+	color: black;
+}
+.digital-marketing2{
+margin: 30px;
+}
+.digital-marketing3{
+	margin-bottom: 30px;
+}
+
+.web-development h8{
+	font-size: 20px;
+	}
+	
+	.web-development3 {
+		margin-bottom: 30px;
+	}
+	
+	.web-development p1{
+		font-size: 15px;
+	}
+	
+	.web-development p2{
+		font-size: 5px;
+		height: 30px;
+		width: 100px;
+		margin: 30px;
+		border: 1px solid black;
+		background: white;
+		color: black;
+	}
+	
+	
+	.web-development{
+		height: 300px;
+		width: 450px;
+		margin: 30px;
+		border: 1px solid black;
+		background:lightgrey;
+		color: black;
+	}
+	
+	.web-development2{
+		margin: 30px;
+	}
+
+
+.ios-development h9{
+	font-size: 20px;
+		}
+		
+	
+		
+		.ios-development p1{
+			font-size: 15px;
+		}
+		
+		.ios-development p2{
+			font-size: 5px;
+			height: 30px;
+			width: 100px;
+			margin: 30px;
+			border: 1px solid black;
+			background: white;
+			color: black;
+		}
+		
+		
+		.ios-development{
+			height: 300px;
+			width: 450px;
+			margin: 30px;
+			border: 1px solid black;
+			background:lightgrey;
+			color: black;
+		}
+		
+	.ios-development2{
+		margin: 30px;
+		}
+
+		.android-development h10{
+			font-size: 20px;
+				}
+				
+			
+				
+				.android-development p1{
+					font-size: 15px;
+				}
+				
+				.android-development p2{
+					font-size: 5px;
+					height: 30px;
+					width: 100px;
+					margin: 30px;
+					border: 1px solid black;
+					background: white;
+					color: black;
+				}
+				
+				
+				.android-development{
+					height: 300px;
+					width: 450px;
+					margin: 30px;
+					border: 1px solid black;
+					background:lightgrey;
+					color: black;
+				}
+				
+			.android-development2{
+				margin: 30px;
+				}
+
+.main-content hr{
+	width: 1050px;
+height: 1px;
+color: black;
+background: black;
+margin-bottom: 30px;
+}
+
+.footer-words {
+	width: 1050px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+
+}
+
+.footer-words2 h11{
+	font-size: 20px;
+}
+
+.footer-words2{
+	width: 500px;
+}
+
+.picture{
+	width: 500px;
+}
+
+
+
+
+
+.littlefooter{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
