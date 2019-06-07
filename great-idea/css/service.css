@@ -110,15 +110,14 @@ width: 45%;
 flex-flow: row wrap;
 border: 2px black solid;
 background: #f4f3f4;
-height: 15em; 
-padding: 20px;
+height: 2%; 
+padding: 1.25em;
 line-height: 1.4;
 }
 
 .container .services-header-img{
     width: 100%;
     margin: 1em 0em 1.5em 0em;
-
 }
 
 section .section-info{
@@ -169,7 +168,8 @@ footer address{
 
 @media only screen and (max-width: 750px){
    .container{
-       width: 100vw;
+       width: 98vw;
+       margin: 2px auto;
    }
    header nav {
       width: 100vw;
@@ -177,8 +177,15 @@ footer address{
       justify-content: center;
    }
    header nav :last-child{
-       align-self: flex-end;
        margin: 0px;
    }
- 
+   .container .services-header-img{
+       margin: 4em 0em 2em 0em;
+   }
+   footer .footer-text{
+        width: 45vw;
+   }
+   footer .footer-img .services-info-img{
+       width: 45vw;
+   }
 }
