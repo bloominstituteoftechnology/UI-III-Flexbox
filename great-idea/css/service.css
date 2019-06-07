@@ -173,6 +173,7 @@ footer address{
    }
    header nav {
       width: 100vw;
+      flex-flow: row wrap-reverse;
       justify-content: center;
    }
    header nav :last-child{

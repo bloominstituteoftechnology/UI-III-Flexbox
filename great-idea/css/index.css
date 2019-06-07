@@ -179,6 +179,7 @@ footer  h4{
 		margin-bottom: 0.3125;
 	}
 	.container header nav{
+		flex-flow: row wrap-reverse;
 		width: 100vw;
 		margin-bottom: 1.56em;
 		justify-content: center;
