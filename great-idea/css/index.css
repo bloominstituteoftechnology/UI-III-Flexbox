@@ -193,12 +193,15 @@ footer  h4{
 		display: flex;
 		flex-flow: row wrap;
 		margin: 10em 0em 0em 0em;
+		justify-content: center
 	}
 	.main-section-header .main-title{
-		width: 45vw
+		width: 45%;
+		align-items: center;
 	}
 	.container section .header-image{
-		width: 45vw;
+		width: 45%;
+		align-items: center;
 	}
 }
 
