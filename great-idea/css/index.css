@@ -104,9 +104,6 @@ header nav  a:hover{
 nav :last-child{
 	margin-left: auto
 }
-
-
-
 .container section{
 	display: flex;
 	justify-content: space-between;
@@ -172,16 +169,18 @@ footer  h4{
 
 @media only screen and (max-width: 750px){
 	.container{
-		width: 750px;
+		width: 99vw;
+		padding: 5px;
+
 	}
  	 header{
 		position: fixed;
 		top: 0px;
-		margin-bottom: 5px;
+		margin-bottom: 0.3125;
 	}
 	.container header nav{
-		width: 750px;
-		margin-bottom: 25px;
+		width: 100vw;
+		margin-bottom: 1.56em;
 		justify-content: center;
 	}
 	header nav img{
@@ -195,10 +194,10 @@ footer  h4{
 		margin: 10em 0em 0em 0em;
 	}
 	.main-section-header .main-title{
-		width: 49%
+		width: 45vw
 	}
 	.container section .header-image{
-		width: 49%;
+		width: 45vw;
 	}
 }
 
