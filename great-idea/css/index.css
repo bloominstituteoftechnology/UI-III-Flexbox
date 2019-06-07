@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
 nav li{
     display: inline-block;
     margin: 4%;
+    color: gainsboro;
   
 }
 .hero{

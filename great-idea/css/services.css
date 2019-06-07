@@ -73,8 +73,10 @@ width: 75%;
 nav ul{
     display: flex;
     justify-content: space-between;
-    margin:2%
+    margin:2%;
+    color: gainsboro;
 }
+
 .services-header-img{
     width: 95%;
     margin-bottom: 4%
