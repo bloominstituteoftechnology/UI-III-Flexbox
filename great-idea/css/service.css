@@ -102,7 +102,6 @@ header nav  a:hover{
 }
 nav :last-child{
     margin-left: auto;
-    /* margin: 0px 0px 0px 80px; */
 }
  .container section .sec-info-card{
 justify-content: space-between;
@@ -166,4 +165,19 @@ footer .footer-text ul{
 }
 footer address{
     display: inline;
+}
+
+@media only screen and (max-width: 750px){
+   .container{
+       width: 100vw;
+   }
+   header nav {
+      width: 100vw;
+      justify-content: center;
+   }
+   header nav :last-child{
+       align-self: flex-end;
+       margin: 0px;
+   }
+ 
 }
