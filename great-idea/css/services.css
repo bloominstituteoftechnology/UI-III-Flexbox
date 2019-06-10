@@ -67,9 +67,9 @@ h1, h2, h3, h4, h5 {
 
 a { text-decoration: none; }
 
-body {
+.container {
 	width:876px;
-	margin: 0 auto;
+	margin: auto;
 }
 
 html body header nav {
@@ -87,106 +87,102 @@ html body header nav a {
 	background-color: white;
 }
 
-.header-links {
-	width: 0 auto;
+header nav a:last-child {
+    margin-top: 0;
+}
+
+header {
+	width: 100%;
 	margin-top: 35px;
 	vertical-align: top;
 	display: flex;
-
 }
 
-.main-content {
-	border-top: 2px solid black;
-	padding-top: 25px;
-	border-bottom: 2px solid black;
-	padding-bottom: 25px;
+.services-header-img {
+	margin: 20px 0;
 }
 
-h1  {
-	font-size: 70px;
+.topsectiongroup .topsectbox h2 {
+    font-size: 24px;
 }
 
-h2 {
-	font-size:20px
-}
-
-.image {
-	margin-top: 65px;
-}
-
-.center {
-	margin-bottom: 40px;
-	display: flex;
-}
-
-html body .slogan {
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 120px;
-	text-align: center;
-	padding: 0px 75px;
-}
-html body .slogan button {
-	width:200px;
-	border:2px solid black;
-	padding: 7px;
-	color:black;
-}
-
-.grouping1 {
-	text-align: center;
+.topsectiongroup {
+	height: 0px auto;
 	display:flex;
+	flex-direction: column;
+	justify-content: right;
 }
 
-.main-content {
-	display: flex;
+.container .bodyboxes {
+	height: 0px auto;
+	width: 870px;
+    margin-top: 40px;
+    padding-top: 20px;
+	display:flex;
 	flex-wrap: wrap;
+    justify-content: left;
+    border-top: 2px solid black;
 }
 
-html body .section1 {
-	width: 415px;
-	margin-right: 40px;
+.bodyboxes button {
+	height: 30px;
+	width: 150px;
+	border: 1px solid black;
+	margin:0 auto;
+	color: black;
+	background-color: white;
+    font-size: 11px;
+    border-radius: 5px;
+}
+
+.container .box {
+	width: 420px;
+	padding: 20px;
+	margin: 20px 0px;
+	border: 1px solid black;
+	background-color: lightgrey;
+}
+
+.container .box1 {
+    margin-right: 30px;
+}
+
+.container .box3 {
+    margin-right: 30px;
+}
+
+.container .box5 {
+    margin-right: 30px;
+}
+
+.container .box7 {
+	width: 375px;
+	height: 250px;
+	padding: 20px;
 	
 }
-html body .section2 {
-	width: 415px;
+
+li {
+	margin-left: 16px;
+	margin-top: 10px;
 }
 
-.group1 {
-	text-align: left;
-	padding-top: 20px;
-	margin-bottom: 40px;	
+.container .about-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    margin: 25px 0 35px 0;
+    padding-top: 40px;
 }
 
-html body .section3 {
-	width: 266px;
-	margin-right: 25px;
-}
-html body .section4 {
-	width: 266px;
-	margin-right: 25px;
-}
-html body .section5{
-	width: 266px;
-}
-.group2 {
-	text-align: left;
-	padding-bottom: 20px;
-	margin-top:35px;
-}
-
-footer {
-	margin-top: 50px;
-}
-
-.space {
-	margin-bottom: 15px;
-	margin-top: 15px;
+.container .about-service .services-info-img {
+	width: 420px;
+    height: 300px;
 }
 
 .copy {
 	text-align: center;
-	margin-top: 35px;
+	margin-top: 50px;
 	margin-bottom: 100px;
 }
-
