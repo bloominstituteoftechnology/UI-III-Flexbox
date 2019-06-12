@@ -1,3 +1,5 @@
+Danica Valdez
+
 # User Interface Project II: Great Idea Web Page With Flexbox
 
 Now that you have experienced building a layout using `inline-block`.  Lets revisit the same HTML structure and refactor our first page with flex box module.  If you didn't finish yesterday's assignment, just start from scratch or use the solution code provided to you.
@@ -7,6 +9,7 @@ Once you have finished the home page using flex box module, go build the service
 **Useful Resource: [CSS Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)**
 
 ## To Get Started
+hello
 
 * Fork the project to your GitHub account
 * Clone this project into a directory on your machine.
