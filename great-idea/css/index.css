@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +62,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width: 900px;
+	margin: 0 auto;
+  }
+  .top-text{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-start;
+	margin: 25px;
+  }
+  a{
+   margin-left: 30px;
+   text-decoration: none;
+   color: grey;
+  }
+  
+  .square {
+	font-size: 80px;
+	margin: 200px 60px;
+	text-align: center;
+	width: 270px
+  }
+  button{
+	width: 160px;
+	height: 30px;
+  }
+  .sphere{
+	margin-left: 500px;
+	position: absolute;
+	align-content: 50px;
+	top: 250px;
+  }
+  .main-content{ 
+	width: 900px;
+	column-count: 2;
+	margin-bottom: 40px;
+  }
+  
+  .mac{
+	margin-right: 20px;
+	margin-bottom: 40px;
+  }
+  .bottom-content{
+	width: 900px;
+	column-count: 3;
+	margin-bottom: 20px
+  }
+  .copy{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+  }
+  .border{
+	width: 900px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+  }
+  
+  .services-header-img{
+	  width:900px;
+	}
+  
+.middle-content{
+	padding: 20px; 
+	margin-bottom: 40px;
+	width: 400px;
+	border: 1px solid black;
+	background-color: lightgray;
+}
+
+button{
+margin-top: 20px;
+background-color: white;	
+}
+
+h2{
+	font-size: 20px;
+	margin-top: 40px;
+}
+.block{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;	
+	margin-top: 40px;			
+}
+
+ul li{
+	margin: 20px;
+}
+.services-info-img{
+   display: flex;
+   flexflex-wrap: wrap;
+}
+.last-content{
+	width: 400px;
+	
+}
+
