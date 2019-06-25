@@ -88,7 +88,18 @@ header nav li{
 	display: inline-flex;
 	padding: 20px;
 	color: #A9A9A9;
+	
 } 
+
+header nav li > a{
+	text-decoration: none;	
+} 
+
+header nav li > a:visited{
+	text-decoration: none;	
+	color: #A9A9A9;
+} 
+
 
 header .logo {
 	width: 25%;
