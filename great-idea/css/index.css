@@ -64,3 +64,26 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+a {
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  background-color: LEMONCHIFFON;
+}
+
+.navigation li {
+  margin: 20px 30px;
+  
+}
+
+/* .navigation li:last-child {
+  background-color: aliceblue;
+  justify-content: flex-end;
+} */
+
+li:last-of-type {
+  margin-left: auto;
+}
