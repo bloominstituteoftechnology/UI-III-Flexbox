@@ -88,7 +88,7 @@ nav{
 }
 nav a{
 	font: Titillium;
-	color:lightgray;
+	color:darkgray;
 	text-decoration: none;
 	font-size: 15px;
 	font-weight:bold;
@@ -189,3 +189,16 @@ color: rgb(64, 64, 64);
 *{
 	border: 1px solid teal !important;
 }
+/* #region-services */
+.s-main{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.row{
+	display:flex;
+	
+
+}
+/* endregion */
