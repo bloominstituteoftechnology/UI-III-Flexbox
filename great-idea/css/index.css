@@ -104,7 +104,7 @@ h1 {
 	text-align: center;
 }
 
-button {
+.gsbutton {
 	border: 1px solid black;
 	background-color: white;
 	padding: 5px 30px;
@@ -157,4 +157,118 @@ address span {
 
 .services-header-img {
 	width: 100%;
+}
+
+.servicesheader {
+	margin-bottom: 2%;
+	border-bottom: 1px solid black;
+}
+
+.serviceh1 {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 2%;
+	font-size: 24px;
+}
+
+.servicesp {
+	margin-bottom: 2%;
+}
+
+.middlecontentservices {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 4%;
+}
+
+.ddbox {
+	border: 1px solid black;
+	background-color: #F4F3F4; 
+	width: 48%;
+	padding: 2%
+}
+
+.uxuibox {
+	border: 1px solid black;
+	background-color: #F4F3F4;
+	width: 48%;
+	padding: 2%
+}
+
+.dmbox {
+	border: 1px solid black;
+	background-color: #F4F3F4;
+	width: 48%;
+	padding: 2%
+}
+
+.wdbox {
+	border: 1px solid black;
+	background-color: #F4F3F4;
+	width: 48%;
+	padding: 2%
+}
+
+.iosdbox {
+	border: 1px solid black;
+	background-color: #F4F3F4;
+	width: 48%;
+	padding: 2%
+}
+
+.adbox {
+	border: 1px solid black;
+	background-color: #F4F3F4;
+	width: 48%;
+	padding: 2%
+}
+
+button {
+	margin-top: 2%;
+	background-color: #fff;
+	border: 1px solid black;
+	padding: 2% 2%;
+	width: 40%
+}
+
+.middlerow {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.servicesfooter {
+	margin-top: 4%;
+	border-top: 1px solid black;
+}
+
+.services-info-img {
+	width: 48%;
+	margin-top: 4%;
+	display: flex;
+	
+}
+
+
+ul {
+	margin: 6% 0 0 4%;
+	line-height: 2.5;
+}
+
+.servicesfooter {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.footerleft {
+	margin-top: 2%;
+	width: 48%;
+}
+
+.copyright-service {
+	display: flex;
+	justify-content: center;
+	margin-top: 6%;
 }
