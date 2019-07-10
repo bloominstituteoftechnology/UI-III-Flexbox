@@ -35,7 +35,8 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: disc;
+    list-style: disc;
+    list-style-position: inside;
 }
 blockquote, q {
 	quotes: none;
@@ -70,9 +71,9 @@ h1{
     font-size: 25px;
 }
 .container {
-  width: 880px;
+  width: 800px;
   /* TB LR */
-  margin: 0 auto;
+  margin: 0 45px;
 }
 
 /* header */
@@ -121,18 +122,14 @@ header .logo {
   margin-top: 25px;
 }
 
+.services-header-img{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .text-content{
     
     line-height: 20px;
-}
-
-/* service menu */
-
-.service-content{
-    border: 1px solid red;
-
-    
 }
 
 /* service about */
@@ -159,7 +156,8 @@ header .logo {
 }
 
 .service-menu .subbox{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
+
     display:flex;
 }
 
@@ -173,7 +171,14 @@ header .logo {
 }
 
 .service-menu .subbox button{
-    text-decoration: none;
+    padding: 1px 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font: inherit;
+    color: inherit;
+    background-color:white;
+    cursor: pointer;
+    
 }
 
 .some-facts{
@@ -189,7 +194,11 @@ header .logo {
     padding: 20px 0;
 }
 
-.
+.some-facts .fact-text ul{
+    border:1px solid green;
+
+
+}
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
