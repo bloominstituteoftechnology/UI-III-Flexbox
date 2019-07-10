@@ -54,13 +54,362 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	color: #204060;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
+
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5, span {
+    font-family: ;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-family: 'Lalezar', cursive;
+}
+
+span {
+
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+/*******basics****************/
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+}
+
+.container {
+	width: 80%;
+	margin-left: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p, ul {
+	line-height: 1.5;
+}
+
+
+/*****nav and header********/
+
+.header-nav {
+	padding-bottom: 30px;
+	padding-top: 20px;
+	background: #40a5ed;
+	width: 100%;
+	display: flex;
+	border-bottom: 3px solid #204060;
+
+}
+
+.header-nav .container {
+	display: flex; 
+	flex-flow: column-reverse wrap;
+	
+}
+
+nav {
+	padding-top: 15px;
+	width: 70%;
+	display: flex;
+	/*justify-content: flex-start;*/
+	
+}
+nav a {
+	margin-right: 40px;
+	text-decoration: none;
+	color: #ceedea;
+}
+.title-box {
+	padding-top: 90px;
+}
+
+header {
+	padding-bottom: 30px;
+	background: #ceedea;
+	padding-top: 30px;
+	display: flex;
+	border-bottom: 3px solid #204060;
+
+}
+
+
+.logo {
+	display: flex;
+	/*justify-content: flex-end;*/
+}
+
+
+
+.start-button {
+	text-align: center;
+	border: black 1px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	background: #00ff99;
+}
+
+
+/*********main sections*************/
+
+.top{
+	border-top: 1px solid black;
+	
+}
+
+.bottom {
+	border-bottom: 3px solid #204060;;
+}
+
+
+.info {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.middle {
+	margin-right: 16px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.contact {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	flex-direction: column;
+}
+
+/**************services page****************/
+.services-header {
+	display: flex;
+	flex-flow: column wrap;
+}
+.services-header-img {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.about-services {
+	flex: display;
+	flex-wrap: wrap;
+
+}
+
+.services-offered {
+	border: 1px dimgray solid;
+	background-color: #ceedea;;
+	margin-top: 33px;
+	padding: 20px;
+
+}
+
+.learn-more-button {
+	background-color: #00ff99;
+	border: dimgray 1px solid;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+
+/*******footer**********/
+footer {
+	display: flex;
+	background: #40a5ed;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	border-top: #204060 3px solid;
+}
+footer p {
+	color: #ceedea;
+}
+
+footer p span {
+	color: #204060;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.micro-div {
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+/********************mobile***********************/
+.top, .bottom {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.halves {
+	display: flex;
+	width: 100%;
+	flex-flow:  row wrap;
+
+}
+
+
+.headmadoo {
+	flex-flow: column-reverse;
+}
+.header-halves {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.thirds {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+}
+
+.contact {
+	text-align: center;
+}
+
+.middle {
+	margin-left: none;
+}
+
+.service-facts {
+	display: flex;
+	flex-direction: column;
+}
+
+.service-review {
+	width: 100%;
+	display: flex;
+	padding-top: 30px;
+	
+}
+
+
+.service-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.header-nav {
+
+}
+
+/***************desktop or tablet****************/
+@media only screen and (min-width: 768px)  {
+
+	.top, .bottom {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.halves {
+		display: flex;
+		width: 48%;
+	}
+
+	.headmadoo {
+		flex-flow: row wrap;
+	}
+
+	.header-halves {
+		width: 49%;
+	}
+
+	.thirds {
+		display: flex;
+		width: 30%;
+	}
+
+	.top, .bottom, .about-services {
+		justify-content: space-between;
+	}
+	
+	.middle {
+		margin-left: 16px;
+	}
+	.contact {
+		text-align: left;
+	}
+
+	.about-services {
+		padding-bottom: 20px;
+	}
+
+	.service-facts {
+		flex-flow: row nowrap;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		justify-content: space-between;
+		border-top: 3px #204060 solid;
+	}
+	.service-review {
+		display: 49%;
+		padding: 0px;
+	}
+
+	.header-nav {
+		position: fixed;
+		overflow: hidden;
+		top: 0;
+	}
+
+	header {
+		padding-top: 115px;
+	}
+
+	.header-nav .container {
+		justify-content: space-between;
+		flex-flow: row wrap;
+	}
+
+	.logo {
+		width: 30%;
+	}
+}
