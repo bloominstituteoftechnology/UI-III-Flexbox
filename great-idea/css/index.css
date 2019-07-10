@@ -341,7 +341,7 @@ footer p span {
 
 }
 
-/***************desktop or tablet****************/
+/***************laptop or tablet****************/
 @media only screen and (min-width: 768px)  {
 
 	.top, .bottom {
@@ -401,7 +401,7 @@ footer p span {
 	}
 
 	header {
-		padding-top: 115px;
+		padding-top: 130px;
 	}
 
 	.header-nav .container {
@@ -411,5 +411,24 @@ footer p span {
 
 	.logo {
 		width: 30%;
+	}
+}
+/*******************full screen or desktop*******************/
+@media only screen and (min-width: 1200px)  {
+	header {
+		padding-top: 140px;
+	}
+
+	nav a {
+		font-size: 20px;
+		padding-top: 15px;
+	}
+
+	h1 {
+		font-size: 80px;
+	}
+
+	.title-box {
+		padding-top: 20px;
 	}
 }
