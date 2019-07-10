@@ -68,13 +68,18 @@ h1, h2, h3, h4, h5 {
 	padding: 50px;
 }
 
+header nav {
+	display:flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
 header nav a {
 	color: grey;
 	font-size: 18px;
-	padding-right: 20px;
 	text-decoration: none;
-	padding-right: 80px;
-	margin-right: 20px;
+	
 }
 
 .services-header-img{
@@ -102,6 +107,12 @@ li {
 		padding-bottom: 40px;
 }
 
+hr {
+	width: 92.5%;
+	border-top: 1px solid black;
+	margin-bottom: 50px;
+}
+
 .title {
 		padding-top: 50px;
 		padding-bottom: 50px;
@@ -111,9 +122,13 @@ li {
 button {
 				align-self: baseline;
 				border-color: black;
+				border-radius: 5px;
 				font-size: 24px;
 				padding-left: 70px;
 				padding-right: 70px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				margin-top: 20px;
 				border-width: 2px;
 }
 
@@ -125,15 +140,19 @@ button {
 	align-content: space-;
 	align-items: flex-start;
 	height: 1000px;
+	padding: 20px;
 }
 
 .one {
+		display: flex;
+		flex-wrap: wrap;
 		border-color: black;
 		border-width: 1px;
 		border-style: solid;
 		background-color: #D3D3D3;
 		height: 300px;
 		width: 45%;
+		padding: 20px;
 }
 
 .services {
@@ -144,11 +163,20 @@ button {
 }
 
 ul {
-	list-style-type: disc;
+	list-style-type: square;
 	align-self: baseline;
+	margin-left: 25px;
+}
+
+ul li {
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .facts {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
 	border: 5px;
 	border-width: 2px;
 	height: 300px;
@@ -332,4 +360,8 @@ ul {
 		padding-top: 60px;
 		padding-bottom: 100px;
 		text-align: center;
+}
+
+.copyright {
+	padding: 100px;
 }

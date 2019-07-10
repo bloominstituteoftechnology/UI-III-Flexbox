@@ -77,10 +77,15 @@ h1, h2, h3, h4, h5 {
 		margin-left: 100px;
 		margin-top: 25px;
 		color: grey; 
+		text-decoration: none;		
 	}
 
 	header nav a img {
 		padding-right: 50px;
+	}
+	
+	hr {
+		width: 90%;
 	}
 	
 	.front {
