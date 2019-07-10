@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
 } */
 
 .top  {
-	background-color: yellow;	
+	/* background-color: yellow;	 */
 	display: flex;
 	justify-content: space-between;
 	margin-top: 1%;
@@ -200,26 +200,30 @@ li {
 .maintop {
 	display: flex;
 	justify-content: space-between;
-	background-color: aqua;
+	/* background-color: aqua; */
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .board {
-	background-color: brown;
-	margin-left: 5%;
+	/* background-color: brown; */
+	margin-left: 7.5%;
 	display: block;
-	width: 30%;
 	margin-top: 5%;
+	width:47%;
 }
 .board h2{
-	font-size: 70px;
+	font-size: 80px;
 	text-align: center;
 }
 .circle {
-	background-color: brown;
+	/* background-color: brown; */
 	margin-right: 5%;
+	width:35%;
+
 }
 .buttontop {
 	/* display: flex; */
-	width: 50%;
+	width: 30%;
 	border: 1px solid black;
 	padding: 2%;
 	color: black;
