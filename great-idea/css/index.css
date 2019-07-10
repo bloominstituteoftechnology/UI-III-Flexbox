@@ -64,3 +64,209 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 900px;
+	margin: auto;
+	/* border: 1px solid red; */
+}
+header {
+	margin-top: 25px;
+	position: fixed;
+	top:0;
+	display: flex;
+	justify-content: space-between;
+}
+header nav {
+	/* background: midnightblue; */
+    height: 25px;
+	padding-top: 5px;
+	}
+
+header nav a {
+	margin: 0 25px;
+	color: lightgrey;
+	text-decoration: none;
+}
+
+header img.logo {
+	margin-left: 80px;
+}
+
+.cta {
+	display: flex;
+	align-items: center;
+	margin-top: 90px;
+}
+
+.cta .cta-text {
+	font-size: 80px;
+	margin-left: 90px;
+	margin-right: 85px;
+	text-align: center;
+}
+
+.cta h1 {
+	margin-bottom: -20px;
+}
+
+.cta button {
+	background: none;
+    width: 150px;
+    height: 35px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.main-content {
+	border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-content .text-content1 {
+	width: 50%;
+    margin: 25px 13px;
+}
+
+.top-content .text-content2 {
+	width: 50%;
+    margin: 25px 5px;
+}
+
+.middle-img {
+	margin: 25px 12px;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-content .text-content {
+	width: 33%;
+	margin: 10px 13px 50px;
+}
+
+.contact {
+	margin: 10px 13px;
+}
+
+address {
+	margin-bottom: 15px;
+}
+
+.contact p {
+	margin: 15px 0;
+}
+
+footer {
+	text-align: center;
+}
+
+.services-header {
+	margin-top: 90px;
+    margin-left: 13px;
+}
+
+.services-header-text {
+	margin-top: 30px;
+}
+
+.services-header-text h2 {
+	font-size: 25px;
+}
+
+.services-header-text p {
+	margin-bottom: 30px;
+}
+
+.services-info {
+	border-top: 1px solid black;
+    padding-top: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.services-info-text {
+	width: 45%;
+	border: 1px solid black;
+    background: #f2f2f2;
+	margin: 20px 5px;
+	padding: 20px;
+}
+
+.services-info-text button {
+	background: white;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.services-facts {
+	margin-top: 40px;
+	margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-facts-text {
+	width: 45%;
+}
+
+.services-facts img {
+	width: 45%;
+}
+
+.services-facts ul {
+	margin-top: 20px;
+	margin-left: 18px;
+	list-style-type: square;
+}
+
+.services-facts li {
+	padding: 10px 0;
+}
+
+.contact-container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-bottom: 40px;
+  }
+
+input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px; 
+	resize: vertical; 
+  }
+  
+input[type=submit] {
+	background-color: rgb(143, 145, 143);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+	background-color: #b2b8b2;
+  }
+  
