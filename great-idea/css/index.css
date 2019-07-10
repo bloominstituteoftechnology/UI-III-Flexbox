@@ -65,25 +65,174 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+body {
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 a {
   text-decoration: none;
 }
+/* visited link */
+a:visited {
+  color: #696969;
+}
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: rgb(0,191,255);
+}
+
 
 .navigation {
   display: flex;
-  background-color: LEMONCHIFFON;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: LEMONCHIFFON; */
 }
+
 
 .navigation li {
-  margin: 20px 30px;
-  
+  margin: 20px 0 10px 0;
+  padding-left: 6%;
 }
-
-/* .navigation li:last-child {
-  background-color: aliceblue;
-  justify-content: flex-end;
-} */
 
 li:last-of-type {
   margin-left: auto;
+  padding-right: 4%;
+  /* margin-top: 13px; */
+}
+
+.innovation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5% 0;
+}
+
+hr {
+  width: 90%;
+}
+
+.left-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.left-box h1 {
+  font-size: 3.5em;
+  width: 40%;
+}
+
+.button {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  width: 40%;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 2%;
+}
+
+/* .right-box {
+  width: 30%;
+} */
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.main {
+  margin: 0 4%;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 4%;
+}
+
+.products {
+  display: flex;
+  margin: 5% 0;
+}
+
+.main-3 {
+  margin: 0 4%;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  margin: 0 4%;
+}
+
+.contact {
+  padding-top: 1%;
+}
+
+.article > h1 {
+  font-size: 2em;
+}
+/* Services section */
+
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 4% 4%;
+}
+
+.container-2 > .main-6 {
+  flex-grow: 1;
+  flex: 1 1 45%;
+}
+
+.main-6 {
+  border: 1px solid black;
+  padding: 2%;
+  margin: 2%;
+}
+
+.bottom {
+  /* height: 500px; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 4% 4%;
+  /* align-items: center;
+  justify-content: center; */
+  width: 25%;
+}
+
+.bottom1 {
+  display: flex;
+}
+
+
+.bottom1 > ul > li {
+  list-style-type: disc;
+}
+
+footer {
+  text-align: center;
+  margin: 5%;
 }
