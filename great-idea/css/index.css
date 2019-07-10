@@ -142,7 +142,6 @@ nav a{
 /* .text h4{
 	font-family: Bahianita;
 	font-size: 20px; */
-}
 .text{
 	/* display:inline-block; */
 	font-style: Titillium;
@@ -198,7 +197,7 @@ color: rgb(64, 64, 64);
 }
 .row{
 	display:flex;
-	
+
 
 }
 /* endregion */
