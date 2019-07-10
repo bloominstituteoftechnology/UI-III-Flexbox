@@ -101,7 +101,7 @@ div a:hover {
 	color: black;
 }
 .services-header-img {
-display: block;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
@@ -154,6 +154,42 @@ hr {
 	/* background-color: green; */
 	display: flex;
 	flex-wrap: wrap;
-	margin: 3% 5%;
+	margin: 3% 5% 0 5%;
 	justify-content: space-between;
+}
+footer {
+	display: flex;
+	margin: 3% 5% 0 5%;
+	justify-content: space-between;
+}
+.bottom {
+	background-color: aquamarine;
+	margin-right: 16%;
+}
+.bottom p {
+	margin-bottom: 2%;
+}
+ul {
+	list-style-type: square;
+	margin-left: 5%;
+	font-size: 20px;
+  }
+li {
+	margin-top: 5%;
+}
+.services-info-img {
+	display: flex;
+	width: 70%;
+	height: 70%;
+}
+.copyright {
+	/* background-color: blue; */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	margin-top: 10%;
+}
+.copyright p {
+	text-align: center;
 }
