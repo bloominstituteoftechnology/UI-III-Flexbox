@@ -197,7 +197,7 @@ hr {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 4% 4%;
+  margin: 4% 3%;
 }
 
 .container-2 > .main-6 {
@@ -214,21 +214,19 @@ hr {
 .bottom {
   /* height: 500px; */
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   justify-content: space-between;
-  margin: 4% 4%;
-  /* align-items: center;
-  justify-content: center; */
-  width: 25%;
 }
 
-.bottom1 {
-  display: flex;
+.bottom-1 {
+  width: 50%
+
 }
 
+.bottom-1 ul {
+  margin-top: 4%;
+}
 
-.bottom1 > ul > li {
+.bottom-1 > li {
   list-style-type: disc;
 }
 
