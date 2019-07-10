@@ -70,10 +70,10 @@ h1, h2, h3, h4, h5 {
 } */
 
 .top  {
- /* background-color: yellow;	 */
- display: flex;
- justify-content: space-between;
- margin-top: 1%;
+	/* background-color: yellow;	 */
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1%;
 }
 .top nav {
 	/* background-color: red;	 */
@@ -103,4 +103,21 @@ display: block;
 	margin-right: auto;
 	width: 90%;
 	margin-top: 2%;
+}
+
+.services {
+	/* background-color: aquamarine; */
+	display: block;
+	margin: 3% 5% 3% 5%;
+}
+h3 {
+	font-size: 25px;
+}
+p {
+	font-size: 15px;
+}
+hr {
+	width: 90%;
+	size: 1;
+	color: black;
 }
