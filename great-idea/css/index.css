@@ -97,6 +97,9 @@ h1, h2, h3, h4, h5 {
 	margin-right: 5%; 
 	width: 20%;
 }
+div a:hover {
+	color: black;
+}
 .services-header-img {
 display: block;
 	margin-left: auto;
@@ -114,7 +117,7 @@ h3 {
 	font-size: 35px;
 }
 h4 {
-	font-size: 25px;
+	font-size: 20px;
 }
 p {
 	font-size: 20px;
@@ -127,9 +130,8 @@ hr {
 .block {
 	background-color: rgb(228, 228, 228);
 	width: 48%;
-	/* height: 60%; */
-	margin-bottom: 2.5%;
-	padding: 3%;
+	margin-bottom: 3%;
+	padding: 2.5%;
 	border: 1px solid black;
 }
 .block p {
@@ -141,11 +143,15 @@ hr {
 	border-radius: 5px;
 	color: black;
 	text-decoration: none;
-	padding: 0 10%;
+	padding: 1% 10%;
 	font-size: 15px;
 }
+.main div a:hover {
+ 	background-color: grey;
+}
+
 .main	{
-	background-color: green;
+	/* background-color: green; */
 	display: flex;
 	flex-wrap: wrap;
 	margin: 3% 5%;
