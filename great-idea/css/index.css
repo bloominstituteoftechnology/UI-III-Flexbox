@@ -218,16 +218,21 @@ hr {
 }
 
 .bottom-1 {
-  width: 50%
-
+  width: 50%;
+  margin: 4%;
 }
 
 .bottom-1 ul {
   margin-top: 4%;
 }
 
-.bottom-1 > li {
+.bottom-1 img {
+  padding-left: 30%;
+}
+
+.bottom-1  li {
   list-style-type: disc;
+  margin-left: 3%;
 }
 
 footer {
