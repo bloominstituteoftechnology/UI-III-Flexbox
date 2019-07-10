@@ -65,12 +65,14 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* 			services.html starts here			 */
+
 /* * {
 	border: 1px solid grey !important;
 } */
 
 .top  {
-	/* background-color: yellow;	 */
+	background-color: yellow;	
 	display: flex;
 	justify-content: space-between;
 	margin-top: 1%;
@@ -190,5 +192,40 @@ li {
 	margin-top: 10%;
 }
 .copyright p {
+	text-align: center;
+}
+
+/* 			index.html starts here			 */
+
+.maintop {
+	display: flex;
+	justify-content: space-between;
+	background-color: aqua;
+}
+.board {
+	background-color: brown;
+	margin-left: 5%;
+	display: block;
+	width: 30%;
+	margin-top: 5%;
+}
+.board h2{
+	font-size: 70px;
+	text-align: center;
+}
+.circle {
+	background-color: brown;
+	margin-right: 5%;
+}
+.buttontop {
+	/* display: flex; */
+	width: 50%;
+	border: 1px solid black;
+	padding: 2%;
+	color: black;
+	text-decoration: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 }
