@@ -72,39 +72,38 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid lightblue;
 }
 nav{
-	width: 100%;
-    display: flex;
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0% auto;
 }
 a {
-	margin: 1% 4.5%;
-    text-decoration: none;
+	text-decoration: none;
     color: lightgray;
     font-size: 14px;
+}
 
-}
-.logo {
-	margin-left: 5.5%;
-}
 
 header {
-	display: inline-block;
-	width: 100%;
-	margin-top: 4%;
-	padding-bottom: 3%;
+	width: 60%;
+	margin: 0% auto;
+	padding: 5% 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .leftHeader {
 	text-align: center;
-	margin-left: 20%;
 	width: 20%;
 	font-size: 80px;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 }
 button {
 	border: 1px solid black;
-	padding: 2% 10%;
 	background: white;
-	vertical-align: top;
-	font-size: 16px;
+	
+	font-size: 16px; 
 }
 .headerImg {
 	margin-left: 20%;
@@ -114,20 +113,21 @@ button {
 	border-top: 1px solid black;
 	width: 60%;
 	margin: 0% auto;
-	padding: 3%;
+	padding: 2% 0%;
+	display: flex;
+	justify-content: space-evenly;
 }
-
+/*
 .topHalf {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	margin: 2%;
 	width: 38%;
 	
 }
-.about {
-	margin-left: 15%;
-}
+*/
 .middle-img {
-	display: inline-block;
+	display: flex;
 	width: 60%;
 	margin: 0% 20%;
 }
@@ -136,21 +136,33 @@ button {
 	border-bottom: 1px solid black;
 	width: 60%;
 	margin: 0% auto;
-	padding: 4%;
+	padding: 4% 0%;
+	display: flex;
+	justify-content: space-between;
 }
-.bottomHalf {
+/*.bottomHalf {
 	display: inline-block;
 	margin: .4%;
 	width: 30%;
+}*/
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 3% auto;
 }
+/*
 section.contact {
 	margin: 0% 20%;
 	padding: 3% 0%
 }
 section.p {
 	margin: 0% auto;
-}
+}*/
 footer {
+	display: flex;
+	justify-content: center;
 	font-size: 14px;
-    margin: 0% 43%;
+    
 }
