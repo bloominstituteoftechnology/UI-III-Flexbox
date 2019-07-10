@@ -239,3 +239,22 @@ footer {
   text-align: center;
   margin: 5%;
 }
+
+.hero-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.hero-1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 3.5em;
+}
+
+.hero-1 img{
+  border-radius: 15px;
+}
