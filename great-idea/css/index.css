@@ -163,8 +163,9 @@ footer {
 	justify-content: space-between;
 }
 .bottom {
-	background-color: aquamarine;
-	margin-right: 16%;
+	/* background-color: aquamarine; */
+	margin-right: 5%;
+	width:47%;
 }
 .bottom p {
 	margin-bottom: 2%;
@@ -178,9 +179,7 @@ li {
 	margin-top: 5%;
 }
 .services-info-img {
-	display: flex;
-	width: 70%;
-	height: 70%;
+	width:48%;
 }
 .copyright {
 	/* background-color: blue; */
