@@ -160,6 +160,10 @@ h5 {
   width: 100%;
   /* TB LR */
   margin: 0 auto;
+  font-family: 'Great Vibes',
+    cursive;
+  font-family: 'Felipa',
+    cursive;
 }
 
 /* header */
@@ -284,10 +288,6 @@ Header .logo {
   margin: 30px;
 }
 
-.main-content .bottom-content .text-content:last-child {
-  margin-right: 0;
-}
-
 .contact {
   margin-top: 50px;
   padding-left: 50px;
@@ -307,137 +307,85 @@ Header .logo {
 
 footer {
   margin-top: 50px;
-
 }
 
 /*services page*/
-.header-content {
-  width: 990px;
-  /* TB LR */
-  margin: auto;
-}
-
-.services-header img {
-  display: flex;
-  justify-content: center;
-  width: 800px;
-}
-
-.middle-container {
-  margin: 50px 50px 0 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.middle-container .container button {
-  margin-top: 25px;
-}
-
-.container {
-  flex-basis: 47.5%;
-  /* height: 47.5%; */
-  border: 1px solid black;
-  border-radius: 2px;
-  background: lightgrey;
-  padding: 20px;
-  margin-bottom: 50px;
-}
-
-.bottom-container {
-  margin: 50px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.spage-content {
+.services-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   line-height: 1.3;
+  font-family: 'Great Vibes',
+  cursive;
+  font-family: 'Felipa',
+  cursive;
 }
 
-.spage-content .service-header-img {
+.services-content .services-header-img {
   margin: 20px 0;
-  width: 100%;
 }
 
-.spage-content h1 {
-  font-size: 16px;
-  margin: 5px 0;
+.services-content h1 {
+  font-size: 26px;
+  margin: 10px 0;
 }
 
-.spage-content .services-text {
-  border-bottom: 1px black;
-  padding-bottom: 35px;
-  margin-bottom: 15px
+.services-content .services-text {
+  border-bottom: 1px solid black;
+  padding-bottom: 40px;
+  margin-bottom: 20px
 }
 
-.scontainer {
-  display: inline-flex;
-  flex-direction: row;
-  padding: 1px;
-  border: 1px black;
-  background-color: grey;
-  width: 40%;
-  height: 200px;
+.services-content .card {
+  padding: 20px;
+  border: 1px solid black;
+  width: 420px;
+  background: whitesmoke;
+  margin: 20px 0;
 }
 
-.scontainer button {
+.services-content .card button {
+  padding: 10px 40px;
+  margin-top: 20px;
   cursor: pointer;
-  background-color: lightblue;
-  border-radius: 1px;
-  border: 1px black;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 
-.scontainer button:hover {
+.services-content .card button:hover {
   background: black;
-  color: white;
+  text-decoration: underline;
+  color: purple;
 }
 
-.sbottom-content ul {
-  margin: 15px;
+.services-content .services-info ul {
+  margin: 20px;
 }
 
-.sbottom-content ul li {
+.services-content .services-info ul li {
   list-style: square;
-  padding: 2px;
+  padding: 5px;
 }
 
-.sbottom-content {
+.services-content .services-info {
   display: flex;
   flex-wrap: wrap;
-  border: 2px black;
+  border-top: 2px solid black;
   margin: 20px 0 35px 0;
-  padding: 35px;
+  padding-top: 40px;
 }
 
-.sbottom-content .facts-services {
-  width: 410px;
-  margin: 0 50px 15px 0;
+.services-content .services-info .facts {
+  width: 400px;
+  margin: 0 60px 20px 0;
 }
 
-.sbottom-content .facts-services p {
-  margin: 5px;
+.services-content .services-info .facts p {
+  margin-bottom: 20px;
 }
 
-.sbottom-content .services-info-img {
-  width: 200px;
-  height: 200px;
-}
-
-.sbottom-content .facts-services .ul {
-  list-style-type: square;
-}
-
-.sbottom-content .facts-services {
-  display: inline-flex;
-  padding: 10px;
-  border: 1px black;
-  width: 50%;
-  margin: 20px 0;
-}
-
-.scontact p {
-  align-content: center;
+.services-content .services-info .services-info-img {
+  width: 420px;
+  height: 300px;
 }
