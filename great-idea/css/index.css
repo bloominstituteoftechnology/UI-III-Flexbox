@@ -3,19 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,44 +11,191 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header {
+	background-color: aqua;
+}
+
+header {
+	display: flex;
+}
+
+header nav a {
+	margin: 20px;
+}
+
+.logo {
+	margin-left: 140px;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.cta div {
+	display: flex;
+}
+
+.iod {
+	display: flex;
+	flex-direction: column;
+}
+
+.iod h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.iod .button {
+	text-align: center;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.top-content {
+	border-top: 1px solid black;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content2 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.contact {
+	margin-top: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+.top_stuff {
+	display: block;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+}
+
+.blocklevelheader {
+	display: block;
+}
+
+.box_section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box_section .stuff_box {
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 20px;
+	width: 40%;
+	margin: 10px;
+	flex-grow: 1;
+}
+
+.bottom_stuff {
+	border-top: 1px solid black;
+	padding-top: 20px;
+	margin-top: 20px;
+	display: flex;
+}
+
+footer {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: aqua;
+}
+
+@media only screen and (max-width: 600px) {
+	.box_section .stuff_box {
+		width: 80%;
+
+	}
+}
+
+.stuff_box .button {
+	text-align: center;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 10px;
+	margin-top: 10px;
+}
