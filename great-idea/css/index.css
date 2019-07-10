@@ -64,3 +64,168 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	/*this gives me white space around the entire page*/
+	padding:40px;
+}
+.nav{
+	/* THIS IS THE STRETCH  */
+	background-color: royalblue;
+}
+
+
+.nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav a{
+	text-decoration: none;
+	color: lightgrey;
+}
+
+.nav img{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.topImages{
+	margin-top:30px;
+	display:flex;
+	justify-content: space-evenly;
+	padding: 0 0 40px 0;
+}
+
+h1.IODImage{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 65px;
+}
+
+.startbutton{
+	display: flex;	
+	border: 2px solid black;
+	text-align: center;
+	font-size: 16px;
+	margin: 20px 0 0 0;
+	padding: 20px;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+.topText{
+	display: flex;
+	padding: 0 0 40px 0;
+	border-bottom: 2px solid black;
+}
+
+.midimage {
+	display: flex;
+	justify-content: center;	
+	align-content: center;	
+	margin: 40px 0 40px 0;
+}
+
+.bottomText{
+	display:flex;
+	align-content: space-around;
+	justify-content: space-around;
+	padding: 0 0 40px 0;
+	border-bottom: 2px solid black;
+}
+
+.bottomText p{
+	padding: 0 20px 0 0;
+}
+
+.contact{
+	margin: 20px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+}
+
+.topItems{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 2px solid black;
+	width: 100%;
+	padding:20px 0 20px 0;
+}
+
+.topItems h5{
+	margin: 20px 0 10px 0;
+	font-size: 30px;
+
+}
+.allItems{
+	border-bottom: 2px solid black;
+	padding-bottom: 20px;
+	display:flex;
+	margin-bottom: 20px;
+}
+
+.serviceItemsLeft{
+	display: flex;
+	flex-direction: column;
+}
+.serviceItemsRight{
+	display: flex;
+	flex-direction: column;
+}
+.serviceItemsRight div{
+	border: 2px solid black;
+	background-color: lightgrey;
+	margin: 10px 0px 10px 10px;
+	padding: 10px
+}
+.serviceItemsLeft div{
+	border: 2px solid black;
+	background-color: lightgrey;
+	margin: 10px 10px 10px 0;
+	padding: 10px
+}
+
+.allItems .learnbutton{
+	border: 1px solid grey;
+	border-radius: 5px;
+	width: 150px;
+	background-color: rgb(236, 236, 236);
+	text-align: center;
+	margin: 10px;
+	font-size: 12px;
+
+}
+
+.bottomItems div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 0px 35px 0px 10px;
+}
+
+.bottomItems .ul{
+	line-height: 170%;
+}
+
+.bottomItems{
+	display: flex;
+	justify-content: center;
+	margin: 30px 0px 30px 0px;
+}
+
+.bottomItems p{
+	padding: 0px 30px 0px 0px;
+}
+.services-info-img{
+	display: flex;
+	padding: 10px 50px 0px 0px;
+}
