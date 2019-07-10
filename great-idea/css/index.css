@@ -111,13 +111,43 @@ display: block;
 	margin: 3% 5% 3% 5%;
 }
 h3 {
+	font-size: 35px;
+}
+h4 {
 	font-size: 25px;
 }
 p {
-	font-size: 15px;
+	font-size: 20px;
 }
 hr {
 	width: 90%;
 	size: 1;
 	color: black;
+}
+.block {
+	background-color: rgb(228, 228, 228);
+	width: 48%;
+	/* height: 60%; */
+	margin-bottom: 2.5%;
+	padding: 3%;
+	border: 1px solid black;
+}
+.block p {
+	margin-bottom: 6%;
+}
+.button {
+	background-color: white; 
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	text-decoration: none;
+	padding: 0 10%;
+	font-size: 15px;
+}
+.main	{
+	background-color: green;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 3% 5%;
+	justify-content: space-between;
 }
