@@ -233,3 +233,24 @@ li {
 	margin-right: auto;
 	text-align: center;
 }
+.block1 {
+	 display: flex;
+	 justify-content: space-between;
+	margin: 5%;
+}
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.block2 {
+	display: flex;
+	justify-content: space-between;
+	margin: 5%;
+	/* align-items: flex-start; */
+}
+.content2:nth-child(2) {
+	background-color: white;
+	margin: 0 2%;
+}
