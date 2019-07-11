@@ -97,8 +97,9 @@ h1, h2, h3, h4, h5 {
   #footer_container{
 	display:flex;
 	justify-content: center;
+	align-content: flex-end;
 	width: 1200px;
-	height: 50px;
+	height: 200px;
 	text-align: center;
   }
   /* ----Content Control Section----- */
@@ -216,7 +217,12 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-between;
 }
 .services_text_content{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 	width: 45%;
+	height: 450px;
+
 }
 .services_text_content img{
 	width: 100%;
