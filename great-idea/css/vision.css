@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,9 +68,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body {
-  background: #abbaab;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: aliceblue;
 }
 
 a {
@@ -76,11 +76,11 @@ a {
 }
 /* visited link */
 a:visited {
-  color: #696969;
+  color: white;
 }
 /* unvisited link */
 a:link {
-  color: green;
+  color: antiquewhite;
 }
 
 /* mouse over link */
@@ -93,6 +93,19 @@ a:active {
   color: rgb(0,191,255);
 }
 
+/* .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1542553458-79a13aebfda6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1864&q=80");
+  
+  height: 100%;
+} */
+
+html {
+  background: url("https://images.unsplash.com/photo-1542553458-79a13aebfda6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1864&q=80") no-repeat center center fixed;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .navigation {
   display: flex;
@@ -107,6 +120,10 @@ a:active {
   padding-left: 6%;
 }
 
+.navigation >li>a {
+  color: black;
+}
+
 li:last-of-type {
   margin-left: auto;
   padding-right: 4%;
@@ -114,14 +131,9 @@ li:last-of-type {
 }
 
 .innovation {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex */
   align-items: center;
   margin: 5% 0;
-}
-
-hr {
-  width: 90%;
 }
 
 .left-box {
@@ -140,14 +152,10 @@ hr {
   padding-bottom: 25px;
   width: 40%;
   height: 30px;
-  border: 1px solid black;
+  border: 1px solid white;
   text-align: center;
   margin-top: 2%;
 }
-
-/* .right-box {
-  width: 30%;
-} */
 
 .about {
   display: flex;
@@ -163,17 +171,38 @@ hr {
 .hero {
   display: flex;
   justify-content: center;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   margin-top: 4%;
 }
 
 .products {
   display: flex;
-  margin: 5% 0;
+  /* margin: 5% 0; */
+  text-align: center;
+  
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  margin: 30%;
+}
+
+.article h1 {
+  font-size: 5em;
+  letter-spacing: 5px;
+}
+
+.article p{
+  margin-top: 3%;
+  letter-spacing: 5px;
+  font-size: 1.1em;
 }
 
 .main-3 {
-  margin: 0 4%;
+  /* margin: 0 4%; */
+  display: flex;
+  justify-content: center;
 }
 
 .address {
@@ -186,10 +215,9 @@ hr {
   padding-top: 1%;
 }
 
-.article > h1 {
-  font-size: 2em;
-}
+
 /* Services section */
+
 
 
 .container-2 {
@@ -197,7 +225,7 @@ hr {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 4% 3%;
+  margin: 10% 3%;
 }
 
 .container-2 > .main-6 {
@@ -206,15 +234,15 @@ hr {
 }
 
 .main-6 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 2%;
   margin: 2%;
 }
 
 .bottom {
-  /* height: 500px; */
   display: flex;
-  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .bottom-1 {
@@ -222,13 +250,21 @@ hr {
   margin: 4%;
 }
 
+.bottom-1 p, li {
+  font-size: 1.3em;
+}
+
+.bottom-1 h1 {
+  font-size: 2em;
+}
+
 .bottom-1 ul {
   margin-top: 4%;
 }
 
-/* .bottom-1 img {
-  padding-left: 30%;
-} */
+.bottom-1 img {
+  width: 75%;
+}
 
 .bottom-1  li {
   list-style-type: disc;
@@ -243,7 +279,7 @@ footer {
 .hero-1 {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 50%;
 }
 
 .hero-1 h1 {
@@ -253,13 +289,16 @@ footer {
   transform: translate(-50%, -50%);
   color: black;
   font-size: 3.5em;
-  text-shadow: 2px 2px grey;
+  text-shadow: 2px 2px black;
 }
 
-.hero-1 img{
+.hero-1 h1{
+  color: aliceblue;
   border-radius: 15px;
-  
+  font-family: 'Roboto', sans-serif;
+  font-size: 5em;
 }
+
 
 /* Responsive design */
 
@@ -343,3 +382,4 @@ footer {
   /* Styles */
   }
   
+
