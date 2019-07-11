@@ -123,7 +123,7 @@ p, ul {
 /*****nav and header********/
 
 .header-nav {
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	padding-top: 20px;
 	background: #40a5ed;
 	width: 100%;
@@ -146,7 +146,6 @@ nav {
 	
 }
 nav a {
-	margin-right: 40px;
 	text-decoration: none;
 	color: #ceedea;
 }
@@ -164,10 +163,6 @@ header {
 }
 
 
-.logo {
-	display: flex;
-	/*justify-content: flex-end;*/
-}
 
 
 
@@ -291,9 +286,32 @@ footer p span {
 
 }
 
+.header-nav .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+nav a {
+	padding: 0 20px 20px 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+figure {
+	width: 60%;
+}
+
 
 .headmadoo {
 	flex-flow: column-reverse;
+	justify-items: center;
+	align-items: center;
 }
 .header-halves {
 	display: flex;
@@ -337,10 +355,6 @@ footer p span {
 	padding-bottom: 30px;
 }
 
-.header-nav {
-
-}
-
 /***************laptop or tablet****************/
 @media only screen and (min-width: 768px)  {
 
@@ -354,6 +368,21 @@ footer p span {
 		width: 48%;
 	}
 
+	.header-nav {
+		padding-bottom: 20px;
+	}
+
+	.header-nav .container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	nav a {
+		font-weight: bold;
+		text-align: left;
+	}
+
 	.headmadoo {
 		flex-flow: row wrap;
 	}
@@ -361,6 +390,7 @@ footer p span {
 	.header-halves {
 		width: 49%;
 	}
+
 
 	.thirds {
 		display: flex;
@@ -404,14 +434,22 @@ footer p span {
 		padding-top: 130px;
 	}
 
+	figure {
+		width: 30%;
+		border: red 1px solid;
+	}
+
+	figure a img {
+		width: 100%;
+		border: red 1px solid;
+	}
+
 	.header-nav .container {
 		justify-content: space-between;
 		flex-flow: row wrap;
 	}
 
-	.logo {
-		width: 30%;
-	}
+
 }
 /*******************full screen or desktop*******************/
 @media only screen and (min-width: 1200px)  {
