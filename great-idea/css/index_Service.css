@@ -193,7 +193,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 750px;
+  height: 810px;
+  padding-top: 30px;
 }
 
 button {
@@ -208,7 +209,7 @@ button {
 }
 h2 {
   font-size: 1.5em;
-  padding: 10px;
+  padding: 10px 0px;
 }
 .facts {
   display: flex;
@@ -227,6 +228,15 @@ h2 {
   list-style-type: square;
 }
 
+.content-box button {
+  display: flex;
+  justify-content: center;
+  padding-inline: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+
 .facts .bottom-box {
   width: 50%;
   display: flex;
@@ -238,7 +248,6 @@ h2 {
   width: 50%;
   display: flex;
   justify-content: right;
-
 }
 .bottom-box ul {
   list-style-type: square;
