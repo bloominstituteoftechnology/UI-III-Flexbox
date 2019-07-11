@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* END MYER RESET */
+/* ////////////////////////////////////////// */
+/* MY CODE STARTS HERE */
+.container {
+    margin:auto;
+	width: 60%;
+	text-align: left;
+	}
+
+            /* Nav Bar and Nav Image */
+.container-header {
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    margin: 20px 0px 20px 0;
+    /* border: 1px solid red; */
+    
+}
+.container-header .nav-bar  a{
+    margin: 30px 30px 26px 50px;
+	color: gray;
+	text-decoration: none;
+}
+.nav-bar{
+    margin: 20px 0px 20px 0;
+}
+.head-image {
+    margin: 0px 50px 0px 24px;
+}
+            /* End of Nav Bar */
+/* ////////////////////////////////////////// */
+        /* <!-- Begin Header Image -->  */
+
+.services-header-img img{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+            /* End of Header Image */
+/* /////////////////////////////////////////*/
+         /* Begin Services SECTION  */
+.service-section .service-p {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    font-size: 25px;
+    margin: 40px 0 25px 0;
+    line-height: normal;
+}
+
+ .service-section .service-p p{
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+    /* END Services Paragraph  */
+
+        /* BEGIN 6 Services */
+.two-services {
+    display: flex;
+    justify-content: space-between;
+    /* border: 4px solid black; */
+    background-color: #F4F3F4;
+    margin: 50px 0 50px 0;
+    line-height: normal;
+}
+
+.two-services div {
+    border: 2px solid black;
+    padding: 30px;
+    width: 48%;
+    background: rgb(231, 231, 231)
+}
+
+.two-services .service-box{
+    padding: 15px;
+    width: 48%;
+    font-size: 25px;
+}
+.two-services .service-box > p{
+    font-size: 20px;
+}
+        /* END 6 Services */
+        /* BEGIN BUTTON */
+button{
+    margin-top: 20px; 
+    padding: 8px 20px 8px 20px;
+    background-color: #FFFFFF;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+button:hover{
+    opacity: 1;
+}
+        /* END BUTTON   */
+    /* Begin Serivce Facts */
+.services-bottom{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    font-size: 21px;
+    margin: 40px 0 -28px 0;
+    /* border: 1px solid red; */
+    
+}
+    .services-bottom p{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        /* font-size: 25px; */
+        margin: 0px 696px 25px 0px;
+        line-height: normal;
+    }
+    .services-bottom ul{
+        margin: 0 0px 39px 20px;
+        font-size: 18px;
+        margin-top: -7px 5px 0 -34px;
+    }
+.services-bottom img{
+    width: 50%;
+    margin: -33% 50% 24%;
+} 
+
+.copyright{
+    margin: -55px 0 0 460px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
