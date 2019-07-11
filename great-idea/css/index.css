@@ -216,7 +216,7 @@ footer{
 .services-header{
 	display: flex;
 	flex-direction: column;
-	border-bottom: 1px solid black;
+	border-bottom: 3px double grey;
 	padding-bottom: 20px;
 	/* background-color: aqua; */
 }
@@ -274,7 +274,7 @@ footer{
 	width: 1000px;
 	max-width: 100%;
 	margin: 20px 0;
-	border-bottom: 1px solid black;
+	border-bottom: 3px double grey;
 	padding-bottom: 40px;
 	/* background-color: yellow; */
 }
@@ -291,16 +291,32 @@ footer{
 /*  facts section */
 .facts{
 	display: flex;
+	justify-content: space-between;
+	height: 350px;
+	margin-bottom: 50px;
+	/* background-color: greenyellow; */
+}
 
-	border-bottom: 1px solid black;
-	padding-bottom: 20px;
-	/* background-color: aqua; */
+.facts div{
+	display: flex;
+	flex-direction: column;
+	max-width: 45%;
+	/* background-color: lightseagreen; */
+}
+
+ul{
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-top: 10%;
+	line-height:200%
+	/* background-color: beige; */
 }
 
 .services-info-img{
 	display: flex;
-	width: 1000px;
-	max-width: 100%;
-	margin: 20px 0;
-	/* background-color: blue; */
+	max-width: 45%;
+	margin: 20px;
+	/* background-color: lightcoral; */
 }
+
+/* footer uses same CSS from design page */
