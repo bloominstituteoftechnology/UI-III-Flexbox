@@ -103,78 +103,171 @@ h1, h2, h3, h4, h5,h6 {
 
 /* Your code starts here! */
 
-.navigation{
-    display: flex;
+* { 
+	box-sizing: border-box;
+} /* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+figure img,
+.image img, {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* structure */
+.page-section {
+	border: 2px solid blue;
+}
+
+.page-section .inner-column {
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 960px;
+	/* */
+	border: 2px solid orange;
+	padding: 10px;
+	min-height: 100px;
+}
+
+.page-section .tight-column {
+	max-width: 700px;
+}
+
+/* setup */
+p {
+	font-size: 20px; 
+	font-weight: 400; 
+	line-height: 1.4; 
+	letter-spacing: .02em; 
+	
+	max-width: 900px;
+}
+
+h1 + p { /* any p preceded by and h1 */
+	margin-top: 10px;
+}
+
+h2 + p { /* any p preceded by and h1 */
+	margin-top: 10px;
+}
+
+p + button {
+	margin-top: 10px;
+}
+
+/* font-patterns */
+.big-heading {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.medium-heading {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+
+/* theme */
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* HEADER */
+
+.site-header .logo {
+	max-width: 200px;
+}
+.site-menu {
+	display: flex;
     align-items: center;
     justify-content: space-between;
 }
-body{
-width: 900px;
-margin:auto;
-border:solid red;
-padding: 15px;
-}
-/* Landing page section */
-header{
-    font-size:20px;
-    display:flex;
-    align-items: center;
-}
-.informationContainer {
-    width: 50%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-.informationContainer h3 span {
-    width: 100%;
-    /* display: inline-block; */
-    font-size: 70px;
-}
-p.callToActionButton {
-    width: 50%;
-    margin: 0 auto;
-    border: 1px solid #000;
-    padding: 10px;
-}
-header img {
-	width: 50%;
-	clear: right;
-    height: 450px;
-    margin-top:50px;
-}
-/* Features and About Section */
-.content-7 {
-    margin-bottom: 20px;
-    display: flex;
-}
-.top2 {
-    margin-top: 20px;
-    /* display: inline-block; */
-    width: 50%;
-    float: left;
-}
-.top2-bottom3{
-    width:33.3%;
-    /* display:inline-block; */
-}
-a{
-    /* display: inline-block; */
-    text-decoration: none;
-	color: #969292;
+
+/* WELCOME */
+.welcome-area {
 	
 }
-p {
-	line-height: 1.25;
-	margin: 20px 0;
-  }
-  footer {
-      text-align: center;
-  }
-  .content-2{ 
-      display:flex;
-      
-  }
-  .middle-img{
-      margin-bottom: 15px;
-  }
+
+.welcome-area .inner-column {
+	padding-bottom: 40px;
+	border-bottom: 1px solid gray;
+}
+
+.welcome-area .image {
+	margin-bottom: 20px;
+}
+
+.welcome-area .image + .page-title{
+	margin-top: 20px;
+	border: 1px solid green;
+}
+
+
+.stuff .inner-column {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.stuff .item-list {
+	
+}
+
+.stuff .item {
+
+}
+
+.stuff .item:not(:last-of-type) {
+	margin-bottom: 40px;
+}
+
+.stuff .service {
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+@media (min-width: 700px) {
+	.stuff .item-list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.stuff .item {
+		width: 48%;
+	}
+}
+
+
+.about {
+	
+}
+
+@media (min-width: 700px) {
+	.about {
+		
+	}
+	
+	.about .inner-column {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+	.about .visual, .about .info {
+		width: 50%;
+		border: 1px solid red;
+	}
+	
+	.about .info {
+		order: -1; /* or row-reverse on parent */
+	}
+	
+}
+
+
+footer {
+	text-align: center;
+}
