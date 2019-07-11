@@ -104,28 +104,40 @@ header {
 .getStarted {
 	font-family: "Russo One", sans-serif;
 	font-size: 21px;
-	position: relative;
+	position: initial;
 	color: forestgreen;
-	/*text-align: center;*/
-	width: 145px;
-	height: 32px;
-	/*border: 3px solid orange;*/
-	/*border-radius: 15px;*/
+	/*!*text-align: center;*!*/
+	*/*width: 145px;*/
+	/*height: 32px;
+	border: 3px solid orange;
+	border-radius: 15px;
 	bottom: 40px;
 	left: 35px;
 }
 
 
 .bigPic {
-	/*position: relative;*/
-	/*top: -175px;*/
-	/*left: 400px;*/
+	position: relative;
+	top: -175px;
+	left: 400px;
+
+	 */
+.logo {
+	background-image: url("../img/logo.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 40px;
+	background-position-x: center;
 }
 
-
-.logo {
-	/*position: relative;*/
-	/*left: 30px;*/
+.logo:hover {
+	background-image: url("../img/logo1.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 40px;
+	background-position-x: center;
 }
 .Head img {
 	/*display: flex;*/
@@ -139,9 +151,11 @@ header {
 }
 
 nav {
-	width: 60%;
+	width: 70%;
 	display:flex;
 	justify-content: space-between;
+	position: relative;
+	top: 10px;
 }
 
 nav a {
@@ -265,6 +279,18 @@ p {
 p:hover {
 	transform: scale(1.2);
 }
+
+.termsBox{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	overflow: scroll;
+	left: 155px;
+}
+.termsBox h1 {
+	font-family: "Bangers", serif;
+	font-size: 18px;
+}
 h6 {
 	font-family: "Shadows Into Light", serif;
 	font-size: 20px;
@@ -296,6 +322,46 @@ h5:hover {
 	position: relative;
 	width: 360px;
 	height: 240px;
+}
+.termsCheck {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.yesorno{
+	display: flex;
+	width: 200px;
+	height: 100px;
+	position: relative;
+	left: 300px;
+}
+.yesorno h1 {
+	font-family: "Times New Roman", serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+.Agree {
+	font-family: "Russo One", sans-serif;
+	font-size: 21px;
+
+	color: forestgreen;
+}
+.Decline {
+	font-family: "Russo One", sans-serif;
+	font-size: 21px;
+
+	color: red;
+}
+
+.Sorry {
+	font-family: "Russo One", sans-serif;
+	font-size: 21px;
+
+	color: forestgreen;
+	display: block;
+	position: relative;
+	left: 350px;
 }
 
 /*.end {*/
