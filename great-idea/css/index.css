@@ -314,23 +314,28 @@ footer p {
 section.cards {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;	
 }
 
 div.cards-flex-row {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+	height: 250px;
 }
 
 .card {
 	background-color: lightgrey;
 	border: 1px solid black;
 	padding: 16px;
+	width: 500px;
 }
 .card a {
 	display: inline-block;
 	padding: 12px 36px;
 	border-radius: 2px;
 	text-decoration: none;
+	border: 1px solid black;
 }
 
 /* section facts */
