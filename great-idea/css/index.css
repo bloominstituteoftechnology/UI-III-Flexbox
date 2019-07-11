@@ -209,6 +209,15 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-between;
 	align-content: space-around;
 	flex-wrap: wrap;
-	background: blue;
 	height: 900px;;
+}
+#facts_container{
+	display:flex;
+	justify-content: space-between;
+}
+.services_text_content{
+	width: 45%;
+}
+.services_text_content img{
+	width: 100%;
 }
