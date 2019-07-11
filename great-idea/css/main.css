@@ -65,73 +65,88 @@ h1, h2, h3, h4, h5 {
 
 /* My code */
 
-*{
+* {
 	box-sizing: border-box;
 	padding: 0;
 	margin:0;
 	max-width: 100%;
-	border: 1px solid lightblue;
 }
-nav{
+
+.container {
 	width: 60%;
+	margin: 0% auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	width: 100%;
+    margin: 0% auto;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+	width: 73%;
 	display: flex;
 	justify-content: space-around;
-	margin: 0% auto;
 }
 a {
 	text-decoration: none;
     color: lightgray;
-    font-size: 14px;
+	font-size: 16px;
 }
 
-header {
-    width: 60%;
-    display:flex;
-    flex-direction: column;
+h1 {
+    font-size: 24px;
+}
+
+.servicesHead {
     margin: 3% auto;
+    border-bottom: 1px solid black;
+    padding: 3% 0%;
 }
- h1 {
-     font-size: 24px;
-     margin: 3% auto;
- }
 
- .sectionBorder{
-     width: 60%;
-     margin: 0% auto;
-     padding: 3% 0%;
-     border-top: 1px solid black;
-     border-bottom: 1px solid black;
-     display: flex;
-     justify-content: space-between;
- }
-
- /* give all divs in
-         .sectionBorder a class to edit with flex box */
-
- /*.sectionBorder div {
-     border: 1px solid black;
- }*/
-.boxGrid {
-    width:95%;
+.sectionBorder {
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    
+}
+
+.boxGrid {
+    width: 45%;
     border: 1px solid black;
 }
- .serviceBox div{
-     display: flex;
-     justify-content: ;
- }
- .facts{
-     width: 60%;
-     margin: 0% auto;
-     padding: 3% 0%;
-     display: flex;
-     justify-content: space-between;
- }
 
- .services-info-img {
-     display: flex;
-     
- }
+
+.facts {
+    margin: 5% auto;
+    border-top: 1px solid black;
+    padding: 3% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;    
+}
+
+.someFacts{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.services-info-img {
+    width: 45%;
+    height: 45%;
+}
+
+footer {
+    margin: 5% auto;
+}
