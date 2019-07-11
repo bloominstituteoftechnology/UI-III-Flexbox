@@ -159,3 +159,7 @@ p {
 	margin-top: 40px;
 }
 
+.container1 {
+	display: flex;
+	background-color: rgb(129, 127, 255)
+}
