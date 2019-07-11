@@ -120,6 +120,10 @@ html {
   padding-left: 6%;
 }
 
+.navigation >li>a {
+  color: black;
+}
+
 li:last-of-type {
   margin-left: auto;
   padding-right: 4%;
