@@ -67,92 +67,75 @@ h1, h2, h3, h4, h5 {
 
 
 nav{
-	
 	display:flex;
 	justify-content:space-evenly;
 	width:100%;
-	margin-bottom:20px;
-
+	margin-bottom:100px;
 }
 
 nav a{
-	display:flex;
 	align-items:center;
 }
-
-
-
-
 
 
 .main-header{
 	margin:10px;
 	display:flex;
-	justify-content:space-between;
+	justify-content:center;
 }
 
 .header-left{
 	display:flex;
 	font-size:104px;
+	justify-content:center;
+	flex-direction:column;
+}
+
+.header-left h1{
+	display:flex;
 	align-items:center;
 }
+
+
+.header-left button{
+	border:1px solid grey;
+	font-size:20px;
+	align-self:center;
+	margin:10px;
+}
+
 .header-right{
 	display:flex;
+	margin-left:60px;
 }
+
+
 
 .ctaright{
-	
 	display:flex;
 }
 
-.main{
+.middle-container{
 	display:flex;
-}
-
-.main1{
-	
-	display:flex;
-}
-
-.main2{
-	
-	display:flex;
+	margin-bottom:20px;
 }
 
 .middle-img{
-	
 	display:flex;
 }
 
-.subhead{
-	margin: 50px 0px;
+.bottom-container{
 	display:flex;
+	justify-content:space-between;
+	margin:50px 10px;
 }
 
-.services{
-	
+.footer-text{
 	display:flex;
+	justify-content:center;
 }
 
-.product{
-	
-	display:flex;
-	
-}
 
-.vision{
-	
-	display:flex;
-}
-
-.footer{
-	margin:50px 0px;
-}
-
-.bottom{
-	width:100%;
-	text-align:center;
-}
 
 
 
@@ -173,17 +156,15 @@ nav a{
 
 
 .container{
-	border: 1px solid blue;
+	border: 1px solid white;
 	margin: 195px;
 }
 
 nav{
-	
 	display:flex;
 	justify-content:space-evenly;
 	width:100%;
 	margin-bottom:20px;
-
 }
 
 nav a{
@@ -285,7 +266,7 @@ nav a{
 	margin: 20px 0px;
 }
 
-bottom{
-	width:100%
-	text-align:center;
+.bottom{
+	display:flex;
+	justify-content:center;
 }
