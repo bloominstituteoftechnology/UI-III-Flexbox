@@ -227,3 +227,32 @@ h1, h2, h3, h4, h5 {
 .services_text_content img{
 	width: 100%;
 }
+
+#Vision_heading{
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+#vision_content_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 500px;
+	text-align: center;
+	align-items: center;
+
+}
+
+.vision_content{
+	width: 100%;
+	background: lightgray;
+	padding: 35px;
+
+}
