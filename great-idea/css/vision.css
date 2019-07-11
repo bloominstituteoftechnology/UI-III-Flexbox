@@ -152,7 +152,7 @@ li:last-of-type {
   padding-bottom: 25px;
   width: 40%;
   height: 30px;
-  border: 1px solid black;
+  border: 1px solid white;
   text-align: center;
   margin-top: 2%;
 }
@@ -234,7 +234,7 @@ li:last-of-type {
 }
 
 .main-6 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 2%;
   margin: 2%;
 }
