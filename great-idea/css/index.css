@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-/*container */
+/*desktop.jpg CSS code starts here*/
 .container{
 	width: 1000px;
 	margin: 0 auto;
@@ -207,4 +207,100 @@ section div{
 /* footer */
 footer{
 	text-align: center;
+}
+
+
+/* services-desktop-design.png CSS code starts here */
+/* using the same navigation code from above */
+/* header */
+.services-header{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	/* background-color: aqua; */
+}
+
+.services-header-img{
+	display: flex;
+	width: 1000px;
+	max-width: 100%;
+	margin: 20px 0;
+	/* background-color: blue; */
+}
+
+/* top section */
+.top-sec{
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	max-width: 100%;
+	margin: 20px 0;
+	/* background-color: red; */
+}
+
+.top-sec div{
+	display: flex;
+	align-content: space-between;
+	max-width: 45%;
+	border-style: ridge;
+	border-width: 5px;
+	background-color: lightgray;
+}
+
+/* middle section */
+.middle-sec{
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	max-width: 100%;
+	margin: 10px 0;
+	/* background-color: orange; */
+}
+
+.middle-sec div{
+	display: flex;
+	align-content: space-between;
+	max-width: 45%;
+	border-style: ridge;
+	border-width: 5px;
+	background-color: lightgray;
+}
+
+/* bottom section  */
+.bottom-sec{
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	max-width: 100%;
+	margin: 20px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+	/* background-color: yellow; */
+}
+
+.bottom-sec div{
+	display: flex;
+	align-content: space-between;
+	max-width: 45%;
+	border-style: ridge;
+	border-width: 5px;
+	background-color: lightgray;
+}
+
+/*  facts section */
+.facts{
+	display: flex;
+
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	/* background-color: aqua; */
+}
+
+.services-info-img{
+	display: flex;
+	width: 1000px;
+	max-width: 100%;
+	margin: 20px 0;
+	/* background-color: blue; */
 }
