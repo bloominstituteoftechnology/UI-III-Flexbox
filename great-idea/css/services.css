@@ -1,0 +1,118 @@
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/*Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+    width: 910px;
+    margin: 0 auto;
+  }
+
+/*header {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-size: 14px;
+    margin: 20px;
+}*/
+
+header nav {
+    display: inline-block;
+    width: 691px;
+    vertical-align: top;
+    margin-top: 35px;
+  }
+  
+header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+header nav a:first-child {
+margin-left: 0;
+}
+
+header nav a:last-child {
+margin-right: 0;
+}
+
+header .logo {
+margin-top: 25px;
+}
+
+.services-header-img {
+    margin: 15px 0px;
+}
+
+.services-content {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.offerings-list {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+button {
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+div .offerings {
+    background: #e8e4e4;
+    border: 1px solid black;
+    width: 420px;
+    margin: 20px 0px;;
+}
+
+.offerings p, h4{
+    padding: 0px 25px;
+}
+
+.facts {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+}
+
+.facts-about{
+    width: 420px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: -20px;
+    padding-bottom: 10px;
+}
+
+li {
+    padding: 5px 0px;
+}
+
+footer {
+    margin: 80px 0px;
+    text-align: center;
+}
+
