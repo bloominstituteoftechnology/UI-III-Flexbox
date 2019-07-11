@@ -168,3 +168,47 @@ h1, h2, h3, h4, h5 {
 	padding-top: 50px;
 	padding-bottom: 50px;
   }
+
+
+   /*Services Section*/
+  .services_content{
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+	  width: 47%;
+	  height: 200px;
+	  border: solid 1px black;
+	  background: lightgray;
+	  padding: 20px;
+  }
+
+  .services_content button{
+	background: white;
+	border: solid 3px black ;
+	border-radius: 5px;
+	padding: 10px 15px;
+	width: 35%;
+	height: 20%;
+}
+
+#services_heading{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 1200px;
+	height: 500px;
+	vertical-align: middle;
+}
+
+#services_heading_image img{
+	width: 100%;
+}
+
+#services_content_container{
+	display: flex;
+	justify-content: space-between;
+	align-content: space-around;
+	flex-wrap: wrap;
+	background: blue;
+	height: 900px;;
+}
