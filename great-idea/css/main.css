@@ -96,28 +96,32 @@ header {
  }
 
  .sectionBorder{
-     width: 60%;
+     width: 100%;
      margin: 0% auto;
      padding: 3% 0%;
      border-top: 1px solid black;
      border-bottom: 1px solid black;
-    /*
+    
      display: flex;
      justify-content: space-evenly;
      align-content: center;
-     */
+     
  }
+
+ /* give all divs in
+         .sectionBorder a class to edit with flex box */
 
  .sectionBorder div {
      border: 1px solid black;
  }
  
- .serviceBox {
-     width:90%;
+ .serviceBox div{
+     width: 60%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+   flex-wrap: wrap; 
+    justify-content: space-evenly;
  }
-
  .facts{
      display: flex;
      flex-direction: column;
@@ -125,5 +129,5 @@ header {
 
  .services-info-img {
      display: flex;
-     justify-content: end;
+     
  }
