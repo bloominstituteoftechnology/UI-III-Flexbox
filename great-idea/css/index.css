@@ -65,7 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
+button{
+	margin: 20px;
+}
 
 .top{
 	background: red;
@@ -77,15 +79,16 @@ h1, h2, h3, h4, h5 {
 .img-under-top{
 	background: blue;
 	display: flex;
-	flex-direction: center;
-	margin-right: 20%;
-	margin-left: 20%;;
+	width: 20%;
+	margin-left: 240px;
 }
 
 .text-under-img{
 	background: yellow;
-	margin-right: 20%;
+	width: 75%;
 	margin-left: 20%;
+	/* margin-right: 20%;
+	margin-left: 20%; */
 }
 
 .box-section{
@@ -93,8 +96,8 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	margin-right: 20%;
 	margin-left: 20%;
-	width: 65%;
-	height: 65%;
+	width: 75%;
+	height: 75%;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	justify-content: space-around;
@@ -104,7 +107,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .box-section .content-box{
-	
 	justify-content: center;
 	overflow: hidden;
 }
@@ -112,6 +114,7 @@ h1, h2, h3, h4, h5 {
 .main-content{
 	border: solid 2px grey;
 	width: 45%;
+	
 }
 
 .bottom-content{
@@ -137,4 +140,94 @@ h1, h2, h3, h4, h5 {
 .middle-bottom{
 	display: flex;
 
+}
+
+/* everything above ^^ is services.html */
+
+/* everything below is index.html */
+
+
+.header{
+	background: red;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20%;
+	margin-left: 20%;
+	justify-content: space-between;
+	padding-right: 20px;
+	padding-left: 50px;
+}
+
+.header nav a{
+	align-content: space-around;
+
+}
+
+.header .logo{
+	justify-content: flex-end;
+}
+
+.innovation-and-button{
+	background: blue;
+	display: flex;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.innovation-and-button h1{
+	background: yellow;
+	font-size: 100px;
+	flex-direction: center;
+}
+
+.innovation-and-button button{
+	background: hotpink;
+}
+
+.top-two{
+	background: purple;
+	display: flex;
+	margin-right: 20%;
+	margin-left: 20%;
+	justify-content: space-evenly;
+	
+}
+
+.middle-img{
+	background: black;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.bottom-three{
+	background: lime;
+	margin-right: 20%;
+	margin-left: 20%;
+	display: flex;
+	margin-right: 20%;
+	margin-left: 20%;
+	
+}
+
+.bottom-content{
+	display: flex;
+	justify-content: space-between;
+	justify-content: flex-end;
+	
+}
+
+.bottom-content .services-info-img{
+	
+}
+
+.contact{
+	background: orange;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.copyright p{
+	display: flex;
+
+	justify-content: center;
 }
