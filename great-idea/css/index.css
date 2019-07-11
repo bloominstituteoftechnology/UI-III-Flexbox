@@ -138,8 +138,6 @@ header nav a {
 }
 
 
-}
-
 .top-content .text-content {
 	margin: 40px;
 }
@@ -235,4 +233,9 @@ img.services-header-img {
 
 .header2 a {
     margin-top: -1%;
+}
+
+.product-header-img {
+	width: 800px;
+	height: 181.8px;
 }
