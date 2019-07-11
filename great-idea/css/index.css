@@ -165,10 +165,18 @@ nav a:hover{
 
 
 /* For services.html --- I'm assuming with multiple css files I won't run into mutliple named class issues>? */
+.services-page @media (min-width: 320px) and (max-width: 480px){
+	.services-page .services-header-img{
+		width: 480px;
+		padding-bottom: 20px;
+	}
+}
+
 .services-page .services-header-img{
 	width: 800px;
 	padding-bottom: 20px;
 }
+
 
 .services-page .intro{
 	border-bottom: 1px solid black;
@@ -176,11 +184,29 @@ nav a:hover{
 	padding: 20px 0;
 }
 
+.services-page @media (min-width: 320px) and (max-width: 480px){
+	.services-page main .row{
+		display: flex;
+		flex-direction: space-between;
+	}
+}
+
 .services-page main .row{
 	display: flex;
 	flex-direction: space-between;
 }
 
+.services-page @media (min-width: 320px) and (max-width: 480px){
+	.services-page main .row section{
+		display: flex;
+		border: 1px solid black;
+		background: #F4F3F4;
+		flex-flow: column wrap;
+		flex-direction: flex-start;
+		margin: 20px 10px;
+		padding: 10px;
+	}
+}
 .services-page main .row section{
 	display: flex;
 	border: 1px solid black;
@@ -189,6 +215,18 @@ nav a:hover{
 	flex-direction: flex-start;
 	margin: 20px 10px;
 	padding: 10px;
+}
+
+.services-page @media (min-width: 320px) and (max-width: 480px){
+	.services-page button{
+		border: 1px solid black;
+		border-radius: 5px;
+		width: 150px;
+		height: 50px;
+		margin: 10px 0px;
+		background: white;
+	
+	}
 }
 
 .services-page button{
@@ -201,15 +239,39 @@ nav a:hover{
 
 }
 
+.services-page @media (min-width: 320px) and (max-width: 480px){
+	.services-page main{
+		border-bottom: 1px solid black;
+	}
+}	
+
 .services-page main{
 	border-bottom: 1px solid black;
 }
+
+.services-page @media (min-width: 320px) and (max-width: 480px){
+	.services-page .info{
+		display: flex;
+		margin: 40px 0px 10px 5px;
+		flex-direction: space-between;	
+	}
+}	
 
 .services-page .info{
 	display: flex;
 	margin: 40px 0px 10px 5px;
 	flex-direction: space-between;	
 }
+
+.services-page @media (min-width: 320px) and (max-width: 480px){
+	.services-page .services-info{
+		display: flex;
+		margin: 0px 10px 0px 0px;
+		padding: 10px;
+		flex-flow: column wrap;
+		flex-direction: flex-start;
+	}
+}	
 
 .services-page .services-info{
 	display: flex;
@@ -219,10 +281,25 @@ nav a:hover{
 	flex-direction: flex-start;
 }
 
+.services-page @media (min-width: 320px) and (max-width: 480px){
+	.services-page ul{
+		margin-left: 20px; /* how do i not do this? */
+		list-style-type: square;
+		line-height: 2;	
+	}
+}	
+
 .services-page ul{
 	margin-left: 20px; /* how do i not do this? */
 	list-style-type: square;
 	line-height: 2;	
+}
+
+.services-page @media (min-width: 320px) and (max-width: 480px){
+	.services-page footer p{
+		margin-top: 50px;
+		text-align: center;
+	}
 }
 
 .services-page footer p{
@@ -270,6 +347,11 @@ nav a:hover{
 	margin-top: 50px;
 	text-align: center;
 }
+
+
+.services-page @media (min-width: 320px) and (max-width: 480px){
+}
+
 
 @-webkit-keyframes text-shadow-pop-top {
 	0% {
