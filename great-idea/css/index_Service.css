@@ -150,46 +150,101 @@ h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* * {
+  border: 1px solid red !important;
+ } */
+
 body {
   margin: auto;
-  width: 1000px;
+  width: 900px;
 }
 
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 header nav {
   display: flex;
-  width: 75%;
+  width: 70%;
   justify-content: space-between;
+  margin-left: 30px;
 }
 
 .main-content {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid black;
+  padding: 30px 30px 30px 30px;
 }
 
-.main-content .services h1 {
-  /* h1styles */
+h1 {
+  font-size: 2em;
+  padding-top: 20px;
 }
 
-.main-content .services p {
-  /* h1styles */
-}
-
-.main-content .services h1 {
-  /* h1styles */
+.content-box {
+  border: 1px solid darkgray;
+  background-color: lightgrey;
 }
 
 .info-section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  height: 750px;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
 }
 
 .info-section .content-box {
+  width: 40%;
+  height: 30%;
+  padding: 20px;
+}
+h2 {
+  font-size: 1.5em;
+  padding: 10px;
+}
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid black;
+  padding: 20px;
+}
+
+.facts .p {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.facts .a {
+  list-style-type: square;
+}
+
+.facts .bottom-box {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.facts .bottom-img {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+
+}
+.bottom-box ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+footer {
+  text-align: center;
   padding: 20px;
 }
