@@ -67,14 +67,12 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	flex-flow: row nowrap;
-	background-color: aquamarine;
 	text-decoration: none;
 
 }
 
 .container {
 	width: 1600px;
-	background-color: blueviolet;
 	padding: 70px;
 	align-content: center;
 }
@@ -94,7 +92,6 @@ a {
 .main-header {
 	display: flex;
 	align-content: center;
-	background-color: coral;
 	margin-top: 75px;
 	margin-bottom: 75px;
 
@@ -103,7 +100,6 @@ a {
 h1 {
 	margin-left: 270px;
 	font-size: 125px;
-	background-color: darkcyan;
 	text-align: center;
 }
 
@@ -126,20 +122,17 @@ button {
 .middle-container {
 	display: flex;
 	justify-content: center;
-	background-color: floralwhite;
 	border-top-color: solid grey line 1px;
 }
 
  .middle-img {
 	 width: 1460px;
 	 height: 100%;
-	 background-color: lightsalmon
 	 margin-top: 10px;
 	 margin-bottom: 10px;
  }
 
  .bottom-container {
-	 background-color: gold;
 	 display: flex;
 	 justify-content: center;
 }
@@ -150,7 +143,19 @@ p {
 }
 
 .contact {
-	background-color: aqua;
 	line-height: 0pt;
 	
-}git 
+}
+
+.services {
+	background-color: aquamarine;
+	display: flex;
+	
+
+}
+
+.logo {
+	height: 65px;
+	margin-top: 40px;
+}
+
