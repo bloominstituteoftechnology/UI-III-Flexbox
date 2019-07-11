@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+
+header {
+	display: flex;
+	justify-content: space-around;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.services-header-img {
+	margin-top:30px;
+	margin-bottom:30px;
+  }
+
+  .services {
+	padding-left: 5%;
+	padding-right: 10%;
+	margin-bottom: 2%;
+	max-width: 100%;
+  }
+
+  .first-line {
+	max-width: 100%;
+	margin-left: 5%;
+	margin-right: 10%; 
+  }
+
+  .top-content {
+	display: flex;
+	justify-content: space-around;
+	max-width: 100%;
+  }
+  button {
+	  margin-top: 20px; 
+  }
+  .digital-design {
+	background: lightgray;
+	border: 1px black;
+	border-style: solid;
+	border-color: black; 
+	padding: 2%;
+	margin: 15px;
+	padding-left: 5%;
+  }
+  
+  .ux-ui {
+	background: lightgray;
+	border: 1px black;
+	border-style: solid;
+	border-color: black; 
+	padding: 2%;
+	margin: 15px;
+	padding-right: 10%;
+  }
+
+  .middle-content {
+	display: flex;
+	justify-content: space-around;
+	max-width: 100%;
+  }
+
+  .digital-marketing {
+	background: lightgray;
+	border: 1px black;
+	border-style: solid;
+	border-color: black; 
+	padding: 2%;
+	margin: 15px; 
+	padding-left: 5%;
+  }
+  
+  .web-development {
+	background: lightgray;
+	border: 1px black;
+	border-style: solid;
+	border-color: black; 
+	padding: 2%;
+	margin: 15px; 
+	padding-right: 10%;
+  }
+
+  .bottom-content {
+	display: flex;
+	justify-content: space-around;
+	max-width: 100%;
+  }
+
+  .ios-development {
+	background: lightgray;
+	border: 1px black;
+	border-style: solid;
+	border-color: black; 
+	padding: 2%;
+	margin: 15px; 
+	padding-left: 5%;
+  }
+  
+  .android-development {
+	background: lightgray;
+	border: 1px black;
+	border-style: solid;
+	border-color: black; 
+	padding: 2%;
+	margin: 15px; 
+	padding-right: 10%;
+  }
+  .second-line {
+	max-width: 100%;
+	margin-left: 5%;
+	margin-right: 10%; 
+  }
+
+  .facts-section {
+	display: flex;
+	justify-content: space-around;
+	max-width: 100%;
+  }
+
+.service-facts { 
+	padding: 2%;
+	margin: 15px; 
+	padding-left: 5%;
+}
+
+  li {
+	line-height: 1.5;
+  }
+
+footer {
+	text-align: center;
+	padding-top: 50px;
+}
