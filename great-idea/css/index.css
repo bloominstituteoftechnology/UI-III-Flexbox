@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 2;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +64,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+	flex-flow: row nowrap;
+	background-color: aquamarine;
+	text-decoration: none;
+
+}
+
+.container {
+	width: 1600px;
+	background-color: blueviolet;
+	padding: 70px;
+	align-content: center;
+}
+
+.logo {
+	padding-left: 55px
+}
+
+a {
+	flex-flow: column nowrap;
+	margin: 70px;
+	padding-bottom: 10px;
+
+
+}
+
+.main-header {
+	display: flex;
+	align-content: center;
+	background-color: coral;
+	margin-top: 75px;
+	margin-bottom: 75px;
+
+}
+
+h1 {
+	margin-left: 270px;
+	font-size: 125px;
+	background-color: darkcyan;
+	text-align: center;
+}
+
+.header-left {
+	align-content: center;
+}
+
+.header-right {
+	margin-left: 100px;
+	
+}
+
+button {
+	margin-left: 410px;
+	border-color: gray;
+	font-size: 15px;
+	width: 198px;
+}
+
+.middle-container {
+	display: flex;
+	justify-content: center;
+	background-color: floralwhite;
+	border-top-color: solid grey line 1px;
+}
+
+ .middle-img {
+	 width: 1460px;
+	 height: 100%;
+	 background-color: lightsalmon
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+ }
+
+ .bottom-container {
+	 background-color: gold;
+	 display: flex;
+	 justify-content: center;
+}
+
+p {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.contact {
+	background-color: aqua;
+	line-height: 0pt;
+	
+}
