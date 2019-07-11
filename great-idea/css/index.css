@@ -65,131 +65,256 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	width: 990px;
-	/* TB LR */
-	margin: 0 auto;
-  }
-  
-  /* header */
-  
-  header nav {
-	width: 691px;
-	vertical-align: top;
-	margin-top: 35px;
-	display: flex;
-	justify-content: space-evenly;
-  }
+	width: 950px;
+	margin: auto;
+	/* border: 1px solid red; */
+}
 
-  header {
+header nav {
+	width: 700px;
+	vertical-align: top;
+	margin-top: 20px;
 	display: flex;
 	justify-content: space-evenly;
-  }
-  
-  header nav a {
-	margin-right: 65px;
-	font-size: 14px;
-	color: gray;
-	text-decoration: none;
-  }
-  
-  header nav a:hover {
-	text-decoration: underline;
-  }
-  
-  header nav a:first-child {
-	margin-left: 0;
-  }
-  
-  header nav a:last-child {
-	margin-right: 0;
-  }
-  
-  header .logo {
-	margin-top: 25px;
+}
+
+a:hover {
+  color: black;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: rgb(74, 122, 255);
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}
+
+header .logo {
+	margin-top: 1%;
 	margin-left: 3em;
+	margin-right: 5%;
+}
+  
+  /* code-snippet */
+  .code-snippet {
+    font-size: 72px;
+    margin-top: 8%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    display: flex;
+    }
+
+  .snippet-text {
+    margin-left: 12%;
+    margin-top: 5%;
   }
-  
-  /* codesnippet */
-  
-  .code-snippet .snippet-text{
-	font-size: 77px;
-	margin-top: 120px;
-	text-align: center;
-	padding: 0px 75px;
-	display: flex;
-	flex-direction: row;
+  button:hover {
+    color: black;
   }
 
-  
-  .code-snippet .snippet-text button {
-	background: white;
-	vertical-align: top;
-	margin-top: 6px;
-	padding: 8px 44px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
+  .snippet-text button {
+    height: 30px;
+    width: 160px;
+    background: white;
+    vertical-align: top;
+    margin-left: 22%;
+    display: flex;
+    justify-content: center;
   }
-  
-  .code-snippet .snippet-text button:hover {
-	background: black;
-	color: white;
+
+  .code-snippet .headimg {
+    margin-left: 10%;
+    margin-bottom:6%;
+    vertical-align: top;
   }
-  
-  
+
+  /* maint-content */
   .main-content {
-	border-top: 1px solid black;
-	margin-top: 76px;
-	padding-top: 39px;
+    margin-top: 10px;
+    padding-top: 39px;
   }
   
   .main-content .top-content {
-	padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
   }
   
   .main-content .top-content .text-content {
-	width: 410px;
-	display: inline-block;
-	margin-right: 34px;
-  }
-  
-  .main-content .top-content .text-content:last-child {
-	margin-right: 0;
+    width: 500px;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: center;
+ 
   }
   
   .main-content .middle-img {
-	margin-top: 45px;
+    margin: 2%;
+    display: flex;
+    justify-content: stretch;
   }
-  
-  .main-content .info-content {
-	margin-top: 37px;
-	padding: 0 10px;
-  }
-  
-  .main-content .info-content .info-text {
-	width: 275px;
-	display: inline-block;
-	margin-right: 12px;
-  }
-  
-  .main-content .info-content .info-text:last-child {
-	margin-right: 0;
-  }
-  
-  .contact {
-	margin-top: 57px;
-	border-top: 1px solid black;
-	padding: 39px 10px 0;
-  }
-  
-  .contact p {
-	margin: 20px 0;
-  }
-  
-  footer {
-	margin: 32px 0;
-	text-align: center;
-	font-size: 14px;
+  /* bottom-content */
+  .main-content .bottom-content {
+    width: 900px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
   }
 
+  .main-content .bottom-content .text-content {
+    width: 275px;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+  }
+
+  .bottom-content .text-content {
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  .main-content .bottom-content .text-content:last-child {
+    margin-bottom: 4%;
+    margin-right: 0;
+  }
+
+  /* contact */
+  .contact {
+    padding: 39px 10px 0;
+    }
+    
+    .contact p {
+    margin: 20px 0;
+    }
+    
+    footer {
+    margin: 32px 0;
+    text-align: center;
+    font-size: 14px;
+    }
+
+
   /* services css */
+
+  .container {
+    width: 880px;
+    margin: auto;
+    /* border: 1px solid red; */
+  }
+  
+  header nav {
+    width: 700px;
+    vertical-align: top;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header {
+    background-color: rgb(74, 122, 255);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  header .logo {
+    margin-top: 1%;
+    margin-left: 3em;
+    margin-right: 5%;
+  }
+
+  .services-header-img {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: stretch;
+  }
+
+.services h2 {
+  font-size: 23px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.bottom-content {
+  border-top: 1px solid black;
+  padding: 2%;
+}
+
+  .box {
+    width: 46%;
+    margin: 20px 0;
+    padding: 15px;
+    background: rgb(247, 247, 247);
+    border: 1px solid black;
+  }
+
+  button {
+    width: 140px;
+    height: 30px;
+    margin-top:7%;
+    background: white;
+  }
+
+  .web-design {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .webdev {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .middle-boxes {
+    border-bottom: 1px solid black;
+  }
+
+  .bottom-area {
+    display: flex;
+  }
+
+  .text {
+    width: 45%;
+    margin-top: 5%;
+    margin-right: 3%;
+    flex-direction: row;
+  }
+
+  li {
+    margin-top: 2px;
+    line-height: 2;
+  }
+
+  .services-info-img {
+    margin-top: 5%;
+  }
+
+  .text h2 {
+    font-size: 12px;
+    text-align: left;
+  }
