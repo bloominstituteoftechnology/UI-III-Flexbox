@@ -1,0 +1,101 @@
+            html,
+            body {
+                height: 100%;
+                font-family: 'Titillium Web', sans-serif;
+            }
+            
+            * {
+                border: 1 px solid red;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5 {
+                font-family: 'Bangers', cursive;
+                letter-spacing: 1px;
+                margin-bottom: 15px;
+            }
+            
+            header .navigation {
+                box-sizing: inline;
+                margin: 0px 0px 10px 0px;
+            }
+            
+            .logo {
+                margin: 10px 10px 10px 30px;
+            }
+            
+            .services-header-img {
+                display: flex;
+                ;
+            }
+            
+            .navigation a {
+                flex-direction: row;
+                text-decoration: none;
+                color: lightslategray;
+                box-sizing: border-box;
+                background: white;
+                margin: 10px 10px;
+                padding: 5px 10px;
+                align-content: center;
+            }
+            
+            .atTheTop {
+                width: 95%;
+            }
+            
+            .centersection {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+                align-content: space-evenly;
+                justify-content: space-evenly;
+            }
+            
+            .titlebox {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                /*justify-content: space-evenly;*/
+                width: 45%;
+                background: lightslategrey;
+                box-sizing: border-box;
+                border: 1px solid rgb(30, 20, 119);
+                margin: 20px 0px 20px 0px;
+            }
+            
+            .button {
+                display: flex;
+                justify-self: flex-start;
+                width: 90px;
+                margin: 0px 0px 10px 10px;
+            }
+            
+            .bottomBefor {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+            
+            .boxLeft {
+                width: 45%;
+                margin: 0px 10px 0px 0px;
+            }
+            
+            .lastpic {
+                display: flex;
+                justify-self: flex-end;
+                width: 40%;
+                margin: 20px 25px 0px 0px;
+            }
+            
+            footer {
+                box-sizing: border-box;
+                text-align: center;
+                height: 15px;
+                margin: 10px;
+            }
