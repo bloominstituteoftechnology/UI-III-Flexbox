@@ -133,7 +133,7 @@ header .logo {
     vertical-align: top;
   }
 
-  /* maint-content */
+  /* main-content */
   .main-content {
     margin-top: 10px;
     padding-top: 39px;
@@ -305,9 +305,9 @@ header .logo {
     flex-direction: row;
   }
 
-  li {
-    margin-top: 2px;
-    line-height: 2;
+  ul {
+    padding: 2%;
+    list-style-type: circle;
   }
 
   .services-info-img {
