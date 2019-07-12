@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5 {
 
 header {
 	width: 100%;
-    margin: 0% auto;
+    margin: 3% auto;
 	display: flex;
 	align-items: center;
     justify-content: space-between;
@@ -110,14 +110,29 @@ h1 {
 }
 
 .sectionBorder {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
 }
 
 .boxGrid {
-    width: 45%;
+    /*width: 100%; <--last resort */
+    padding: 5%;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    margin-right: 2.5%;
+}
+.bottom {
+    margin-left: 2.5%;
+}
+
+button {
+    background: white;
+    padding: 2% 7%;
+    margin: 3% 45% 3% 0%;
+    display: flex;    
 }
 
 
