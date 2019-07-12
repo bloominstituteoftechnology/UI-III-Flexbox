@@ -64,102 +64,72 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-nav {
-	flex-flow: row nowrap;
-	text-decoration: none;
-
-}
-
 .container {
-	width: 1600px;
-	padding: 70px;
-	align-content: center;
+	width: 880px;
+	margin: auto;
 }
-
-.logo {
-	padding-left: 55px
-}
-
-a {
-	flex-flow: column nowrap;
-	margin: 70px;
-	paddingcd-bottom: 10px;
-
-
-}
-
-.main-header {
+header {
 	display: flex;
-	align-content: center;
-	margin-top: 75px;
-	margin-bottom: 75px;
-
+	justify-content: space-between;
+	margin: 36px 0;
+	align-items: center;	
+	padding-bottom: 40px;
 }
 
-h1 {
-	margin-left: 270px;
-	font-size: 125px;
+header nav {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+
+header nav > a {
+	text-decoration: none;
+	color: grey;
+}
+
+section.cta {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+	border-bottom: 2px solid black;
+}
+
+section.cta .cta-text {
+	margin: 60px;
+	font-size: 4rem;
 	text-align: center;
-}
-
-.header-left {
-	align-content: center;
-}
-
-.header-right {
-	margin-left: 100px;
 	
 }
-
 button {
-	margin-left: 410px;
-	border-color: gray;
-	font-size: 15px;
-	width: 198px;
+	position: absolute;
+	left: 395px;
+	top:410px;
+	width: 145px;
+	height:25px; 
+
 }
 
-.middle-container {
+section.main-content{
 	display: flex;
-	justify-content: center;
-	border-top-color: solid grey line 1px;
+	flex-direction: column;
+	margin: 30px 0;
+	border-bottom: 2px solid black;
 }
 
- .middle-img {
-	 width: 1460px;
-	 height: 100%;
-	 margin-top: 10px;
-	 margin-bottom: 10px;
- }
-
- .bottom-container {
-	 display: flex;
-	 justify-content: center;
-}
-
-p {
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
-
-.contact {
-	line-height: 0pt;
-	
-}
-
-.services {
-	background-color: aquamarine;
+section.main-content .top-content{
 	display: flex;
-	
+	margin:30px 0;
 
+	border-top-color: gray 1px line;
 }
 
-.logo {
-	height: 65px;
-	margin-top: 40px;
-}
-
-.container1 {
+section.main-content .bottom-content{
 	display: flex;
-	background-color: rgb(129, 127, 255)
+	margin:30px 0;
+}
+section.contact{
+	margin: 30px 0;
+}
+footer{
+	text-align: center;
 }
