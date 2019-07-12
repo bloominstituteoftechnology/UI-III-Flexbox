@@ -68,15 +68,29 @@ h1, h2, h3, h4, h5 {
 	padding: 50px;
 }
 
+header nav {
+	display:flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
 header nav a {
 	color: grey;
 	font-size: 18px;
-	padding-right: 20px;
 	text-decoration: none;
-	padding-right: 80px;
-	margin-right: 20px;
+	
 }
 
+@media (max-width:500px) {
+	header nav {
+		flex-direction: column;
+	}
+	
+	header nav a {
+		padding-bottom: 15px;
+	}
+}
 .services-header-img{
 		width: 100%
 }
@@ -102,6 +116,12 @@ li {
 		padding-bottom: 40px;
 }
 
+hr {
+	width: 92.5%;
+	border-top: 1px solid black;
+	margin-bottom: 50px;
+}
+
 .title {
 		padding-top: 50px;
 		padding-bottom: 50px;
@@ -111,9 +131,13 @@ li {
 button {
 				align-self: baseline;
 				border-color: black;
+				border-radius: 5px;
 				font-size: 24px;
 				padding-left: 70px;
 				padding-right: 70px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				margin-top: 20px;
 				border-width: 2px;
 }
 
@@ -125,17 +149,34 @@ button {
 	align-content: space-;
 	align-items: flex-start;
 	height: 1000px;
+	padding: 20px;
 }
 
+@media (max-width: 500px) {
+	.content {
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: 2000px;
+	}
+}
 .one {
+		display: flex;
+		flex-wrap: wrap;
 		border-color: black;
 		border-width: 1px;
 		border-style: solid;
 		background-color: #D3D3D3;
 		height: 300px;
 		width: 45%;
+		padding: 20px;
 }
 
+@media (max-width: 500px) {
+	.one {
+		width: 100%;
+		margin-right: 40px;
+	}
+}
 .services {
 	display: flex;
 	flex-direction: row;
@@ -143,23 +184,65 @@ button {
 	justify-content: space-around;
 }
 
+@media (max-width: 500px){
+	.services {
+		flex-direction: column;
+	}
+}
 ul {
-	list-style-type: disc;
+	list-style-type: square;
 	align-self: baseline;
+	margin-left: 25px;
+}
+
+ul li {
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .facts {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
 	border: 5px;
 	border-width: 2px;
 	height: 300px;
 	width: 45%;
 }
 
+@media (max-width: 500px) {
+	.facts {
+		width: 100%;
+		height: 400px;
+	}
+	.facts h4{
+		flex-direction: column;
+		height: 400px;
+		justify-content: center;
+		align-items: center;
+		padding-left: 25px;
+	
+	}
+
+	.facts p {
+		padding-left: 25px;
+	}
+
+	.facts ul {
+		padding-left:25px;
+	}
+}
+
 .image {
-	height: 50%
+	height: 50%;
 	width: 45%;
 }
 
+@media (max-width: 500px) {
+	.image {
+		padding: 25px;
+	}
+}
 .copyright {
 		padding-top: 60px;
 		padding-bottom: 100px;
@@ -332,4 +415,8 @@ ul {
 		padding-top: 60px;
 		padding-bottom: 100px;
 		text-align: center;
+}
+
+.copyright {
+	padding: 100px;
 }

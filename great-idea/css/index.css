@@ -64,218 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.container {
-	padding: 50px;
-}
-
-header nav a {
-	color: grey;
-	font-size: 18px;
-	padding-right: 20px;
-	text-decoration: none;
-	padding-right: 80px;
-	margin-right: 20px;
-}
-
-h1 {
-	font-size: 100px;
-}
-
-h4 {
-	font-size: 28px;
-}
-
-.hook {
+	header nav {
 		display: flex;
-		align-content: center;
 		justify-content: space-around;
 		align-items: center;
-}
+		padding-bottom: 20px;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	header nav a {
+		margin-left: 100px;
+		margin-top: 25px;
+		color: grey; 
+		text-decoration: none;		
+	}
 
-.title {
-		padding-top: 50px;
-		padding-bottom: 50px;
-		text-align: center;
-		}
-
-button {
-				border-color: black;
-				font-size: 24px;
-				padding-left: 70px;
-				padding-right: 70px;
-				border-width: 2px;
-}
-
-.hook img {
-	padding-top: 50px;
-	padding-bottom: 50px;}
-}
-
-
-
-/*.title{
-		display:inline-block;
+	header nav a img {
 		padding-right: 50px;
-		width: 45%;
-		text-align: center;
-		vertical-align: middle;
-}
-
-/*.title {
+	}
+	
+	hr {
+		width: 90%;
+	}
+	
+	.front {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		margin-bottom: 50px;
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	
+	.title{
 		display: flex;
 		flex-direction: column;
-}*/
-
-/*.hook img {
-		display:inline-block;
+		align-items: center;
+		padding: 20px;
+		margin-left: 50px; 
 		width: 45%;
-		margin-top: 60px;
-		margin-left: 40px;
-		vertical-align: middle;
-}
-
-
-/*.hook img {
-			display: flex;
-			flex-wrap: wrap-reverse;
-}*/
-
-/*button {
-		border-color: black;
-		font-size: 30px;
-		padding-left: 70px;
-		padding-right: 70px;
-		border-width: 5px;
-}
-
-/*.body {
-		display: flex;
-}*/
-
-.body p {
-		font-size: 24px;
-}
-
-.partone {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-/*.features {
-	flex-order: 1;
-	align-self: flex-start;
-}
-
-.about {
-	flex-order: 2;
-	align-self: flex-start;
-}*/
-
-.features {
-	/*display: inline-block;*/
-	width: 45%;
-}
-
-.features h4 {
-		/*display:inline-block;*/
-		padding-top: 20px;
-		padding-bottom: 10px;
-}
-
-/*.features h4 {
-		/display: flex;
-		align-items: flex-start;
-}*/
-
-.features p {
-		/*display: inline-block;*/
-		padding top: 20px;
-		padding-bottom: 40px;
-		padding-right: 10px;
-}
-
-.about {
-		/*display: inline-block;*/
-		width: 45%;
-}
-
-.about h4 {
-	padding-top: 20px;
-	padding-bottom: 10px;
-}
-
-.about p {
-		padding top: 20px;
-		padding-bottom: 40px;
-}
-
-
-.picture img {
-		width: 100%;
-}
-
-.parttwo {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.services {
-		/*display: inline-block;*/
-		width: 33%;
-}
-.services h4{
-	padding-top: 30px;
-}
-
-.services p {
-		padding-top: 10px;
-		padding-bottom: 20px;
-		padding-right: 10px;
-}
-
-
-.product {
-		/*display: inline-block;*/
-		width: 33%;
-}
-
-.product h4{
-		padding-top: 30px;
-}
-
-.product p{
-	padding-top: 10px;
-	padding-bottom: 20px;
-	padding-right: 10px;
-}
-
-.vision {
-		/*display: inline-block;*/
-		width: 33%;
-}
-.vision h4{
-	padding-top: 30px;
-}
-
-.vision p {
-	padding-top: 10px;
-	padding-bottom: 20px;
-	padding-right: 10px;
-}
-
-.Contact h4 {
-		padding-top: 30px;
-}
-
-.Contact p {
-	font-size: 20px;
-	padding-top: 20px;
-}
-
-.Contact .copyright {
-		padding-top: 60px;
-		padding-bottom: 100px;
+	}
+	
+	.title h3 {
+		font-size: 80px;
 		text-align: center;
-}
+		padding: 1px;
+		font-family: Indie Flower;
+	}
+	
+	.title button {
+		font-size: 20px;
+		padding-top:5px;
+		padding-bottom: 5px;
+		padding-left: 40px;
+		padding-right: 40px;
+		border-radius: 2px;
+		border: 1px solid black;
+	}
+	
+	.title button:hover {
+		animation-name: wonder;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+	
+	@keyframes wonder {
+		0% {background-color: white;}
+		13% {background-color: lightgreen;}
+		25% {background-color: green;}
+		50% {background-color: deepskyblue;}
+		75% {background-color: dodgerblue}
+		100% {background-color: lightcyan;}
+	}
+	
+	.top {
+		display: flex;
+		justify-content: space-between;
+		margin-right: 20px;
+
+	}
+
+	.top .content {
+		width: 45%;
+		margin-left: 10px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 25px;
+	}
+	
+	.middle {
+		padding: 30px;
+		
+	}
+	
+	.middle img {
+		width: 100%;
+	}
+	
+	.bottom {
+		display: flex;
+		justify-content: space-between;
+		margin-right: 20px;
+	}
+
+	.bottom .content {
+		width: 30%;
+		margin: 10px;
+		padding-left: 25px;
+		padding-bottom: 40px;
+	}
+	
+	hr {
+		width: 95%;
+		padding-right: 20px;
+	}
+	
+	footer {
+		padding-left: 25px;
+		margin: 10px;
+		margin-top: 25px;
+	}
+	
+	footer p {
+		padding-top: 25px;
+	}
+	
+	footer .copyright {
+		text-align: center;
+		padding-bottom: 60px;
+	}
