@@ -64,3 +64,76 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+.container {margin: 0 auto;
+	width: 865px;}
+
+
+nav{ display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+border: 6px groove yellow;}
+
+a{ color: yellow;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+
+.MidSection{ display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px;}
+
+.title{ display: flex;
+flex-direction: column;
+font-size: 60px;
+text-align: center;}
+
+.TopClass{display: flex;
+			padding: 20px;}
+
+h2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+.MIDIMAGE{border: 4px groove yellowgreen;}
+
+.BottomClass{display: flex;
+             padding-top: 50px;}
+
+.Contact{ display: flex;
+			padding: 20px; }
+
+footer{ text-align: center;}
+
+.Heading{ display: flex;
+		flex-direction: column;}
+
+.Body{ display: flex;
+		flex-flow: wrap;
+		
+		 }
+
+
+.Seperator{ border: 2px solid black;
+			background-color: grey;
+			width: 45%;
+			text-align: left;
+			margin: 20px;
+			}
+
+.Bottom1{ display: flex;
+			flex-direction: column;}
+
+.PictureWith{ display: flex;}
+
+li{list-style-type: circle;
+	list-style-position: inside;}
+
+.Label{  border-radius: 25px;
+	background: darkgoldenrod;
+	padding: 20px; 
+	width: 200px;
+	height: 60px; 
+	text-align: center;
+	margin-left: 40%;}
