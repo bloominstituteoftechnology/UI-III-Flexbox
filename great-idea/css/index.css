@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {    
+	font-size: 16px;
+	box-sizing: border-box;
+  }
+  
+  body { 
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 20px;
+  }
+	.navigation {    
+	 display: flex;
+	 align-items: baseline;
+	 width: 100%;
+ }
+	nav {
+	  display: flex; 
+	  flex-direction: row;
+}
+	nav a {    
+	  padding: 35px 75px 35px 0;  
+	  text-decoration: none;    
+	  color: gray;
+	  display: flex;
+
+	}
+	.logo {
+		margin: 20px 0 0 50px;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.header {   
+	  text-align: center;
+	  border-bottom: 2px solid black;
+	  display: flex;
+	
+	}
+
+	.inside-header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 125px 0 0 60px;
+	}
+	 
+	h1 {    
+		font-size: 90px; 
+    }
+	button {
+	  padding: 5px 45px 5px 45px;
+	  margin-right: 20px;
+	  background: white;
+	}
+	button:hover {
+	  color: white;
+	  font-size: 20px; 
+	  background: black;
+	}
+	p {
+	  font-family: cursive;
+	}
+	.circle {
+		display: flex;
+		margin: 50px 0 50px 120px;
+		width: 500px;
+		height: 450px;
+	  }
+  
+	.first-content {  
+		display: flex;  
+		padding-top: 70px;
+		margin: 0 auto;
+	  }
+	h3 {
+	  font-family: "Brush Script MT", cursive;
+	  font-size: 25px;
+	}
+	.features {       
+		 width: 450px;    
+		 height: 200px;
+		}
+	.about {        
+		width: 450px;    
+		height: 200px;
+		margin-left: 55px;
+	  }
+	.middle-img { 
+		width: 100%;
+	  }
+		.second-content {    
+		  display: flex;
+		  flex-direction: row;
+		  justify-content: space-between;
+		  padding: 100px 0 70px 0;    
+		  border-bottom: 2px solid black;   
+		  margin: 0 auto;
+		}
+		.services {        
+		  width: 275px;   
+		  height: 200px; 
+		}
+		.product {    
+		  width: 275px;    
+		  height: 200px; 
+		}
+		.vision {    
+		  width: 275px;    
+		  height: 200px;
+		}
+		.contact {    
+		  padding: 35px 0 50px 0;    
+		}
+		.copyright {    
+		  padding-left: 350px;    
+		  padding-bottom: 70px;
+		}
