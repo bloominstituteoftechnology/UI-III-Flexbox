@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,24 +45,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */ 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 .container {
   width: 880px;
   /* TB LR */
@@ -73,7 +71,8 @@ h1, h2, h3, h4, h5 {
 /* header */
 
 header nav {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
@@ -105,7 +104,8 @@ header .logo {
 /* cta */
 
 .cta .cta-text {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
@@ -113,7 +113,7 @@ header .logo {
   padding: 0px 75px;
 }
 
-.cta .cta-text button {
+button {
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -123,13 +123,14 @@ header .logo {
   cursor: pointer;
 }
 
-.cta .cta-text button:hover {
+ button:hover {
   background: black;
   color: white;
 }
 
 .cta img {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 69px;
 }
 
@@ -145,7 +146,8 @@ header .logo {
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   margin-right: 34px;
 }
 
@@ -164,7 +166,8 @@ header .logo {
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   margin-right: 12px;
 }
 
@@ -188,74 +191,15 @@ footer {
   font-size: 14px;
 }
 
+/* Services Page */
 
-
-
-
-/** services**/
-
-.main-content2{
-	border:1px solid red;
-width:878px;
-
-	
-}
-.main-content2 .top-content2 .top-text{
-	border: 1px solid blue;
-	background-color: lightgrey;
-	
-
-	
-}
-.main-content2 .middle-content2 .mid-text{
-	border: 1px solid darkgreen;
-	background-color:lightgrey;
-}
-.main-content2 .bottom-content2 .bot-text{
-	border: 1px solid purple;
-	background-color: lightgrey;
-}
-.main-content2 .last-content{
-	border: 1px solid black;
-
-}
-footer{
-	border: 1px solid darkorange;
-	
-}
-.top-text{
-margin:30px;
+.single-service {
+  width: 50;
+  height: 50;
 }
 
-.mid-text{
-	margin:30px;
-}
-
-.bot-text{
-	margin:30px;
-}
-
-.top-content2{
-	display:flex;
-}
-
-.middle-content2{
-	display:flex;
-}
-
-.bottom-content2{
-	display:flex;
-}
-
-.last-cont ul {
-	display:flex;
-	list-style: square;
-padding-left:20px;
-justify-content: flex-start;
-flex-wrap:wrap;
-}
-
-.last-content .last-cont{
-	display:flex;
-	margin:30px;
-}
+.all-services {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 12px;
+}  
