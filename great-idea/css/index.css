@@ -63,4 +63,100 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+header {
+	width: 90%;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+header div {
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+header < img {
+	display: inline-block;
+	width: 45%;
+	margin: auto;
+}
+header a {
+	padding: 5px 30px;
+	color: black;
+	border: 1px solid black;
+	text-decoration: none;
+}
+
+nav {
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: auto;
+	padding: 30px; 
+	text-align: center;
+	background-color: darkblue;
+}
+
+nav a {
+	display: inline-block;
+	color: grey;
+	text-decoration: none;
+	font-weight: bold;
+	color: ivory;
+	margin: 0 3%;
+}
+
+.logo {
+	width: 15%
+}
+
+main {
+	width: 90%;
+	margin: 20px auto;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+h2 {
+	font-size: 1em
+}
+
+.row {
+	margin: 20px auto;
+}
+
+.half {
+	display: inline-block;
+	width: 45%;
+}
+
+.half:first-child {
+	margin-right: 5%
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.third {
+	margin: auto;
+	display: inline-block;
+	width: 33%;
+}
+
+footer {
+	width: 90%;
+	margin: auto;
+}
+
+footer p {
+	text-align: center;
+}
