@@ -65,17 +65,17 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 header {
+	display: flex;
+	justify-content: space-around;
 	width: 90%;
 	margin: auto;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 	margin-top: 100px;
 }
 
 header div {
-	display: inline-block;
-	width: 45%;
 	text-align: center;
-	margin: 0 auto;
+	margin: auto;
 }
 
 h1 {
@@ -83,44 +83,43 @@ h1 {
 }
 
 header < img {
-	display: inline-block;
-	width: 45%;
 	margin: auto;
 }
 header a {
-	padding: 5px 30px;
+	padding: 5px 50px;
 	color: black;
 	border: 1px solid black;
 	text-decoration: none;
 }
 
 nav {
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	margin: auto;
-	padding: 30px; 
+	padding: 20px; 
 	text-align: center;
 	background-color: darkblue;
 }
 
 nav a {
-	display: inline-block;
 	color: grey;
 	text-decoration: none;
 	font-weight: bold;
 	color: ivory;
-	margin: 0 3%;
+	margin: auto;
 }
 
 .logo {
-	width: 15%
+	width: 15%;
 }
 
 main {
 	width: 90%;
 	margin: 20px auto;
+	padding: 20px 0;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
@@ -130,31 +129,19 @@ h2 {
 }
 
 .row {
+	display: flex;
+	justify-content: space-between;
 	margin: 20px auto;
-}
-
-.half {
-	display: inline-block;
-	width: 45%;
-}
-
-.half:first-child {
-	margin-right: 5%
 }
 
 .middle-img {
 	width: 100%;
 }
 
-.third {
-	margin: auto;
-	display: inline-block;
-	width: 33%;
-}
-
 footer {
 	width: 90%;
 	margin: auto;
+	padding-top: 20px;
 }
 
 footer p {
