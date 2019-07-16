@@ -70,48 +70,66 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	}
 
-header nav {
-	display: inline-block;
+.container .nav-header {
+	display: flex;
+	justify-content: space-evenly;
+	}
+
+.container .nav-header nav {
+	display: flex;
+	justify-content: flex-start;
 }
 
 header nav a {
-	margin: 0px 25px 25px 25px;
+	padding: 15px;
+	margin: 0px 15px;
 	text-decoration: none;
 	color: grey;
-}
+	justify-content: center;
+	align-content: center;
+	}
 
-header img {
-	margin-left: 150px;
+.logo{
+	width: 150px;
+	height: 40px;
+	margin: 5px 5px 0 100px;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-size: 150px 40px;
+	background-position: center;
 }
 
 /* Stretch Goal */
 .nav-header {
-	background: lightskyblue;
-	position: fixed;
+	/* background: lightskyblue;
+	position: fixed; */
 }
 
 .top-container {
-	display: inline-block;
+	display: flex;
+	justify-content: space-evenly;
 	width: 980px;
+	margin: 25px 5px;
 	border-bottom: 1.2px solid black;
-	
-}
+	}
 .top-container .left{
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	padding: 0 50px 0 0;
 	height: 400px;
+	align-content: center;
 }
 
 .top-container .right{
-	display: inline-block;
+	display: flex;
 	padding: 0 0 0 50px;
 	height: 400px;
-}
+	}
 .top-container .motto {
 	display: block;
 	font-size: 90px;
-    padding: 10px;
-    margin: 0px 10px 0px 90px;
+  padding: 10px;
+  margin: 25px 10px 0px 90px;
 	text-align: center;
 	}
 
@@ -133,29 +151,40 @@ header img {
 }
 
 .top-container .codepic {
-	display: inline-block;
-	padding-top: 90px;
-	height: 430px;
+	display: flex;
+	padding-top: 0px;
+	height: 350px;
 	}
 
+.content .two-cols {
+		display: flex;
+		}
+
 .content .two-cols header {
-	display:inline-block;
-	width: 490px;
-	padding: 30px 50px 30px 0px;
-}
+	display: flex;
+	padding: 30px 10px 30px 0px;
+	}
+
+.content .two-cols header article {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 480px;
+	}
 
 .content .middle-img {
 	width: 975px;
+	}
+
+.content .three-cols {
+	display: flex;
+	border-bottom: 1.2px solid black;
 }
 
 .content .three-cols header {
-	display:inline-block;
-	width: 330px;
-	padding: 30px 50px 30px 0px;
-}
-
-.content {
-	border-bottom: 1.2px solid black;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding: 30px 10px 30px 0px;
 }
 
 .contact h2 {
@@ -167,6 +196,7 @@ header img {
 }
 
 footer #copyright {
+	display: flex;
 	margin: 50px;
-	text-align: center;
-}
+	justify-content: center;
+	}
