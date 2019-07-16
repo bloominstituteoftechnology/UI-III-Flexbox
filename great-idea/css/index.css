@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+hr {
+	margin: 30px 0;
+}
+
 h1 {
 	font-size: 4rem;
 }
@@ -79,6 +83,8 @@ a {
 }
 ul {
 	list-style-type: square;
+	list-style-position:inside;
+	padding-left: 0;
 }
 a:hover {
 	text-decoration: underline;
@@ -91,6 +97,7 @@ a:hover {
 header nav {
 	display: flex;
 	justify-content: space-between;
+	align-content: flex-end;
 	
 }
 
@@ -124,6 +131,7 @@ button {
 	padding: 7px 30px 7px 30px;
 	font-size: 13px;
 	/* letter-spacing: 1px; */
+	margin: 0;
 }
 .cta .headerButton:hover {
 	background-color: lightblue;
@@ -157,10 +165,10 @@ button {
 	justify-content: space-evenly;
 }
 .main-content .middle-img {
-	margin: 30px 0 30px 0;
+	margin: 30px 0;
 } 
 .contact {
-	margin: 30px 0 30px 0;
+	margin: 30px 0;
 }
 .copyright {
 	text-align: center;
@@ -182,11 +190,21 @@ button {
 	background-color: lightgray;
 	width: 48%;
 	/* margin: 20px; */
-	padding: 10px;
+	padding: 15px;
 
 }
 
 .lower-content {
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.lower-content div {
+	width: 48%
+} 
+
+.services-header-img {
+	margin: 25px 0;
 }
