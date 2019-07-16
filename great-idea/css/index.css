@@ -99,7 +99,7 @@ nav a {
 	height:20px;
 	text-decoration: none;
 	padding: 1em;
-	font-display: grey;
+	color: grey;
 	
 }
 
@@ -186,3 +186,4 @@ button:hover:after {
 hr {
 	color: black;
 } 
+
