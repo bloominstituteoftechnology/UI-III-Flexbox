@@ -175,11 +175,11 @@ button:hover:after {
 
 .contact {
 	padding: 20px;
-	text-align: center;
+	
 }
 
 .copyright {
-
+    text-align: center;
 	padding:1em;
 }
 
