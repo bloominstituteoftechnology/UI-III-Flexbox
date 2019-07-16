@@ -77,7 +77,9 @@ a {
 	text-decoration: none;
 	color: black;
 }
-
+ul {
+	list-style-type: square;
+}
 a:hover {
 	text-decoration: underline;
 }
@@ -88,7 +90,7 @@ a:hover {
 
 header nav {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	
 }
 
@@ -118,10 +120,10 @@ header nav a{
 	margin: 90px 50px 50px 0; */ 
 
 }
-.cta .headerButton {
+button {
 	padding: 7px 30px 7px 30px;
 	font-size: 13px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 .cta .headerButton:hover {
 	background-color: lightblue;
@@ -162,4 +164,29 @@ header nav a{
 }
 .copyright {
 	text-align: center;
+}
+
+/* .main-content-services {
+	height: 1000px;
+} */
+
+.boxes {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-between;
+ align-content: space-between;
+}
+
+.boxes .single-box {
+	border: 2px solid black;
+	background-color: lightgray;
+	width: 48%;
+	/* margin: 20px; */
+	padding: 10px;
+
+}
+
+.lower-content {
+	display: flex;
+	justify-content: space-between;
 }
