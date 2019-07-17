@@ -91,6 +91,10 @@ header nav a {
   font-size: 20px;
 }
 
+header nav a:hover {
+  color: yellow;
+}
+
 .cta {
   margin: 30px auto;
   padding: 120px 30px 70px 30px;
