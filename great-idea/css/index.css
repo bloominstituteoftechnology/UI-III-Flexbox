@@ -153,33 +153,34 @@ h5 {
 
 .container {
   width: 880px;
-
   margin: auto;
 }
 
 nav {
   display: inline-block;
-
   padding-left: 0px;
 }
 
 header nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 header nav a {
-  margin: 0px 9px 0px 48px;
-
   text-decoration: none;
-
+  margin: 10px 61px 0px 0px;
   color: #bfbfbf;
 }
 
 header {
   padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-  margin: 0px 0px 0px 32px;
+  margin: -2px 0px 0px 24px;
+  padding: 0px 0px 2px 0px;
 }
 
 .container header {
@@ -188,12 +189,10 @@ header {
 
 .banner {
   padding-bottom: 0px;
-
   border-bottom: 2px solid black;
-
   display: inline-block;
-
   width: 100%;
+  padding-bottom: 122px;
 }
 
 h1 {
@@ -225,24 +224,17 @@ h1 {
 
 .contentBox {
   width: 37%;
-
   display: inline-block;
-
   padding: 38px 0px 0px 50px;
-
   margin-bottom: 30px;
 }
 
 .contentBoxTriple {
-  width: 24%;
-
   display: inline-block;
-
   padding: 38px 4px;
 }
 
 .contentBoxTriple {
-  width: 26%;
   display: inline-block;
   padding: 38px 0px;
 }
@@ -250,7 +242,8 @@ h1 {
 .tripleContainer {
   border-bottom: 1px solid black;
   margin-bottom: 58px;
-  padding-left: 46px;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer p {
@@ -312,6 +305,7 @@ ul {
 .footercontainer {
   display: flex;
   padding-bottom: 40px;
+  margin: 41px 0px 0px 0px;
 }
 
 .copyright {
