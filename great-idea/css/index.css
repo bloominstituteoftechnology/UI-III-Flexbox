@@ -234,10 +234,10 @@ footer #copyright {
 	justify-content: space-between;
 	align-content: space-between;
 	flex-wrap: wrap;
-	width: auto;
+	width: 980px;
 	height: auto;
 	border-bottom: 1.2px solid black;
-	margin: 15px 0 45px 0;
+	margin-top: 15px;
 }
 
 .main-content article {
