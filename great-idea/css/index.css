@@ -288,7 +288,7 @@ footer {
 }
 
 .services-header-img {
-  margin: 0px 0px 35px 0px;
+  margin: 0px 0px 31px 0px;
 }
 
 h4 {
@@ -296,9 +296,9 @@ h4 {
 }
 
 .servicesbox {
-  padding-bottom: 49px;
+  padding-bottom: 40px;
   border-bottom: solid black 1px;
-  margin-bottom: 41px;
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -325,9 +325,36 @@ ul {
 }
 
 #serviceslist {
-  margin: 0px 0px 31px 20px;
+  margin: 0px 0px 30px 24px;
 }
 
 li {
   margin: 14px 0px 0px 0px;
+}
+
+.learnmore {
+  padding: 8px 40px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
+}
+
+.boxcontainer p {
+  line-height: 1.3;
+}
+
+.servicesbox p {
+  line-height: 1.3;
+}
+
+.learnmore a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.servicesfacts p {
+  line-height: 1.3;
 }
