@@ -64,3 +64,174 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.sub-head .sign {
+	font-size: 80px;
+	font-family:'Bangers', cursive;
+	text-align: center;
+	margin-right: 500px;
+	position: relative;
+	top:150px;
+	left:50px;
+}
+
+ nav {
+ 	display: flex;
+ 	align-items: center;
+ }
+ 
+ header nav a{
+	padding:5px 20px;
+	background: white;
+	margin:20px;
+	color:gray;
+	text-decoration: none;
+}
+
+.container {
+	margin:0 auto;
+	width: 975px;
+}
+
+.top-section {
+	display:flex;
+}
+
+.top-section .top-paragraph {
+	width:450px;
+	margin-top:20px;
+	margin-bottom: 25px;
+
+} 
+
+.button {
+	border:1px solid black;
+	height:40px;
+	width:200px;
+    padding:10px 20px 25px 50px;
+	box-sizing: border-box;
+	font-size: 20px;
+	position: relative;
+	top:175px;
+	left:180px;
+	}
+
+#logo {
+	position:relative;
+	left:800px;
+	bottom:50px;
+}
+
+.sub-head .circle {
+	position: relative;
+	left: 550px;
+	bottom:150px;
+	
+
+}
+
+.bottom-section {
+	display:flex;
+}
+
+.bottom-section .paragraph-content {
+	width:275px;
+	margin:20px;
+
+}
+
+.copyright {
+	position:relative;
+	left:400px;
+}
+
+.font {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* service css */
+
+p {
+	line-height: 1.4em
+}
+
+.first-section {
+padding: 10px 45px 10px 45px;
+}
+
+.service-header {
+	font-size:30px;
+	margin-top: 30px;
+}
+
+
+.boxes {
+    background-color:#f2f2f2;
+	border:1px solid black;
+	max-width: 400px;
+	min-width: 300px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.middle-content {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-button {
+	background-color: white;
+	border-radius: 5px;
+	border:1px solid black;
+	width:150px;
+	height:35px;
+	margin-top:10px;
+}
+
+.end-page{
+	display:flex;
+	justify-content: space-around;
+}
+
+.first-section hr{
+	color: #000000
+}
+
+ul {
+	margin-top: 30px;
+	margin-left:10px;
+}
+
+ul li {
+	list-style-type: square;
+	margin:10px;
+}
+
+.service-facts {
+	max-width: 500px;
+	min-width: 400px;
+	padding: 30px;
+	
+}
+
+.copyright-2 {
+	text-align: center;
+	margin:100px;
+}
+
+.second-horizontal {
+	width:905px;
+	background-color: black;
+}
+
+.services-info-img {
+	margin-top: 25px;
+	margin-right: 30px;
+}
+
+#top-paragraph {
+	margin-bottom:30px;
+}
