@@ -63,6 +63,31 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+button {
+
+	border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+}
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 hr {
@@ -122,12 +147,14 @@ button {
 	padding: 7px 30px 7px 30px;
 	font-size: 13px;
 	margin: 0;
+	border: 1px solid black;
 }
-.cta .headerButton:hover {
+button:hover {
 	background-color: lightblue;
 }
-.cta .headerButton:active {
-	background-color: lightblue;
+button:active {
+	background-color: gray;
+	color: lightblue;
 }
 .cta img {
 	vertical-align: top;
