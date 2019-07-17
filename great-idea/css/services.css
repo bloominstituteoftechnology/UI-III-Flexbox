@@ -20,40 +20,33 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .servicesmain-container {
-	display:flex;      /* added line here*/
+	display:flex;     
 	flex-flow: column;
 	width: 880px;
 	margin: auto;
-	/*border:1px solid blue;*/
 }
 
-/*stretch 1 begin */
+
 header {
-	/*display: inline-block;*/
 	display: flex;
-    /*padding-right: 130px;*/
     width: 880px;
 	justify-content: space-between;
     
     position: fixed;
     z-index: 9999;
-    background-color: white;
-
-	
+    background-color: white;	
 
 }
 
 
-/*stretch1 End */
+
 h3{
   font-size: 17px;
 }
 
 header nav {
-	/*display:inline-block;*/
 	display: flex;
 	margin-top: 50px;
-	/*background-color:whitesmoke  ;  */    /*stretch ***/
 	
 }
 
@@ -77,10 +70,7 @@ header nav a:hover {
   }
 
 header img.logo {
-	/*margin-bottom: 40px;*/
 	margin-top: 37px;
-  /*margin-left: 130px;*/
-  
 }
 
 img .header-img {
@@ -133,16 +123,14 @@ height: 0.5px;
 	flex-wrap: wrap;
     
 	justify-content: space-between;
-	/*border:1px solid aqua;*/
+
 }
 
 .facts {
 	
 	width:380px;
-	
-	
-	/*border:1px solid black;*/
 }
+
 li {
 	list-style-type: square;
 }
@@ -155,7 +143,6 @@ li {
 	margin-bottom:3%;
 	flex-direction: row;
 	justify-content: space-between;
-	/*border:1px solid yellow;*/
 
 }
 

@@ -66,19 +66,18 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .main-container {
-	display:flex;      /* added line here*/
+	display:flex;      
 	flex-flow: column;
 	width: 980px;
 	margin: auto;
-	/*border:1px solid blue;*/
+	
 }
 
 /*stetch 1 begin */
 header {
-	/*display: inline-block;*/
+	
 	display: flex;
 	width:980px;
-	/*padding-right: 130px;*/
 	justify-content: space-evenly;
     margin: 0;
     position: fixed;
@@ -92,7 +91,6 @@ header {
 /*stretch1 End */
 
 header nav {
-	/*display:inline-block;*/
 	display: flex;
 	margin-top: 50px;
 	background-color:whitesmoke        /*stretch ***/
@@ -118,13 +116,11 @@ header img.logo {
 .heading {
 	width:98%;
 	margin: 10%;
-	/*display:inline-block;*/
 	display: flex;
 }
 .heading h1{
 	text-align:center;
     width: 300px;
-    /*height: 100px;*/
 	font-size: 60px;
 	
 	
@@ -145,7 +141,6 @@ header img.logo {
 	color: white;
   }
 .heading2 {
-	/*display:inline-block;*/
 	display: flex;
 	flex-direction: column;
 	margin-right: 50px;
@@ -169,14 +164,10 @@ header img.logo {
 .main-content .firstsection {
 	display:flex;
 }
+
 .main-content .firstsection .two-column{
 	width: 420px;
     margin-right:65px;
- 
- /*margin-left:54px;*/
-  
-	/*display:inline-block;*/
-	
 
 }
 
@@ -192,12 +183,7 @@ footer p {
 
 .main-content .secondsection .three-column{
 	width:280px;
-	
 	margin-right:30px;
- 
-	/*margin-left:54px;*/
-	
-	/*display:inline-block;*/
 	
 }
 
