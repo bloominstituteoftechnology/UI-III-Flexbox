@@ -64,3 +64,211 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* Your code starts here! */
+
+/*body{
+	display: flex;
+	justify-content: center;
+}*/
+.container{
+	width: 900px;
+	margin: auto;
+}
+header #nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	position: sticky;
+	top: 0;
+
+}
+header #nav a{
+	margin: 0 15px;
+	height: 25px;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.mid {
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 900px;
+	height: 530px;
+}
+
+.mid .mid-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-size: 70px;
+	justify-content: space-between;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+
+
+.mid .mid-button {
+	height: 30px;
+	width: 120px;
+	vertical-align: top;
+	border: 1px solid black;
+	padding: 5px;
+	background: white;
+	color: black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+	padding: 0;
+}
+
+.main{
+	display:flex;
+	flex-direction: column;
+}
+
+.main .main-top {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 150px;
+	padding: 28px;
+	box-sizing: border-box;
+}
+
+.main .main-top .box{
+	width: 450px;
+}
+
+.main .middle-img{
+	width: 840px;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	position: relative;
+	left: 10px;
+}
+
+.main .main-bottom {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 150px;
+	padding: 28px;
+	box-sizing: border-box;
+}
+
+.main .main-bottom .box{
+	width: 290px;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+
+footer{
+	margin: 25px;
+}
+
+#copy{
+	width: 900px;
+	height: 10px;
+	margin: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.services-header-img{
+	margin: 40px 0px;
+	
+}
+
+.services-header h2{
+	font-size: 30px;
+}
+
+.services-header{
+	padding-bottom: 40px;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 25px 0px;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+.services-content{
+	width: 430px;
+	border: 1px solid black;
+	background: #dcdee0;
+	border-radius: 2px;
+	margin-bottom:35px;
+	padding: 20px;
+	
+}
+
+.services-content button{
+	background: white;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 10px 30px;
+	margin-top: 10px;
+}
+
+.facts{
+	display: flex;
+	padding-top:40px;
+}
+
+.facts-content{
+	padding-right:35px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 500px;
+}
+
+.facts-content ul{
+	margin-top:15px;
+}
+
+.facts-content ul li{
+	list-style: square;
+	margin-left: 17px;
+	margin: 12px;
+}
+
+.facts img{
+	justify-content: flex-end;
+}
+
+.copy{
+	width: 1280px;
+	height: 10px;
+	margin: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
