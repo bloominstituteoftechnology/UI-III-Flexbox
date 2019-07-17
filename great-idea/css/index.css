@@ -151,10 +151,6 @@ main section {
 	margin: 50px;
 }
 
-img {	
-	display: inline-block;
-}
-
 footer {
 	margin-left: 50px;
 	line-height: 50px;
@@ -172,4 +168,3 @@ small {
 	text-align: center;
 	font-size: 35px;
 }
-

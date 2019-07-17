@@ -1,0 +1,67 @@
+
+.services-header-img {
+	margin: 20px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+page-topic {
+	margin: 50px;
+}
+
+ul {
+	list-style: square inside;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main > section {
+    border: 1px solid black;
+    background-color: #F4F3F4;
+    padding: 20px;
+}
+
+button {
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 12px;
+}
+
+.page-bottom {
+    display: flex;
+}
+
+ul {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.page-topic {
+    margin: 20px;
+}
+
+.page-bottom {
+    margin-left: 40px;
+}
+
+h2 { 
+    font-size: 30px;
+}
+
+small {
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.bottom-hr {
+    border: solid 1px black;
+}
