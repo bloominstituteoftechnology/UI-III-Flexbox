@@ -66,11 +66,11 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 hr {
-	margin: 30px 0;
+	margin: 0;
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 4.5rem;
 }
 
 h4 {
@@ -97,40 +97,30 @@ a:hover {
 header nav {
 	display: flex;
 	justify-content: space-between;
-	align-content: flex-end;
+	align-items: center;
 	
 }
 
-/* header .logo {
-	margin-left: 80px;
-	margin-top: 30px;
-} */
-
 header nav a{
-	/* margin: 0 50px 0 0; */
 	color: gray;
 	font-size: 12px;
 }
 
 .cta {
-	/* margin: 0 0 30px 0; */
+	margin: 60px 0 70px 80px;
 	display: flex;
 	justify-content: space-between;
-	align-content: baseline;
 }
 
 .cta .title {
 	text-align: center;
 	vertical-align: center;
-	margin-top: 80px;
-	/* width: 50%;
-	margin: 90px 50px 50px 0; */ 
+	margin-top: 60px;
 
 }
 button {
 	padding: 7px 30px 7px 30px;
 	font-size: 13px;
-	/* letter-spacing: 1px; */
 	margin: 0;
 }
 .cta .headerButton:hover {
@@ -140,29 +130,30 @@ button {
 	background-color: lightblue;
 }
 .cta img {
-	/* vertical-align: top;
-	margin: 50px 0 0 0;
-	width:310px; */
+	vertical-align: top;
+	margin: 0;
 }
 
 .main-content {
 	margin: 35px 0;
 }
 
-.main-content div {
-	/* display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;  */
-}
-
 .main-content .above-image {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 
 }
 .main-content .below-image {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+
+}
+
+.above-image div {
+	width:49%;
+}
+.below-image div {
+	width: 32%;
 }
 .main-content .middle-img {
 	margin: 30px 0;
@@ -174,32 +165,54 @@ button {
 	text-align: center;
 }
 
-/* .main-content-services {
-	height: 1000px;
-} */
+.main-content-services {
+	margin-bottom: 30px;
+}
+
+.above-boxes {
+	margin-bottom: 30px;
+}
 
 .boxes {
  display: flex;
  flex-flow: row wrap;
  justify-content: space-between;
- align-content: space-between;
+}
+.lower-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 60px;
+	margin-top: 30px;
 }
 
+@media screen and (max-width: 600px) {
+	.boxes {
+	  display: flex;
+	  flex-direction: column;
+	}
+	.lower-content {
+		display: flex;
+		flex-direction: column;
+	}
+  } 
+
+.boxes button {
+	border-radius: 8px; 
+
+}
+
+
 .boxes .single-box {
-	border: 2px solid black;
-	background-color: lightgray;
+	border: 1px solid black;
+	background-color: rgb(241, 241, 241);
 	width: 48%;
-	/* margin: 20px; */
+	margin-top: 30px;
 	padding: 15px;
 
 }
 
-.lower-content {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	margin-bottom: 60px;
-}
+
 
 .lower-content div {
 	width: 48%
@@ -208,3 +221,4 @@ button {
 .services-header-img {
 	margin: 25px 0;
 }
+
