@@ -199,3 +199,25 @@ footer {
   border-radius: 5px;
   padding: 10px 40px;
 }
+
+.services-faq {
+  margin-top: -60px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-faq-block {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: square;
+  padding: 20px;
+}
+
+li {
+  padding: 10px;
+}
