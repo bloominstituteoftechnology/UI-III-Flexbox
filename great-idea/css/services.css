@@ -63,70 +63,71 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
- .container{
-	width: 880px;
-	margin:auto;
+/* Set every element's box-sizing to border-box */
+/* {
+    box-sizing: border-box;
+}*/
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+    *box-sizing: border-box;
 }
 header nav{
 	display: inline-block;
 	margin-top:35px
 }
 header nav a{
-	margin: 25px;
-	color:gray
+    margin: 23px 23px 23px 23px;
+    
+    color:gray;
+    font-size: 20px;
 }
-.logo{
-	margin-left: 30px
-}
-.cta div img{
-	display: inline-block;
-	margin-top: 40px;
-	padding: 15px;
-	max-width: 125px;
-	margin: 5px
-}
-.cta div {
-	display: inline-block;
-	text-align: center;
-}
-.cta img{
-	padding:20px;
-	margin-top: 15px
-}
-.cta-text{
-	font-size: 70px;
-    padding: 70px;
-}
-button{
-	background-color: white;
-    padding-left: 30px;
-	padding-right: 30px;
-	font-size:20px
+.services-header-img{
+    width: 850px;
+    height: 200px;
 }
 
-	.ana {
-	width: 49%;
-	height: 20%;
-	text-align: left;
-	box-sizing: border-box;
-	display: inline-block;
-	padding: 20px 0px;
+.main-container{
+    padding:30px 20px 30px 40px;
+    display: flex;
+    flex-direction: column;
+	border:2px solid red;
+}
+.main-content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    flex-shrink:56px;
+
+}
+.element{
+    border:1px solid black;
+    background-color: rgb(177, 175, 175)
+}
+}
+  .main-content {
+    display: flexbox;
+    flex-direction: column;
+	
   }
-  .ana3 .ana{
-	width: 33%;
-	height: 20%;
-	text-align: left;
-	box-sizing: border-box;
-	display: inline-block;
-	padding: 20px 0px;
-  }
-  .text-content .ana{
-	  display: inline-block
-  }
+
+	
+}
+
   footer{
 	  text-align: center;
-	  padding-bottom:20px
+	  padding-bottom:40px
   }
  
 
