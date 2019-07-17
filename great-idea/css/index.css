@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -65,29 +65,35 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
  .container{
-	width: 880px;
+	width: 900px;
 	margin:auto;
+	padding: 20px
 }
-header nav{
-	display: inline-block;
-	margin-top:35px
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly
+}
+header nav a {
+	padding:20px;
+	margin-top:0px;
+	text-decoration: none;
 }
 header nav a{
-	margin: 25px;
+	margin: 0px;
 	color:gray
 }
 .logo{
-	margin-left: 30px
+	margin-left: 0px
 }
 .cta div img{
-	display: inline-block;
+
 	margin-top: 40px;
 	padding: 15px;
 	max-width: 125px;
 	margin: 5px
 }
 .cta div {
-	display: inline-block;
 	text-align: center;
 }
 .cta img{
@@ -96,7 +102,7 @@ header nav a{
 }
 .cta-text{
 	font-size: 70px;
-    padding: 70px;
+    padding: 68px;
 }
 button{
 	background-color: white;
@@ -105,28 +111,49 @@ button{
 	font-size:20px
 }
 
-	.ana {
+	.paraghaph {
 	width: 49%;
 	height: 20%;
 	text-align: left;
 	box-sizing: border-box;
-	display: inline-block;
+	display:flex;
+	flex-direction: column;
 	padding: 20px 0px;
+	}
+	.paraghaph-after-img .paraghaph {
+		width: 33%;
+		height: 20%;
+		text-align: left;
+		box-sizing: border-box;
+		display:flex;
+	  	flex-direction: column;
+		padding: 20px 0px;
+	}
+  .paraghaph-before-img{
+	  padding:10px 10px 10px 0px;
+	  display:flex;
+	  flex-direction: row;
+	  justify-content:space-between
   }
-  .ana3 .ana{
-	width: 33%;
-	height: 20%;
-	text-align: left;
-	box-sizing: border-box;
-	display: inline-block;
-	padding: 20px 0px;
+  .text-content img {
+	  padding:0px;
+	  width: 880px;
   }
-  .text-content .ana{
-	  display: inline-block
+  
+  .paraghaph-after-img{
+	padding:10px 10px 10px 0px;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between
   }
-  footer{
-	  text-align: center;
-	  padding-bottom:20px
+  .contact{
+	  display:flex;
+	  flex-direction:column;
+  }
+  footer  {
+	display:flex; 
+	justify-content:center;
+	padding-bottom:20px
   }
  
 
