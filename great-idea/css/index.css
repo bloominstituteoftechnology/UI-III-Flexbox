@@ -2,30 +2,47 @@
 * Layout *
 **********/
 
+/* Main Content */
+
 #content {
+    padding-top: 39px;
+    padding-bottom: 47px;
+
     border-top: 1px solid #333333;
     border-bottom: 1px solid #333333;
 }
 
-/* Main Content */
-
 article {
-    display: inline-block;
-    padding: 3vh 0;
+    font-size: 1.1em;
+    letter-spacing: -0.2px;
+    line-height: 1.091;
 }
 
-.two-col-row article {
-    width: 49.5%;
+.two-col-row {
+    display: flex;
+    justify-content: space-around;
 }
 
 #middle-image {
     height: 182px;
+    margin-top: 36px;
+    margin-bottom: 36px;
 
     background-image: url("../img/mid-page-accent.jpg");
 }
 
-.three-col-row article {
-    width: 32.5%;
+.three-col-row {
+    display: flex;
+    /*padding-top: 2px;*/
+}
+
+.two-col-row article:not(:first-child), .three-col-row article:not(:first-child) {
+    padding-left: 20px;
+}
+
+#contact {
+    margin-top: 38px;
+    line-height: 1.1;
 }
 
 /**********
@@ -66,49 +83,14 @@ article {
 }
 
 #cta-button {
-    display: inline-block;
-    font-size: 1.1em;
-    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    margin: 17px 122px 0;
     padding: 8.5px 9%;
 
     border: 1px solid #000000;
 
     color: #000000;
+    font-size: 1.1em;
     text-decoration: none;
-}
-
-#header-image {
-    padding-left: 20px;
-    width: 85%;
-}
-
-
-/********
-* State *
-********/
-
-@media screen and (max-width: 990px) {
-    .nav-link {
-        padding: 3vh 2.5vw;
-    }
-
-    #logo {
-        padding: 2.75vh 0;
-    }
-
-    .tag-line {
-        font-size: 8vw;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .tag-line {
-        font-size: 6vw;
-    }
-}
-
-@media screen and (max-width: 710px) {
-    .two-col-row article, .three-col-row article {
-        width: 100%;
-    }
 }
