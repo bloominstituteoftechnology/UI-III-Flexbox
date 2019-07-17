@@ -1,0 +1,161 @@
+
+
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.servicesmain-container {
+	display:flex;      /* added line here*/
+	flex-flow: column;
+	width: 880px;
+	margin: auto;
+	/*border:1px solid blue;*/
+}
+
+/*stretch 1 begin */
+header {
+	/*display: inline-block;*/
+	display: flex;
+    /*padding-right: 130px;*/
+    width: 880px;
+	justify-content: space-between;
+    
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+
+	
+
+}
+
+
+/*stretch1 End */
+h3{
+  font-size: 17px;
+}
+
+header nav {
+	/*display:inline-block;*/
+	display: flex;
+	margin-top: 50px;
+	/*background-color:whitesmoke  ;  */    /*stretch ***/
+	
+}
+
+header nav a {
+	margin:0 20px;
+	color:grey;
+	text-decoration:none;
+	
+}
+
+header nav a:hover {
+	background: green;
+	color: white;
+  }
+
+header img.logo {
+	/*margin-bottom: 40px;*/
+	margin-top: 37px;
+  /*margin-left: 130px;*/
+  
+}
+
+img .header-img {
+	 
+    width:100%;
+}
+#hrid1 {
+  background-color: black;
+  color: black;
+border: bold solid 1px black;
+height: 0.5px;   
+}
+#hrid2 {
+    background-color: black;
+    color: black;
+	border: bold solid 1px black;
+	height: 1px;   
+}
+.servicesmain-content {
+	width:880;
+	padding-top:20px;
+}
+
+
+.box-content {
+	width:430px;
+	height: 255px;
+	background-color:whitesmoke;
+	padding:3%;
+	border:1px solid black;
+	margin-bottom: 2%;
+}
+
+.box-content button  {
+  width:140px;
+  font-size:12px;
+  border-radius: 6px;
+  padding:2%;
+  background-color: white;
+  border:1px solid darkgrey
+  
+
+}
+.servicessecondsection {
+	width:880px;
+	margin-top: 1%;
+
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    
+	justify-content: space-between;
+	/*border:1px solid aqua;*/
+}
+
+.facts {
+	
+	width:380px;
+	
+	
+	/*border:1px solid black;*/
+}
+li {
+	list-style-type: square;
+}
+
+ .servicesthirdsection {
+	width:880px;
+	height:280px;
+	display:flex;
+	margin-top:2%;
+	margin-bottom:3%;
+	flex-direction: row;
+	justify-content: space-between;
+	/*border:1px solid yellow;*/
+
+}
+
+
+footer p {
+	
+	text-align:center;
+}
+
+

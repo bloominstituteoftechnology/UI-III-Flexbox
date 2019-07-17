@@ -63,4 +63,147 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.main-container {
+	display:flex;      /* added line here*/
+	flex-flow: column;
+	width: 980px;
+	margin: auto;
+	/*border:1px solid blue;*/
+}
+
+/*stetch 1 begin */
+header {
+	/*display: inline-block;*/
+	display: flex;
+	width:980px;
+	/*padding-right: 130px;*/
+	justify-content: space-evenly;
+    margin: 0;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+	
+
+}
+
+
+/*stretch1 End */
+
+header nav {
+	/*display:inline-block;*/
+	display: flex;
+	margin-top: 50px;
+	background-color:whitesmoke        /*stretch ***/
+}
+
+header nav a {
+	margin:0 20px;
+	color:grey;
+	text-decoration:none;
+	
+}
+
+header nav a:hover {
+	background: green;
+	color: white;
+  }
+
+header img.logo {
+	margin-left: 130px;
+	margin-top: 37px;
+}
+
+.heading {
+	width:98%;
+	margin: 10%;
+	/*display:inline-block;*/
+	display: flex;
+}
+.heading h1{
+	text-align:center;
+    width: 300px;
+    /*height: 100px;*/
+	font-size: 60px;
+	
+	
+}
+
+.heading button {
+	
+	border: 1px solid black;
+    width: 140px;
+	height: 32px;
+	margin-left:70px;
+	padding: 10px;
+	text-align:center;
+	background-color: white;
+}
+.heading button:hover {
+	background: green;
+	color: white;
+  }
+.heading2 {
+	/*display:inline-block;*/
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
+	margin-left:0px;
+	vertical-align:top;
+	
+}
+
+.imgHeading {
+	
+	margin-left:118px;
+
+}
+
+.heading2 h1 {
+	font-size:80px;
+	padding:20px;
+	margin-left:0px;
+}
+
+.main-content .firstsection {
+	display:flex;
+}
+.main-content .firstsection .two-column{
+	width: 420px;
+    margin-right:65px;
+ 
+ /*margin-left:54px;*/
+  
+	/*display:inline-block;*/
+	
+
+}
+
+
+footer p {
+	
+	text-align:center;
+}
+
+.main-content .secondsection {
+	display:flex;
+}
+
+.main-content .secondsection .three-column{
+	width:280px;
+	
+	margin-right:30px;
+ 
+	/*margin-left:54px;*/
+	
+	/*display:inline-block;*/
+	
+}
+
+.middle-img {
+	width: 980px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
