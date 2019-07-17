@@ -187,3 +187,55 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+
+
+
+
+
+.services {
+	display:flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	border-top: 1px solid black;
+	padding: 30px 10px;
+	margin: 30px 10px;
+
+	
+}
+.box1 {
+	
+	
+	padding: 20px;
+	margin: 25px;
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 350px;
+}
+
+
+}
+
+p {
+	flex-direction: column;	
+}
+.button {
+	border: 1px solid black;
+	background-color: lightgrey;
+
+}
+
+
+.picture{
+	display:flex;
+	justify-content: flex-end;
+	width: 100%;
+	border-top: 1px solid black;
+	margin: 30px 10px;
+	padding: 30px 10px;
+}
+.services-info-img {
+	
+	justify-content: flex-end;
+}
+
