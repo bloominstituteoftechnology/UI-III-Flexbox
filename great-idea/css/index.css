@@ -64,3 +64,147 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+body {
+	margin-left:15%;
+	margin-right:15%;
+	
+}
+
+ nav {
+	color:grey;
+	display:flex;
+	justify-content: space-between;
+	
+}
+nav a {
+	text-decoration: none;
+	color: grey;
+}
+
+ul.horizNav li {
+	display:inline-block;
+	padding:35px 30px;
+}
+
+.logo {
+	margin-left:70px;
+	
+}
+ .logoGraphic {
+	 margin-left:70px;
+	 margin-right: 80px;
+
+ }
+#Motto {
+	display:flex;
+	position:relative;
+	width:100%;
+	padding-bottom:65px;
+}
+
+
+#Motto h1 {
+	font-size:72px;
+	text-align: center;
+	padding-top:50px;
+}
+
+#Motto button{
+	display:block;
+	position:relative;
+	padding: 10px 30px;
+	background-color:white;
+	border: 1px solid;
+	margin: auto;
+} 
+
+.Col-1{
+	width:49%;
+}
+#Features {
+	float:left;
+	width: 50%;
+
+}
+
+#About {
+	float: right;
+	width: 50%;
+}
+
+	.middle-img {
+		display: flex;
+		align-content:center;				
+		width: 100%;
+	}
+	
+	
+	.box {
+		width:40%;
+		padding: 30px;
+		border:1px solid black;
+		margin: 30px;
+		background-color:#f4f3f4;
+	}
+
+	.columns {
+		display:flex;
+		flex-flow: row wrap;
+	}
+
+
+	.Services {
+		display:flex;
+		align-content:center;
+		font-size:150%;
+		padding:20px;
+
+	}
+
+	button {
+		margin-top: 20px;
+		padding: 5px 20px;
+		background: white;
+    	border-radius: 5px;
+	}
+
+	#Contact {
+		margin-top:25px;		
+		width:20%;
+	}
+
+	hr {
+		border:0.5px solid black;
+	}
+
+	footer{
+		padding: 20px 0px 50px 0px;
+		
+	}
+
+	span.Copy { 
+		display: flex;
+    	flex-wrap: wrap;
+		justify-content: center;
+		line-height: 1.3;
+		padding:50px 0px 25px 0px;		
+	}
+
+	.someFacts {
+		margin-left: 20px;
+	}
+	.someFacts li {
+		list-style-type: square;
+	}
+	
+	.column2 {
+		width: 40%;
+		margin: 30px;
+	}
+
+	.column3 {
+		width: 25%;
+		margin: 20px;
+}
