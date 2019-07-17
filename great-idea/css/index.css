@@ -65,143 +65,232 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-body{
-	width: 70%;
-	margin: 5px;
-	
-	
-	}
+.container{ 
+	margin: 0 auto;
+	width:880px;
 
-	.nav{
+	
+
+}
+
+header{ 
+	 
+	 margin-top: 10px;
+	 text-decoration-color: black;
+		color: black;
 		display:flex;
-			flex-direction: row;
-			flex-wrap: 
-	}
-	.nav a{ 
-		 
-		 margin-top: 10px;
-		 text-decoration-color: black;
-			color: black;
+		align-items: center;
+		justify-content: space-between;
 			
+					
+}
 
 
-			margin-top: 5px;
-				margin-bottom: 20px;
-				margin-left: 65px;
-				margin-right: 0px;
-				padding-top: 35px; 
-				
-				
-	}
 	
-	
-	
-	.nav .logo{
-		 
-		margin-left:70px; 
+
+nav{
+
+	display: flex;
+	margin-left: 40px; 
+}
+
+a{
+
+	color: gray;
+    text-decoration: none;
 		
-	}
-	
+		margin-left: 40px;
+}
+
+.cta{
+
+	display:flex;
+	margin-top: 80px;
+	justify-content: space-evenly;
+}	
+
+header h3{
+
+border-spacing: 10px; 
+
+}
+.topparagraph .text-content1 p{
+
+	width: 400px; 
+
+}
+
+
+ .topparagraph .text-content2 p{
+
+	width: 400px; 
 		
-	
-	header h3{
-	
-	border-spacing: 10px; 
-	
-	}
-	
-	
-	
-	
-	
-	.toppara{
+ }
+	.topparagraph{
 		display:flex; 
-			flex-direction: row;
-			flex-wrap: wrap; 
-	}
-	
-	#p1p2{
-		
-		width: 410px;
+		justify-content: space-evenly;
+		margin-bottom: 50px;
+
+	}	
+  
+	.bottomparagraph{
+		width: 950px;
 		display:flex; 
-			flex-direction: row;
-			flex-wrap: wrap; 
+		margin-top: 50px;
+		margin-bottom: 40px;
 	}
-	
-	}
-	
-	.middle-img{
-	
-		size: 100%;
-		margin-left: 75px; 
-		margin-top: 30px;
-		margin-bottom: 30px; 
 		
-	}
 	
-	#p3{
-		display: inline-block;
-		width: 290px; 
-		margin-left: 75px; 
-	}
+	.bottomparagraph .text-content3{
+		width: 400px; 
+
+	}	
+
+	.bottomparagraph .text-content4{
+
+		width: 400px; 
+	}	
+	.bottomparagraph .text-content5{
+
+		width: 400px; 
+	}	
 	
-	#p4{
-		display: inline-block;
-		width: 290px; 
-		margin-left: 5px; 
-	}
+.main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
+
+
+
+
+
+
+
+.middle-img{
+
+	size: 100%;
+	margin-left: 0px; 
+	margin-top: 30px;
+	margin-bottom: 30px;
 	
-	#p5{
-		display: inline-block;
-		width: 290px; 
-		margin-left: 5px; 
-	}
-	footer{
-	text-align: center
+}
+
+
+
+
+
+
+
+
+
+.copyright{
+
+margin-left: 320px;
+
+
+}
+.topgraphic1{
 	
 	
-	}
-	.topgraphic1{
+	width: 100%;
+	
+}
+.cta-text{
+	
+	font-size: 75px;
+	
+	text-align: center; 
+}
+header p{
 		
-		display: inline-block;
-		width: 100%;
-		
-	}
-	header h3{
-		display: inline-block;
-		font-size: 75px;
+		font-size: 27px;
+		border: solid;
 		position: relative; 
 		top: 150px;
-		left: 165px; 
-		text-align: center; 
+		left: 245px; 
+		padding:8px; 
+}
+	button {
+
+		font-size: 27px;
+		border: solid;
+		background-color: white;
 	}
-	header p{
-			display: inline;
-			font-size: 27px;
-			border: solid;
-			position: relative; 
-			top: 150px;
-			left: 245px; 
-			padding:8px; 
-			
+}
+
+}
+.contact{
+	margin-left: 75px; 
+
+}.header-img{
+	margin-left: 42%; 
+	margin-bottom: -127px; 
+	height:400px;
+	width:400px;
 	
+	bottom: 200px;
+	left: 0px; 
 	}
-	.topgraphic2{
-	
-		display: inline-block;
-		width: 100%;
-		margin-left: 1px; 
+	 
+
+
+	/* SERVICES PAGE GOES UNDER HERE */ 
+
+
+	.container-services{ 
+		margin: 0 auto;
+		width:880px;
 	}
-	.contact{
-		margin-left: 75px; 
-	
-	}.header-img{
-		margin-left: 42%; 
-		margin-bottom: -127px; 
-		height:400px;
-		width:400px;
-		display: inline-block;
-		position: relative;
-		bottom: 200px;
-		left: 0px; 
-		}
+
+	.text-content1-services{
+		width: 896px;
+
+	}
+	.text-content2-services{
+		border:solid 1px black;
+		background-color: gainsboro;
+	}
+	.text-content3-services{
+		border:solid 1px black;
+		
+	}
+	.text-content4-services{
+		border:solid 1px black;
+		
+	}
+	.text-content5-services{
+		border:solid 1px black;
+		
+	}
+	.text-content6-services{
+		border:solid 1px black;
+		
+	}
+	.text-content7-services{
+		border:solid 1px black;
+		
+	}
+	.main-content-services{
+		flex-wrap: wrap;
+
+
+	}
+	.text-content2-servioes{
+		width:440px;
+
+	}
+	.first-row{
+display:flex;
+
+	}
+	.second-row{
+		display:flex;
+	}
+	.third-row{
+		display:flex;
+	}
+	ul {
+		list-style-type: square;
+		line-height: 2;
+	  }
