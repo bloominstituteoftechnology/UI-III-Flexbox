@@ -64,6 +64,13 @@ header nav a {
 	
 }
 
+
+header a:hover{
+	background: Green;
+	color:white;
+	
+}
+
 header nav a:hover {
 	background: green;
 	color: white;
