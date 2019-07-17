@@ -65,7 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	margin: 0 4em;
+	width: 100%;
+}
+.inner-body {
+	margin: 0 auto;
 	min-width: 896px;
 	max-width: 896px;
 }
@@ -77,32 +80,35 @@ section {
 .h-center {
 	text-align: center;
 }
-.h-right {
-	text-align: right;
+
+.flex {
+	display: flex;
 }
 
-.v-center {
-	vertical-align: middle;
+.w-full {
+	width: 100%;
 }
 
-.inline {
-	display: inline;
+.f_direction_row {
+	flex-direction: row;
 }
-.inline-block {
-	display: inline-block;
+.f_direction_column {
+	flex-direction: column;
 }
-.block {
-	display: block;
+.f_wrap_nowrap {
+	flex-wrap: nowrap;
 }
-
-.columns-2 {
-	columns: 2;
+.f_align-items_center {
+	align-items: center;
 }
-.halves {
-	width: 49.5%;
+.f_justify-content_space-between {
+	justify-content: space-between;
 }
-.thirds {
-	width: 33%;
+.f_align-content_center {
+	align-content: center;
+}
+.f_align-content_space-around {
+	align-content: space-around;
 }
 
 a {
@@ -110,28 +116,12 @@ a {
 	color: black;
 }
 
-.header {
-	width: 100%;
-}
 nav {
 	height: 76px;
-	line-height: 76px;
+	/* line-height: 76px; */
 }
 nav a {
 	color: gray;
-	padding-right: 60px;
-	vertical-align: top;
-}
-nav img {
-	padding: 20px 0;
-}
-
-.logo1 {
-	padding-left: 30px;
-}
-.logo2 {
-	margin-left: auto;
-	margin-right: 0;
 }
 
 h1 {
@@ -180,4 +170,9 @@ p {
 }
 .t-pad-2_5 {
 	margin-top: 2.5em;
+}
+
+/* Debug */
+div {
+	/* border: 2px dashed blueviolet; */
 }
