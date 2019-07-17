@@ -64,3 +64,196 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* main page css */
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+	margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+	  color: #c8bcb4;
+	  font-size: 18px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+}
+
+.top-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.top-left h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.top-left a {
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+  	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid #000;
+	padding: 5px 35px;
+}
+
+/*.top-right {
+	padding-right: -40px;
+}*/
+
+#middle-section{
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+#middle-section h2 {
+	font-size: 18px;
+}
+
+.middle-image {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.middle-image img {
+	width: 100%;
+	width: calc(100%);
+	margin: 0 auto;
+}
+ 
+#bottom-section {
+	  display: flex;
+	  justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+}
+
+#bottom-section p {
+    padding-bottom: 15px;
+}
+
+#bottom-section h2 {
+	font-size: 18px;
+}
+
+footer {
+	padding: 25px 0px 0px 0px;
+	text-align: center; 
+}
+
+#copyright {
+	text-align: center;
+	padding: 35px 0px;
+}
+
+/* css for Services Page */
+
+h1 {
+	font-size: 25px;
+  	text-align: left;
+	padding: 20px;
+	margin-bottom: -40px;
+	width: 80%;  
+}
+
+
+body {
+	transform: scale(1.0);
+	transform-origin: 0 0;
+}
+
+.services-header{
+	text-align: left;
+	width: 80%;
+	padding: 20px;
+	margin-left: 10px;
+	/*margin: 100px 0px 0px 0px;*/
+}
+
+.header-text{
+	padding: 40px 0px 20px 20px;
+}
+
+.services-header-img {
+	width: 79%;
+	height: 40%
+	padding-right: 20px;
+}
+
+.columns{
+  	max-width: 80%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-top: 1px solid gray;
+	}
+
+.infobox{
+	width: 46%;
+	height: 210px;
+	background: white;
+	border: 1px solid black;
+  	margin-bottom: 20px;
+  	margin-top: 20px;
+	margin-left: 0px;
+	padding: 10px; 
+}
+.infobutton{
+	background: white;
+	color: black;
+ 	padding: 6px;
+	margin-top: 10px;  
+}
+
+.bottom{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 2px solid black;
+	margin-bottom: 30px;
+	padding-left: -5px;
+}
+
+#bottext{
+	width: 49.5%;
+	padding: 20px;
+	margin: 0 auto;
+	align-self: right;
+}
+#list{
+	padding-left: 20px;
+}
+
+#awesomeimage{
+	justify-content: right;
+	align-self: flex-end;
+}
