@@ -211,7 +211,7 @@ header p{
 		left: 245px; 
 		padding:8px; 
 }
-	button {
+	.cta .cta-text button {
 
 		font-size: 27px;
 		border: solid;
@@ -236,8 +236,16 @@ header p{
 
 
 	/* SERVICES PAGE GOES UNDER HERE */ 
+.services-header-img{
+	margin-top: 25px;
+}
 
-
+.text-content1-services h4{
+	font-size: 25px;
+}
+.text-content1-services p{
+	margin-bottom: 35px;
+}
 	.container-services{ 
 		margin: 0 auto;
 		width:880px;
@@ -250,26 +258,46 @@ header p{
 	.text-content2-services{
 		border:solid 1px black;
 		background-color: gainsboro;
+		margin-top: 35px;
+		margin-right: 35px;
+		padding: 10px;s
 	}
 	.text-content3-services{
 		border:solid 1px black;
+		background-color: gainsboro;
+		margin-top: 35px;
 		
+		padding: 10px;s
 	}
 	.text-content4-services{
 		border:solid 1px black;
-		
+		background-color: gainsboro;
+		margin-top: 35px;
+		margin-right: 35px;
+		padding: 10px;s
 	}
 	.text-content5-services{
 		border:solid 1px black;
+		background-color: gainsboro;
+		margin-top: 35px;
 		
+		padding: 10px;s
 	}
 	.text-content6-services{
 		border:solid 1px black;
-		
+		background-color: gainsboro;
+		margin-top: 35px;
+		margin-right: 35px;
+		padding: 10px;
+		margin-bottom:24px;
+
 	}
 	.text-content7-services{
 		border:solid 1px black;
-		
+		background-color: gainsboro;
+		margin-top: 35px;
+		margin-bottom:24px;
+		padding: 10px;
 	}
 	.main-content-services{
 		flex-wrap: wrap;
@@ -293,4 +321,45 @@ display:flex;
 	ul {
 		list-style-type: square;
 		line-height: 2;
+	  }
+	  .bottom-content-services{
+		  display: flex;
+	  }
+	  .paralist{
+		  display: flex;
+		flex-direction: column;
+	  }
+	  .main-content-services button{
+		  text-align: center;
+
+	  }
+	  .button{
+		width: 105px;
+		border: solid black 1px;
+		height: 40px;
+		text-align: center;
+		margin-top:15px;
+		margin-bottom: 15px;
+		padding-top:8px;
+		border-radius: 10%;f
+		background: white;
+	  }
+	  .paralist h4{
+		  margin-top:25px;
+	  }
+	  .services-info-img{
+		margin-top:25px;
+	  }
+	  .paralist p{
+		width:400px;
+		margin-right: 57px;
+		margin-bottom: 24px;
+
+	  }
+	  .services-header-img{
+		  margin-bottom: 24px;
+	  }
+	  .footer{
+		  margin-top: 20px;
+		  text-align: center;
 	  }
