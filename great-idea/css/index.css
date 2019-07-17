@@ -187,11 +187,14 @@ li {
 .content_3 {
 	margin: 1%;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
+	justify-content: space-around;
 }
 
 .content_3_inner {
 	margin: 1%;
+	max-width: 200px;
 }
 
 .content_3_services {
