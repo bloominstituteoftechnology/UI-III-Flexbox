@@ -1,0 +1,45 @@
+
+ul:hover {
+    background-color: pink;
+    color: sienna;
+}
+
+main:hover {
+    background-color: yellow;
+    color: firebrick;
+}
+
+main > section:hover {
+    background-color: green;
+    color: royalblue;
+}
+
+p:hover {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+button:hover {
+    background-color: red;
+    color: brown;
+}
+
+.page-bottom:hover {
+    background-color: green;
+    color: darkorange;
+}
+
+h2:hover { 
+    background-color: aquamarine;
+    color: darkolivegreen;
+}
+
+small:hover {
+    background-color: salmon;
+    color: darkorchid;
+}
+
+.bottom-hr:hover {
+    border: solid 1px blueviolet;
+    color: darkred;
+}
