@@ -75,49 +75,5 @@ h1, h2, h3, h4, h5 {
 * Layout *
 **********/
 
-main {
-    margin: 0 auto;
-    width: 85%;
-}
-
-footer {
-    padding: 52px 0 114px;
-
-    font-size: 0.92em;
-    text-align: center;
-}
-
 /* Navbar Layout */
 
-.primary-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 26px;
-}
-
-.nav-link {
-    font-size: 0.9em;
-}
-
-#logo {
-    padding-left: 14%;
-}
-
-/**********
-* Modules *
-**********/
-
-/* Navbar Styling */
-
-.nav-link {
-    color: #4A4A4A;
-    text-decoration: none;
-}

@@ -2,7 +2,34 @@
 * Layout *
 **********/
 
+.primary-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 26px;
+}
+
+.nav-link {
+    font-size: 0.9em;
+}
+
+#logo {
+    padding-left: 14%;
+}
+
 /* Main Content */
+
+main {
+    margin: 0 auto;
+    width: 85%;
+}
 
 #content {
     padding-top: 39px;
@@ -33,7 +60,6 @@ article {
 
 .three-col-row {
     display: flex;
-    /*padding-top: 2px;*/
 }
 
 .two-col-row article:not(:first-child), .three-col-row article:not(:first-child) {
@@ -45,9 +71,23 @@ article {
     line-height: 1.1;
 }
 
+footer {
+    padding: 52px 0 114px;
+
+    font-size: 0.92em;
+    text-align: center;
+}
+
 /**********
 * Modules *
 **********/
+
+/* Navbar Styling */
+
+.nav-link {
+    color: #4A4A4A;
+    text-decoration: none;
+}
 
 /* Hero */
 
