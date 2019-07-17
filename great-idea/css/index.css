@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	text-align: center;	
+}
+.container{
+	margin: 1px; 
+	padding: .1px;
+	text-align: center;
+  }
+  .nav-item {
+	margin: 20px; 
+	padding: 1px 62px;
+	display: inline-block;
+	color: gray;
+  }
+.top {
+	font-size: 100px;
+	color: black;
+	text-align: left;  
+	margin: 1px; 
+	padding: 1px 80px;
+	display: inline-flex;
+}
+.box {
+	font-size: 100px;
+	color: black;
+	text-align: center;  
+	margin: 15px; 
+	padding: 20px 150px;
+}
+button {
+	font-size: 17px;
+	margin: 10px; 
+	padding: 5px 60px;
+	color: black;	
+}
+.img {
+	margin: 50px; 
+	padding: 1px 450px;
+	text-align: right;
+}
+.p1 {
+	width: 50%;
+	margin: 15px; 
+    padding: 1px 185px;
+	text-align: left;
+}
+.p2 {
+	width: 50%;
+	margin: 20px; 
+    padding: 1px 180px;
+	text-align: left;
+}
+
+.p4 {
+	width: 33%;
+	margin: 20px; 
+    padding: 1px 180px;
+	text-align: left;
+}
+.p5 {
+	width: 33%;
+	margin: 20px; 
+    padding: 1px 180px;
+	text-align: left;
+}
+.group1 {	
+	width: 100%;
+	height: 18%;
+	font-size: 20px;
+	display: inline-flex;
+}
+.group2 {	
+	width: 100%;
+	height: 20%;
+	font-size: 20px;
+	display: inline-flex;
+}
+.hr {
+	margin: 90px; 
+	padding: 1px 100px;
+}
+.img2 {
+	width: 50%;
+    height: 60%;
+	text-align: right;
+}
+.address {
+	margin: 20px; 
+	padding: 1px 180px;
+}
+footer {
+	display: inline;
+	text-align: left;
+	margin: 50px; 
+	padding: 1px 150px;
+}
+.info {
+	margin: 20px; 
+	padding: 1px 180px;
+}
+.copyright {
+	text-align: center;
+	margin: 5%;
+}
