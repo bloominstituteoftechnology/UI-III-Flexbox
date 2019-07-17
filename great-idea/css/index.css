@@ -68,6 +68,9 @@ h1, h2, h3, h4, h5 {
 .container{
 	width: 1000px;
 	margin: 0 auto;
+	display: flex;
+	align-content: flex-start;
+	flex-direction: column;
 	}
 
 .container .nav-header {
@@ -78,7 +81,7 @@ h1, h2, h3, h4, h5 {
 .container .nav-header nav {
 	display: flex;
 	justify-content: space-between;
-}
+	}
 
 header nav a {
 	padding: 15px;
@@ -89,6 +92,10 @@ header nav a {
 
 	header nav a:hover {
 		color: white;
+	}
+
+	.container .top-container {
+		margin-top: 80px;
 	}
 
 .logo{
