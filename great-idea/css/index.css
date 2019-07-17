@@ -167,3 +167,35 @@ footer {
 .services-text h1 {
 	font-size: 26px;
 }
+
+.services-content {
+  margin-top: -60px;
+  margin-bottom: 100px;
+  padding-bottom: 40px;
+	height: 850px;
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.service-block {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 440px;
+  height: 250px;
+  padding: 20px;
+  background-color: rgb(243, 244, 245);
+	border: 1px solid black;
+}
+
+
+.service-block button {
+  font-size: 12px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
