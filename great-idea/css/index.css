@@ -64,3 +64,209 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+
+	/* flex box properties */
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+	/* end of flexbox properties */ 
+
+	width: 1000px;
+	margin: auto;
+	background-color: #285D2F;
+	padding: 15px;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	font-family: 'Mountains of Christmas', cursive;
+
+}
+header nav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
+}
+
+
+header nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+header nav a:hover {
+	background: red;
+	padding: 5px 15px;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+
+
+p {
+	font-size: 14px;
+	margin: 10px auto;
+}
+.container {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid black; 
+	padding: 30px 50px 30px 50px;
+	margin-bottom: 50px;
+}
+
+
+.innovation{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 20px 0px 0px 20px;
+}
+
+.innovation h1 {
+	font-size: 80px;
+}
+
+.innovation button {
+	font-size: 25px;
+	padding: 10px 30px;
+	background: white;
+	border: 1px solid black;
+
+}
+
+.top-content {
+	border-top: 1px solid black;
+	margin-top: 50px;
+	padding: 30px 0px 30px 0px;
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.content-bottom {
+	display: flex; 
+	justify-content: space-evenly;
+	padding: 30px 0px 30px 0px;
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 30px;
+}
+
+footer p {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/** Product Page **/
+
+.product {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid green;
+	text-align: center;
+	padding: 10px;
+	width: 33%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 1em;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+.content {
+	padding-bottom: 20px;
+}
+
+/** End of Product Page **/
+
+/* beginning of service page */
+
+.top {
+	text-align: left;
+	padding: 30px 0px 30px 0px;
+}
+
+.top h1 {
+	text-align: left;
+}
+
+.main {
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main .main-box {
+	border: 1px solid black;
+	width: 48%;
+	padding: 15px;
+	margin: 2% 0px;
+	background: lightgray;;
+}
+
+.main .main-box button {
+	background: white;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 5px 20px; 
+	text-align: center;
+}
+
+.bottom {
+	padding: 30px 0px; 
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ul li {
+	padding: 5px;
+}
+
+
+/* Begining of the Feature page */
+
+.top-features {
+	background: url(../img/Technology.jpg);
+	height: 500px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 25px;
+	color: yellow;
+}
+
+.top-features p {
+	display: hidden;
+} 
+
+.top-features p:hover {
+	display: block;
+}
+
+
