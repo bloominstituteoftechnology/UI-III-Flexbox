@@ -77,6 +77,7 @@ h1, h2, h3, h4, h5 {
 
  nav {
  	display: flex;
+ 	align-items: center;
  }
  
  header nav a{
@@ -165,9 +166,6 @@ padding: 10px 45px 10px 45px;
 	margin-top: 30px;
 }
 
-.services-header-img {
-	
-}
 
 .boxes {
     background-color:#f2f2f2;
@@ -187,20 +185,51 @@ padding: 10px 45px 10px 45px;
 .service-button {
 	background-color: white;
 	border-radius: 5px;
+	border:1px solid black;
+	width:150px;
+	height:35px;
+	margin-top:10px;
 }
 
 .end-page{
 	display:flex;
+	justify-content: space-around;
 }
 
-hr{
-	background: #000000
-	padding:20px;
+.first-section hr{
+	color: #000000
+}
+
+ul {
+	margin-top: 30px;
+	margin-left:10px;
 }
 
 ul li {
-	
+	list-style-type: square;
 	margin:10px;
+}
+
+.service-facts {
+	max-width: 500px;
+	min-width: 400px;
+	padding: 30px;
+	
+}
+
+.copyright-2 {
+	text-align: center;
+	margin:100px;
+}
+
+.second-horizontal {
+	width:905px;
+	background-color: black;
+}
+
+.services-info-img {
+	margin-top: 25px;
+	margin-right: 30px;
 }
 
 #top-paragraph {
