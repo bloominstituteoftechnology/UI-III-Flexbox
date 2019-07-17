@@ -84,7 +84,11 @@ header nav a {
 	padding: 15px;
 	margin-right: 40px;
 	text-decoration: none;
-	color: grey;
+	color: black;
+	}
+
+	header nav a:hover {
+		color: white;
 	}
 
 .logo{
@@ -99,8 +103,8 @@ header nav a {
 
 /* Stretch Goal */
 .nav-header {
-	/* background: lightskyblue;
-	position: fixed; */
+	background: rgb(43, 180, 221);
+	position: fixed;
 }
 
 .top-container {
@@ -195,53 +199,94 @@ header nav a {
 
 footer #copyright {
 	display: flex;
-	margin: 50px;
+	margin: 80px 0 50px 0;
 	justify-content: center;
 	}
 
-	/* start services page */
+/* start services page */
+.services {
+	width: 975px;
+	border-bottom: 1.2px solid black;
+}
 
+.services-header-img {
+	margin-top: 48px;
+	width: 977px;
+}
 
-	.services-header-img {
-		width: 98%;
-	}
+.services h2 {
+	margin-top: 25px;
+}
 
-	.services h2 {
-		margin-top: 25px;
-	}
+.services p {
+	margin-bottom: 25px
+}
 
-	.services p {
-		margin-bottom: 25px
-		}
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+	width: auto;
+	height: auto;
+	border-bottom: 1.2px solid black;
+	margin: 15px 0 45px 0;
+}
 
-	.services {
-		width: 975px;
-		border-bottom: 1.2px solid black;
-	}
+.main-content article {
+	display: flex;
+	flex-direction: column;
+	align-content: stretch;
+	width: 470px;
+	height: 220px;
+	padding: 25px;
+	margin: 25px 0;
+	border: 1px solid gray;
+	background-color: #e6f3ff;
+}
 
-	.main-content {
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		width: 975px;
-		margin-bottom: 25px;
-		border-bottom: 1.2px solid black;
-	}
+.main-content article .learn-more {
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: black;
+	width: 150px;
+	padding: 10px;
+	margin-top: 15px;
+	border: 1px solid black;
+	background: whitesmoke;
+	display: flex;
+	justify-content: center;
+}
 
-	.main-content article {
-		flex-flow: column nowrap;
-		width: 470px;
-		height: 200px;
-		padding: 25px;
-		margin: 25px 0;
-		border: 1px solid gray;
-		background-color: whitesmoke;
-	}
+.main-content article .learn-more:hover {
+	background: darkblue;
+	color: white;
+}
 
-	.main-content article p {
-		padding:
-	}
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 35px;
+}
 
-	.main-content article h3 {
-		
-	}
+.bottom-content .bottom-left {
+	flex-direction: column;
+	align-content: stretch;
+	width: 470px;
+	height: 336px;
+}
+
+.bottom-content .bottom-right .services-info-img {
+	margin-right: 25px;
+	width: 470px
+}
+
+.bottom-content .bottom-left ul li {
+	list-style: disc;
+	margin: 25px 0 0 20px;
+}
+
+p {
+	line-height: 1.2em;
+}
