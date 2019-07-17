@@ -7,10 +7,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    position: sticky;
-    top: 0;
     width: 100%;
-    z-index: 1000;
     padding-top: 26px;
 }
 
@@ -136,4 +133,18 @@ footer {
     padding-left: 6px;
 
     font-size: 1.08em;
+}
+
+/********
+* State *
+********/
+
+@media screen and (max-width: 860px) {
+    #card-roll {
+        flex-direction: column;
+    }
+
+    .card {
+        max-width: 100%;
+    }
 }

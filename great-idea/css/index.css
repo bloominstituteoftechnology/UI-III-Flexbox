@@ -7,10 +7,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    position: sticky;
-    top: 0;
     width: 100%;
-    z-index: 1000;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 26px;
