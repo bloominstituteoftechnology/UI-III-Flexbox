@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.wholebox{
+	border: auto;
+	margin: 30px;
+	padding: 40px;
+	border: 5px;
+}
+hr{
+margin-before: 0.5em;
+margin-after: 0.5em;
+margin-start: auto;
+margin-end: auto;
+overflow: hidden;
+border-style: solid;
+border-width: .5px;
+width: 90%;
+}
+a {
+	text-decoration: none;
+	color: #bac4d4;
+}
+nav{
+	display: flex;
+	flex-display; wrap;
+}
+#n {
+color: grey;
+width: auto;
+height: auto;
+padding: 30px;
+margin: 20px;
+}
+.logo{
+	width: 15%;
+	height: 30%;
+	padding: auto;
+	margin: auto;
+}
+#middle1{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#middle2{
+	margin-left: 90px;
+	flex-flow: column wrap;
+	align-items: baseline;
+	justify-content: center;
+}
+#innovation{
+	font-family:Bangers;
+	font-size: 90px;
+	text-align: center;
+}
+#Get{
+	width: 50%;
+	height: auto;
+	padding: 10px 10px 10px 10px;
+	margin:auto;
+	border: 1px solid black;
+	text-align: center;
+	font-style: bold;
+	font-size: 18px;
+}
+#circle{
+	width: 30%;
+  height: auto;
+	padding: 12px;
+	border: 1px;
+  margin: auto;
+}
+#features, #about{
+	width: 40%;
+	height: auto;
+	padding: auto;
+	border: 10px;
+	margin: auto;
+	font-size: 18px;
+}
+#top{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.middle-img{
+	width: 95%;
+	height: 10%;
+	padding: 20px;
+	margin: 30px;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+#services, #product, #vision{
+	width: 30%;
+	height: auto;
+	padding: 30px;
+	border: 10px;
+	margin: auto;
+	font-size: 18px;
+}
+#bttm{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+address{
+	line-height: 2;
+	align-items:flex-start;
+	flex-flow: column wrap:
+	justify-content:space-around;
+	width: auto;
+	height: auto;
+	margin: 50px;
+	padding:auto;
+}
+footer{
+	text-align: center;
+}
