@@ -64,3 +64,182 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+h2 {
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+}
+
+hr {
+	width: 50%;
+	margin-left: 150px;
+	margin-right: auto;
+}
+
+body {
+	margin: 0px 50px 0px 50px;
+}
+
+.box-top {
+	display: flex;
+	flex-direction: row;
+	margin-top: 25px;
+	margin-left: 100px;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	margin-top: 12px;
+	margin-left: 30px;
+}
+
+.box-top img{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-left: 75px;
+}
+
+a {
+	font-size: 18px;
+	color: gray;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+/* Box for top section */
+.box-section-one {
+	display: flex;
+}
+
+/* Box for Slogan & Start button */
+.box-content-one {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	margin-left: 170px;
+}
+
+/* Innovation on demand Box */
+.box-one {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-top: 30px;
+}
+
+/* Get Started Button */
+.box-two {
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	color: gray;
+	text-align: center;
+	padding-top: 2px;
+	border: 2px solid gray;
+}
+
+/* .box-section-one.box-content-one img {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-left: 100px;
+	margin-bottom: 25px;
+} */
+
+/* Box Right with Image */
+.box-content-two {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 40px 0px 15px 100px;
+}
+
+/* Middle Section Above Banner Image in Middle */
+
+/* Section 2 */
+.box-section-two {
+	display: flex;
+	margin-top: 15px;
+}
+
+.box-content-three {
+	display: flex;
+	flex-wrap: wrap;
+	width: 33%;
+	margin-left: 150px;
+}
+
+.box-content-four {
+	display: flex;
+	flex-wrap: wrap;
+	width: 33%;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+/* Banner Image */
+.box-banner-image {
+	display: flex;
+	align-content: center;
+	margin-top: 15px;
+	margin-left: 150px;
+}
+/* Section Below Image Banner */
+
+/* Section 3 */
+.box-section-three {
+	display: flex;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.box-content-five {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 20%;
+	margin-top: 15px;
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+
+.box-content-six {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 20%;
+	margin-top: 15px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+.box-content-seven {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	width: 20%;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+.section-four {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-top: 25px;
+	margin-left: 150px;
+}
+
+address {
+	margin-bottom: 25px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 10px;
+}
