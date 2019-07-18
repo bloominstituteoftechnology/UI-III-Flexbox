@@ -48,19 +48,241 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+* /* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+ height: 100%;
+ font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+ font-family: 'Bangers', cursive;
+ letter-spacing: 1px;
+ margin-bottom: 15px;
+}
+/* First page here */
+
+body {
+ width: 890px;
+ margin: auto;}
+
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 35px 0px 0px 0px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav a {
+ text-decoration: none;
+ font-size: 15px;
+ font-weight: bold;
+ color: darkgray;
+}
+
+.logo {
+ padding-left: 30px;
+ padding-right: 10px;
+}
+
+.headerPage1 {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 60px;
+}
+
+.title{
+ text-align: center;
+ padding-left: 70px;
+}
+
+.title h1{
+ font-size:75px;
+ }
+
+.title a{
+ text-decoration: none;
+ font-size:15px;
+ color: Gray;
+ padding: 6px 20px;
+ border: 1px solid black;
+}
+
+.above {
+ display: flex;
+ border-top: 1px solid black;
+ padding-top: 40px;
+ margin-top: 120px;
+}
+
+.middle-img{
+ margin:30px 5px 30px 5px;
+}
+
+.below {
+ display: flex;
+ justify-content: space-between;
+ border-bottom: 1px solid black;
+ padding-bottom: 50px;
+}
+
+.bottom1{
+ padding-right: 20px;
+}
+
+.bottom2{
+ padding-right: 20px;
+}
+
+.contact h4 {
+ padding-top: 40px;
+}
+
+.number {
+ padding-top: 20px; padding-bottom: 20px;
+}
+
+.footerPage1{
+ text-align: center;
+ padding: 40px;
+ font-size: 13px;
+}
+
+/* Second page here */
+
+.services-header-img{
+ padding-top: 20px;
+ padding-bottom: 30px;
+}
+
+.headerPage2 {
+ color: black;
+ padding-bottom: 40px;
+ border-bottom: 1px solid black;
+ margin-bottom: 40px;
+}
+
+.headerPage2 h1{
+ font-size: 26px;
+ }
+
+.headerPage2 p{
+ line-height: 20px;
+}
+
+.choices{
+ display: flex;
+ flex-wrap: wrap;
+ height: 840px;
+ justify-content: space-between;
+ align-content: space-between;
+ padding-right: 10px;
+}
+
+.choice{
+ flex-basis: 420px;
+ padding: 20px;
+ background-color: whitesmoke;
+ border: 1px solid black;
+ padding-bottom: 30px;	
+}
+
+.choice p{
+ padding-top: 5px;
+ line-height: 20px;
+ padding-bottom: 30px;
+}
+
+.choice a{
+ text-decoration: none;
+ font-size: 12px;
+ color: black;
+ padding: 7px 40px;
+ border: 1px solid black;
+ border-radius: 5px;
+ background-color: white;
+}
+
+summary{
+ padding-top: 40px;
+ border-top: 2px solid black;
+ margin-top: 40px;
+ display: flex;
+ justify-content: space-between;
+ line-height: 20px;
+ padding-right: 5px;
+}
+
+.facts{
+ padding-right: 70px;
+}
+
+ul{
+ padding-top: 20px;
+ padding-left: 18px;
+ line-height: 30px;
+}
+
+li{
+padding-left: 10px;
+}
+
+.footerPage2{
+ margin-top: 40px;
+ text-align: center;
+ padding: 40px;
+ font-size: 16px;
+}
