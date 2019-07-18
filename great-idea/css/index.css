@@ -176,4 +176,117 @@ footer{
 	font-size:10px;
 	margin:20px;
 } 
-		
+
+.serives-header-img{
+	display: flex;
+	align-content: center;
+
+}
+
+.body{
+	display:flex;
+	flex-direction: row;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-width: 1px;
+	justify-content: space-around;
+}
+
+.digital-desgin{
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-bottom: solid grey;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 50px 50px 50px 50px;
+}
+
+.ui-ux{
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 50px 50px 50px 50px;
+}
+
+.digital-marketing{
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 50px 50px 50px 50px;
+}
+
+.web-dev{
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-width: 1px;
+	margin-bottom:20px;
+	padding: 50px 50px 50px 50px;
+}
+
+.ios-dev{
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-width: 1px;
+	margin-bottom:20px;
+	padding: 50px 50px 50px 50px;
+}
+
+.an-dev{
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-width: 1px;
+	padding: 50px 50px 50px 50px;
+}
+.serv-body1{
+	display: flex;
+	flex-direction: column;
+	border: 1px grey;
+	padding:20px 20px 20px 20px;
+	flex-wrap: wrap;
+}
+
+.serv-body2{
+	display: flex;
+	flex-direction: column;
+	border: 1px grey;
+	padding:20px;
+	flex-wrap: wrap;
+}
+
+.services-list{
+	
+	display: flex;
+	justify-content: flex-start;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.services-info-img{
+	display: flex;
+	justify-content: flex-end;
+	padding-left: 50px;
+}
+
+ul{
+	padding: 10px 10px 10px 10px;
+	list-style: circle;
+}
