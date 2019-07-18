@@ -83,51 +83,108 @@ h1, h2, h3, h4, h5 {
 * {
     *box-sizing: border-box;
 }
-header nav{
-	display: inline-block;
-	margin-top:35px
-}
-header nav a{
-    margin: 23px 23px 23px 23px;
-    
-    color:gray;
-    font-size: 20px;
-}
-.services-header-img{
-    width: 850px;
-    height: 200px;
-}
-
 .main-container{
-    padding:30px 20px 30px 40px;
-    display: flex;
-    flex-direction: column;
-	border:2px solid red;
+	width: 930px;
+	margin:auto;
+	padding: 20px
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between
+}
+.logo{
+    margin-right: 0px
+
+}
+header nav a {
+	padding:20px;
+	margin-top:0px;
+    text-decoration: none;
+    font-weight:bold ;
+    color:gray;
+ 
+}
+.main-container{
+    border: 1px solid black;
+    padding:30px 20px 10px 35px;
 }
 .main-content{
+   padding: 0px;
     display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    flex-shrink:56px;
-
+    flex-direction: column;
+}
+.first-row {
+    display:flex;
+    flex-direction: row;
+}
+.second-row {
+    display:flex;
+    flex-direction: row;
+}
+.third-row {
+    display:flex;
+    flex-direction: row;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+}
+.rows .element:first-child{
+	margin-right:40px;
 }
 .element{
     border:1px solid black;
-    background-color: rgb(177, 175, 175)
+    margin:20px;
+    padding:20px;
+    background-color: rgb(247, 247, 247);
+    width: 50%;
+    overflow: hidden;
 }
+.some-facts{
+    border:1px solid white;
 }
-  .main-content {
-    display: flexbox;
-    flex-direction: column;
-	
-  }
+.last-pic{
+    border:1px solid white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-	
 }
+.some-facts ul{
+    margin-left: 15px;
+}
+.some-facts{
+    margin-right: 30px;
+}
+
 
   footer{
 	  text-align: center;
-	  padding-bottom:40px
+	  padding-bottom:20px
   }
- 
+  p {
+    line-height: 1.4;
+    font-weight:bold 
+  }
+  ul{
+     line-height: 1.4;
+     font-weight:bold 
+}
+.services-header-img{
+width: 880px;
+}
+button{
+    padding:10px 35px 10px 35px;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid black;
+    margin-top: 20px;
+    font-weight:bold 
 
+}
+.introduction h1{
+    font-size: 25px;
+    margin-top: 25px;
+}
