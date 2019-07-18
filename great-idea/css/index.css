@@ -190,6 +190,7 @@ footer{
 	border-bottom: solid grey;
 	border-width: 1px;
 	justify-content: space-around;
+	margin:98%;
 }
 
 .digital-desgin{
@@ -201,6 +202,8 @@ footer{
 	border-width: 1px;
 	margin-bottom: 20px;
 	padding: 50px 50px 50px 50px;
+	width: 300px;
+	height: 300px;
 }
 
 .ui-ux{
@@ -212,6 +215,8 @@ footer{
 	border-width: 1px;
 	margin-bottom: 20px;
 	padding: 50px 50px 50px 50px;
+	width: 300px;
+	height: 300px;
 }
 
 .digital-marketing{
@@ -223,6 +228,8 @@ footer{
 	border-width: 1px;
 	margin-bottom: 20px;
 	padding: 50px 50px 50px 50px;
+	width: 300px;
+	height: 300px;
 }
 
 .web-dev{
@@ -234,6 +241,8 @@ footer{
 	border-width: 1px;
 	margin-bottom:20px;
 	padding: 50px 50px 50px 50px;
+	width: 300px;
+	height: 300px;
 }
 
 .ios-dev{
@@ -245,35 +254,48 @@ footer{
 	border-width: 1px;
 	margin-bottom:20px;
 	padding: 50px 50px 50px 50px;
+	width: 300px;
+	height: 300px;
 }
 
 .an-dev{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
 	background-color: lightgrey;
 	border-top: solid grey;
 	border-bottom: solid grey;
 	border-left: solid grey;
 	border-right:solid grey;
 	border-width: 1px;
-	padding: 50px 50px 50px 50px;
+	padding: 50px;
+	width: 300px;
+	height: 300px;
 }
 .serv-body1{
 	display: flex;
 	flex-direction: column;
+	align-content: center;
 	border: 1px grey;
 	padding:20px 20px 20px 20px;
 	flex-wrap: wrap;
+	margin: 98%;
+
 }
 
 .serv-body2{
+	box-sizing: border-box;
 	display: flex;
+	align-content: center;
 	flex-direction: column;
 	border: 1px grey;
 	padding:20px;
 	flex-wrap: wrap;
+	margin:98%;
 }
 
 .services-list{
-	
+	box-sizing: border-box;
 	display: flex;
 	justify-content: flex-start;
 	justify-content: space-between;
