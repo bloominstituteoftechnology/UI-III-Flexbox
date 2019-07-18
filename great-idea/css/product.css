@@ -89,19 +89,18 @@ footer {
 }
 
 #desk-image-box {
-    width: 600px;
-    height: 350px;
+    width: 49%;
+    height: 400px;
     overflow: hidden;
 }
 
 #desk-image {
     width: 100%;
-    margin-top: -250px;
+    margin-top: -300px;
 }
 
 .two-col-row .col.right {
-    width: 50%;
-    padding-left: 40px;
+    width: 49%;
 
     line-height: 1.26;
 }
