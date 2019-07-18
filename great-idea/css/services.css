@@ -175,6 +175,11 @@ header nav a {
 .services-header-img{
 width: 880px;
 }
+.services-info-img{
+    margin-right:10px;
+    margin-left:10px;
+    width: 150em
+}
 button{
     padding:10px 35px 10px 35px;
     background-color: white;
@@ -182,7 +187,6 @@ button{
     border:1px solid black;
     margin-top: 20px;
     font-weight:bold 
-
 }
 .introduction h1{
     font-size: 25px;
