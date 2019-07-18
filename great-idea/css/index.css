@@ -343,7 +343,31 @@ ul li {
 	padding-top: 20px;	
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+
+	header {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	header nav {
+		order: 2;
+		flex-direction: column;
+		text-align: center;
+		padding: 20px;
+	}
+
+	header nav a:hover {
+		padding: 0px;
+	}
+
+	header nav a {
+		font-size: 30px;
+		padding: 20px;
+	}
+	.container {
+		width: 100%;
+	}
 	.bottom-features {
 		display: flex;
 		justify-content: space-between;
