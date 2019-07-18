@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,228 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+nav {
+  /* border: 1px solid blue; */
+	margin: 25px;
+	margin-bottom: 50px;
+  display: flex;
+	justify-content: space-around;
+	align-items: center;
+  /* vertical-align: middle; */
+  /* width: 1000px;
+  height: auto; */
+}
+div {
+  /* border: 1px solid green; */
+}
+a {
+  /* border: 1px solid red; */
+  text-decoration: none;
+  color: grey;
+  /* vertical-align: middle; */
+  /* margin: 10px;
+  padding: 25px; */
+}
+p {
+  /* border: 1px solid red; */
+  text-align: left;
+}
+.logo {
+  vertical-align: middle;
+}
+.top {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  /* border: 1px solid blue; */
+  /* vertical-align: middle; */
+  /* width: 1000px;
+  height: auto; */
+}
+.roundIMG {
+  /* border: 1px solid red; */
+  width: 40%;
+  height: auto;
+  /* text-align: right; */
+  /* vertical-align: middle; */
+  padding: 25px;
+}
+.title {
+  /* border: 1px solid red; */
+  /* display: flex; */
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px;
+}
+h1 {
+  /* border: 1px solid red; */
+  font-size: 80px;
+  text-align: center;
+}
+h4 {
+  /* border: 1px solid red; */
+  text-align: left;
+}
+button {
+  background-color: white;
+  border: 1px solid black;
+  width: 150px;
+  height: 25px;
+}
+.middle {
+  /* display: flex;
+  text-align: center; */
+}
+.middleTOP {
+	border-top: 1px solid black;
+  margin: 50px;
+  padding-top: 25px;
+  /* box-sizing: border-box; */
+  display: flex;
+	align-items: center;
+  /* text-align: center;
+  vertical-align: middle; */
+
+}
+.features {
+  /* display: flex; */
+  /* text-align: center;
+  vertical-align: middle;
+  width: 49%; */
+  padding-right: 10px;
+}
+.about {
+  /* display: flex; */
+  /* text-align: center;
+  vertical-align: middle;
+  width: 49%; */
+  padding-left: 10px;
+}
+.middleIMG {
+	display: flex;
+	justify-content: center;
+	/* text-align: center; */
+	max-width: 100%;
+	height: auto;
+}
+.middleBOTTOM {
+  margin: 50px;
+  padding-bottom: 25px;
+  display: flex;
+	justify-content: center;
+	align-content: space-between;
+  /* text-align: center; */
+  border-bottom: 1px solid black;
+}
+.services {
+  /* display: flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 32%; */
+  padding-right: 10px;
+}
+.product {
+  /* display: flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 32%; */
+	padding-right: 10px;
+  padding-left: 10px;
+}
+.vision {
+  /* display: flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 32%; */
+  padding-left: 10px;
+}
+.contact {
+  margin: 50px;
+  width: 33%;
+  text-align: left;
+  vertical-align: middle;
+  /* padding: 25px; */
+}
+footer {
+  margin: 10px;
+	margin-bottom: 100px;
+  padding: 25px;
+	display: flex;
+	justify-content: center;
+  /* border: 1px solid red; */
+  /* text-align: center; */
+}
+#copyright {
+  /* border: 1px solid red; */
+  /* display: flex; */
+  text-align: center;
+}
+/* here start CSS for Services Page */
+
+.headerSIMG {
+	display: flex;
+	justify-content: center;
+}
+ul {
+	list-style: square outside;
+	margin: 10px;
+	padding: 10px;
+}
+.serviceNAV {
+	margin-bottom: 0px;
+}
+h2 {
+	font-size: 25px
+}
+.services-header-img {
+	margin: 25px;
+}
+.serviceCLASS {
+	margin: 25px;
+	padding-bottom: 20px;
+	/* border-bottom: 1px solid black; */
+}
+.serviceBOX {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.grayBOX {
+	border: 1px solid black;
+	background: gainsboro;
+	width: 45%;
+	height: auto;
+	margin: 20px;
+	padding: 25px;
+}
+.serviceBUTTON {
+	margin-top: 20px;
+	border-radius: 5px;
+	width: 150px;
+	height: 35px;
+}
+hr {
+	border-top: 1px solid black;
+	margin: 25px;
+}
+.bottomLINE {
+	display: flex;
+	justify-content: center;
+	margin
+}
+.someFACTS {
+	margin: 10px;
+	padding: 25px;
+}
+.services-info-img {
+	margin: 10px;
+	padding: 25px
+}
+li {
+	padding: 5px;
+}
+.serviceFOOTER {
+	margin-top: 50px;
+}
