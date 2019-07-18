@@ -177,11 +177,23 @@ footer{
 	margin:20px;
 } 
 
-.serives-header-img{
+.service-img{
 	display: flex;
+	flex-wrap: wrap;
 	align-content: center;
+	justify-content: center;
+	margin-bottom: 10px;
 
 }
+
+.service-header-img{
+	display:flex;
+	flex-grow: inherit;
+	margin:98%;
+
+}
+
+
 
 .body{
 	display:flex;
