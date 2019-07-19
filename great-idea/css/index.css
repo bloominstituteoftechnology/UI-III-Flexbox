@@ -66,27 +66,41 @@ h1, h2, h3, h4, h5 {
 
 .container {
   width: 880px;
+  margin: auto;
+
   /* TB LR */
   margin: 0 auto;
+  border: 1px solid tomato;
 }
 
 /* header */
 
 
 
+.topSpace{
+  border-spacing: 10px;
+  
+}
+
 header nav {
-  display: inline-block;
-  width: 691px;
+  /* display: inline-block; */
+  display: flex; 
+  justify-content:space-between;
+  width: 610px;
   vertical-align: top;
   margin-top: 35px;
+  border: 5px solid darkorange;
 }
 
 header nav a {
 
   margin-right: 65px;
-  font-size: 14px;
+  font-size: px;
   color: gray;
   text-decoration: none;
+  padding: 20px 20px;
+  
+  
 }
 
 header nav a:hover {
@@ -95,26 +109,44 @@ header nav a:hover {
 
 header nav a:first-child {
   margin-left: 0;
+  
 }
 
 header nav a:last-child {
   margin-right: 0;
+  
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+
 header .logo {
+   
   
-  margin-top: 25px;
+  border: 1px solid darkgreen;
+  
+  
+   
 }
 
 /* cta */
 
 .cta .cta-text {
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
   padding: 0px 75px;
+}
+.cta {
+  display:flex;
 }
 
 .cta .cta-text button {
@@ -133,7 +165,7 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
+  /* display: inline-block; */
   margin-top: 69px;
 }
 
@@ -145,16 +177,21 @@ header .logo {
 
 .main-content .top-content {
   padding: 0 10px;
+  border: 1px solid red;
+  display: flex;
+
 }
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 34px;
+  border: 1px solid purple;
 }
 
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
+  
 }
 
 .main-content .middle-img {
@@ -164,22 +201,31 @@ header .logo {
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
+  display: flex;
+  border: 1px solid firebrick;
+  
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
+  
+  
+  
+  /* display: inline-block; */
   margin-right: 12px;
+  border: 1px solid dodgerblue;
 }
 
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
+  
 }
 
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
+  
 }
 
 .contact p {
@@ -198,13 +244,14 @@ footer {
 
 
 .services {
-	display:flex;
-	flex-wrap: wrap;
-	align-content: space-between;
+  display:flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 	border-top: 2px solid black;
 	padding: 30px 10px;
   margin: 30px 10px;
-  justify-content: center;
+  justify-content: space-between;
+  
 
 	
 }
@@ -212,10 +259,10 @@ footer {
 	
 	
 	padding: 20px;
-	margin: 25px;
+	margin: 10px 0px;
 	border: 1px solid black;
 	background-color: gainsboro;
-	width: 370px;
+	width: 48%;
 }
 
 
@@ -227,7 +274,8 @@ p {
 .button {
 	border: 1px solid black;
   background-color: white;
-  padding: 10px 30px 10px 30px;
+  padding: 10x 30px 10px 30px;
+  
   
 
 }
