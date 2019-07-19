@@ -157,7 +157,7 @@ h5 {
 
 header nav {
   /* display:inline-block;  */
-  display: flexbox;
+  display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   width: 691px;
