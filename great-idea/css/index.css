@@ -164,11 +164,11 @@ footer {
 	border-bottom: 1px solid  black;
 }
 
-.services-text {
+.services-text, .product-text {
 	margin-top: 30px;
 }
 
-.services-text h1 {
+.services-text h1, .product-info h1 {
 	font-size: 26px;
 }
 
@@ -204,6 +204,12 @@ footer {
   padding: 10px 40px;
 }
 
+.service-block button:hover {
+  background:  rgb(12, 91, 139);
+  color: white;
+  border: none;
+}
+
 .services-faq {
   margin-top: -60px;
   margin-bottom: 80px;
@@ -224,4 +230,51 @@ ul {
 
 li {
   padding: 10px;
+}
+
+.product-info {
+	margin: 100px auto;
+	height: 610px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	border-bottom: 1px solid  black;
+}
+
+.product-image {
+  border-radius: 50%;
+}
+
+.product-content {
+  margin-top: -50px;
+  padding-bottom: 50px;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  /* border: 1px solid red; */
+}
+
+.product-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-text {
+  margin-bottom: 80px;
+  padding: 20px;
+}
+
+.product-faq {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-faq-block {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
 }
