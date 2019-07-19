@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-	width: 990px;
+	width: 1500px;
 	margin: 0 auto;
 	text-align: center;	
 }
@@ -92,9 +92,10 @@ body {
 	padding: 1px 450px;	
 }
 .tcenter {
-    padding:  50px;
-    width: 78%;
-	font-size: 25px;
+    margin: 5px;
+    padding:  5px;
+    width: 92%;
+	font-size: 24px;
 	text-align: left;	
 }
 .hr1 {
