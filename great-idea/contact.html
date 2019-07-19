@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Great Idea! - Contact</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hankchizljaw/boilerform@master/dist/css/boilerform.min.css" media="all" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/boilerform.css">
+</head>
+
+<body>
+  <div class="inner-body">
+    <header class="w-full">
+      <iframe src="header.html" class="w-full header-override"></iframe>
+    </header>
+
+    <img class="w-full border-radius-10" src="img/contact-banner.png" alt="Contact header image">
+
+    <section class="flex f_direction_row f_wrap_nowrap f_justify-content_space-between">
+      <div>
+        <h2 id="contact">Contact</h2>
+        <p>
+          Send us a message using the form below and someone from our team will be in touch ASAP! Proin vitae tellus
+          rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur
+          cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque eleifend. Mauris euismod
+          facilisis iaculis.
+        </p>
+      </div>
+    </section>
+
+    <hr />
+
+    <section
+      class="flex f_direction_row f_wrap_nowrap f_align-items_flex-start f_justify-content_space-between f_align-content_space-between">
+      <div class="card">
+        <h3 id="form">Contact Form</h3>
+        <div class="boilerform">
+          <form class="boilerform" action="" method="post">
+            <fieldset class="c-form">
+              <!-- <legend class="c-form__heading">Contact form</legend> -->
+              <div class="c-form__row">
+                <label for="name" class="c-label">Name</label>
+                <input type="text" name="name" id="name" class="w-full c-input-field" value="" autocorrect="off" required />
+              </div>
+              <div class="c-form__row">
+                <label for="email" class="c-label">Email</label>
+                <input type="email" name="email" id="email" autocapitalize="none" autocorrect="off" class="w-full c-input-field" required />
+              </div>
+              <div class="c-form__row">
+                <label for="message" class="c-label">Your message</label>
+                <textarea name="message" id="message" class="c-input-field c-input-field--multiline" rows="10"></textarea>
+              </div>
+              <div class="c-form__row">
+                <button class="c-button" type="submit">Submit</button>    
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="t-margin-3_5 border-radius-10" src="img/services-info.png" alt="one of our employees hard at work">
+      </div>
+    </section>
+
+    <section>
+      <footer>
+        <h3 id="contact">Contact</h3>
+
+        <address>
+          <a href="https://www.google.com/maps/search/?api=1&query=123%20Way%20456%20Street,%20Somewhere,%20USA">
+            123 Way 456 Street<br />
+            Somewhere, USA
+          </a>
+        </address>
+
+        <p class="v-margin-1">
+          <a href="tel:+1-888-888-8888">1 (888) 888-8888</a>
+        </p>
+
+        <p class="v-margin-1">
+          <a href="mailto:sales@greatidea.io?subject=Contact%20from%20website&body=Your%20message%20here.">
+            sales@greatidea.io
+          </a>
+        </p>
+  
+        <p class="h-center v-margin-5">
+          &copy;2019 Great Idea!
+        </p>
+      </footer>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
