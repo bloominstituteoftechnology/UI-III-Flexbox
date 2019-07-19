@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 .wholebox{
 	border: auto;
 	margin: 30px;
-	padding: 40px;
+	padding: 50px;
 	border: 5px;
 }
 hr{
@@ -78,6 +78,16 @@ margin-end: auto;
 overflow: hidden;
 border-style: solid;
 border-width: .5px;
+width: 90%;
+}
+#hr2{
+margin-before: 0.5em;
+margin-after: 0.5em;
+margin-start: auto;
+margin-end: auto;
+overflow: hidden;
+border-style: solid;
+border-width: 1px;
 width: 90%;
 }
 a {
@@ -101,56 +111,7 @@ margin: 20px;
 	padding: auto;
 	margin: auto;
 }
-#middle1{
-	display:flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
-}
-
-#middle2{
-	margin-left: 90px;
-	flex-flow: column wrap;
-	align-items: baseline;
-	justify-content: center;
-}
-#innovation{
-	font-family:Bangers;
-	font-size: 90px;
-	text-align: center;
-}
-#Get{
-	width: 50%;
-	height: auto;
-	padding: 10px 10px 10px 10px;
-	margin:auto;
-	border: 1px solid black;
-	text-align: center;
-	font-style: bold;
-	font-size: 18px;
-}
-#circle{
-	width: 30%;
-  height: auto;
-	padding: 12px;
-	border: 1px;
-  margin: auto;
-}
-#features, #about{
-	width: 40%;
-	height: auto;
-	padding: auto;
-	border: 10px;
-	margin: auto;
-	font-size: 18px;
-}
-#top{
-	display:flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: flex-start;
-}
-.middle-img{
+.services-header-img{
 	width: 95%;
 	height: 10%;
 	padding: 20px;
@@ -159,29 +120,80 @@ margin: 20px;
 	align-items: center;
 	justify-content: space-around;
 }
-#services, #product, #vision{
-	width: 30%;
+#box1{
+	width: 100%;
 	height: auto;
 	padding: 30px;
 	border: 10px;
-	margin: auto;
+	margin: 20px;
 	font-size: 18px;
-}
-#bttm{
-	display:flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
+	flex-flow: column;
 	align-items: center;
+	justify-content: space-around;
+	font-type:bold;
 }
-address{
-	line-height: 2;
-	align-items:flex-start;
-	flex-flow: column wrap:
-	justify-content:space-around;
-	width: auto;
+.greyarea{
+ margin: 40px;
+ padding:50px;
+ justify-content: space-between;
+}
+ #Gbox1, #Gbox2, #Gbox3, #Gbox4, #Gbox5, #Gbox6{
+	border: 1px solid black;
+	background:#ebebe0;
+	padding: 20px;
+	width: 40%;
+	height: 30%;
+	margin: 30px;
+	display: inline-block
+
+
+	}
+#learn{
+display: block;
+background-color: white;
+border:1px solid black;
+border-radius: 5px;
+padding: 18px;
+width: 40%;
+height:10px;
+margin: 10px 5px 10px 5px;
+text-align: center;
+font-size: 12px;
+align-items: baseline;
+}
+#some{
+	width: 50%;
 	height: auto;
-	margin: 50px;
-	padding:auto;
+	padding: 30px;
+	border: 10px;
+	margin: 20px;
+	font-size: 18px;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-around;
+	font-type:bold;
+}
+#bttm-img{
+	width: 40%;
+	height: auto;
+	padding: 30px;
+/*	border: 1px solid red; */
+	margin: auto;
+
+}
+#box2{
+	display: flex;
+  justify-content: space-between;
+  flex-wrap: row wrap;
+  align-items: baseline;
+}
+ol{
+	list-style-type: square;
+	line-height: 2;
+}
+#list{
+	margin:20px;
+	/*padding:30px;*/
 }
 footer{
 	text-align: center;
