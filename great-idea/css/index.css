@@ -126,14 +126,14 @@ header .logo {
 /* top contant area */
  
 .service-section {
-	
+	border-bottom: 1px solid black;
 	margin-top: 10px;
 	padding-top: 29px;
 	width: 900px;
 }
 
  section {
-	border-top: 1px solid black;
+	/* border-top: 1px solid black; */
 	margin-top: 10px;
 	padding-top: 29px;
   }
@@ -165,6 +165,7 @@ header .logo {
 }
 
   .boxes {
+	border-bottom: 1px solid black;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -172,7 +173,7 @@ header .logo {
 	padding: 30px;	
  }
 
- .box-1 {
+ .box {
 	margin: auto;
 	margin-bottom: 50px;
 	border: 1px solid black;
@@ -181,7 +182,7 @@ header .logo {
 	background: #eeeeee
  }
 
- .box-2 {
+ /* .box-2 {
 	margin: auto;
 	margin-bottom: 50px;
 	border: 1px solid black;
@@ -224,7 +225,7 @@ header .logo {
 	padding: 20px;
 	width: 45%;
 	background: #eeeeee
- }
+ } */
 
 
 /* last section / footer  */
@@ -259,4 +260,97 @@ ul {
 	margin: 20px 10px; 
   }
   
+/* home page  */
+.main-section {
+	border-top: 1px solid black;
+}
+
+
+.main-title-section {
+
+	margin-top: 10px;
+	padding-top: 29px;
+	width: 900px;
+}
+
+.title-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0px;
+	padding: 30px;
+	
+}
+
+.title {
+	align-items: center;
+	margin: auto;
+	padding: 20px;
+	width: 45%;
+}
+  
+.title h1 {
+  font-size: 75px;
+	margin-top: 50px;
+	text-align: center;
+	}
+	
+.title button {
+	margin-top: 40px;
+	margin-left: 90px;
+}
+
+.globe-code {
+	margin: 20px 0px 0px 20px;
+	width: 100%;
+}
+  
+.title-section .title button:hover {
+	background: black;
+	color: white;
+  }
+	
+.main-section {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 0px;
+	padding: 30px;
+}
+
+
+.three-content  {
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	padding: 30px;
+
+}
+
+
+.content {
+	width: 400px;
+	padding: 20px;
+	padding-bottom: 60px;
+	
+}
+/* footer */
+.contact {
+	border-top: 1px solid black;
+	padding-top: 50px;
+}
+
+.contact p {
+	font-size: 16px;
+	list-style-type: none;
+}
+
+
+
+footer {
+margin-left: 350px;
+ align-items: center;	
+}
+
+
 
