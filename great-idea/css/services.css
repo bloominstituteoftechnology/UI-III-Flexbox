@@ -65,47 +65,59 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-	width: 1500px;
+	width: 1510px;
 	margin: 0 auto;
 	text-align: center;	
 }
 .container{
-	margin: 1px; 
-	padding: .1px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+    flex-wrap: wrap;
+	
   }
 .nav-item {
-	margin: 20px; 
-	padding: 1px 62px;
+	width: 190px;
+	margin: 1px; 
+	padding: 1px;
 	display: inline-block;
 	color: gray;
+  }
+  .logo {
+	width: 200px;
+	margin: 10px;
+	
   }
   .group {
 	display: flex;
 	flex-flow: column wrap;
+	align-items: stretch;
 	align-items: center;
-	
+	width: 100%;
   }
 .img {
-	
-	margin: 10px; 
-	padding: 1px 450px;	
+	width: 100%;
+	margin: 20px; 
+	padding: 1px 100px;	
 }
 .tcenter {
-    margin: 5px;
+    margin: 20px;
     padding:  5px;
-    width: 92%;
+    width: 88%;
 	font-size: 24px;
 	text-align: left;	
 }
 .hr1 {
-	margin: 10px; 
-	padding: 1px 80px;
+	margin: 5px; 
+	padding: 1px 100px;
 }
 button {
 	font-size: 17px;
 	margin: 5px; 
 	padding: 5px 50px;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: white;
 	color: black;	
 }
 .main {
@@ -114,21 +126,40 @@ button {
 	align-items: flex-start;
     flex-wrap: wrap;
 	margin-top: 40px;
-	background-color: #f3f3f3;
-}
-.ptop, .pmiddle, .pbottom {
-	width: 25%;
-	border: 1px solid black;
-	padding: 20px;
-	text-align: left;
-	margin: 5px;
 	
 }
+.ptop {
+	background-color: rgb(239, 240, 227);
+	height: 200px;
+	width: 42%;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 15px;
+	text-align: left;
+}
+.pmiddle {
+	background-color: rgb(239, 240, 227);
+	height: 200px;
+	width: 42%;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 15px;
+	text-align: left;
+}
+.pbottom {
+	background-color: rgb(239, 240, 227);
+	height: 200px;
+	width: 42%;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 15px;
+	text-align: left;
+}
 .hr2 {
-	height: 2px;
-	margin: 90px; 
-	padding: 1px 100px;
-	color: solid 2px black;
+	height: 10px;
+	margin: 20px; 
+	padding: 1px 80px;
+	color: 1px solid  black;
 }
 
 footer {
@@ -142,16 +173,23 @@ footer {
 	margin: 1px; 
 	padding: 1px 80px;
 }
-.info1, .info2 {
+.info1 {
     padding:  45px;
     width: 48%;
-	font-size: 25px;	
+	font-size: 20px;	
+}
+.info2 {
+    padding:  45px;
+    width: 48%;
+	font-size: 20px;	
 }
 ul {
 	list-style-type: square;
 }
 .img2 {
-	width: 50%;
+	margin: 1px; 
+	padding: 1px 20px;
+	width: 40%;
 }
 
 .copyright {
