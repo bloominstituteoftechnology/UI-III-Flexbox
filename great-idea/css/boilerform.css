@@ -100,7 +100,7 @@
     cursor: pointer; }
     .boilerform .c-check-field__decor:after {
       content: "";
-      speak: none;
+      speak-as: none;
       display: block;
       opacity: 0;
       width: 70%;
