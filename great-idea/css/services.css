@@ -163,36 +163,42 @@ button {
 }
 
 footer {
-	text-align: left;
+	
 }
 .box {
-	display: flex;
-	font-size: 100px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 50px;
 	color: black;
 	text-align: left;  
 	margin: 1px; 
-	padding: 1px 80px;
+	padding-left: 1px 10px;
 }
 .info1 {
-    padding:  45px;
+	margin: 1px;
+    padding: 100px;
     width: 48%;
 	font-size: 20px;	
 }
 .info2 {
-    padding:  45px;
-    width: 48%;
+	margin: 20px;
+    padding-right: 5px;
+    width: 160px;
 	font-size: 20px;	
 }
 ul {
 	list-style-type: square;
 }
 .img2 {
-	margin: 1px; 
-	padding: 1px 20px;
-	width: 40%;
+	
+    right: 100px;
+	margin: 200px; 
+	padding: 1px 10px;
+	width: 800px;
 }
 
 .copyright {
+	
 	text-align: center;
-	margin: 20px;
+	margin: 10px;
 }
