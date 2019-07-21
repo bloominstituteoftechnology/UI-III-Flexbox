@@ -78,6 +78,8 @@ width:70%;
 }
 header nav a{
 	padding-right:20px;
+	text-decoration: none;
+	color: grey;
 }
 
 header img{
