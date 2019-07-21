@@ -180,17 +180,14 @@ footer{
 .service-img{
 	display: flex;
 	flex-wrap: wrap;
-	align-content: center;
-	justify-content: center;
+	justify-content: flex-start;
 	margin-bottom: 10px;
+	
 
 }
 
-.service-header-img{
-	display:flex;
-	flex-grow: inherit;
-	margin:98%;
-
+.services-header-img{
+	width:800px;
 }
 
 
@@ -206,71 +203,7 @@ footer{
 }
 
 .digital-desgin{
-	background-color: lightgrey;
-	border-top: solid grey;
-	border-left: solid grey;
-	border-right:solid grey;
-	border-bottom: solid grey;
-	border-width: 1px;
-	margin-bottom: 20px;
-	padding: 50px 50px 50px 50px;
-	width: 300px;
-	height: 300px;
-}
-
-.ui-ux{
-	background-color: lightgrey;
-	border-top: solid grey;
-	border-bottom: solid grey;
-	border-left: solid grey;
-	border-right:solid grey;
-	border-width: 1px;
-	margin-bottom: 20px;
-	padding: 50px 50px 50px 50px;
-	width: 300px;
-	height: 300px;
-}
-
-.digital-marketing{
-	background-color: lightgrey;
-	border-top: solid grey;
-	border-bottom: solid grey;
-	border-left: solid grey;
-	border-right:solid grey;
-	border-width: 1px;
-	margin-bottom: 20px;
-	padding: 50px 50px 50px 50px;
-	width: 300px;
-	height: 300px;
-}
-
-.web-dev{
-	background-color: lightgrey;
-	border-top: solid grey;
-	border-bottom: solid grey;
-	border-left: solid grey;
-	border-right:solid grey;
-	border-width: 1px;
-	margin-bottom:20px;
-	padding: 50px 50px 50px 50px;
-	width: 300px;
-	height: 300px;
-}
-
-.ios-dev{
-	background-color: lightgrey;
-	border-top: solid grey;
-	border-bottom: solid grey;
-	border-left: solid grey;
-	border-right:solid grey;
-	border-width: 1px;
-	margin-bottom:20px;
-	padding: 50px 50px 50px 50px;
-	width: 300px;
-	height: 300px;
-}
-
-.an-dev{
+	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
@@ -283,6 +216,90 @@ footer{
 	padding: 50px;
 	width: 300px;
 	height: 300px;
+}
+
+.ui-ux{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-width: 1px;
+	padding: 50px;
+	width: 300px;
+	height: 300px;
+	margin-top:20px;
+}
+
+.digital-marketing{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-width: 1px;
+	padding: 50px;
+	width: 300px;
+	height: 300px;
+	margin-top:20px
+}
+
+.web-dev{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-width: 1px;
+	padding: 50px;
+	width: 300px;
+	height: 300px;
+}
+
+.ios-dev{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-width: 1px;
+	padding: 50px;
+	width: 300px;
+	height: 300px;
+	margin-top:20px;
+}
+
+.an-dev{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color: lightgrey;
+	border-top: solid grey;
+	border-bottom: solid grey;
+	border-left: solid grey;
+	border-right:solid grey;
+	border-width: 1px;
+	padding: 50px;
+	width: 300px;
+	height: 300px;
+	margin-top: 20px;
 }
 .serv-body1{
 	display: flex;
