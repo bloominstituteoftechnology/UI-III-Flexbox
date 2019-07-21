@@ -187,3 +187,14 @@ footer{
 	margin-left: 90px;
 	margin-top: 25px;
 }
+
+.mainImg{
+	
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 145px;
+	
+	
+	
+}
