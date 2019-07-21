@@ -97,6 +97,7 @@ nav .logo{
 	vertical-align: bottom;
 	background-position: center;
 	padding-right: 10px;
+	margin-right: 15px;
 
 }
 
@@ -201,7 +202,87 @@ footer{
 	background-position: center;
 	background-size: cover;
 	
+	
 
 	
 }
+h1{
+	font-size: 35px;
+	margin: 30px;
+	margin-left: 130px;
+}
+.boxTitle{
+	text-align: left;
+	font-size: 20px;
+}
+.boxOneL{
+	
+	border: 2px solid black;
+	background-color:#c7c2c4;
+	margin: 10px;
+	padding: 5px;
+	
+}
+.boxOneR{
+	border: 2px solid black;
+	background-color:#c7c2c4;
+	margin:10px;
+	padding: 5px;
+}
 
+ .topRowBox{
+	display:flex;
+	justify-content: center;
+	max-width: 75%;
+	align-items: center;
+	flex-direction: row;
+	
+} 
+.boxBtn{
+	text-align: center;
+	float: left;
+	margin: 5px;
+}
+.boxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-width: 80%; */
+	
+	
+}
+
+.bottomList{
+	display: list-item;
+	padding: 15px;
+	margin:25px;
+	list-style-type: disc;
+}
+.services-info-img{
+	display:flex;
+	justify-content: right;
+}
+
+.bottomContent{
+float: left;
+display: block;
+width: 40%;
+}
+
+.bottomRow{
+display: flex;
+justify-content: center;
+margin-top: 25px;
+margin-bottom: 15px;
+}
+hr{
+max-width: 80%;
+height: 2px;
+}
+.top{
+	max-width: 80%;
+	margin: 15px;
+	margin-left: 130px;
+}
