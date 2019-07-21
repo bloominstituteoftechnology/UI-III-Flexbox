@@ -137,53 +137,54 @@ header img {
 	border-bottom: 1px solid black;
 	padding: 40px 0 40px;
 	margin: 75px 0 50px;
+	display: flex;
+	flex-direction: column;
 }
 
 .content-one {
 	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 
 .content-one .p-left {
-	display: inline-block;
-	vertical-align: middle;
 	width: 50%;
 	text-align: left;
 }
 
 .content-one .p-right {
-	display: inline-block;
-	vertical-align: middle;
 	width: 50%;
 	text-align: left;
 }
 
 .content-two {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 	padding-top: 40px;
 }
 
-.content-two-one {
-	display: inline-block;
-	vertical-align: middle;
+.content-two .content-two-one {
 	width: 33.33%;
 	text-align: left;
-	margin-right: 0px;
+	margin: 0px;
 	padding-right: 5px;
 }
 
-.content-two-two {
-	display: inline-block;
-	vertical-align: middle;
+.content-two .content-two-two {
 	width: 33.33%;
 	text-align: left;
-	margin-right: 0px;
+	margin: 0px;
 	padding-right: 5px;
 }
 
-.content-two-three {
-	display: inline-block;
-	vertical-align: middle;
+.content-two .content-two-three {
 	width: 33.33%;
 	text-align: left;
+	margin: 0px;
 }
 
 .contact {
