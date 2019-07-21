@@ -77,6 +77,8 @@ h1, h2, h3, h4, h5 {
 .flex-container {
 	display: flex;
 	flex-direction: row;
+	align-items: center
+	justify-content: center;
 }
 
 .flex-link{
@@ -93,11 +95,34 @@ nav a {
 }
 
 header {
-	margin-bottom: 75px;
+	margin-bottom: 25px;
 }
 
 header img {
 	margin-left: 30px;
+}
+
+.services {
+	border-bottom: 1px solid black;
+	padding: 25px 0 40px;
+}
+
+.services h1 {
+	font-size: 24px;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-one {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	border: 1px solid #F4F3F4;
+	width: 50%;
+
 }
 
 .cta {
