@@ -190,11 +190,18 @@ footer{
 
 .mainImg{
 	
-	display:flex;
+	/* display:flex;
 	justify-content: center;
-	align-content: center;
-	margin-top: 145px;
+	align-items: center; */
+	margin-top: 80px;
+	background-image: url("/Users/lambda_school_loaner_143/UI-III-Flexbox/great-idea/img/services-header.jpg");
+	width:100%;
+	height:35%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	
-	
+
 	
 }
+
