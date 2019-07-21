@@ -74,9 +74,16 @@ h1, h2, h3, h4, h5 {
 	font-optical-sizing: auto;
 }
 
-nav {
-	display: inline-block;
-	vertical-align: middle;
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-link{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 
 nav a {
@@ -90,37 +97,38 @@ header {
 }
 
 header img {
-	vertical-align: middle;
 	margin-left: 30px;
 }
 
+.cta {
+	display: flex;
+	flex-direction: row;
+}
 .cta-text {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	width: 50%;
-	vertical-align: middle;
-	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 
 .cta-text h1 {
 	font-size: 75px;
+	text-align: center;
 }
 
 .cta-text a {
-	display: inline-block;
 	color: black;
 	border: 1px solid black;
 	padding: 7px 40px 8px;
 	margin-top: 8px;
 	text-decoration: none;
-	text
 	font-size: 17px;
 }
 
 .cta-img {
-	vertical-align: middle;
-	display: inline-block;
-	width: 50%;
 	text-align: right;
+	width: 50%;
 }
 
 .main-content {
