@@ -112,10 +112,13 @@ header nav a:hover {
 }
 
 .top-container {
-	width: 980px;
-	margin: 25px 5px;
+	display: flex;
+  margin-top: 80px;
+  max-width: 98%
+  margin: 25px 5px;
 	border-bottom: 1.2px solid black;
 	}
+	
 .top-container .left{
 	display: flex;
 	flex-direction: column;
