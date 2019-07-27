@@ -96,6 +96,7 @@ header nav a {
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
 }
 
 
@@ -356,15 +357,17 @@ ul li {
 		text-align: center;
 		padding: 20px;
 	}
-
-	header nav a:hover {
-		padding: 0px;
-	}
-
 	header nav a {
 		font-size: 30px;
-		padding: 20px;
-	}
+		padding: 5px 15px;
+		font-family: 'Indie Flower', cursive;
+		}
+		
+	header nav a:hover {
+		padding: 5px 15px;
+		font-family: 'Indie Flower', cursive;	}
+
+
 	.container {
 		width: 100%;
 	}
