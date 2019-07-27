@@ -1,0 +1,395 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+
+	/* flex box properties */
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+	/* end of flexbox properties */ 
+
+	width: 1000px;
+	margin: auto;
+	background-color: #285D2F;
+	padding: 15px;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	font-family: 'Mountains of Christmas', cursive;
+
+}
+header nav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
+}
+
+
+header nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+
+header nav a:hover {
+	background: red;
+	padding: 5px 15px;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+
+
+p {
+	font-size: 14px;
+	margin: 10px auto;
+}
+.container {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid black; 
+	padding: 30px 50px 30px 50px;
+	margin-bottom: 50px;
+}
+
+
+.innovation{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 20px 0px 0px 20px;
+}
+
+.innovation h1 {
+	font-size: 80px;
+}
+
+.innovation button {
+	font-size: 25px;
+	padding: 10px 30px;
+	background: white;
+	border: 1px solid black;
+
+}
+
+.top-content {
+	border-top: 1px solid black;
+	margin-top: 50px;
+	padding: 30px 0px 30px 0px;
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.content-bottom {
+	display: flex; 
+	justify-content: space-evenly;
+	padding: 30px 0px 30px 0px;
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 30px;
+}
+
+footer p {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/** Product Page **/
+
+.product {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid green;
+	text-align: center;
+	padding: 10px;
+	width: 33%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 1em;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+.content {
+	padding-bottom: 20px;
+}
+
+/** End of Product Page **/
+
+/* beginning of service page */
+
+.top {
+	text-align: left;
+	padding: 30px 0px 30px 0px;
+}
+
+.top h1 {
+	text-align: left;
+}
+
+.main {
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main .main-box {
+	border: 1px solid black;
+	width: 48%;
+	padding: 15px;
+	margin: 2% 0px;
+	background: lightgray;;
+}
+
+.main .main-box button {
+	background: white;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 5px 20px; 
+	text-align: center;
+}
+
+.bottom {
+	padding: 30px 0px; 
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ul li {
+	padding: 5px;
+}
+
+
+/* Begining of the Feature page */
+
+.top-features {
+	background: url(../img/Technology.jpg);
+	height: 500px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 70px 20px 20px 20px;
+	color: white;
+}
+
+.animate-1 {
+	font-size: 80px;
+	padding: 15px;
+	animation-name: features;
+	animation-duration: 4s;
+	animation-direction: reverse;  
+}
+
+@keyframes features {
+
+	0%   {background-color:red; left:0px; top:0px;}
+	25%  {background-color:yellow; left:200px; top:0px;}
+	50%  {background-color:blue; left:200px; top:200px;}
+	75%  {background-color:green; left:0px; top:200px;}
+	100% {background-color:red; left:0px; top:0px;}
+
+}
+
+.animate-2 {
+	font-size: 25px;
+	font-style: italic;
+	animation-name: features-2;
+	animation-duration: 5s;
+	animation-delay: 4s;
+}
+
+@keyframes features-2 {
+	from { 
+			background-color: red;
+			font-weight: bold;
+			font-size: 40px;
+		}
+	to { 
+		background-color: blue;
+		font-style: italic;
+		font-size: 25px;
+	}
+}
+
+.features {
+	padding: 50px 0px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.features div {
+	border: 1px dashed red;
+	padding: 20px;
+	margin: 20px 0px;
+	height: 20%;
+}
+
+.features div.feature-box-1 {
+	background-color: lightblue;
+	border-radius: 10px 200px 20px 100px;
+}
+
+.features div.feature-box-2 {
+	background-color: rgb(124, 111, 196);
+	border-radius: 100px 30px 200px 100px;
+}
+
+.features div.feature-box-3 {
+	background-color: rgb(228, 119, 204);
+	border-radius: 10px 200px 20px 100px;
+}
+
+.bottom-features {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+
+.bottom-features .bottom-features-box {
+	width: 50%;
+}
+
+.inner-box {
+	display: flex;
+	padding-top: 20px;	
+}
+
+@media only screen and (max-width: 768px) {
+
+	header {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	header nav {
+		order: 2;
+		flex-direction: column;
+		text-align: center;
+		padding: 20px;
+	}
+	header nav a {
+		font-size: 30px;
+		padding: 5px 15px;
+		font-family: 'Indie Flower', cursive;
+		}
+		
+	header nav a:hover {
+		padding: 5px 15px;
+		font-family: 'Indie Flower', cursive;	}
+
+
+	.container {
+		width: 100%;
+	}
+	.bottom-features {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+
+	.inner-box {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.features {
+		padding: 50px 0px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.product {
+		display: block;
+		width: 100%;
+	}
+}
