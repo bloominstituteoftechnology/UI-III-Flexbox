@@ -64,3 +64,195 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav{
+	display:flex;
+	justify-content:space-around;
+	margin-top:40px;
+}
+a{
+	color:grey;
+	background-color:white;
+	text-decoration:none;
+}
+h1{
+	font-size:90px;
+	margin-top:130px;
+	text-align:center;
+}
+.code{
+	margin:100px;
+	
+}
+.big{
+	display:flex;
+	justify-content:center;
+	border-bottom:1px solid black;
+}
+.top{
+	display:flex;
+	justify-content:center;
+	margin:40px;
+	max-width:75%;
+	margin-left:400px;
+	
+	
+	
+}
+.top .features{
+	display:flex;
+	padding:80px;
+	margin:100px;
+	
+	
+}
+.top .about{
+	display:flex;
+	padding:80px;
+	margin:100px;
+}
+.middle-img{
+	width:100%;
+	padding:80px;
+}
+.bottom{
+	display:flex;
+	justify-content:center;
+	margin:40px;
+	margin-left:300px;
+	
+	
+	
+}
+.contact{
+	display:flex;
+	padding:40px;
+	border-top:1px solid black;
+    flex-direction:column;
+	height:100%
+
+}
+.contact .info{
+	margin-top:10px;
+	
+}
+.services-header-img{
+	padding:80px;
+	text-align:center;
+	width:100%;
+}
+h2{
+	font-size:30px;
+	margin-left:80px;
+}
+.service-text{
+	margin-left:80px;
+	margin-right:80px;
+	padding-bottom:80px;
+	border-bottom: 1px solid grey;
+}
+.one{
+	display:flex;
+	margin:80px;
+}
+
+.one .design{
+	width: 800px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 20px;
+	background-color:ghostwhite;
+}
+
+.one .ux{
+	width: 800px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 20px;
+	background-color:ghostwhite;
+}
+
+
+.two{
+	display:flex;
+	margin:80px;
+}
+
+.two .marketing{
+	width: 800px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 20px;
+	background-color:ghostwhite;
+}
+
+.two .wd{
+	width: 800px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 20px;
+	background-color:ghostwhite;
+}
+
+.three{
+	display:flex;
+	margin:80px;
+	padding-bottom:80px;
+	border-bottom:2px solid black;
+}
+
+.three .ios{
+	width: 800px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 20px;
+	background-color:ghostwhite;
+}
+
+.three .and{
+	width: 800px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 20px;
+	background-color:ghostwhite;
+}
+
+.facts{
+	margin:80px;
+	padding-bottom:80px;
+	display:flex;
+}
+
+p{
+	max-width:50%;
+}
+button{
+	margin-top:20px;
+	-moz-box-shadow:inset 0px 1px 3px 0px #1c1b18;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #1c1b18;
+	box-shadow:inset 0px 1px 3px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	border:1px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #ffffff;
+}
+
+footer{
+	text-align:center;
+}
