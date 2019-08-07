@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.body-con {
+	color: rgb(27, 27, 27);
+}
+
+.nav-con {
+	text-align: center;
+}
+
+.head-nav {
+	display: inline-block;
+	position: relative;
+	right: 15px;
+	top: 20px;
+	font-size: 15px;
+}
+.head-nav a {
+	text-decoration: none;
+	padding-right: 60px;
+	color: rgb(39, 38, 38);
+}
+
+.img-div {
+	display: inline-block;
+	position: relative;
+	left: 25px;
+	top: 30px;
+}
+
+.main-header {
+	text-align: center;
+}
+
+.main-con {
+	display: inline-block;
+	margin-top: 145px;
+}
+
+.main-con h1 {
+	font-size: 80px;
+	letter-spacing: 1.2px;
+	line-height: 80px;
+}
+
+.main-con a button {
+	position: relative;
+	top: 15px;
+	padding: 6px 30px;
+	border: 1px solid rgb(27, 27, 27);
+	background: transparent;
+	font-size: 16px;
+	font-weight: 600;
+	width: 170px;
+	font-family: 'Titillium Web', 'sans-serif';
+}
+
+.main-con a button:hover {
+	cursor: pointer;
+}
+.main-img {
+	display: inline-block;
+	position: relative;
+	top: 50px;
+	left: 90px;
+}
+
+header hr  {
+	margin-right: auto 0;
+	margin-left: auto 0;
+	margin-top: 120px;
+	width: 65%;
+}
+
+.section-con {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.section-con p {
+	line-height: 20px;
+}
+
+.sects {
+	display: inline-block;
+	text-align: left;
+	width: 400px;
+	position: relative;
+	margin-bottom: 50px;
+	/* margin-top: 40px; */
+}
+
+section.sects.features {
+	right: 40px;
+}
+
+section.sects.about {
+	left: 40px;
+}
+
+.content-img {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+section.sects.services {
+	width: 280px;
+	right: 10px;
+}
+
+section.sects.product {
+	width: 280px;
+	left: 5px;
+}
+section.sects.vision {
+	width: 280px;
+	left: 15px;
+}
+
+.section-con hr  {
+	margin-right: auto 0;
+	margin-left: auto 0;
+	margin-top: 5px;
+	width: 65%;
+}
+
+.contact-con {
+	text-align: center;
+}
+
+.contact-div {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	right: 365px;
+	margin-top: 40px;
+}
+
+footer {
+	margin-top: 60px;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 90px;
+}
