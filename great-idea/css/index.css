@@ -78,21 +78,25 @@ nav {
 }
 
 nav a {
-	color: #BDBDBD;
+	color: #AEAEAE;
 	margin-right: 56px;
 	text-decoration: none;
+	vertical-align: center;
+	margin-top:20px;
+	font-size:17px;
 }
 
 header {
-	margin-bottom: 75px;
+	margin-bottom: 25px;
 }
 
 header img {
 	vertical-align: middle;
-	margin-left: 30px;
+	margin-left: 60px;
 }
 .top{
 	display:flex; /* Parent flex row instead of controlling child element */
+	margin-top:75px;
 }
 .top-text {
 	/* display: inline-block; */
@@ -103,6 +107,7 @@ header img {
 
 .top-text h1 {
 	font-size: 75px;
+	margin-top:50px;
 }
 
 .top-text a {
@@ -197,15 +202,26 @@ footer {
 }
 
 /* services.html */
+.serviceTop{
+	margin-top:30px;
+}
+.serviceTop h1{
+	font-size: 26px;
+}
+.serviceTop p{
+	line-height: 1.5;
+}
 .serviceBox{
 	border:1px solid black;
 	background-color: #F4F3F4;
 	width: 48%;
 	padding: 20px;
 	margin-top: 20px;
+	line-height: 1.5
 	/* margin: 20px; */
 }
 .serviceBox button{
+	margin-top: 20px;
 	border-radius: 5px;
 	background-color:white;
 	padding: 8px;
