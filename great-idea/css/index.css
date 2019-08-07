@@ -3,64 +3,279 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+  line-height: 1.3;
+}
+
+header,
+main,
+footer {
+  padding: 60px 80px;
+}
+
+nav {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+header .nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-headline h1 {
+	font-size: 105px;
+	line-height: 1;``
+  }
+
+  .top-headline {
+	display: flex;
+  }
+/* 
+  
+ 
+  
+  nav a {
+	color: #b5afaf;
+	text-decoration: none;
+	margin-right: 80px;
+  }
+  
+  .logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 64px;
+  }
+  
+  
+  
+  .top-headline div {
+	display: inline-block;
+	vertical-align: middle;
+  }
+  
+ 
+  
+  .top-headline .headline-button {
+	width: 415px;
+	text-align: center;
+	margin: 0px 130px;
+  }
+  
+  .top-headline button {
+	font-size: 18px;
+	border: 2px solid black;
+	height: 40px;
+	padding: 0 70px;
+  }
+  
+  .features-about {
+	padding: 40px 0;
+  }
+  
+  .features {
+	display: inline-block;
+	width: 48%;
+	margin-right: 2%;
+	vertical-align: top;
+  }
+  
+  .about {
+	display: inline-block;
+	width: 47%;
+	margin-left: 2%;
+  }
+  
+  .middle-img {
+	width: 100%;
+  }
+  
+  .services {
+	display: inline-block;
+	width: 30%;
+  }
+  
+  .product {
+	display: inline-block;
+	width: 30%;
+	margin: 0 45px;
+  }
+  
+  .vision {
+	display: inline-block;
+	width: 30%;
+  }
+  
+  .further-descriptions {
+	padding: 40px 0;
+  }
+  
+  .contact-us {
+	padding: 40px 0;
+  }
+  
+  .contact-us address {
+	font-size: 18px;
+	width: 153px;
+  }
+  
+  .contact-us a {
+	text-decoration: none;
+	padding: 10px 0;
+	display: block;
+	color: inherit;
+	font-size: 18px;
+  }
+  
+  footer {
+	text-align: center;
+	padding-bottom: 100px;
+  } */
