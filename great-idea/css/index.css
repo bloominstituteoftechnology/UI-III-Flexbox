@@ -286,8 +286,8 @@ footer {
 }
 
 .hero-img img {
-  margin: 0 auto;
-  max-width: 100%;
+  justify-content: center;
+  max-width: 100;
 }
 
 .services-main {
@@ -302,4 +302,51 @@ h2.special {
 
 .services-main p {
   font-size: 18px;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin-bottom: 5%;
+}
+
+.flex-item {
+  display: flex;
+  width: 47%;
+  padding: 2%;
+  background-color: lightgray;
+  margin-bottom: 5%;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.flex-item a {
+  margin-top: 4%;
+  justify-content: center;
+  padding: 3% 10%;
+  width: 40%;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+.service-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.service-container li {
+  list-style-type: square;
+  line-height: 1.5em;
+  margin-left: 3%;
 }
