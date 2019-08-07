@@ -172,11 +172,11 @@ h5 {
 .nav {
   width: 30%;
 }
-.nav a {
+/* .nav a {
   color: var(--accent);
   text-decoration: none;
   font-weight: 700;
-}
+} */
 .navBrand {
   width: 70%;
 }
