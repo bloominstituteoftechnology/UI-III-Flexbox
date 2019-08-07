@@ -1,3 +1,12 @@
+/* Global styles */
+
+body hr {
+    width: 92%;
+    background-color: black;
+    height: 2.5px;
+    border-radius: 0.5rem;
+}
+
 /* Navigation styles */
 
 .navbar {
@@ -27,6 +36,35 @@
     margin: 1rem 0;
     text-align: left;
 }
+
 .heading__intro h1 {
     font-size: 1.5rem;
+}
+
+/* Main content styles */
+
+.main__content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.class__content {
+    width: 43%;
+    border: 1px solid black;
+    background: lightgrey;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.class__content button {
+    margin-top: 1rem;
+    border: 1px solid black;
+    background: white;
+    border-radius: 0.2rem;
+    padding: 0.5rem 2.3rem;
+}
+
+.class__content h2 {
+    font-size: 1.1rem
 }
