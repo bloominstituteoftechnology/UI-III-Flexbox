@@ -64,3 +64,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+:root{
+  --marginTop: 35px;
+}
+
+.wrapper {
+  max-width: 880px;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.d-block{
+  display: block;
+}
+
+.d-inline-block{
+  display: inline-block;
+}
+
+/* ******************
+  Header styles
+***********************/
+
+header {
+  margin-top: var(--marginTop);
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+}
+
+nav ul {
+  display: flex;
+}
+
+li{
+  text-align: center;
+  list-style-type: none;
+  flex-shrink: 0;
+}
+
+.navButton {
+  font-size: 1.25em;
+  height: 34px;
+  /* padding: 5px 10px; */
+  color: #bebebe;
+  /* letter-spacing: 3px; */
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all  1s;
+}
+
+.navButton:hover{
+  color: #4e4e4e;
+  border: 1px solid black;
+  letter-spacing: normal;
+}
+
+.logo {
+}
+
+/* ******************
+  Hero styles
+***********************/
+.hero{
+  margin-top: var(--marginTop);
+}
+.hero img{
+}
+
+/* ******************
+  Content1 styles
+***********************/
+
+/* ******************
+  Content2 styles
+***********************/
+
+/* ******************
+  Footer styles
+***********************/
+
+
+ section h2 , footer h2{
+  font-size: 1.5rem;
+}
+
+footer{
+  margin-top: var(--marginTop);
+  line-height: 2em;
+}
+
+footer a{
+  display: block;
+  margin: 1rem 0;
+  color: #000;
+  text-decoration: none;
+}
+
+footer > p:last-of-type {
+  text-align: center;
+}
+
+.getStarted {
+  border: 1px solid #000;
+  color: #000;
+  text-align: center;
+  padding: 4px 35px;
+  text-decoration: none;
+  margin: 0 auto ;
+}
+
+.getStarted:visited{
+  color: #000;
+}
+
+
+
+.innovateContainer{
+}
+
+.innovateContainer h1 {
+  font-size: 4.5em;
+}
+
+.innovateContent{
+}
+
+.sectionBreak{
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin-top: var(--marginTop);
+}
+
+.content1 div{
+  width: 49%;
+  margin-top: var(--marginTop);
+}
+
+.content2 div{
+  width: 33%;
+  margin-top: var(--marginTop);
+}
+
+.middle-img{
+  margin-top: var(--marginTop);
+}
