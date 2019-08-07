@@ -200,25 +200,19 @@ header hr  {
 }
 
 .section-con hr  {
-	/* margin-right: auto 0;
+	margin-right: auto 0;
 	margin-left: auto 0;
 	margin-top: 5px;
-	width: 65%; */
+	width: 65%;
 }
 
 .contact-con {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	/* justify-items: flex-start; */
-	/* text-align: left; */
+	justify-content: space-evenly;
 }
 
 .contact-div {
-	display: flex;
-	flex-direction: column;
-	/* justify-content: flex-start; */
-	justify-items: flex-start;
+	align-self: flex-start;
 }
 
 footer {
@@ -227,3 +221,45 @@ footer {
 	font-size: 14px;
 	margin-bottom: 90px;
 }
+
+
+/* SERVICES PAGE */
+
+#serv-header {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.serv-img {
+	margin-top: 20px;
+}
+
+.servmain-con {
+	display: flex;
+	flex-direction: column;
+	/* justify-items: center;
+	align-self: center; */
+	text-align: left;
+	/* width: 400px;
+	margin-top: 25px;
+	margin-bottom: 30px; */
+}
+
+.serv-des {
+	padding: 20px;
+	border: 1px solid rgb(19, 18, 18);
+	background: rgb(224, 224, 224);
+}
+
+.sect-but button {
+	margin-top: 10px;
+	padding: 6px 30px;
+	border: 1px solid rgb(27, 27, 27);
+	border-radius: 4px;
+	background: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	width: 130px;
+	font-family: 'Titillium Web', 'sans-serif';
+} 
