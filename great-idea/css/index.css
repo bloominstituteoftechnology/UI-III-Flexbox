@@ -66,33 +66,34 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .body-con {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	margin: 0 auto;
+	border: 2px solid #254;
+	width: 1020px;
 	color: rgb(27, 27, 27);
 }
 
-.nav-con {
-	margin-top: 40px;
+ header {
 	display: flex;
 	justify-content: center;
-	align-content: center;
-	justify-items: space-evenly;
+	flex-direction: column;
+ }
+
+.nav-con {
+	margin-top: 35px;
+	display: flex;
+	justify-content: center;
 }
 
-.head-nav {
-	justify-self: flex-start;
-}
-.head-nav a {
+nav a {
 	text-decoration: none;
-	margin-right: 60px;
+	margin-right: 50px;
+	margin-left: 10px;
 	color: rgb(39, 38, 38);
 	font-size: 14px;
 }
 
 .img-div {
-	/* justify-self: flex-end; */
-	margin-left: 40px;
+	margin-left: 45px;
 	margin-top: -11px;
 }
 
@@ -107,16 +108,17 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-left: 80px;
-	/* display: inline-block;
-	margin-top: 145px; */
+	padding-left: 70px;
+}
+
+.main-img {
+	padding-left: 90px;
 }
 
 .main-con h1 {
 	text-align: center;
 	font-size: 80px;
 	letter-spacing: 1.2px;
-	/* margin-right: 50px; */
 }
 
 .main-con a button {
@@ -133,28 +135,24 @@ h1, h2, h3, h4, h5 {
 	cursor: pointer;
 }
 
-.main-img {
-	padding-left: 80px;
-}
-
-header hr  {
+hr  {
 	margin-right: auto 0;
 	margin-left: auto 0;
 	margin-top: 75px;
-	width: 65%;
+	width: 85%;
 }
 
 .section-con {
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
-	justify-items: center;
+	justify-items: center; */
 	/* text-align: center; */
-	/*margin-top: 35px; */
+	/* margin-top: 35px; */
 }
 
 .section1 {
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
 	/* justify-content: space-evenly; */
 	/* margin: 5px; */
 }
@@ -164,18 +162,18 @@ header hr  {
 }
 
 .sects {
-	text-align: left;
+	/* text-align: left;
 	width: 400px;
 	margin-top: 25px;
-	margin-bottom: 30px;
+	margin-bottom: 30px; */
 }
 
 .sects.features {
-	margin-right: 40px;
+	/* margin-right: 40px; */
 }
 
 .sects.about {
-	margin-right: 30px;
+	/* margin-right: 30px; */
 }
 
 .content-img {
@@ -183,36 +181,27 @@ header hr  {
 }
 
 .sects.services {
-	margin-top: 35px;
+	/* margin-top: 35px;
 	margin-right: 18px;
-	width: 280px;
+	width: 280px; */
 }
 
 .sects.product {
-	width: 280px;
+	/* width: 280px;
 	margin-top: 35px;
-	margin-right: 18px;
+	margin-right: 18px; */
 }
 .sects.vision {
-	margin-top: 35px;
+	/* margin-top: 35px;
 	margin-right: 8px;
-	width: 280px;
+	width: 280px; */
 }
 
 .section-con hr  {
-	margin-right: auto 0;
+	/* margin-right: auto 0;
 	margin-left: auto 0;
 	margin-top: 5px;
-	width: 65%;
-}
-
-.contact-con {
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.contact-div {
-	align-self: flex-start;
+	width: 65%; */
 }
 
 footer {
