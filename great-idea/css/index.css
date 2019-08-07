@@ -1,66 +1,277 @@
+:root {
+  --default-color: #333;
+  --main-color: #fff;
+  --accent: #858585;
+  --shadow: rgba(0, 0, 0, 0.75);
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+	 v2.0 | 20110126
+	 License: none (public domain)
+  */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* Navigation Styles */
+.navbar {
+  background-color: var(--main-color);
+  box-shadow: 10px 10px 40px -16px var(--shadow);
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  z-index: 999;
+}
+.nav {
+  position: relative;
+  top: 0.7rem;
+}
+.nav li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 1rem;
+  margin-left: 3rem;
+}
+.nav li a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+}
+.logo {
+  position: absolute;
+  top: 1rem;
+  right: 5rem;
+}
+
+/* Showcase Styles */
+.showcase {
+  /* width: 100%; */
+  height: 100vh;
+}
+.showcase-content {
+  position: relative;
+  width: 20%;
+  top: 10rem;
+  left: 20rem;
+  /* padding: 2rem 2rem; */
+  text-align: center;
+}
+.showcase-content h1 {
+  font-size: 5rem;
+}
+.showcase-img {
+  position: absolute;
+  top: 9rem;
+  right: 9rem;
+}
+.btn {
+  width: 20%;
+  height: 20%;
+  border: 0.1rem solid var(--default-color);
+  text-decoration: none;
+  padding: 0.5rem 3rem;
+  text-align: center;
+  color: var(--default-color);
+}
+.showcase-line {
+  width: 90%;
+  margin: 0 4rem;
+  border-bottom: 0.1rem solid var(--default-color);
+  position: absolute;
+  top: 40rem;
+}
+/* Info Styles */
+.info-container {
+  /* width: 100%; */
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.col {
+  display: inline-block;
+  width: 40%;
+  margin: 1rem 1rem;
+  position: relative;
+  top: 3rem;
+  left: 8rem;
+}
+.bottom-col {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  left: 8rem;
+  margin: 0 1rem;
+}
+
+.middle-img {
+  display: inline-block;
+  width: 100%;
+  padding: 4rem 5rem;
+}
+.info-line {
+  width: 90%;
+  margin: 0 4rem;
+  border-bottom: 0.1rem solid var(--default-color);
+  position: absolute;
+  top: 81rem;
+}
+/* Contact Styles */
+.contact-container {
+  margin: 3rem 4rem;
+}
+address {
+  width: 15%;
+}
+.footer {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+.footer p {
+  position: relative;
+  top: -3rem;
+}
