@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -60,13 +61,15 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
+	
 	width: 880px;
 	margin: auto;
+
 }
 header {
 	display: flex;
@@ -87,51 +90,66 @@ header nav > a {
 	color: grey;
 }
 
-section.cta {
+.content-box{
 	display: flex;
-	justify-content: space-between;
-	margin: 30px 0;
-	border-bottom: 2px solid black;
-	padding-bottom:10%;
-}
-
-section.cta .cta-text {
-	margin: 60px;
-	font-size: 4rem;
-	text-align: center;
-	
-}
-button {
-	display:flex;
-	justify-content: center;
-	margin-left: 25%;
-	width: 45%;
-	height: 12%;
-	font-size: .75rem;
-
-}
-
-section.main-content{
-	display: flex;
+	border: 2px solid black;
+	width: 40%;
+	height: 100%;
 	flex-direction: column;
-	margin: 30px 0;
-	border-bottom: 2px solid black;
-}
+	background-color: lightgrey;
+	padding: 2%;
 
-section.main-content .top-content{
+}
+.content-section{
 	display: flex;
-	margin:30px 0;
-
-	border-top-color: gray 1px line;
+	width: 89%;
+	justify-content: space-evenly;
+	padding: 2%;
+	margin: auto;
+	border-bottom-color: 1px solid black;
 }
-
-section.main-content .bottom-content{
+button{
+	width: 39%;
+	border: 1px solid black;
+	margin-top: 5%;
+	height: 30px;
+}
+.bottom-content{
 	display: flex;
-	margin:30px 0;
+	width:85%;
+	margin: auto;
+	justify-content: space-between;
+	border-top: 3px solid black;
+	border-top-width: 20%;
+	padding:2%;
 }
-section.contact{
-	margin: 30px 0;
+li{
+	line-height: 4fr;
+	margin-top: 4%;
+}	
+.copyright{
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 1%;
 }
-footer{
-	text-align: center;
+.facts{
+	display: flex;
+	width: 48%;
+	height: 100%;
+	flex-direction: column;
+	padding: 5%;
+
+}
+.services-info-img{
+	padding:5%
+}
+.content-section-1{
+	display: flex;
+	width: 89%;
+	justify-content: space-evenly;
+	padding: 2%;
+	margin: auto ;
+	margin-top: 2%;
+	border-top: 3px solid black;
 }
