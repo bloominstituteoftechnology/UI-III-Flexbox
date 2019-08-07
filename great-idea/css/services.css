@@ -122,6 +122,7 @@ button{
 	border-top: 3px solid black;
 	border-top-width: 20%;
 	padding:2%;
+	
 }
 li{
 	line-height: 4fr;
@@ -148,8 +149,19 @@ li{
 	display: flex;
 	width: 89%;
 	justify-content: space-evenly;
-	padding: 2%;
+	padding:2%;
+	padding-top:4%;
 	margin: auto ;
-	margin-top: 2%;
+	margin-top: 5%;
 	border-top: 3px solid black;
+}
+.content-section-3{
+	display: flex;
+	width: 89%;
+	justify-content: space-evenly;
+	padding:2%;
+	padding-top:4%;
+	margin: auto ;
+	margin-top: 5%;
+	padding-bottom: 4%;
 }
