@@ -91,9 +91,7 @@ header {
 	display:flex;
 	width: 100px;
 	text-align: center;
-	margin:50px;
 	align-items: center;
-	justify-content: 
 }
 .title h1{
 	font-size: 60px;
@@ -136,4 +134,46 @@ header img {
 /* FOOTER */
 footer {
 	text-align: center;
+}
+
+
+/* SERVICES CSS */
+
+
+.services-header-img {
+	display: flex;
+	margin:50px;
+}
+
+.services {
+	display: flex;
+ 	justify-items: ;
+ 	margin: 50px;
+} 
+
+/* CENTER CONTENT */
+.topRow {
+	display:flex;
+}
+.centerRow {
+	display:flex;
+}
+.bottomRow{
+	display:flex;
+}
+
+.boxContent{
+	width:50%;
+	background-color:lightgrey;
+	line-height: 1.5em;
+	padding:20px;
+	margin:20px;
+	border:1px solid black;
+}
+
+
+button {
+	width: 150px;
+	height: 30px;
+	background-color:white;
 }
