@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+.dev-border{
+  border: 1px solid red;
+}
 
 :root{
   --marginTop: 35px;
@@ -94,27 +97,22 @@ header {
   margin-top: var(--marginTop);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav{
-}
-
-nav ul {
   display: flex;
-}
-
-li{
-  text-align: center;
-  list-style-type: none;
-  flex-shrink: 0;
+  width: 75%;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .navButton {
   font-size: 1.25em;
   height: 34px;
-  /* padding: 5px 10px; */
+  padding: 5px 10px;
   color: #bebebe;
-  /* letter-spacing: 3px; */
+  letter-spacing: 3px;
   text-decoration: none;
   border: 1px solid transparent;
   transition: all  1s;
