@@ -63,4 +63,49 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Your code starts here! */
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.navigation header{
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	position: relative;
+	z-index: 20;
+	opacity: .8;
+	align-items: center;
+}
+
+nav{
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	justify-content: space-between;
+}
+
+.splashBox{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-flow: row;
+}
+
+.splashText{
+	display: flex;
+	flex-wrap: wrap;
+	width: 25%;
+	font-size: 5rem;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	border: 2px solid gray;
+}
