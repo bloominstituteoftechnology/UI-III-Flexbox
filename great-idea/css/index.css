@@ -166,28 +166,92 @@ nav {
   justify-content: space-between;
 }
 
+nav a {
+  color: #b5afaf;
+  text-decoration: none;
+  margin-right: 80px;
+}
+
 header .nav {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .top-headline h1 {
-	font-size: 105px;
-	line-height: 1;``
-  }
+  font-size: 105px;
+  line-height: 1;
+}
 
-  .top-headline {
-	display: flex;
-  }
+.top-headline {
+  display: flex;
+  align-items: center;
+}
+
+.top-headline .headline-button {
+  text-align: center;
+  margin: 0px 130px;
+}
+
+.top-headline button {
+  font-size: 18px;
+  border: 2px solid black;
+  height: 40px;
+  padding: 0 70px;
+}
+
+.features-about .spacer {
+  width: 30px;
+  flex-shrink: 0;
+}
+
+.features-about {
+  padding: 40px 0;
+  display: flex;
+}
+
+.middle-img {
+  width: 100%;
+}
+
+.further-descriptions {
+  padding: 40px 0;
+  display: flex;
+}
+
+.further-descriptions .spacer {
+  width: 20px;
+  flex-shrink: 0;
+}
+
+.contact-us {
+  padding: 40px 0;
+}
+
+.contact-us address {
+  font-size: 18px;
+  width: 153px;
+}
+
+.contact-us a {
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+  color: inherit;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
 /* 
   
+.
  
   
-  nav a {
-	color: #b5afaf;
-	text-decoration: none;
-	margin-right: 80px;
-  }
+  
   
   .logo {
 	display: inline-block;
@@ -210,16 +274,9 @@ header .nav {
 	margin: 0px 130px;
   }
   
-  .top-headline button {
-	font-size: 18px;
-	border: 2px solid black;
-	height: 40px;
-	padding: 0 70px;
-  }
   
-  .features-about {
-	padding: 40px 0;
-  }
+  
+  
   
   .features {
 	display: inline-block;
@@ -234,9 +291,7 @@ header .nav {
 	margin-left: 2%;
   }
   
-  .middle-img {
-	width: 100%;
-  }
+ 
   
   .services {
 	display: inline-block;
@@ -258,24 +313,4 @@ header .nav {
 	padding: 40px 0;
   }
   
-  .contact-us {
-	padding: 40px 0;
-  }
-  
-  .contact-us address {
-	font-size: 18px;
-	width: 153px;
-  }
-  
-  .contact-us a {
-	text-decoration: none;
-	padding: 10px 0;
-	display: block;
-	color: inherit;
-	font-size: 18px;
-  }
-  
-  footer {
-	text-align: center;
-	padding-bottom: 100px;
-  } */
+   */
