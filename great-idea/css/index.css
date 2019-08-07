@@ -229,6 +229,10 @@ header img {
 }
 .services-about{
 	display:flex;
+	justify-content: space-between;
+}
+.service-facts{
+	width:48%;
 }
 .service-facts p{
 	line-height: 1.2;
@@ -238,6 +242,7 @@ header img {
 	list-style-position: inside;
 	margin: 14px 0px;
 	line-height: 1.2;
+
 }
 
 /* Footer and Copyright*/
