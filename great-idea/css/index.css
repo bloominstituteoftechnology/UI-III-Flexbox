@@ -141,7 +141,6 @@ table {
 
 * {
     box-sizing: border-box;
-    padding: 0;
 }
 
 html,
@@ -165,68 +164,54 @@ h5 {
 
 * {
     background-color: white;
-    width: 80%;
-    margin: 0, auto;
 }
 
-nav {
+
+/* nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+} */
 
-nav a {
+
+/* nav a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: darkgray;
     text-decoration: none;
-}
+} */
 
-.logo {
-    color: black;
-    display: flex;
-    justify-content: left;
-    align-self: flex-end;
-}
 
+/* 
 .heading-container {
     display: flex;
     flex-direction: row;
     padding-top: 50px;
     padding-bottom: 50px;
-}
+} */
 
-.heading {
+
+/* .heading {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.heading .span {
-    word-wrap: break-word;
+    justify-content: left;
 }
 
 h1 {
-    font-size: 50px;
     color: black;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
 }
 
 .heading-image {
     display: flex;
-    padding-top: 50px;
-}
+    flex-direction: row;
+} */
 
-
+*/
 /* .button{
 	display:flex;
 	flex-direction:column;
@@ -237,10 +222,10 @@ h1 {
 	text-decoration:none !important;
 } */
 
-hr {
+
+/* hr {
     border-top: 2px solid black;
 }
-
 .features {
     font-size: 20px;
     margin-top: 20px;
@@ -249,7 +234,6 @@ hr {
     width: 39%;
     margin: 60px;
 }
-
 .about {
     font-size: 20px;
     margin-top: 20px;
@@ -258,17 +242,14 @@ hr {
     width: 39%;
     margin: 60px;
 }
-
 p {
     display: inline-block;
     width: 80%;
     background-color: white;
 }
-
 .middle-img {
     width: 100%;
 }
-
 .services {
     font-size: 20px;
     margin-top: 20px;
@@ -277,7 +258,6 @@ p {
     width: 30%;
     margin: 20px;
 }
-
 .product {
     font-size: 20px;
     margin-top: 20px;
@@ -286,7 +266,6 @@ p {
     width: 30%;
     margin: 20px;
 }
-
 .vision {
     font-size: 20px;
     margin-top: 20px;
@@ -295,14 +274,12 @@ p {
     width: 30%;
     margin: 20px;
 }
-
 footer {
     color: black;
     width: 100%;
     margin: 20px;
 }
-
 footer .copyright {
     padding: 20px 0;
     text-align: center;
-}
+} */
