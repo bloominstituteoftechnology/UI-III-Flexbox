@@ -1,0 +1,25 @@
+/* Globals */
+html {
+    font-size: 67.5%;
+    box-sizing: border-box;
+}
+
+/* Navigation styles */
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar>* {
+    margin-right: 1rem;
+}
+
+.navbar a,
+.navbar a:visited,
+.navbar a:link {
+    color: grey;
+    text-decoration: none;
+}
