@@ -76,22 +76,22 @@ h1, h2, h3, h4, h5 {
 
 .navigation{
 	height: 60px;
+	display: flex;
+	justify-content: space-between;
 }
 .navigation header{
 	display: flex;
 	width: 100%;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	position: relative;
 	z-index: 20;
-	opacity: .8;
 	align-items: center;
 }
 
 nav{
 	display: flex;
-	justify-content: flex-end;
-	width: 50%;
 	justify-content: space-between;
+	width: 75%;
 }
 
 #navLinks a{
@@ -181,12 +181,17 @@ padding: 20px
 }
 
 
-/* features about services product vision need to match width of contact and the image
-need to change navigation bar appearance and button appearance */
 
 .servicesHeader{
 	display: flex;
 	flex-direction: column;
+	size: 80%;
+}
+
+.servicesHeaderIMG{
+	display: flex;
+	width: 100%;
+	height: auto;
 }
 
 .servicesHeader h2{
