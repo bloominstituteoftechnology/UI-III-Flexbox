@@ -119,3 +119,23 @@ h1{
 	display: flex;
 	justify-content: center;
 }
+
+.container-3 {
+	display: flex;
+	justify-content: center;
+	margin-left: 50px;
+	width: 80%;
+	flex-wrap: wrap;
+}
+.services1 {
+	margin-left: 50px;
+}
+button {
+	padding: 10px;
+	border-radius: 10px;
+}
+
+h3 {
+	border: 2px solid black;
+
+}
