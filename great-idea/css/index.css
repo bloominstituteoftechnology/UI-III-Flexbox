@@ -4,6 +4,10 @@ html {
     box-sizing: border-box;
 }
 
+hr {
+    width: 95%;
+}
+
 /* Navigation styles */
 
 .navbar {
@@ -51,4 +55,32 @@ html {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+}
+
+/* Main Content / Section styles */
+
+.main__image {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.top-content {
+    display: flex;
+    margin: 2rem;
+}
+
+.main__image {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.main__image > img {
+    width: 92%;
+}
+
+.bottom-content {
+    display: flex;
+    margin: 2rem;
 }
