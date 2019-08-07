@@ -1,3 +1,4 @@
+    
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -63,4 +64,91 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+nav {
+	margin: auto;
+	width: 876px;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 25px;
+}
+
+nav .logo {
+	padding-left: 50px;
+}
+
+header {
+	display: flex;
+  line-height: 0.75;
+	margin: 50px 0px 50px 100px;
+	width: 876px;
+}
+
+header .title {
+	font-size: 68px;
+	text-align: center;
+	display: flex;
+  flex-direction: column;
+	margin: 35px 15px;
+	margin-right: 100px;
+}
+
+header .title button {
+	border: 1px solid black;
+	margin: 0px 60px;
+	padding: 6px 40px;
+  width: 150px;
+  white-space: nowrap;
+}
+
+header img {
+	display: flex;
+	width: 35%;
+}
+
+.top-content {
+	display: flex; /*added flex here*/
+  width: 876px;
+}
+
+.top-content div {
+/* 	display: inline-block; turned off*/
+	width: 49%;
+	text-align: justify;
+	padding: 10px;
+}
+
+.middle-img {
+	margin: 30px 0px;
+}
+
+.bottom-content {
+	display: flex; /*added flex here*/
+  width: 876px;
+}
+
+.bottom-content div {
+/* 	display: inline-block; turnedd off*/
+	width: 33%;
+	text-align: justify;
+	padding: 10px;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+body { /* centers the website */
+	width: 876px;
+	margin: 0 auto;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
