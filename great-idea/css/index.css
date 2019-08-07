@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
 }
 
 html, body {
@@ -64,3 +65,186 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{
+    max-width:900px;
+    margin: 0 auto;
+}
+/*navigation css */
+.navigation{
+	display:flex;
+	margin:20px 0;
+	padding:20px 0;
+	justify-content: space-between;
+}
+
+ nav a{
+	 margin-left: 45px;
+	 font-size:18px;
+	 text-decoration: none;
+	 color: grey;
+ }
+	
+ /* header css */
+ header{
+	 display:flex;
+	 margin:20px 0;
+	 padding:20px 0;
+	 justify-content: space-between;
+	 border-bottom: 1px solid black;
+ }
+
+ 
+	header h1{
+		font-size: 70px;
+		text-align:center;
+		width:90%;
+		padding:40px 0; 
+	}
+
+.content-btn{
+	width: 70%;
+	margin: 0 60px;
+	text-align: center;
+}
+
+button{
+	width:170px;
+	height:40px;
+	font-size: 15px;
+}
+
+/*middle top content */
+.middle-content{
+	display:flex;
+	padding:10px 0;
+	margin: 10px 0;	
+	justify-content: space-between;
+	font-size: 18px;
+}
+
+.top-middle-content {
+	margin-left: 20px 0;
+	margin-right: 20px;
+}
+
+/*bottom-middle content below picture */
+.bottom-content{
+	display:flex;
+	padding:10px 0;
+	margin: 10px 0;	
+	justify-content: space-between;
+	font-size: 18px;
+}
+
+.bottom-middle-content{
+	margin: 4px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+/*style midle picture */
+.middle-img{
+	width: 800px;
+}
+
+/*address css */
+	address h2{
+		font-weight:bold;
+		margin:5px 0;
+	}
+	
+/*footer css */
+footer{
+	text-align: center;
+	}
+
+
+/*CODE FOR SERVICE.HTML PAGE */
+/*nav header */
+header  nav {
+	display:flex;
+	justify-content: space-around;
+	 font-size:18px;
+	 text-decoration: none;
+ }
+
+ /*top image*/
+ .services-content .services-header-img{
+	 width: 797px;	
+ }
+
+ /*h1 below first image */
+
+.services-content h1{
+	margin: 20px 0;
+	font-size:18px;
+}
+/*services and paragraph */
+.services-content .services-text {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+/*main-content-boxes */
+.main-content-boxes{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height: 1.3;
+}
+
+.main-content-boxes .content{
+	border:1px solid black;
+	padding:20px;
+	width:385px;
+	background:whitesmoke;
+	margin:20px 0;
+}
+
+.main-content-boxes .content button{
+	padding: 10px 30px;
+	margin-top:20px;
+	cursor: pointer;
+	background:white;
+	border-radius:5px;
+	border:1px solid black;
+	margin-right:220px;
+}
+
+.main-content-boxes {
+	border-bottom:1px solid black;
+}
+
+/* last part with ul */
+.last-part{
+	display:flex;
+	margin:20px 0;
+	font-size: 18px;
+}
+
+.last-part p{
+	width:90%;
+}
+
+.last-part ul{
+	list-style: square;
+	padding:5px 0;
+	margin:10px 0;
+	margin-left:10px;
+	padding-left:10px;
+	line-height: 1.75;	
+	font-size: 15px;
+}
+
+/* last part img css */
+.services-info-img{
+	width:380px;
+	height:260px;
+}
+
+/*footer */
+.services-footer{
+	margin: 0 auto;
+}
