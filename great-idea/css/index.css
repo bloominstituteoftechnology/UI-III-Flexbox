@@ -70,22 +70,26 @@ h1, h2, h3, h4, h5 {
 	background-color:white;
 	width:80%;
 }
-nav {
-	padding:60px;
-	color: black;
-	text-decoration:none;
+
+nav{
+display:flex;
+flex-direction:row;
+}
+
+nav a {
 	display:flex;
 	flex-direction:row;
 	flex-wrap:nowrap;
-	justify-content:space-evenly;
+	justify-content:space-around;
 	align-items:center;
-	
+	color: darkgray;
+	text-decoration:none;
   }
 
 .logo{
 	color:black;
 	display:flex;
-	/* justify-content:left; */
+	justify-content:left;
 	align-self:flex-end;
 }
 
@@ -96,18 +100,23 @@ nav {
 
 .heading{
 	display:flex;
-	/* flex-direction:row; */
+	flex-direction:row;
 	justify-content:center;
 	align-content:center;
-	padding-left:100px;
-	padding-right:50px;
+	/* padding-left:100px;
+	padding-right:50px; */
 }
 
 h1{
 	font-size:75px;
 	color:black;
 	display:flex;
-	/* left:100px; */
+	flex-direction:column;
+	justify-content:center;
+	align-self:center;
+	-ms-word-break: normal;
+	word-break:normal;
+	line-height:1em;
 }
 
 .heading-image{
