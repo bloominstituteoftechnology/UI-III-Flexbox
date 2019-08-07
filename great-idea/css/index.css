@@ -64,3 +64,148 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+*{
+	
+	box-sizing: border-box;
+	
+}
+
+
+body{
+	width: 1000px;
+	height: 1000px;
+	background-color: white;
+    margin: auto;
+	padding: 20px;
+
+
+}
+
+div{
+	
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+
+}
+.navbar{
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+.navbar .innerNav a{
+	width: 30%;
+	height: 100%;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	 padding: 5px 0 30px 20px; 
+	box-sizing: border-box;
+}
+
+.navbar .logo{
+	height: 50%;
+	display: flex;
+	align-items:center;
+	box-sizing: border-box;
+	padding-left: 60px;
+	/* vertical-align: middle; */
+}
+.innerNav{
+	display:flex;
+	justify-content: space-between;
+	/* display: inline-block; */
+	
+	/* margin: 0 0 0 0; */
+}
+div .innerNav a, .logo{
+	/* display: inline-block; */
+	padding: 0;
+	text-decoration: none;
+	color: grey;
+}
+
+h1{
+	font-size: 40px;
+}
+
+.titleAndPic{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 2px solid grey;
+    /* position: relative; */
+}
+
+.titleAndPic h1{
+	/* display: inline-block; */
+	/* position: relative; */
+	/* width:40%; */
+    /* padding: 20px; */
+	/* margin-left: 20px; */
+	
+
+}
+.bigpic{
+	/* position: absolute; */
+	/* top: -30px; */
+	/* right: -30px; */
+}
+.titleAndPic h1{
+	padding-bottom: 300px;
+	box-sizing: border-box;
+}
+
+.titleAndPic .bigpic{
+	width: 50%;
+	height: 100%;
+	position: rleative;
+	top: -20px; 
+	right: 50px;
+}
+
+h2{
+	font-size: 18px;
+}
+.featuresAbout{
+	display: flex;
+	justify-content: space-between;
+}
+.featuresAbout div{
+	width: 40%;
+	/* display: inline-block; */
+	
+	padding-left: 60px;
+	margin-left: 40px;
+}
+.featuresAbout p{
+	padding-left: 20px;
+}
+
+.middle-img{
+	margin-left: 50px;
+}
+
+.ServicesProductVision{
+	display: flex;
+	justify-content: space-between;
+}
+.ServicesProductVision div{
+	width: 33%;
+	display: inline-block;
+	border-bottom: 2px solid grey;
+}
+.contact{
+	padding-left: 12px;
+}
+.copywrite{
+	margin-left: 400px;
+	margin-bottom: 100px;
+}

@@ -1,0 +1,108 @@
+
+
+*{
+    box-sizing: border-box;
+    /* border: 1px solid grey; */
+}
+
+body{
+    width: 965px;
+    height: 100px;
+    margin: auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+h2, h3{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+}
+header div{
+    margin: 40px;
+    
+}
+
+.container1{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myServices{
+    width: 92.5%;
+    border-bottom: 2px solid black;
+
+    
+}
+.myServices h2{
+    
+    width: 25%;
+}
+
+.container2{
+    height: 800px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+
+.container2 div{
+    height: 30%;
+    width: 42.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+
+    background-color: rgb(243, 243, 243)
+}
+
+.container3{
+    height: 500px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+ .container3 div{
+    width: 42%;
+} 
+.copywrite{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
