@@ -210,3 +210,96 @@ header a {
   border: 1px solid black;
   color: black;
 }
+
+.content-top {
+  border-top: 2px solid black;
+  padding-top: 5%;
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+}
+
+.features {
+  flex-direction: column;
+  width: 50%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.about {
+  flex-direction: column;
+  width: 50%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+}
+
+.content img {
+  max-width: 100%;
+  margin: 0 auto 5% auto;
+}
+
+.services {
+  flex-direction: column;
+  width: 33%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.product {
+  flex-direction: column;
+  width: 33%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.vision {
+  flex-direction: column;
+  width: 33%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.content:nth-child(4) {
+  border-bottom: 2px solid black;
+}
+
+address {
+  margin-top: 5%;
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  margin: 10% 0 20% 0;
+}
+
+.hero-img {
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+}
+
+.hero-img img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.services-main {
+  margin: 3% 0 3% 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 5%;
+}
+
+h2.special {
+  font-size: 30px;
+}
+
+.services-main p {
+  font-size: 18px;
+}
