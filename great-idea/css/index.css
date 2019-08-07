@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5 {
 	 border-bottom: 1px solid black;
  }
 
-
+ 
 	header h1{
 		font-size: 70px;
 		text-align:center;
@@ -161,7 +161,6 @@ footer{
 
 
 /*CODE FOR SERVICE.HTML PAGE */
-
 /*nav header */
 header  nav {
 	display:flex;
@@ -174,3 +173,78 @@ header  nav {
  .services-content .services-header-img{
 	 width: 797px;	
  }
+
+ /*h1 below first image */
+
+.services-content h1{
+	margin: 20px 0;
+	font-size:18px;
+}
+/*services and paragraph */
+.services-content .services-text {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+/*main-content-boxes */
+.main-content-boxes{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height: 1.3;
+}
+
+.main-content-boxes .content{
+	border:1px solid black;
+	padding:20px;
+	width:385px;
+	background:whitesmoke;
+	margin:20px 0;
+}
+
+.main-content-boxes .content button{
+	padding: 10px 30px;
+	margin-top:20px;
+	cursor: pointer;
+	background:white;
+	border-radius:5px;
+	border:1px solid black;
+	margin-right:220px;
+}
+
+.main-content-boxes {
+	border-bottom:1px solid black;
+}
+
+/* last part with ul */
+.last-part{
+	display:flex;
+	margin:20px 0;
+	font-size: 18px;
+}
+
+.last-part p{
+	width:90%;
+}
+
+.last-part ul{
+	list-style: square;
+	padding:5px 0;
+	margin:10px 0;
+	margin-left:10px;
+	padding-left:10px;
+	line-height: 1.75;	
+	font-size: 15px;
+}
+
+/* last part img css */
+.services-info-img{
+	width:380px;
+	height:260px;
+}
+
+/*footer */
+.services-footer{
+	margin: 0 auto;
+}
