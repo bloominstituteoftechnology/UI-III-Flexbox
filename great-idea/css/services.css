@@ -1,0 +1,32 @@
+/* Navigation styles */
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar a,
+.navbar a:visited,
+.navbar a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+/* Header styles */
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    margin: 1rem auto 1rem;
+}
+
+.heading__intro {
+    margin: 1rem 0;
+    text-align: left;
+}
+.heading__intro h1 {
+    font-size: 1.5rem;
+}
