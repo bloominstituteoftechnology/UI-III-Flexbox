@@ -64,44 +64,55 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 hr {
 	margin: 35px 0px 35px 0px;
+	border-color: black;
 }
 .container{
 	width: 876px;
 	margin: 0px auto;
 /*	border: 5px solid red; For Testing Purposes*/
 	}
-.container header{
+header{
 	margin-top: 25px;
 }
-.container header img{
-	vertical-align: middle;
-	padding-left: 170px;
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px 20px 0px;
+}
+header img{
+	flex-direction: row-reverse;
 }
 nav {
-	display: inline-block;
+	display: flex;
+	width: 70%;
+	justify-content: space-between;
+	align-items: center;
+
 }
 nav a{
-	color: gainsboro;
+	color: gray;
 	font-weight: normal;
 	text-decoration: none;
-	padding: 15px;
+
 }
 .content-row{
-	margin: 60px 0px 60px 0px;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+
 }
-.content-row div{
-	display: inline-block;
-	margin: 0 auto;
-	padding-top: 10px;
-}
+
 .content-row h1{
 	text-align: center;
 	font-size: 80px;
 	padding: 0px 50px 0px 50px;
 }
-.content-row button{
+.content-row form input{
 	margin: auto;
 	display: block;
 	background-color: white;
@@ -109,6 +120,19 @@ nav a{
 	height: 32px;
 	width: 170px;
 	font-size: 105%;
+}
+form input{
+
+	display: block;
+	background-color: white;
+	border: solid 1px black;
+	height: 40px;
+	width: 150px;
+	font-size: 80%;
+	border-radius: 5px;
+}
+form {
+	padding-top: 20px;
 }
 .content-row img{
 	padding-left: 65px;	
@@ -119,19 +143,37 @@ nav a{
 	padding: 40px 0px 40px 0px;
 }
 .content-row div{
-	display: inline-block;
-	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
-.text-row-2 span{
-	display: inline-block;
-	width: 49%;
+.text-row-2 {
+	display: flex;
+	margin-top: 15px;
 }
-.text-row-3 span{
-	display: inline-block;
+.text-row-2 div{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.text-row-3 {
+	display: flex;
+	flex-wrap:wrap;
+}
+.text-row-3 div{
 	width: 33%;
+	justify-content: space-around;
+}
+.text-row{
+	display: flex;
+	width: 100%;
+	padding-top: 30px;
+}
+.text-row h2{
+	font-size: 175%;
 }
 footer{
-	margin: 50px 0px 100px 0px;
+	margin: 100px 0px 100px 0px;
 }
 footer .copyright{
 	text-align: center;
@@ -139,4 +181,31 @@ footer .copyright{
 }
 .contact-section .telephone{
 	padding: 20px 0px 20px 0px;
+}
+.box-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.box {
+	flex-direction: column;
+	margin: 20px 0px 20px 0px;
+	padding: 20px;
+	width: 48%;
+	border: 1px solid black;
+	background: #f4f3f4;
+}
+.box p {
+	font-size: 100%;
+}
+.box h2 {
+	padding: 5px 0px 5px 0px;
+}
+ul{
+	list-style-type: square;
+	list-style-position: inside;
+	padding-top: 20px;
+}
+li {
+	padding: 10px 0px 10px 0px;
 }
