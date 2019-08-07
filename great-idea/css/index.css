@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -63,4 +63,140 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+*{
+	background-color:white;
+}
+nav a {
+	padding:60px;
+	display:inline-block;
+	position:relative;
+	color: black;
+	text-decoration:none;	
+	margin:auto;
+  }
+
+.logo{
+	color:black;
+	right:-60px;
+	margin:auto;
+	vertical-align:middle;
+}
+
+.heading-container{
+	display:table;
+	align-content: center;
+	width:100%
+}
+
+.heading{
+	display:table-cell;
+	padding-bottom:110px;
+}
+
+h1{
+	font-size:100px;
+	color:black;
+	display:inline-block;
+	padding-left:150px;
+	padding-right:100px;
+	padding-bottom:10px;
+	left:100px;
+	text-align:center;
+	width:60%;
+	position:relative;
+}
+
+.button{
+	margin: 0 310px;
+	border: 1px solid black;
+	padding: 10px;
+	color:black;
+	display: block;
+	position:relative;
+	width:200px;
+	height:40px;
+	text-align:center;
+	text-decoration:none;
+}
+
+.main-img{
+	display:inline-block;
+	position:relative;
+	right:200px;
+}
+
+hr {
+	border-top: 2px solid black;
+  }
+.features{
+	font-size:20px;
+	margin-top:20px;
+	color:black;
+	display:inline-block;
+	width:39%;
+	margin:60px;
+  }
+
+.about{
+	font-size:20px;
+	margin-top:20px;
+	color:black;
+	display:inline-block;
+	width:39%;
+	margin:60px;
+  }
+
+p{
+	display:inline-block;
+	width:80%;
+	background-color:white;
+  }
+
+
+
+.middle-img{
+	width:100%;
+}
+
+.services{
+font-size:20px;
+margin-top:20px;
+color:black;
+display:inline-block;
+width:30%;
+margin:20px;
+}
+
+.product{
+font-size:20px;
+margin-top:20px;
+color:black;
+display:inline-block;
+width:30%;
+margin:20px;
+}
+
+.vision{
+font-size:20px;
+margin-top:20px;
+color:black;
+display:inline-block;
+width:30%;
+margin:20px;
+}
+
+footer {
+	color:black;
+	width: 100%;
+	margin:20px;
+  }
+  
+footer .copyright{
+	padding: 20px 0;
+	text-align:center;
+}
+
+  
+
