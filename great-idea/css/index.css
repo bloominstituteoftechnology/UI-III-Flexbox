@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	max-width: 880px;
+	margin: auto;
+}
+.navigation{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+nav a{
+	text-decoration: none;
+	color: silver;
+}
+a{
+	padding-right: 25px;
+	padding-left: 25px;
+	margin: auto;
+}
+.logo{
+	display: flex;
+	padding-left: 15px;
+	margin: auto;
+}
+header h1{
+	font-size: 75px;
+	position: absolute;
+   text-align: center;
+   top: 25%;
+   left: 10%;
+   height: 100%;
+   width: 30%;
+   margin-left: 120px;
+}
+header{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 40px;
+}
+.header button{
+	margin-top: -100px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px;
+	width: 40%;
+}
+.largeLogo{
+	margin-left: 400px;
+}
+.topSection{
+	display: flex;
+	flex-direction: row;
+	text-align: justify;
+	margin-bottom: 10px;
+	margin-top: 70 px;
+	border-top: 1px solid black;
+	padding: 30px;
+}
+.features{
+	margin-right: 15px;
+}
+.about{
+	margin-left: 15px;
+}
+
+.bottomSection{
+	display: flex;
+	justify-content: space-between;
+	text-align: justify;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.services{
+	margin-right: 10px;
+}
+.product{
+	margin-right: 10px;
+	margin-left: 10px
+}
+.vision{
+	margin-left: 10px;
+}
+.contact{
+	border-top: 1px solid black;
+	margin-top: 40px;
+	padding: 40px;
+	
+}
+
+footer{
+	padding: 50px;
+	text-align: center;
+}
