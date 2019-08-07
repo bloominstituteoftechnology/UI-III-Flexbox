@@ -51,6 +51,7 @@ header div{
     align-items: center;
 }
 
+
 .myServices{
     width: 92.5%;
     border-bottom: 2px solid black;
@@ -63,7 +64,7 @@ header div{
 }
 
 .container2{
-    height: 800px;
+    height: 1000px;
     padding-top: 30px;
     display: flex;
     flex-direction: row;
@@ -82,6 +83,12 @@ header div{
     border: 1px solid black;
 
     background-color: rgb(243, 243, 243)
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    border-radius: .4rem;
 }
 
 .container3{
