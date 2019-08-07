@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 }
+
 .navigation header{
 	display: flex;
 	width: 100%;
@@ -107,7 +108,6 @@ nav{
 	justify-content: space-evenly;
 	align-items: center;
 	flex-flow: row;
-
 }
 
 .splashText{
@@ -126,9 +126,7 @@ nav{
 	padding: 5px 25px;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1rem;
-
 }
-
 
 hr{
 	margin: 20px 0;
@@ -145,17 +143,12 @@ hr{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	border: 1px solid red;
-
 }
-
 
 .features, .about{
 	display: flex;
 	width: 50%;
 	flex-direction: column;
-	border: 1px solid red;
-
 }
 
 .services, .product, .vision{
@@ -164,7 +157,6 @@ hr{
 	padding: 10px;
 	justify-content: space-between;
 	flex-direction: column;
-	border: 1px solid red;
 }
 
 .contact{
@@ -180,7 +172,7 @@ justify-content: center;
 padding: 20px
 }
 
-
+/* SERVICE PAGE STYLES */
 
 .servicesHeader{
 	display: flex;
@@ -243,3 +235,30 @@ ul {
 	padding-left: 0;
 }
 
+/* MOBILE STYLING */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	
+	/* STYLES GO HERE */
+
+	.servicesDescriptions{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+	}
+	
+	.infoSection{
+		display: block;
+		width: 45%;
+		margin: 10px 0;
+		padding: 20px;
+		background: rgb(226, 226, 226);
+		border: 1px solid black;
+	}
+	
+
+}
