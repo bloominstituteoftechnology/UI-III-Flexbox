@@ -5,9 +5,9 @@
   --shadow: rgba(0, 0, 0, 0.75);
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
-	 v2.0 | 20110126
-	 License: none (public domain)
-  */
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
 
 html,
 body,
@@ -158,33 +158,35 @@ h5 {
 /* Your code starts here! */
 
 /* Navigation Styles */
-.navbar {
+nav {
   background-color: var(--main-color);
   box-shadow: 10px 10px 40px -16px var(--shadow);
   position: fixed;
   width: 100%;
-  height: 10%;
+  height: 15%;
   z-index: 999;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
 }
-.navLinks {
-  width: 40%;
+.nav {
+  width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
-  align-items: flex-end;
 }
-.navLinks a {
+
+.nav a {
+  text-decoration: none;
   color: var(--accent);
   text-decoration: none;
   font-weight: 700;
+  margin-top: 1rem;
 }
 .navBrand {
-  width: 30%;
+  display: flex;
+  order: -1;
+  margin-top: 0.5rem;
 }
-
 /* Showcase Styles */
 .showcase {
   /* width: 100%; */
@@ -272,4 +274,11 @@ address {
 .footer p {
   position: relative;
   top: -3rem;
+}
+@media only screen and (min-width: 900px) {
+  /* .logo {
+	position: absolute;
+	top: 1rem;
+	right: 5rem;
+  } */
 }
