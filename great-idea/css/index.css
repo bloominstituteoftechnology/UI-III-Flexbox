@@ -65,6 +65,14 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+.container-main{
+	display: flex;
+	width: 1000px;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: auto;
+}
+
 .navigation {
 	display: flex;
 	justify-content: space-between; 
@@ -90,24 +98,96 @@ a{
 	flex-direction: row;
 }
 
-#title{
+#title {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	outline: 2px solid blue;
+	/* outline: 2px solid blue; */
 	width:300px;
-	height:200px;
+	height:300px;
 	font-size: 70px;
-	
+	margin-left: 130px;
+	margin-top: 50px;
 }
 
-p{
+/* p {
 	text-align:center;
-}
+} */
 
 .get-started{
 	display: flex;
 	width: 100px;
-	outline: 2px solid red;
+	outline: 2px solid black;
 	justify-content: center;
+	margin-left: 220px;
+}
+
+ .head-main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/* outline: 2px solid yellow; */
+	align-items: stretch;
+} 
+
+.header-img{
+	display: flex;
+	/* justify-content: flex-end; */
+	/* outline: 2px solid brown; */
+	width: 400px;
+	height: 400px;
+}
+
+.h-img{
+	display: flex;
+	justify-content: flex-end;
+	/* outline: 2px solid purple; */
+}
+
+/* .head-title{
+	display: flex;
+	flex-direction: column;
+	outline: 2px solid red;
+	height: 200px;
+	margin-top: 50px;
+
+} */
+
+.top-content{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.features{
+	width: 490px;
+}
+
+.about{
+		width: 490px;
+}
+
+.bottom-content{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.services{
+	width: 325px;
+}
+
+.product{
+	width: 325px;
+}
+
+.vision{
+	width: 325px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
