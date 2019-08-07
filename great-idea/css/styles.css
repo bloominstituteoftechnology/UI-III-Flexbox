@@ -1,0 +1,113 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:900px;
+    margin: 0 auto;
+}
+.navBar {
+    display:flex;
+    align-items: flex-start;
+    margin: 10px;
+    
+}
+
+.navSpace {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    font-family: 'Titillium Web';
+}
+
+.logo {
+    display:flex;
+    margin-top: 20px;
+}
+
+.jumbotron {
+    display: flex;
+    width: 900px;
+    justify-content: space-evenly;
+    padding-top:10px;
+    padding-bottom: 10px;
+    
+}
+
+.jumbotron.left {
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: left;
+}
+
+.jumbotron.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+h1 {
+    font-family: 'Bangers';
+    font-size: 60px;
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+}
+
+#button{
+    display:flex;
+    font-family: 'Titillium Web';
+    border: 1px solid black;
+    padding: 0px 20px;
+    border-radius: 4px;
+}
+
+p, footer, address {
+    display:flex;
+    font-family: 'Titillium Web';
+    font-size: 14px;
+}
+
+hr {
+    display:flex;
+    width: 900px;
+    border: 1px solid black;
+    margin: 20px 0px;
+}
+
+.fabout {
+    display: flex;
+}
+
+.fleft {
+    padding: 0px 20px 0px 0px;
+}
+h2 {
+font-family: 'Bangers';
+font-size: 20px;
+text-align: left;
+}
+
+.middle-img {
+    display:flex;
+    width: 100%;
+}
+
+.bottom-rung {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.middle {
+padding: 0 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction:column;
+    width: 900px;
+
+}
