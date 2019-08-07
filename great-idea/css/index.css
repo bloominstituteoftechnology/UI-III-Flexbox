@@ -78,6 +78,7 @@ nav a {
 
 body {
 	width: 50%;
+	max-width: 880px;
 	margin: 0 auto;
 }
 
@@ -104,3 +105,28 @@ header .div1 button {
 	border: 1px black solid;
 }
 
+main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3em 0;
+	border-bottom: 1px black solid;
+}
+
+main .div1, main .div2 {
+	width: 50%;
+}
+
+main .div3, main .div4, main .div5 {
+	width: 33%;
+}
+
+main .middle-img {
+	padding: 3em 0;
+}
+
+footer {
+	margin-top: 3em;
+}
+#copyrightText {
+	text-align: center;
+}
