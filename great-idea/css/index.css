@@ -200,11 +200,12 @@ footer {
 .serviceBox{
 	border:1px solid black;
 	background-color: #F4F3F4;
-	width: 45%;
+	width: 48%;
 	padding: 20px;
+	margin-top: 20px;
 	/* margin: 20px; */
 }
-button{
+.serviceBox button{
 	border-radius: 5px;
 	background-color:white;
 	padding: 8px;
@@ -216,9 +217,9 @@ button{
 	justify-content: space-between;
 }
 .services-about{
-	line-height: 1.2;
+	display:flex;
 }
-li{
+.service-facts li{
 	list-style-type: square;
 	list-style-position: inside;
 	margin: 14px 0px;
