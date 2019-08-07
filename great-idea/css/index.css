@@ -5,9 +5,9 @@
   --shadow: rgba(0, 0, 0, 0.75);
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
-	   v2.0 | 20110126
-	   License: none (public domain)
-	*/
+		   v2.0 | 20110126
+		   License: none (public domain)
+		*/
 
 html,
 body,
@@ -214,16 +214,16 @@ nav {
   text-align: center;
   color: var(--default-color);
 }
-.showcase-line {
+.line {
   width: 80%;
   margin: 2rem auto;
   border-bottom: 0.1rem solid var(--default-color);
 }
-//* Info Styles */
+/* Info Styles */
 .info-container {
   width: 100%;
   height: 100vh;
-  margin: 20rem auto;
+  margin: 15rem auto;
 }
 
 .col {
@@ -240,48 +240,54 @@ nav {
 .col p {
   text-align: center;
 }
+.middle-img img {
+  width: 100%;
+  height: 25vh;
+  padding: 0 3rem;
+}
 .bottom-col {
-  display: inline-block;
-  width: 25%;
-  position: relative;
-  left: 8rem;
-  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 90%;
+  margin: 2rem auto;
+}
+.bottom-col h2 {
+  font-size: 1.5rem;
+}
+.bottom-col p {
+  text-align: center;
 }
 
-.middle-img {
-  display: inline-block;
-  width: 100%;
-  padding: 4rem 5rem;
-}
-.info-line {
-  width: 90%;
-  margin: 0 4rem;
-  border-bottom: 0.1rem solid var(--default-color);
-  position: absolute;
-  top: 81rem;
-}
 /* Contact Styles */
 .contact-container {
-  margin: 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin: 3rem 4rem; */
+}
+.contact-container h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
 }
 address {
-  width: 15%;
+  width: 90%;
+  text-align: center;
 }
 .footer {
   width: 100%;
   height: 10%;
   text-align: center;
-}
-.footer p {
-  position: relative;
-  top: -3rem;
+  margin-top: 2rem;
 }
 @media only screen and (min-width: 900px) {
   /* .logo {
-	position: absolute;
-	top: 1rem;
-	right: 5rem;
-  } */
+		position: absolute;
+		top: 1rem;
+		right: 5rem;
+	  } */
   .showcase-content {
     position: relative;
     width: 20%;
@@ -302,5 +308,12 @@ address {
     width: 90%;
     position: absolute;
     top: 40rem;
+  }
+  .info-line {
+    width: 90%;
+    margin: 0 4rem;
+    border-bottom: 0.1rem solid var(--default-color);
+    position: absolute;
+    top: 81rem;
   }
 }
