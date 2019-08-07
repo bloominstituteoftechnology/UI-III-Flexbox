@@ -66,51 +66,60 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .body-con {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	color: rgb(27, 27, 27);
 }
 
 .nav-con {
-	text-align: center;
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	justify-items: space-evenly;
 }
 
 .head-nav {
-	display: inline-block;
-	position: relative;
-	right: 15px;
-	top: 20px;
-	font-size: 15px;
+	justify-self: flex-start;
 }
 .head-nav a {
 	text-decoration: none;
-	padding-right: 60px;
+	margin-right: 60px;
 	color: rgb(39, 38, 38);
+	font-size: 14px;
 }
 
 .img-div {
-	display: inline-block;
-	position: relative;
-	left: 25px;
-	top: 30px;
+	/* justify-self: flex-end; */
+	margin-left: 40px;
+	margin-top: -11px;
 }
 
 .main-header {
-	text-align: center;
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .main-con {
-	display: inline-block;
-	margin-top: 145px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 80px;
+	/* display: inline-block;
+	margin-top: 145px; */
 }
 
 .main-con h1 {
+	text-align: center;
 	font-size: 80px;
 	letter-spacing: 1.2px;
-	line-height: 80px;
+	/* margin-right: 50px; */
 }
 
 .main-con a button {
-	position: relative;
-	top: 15px;
 	padding: 6px 30px;
 	border: 1px solid rgb(27, 27, 27);
 	background: transparent;
@@ -118,28 +127,36 @@ h1, h2, h3, h4, h5 {
 	font-weight: 600;
 	width: 170px;
 	font-family: 'Titillium Web', 'sans-serif';
-}
+} 
 
 .main-con a button:hover {
 	cursor: pointer;
 }
+
 .main-img {
-	display: inline-block;
-	position: relative;
-	top: 50px;
-	left: 90px;
+	padding-left: 80px;
 }
 
 header hr  {
 	margin-right: auto 0;
 	margin-left: auto 0;
-	margin-top: 120px;
+	margin-top: 75px;
 	width: 65%;
 }
 
 .section-con {
-	text-align: center;
-	margin-top: 35px;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	/* text-align: center; */
+	/*margin-top: 35px; */
+}
+
+.section1 {
+	display: flex;
+	justify-content: center;
+	/* justify-content: space-evenly; */
+	/* margin: 5px; */
 }
 
 .section-con p {
@@ -147,58 +164,61 @@ header hr  {
 }
 
 .sects {
-	display: inline-block;
 	text-align: left;
 	width: 400px;
-	position: relative;
-	margin-bottom: 50px;
-	/* margin-top: 40px; */
+	margin-top: 25px;
+	margin-bottom: 30px;
 }
 
-section.sects.features {
-	right: 40px;
+.sects.features {
+	margin-right: 40px;
 }
 
-section.sects.about {
-	left: 40px;
+.sects.about {
+	margin-right: 30px;
 }
 
 .content-img {
 	text-align: center;
-	margin-bottom: 40px;
 }
 
-section.sects.services {
+.sects.services {
+	margin-top: 35px;
+	margin-right: 18px;
 	width: 280px;
-	right: 10px;
 }
 
-section.sects.product {
+.sects.product {
 	width: 280px;
-	left: 5px;
+	margin-top: 35px;
+	margin-right: 18px;
 }
-section.sects.vision {
+.sects.vision {
+	margin-top: 35px;
+	margin-right: 8px;
 	width: 280px;
-	left: 15px;
 }
 
 .section-con hr  {
-	margin-right: auto 0;
+	/* margin-right: auto 0;
 	margin-left: auto 0;
 	margin-top: 5px;
-	width: 65%;
+	width: 65%; */
 }
 
 .contact-con {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* justify-items: flex-start; */
+	/* text-align: left; */
 }
 
 .contact-div {
-	position: relative;
-	display: inline-block;
-	text-align: left;
-	right: 365px;
-	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: flex-start; */
+	justify-items: flex-start;
 }
 
 footer {
