@@ -195,3 +195,31 @@ footer {
 	font-size: 15px;
 	padding-bottom: 40px;
 }
+
+/* services.html */
+.serviceBox{
+	border:1px solid black;
+	background-color: #F4F3F4;
+	width: 45%;
+	padding: 20px;
+	/* margin: 20px; */
+}
+button{
+	border-radius: 5px;
+	background-color:white;
+	padding: 8px;
+	width: 140px;
+}
+.flexParent{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.services-about{
+	line-height: 1.2;
+}
+li{
+	list-style-type: square;
+	list-style-position: inside;
+	margin: 14px 0px;
+}
