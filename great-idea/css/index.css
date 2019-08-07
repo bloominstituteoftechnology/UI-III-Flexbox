@@ -164,3 +164,39 @@ footer {
     margin-top: 50px;
     text-align: center;
 }
+
+.Marketing{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.MiddlePara{
+    width:47%;
+    height:200px;
+    border: 1px solid black;
+    margin: 12px; 
+    padding: 15px;
+}
+
+.servicebutton{
+    border: 1px solid black;
+    margin-top: 8px;
+    padding: 6px 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.paramid{
+margin-bottom:8px;
+}
+
+.bottomsec{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.bottomdiv{
+    width: 49%;
+}
