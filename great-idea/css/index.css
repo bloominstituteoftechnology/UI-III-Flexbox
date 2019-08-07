@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid black; */
+}
+
+nav {
+	padding: 16px 0;
+	/* background: lightgoldenrodyellow;
+	position: fixed; */
+	display: flex;
+	align-items: center;
+}
+
+nav ul {
+	/* display: inline-block; */
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 32px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #b4b3b3;
+}
+
+.jumbotron {
+	padding: 48px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.logo-container {
+	/* vertical-align: middle; */
+	/* display: inline-block; */
+	/* margin-left: 32px; */
+}
+
+.logo-container .logo {
+	width: 200px;
+}
+
+
+.main-header-container {
+	display: inline-block;
+	max-width: 400px;
+	text-align: center;
+	height: 390px;
+	/* margin-left: 48px; */
+	vertical-align: top;
+}
+
+.main-img {
+	display: inline-block;
+	max-width: 400px;
+	height: 390px;
+	/* margin-left: 48px; */
+}
+
+div .main-header {
+	font-size: 86px;
+	margin-top: 32px;
+}
+
+.get-started {
+	padding: 8px 24px;
+	font-size: 16px;
+	font-weight: 400;
+	background: none;
+	letter-spacing: 1px;
+	border: 1px solid black;
+}
+
+.line-break {
+	height: 1px;
+	width: 850px;
+	background: black;
+	margin: 0px auto;
+}
+
+.main-content {
+	margin: 0 32px;
+}
+
+.section-one-container {
+	margin: 32px 0;
+}
+
+.article-img {
+	margin: 16px 0;
+}
+
+.section-three-container {
+	margin: 32px 0;
+}
+
+.article-top {
+	display: inline-block;
+	width: 400px;
+}
+
+.features {
+	padding-right: 16px;
+}
+
+.article-bottom {
+	display: inline-block;
+	width: 285px;
+}
+
+.product, .vision {
+	padding-left: 16px;
+}
+
+footer {
+	margin-top: 24px;
+	height: 300px;
+}
+
+.footer-content {
+	margin: 0 32px;
+}
+
+.footer-content ul {
+	width: 200px;
+}
+
+.footer-content ul li {
+	padding: 8px 0;
+}
+
+.copy {
+	text-align: center;
+	margin-top: 48px;
+}
