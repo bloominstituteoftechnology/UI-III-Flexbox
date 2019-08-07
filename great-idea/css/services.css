@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 * {
-	transition: all .3s;
+    transition: all .3s;
 }
 
 html {
@@ -75,8 +75,10 @@ html {
 
 body {
 	background-color: rgba(224, 114, 87, 0.8);
-	width: 1000px;
-	height: 1645px;
+    width: 65%;
+    max-width: 1200px;
+    min-width: 430px;
+	height: auto;
 	margin: 80px auto 0;
 	padding-top: 30px;
 }
@@ -91,18 +93,6 @@ h2 {
     font-weight: bold;
 }
 
-address {
-	width: 100%;
-	text-align: center;
-	margin-top: 40px;
-	line-height: 1.6;
-	font-size: 18px;
-}
-
-address span {
-	font-style: italic;
-}
-
 hr {
 	width: 90%;
 	height: 1px;
@@ -115,14 +105,17 @@ hr {
 }
 
 .navbar {
-	display: flex;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 	position: fixed;
 	top: 0px;
-	width: 1000px;
+    width: 65%;
+    max-width: 1200px;
+    min-width: 430px;
 	height: 80px;
-	text-align: center;
-	line-height: 80px;
+    text-align: center;
+    padding: 0 1%;
 	border-bottom: 1px solid black;
 	background-color: rgb(214, 79, 79);
 	z-index: 1;
@@ -136,10 +129,9 @@ hr {
 }
 
 .navButtons {
-	width: 100px;
+	width: 25%;
 	color: black;
-	padding: 0 1%;
-	margin: 5px 1%;
+    padding: 0 1%;
 	background: none;
 	border: none;
 }
@@ -159,9 +151,17 @@ hr {
 }
 
 .logoContainer {
-	position: relative;
-	height: 80px;
-	top: 8px;
+    width: 40%;
+    max-width: 130px;
+}
+
+.logoContainer img {
+    width: 100%;
+}
+
+.logoContainer:hover img {
+	transform: scale(1.1);
+	cursor: pointer;
 }
 
 .servicesIntroduction {
@@ -171,7 +171,12 @@ hr {
     align-items: center;
 }
 
+.servicesHeaderImg {
+    width: 88%;
+}
+
 .servicesHeaderImg img {
+    width: 100%;
     border-radius: 5px;
     box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, .4);
 }
@@ -269,7 +274,8 @@ hr {
 	height: 28px;
 	line-height: 28px;
 	text-align: center;
-	margin-top: 40px;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, .8);
 }
 
 @keyframes rotateNavButton {
@@ -277,4 +283,26 @@ hr {
 	25% { transform: translateX(6px); } 
 	50% { transform: translateX(-6px); }
 	100% { transform: translateX(0px); }
+}
+
+@media screen and (max-width: 1100px){
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .bottomTextContainer {
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicesInfoImgContainer {
+        width: 88%;
+        margin-bottom: 50px;
+    }
+
+    .aboutServicesText {
+        width: 88%;
+    }
 }
