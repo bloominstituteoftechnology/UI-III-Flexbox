@@ -219,21 +219,26 @@ nav {
   margin: 2rem auto;
   border-bottom: 0.1rem solid var(--default-color);
 }
-/* Info Styles */
+//* Info Styles */
 .info-container {
   width: 100%;
   height: 100vh;
-  /* margin: 0 auto; */
-  dsi
+  margin: 20rem auto;
 }
 
 .col {
-  display: inline-block;
-  width: 40%;
-  margin: 1rem 1rem;
-  position: relative;
-  top: 3rem;
-  left: 8rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 90%;
+  margin: 2rem auto;
+}
+.col h2 {
+  font-size: 1.5rem;
+}
+.col p {
+  text-align: center;
 }
 .bottom-col {
   display: inline-block;
