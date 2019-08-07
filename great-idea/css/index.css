@@ -65,13 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-#navBar {
+nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-#navBar a {
+nav a {
 	color: lightgrey;
 	text-decoration: none;
 }
@@ -80,3 +80,27 @@ body {
 	width: 50%;
 	margin: 0 auto;
 }
+
+header {
+	display: flex;
+	padding: 3em 0;
+	border-bottom: 1px solid black;
+}
+
+header .div1 {
+	margin: auto;
+	/* align-items: center; */
+	text-align: center;
+}
+
+header .div1 h1 {
+	font-size: 3em;
+}
+
+header .div1 button {
+	background-color: white;
+	padding: 0.5em 2em;
+	font-size: 0.8em;
+	border: 1px black solid;
+}
+
