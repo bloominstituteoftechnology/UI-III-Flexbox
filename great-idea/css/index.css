@@ -165,26 +165,20 @@ h5 {
   width: 100%;
   height: 10%;
   z-index: 999;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 .nav {
-  position: relative;
-  top: 0.7rem;
+  width: 30%;
 }
-.nav li {
-  display: inline-block;
-  text-decoration: none;
-  padding: 1rem 1rem;
-  margin-left: 3rem;
-}
-.nav li a {
+.nav a {
   color: var(--accent);
   text-decoration: none;
   font-weight: 700;
 }
-.logo {
-  position: absolute;
-  top: 1rem;
-  right: 5rem;
+.navBrand {
+  width: 70%;
 }
 
 /* Showcase Styles */
