@@ -159,7 +159,7 @@ address h2 {
 .logoContainer {
 	position: relative;
 	height: 80px;
-	top: 8px;
+	top: 9px;
 }
 
 .sloganHeader {
@@ -193,6 +193,7 @@ address h2 {
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 20px;
 	margin-right: 5px;
+	box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, .4);
 }
 
 .slogan button:hover {
