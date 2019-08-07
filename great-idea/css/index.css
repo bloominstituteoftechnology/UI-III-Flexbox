@@ -318,32 +318,66 @@ address {
     align-items: center;
     margin-right: 18%;
   }
+  .showcase {
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .showcase-content {
-    position: relative;
-    width: 20%;
-    top: 10rem;
-    left: 20rem;
-    /* padding: 2rem 2rem; */
+    width: 60%;
     text-align: center;
+    margin-top: 15rem;
+    margin-left: 14rem;
   }
   .showcase-content h1 {
     font-size: 5rem;
   }
+
   .showcase-img {
-    position: absolute;
-    top: 9rem;
-    right: 9rem;
+    width: 40%;
+    order: 2;
+    margin-bottom: -1rem;
+    margin-right: 14rem;
   }
-  .showcase-line {
-    width: 90%;
+  .showcase .line {
     position: absolute;
-    top: 40rem;
+    width: 95%;
+    top: 90%;
+    left: 3%;
+    border-bottom: 0.15rem solid var(--default-color);
   }
-  .info-line {
-    width: 90%;
-    margin: 0 4rem;
-    border-bottom: 0.1rem solid var(--default-color);
-    position: absolute;
-    top: 81rem;
+  .line {
+    width: 95%;
+  }
+  .info-container {
+    margin: 0rem auto;
+  }
+  .top-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col {
+    align-items: flex-start;
+    padding: 0 3rem;
+  }
+  .col h2,
+  .col p {
+    text-align: left;
+  }
+  .bottom-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bottom-col {
+    align-items: flex-start;
+    padding: 0 3rem;
+  }
+  .bottom-col h2,
+  .bottom-col p {
+    text-align: left;
+  }
+  .contact-container {
+    margin-top: 7rem;
   }
 }
