@@ -1,98 +1,115 @@
 /* Globals */
 html {
-    font-size: 67.5%;
-    box-sizing: border-box;
+  font-size: 67.5%;
+  box-sizing: border-box;
 }
 
 hr {
-    width: 95%;
+  width: 95%;
 }
 
 /* Navigation styles */
 
 .navbar {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.navbar>* {
-    margin-right: 1rem;
+.navbar > * {
+  margin-right: 1rem;
 }
 
 .navbar a,
 .navbar a:visited,
 .navbar a:link {
-    color: grey;
-    text-decoration: none;
+  color: grey;
+  text-decoration: none;
 }
 
 /* Header styles */
+
 .header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 
-    margin-top: 5rem;
-    margin-bottom: 4.5rem;
+  margin-top: 5rem;
+  margin-bottom: 4.5rem;
 }
 
-.header>div {
-    margin-right: 4rem;
-    font-size: 4.5rem;
+.header > div {
+  margin-right: 4rem;
+  font-size: 4.5rem;
 }
 
-.header>div>button {
-    color: black;
-    font-size: 1rem;
-    padding: .45rem 1.8rem;
-    border: 1px solid black;
+.header > div > button {
+  color: black;
+  font-size: 1rem;
+  padding: 0.45rem 1.8rem;
+  border: 1px solid black;
 }
 
 .header .title {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 /* Main Content / Section styles */
 
 .main__image {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
 
 .top-content {
-    display: flex;
-    margin: 2rem;
-    justify-content: space-around;
+  display: flex;
+  margin: 2rem;
+  justify-content: space-around;
 }
 
-.top-content>div {
-    width: 47%;
-    text-align: left;
+.top-content > div {
+  width: 47%;
+  text-align: left;
 }
 
 .bottom-content {
-    display: flex;
-    justify-content: center;
-    margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
 }
 
-.bottom-content>div {
-    width: 32%;
-    text-align: left;
+.bottom-content > div {
+  width: 32%;
+  text-align: left;
 }
 
 .main__image {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.main__image > img {
+  width: 92%;
+}
+
+/* Contact styles */
+
+.contact {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 2.5rem;
+}
+
+/* Footer styles */
+
+body>footer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-}
-
-.main__image>img {
-    width: 92%;
 }
