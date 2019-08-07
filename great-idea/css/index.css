@@ -158,3 +158,28 @@ footer{
 	padding: 50px;
 	text-align: center;
 }
+
+body{
+	max-width: 880px;
+	margin: auto;
+}
+.navigationServices{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+nav a{
+	text-decoration: none;
+	color: silver;
+}
+a{
+	padding-right: 25px;
+	padding-left: 25px;
+	margin: auto;
+}
+.logoServices{
+	display: flex;
+	padding-left: 15px;
+	margin: auto;
+}
