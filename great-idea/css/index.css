@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:5px;
+}
+
+header nav {
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	width:75%;
+	
+}
+nav a{
+	color:gray;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#splash{
+	display:flex;
+	justify-content:center;
+}
+h1{
+	font-size:72px;
+}
+
+h2{
+	font-size:24px;
+}
+
+h3{
+	font-size:18px;
+}
+
+.textwrapper{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.topinfo {
+	display:flex;
+	justify-content:center;
+}
+
+.bottominfo {
+	display:flex;
+	justify-content:space-around;
+	
+}
+
+
+.servicecontainer {
+	display:flex;
+	
+	flex-wrap:wrap;
+	margin:15px;
+}
+
+.servicebox{
+	padding:15px;
+	border:1px black solid;
+	justify-content:space-between;
+	background:lightgrey;
+	width:40%;
+	margin:2%;
+}
+
+button{
+  padding:4%;
+  width: 45%;
+  margin-top:10px;
+  background:white;
+  border-radius:10px;
+  border:1px solid black;
+}
+
+.factsSection{
+	display:flex;
+	justify-content:flex-start;
+	margin:4%;
+}
+
+.leftFactsBox{
+	
+	display:flex;
+	flex-direction:column;
+	width:40%;
+	
+}
+
+ul{
+	margin-left:15px;
+	margin-top:10px;
+	list-style:square;
+}
+li{
+	margin-top: 10px;
+}
+footer{
+	margin-top:10px;
+}
+
+.legal {
+	text-align:center;
+}
+
+@media only screen and (max-width: 600px) {
+	.servicebox{
+		width:100%;
+	}
+  }
