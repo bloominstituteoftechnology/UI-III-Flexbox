@@ -68,6 +68,23 @@ hr {
 .top-content {
     display: flex;
     margin: 2rem;
+    justify-content: space-around;
+}
+
+.top-content>div {
+    width: 47%;
+    text-align: left;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.bottom-content>div {
+    width: 32%;
+    text-align: left;
 }
 
 .main__image {
@@ -76,11 +93,6 @@ hr {
     justify-content: center;
 }
 
-.main__image > img {
+.main__image>img {
     width: 92%;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 2rem;
 }
