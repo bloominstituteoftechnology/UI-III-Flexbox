@@ -70,27 +70,37 @@ h1, h2, h3, h4, h5 {
 }
 
 :root{
-  --marginTop: 50px;
+  --indexMT: 50px;
+  --lightGrey: #f4f3f4;
 }
 
 .wrapper {
-  max-width: 880px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  max-width: 880px;
 }
 
 h2{
   font-size: 1.5rem;
 }
 
+
+a{
+  text-decoration: none;
+  }
+
+a:visited{
+  color: #000;
+  }
+
 /* ******************
   Header styles
 ***********************/
 
 header {
-  margin-top: var(--marginTop);
+  margin-top: var(--indexMT);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -99,9 +109,9 @@ header {
 
 nav{
   display: flex;
-  width: 75%;
+  width: 70%;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .navButton {
@@ -124,7 +134,7 @@ nav{
   Hero styles
 ***********************/
 .hero{
-  margin-top: var(--marginTop);
+  margin-top: var(--indexMT);
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -134,7 +144,7 @@ nav{
   flex-grow: 0;
 }
 
-.getStarted {
+ .bwButton {
   border: 1px solid #000;
   color: #000;
   text-align: center;
@@ -142,18 +152,14 @@ nav{
   transition: all 0.5s;
 }
 
-.getStarted:hover{
+.bwButton:hover{
   color: #fff;
   background-color: #000;
 }
 
-.hero a{
-  text-decoration: none;
+.hero .bwButton {
+  width: 157px;
 }
-.hero a:visited{
-  color: #000;
-}
-
 .innovateContainer{
   display: flex;
   flex-grow: 1; 
@@ -166,13 +172,18 @@ nav{
   font-size: 4.5em;
 }
 
+.services-header-img{
+  width: 100%;
+  height: auto;
+  margin-top: 2em;
+}
 /* ******************
   Content1 styles
 ***********************/
 
 .content1 {
   display: flex;
-  margin-top: var(--marginTop);
+  margin-top: var(--indexMT);
   width: 100%;
 }
 
@@ -181,7 +192,7 @@ nav{
 ***********************/
 .content2 {
   display: flex;
-  margin-top: var(--marginTop);
+  margin-top: var(--indexMT);
   width: 100%;
   justify-content: space-between;
 }
@@ -191,11 +202,85 @@ nav{
 }
 
 /* ******************
+  services styles
+***********************/
+.services{
+  width: 100%;
+}
+
+.servicesIntro{
+  width: 100%;
+  margin-top: 2em ;
+}
+
+.serviceGallery{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: var(--indexMT);
+
+}
+
+.serviceCard{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: space-between;
+  max-width: 430px;
+  margin-bottom: 20px;
+  height: 250px;
+  background-color: var(--lightGrey);
+  border: 1px solid black;
+  padding: 20px 15px; 
+}
+
+.serviceCard .bwButton{
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  font-size: 0.85em;
+}
+
+/* ******************
+  coolFacts styles
+***********************/
+.coolFacts{
+  width: 100%;
+  display: flex;
+  margin-top: var(--indexMT);
+  justify-content: space-between;
+}
+
+.coolFacts_content{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  max-width: 430px;
+  justify-content: space-between;
+}
+
+.coolFacts ul {
+  margin-bottom: 1em;
+  line-height: 2em;
+}
+
+.coolFacts ul li{
+  list-style-type: square;
+  margin-left: 1em;
+}
+
+.services-info-img{
+  width: 430px;
+  height: auto;
+}
+
+/* ******************
   Footer styles
 ***********************/
 
 footer{
-  margin-top: var(--marginTop);
+  margin-top: var(--indexMT);
   line-height: 2em;
   width: 100%;
   align-self: flex-start;
@@ -216,9 +301,9 @@ footer > p:last-of-type {
   width: 100%;
   height: 2px;
   background-color: #000;
-  margin-top: var(--marginTop);
+  margin-top: var(--indexMT);
 }
 
 .middle-img{
-  margin-top: var(--marginTop);
+  margin-top: var(--indexMT);
 }
