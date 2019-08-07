@@ -3,7 +3,6 @@
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	/* border: 1px solid black; */
 }
 
 header {
@@ -48,12 +47,11 @@ nav ul li a {
 .line-break {
   background: black;
   height: 1px;
-  margin: 24px;
+  margin: 32px 48px;
 }
 
 .main-content {
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -77,13 +75,11 @@ button {
 
 .bottom-section {
   display: flex;
-  /* border: 1px solid blue; */
   justify-content: space-around;
   margin: 16px 0;
 }
 
 .facts-section {
-  /* border: 1px solid red; */
   width: 400px;
 }
 
