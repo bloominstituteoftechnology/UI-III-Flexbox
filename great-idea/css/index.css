@@ -99,21 +99,15 @@ nav ul li a {
 	padding: 48px;
 	display: flex;
 	justify-content: space-around;
-}
-
-.logo-container {
-	/* vertical-align: middle; */
-	/* display: inline-block; */
-	/* margin-left: 32px; */
+	align-items: center;
 }
 
 .logo-container .logo {
 	width: 200px;
 }
 
-
 .main-header-container {
-	display: inline-block;
+	/* display: inline-block; */
 	max-width: 400px;
 	text-align: center;
 	height: 390px;
@@ -122,7 +116,7 @@ nav ul li a {
 }
 
 .main-img {
-	display: inline-block;
+	/* display: inline-block; */
 	max-width: 400px;
 	height: 390px;
 	/* margin-left: 48px; */
@@ -150,37 +144,37 @@ div .main-header {
 }
 
 .main-content {
-	margin: 0 32px;
+	/* margin: 0 32px; */
+	display: flex;
+	flex-direction: column;
 }
 
 .section-one-container {
-	margin: 32px 0;
-}
-
-.article-img {
-	margin: 16px 0;
-}
-
-.section-three-container {
+	display: flex;
+	justify-content: space-around;
 	margin: 32px 0;
 }
 
 .article-top {
-	display: inline-block;
 	width: 400px;
 }
 
-.features {
-	padding-right: 16px;
+.article-img {
+	display: flex;
+	justify-content: center;
+	margin: 16px 0;
+}
+
+.section-three-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 32px 0;
 }
 
 .article-bottom {
-	display: inline-block;
-	width: 285px;
-}
-
-.product, .vision {
-	padding-left: 16px;
+	/* padding: 0 16px; */
+	justify-content: center;
+	width: 250px;
 }
 
 footer {
