@@ -63,72 +63,73 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-nav {
+/* MY CODE STARTS HERE */
+body{
+    margin: 5%;
+}
+nav{
     margin: auto;
-    width: 876px;
 }
-nav a {
-    text-decoration: none;
-    color: grey;
+
+nav a{
+    text-decoration:none;
+    color: gray;
     padding: 25px;
+    
 }
-nav .logo {
+
+nav .logo{
     padding-left: 50px;
 }
-header {
-    line-height: 0.75;
-    margin: 50px 0px 50px 100px;
-    width: 876px;
+
+.services-header-img{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-header .title {
-	display: flex;
-    font-size: 68px;
-    text-align: center;
+
+.services{
+    padding-bottom: 20px;
+}
+
+.pink-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
    
+}
+.pink-boxes p{
+    padding-bottom: 20px;
+}
+.pink-boxes div{
+    border: 1px solid black;
+    margin:10px;
+    width: 45%;
+    text-align: left;
+    padding: 20px;
+    background-color: mistyrose;
+}
+button{
+    padding: 6px 40px;
+    margin: 0px;
 
-header .title button {
-	border: 1px solid black;
-    align-self: flex-end;
-	order: 0;
-    margin-top: 0 auto;
-	padding: 6px 40px;
+}
+.bottom-facts{
+    display: flex;
+    padding-top: 30px;
+}
+ul{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.bottom-text{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
 
-	
-}
-header img {
-    display: flex;
-	width: 35%;
-	justify-content: flex-end;
-}
-.top-content {
-    width: 876px;
-}
-.top-content {
-	display: flex;
-	justify-content: space-between;
-	padding: 10px;
-	}
-.middle-img {
-    margin: 30px 0px;
-}
-.bottom-content {
-    width: 876px;
-}
-.bottom-content {
-    display: flex;
-    text-align: justify;
-    padding: 10px;
-}
-.contact {
-    margin-top: 30px;
-}
-body { /* centers the website */
-    width: 876px;
-    margin: 0 auto;
-}
-footer {
-    margin-top: 50px;
+
+footer{
     text-align: center;
+    padding:20px;
 }
