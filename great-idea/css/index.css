@@ -58,22 +58,29 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
 
 /* Your code starts here! */
 
 nav {
 	margin: auto;
 	width: 876px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+	padding: 15px;
+	
 }
 
 nav a {
 	text-decoration: none;
-	color: grey;
-	padding: 25px;
+	color: gray; 
+	margin: 10px;
+	padding-top: 10px;
 }
 
 nav .logo {
@@ -144,6 +151,37 @@ footer {
 	margin-top: 50px;
 	text-align: center;
 }
+h1 {
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+.services {
+	border-bottom: 1px solid black 
+}
+
+p {
+	margin: 30px;
+}
+
+.digital-design,
+.UXUI,
+.marketing,
+.web-dev,
+.IOS-dev,
+.android-dev {
+	border: 1px solid black;
+	background: whitesmoke;
+	margin: 10px;
+	padding: 10px;
+	width: 53%;
+	display: flex;
+	flex-direction: row;
+}
 
 
-
+button {
+	padding: 5px 10px;
+	border-radius: 10%;
+	margin: 5px;
+}
