@@ -88,10 +88,14 @@ a{
     display:flex;
 }
 
+h1{
+    font-size: 65;
+}
 .main-content{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
     max-width: 78%;
     max-height: 50%;
 }
@@ -103,4 +107,11 @@ a{
     border: 1px solid black;
     height: 268px;
     width: 355px;
+    margin-top: 40px;
+}
+.main-content div p{
+    margin: 15px;
+}
+hr{
+    margin-top:40px;
 }
