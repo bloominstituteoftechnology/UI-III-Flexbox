@@ -64,3 +64,20 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	border: 3px solid red;
+	display: flex;
+}
+
+main {
+	border:3px solid green;
+	display:flex;
+	flex-direction: column;
+}
