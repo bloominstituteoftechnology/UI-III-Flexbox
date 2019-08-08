@@ -193,6 +193,7 @@ a{
 	margin-bottom: 10px;
 	padding: 40px;
 	border-bottom: 1px solid black;
+	text-align: justify;
 }
 .boxServices{
 	width: 50%;
