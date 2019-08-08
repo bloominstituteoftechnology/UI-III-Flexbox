@@ -211,7 +211,12 @@ section.content-bottom div:last-child{
 	padding-bottom:40px;
 	margin-bottom:20px;
 }
-
+.main{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	
+}
 .services-content .card-row{
 	display:flex;
 	flex-direction:row;
@@ -270,12 +275,12 @@ section.content-bottom div:last-child{
 }
 
 .card {
-	display:block;
+	
 	background-color:white;
 	border:solid 1px black;
 	border-radius:5px;
 	margin-top:10px;
-	width:35%;
+	width:45%;
 	padding:7px 10px;
 	text-decoration:none;
 	color:black;
@@ -284,11 +289,10 @@ section.content-bottom div:last-child{
 	text-align:center;
 }
 
-span div{
-	color:black;
+.awesome{
 	display:flex;
-	flex-direction:column;
-	width:45%;
-	flex-direction:row;
-	
 }
+
+
+	
+
