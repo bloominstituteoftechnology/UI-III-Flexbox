@@ -196,15 +196,19 @@ a{
 }
 .boxServices{
 	width: 50%;
-	padding: 5px;
+	padding: 20px;
 	background-color: lightgrey;
 	border: 1px solid black;
+}
+.boxServices p{
+	text-align: justify;
 }
 .servicesGrid{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding-bottom: 40px;
+	padding-top: 30px;
 }
 .servicesGrid h4{
 	font-size: 20px;
@@ -216,7 +220,7 @@ a{
 	padding-bottom: 20px;
 }
 button{
-	padding-bottom: 10px;
+	padding: 10px;
 	width: 150px;
 	margin: 10 px;
 	border: .5px solid grey;
@@ -228,15 +232,17 @@ button{
 	display: flex;
 	flex-direction: row;
 	border-top: 1px solid black;
-	padding: 20px;
+	padding: 40px;
 }
 .facts{
 	display: flex;
 	flex-direction: column;
 }
 .bottomServices p{
-	width: 50%;
+	display: flex;
+	align-content: stretch;
 	text-align: justify;
+	margin-right: 50px;
 }
 .services-info-img{
 	width: 50%;
