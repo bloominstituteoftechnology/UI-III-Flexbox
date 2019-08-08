@@ -68,38 +68,53 @@ h1, h2, h3, h4, h5 {
 header{
 	display:flex;
 	justify-content:space-between;
-	margin-bottom:5px;
+	margin:27px;
 }
 
 header nav {
 	display:flex;
 	align-items:center;
 	justify-content:space-around;
-	width:75%;
+	width:65%;
+	margin-left:14px;
 	
 }
 nav a{
+	font-size:14px;
 	color:gray;
 	text-decoration:none;
-	font-weight:bold;
+	
 }
 
-
+.logo{
+	margin-right:100px;
+	margin-top:5px;
+}
 h1{
 	font-size:72px;
+	font-weight:bolder;
+	font-stretch:ultra-expanded;
+	letter-spacing: 3px;
+	margin-bottom:3px;
 }
 
 h2{
-	font-size:24px;
+	font-size:18px;
 }
 
 h3{
 	font-size:18px;
 }
 
-hr{
-	margin:15px;
+hr.bighr{
+
+	margin:45px 60px;
 }
+hr{
+	margin-left:50px;
+	margin-right:50px;
+}
+
 ul{
 	margin-left:20px;
 	margin-top:10px;
@@ -109,26 +124,29 @@ li{
 	margin-top: 10px;
 }
 
-header{
-	margin:15px;
-}
-
 footer{
 	margin:15px;\
 	
 }
 
-button{
-	padding:4%;
-	width: 45%;
-	margin-top:10px;
-	background:white;
-	border-radius:10px;
-	border:1px solid black;
-  }
+
 /* index html styles */
 
+.startbutton{
+	background:white;
+	width:180px;
+	height:35px;
+	border:1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:16px;
+	font-stretch:expanded;
+	margin-top:30px;
+
+}
+
 .textwrapper{
+	margin-top:0px;
+	width:30%;
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
@@ -137,25 +155,39 @@ button{
 
 #splash{
 	display:flex;
-	justify-content:center;
+	justify-content:space-between;
+	margin:72px 60px 65px 180px;
 }
-
+.bottominfo {
+	display:flex;
+	justify-content:space-around;
+	margin:10px;
+	margin-left:50px;
+	
+	width:85%;
+	
+}
 .botblock{
-	width:30%;
+	width:31%;
+	
 
 }
+
+.botblock p{
+	font-size:16px;
+}
+
 
 .middle-img{
-	margin:15px;
-	width:98%;
-	height:200px;
+	margin: 30px 0px 30px 65px;
 }
 
 
 .topinfo {
 	display:flex;
-	justify-content:space-around;
+	justify-content:center;
 	margin:15px;
+	margin-right:45px;
 }
 
 .topblock{
@@ -163,18 +195,25 @@ button{
 	
 }
 
-.bottominfo {
-	display:flex;
-	justify-content:space-around;
-	margin:15px;
-	margin-bottom:30px;
-}
+
 
 .contactblock{
-	margin-left:2%;
+	margin-top:0%;
+	margin-left:5%;
 }
 
 /* Services Page Styles*/
+.splash{
+	margin-left: 100px;
+}
+.servicebutton{
+	padding:4%;
+	width: 45%;
+	margin-top:10px;
+	background:white;
+	border-radius:10px;
+	border:1px solid black;
+}
 
 .services-header-img{
 	width:98%;
