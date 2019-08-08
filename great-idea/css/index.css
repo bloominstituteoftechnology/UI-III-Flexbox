@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
 }
 blockquote, q {
 	quotes: none;
@@ -64,3 +64,189 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	max-width: 880px;
+	margin: auto;
+}
+.navigation{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+nav a{
+	text-decoration: none;
+	color: silver;
+}
+a{
+	padding-right: 25px;
+	padding-left: 25px;
+	margin: auto;
+}
+.logo{
+	display: flex;
+	padding-left: 15px;
+	margin: auto;
+}
+header h1{
+	font-size: 75px;
+	position: absolute;
+   text-align: center;
+   top: 25%;
+   left: 10%;
+   height: 100%;
+   width: 30%;
+   margin-left: 120px;
+}
+header{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 40px;
+}
+.header button{
+	margin-top: -100px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px;
+	width: 40%;
+}
+.largeLogo{
+	margin-left: 400px;
+}
+.topSection{
+	display: flex;
+	flex-direction: row;
+	text-align: justify;
+	margin-bottom: 10px;
+	margin-top: 70 px;
+	border-top: 1px solid black;
+	padding: 30px;
+}
+.features{
+	margin-right: 15px;
+}
+.about{
+	margin-left: 15px;
+}
+
+.bottomSection{
+	display: flex;
+	justify-content: space-between;
+	text-align: justify;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.services{
+	margin-right: 10px;
+}
+.product{
+	margin-right: 10px;
+	margin-left: 10px
+}
+.vision{
+	margin-left: 10px;
+}
+.contact{
+	border-top: 1px solid black;
+	margin-top: 40px;
+	padding: 40px;
+	
+}
+
+footer{
+	padding: 50px;
+	text-align: center;
+}
+/* */
+body{
+	max-width: 880px;
+	margin: auto;
+}
+.navigationServices{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+nav a{
+	text-decoration: none;
+	color: silver;
+}
+a{
+	padding-right: 25px;
+	padding-left: 25px;
+	margin: auto;
+}
+.logoServices{
+	display: flex;
+}
+
+.services-header-img{
+	margin-bottom: 5px;
+}
+
+.topServices h3{
+	font-size: 30px;
+}
+.topServices{
+	margin-bottom: 10px;
+	padding: 40px;
+	border-bottom: 1px solid black;
+	text-align: justify;
+}
+.boxServices{
+	width: 45%;
+	margin: 10px;
+	padding: 20px;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+.boxServices p{
+	text-align: justify;
+}
+.servicesGrid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 40px;
+	padding-top: 30px;
+}
+.servicesGrid h4{
+	font-size: 20px;
+	padding-top: 10px
+}
+.servicesGrid p{
+	font-size: 15px;
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+button{
+	padding: 10px;
+	width: 150px;
+	margin: 10 px;
+	border: .5px solid grey;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+.bottomServices{
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid black;
+	padding: 40px;
+}
+.facts{
+	display: flex;
+	flex-direction: column;
+}
+.bottomServices p{
+	display: flex;
+	align-content: stretch;
+	text-align: justify;
+	margin-right: 50px;
+}
+.services-info-img{
+	width: 50%;
+	padding: 10px;
+}
