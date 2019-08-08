@@ -354,19 +354,14 @@ address {
 }
 
 .list {
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 0;
 }
-.list li:before {
-  content: '';
-  list-style-type: circle;
-  color: var(--default-color);
-  position: absolute;
-  left: 5%;
-  height: 1%;
-  width: 2%;
-  background-color: var(--default-color);
-  border-radius: 50%;
-  margin-top: 0.3rem;
+.list li {
+  margin-top: 0.8rem;
+}
+.fa-circle {
+  font-size: 0.5rem;
+  margin-top: 1.5rem 0;
 }
 .services-info-img img {
   display: block;
