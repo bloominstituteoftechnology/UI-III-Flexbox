@@ -120,7 +120,40 @@ button{
 }
 
 .mid-page{
-	display:flex;
-	justify-content: space-evenly;
+	margin-top:10%;
+	padding:15px;
 	border-top:black solid 1px;
+	border-bottom:black solid 1px;
+}
+
+.middle-img{
+	display:flex;
+	width:100%;
+}
+
+
+.fa{
+	display:flex;
+	flex-direction: row;
+	
+	padding:15px;
+
+}
+
+p{
+	
+	width:75%;
+}
+
+.spv{
+	display:flex;
+	padding:15px;
+}
+
+.bottom{
+	padding-top: 15px;
+}
+.phone{
+	padding-top:15px;
+
 }
