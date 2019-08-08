@@ -1,66 +1,508 @@
+:root {
+  --default-color: #333;
+  --main-color: #fff;
+  --accent: #858585;
+  --shadow: rgba(0, 0, 0, 0.75);
+  --box-color: rgb(243, 219, 224);
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+			   v2.0 | 20110126
+			   License: none (public domain)
+			*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* Navigation Styles */
+nav {
+  background-color: var(--main-color);
+  box-shadow: 10px 10px 40px -16px var(--shadow);
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.navBrand {
+  display: flex;
+  order: -1;
+  margin-top: 0.5rem;
+}
+/* Showcase Styles */
+.showcase {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.showcase-content {
+  text-align: center;
+  margin-top: -7rem;
+}
+.showcase-content h1 {
+  font-size: 5rem;
+}
+.showcase-img {
+  order: -1;
+  margin: 10rem auto;
+}
+.btn {
+  width: 20%;
+  height: 20%;
+  border: 0.1rem solid var(--default-color);
+  text-decoration: none;
+  padding: 0.5rem 3rem;
+  text-align: center;
+  color: var(--default-color);
+}
+.line {
+  width: 80%;
+  margin: 2rem auto;
+  border-bottom: 0.1rem solid var(--default-color);
+}
+/* Info Styles */
+.info-container {
+  width: 100%;
+  height: 100vh;
+  margin: 20rem auto;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 90%;
+  margin: 2rem auto;
+}
+.col h2 {
+  font-size: 1.5rem;
+}
+.col p {
+  text-align: center;
+}
+.middle-img img {
+  width: 100%;
+  height: 25vh;
+  padding: 0 3rem;
+}
+.bottom-col {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 90%;
+  margin: 2rem auto;
+}
+.bottom-col h2 {
+  font-size: 1.5rem;
+}
+.bottom-col p {
+  text-align: center;
+}
+
+/* Contact Styles */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3rem;
+}
+.contact-container h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+address {
+  width: 90%;
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* == Services Page  Styles == */
+
+/* Service Info Area */
+.services-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70vh;
+}
+.services-info:after {
+  content: '';
+  width: 95%;
+  margin: 0.5rem auto;
+  border-bottom: 0.14rem solid var(--default-color);
+}
+.services-info-content {
+  padding: 1rem;
+}
+.services-info-content h2 {
+  font-size: 1.5rem;
+}
+.services-header-img img {
+  display: block;
+  width: 100%;
+  height: 30vh;
+  margin-top: 5rem;
+}
+/* Services Container Area */
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box {
+  background-color: var(--box-color);
+  border: 0.14rem solid var(--default-color);
+
+  margin: 4rem 0.5rem;
+  padding: 1rem;
+}
+.box h2 {
+  font-size: 1.5rem;
+}
+.services-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+.services-btn a {
+  width: 50%;
+}
+/* Fun Facts Section */
+.fun-facts::before {
+  content: '';
+  width: 95%;
+  position: absolute;
+  left: 1%;
+  margin: -1.5rem auto;
+  border-bottom: 0.14rem solid var(--default-color);
+}
+.fun-facts {
+  padding: 1rem;
+}
+.facts h2 {
+  font-size: 1.5rem;
+}
+
+.list {
+  margin: 0.5rem 0;
+}
+.list li {
+  margin-top: 0.8rem;
+}
+.fa-circle {
+  font-size: 0.5rem;
+  margin-top: 1.5rem 0;
+}
+.services-info-img img {
+  display: block;
+  width: 100%;
+  height: 30vh;
+  margin-top: 1rem;
+}
+@media only screen and (min-width: 540px) {
+  .contact-container {
+    margin-top: -8rem;
+  }
+  .footer {
+    margin-top: 6rem;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .line {
+    margin: 3rem auto;
+  }
+  .services-header-img {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (min-width: 900px) {
+  nav {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .nav {
+    width: 40%;
+    margin-left: 15%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .nav a {
+    font-size: 1rem;
+  }
+  .navBrand {
+    /* width: 60%; */
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 18%;
+  }
+  .showcase {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .showcase-content {
+    width: 60%;
+    text-align: center;
+    margin-top: 15rem;
+    margin-left: 14rem;
+  }
+  .showcase-content h1 {
+    font-size: 5rem;
+  }
+
+  .showcase-img {
+    width: 40%;
+    order: 2;
+    margin-bottom: -1rem;
+    margin-right: 14rem;
+  }
+  .showcase .line {
+    position: absolute;
+    width: 95%;
+    top: 90%;
+    left: 3%;
+    border-bottom: 0.15rem solid var(--default-color);
+  }
+  .line {
+    width: 95%;
+  }
+  .info-container {
+    margin: 0rem auto;
+  }
+  .top-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col {
+    align-items: flex-start;
+    padding: 0 3rem;
+  }
+  .col h2,
+  .col p {
+    text-align: left;
+  }
+  .bottom-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bottom-col {
+    align-items: flex-start;
+    padding: 0 3rem;
+  }
+  .bottom-col h2,
+  .bottom-col p {
+    text-align: left;
+  }
+  .contact-container {
+    align-items: flex-start;
+    margin-top: -3rem;
+    margin-left: 3rem;
+    font-size: 1rem;
+  }
+  address {
+    text-align: left;
+  }
+
+  /* Service Container Section */
+
+  .service-col {
+    display: flex;
+    flex-direction: row;
+    margin-top: -2rem;
+    margin-bottom: -6rem;
+    padding: 0 5rem;
+  }
+  .fun-facts::before {
+    margin: 2.5rem auto;
+  }
+  .fun-facts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .facts {
+    width: 50%;
+    margin-top: 5rem;
+    padding: 0 7rem;
+  }
+  .services-info-img {
+    width: 50%;
+    margin-top: 4rem;
+    padding: 0 7rem;
+  }
+  .services-info-img img {
+    height: 40vh;
+  }
+}
