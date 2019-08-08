@@ -173,6 +173,10 @@ nav a:hover {
   color: black;
 }
 
+.services-container {
+  display: flex;
+}
+
 .services-header-img {
   width: 100%;
   margin-bottom: 20px;
