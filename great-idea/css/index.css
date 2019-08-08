@@ -105,17 +105,19 @@ h3{
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
+	
 }
 
 .topinfo {
 	display:flex;
 	justify-content:center;
+	margin:15px;
 }
 
 .bottominfo {
 	display:flex;
 	justify-content:space-around;
-	
+	margin:15px;
 }
 
 
@@ -132,7 +134,7 @@ h3{
 	justify-content:space-between;
 	background:lightgrey;
 	width:40%;
-	margin:2%;
+
 }
 
 button{
@@ -167,7 +169,7 @@ li{
 	margin-top: 10px;
 }
 footer{
-	margin-top:10px;
+	margin:15px;
 }
 
 .legal {
