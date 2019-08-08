@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* MY CODE STARTS HERE */
 body{
-    margin: 5%;
+    margin:5%;
 }
 nav{
     margin: auto;
@@ -75,7 +75,6 @@ nav a{
     text-decoration:none;
     color: gray;
     padding: 25px;
-    
 }
 
 nav .logo{
@@ -114,22 +113,30 @@ button{
     margin: 0px;
 
 }
-.bottom-facts{
+.bottom-facts {
     display: flex;
     padding-top: 30px;
+    justify-content: space-between;
+
 }
+
 ul{
     margin-left: 20px;
     padding-top: 20px;
 }
-.bottom-text{
-    display: flex;
+.bottom-text {
+    width: 50%;
     flex-direction:column;
-    flex-wrap: wrap;
+    padding-right:40px;
 }
+.services-info-img{
+    padding-right: 100px;
+}
+{
+    position: flex;
+    text-align: center; 
+    margin-top: 50px; 
+    
 
 
-footer{
-    text-align: center;
-    padding:20px;
 }
