@@ -64,9 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-body{
-	background-color:white;
-}
+
 .container{
 	width:880px;
 	margin:0 auto;
@@ -81,7 +79,7 @@ a{
 /*header*/
 
 header{
-	widows: 100%;
+	width: 100%;
 	text-align:right;
 	margin-bottom:50px;
 }
@@ -184,13 +182,15 @@ section.content-bottom{
 section.content-bottom div:last-child{
 	margin-right:40px;
 }
-
+</body>
 /* footer */
 
 /* services.html */
 *{
-	background:eggshell;
+	box-sizing:border-box;
 }
+
+
 .services-content{
 	display:flex;
 	flex-wrap:wrap;
@@ -229,7 +229,7 @@ section.content-bottom div:last-child{
 	padding:10px 40px;
 	margin-top:20px;
 	background:seashell;
-	border: radius 5px;
+	border-radius: 5px;
 	border:2px solid black;
 }
 
@@ -269,6 +269,17 @@ section.content-bottom div:last-child{
 	height:300px;
 }
 
-.card (
-	border:2px solid blue;
-)
+.card {
+	display:block;
+	background-color:magenta;
+	border:solid 1px green;
+	border-radius:5px;
+	margin-top:10px;
+	width:35%;
+	padding:7px 10px;
+	text-decoration:none;
+	color:black;
+	font-size:12px;
+	font-style:bold;
+	text-align:center;
+}
