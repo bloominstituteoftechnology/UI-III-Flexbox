@@ -164,18 +164,64 @@ footer {
     margin-top: 50px;
     text-align: center;
 }
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .Marketing{
+    border-top:2px solid black;
+}
+
+.toppagetags{
+    margin-top: 25px;
+}
+
+.topimg{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.servicetext {
+    padding-bottom:40px;
+    border-bottom:2px solid black;
+
+}
+
+.Serviceheader{
+    font-size: 30px;
+}
+
+.toptwo{
     display:flex;
     flex-direction:row;
-    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:40px;
+    margin-bottom:40px;
+    /* border:1px solid red; */
+}
+
+.middletwo{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:40px;
+    margin-bottom:40px;
+    /* border:1px solid green; */
+
+}
+
+.bottomtwo{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:40px;
+    margin-bottom:40px;
+    /* border:1px solid purple; */
 }
 
 .MiddlePara{
     width:47%;
     height:200px;
-    border: 1px solid black;
-    margin: 12px; 
+    border: 1px solid black; 
     padding: 15px;
 }
 
@@ -191,12 +237,34 @@ footer {
 margin-bottom:8px;
 }
 
-.bottomsec{
+.bottomtextpic{
     display:flex;
     flex-direction:row;
-    flex-wrap:wrap;
+    justify-content:space-;
+    margin-top:40px;
+    margin-bottom:40px;
+    /* border:1px solid orangered; */
+
 }
 
 .bottomdiv{
-    width: 49%;
+    display:flex;
+    flex-direction:column;
+    padding:4px;
+    margin-right:25px;
+    width:60%
+}
+
+.finalimg{
+    display:flex;
+    width: 50%;
+}
+
+.bottomsec{
+    padding-top:5px;
+    border-top:2px solid black;
+}
+
+.footer{
+    margin-bottom:50px;
 }
