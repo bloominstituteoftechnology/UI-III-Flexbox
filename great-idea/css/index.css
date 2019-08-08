@@ -113,6 +113,8 @@ hr.bighr{
 hr{
 	margin-left:50px;
 	margin-right:50px;
+	margin-top:48px;
+	margin-bottom:40px;
 }
 
 ul{
@@ -203,9 +205,7 @@ footer{
 }
 
 /* Services Page Styles*/
-.splash{
-	margin-left: 100px;
-}
+
 .servicebutton{
 	padding:4%;
 	width: 45%;
@@ -261,6 +261,7 @@ footer{
 }
 
 .legal {
+	margin-top:50px;
 	text-align:center;
 }
 
