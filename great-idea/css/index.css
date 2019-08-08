@@ -114,9 +114,18 @@ header{
 }
 
 footer{
-	margin:15px;
+	margin:15px;\
+	
 }
 
+button{
+	padding:4%;
+	width: 45%;
+	margin-top:10px;
+	background:white;
+	border-radius:10px;
+	border:1px solid black;
+  }
 /* index html styles */
 
 .textwrapper{
@@ -133,6 +142,13 @@ footer{
 
 .botblock{
 	width:30%;
+
+}
+
+.middle-img{
+	margin:15px;
+	width:98%;
+	height:200px;
 }
 
 
@@ -151,6 +167,11 @@ footer{
 	display:flex;
 	justify-content:space-around;
 	margin:15px;
+	margin-bottom:30px;
+}
+
+.contactblock{
+	margin-left:2%;
 }
 
 /* Services Page Styles*/
@@ -164,6 +185,7 @@ footer{
 .serviceSplash{
 	margin:15px;
 }
+
 .servicecontainer {
 	display:flex;
 	justify-content:center;
@@ -182,25 +204,14 @@ footer{
 	margin:15px;
 }
 
-button{
-  padding:4%;
-  width: 45%;
-  margin-top:10px;
-  background:white;
-  border-radius:10px;
-  border:1px solid black;
-}
+
 
 .factsSection{
 	display:flex;
 	justify-content:space-between;
 	margin:15px;
 }
-.middle-img{
-	margin:15px;
-	width:98%;
-	height:200px;
-}
+
 .leftFactsBox{
 	
 	display:flex;
