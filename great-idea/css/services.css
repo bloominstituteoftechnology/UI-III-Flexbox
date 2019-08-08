@@ -63,20 +63,20 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Code below */
 
 nav {
     width: 100%;
 }
 .navigation {
 	list-style: none;
-	width: 100%;
-	height: 50px;
+    height: 50px;
+    width: 100%;
 
 }
 .navigation .link {	
 	text-decoration: none;
-	padding-left: 8%;
+    padding-left: 8%;
 	color: gray;
 	
 
@@ -90,79 +90,78 @@ nav {
 	padding-right: 5%;	
 }
 .logo {
-	width:200px;
-	height: 45px;
+width: 200px;
+height: 45px;	
 }
-h1 {
-	position: absolute;
-	left: 20%;
-	top: 30%;
-	font-size: 60px;
-	width:18%;
-	text-align: center;
+.services-header-img {
+ margin-left:5% ;
+    width: 90%;
+}
+.services {
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 5%;
+    border-bottom: 2px solid black;
+    padding-bottom: 5%;
+}
+.section1, .section2, .section3, .section4, .section5, .section6 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 40%;
+    padding: 5%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+p {
+    padding-bottom: 5%;
+}
+
+.mainsection{
+   display: flex;
+   flex-wrap: wrap; 
+   width: 90%;
+   padding: 5%;
+}
+
+.learn{
+text-decoration: none;
+border: 2px solid black;
+padding: 5% 10% 5% 10%;
+line-height: 5%;
+font-size: 12px;
+color: black;
+background-color: white;
+border-radius: 6px;
+}
+
+.aboutservices {
+    border-top: 2px solid black ;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8%;
+    width: 80%;
+}
+.services1 {
+    width: 50%;
+}
+ul {
+    list-style: circle; 
+    line-height: 200%;
+    position: absolute;
+    margin-top: 10%;
+}
+    
+
+.services-info-img{
+    position: absolute;
+    margin-left: 40%;
 
 }
- .subhead {
-	 display: flex;
-	 justify-content: center;
-	 
- }
-
- .section1 {
-	border-top: 2px solid black;
-	padding: 7% 0 7% 0;
-	margin-left: 20%;
-	display: flex;
-	width: 60%;
-
-  }
-  .section2 {
-	display: flex;
-	width:70%;
-	margin-left: 17%;
-	padding: 5%;
-  }
-  .services {
-	margin-left: 5%;
-  }
-  .about {
-	margin-left: 5%;
-  }
-  .products {
-	margin-left: 5%;
-  }
-  .vision {
-	margin-left: 5%;
-  }
-  .button {
-	border: 2px solid gray;
-	color: gray;
-	padding: 10px 45px 10px 45px;
-	position: absolute; 
-	left: 23%;
-	top: 65%;
-	text-decoration: none;
-	font-size: 14px;
-  }
-  .header-img {
-	margin-left: 60%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-  }
-  .middle-img {
-	margin-left: 18%;
-	}
-	.contact {
-		margin-left: 5%;
-		margin-right: 5%;
-		padding: 3%;
-		padding-left: 0%;
-		border-top: 2px solid black;
-
-	}
-
-	footer {
-		text-align: center;
-		margin-bottom: 2%;
-		margin-top: 2%;
-	}
+footer {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 20%;
+}
