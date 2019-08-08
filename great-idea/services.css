@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*Navigation and the logo image*/
+.navImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: baseline;
+    margin: 2% 21%;
+}
+
+.navImage a{
+    text-decoration: none;
+	color: grey;
+}
+
+.logo{
+    margin-top: -1%;
+}
+/*image and service info*/
+.secondImage{
+    text-align: center;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    margin: 1% 21%;
+    padding-bottom: 3%;
+}
+
+/*rows 1, 2, and 3 and the "learn more button*/
+
+.row1{
+    display: flex;
+    /*padding: 2%;
+    border: 2px solid black;
+    background-color: lightgray;
+    margin: 3% 21%;*/
+}
+
+.row1child1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-left: 21%;
+    margin-right: 1%;
+    margin-top: 3%;
+    padding: 1%;
+    background-color: gainsboro;
+}
+
+.row1child2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-right: 21%;
+    margin-top: 3%;
+    padding: 1%;
+    background-color: gainsboro;
+}
+
+.row2{
+    display: flex;
+    /*padding: 2%;
+    border: 2px solid black;
+    background-color: lightgray;
+    margin: 3% 21%;*/
+}
+
+.row2child1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-left: 21%;
+    margin-right: 1%;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: gainsboro;
+}
+
+.row2child2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-right: 21%;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: gainsboro;
+}
+
+.row3{
+    display: flex;
+    /*padding: 2%;
+    border: 2px solid black;
+    background-color: lightgray;
+    margin: 3% 21%;*/
+}
+
+.row3child1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-left: 21%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: gainsboro;
+}
+
+.row3child2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-right: 21%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: gainsboro;
+}
+
+.button{
+    padding: 2% 4%;
+    border: 1px solid black;
+    background-color: white;
+    margin: 1%;
+    margin-right: 73%;
+    margin-top: 5%;
+    border-radius: 5%;
+    font-size: 10px;
+}
+
+/*facts and image part*/
+
+.lastItems{
+    border-top: 2px solid black;
+    padding-top: 3%;
+    display: flex;
+    margin: 0% 21%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.facts{
+    width:50%;
+    margin-left: 0%;
+}
+
+.factsImage{
+    margin-left: 10%;
+    width:50%;
+}
+
+
+/*copyright*/
+
+.copyright{
+    margin: 5%;
+    text-align: center;
+}
