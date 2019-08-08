@@ -64,3 +64,142 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+body {
+	width: 90%;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*
+nav {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+nav a {
+	color: silver;
+	text-decoration: none;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.getStarted {
+	position: relative;
+}
+
+.getStarted p {
+	font-size: 90px;
+	font-family: 'Bangers', cursive;
+	display: inline-block;
+}
+
+.getStarted img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 100%;
+}
+
+.getStarted .startButton {
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	padding: 5px 30px 5px 30px;
+}
+
+
+.mainTextTop p {
+	display: inline-block;
+	width: 49%;
+
+}
+
+.mainTextTitle {
+	font-size: 20px;
+	font-family: 'Bangers', cursive;
+}
+
+
+.mainTextBottom p {
+	display: inline-block;
+	width: 32%;
+
+}
+
+
+*/
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+header nav a {
+	color: silver;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+.getStarted {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.getStarted h2 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.leftSide {
+	/* width: 50%;
+	display: flex;
+	justify-content: center; */
+}
+
+.startButton {
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	padding: 5px 30px 5px 30px;
+	width: 150px;
+	/* text-align: center; */
+	/* position: absolute; */
+}
+
+.mainTextTop {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.mainTextBottom {
+	display: flex;
+	padding-right: 30px;
+	margin-bottom: 40px;
+}
+
+.mainTextTop h2, .mainTextBottom h2, .contactInfo {
+	font-size: 20px;
+	font-family: 'Bangers', cursive;
+	padding-top: 30px;
+}
+
+footer {
+	text-align: center;
+}
