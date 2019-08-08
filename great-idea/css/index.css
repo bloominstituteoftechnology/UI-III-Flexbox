@@ -32,8 +32,8 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
-}
+	list-style: square;
+}	list-style-position:inside;
 blockquote, q {
 	quotes: none;
 }
@@ -187,3 +187,88 @@ section.content-bottom div:last-child{
 
 /* footer */
 
+/* services.html */
+*{
+	background:eggshell;
+}
+.services-content{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	line-height:1.5;
+}
+.services-content .services-header-img{
+	margin:20px 0;
+}
+
+.services-content h1{
+	font-size:30px;
+	margin:10px;
+}
+
+.services-content .services-text{
+	border-bottom: 2px solid black;
+	padding-bottom:40px;
+	margin-bottom:20px;
+}
+
+.services-content .card-row{
+	display:flex;
+	flex-direction:row;
+}
+
+.services-content .card-row .card{
+	padding:20px;
+	border:2px solid black;
+	width:420px;
+	background:seashell;
+	margin:20px 0;
+}
+
+.services-content .card-row .card button{
+	padding:10px 40px;
+	margin-top:20px;
+	background:seashell;
+	border: radius 5px;
+	border:2px solid black;
+}
+
+.services-content .card-row .card button:hover{
+	background:black;
+	color:seashell;
+}
+
+.services-content .services-info ul{
+	margin:20px;
+}
+
+.services-content .services-info ul li{
+	list-style:square;
+	padding:5px
+}
+
+.services-content .services-info{
+	display:flex;
+	flex-wrap:wrap;
+	border-top:2px solid black;
+	margin:20px 0 30px 0;
+	padding-top:40px;
+}
+
+.services-content .services-info .facts{
+	width:400px;
+	margin:0 55px 25px 0;
+}
+
+.services-content .services-info .facts p{
+	margin:20px;
+}
+
+.services-content .services-info .services-info-img{
+	width:420px;
+	height:300px;
+}
+
+.card (
+	border:2px solid blue;
+)
