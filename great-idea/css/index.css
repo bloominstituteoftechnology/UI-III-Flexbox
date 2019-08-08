@@ -33,7 +33,12 @@ body {
 }
 ol, ul {
 	list-style: square;
-}	list-style-position:inside;
+	list-style-position:inside;
+	
+
+}	
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -260,11 +265,6 @@ section.content-bottom div:last-child{
 	padding-top:40px;
 }
 
-.services-content .services-info .facts{
-	width:400px;
-	margin:0 55px 25px 0;
-}
-
 .services-content .services-info .facts p{
 	margin:20px;
 }
@@ -291,8 +291,19 @@ section.content-bottom div:last-child{
 
 .awesome{
 	display:flex;
+	
 }
 
-
+ul{
+	display:flex;
+	flex-direction:column;
+	flex-grow:1;
+	justify-content:space-around;
+}
+.facts{
+	display:flex;
+	flex-direction:column;
+}
+ 
 	
 
