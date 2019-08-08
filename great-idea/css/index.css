@@ -62,5 +62,92 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* 
+Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width:900px;
+	margin: 0 auto;
+}
+.nav{
+	color:#5F9EA0;
+	display:flex;
+	justify-content:space-between
+	
+}
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+ nav a{
+		margin-right: 23px;
+		margin-bottom: 15px;
+		text-decoration: none;
+		color:#c7c7c7;
+}
+	
+
+.h3{
+	display:flex;
+	align-items:stretch;
+}
+.digital{
+	display:flex;
+	justify-content: space-between;
+}
+.boxes{
+	border:1px solid black;
+	width:49%;
+	padding:20px;
+	background-color:#f4f3f4;
+	margin-bottom: 20px;
+}
+.digitalmarketing{
+	display:flex;
+	justify-content: space-between;
+}
+.ios{
+	display:flex;
+	justify-content: space-between;
+}
+.serviceheader{
+	width:1000px;
+}
+.services{
+	margin-top:40px;
+	margin-bottom: 40px;
+}
+.section2b{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+	/* background:black; */
+	padding:20px 0px;
+}
+.section3{
+	display:flex;
+	justify-content: space-between;
+	
+}
+.class{
+	text-align: center;
+    margin-left: 600px;
+}
+
+button{
+	padding:10px 30px;
+	background:white;
+	border:1px solid black;
+	border-radius:3px;
+	margin-top: 10px;
+}
+li{
+	margin:10px;
+	margin-left: 0px;
+}
+ul{
+	list-style-type: square;
+	margin:10px;
+	margin-left: 17px;
+}
+.footer{
+	padding-left: 400px;
+	margin-top: 30px;
+
+}
