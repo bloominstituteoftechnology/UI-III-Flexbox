@@ -64,3 +64,246 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.dev-border{
+  border: 1px solid red;
+}
+
+:root{
+  --indexMT: 50px;
+  --lightGrey: #f4f3f4;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 880px;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+
+a{
+  text-decoration: none;
+  }
+
+a:visited{
+  color: #000;
+  }
+
+/* ******************
+  Header styles
+***********************/
+
+header {
+  margin-top: var(--indexMT);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navButton {
+  font-size: 1.25em;
+  height: 34px;
+  padding: 5px 10px;
+  color: #bebebe;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all  1s;
+}
+
+.navButton:hover{
+  color: #4e4e4e;
+  border: 1px solid black;
+  letter-spacing: normal;
+}
+
+/* ******************
+  Hero styles
+***********************/
+.hero{
+  margin-top: var(--indexMT);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.hero img{
+  flex-grow: 0;
+}
+
+ .bwButton {
+  border: 1px solid #000;
+  color: #000;
+  text-align: center;
+  padding: 4px 35px;
+  transition: all 0.5s;
+}
+
+.bwButton:hover{
+  color: #fff;
+  background-color: #000;
+}
+
+.hero .bwButton {
+  width: 157px;
+}
+.innovateContainer{
+  display: flex;
+  flex-grow: 1; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.innovateContainer h1 {
+  font-size: 4.5em;
+}
+
+.services-header-img{
+  width: 100%;
+  height: auto;
+  margin-top: 2em;
+}
+/* ******************
+  Content1 styles
+***********************/
+
+.content1 {
+  display: flex;
+  margin-top: var(--indexMT);
+  width: 100%;
+}
+
+/* ******************
+  Content2 styles
+***********************/
+.content2 {
+  display: flex;
+  margin-top: var(--indexMT);
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content2 div{
+  width: 30%;
+}
+
+/* ******************
+  services styles
+***********************/
+.services{
+  width: 100%;
+}
+
+.servicesIntro{
+  width: 100%;
+  margin-top: 2em ;
+}
+
+.serviceGallery{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: var(--indexMT);
+
+}
+
+.serviceCard{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: space-between;
+  max-width: 430px;
+  margin-bottom: 20px;
+  height: 250px;
+  background-color: var(--lightGrey);
+  border: 1px solid black;
+  padding: 20px 15px; 
+}
+
+.serviceCard .bwButton{
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  font-size: 0.85em;
+}
+
+/* ******************
+  coolFacts styles
+***********************/
+.coolFacts{
+  width: 100%;
+  display: flex;
+  margin-top: var(--indexMT);
+  justify-content: space-between;
+}
+
+.coolFacts_content{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  max-width: 430px;
+  justify-content: space-between;
+}
+
+.coolFacts ul {
+  margin-bottom: 1em;
+  line-height: 2em;
+}
+
+.coolFacts ul li{
+  list-style-type: square;
+  margin-left: 1em;
+}
+
+.services-info-img{
+  width: 430px;
+  height: auto;
+}
+
+/* ******************
+  Footer styles
+***********************/
+
+footer{
+  margin-top: var(--indexMT);
+  line-height: 2em;
+  width: 100%;
+  align-self: flex-start;
+}
+
+footer a{
+  display: block;
+  margin: 1rem 0;
+  color: #000;
+  text-decoration: none;
+}
+
+footer > p:last-of-type {
+  text-align: center;
+}
+
+.sectionBreak{
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin-top: var(--indexMT);
+}
+
+.middle-img{
+  margin-top: var(--indexMT);
+}
