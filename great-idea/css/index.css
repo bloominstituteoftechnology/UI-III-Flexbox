@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header{
+	
+	width:75%;
+}
+.top-nav{
+	display:flex;
+	padding-top: 15px;
+	padding-left: 15px;
+	justify-content: space-between
+}
+
+.top{
+	text-decoration: none;
+	color:gray;
+}
+.logo{
+	position:absolute;
+	top:10px;
+	margin-left:85%;
+}
+
+.top-section{
+	display:flex;
+	flex-direction: column;
+	margin-bottom:15px;
+	margin-top:45px;
+	width:50%;
+	height:35%;	
+}
+
+h1 {
+	display:flex;
+    text-align:center;
+	font:bangers;
+	font-size:95px;	
+	margin-top:1%;
+	margin-left:25%;
+	
+}
+	
+button{
+	 width: 25%;
+	 margin-left:35%;
+	 
+}
+
+
+.image-1{
+	
+	position:absolute;
+	margin-left:75%;
+	
+}
+
+.mid-page{
+	margin-top:10%;
+	padding:15px;
+	border-top:black solid 1px;
+	border-bottom:black solid 1px;
+}
+
+.middle-img{
+	display:flex;
+	width:100%;
+}
+
+
+.fa{
+	display:flex;
+	flex-direction: row;
+	
+	padding:15px;
+
+}
+
+p{
+	
+	width:75%;
+}
+
+.spv{
+	display:flex;
+	padding:15px;
+}
+
+.bottom{
+	padding-top: 15px;
+	padding-left:15px;
+}
+.phone{
+	padding-top:15px;
+
+}
+
+.wrapper{
+	padding:15px;
+}
+
+.services-header-img{
+	width:100%;
+}
+
+.service-page-mid{
+	padding:15px;
+}
+
+.infobox{
+	height:30%;
+	width: 50%;
+	background:lightgray;
+	border: solid black 1px;
+}
+
+.ux-box{
+	
+	height:30%;
+	width: 50%;
+	background:lightgray;
+	border: solid black 1px;
+	margin-left:51%;
+	margin-bottom:100px;
+}
