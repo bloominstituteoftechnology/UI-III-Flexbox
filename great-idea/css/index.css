@@ -151,7 +151,9 @@ button{
 	justify-content:space-between;
 	margin:4%;
 }
-
+.middle-img{
+	margin:15px;
+}
 .leftFactsBox{
 	
 	display:flex;
@@ -159,7 +161,9 @@ button{
 	width:40%;
 	
 }
-
+hr{
+	margin:15px;
+}
 ul{
 	margin-left:15px;
 	margin-top:10px;
