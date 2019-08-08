@@ -84,10 +84,7 @@ nav a{
 	font-weight:bold;
 }
 
-#splash{
-	display:flex;
-	justify-content:center;
-}
+
 h1{
 	font-size:72px;
 }
@@ -100,21 +97,44 @@ h3{
 	font-size:18px;
 }
 
+hr{
+	margin:15px;
+}
+ul{
+	margin-left:20px;
+	margin-top:10px;
+	list-style:square;
+}
+li{
+	margin-top: 10px;
+}
+
+header{
+	margin:15px;
+}
+
+footer{
+	margin:15px;
+}
+
+/* index html styles */
+
 .textwrapper{
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
-	align-items:center;
-	
+	align-items:center;	
 }
+
+#splash{
+	display:flex;
+	justify-content:center;
+}
+
 .botblock{
 	width:30%;
 }
-.services-header-img{
-	width:98%;
-	height:230px;
-	margin:1%;
-}
+
 
 .topinfo {
 	display:flex;
@@ -131,6 +151,14 @@ h3{
 	display:flex;
 	justify-content:space-around;
 	margin:15px;
+}
+
+/* Services Page Styles*/
+
+.services-header-img{
+	width:98%;
+	height:230px;
+	margin:1%;
 }
 
 .serviceSplash{
@@ -181,29 +209,12 @@ button{
 	margin-left:5px;
 	
 }
-hr{
-	margin:15px;
-}
-ul{
-	margin-left:20px;
-	margin-top:10px;
-	list-style:square;
-}
-li{
-	margin-top: 10px;
-}
-
-header{
-	margin:15px;
-}
-
-footer{
-	margin:15px;
-}
 
 .legal {
 	text-align:center;
 }
+
+/* responsive */
 
 @media only screen and (max-width: 600px) {
 	.servicebox{
