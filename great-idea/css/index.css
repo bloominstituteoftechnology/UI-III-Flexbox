@@ -157,7 +157,7 @@ h1 {
 }
 
 .services {
-	border-bottom: 1px solid black 
+	border-bottom: 1px solid black;
 }
 
 p {
@@ -172,16 +172,72 @@ p {
 .android-dev {
 	border: 1px solid black;
 	background: whitesmoke;
-	margin: 10px;
+	margin: 13px;
 	padding: 10px;
-	width: 53%;
-	display: flex;
-	flex-direction: row;
+	width: 46%;
 }
 
 
 button {
-	padding: 5px 10px;
-	border-radius: 10%;
+	padding: 10px 40px;
+	border-radius: 7%;
 	margin: 5px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.parent {
+	flex-wrap: wrap;
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.services-info-img {
+	margin-left: 48% 
+} 
+
+h3 {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+p {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.facts {
+	border-top: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+ul {
+    list-style-type: square;
+	list-style-position: inside;
+	margin-left: -420px;
+	margin-top: 200px;
+	}
+	
+.last-paragraph{
+	margin-left: -207px;
+	margin-top: 40px;
+}
+
+.bottom-img {
+	margin-left: 100px;
+	margin-top: -300px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 100px;
 }
