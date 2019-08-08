@@ -120,7 +120,7 @@ header .services-header-img {
 }
 
 #section2 {
-    padding-top: 2em;
+    padding: 2em 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -157,7 +157,7 @@ footer p {
 
     #section2 {
         /* margin-top: 35em; */
-        padding-top: 1em;
+        padding: 1em 0;
     }
 
     #section2 div {
@@ -168,7 +168,15 @@ footer p {
 
     #section2 .services-info-img {
         width: 50%;
-        padding: 1em 0;
+        padding-top: 1em;
+    }
+
+    nav a {
+        font-size: 0.5em;
+    }
+
+    nav .logo {
+        width: 5em;
     }
 }
 
@@ -176,5 +184,13 @@ footer p {
      #section1 div, #section1 div {
         /* margin-bottom: 20px; */
         font-size: 0.8em;
+    }
+
+    nav a {
+        font-size: 0.8em;
+    }
+
+    nav .logo {
+        width: 7em;
     }
 }
