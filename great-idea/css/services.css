@@ -68,9 +68,12 @@ body {
   max-width: 960px;
   height: 1575px;
   margin: auto;
-  border: solid gray 1px;
+/*   border: solid gray 1px; */
 }
 
+h3 a{
+  color: black;
+}
 nav {
   display: flex;
 }
@@ -89,11 +92,11 @@ nav a {
   display: flex;
   position:fixed;
   align-items: baseline;
-  top: 0;
+  top: 0px;
   background: white;
   height: 50px;
   width: 940px;
-/*   z-index: 500; */
+/*   z-index: 100; */
   
 }
 
@@ -101,21 +104,29 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
-    width: 95%;
-    margin: auto;
+    
+  width: 900px;
+    margin-left: -22px;
     padding-bottom: 10px;
     height: 800px;
     }
 
 .meatPotatoes {
-border: solid black 1px;
-    width: 45%;
+  border: solid black 1px;
+  display: flex;  
+  width: 45%;
     height: 28%;
-    margin: 10px auto 10px auto;
-    display: flex;
+    margin: 10px auto 10px auto;   
     flex-direction: column;
     background-color: #e3e3e3;
     }
+
+.meatPotatoes h2 {
+  padding: 10px;
+}
+.meatPotatoes p {
+  padding: 10px;
+}
 
 body p h2 {
   padding-top: 10px;
@@ -126,17 +137,19 @@ div div div {
 }
 
 div div a {
-  margin: 10px;
-  margin-top: 10px;
+ display: flex;
+ margin: 10px;
+/* margin-top: 10px; */
   border: solid black 1px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: black;
   background-color: white;
   width: 120px;
-  height: 40px;
+  height: 30px;
   text-decoration: none;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-left: 15px;
 }
 .serviceImage {
   width: 90%;
