@@ -63,4 +63,111 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.content{
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+}
+header{
+	width:80%;
+}
+nav{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+a{
+	text-decoration:none;
+	color:grey;
+}
+.logo{
+	padding-bottom:50px;
+	display:flex;
+	align-items:center;
+}
+.slogan{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.info{
+	max-width:80%;
+	display:flex;
+	flex-direction:column;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+section{
+	display:flex;
+}
+.contact{
+	position:relative;
+	left:10%;
+}
+footer{
+	text-align:center;
+}
+.button{
+	text-align:center;
+	width:100px;
+	border:1px black solid;
+}
+h1{
+	font-size:50px;
+}
+.infobits{
+	padding-top:20px;
+	padding-bottom:20px;
+	display:flex;
+}
+.services{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:80%;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.specificservice{
+	margin:20px;
+	padding:20px;
+	border:1px solid black;
+	background:rgb(211, 211, 211);
+	height:25%;
+	width:40%;
+}
+.bottom{
+	width:80%;
+	margin-bottom:20px;
+	display:flex;
+}
+ul{
+	list-style-type: circle;
+}
+.copyright{
+	text-align:center;
+}
+.facts{
+	width:60%;
+}
+.top{
+	width:80%;
+}
+.learnmore{
+	font-size:10px;
+	color:black;
+	background-color:rgb(241, 241, 241);
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:50px;
+	padding-right:50px;
+	border:1px black solid;
+}
+p{
+	margin-top:10px;
+	margin-bottom:10px;
+}
