@@ -89,31 +89,26 @@ header{
 .top-section{
 	display:flex;
 	flex-direction: column;
-	
-	
 	margin-bottom:15px;
-	margin-top:15px;
-	border:solid red;
+	margin-top:45px;
 	width:50%;
-	height:35%;
-	
-	
+	height:35%;	
 }
 
 h1 {
 	display:flex;
-	border:solid #000000;
     text-align:center;
 	font:bangers;
 	font-size:95px;	
 	margin-top:1%;
-	margin-left:5%;
+	margin-left:25%;
 	
 }
 	
 button{
-	width:50%;
-	margin-left:25%;
+	 width: 25%;
+	 margin-left:35%;
+	 
 }
 
 
@@ -121,11 +116,11 @@ button{
 	
 	position:absolute;
 	margin-left:75%;
-	margin-top: -25%;
+	
 }
 
 .mid-page{
 	display:flex;
-	justify-content: space-around;
-	border-top:black solid;
+	justify-content: space-evenly;
+	border-top:black solid 1px;
 }
