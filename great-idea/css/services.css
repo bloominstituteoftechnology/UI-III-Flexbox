@@ -73,10 +73,34 @@ body hr {
 
 .service__facts {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    width: 95%;
+    margin: 0 auto;
+}
+
+.service__facts>div {
+    display: flex;
+    flex-flow: column nowrap;
+
+    margin-top: 2rem;
+}
+
+.service__facts>div>p {
+    width: 45rem;
 }
 
 .service__facts>div>ul {
     margin-top: 1rem;
-    /* list-style-type: square; */
+}
+
+.service__facts>div>ul>li {
+    display: list-item;
+    list-style-type: square;
+    line-height: 1.8rem;
+}
+
+.service__img {
+    max-width: 100%;
 }
