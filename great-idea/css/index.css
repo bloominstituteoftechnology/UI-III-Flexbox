@@ -89,7 +89,8 @@ header{
 .top-section{
 	display:flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	
+	
 	margin-bottom:15px;
 	margin-top:15px;
 	border:solid red;
@@ -101,14 +102,18 @@ header{
 
 h1 {
 	display:flex;
+	border:solid #000000;
     text-align:center;
 	font:bangers;
 	font-size:95px;	
+	margin-top:1%;
+	margin-left:5%;
 	
 }
 	
 button{
-	width:25%;
+	width:50%;
+	margin-left:25%;
 }
 
 
