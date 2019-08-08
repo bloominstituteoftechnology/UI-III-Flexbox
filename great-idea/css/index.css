@@ -172,7 +172,7 @@ footer {
 	
 }
 .main-container {
-	border: 1px solid yellow;
+	
 	width: 100%;
 	height: 100%;
 }
@@ -183,27 +183,31 @@ footer {
 }
 img.services-header-img {
 	display: flex;
-	justify-content: flex-end;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .market {
-	display: flex;
+    display: flex;
+    background: rgb(240, 238, 238);
 }
 
 .ios {
-	display: flex;
+    display: flex;
+    width: 48%;
+    background: rgb(240, 238, 238);
 }
 
 .digital, .ux, .web, .market, .ios, .android {
 	border: 1px solid black;
-	padding: 7px;
+	padding: 19px;
 	margin:10px; 
 }
 div.foot-container {
 	display: flex;
 }
 .list1 {
-	border:1px solid red;
+	
 	width: 20%;
 	display: flex;
 }
@@ -216,9 +220,11 @@ div.foot-container {
 }
 
 .ulli {
-	border: 1px solid green;
-	display: flex;
-	margin-left: 50%;
+	
+	
+    margin-left: 50%;
+    width: 50%;
+    
 }
 .ux {
 	display: flex;
@@ -228,25 +234,53 @@ div.foot-container {
 	
 }
 .maindig {
-	border: 1px solid black;
+	
 	display: flex;
 }
 
 .web {
-	border: 1px solid pink;
+    border: 1px solid black;
+    background: rgb(240, 238, 238);
 }
 .main-mark {
-	border: 1px solid black;
-	display: flex;
+	
+    display: flex;
+    
 }
 .mainios {
-	border: 1px solid black;
-	width: 50%;
+	
+	width: 100%;
 	display: flex;
 }
-.andcont {
-	border: 1px solid black;
+.andcont {  
+    width: 50%;
 }
-
-
+.android {
+    background: rgb(240, 238, 238);
+}
+button {
+    padding: 7px 18px;
+    margin: 10px 0 0 0 ;
+}
+.facts {
+    
+    width: 50%;
+}
+.lastcont {
+    display: flex;
+    
+}
+.abouts {
+    width: 50%;
+    
+}
+.other {
+    
+    width: 50%;
+}
+.factspic {
+    display: flex;
+    
+    
+}
 
