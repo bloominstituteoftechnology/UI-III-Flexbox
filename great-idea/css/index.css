@@ -166,36 +166,31 @@ h5 {
     background-color: white;
 }
 
-
-/* nav {
+nav {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     flex-wrap: nowrap;
     flex-flow: row nowrap;
-} */
+}
 
-
-/* nav a {
+nav a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
     align-items: center;
     color: darkgray;
     text-decoration: none;
-} */
+}
 
-
-/* 
 .heading-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
-} */
+}
 
-
-/* .heading {
+.heading-container .heading {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -209,7 +204,7 @@ h1 {
 .heading-image {
     display: flex;
     flex-direction: row;
-} */
+}
 
 */
 /* .button{
