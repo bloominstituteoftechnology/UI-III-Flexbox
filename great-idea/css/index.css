@@ -271,8 +271,8 @@ section.content-bottom div:last-child{
 
 .card {
 	display:block;
-	background-color:magenta;
-	border:solid 1px green;
+	background-color:white;
+	border:solid 1px black;
 	border-radius:5px;
 	margin-top:10px;
 	width:35%;
@@ -282,4 +282,13 @@ section.content-bottom div:last-child{
 	font-size:12px;
 	font-style:bold;
 	text-align:center;
+}
+
+span div{
+	color:black;
+	display:flex;
+	flex-direction:column;
+	width:45%;
+	flex-direction:row;
+	
 }
