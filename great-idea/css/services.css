@@ -77,8 +77,8 @@ nav a {
 }
 
 body {
-	width: 50%;
-	max-width: 880px;
+	width: 80%;
+	/* max-width: 880px; */
 	margin: 0 auto;
 }
 
@@ -89,6 +89,7 @@ header {
 
 header .services-header-img {
     padding-bottom: 3em;
+    width: 100%;
 }
 
 #section1 {
@@ -130,4 +131,38 @@ header .services-header-img {
 
 footer p {
     text-align: center;
+}
+@media (max-width: 600px) {
+    #section1 div{
+        font-size: 0.8em;
+        width: 100%;
+        /* margin-bottom: 1em; */
+        height: 15%;
+    }
+
+    #section1 {
+        height: 70em;
+        /* justify-content: space-around; */
+        /* align-content: space-between; */
+        /* padding: 0; */
+        padding: 1em 0 0 0;
+    } 
+
+    #section2 {
+        /* margin-top: 35em; */
+        padding: 0.5em;
+    }
+
+    #section2 div {
+        font-size: 0.8em;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 900px) {
+     #section1 div, #section1 div {
+        /* margin-bottom: 20px; */
+        font-size: 0.8em;
+    }
 }
