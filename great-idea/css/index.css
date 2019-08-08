@@ -128,15 +128,25 @@ h1{
 	height: 250px;
 	flex-direction: column;
 	background-color:lightgrey;
-
 }
-.copyright {
+
+.container-4 {
 	display: flex;
 	justify-content: center;
 }
 
+.container-4 div {
+	margin-left: 50px;
+
+}
+
 .services1 {
 	margin-left: 50px;
+	margin-right: 50px;
+}
+
+li {
+	padding: 10px;
 }
 button {
 	margin-top: 15px;
@@ -146,3 +156,11 @@ button {
 	font-size: 15px;
 }
 
+.copyright {
+	display: flex;
+	justify-content: center;
+}
+
+.services-info-img {
+	margin-right: 50px;
+}
