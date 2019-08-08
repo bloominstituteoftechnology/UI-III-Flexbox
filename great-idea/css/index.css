@@ -65,82 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
 body {
 	width: 90%;
 	max-width: 900px;
 	margin-right: auto;
 	margin-left: auto;
 }
-/*
-nav {
-	display: inline-block;
-	margin-top: 50px;
-}
-
-nav a {
-	color: silver;
-	text-decoration: none;
-	margin-left: 25px;
-	margin-right: 25px;
-}
-
-
-header {
-	display: flex;
-	justify-content: space-between;
-}
-
-header nav {
-	display: flex;
-	justify-content: space-between;
-}
-
-.getStarted {
-	position: relative;
-}
-
-.getStarted p {
-	font-size: 90px;
-	font-family: 'Bangers', cursive;
-	display: inline-block;
-}
-
-.getStarted img {
-	position: absolute;
-	top: 0;
-	right: 0;
-	max-width: 100%;
-}
-
-.getStarted .startButton {
-	font-size: 18px;
-	font-family: 'Titillium Web', sans-serif;
-	border: 1px solid black;
-	padding: 5px 30px 5px 30px;
-}
-
-
-.mainTextTop p {
-	display: inline-block;
-	width: 49%;
-
-}
-
-.mainTextTitle {
-	font-size: 20px;
-	font-family: 'Bangers', cursive;
-}
-
-
-.mainTextBottom p {
-	display: inline-block;
-	width: 32%;
-
-}
-
-
-*/
 
 header {
 	display: flex;
@@ -150,10 +80,18 @@ header {
 	margin-bottom: 30px;
 }
 
+nav {
+	display: flex;
+}
+
 header nav a {
 	color: silver;
 	text-decoration: none;
 	margin-right: 50px;
+}
+
+nav a:hover {
+	color: black;
 }
 
 .getStarted {
@@ -167,20 +105,13 @@ header nav a {
 	text-align: center;
 }
 
-.leftSide {
-	/* width: 50%;
-	display: flex;
-	justify-content: center; */
-}
-
 .startButton {
 	font-size: 18px;
 	font-family: 'Titillium Web', sans-serif;
 	border: 1px solid black;
 	padding: 5px 30px 5px 30px;
 	width: 150px;
-	/* text-align: center; */
-	/* position: absolute; */
+
 }
 
 .mainTextTop {
@@ -202,4 +133,77 @@ header nav a {
 
 footer {
 	text-align: center;
+	margin-top: 30px;
+}
+
+/* ---------- SERVICES PAGE CSS ---------- */
+
+.servPageServices h1 {
+	font-size: 25px;
+	font-family: 'Bangers', cursive;
+	padding-top: 30px;
+}
+
+.servPageServices p {
+	max-width: 100%;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+.services-header-img {
+	min-width: 100%;
+}
+
+.proServicesOffered {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.proService {
+	width: 48%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 26px;
+	margin-bottom: 30px;
+	background-color: rgb(230, 230, 230);
+}
+
+.proService h1, .facts h1 {
+	font-size: 20px;
+	font-family: 'Bangers', cursive;
+}
+
+.learnButton {
+	text-align: center;
+	font-size: 75%;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	padding: 5px 30px 5px 30px;
+	width: 150px;
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.learnButton:hover {
+	color: white;
+	background-color: black;
+}
+
+.facts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.factDetails {
+	width: 48%;
+	box-sizing: border-box;
+	padding: 0px 15px 15px 0px;
+}
+
+.factDetails ul {
+	list-style-type: square;
+	padding: 20px 0px 0px 20px;
+	line-height: 2;
 }
