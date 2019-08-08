@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 .body-con {
 	margin: 0 auto;
 	border: 2px solid #254;
-	width: 1020px;
+	width: 880px;
 	color: rgb(27, 27, 27);
 }
 
@@ -78,129 +78,60 @@ h1, h2, h3, h4, h5 {
 	flex-direction: column;
  }
 
-.nav-con {
-	margin-top: 35px;
-	display: flex;
-	justify-content: center;
-}
+ .newnav-con {
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 margin-top: 30px;
+ }
 
 nav a {
 	text-decoration: none;
-	margin-right: 50px;
-	margin-left: 10px;
 	color: rgb(39, 38, 38);
-	font-size: 14px;
+	font-size: 16px;
+	margin-right: 56px;
+	font-weight: 500;
 }
 
-.img-div {
-	margin-left: 45px;
-	margin-top: -11px;
-}
-
-.main-header {
-	margin-top: 70px;
+.services-header-img {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	margin-top: 15px;
 }
 
-.main-con {
+.servmain-con {
+	margin-top: 33px;
+}
+
+.servmain-con h1 {
+	font-size: 25px;
+	line-height: 1.3em;
+}
+
+hr {
+	margin-top: 45px;
+	margin-bottom: 0px;
+}
+
+main {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	padding-left: 70px;
 }
 
-.main-img {
-	padding-left: 90px;
+.serv-des {
+	padding: 20px;
+	border: 1px solid rgb(19, 18, 18);
+	background: rgb(224, 224, 224);
 }
 
-.main-con h1 {
-	text-align: center;
-	font-size: 80px;
-	letter-spacing: 1.2px;
-}
-
-.main-con a button {
+.sect-but button {
+	margin-top: 10px;
 	padding: 6px 30px;
 	border: 1px solid rgb(27, 27, 27);
-	background: transparent;
-	font-size: 16px;
+	border-radius: 4px;
+	background: #fff;
+	font-size: 12px;
 	font-weight: 600;
-	width: 170px;
+	width: 130px;
 	font-family: 'Titillium Web', 'sans-serif';
 } 
-
-.main-con a button:hover {
-	cursor: pointer;
-}
-
-hr  {
-	margin-right: 0 auto;
-	margin-left: 0 auto;
-	margin-top: 75px;
-	width: 85%;
-}
-
-.section-con {
-	display: flex;
-	flex-direction: column;
-}
-
-.section1 {
-	display: flex;
-	justify-content: space-evenly;
-	margin-top: 30px;
-}
-
-.section-con p {
-	line-height: 20px;
-}
-
-.features {
-	margin-left: 70px;
-}
-
-.about {
-	margin-right: 70px;
-	margin-left: 20px;
-}
-
-.content-img {
-	margin-top: 25px;
-	text-align: center;
-}
-
-.services {
-	margin-left: 50px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-top: 10px;
-}
-
-.product {
-	margin-right: 10px;
-	margin-top: 10px;
-}
-.vision {
-	margin-right: 70px;
-	margin-top: 10px;
-}
-
-.bottom-hr {
-	margin-top: 35px;
-}
-
-.contact-con {
-	display: flex;
-	margin-left: 70px;
-	margin-top: 50px;
-}
-
-footer {
-	margin-top: 60px;
-	text-align: center;
-	font-size: 14px;
-	margin-bottom: 90px;
-}
-
