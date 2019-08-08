@@ -206,13 +206,33 @@ a{
 	justify-content: space-between;
 	padding-bottom: 40px;
 }
+.servicesGrid h4{
+	font-size: 20px;
+	padding-top: 10px
+}
+.servicesGrid p{
+	font-size: 15px;
+	padding-top: 0;
+	padding-bottom: 20px;
+}
 button{
-
+	padding-bottom: 10px;
+	width: 150px;
+	margin: 10 px;
+	border: .5px solid grey;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	text-align: center;
 }
 .bottomServices{
 	display: flex;
+	flex-direction: row;
 	border-top: 1px solid black;
 	padding: 20px;
+}
+.facts{
+	display: flex;
+	flex-direction: column;
 }
 .bottomServices p{
 	width: 50%;
