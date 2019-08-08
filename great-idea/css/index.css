@@ -188,20 +188,6 @@ hr {
 }
 
 
-footer {
-    color: black;
-    width: 100%;
-    margin: 20px;
-}
-footer .copyright {
-    display:flex;
-    color:black;
-    justify-content:center;
-    align-content:center;
-    font-size:12px;
-}
-
-
 .services-header-img{
     padding-top:20px;
     padding-bottom:20px;
@@ -232,3 +218,17 @@ footer .copyright {
     padding:10px;
     text-align:center;
 }
+
+footer {
+    color: black;
+    width: 100%;
+    margin: 20px;
+}
+footer .copyright {
+    display:flex;
+    color:black;
+    justify-content:center;
+    align-content:center;
+    font-size:12px;
+}
+
