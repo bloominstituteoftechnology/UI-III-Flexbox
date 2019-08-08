@@ -1,0 +1,162 @@
+* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* code starts here */
+
+a {
+	text-decoration: none;
+	color: lightgrey;
+    font-size: 15px;
+}
+.nav_bar
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+/*.whole_page {
+     display: flex;
+    flex-flow: row wrap;
+}*/
+.services_container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.services-header-img {
+    margin: auto;
+    display: flex;
+
+}
+
+.text_services {
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    text-decoration: bold;
+}
+
+.flex-container {
+    padding: 60px;
+    margin: auto;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid black;
+
+}
+
+.flex-item {
+    text-align: left;
+    margin: 10px;
+    width: 600px;
+    height: 200px;
+    background-color: #f4f3f4;    
+    border: 1px solid black;
+    padding: 10px;
+    
+  }
+
+.flex-item h2 {
+      font-size: 16px;
+  }
+  
+.learn_more {
+      padding: 10px;
+      margin: 5px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 150px;
+      font-size: 13px;
+      text-decoration: bold;
+  }
+
+.facts_container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.facts_container h2 { 
+    font-size: 16px;
+}
+.facts {
+    width: 500px;
+    margin: 40px;
+    margin-right: 20px;
+}
+
+.copyright_footer {
+    display: flex;
+    margin: 60px;
+    justify-content: center;
+}
