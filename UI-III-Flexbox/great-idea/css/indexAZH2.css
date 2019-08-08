@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	}
+	/* style for logo/nav bar ===============*/
+	
+	.topNavBar { 
+		display:flex;
+		justify-content: space-around;
+		align-items: center;
+		margin: 2% 0%;
+	}
+
+	.topNavBar div { 
+		width: 66%;
+	}
+
+	.logo { 
+		max-width: 10%;
+		height: auto;
+		/* flex-shrink: 1; */
+	}
+	
+	  #links { 
+		display:flex;
+	}
+
+	  #links a{
+		align-items: center; 
+		width: 16%;
+		color: lightgray;
+		text-decoration: none;
+		font-size: 10px;
+	}
+	/*style for "Innovation on Demand" section ==============*/
+	
+	
+	header {
+		display:flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	 .title {
+		display: flex;
+		width: 320px;
+		height: 320px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+	}
+
+	.title h1 {
+		font-size: 65px;
+		text-align: center;
+	}
+	
+	/* #innovation {
+		position: relative;
+		text-align: center;
+		top: 37%;
+		height: 379px;
+		width: 379px;
+		font-size: 80px;
+	} */
+	
+	#round{
+		height: 320px;
+		width: 320px;
+		right:-25%;
+		top: 25%;
+	}
+	
+	button {
+		width:120px;
+		height:25px;
+		text-align:center;
+		padding: 0px;
+		margin: 0px; 
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 12px;
+		background-color: white;
+		border: 1px solid black; 
+	}
+	
+	/*for lines across screen*/
+	hr{
+		border: 0.5px solid black;
+	}
+	
+	.topSections {
+		display:flex;
+		justify-content: space-around;
+		padding:20px 0px;
+		margin: 15px;
+	}
+
+	.topSections div{
+		width: 45%;
+	}
+	
+	
+	
+	/* style for banner*/	 
+	.middle-img {
+		width: 100%;
+		margin: 0% 1.5%;
+	}
+	
+	/* style for lower 3 ps*/	
+		.lowerSections {
+			display:flex;
+			justify-content: space-around;
+			padding:20px 0px;
+			margin: 15px;
+		}
+	
+	.lowerSections div{
+		width: 30%;
+	}
+	
+	/* style for contact section*/	
+	
+	#contact {
+		padding:20px 0px;
+		width: 15%;
+		margin: 0% 2.5%;
+	}
+	
+	/* style for footer*/	
+	footer{
+		font-size: 10px;
+		text-align: center;
+		
+	}
+	
+	
+	   
