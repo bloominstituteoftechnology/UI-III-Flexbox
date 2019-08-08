@@ -65,44 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-/* Your code starts here! */
-.head .logo{
+/* services.html CSS  below  */
+.head {
     margin-bottom: 15px;   
 }
 	
@@ -112,7 +76,6 @@ h1, h2, h3, h4, h5 {
 .container {
 	margin: 0 auto;
 	width: 1000px;
-	background: blue;
 }
 #navbar {
 width: 100%;
@@ -121,7 +84,7 @@ width: 100%;
 	padding-left: 20px;
 }
 .navigation{
-	display:flexbox;
+	display: inline-flexbox;
 	vertical-align: middle;
 	margin-left: 15%;
 	margin-right:15%
@@ -130,7 +93,7 @@ width: 100%;
  #navbar {
 	border: 1px solid rgb(12, 12, 12);
 	vertical-align: middle;
-	background-color:rgb(0, 217, 255);
+	background-color: plum;
 	position: fixed;
 	top: 0;
 	right:0;
@@ -144,9 +107,7 @@ display: inline-flexbox;
 vertical-align: middle;
 margin-left: 20%;
 }
-.logo{
-    display: flexbox;
- }
+
 
 
  #call-to-action {
@@ -161,6 +122,8 @@ margin-bottom: 20px;
 }
 
  #title {
+	 display:inline-flexbox;
+	 justify-content: flex-start;
 	text-align: center;
 	font-size: 70px;
 }
@@ -168,16 +131,14 @@ margin-bottom: 20px;
  #square{
 	border-radius: 10px;
 	height: 35px;
-
 }
 #square:hover {
-	color: red;
-	background-color:blueviolet;
-	trans
+	color: purple;
+	background-color: white;
 }
 #innovateimg{
-	
-	vertical-align: center;
+	display: inline-flexbox;
+	vertical-align: middle;
 	width: 49%;
 }
 
@@ -189,7 +150,8 @@ margin-bottom: 20px;
 	text-align: left;
 }
 #feat, #about {
-	display: inline-block;
+	display: inline-flexbox;
+
 	width: 47%;
 	margin-bottom: 25px;
 	margin-top: 20px;
@@ -198,17 +160,16 @@ margin-bottom: 20px;
  .middle-img {
 	text-align: center;
 	width: 100%;
-	
 }
 
 
  .lower-wrapper{
-width: 100%;
-vertical-align: middle;
-text-align: left;
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
 }
 #services, #product, #vison{
-	display: inline-block;
+	display: inline-flexbox;
 	width: 32%;
 	margin-bottom: 25px;
 	margin-top: 20px;
