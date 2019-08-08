@@ -96,6 +96,7 @@ nav a {
     text-decoration: none;
 }
 
+
 .heading-container {
     display: flex;
     flex-direction: row;
@@ -148,18 +149,17 @@ h1 {
     height: auto;
 }
 
-
 hr {
-    border-top: 2px solid black;
-    width:auto;
-    padding-bottom:25px;
+    border-top: 1px solid black;
 }
-.row{
+
+.marketing-row{
+    padding-top:25px;
     display:flex;
-
+    flex-direction:row;
 }
 
-.column {
+.marketing-column {
     flex:1;
     color:black;
     font-size:16px;
@@ -168,40 +168,40 @@ hr {
 
 .middle-img {
     display:flex;
-    padding-top:10px;
+    padding-top:25px;
+    padding-bottom:25px;
     width: 100%;
 }
 
-.services {
-    font-size: 20px;
-    margin-top: 20px;
-    color: black;
-    display: inline-block;
-    width: 30%;
-    margin: 20px;
+.sales-row{
+    display:flex;
+    flex-direction:row;
+    padding-bottom:30px;
 }
-.product {
-    font-size: 20px;
-    margin-top: 20px;
-    color: black;
-    display: inline-block;
-    width: 30%;
-    margin: 20px;
+
+.sales-column {
+    flex:1;
+    color:black;
+    font-size:16px;
+    margin-left:20px;
 }
-.vision {
-    font-size: 20px;
-    margin-top: 20px;
-    color: black;
-    display: inline-block;
-    width: 30%;
-    margin: 20px;
+
+hr {
+    border-top: 1px solid black;
 }
+.svc-main-content{
+    color:black;
+}
+
 footer {
     color: black;
     width: 100%;
     margin: 20px;
 }
 footer .copyright {
-    padding: 20px 0;
-    text-align: center;
+    display:flex;
+    color:black;
+    justify-content:center;
+    align-content:center;
+    font-size:12px;
 }
