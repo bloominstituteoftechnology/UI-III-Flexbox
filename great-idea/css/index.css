@@ -196,7 +196,8 @@ a{
 	text-align: justify;
 }
 .boxServices{
-	width: 50%;
+	width: 45%;
+	margin: 10px;
 	padding: 20px;
 	background-color: lightgrey;
 	border: 1px solid black;
