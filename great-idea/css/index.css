@@ -69,21 +69,24 @@ h1, h2, h3, h4, h5 {
 * {
     background-color: white;
     padding: 0;
-    margin: auto;
+    margin:auto;
 }
 
 body {
-    border-style: solid;
-    border-right: 20vw solid black;
-    border-left: 20vw solid black;
+    margin:auto;
+    max-width:100%;
+    width:60%;
+    /* border-right:350px black solid;
+    border-left: 350px black solid; */
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: baseline;
-    font-size: 1vw;
+    align-items: center;
+    font-size: 14px;
+    padding-top:20px;
 }
 
 nav a {
@@ -93,25 +96,16 @@ nav a {
     text-decoration: none;
 }
 
-.top-navigation .logo {
-    max-width: 90%;
-    width: 20%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    align-items:flex-end;
-}
-
 .heading-container {
     display: flex;
     flex-direction: row;
-    padding-top: 2vw;
-    padding-bottom: 4vw;
+    padding-top: 100px;
+    padding-bottom: 50px;
     justify-content: center;
 }
 
 .heading-container .heading {
-    padding-top: 0.5vw;
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -119,25 +113,23 @@ nav a {
 }
 
 h1 {
-    margin: auto;
-    font-size: 5vw;
-    padding-right: 10vw;
-    padding-left: 8vw;
+    font-size:75px;
+    line-height:75%;
+    padding-right:10px;
+    padding-top:15px;
     color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
 
-.image-heading .main-img {
+.main-img {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    max-width: 100%;
-    width: 70%;
-    height: auto;
+    justify-content:center;
+    align-content:baseline;
+    padding-left:40px;
+
 }
 
 .heading .button {
@@ -147,44 +139,39 @@ h1 {
     font-size: 1vw;
     color: black;
     text-decoration: none;
-    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     max-width: 80%;
-    width: 50%;
+    width: 40%;
     height: auto;
 }
 
 
-/* hr {
+hr {
     border-top: 2px solid black;
+    width:auto;
+    padding-bottom:25px;
 }
-.features {
-    font-size: 20px;
-    margin-top: 20px;
-    color: black;
-    display: inline-block;
-    width: 39%;
-    margin: 60px;
+.row{
+    display:flex;
+
 }
-.about {
-    font-size: 20px;
-    margin-top: 20px;
-    color: black;
-    display: inline-block;
-    width: 39%;
-    margin: 60px;
+
+.column {
+    flex:1;
+    color:black;
+    font-size:16px;
+    margin-left:20px;
 }
-p {
-    display: inline-block;
-    width: 80%;
-    background-color: white;
-}
+
 .middle-img {
+    display:flex;
+    padding-top:10px;
     width: 100%;
 }
+
 .services {
     font-size: 20px;
     margin-top: 20px;
@@ -217,4 +204,4 @@ footer {
 footer .copyright {
     padding: 20px 0;
     text-align: center;
-} */
+}
