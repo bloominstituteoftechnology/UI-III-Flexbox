@@ -104,3 +104,12 @@ body hr {
 .service__img {
     max-width: 100%;
 }
+
+/* Footer styles */
+
+body>footer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 4.5rem;
+}
