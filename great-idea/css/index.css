@@ -163,16 +163,8 @@ hr {
 	border: 2px solid black;
 	padding: 13px;
 	margin-bottom: 10px;
-	float: left;
-	
-	
-}
-div.digital {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	
-}
+	/* float: left; */
+	}
 
 footer {
 	position: relative;
@@ -194,10 +186,6 @@ img.services-header-img {
 	justify-content: flex-end;
 }
 
-.digital-ux {
-	display: flex;
-}
-
 .market {
 	display: flex;
 }
@@ -206,13 +194,58 @@ img.services-header-img {
 	display: flex;
 }
 
-.digital-ux, .market, .ios {
+.digital, .ux, .web, .market, .ios, .android {
 	border: 1px solid black;
 	padding: 7px;
-	margin:10px;
+	margin:10px; 
 }
 div.foot-container {
 	display: flex;
+}
+.list1 {
+	border:1px solid red;
+	width: 20%;
+	display: flex;
+}
+ ul {
+	display: flex;
+	flex-flow: row wrap;
+	flex-direction: column-reverse;
+
+	width: 50%;
+}
+
+.ulli {
+	border: 1px solid green;
+	display: flex;
+	margin-left: 50%;
+}
+.ux {
+	display: flex;
+	border: 1px solid black;
+	background: rgb(240, 238, 238);
+	width: 50%;
+	
+}
+.maindig {
+	border: 1px solid black;
+	display: flex;
+}
+
+.web {
+	border: 1px solid pink;
+}
+.main-mark {
+	border: 1px solid black;
+	display: flex;
+}
+.mainios {
+	border: 1px solid black;
+	width: 50%;
+	display: flex;
+}
+.andcont {
+	border: 1px solid black;
 }
 
 
