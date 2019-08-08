@@ -68,3 +68,15 @@ body hr {
 .class__content h2 {
     font-size: 1.1rem
 }
+
+/* Service Facts styles */
+
+.service__facts {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.service__facts>div>ul {
+    margin-top: 1rem;
+    /* list-style-type: square; */
+}
