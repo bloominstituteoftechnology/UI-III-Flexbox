@@ -93,7 +93,7 @@ h1{
 	justify-content:center;
 	margin:40px;
 	max-width:75%;
-	margin-left:400px;
+	margin-left:200px;
 	
 	
 	
@@ -118,7 +118,7 @@ h1{
 	display:flex;
 	justify-content:center;
 	margin:40px;
-	margin-left:300px;
+	margin-left:200px;
 	
 	
 	
@@ -128,7 +128,7 @@ h1{
 	padding:40px;
 	border-top:1px solid black;
     flex-direction:column;
-	height:100%
+	height:100%;
 
 }
 .contact .info{
