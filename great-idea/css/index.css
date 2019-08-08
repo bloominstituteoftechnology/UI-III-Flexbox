@@ -191,3 +191,165 @@ footer{
 	justify-content: center;
 	margin-top: 20px;
 }
+
+
+
+/* service page styling */
+
+.service-container{
+	width: 1000px;
+	margin: auto;
+}
+
+.service-top{
+	
+	display: flex;
+	justify-content: flex-start;
+	margin-top:30px;
+	
+	
+}
+
+.services-header-img{
+	display: flex;
+	margin: auto;
+	width: 1000px;
+}
+
+
+.services-detail{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.digital-design{
+	background-color: rgb(226, 224, 224);
+	display: inline-flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	
+	border: 2px solid black;
+}
+
+.ux-ui{
+	background-color: rgb(226, 224, 224);
+	display: inline-flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+.digital-marketing{
+	background-color: rgb(226, 224, 224);
+	display: flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+.web-dev{
+	background-color: rgb(226, 224, 224);
+	display: flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+.ios{
+	background-color: rgb(226, 224, 224);
+	display: flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+.android{
+	background-color: rgb(226, 224, 224);
+	display: flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+
+.digital-ui{
+	margin-top:20px;
+	margin-bottom:40px;
+	display: inline-flex;
+	flex-direction: row;
+	width:1000px;
+	height: 160px;
+	justify-content: space-between;
+	align-content: space-between;
+	
+}
+
+.marketing-web{
+	margin-bottom:40px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: space-between;
+	width:1000px;
+	height: 160px;
+	margin-top: 30px;
+}
+
+.ios-android{
+	display: inline-flex;
+	flex-direction: row;
+	width:1000px;
+	justify-content: space-between;
+	align-content: space-between;
+	height: 160px;
+	align-items:center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.learn-more{
+	border: 1px solid black;
+	text-align: center;
+	width: 120px;
+	margin-left: 60px;
+	margin-top:30px;
+}
+
+.services-facts{
+		display: flex;
+		width: 500px;
+		flex-direction:column;
+}
+
+.services-content-bottom{
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 30px;
+}
+
+ul{
+	margin-top: 20px;
+	margin-left:20px;
+	list-style-type: square;
+}
+
+.service-menu{
+	display: flex;
+	justify-content: flex-start;
+	width: 1000px;
+	margin-bottom: 20px;
+}
+
+.service-menu nav{
+	display:flex;
+	justify-content: flex-start;
+	/* justify-content: space-between; */
+	justify-content: space-evenly;
+	margin-left: -84px;
+}
