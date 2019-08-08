@@ -108,6 +108,11 @@ h3{
 	
 }
 
+.services-header-img{
+	width:98%;
+	height:230px;
+}
+
 .topinfo {
 	display:flex;
 	justify-content:center;
@@ -120,12 +125,16 @@ h3{
 	margin:15px;
 }
 
-
+.serviceSplash{
+	margin:15px;
+}
 .servicecontainer {
 	display:flex;
-	
+	justify-content:center;
+	align-items:space-around;
 	flex-wrap:wrap;
 	margin:15px;
+	
 }
 
 .servicebox{
@@ -134,7 +143,7 @@ h3{
 	justify-content:space-between;
 	background:lightgrey;
 	width:40%;
-
+	margin:15px;
 }
 
 button{
@@ -149,11 +158,11 @@ button{
 .factsSection{
 	display:flex;
 	justify-content:space-between;
-	margin:4%;
+	margin:15px;
 }
 .middle-img{
 	margin:15px;
-	width:100%;
+	width:98%;
 	height:200px;
 }
 .leftFactsBox{
@@ -161,13 +170,14 @@ button{
 	display:flex;
 	flex-direction:column;
 	width:40%;
+	margin-left:5px;
 	
 }
 hr{
 	margin:15px;
 }
 ul{
-	margin-left:15px;
+	margin-left:20px;
 	margin-top:10px;
 	list-style:square;
 }
