@@ -175,7 +175,8 @@ header {
 
 header .title {
 	display: flex;
-	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
 	font-size: 68px;
 	text-align: center;
 	margin: 0px 15px;
