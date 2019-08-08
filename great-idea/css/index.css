@@ -314,6 +314,7 @@ address {
 /* Services Container Area */
 .services-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
 }
@@ -378,11 +379,11 @@ address {
   }
 }
 @media only screen and (min-width: 700px) {
-  .showcase-content {
-    padding: 0 4rem;
-  }
   .line {
     margin: 3rem auto;
+  }
+  .services-header-img {
+    margin-top: 1rem;
   }
 }
 @media only screen and (min-width: 900px) {
@@ -472,5 +473,36 @@ address {
   }
   address {
     text-align: left;
+  }
+
+  /* Service Container Section */
+
+  .service-col {
+    display: flex;
+    flex-direction: row;
+    margin-top: -2rem;
+    margin-bottom: -6rem;
+    padding: 0 5rem;
+  }
+  .fun-facts::before {
+    margin: 2.5rem auto;
+  }
+  .fun-facts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .facts {
+    width: 50%;
+    margin-top: 5rem;
+    padding: 0 7rem;
+  }
+  .services-info-img {
+    width: 50%;
+    margin-top: 4rem;
+    padding: 0 7rem;
+  }
+  .services-info-img img {
+    height: 40vh;
   }
 }
