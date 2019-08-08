@@ -180,6 +180,8 @@ header {
 	
 }
 
+/* services.html code here*/
+
 .nav-services {
 	display: flex;
 	flex-direction: space-between;
@@ -187,13 +189,32 @@ header {
 }
 
 .container-services {
-	width: 883px;
-	margin: auto;
 	border: 1px solid red;
 }
 
-.services-box {
-	
+.services-top-bar {
+	display: flex;
 }
 
-/* services.html code here*/
+
+.logo {
+	display: flex;
+	float: right;
+}
+
+.service-image-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.service-image-wrapper img {
+	width: 100%;
+}
+
+
+,mid-content {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid black;
+}
+
