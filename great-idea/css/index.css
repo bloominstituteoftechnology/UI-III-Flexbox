@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -62,5 +63,91 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* Your code starts here! */
+
+
+
+nav {
+	display: flex;
+	margin-top: 30px;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 25px;
+	margin-bottom: 30px;
+}
+
+.services-header{
+	display: flex;
+	height: 200px;
+	width: 800px;
+	margin: 20px 0px;
+	padding: 40px;
+}
+
+header {
+	display: flex;
+	line-height: 0.75;
+	margin: 0px 20px 0px 20px;
+	width: 876px;
+}
+
+.head-content{
+	display: flex;
+	font-size: 16px;
+	align-content: justify;
+	margin: 10px;
+	line-height: 1.5;
+}
+
+.flex-container .top-content{
+	display: flex;
+	flex-flow: row-wrap;
+}
+	.top-content div{
+		border: 1px solid black;
+	}
+
+.top-content{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.button{
+	border: solid black;
+	color: white;
+	padding: 40px;
+	display: flex;
+	font-size: 10;
+}
+
+.facts div {
+	display: inline-block;
+	width: 33%;
+	text-align: justify;
+	padding: 20px;
+}
+
+
+body { /* centers the website */
+	width: 876px;
+	margin: 0 auto;
+}
+img{
+	display: flex;
+	align-content: baseline;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+
