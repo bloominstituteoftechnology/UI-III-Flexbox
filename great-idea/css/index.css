@@ -166,3 +166,24 @@ p{
 .services-header-img{
 	width:100%;
 }
+
+.service-page-mid{
+	padding:15px;
+}
+
+.infobox{
+	height:30%;
+	width: 50%;
+	background:lightgray;
+	border: solid black 1px;
+}
+
+.ux-box{
+	
+	height:30%;
+	width: 50%;
+	background:lightgray;
+	border: solid black 1px;
+	margin-left:51%;
+	margin-bottom:100px;
+}
