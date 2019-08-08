@@ -129,7 +129,6 @@ main {
 	border: 1px solid rgb(19, 18, 18);
 	background: rgb(224, 224, 224);
 	width: 420px;
-	/* margin: 40px; */
 	padding: 20px 40px 20px 20px;
 }
 
@@ -149,3 +148,25 @@ main {
 	width: 130px;
 	font-family: 'Titillium Web', 'sans-serif';
 } 
+
+hr.edit {
+	margin-top: 36px;
+	margin-bottom: 0px;
+}
+
+.facts-sect {
+	width: 400px;\
+}
+
+.facts-sect p {
+	padding-top: 6px;
+}
+
+.facts-sect ul {
+	margin: 15px;
+}
+
+.facts-sect ul li {
+	list-style-type: square;
+	padding-top: 18px;
+}
