@@ -213,16 +213,26 @@ footer{
 .para{
 	display:flex;
 	flex-wrap: wrap;
-	
+	border-top:2px solid black;
+	margin-top:25px;
+	margin-bottom:25px;
+	padding-top:25px;
+	padding-bottom:25px;
 }
 
 .digital{
-	width:40%;
+	width:49%;
 	height:200px;
 	border:1px solid black;
-	margin:10px;
+	margin:12px;
 	padding:15px;
+	background-color:#ededed;
+	margin-right:2%;
+	margin-left:0%;
 	
+}
+.digitalright{
+	margin-right:0%;
 }
 .learnmore{
 	display:flex;
@@ -231,18 +241,49 @@ footer{
 	text-align: center;
 	padding-top:5px; 
 	padding-bottom:5px;
-	padding-left:5px;
-	padding-right: 5px;
+	padding-left:25px;
+	padding-right: 25px;
 	top:18px;
 	margin:8px;
 	border-radius: 10px;
+
 }
 
 .text{
 	margin-bottom: 1px;
+	
 }
 .lastsection{
 	display:flex;
-	
+	border-top:2px solid black;
+	margin-top:25px;
+	margin-bottom:25px;
+	padding-top:25px;
+	padding-bottom:25px;
 }
+.bottomtext{
+	display:flex;
+	flex-direction: column;
+	padding:4px;
+	margin-right:25px;
+	width:50%;
+}
+.final-image{
+	display:flex;
+	width:50%;
 
+}
+.services-header-img{
+	margin-top:50px;
+	margin-bottom:50px;
+	width:100%;
+}
+h1{
+	font-size:30px;
+}
+.services-info-img{
+	width:100%;
+}
+.navigation{
+	display:flex;
+}
