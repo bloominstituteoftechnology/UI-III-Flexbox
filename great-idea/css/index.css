@@ -71,42 +71,47 @@ h1, h2, h3, h4, h5 {
 }
 .navigation{
 	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.navlinks{
+	display: flex;
 	justify-content: space-evenly;
-	flex-direction:row;
-	margin-top: 3%;
+	width: 70%;
+	flex-direction: row;
 }
 a{
 	color: grey;
 	font-size: 20px;
 	font-style: bold;
 	text-decoration: none;
-	width: 20%
 }
 #logo{
 	
 }
 
 .intro{
-	 margin-top: 5%;
-	 margin-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 	
 	}
 	#title{
 		position: absolute;
 		font-size: 84px;
 		text-align: center;
-		padding-right: 5em;
+		padding-left: 15%;
+		
 	}
 	.headimg{
 		position: relative;
-		padding-left: 25%;
+		padding-left: 60%;
+		
 	}
-	#startbutton{
+	.startbutton{
 		border: 1px solid black;
 		color: black;
 		padding: .25% 2%;
-		margin-top: 3em;
-		margin-right: 5em;
+		
 	}
 
 .textOne{
@@ -128,8 +133,8 @@ a{
 
 .middle-img{
 	display: flex;
-	justify-content: center; 
-	align-items: center; 
+	width: 80%;
+	margin: 50px auto;
 }
 
 .textTwo{
@@ -164,15 +169,20 @@ a{
 /* Serices Page */
 
 .services-header-img{
-	margin-top: 3%;
-	margin-bottom: 3%;
 	display: flex;
-	justify-content: center;
-	width: 80%;
-}.serviceText{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.serviceText{
+	display: flex;
+	flex-direction: column;
 	border-bottom: 1px solid black;
-	padding-top: 2%;
-	padding-bottom: 3.5%;
+	width: 80%;
+	margin: 50px auto;
+	padding-bottom: 30px;
+}
+.stext{
+
 }
 
 
@@ -200,19 +210,21 @@ a{
 
 
 .end{
-	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
 	border-top: 1px solid black;
-}.endtext{
+	padding-top: 30px;
 
+}.endtext{
+	width: 50%;
 }
 ul{
-	margin: 2% 0% 2% 10%;
 	list-style-type: square;
 }li{
 	padding: 5px;
 }
 .services-info-img{
-margin-left: 15%;
+	width: 50%;
 }
 .copyright{
 	margin-top: 4%;
