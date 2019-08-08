@@ -152,8 +152,17 @@ p{
 
 .bottom{
 	padding-top: 15px;
+	padding-left:15px;
 }
 .phone{
 	padding-top:15px;
 
+}
+
+.wrapper{
+	padding:15px;
+}
+
+.services-header-img{
+	width:100%;
 }
