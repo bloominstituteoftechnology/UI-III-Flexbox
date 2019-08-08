@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	/* border: 1px solid grey !important; */
 }
 
 html, body {
@@ -64,3 +65,145 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	max-width: 880px;
+	margin: auto;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end; 
+	justify-content: space-evenly;
+	color: grey;
+	margin: 30px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-content: flex-end;
+	justify-content: space-between;
+	flex-flow: wrap;
+	padding: 70px;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	margin-top: 85px;
+}
+
+.btn {
+	font-size: 12px;
+	border: 1px solid black;
+	padding: 5px 8px;
+	width: 130px;
+	margin-left: 90px;
+}
+
+.top-content {
+	display: flex;
+	border-top: 2px solid black;
+}
+.content1 {
+	margin-top: 40px;
+}
+
+.middle-img {
+	display: flex;
+	margin-top: 40px;
+	width: 880px;
+}
+
+.bottom-content {
+	margin-top: 50px;
+	margin-bottom: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content2 {
+	width: 40%;
+}
+
+.contact {
+	border-top: 2px solid black;
+	margin-top: 50px;
+}
+footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+/* THIS IS FOR THE SERVICES PAGE */
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.serve {
+	font-size: 30px;
+	display: flex;
+	margin-top: 40px;
+}
+
+.resources p {
+	width: 100%;
+}
+.resources {
+	border-top: 1px solid black;
+	margin-top: 40px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.group1, .group2, .group3, .group4, .group5, .group6{
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 48%;
+	padding: 20px;
+	margin-top: 40px;
+	height: 230px;
+}
+
+.resources button {
+	width: 38%;
+	height: 18%;
+	margin-top: 19px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.facts {
+	border-top: 1px solid black;
+	margin-top: 40px;
+	display: flex;
+}
+
+.facts p {
+	width: 88%;
+}
+
+.facts h2 {
+	margin-top: 40px;
+}
+
+.facts ul {
+	margin-top: 20px;
+	margin-left: 20px;
+	list-style-type: disc;
+}
+.services-info-img {
+	margin-top: 40px;
+}
+
+footer p {
+	margin-top: 80px;
+}
