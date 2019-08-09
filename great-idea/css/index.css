@@ -192,7 +192,8 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-}.infobox{
+}
+.infobox{
 	border: 1px solid black;
 	padding: 2% 3%;
 	background-color: lightgray;
@@ -210,24 +211,26 @@ a{
 
 
 .end{
-	display: flex;
-	justify-content: space-between;
 	border-top: 1px solid black;
-	padding-top: 30px;
-
-}.endtext{
-	width: 50%;
+	padding-top: 16px;
+	max-width: 80%;
+	display:flex;
+	padding: 0px 30px:
+}
+.endtext{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 ul{
-	list-style-type: square;
-}li{
-	padding: 5px;
+	padding-top: 2%;
+	padding-bottom: 3%;
 }
-.services-info-img{
-	width: 50%;
+li{
+	  list-style-type: square;
+	  padding: 5px;
 }
 .copyright{
-	margin-top: 4%;
-	margin-bottom: 5%;
-	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
 }
