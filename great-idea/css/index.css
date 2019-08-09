@@ -168,7 +168,8 @@ hr {
 
 footer {
 	position: relative;
-	top: -100px;
+    top: -80px;
+    margin-top: 20px;
 	
 }
 .main-container {
@@ -185,6 +186,7 @@ img.services-header-img {
 	display: flex;
     justify-content: flex-end;
     width: 100%;
+    
 }
 
 .market {
@@ -208,8 +210,12 @@ div.foot-container {
 }
 .list1 {
 	
-	width: 20%;
-	display: flex;
+	width: 100%;
+    display: flex;
+    margin-top: 15px;
+    
+    justify-content: flex-start;
+    list-style-position: inside;
 }
  ul {
 	display: flex;
@@ -222,8 +228,11 @@ div.foot-container {
 .ulli {
 	
 	
-    margin-left: 50%;
-    width: 50%;
+    /* margin-left: 50%; */
+    width: 100%;
+    
+    margin-left: 20px;
+    
     
 }
 .ux {
@@ -283,4 +292,14 @@ button {
     
     
 }
+li {
+    
+    margin: 5px;
+    
+}
+img.services-info-img {
+    position: relative;
+    left: 7px;
+}
+
 
