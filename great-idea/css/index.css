@@ -381,14 +381,14 @@ p{
 	margin:10px 0;
 }
 .btn{
-	padding: 10px;
+    padding: 10px;
     width: 150px;
     margin: 10 px;
-    border: .5px solid black;
+    border: .5px solid grey;
     border-radius: 5px;
-    
+    background-color: whitesmoke;
     text-align: center;
-
+}
 
 .awesome {
 	display: flex;
@@ -400,7 +400,7 @@ ul {
 	flex-direction: column;
 	flex-grow: 1;
 	justify-content: space-around;
-	margin-left: 5%;
+	margin-left: 10%;
 }
 
 .facts {
