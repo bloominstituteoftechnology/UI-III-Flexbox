@@ -82,7 +82,8 @@ border-bottom: 2%;
   flex-direction: column;
   align-items: center;
   margin: 10%;
-  border: 2px solid blue;
+  border: 5px solid blue;
+  align-items: center;
 }
 
 
@@ -189,13 +190,15 @@ a:hover {
     color: cyan;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     font-size: 16px;
+    border: 4px solid gray;
+
   }
 
 
 /* ==========features-about-container =======features-about-container ========features-about-container == */
 .features-about-container {
 	width: 90%;
-	height: 150px;
+	height: auto;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -204,25 +207,31 @@ a:hover {
 	  /* border: 2px solid cyan; */
 	  /* background: lightcoral; */
 	  width: 45%;
-	  height: 120px; 
+	  height: auto; 
       margin-top: 10px;
   } 
   .features-heading:hover {
-      color: saddlebrown;
-      font-weight: bold;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+
+    
   }
    .about-heading {
 	/* border: 2px solid cyan; */
 	/* background: lightcoral; */
 	width: 45%;
-    height: 120px;
+    height: auto; 
     margin-top: 10px;
 	/* display: inline-block; */
     margin-left: 9%;
   } 
   .about-heading:hover {
-    color: saddlebrown;
-    font-weight: bold;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
   }
   /* ---- LONG PHOTO ------------LONG PHOTO ------------LONG PHOTO ------------LONG PHOTO ------ */
   /* .photo {
@@ -240,7 +249,7 @@ a:hover {
   */
   .photo {
     background: url(/Users/TimGrey/UI-III-Flexbox/great-idea/img/mid-page-accent.jpg);
-    width: 90%;
+    width: relative;
     /* border: 3px dashed hotpink; */
     /* margin-left: 5%; */
   }
@@ -248,7 +257,7 @@ a:hover {
 /* srvc-prod-vis-container --------------srvc-prod-vis-container --------------srvc-prod-vis-container -------------- */
 .srvc-prod-vis-container {
 	width: 90%;
-	height: 130px;
+    height: auto; 
 	/* border: 2px solid green; */
 	/* margin-left: 5%; */
 	margin-top: 30px;
@@ -260,37 +269,49 @@ a:hover {
 	/* border: 2px solid cyan; */
 	/* background: lightcoral; */
 	width: 300px;
-	height: 120px;
+    height: auto; 
+    padding:7px;
+
     display: inline-block;
 	/* margin-left: 5%; */
 }
 .services-heading:hover {
-    color: saddlebrown;
-    font-weight: bold;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
 }
 .products-heading {
 	/* border: 2px solid cyan; */
 	/* background: lightcoral; */
 	width: 300px;
-	height: 120px;
+    height: auto; 
+    padding:7px;
+
 	/* display: inline-block; */
 	/* margin-left: 5%; */
 }
 .products-heading:hover {
-    color: saddlebrown;
-    font-weight: bold;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
 }
 .vision-heading {
 	/* border: 2px solid cyan; */
 	/* background: lightcoral; */
 	width: 300px;
-	height: 120px;
+    height: auto; 
+    padding:7px;
+
 	/* display: inline-block; */
 	/* margin-left: 5%; */
 }
 .vision-heading:hover {
-    color: saddlebrown;
-    font-weight: bold;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
 }
 
   footer {
@@ -317,25 +338,30 @@ a:hover {
       align-items: center;
       margin: 10%;
       border: 2px solid blue;
+      align-items: center;
   }
  
 
   .header-services {
-      height: 100px;
+      height: auto;
       width: 68vw;
       display: flex; 
       flex-direction: column;
       border: 2px solid red;
       padding: 5px;
+      margin-top: 30px;
   }
-.services-heading2 {
-    font-size: 26px;
-}
+
 .header-services:hover {
 color: white;
 background: black;
-}
+border-radius: 10px;
+border: 1px solid black;
 
+}
+.services-heading2 {
+    font-size: 26px;
+}
 section {
     border: 2px solid cyan;
     width: 30%;
@@ -346,7 +372,7 @@ section {
 .topTwoBoxes {
     /* border: 4px solid blueviolet; */
     width: 79vw;
-    height: 220px;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     margin: 1% 0 1% 0;
@@ -355,15 +381,16 @@ section {
 .middleTwoBoxes {
     /* border: 4px solid blueviolet; */
     width: 79vw;
-    height: 220px;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
+    margin: 0 0 1% 0;
 
 }
 .lowerTwoBoxes {
     /* border: 4px solid blueviolet; */
     width: 79vw;
-    height: 220px;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
@@ -384,11 +411,19 @@ section {
     flex-direction: column;
     padding: 5px;
     border: 1px solid black;
+    height: auto;
+}
+.cyan-accent  h2:hover {
+    color: cyan;
 }
 .digital-design:hover {
     background: black;
     color: white;
     border-radius: 10px;
+    
+    }
+.digital-design h2:hover{
+    color: cyan;
 }
 /* ----------------------------------------------- */
 .ux-ui {
@@ -398,6 +433,8 @@ section {
     padding: 5px;
     width: 40%;
     border: 1px solid black;
+    height: auto;
+
 }
 .ux-ui:hover {
     background: black;
@@ -413,6 +450,8 @@ section {
     padding: 5px;
     width: 40%;
     border: 1px solid black;
+    height: auto;
+
 }
 .digital-marketing:hover {
     background: black;
@@ -427,6 +466,8 @@ section {
     padding: 5px;
     width: 40%;
     border: 1px solid black;
+    height: auto;
+
 }
 .web-dev:hover {
     background: black;
@@ -441,6 +482,8 @@ section {
     padding: 5px;
     width: 40%;
     border: 1px solid black;
+    height: auto;
+
 }
 .ios-dev:hover {
     background: black;
@@ -455,6 +498,8 @@ section {
     padding: 5px;
     width: 40%;
     border: 1px solid black;
+    height: auto;
+
 }
 .android-dev:hover {
     background: black;
@@ -478,9 +523,10 @@ section {
 /* ------------------------------------------------------- */
 .services-footer {
     width: 33vw;
-    height: 250px;
+    height: auto;
     border: 2px solid red;
     margin-right: 45px;
+    padding: 5px;
 }
 .services-footer:hover{
     background: black;
@@ -500,3 +546,38 @@ li:hover{
 margin-left: 20px;
 margin-bottom: 12px;
 } 
+/* ============== MEDIA============== MEDIA============== MEDIA============== MEDIA  */
+
+
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+
+    }
+
+  }
+
+ @media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }img{
+        display: none;
+    }
+  } 
+
+  @media only screen and (max-width: 900px) {
+    .photo {
+      margin-right: 200px;
+    }
+  }
+
+/* 
+  @media only screen and (max-width: 900px) {
+    .innovation-text-and-button  {
+        align-items: center;
+        margin-right: 70px;
+    }
+  } */
+
+  
+  
