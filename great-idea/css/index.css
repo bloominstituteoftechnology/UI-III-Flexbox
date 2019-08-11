@@ -163,7 +163,8 @@ a:hover {
   button {
 	width: 130px;
 	height: 30px;
-	margin-left: 50px;
+    margin-left: 50px;
+    border-radius: 4px;
   }
   button:hover {
 	  color: white;
@@ -314,12 +315,13 @@ a:hover {
       height: 100px;
       width: 68vw;
       display: flex; 
-      
       flex-direction: column;
       border: 2px solid red;
-
+      padding: 5px;
   }
-
+.services-heading2 {
+    font-size: 26px;
+}
 section {
     border: 2px solid cyan;
     width: 30%;
@@ -350,14 +352,23 @@ section {
     height: 220px;
     display: flex;
     justify-content: space-evenly;
-/* ---------------------------------------------------------------------- */
+    margin-bottom: 20px;
 }
+
+/* ---------------------------------------------------------------------- */
+
+.services-page-btn {
+    margin-right: 50px;
+    border: 3px solid red;
+}
+
+
 .digital-design {
     background: lightgray;
     width: 40%;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 5px;
     border: 1px solid black;
 
 
@@ -366,7 +377,7 @@ section {
     background: lightgray;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 5px;
     width: 40%;
     border: 1px solid black;
 
@@ -377,7 +388,7 @@ section {
     background: lightgray;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 5px;
     width: 40%;
     border: 1px solid black;
 
@@ -388,7 +399,7 @@ section {
     background: lightgray;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 5px;
     width: 40%;
     border: 1px solid black;
 
@@ -399,7 +410,7 @@ section {
     background: lightgray;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 5px;
     width: 40%;
     border: 1px solid black;
 
@@ -410,24 +421,28 @@ section {
     background: lightgray;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 5px;
     width: 40%;
     border: 1px solid black;
 
 
 }
 .border {
-    width: 80vw;
+    width: 68vw;
     border: 1px solid gray;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    /* margin-top: 10px; */
 }
 
 .lower-container {
     display: flex;
     margin-bottom: 100px;
+    border: 2px solid cyan;
+    margin-top: 15px;
 }
 .services-footer {
     width: 33vw;
+    height: 250px;
     border: 2px solid red;
     margin-right: 45px;
 }
@@ -435,4 +450,9 @@ section {
 
 .things {
     margin-top: 30px;
+}
+.things ul li {
+    list-style-type: square; 
+margin-left: 20px;
+margin-bottom: 12px;
 }
