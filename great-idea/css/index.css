@@ -113,22 +113,31 @@ margin-top: 1%;
     margin-top: 1%;
     font-weight: bold;
   }
-a:hover {
+  /*------------ a:hover ----------- a:hover ----------- a:hover } */
+  
+/* a:hover {
 	color: white;
 	width: 80px;
 	height: 30px;
 	background: gray;
-	/* border: 1px solid gray; */
     border-radius: 8px;
     margin-top: 1%;
     display: flex;
     justify-content: center;
-}
+} */
+
+
+a:hover {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+
+/* ----------- a:hover ----------- a:hover ----------- a:hover   */
+
 
   header {
 	width: 90%;
 	height: 400px;
-
 	/* margin-top: 70px; */
     padding-bottom: 80px;
     display: flex;
@@ -167,12 +176,22 @@ a:hover {
     margin-left: 50px;
     border-radius: 4px;
   }
-  button:hover {
+
+    /* First variation for hover----------irst variation for hover---------- */
+  /* button:hover {
 	  color: white;
 	  background: gray;
       border-radius: 8px;
       font-weight: bold;
+  } */
+
+  button:hover {
+    color: cyan;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 16px;
   }
+
+
 /* ==========features-about-container =======features-about-container ========features-about-container == */
 .features-about-container {
 	width: 90%;
@@ -312,6 +331,11 @@ a:hover {
 .services-heading2 {
     font-size: 26px;
 }
+.header-services:hover {
+color: white;
+background: black;
+}
+
 section {
     border: 2px solid cyan;
     width: 30%;
@@ -352,7 +376,7 @@ section {
     border: 3px solid red;
 }
 
-
+/* ----------------------------------------------- */
 .digital-design {
     background: lightgray;
     width: 40%;
@@ -360,9 +384,13 @@ section {
     flex-direction: column;
     padding: 5px;
     border: 1px solid black;
-
-
 }
+.digital-design:hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+/* ----------------------------------------------- */
 .ux-ui {
     background: lightgray;
     display: flex;
@@ -370,10 +398,14 @@ section {
     padding: 5px;
     width: 40%;
     border: 1px solid black;
-
-
+}
+.ux-ui:hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
 
 }
+/* ---------------------------------------------- */
 .digital-marketing {
     background: lightgray;
     display: flex;
@@ -381,10 +413,13 @@ section {
     padding: 5px;
     width: 40%;
     border: 1px solid black;
-
-
-
 }
+.digital-marketing:hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+/* ---------------------------------------------- */
 .web-dev {
     background: lightgray;
     display: flex;
@@ -392,10 +427,13 @@ section {
     padding: 5px;
     width: 40%;
     border: 1px solid black;
-
-
-
 }
+.web-dev:hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+/* ----------------------------------------------- */
 .ios-dev {
     background: lightgray;
     display: flex;
@@ -403,10 +441,13 @@ section {
     padding: 5px;
     width: 40%;
     border: 1px solid black;
-
-
-
 }
+.ios-dev:hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+/* ----------------------------------------------- */
 .android-dev {
     background: lightgray;
     display: flex;
@@ -414,9 +455,13 @@ section {
     padding: 5px;
     width: 40%;
     border: 1px solid black;
-
-
 }
+.android-dev:hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+/*  */
 .border {
     width: 68vw;
     border: 1px solid gray;
@@ -430,13 +475,22 @@ section {
     border: 2px solid cyan;
     margin-top: 15px;
 }
+/* ------------------------------------------------------- */
 .services-footer {
     width: 33vw;
     height: 250px;
     border: 2px solid red;
     margin-right: 45px;
 }
-
+.services-footer:hover{
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+li:hover{
+    color: cyan;
+}
+/* ------------------------------------------------------- */
 
 .things {
     margin-top: 30px;
@@ -445,4 +499,4 @@ section {
     list-style-type: square; 
 margin-left: 20px;
 margin-bottom: 12px;
-}
+} 
