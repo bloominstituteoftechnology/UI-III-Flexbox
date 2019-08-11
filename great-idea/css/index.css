@@ -306,26 +306,30 @@ a:hover {
       flex-direction: column;
       align-items: center;
       margin: 10%;
+      border: 2px solid blue;
   }
-
+ 
 
   .header-services {
       height: 100px;
+      width: 68vw;
       display: flex; 
+      
       flex-direction: column;
+      border: 2px solid red;
+
   }
 
 section {
-    /* border: 2px solid cyan; */
+    border: 2px solid cyan;
     width: 30%;
     height: 200px;
     display:flex;
-    /* border: 1px solid black; */
 }
 
 .topTwoBoxes {
     /* border: 4px solid blueviolet; */
-    width: 90%;
+    width: 79vw;
     height: 220px;
     display: flex;
     justify-content: space-evenly;
@@ -334,7 +338,7 @@ section {
 }
 .middleTwoBoxes {
     /* border: 4px solid blueviolet; */
-    width: 90%;
+    width: 79vw;
     height: 220px;
     display: flex;
     justify-content: space-evenly;
@@ -342,7 +346,7 @@ section {
 }
 .lowerTwoBoxes {
     /* border: 4px solid blueviolet; */
-    width: 90%;
+    width: 79vw;
     height: 220px;
     display: flex;
     justify-content: space-evenly;
@@ -354,6 +358,8 @@ section {
     display: flex;
     flex-direction: column;
     padding: 15px;
+    border: 1px solid black;
+
 
 }
 .ux-ui {
@@ -362,6 +368,8 @@ section {
     flex-direction: column;
     padding: 15px;
     width: 40%;
+    border: 1px solid black;
+
 
 
 }
@@ -371,6 +379,8 @@ section {
     flex-direction: column;
     padding: 15px;
     width: 40%;
+    border: 1px solid black;
+
 
 
 }
@@ -380,6 +390,8 @@ section {
     flex-direction: column;
     padding: 15px;
     width: 40%;
+    border: 1px solid black;
+
 
 
 }
@@ -389,6 +401,8 @@ section {
     flex-direction: column;
     padding: 15px;
     width: 40%;
+    border: 1px solid black;
+
 
 
 }
@@ -398,6 +412,8 @@ section {
     flex-direction: column;
     padding: 15px;
     width: 40%;
+    border: 1px solid black;
+
 
 }
 .border {
@@ -408,4 +424,15 @@ section {
 
 .lower-container {
     display: flex;
+    margin-bottom: 100px;
+}
+.services-footer {
+    width: 33vw;
+    border: 2px solid red;
+    margin-right: 45px;
+}
+
+
+.things {
+    margin-top: 30px;
 }
