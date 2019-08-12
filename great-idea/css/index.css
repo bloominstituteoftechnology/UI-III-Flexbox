@@ -82,7 +82,7 @@ border-bottom: 2%;
   flex-direction: column;
   align-items: center;
   margin: 10%;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
   align-items: center;
 }
 
@@ -128,10 +128,17 @@ margin-top: 1%;
 } */
 
 
-a:hover {
+/* a:hover {
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-  }
+  } */
+a:hover { 
+  color: cyan;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-size: 16px;
+  /* border: 1px solid gray; */
+  border-radius: 8px;
+}
 
 /* ----------- a:hover ----------- a:hover ----------- a:hover   */
 
@@ -203,20 +210,25 @@ a:hover {
     display: flex;
     justify-content: center;
   }   
+
+
+ 
+
+
+
   .features-heading {
-	  /* border: 2px solid cyan; */
-	  /* background: lightcoral; */
 	  width: 45%;
 	  height: auto; 
       margin-top: 10px;
   } 
+
   .features-heading:hover {
     background: black;
     color: white;
+    border: 1px solid cyan;
     border-radius: 10px;
-    padding: 7px;
+    padding: 7px;  
 
-    
   }
    .about-heading {
 	/* border: 2px solid cyan; */
@@ -232,6 +244,8 @@ a:hover {
     color: white;
     border-radius: 10px;
     padding: 7px;
+    border: 2px solid cyan;
+
   }
   /* ---- LONG PHOTO ------------LONG PHOTO ------------LONG PHOTO ------------LONG PHOTO ------ */
   /* .photo {
@@ -254,6 +268,8 @@ a:hover {
     /* margin-left: 5%; */
   }
 
+
+  
 /* srvc-prod-vis-container --------------srvc-prod-vis-container --------------srvc-prod-vis-container -------------- */
 .srvc-prod-vis-container {
 	width: 90%;
@@ -280,6 +296,8 @@ a:hover {
     color: white;
     border-radius: 10px;
     padding: 7px;
+    border: 2px solid cyan;
+
 }
 .products-heading {
 	/* border: 2px solid cyan; */
@@ -296,6 +314,8 @@ a:hover {
     color: white;
     border-radius: 10px;
     padding: 7px;
+    border: 2px solid cyan;
+
 }
 .vision-heading {
 	/* border: 2px solid cyan; */
@@ -312,6 +332,8 @@ a:hover {
     color: white;
     border-radius: 10px;
     padding: 7px;
+    border: 2px solid cyan;
+
 }
 
   footer {
@@ -337,7 +359,7 @@ a:hover {
       flex-direction: column;
       align-items: center;
       margin: 10%;
-      border: 2px solid blue;
+      /* border: 2px solid blue; */
       align-items: center;
   }
  
@@ -347,7 +369,7 @@ a:hover {
       width: 68vw;
       display: flex; 
       flex-direction: column;
-      border: 2px solid red;
+      /* border: 2px solid red; */
       padding: 5px;
       margin-top: 30px;
   }
@@ -356,14 +378,15 @@ a:hover {
 color: white;
 background: black;
 border-radius: 10px;
-border: 1px solid black;
+border: 2px solid cyan;
+
 
 }
 .services-heading2 {
     font-size: 26px;
 }
 section {
-    border: 2px solid cyan;
+    /* border: 2px solid cyan;ß */
     width: 30%;
     height: 200px;
     display:flex;
@@ -415,15 +438,19 @@ section {
 }
 .cyan-accent  h2:hover {
     color: cyan;
+    
 }
 .digital-design:hover {
     background: black;
     color: white;
     border-radius: 10px;
+    border: 2px solid cyan;
+
     
     }
 .digital-design h2:hover{
     color: cyan;
+
 }
 /* ----------------------------------------------- */
 .ux-ui {
@@ -440,6 +467,8 @@ section {
     background: black;
     color: white;
     border-radius: 10px;
+    border: 2px solid cyan;
+
 
 }
 /* ---------------------------------------------- */
@@ -457,6 +486,8 @@ section {
     background: black;
     color: white;
     border-radius: 10px;
+    border: 2px solid cyan;
+
 }
 /* ---------------------------------------------- */
 .web-dev {
@@ -473,6 +504,8 @@ section {
     background: black;
     color: white;
     border-radius: 10px;
+    border: 2px solid cyan;
+
 }
 /* ----------------------------------------------- */
 .ios-dev {
@@ -489,6 +522,8 @@ section {
     background: black;
     color: white;
     border-radius: 10px;
+    border: 2px solid cyan;
+
 }
 /* ----------------------------------------------- */
 .android-dev {
@@ -505,6 +540,8 @@ section {
     background: black;
     color: white;
     border-radius: 10px;
+    border: 2px solid cyan;
+
 }
 /*  */
 .border {
@@ -517,14 +554,14 @@ section {
 .lower-container {
     display: flex;
     margin-bottom: 100px;
-    border: 2px solid cyan;
+    /* border: 2px solid cyan; */
     margin-top: 15px;
 }
 /* ------------------------------------------------------- */
 .services-footer {
     width: 33vw;
     height: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-right: 45px;
     padding: 5px;
 }
@@ -532,9 +569,12 @@ section {
     background: black;
     color: white;
     border-radius: 10px;
+    border: 2px solid cyan;
+
 }
 li:hover{
     color: cyan;
+    
 }
 /* ------------------------------------------------------- */
 
@@ -546,6 +586,56 @@ li:hover{
 margin-left: 20px;
 margin-bottom: 12px;
 } 
+
+
+/* ////////   PHOTO FLIPPER  ///////////HOTO FLIPPER  ///////////HOTO FLIPPER  /////////// */
+.card-container2 {
+    height: 300px;
+    width: 420px;
+    perspective: 600;
+    position: relative;
+    border: 1px solid black;
+    background: gray;
+    text-align: center;
+    margin-top: 50px;
+   /* margin: 20px; */
+    font-size: 18px;
+    color: white;
+  }
+  .card-container2:hover {
+    background: black;
+    border-radius: 20px;
+    border: 2px solid cyan;
+
+  }
+  .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+  }
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  .card .side {
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .card .back {
+    transform: rotateY(180deg);
+  }
+  
+  .chat {
+      margin-right: 40px;
+  }
+
+
+
+
+
 /* ============== MEDIA============== MEDIA============== MEDIA============== MEDIA  */
 
 
