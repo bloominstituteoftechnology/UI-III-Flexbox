@@ -198,6 +198,13 @@ button p:hover {
 		top: -70px;
 	}
 
+	.logo1 {
+		position: absolute;
+		top: -60px;
+		left: 300px;
+		
+	}
+
 
 	.code {
 		display: none;
@@ -206,6 +213,12 @@ button p:hover {
 	.head {
 		display: flex;
 		justify-content: center;
+	}
+
+	.services-header-img{
+		display: flex;
+		justify-content: center;
+		margin-left: 0;
 	}
 
 	@media (max-width: 560px) {
