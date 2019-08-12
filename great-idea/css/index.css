@@ -166,7 +166,7 @@ button {
 }
 
 @media (max-width: 900px) {
-
+	
 	.nav {
 		display: flex;
 		position: relative;
@@ -174,12 +174,15 @@ button {
 
 	}
 
+	.nav a:hover {
+		color: blue;
+	}
+
+
 	.logo  {
 		position: absolute;
 		top: -70px;
-		right: 320px;
 	}
-
 
 
 	.code {
@@ -190,4 +193,57 @@ button {
 		display: flex;
 		justify-content: center;
 	}
-}
+
+	@media (max-width: 560px) {
+
+		.nav {
+			font-size: 25px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			position: relative;
+			margin-top: 80px;
+			border-bottom: 1px solid black;
+		}
+
+		.nav a {
+			width: 100%;
+			padding: 20px;
+			text-align: center;
+			border-top: 1px solid black;
+		}
+	
+		.nav a:hover {
+			color: blue;
+		}
+
+		.logo  {
+			width: 40%;
+			position: absolute;
+			top: -70px;
+		}
+
+		.container-1 {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.container-1 #about {
+			position: relative;
+			margin-left: 50px;
+			padding-top: 25px;
+		}
+
+		.container-2 {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.container-2 #product, #vision{
+			padding-top: 25px;
+		}
+
+
+		
+	}
+		
