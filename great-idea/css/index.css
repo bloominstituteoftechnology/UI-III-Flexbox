@@ -164,3 +164,9 @@ button {
 .services-info-img {
 	margin-right: 50px;
 }
+
+@media (max-width: 800px) {
+	.logo {
+		display: none;
+	}
+}
