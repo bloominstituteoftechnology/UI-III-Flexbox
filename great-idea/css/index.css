@@ -703,3 +703,26 @@ div #content{
           display: none;
       }
   }
+
+  @media only screen and (max-width: 900px) {
+    .services-header-img {
+        display: none;
+    }
+}
+
+
+/* =================================== */
+/*  Onload gives logo animation */
+#logo {
+    /* margin-top: 50px; */
+    margin-left: 5vw;
+    /* width: 120px; */
+    height: 40px;
+    background-color: cyan;
+    border-radius: 20px;
+    transition: 4s;
+    line-height: 40px;
+    text-align: center;
+    padding: 5px;
+  }
+  
