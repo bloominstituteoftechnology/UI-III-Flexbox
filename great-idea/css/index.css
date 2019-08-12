@@ -633,43 +633,6 @@ margin-bottom: 12px;
   } 
 
 
-
-
-
-/* ============== MEDIA============== MEDIA============== MEDIA============== MEDIA  */
-
-
-@media only screen and (max-width: 900px) {
-    body {
-      background-color: lightblue;
-
-    }
-
-  }
-
- @media only screen and (max-width: 900px) {
-    body {
-      background-color: lightblue;
-    }img{
-        display: none;
-    }
-  } 
-
-  @media only screen and (max-width: 900px) {
-    .photo {
-      margin-right: 200px;
-    }
-  }
-
-
-  @media only screen and (max-width: 900px) {
-    .innovation-text-and-button  {
-        align-items: center;
-        margin-right: 70px;
-    }
-  } 
-
-
   
   /* CHAT -------CHAT -------CHAT ------- */
   
@@ -704,3 +667,39 @@ div #content{
 
 
   
+/* ============== MEDIA============== MEDIA============== MEDIA============== MEDIA  */
+
+
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+
+    }
+
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .photo {
+      margin-right: 200px;
+    }
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .innovation-text-and-button  {
+        align-items: center;
+        margin-right: 70px;
+    }
+  } 
+  @media only screen and (max-width: 900px) {
+    .services-footer {
+       display: none;
+    }
+  } 
+
+  @media only screen and (max-width: 900px) {
+      .services-header-img {
+          display: none;
+      }
+  }
