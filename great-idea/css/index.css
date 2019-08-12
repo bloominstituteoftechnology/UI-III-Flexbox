@@ -165,8 +165,29 @@ button {
 	margin-right: 50px;
 }
 
-@media (max-width: 800px) {
-	.logo {
+@media (max-width: 900px) {
+
+	.nav {
+		display: flex;
+		position: relative;
+		margin-top: 80px;
+
+	}
+
+	.logo  {
+		position: absolute;
+		top: -70px;
+		right: 320px;
+	}
+
+
+
+	.code {
 		display: none;
+	}
+
+	.head {
+		display: flex;
+		justify-content: center;
 	}
 }
