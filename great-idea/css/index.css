@@ -628,9 +628,9 @@ margin-bottom: 12px;
     transform: rotateY(180deg);
   }
   
-  .chat {
-      margin-right: 40px;
-  }
+   .chat {
+      margin-right: 50px;
+  } 
 
 
 
@@ -661,13 +661,46 @@ margin-bottom: 12px;
     }
   }
 
-/* 
+
   @media only screen and (max-width: 900px) {
     .innovation-text-and-button  {
         align-items: center;
         margin-right: 70px;
     }
-  } */
+  } 
+
 
   
+  /* CHAT -------CHAT -------CHAT ------- */
+  
+
+  div#content {
+    display: none;
+  }
+  button:hover + div#content {
+    display: block;
+  }
+  
+
+.closed {
+    color: red;
+    width: 120px;
+    height: 35x;
+}
+/* ================================ */
+div #content{
+    /* width: 200px; */
+    /* height: 30px; */
+    /* font-size: 24px; */
+    /* color: white; */
+    /* background: red; */
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  @keyframes mymove {
+    from {left: -120px;}
+    to {left: 130px;}
+  }
+
+
   
