@@ -75,17 +75,19 @@ header{
 	margin: 20px auto;
 	align-content: space-between;
 	justify-content: space-evenly;
-	height: 60%;
-	
+	height: 60%;	
 }
+
+.logo1{display:none;}
 
 nav{
 	display: flex;
 	color: silver;
-	text-decoration: none;
 	justify-content: space-around;
 	align-items: baseline;
 }
+
+.navigation a{text-decoration: none;}
 
 h1{
 	font-size: 25px;
@@ -155,8 +157,7 @@ h3{
 	flex-direction: column;
 	flex-wrap: wrap;
 	width: 40%;
-	align-content: center;
-	 
+	align-content: center; 
 }
 
 .text p{
@@ -169,9 +170,23 @@ h3{
 	margin-top: 15px;
 	margin-left: 20px;
 	list-style-type: circle;
-	
 }
 
 footer{
 	text-align: center;
+}
+
+@media screen and (max-width: 800px){
+	body{width: 90%;}
+	/*nav*/
+	.services-header-img{overflow: hidden; display: block; width: 100%; 
+	height: auto;}
+	.logo1{display: flex; justify-content: center; width: 30%; height: auto;}
+	nav .logo{display: none;}
+	/*body information*/
+	.information{flex-direction: column;}
+	.information div{width: 100%;}
+	}
+	/*bottom*/
+	.services-info-img{align-content: center; width: 50%; height: auto;}
 }
