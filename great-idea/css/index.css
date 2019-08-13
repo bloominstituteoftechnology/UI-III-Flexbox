@@ -197,7 +197,6 @@ a:hover {
     color: cyan;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     font-size: 16px;
-    border: 4px solid gray;
 
   }
 
@@ -263,7 +262,8 @@ a:hover {
   */
   .photo {
     background: url(/Users/TimGrey/UI-III-Flexbox/great-idea/img/mid-page-accent.jpg);
-    width: relative;
+    /* width: relative; */
+    width: 80vw;
     /* border: 3px dashed hotpink; */
     /* margin-left: 5%; */
   }
@@ -695,7 +695,7 @@ div #content{
       background-color: lightblue;
     }
   } */
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 900px) { XXXXXXXXXXXXXXXXXXX
     .photo {
       display: none;
     }
@@ -711,11 +711,7 @@ div #content{
        display: none;
     }
   } 
-  @media only screen and (max-width: 900px) {
-      .services-header-img {
-          display: none;
-      }
-  }
+ 
   @media only screen and (max-width: 900px) {
     .services-header-img {
         display: none;
@@ -734,3 +730,17 @@ div #content{
         width: 80px;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    button:hover{
+        color: cyan;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        font-size: 16px;
+        width: 120px;
+        height: 35px;
+    }
+}
+
+
+
+
