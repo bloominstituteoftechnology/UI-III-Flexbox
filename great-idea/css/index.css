@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+                    	 /*    TOP     */
+
+header{
+	display: flex;
+	flex-flow: column wrap;
+	width: 80%;
+	border-bottom: solid black 1px;	
+	margin: 20px auto;
+	align-content: space-between;
+	justify-content: space-evenly;
+	height: 60%;
+	
+}
+
+nav{
+	display: flex;
+	color: silver;
+	text-decoration: none;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+h1{
+	font-size: 25px;
+}
+
+.services{
+	padding-bottom: 25px;
+}
+
+						/*     MIDDLE    */
+
+.information{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 0 auto;
+	align-items: center;
+	align-content: space-between;
+}
+
+.information div{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: gainsboro;
+	width: 35%;
+	height: 50%;
+	padding: 20px 20px;
+	margin: 20px auto;
+	justify-items: space-between;
+	
+}
+
+h2{
+	font-size: 20px;
+}
+
+div button{
+	border: solid black 1px;
+	background-color: #fff;
+	font-size: 12px;
+	padding: 9px 35px;
+	margin: 9px;
+	border-radius: 4px;
+	align-self: flex-start;
+}
+
+						/*    BOTTOM    */
+
+h3{
+	font-weight: bold;
+	padding: 5px;
+}
+.ourServices{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+	height: 50%;
+	width: 80%;
+	margin: 0 auto;
+	border-top: 1px solid black;
+}
+
+.ourServices .text {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 40%;
+	align-content: center;
+	 
+}
+
+.text p{
+	margin: 5px 0;
+}
+
+.ourServices ol{
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	margin-left: 20px;
+	list-style-type: circle;
+	
+}
+
+footer{
+	text-align: center;
+}
