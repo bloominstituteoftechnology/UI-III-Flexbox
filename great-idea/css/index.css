@@ -64,3 +64,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.top-div {
+	
+}
+
+.top-nav .a-nav {
+	text-decoration: none;
+	color: gray;
+}
+
+.top-nav {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+}
+
+.top-content {
+	display: flex;
+	justify-content: center;
+}
+
+.title {
+	font-size: 90px;
+}
+
+.el-button{
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
