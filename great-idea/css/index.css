@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+width: 900px; 
+margin: 0 auto;
+} 
+
+nav {
+display: flex;
+}
+
+nav a{	
+justify-content: space-between;
+width: 600px;
+margin-top: 30px;
+margin-left: 15px;
+text-decoration: none;
+color: lightgrey;
+margin-bottom: 50px;
+}
+
+.logo {
+margin-right: 20px;
+margin-top: 20px;
+height: 40px;
+width: 160px;
+}
+
+h1 {
+font-size: 80px;	
+}
+
+.innovation {
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-around; 
+	}
+
+.innoandbutton {
+	margin-top: 50px;
+	text-align: center;
+}
+button {
+margin-left: 30px;
+width: 200px;
+height: 40px;
+border: 1px solid black;
+background: white;
+	}
+	
+.content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h2 {
+font-size:18px;
+}
+
+.topcontent {
+display: flex;
+justify-content: space-around;
+margin-bottom: 15px;
+margin-top: 35px;
+}
+
+.content-first-left{
+	width: 440px;
+	height: 100px;
+
+}
+
+.content-first-right{
+	width: 440px;
+	height: 100px;
+	
+}
+
+.bottomcontent {
+	display: flex;
+	justify-content: space-around;
+	
+	}
+
+	.content-second {
+		margin-top: 30px;
+		width: 290px;
+		height: 150px;
+	}
+
+
+.middle-img{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ footer {
+	margin-top: 60px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top:35px;
+	margin-bottom: 35px;
+}
