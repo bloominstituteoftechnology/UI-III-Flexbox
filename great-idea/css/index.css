@@ -64,3 +64,182 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Titillium Web';
+}
+
+
+
+
+header {
+     display: flex;
+     justify-content: space-around;
+     margin: 50px;
+	 height: 850px;
+	 border-bottom: 2px groove black;
+}
+
+
+nav .nav-links{
+  display: flex;
+  margin: 35px;
+  
+  
+    
+}
+
+nav a {
+    text-decoration: none;
+    margin: 50px;
+   
+    color: #d3d3d3;
+    font-size: 18px;
+    font-family:  'Titillium Web'; 
+}
+
+.logo {
+    height: 50px;
+	display: flex;
+    margin:  25px 75px 15px 0px;
+}
+
+
+
+button {
+    color: black;
+    background-color: white;
+    font-family:  'Titillium Web'; 
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+	border: 1px groove black;
+	margin-left: 100px;
+	margin-top: 20px;
+    
+    
+}
+
+h1 {
+    font-family: 'Bangers';
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 5px;
+   
+}
+
+.header-info {
+  
+   
+	position: absolute;
+    top: 320px;
+	left: 250px;
+	width: 420px;
+    
+  
+}
+
+
+h2 {
+    font-family: 'Bangers';
+    font-size: 20px;
+}
+
+.header-image {
+	
+	position: absolute;
+    top: 200px;
+    right: 150px;
+    height: 550px;
+    
+
+}
+
+.main {
+    border-bottom: 2px groove black;
+    margin-bottom: 30px;
+	height: 800px;
+	margin: 50px;
+}
+
+
+
+.features {
+    float: left;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.about {
+    float: right;
+    width: 500px; 
+    margin-right: 60px; 
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+p {
+      font-size: 18px;
+      font-weight: lighter;
+      color: black;
+      margin-top: 20px;
+      
+  }  
+  
+  .middle-img {
+      width: 1500px;
+      height: 200px;
+	  margin: 20px 15px;
+	  
+	  
+     
+  }
+
+  
+
+#vision{
+    display: column;
+    
+    width: 350px;
+    margin-left: 1100px;
+    
+    margin-top: -130px;
+}
+
+footer {
+	margin-left: 100px;
+	
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer address {
+    font-family:  'Titillium Web';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#product{
+    display: column;
+    width: 350px;
+    margin-left: 600px;
+    margin-top: -132px;
+}
+
+#services{
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+}
