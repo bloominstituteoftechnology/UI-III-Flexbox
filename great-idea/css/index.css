@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 body {
 	margin: 0 auto;
-	width: 1024px;
+	width: 880px;
 }
 
 h1 {
@@ -77,9 +77,9 @@ h1 {
 
 .content-title {
 	font-size: 20px;
-	font-family: 'Yellowtail', cursive;
+	font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 /*Navigation bar*/
@@ -89,12 +89,13 @@ h1 {
 	z-index: 100;
 	position: sticky;
 	top: 0;
-	background-color: lightgray;
-	padding-bottom: 40px;
+	background-color: white;
+	padding-bottom: 0px;
+	padding-top: 20px;
 }
 
 nav {
-	text-align: center;
+	text-align: left;
 	display: inline-block;
 	width: 100%;
 	margin: 0 auto;
@@ -102,23 +103,25 @@ nav {
 
 .links {
 	display: inline;
-
 }
 
 a {
-	color: black;
+	color: #a7a7a7;
 	text-decoration: none;
-	text-align: center;
-	padding: 0 39px;
+	text-align: left;
+	padding: 0 53px 0 0;
 }
 
+
+
 a:hover {
-	color: white;
+	color: black;
 }
 
 .logo {
 	top: 50%;
-	transform: translateY(50%);
+	transform: translateY(30%);
+	transform: translateX(30%);
 }
 
 /*Welcome Content*/
@@ -209,3 +212,71 @@ footer {
 
 /* FLEX BOX PROJECT */
 
+.services-header-img {
+	width: 100%;
+	padding-bottom: 35px;
+}
+
+.services-top-content h2 {
+	font-size: 30px;
+}
+
+.services-top-content {
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.all-containers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	padding-bottom: 40px;
+}
+
+.container {
+	display: flex;
+	background: #f4f3f4;
+	border: 1px solid black;
+	margin: 40px 0px 10px 0px;
+	height: 250px;
+	width: 420px;
+}
+
+.container-title h3 {
+	font-size: 20px;
+	margin: 20px 20px ;
+}
+
+.container-title p {
+	margin: 20px 20px;
+}
+
+.container button {
+	border-radius: 5px;
+	padding: 5px 35px;
+	margin: 10px 20px;
+}
+
+.container-bottom {
+	display: inline-block;
+	height: 250px;
+	width: 420px;
+}
+
+.services-info-img {
+	display: inline-block;
+	margin: 0 0 0 36px;
+}
+
+.lower-containers {
+	padding-top: 40px;
+	display: inline-block;
+}
+
+ul {
+	list-style: square;
+	margin: 0 0 0 20px;
+	line-height: 30px;
+
+}
