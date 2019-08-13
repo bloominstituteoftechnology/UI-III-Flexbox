@@ -206,14 +206,12 @@ h1, h2, h3, h4, h5 {
   .content-1 {
 	display: flex;
 	border-top: 1px solid black;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	justify-content: space-between;
+	padding: 50px 0px 50px 0px;
+	justify-content: center;
   }
   
-  .half-content {
-	width: 50%;
-	display: inline-block;
+  .child {
+	  padding-right: 50px;
   }
   
   .image-stretch img {
@@ -221,7 +219,7 @@ h1, h2, h3, h4, h5 {
   }
   
   .content-2 {
-	display: inline-block;
+	display: flex;
 	border-bottom: 1px solid black;
 	margin-top: 50px;
 	padding-bottom: 50px;
@@ -237,8 +235,6 @@ h1, h2, h3, h4, h5 {
   }
   
   .third-content {
-	width: 33%;
-	display: inline-block;
 	padding: 5px;
   }
   
