@@ -72,26 +72,31 @@ h3{
 
 header{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	margin-top: 2vh;
-	margin-left: 5vmin;
+	margin-left: 2.5vmin;
 }
 
-header img{
+/* header img{
+	margin-top: -1vh;
+	height: 5.5vh;
+} */
+
+.logo{
 	margin-top: -1vh;
 	height: 5.5vh;
 }
 
 nav{
 	font-size: 3vmin;
-	margin: 3vh 5vw 4vh 1vw;
+	margin-right: 3vw;
 }
 
 nav a{
 	color:  #7e7373a4;
 	text-decoration: none;
-	margin: 2vh 3.5vw;
+	margin: 2vh 4vw;
 }
 
 nav a:visited{
@@ -157,12 +162,27 @@ nav a:visited{
 
 
 .first-row{
-	width: 30vw;
-} 
+	display: flex;
+	flex-basis: 80vw;
+	justify-content: space-evenly;
+}
+
+.first-row section{
+	margin-left: 1vw;
+}
+
 
 .second-row{
-	flex-basis: 14vw;
+	flex-basis: 80vw;
+	display: flex;
+	/* margin-left: 7vw; */
+	/* padding-right: 3vw; */
 }
+
+.second-row section{
+	margin-left: 1vw;
+}
+
 
 /* Footer */
 footer{
@@ -185,4 +205,106 @@ address{
 
 .copyright{
 	text-align: center;
+}
+
+
+/* Services Page */
+
+/* Services Intro */
+.services-intro{
+	display: flex;
+	flex-direction: column;
+	width: 90vw;
+	margin-top: 5vmin;
+	margin-left: 4.5vmax;
+	padding-bottom: 8vh;
+	border-bottom: 2px black solid;
+}
+
+.services-intro h1{
+	margin-top: 4vh;
+	font-size: 5.5vh;
+}
+
+.services-intro p{
+	font-size: 3vh;
+	font-weight: 600;
+	line-height: 1.5em;
+}
+
+/* Services Details Boxes */
+.services-container{
+	margin: 5vh 4.5vw;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 90vw;
+	border-bottom: 2px black solid;
+}
+
+.service-box{
+	border: 2px black solid;
+	width: 44vw;
+	margin: 1vw 0vh;
+	background: rgb(240, 238, 248);
+	padding: 1.6vw;
+}
+
+.service-box h2{
+	font-size: 3.8vh;
+}
+
+.service-box p{
+	font-size: 3.5vh;
+	line-height: 1.25em;
+}
+
+.service-box button{
+	font-size: 1.8vmin;
+	background: white;
+	border: 1.4px solid black;
+	border-radius: 3.5px;
+	padding: 2vmin 3.5vmin;
+	margin-top: 1vmax;
+}
+
+/* Some Facts */
+.some-facts-container{
+	margin: 5vh 4.5vw;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 90vw;
+}
+
+.some-facts{
+	width: 40vw;
+	font-size: 3.5vh;
+}
+
+.some-facts h2{
+	font-size: 3.8vh;
+}
+
+.some-facts p{
+	line-height: 1.15em;
+}
+
+.some-facts ul{
+	list-style: square;
+	list-style-position: inside;
+	margin-top: 6vh;
+	line-height: 2em;
+}
+
+.some-facts-container img{
+	width: 43vw;
+}
+
+.copyright-at-services{
+	margin-top: 15vh;
+	text-align: center;
+	font-size: 3.5vh;
+	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
 }
