@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* header */
+h3{
+	font-size: 3vmin;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2vh;
+	margin-left: 5vmin;
+}
+
+header img{
+	margin-top: -1vh;
+	height: 5.5vh;
+}
+
+nav{
+	font-size: 3vmin;
+	margin: 3vh 5vw 4vh 1vw;
+}
+
+nav a{
+	color:  #7e7373a4;
+	text-decoration: none;
+	margin: 2vh 3.5vw;
+}
+
+nav a:visited{
+	color: #7e7373a4;
+}
+
+/* Hero Card */
+.hero{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 9.6vw;
+	margin-top: 4vh;
+	padding-bottom: 10vh;
+	border-bottom: 3px black solid;
+	padding-top: 5vh;
+	font-size: 3vmin;
+}
+
+.hero-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hero h1{
+	font-size: 14vmin;
+	text-align: center;
+}
+
+.hero button{
+	font-size: 4vmin;
+	background: white;
+	height: 8vh;
+	width: 18vw;
+	border-style: solid;
+	border-color: black;
+}
+
+
+/* Info Section */
+.info-section{
+	margin-top: -8vh;
+	margin-bottom: 12vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+
+.inline-section p{
+	display: inline-block;
+	font-size: 2.25vmin;
+	line-height: 1.25em;
+}
+
+.middle-img{
+	width: 100vw;
+	padding: 2vh 10vw;
+}
+
+
+.first-row{
+	width: 30vw;
+} 
+
+.second-row{
+	flex-basis: 14vw;
+}
+
+/* Footer */
+footer{
+	display: flex;
+	flex-direction: column;
+	margin: 5vh 10vw 0vh;
+	border-top: 3px black solid;
+	padding-top: 5vh;
+	font-size: 3vmin;
+}
+
+address{
+	padding-top: 1em;
+}
+
+.communications{
+	margin-top: 1em;
+	line-height: 2em;
+}
+
+.copyright{
+	text-align: center;
+}
