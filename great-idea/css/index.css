@@ -64,3 +64,200 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 80%;
+	margin: auto;
+  }
+  
+  .header-content {
+	display: flex;
+	width: 100%;
+	font-size: 0;
+	margin-top: 50px;
+	align-content: center;
+  }
+  
+  nav a {
+	color: grey;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+	margin: 100px 80px 0px 0px;
+  }
+  
+  .nav-bar {
+	width: 80%;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	align-content: center;
+  }
+  
+  nav ul {
+	list-style: none;
+  }
+  
+  nav ul li {
+	display: inline-block;
+  }
+  
+  nav ul li a {
+	display: block;
+	padding: 30px;
+	text-decoration: none;
+	color: #aaa;
+	font-weight: 800;
+	margin: 0 10px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+	transition: all 0.5s;
+  }
+  nav ul li a:hover {
+	color: #555;
+  }
+  
+  nav.stroke ul li a {
+	position: relative;
+  }
+  nav.stroke ul li a:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background: #aaa;
+	height: 1px;
+  }
+  nav.stroke ul li a:hover:after {
+	width: 60%;
+  }
+  
+ .logo {
+	align-self: center;
+	margin-bottom: 80px;
+	padding-top: 20px;
+  }
+  
+  .main-content h1 {
+	font-size: 92px;
+	text-align: center;
+  }
+  
+  .main-content-container p {
+	font-family: 'Montserrat', sans-serif;
+  }
+  
+  .main-content {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 80px;
+  }
+  
+  .content-left {
+	flex-direction: column;
+	text-align: center;
+  }
+  
+  
+  .button {
+	padding: 10px 50px;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid black;
+	cursor: pointer;
+	user-select: none;
+	color: black;
+	transition: all 0.5s;
+	font-size: 18px;
+  }
+  
+  .button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .button:hover span {
+	padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+  
+  .content-1 {
+	display: flex;
+	border-top: 1px solid black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	justify-content: space-between;
+  }
+  
+  .half-content {
+	width: 50%;
+	display: inline-block;
+  }
+  
+  .image-stretch img {
+	width: 100%;
+  }
+  
+  .content-2 {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	font-size: 0;
+  }
+  
+  h2 {
+	font-size: 18px;
+  }
+  p {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+  }
+  
+  .third-content {
+	width: 33%;
+	display: inline-block;
+	padding: 5px;
+  }
+  
+  footer p {
+	text-align: center;
+	font-size: 14px;
+	margin: 120px auto;
+  }
+  
+  footer {
+	margin-top: 40px;
+  }
+  
+  .address {
+	margin-bottom: 20px;
+	text-decoration: none;
+  }
+  
+  .phone {
+	margin-bottom: 20px;
+	text-decoration: none;
+  }
