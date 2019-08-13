@@ -179,6 +179,11 @@ h5 {
   animation-direction: alternate;
 }
 
+#nav-logo a:hover {
+  animation-name: none;
+  border: none;
+  padding: 0px;
+}
 .sticky {
   position: fixed;
   padding-top: 55px;
@@ -217,6 +222,17 @@ h5 {
 	flex-flow: column wrap;
 	align-content: center;
 	margin: 20px;
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.services-header-img {
+  width: 100%;
 }
 
 button {
@@ -262,6 +278,24 @@ button {
 	display: flex;
 	margin: 20px 0px;
 }
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+.services-title {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.service-block {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 20px;
+}
 /*
   =========================
 	  Footer Content
@@ -274,4 +308,26 @@ address {
 .copyright {
 	display: flex;
 	justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.services-img {
+  display: flex;
+  justify-content: center;
+}
+
+.services-copyright {
+  display: flex;
+  justify-content: center;
 }
