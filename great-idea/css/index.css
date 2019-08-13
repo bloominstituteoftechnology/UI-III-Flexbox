@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Home Page */
+
 nav {
 	margin: 20px;
 	padding: 20px;
@@ -97,7 +100,7 @@ h1 {
 
 }
 
-button {
+.home-button {
 	height: 60px;
 	width: 200px;
 	margin: 30px 300px;
@@ -146,3 +149,6 @@ footer {
 	font-size: 20px;
 	margin: 20px 500px;
 }
+
+/* Services Page */
+
