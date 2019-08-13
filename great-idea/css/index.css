@@ -324,3 +324,73 @@ address{
 	font-weight: bold;
 	font-family: 'Titillium Web', sans-serif;
 }
+
+/* Vision Page */
+article{
+	margin: 10vh 10vw 0vh;
+	padding-top: 5vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+	border-top: 2px black;
+	border-style: dashed;
+}
+
+@keyframes shift{
+	0%{
+		text-shadow: 10px -8px 0px lightgray;
+	}
+	12.5%{
+		text-shadow: 5px -8px 1px lightgray;
+	}
+	25%{
+		text-shadow: 0px -8px 2px lightgray;
+	}
+	37.5%{
+		text-shadow: -5px -5px 3px lightgray;
+	}
+	50%{
+		text-shadow: -12px 2px 4px lightgray;
+	}
+	62.5%{
+		text-shadow: -5px 5px 4px lightgray;
+	}
+	75%{
+		text-shadow: 3px 6px 4px lightgray;
+	}
+	87.5%{
+		text-shadow: 6px 4px 4px lightgray;
+	}
+	100%{
+		text-shadow: 10px -4px 4px lightgray;
+	}
+}
+
+article h1{
+	text-shadow: 3px 6px 0px lightgray;
+	animation-name: shift;
+	animation-duration: 2s;
+	/* animation-direction: alternate; */
+	animation-iteration-count: infinite;
+}
+
+.vision-text{
+	display: flex;
+	flex-flow: column wrap;
+	font-size: 8vh;
+	text-align: center;
+}
+
+article p{
+	margin-right: 3vw;
+	width: 50vw;
+	font-size: 3.2vh;
+	line-height: 1.25em;
+	text-align: left;
+}
+
+article img{
+	height: 43vh;
+	width: 23vw;
+}
