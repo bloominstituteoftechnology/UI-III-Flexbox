@@ -175,8 +175,6 @@ nav a:visited{
 .second-row{
 	flex-basis: 80vw;
 	display: flex;
-	/* margin-left: 7vw; */
-	/* padding-right: 3vw; */
 }
 
 .second-row section{
@@ -242,6 +240,7 @@ address{
 	border-bottom: 2px black solid;
 }
 
+
 .service-box{
 	border: 2px black solid;
 	width: 44vw;
@@ -266,6 +265,22 @@ address{
 	border-radius: 3.5px;
 	padding: 2vmin 3.5vmin;
 	margin-top: 1vmax;
+}
+
+@media only screen and (min-width: 900px){
+	.services-container{
+		flex-direction: column;
+		justify-content: space-around;
+		align-content: center;
+	}
+
+	.service-box{
+		width: 90vw;
+	}
+
+	.service-box button{
+		font-size: 1.5vmax;
+	}
 }
 
 /* Some Facts */
