@@ -108,12 +108,12 @@ h1, h2, h3, h4, h5 {
 	  display:flex;
   }
   .cta .cta-text {
-	  align-self:flex-start;
+	align-self:flex-start;
 	vertical-align: top;
 	font-size: 77px;
 	margin-top: 140px;
 	text-align: center;
-	padding: 0px 75px;
+	padding: 0px 80px;
   }
   
   .cta .cta-text button {
