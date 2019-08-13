@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* navigation CSS*/
+.mainHeader{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	padding:30px;
+}
+
+a{
+	padding:20px;
+	background-color: #ffffff;
+	color:black;
+    text-decoration: none;
+    font-size: 18px;
+	color: gray;
+}
+
+a:hover {
+	background-color:skyblue;
+	color:white;
+}
+
+/*Services Image and Text */
+#serviceTag{
+	display:flex;
+	flex-direction: column;
+}
+
+
+
+h1{
+	font-size:25px;
+}
+
+
+/*all service*/
+.mainContainer{
+	display:flex;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+#digitalDesign{
+	border:1px solid black;
+	padding:20px;
+	margin:20px;
+}
+
+#UXUI{
+	border:1px solid black;
+	padding:20px;
+	margin:20px;
+}
+
+#digitalMarketing{
+	border:1px solid black;
+	padding:20px;
+	margin:20px;
+}
+
+#webdevelopment{
+	border:1px solid black;
+	padding:20px;
+	margin:20px;
+}
+
+#iOSDevelopment{
+	border:1px solid black;
+	padding:20px;
+	margin:20px;
+}
+
+#Android{
+	border:1px solid black;
+	padding:20px;
+	margin:20px;
+}
+
+/*button design */
+button{
+	padding: 10px 40px;
+	border: 1px solid #000;
+	color:black;
+	text-decoration: none;
+	background:white;
+	border-radius:5px;
+	cursor:pointer;
+	margin:10px;
+}
+
+button:hover{
+	background-color:skyblue;
+	color:white;
+}
+
+/*facts*/
+
+.Facts{
+	display:flex;
+	padding:30px;
+}
+
+ul{
+	padding:22px;
+}
+
+li{
+	padding:8px;
+}
+
+#FactsText{
+	margin-right:120px;
+}
+
+/*footer*/
+
+footer{
+	display:flex;
+	justify-content: center;
+	padding:100px;
+}
