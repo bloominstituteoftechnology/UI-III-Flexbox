@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,174 +63,112 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-.container{
-	width:1000px;
-	margin: 0 auto;
+/* Your code starts here! */
+body {
+	width: 880px;
+  margin: auto auto;
 }
 
-.top {
-	display: flex;
-	justify-content: space-between;
-	height: 50px;
+header nav {
+	margin-top: 10px;
 }
 
-.main-nav {
-	display: flex;
-	justify-content: space-evenly;
-	width: 800px;
-	margin-top:10px;
+.logo {
+	margin-left: 14px;
+  position: relative;
+  top: 10px;
 }
 
-.main-nav a {
-	color:gray;
-	text-decoration: none;
+.services-header-img {
+  margin: 50px auto;
 }
 
-.demand {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+h1 {
+	font-size: 30px;
 }
-.start {
+
+button {
+	padding: 10px 40px;
 	border: 1px solid black;
-	align-self: flex-start;
+	background-color: white;
+	height: 40px;
+	width: 152px;
+  position: relative;
+  top: 18px;
+  border-radius: 6px;
+}
+
+@keyframes colorchange {
+  from {background-color: white;}
+  to {background-color: black;}
+  from {color: black;}
+  to {color: white;}
+}
+button:hover {
+	background: white;
+	color: black;
+	animation-name: colorchange;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+.anchor {
+	color: white;
+	margin-right: 38px;
+	text-decoration: none;
+	border-radius: 40px;
+	border: 1px solid black;
 	padding: 10px;
+	background-color: black;
 }
 
-.demand1 {
-	display: flex;
-	width: 1000px;
-	justify-content: space-evenly;
 
-}
-.demand1 h1 {
-	align-self: center;
-	font-size: 60px;
-	text-align: center;
-}
-.demand1 img {
-	margin-top:10px
+.main-content {
+  display: flex;
+	border-top: solid 1px black;
+	border-bottom: solid 2px black;
+	height: 1000px;
+	margin: 36px auto auto auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.first-section {
-	display: flex;
-	justify-content: space-between;
-}
-.para {
-	width: 450px;
-}
-.para2 {
-	width: 300px;
+.sub-section {
+  height: 260px;
+  width: 420px;
+  padding: 26px;
+  background-color: #EAEAEA;
+  border: solid 1px black;
 }
 
-.middle-img {
-	width: 1000px;
-	height: auto;
-}
-.middle-image{
-	height: 250px;
-	display: flex;
-	align-items: center;
+.sub-margin {
+  margin-top: 60px;
 }
 
-.second {
-	display: flex;
-	justify-content: space-between;
-	height: 130px;
-	align-items: flex-start;
+h2 {
+	font-size: 20px;
 }
-.contact {
-	height: 150px;
-	align-content: flex-end;
+
+p {
+  font-weight: 500;
+  line-height: 20px;
+}
+
+li {
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.bottom-content {
+  display: flex;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+
+.bottom-content p {
+  width: 400px;
 }
 
 .copyright {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 10px;
-}
-
-
-/* SERVICES HTML START*/
-
-
-.services-header-img {
-	height: auto;
-}
-
-.services-head {
-	border-bottom: 1px solid black;
-	padding-bottom: 20px;
-}
-.services-head h2 {
-	font-size: 25px;
-}
-
-.block {
-	border-bottom: 1px solid black;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: space-around;
-	height: 700px;
-}
-
-.block p {
-	margin-bottom: 10px;
-}
-
-.boxes {
-	border: 1px solid black;
-	width: 455px;
-	padding: 15px;
-	background-color: lightgray;
-	border-radius: 15px;
-	height:50;
-}
-
-
-.learn-more {
-	border: 1px solid black;
-	display: flex;
-	width: 150px;
-	justify-content: center;
-	border-radius: 15px;
-	background-color: white;
-	padding: 10px;
-}
-
-.facts {
-	display: flex;
-	justify-content: space-between;
-	height:400px;
-	align-items: center;
-}
-.fact {
-	width: 455px;
-}
-
-.services-info-img {
-	width: 455px;
-	height: auto;
-}
-
-@media screen and (max-width: 600px){
-	.container {
-		width: 600px;
-	}
-	.block {
-		width: 500px;
-	}
-	.facts {
-		width: 500px;
-	}
-	.services-header-img{
-		width: 550px;
-	}
-	.services-info-img {
-		width: 200px;
-		height: 200px;
-	}
+  margin: 80px auto 30px 370px;
 }
