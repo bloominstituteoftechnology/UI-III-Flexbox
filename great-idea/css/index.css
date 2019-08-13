@@ -666,18 +666,38 @@ div #content{
   }
 
 
+
+/* =================================== */
+/*  Onload gives logo animation */
+#logo {
+    /* margin-top: 50px; */
+    margin-right: 7vw;
+    /* width: 120px; */
+    height: 40px;
+    background-color: cyan;
+    border-radius: 20px;
+    transition: 8s;
+    line-height: 40px;
+    text-align: center;
+    padding: 5px;
+    
+  }
+  
+
+
+
   
 /* ============== MEDIA============== MEDIA============== MEDIA============== MEDIA  */
 
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
     body {
-      /* background-color: lightblue; */
+      background-color: lightblue;
     }
-  }
+  } */
   @media only screen and (max-width: 900px) {
     .photo {
-      margin-right: 200px;
+      display: none;
     }
   }
   @media only screen and (max-width: 900px) {
@@ -702,20 +722,15 @@ div #content{
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .round-image{
+        display: none;
+    }
+}
 
-/* =================================== */
-/*  Onload gives logo animation */
-#logo {
-    /* margin-top: 50px; */
-    margin-right: 7vw;
-    /* width: 120px; */
-    height: 40px;
-    background-color: cyan;
-    border-radius: 20px;
-    transition: 8s;
-    line-height: 40px;
-    text-align: center;
-    padding: 5px;
-    
-  }
-  
+@media only screen and (max-width: 900px) {
+    button{
+        margin-right: 60px;
+        width: 80px;
+    }
+}
