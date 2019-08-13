@@ -3,7 +3,7 @@
 /*  Onload gives logo animation */
 window.onload = function() {
     var ball = document.getElementById('logo')
-    ball.style.marginLeft = "70vw";
+    ball.style.marginRight = "70vw";
   };
   
 

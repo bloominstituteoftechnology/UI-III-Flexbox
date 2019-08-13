@@ -672,20 +672,14 @@ div #content{
 
 @media only screen and (max-width: 900px) {
     body {
-      background-color: lightblue;
-
+      /* background-color: lightblue; */
     }
-
   }
-
-
   @media only screen and (max-width: 900px) {
     .photo {
       margin-right: 200px;
     }
   }
-
-
   @media only screen and (max-width: 900px) {
     .innovation-text-and-button  {
         align-items: center;
@@ -697,13 +691,11 @@ div #content{
        display: none;
     }
   } 
-
   @media only screen and (max-width: 900px) {
       .services-header-img {
           display: none;
       }
   }
-
   @media only screen and (max-width: 900px) {
     .services-header-img {
         display: none;
@@ -715,14 +707,15 @@ div #content{
 /*  Onload gives logo animation */
 #logo {
     /* margin-top: 50px; */
-    margin-left: 5vw;
+    margin-right: 7vw;
     /* width: 120px; */
     height: 40px;
     background-color: cyan;
     border-radius: 20px;
-    transition: 4s;
+    transition: 8s;
     line-height: 40px;
     text-align: center;
     padding: 5px;
+    
   }
   
