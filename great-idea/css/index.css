@@ -66,8 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	width: 80%;
+	width: 60%;
 	margin: auto;
+	justify-content: flex-start;
   }
   
   .header-content {
@@ -80,14 +81,12 @@ h1, h2, h3, h4, h5 {
   
   nav a {
 	color: grey;
-	display: inline-block;
 	text-decoration: none;
 	font-size: 15px;
-	margin: 100px 80px 0px 0px;
+	margin: 100px 20px 0px 0px;
   }
   
   .nav-bar {
-	width: 80%;
 	margin-bottom: 20px;
 	padding-top: 20px;
 	align-content: center;
@@ -95,10 +94,11 @@ h1, h2, h3, h4, h5 {
   
   nav ul {
 	list-style: none;
+	justify-content: flex-start;
   }
   
   nav ul li {
-	display: inline-block;
+	display: inline-flex;
   }
   
   nav ul li a {
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5 {
 	text-decoration: none;
 	color: #aaa;
 	font-weight: 800;
-	margin: 0 10px;
+	margin: auto;
   }
   nav ul li a,
   nav ul li a:after,
@@ -133,14 +133,18 @@ h1, h2, h3, h4, h5 {
 	background: #aaa;
 	height: 1px;
   }
+
+
   nav.stroke ul li a:hover:after {
 	width: 60%;
   }
   
  .logo {
 	align-self: center;
+	justify-content: flex-end;
 	margin-bottom: 80px;
 	padding-top: 20px;
+	margin-left: auto;
   }
   
   .main-content h1 {
@@ -230,7 +234,7 @@ h1, h2, h3, h4, h5 {
 	font-size: 18px;
   }
   p {
-	font-size: 18px;
+	font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
   }
   
@@ -256,4 +260,79 @@ h1, h2, h3, h4, h5 {
   .phone {
 	margin-bottom: 20px;
 	text-decoration: none;
+  }
+
+  .services-header-img {
+	width: 100%;
+	margin-top: -120px;
+  }
+
+  .services {
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	  border-bottom: 1px black solid;
+	  padding-bottom: 30px;
+  }
+
+  .services h1 {
+	font-size: 26px;
+  }
+
+  .container-content {
+	  display: flex;
+	  width: 100%;
+	  margin: auto;
+	  justify-content: space-between;
+  }
+
+  .topic-content {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	border: 1px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	background-color: rgba(230, 230, 230, 0.623)
+  }
+
+  .learn-button {
+	  text-decoration: none;
+	  border: 1px solid black; 
+	  border-radius: 3px;
+	  width: 120px;
+	  text-align: center;
+	  padding: 10px;
+	  margin-top: 20px;
+	  font-size: 12px;
+	  color: black;
+  }
+
+  .footercontainer {
+	  display: flex;
+	  border-top: 2px black solid;
+	  padding-top: 50px;
+	  justify-content: space-between;
+  }
+
+  .footercontainer h2 {
+	  font-size: 16px;
+  }
+  
+  .footercontainer p {
+	  margin-bottom: 20px;
+  }
+  
+  .footercontainer ul li {
+	list-style-type: square;
+	list-style-position: inside;
+	padding-top: 15px;
+  }
+
+  .facts {
+	  width: 450px;
+  }
+
+  footer {
+	  text-align: center;
+	  padding: 40px;
   }
