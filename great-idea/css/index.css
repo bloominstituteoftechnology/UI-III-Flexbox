@@ -195,7 +195,7 @@ h5 {
     background: blue;
   }
 }
-*/
+
   
 
   /* 
@@ -203,13 +203,20 @@ h5 {
 	  Main Title
   ========================= */
 
-.hero-section h1 {
-	color: blueviolet;
+.hero-section {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .hero-title {
+	text-align: center;
+	font-size: 3em;
 	display: flex;
+	flex-flow: column wrap;
 	align-content: center;
+	margin: 20px;
 }
 
 button {
