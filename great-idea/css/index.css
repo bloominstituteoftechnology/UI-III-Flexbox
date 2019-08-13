@@ -267,7 +267,8 @@ address{
 	margin-top: 1vmax;
 }
 
-@media only screen and (min-width: 900px){
+@media only screen and (max-width: 650px){
+
 	.services-container{
 		flex-direction: column;
 		justify-content: space-around;
