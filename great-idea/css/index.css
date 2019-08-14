@@ -226,4 +226,22 @@ address a {
 
 /* Start of CSS for Great-Idea!-Services section */
 
+.services-jumbotron {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-bottom: 2px solid black;
+}
 
+.services-header-img {
+	margin-top: 2%;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 4%;
+}
+
+.services-overview {
+margin-left: 8%;
+width: 70vw;
+height: 200px;
+}
