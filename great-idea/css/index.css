@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,7 +64,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
                     	 /*    TOP     */
 
@@ -72,7 +72,7 @@ header{
 	flex-flow: column wrap;
 	width: 80%;
 	border-bottom: solid black 1px;	
-	margin: 20px auto;
+	margin: 3em auto;
 	align-content: space-between;
 	justify-content: space-evenly;
 	height: 60%;	
@@ -82,19 +82,25 @@ header{
 
 nav{
 	display: flex;
-	color: silver;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: baseline;
 }
 
-.navigation a{text-decoration: none;}
+nav a{
+	color: silver;
+	text-decoration: none; 
+	font-size: 1.25rem;
+}
 
 h1{
-	font-size: 25px;
+	font-size: 1.75rem;
 }
 
 .services{
-	padding-bottom: 25px;
+	padding-bottom: 2em;
+}
+.services p{
+	font-size: 1rem;
 }
 
 						/*     MIDDLE    */
@@ -113,22 +119,25 @@ h1{
 	flex-direction: column;
 	border: 1px solid black;
 	background-color: gainsboro;
-	width: 35%;
-	height: 50%;
+	width: 45%;
 	padding: 20px 20px;
 	margin: 20px auto;
-	justify-items: space-between;
-	
+	justify-items: space-between;	
 }
 
 h2{
-	font-size: 20px;
+	font-size: 1.75rem;
+}
+
+.information p{
+	font-size: 1.125rem;
+	margin-bottom: 1em;
 }
 
 div button{
 	border: solid black 1px;
 	background-color: #fff;
-	font-size: 12px;
+	font-size: 1rem;
 	padding: 9px 35px;
 	margin: 9px;
 	border-radius: 4px;
@@ -138,17 +147,20 @@ div button{
 						/*    BOTTOM    */
 
 h3{
-	font-weight: bold;
+	font-size: 1.75rem;
 	padding: 5px;
+}
+
+.text p, ol{
+	font-size: 1rem;
 }
 .ourServices{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-content: space-around;
 	height: 50%;
 	width: 80%;
-	margin: 0 auto;
+	margin: 5rem auto;
 	border-top: 1px solid black;
 }
 
@@ -156,7 +168,7 @@ h3{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	width: 40%;
+	width: 35%;
 	align-content: center; 
 }
 
@@ -170,6 +182,11 @@ h3{
 	margin-top: 15px;
 	margin-left: 20px;
 	list-style-type: circle;
+}
+
+.ourServices img{
+	width: 35%;
+	height: auto;
 }
 
 footer{
@@ -188,5 +205,6 @@ footer{
 	.information div{width: 100%;}
 	}
 	/*bottom*/
-	.services-info-img{align-content: center; width: 50%; height: auto;}
-}
+	.ourServices div, img{margin-top: 3rem;}
+	.ourServices h3{font-size: 1.5rem;}
+	.ourServices img{display: block; width: 45%; height: auto;}
