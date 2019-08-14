@@ -66,30 +66,21 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .logo {
-	display: flex;
-}
-
-.Innovation {
-	font-size: 36px;
-}
-
-.Started {
-
-}
-
-.snippet {
-	display: flex;
-	margin: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
 }
 
 .snippet-container {
 	display: flex;
 	justify-content: right;
-	float: right; 
+	float: right;
+	margin: 20px; 
 }
 
 body {
-	background-color: #B3F2FF;
+	background-color: #B3E5FF;
 	padding: 15px;
 }
 
@@ -107,4 +98,26 @@ h2 {
 
 .middle-img {
 	margin-top: 40px;
+}
+
+footer {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.Center {
+	width: 900px; 
+	margin: 0 auto;
+}
+
+.Innovation {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	padding-top: 30px;
+}
+
+.Button {
+	display: flex;
+	justify-content: center;
 }
