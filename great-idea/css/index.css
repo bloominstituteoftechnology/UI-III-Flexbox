@@ -110,7 +110,7 @@ body {
 }
 ol,
 ul {
-  list-style: none;
+  list-style: square;
 }
 blockquote,
 q {
@@ -152,6 +152,7 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
   padding: 40px;
+  width: 100%;
 }
 
 /* 
@@ -228,7 +229,7 @@ h5 {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 20px;
+  margin: 20px 0px;
 }
 
 .services-header-img {
@@ -278,11 +279,17 @@ button {
 	display: flex;
 	margin: 20px 0px;
 }
+
+.service-content {
+  border-top: 1px solid black;
+  border-bottom: 4px solid black;
+  justify-content: space-between;
+}
 .services {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-between;
   flex-wrap: wrap;
+  margin: 20px 0px;
 }
 .services-title {
   display: flex;
@@ -290,10 +297,14 @@ button {
   margin: 20px 0px;
 }
 
+.services-title h1 {
+  font-size: 1.5em;
+}
+
 .service-block {
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
+  justify-content: space-evenly;
   width: 40%;
   background-color: lightgray;
   border: 1px solid black;
@@ -302,9 +313,10 @@ button {
 }
 
 .service-block button {
-  text-align: center;
-  width: 10%;
-  font-size: 12px;
+  align-items: center;
+  width: 30%;
+  font-size: 8px;
+  border-radius: 5px;
   margin: 10px 0px;
 }
 /*
@@ -324,20 +336,35 @@ address {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer-text {
   display: flex;
   flex-direction: column;
+  width: 40%;
   margin: 20px 0px;
 }
 
+.features {
+  padding-left: 20px;
+}
+
 .services-img {
-  margin: 20px;
+  margin: 20px 0px;
 }
 
 .services-copyright {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .services {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: column wrap;
+    margin: 20px 0px;
+  }
 }
