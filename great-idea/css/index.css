@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,266 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h1{
+	font-size: 60px;
+}
+
+.services-header h1, .contact-header h1{
+	font-size: 30px;
+
+}
+
+h2{
+	font-size:22px;
+}
+
+.content-row-s h2, .content-row-s2 h2{
+	font-size:18px;
+}
+
+.container{
+
+	width: 800px;
+	margin: 0 auto;
+	font-size: 15px;
+}
+
+
+.top-header {
+	display:flex;
+	justify-content: space-between;
+	margin: 15px;
+
+}
+
+.top-header nav{
+	display:flex;
+	justify-content: space-between;
+	align-content: flex-end;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+}
+
+.top-header nav a{
+	text-decoration: none;
+	color:lightgrey;
+	margin: 10px 25px 0 25px;
+}
+
+button{
+	background-color: white;
+ 	color: black;
+  border: 1px solid black;
+	width: 140px;
+	height:28px;
+
+}
+
+.bottom-header-container {
+	display:flex;
+	justify-content: space-between;
+	margin: 40px 0 60px 0;
+
+}
+
+.bottom-header{
+	align-self: center;
+
+}
+
+.bottom-header h1{
+	margin: auto;
+	width:50px;
+}
+
+ .bottom-header h1:first-of-type{
+	margin: auto;
+	width:240px;
+}
+
+.bottom-header h1:last-of-type{
+	margin: auto;
+	width: 150px;
+}
+
+.bottom-header p{
+	margin:15px auto;
+	width:140px;
+}
+
+.content-row{
+	display:flex;
+	margin: 10px auto;
+	width:800px;
+	border-top:2px solid black;
+	padding-top:30px;
+}
+
+
+.content-row div:first-of-type{
+	display:flex;
+	flex-direction: column;
+	margin: 0 40px 0 0;
+	width:350px;
+}
+
+.content-row div:last-of-type{
+	display:flex;
+	flex-direction: column;
+	margin: 0 0 0 40px;
+	width:350px;
+}
+
+.middle-img{
+	margin: 30px auto;
+	width:800px;
+	height:200px;
+}
+
+.content-row2{
+	display:flex;
+	margin: 10px auto;
+	width:800px;
+	border-bottom:2px solid black;
+	padding-bottom:30px;
+
+}
+
+.content-row2 div{
+	display:flex;
+	flex-direction: column;
+	margin: 0 10px 0 10px;
+	width:250px;
+}
+
+.content-row2 div:first-of-type{
+	display:flex;
+	flex-direction: column;
+	margin: 0 10px 0 0;
+	width:250px;
+}
+
+.content-row2 div:last-of-type{
+	display:flex;
+	flex-direction: column;
+	margin: 0 0 0 10px;
+	width:250px;
+}
+
+.content-row-s{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 10px 0;
+	width:800px;
+	border-top:2px solid black;
+	padding-top:30px;
+}
+
+.content-row-s div{
+	width: 350px;
+	height: 225px;
+	background-color: #F0EFEF;
+	border: 2px solid black;
+	padding: 15px;
+	margin: 20px 0;
+}
+
+.content-row-s div button{
+
+	margin: 20px 0 20px 0;
+	border-radius: 5px;
+
+}
+
+.content-row-s2{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 10px auto;
+	width:800px;
+	border-top:2px solid black;
+	padding-top:30px;
+}
+
+.content-row-s2 div{
+	display:flex;
+	flex-wrap: wrap;
+
+	margin: 10px 0;
+	width:325px;
+
+}
+
+ul{
+	list-style: square;
+
+}
+li{
+	margin:15px;
+}
+.services-header{
+	margin: 0 0 40px 0;
+}
+
+footer {
+	margin: 30px 0 20px 0;
+}
+
+address{
+
+}
+.contact-icon{
+	margin: 10px 20px 0 0;
+	width: 50px;
+	height: 50px;
+}
+
+.contact-icon2{
+	margin: 10px 20px 0 0;
+	width: 50px;
+	height: 50px;
+}
+
+.content-row-c{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 10px 0;
+	width:800px;
+	border-top:2px solid black;
+	padding-top:30px;
+}
+
+.content-row-c div{
+	width: 350px;
+	height: 225px;
+	background-color: white;
+	border: 2px solid black;
+	padding: 15px;
+	margin: 20px 0;
+
+}
+
+.content-row-c div button{
+
+	margin: 20px 0 20px 0;
+	border-radius: 5px;
+
+}
+
+.hidden1{
+	color: black;
+	opacity: 0;
+}
+
+.content-row-c img:hover .hidden1{
+	opacity: 1;
+}
+
+.copyright{
+	width:180px;
+	margin: 50px auto;
+
+}
