@@ -75,171 +75,184 @@ h1, h2, h3, h4, h5 {
 
 
 
-header {
-     display: flex;
-     justify-content: space-around;
-     margin: 50px;
-	 height: 850px;
-	 border-bottom: 2px groove black;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
 
-nav .nav-links{
-  display: flex;
-  margin: 35px;
-  
-  
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+body {
+    width: 995px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
     
 }
 
 nav a {
     text-decoration: none;
-    margin: 50px;
-   
-    color: #d3d3d3;
+    color: grey;
     font-size: 18px;
-    font-family:  'Titillium Web'; 
-}
-
-.logo {
-    height: 50px;
-	display: flex;
-    margin:  25px 75px 15px 0px;
+    font-weight: bold;
 }
 
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+}
 
-button {
+ h1  {
+    font-family: 'Bangers';
+    font-size: 90px;
+    text-align: center;
+    width: 55%;
+    margin-left: 100px; 
+    margin-top: 50px;
+}
+
+
+.header-info {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 100px;
+   border-bottom: 1px groove black;
+   height: 500px;
+   width: 100%;
+}
+
+.get-started {
     color: black;
     background-color: white;
     font-family:  'Titillium Web'; 
     font-size: 20px;
-    height: 40px;
-    width: 200px;
-	border: 1px groove black;
-	margin-left: 100px;
-	margin-top: 20px;
-    
-    
-}
-
-h1 {
-    font-family: 'Bangers';
-    font-size: 100px;
-    text-align: center;
-    letter-spacing: 5px;
-   
-}
-
-.header-info {
-  
-   
-	position: absolute;
-    top: 320px;
-	left: 250px;
-	width: 420px;
-    
-  
-}
-
-
-h2 {
-    font-family: 'Bangers';
-    font-size: 20px;
-}
-
-.header-image {
-	
-	position: absolute;
-    top: 200px;
-    right: 150px;
-    height: 550px;
-    
-
-}
-
-.main {
-    border-bottom: 2px groove black;
-    margin-bottom: 30px;
-	height: 800px;
-	margin: 50px;
-}
-
-
-
-.features {
-    float: left;
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-.about {
-    float: right;
-    width: 500px; 
-    margin-right: 60px; 
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-
-
-p {
-      font-size: 18px;
-      font-weight: lighter;
-      color: black;
-      margin-top: 20px;
-      
-  }  
-  
-  .middle-img {
-      width: 1500px;
-      height: 200px;
-	  margin: 20px 15px;
-	  
-	  
+    height: 35px;
+    width: 180px;
+	border: 1px solid black;
+	margin-left: 180px;
+    margin-top: 5px;
      
-  }
+}
 
-  
 
-#vision{
-    display: column;
+.main-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.features, .about {
+    width: 45%;
+    margin-top: 35px;
+   
+}
+
+.middle-img {
+    width: 100%;
+    margin: 30px 0;
+}
+
+#services, #product, #vision {
+    width: 275px;
+}
+
+
+#services, #product {
+    margin-right: 30px;
+}
+
+.main-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
-    width: 350px;
-    margin-left: 1100px;
-    
-    margin-top: -130px;
 }
 
 footer {
-	margin-left: 100px;
-	
+    border-top: 1px solid black;
+    margin-top: 50px;
+    
 }
 
 footer h2 {
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
-footer address {
-    font-family:  'Titillium Web';
-    font-size: 20px;
-    font-weight: bold;
-}
-
-#product{
-    display: column;
-    width: 350px;
-    margin-left: 600px;
-    margin-top: -132px;
-}
-
-#services{
-    width: 350px;
-    margin-left: 50px;
-    margin-top: 30px;
-}
-
-footer p {
+ footer p {
     text-align: center;
+    margin-top: 40px;
 }
+ 
+
+
+
+

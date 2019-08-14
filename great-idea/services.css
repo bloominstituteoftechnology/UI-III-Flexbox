@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -57,67 +58,66 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-body {
-	width: 995px;
-	margin: 0 auto;
-}
-
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    
     margin-bottom: 15px;
 }
 
-.nav-links a {
-	list-style: none;
-	text-decoration: none;
-	color: grey;
-	font-weight: bold;
-	
-	
+body {
+    width: 995px;
+    margin: 0 auto;
 }
 
-nav .nav-links {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 70%;
-	margin-top: 10%;
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    
 }
 
-.logo {
-	display: absolute;
-	margin: -25px 0 4% 80%;
+nav a {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
 }
 
 .services-header-img {
-	width: 995px;
+	width: 100%;
+	margin-top: 30px;
 }
 
 .services {
 	border-bottom: 1px solid black;
-	height: 25%;
-	width: 1000px;
+	
 }
 
-p {
-	font-weight: bold;
-	line-height: 25px;
+.services p {
+     margin-bottom: 50px;
 }
 
 h1 {
-	font-size: 175%;
-	margin-top: 25px;
+	font-size: 30px;
+	margin-top: 30px;
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-	 
-}
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	   
+  }
 
-#digital-design,
+  #digital-design,
 #ux-ui,
 #digital-marketing,
 #web-dev,
@@ -132,10 +132,6 @@ h1 {
 	
 }
 
-h2 {
-	font-size: 20px;
-}
-
 button {
 	width: 150px;
 	height: 35px;
@@ -146,23 +142,22 @@ button {
 }
 
 footer {
-	height: 800px;
+	display: flex;
 	border-top: 2px solid black;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 footer h2 {
-	margin-top: 60px;
+	margin-top: 50px;
+}
+
+.services-info-img { 
+	margin-top: 50px;
+	
 }
 
 .footer-paragraph {
-	width: 40%;
-}
-
-.services-info-img {
-	display: absolute;
-	margin-top: -300px;
-	margin-left: 575px;
+	width:100%;
 }
 
 .footer-list {
@@ -173,9 +168,13 @@ footer h2 {
 	font-weight: bold;
 }
 
-#copyright {
+
+
+.copyright-container {
 	text-align: center;
-	margin-top: 150px;
-    
+	margin-top: 60px;
 }
 
+footer p {
+	width: 400px;
+}
