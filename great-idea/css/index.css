@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /* Home Page */
 
 nav {
-	margin: 20px;
+	margin: 15px auto;
 	padding: 20px;
 	display: flex;
 	justify-content: center;
@@ -152,3 +152,75 @@ footer {
 
 /* Services Page */
 
+.services-header-img {
+	margin: 0 200px;
+}
+
+.service-header {
+	margin: 40px 100px;
+	padding: 20px;
+	height: 200px;
+	width: 1100px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.p-service-header {
+	line-height: 1.5;
+	font-size: 20px;
+}
+
+.service-container {
+	height: 900px;
+	width: 1250px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.service-box {
+	height: 150x;
+	width: 500px;
+	padding: 20px;
+	font-size: 20px;
+	background-color: lightgrey;
+	border: 2px solid black;
+}
+
+.service-button {
+	height: 40px;
+	width: 100px;
+	margin: 10px;
+	font-size: 15px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #fff
+}
+
+.facts-container {
+	height: 500px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.facts-box {
+	height: 100x;
+	width: 500px;
+	padding: 30px;
+	font-size: 20px;
+}
+
+ul {
+	list-style: square;
+	margin: 10px;
+}
+
+hr {
+	border-top: 2px solid black;
+	margin: 20px;
+}
