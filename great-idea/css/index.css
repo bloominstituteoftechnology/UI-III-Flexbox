@@ -161,7 +161,7 @@ button:hover {
 .mainBody2 {
 	border-bottom: 2px solid black;
 	padding: 10px;
-	margin: 4%;
+	margin: 2%;
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row wrap;
@@ -195,33 +195,31 @@ button:hover {
 	margin-bottom: 7%;
 }
 /* last bit of code to finish here */
-.copyright {
+
+address {
 	display: flex;
-	margin-left: 45%;
+	flex-flow: column wrap;
 }
 
-#contact {
+.contact-section h3 {
 	font-family: 'Bangers', cursive;
-	margin-top: 40px;
-	margin-bottom: 30px;
-	margin-left: 40px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%
 }
 
-#address1 {
-	margin-left: 40px;
+address p{
+	align-items: space-between;
+	margin-left: 2%;
 }
 
-#address2 {
-	margin-left: 40px;
-	margin-bottom: 30px;
-}
- 
-#phoneNumber {
-	margin-left: 40px;
-	margin-bottom: 30px;
+address a {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 2%;
 }
 
-#email {
-	margin-left: 40px;
-	margin-bottom: 40px;
+.copyright {
+	margin-left: 45%;
+    margin-top: 3%;
 }
