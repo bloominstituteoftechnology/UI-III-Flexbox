@@ -148,55 +148,55 @@ button:hover {
 	background-color: black;
 	color: white;
 }
-
+/* next area needing to be fixed. */
 .mainBody1{
 	border-top: 2px solid black;
-	margin: 5%;
+	margin: 4%;
+	padding-top: 5%;
 	display: flex;
+	justify-content: space-between;
 	flex-flow: row wrap;
 }
 
-.mainBody h3 {
+.mainBody2 {
+	border-bottom: 2px solid black;
+	padding: 10px;
+	margin: 4%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.mainBody1 h3 {
+	margin-top: 10px;
 	margin-bottom: 20px;
 	font-family: 'Bangers', cursive;
 }
 
-.features {
-	height: 110px;
-    width: 45%
-
+.mainBody2 h3 {
+	margin-top: 2%;
+	margin-bottom: 5%;
+	font-family: 'Bangers', cursive;
 }
 
-.about {
+.flexItem {
 	height: 110px;
-    width: 45%;
-
-	
+	width: 45%
 }
 
 .middle-img {
 	width: 95%;
+	margin: 3%;
 }
 
-.services {
+.flexItem2 {
 	height: 110px;
 	width: 30%;
+	margin-bottom: 7%;
 }
-
-.product {
-	
-	height: 110px;
-	width: 30%;
-}
-
-.vision {
-	
-	height: 110px;
-	width: 30%;
-}
-
+/* last bit of code to finish here */
 .copyright {
-	display: inline;
+	display: flex;
 	margin-left: 45%;
 }
 
