@@ -278,6 +278,10 @@ h1, h2, h3, h4, h5 {
 	font-size: 26px;
   }
 
+  .full-content {
+	  display: flex;
+	  flex-wrap: wrap;
+  }
   .container-content {
 	  display: flex;
 	  width: 100%;
@@ -289,7 +293,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-direction: column;
 	border: 1px solid black;
-	width: 400px;
+	width: 47%;
 	padding: 20px;
 	margin-bottom: 50px;
 	background-color: rgba(230, 230, 230, 0.623)
