@@ -203,13 +203,14 @@ footer {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	border: 1px solid black;
-	padding: 20px;
+	padding: 25px;
 	background-color: rgba(211, 211, 211, 0.74);
 
 }
 
 div.service-buttons {
 	background-color: white;
+	border-radius: 5px;
 	width: 150px;
 	height: auto;
 	padding: 10px 30px 10px 30px;
@@ -237,9 +238,11 @@ div.service-buttons {
 	list-style-type: square;
 	list-style-position: inside;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .service-list li {
-	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
 }
