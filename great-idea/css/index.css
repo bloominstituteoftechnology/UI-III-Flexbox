@@ -75,7 +75,7 @@ html {
 }
 
 body {
-	margin-top: 80px;
+	margin-top: 7vw;
 }
 
 header {
@@ -84,7 +84,7 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 80px;
+	height: 7vh;
 }
 
 header nav {
@@ -100,7 +100,8 @@ header nav a {
 }
 
 .logo {
-margin-top: 2%;
+	margin-top: 2%;
+
 }
 
 .logo-2-section {
@@ -111,8 +112,8 @@ margin-top: 2%;
 
 .logo-alt {
 	font-family: 'Bangers', cursive;
-	flex: 1;
-	height: 300px;
+	width: 40%;
+	height: 280px;
 	margin-top: 11%;
 }
 
@@ -123,7 +124,7 @@ margin-top: 2%;
 }
 
 .codesnippet {
-	flex: 1;
+	width: 40%;
 	margin-top: 8%;
 	margin-left: 5%;
 }
@@ -133,12 +134,12 @@ button {
 	background-color: white;
 	border: 1px solid gray;
 	font-size: 15px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
 	margin-right: 50%;
-	margin-left: 15%;
+	margin-left: 13%;
 	margin-bottom: 6%;
 	align-self: flex-end;
 	flex: -1;
@@ -219,9 +220,9 @@ address a {
 	margin-left: 2%;
 }
 
-.copyright {
-	margin-left: 45%;
-    margin-top: 3%;
+footer * {
+	margin-top: 5%;
+    text-align: center;
 }
 
 /* Start of CSS for Great-Idea!-Services section */
@@ -229,19 +230,56 @@ address a {
 .services-jumbotron {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	align-content: flex-start;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 4%;
 	border-bottom: 2px solid black;
 }
 
-.services-header-img {
-	margin-top: 2%;
-	margin-left: 8%;
-	margin-right: 8%;
+#services-header-img {
+	margin-bottom: 4%;
+	height: 20vh;
+	
+}
+
+#services-overview {
+	margin-right: 3%;
+	margin-left: 3%;
 	margin-bottom: 4%;
 }
 
-.services-overview {
-margin-left: 8%;
-width: 70vw;
-height: 200px;
+.content-main {
+	display: flex;
+	flex-flow: row wrap;
+	padding-bottom: 4%;
+	border-bottom: 2px solid black;
+}
+
+.contentBox {
+	background-color: rgba(126, 125, 125, 0.178);
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 10;
+	border: 1px solid black;
+	padding: 2%;
+	margin: 2%;
+	width: 45%;
+	height: 245%;
+	line-height: 130%;
+
+}
+
+.contentBox p {
+	margin-bottom: 7%;
+}
+
+.contentBox h3 {
+	display: block;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.contentBox button{
+	border-radius: 4px;
 }
