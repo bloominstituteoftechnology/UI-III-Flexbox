@@ -1,0 +1,454 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.logo{
+	position: absolute;
+  top: 0px;
+  right: 15px;
+  width: 150px;
+  height: 30px;
+	
+}
+
+.head-text{
+	position: absolute;
+	top: 150px;
+	left: 800px;
+	font-size: 60px;
+}
+
+.box {
+	position: absolute;
+	top:350px;
+	left: 810px;
+	border: solid black 2px;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+}
+
+
+.box a:link{
+	text-decoration: none;
+	color: black;
+}
+
+.header-img{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	padding: 10px;
+	margin: 10px;
+	height: 300px;
+	
+}
+
+header {
+	border-bottom: 1px solid black;
+	margin: 250px 0;
+	padding: 200px 0;
+	width: 80%;
+	margin: auto;
+	}
+	
+
+
+.header-nav a:link{
+	color: gray;
+	/* Overwriting color to white for visibility */
+	color: white;
+	text-decoration: none;
+	padding: 50px;
+	/* added background color to the links instead of bar for styling */
+	background-color: black;
+	/* Added font family to nav bar and paragraph text for styling */
+	font-family: 'Satisfy', cursive;
+}
+
+
+.header-nav a:hover{
+	animation-duration: 10s;
+	animation-name: colorcycle;
+}
+
+/* adding visited color for visibility */
+.header-nav a:visited{
+	color: greenyellow;
+}
+
+.header-nav{
+	/* Position fixed to make nav bar follow while scrolling */
+	position: fixed;   
+	top: 30px;
+	/* Centered Nav bar for aesthetic */
+	left: 500px;
+	overflow: hidden;
+	animation-duration: 3s;
+	animation-name: slidein;
+	z-index: 1;
+}
+
+/* Keyframe for sliding animation */
+@keyframes slidein{ 
+	from{
+	  margin-left: 100%;
+	 width: 100%;
+	}
+	
+	to{
+	  margin-left: 0%;
+	width: 100%;
+	}
+  }
+
+/* Rainbow color cycle for hovering nav bar */
+  @keyframes colorcycle {
+	0%   {background-color:red; left:0px; top:0px;}
+	15%  {background-color: orange; left: 0px; top:0px;}
+	25%  {background-color:yellow; left:200px; top:0px;}
+	35%  {background-color: blue; left:200px; top:0px;}
+	50%  {background-color: blueviolet; left:200px; top:200px;}
+	65%  {background-color: purple; left:200px; top:200px;}
+	75%  {background-color:green; left:0px; top:200px;}
+	95%  {background-color: greenyellow; left:0px; top:150px;}
+	100% {background-color:black; left:0px; top:0px;}
+  }
+
+
+
+.main-content{
+	text-align: center;
+
+}
+
+
+	.container-1{
+	display: flex;
+	margin: 0 auto;
+	width: 50%;
+	padding: 20px;
+	font-family: 'Satisfy', cursive;
+}
+
+		.features{
+		text-align: left;
+		height: 50px;
+		width: 500px;
+		padding: 50px;
+		
+		
+	}
+
+		.about{
+		text-align: left;
+		height: 50px;
+		width: 500px;
+		padding: 50px;
+		
+	
+	}
+
+		.middle-img{
+		
+		margin: 30px;
+		padding: 30px;
+	}
+
+	.container-2{
+		display: flex;
+		justify-content: center;
+		align-content: space-around;
+		width: 1650px;
+		border-bottom: 1px solid black;
+		margin: 0 auto;
+		font-family: 'Satisfy', cursive;
+	}
+
+		.services{
+
+		margin: 20px;
+		height: 200px;
+		width: 240px;
+		text-align: left;
+	}
+
+		.product{
+		margin: 20px;
+		height: 200px;
+		width: 240px;
+	
+		text-align: left;
+	}
+
+		.vision{
+		margin: 20px;
+		height: 200px;
+		width: 240px;
+	
+		text-align: left;
+		
+	}
+
+	.contact{
+		margin: 70px;
+		padding: 30px;
+	}
+
+	footer{
+		text-align: center;
+		margin: 60px;
+		padding: 30px;
+	}
+
+.service-header{
+	
+	margin: 0 auto;
+	padding: 40px;
+
+}
+
+	.services-header-img{
+display: flex;
+justify-content: center;
+padding: 40px;
+margin: 0 auto;
+	}
+
+
+.service-head{
+	font-size: 25px;
+	text-align: left;
+	position: relative;
+	left: 300px;
+
+}
+
+ header p{
+	 display: block;
+	 width: 62%;
+	 position: relative;
+	 left: 300px;
+	 
+
+
+ }
+ 
+
+	.service-content1{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		left: 400px;
+		padding: 30px;
+		
+	}
+
+	
+	.digital-design{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+	}
+
+
+	.digital-marketing{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+	}
+
+	.ios-development{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+	}
+
+
+
+.service-content2{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 1000px;
+	bottom: 810px;
+	height: 800px;
+	
+}
+
+	.ux{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+		
+	}
+
+
+	
+
+
+	.web-development{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+	}
+
+
+	
+
+
+	.android-development{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+	}
+
+
+	.learn-box{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: white;
+		border-radius: 5px;
+		width: 150px;
+		height: 35px;
+		padding: 7px;
+		text-align: center;
+		position: relative;
+		top: 40px;
+		
+
+	}
+
+	.facts{
+	border-top: 1px solid black;
+	padding: 40px ;
+	width: 80%;
+	margin: auto;
+	position: relative;
+	bottom: 750px;	
+	}
+
+
+
+	.fact-box{
+		display: block;
+		width: 400px;
+		position: relative;
+		left:200px;
+		
+	}
+		
+	.services-info-img{
+	
+	left: 800px;
+	bottom: 290px;
+	position: relative;
+
+	
+	}
+
+	ul{
+		padding: 20px;
+
+	}
+
+	.service-footer{
+		text-align: center;
+		position: relative;
+		bottom: 1px;
+	}
+
