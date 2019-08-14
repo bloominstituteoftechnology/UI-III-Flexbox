@@ -74,6 +74,10 @@ html {
 	padding: 0;
 }
 
+body {
+	margin-top: 80px;
+}
+
 header {
 	background-color: white;
 	position: fixed;
@@ -83,65 +87,61 @@ header {
 	height: 80px;
 }
 
-header * {
-	display: inline;
+header nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-header li {
-	margin: 50px;
-
-}
-
-header li a {
+header nav a {
 	color: gray;
 	text-decoration: none;
-	margin-right: 20px;
+	margin-top: 2%;
 }
 
 .logo {
-	margin-top: 10px;
-	margin-left: 120px;
+margin-top: 2%;
+}
 
+.logo-2-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .logo-alt {
-	display: inline-block;
-	box-sizing: border-box;
 	font-family: 'Bangers', cursive;
-	height: 340px;
-	width: 450px;
-	margin-left: 280px;
-	margin-right: 150px;
-	margin-top: 90px;
-	vertical-algin: top;
+	flex: 1;
+	height: 300px;
+	margin-top: 11%;
 }
 
 .logo-alt * {
 	text-align: center;
 	font-size: 100px;
 	line-height: 100px;
-
 }
 
 .codesnippet {
-	display: inline-block;
-	box-sizing: border-box;
-	vertical-align: top;
-	margin-top: 20px;
+	flex: 1;
+	margin-top: 8%;
+	margin-left: 5%;
 }
 
 button {
-	display: inline-block;
 	text-decoration: none;
 	background-color: white;
 	border: 1px solid gray;
-	margin-left: 430px;
-	margin-bottom: 100px;
 	font-size: 15px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 40px;
 	padding-right: 40px;
+	margin-right: 50%;
+	margin-left: 15%;
+	margin-bottom: 6%;
+	align-self: flex-end;
+	flex: -1;
 }
 
 button:hover {
@@ -149,18 +149,11 @@ button:hover {
 	color: white;
 }
 
-.mainBody {
+.mainBody1{
 	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-	margin-left: 40px;
-	margin-right: 40px;
-	padding-top: 40px;
-}
-
-.mainBody * {
-	display: inline-block;
-	box-sizing: border-box;
-	line-height: 15px;
+	margin: 5%;
+	display: flex;
+	flex-flow: row wrap;
 }
 
 .mainBody h3 {
@@ -170,45 +163,36 @@ button:hover {
 
 .features {
 	height: 110px;
-	width: 480px;
-	margin-right: 100px;
+    width: 45%
 
 }
 
-
 .about {
 	height: 110px;
-	width: 480px;
-	margin-left: 100px;
-	margin-right: 0px;
+    width: 45%;
+
+	
 }
 
 .middle-img {
 	width: 95%;
-	margin-left: 45px;
 }
 
 .services {
 	height: 110px;
-	width: 320px;
-	margin-top: 20px;
-	margin-bottom: 40px;
-	margin-right: 80px;
+	width: 30%;
 }
 
 .product {
+	
 	height: 110px;
-	width: 320px;
-	margin-top: 20px;
-	margin-left: 40px;
-	margin-right: 80px;
+	width: 30%;
 }
 
 .vision {
+	
 	height: 110px;
-	width: 320px;
-	margin-top: 20px;
-	margin-left: 80px;
+	width: 30%;
 }
 
 .copyright {
