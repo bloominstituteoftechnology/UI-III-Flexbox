@@ -64,3 +64,171 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.navigation {
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: lightgray;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	padding: 100px 0 50px 0;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 78px;
+	width: 34%;
+	margin: 25px 0 15px 100px;
+}
+
+header div {
+	text-align: center;
+	font-size: 16px;
+	color: gray;
+	height: 30px;
+	width: 18%;
+	padding: 5px;
+	border: 1px solid gray;
+	margin-left: 175px;
+}
+
+header img {
+	margin: -340px 0 0 510px;
+}
+
+.top-content {
+	display: flex;
+	padding: 40px 0;
+	border-top: 1px solid black;
+}
+
+.bottom-content {
+	display: flex;
+	padding: 40px 0;
+	border-bottom: 1px solid black;
+}
+
+.bottom-content div {
+	padding-right: 10px;
+}
+
+.contact {
+	width: 20%;
+	margin-top: 40px;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer {
+	text-align: center;
+	margin: 50px 0 100px 0;
+}
+
+.services-header-img {
+	margin-top: 20px;
+}
+
+.services-header {
+	padding: 30px 0;
+	border-bottom: 1px solid black;
+}
+
+.services-header h1 {
+	font-size: 20px;
+}
+
+.services-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px 0;
+	border-bottom: 1px solid black;
+}
+
+.services-content .item {
+	background-color: #EEEEEE;
+	width: 46%;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 20px 0;
+}
+
+.services-content button {
+	font-size: 12px;
+	padding: 5px 36px;
+	border-radius: 4px;
+	border: 1px solid black;
+	margin-top: 12px;
+}
+
+.services-bottom-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+
+.services-bottom-content .left-container {
+	width: 46%;
+}
+
+.services-bottom-content ul {
+	height: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 20px;
+	margin: 25px 0;
+}
+
+.contact-header {
+	padding: 30px 0;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.contact-header h1 {
+	font-size: 20px;
+}
+
+.contact-content {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-evenly;
+	padding: 20px 0;
+	border-bottom: 1px solid black;
+}
+
+.contact-content .item {
+	width: 30%;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.contact-content .item img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.contact-content .item a {
+	text-decoration: none;
+	margin: 20px 0;
+}
+
