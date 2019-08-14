@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5 {
   footer p {
 	text-align: center;
 	font-size: 14px;
-	margin: 120px auto;
+	margin: 80px auto;
   }
   
   footer {
@@ -288,8 +288,8 @@ h1, h2, h3, h4, h5 {
   .topic-content {
 	display: flex;
 	flex-direction: column;
-	width: 450px;
 	border: 1px solid black;
+	width: 400px;
 	padding: 20px;
 	margin-bottom: 50px;
 	background-color: rgba(230, 230, 230, 0.623)
@@ -332,7 +332,7 @@ h1, h2, h3, h4, h5 {
 	  width: 450px;
   }
 
-  footer {
+.copyright {
 	  text-align: center;
 	  padding: 40px;
   }
