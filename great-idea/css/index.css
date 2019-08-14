@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-left: 50px;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,181 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.nav-bar {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 880px;
+}
+
+.nav-bar li {
+	margin-top: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-bar li {
+	width: auto;
+	color: grey;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	width: 880px;
+	height: 500px;
+}
+
+.title {
+	text-align: center;
+}
+
+h1 {
+	font-size: 450%;
+	margin-bottom: 0px;
+}
+
+.button {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 15px;
+	padding: 5px 25px 5px 25px;
+	background: white;
+	border: 2px solid black;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.top-img {
+	margin-top: 50px;
+	margin-bottom:50px;
+	vertical-align: middle;
+}
+
+.top-divs {
+	width: 430px;
+}
+
+.top-divs:first-child {
+	margin-right: 12px;
+}
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 876px;
+	border: 1px;
+	border-top-style: solid;
+	border-bottom-style:solid;
+}
+
+
+.middle-img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.bottom-divs {
+	width: 280px;
+	margin-right: 10px;
+}
+
+.bottom-divs:last-child {
+	margin-right: 0px;
+}
+
+.contact-content {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+footer {
+	font-size: 75%;
+	margin-left: 350px;
+	margin-bottom: 100px;
+}
+
+/*Services*/
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 880px;
+	height: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.services-header h1 {
+	font-size: 200%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.main-content-services {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+    width: 880px;
+    height: auto;
+	border: 2px;
+	border-top-style: solid;
+	border-bottom-style:solid;
+}
+
+.main-content-services div {
+	width: 48%;
+	height: 225px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 1px solid black;
+	padding: 20px;
+	background-color: rgba(211, 211, 211, 0.74);
+
+}
+
+div.service-buttons {
+	background-color: white;
+	width: 150px;
+	height: auto;
+	padding: 10px 30px 10px 30px;
+}
+
+.services-bottom-content {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+	width: 880px;
+	height: auto;
+	margin-top: 25px;
+	margin-bottom: 100px;
+}
+
+.services-bottom-content div {
+	width: 48%;
+}
+.services-bottom-content img {
+	width: 48%;
+	height: 265px;
+}
+
+.service-list {
+	list-style-type: square;
+	list-style-position: inside;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.service-list li {
+	margin-top: 10px;
+}
