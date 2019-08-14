@@ -64,3 +64,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.logo {
+	display: flex;
+}
+
+.Innovation {
+	font-size: 36px;
+}
+
+.snippet {
+	display: flex;
+	
+	margin: 20px;
+}
+
+.snippet-container {
+	display: flex;
+	justify-content: right;
+	float: right; 
+}
+
+body {
+	background-color: #B3F2FF;
+	padding: 15px;
+}
+
+nav a {
+	padding: 10px;
+}
+
+
+h2 {
+	margin-top: 40px;
+}
+
+.middle-img {
+	margin-top: 40px;
+}
