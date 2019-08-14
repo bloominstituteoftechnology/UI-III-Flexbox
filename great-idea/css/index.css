@@ -63,7 +63,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox
+
+This is the code for the index.html file */
+
 .container {
 width: 900px; 
 margin: 0 auto;
@@ -86,8 +89,8 @@ margin-bottom: 50px;
 .logo {
 margin-right: 20px;
 margin-top: 20px;
-height: 40px;
-width: 160px;
+height: 35px;
+width: 200px;
 }
 
 h1 {
@@ -170,3 +173,158 @@ margin-top: 35px;
 	margin-top:35px;
 	margin-bottom: 35px;
 }
+
+
+
+
+/* This is the code for the services.html file */
+.container2 {
+	width: 955px; 
+	margin: 0 auto;
+	border: 1px solid lightgrey;
+}
+
+.paddinghelp{
+padding-left: 50px;
+padding-right: 20px;
+}
+	 
+
+.nav2 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	}
+	
+.nav2 a {	
+	
+	width: 600px;
+	margin-top: 30px;
+	margin-left: 15px;
+	text-decoration: none;
+	color:grey;
+	margin-bottom: 50px;
+	font-weight: bold;
+	}
+
+
+.logo2 {
+margin-right: 20px;
+margin-top: 20px;
+height: 35px;
+width: 200px;
+}
+
+.services-header-img {
+margin-left: 10px;
+}
+
+h3 {
+margin-top: 30px;
+font-size: 30px
+}
+
+.services {
+display: flex;
+margin-bottom: 30px;
+}
+
+.contentboxes {
+display: flex; 
+flex-wrap: wrap;
+margin-bottom: 100px;
+justify-content: space-between;
+margin-top: 30px;
+border-top: 1px solid black;
+
+}
+
+.contentbox1 {
+	width: 400px;
+	height:225px;
+	background: rgba(243, 241, 241, 0.911);
+	border: 1px solid black;
+	padding: 18px;
+	margin: 20px 20px 20px 20px;
+}
+
+.contentbox2 {
+	width: 400px;
+	height:225px;
+	background: rgba(243, 241, 241, 0.911);
+	border: 1px solid black;
+	padding: 18px;
+	margin: 20px 20px 20px 20px;
+}
+	
+
+.contentbox3 {
+	width: 400px;
+	height:225px;
+	background: rgba(243, 241, 241, 0.911);
+	border: 1px solid black;
+	padding: 18px;
+	margin: 20px 20px 20px 20px;
+}
+
+.contentbox4 {
+	width: 400px;
+	height:225px;
+	background: rgba(243, 241, 241, 0.911);
+	border: 1px solid black;
+	padding: 18px;
+	margin: 20px 20px 20px 20px;
+}
+.contentbox5 {
+	width: 400px;
+	height:225px;
+	background: rgba(243, 241, 241, 0.911);
+	border: 1px solid black;
+	padding: 18px;
+	margin: 20px 20px 20px 20px;
+}
+
+.contentbox6 {
+	width: 400px;
+	height:225px;
+	background: rgba(243, 241, 241, 0.911);
+	border: 1px solid black;
+	padding: 18px;
+	margin: 20px 20px 20px 20px;
+}
+
+.button2 {
+	margin-left: 30px;
+	width: 150px;
+	height: 40px;
+	border: 1px solid black;
+	background: white;
+	font-size: 11px;
+	margin-left: 5px;
+	margin-top: 18px;
+	border-radius:5px;
+		}
+
+.footer {
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+
+.somefacts {
+width: 400px;
+}
+
+ul {
+margin-top: 30px;	
+margin-bottom: 10px;
+list-style: square;
+margin-left: 20px;
+}	
+
+.copyright {
+margin:0 auto;
+
+}
+
+
