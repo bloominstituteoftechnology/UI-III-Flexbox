@@ -81,19 +81,23 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-around;
 	padding-top: 50px;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .title {
 	font-size: 90px;
 	padding-top:20px;
+	text-align: center;
 }
 
 .el-button{
 	text-decoration: none;
 	color: black;
 	border: 1px solid black;
-	padding-left: 100px;
-	padding-right: 100px;
+	/* padding-left: 100px;
+	padding-right: 100px; */
+	margin-left: 140px;
 }
 
 .container {
@@ -143,8 +147,39 @@ p {
 	margin-left: 700px;
 }
 
-.services-header-img {
-	width: 1370px;
-	margin-left: 75px;
-	margin-top: 20px;
+.content-width {
+	width: 910px;
+	margin:auto;
 }
+
+.all-container {
+	display: flex;
+}
+
+.service-container{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid black;
+}
+
+.buttons {
+	text-decoration: none;
+	color: black;
+}
+
+.service-boxes {
+	border: 1px solid black;
+	background-color: rgb(224, 223, 223);
+	margin: 10px;
+}
+
+.el-button2 {
+	margin-left: 15%;
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 30px;
+	width: 60px;
+}
+
+
+
