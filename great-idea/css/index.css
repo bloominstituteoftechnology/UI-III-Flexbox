@@ -70,10 +70,11 @@ h1, h2, h3, h4, h5 {
     font-size: 60px;
 
 }
-  .container {
+.container {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
+
 }
 
 /* header */
@@ -115,7 +116,7 @@ header .logo {
 /* cta */
 .cta{
   display: flex;
-  border: 2px solid red;
+
   
 }
 .cta .cta-text {
@@ -146,50 +147,52 @@ header .logo {
 
 
 
-.cta img {
+
 
 }
 
-.main-content {
+.main {
+  border: solid red;
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
 
-.main-content .top-content {
+.main .top {
   padding: 0 10px;
   display: flex;
+  border: solid blue;
 
 }
 
-.main-content .top-content .text-content {
+.main .top .text {
   width: 410px;
 
   margin-right: 34px;
   
 }
 
-.main-content .top-content .text-content:last-child {
+.main .top .text:last-child {
   margin-right: 0;
 }
 
-.main-content .middle-img {
+.main .middle {
   margin-top: 45px;
 }
 
-.main-content .bottom-content {
+.main .bottom {
   margin-top: 37px;
   padding: 0 10px;
   display: flex;
 }
 
-.main-content .bottom-content .text-content {
+.main .bottom .text {
   width: 275px;
   
   margin-right: 12px;
 }
 
-.main-content .bottom-content .text-content:last-child {
+.main .bottom .text:last-child {
   margin-right: 0;
 }
 
@@ -208,62 +211,28 @@ footer {
   text-align: center;
   font-size: 14px;
 }
-/*new line of code*/
-
-.contain{
+/*new line of code for services*/
+.flex-container .row{
+  border: 1px solid black;
   display: flex;
-  }
-  .bb a{
-    margin-right: 65px;
-    font-size: 14px;
-    color: gray;
-    text-decoration: none;
-  }
-  .flex-container{
-    display: flex;
-    width: 50%;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-  .digitaldesign{
-    
-    border: 1px solid black;
-    margin: auto;
-    padding: 20px;
-    width: 50%;
-    
-    
-    
-  }
-  .uxui{
-    border: 1px solid black;
-    margin: auto;
-    padding: 20px;
-    width: 40%;
-    height:30%;
-    flex-direction: row;
-  }
-  .digitalmarketing{
-    border: 1px solid black;
-    margin: auto;
-    padding: 20px;
-    width: 40%;
-  }
-  .webdevolpment{
-    border: 1px solid black;
-    margin: auto;
-    padding: 20px;
-    width: 40%;
-  }
-  .ios{
-    border: 1px solid black;
-    margin: auto;
-    padding: 20px;
-    width: 40%;
-  }
-  .andriod{
-    border: 1px solid black;
-    margin: auto;
-    padding: 20px;
-    width: 40%;
-  }
+ justify-content: space-between;
+ margin: 40px 0;
+
+
+}
+.flex-container .digitaldesign{
+  width: 400px;
+  background-color: lightgray;
+}
+ul li{
+  list-style-type: square;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.flex-container-1{
+
+}
+.img{
+ display: 
+}
