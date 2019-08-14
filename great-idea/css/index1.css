@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.nav-links {
+	margin-left: 70px;
+    position: relative;
+    top: 20px;
+    
+}
+.nav-combined {
+    display: flex;
+    margin: 0px 390px;
+    
+}
+ 
+.big-logo {
+	display: flex;
+}
+.copyright {
+	text-align: center;
+    margin-top: 50px;
+    position: relative;
+    bottom: 30px;
+    
+}
+
+.inline-1 {
+	display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.inline-2 {
+	display: inline-flex;
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.column {
+	float: left;
+	width: 50%;
+	padding: 5px;	
+}
+.innovation {
+    font-size: 90px;
+    margin-top: 100px;
+    display: inline-flex;
+    margin-left: 500px;
+
+}
+.huge-logo {
+    margin-left: 1000px;
+    margin-top: 50px;
+    margin-bottom: 60px
+}
+.aligning-correct {
+    display: inline-flex;
+    margin-left: 500px
+}
+.first-boxes {
+    display: inline-flex;
+    margin-left: 500px;
+    margin-bottom: 30px;
+    width: 300px;
+    
+}
+.second-boxes {
+    display: inline-flex;
+    margin-left:200px;
+    margin-bottom: 30px;
+    width: 270px;
+}
+.standalone {
+    margin-left: 250px;
+}
+.middle-img {
+    display: inline-flex;
+    margin-left: 500px;
+}
+.border1 {
+    margin-left: 500px;
+    margin-right: 525px;
+}
+.border2 {
+    margin-left: 500px;
+    margin-right: 525px;
+    margin-bottom: 30px;
+}
+.contact {
+    margin-left: 500px;
+    margin-bottom: 15px;
+}
+.contact-info {
+    margin-left: 500px;
+    margin-bottom: 
+}
+.about {
+    margin-left: 252px;
+}
+.one {
+    margin-left: 500px;
+    
+}
+.two {
+   margin-left: 35px 
+}
+.three {
+    margin-left: 35px;
+}
+
+.started {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-left: 600px;
+    font-size: 16px;
+    height: 35px;
+    width: 170px;
+    position: relative;
+    bottom: 195px;
+    
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+.logo {
+    position: relative;
+    bottom: 10px;
+}
+.sales {
+    padding-bottom: 50px;
+}
