@@ -71,9 +71,11 @@ h1, h2, h3, h4, h5 {
   }
   
   /* header */
-  
+  header{
+	  display:flex;
+  }
  	 header nav {
-	display: inline-flex;
+	align-self: flex-start;
 	align-items: center;
 	width: 691px;
 	vertical-align: top;
@@ -100,6 +102,7 @@ h1, h2, h3, h4, h5 {
   }
   
   header .logo {
+	align-self: flex-end;
 	margin-top: 25px;
   }
   
@@ -109,7 +112,7 @@ h1, h2, h3, h4, h5 {
   }
   .cta .cta-text {
 	align-self:flex-start;
-	vertical-align: top;
+	vertical-align:center;
 	font-size: 77px;
 	margin-top: 140px;
 	text-align: center;
