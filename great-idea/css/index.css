@@ -81,9 +81,9 @@ nav a {
 	margin-top: 30px;
 	margin-bottom: 10px;
 	margin-left: 70px;*/
-	display: flex;
+	/*display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
+	flex-direction: row;*/
 
 }
 
@@ -92,6 +92,7 @@ nav {
 	margin-left: 40px;*/
 
 	display: flex;
+	
 }
 .logo {
 	 float: right;
@@ -100,7 +101,7 @@ nav {
 	 /*position: absolute;*/
 	 left: 1200px;
 	 top: 20px;
-	/* margin: 0px 75px 15px 0px;*/
+	 margin: 0px 75px 15px 0px;
 	 margin-left: -23px;
 }
 
@@ -119,10 +120,9 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	/*align-content: stretch;
-	margin-left: 110px;
+	/*margin-left: 110px;*/
 	width: 1325px;
-	height: 1400px;*/
+	height: 1400px;
 	
 	
 	font-size: 20px;
@@ -163,17 +163,18 @@ h1 {
 
  .DigitalDesign {
 
-	/*width: 510px;
+	width: 510px;
 	height: 250px;
-	margin: 75px;
-	margin-left: 70px;
-	margin-top: 10px;*/
+	/*margin: 75px;*/
+	/*margin-left: 70px;
+	/*margin-top: 10px;*/
 	border: 2px solid black;
+	
 	
 }
  .UX {
 	
-	/*width: 510px;
+	width: 510px;
 	height: 250px;
 	margin: 75px;
 	/*margin-top: 10px;
@@ -183,20 +184,20 @@ h1 {
 
 .DigitalMarketing {
 	
-	/*width: 510px;
+	width: 510px;
 	height: 250px;
-	margin-right:90px;
-	margin-top: 0px;
-	margin: 75px;*/
+	margin: 75px;
+	/*margin-top: 0px;
+	margin-right: 0px;*/
 	border: 2px solid black;
 }
 
 .WebDevelopment {
-	/*width: 510px;
+	width: 510px;
 	height: 250px;
-	margin-top: 0px;
-	margin-left: 0px;
-	/*margin: 75px;*/
+	margin: 75px;
+	/*margin-top: 0px;
+	margin-left: 0px;*/
 	border: 2px solid black;
 	
 	
@@ -204,41 +205,42 @@ h1 {
 
 .iOSDevelopment {
 	
-	/*width: 510px;
+	width: 510px;
 	height: 250px;
-	margin-left: 0px;
-	margin-top: 900px;
-	margin: 75px;*/
+	margin: 75px;
+	/*margin-left: 0px;
+	margin-top: 900px;*/
 	border: 2px solid black;
 
 }
 .AndroidDevelopment {
-	/*width: 510px;
+	width: 510px;
 	height: 250px;
-	margin-top: 0px;
-	margin-left: 10px;
-	margin: 75px;*/
+	margin: 75px;
+	/*margin-top: 0px;
+	margin-left: 10px;*/
 	border: 2px solid black;
 }
 
 .bottomSectionOne {
-	display: block;
-	/*flex-direction: column;
-	/*width: 510px;
+	/*display: flex;
+	/*flex-direction: column;*/
+	width: 550px;
 	height: 200px;
+	margin: 75px;
 	margin-left:0px;
-	margin-top: 1410px;*/
+	margin-top: 50px;
 	border: 2px solid black;
 	
 }
 
 .bottomSectionTwo {
 	
-	/*flex-direction: row;
+	/*flex-direction: row;*/
 	width: 200px;
-	height: 150px;
-	margin-left: 40px;
-	margin-top: 1600px;*/
+	height: 200px;
+	margin-left: -625px;
+	margin-top: 250px;
 	border: 2px solid black;
 	
 	
@@ -267,13 +269,13 @@ h3 {
 	
 }
 ul  {
-	line-height: 2;
+	line-height: 1;
 	margin: 0;
 	padding 0;
 	
 }
 li {
-	display: inline-block;
+	display: block;
 	margin: 15px;
-	margin-left: 110px;
+	margin-left: 30px;
 }
