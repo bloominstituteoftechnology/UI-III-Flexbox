@@ -283,7 +283,8 @@ ul {
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px) {
+
 	.all-containers {
 		display: flex;
 		justify-content: space-between;
@@ -291,7 +292,7 @@ ul {
 		padding-bottom: 40px;
 	}
 	
-	.container {
+	.all-containers .container {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -300,7 +301,7 @@ ul {
 		border: 1px solid black;
 		margin: 40px 0px 10px 0px;
 		height: 450px;
-		width: 100%;
+		width: 100% !important;
 	}
 
 	.container-title h3 {
@@ -351,4 +352,4 @@ ul {
 		font-size: 30px;
 		margin: 0 0 0 20px;
 	}
-}
+} 
