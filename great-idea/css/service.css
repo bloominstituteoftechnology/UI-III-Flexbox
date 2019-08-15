@@ -239,6 +239,7 @@ nav .anchors{
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .footer-h1 {
@@ -254,6 +255,7 @@ nav .anchors{
 
 .copyright {
     margin-top: 150px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
