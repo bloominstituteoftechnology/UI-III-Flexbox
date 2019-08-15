@@ -187,7 +187,7 @@ nav .anchors{
 }
 
 .anchors:hover {
-    color: pink;
+    color: cadetblue;
 }
 
 .services-header-img {
@@ -195,13 +195,24 @@ nav .anchors{
 }
 
 
-.flex-container-1 {
-    display: flex;
+.service-container {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .flex-container-2 {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.flex-container-3 {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.flex-container-4 {
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
