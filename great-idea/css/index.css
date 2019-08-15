@@ -47,13 +47,15 @@ table {
 	border-spacing: 0;
 }
 
+
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	/* width: 100%; */
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -63,4 +65,175 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	width: 80%;
+	margin: auto;
+}
+
+nav { 
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	color: darkgray;
+}
+
+a{
+	text-decoration: none;
+	color: darkgray;
+}
+header{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+h1{
+	font-size: 80px;
+}
+
+h3{
+	font-size: 20px;
+}
+
+
+.featureAboutBlock{
+	display:flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom{
+	display:flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.Services{
+	margin-right: 15px;
+}
+
+.Product{
+	margin-right: 15px;
+}
+
+.contact{
+	margin-top: 30px;
+}
+
+footer{
+	text-align:center;
+	margin-top:80px;
+}
+
+.services-header-img{
+	width: 100%;
+	margin: 25px 0px;
+}
+
+.servicesServicePage{
+	margin: 20px 0px;
+	line-height: 1.2;
+}
+
+main div{
+	border: 1px solid black;
+	background: #f1eeee;
+	width: 48%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+	line-height: 1.2;
+}
+
+main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+main div p {
+	font-weight: bold;
+}
+.learn{
+	border: 1px black solid;
+	padding: 10px 30px;
+	margin-top: 25px;
+	width: 140px;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+	background: #ffffff;
+}
+
+.hrThick{
+	height: 3px;
+	background: black;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.h2SomeFacts{
+	display:flex;
+}
+.bottomFactsPlusImage{
+	display:flex;
+	width: 100%;
+	margin: 0px;
+	justify-content: space-between;
+}
+
+.amazingList{
+	display:flex;
+}
+.services-info-img{
+	width: 48%;
+	display: flex;
+	margin-top: 30px;
+	
+}
+
+h2{
+	font-weight: bold;
+}
+
+.hrThin{
+	background: black;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+
+.amazingList{
+	display:flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+
+.bottomLeftWords{
+	width: 45%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
