@@ -413,6 +413,20 @@ margin: 0 auto;
 
 	}
 
+	
+	.learn-box a{
+		text-decoration: none;
+	
+	}
+
+
+	.learn-box a:visited{
+		color: black;
+	}
+
+
+
+
 	.facts{
 	border-top: 1px solid black;
 	padding: 40px ;
@@ -428,14 +442,14 @@ margin: 0 auto;
 		display: block;
 		width: 400px;
 		position: relative;
-		left:200px;
+		left:225px;
 		
 	}
 		
 	.services-info-img{
 	
-	left: 800px;
-	bottom: 290px;
+	left: 790px;
+	bottom: 310px;
 	position: relative;
 
 	
