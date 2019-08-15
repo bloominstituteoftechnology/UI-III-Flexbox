@@ -31,9 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -63,6 +60,12 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+ul, ol{
+	list-style-type: none;
+	line-height: 120%;
+}
+
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /* importing another font family */
@@ -75,7 +78,7 @@ html {
 }
 
 body {
-	margin-top: 7vw;
+	margin-top: 10vh;
 }
 
 header {
@@ -84,24 +87,26 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 7vh;
+	height: 10vh;
 }
 
 header nav {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
 }
 
 header nav a {
 	color: gray;
 	text-decoration: none;
-	margin-top: 2%;
+	margin-top: 3%;
+
 }
 
 .logo {
-	margin-top: 2%;
-
+	height: 5vh;
+	width: 20vh;
+	align-self: center;
+	margin-bottom: 1%;
 }
 
 .logo-2-section {
@@ -112,9 +117,9 @@ header nav a {
 
 .logo-alt {
 	font-family: 'Bangers', cursive;
-	width: 40%;
-	height: 280px;
-	margin-top: 11%;
+	width: 60%;
+	height: 20%;
+	margin-top: 13%;
 }
 
 .logo-alt * {
@@ -125,24 +130,22 @@ header nav a {
 
 .codesnippet {
 	width: 40%;
-	margin-top: 8%;
-	margin-left: 5%;
+	margin-top: 10%;
 }
 
-button {
+.logo-2-section button {
 	text-decoration: none;
 	background-color: white;
-	border: 1px solid gray;
+	border: 1px solid black;
 	font-size: 15px;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin-right: 50%;
-	margin-left: 13%;
+	margin-left: 26%;
 	margin-bottom: 6%;
 	align-self: flex-end;
-	flex: -1;
 }
 
 button:hover {
@@ -195,7 +198,6 @@ button:hover {
 	width: 30%;
 	margin-bottom: 7%;
 }
-/* last bit of code to finish here */
 
 address {
 	display: flex;
@@ -220,7 +222,7 @@ address a {
 	margin-left: 2%;
 }
 
-footer * {
+footer {
 	margin-top: 5%;
     text-align: center;
 }
@@ -229,30 +231,36 @@ footer * {
 
 .services-jumbotron {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 	align-content: flex-start;
-	margin-left: 4%;
-	margin-right: 4%;
-	margin-bottom: 4%;
+	justify-content: space-around;
+	margin-left: 5%;
+	margin-right:3%;
+	margin-bottom: 2%;
+	width: 88vw;
 	border-bottom: 2px solid black;
 }
 
 #services-header-img {
+	width: 88vw;
 	margin-bottom: 4%;
 	height: 20vh;
 	
 }
 
 #services-overview {
-	margin-right: 3%;
-	margin-left: 3%;
 	margin-bottom: 4%;
+	width: 85vw;
 }
 
 .content-main {
 	display: flex;
 	flex-flow: row wrap;
+	margin-left: 4%;
+	margin-right: 4%;
 	padding-bottom: 4%;
+	margin-bottom: 4%;
 	border-bottom: 2px solid black;
 }
 
@@ -263,8 +271,10 @@ footer * {
 	font-size: 10;
 	border: 1px solid black;
 	padding: 2%;
-	margin: 2%;
-	width: 45%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 3%;
+	width: 44%;
 	height: 245%;
 	line-height: 130%;
 
@@ -272,6 +282,7 @@ footer * {
 
 .contentBox p {
 	margin-bottom: 7%;
+	margin-left: 2%;
 }
 
 .contentBox h3 {
@@ -280,6 +291,40 @@ footer * {
 	margin-left: 2%;
 }
 
-.contentBox button{
+.contentBox button {
+	border: 1px solid black;
+	background-color: white;
+	width: 15vw;
+	height: 4vh;
 	border-radius: 4px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 4%;
+	padding-right: 4%;
+	font-size: 13px;
+}
+
+/* End of styling for content-main */
+
+.bottom-third {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+#services-list {
+	margin-left: 5%;
+	width: 30%;
+	height: 50%;
+	line-height: 120%;
+}
+
+#services-list * {
+	list-style-type: square;
+	margin: 3%;
+}
+
+.services-info-img {
+	margin-right: 10%;
 }
