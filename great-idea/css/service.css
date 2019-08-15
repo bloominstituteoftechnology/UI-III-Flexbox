@@ -248,7 +248,8 @@ nav .anchors{
 
 .footer-p {
     margin-top: 25px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
+    width: 500px;  
 }
 
 .copyright {
