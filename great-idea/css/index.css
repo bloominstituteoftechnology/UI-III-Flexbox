@@ -65,59 +65,79 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.logo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
-}
-
-.snippet-container {
+nav {
+	height: 100px;
+	width: 878px;
+	margin: 0 auto;
 	display: flex;
-	justify-content: right;
-	float: right;
-	margin: 20px; 
-}
-
-body {
-	background-color: #B3E5FF;
-	padding: 15px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav a {
-	padding: 20px;
+	color: lightgray;
+	text-decoration: none;
 }
 
-nav {
-	text-align: center;
-}
-
-h2 {
-	margin-top: 40px;
-}
-
-.middle-img {
-	margin-top: 40px;
-}
-
-footer {
-	display: flex;
-	justify-content: flex-start;
-}
-
-.Center {
-	width: 900px; 
+.container {
+	width: 878px;
 	margin: 0 auto;
 }
 
-.Innovation {
+.section {
 	display: flex;
-	justify-content: center;
-	font-size: 40px;
-	padding-top: 30px;
+	align-items: center;
+	padding: 15px;
+	text-align: center;
+	padding-bottom: 50px;
 }
 
-.Button {
+.button1 {
+	padding: 4px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px;
+	background-color: transparent;
+	font-weight: 100;
+}
+
+.section p {
+	font-size: 70px;
+	font-weight: bolder;
+	margin-right: 50px;
+	font-family: 'Bangers', cursive;
+}
+
+.info {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	padding: 20px 0px;
+	font-size: 16px;
+}
+
+div .image {
+	display: block;
+	text-align: center;
+}
+
+.services {
+	display: flex;
+	padding: 10px 0px;
+	font-size: 14px;
+}
+
+.services div {
+	margin-left: 10px;
+}
+
+.services div:first-child {
+	margin-left: 0px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
