@@ -77,8 +77,6 @@ body {
 #mainHeader {
     padding: 25px;
     background-color: #ffffff;
-    position: sticky;
-    box-shadow: 0px 2px 5px 0px #9a9595;
     top: 0;
     z-index: 100;
     margin-bottom: 20px;
@@ -95,6 +93,12 @@ body {
     top: -10px;
     left: -50px;
     width: 80%;
+    padding:20px;
+	background-color: #ffffff;
+	color:black;
+    text-decoration: none;
+    font-size: 18px;
+	color: gray;
 }
 a {
     padding: 0 20px;
@@ -103,7 +107,7 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: gray;
-    transition: all ease-in-out 120ms;
+    
 }
 a:hover {
 	background-color:skyblue;
