@@ -66,100 +66,204 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 	margin: 0 auto;
   }
-  .top-text{
+  .top-text {
+	display:flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+  }
+  .top-text nav a{
+	  padding: 20px;
+	  margin-top: 40px;
+	  width: 250px;
+	  margin: 40px 0;
+  }
+  .square h1{	
+	  justify-content: flex-start;
+	  font-size: 80px;
+	  width: 300px;
+	  text-align: center;	
+	  margin-left: 80px;
+	  margin-top: 60px;
+  }
+  .square{
+	  display:flex;
+	  flex-direction: row;
+	  justify-content: space-between;
+	  margin-top: 80px;  
+  }
+  .square img{
+	  margin-left: 150px;
+	  flex-wrap: wrap;
+	  margin-bottom: 40px;
+	  width: 400px;
+	  height: 400px;
+  }
+  .square button{
+	width: 200px;
+	height: 40px;
+	margin-bottom: 80px;
+  }
+ .main-content{
+	 display:flex;
+	 justify-content: space-between;
+	 margin-bottom: 20px;
+	 margin-top: 20px;
+ }
+ 
+  .bottom-content{
+	display:flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	width: 875px;
+}	
+  .contact{
+	  margin-top: 40px;
+  }
+  .copy{
+	  text-align: center;
+	  margin-top: 40px;
+	  margin-bottom: 80px;
+  }
+  .top-content{
+	display:flex;
+	justify-content: space-evenly;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+  }
+  .top-content nav a{
+		padding: 20px;
+		margin-top: 40px;
+		width: 250px;
+		margin: 0 10px; 
+  }
+  .block h2{
+	  margin-top: 40px;
+	  font-size:30px;
+  }
+  .block p{
+	  margin-bottom: 40px;
+  }
+  .middle-content { 
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 align-content: inherit;
+	 flex-wrap: wrap;
+  }
+  .border{
+	border: 1px solid black;
+	background: lightgrey;
+	width: 420px;
+	height: 250px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+    padding: 20px 15px;
+	line-height: 20px; 
+  }
+  
+	 
+ .middle-content button {
+	  width: 200px;
+	  height: 40px;
+	  margin-top: 20px;
+  }
+  .facts{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-content: flex-start;
-	margin: 25px;
+	align-content: inherit;
+	flex-wrap: wrap;	 
   }
-  a{
-   margin-left: 30px;
-   text-decoration: none;
-   color: grey;
-  }
-  
-  .square {
-	font-size: 80px;
-	margin: 200px 60px;
-	text-align: center;
-	width: 270px
-  }
-  button{
-	width: 160px;
-	height: 30px;
-  }
-  .sphere{
-	margin-left: 500px;
-	position: absolute;
-	align-content: 50px;
-	top: 250px;
-  }
-  .main-content{ 
-	width: 900px;
-	column-count: 2;
-	margin-bottom: 40px;
-  }
-  
-  .mac{
-	margin-right: 20px;
-	margin-bottom: 40px;
-  }
-  .bottom-content{
-	width: 900px;
-	column-count: 3;
-	margin-bottom: 20px
-  }
-  .copy{
-	display: flex;
-	justify-content: center;
-	margin-top: 40px;
-  }
-  .border{
-	width: 900px;
-	margin: 0 auto;
-	margin-bottom: 40px;
-	margin-top: 40px;
-  }
-  
-  .services-header-img{
-	  width:900px;
+.facts p {
+	width: 400px;
+}
+.facts h4{
+    margin-top: 20px;
+}
+.bottom-img{
+	margin-top: 20px;
+}
+
+ ul{
+	 Padding: 20px;
+	 flex-wrap: wrap;
+	 
+ }
+ li{
+	 padding: 10px;
+	 flex-wrap: wrap;
+ }
+ .copyright{
+	 text-align: center;
+	 margin-top: 80px;
+	 
+ }
+ @media (max-width: 500px){
+	 .container{
+		 width:100%;
+		 margin 0 auto;
+	 }
+	.facts{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-content: inherit;
+		flex-wrap: wrap;
+		box-sizing:border-box;	 
+	  }
+	  .border{
+		border: 1px solid black;
+		background: lightgrey;
+		width: 26.25rem;
+		height: 250px;
+		margin-bottom: 2.5rem;
+		margin-top: 1.25rem;
+		padding: 20px 15px;
+		line-height: 20px; 
+	  }
+	  
+		 
+	 .middle-content button {
+		  width: 12.5rem;
+		  height: 40px;
+		  margin-top: 1.25rem;
+	  }
+	  .facts{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-content: inherit;
+		flex-wrap: wrap;	 
+	  }
+	.facts p {
+		width: 25rem;
 	}
-  
-.middle-content{
-	padding: 20px; 
-	margin-bottom: 40px;
-	width: 400px;
-	border: 1px solid black;
-	background-color: lightgray;
-}
-
-button{
-margin-top: 20px;
-background-color: white;	
-}
-
-h2{
-	font-size: 20px;
-	margin-top: 40px;
-}
-.block{
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	flex-wrap: wrap;	
-	margin-top: 40px;			
-}
-
-ul li{
-	margin: 20px;
-}
-.services-info-img{
-   display: flex;
-   flexflex-wrap: wrap;
-}
-.last-content{
-	width: 400px;
+	.facts h4{
+		margin-top: 1.25rem;
+	}
+	.bottom-img{
+		margin-top: 1.25rem;
+	}
 	
-}
+	 ul{
+		 Padding: 1.25rem;
+		 flex-wrap: wrap;
+		 
+	 }
+	 li{
+		 padding: 10px;
+		 flex-wrap: wrap;
+	 }
+	 .copyright{
+		 text-align: center;
+		 margin-top: 5rem;
+		 
+ }
 
+
+  
+  
+  
+  
