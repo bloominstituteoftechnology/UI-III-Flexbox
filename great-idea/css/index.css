@@ -153,7 +153,7 @@ footer {
 /* Services Page */
 
 .services-header-img {
-	margin: 0 200px;
+	margin: 0 200px 40px 50px;
 }
 
 .service-header {
@@ -202,17 +202,17 @@ h2 {
 
 .facts-container {
 	height: 500px;
-	width: 1200px;
+	width: 1250px;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 }
 
 .facts-box {
-	height: 100x;
+	height: 400px;
 	width: 500px;
-	padding: 30px;
-	font-size: 20px;
+	padding: 60px;
+	font-size: 20px
 }
 
 ul {
