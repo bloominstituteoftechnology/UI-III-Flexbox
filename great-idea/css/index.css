@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -141,4 +139,71 @@ header .logo {
 footer p {
 	display: flex;
 	justify-content: center;
+}
+
+.top-content img {
+	width: 100%;
+}
+
+.services h2 {
+	margin: 25px;
+	font-size: 25px;
+}
+
+.services p {
+	margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid black;
+}
+
+.courses {
+	background: lightgray;
+    padding: 20px;
+    margin: 20px;
+    width: 380px;
+    border: 1px solid black;
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+.courses button {
+	padding: 5px 20px 5px 20px;
+	margin-top: 20px;
+}
+
+.facts h4 {
+	margin: 25px;
+	border-top: 2px solid black;
+	padding-top: 25px;
+}
+
+.facts p {
+	margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    width: 400px;
+}
+
+.others ul {
+	margin:25px;
+	padding: 10px 25px;
+}
+
+.others ul li {
+	padding: 10px;
+}
+
+.others img {
+	width: 47%;
+	margin-left: 438px;
+	margin-top: -320px;
+	margin-bottom: 40px;
+}
+
+footer {
+	margin: 20px;
+	padding: 20px;
 }
