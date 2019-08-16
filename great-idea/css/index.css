@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5 {
  @media (max-width: 500px){
 	 .container{
 		 width:100%;
-		 margin 0 auto;
+		 margin: 2.5rem;
 	 }
 	.facts{
 		display: flex;
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5 {
 		height: 250px;
 		margin-bottom: 2.5rem;
 		margin-top: 1.25rem;
-		padding: 20px 15px;
+		padding: 1.25rem .9375rem;
 		line-height: 20px; 
 	  }
 	  
@@ -253,15 +253,24 @@ h1, h2, h3, h4, h5 {
 		 
 	 }
 	 li{
-		 padding: 10px;
+		 padding: .625rem;
 		 flex-wrap: wrap;
 	 }
 	 .copyright{
 		 text-align: center;
 		 margin-top: 5rem;
+	 }
+     .services-header-img{
+		 height: 150px;
+		 width: 26.25rem;
+		 margin-left: .6275rem;
+	 }	
+	 .top-text img{
+		 margin: 0 auto;
+	 }
 		 
- }
-
+	 }
+ 
 
   
   
