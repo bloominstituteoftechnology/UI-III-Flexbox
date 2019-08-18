@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol {
 	list-style: none;
 }
 blockquote, q {
@@ -71,7 +71,7 @@ nav {
 	margin: 0 auto;
 	display: flex;
     align-items: center;
-    justify-content: space-around;
+	justify-content: space-around;
 }
 
 nav a {
@@ -141,3 +141,56 @@ div .image {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+.services-header-img {
+	display: flex;
+	align-items: center;
+}
+
+.div1 {
+	width: 878px;
+	margin: 0px auto;
+}
+
+.services2 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.services2 h3 {
+	font-size: 20px;
+}
+
+.digitalDesign {
+	border: 1px solid black;
+	background-color: #D9D9D9;
+	padding: 20px;
+	width: 50%;
+	float: left;
+	text-align: left;
+	font-size: 14px;
+}
+
+.button2 {
+	padding: 8px 20px;
+	border-radius: 8px;
+	display: inline-block;
+}
+
+.UX{
+	border: 1px solid black;
+	background-color: #D9D9D9;
+	padding: 20px;
+	font-size: 14px;
+}
+
+.facts {
+	width: 50%;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.services-info-img {
+	width: 50%;
+}
+
