@@ -347,7 +347,7 @@ footer {
   font-size: 24px;
 }
 
-.bottom{
+.bottom {
   border: none;
 }
 
@@ -365,4 +365,22 @@ footer {
 
 .bottom ul li {
   margin-top: 10px;
+}
+
+/* Vision */
+
+.vision-header-img {
+  height: 300px;
+  object-fit: cover;
+  margin: 25px 0;
+}
+
+.grid.vision {
+
+}
+
+.grid.vision .box {
+  @media (min-width) {
+    
+  }
 }
