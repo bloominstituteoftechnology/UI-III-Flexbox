@@ -1,4 +1,5 @@
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
@@ -21,6 +22,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* header */
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 header nav {
   display: inline-block;
@@ -53,6 +60,12 @@ header .logo {
 }
 
 /* cta */
+
+.cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 .cta .cta-text {
   display: inline-block;
