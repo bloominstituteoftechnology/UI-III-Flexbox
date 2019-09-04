@@ -1,0 +1,52 @@
+h1{
+    font-size: x-large;
+    margin-top: 20px;
+}
+section.cardHolder{
+    border-top: 1px solid black;
+    padding-top: 40px;
+    margin-top: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+div.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #eeeeee;
+    width: 48%;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.card button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin-top: 20px;
+    width: 150px;
+}
+.b{
+    border-top: 2px solid black;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.b img{
+    width: 48%;
+}
+#bot{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+#bot ul{
+    list-style: square;
+}
+#bot ul li{
+    padding-top: 20px;
+    margin-left: 20px;
+}

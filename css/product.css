@@ -1,0 +1,32 @@
+#templ{
+    width: 880px;
+    height: 400px;
+}
+.holder{
+    border-top: 5px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    width: 880px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hold{
+    width: 30%;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.hold h2{
+    text-align: center;
+}
+.hold button{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
