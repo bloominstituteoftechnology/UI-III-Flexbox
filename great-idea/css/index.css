@@ -64,9 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-  width: 880px;
+  width: 80%;
+  max-width: 880px;
   /* TB LR */
   margin: 0 auto;
+}
+
+img{
+  width: 100%;
 }
 
 /* header */
@@ -74,7 +79,8 @@ h1, h2, h3, h4, h5 {
 header{
 	/* --- */
 	display: flex;
-	flex-direction: row;
+  flex-direction: row;
+  justify-content: space-between;
 	/* --- */
 }
 
@@ -113,7 +119,7 @@ header .logo {
 	/* --- */
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+  justify-content: space-between;
 	/* --- */
 }
 
@@ -142,6 +148,7 @@ header .logo {
 }
 
 .cta img {
+  height: auto;
   /* display: inline-block; */
   margin-top: 69px;
 }
@@ -245,7 +252,7 @@ footer {
 	flex: 1;
 	padding: 1rem;
 	border: solid 1px #BDBCBD;
-	background-color: #F4F3F4;
+  background-color: #F4F3F4;
 }
 
 .service:first-child{
@@ -266,8 +273,14 @@ footer {
 	justify-content: space-between;
 }
 
+.facts img{
+  width: 48%;
+
+}
+
 .facts .text-content{
-	width: 46%;
+  width: 50%;
+  padding-right: 1rem;
 }
 
 .facts .text-content ul{
@@ -298,4 +311,86 @@ footer {
 
 .product button{
 	margin-top: 1rem;
+}
+
+/* media queries */
+
+@media(max-width:1000px){
+  header nav{
+    width: auto;
+  }
+
+  header nav a{
+    margin-right: 1.5rem ;
+  }
+
+  .cta{
+    justify-content: center;
+  }
+
+  .cta .cta-text {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .cta img{
+    width: 40%;
+  }
+}
+
+@media(max-width: 765px){
+  header{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  header img{
+    width: 183px;
+  }
+
+  header nav{
+    order: 1;
+    margin-top: 1rem;
+  }
+
+  .cta{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cta .cta-text{
+    order: 1;
+    margin-top: 60px;
+  }
+
+  .main-content .top-content,
+  .main-content .bottom-content{
+    flex-direction: column;
+  }
+
+  .main-content .top-content .text-content,
+  .main-content .bottom-content .text-content{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .main-content .top-content .text-content:last-child,
+  .main-content .bottom-content .text-content:last-child{
+    margin-bottom: 0rem;
+  }
+
+  .facts{
+    flex-direction: column;
+  }
+
+  .facts img{
+    order: -1;
+    width: 100%;
+  }
+  
+  .facts .text-content{
+    width: 100%;
+    padding-right: 0rem;
+    margin-top: 2rem;
+  }
 }
