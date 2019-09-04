@@ -113,12 +113,12 @@ header .logo {
   padding: 0px 75px;
 }
 
-.get-started-btn {
+.cta .cta-text button {
   display: flex;
   background: white;
   vertical-align: top;
-  padding: 1px 45px 1px 45px;
-  font-size: 16px;
+  padding: .5px 45px .5px 45px;
+  font-size: 14px;
   margin-left: 20%;
   border: 1px solid black;
   cursor: pointer;
@@ -135,31 +135,11 @@ header .logo {
 }
 .main-content {
 	display: flex;
+	flex-wrap: wrap;
 }
-.main-content h2{
+.main-content h4{
 	display: flex;
 }
-
-/* .main-content div {
-	width: 50%;
-	padding-bottom: 35px;
-}
-.main-content-bottom {
-	display: flex;
-	justify-content: space-between;
-	border-bottom: 1px solid black;
-}
-
-.main-content-bottom div {
-	width: 30%;
-	padding-bottom: 35px;
-}
-.middle-img {
-
-	width: 80%;
-	height: 30px;
-	padding-bottom: 35px;
-} */
 
 .main-content {
   border-top: 1px solid black;
@@ -198,13 +178,15 @@ header .logo {
   display: flex;
   flex-wrap: wrap;
   margin-right: 12px;
-} */
+} 
 
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
 } 
 
 .contact {
+  display: flex;
+  align-content: flex-start;
   margin-top: 57px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
