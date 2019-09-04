@@ -1,0 +1,80 @@
+body {
+	line-height: 1;
+}
+
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container{
+  width: 880px;
+  margin: 0 auto;
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+nav{
+  border: 1px solid black;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.services{
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobs{
+  border: 1px solid black;
+  background-color: hsl(43, 4%, 95%);
+  padding: 15px;
+  margin: 10px 15px;
+
+}
+
+.jobs a{
+  padding: 5px 30px;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.contact:last-of-type{
+  border-bottom:  2px solid black;
+}
+
+.Facts{
+  display: flex;
+  justify-content: space-around;
+}
