@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -93,7 +93,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -137,9 +137,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* header */
-
+.header {
+	display:flex;
+}
 header nav {
-  display: inline-block;
+  display: flex;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
@@ -169,9 +171,12 @@ header .logo {
 }
 
 /* cta */
-
+.cta .cta-text{
+	display:flex;
+	flex-direction: column;
+}
 .cta .cta-text {
-  display: inline-block;
+  display: flex;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
@@ -211,7 +216,7 @@ header .logo {
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
+  display: flex;
   margin-right: 34px;
 }
 
@@ -230,7 +235,7 @@ header .logo {
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
+  display: flex;
   margin-right: 12px;
 }
 
