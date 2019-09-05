@@ -145,8 +145,7 @@ header .logo {
 
 .cta img {
   display: flex;
-  flex-direction: ;
-  margin-top: 69px;
+   margin-top: 69px;
 }
 
 /* this is for sevice page buttons */
@@ -201,7 +200,14 @@ margin: 20px 0 0 0;
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
 }
-/* service page contact div */
+
+/* service border ID tag for service page */
+#service-border {
+  border: 1px black;
+  background-color: rgba(211, 211, 211, 0.5);
+  margin: 10px; }
+
+/* service page CONTACT div */
 .contact .top-content .text-content {
   width: 410px;
   display: flex;
