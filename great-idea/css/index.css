@@ -200,3 +200,92 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+.service-content {
+	border-bottom: 1px solid black;
+	padding: 39px 0;
+}
+
+#service-text {
+	font-size: 2rem;
+}
+
+.mid-contain {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	border-bottom: 2px solid black;
+}
+
+.mid-card {
+	width: 45%;
+	border: 1px solid black;
+	background-color: #f4f3f4;
+	margin:20px;
+}
+
+.mid-card h2 {
+	padding: 20px 0 0 20px;
+}
+
+.mid-card p {
+	padding: 0 20px;
+}
+
+.mid-card button {
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.bottom-contain	{
+	display: flex;
+	margin-top: 20px;
+}
+
+.bottom-card p {
+	padding: 10px 60px 20px 0;
+}
+
+.bottom-card ul {
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+.bottom-card ul li {
+	padding: 5px 0;
+}
+
+@media screen and (max-width: 700px) {
+	.container {
+		max-width: 650px;
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	header {
+		max-width: 700px;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 30px;
+	}
+	
+	header nav a {
+		margin: 20px;
+	}
+
+	.mid-contain {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mid-card {
+		width: 70%;
+	}
+}
