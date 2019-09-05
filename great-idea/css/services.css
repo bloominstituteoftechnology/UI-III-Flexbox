@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* *{
+	border: 1px solid blue !important; */
+}
+.container {
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 1200px;
+	width: 75%;
+    margin: 0 auto; */
+    width: 880px;
+    /* TB LR */
+    margin: 0 auto;
+  
+	
+  }
+  
+  /* header */
+  header{
+	  display: flex;
+      justify-content: space-evenly;
+      width: 880px;
+  }
+  
+  header nav {
+	display: flex;
+	margin-top: 35px;
+  }
+  
+  header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	margin-top: 25px;
+  }
+  
+  /* cta */
+  .cta{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+	width: 100%;
+	/* justify-content: space-evenly; */
+  }
+  
+  .cta .cta-text {
+	font-size: 35px;
+    width: 850px;
+    text-align: left;
+    
+  }
+
+  .cta p{
+    font-size: 16px;
+    width: 850px;
+    text-align: left;
+    line-height: 20px;
+    padding-bottom: 25px;
+  }
+  
+  .cta img {
+	width: 850px;
+  }
+
+  .main-content{
+      height: 800px;
+      width: 850px;
+  }
+
+  .main-content .ServiceBoxes{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+      
+  }
+  
+  .main-content .ServiceBoxes .ServiceBox{
+      width: 400px;
+      height: 250px;
+      background: lightgrey;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      
+      
+
+  }
+
+  .ServiceBox button {
+	background: white;
+	/* vertical-align: top; */
+	margin-top: 6px;
+	padding: 8px;
+	font-size: 17px;
+	border: 2px solid black;
+    cursor: pointer;
+  }
+
+  .BottomSection{
+    display:flex;
+    justify-content: space-evenly;
+    width: 850px;
+  }
+
+  .BottomSection div p{
+      width: 400px;
+      line-height: 20px;
+  }
+  
+  .BottomSection div li{
+
+    line-height: 30px;
+  }
+  
+  footer {
+	text-align: center;
+	font-size: 14px;
+  }
