@@ -74,23 +74,11 @@ h1, h2, h3, h4, h5 {
 /* header */
 
 header {
-	/* border: 1px solid red; */
 	display: flex;
-	/* justify-content: center; */
-	/* align-items: flex-end; */
-}
-
-header nav a {
-	/* border: 1px solid blue; */
-}
-
-.logo {
-	/* border: 1px solid black; */
 }
 
 header nav {
 	display: flex;
-	/* border: 1px solid green; */
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
@@ -149,7 +137,6 @@ header .logo {
 }
 
 .cta img {
-  /* display: inline-block; */
   margin-top: 69px;
 }
 
@@ -169,7 +156,6 @@ header .logo {
 
 .main-content .top-content .text-content {
   width: 410px;
-  /* display: inline-block; */
   margin-right: 34px;
 }
 
@@ -192,7 +178,6 @@ header .logo {
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  /* display: inline-block; */
   margin-right: 12px;
 }
 
