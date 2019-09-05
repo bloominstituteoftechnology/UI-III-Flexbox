@@ -254,9 +254,6 @@ header .logo {
   color: white;
 
 }
-
-
-
 .cta img {
 
   display: flex;
@@ -264,8 +261,29 @@ header .logo {
   margin-top: 69px;
 
 }
+.cta {
+  display:flex;
+  justify-content: space-around;
 
+}
+.cta-text{
+  display:flex;
+  flex-direction: column;
+}
+button{
+  align-self: center;
+}
+.top-content{
+  display: flex;
+}
+.text-content{
+  display:flex;
+  flex-direction: column;
+}
+.bottom-content{
+  display: flex;
 
+}
 
 .main-content {
 
@@ -329,7 +347,7 @@ header .logo {
 
   width: 275px;
 
-  display: inline-block;
+  display: flex;
 
   margin-right: 12px;
 
@@ -374,11 +392,51 @@ footer {
   font-size: 14px;
 
 }
+.section1{
+  display:flex;
+}
+section, div{
+  border: 1px solid black;
+}
 
+.section2{
+  display: flex;
+  flex-direction: column;
+}
+.main-body{
+  display: flex;
+  flex-direction: column;
+}
+.second-body{
+  display: flex;
+  flex-direction: column;
+}
+.columns{
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  
+}
+.service{
+  font-size: 20px;
+}
+div.grey{
+  width: 350px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+
+}
+#phone-image{
+  display: flex;
+  justify-content: center;
+  width: 710px;
+}
 © 2019 GitHub, Inc.
 Terms
 Privacy
-Security
+Securitys
 Status
 Help
  
