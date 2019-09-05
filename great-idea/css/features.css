@@ -1,0 +1,96 @@
+body {
+	line-height: 1;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container{
+  width: 880px;
+  margin: 0 auto;
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+nav{
+  width : 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+}
+
+nav a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.bannerText h2{
+	font-size: 77px;
+}
+
+.bannerText{
+	text-align: center;
+}
+
+.bannerImg img{
+	border-radius: 2%;
+}
+
+.banner{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.Features{
+	margin: 40px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+.content{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px 0;
+
+}
+
+
+
+.contentImg{
+	border: 2px solid grey;
+}
+
+.contentText{
+	padding: 10px;
+}
+
+.copyRight{
+  margin-top: 90px;
+  text-align: center;
+}
+
+.content:hover{
+	transform: scale(1.2);
+}
