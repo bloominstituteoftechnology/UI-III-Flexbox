@@ -145,35 +145,41 @@ h1, h2, h3, h4, h5 {
   }
 
   .main-content{
-      height: 800px;
+      height: 875px;
       width: 850px;
   }
 
   .main-content .ServiceBoxes{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
       
-      
-  }
+    }
   
   .main-content .ServiceBoxes .ServiceBox{
-      width: 400px;
+      width: 45%;
       height: 250px;
+      margin-top: 30px;
       background: lightgrey;
       border: 1px solid black;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      
-      
-
+      align-items: baseline;
   }
 
+  .ServiceBox h2{
+      margin-left: 10px;
+  }
+
+  .ServiceBox p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
   .ServiceBox button {
-	background: white;
-	/* vertical-align: top; */
-	margin-top: 6px;
+	background: white;	
+    margin-top: 6px;
+    margin-left: 10px;
 	padding: 8px;
 	font-size: 17px;
 	border: 2px solid black;
@@ -181,10 +187,12 @@ h1, h2, h3, h4, h5 {
   }
 
   .BottomSection{
+    margin-top: 30px;
     display:flex;
     justify-content: space-evenly;
-    width: 850px;
+    width: 880px;
   }
+
 
   .BottomSection div p{
       width: 400px;
@@ -192,11 +200,12 @@ h1, h2, h3, h4, h5 {
   }
   
   .BottomSection div li{
-
     line-height: 30px;
   }
   
   footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
 	text-align: center;
 	font-size: 14px;
   }
