@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
     padding: 0;
-	/*border:1px solid grey;8*/
+	border:1px solid grey;8
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 .main1 {
 	margin: 100px;
-	padding: 0;
+	padding: 0px;
 }
 
 body {
@@ -109,15 +109,14 @@ header .logo {
   margin-top: 25px;
 }
 
-.logo1 {
-	display: flex;
-	justify-content: flex-end;
-	width: 130px;
-	vertical-align:top;
-	margin-top: 18px;
+.logo1{
+	position: absolute;
+    left: 900px;
+    top: 125px;
+	width: 120px;
   }
 
-.serv2 {
+.container-services {
 	vertical-align: top;
 	margin-bottom: 20px;
 }
@@ -221,26 +220,34 @@ header .logo {
 /*services page body content starts here*/
 .containerbod {
   margin-top: 25px;
-  padding: 0 10px;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+ 
  
   
 }
 
 .containerbod div {
 	border: 1px solid black ;
-	padding: 20px;
+	padding: 10px;
 	margin: 10px;
 	background-color: rgb(243, 243, 243);
+	
+
+	
+	
+}
+
+.heads p {
+	margin: 50px;
 	
 }
 
 
 
 
-
-ul.b {
+ul.bulletList {
 	list-style-type: square;
 	margin: 40px;
   }
@@ -267,7 +274,7 @@ li {
   padding: 20px 10px 0;
 }
 
-.servfacts {
+.service-facts  {
   border-top: 1px solid black;
   margin-top: 30px;
   padding-top: 39px;
@@ -276,13 +283,23 @@ li {
 
 }
 
-.services-img {
-	display:flex;
-	padding-top: 20px;
+button {
+	background-color:white;
+	color: black;
+	height:35px;
+	font-size:16px;
+	border-radius: 10px; 
 }
 
-.last1 { 
 
+.services-img {
+	display:flex;
+	
+}
+
+.copyright { 
+	margin-top: 200px;
+   
 }
 
 footer {
