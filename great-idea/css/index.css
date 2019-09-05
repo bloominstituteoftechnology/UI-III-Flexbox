@@ -279,25 +279,55 @@ header nav a:hover {
 	border-bottom: 1px solid black;
 }
 
-div.servicesContainer {
-	display: flex;
-	margin-top: 3%;
-	margin-bottom:3%;
+div .servicesContainer {
+	margin: auto;
 	column-count: 2;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+}
+
+.buttClass {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	width: 40%;
+	text-align: center;
+	padding: 8px 10px;
+	border-radius: 2px;
 }
 
 .mainContent {
-	width:50%;
-	flex-wrap: wrap;
-
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	background-color: #D6CDCD;
+	padding: 5%;
 }
 
-footer .services{
+
+.headFooter {
 	display: flex;
+	padding-top: 20px;
+	border-top: 2px solid black;
+	align-items: stretch;
 	flex-wrap: wrap;
-
 }
 
-footer p {
-	text-align: center;
+.services-info-img {
+	align-self: baseline;
+	width: 400px;
 }
+
+.funFacts {
+	width: 500px;
+}
+
+
+
+
+
+
+
