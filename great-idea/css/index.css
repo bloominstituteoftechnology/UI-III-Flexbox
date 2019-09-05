@@ -276,7 +276,7 @@ h3 {
 	display: flex;
 	/* flex-wrap: wrap; */
 	/* justify-content: space-around; */
-	
+	flex-flow: row wrap;
 }
 .row1{
 	display: flex;
