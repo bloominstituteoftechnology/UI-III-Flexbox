@@ -63,45 +63,47 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-/* .container-header-nav{
+
+
+ .container-header-nav{
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
     margin: 10px;
-    /* widith: 800px; */
-    /* border: 2px solid #2b557e;
+    max-width: 800px;
+    border: 2px solid #2b557e;
 }
 
-.container-bottom-text{
+.container-top-content{
+  display: flex;
+  background-color: aqua;
+}
+
+ .container-bottom-text{
     display: flex;
     justify-content: space-around;
-     /* max-width: 800px;
-    padding: 15px; */
-	 /* border: 2px solid #2b557e; */
+     max-width: 800px;
+    padding: 15px;
+	  border: 2px solid #2b557e;
+ }
+ .nav-a{
+    font-size: 20px;
+}
+.container {
+  display: flex;
+  width: 880px;
+  margin: 15px auto;
+}
 
 
-/* }
 
 .container-header-img{
     width: max-content;
-    border: 1px solid red; */
-
-/* .nav-a{
-    font-size: 20px;
-} */
-
-/* MY STYLING STARTS HERE*/
-
-.container {
-  width: 880px;
-  /* TB LR */
-  margin: 0 auto;
+    border: 1px solid red;
 }
 
-/* header */
 
-header nav {
+.header nav {
   display: flex;
   flex-flow: row nowrap;
   width: 691px;
@@ -109,30 +111,31 @@ header nav {
   margin-top: 35px;
 }
 
-header {
+.header {
   display: flex;
+  justify-content: space-around;
 }
 
-header nav a {
+.header .nav .a {
   margin-right: 65px;
   font-size: 14px;
   color: gray;
   text-decoration: none;
 }
 
-header nav a:hover {
+.header nav a:hover {
   text-decoration: underline;
 }
 
-header nav a:first-child {
+.header nav a:first-child {
   margin-left: 0;
 }
 
-header nav a:last-child {
+.header nav a:last-child {
   margin-right: 0;
 }
 
-header .logo {
+.header .logo {
   margin-top: 25px;
 }
 
@@ -177,15 +180,15 @@ border: 2px solid blue;
 
 .main-content {
 	display: flex;
-	flex-flow: column wrap;
+	/* flex-flow: column wrap; */
   border-top: 1px solid black;
-  margin-top: 76px;
-  padding-top: 39px;
+  /* margin-top: 76px;
+  padding-top: 39px; */
 }
 
 .main-content .top-content {
 	display: flex;
-	width: 800px;
+	/* width: 800px; */
   padding:  10px;
 border: 2px solid blue;
 
@@ -201,30 +204,32 @@ border: 2px solid blue;
 
 .main-content .top-content .text-content:last-child {
 	display: flex;
-	/* width: 800px; */
+	width: 800px;
 	border: 2px solid blue;
   margin-right: 15px auto;
 }
 
 .main-content .middle-img {
+  display: flex;
   margin-top: 45px;
 }
 
 .main-content .bottom-content {
+display: flex;
   margin-top: 37px;
   padding: 0 10px;
-  display: flex;
-  flex-direction: initial;
+
 }
 
 .main-content .bottom-content .text-content {
-
+display:flex;
   margin-right: 12px;
 }
 
 .main-content .bottom-content .text-content:last-child {
+  display: flex;
 
-  margin-right: 15px;
+  font-size: 20px;
 }
 
 .contact {
@@ -238,11 +243,12 @@ border: 2px solid blue;
 }
 
 footer {
+  display: flex;
   margin: 32px 0;
-  text-align: center;
+  /* text-align: center; */
   font-size: 14px;
 }
-.box1 , .box2, .box3,
+/* .box1 , .box2, .box3,
 .box4, .box5, .box0{
 	display: flex;
 	flex-direction: row;
@@ -254,13 +260,13 @@ footer {
 padding-top: 15px;
 padding-bottom: 25px;
 border-left: 17px;
-border-right: 27px;
+border-right: 27px; */
 
 
 
-	background-color: grey;
+	/* background-color: grey;
 	border: 2px steelblue;
 }
 .box3{
 border: 2px solid black;
-}
+} */
