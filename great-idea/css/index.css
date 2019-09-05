@@ -292,3 +292,28 @@ footer {
 	display: flex;
 	justify-content: center;
 }
+#services-header {
+  display:flex;
+  justify-content: space-between;
+  align-content:center;
+}
+.objectives {
+  display:flex;
+  flex-direction: column;
+}
+.section1 {
+  display: flex;
+
+}
+.click-box {
+  border: 1px solid black;
+  background-color: lightgray;
+}
+#footer2 {
+  display: flex;
+  justify-content:space-evenly;
+}
+.footer-text{
+  display:flex;
+  flex-direction: column;
+}
