@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5 {
   width: 880px;
   margin: 0 auto;
 
+
 }
 header{
   display: flex;
@@ -27,7 +28,7 @@ header{
 }
 
 nav{
-  border: 1px solid black;
+
   width: 600px;
   display: flex;
   justify-content: space-between;
@@ -58,7 +59,8 @@ nav a:hover{
   border: 1px solid black;
   background-color: hsl(43, 4%, 95%);
   padding: 15px;
-  margin: 10px 15px;
+  margin: 20px 15px;
+  margin-bottom: 30px;
 
 }
 
@@ -70,11 +72,20 @@ nav a:hover{
   border: 1px solid black;
 }
 
-.contact:last-of-type{
-  border-bottom:  2px solid black;
-}
-
 .Facts{
   display: flex;
   justify-content: space-around;
+  border-top: 2px solid black;
+  padding-top: 30px;
+}
+ul{
+  list-style-type: square;
+}
+li{
+  padding: 5px 0;
+}
+
+.copyRight{
+  margin-top: 90px;
+  text-align: center;
 }
