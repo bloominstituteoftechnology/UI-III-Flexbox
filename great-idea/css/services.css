@@ -20,26 +20,21 @@ h1, h2, h3, h4, h5 {
 
 .services-header-img {
     margin-top: 25px;
-    
+    width: auto;
     margin-left: 0px;
 }
 
 .container {
     width: 880px;
     /* TB LR */
-    margin: 0 auto;
+    margin-bottom: 58px;
   }
-
-header {
-	display: flex;
-}
 
 header nav {
   display: flex;
   vertical-align: middle;
   margin-top: 35px;
   justify-content: flex-start;
-
 }
 
 header nav a {
@@ -61,22 +56,21 @@ header nav a:first-child {
     margin-right: 0;
   }
   
-  header .logo {
-    margin-top: 25px;
+  nav .logo {
+    margin-top: 0px;
     justify-content: right;
-    margin-left: 280px;
+    margin-left: 200px;
   }
 
-hr {
-    display: solid;
-    border-width: 1px;
+div .serv {
+    border-bottom: 2px solid black;
+    margin-bottom: 58px;
 }
 
  div {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-
   } 
  
 button {
@@ -84,6 +78,10 @@ button {
     height: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.Cont1 {
+    border-top: 2px solid black;
 }
 
 .Cont1, .Cont2, .Cont3, .Cont4, .Cont5, .Cont6 {
@@ -97,7 +95,7 @@ button {
     flex-wrap: wrap;
     margin-left: 75px;
     margin-right: 75px;
-
+    margin-top: 15px;
    }
 
 body {
@@ -106,17 +104,31 @@ body {
     flex-wrap: wrap; 
     flex-direction: row;
 }
-  
+
+
+
 footer {
-    margin: 0px 0;
-    text-align: center;
+    margin-left: 50px;
+    margin-right: 45px;
+    text-align: left;
     display: flex;
+    margin-top: 50px;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    border-top: 2px solid black;
 }
 
-.services-info-img {
-    /* display: flex; */
-    justify-content: center;
-    width: 50%;
+.servfax {
+    /* border-top: 2px solid black; */
+    margin-top: 58px;
+    width: 45%;
+}
+
+.complady {
+width: 40%;
+margin-top: 80px;
+}
+
+.copyfoot {
+    margin-left:42%;
 }
