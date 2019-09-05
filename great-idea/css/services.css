@@ -3,7 +3,8 @@ Tristan Boudreau */
 
 * {
     box-sizing: border-box;
-
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 html, body {
@@ -94,6 +95,8 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 75px;
+    margin-right: 75px;
 
    }
 
@@ -101,6 +104,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
+    flex-direction: row;
 }
   
 footer {
