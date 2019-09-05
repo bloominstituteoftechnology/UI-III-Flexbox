@@ -71,10 +71,13 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
+header {
+	display: flex;
+}
+
 header nav {
   display: flex;
   width: 691px;
-  /* vertical-align: top; */
   margin-top: 35px;
 }
 
@@ -103,14 +106,21 @@ header .logo {
 
 /* cta */
 
+.cta {
+	display: flex;
+}
+
 .cta .cta-text {
   display: flex;
-  vertical-align: top;
+  /* vertical-align: top; */
   font-size: 77px;
   margin-top: 120px;
-  /* text-align: center; */
+  text-align: center;
   padding: 0px 75px;
+  flex-direction: column;
+  
 }
+
 
 .cta .cta-text button {
   background: white;
@@ -136,18 +146,20 @@ header .logo {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
+  
 }
 
 .main-content .top-content {
   padding: 0 10px;
+  display: flex;
+  
 }
 
 .main-content .top-content .text-content {
-  width: 410px;
-  display: flex;
+  width: 49.5%;
   margin-right: 34px;
+  
 }
-
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
 }
@@ -159,11 +171,11 @@ header .logo {
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
+  display: flex;
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: flex;
   margin-right: 12px;
 }
 
@@ -186,8 +198,6 @@ footer {
   text-align: center;
   font-size: 14px;
 }
-
-
 
 
 
