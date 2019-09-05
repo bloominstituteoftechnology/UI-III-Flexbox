@@ -205,3 +205,43 @@ header .logo {
 	align-content: center;
   	font-size: 1px;
 }
+
+.top-section {
+	padding-top: 30px;
+	padding-bottom: 35px;
+	border-bottom: 2px solid black;
+}
+
+.service {
+	display: flex;
+	margin-top: 30px;
+}
+
+.service.main {
+	display: flex;
+}
+
+.service-content {
+	display:flex;
+	flex-wrap: wrap;
+	width: 40%;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.btn-learn-more {
+	padding: 10px;
+	border-radius: 9px;
+	font-size: 10px;
+	margin-top: 15px;
+}
+
+.btn-learn-more {
+	width: 180px;
+	border: 2px solid black;
+}
+
+
+.bottom {
+	display: flex;
+}
