@@ -236,8 +236,10 @@ header {
 .top-content {
 	display: flex;
 }
-.botthom-content {
+
+.bottom-content {
 	display: flex;
+	flex-direction: row;
 }
 .services-header-img {
 	margin: 25px 0;
