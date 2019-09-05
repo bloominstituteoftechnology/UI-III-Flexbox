@@ -165,8 +165,9 @@ header .logo {
 /* div .service-button */
 .top-content .text-content .service-button{
   display: flex;
-  align-items: flex-start;
-margin: 20px;
+  flex-direction: row;
+  /* align-items: flex-start; */
+margin: 20px 0 0 0;
 }
 
 .main-content {
