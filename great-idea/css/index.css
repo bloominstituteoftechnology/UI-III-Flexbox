@@ -380,7 +380,11 @@ footer {
 }
 
 .grid.vision .box {
-  @media (min-width) {
-    
+  width: 100%;
+}
+
+@media (min-width: 768px) { 
+  .grid.vision .box {
+    width: 48%;
   }
 }
