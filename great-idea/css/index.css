@@ -1,4 +1,4 @@
-html,
+/*html,
 body,
 div,
 span,
@@ -84,8 +84,7 @@ video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
+	vertical-align: baseline;*/
 /* HTML5 display-role reset for older browsers */
 /*article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -159,12 +158,15 @@ header .logo {
 	margin-top: 25px;
 } /* cta */
 .cta .cta-text {
-	display: inline-block;
-	vertical-align: top;
-	font-size: 77px;
-	margin-top: 120px;
+	/* display: inline-block; */
+	height:300px;
+	width:40%;
+	font-size: 45px;
+	/*margin-top: 120px; */
 	text-align: center;
 	padding: 0px 75px;
+	margin-top:29px;
+	margin-right: 35px;
 }
 .cta .cta-text button {
 	background: white;
@@ -181,8 +183,22 @@ header .logo {
 }
 .cta img {
 	/*display: inline-block;*/
-	margin-top: 69px;
+	/*margin: 69px;*/
+	width:300px;
+	height:300px;
+
 }
+.cta-img {
+	margin-top:35px
+}
+.cta {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+
+
 .main-content {
 	border-top: 1px solid black;
 	margin-top: 76px;
@@ -230,9 +246,8 @@ footer {
 header {
 	display: flex;
 }
-.cta {
-	display: flex;
-}
+
+
 .top-content {
 	display: flex;
 }
@@ -259,12 +274,23 @@ h3 {
 }
 .serviceBoxes {
 	display: flex;
-	justify-content: space-around;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
-	margin-top: 25px;
-	padding: 30px o;
+	/* flex-wrap: wrap; */
+	/* justify-content: space-around; */
+	
 }
+.row1{
+	display: flex;
+	flex-direction: column;
+}
+.row2{
+	flex-direction: column;
+	display: flex;
+}
+.row3{
+	flex-direction: column;
+	display: flex;
+}
+		
 .serviceBoxes button:hover {
 	font-family: "Titillium Web", sans-serif;
 	font-size: 12px;
@@ -284,4 +310,7 @@ h3 {
 	display: flex;
 }
 
+hr {
+	margin-top:20px;
+}
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
