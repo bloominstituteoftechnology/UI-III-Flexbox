@@ -23,6 +23,8 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
     
+    
+    
 }
 
 
@@ -30,10 +32,10 @@ body {
     line-height: 1;
 }
 .container {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap:wrap;
-    
+    display: flex;    
+    flex-wrap: wrap;
+    width: 880px;
+    align-items: baseline;
 }
 
 
@@ -78,10 +80,18 @@ h1, h2, h3, h4, h5 {
 /* header */
 header {
     display: flex;
-    
+    justify-content:center;
+    width: 880px;
+}
+header .logo {
+    height: 20px;
+    display: flex;
+    align-content: flex-start;
 }
     header nav {
         display: flex;
+        align-items: center;
+
        
     }
 
@@ -104,50 +114,42 @@ header {
             margin-right: 0;
         }
 
-    header .logo {
-        margin: 25px;
-    }
+    
+.services-header-img{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: left;
+}
 
-.services {    
-   display:flex;
-   border-bottom: 2px solid black;
-   flex-wrap: wrap;
-   
-   
-   
+.services {
+    display: flex;
+    border-bottom: 2px solid black;
+    flex-wrap: wrap;
+    width: 880px;
 }
 h2{
     padding-left: 20px;
 }
 
     .services p {
-        display: flex;
-        flex-wrap: wrap;
+        display: flex;        
         justify-content: center;
         align-items: flex-end;
         padding-bottom: 20px;
     }
 
-/*.maincontent {
+.maincontent {
     display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    justify-content: space-around;
-    padding: 20px;
+    align-content: space-evenly;
+    justify-content: space-between;
+    
     flex-wrap: wrap;
+    width: 880px;
 }
 
-        .maincontent div {
-            display: flex;
-            border: 2px solid black;
-            flex-wrap: wrap;
-            width: 30%;
-            background-color: lightgray;
-            padding: 20px;
-            
-        }*/
+       
 
-.maincontent {
+    /*.maincontent {
     
     display: flex;    
     flex-wrap: wrap;
@@ -164,40 +166,45 @@ h2{
         background-color: lightgray;
         padding: 20px;
         
-    }
-    .maincontent div {
+    }*/
+    .maincontent .content {
         display: flex;
-        width: 30%;
+        width: 40%;
         border: 2px solid black;
         flex-wrap: wrap;
         background-color: lightgray;
-        padding: 20px;
+        padding: 0px 20px 20px 20px;
+        justify-content:space-between;
+        align-content: space-evenly;
     }
-  .maincontent button {
-      display: flex;
-      justify-content: center;
-
-
-  }
-  .bottomcontent{
-      border-top: 2px solid black;
-  }
+.content .btn {
+    border-radius: 4px;
+    background: white;
+    vertical-align: top;
+    margin-top: 6px;
+    padding: 8px 44px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.bottomcontent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
 .facts {
     display: flex;
     
-    flex-wrap:wrap;
-    
-    width: 50%;
-    
-    justify-content:left;
+    width: 880px;
+    border-top: 2px solid black;
+}
     
 
+.copyright {
+    display: flex;
+    justify-content: center;
+    width: 880px;
 }
-    .facts p {
-        display: flex;
-        flex-wrap:wrap;
-        justify-content:left;
-    }
 
 
 
