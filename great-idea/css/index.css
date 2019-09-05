@@ -196,39 +196,3 @@ footer {
   text-align: center;
   font-size: 14px;
 }
-
-/* Services Page Edit */
-
-header2{
-	display: flex;
-	border: 1px solid black;
-}
-
-header2 nav {
-	display: flex;
-	width: 100%;
-	margin-top: 35px;
-}
-
-header2 nav a {
-  margin-right: 65px;
-  font-size: 14px;
-  color: gray;
-  text-decoration: none;
-}
-
-header2 nav a:hover {
-  text-decoration: underline;
-}
-
-header2 nav a:first-child {
-  margin-left: 0;
-}
-
-header2 nav a:last-child {
-  margin-right: 0;
-}
-
-header2 .logo {
-  margin-top: 25px;
-}
