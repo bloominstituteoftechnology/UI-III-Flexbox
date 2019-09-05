@@ -206,7 +206,8 @@ header .logo-services {
 
 .footer {
 	display: flex;
-	align-content: center;
+	justify-content: center;
+	margin-top: 50px;
 }
 
 .top-section {
@@ -232,11 +233,10 @@ header .logo-services {
 	flex-wrap: wrap;
 	width: 45%;
 	border: 1px solid black;
-	padding: 20px;
+	padding: 25px;
 }
 .service-content {
 	margin: 20px;
-
 }
 .btn-learn-more {
 	padding: 10px;
