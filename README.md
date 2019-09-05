@@ -1,4 +1,4 @@
-Greg Hayes
+Greg-Hayes
 
 # User Interface Project II: Great Idea Web Page With Flexbox
 
