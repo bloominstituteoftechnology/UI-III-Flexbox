@@ -198,13 +198,36 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-direction: column;
 }
-.AllTheWindows{
+section{
 	display: flex;
 	flex-direction:column;
 	flex-wrap: wrap;
 	justify-content: center;
 	
 }
+.DigitalDesignclass{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.UXUIclass{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+.DigitalMarketingclass{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
 .WebDevelopmentclass {
 	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+.iOSDevelopmentclass{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
 }
