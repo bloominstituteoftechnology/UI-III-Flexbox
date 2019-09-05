@@ -60,6 +60,10 @@ h1, h2, h3, h4, h5 {
  margin: 0 auto;
 }
 /* header */
+header{
+	display: flex;
+	padding: 10px;
+}
 header nav {
  display: flex;
  width: 691px;
@@ -142,6 +146,7 @@ header .logo {
 .main-content .bottom-content .text-content {
  width: 275px;
  margin-right: 12px;
+ padding: 20px;
 }
 .main-content .bottom-content .text-content:last-child {
  margin-right: 0;
@@ -199,4 +204,7 @@ button{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+li{
+	list-style-type: disc;
 }
