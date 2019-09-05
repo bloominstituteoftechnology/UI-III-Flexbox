@@ -139,16 +139,19 @@ header .logo {
 /* cta */
 .cta {
   display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .cta .cta-text {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
   padding: 0px 75px;
+  height: 100%;
 }
 
 .cta .cta-text button {
@@ -169,26 +172,38 @@ header .logo {
 .cta img {
   display: flex;
   margin-top: 69px;
+border: 2px solid blue;
 }
 
 .main-content {
+	display: flex;
+	flex-flow: column wrap;
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
 
 .main-content .top-content {
-  padding: 0 10px;
-  display: flex;
+	display: flex;
+	width: 800px;
+  padding:  10px;
+border: 2px solid blue;
+
 }
 
 .main-content .top-content .text-content {
-  width: 410px;
+display: flex;
+flex-direction: column;
+  width: 800px;
   margin-right: 34px;
+border: 2px solid blue;
 }
 
 .main-content .top-content .text-content:last-child {
-  margin-right: 0;
+	display: flex;
+	width: 800px;
+	border: 2px solid blue;
+  margin-right: 15px auto;
 }
 
 .main-content .middle-img {
@@ -199,15 +214,17 @@ header .logo {
   margin-top: 37px;
   padding: 0 10px;
   display: flex;
+  flex-direction: initial;
 }
 
 .main-content .bottom-content .text-content {
-  width: 275px;
+  width: 800px;
   margin-right: 12px;
 }
 
 .main-content .bottom-content .text-content:last-child {
-  margin-right: 0;
+	width: 800px;
+  margin-right: 15px;
 }
 
 .contact {
@@ -224,4 +241,18 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+.box1 , .box2, .box3,
+.box4, .box5, .box0{
+	display: flex;
+	flex-direction: row;
+	border: 2px  solid black;
+
+}
+.box2{
+	background-color: grey;
+	border: 2px steelblue;
+}
+.box3{
+border: 2px solid black;
 }
