@@ -201,7 +201,7 @@ border: 2px solid blue;
 
 .main-content .top-content .text-content:last-child {
 	display: flex;
-	width: 800px;
+	/* width: 800px; */
 	border: 2px solid blue;
   margin-right: 15px auto;
 }
@@ -218,12 +218,12 @@ border: 2px solid blue;
 }
 
 .main-content .bottom-content .text-content {
-  width: 800px;
+
   margin-right: 12px;
 }
 
 .main-content .bottom-content .text-content:last-child {
-	width: 800px;
+
   margin-right: 15px;
 }
 
@@ -250,6 +250,14 @@ footer {
 
 }
 .box2{
+
+padding-top: 15px;
+padding-bottom: 25px;
+border-left: 17px;
+border-right: 27px;
+
+
+
 	background-color: grey;
 	border: 2px steelblue;
 }
