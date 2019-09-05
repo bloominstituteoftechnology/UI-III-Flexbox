@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5 {
   
   header nav {
 	display: inline-block;
+	justify-content: space-around;
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
@@ -98,6 +99,7 @@ h1, h2, h3, h4, h5 {
   }
   
   header .logo {
+	display: inline-block;  
 	margin-top: 25px;
   }
   
@@ -187,8 +189,23 @@ h1, h2, h3, h4, h5 {
 	font-size: 14px;
   }
 .top{
-	display:flex;
+	display:inline-block;
 	flex-direction:row;
 	justify-content: center;
 	align-items: flex-end;
+}
+.Services{
+	display: flex;
+	flex-direction: column;
+}
+.AllTheWindows{
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.DigitalDesign {
+	display:flex;
+	justify-content: flex-start;
 }
