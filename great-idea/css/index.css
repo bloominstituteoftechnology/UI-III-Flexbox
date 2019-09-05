@@ -107,6 +107,11 @@ header .logo {
   margin-top: 25px;
 }
 
+.services-header-img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* cta */
 .cta{
   display: flex;
