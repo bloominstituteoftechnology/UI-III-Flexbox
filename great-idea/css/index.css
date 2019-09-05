@@ -74,14 +74,14 @@ header {
   display: flex;
   flex-direction: row;
   justify-content:space-between;
+  
 }
 header nav {
   display: flex;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
-
-}
+  }
 
 header nav a {
   margin-right: 65px;
@@ -140,6 +140,22 @@ header .logo {
   display: flex;
   flex-direction: ;
   margin-top: 69px;
+}
+
+/* this is for sevice page buttons */
+.top-content .text-content button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+  }
+
+.top-content .text-content button:hover {
+  background: black;
+  color: white;
 }
 
 .main-content {
