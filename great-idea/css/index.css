@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .container {
@@ -194,8 +195,20 @@ margin: 20px;
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
 }
+/* service page contact div */
+.contact .top-content .text-content {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 34px;
+  margin-bottom: 34px;
+}
 
-/* .top-content .text-content #service-border{
+.contact .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+/* .contact .top-content .text-content {
   border: 2px;
   border-color: bisque;
 } */
