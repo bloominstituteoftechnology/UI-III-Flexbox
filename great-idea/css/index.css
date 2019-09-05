@@ -170,7 +170,7 @@ header .logo {
 .top-content .text-content .service-button{
   display: flex;
   flex-direction: row;
-  /* align-items: flex-start; */
+  border-radius: 10px;
 margin: 20px 0 0 0;
 }
 
