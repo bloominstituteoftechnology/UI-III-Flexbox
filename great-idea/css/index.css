@@ -139,6 +139,7 @@ h1, h2, h3, h4, h5 {
 /* header */
 .header {
 	display:flex;
+	justify-content: flex-start;
 }
 header nav {
   display: flex;
@@ -174,6 +175,16 @@ header .logo {
 .cta .cta-text{
 	display:flex;
 	flex-direction: column;
+	
+	
+
+}
+.cta {
+	display: flex;
+	justify-content: space-around;
+}
+.cta {
+	width:80%
 }
 .cta .cta-text {
   display: flex;
@@ -200,7 +211,7 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
+  display: flex;
   margin-top: 69px;
 }
 
@@ -208,8 +219,21 @@ header .logo {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
+  border: 2px solid red;
 }
-
+.main-content  {
+  display:flex;
+  flex-direction: column;
+}
+.top-content {
+	display:flex;
+	justify-content: space-around;
+}
+.text-content  {
+	display:flex;
+	flex-direction: column;
+	align-items: stretch;
+}
 .main-content .top-content {
   padding: 0 10px;
 }
@@ -232,7 +256,10 @@ header .logo {
   margin-top: 37px;
   padding: 0 10px;
 }
-
+.bottom-content{
+	display:flex;
+	justify-content: space-around;
+}
 .main-content .bottom-content .text-content {
   width: 275px;
   display: flex;
@@ -248,7 +275,10 @@ header .logo {
   border-top: 1px solid black;
   padding: 39px 10px 0;
 }
-
+.contact {
+	display:flex;
+	flex-direction: column;
+}
 .contact p {
   margin: 20px 0;
 }
@@ -257,4 +287,8 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+footer {
+	display: flex;
+	justify-content: center;
 }
