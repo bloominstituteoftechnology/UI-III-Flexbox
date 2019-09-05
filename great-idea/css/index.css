@@ -64,24 +64,26 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-  width: 880px;
+  width: 100%;
   /* TB LR */
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* header */
 
 header nav {
 display: flex;
-justify-content: space-around
+justify-content: center;
 
 }
 
 header nav a {
-  margin-right: 65px;
+
   font-size: 14px;
   color: gray;
   text-decoration: none;
+  margin: 20px;
 }
 
 header nav a:hover {
@@ -96,31 +98,25 @@ header nav a:last-child {
   margin-right: 0;
 }
 
-header .logo {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap
+div, .logo {
+
 }
 
 /* cta */
 
 .cta .cta-text {
-  display: inline-block;
-  vertical-align: top;
-  font-size: 77px;
-  margin-top: 120px;
-  text-align: center;
-  padding: 0px 75px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 .cta .cta-text button {
   background: white;
-  vertical-align: top;
-  margin-top: 6px;
   padding: 8px 44px;
-  font-size: 17px;
+  font-size: 40px;
   border: 1px solid black;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .cta .cta-text button:hover {
@@ -129,14 +125,11 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
-  margin-top: 69px;
+
 }
 
 .main-content {
   border-top: 1px solid black;
-  margin-top: 76px;
-  padding-top: 39px;
 }
 
 .main-content .top-content {
@@ -173,14 +166,13 @@ header .logo {
 }
 
 .contact {
-  margin-top: 57px;
-  border-top: 1px solid black;
-  padding: 39px 10px 0;
+display: flex;
+flex-direction: column;
 
 }
 
 .contact p {
-  margin: 20px 0;
+  margin: 2px 0;
 }
 
 footer {
@@ -240,5 +232,14 @@ width: 100%
   justify-content: center;
 }
 body {
-background-color: burlywood;
+background-color: white;
+}
+
+#bot {
+  max-width: 500px;
+}
+
+#align {
+  display: flex;
+  flex-direction: column;
 }
