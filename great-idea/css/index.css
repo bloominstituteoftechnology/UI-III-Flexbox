@@ -26,13 +26,20 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style-type: square;
+	list-style-position: inside;
+	display:flex;
+	flex-direction: column;
+	margin: 30px 0px 0px 0px;
+}
+.list{
+	margin: 0px 0px 10px 0px;
 }
 blockquote, q {
 	quotes: none;
@@ -57,10 +64,269 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
+    display:flex;
+    margin-bottom: 15px;
+}
+h2{
+	font-size:25px;
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    display:flex;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+
+
+header nav {
+  display: flex;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+/* cta */
+
+.cta{
+  display:flex;
+ /* border: 2px solid red;*/
+}
+
+.cta .cta-text {
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align:top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+ /* border: 2px solid red;*/
+  justify-content:space-evenly;
+}
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 1px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+button{
+  padding: 6px 52px 6px 52px;
+  margin: 0px 0px 50px 0px;
+}
+
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  display: flex;
+  margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+ /* border:1px solid green;*/
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width: 880px;
+  
+}
+.main-content-services {
+	border-bottom: 2px solid black;
+	margin-top: 12px;
+	padding-top: 12px;
+	/*border:1px solid green;*/
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	
+	
+  }
+
+.main-content .top-content {
+  padding:  10px 0px 10px 0px;
+  /*border: 2px solid red;*/
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.main-content-services .top-content-services {
+	padding: 10px 0px 10px 0px;
+	/*border: 2px solid red;*/
+	display:flex;
+	/*justify-content:space-between;*/
+	
+	flex-wrap: wrap;
+  }
+
+.main-content .top-content .text-content {
+  width: 880px;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  margin-right: 34px;
+  /*border: 1px solid orange;*/
+  padding: 10px 0px 10px 0px;
+}
+.main-content-services .top-content-services  p{
+	/*width: 410px;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-evenly;
+	margin-right: 34px;
+	border: 1px solid orange;*/
+	font-size: 15.5px;
+	font-weight: bold;
+	padding: 0px 0px 40px 0px;
+	
+}
+	
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+  /*border: 1px solid blue;*/
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 10px 0px 10px 0px;
+  /*border: 1px solid blue;*/
+  display: flex;
+  
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.middle-section{
+
+	width: 880px;
+  display: flex;
+  flex-wrap:wrap;
+  /*border: 1px solid orange;*/
+  padding: 0px 0px 37px 0px;
+  border-bottom: 2px solid black;
+  margin: 0px 0px 20px 0px;
+  justify-content: space-between;
+}
+.middle-section .middle-text{
+  margin-top: 37px;
+  padding: 15px 15px;
+  border: 1px solid black;
+  display: flex;
+  width: 47%;
+  height: 200px;
+  flex-wrap:wrap;
+  font-size: 14px;
+  font-weight:bold;
+  background-color: whitesmoke;
+  
+}
+.bottom-section{
+	
+	display:flex;
+	margin-top: 20px;
+  padding: 20px 0px;
+  
+  /*display: flex;
+  width: 40%;
+  height: 200px;*/
+  font-size: 14px;
+  font-weight:bold;
+}
+.bottom-section .bottom-section-text{
+font-size:18px;
+font-weight:none;
+/*border: 1px solid green;*/
+
+}
+
+
+/*Button in Services*/
+.middle{
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 20px 0px 5px 0px;
+	padding: 6px 30px 6px 30px;
+	
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+  /*border: 1px solid green;*/
+  display:flex;
+  flex-direction:column;
+}
+
+.contact p {
+  margin: 20px 0;
+  /*border: 1px solid red;*/
+  display: flex;
+  
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+  /*border: 1px solid blue;*/
+  display: flex;
+  justify-content:center;
+  font-weight:bold;
+}
