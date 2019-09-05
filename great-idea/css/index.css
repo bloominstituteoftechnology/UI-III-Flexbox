@@ -198,3 +198,25 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0 0 1%;
+}
+
+.logo {
+	margin: 2% 0 0 1%;
+}
+
+.services-header-img{
+ justify-content: space-around;
+}
+
+.services {
+	margin: 2% 0 0 0;
+}
+
+.ServicesFacts{
+ display: flex;
+}
