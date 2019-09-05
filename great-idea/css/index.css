@@ -279,41 +279,50 @@ header nav a:hover {
 	border-bottom: 1px solid black;
 }
 
-div .servicesContainer {
-	margin: auto;
-	column-count: 2;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	
+/* servicesContainer = PARENT
+	column1 = child
+	column2 = child
+	mainContent = grandchild
+	buttClass = great grandchild
+*/
+
+.servicesContainer {
+	display:flex;
+	flex-wrap: wrap;
 }
 
-.buttClass {
-	background: white;
-	vertical-align: top;
-	margin-top: 6px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
-	width: 40%;
-	text-align: center;
-	padding: 8px 10px;
-	border-radius: 2px;
+.column1 {
+	width: 50%;
+}
+
+.column2 {
+	width: 50%;	
 }
 
 .mainContent {
 	border-bottom: 1px solid black;
 	border-top: 1px solid black;
 	background-color: #D6CDCD;
-	padding: 5%;
+	padding: 30px;
+	margin: 20px;
+
 }
 
+.buttClass {
+	background: white;
+	vertical-align: top;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 2px;
+}
 
 .headFooter {
 	display: flex;
+	flex-wrap: flex;
 	padding-top: 20px;
 	border-top: 2px solid black;
-	align-items: stretch;
-	flex-wrap: wrap;
 }
 
 .services-info-img {
@@ -321,8 +330,8 @@ div .servicesContainer {
 	width: 400px;
 }
 
-.funFacts {
-	width: 500px;
+.copyright {
+	text-align: center;
 }
 
 
