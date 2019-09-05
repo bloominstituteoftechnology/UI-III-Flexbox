@@ -375,16 +375,37 @@ footer {
   margin: 25px 0;
 }
 
-.grid.vision {
-
-}
-
 .grid.vision .box {
   width: 100%;
+  background: none;
+  padding: 20px;
+  border: none;
+}
+
+.grid.vision .box img {
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 16px;
+  transition: transform .5s ease;
+}
+
+.grid.vision .box img:hover {
+  transform: scale(1.1);
+}
+
+.grid.vision .box button {
+  text-transform: uppercase;
+  width: 150px;
+  padding: 10px;
+  border-radius: 0;
+  border: 4px solid indianred;
 }
 
 @media (min-width: 768px) { 
   .grid.vision .box {
-    width: 48%;
+    width: 33%;
+  }
+  .grid.vision .box img {
+    height: 200px;
   }
 }
