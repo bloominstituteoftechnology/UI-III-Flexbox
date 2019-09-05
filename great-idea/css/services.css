@@ -1,0 +1,118 @@
+/* services.css 
+Tristan Boudreau */
+
+* {
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.services-header-img {
+    margin-top: 25px;
+    
+    margin-left: 0px;
+}
+
+.container {
+    width: 880px;
+    /* TB LR */
+    margin: 0 auto;
+  }
+
+header {
+	display: flex;
+}
+
+header nav {
+  display: flex;
+  vertical-align: middle;
+  margin-top: 35px;
+  justify-content: flex-start;
+
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+    margin-left: 0;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+  
+  header .logo {
+    margin-top: 25px;
+    justify-content: right;
+    margin-left: 115px;
+  }
+
+hr {
+    display: solid;
+    border-width: 1px;
+}
+
+ div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+  } 
+ 
+button {
+    width: 150px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Cont1, .Cont2, .Cont3, .Cont4, .Cont5, .Cont6 {
+    width: 425px;
+    height: 275px;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   }
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+  
+footer {
+    margin: 0px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.services-info-img {
+    /* display: flex; */
+    justify-content: center;
+    width: 50%;
+}
