@@ -194,18 +194,35 @@ footer {
 
 /* SERVICE */
 
+.logo {
+	margin-left:0;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.menu a {
+ margin-top:20px;
+ margin-left:5px;
+}
+
+.servicestitle {
+ font-size:30px;
+}
+
 .menu {
+
  display: flex;
  color: grey;
  justify-content: space-between
 }
 
 body {
-	width:800px;
+	width:880px;
 	margin: 0 auto;
 }
 
 .phone-pic {
+		
 display:flex;
 justify-content: center	
 }
@@ -239,7 +256,10 @@ justify-content: center
 }
 
 .services {
-	padding: 20px;
+	padding-right: 20px;
+	padding-left: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin-right:0;
 	margin-left:0;
 }
@@ -247,7 +267,10 @@ justify-content: center
 .button {
 	margin-left:0;
 	margin-top:10px;
-	padding: 10px;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border-radius: 10px;
 	background-color: white
 }
@@ -280,4 +303,8 @@ justify-content: center
 	margin-right:25px;
 	margin-bottom:10px;
 	margin-left:0
+}
+
+.line {
+	margin:30px 0 ;
 }
