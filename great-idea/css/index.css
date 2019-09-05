@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: flex;
 }
 body {
-	line-height: 1;
+	line-height: 1.2;
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -140,6 +140,11 @@ header .logo-services {
   display: flex;
   margin-top: 69px;
 }
+
+.container .logo-services{
+	margin-top: 0px;
+}
+
 .main-content {
 	display: flex;
 	flex-wrap: wrap;
@@ -207,7 +212,8 @@ header .logo-services {
 .footer {
 	display: flex;
 	justify-content: center;
-	margin-top: 50px;
+	margin-top: 60px;
+	margin-bottom: 20px;
 }
 
 .top-section {
@@ -222,11 +228,15 @@ header .logo-services {
 .service-main {
 	display: flex;
 	flex-wrap: wrap;
+	justify-items: stretch;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	width: 102%;
+	margin-left: -1%;
 }
-
-
+.service-main{
+	align-content: center;
+}
 
 .service-content {
 	display:flex;
@@ -239,7 +249,7 @@ header .logo-services {
 	margin: 20px;
 }
 .btn-learn-more {
-	padding: 10px;
+	padding: 10px; 
 	border-radius: 9px;
 	font-size: 10px;
 	margin-top: 15px;
