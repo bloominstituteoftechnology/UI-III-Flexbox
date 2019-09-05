@@ -230,6 +230,10 @@ header .logo {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .main-content .top-content {
@@ -257,7 +261,24 @@ header .logo {
   margin-top: 37px;
   padding: 0 10px;
 }
-
+.cnt1,
+.cnt2,
+.cnt3,
+.cnt4,
+.cnt5,
+.cnt6 {
+  width: 425px;
+  height: 275px;
+  background: lightgray;
+  border: 1px solid black;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+}
 .main-content .bottom-content .text-content {
   width: 275px;
   display: inline-block;
