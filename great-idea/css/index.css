@@ -282,6 +282,39 @@ header .logo {
   margin: 10px 0;
 }
 
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .logo {
+    margin-left: 170px;
+  }
+  .container nav {
+    display: none;
+  }
+  .header-pic {
+    display: none;
+  }
+  .top {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .s-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .s-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .s-bottom ul {
+    list-style-position: inside;
+  }
+  .services-info-img {
+    display: none;
+  }
+}
+
 .header-pic {
   margin: 20px 0;
 }
@@ -359,6 +392,77 @@ header .logo {
   margin-left: 20px;
 }
 
+.p-content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.p-top {
+  line-height: 1.3;
+  margin: 10px;
+}
+
+.p-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-boxes {
+  display: flex;
+  background-color: #f4f3f4;
+  width: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.p-boxes h4 {
+  margin: 10px;
+  text-align: center;
+}
+
+.p-boxes p {
+  display: flex;
+  margin: 20px;
+  line-height: 1.3;
+}
+
+.p-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.p-bottom-content {
+  display: flex;
+}
+
+.p-text-content {
+  margin: 10px;
+}
+
+.p-button {
+  background: white;
+  padding: 5px;
+  margin: 10px 160px;
+  vertical-align: top;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.p-button:hover {
+  background: black;
+  color: white;
+}
+
+.p-bottom-content h4 {
+  margin: 10px;
+  text-align: center;
+}
 footer {
   margin: 32px 0;
   justify-content: center;
