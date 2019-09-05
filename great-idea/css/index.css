@@ -101,8 +101,12 @@ header nav a:last-child {
 
 header .logo {
   margin-top: 25px;
+  
 }
-
+header .logo-services {
+	margin-bottom: 30px;
+	margin-left: 8%;
+}
 /* cta */
 
 .cta .cta-text {
@@ -214,24 +218,26 @@ header .logo {
 .top-section h1 {
 	font-size: 30px;
 }
-.service {
+.service-main {
 	display: flex;
+	flex-wrap: wrap;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
-.service.main {
-	display: flex;
-}
+
 
 .service-content {
 	display:flex;
 	flex-wrap: wrap;
-	width: 40%;
+	width: 45%;
 	border: 1px solid black;
 	padding: 20px;
 }
+.service-content {
+	margin: 20px;
 
+}
 .btn-learn-more {
 	padding: 10px;
 	border-radius: 9px;
