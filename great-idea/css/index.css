@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
 }
 blockquote, q {
 	quotes: none;
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-direction: column;
 }
-section{
+.AllTheWindows{
 	display: flex;
 	flex-direction:column;
 	flex-wrap: wrap;
@@ -229,5 +229,29 @@ section{
 .iOSDevelopmentclass{
 	display:flex;
 	flex-wrap:wrap;
+	justify-content: center;
+}
+.AndroidDevelopmentclass{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+/*.TheBottomSection{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}*/
+.leftsidebottomsection{
+	display:flex;
+	justify-content: center;
+}
+.services-info-img{
+	display:flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+footer{
+	display:flex;
 	justify-content: center;
 }
