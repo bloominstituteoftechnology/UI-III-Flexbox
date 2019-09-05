@@ -15,7 +15,7 @@
 
 .main .categories button {
     background: white;
-    width: 100px;
+    width: 150px;
     border-radius: 6px;
     border: 1px solid black;
 }
@@ -27,7 +27,9 @@
 
 nav {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  align-items: flex-end;
+  
 }
 
 nav a {
@@ -56,5 +58,11 @@ footer {
 
 .moFacts {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+body {
+  margin: 40px;
 }
