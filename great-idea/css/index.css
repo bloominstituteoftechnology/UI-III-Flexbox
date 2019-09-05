@@ -28,6 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: flex;
 }
+.main1 {
+	margin: 100px;
+	padding: 0;
+}
+
 body {
 	line-height: 1;
 
@@ -109,8 +114,13 @@ header .logo {
 	justify-content: flex-end;
 	width: 130px;
 	vertical-align:top;
-	margin-top: 40px;
+	margin-top: 18px;
   }
+
+.serv2 {
+	vertical-align: top;
+	margin-bottom: 20px;
+}
 
 /* cta */
 
@@ -142,7 +152,7 @@ header .logo {
 }
 
 .cta img {
-  display: flex;;
+  display: flex;
   margin-top: 69px;
 }
 
@@ -203,6 +213,47 @@ header .logo {
   margin-right: 0;
 }
 
+.services-header-img {
+	display: flex;
+    margin-top: 69px;
+}
+
+/*services page body content starts here*/
+.containerbod {
+  margin-top: 25px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-evenly;
+ 
+  
+}
+
+.containerbod div {
+	border: 1px solid black ;
+	padding: 20px;
+	margin: 10px;
+	background-color: rgb(243, 243, 243);
+	
+}
+
+
+
+
+
+ul.b {
+	list-style-type: square;
+	margin: 40px;
+  }
+  
+li {
+	padding-right: .6em;
+	margin: .7em 0;
+}
+
+
+
+/*<----sevices page body contect ends here*/
+
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
@@ -214,6 +265,24 @@ header .logo {
 .contact p {
   margin: 10px 0;
   padding: 20px 10px 0;
+}
+
+.servfacts {
+  border-top: 1px solid black;
+  margin-top: 30px;
+  padding-top: 39px;
+  padding-bottom: 10px;
+
+
+}
+
+.services-img {
+	display:flex;
+	padding-top: 20px;
+}
+
+.last1 { 
+
 }
 
 footer {
