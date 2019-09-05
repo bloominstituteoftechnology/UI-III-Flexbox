@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 header nav {
   display: flex;
   width: 691px;
-  vertical-align: top;
+  /* vertical-align: top; */
   margin-top: 35px;
 }
 
@@ -108,7 +108,7 @@ header .logo {
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
-  text-align: center;
+  /* text-align: center; */
   padding: 0px 75px;
 }
 
@@ -185,4 +185,64 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+
+
+
+
+
+
+/* SERVICE */
+
+.menu {
+ display: flex;
+ color: grey;
+ justify-content: space-between
+}
+
+body {
+	width:800px;
+	margin: 0 auto;
+}
+
+.phone-pic {
+display:flex;
+justify-content: center	
+}
+
+.last {
+	display:flex;
+}
+
+.boxes1 {
+	display:flex;
+	}
+
+.boxes1child {
+	border:	1px solid black;
+	margin: 30px;
+	padding: 15px;
+}
+
+.services {
+	padding: 20px;
+}
+
+.button {
+	margin:20px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white
+}
+
+.copyright {
+	margin:20px;
+	display:flex;
+	justify-content: center
+	
+}
+
+.things {
+	margin:10px;
+	display:flex;
 }
