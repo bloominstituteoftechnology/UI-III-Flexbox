@@ -90,7 +90,7 @@ p {
 }
 
 ul {
-  list-style-type: square;
+  list-style-type: circle;
   list-style-position: inside;
   line-height: 30px;
   margin-top: 20px;
@@ -209,4 +209,5 @@ address {
 
 .service-facts-item {
   width: 400px;
+  
 }
