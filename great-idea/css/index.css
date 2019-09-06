@@ -189,6 +189,10 @@ footer {
   font-size: 14px;
 }
 
+*{
+  box-sizing:border-box;
+}
+
 .boxes {
   border-top: 1px solid black;
   margin-top: 15px;
@@ -278,3 +282,4 @@ header {
 display: flex;
 flex-direction: column;
 }
+
