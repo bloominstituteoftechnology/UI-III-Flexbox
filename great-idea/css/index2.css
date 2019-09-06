@@ -84,13 +84,14 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
+  margin        : 0;
+  padding       : 0;
+  border        : 0;
+  font-size     : 100%;
+  font          : inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +106,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,9 +128,10 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing : 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -135,7 +141,7 @@ table {
 
 html,
 body {
-  height: 100%;
+  height     : 100%;
   font-family: "Titillium Web", sans-serif;
 }
 
@@ -144,10 +150,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Bangers", cursive;
+  font-family   : "Bangers", cursive;
   letter-spacing: 1px;
-  margin-bottom: 15px;
-  font: bold;
+  margin-bottom : 15px;
+  font          : bold;
 }
 
 .container {
@@ -159,11 +165,11 @@ h5 {
 /* header */
 
 header nav {
-  display: flex;
-  flex-flow: row nowrap;
-  width: 691px;
+  display       : flex;
+  flex-flow     : row nowrap;
+  width         : 691px;
   vertical-align: top;
-  margin-top: 35px;
+  margin-top    : 35px;
 }
 
 header {
@@ -171,9 +177,9 @@ header {
 }
 
 header nav a {
-  margin-right: 65px;
-  font-size: 14px;
-  color: gray;
+  margin-right   : 65px;
+  font-size      : 14px;
+  color          : gray;
   text-decoration: none;
 }
 
@@ -199,60 +205,60 @@ header .logo {
 }
 
 .cta .cta-text {
-  display: flex;
-  flex-flow: column wrap;
+  display       : flex;
+  flex-flow     : column wrap;
   vertical-align: bottom;
-  font-size: 77px;
-  margin-top: 120px;
-  text-align: center;
-  padding: 0px 75px;
+  font-size     : 77px;
+  margin-top    : 120px;
+  text-align    : center;
+  padding       : 0px 75px;
 }
 
 .cta .cta-text button {
-  background: white;
+  background    : white;
   vertical-align: bottom;
-  margin-top: 10px;
-  padding: 8px 44px;
-  font-size: 17px;
-  border: 1px solid black;
-  cursor: pointer;
+  margin-top    : 20px;
+  padding       : 8px 44px;
+  font-size     : 17px;
+  border        : 1px solid black;
+  cursor        : pointer;
 }
 
 .cta .cta-text button:hover {
   background: black;
-  color: white;
+  color     : white;
 }
 
 .cta img {
-  display: flex;
+  display   : flex;
   margin-top: 69px;
 }
 
 .main-content {
-  display: flex;
-  flex-wrap: column wrap;
-  border: 1px solid black;
-  border-top: 1px solid black;
-  margin-top: 76px;
+  display    : flex;
+  flex-wrap  : column wrap;
+  border     : 1px solid black;
+  border-top : 1px solid black;
+  margin-top : 76px;
   padding-top: 39px;
 }
 
 .main-content .top-content {
-  display: flex;
+  display         : flex;
   background-color: gray;
-border: 1px solid black;
+  border          : 1px solid black;
 
 }
 
 .main-content .top-content .text-content {
-  background-color:  gray;
-  width: 410px;
-  margin-right: 34px;
+  background-color: gray;
+  width           : 410px;
+  margin-right    : 34px;
 }
 
 .main-content .top-content .text-content:last-child {
-  display: flex;
-  margin-right: 15px auto;
+  display         : flex;
+  margin-right    : 15px auto;
   background-color: aliceblue;
 }
 
@@ -262,25 +268,27 @@ border: 1px solid black;
 }
 
 .main-content .bottom-content {
-  margin-top: 37px;
-  padding: 0 10px;
   display: flex;
+  /* margin-top: 37px;
+  padding   : 0 10px;
+  display   : flex; */
 }
 
 .main-content .bottom-content .text-content {
-  display: flex;
-  width: 275px;
+  display     : flex;
+  width       : 275px;
   margin-right: 12px;
 }
 
-.main-content .bottom-content .text-content:last-child {display: flex;
+.main-content .bottom-content .text-content:last-child {
+  display     : flex;
   margin-right: 0;
 }
 
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
-  padding: 39px 10px 0;
+  padding   : 39px 10px 0;
 }
 
 .contact p {
@@ -288,7 +296,26 @@ border: 1px solid black;
 }
 
 footer {
-  margin: 32px 0;
+  margin    : 32px 0;
   text-align: center;
-  font-size: 14px;
+  font-size : 14px;
+}
+.six-boxes {
+  display: flex;
+  border:   2px solid black;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0% 0% 0% 0%;
+
+}
+
+.six-boxes  .text-content{
+border: 2px solid green;
+width: 48%;
+padding: 3% 3% 3% 3%;
+
+}
+.six-boxes .text-content .box-btn{
+  padding: 1% 1% 1% 1%;
+  margin:  2% 2% 2% 2%:
 }
