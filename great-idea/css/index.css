@@ -76,10 +76,6 @@ header {
   margin: 2% 0 0 1%;
 }
 
-header nav {
-  /* display: flex; */
-}
-
 header nav a {
   margin-right: 65px;
   font-size: 14px;
@@ -100,8 +96,7 @@ header nav a:last-child {
 }
 
 header .logo {
-  justify-content: flex-end;
-  margin: 0 0 0 10;
+  justify-content: space-between;
 }
 
 /* cta */
@@ -199,24 +194,89 @@ footer {
   font-size: 14px;
 }
 
-.container1 {
-  display: flex;
-  justify-content: space-between;
-  margin: 2% 0 0 1%;
-}
-
-.logo {
-	margin: 2% 0 0 1%;
+.buttons{
+  font-size: 30px;
 }
 
 .services-header-img{
- justify-content: space-around;
+  width: 800px;
+  margin-bottom: 20px;
 }
 
-.services {
-	margin: 2% 0 0 0;
-}
+/* .digital-design, .uxui, .digital-marketing, .web-development, .ios-development, .android-development{
+  border: solid;
+  border-width: 2px;
+  margin: 5%;
+  background-color: lightgrey;
+} */
 
-.ServicesFacts{
+/* .services-facts{
  display: flex;
+ flex-flow: column;
+} */
+
+nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 20px 0px 20x 0px;
+}
+
+.top {
+  margin: 20 px 0px 20px 0px;
+  padding-bottom: 5%;
+  border-bottom: 1px solid;
+}
+
+.parent-flex{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 20px 0px;
+  padding-top: 3%;
+}
+
+.content-container{
+  background-color: lightgrey;
+  width: 49%;
+  padding: 20px;
+}
+
+.card-text{
+  margin-bottom: 20px;
+}
+
+.card-button{
+ background-color: white;
+ border: 1px solid black;
+ padding: 10px;
+ width: 150px;
+ border-radius: 5px;
+}
+
+.whole-container{
+ width: 800px;
+ margin: 0 auto;
+}
+
+.services-facts-container{
+ display: flex;
+ justify-content: space-between;
+ align-content: center;
+ border-top: 2px solid black;
+ padding-top: 3%;
+}
+
+.list{
+ padding-bottom: 5%;
+}
+
+.ul{
+ list-style-type: square;
+ list-style-position: inside;
+}
+
+.services-info-img{
+  display: flex;
+  justify-content: flex-end;
+  width: 392px;
 }
