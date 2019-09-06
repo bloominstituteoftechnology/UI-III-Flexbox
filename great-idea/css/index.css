@@ -63,4 +63,258 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+	display: flex;
+}
+
+header nav {
+  display: flex;
+  width: 691px;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+/* cta */
+
+.cta {
+	display: flex;
+}
+
+.cta .cta-text {
+  display: flex;
+  /* vertical-align: top; */
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+  flex-direction: column;
+  
+}
+
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  display: flex;
+  margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+  
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+  display: flex;
+  
+}
+
+.main-content .top-content .text-content {
+  width: 49.5%;
+  margin-right: 34px;
+  
+}
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+  display: flex;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+
+/* SERVICE */
+
+.logo {
+	margin-left:0;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.menu a {
+ margin-top:20px;
+ margin-left:5px;
+}
+
+.servicestitle {
+ font-size:30px;
+}
+
+.menu {
+
+ display: flex;
+ color: grey;
+ justify-content: space-between
+}
+
+body {
+	width:880px;
+	margin: 0 auto;
+}
+
+.phone-pic {
+		
+display:flex;
+justify-content: center	
+}
+
+.last {
+	display:flex;
+}
+
+.boxes1 {
+	display:flex;
+	}
+
+.boxes1childl {
+	border:	1px solid black;
+	padding: 15px;
+	background-color:#F5F5F5;
+	margin-top:10px;
+	margin-right:25px;
+	margin-bottom:10px;
+	margin-left:0
+}
+
+.boxes1childr {
+	border:	1px solid black;
+	padding: 15px;
+	background-color:#F5F5F5;
+	margin-top:10px;
+	margin-right:0;
+	margin-bottom:10px;
+	margin-left:25px;
+}
+
+.services {
+	padding-right: 20px;
+	padding-left: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right:0;
+	margin-left:0;
+}
+
+.button {
+	margin-left:0;
+	margin-top:10px;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	background-color: white
+}
+
+.copyright {
+	margin:20px;
+	display:flex;
+	justify-content: center
+	
+}
+
+
+.allthings {
+
+	list-style: square;
+	margin-top:10px;
+	margin-right:25px;
+	margin-bottom:10px;
+	margin-left:0
+}
+
+.things {
+
+	margin:20px;
+	
+}
+
+.facts {
+	margin-top:10px;
+	margin-right:25px;
+	margin-bottom:10px;
+	margin-left:0
+}
+
+.line {
+	margin:30px 0 ;
+}
