@@ -218,7 +218,7 @@ header .logo {
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
 }
 
@@ -255,8 +255,13 @@ li {
 
 /*<----sevices page body contect ends here*/
 
-.line-item {
+.line-item{
   border-top: 1px solid black;
+  margin-top: 28px;
+}
+
+.line-item2{
+  border-top: 2px solid black;
   margin-top: 28px;
 }
 .contact {
