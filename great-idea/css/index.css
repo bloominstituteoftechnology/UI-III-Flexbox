@@ -61,6 +61,210 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  
+}
+header nav {
+  display: flex;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+  }
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+.services-header-img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* cta */
+.cta{
+  display: flex;
+}
+.cta .cta-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.cta .cta-text button {
+  display: flex;
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  display: flex;
+   margin-top: 69px;
+}
+
+/* this is for sevice page buttons */
+.top-content .text-content button {
+  display: flex;
+  align-items: flex-start;
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 3px;
+  }
+
+.top-content .text-content button:hover {
+  background: black;
+  color: white;
+}
+
+/* div .service-button */
+.top-content .text-content .service-button{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0 0 0;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.top-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 34px;
+  margin-bottom: 34px;
+  padding: 10px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+/* service border ID tag for service page */
+#service-border {
+  border: 1px solid black;
+  background-color: rgba(211, 211, 211, 0.5);
+  margin: 10px; 
+
+}
+
+/* service page CONTACT div */
+.contact .top-content .text-content {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 34px;
+  margin-bottom: 34px;
+}
+
+.contact .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+/* .contact .top-content .text-content {
+  border: 2px;
+  border-color: bisque;
+} */
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.bottom-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
