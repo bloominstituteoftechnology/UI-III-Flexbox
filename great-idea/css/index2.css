@@ -151,7 +151,6 @@ h5 {
 }
 
 .container {
-
   width: 880px;
   /* TB LR */
   margin: 0 auto;
@@ -202,7 +201,7 @@ header .logo {
 .cta .cta-text {
   display: flex;
   flex-flow: column wrap;
-  vertical-align: top;
+  vertical-align: bottom;
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
@@ -211,8 +210,8 @@ header .logo {
 
 .cta .cta-text button {
   background: white;
-  vertical-align: top;
-  margin-top: 6px;
+  vertical-align: bottom;
+  margin-top: 10px;
   padding: 8px 44px;
   font-size: 17px;
   border: 1px solid black;
@@ -233,9 +232,9 @@ header .logo {
   display: flex;
   flex-wrap: column wrap;
   border: 1px solid black;
-  /* border-top: 1px solid black;
+  border-top: 1px solid black;
   margin-top: 76px;
-  padding-top: 39px; */
+  padding-top: 39px;
 }
 
 .main-content .top-content {
