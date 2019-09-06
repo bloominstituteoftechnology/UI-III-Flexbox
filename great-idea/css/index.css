@@ -188,3 +188,93 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+.boxes {
+  border-top: 1px solid black;
+  margin-top: 15px;
+  padding: 20px;
+}
+
+.boxes1 {
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 100%;
+padding: 0 15px;
+height: 100%;
+}
+
+.boxes1 div {
+border: 1px solid black;
+height: 10%;
+width: 60%;
+background: lightgrey;
+padding: 15px;
+margin: 15px;
+width: 350px;
+display: flex;
+flex-direction: column;
+
+}
+
+.boxes1 button {
+  height: 30px;
+  margin-top: 15px;
+  width: 120px;
+}
+
+.topimage {
+display: flex;
+justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.boxes .boxes1 p {
+  display: flex;
+  margin-right: 20px;
+  width: 300px;
+}
+
+
+.somefactsabout p {
+  margin-top: 30px;
+  width: 400px;
+  margin-left: -200px;
+
+}
+
+.somefactsabout ul {
+  list-style-type: circle;
+  margin-top: 130px;
+  margin-left: -380px;
+
+}
+
+.somefactsabout li {
+  margin-bottom: 10px;
+}
+
+
+.somefactsabout{
+  display: flex;
+  justify-content: center;
+}
+
+.somefactsabout .bottomimg{
+  margin-left: 320px;
+}
+
+.boxes {
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.digdesanduxui {
+display: flex;
+flex-direction: column;
+}
