@@ -1,0 +1,69 @@
+.main .categories {
+    width: 500px;
+    height: 250px;
+    background: lightgray;
+    border: 1px solid black; 
+    padding: 15px;   
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.main .categories button {
+    background: white;
+    width: 150px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+}
+
+nav a {
+  color: gray;
+  text-decoration: none;
+}
+
+.serviceHeader .services-header-img {
+  width: 100%;
+}
+
+h2, h3 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+p, ul {
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+  }
+
+.moFacts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+body {
+  margin: 40px;
+}
