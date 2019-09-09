@@ -1,12 +1,21 @@
+header {
+  display: flex;
+
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
-	  align-items: flex-end;
+    align-items: flex-end;
+    width: 100%;
   }
   
 nav a {
+  display: flex;
+  justify-content: space-between;
   color: gray;
   text-decoration: none;
+  margin: 0 65px 0 0;
 }
   
 .cta {
@@ -77,4 +86,8 @@ border-top: 2px solid black;
 
 body {
   margin: 40px;
+}
+
+@media screen and (max-width: 800px) {
+
 }
