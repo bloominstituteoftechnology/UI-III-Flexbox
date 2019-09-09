@@ -87,16 +87,60 @@ body {
   margin: 40px;
 }
 
+hr {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   header {
-    display: flex;
     flex-direction: column-reverse;
     align-self: center;
   }
   .navBarLogo {
     align-self: center;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .cta {
+    margin: 0 0 35px 0;
   }
   .cta img {
     display: none;
   }
 }
+
+@media screen and (max-width: 500px) {
+  header {
+    width: 100%;
+  }
+  .navBar {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+  .navBar a {
+    margin: auto;
+  }
+  .navBarLogo {
+    margin: auto;
+  } 
+  .top-content {
+    flex-direction: column;
+  }
+  .bottom-content {
+    flex-direction: column;
+  }
+ .cta {
+    margin: 0 0 35px 0;
+  } 
+  hr {
+    display: block;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+  }
+}
+
