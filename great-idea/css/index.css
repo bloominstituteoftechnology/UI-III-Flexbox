@@ -108,8 +108,16 @@ header {
 .header-nav a:hover:before {
 	height: 100%;
 }
-
-
+.header-nav a.active,
+.header-nav a.active:active {
+	background-color: #afafaf;
+	color: #fff;
+}
+.header-nav a.active::before,
+.header-nav a.active:active:before {
+	background-color: #dfdfdf;
+	color: transparent;
+}
 .header-logo {
 	display: inline-block;
 	vertical-align: middle;
