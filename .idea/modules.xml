@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/UI-III-Flexbox.iml" filepath="$PROJECT_DIR$/.idea/UI-III-Flexbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../User-Interface/.idea/User-Interface.iml" filepath="$PROJECT_DIR$/../User-Interface/.idea/User-Interface.iml" />
     </modules>
   </component>
 </project>
