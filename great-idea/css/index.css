@@ -10,11 +10,16 @@ header nav {
   }
   
 nav a {
+  font-family: 'Titillium Web', sans-serif;
   display: flex;
   justify-content: space-between;
   color: gray;
   text-decoration: none;
   margin: 0 65px 0 0;
+}
+
+a:hover {
+  color: black;
 }
   
 .cta {
@@ -29,7 +34,10 @@ nav a {
   text-align: center;
 }
   
-  
+.cta-text button:hover {
+  color: white;
+  background-color: black;
+}
   
 .cta-text button {
   background: white;
@@ -115,11 +123,19 @@ hr {
   }
   .navBar {
     flex-direction: column;
-    margin: 0;
     width: 100%;
   }
-  .navBar a {
-    margin: auto;
+  nav a {
+    width: 100%;
+    margin: 0;
+    height: 30px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  .services {
+    border-top: 1px solid black;
   }
   .navBarLogo {
     margin: auto;
@@ -130,17 +146,12 @@ hr {
   .bottom-content {
     flex-direction: column;
   }
+  .midImg .middle-img {
+    border: 1px solid blue;
+  }
  .cta {
     margin: 0 0 35px 0;
   } 
-  hr {
-    display: block;
-    height: 1px;
-    width: 100%;
-    border: 0;
-    border-bottom: 1px solid black;
-    margin: 1em 0;
-    padding: 0;
-  }
+
 }
 

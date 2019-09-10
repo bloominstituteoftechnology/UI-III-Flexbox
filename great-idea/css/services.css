@@ -15,10 +15,10 @@
 }
 
 .main .categories button {
-    background: white;
-    width: 150px;
-    border-radius: 6px;
-    border: 1px solid black;
+  background: white;
+  width: 150px;
+  border-radius: 6px;
+  border: 1px solid black;
 }
 
 .main {
@@ -49,7 +49,7 @@ h2, h3 {
 }
 
 p, ul {
-    font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   }
 
 footer {
