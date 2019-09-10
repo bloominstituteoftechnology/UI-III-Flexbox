@@ -12,6 +12,7 @@ header {
     margin: 20px;
     display: flex;
     flex-direction: column;
+    flex: 2;
 }
 
 .main {
@@ -112,5 +113,14 @@ body {
   .logo {
     margin: 0;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #topRow, #midRow, #bottomRow {
+    flex-direction: column;
+  }
+  .categories {
+    margin: 20px 0;
   }
 }
