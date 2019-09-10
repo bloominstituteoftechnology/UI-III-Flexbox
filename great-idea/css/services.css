@@ -1,6 +1,10 @@
-.main .categories {
-    width: 500px;
-    height: 250px;
+header {
+  display: flex;
+}
+
+.categories {
+    width: 100%;
+    height: auto;
     background: lightgray;
     border: 1px solid black; 
     padding: 15px;   
@@ -10,15 +14,21 @@
 }
 
 .main {
+  display: flex;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
 
-.main .categories button {
+button {
   background: white;
   width: 150px;
   border-radius: 6px;
   border: 1px solid black;
+}
+
+button:hover {
+  color: white;
+  background: black;
 }
 
 .main {
@@ -29,16 +39,23 @@
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  
+  align-items: flex-start;
+  width: 100%;
+}
+
+a:hover {
+  color: black;
 }
 
 nav a {
+  font-family: 'Titillium Web', sans-serif;
+  display: flex;
   color: gray;
   text-decoration: none;
+  justify-content: space-between; 
 }
 
-.serviceHeader .services-header-img {
+.services-header-img {
   width: 100%;
 }
 
@@ -46,6 +63,13 @@ h2, h3 {
   font-family: 'Bangers', cursive;
   letter-spacing: 1px;
   margin-bottom: 15px;
+}
+
+#topRow, #midRow, #bottomRow {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
 }
 
 p, ul {
@@ -66,4 +90,8 @@ footer {
 
 body {
   margin: 40px;
+}
+
+@media screen and (max-width: 800px) {
+
 }
