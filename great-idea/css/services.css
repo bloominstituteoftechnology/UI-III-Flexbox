@@ -1,5 +1,6 @@
 header {
   display: flex;
+  justify-content: space-between;
 }
 
 .categories {
@@ -31,6 +32,10 @@ button:hover {
   background: black;
 }
 
+button:focus {
+  background: lightgray;
+}
+
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +48,15 @@ nav {
   width: 100%;
 }
 
+.logo {
+  margin-left: 30px;
+}
+
 a:hover {
+  color: black;
+}
+
+a:focus {
   color: black;
 }
 
@@ -93,5 +106,11 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-
+  header {
+    flex-direction: column-reverse;
+  }
+  .logo {
+    margin: 0;
+    width: 100%;
+  }
 }
