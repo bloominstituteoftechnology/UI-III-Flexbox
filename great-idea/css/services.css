@@ -49,12 +49,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
 	width: 1024px;
@@ -71,12 +71,14 @@ h1, h2, h3, h4, h5 {
 	border-right: 1px solid #D1D5DA;
 	padding: 25px 75px 200px;
 	margin: auto;
-    font-optical-sizing: auto;
+	font-optical-sizing: auto;
 }
 
 .flex-container {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 
 .flex-link{
@@ -93,111 +95,114 @@ nav a {
 }
 
 header {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 header img {
 	margin-left: 30px;
 }
 
-.cta {
-    display: flex;
-    flex-direction: row;
-}
-
-.cta-text {
-    display: flex;
-    flex-direction: column;
-	width: 50%;
-    align-items: center;
-    justify-content: center;
-	text-align: center;
-}
-
-.cta-text h1 {
-    font-size: 75px;
-    text-align: center;
-}
-
-.cta-text a {
-	color: black;
-	border: 1px solid black;
-	padding: 7px 40px 8px;
-	margin-top: 8px;
-	text-decoration: none;
-	font-size: 17px;
-}
-
-.cta-img {
-	width: 50%;
-	text-align: right;
-}
-
-.main-content {
-	width: 876px;
-	border-top: 1px solid black;
+.services {
 	border-bottom: 1px solid black;
-	padding: 40px 0 40px;
-    margin: 75px 0 50px;
-    display: flex;
-    flex-direction: column;
+	padding: 25px 0 40px;
+	line-height: 125%
 }
 
-.content-one {
-    padding-bottom: 40px;
-    display: flex;
+.services h1 {
+	font-size: 24px;
+}
+
+.services-header-img {
+	width: 100%;
+}
+
+.services-info-img {
+	width: 100%;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-bottom: 25px;
+	line-height: 125%
+}
+
+.main-row {
+	display: flex;
 	flex-direction: row;
-	align-items: center;
-	justify-content: center;
 }
 
-.content-one .p-left {
+.box-left {
+	background-color: #F4F3F4;
 	width: 50%;
-	text-align: left;
+	padding: 25px;
+	border: 1px solid black;
+	margin: 40px 20px 0 0;
 }
 
-.content-one .p-right {
+.box-right {
+	background-color: #F4F3F4;
 	width: 50%;
-	text-align: left;
+	padding: 25px;
+	border: 1px solid black;
+	margin: 40px 0 0 20px;
 }
 
-.content-two {
-    display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	padding-top: 40px;
-}
-
-.content-two-one {
-	width: 33.33%;
-	text-align: left;
-	margin: 0px;
-	padding-right: 5px;
-}
-
-.content-two-two {
-	width: 33.33%;
-	text-align: left;
-	margin: 0px;
-	padding-right: 5px;
-}
-
-.content-two-three {
-	width: 33.33%;
-    text-align: left;
-    margin: 0px;
-}
-
-.contact {
-	display: block;
-	text-align: left;
-}
-
-.copyright {
-	display: block;
-	margin: 40px 0;
-	font-size: 15px;
+.learn {
+	background-color: #FFFFFF;
+	font-size: 12px;
 	text-align: center;
+	width: 35%;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 25px 25px 0 0;
+}
+
+.main-two {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	border-top: 2px solid black;
+	padding-top: 40px;
+	margin-top: 25px;
+	line-height: 125%
+}
+
+.box-three {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-right: 40px;
+}
+
+.flex-line {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0 0 20px;
+}
+ul {
+	list-style-type: square;
+	line-height: 200%;
+}
+
+li span {
+	position: relative;
+	left: 10px;
+}
+
+.box-four {
+	width: 50%;
+	padding-left: 20px;
+}
+
+footer{
+	display: flex;
+	font-size: 15px;
+	margin: 40px 0;
 	padding: 50px 0;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
 }
