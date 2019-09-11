@@ -112,6 +112,14 @@ header img {
 	font-size: 24px;
 }
 
+.services-header-img {
+	width: 100%;
+}
+
+.services-info-img {
+	width: 100%;
+}
+
 .main {
 	display: flex;
 	flex-direction: column;
