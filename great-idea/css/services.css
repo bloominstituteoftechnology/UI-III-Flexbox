@@ -18,3 +18,137 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+.container .nav-bar {
+  z-index: 1;
+	display: flex;
+	flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+	padding: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.top-image {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}  
+
+.top-paragraph {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.top-paragraph .top-paragraph-header {
+  font-size: 28px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border-top: 1.5px solid black;
+	margin: 100px;
+}
+
+.boxed-paragraphs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.first-box, .second-box, .third-box, .fourth-box, .fifth-box, .sixth-box {
+  border: 1px solid black;
+  background-color: #f2f2f2;
+  width: 500px;
+  height: 270px;
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button {
+  border: 1px solid black;
+  background-color: white;
+  padding: 15px;
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.left-bottom {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin: 100px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.list {
+  margin-top: 20px;
+  padding: 10px;
+  list-style-type: square;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
