@@ -266,7 +266,7 @@ header .container {
     justify-content: space-between;
 }
 .services-list {
-    padding: 45px 0 20px;
+    padding: 45px 0 14px;
 }
 .services-list .card {
     background-color: #efefef;
