@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +64,165 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	
+}
+
+nav {
+	margin: 20px 10px;
+	padding: 20px;
+	text-decoration: none;
+}
+
+nav a {
+	margin: 20px;
+}
+
+.logo {
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.cta {
+	display: flex;
+	margin: 40px 0px;
+	width: 100%;
+
+}
+.cta-text {
+	margin: 20px;
+	width: 48%;
+	font-size: 70px;
+	text-align: center;
+}
+
+button {
+	font-size: 18px;
+}
+
+.content_1 {
+	display: flex;
+	border-top: 1px solid black;
+	margin: 1%;
+	width: 98%;
+}
+
+p {
+	line-height: 1.2;
+}
+
+.content_1_box {
+	margin: 1%;
+}
+
+.content_2 {
+	display: flex;
+	margin: 1%;
+}
+
+.content_2_box {
+	margin: 1%;
+}
+
+.contact {
+	border-top: 1px solid black;
+	margin: 1px;
+	width: 98%;
+}
+
+.contact h4 {
+	margin-top: 20px;
+}
+
+footer {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.services-header-img {
+	padding-left: 10px;
+}
+
+.content_3 {
+	padding-bottom: 20px;
+	margin: 20px 20px 0 20px;
+}
+
+.content_4 {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;	
+}
+
+.content_5 {
+	display: flex;
+    justify-content: space-between;
+	padding: 20px 0;	
+}
+
+.content_6 {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.content_4_box {
+	border: 1px solid black;
+	margin: 1%;
+	padding: 2%;
+	background: lightgray;
+}
+
+/* .content_5_box {
+	border: 1px solid black;
+	margin: 1%;
+	padding: 2%;
+	background: lightgray;
+}
+
+.content_6_box {
+	border: 1px solid black;
+	margin: 1%;
+	padding: 2%;
+	background: lightgray;
+} */
+
+button {
+	margin-top: 20px;
+}
+
+
+.left_box {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 49%;
+}
+
+.services-info-img {
+	margin-right: 10px;
+}
+
+.content_7 {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.line {
+	border: 1px solid black;
+	margin: 10px;
+}
+
+ul {
+   padding: 20px 0 0 20px;
+   line-height: 30px;
+}
