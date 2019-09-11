@@ -64,3 +64,145 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 880px;
+	margin: auto;
+}
+
+.block {
+	width: 100%;
+}
+
+/* navigator */
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0px;
+	align-items: center;
+}
+
+.link_nav {
+	font-size: 14px;
+	font-weight: 300;
+	color: grey;
+	text-decoration: none;
+	margin: 15px;
+}
+
+.link_nav:hover {
+	opacity: .3;
+}
+
+/* left of image */
+
+.splash {
+	display: flex;
+	align-items: center;
+}
+
+.splash .left_text {
+	display: flex;
+	flex-direction: column;
+	font-size: 80px;
+	margin: 100px 0px;
+	text-align: center;
+	align-items: center;
+}
+
+.splash .left_text button {
+	font-weight: 300;
+	background: white;
+	margin-top: 5px;
+	padding: 5px 30px;
+	font-size: 15px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.splash .left_text button:hover {
+	background: black;
+	color: whitesmoke;
+}
+
+/* content */
+.content .block {
+	display: flex;
+	justify-content: space-between;	
+}
+
+.content .content_top {
+	width: 420px;
+	margin: 1% 8px 2% 8px;
+	padding: 25px 0px;
+	line-height: 20px;
+}
+
+.content .content_bottom {
+	width: 270px;
+	margin: 1% 8px 2% 8px;
+	padding: 25px 0px;
+	line-height: 20px;
+}
+
+/* footer */
+
+footer {
+	padding: 25px 0px 0px 0px;
+}
+
+.copyright {
+	text-align: center;
+	padding: 35px 0px;
+}
+
+/****** SERVICES START HERE *******/
+
+.services {
+	padding: 25px 0px;
+}
+
+.boxes {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+
+.box {
+	width: 400px;
+	border: 1px solid;
+	background-color: lightgray;
+	margin: 20px;
+	padding: 20px;
+}
+
+.box button {
+	border: 1px solid;
+	margin: 15px;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+
+.box button:hover {
+	background: black;
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+.footer2 {
+	display: flex;
+}
+
+.p_footer {
+	width: 400px;
+}
+
+li {
+	list-style-type: square;
+	margin: 20px 20px;
+}
+
+.services-info-img {
+	margin: 0px 0px 50px 45px;
+}
