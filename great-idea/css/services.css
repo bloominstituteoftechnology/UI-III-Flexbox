@@ -63,48 +63,86 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
 body{
-	max-width: 876px;
+	max-width: 880px;
 }
 
-.navigation a {
+.navcontainer{
+    display: flex;
+}
+
+.navbar a {
 	margin: 0 25px;
 	text-decoration: none;
 	color: gray;
 }
 
-.top{
-	display: flex;
+.main{
+    display: flex;
+    flex-flow: row wrap;
 }
 
-.left{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	font-size: 72px;
-	width: 50%;
-	text-align: center;
+.box1{
+    width: 420px;
+    margin: 0 20px 20px 0;
+    border: black solid .5px;
+    padding: 20px;
+
 }
 
-.top-content{
-	display:flex;
-	margin: 20px 0 20px 0;
+.box2{
+    width: 420px;
+    margin: 0 0 20px 20px;
+    border: black solid .5px;
+    padding: 20px;
 }
 
-.bottom-content{
-	display:flex;
-	margin: 20px 0 20px 0;
+.box3{
+    width: 420px;
+    margin: 0 20px 20px 0;
+    border: black solid .5px;
+    padding: 20px;
+
+}
+
+.box4{
+    width: 420px;
+    margin: 0 0 20px 20px;
+    border: black solid .5px;
+    padding: 20px;
+}
+
+.box5{
+    width: 420px;
+    margin: 0 20px 20px 0;
+    border: black solid .5px;
+    padding: 20px;
+
+}
+
+.box6{
+    width: 420px;
+    margin: 0 0 20px 20px;
+    border: black solid .5px;
+    padding: 20px;
+}
+
+.mainbutton{
+    border-radius: 4px;
+    background-color: white;
+    border: solid black .5px;
+    padding: 5px 15px;
+}
+
+.bottom{
+    display:flex;
+}
+
+.bottomtxt{
+    width: 420;
+    padding: 0 40px 0 0;
 }
 
 footer{
-	text-align: center;
-}
-
-.button{
-	width: 150px;
-	background-color: white;
-	border: solid black .5px;
+    text-align: center;
 }
