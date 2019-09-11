@@ -65,96 +65,89 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.head {
-	margin-top: 100px;
-}
 .nav_bar {
-	background-color: #2f64a1;
-	overflow: hidden;
-	position: fixed;
-	top: 0%;
-	margin: auto;
-	width: 100%;
-	
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-evenly;
 }
 
-.nav_bar a{
+.nav_bar nav {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-evenly;
+	width: 75%; 
+}
+
+.nav_bar nav a:link {
+	color: gray;
 	text-decoration: none;
-	color: #8dc26e;
-	margin: 1%;
-	padding: 1%;
-	width: 12%;
-	float: left;
-	display: block;
-	text-align: center;
 }
 
-.nav_bar a:hover {
-	background: #8dc26e;
-	color: #2f64a1;
+.head {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-evenly;
+	margin: 75px;
 }
 
-.logo {
-	float: right;
-	margin-top: 2%;
-	width: 15%; 
-
-}
-
-.head_img {
-	margin: 1%;
-	width: 47%;
-	display: inline-block;
-	max-width: 400px;
-}
 .inner_left {
-	/* border: 2px solid blue; */
-    display: inline-block;
-    vertical-align: top;
-    margin: 1%;
-    min-height: 20%;
-    width: 47%;
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 25%;
+	text-align: center;
 }
 
-.inner_left section {
-	text-align: center;
-	font-size: 75px;
+.inner_left section{
+	font-size: 75px;	
 }
 
 .inner_left p {
 	border: 1px solid black;
-	margin: 2%;
+	display: flex;
+	justify-content: center;
 	padding: 5px;
-	width: 15%;
 	margin-left: auto;
-	  margin-right: auto;
-	  text-align: center;
+	margin-right: auto;
 }
 
 .main {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 25px;
+
 }
 
-.main_top {
+.top {
 	/* border: 1px solid black; */
-	margin: 1%;
-	width: 47%;
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	margin: 25px;
+
 }
 
-.main img {
-	/* border: 2px solid black; */
-	width: 98%;
-	max-height: 225px;
-	margin: 1%;
+.middle_img {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 
-.main_bottom {
-	/* border: 2px solid black; */
-	margin: 1%;
-	width: 31%;
-	display: inline-block;
+.middle_img img {
+	display: flex;
+	flex-basis: 100%;
+}
+
+.bottom {
+	display: flex;
+	margin: 25px;
+}
+
+.foot {
+	margin: 25px;
 }
 
 .copy {
