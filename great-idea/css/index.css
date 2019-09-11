@@ -64,3 +64,176 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.content {
+	max-width: 75%;
+	margin: auto;
+  }
+
+.nav_bar {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav_bar nav {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-evenly;
+	width: 75%; 
+}
+
+.nav_bar nav a:link {
+	color: gray;
+	text-decoration: none;
+}
+
+.nav_bar nav a:visited {
+	color: gray;
+	text-decoration: none;
+}
+
+.head {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-evenly;
+	margin: 75px;
+}
+
+.inner_left {
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 25%;
+	text-align: center;
+}
+
+.inner_left section{
+	font-size: 75px;	
+}
+
+.inner_left p {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 25px;
+
+}
+
+.top {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
+	margin: 25px;
+
+}
+
+.middle_img {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.middle_img img {
+	display: flex;
+	flex-basis: 100%;
+}
+
+.bottom {
+	display: flex;
+	margin: 25px;
+}
+
+.foot {
+	margin: 25px;
+}
+
+.copy {
+	text-align: center
+}
+
+.main_img {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
+	margin: 25px;
+}
+
+.services-header-img {
+	display: flex;
+	flex-basis: 97%;
+	margin: 25px;
+}
+
+.services {
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	margin: 25px;
+}
+
+.services h1 {
+	font-size: 30px;
+}
+
+.main_content {
+	border-top: 1px solid black; 
+	border-bottom: 2px solid black;
+	margin: 25px;
+	padding: 10px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+
+}
+
+
+.learn {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	margin: 25px 25px 25px 0px;
+	width: 20%;
+	border-radius: 5px;
+}
+
+.description {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	width: 600px;
+	margin: 10px;
+	padding: 20px;
+}
+
+
+.sub_footer {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	margin: 25px;
+}
+
+.sub_footer p {
+	width: 750px;
+}
+
+ul {
+	margin: 25px;
+	list-style-type: square;
+}
