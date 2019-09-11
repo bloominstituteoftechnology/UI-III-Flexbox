@@ -84,7 +84,7 @@ nav{
   }
   
   header{
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-bottom: 50px;
 	display: flex;
 	flex-flow: wrap;
@@ -154,9 +154,85 @@ nav{
 
 	margin:1%;
   }
-  footer{
+	footer{
 	margin:30px;
 	display: flex;
 	justify-content: center;
+  }
+  .services-header{
+	  display:flex;
+	  flex-flow: wrap;
+	  justify-content: flex-start;
+	  margin: 3%;
+  }
+
+  .services-header-img{
+	  width:100%;
+	  height: 50%;
+	  margin-bottom: 25px;
+  }
+  h2{
+	  font-size: 30px;
+  }
+  .serviceoptions{
+	  display:flex;
+	  flex-flow: wrap;
+	  justify-content: space-between;
+	  align-content: space-between;
+	  margin: 2%;
+
+  }
+  .serviceoptiondivs{
+	  display: flex;
+	  flex-flow: wrap;
+	  align-content: space-between;
+	  justify-content: flex-start;
+	  background-color:#E6e6e6;
+	  border: solid black;
+	  border-width: 1px;
+	  padding: 25px;
+	  margin: 1%;
+	  width: 47%;
+
+  }
+.learnmore{
+	background-color: white;
+	border: solid black;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 7px;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	margin-top: 2%;
+}
+.servicefacts{
+	display:flex;
+	justify-content: flex-start;
+	margin: 2%;
+
+
+}
+.serviceinfodivs{
+	margin: 25px;
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+	flex-flow: wrap;
+	width: 40%;
+
+}
+.services-info-img{
+	size: 100%;
+	margin-left: 16%;
+}
+
+
+  ul{
+	list-style-type: square;
+	margin-left: 20px; 
+  }
+  li{
+	margin-top: 15px;
   }
   
