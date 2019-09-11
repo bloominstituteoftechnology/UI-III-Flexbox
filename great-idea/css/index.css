@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -19,7 +19,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -63,4 +62,176 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+h1 {
+	font-size: 72px;
+}
+
+.container{
+	width: 1100px;
+	padding: 120px;
+	margin: 0 auto; 
+	/*background: lightgrey;
+	border: 12px solid black;*/
+}
+
+
+
+
+.navigation-bar {
+	list-style: none;
+	margin: 0;
+	background: deepskyblue;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.navigation-bar a{
+	color: whitesmoke;
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+}
+
+.logo {
+	margin-left: 90px;
+}
+
+header{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	position: relative;
+	bottom: 60px;
+	
+}
+
+.header-content-text{
+	text-align: center;
+	position: relative;
+	top: 70px;
+	left: 80px;
+}
+
+
+.section-1-wrap{
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+	/*border: 1px solid black;*/
+	position: relative;
+	padding: 12px;
+
+}
+
+.section-2-wrap{
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+	/*border: 1px solid black;*/
+	position: relative;
+	padding: 12px;
+
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.section-3-wrap{
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+	/*border: 1px solid black;*/
+	position: relative;
+	padding: 12px;
+
+}
+
+.section-4-wrap{
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+	/*border: 1px solid black;*/
+	position: relative;
+	padding: 12px;
+
+}
+
+
+footer{
+	display:flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+
+
+
+
+/* SERVICES CSS AFTER THIS */
+
+.container-services{
+	width: 80%;
+	padding: 80px;
+	margin: 0 auto; 
+	/*background: lightgrey;*/
+	/*border: 2px solid black;*/
+	
+}
+
+
+.p1-style{
+	font-size: 18px;
+}
+.services-header-img{
+	width: 100%;
+}
+
+.services-main-text{
+	margin-top: 32px;
+}
+
+.heading-services-title{
+	font-size: 30px;
+}
+
+article {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	position: relative;
+	bottom: 60px;
+	border: 2px solid black;
+	
+
+}
+
+.digital-wrap{
+	width: 525px;
+	height: 320px;
+	background-color: blanchedalmond;
+	border: 1.1px solid black;
+}
+
+.ux-wrap{
+	width: 525px;
+	height: 320px;
+	background-color: blanchedalmond;	
+	border: 1.1px solid black;
+}
+.digital-marketing-wrap{
+	width: 525px;
+	height: 320px;
+	background-color: blanchedalmond;
+	border: 1.1px solid black;
+}
+.webdev-wrap{
+	width: 525px;
+	height: 320px;
+	background-color: blanchedalmond;
+	border: 1.1px solid black;
+}
