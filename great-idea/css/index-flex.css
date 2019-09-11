@@ -169,6 +169,7 @@ header .container {
     color: #000;
     text-decoration:none;
     transition: 0.5s ease all;
+    border-radius: 4px;
 }
 .hero-button span.bttn:hover,
 .hero-button span.bttn:focus {
@@ -249,10 +250,81 @@ header .container {
 .services-leading .services-header {
     display: flex;
 }
-.services-header {
+.services-header-img {
     background-image: url("../img/services-header.jpg");
     width: 880px;
     height: 200px;
+    display: flex;
+}
+.services-header-info {
+    padding: 45px 0;
+}
+.services-header-info,
+.services-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.services-list {
+    padding: 45px 0 20px;
+}
+.services-list .card {
+    background-color: #efefef;
+    border: 2px solid #7f7f7f;
+    padding: 20px;
+    width: 48%;
+    margin-bottom: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.services-list .more {
+    padding: 8px 30px 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.services-list span.bttn {
+    color: #000;
+    text-decoration:none;
+    transition: 0.5s ease all;
+    border-radius: 4px;
+    z-index: 0;
+}
+.services-list span.bttn:hover,
+.services-list span.bttn:focus {
+    color: #fff;
+}
+.services-list,
+.services-facts {
+    border-top: 1px solid #000;
+}
+.services-facts {
+    padding: 45px 0 0;
+}
+.facts-info {
+    display: flex;
+}
+.facts-info p {
+    padding-right: 30px;
+    margin-bottom: 15px;
+}
+.facts-info ul {
+    padding-left: 20px;
+}
+.facts-info ul li {
+    list-style-type: square;
+}
+.facts-info-left,
+.facts-info-right {
+}
+.facts-info-right {
+    display: flex;
+}
+.facts-info-right .services-info-img {
+    background-image: url("../img/services-info.png");
+    width: 420px;
+    height: 300px;
 }
 footer {
     padding: 45px 0;
