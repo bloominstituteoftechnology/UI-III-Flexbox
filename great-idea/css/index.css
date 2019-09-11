@@ -185,11 +185,16 @@ header {
 }
 .ojt div{
 	width: 47%;
-	height: 300px;
+	height: 250px;
 	margin: 10px;
 	border: 1px solid black;
 	flex-direction: row;
 	background: gainsboro;
 
+}
+.final{
+	margin: 20px;
+	display: flex;
+	flex-direction: row-reverse;
 	
 }
