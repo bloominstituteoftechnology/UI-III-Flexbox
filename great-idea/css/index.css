@@ -64,105 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-a{
-	box-sizing: border-box;
-	margin-top: 20px;
-	color: grey;
-	margin: 20px;
+body{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 950px;  
   }
+  .nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 800px;
+	
+  }
+  a{color: grey; }
   a:hover{
 	color: red;
   }
-  .logo{
-	box-sizing: border-box;
-	margin-left: 570px;
-	margin-top:-100px;
-	width: 150px;  
-  }
-  h1{
-	box-sizing: border-box;
-	margin-top: 100px;
-	margin-left:100px;
-	text-align: right;
-	width: 50px;
+  
+  .title{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	
+   }
+  h1{ 
+	display: flex;
+	flex-direction: column;
+	width: 250px;
 	font-size: 50pt;
+	text-align: center;
+	margin: 90px 80px
   }
   h3{
-	box-sizing: border-box;
-	margin-left: 120px;
-	text-align:center;
-	height: 30px;
-	width:150px;
-	padding: 7px;
-	border: 2px solid black;
+	display: flex;
+	border: 1px solid black;
+	width: 200px;
+	height: 40px;
+	padding-top: 12px;
+	padding-left: 60px;
+	margin-top: -80px;
+	margin-left: 100px;
+	
   }
   h3:hover{
 	background-color: grey;
   }
   .code{
+	display: flex;
+	justify-content: flex-start;
 	margin-left: 500px;
-	margin-top: -270px;
-	box-sizing: border-box;
-	height:300px;
-	border-radius: 50%
-  
+	margin-top: -300px;
+	}
+  .pic{
+	height: 300px;
+  }
+  .line{
+	 display: flex;
+	border: .5px solid black;
+	margin-top: 70px;  
   }
   .info{
-	box-sizing:border-box;
-	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: row wrap;
+	
+  }
+  p{
+	display: flex;
+	text-align: left;
   }
   .features{
-	box-sizing: border-box;
-	text-align: left;
-	width: 430px;
-	height: 100px;
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   width: 430px;
+   margin-top: 30px
   }
   .about{
-	box-sizing: border-box;
-	width: 430px;
-	height: 100px;
-	margin-left: 500px;
-	margin-top: -100px;
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   width: 430px;
+   margin-left: 500px;
+   margin-top: -96px
   }
-  .middle-img{
-	box-sizing:border-box;
+  .mid{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 1000px;
+	  
+  }
+  .info2{
+	display: flex;
+	flex-direction: column;
+	}
   
-  }
   .services{
-	box-sizing: border-box;
-	width: 280px;
-   
+	
+	width: 275px;
   }
   .product{
-	box-sizing: border-box;
-	width: 280px;
-	margin-left: 350px;
-	margin-top: -120px;
+	margin-top: -124px;
+	margin-left: 300px;
+	width: 275px;
 	
   }
   .vision{
-	box-sizing: border-box;
-	width: 280px;
-	margin-left: 700px;
-	margin-top: -127px;
+	margin-top: -124px;
+	margin-left: 600px;
+	width: 275px;
   }
   
   footer{
-	box-sizing:border-box;
-	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	
   }
-  .line{
-	box-sizing:border-box;
-	border: .5px solid black;
-	margin-top: 100px;
-	width: 1000px;
+  address{
+	display:flex;
+	width: 160px;
   }
+  
   h5{
-	box-sizing:border-box;
-	margin-top: 50px;
+	display: flex;
+	margin-top: 40px;
+   
   }
   span{
-	box-sizing:border-box;
-	margin-left: 500px;
-	margin-bottom: 100px;
+	display: flex;
+	margin-left: 320px;
+	
   }
