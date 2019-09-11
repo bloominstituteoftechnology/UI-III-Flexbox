@@ -3,64 +3,326 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+p {
+  line-height: 120%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+#root {
+  width: 876px;
+  margin: 0 auto;
+}
+
+header nav {
+  margin-top: 30px;
+  vertical-align: middle;
+}
+
+header nav ol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ol li {
+  text-align: right;
+  padding: 5px 3%;
+  font-size: 90%;
+}
+
+header nav ol li:last-child {
+  padding: 0;
+}
+
+header nav ol li a {
+  color: #999;
+}
+
+header,
+footer,
+section {
+  margin-bottom: 30px;
+}
+
+section {
+  border-bottom: 1px solid #000;
+}
+
+.headline {
+  padding: 30px 0 40px 0;
+}
+
+.headline h2 {
+  font-size: 26px;
+}
+
+.headline .box {
+  display: inline-block;
+  width: 49.5%;
+  vertical-align: middle;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.headline .slogan {
+  font-size: 470%;
+  text-align: center;
+}
+
+.headline .get-started {
+  display: inline-block;
+  padding: 8px 40px;
+  border: 1px solid #444;
+  font-size: 110%;
+  color: #000;
+}
+
+.content {
+  margin: 0 0 30px 0;
+  padding: 10px 0;
+}
+
+.content .box {
+  display: inline-block;
+  width: 49%;
+}
+
+.vision-image {
+  margin: 0 0 30px 0;
+}
+
+.company-info {
+  margin: 0 0 30px 0;
+  padding: 10px 0;
+}
+
+.company-info .box {
+  display: inline-block;
+  width: 33%;
+}
+
+footer {
+  padding: 10px 0;
+}
+
+footer p {
+  padding: 10px 0;
+}
+
+footer .copyright {
+  text-align: center;
+  padding: 20px 0 0 0;
+  font-size: 90%;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+  margin: 0 0 40px 0;
+}
+
+.services .box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 1px solid #000;
+  background: #f6f6f7;
+  width: 48%;
+  padding: 20px;
+  margin-bottom: 4%;
+}
+
+.services .box .learn-more {
+  background: #fff;
+  border-radius: 5px;
+  font-size: 75%;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 1px solid #000;
+  margin: 15px 0 0;
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.facts .box-no-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 48%;
+  margin-bottom: 4%;
+}
+
+.facts .box-no-bg .facts-list {
+  list-style-type: square;
+  list-style-position: inside;
+  margin: 20px 0 0 0;
+}
+
+.facts .box-no-bg .facts-list li {
+  line-height: 2;
+}
