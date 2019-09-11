@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* This is the start of MOST of my CSS styling for index.html */
+
+.container {
+	margin: auto;
+	margin-bottom: 50px;
+	width: 876px;
+}
+
+.container header {
+	margin-top: 10%;
+	display: flex;
+}
+
+.container_nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: #b9b9b9;
+}
+
+.main_title {
+	display: flex;
+	justify-content: space-around;
+	margin: 10% 0 8%;
+}
+
+.main_title h1 {
+	font-size: 80px;
+	text-align: center;
+	/* margin: 4% 0; */
+	width: 50%;
+}
+
+.main_title a {
+	text-decoration: none;
+	vertical-align: middle;
+	border: black solid 1px;
+	font-family: sans-serif;
+	font-size: medium;
+	color: black;
+	padding: 10px 40px;
+}
+
+.main_title p {
+	margin-top: 15%;
+	animation-name: header;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+
+@keyframes header {
+	0% {color: black;}
+	25% {color: blue;}
+	50% {color: green;}
+	75% {color: purple;}
+	100% {color: black;}
+}
+
+.main_image {
+	width: 50%;
+}
+
+/* hr {
+	margin: 8% 0;
+} */
+
+.section {
+	display: flex;
+	margin-bottom: 5%;
+}
+
+.section p {
+	line-height: 115%;
+}
+
+.second_section {
+	display: flex;
+	margin-top: 5%;
+}
+
+.middle_article {
+	margin: 0 2%;
+}
+
+.address p {
+	margin: 15px 0;
+}
+
+section h2 {
+	margin-top: 50px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+/* This is the start of MOST of my CSS styling for my services.html page */
+
+.services-header-img {
+	margin: 10% 0;
+}
+
