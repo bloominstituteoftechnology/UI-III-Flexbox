@@ -1,10 +1,10 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -12,19 +12,34 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+padding: 0;
+
+vertical-align: baseline;
+
+border: 0;
+
+font: inherit;
+
+font-size: 100%;
+	}
+
+h2  {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+    font: inherit;
+    font-size: 160%;
+  }
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -40,27 +55,127 @@ blockquote, q {
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
-	content: none;
-}
+
+content: none;
+	}
 table {
+border-spacing: 0;
+
 	border-collapse: collapse;
-	border-spacing: 0;
-}
+	}
 
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+
 }
 
-html, body {
+html, body, button {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
+
+font-family: 'Titillium Web', sans-serif;
+    }
 
 h1, h2, h3, h4, h5 {
+margin-bottom: 15px;
+
+letter-spacing: 1px;
+
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
+    }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	margin: auto 0;
+  margin-right: 450px;
+  margin-left: 450px;
+
+}
+.header {
+/*   display: flex; */
+ margin: 20px;
+}
+
+.navBar {
+/*   border: 4px solid lightgreen; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+a {
+  text-decoration: none;
+  color: #C2BCBC;
+  padding-left: 0px;
+  padding-right: 30px;
+
+
+}
+
+.greatIdeaLogo {
+  padding-left: 70px;
+  padding-right: 0px;
+}
+
+.headerContainer  {
+/*   border: 2px solid purple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.topOfDeskHeader {
+ margin-left: 50px;
+ margin-right: 0px;
+
+}
+
+.servicesText {
+  margin: 10px;
+
+}
+
+.bodyFlexWrap {
+/*   border: 3px solid yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  border: 1px solid black;
+  width: 475px;
+  height: 300px;
+  padding: 20px;
+  margin: 10px;
+
+}
+
+button {
+    color: black;
+    background-color: white;
+    padding: 2%;
+    border: 1px solid black;
+    height: 45px;
+    width: 160px;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  padding-bottom: 80px;
+}
+
+ul {
+  padding-left: 60px;
+}
+
+footer {
+  text-align: center;
+}
