@@ -181,20 +181,6 @@ footer {
 	background: lightgray;
 }
 
-/* .content_5_box {
-	border: 1px solid black;
-	margin: 1%;
-	padding: 2%;
-	background: lightgray;
-}
-
-.content_6_box {
-	border: 1px solid black;
-	margin: 1%;
-	padding: 2%;
-	background: lightgray;
-} */
-
 button {
 	margin-top: 20px;
 }
@@ -209,6 +195,7 @@ button {
 
 .services-info-img {
 	margin-right: 10px;
+	width: 4px;
 }
 
 .content_7 {
