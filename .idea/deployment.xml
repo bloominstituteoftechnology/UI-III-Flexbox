@@ -2,7 +2,7 @@
 <project version="4">
   <component name="PublishConfigData" serverName="server.psc-site.com">
     <serverData>
-      <paths name="psc">
+      <paths name="ant">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
