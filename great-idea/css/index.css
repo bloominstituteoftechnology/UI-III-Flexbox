@@ -63,4 +63,96 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container .nav-bar {
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	background-color: #a3bbc7;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+header nav a:hover {
+	-webkit-transform: rotateZ(-180deg);
+  -ms-transform: rotateZ(-180deg);
+	transform: rotateZ(-180deg);
+}
+
+.top-section {
+	margin: 125px;
+	font-size: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*CAN'T FIGURE OUT HOW TO GET THE BUTTON CENTERED UNDER THE WORDS*/
+
+.get-started .top-button {
+	height: 50px;
+	width: 150px;
+	border: 1px solid black;
+	background: lightgray;
+	font-size: 15px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border-top: 1px solid black;
+	margin: 100px;
+}
+
+.top-left-paragraph .top-right-paragraph{
+	display: flex;
+	flex-direction: column;
+}
+
+.top-row-paragraphs {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 80px;
+}
+
+div img.middle-img {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin: 110px;
+}
+
+.bottom-paragraphs {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 80px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border-top: 1px solid black;
+	margin: 100px;
+	margin-left: 80px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	margin: 80px;
+}
+
+/*I DON'T KNOW HOW TO GET THE COPYRIGHT IN THE MIDDLE OF THE SCREEN*/
+.info .copyright {
+	display: flex;
+	align-content: center;
+}
+
