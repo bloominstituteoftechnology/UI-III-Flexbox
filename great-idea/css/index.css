@@ -64,3 +64,201 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+    width: 880px;
+    margin: auto;
+}
+
+.nav_bar {
+	/* border: 2px solid red; */
+    margin: 1%;
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav_bar a {
+	font-size: 14px;
+	color: gray;
+	display: inline-block;
+	width: 111px;
+	height: 41px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 12px;
+	text-decoration: none;
+	/* border: 1px solid gray; */
+}
+
+.content_1 {
+    /* border: 2px solid red; */
+    margin: 1%;
+	width: 100%;
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.content_1_box {
+	/* border: 2px solid blue; */
+	/* display: inline-block; */
+	margin: 1%;
+	width: 47%;
+	
+}
+
+.innovation {
+	text-align: center;
+	font-size: 72px;
+	padding-top: 17%;
+}
+
+.content_1 a {
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+	margin-left: 37.5%;
+	margin-right: 37.5%;
+	padding-top: 12px;
+	margin-bottom: 12px;
+}
+
+.content_2 {
+    /* border: 2px solid red; */
+    margin: 1%;
+	width: 100%;
+	margin-bottom: 5%;
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.content_2_box {
+	/* border: 2px solid blue; */
+	/* display: inline-block; */
+	margin: 1%;
+	width: 47%;
+	margin-top: 5%;
+}
+
+.middle-img {
+	margin: 1%;
+	justify-content: space-evenly;
+}
+
+.content_3 {
+    /* border: 2px solid red; */
+    margin: 1%;
+	width: 100%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.content_3_box {
+	/* border: 2px solid blue; */
+	/* display: inline-block; */
+	margin: 1%;
+	margin-bottom: 5%;
+	width: 31%;
+}
+
+.contact {
+	/* border: 2px solid red; */
+    margin: 1%;
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.contact div{
+	padding-top: 16px;
+}
+
+footer{
+	/* border: 2px solid red; */
+    margin: 1%;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 15%;
+}
+
+.services_nav_bar {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.services_nav_bar a {
+	font-size: 14px;
+	color: gray;
+	padding-top: 12px;
+	text-decoration: none;
+	/* border: 1px solid gray; */
+} 
+
+.services {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	border-bottom: 1px solid black;
+}
+
+.services h1 {
+	font-size: 24px;
+}
+
+.tracks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 3%;
+}
+
+.tracks div {
+	border: 1px solid black;
+	width: 48%;
+	height:33%;
+	background: rgb(240, 237, 237);
+	padding:3%;
+	margin-bottom: 2%;
+}
+
+button {
+	border-radius: 8px;
+	width: 40%;
+	padding: 10px;
+	margin-top: 7%;
+	background-color: white;
+}
+
+.facts {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 12%;
+	padding-top: 5%;
+	border-top: 1px solid black;
+}
+
+.facts div {
+	width: 48%;
+	padding-right: 3%;
+}
+
+ul {
+	margin-top: 30px;
+	list-style-position: inside
+}
+
+ul li:before {
+	content: "•";
+	font-size: 100%;
+	padding-right: 20px;
+ }
