@@ -148,3 +148,31 @@ hr {
 	margin-top: 3%;
 }
 
+.box1 {
+	border: 1px solid black;
+}
+
+.box2 {
+	border: 1px solid black;
+}
+
+.box3 {
+	border: 1px solid black;
+}
+
+.box4 {
+	border: 1px solid black;
+}
+
+.box5 {
+	border: 1px solid black;
+}
+
+.box6 {
+	border: 1px solid black;
+}
+
+#bullet {
+	list-style-type: square;
+	list-style-position: outside;
+}
