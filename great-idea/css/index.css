@@ -65,6 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+.content {
+	max-width: 75%;
+	margin: auto;
+  }
+
 .nav_bar {
 	/* border: 1px solid black; */
 	display: flex;
@@ -79,6 +84,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav_bar nav a:link {
+	color: gray;
+	text-decoration: none;
+}
+
+.nav_bar nav a:visited {
 	color: gray;
 	text-decoration: none;
 }
@@ -152,4 +162,78 @@ h1, h2, h3, h4, h5 {
 
 .copy {
 	text-align: center
+}
+
+.main_img {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
+	margin: 25px;
+}
+
+.services-header-img {
+	display: flex;
+	flex-basis: 97%;
+	margin: 25px;
+}
+
+.services {
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	margin: 25px;
+}
+
+.services h1 {
+	font-size: 30px;
+}
+
+.main_content {
+	border-top: 1px solid black; 
+	border-bottom: 2px solid black;
+	margin: 25px;
+	padding: 10px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+
+}
+
+
+.learn {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	margin: 25px 25px 25px 0px;
+	width: 20%;
+	border-radius: 5px;
+}
+
+.description {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	width: 600px;
+	margin: 10px;
+	padding: 20px;
+}
+
+
+.sub_footer {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	margin: 25px;
+}
+
+.sub_footer p {
+	width: 750px;
+}
+
+ul {
+	margin: 25px;
+	list-style-type: square;
 }
