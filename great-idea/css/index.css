@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -49,18 +136,221 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.wrapper {
+	width: 50%;
+	margin: auto;
+}
+
+/* navigation bar and logo */
+.nav-bar {
+	/* margin: 1%; user interface 2 */
+	/* padding:1%; user interface 2 */
+	/* padding-bottom: 5%; user interface 2 */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4% 2%;
+	/* border: 2px solid red; used for debugging */
+}
+
+.nav-bar a {
+	color: lightgray;
+	text-decoration: none;
+}
+
+.links {
+	/* margin-left: 7%; user interface 2 */
+}
+
+.logo {
+	/* margin-left: 9.6%;  user interface 2 */
+}
+
+/* hover effect for navigation links */
+a:hover {
+	font-weight: bolder;
+	color: white;
+	background-color: dodgerblue;
+	font-size: 110%;
+}
+
+/* end of navigation bar and logo */
+
+
+/* header, button and image */
+.header-content h1 {
+	font-size: 70px;
+}
+
+.header-content {
+	/* border: 2px solid black; used for debugging */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5%;
+	text-align: center;
+	/* vertical-align: middle; user interface 2 */
+	/* width: 48%; user interface 2 */
+	/* text-align: center; user interface 2 */
+}
+
+.header-content img {
+	/* vertical-align: top;
+	padding-bottom: 10%;  user interface 2*/
+}
+
+.header-content button {
+	border: 1px solid black;
+	background-color: white;
+	/* width: 20%; */
+	/* padding: 1.5%; */
+	display: flex;
+	margin: 5% auto;
+	width: 50%;
+	padding: 3%;
+}
+
+.header-content button:hover {
+	color: white;
+	background-color: dodgerblue;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+header {
+	padding: 2% 0;
+}
+
+hr {
+	/* border: .5px solid black; used for debugging */
+}
+
+/* end of header, button and image */
+
+/* site content */
+.content-row1 {
+	padding-top: 5%;
+	display: flex;
+	/* border: 3px solid red; used for debugging */
+	padding: 0 2%;
+
+
+}
+
+.item {}
+
+.site-content_row1 {
+	/* display: inline-block; user interface 2 */
+	/* width: 49%; user interface 2 */
+	/* border: 2px solid green; used for debugging */
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.middle-img {
+	padding-top: 2%;
+	height: 300px;
+	width: 98%;
+}
+
+.section-content-row3 {
+	display: flex;
+
+	padding-top: 2%;
+	/* width: 33%; */
+	/* padding-bottom: 5%; */
+}
+
+.section-contact {
+	padding-top: 2%;
+}
+
+footer {
+	padding-top: 2%;
+	text-align: center;
+}
+
+/* Services page css */
+
+.wrapper hr {
+	margin: 0 2%;
+}
+
+.services-header {
+	margin: 0 2%;
+}
+
+.services-header h2 {
+	font-size: 125%;
+	margin-top: 3%;
+}
+
+.services-content {
+	display: flex;
+	padding-bottom: 2%;
+}
+
+.item {
+	padding: 2%;
+	margin: 2%;
+}
+
+.item button {
+	background-color: white;
+	margin: 3% 0;
+	padding: 1.5%;
+	width: 30%;
+	cursor: pointer;
+}
+
+.item button:hover {
+	background-color:black ;
+	color:white ;
+}
+
+.border {
+	border: 1px solid lightgray;
+}
+
+#bold-border {
+	border-top: 3px solid black;
+}
+
+.services-about {
+	
+	/* padding: 5% 0; */
+	display: flex;
+	margin: -2%;
+}
+
+.services-about ul {
+	list-style-type: square;
+	margin: 5%;
+}
+
+.services-about ul li {
+	padding-bottom: 2%;
+}
+
+
