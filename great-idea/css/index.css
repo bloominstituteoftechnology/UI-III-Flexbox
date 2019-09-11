@@ -157,16 +157,26 @@ hr {
 	padding: 10px;
 }
 
+.box2 {
+	margin: 10px 10px;
+	border: 1px solid black;
+	width: 380px;
+	height: 200px;
+	padding: 10px;
+}
+
 #bullet {
 	list-style-type: square;
 	list-style-position: inside;
+	line-height: 2;
+	
 }
 .container5 {
 	width: 800px;
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between
+	justify-content: space-between;
 	
 }
 
@@ -176,3 +186,21 @@ button {
 	border-radius: 5px;
 	margin-top: 10px;
 }
+
+.container6 {
+	width: 800px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.box3 {
+	margin: 10px 10px;
+	padding: 20px;
+	width: 46%;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
