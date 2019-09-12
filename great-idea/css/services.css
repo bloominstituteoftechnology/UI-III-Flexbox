@@ -1,100 +1,245 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 0%;
-	font: inherit;
-	vertical-align: baseline;
-	text-align: center;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-.everything{
-	display: flex;
-  flex-direction: row;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
 }
 
-.header{
-	margin-left: 8px;
-	vertical-align: text-bottom;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.logo{
-	padding: 5%;
-	margin-left: 8px;
-	vertical-align: text-bottom;
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.5em;
+}
+p{
+	text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 nav {
-	top: 0;
-	width: 100%;
-	height: 5em;
-	background-color: white;
-	padding: 1em 0 0 8em;
-	box-sizing: border-box;
-	position: fixed;
-	margin-bottom: 2em;
-	z-index: 5;
+  top: 0;
+  width: 100%;
+  height: 5em;
+  background-color: white;
+  padding: 1em 0 0 8em;
+  box-sizing: border-box;
+  position: fixed;
+  margin-bottom: 2em;
 }
 
-nav a{
-	margin: 0 3em;
+.logo {
+  vertical-align: text-bottom;
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 3em;
   text-decoration: none;
   color: black;
   letter-spacing: 1px;
-  font: inherit;
 }
 
-nav a:hover{
-	color: #3a0d81;
+nav a:hover {
+  text-decoration: underline;
+  color:green;
+ 
 }
 
-.intro-sec{
-    flex: 0%;
-	flex-wrap: wrap;
+.services-header-img {
+  width: 100%;
+  height: auto;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+#intro-sec {
+  margin: 2em 0;
+  text-align: center;
 }
 
-.box1 .h1{
-	
+.page-title {
+  font-size: 3em;
 }
 
-.box2 .h1{
-
+.main {
+  margin: 0 15em;
 }
 
-.box3 .h1{
-	
+.button {
+  border: 2px solid black;
+  padding: 0.3em 3em;
+  color: black;
+  margin: 0.8em;
 }
 
-.box4 .h1{
-	
+.button:hover {
+  border: 2px solid;
+  color: white;
+  background-color: #000fe4;
 }
 
-.box5 .h1{
-	
+.box {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  margin: 1em 1.5em;
+  padding: 1em;
+  max-width: 40%;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border: 0.5px solid rgba(0, 0, 0, 1);
+  background: rgb(223, 222, 222);
 }
 
-.box6 .h1{
-
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
 }
 
-.box7 .h1{
+.second-sec {
+  margin: 2em 0;
+  display: flex;
+}
 
+.inner-content {
+  padding: 0 2em;
+}
+
+.inner-content h1 {
+  text-align: center;
+}
+
+.second-sec img {
+  border-radius: 2em;
+}
+
+ul li {
+  padding: 1em;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  margin: 5em;
 }
