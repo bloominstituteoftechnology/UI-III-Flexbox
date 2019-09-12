@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	/* list-style: none; */
 }
 blockquote, q {
 	quotes: none;
@@ -173,7 +173,48 @@ section h2 {
 
 /* This is the start of MOST of my CSS styling for my services.html page */
 
+.line_break {
+	margin: 5% 0;
+}
 .services-header-img {
-	margin: 10% 0;
+	margin: 2% 0;
+	width: inherit;
+}
+
+.content li {
+	border: solid;
+	border-width: 1px;
+	padding: 2%;
+	width: 47%;
+	height: 250px;
+	margin: 3% 0;
+	line-height: 1.25;
+	background-color: rgb(235,235,235);
+}
+
+.content_list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+	flex-flow: row wrap;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+}
+
+button {
+	width: 38%;
+	padding: 2.5%;
+	background-color: rgb(255,255,251);
+	border-radius: 10px;
+	border-color: rgb(0,0,0);
+	font-size: 12px;
+	margin: inherit;
+}
+
+.content_list p {
+	font-size: 16.25px;
 }
 
