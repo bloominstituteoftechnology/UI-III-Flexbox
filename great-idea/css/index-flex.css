@@ -353,3 +353,7 @@ footer .copyright {
 .contact-header-slogan h1 {
     font-size: 30px;
 }
+.contact-form form {
+    display: flex;
+    flex-flow: column wrap;
+}
