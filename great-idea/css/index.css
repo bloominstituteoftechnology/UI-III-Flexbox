@@ -118,6 +118,13 @@ nav {
 	padding-top: 17%;
 }
 
+.content_1 button {
+	width: 35%;
+	padding: 10px;
+	margin-left: 32%;
+	background-color: white;
+}
+
 .content_1 a {
 	color: black;
 	border: 1px solid black;
@@ -231,7 +238,7 @@ footer{
 	margin-bottom: 2%;
 }
 
-button {
+.tracks button {
 	border-radius: 8px;
 	width: 40%;
 	padding: 10px;
