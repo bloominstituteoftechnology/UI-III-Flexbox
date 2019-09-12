@@ -126,10 +126,6 @@ nav a {
 	padding: 2%;
 }
 
-hr {
-	width: 100;
-}
-
 .self-container {
 	margin-top: 2%;
 	display: flex;
@@ -144,17 +140,19 @@ hr {
 }
 
 .title2 {
+	border: 1px solid black;
 	font-size: 30px;
-	margin-top: 3%;
+	margin: 1%;
+	
 }
 
 .box1 {
-	margin: 10px 10px;
+	margin: 5px;
 	border: 1px solid black;
 	background: lightgray;
-	width: 380px;
-	height: 200px;
-	padding: 10px;
+	width: 370px;
+	height: 220px;
+	padding: 20px;
 }
 
 .box2 {
@@ -172,11 +170,13 @@ hr {
 	
 }
 .container5 {
-	width: 800px;
+	width: 780px;
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	
 }
 
@@ -188,7 +188,7 @@ button {
 }
 
 .container6 {
-	width: 800px;
+	width: 775px;
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -202,5 +202,9 @@ button {
 	display: flex;
 	justify-content: space-evenly;
 
+}
+
+hr {
+	width: 775px;
 }
 
