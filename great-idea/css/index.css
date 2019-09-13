@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .content {
-	max-width: 75%;
+	max-width: 65%;
 	margin: auto;
   }
 
@@ -165,23 +165,22 @@ h1, h2, h3, h4, h5 {
 }
 
 .main_img {
-	/* border: 1px solid black; */
+	/* border: 1px solid black;  */
 	display: flex;
 	justify-content: center;
-	margin: 25px;
 }
 
 .services-header-img {
+	/* border: 2px solid black; */
 	display: flex;
-	flex-basis: 97%;
-	margin: 25px;
+	flex-basis: 100%;
 }
 
 .services {
 	/* border: 1px solid black; */
 	display: flex;
 	flex-direction: column;
-	margin: 25px;
+	margin: 40px 0px;
 }
 
 .services h1 {
@@ -189,14 +188,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .main_content {
-	border-top: 1px solid black; 
-	border-bottom: 2px solid black;
-	margin: 25px;
-	padding: 10px;
-	display: flex;
-	flex-flow: wrap;
-	justify-content: space-between;
-
+    margin: 40px 0px;
+  	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: space-between;
 }
 
 
@@ -217,16 +212,21 @@ h1, h2, h3, h4, h5 {
 	align-content: center;
 	flex-direction: column;
 	width: 600px;
-	margin: 10px;
+	/* margin: 10px; */
 	padding: 20px;
 }
+
+.bottom_line {
+	height: 4px;
+	background-color: black;
+  }
 
 
 .sub_footer {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-between;
-	margin: 25px;
+	margin: 3~px;
 }
 
 .sub_footer p {
