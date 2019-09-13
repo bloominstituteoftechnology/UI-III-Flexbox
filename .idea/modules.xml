@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Antmoreart/.idea/Antmoreart.iml" filepath="$PROJECT_DIR$/../Antmoreart/.idea/Antmoreart.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Git-for-Web-Development-Project/.idea/Git-for-Web-Development-Project.iml" filepath="$PROJECT_DIR$/../Git-for-Web-Development-Project/.idea/Git-for-Web-Development-Project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/UI-III-Flexbox.iml" filepath="$PROJECT_DIR$/.idea/UI-III-Flexbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/../User-Interface/.idea/User-Interface.iml" filepath="$PROJECT_DIR$/../User-Interface/.idea/User-Interface.iml" />
