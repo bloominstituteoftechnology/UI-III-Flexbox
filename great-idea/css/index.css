@@ -51,6 +51,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -64,43 +65,48 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-.container {
-  width: 880px;
-  margin: auto;
+/* .container { */
+  /* width: 880px; */
+  /* margin: auto; */
 
   /* TB LR */
-  margin: 0 auto;
-  border: 1px solid tomato;
-}
+  /* margin: 0 auto; */
+  /* border: 1px solid tomato; */
+/* } */
 
 /* header */
 
 
 
-.topSpace{
-  border-spacing: 10px;
+/* .topSpace{ */
+  /* margin-top: 10px; */
   
 }
 
 header nav {
   /* display: inline-block; */
   display: flex; 
-  justify-content:space-between;
-  width: 610px;
-  vertical-align: top;
-  margin-top: 35px;
-  border: 5px solid darkorange;
+  justify-content:space-around;
+  width: 75%;
 }
 
 header nav a {
 
   margin-right: 65px;
   font-size: px;
-  color: gray;
+  color: black;
   text-decoration: none;
+  border-radius: 10px 20px;
   padding: 20px 20px;
+  background: steelblue
+
   
   
+}
+
+.logo {
+  margin: 1% 95%;
+  margin-top: -5%
 }
 
 header nav a:hover {
@@ -126,14 +132,14 @@ header {
 }
 
 
-header .logo {
+/* header .logo {
    
   
   border: 1px solid darkgreen;
   
   
    
-}
+} */
 
 /* cta */
 
@@ -172,11 +178,11 @@ header .logo {
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
-  padding-top: 39px;
+  
 }
 
 .main-content .top-content {
-  padding: 0 10px;
+  padding: ;
   border: 1px solid red;
   display: flex;
 
@@ -291,8 +297,8 @@ p {
 	font-size:20px;
 }
 .services-info-img {
-	
-	justify-content: flex-end;
+  width: 98%;
+  margin: 1%;
 }
 
 .list ul {
@@ -302,5 +308,9 @@ p {
   line-height: 40px;
 }
 
+.services-header-img{
+  width: 98%;
+  margin:1%;
+}
 
 
