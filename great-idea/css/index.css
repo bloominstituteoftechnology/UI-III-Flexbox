@@ -194,35 +194,29 @@ body{
 .main-container{
 	background: white;
 	margin-top: 25px;
-	padding: 17px;
-	}
+}
 
 img.logo {
 	position: relative;
-	top: 9px;
-	left: 56px;
+	left: 30px;
 }
 
-.nav{
+nav{
 	display: flex;
 	justify-content: space-between;
+	margin-top: 29px;
 	
 }
 
 nav a{
-	font-size: 16px;
-	color: black;
-	text-decoration: none;
-	display:inline-block;
-	width: 115px;
-	vertical-align: middle;
-	padding-bottom: 4px;
-	font-family: 'Karla', sans-serif;
-	font-weight: bold;
-	border-bottom: 2px solid lightgrey;
-	
-	
-	
+    color: black;
+    text-decoration: none;
+    width: 115px;
+    padding-bottom: 4px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid lightgrey;
+    align-content: center;	
 }
 
 nav a:hover{
