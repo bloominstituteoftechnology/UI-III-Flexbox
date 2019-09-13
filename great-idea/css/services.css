@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Titillium Web", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Bangers", cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* Your code starts here! */
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+/*--------Navigation Bar----------*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgray;
+    margin: 45px 60px 30px 60px;
+}
+
+nav a:hover {
+    font-size: 20px;
+}
+
+.top_header_image img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+/*--------Services Header------*/
+
+.top_header_content h1 {
+    font-size: 25px;
+}
+
+/*Horizontal rule styling*/
+
+hr {
+    border: 1px black solid;
+    margin: 50px 0px;
+}
+
+/*Main Content Service Boxes*/
+
+.main_section_container {
+    width: 85%;
+    margin: auto;
+}
+
+.row {
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service_box {
+    margin: 25px;
+    border: solid black 1px;
+    height: 225px;
+    width: 500px;
+    padding: 20px 35px;
+    background-color: #F4F5F4;
+}
+
+.service_box button {
+    background-color: white;
+    border-radius: 5px;
+    width: 125px;
+    height: 25px;
+    margin-top: 25px;
+    border: black solid 1px;
+}
+
+.service_box button:hover {
+    background-color: #aba9a8;
+    color: white;
+    height: 30px;
+    width: 130px;
+}
+
+.service_box h1 {
+    font-size: 14px;
+}
+
+/*Fact about services---footer*/
+
+.bottom_section_container {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.facts_content {
+    width: 350px;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
