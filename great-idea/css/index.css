@@ -164,16 +164,16 @@ footer {
 
 .boxes {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	
 }
 
 .box {
-	width: 400px;
+	width: 420px;
 	border: 1px solid;
 	background-color: lightgray;
-	margin: 20px;
+	margin: 20px 0px 20px 0px;
 	padding: 20px;
 }
 
