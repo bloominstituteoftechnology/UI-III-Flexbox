@@ -3,19 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,44 +11,139 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*navigation and logo*/
+
+body {
+	width: 80%;
+	margin: auto;
+}
+
+/*Navigation Bar*/
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgray;
+	margin: 50px 60px;
+}
+
+/*Main Header Section*/
+
+.main_header_container {
+	display: flex;
+}
+
+.header {
+	width: 50%;
+	text-align: center;
+}
+
+.header h1 {
+	margin-top: 50px;
+	font-size: 75px;
+	text-align: center;
+}
+
+.header button {
+	margin-top: 15px;
+	border-top: solid black 1px;
+	border-bottom: solid gray.2px;
+	background-color: white;
+	width: 150px;
+	height: 30px;
+}
+
+hr {
+	margin: 75px 0px;
+}
+
+/*First part of content*/
+
+.container {
+	display: flex;
+}
+
+.image_across img {
+	height: 200px;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.content1.right {
+	margin-left: 85px;
+	text-align: left;
+}
+
+/*Second Part Content*/
+
+.container2 {
+	display: flex;
+}
+
+.content2 {
+	width: 33%;
+	margin: px 0px 45px 0px;
+	padding: 0px 15px;
+}
+
+.contact {
+	margin-bottom: 50px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 75px;
+}
