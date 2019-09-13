@@ -1,0 +1,345 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    padding: 7%;
+}
+header{
+    display: flex;
+}
+.head{
+    display:flex;
+    width: 75%; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+    align-items: center;   
+}
+.head a{
+    color: grey;
+}
+.logo{
+    justify-content: left;
+       
+}
+.line{
+    border: 1px solid black;
+    width: 100%;
+}
+.title{
+    display:flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 20pt;
+    margin-top: 2%;
+}
+.title p{
+    margin-bottom: 2%;
+}
+.learn{
+    display: flex;
+    width: 100%;
+}
+#dig{
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    margin-top:4%;
+    border: 1px solid black;
+    width: 50%;    
+    margin-bottom: 4%;   
+}
+#ux{
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    margin-left:5%;
+    margin-top:4%;
+    margin-bottom: 4%;
+    border: 1px solid black;
+    width: 50%;
+}
+.more{
+    display: flex;
+    width: 100%;
+}
+#mark{
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+    margin-bottom: 4%;
+}
+#web{
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    margin-left:5%;    
+    margin-bottom: 4%;
+    border: 1px solid black;
+    width: 50%;
+}
+.things{
+    display: flex;
+    width: 100%;
+}
+#ios{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 50%;
+    margin-bottom: 4%;
+}
+#and{
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    margin-left:5%;    
+    margin-bottom: 4%;
+    border: 1px solid black;
+    width: 50%;
+}
+#dig  p{
+    width: 90%;
+    margin-bottom: 2%;
+    padding-left: 8%;
+    
+}
+#dig a{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 35%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    padding: 2% 8%;
+}
+#dig h3{
+    width: 370px;
+    margin-top: 5%;
+    padding-left: 8%;
+}
+#ux  p{
+    width: 90%;
+    margin-bottom: 2%;
+    padding-left: 8%;
+    
+}
+#ux a{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 35%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    padding: 2% 8%;
+}
+#ux h3{
+    width: 370px;
+    margin-top: 5%;
+    padding-left: 8%;
+}
+#mark  p{
+    width: 90%;
+    margin-bottom: 2%;
+    padding-left: 8%
+    
+}
+#mark a{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 35%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    padding: 2% 8%;
+}
+#mark h3{
+    width: 370px;
+    margin-top: 5%;
+    padding-left: 8%;
+}
+#web  p{
+    width: 90%;
+    margin-bottom: 2%;
+    padding-left: 8%
+    
+}
+#web a{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 35%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    padding: 2% 8%;
+}
+#web h3{
+    width: 370px;
+    margin-top: 5%;
+    padding-left: 8%;
+}
+#ios  p{
+    width: 90%;
+    margin-bottom: 2%;
+    padding-left: 8%
+    
+}
+#ios a{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 35%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    padding: 2% 8%;
+}
+#ios h3{
+    width: 370px;
+    margin-top: 5%;
+    padding-left: 8%;
+}
+#and  p{
+    width: 90%;
+    margin-bottom: 2%;
+    padding-left: 8%
+    
+}
+#and a{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 35%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    padding: 2% 8%;
+}
+#and h3{
+    width: 370px;
+    margin-top: 5%;
+    padding-left: 8%;
+}
+footer{
+    display:flex;
+    width: 100%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.info p{
+    width: 36%;
+    font-size: 12pt;
+}
+.end{
+    display: flex;
+    margin: 2%;
+    
+    flex-direction: column;
+    list-style-type: square;
+}
+h5{
+    margin-top: 4%;
+}
+h6{
+    display: flex;
+    margin-top: 8%;
+    width: 25%;
+    margin-left: 42%;
+    
+
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+    margin-left: 10%;
+}
+.services-info-img{
+   margin-top: -25%;
+   margin-left: 52%;
+   width: 48%;
+ 
+}
+.c{
+    display:flex;
+}
+
+
