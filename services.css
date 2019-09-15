@@ -1,0 +1,204 @@
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+.logo {
+  top: 15px;
+  padding: 15px;
+}
+
+header {
+  /*border: 5px solid red;*/
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  font-size: 17px;
+  width: 700px;
+  margin: 30px 10px 20px 10px;
+}
+
+.top {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+header .logo {
+  /*border: 1px solid blue;*/
+  position: relative;
+  bottom: 10px;
+  margin-left: 20px; 
+}
+
+.services-header-img {
+  /*border: 1px solid red;*/
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+h1 {
+  font-family: Bangers;
+  font-size: 25px;
+}
+h2 {
+  font-family: Bangers;
+}
+
+.top-part {
+  padding: 40px;
+  border-bottom: solid black;
+}
+
+.middle-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2%;
+  border-bottom: 1px solid black;
+}
+
+.box1 {
+  width: 47%;
+  border: 1px solid black;
+  padding: 25px;
+  margin-bottom: 3%;
+  background-color: whitesmoke;
+}
+
+.h2class {
+  align-text: center;
+}
+
+button {
+  color: black;
+  width: 130px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 3px;
+  margin:4%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.services-info-img {
+  position: relative;
+  border: 1px solid black;
+}
+
+.facts {
+  
+  padding: 20px;
+  width: 48%;
+  margin: 1%;
+}
+
+.facts h2 {
+  margin-top: 10px;
+}
+ul {
+  padding-left: 20px;
+}
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+  border-bottom: 1px solid black;
+}
+
+.copyright {
+  text-align: center;
+}
