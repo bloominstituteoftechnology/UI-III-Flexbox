@@ -66,8 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .navbar {
-	margin-left: 12.5%;
+	margin-left: 14.5%;
 }
+
 .navbar a.nav {
 	position: relative;
 	text-align: center; 
@@ -84,8 +85,8 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 	height: 40px;
 	width: 150px;
-	margin-left: 47px;
-	top: 12px; 
+	margin-left: 8%;
+	top: 6.5% 
 }
 
 .content {
@@ -93,15 +94,15 @@ h1, h2, h3, h4, h5 {
     height: 60%;
     width: 100%;
 	margin-left: 20%;
-	margin-bottom: 1%;
+    margin-bottom: 1%;
  }
 
  /* H1 Tag*/
 .content h1 {
     position: absolute;
     display: inline-block;
-    font-size: 50px;
-    margin-top: 10%;
+    font-size: 60px;
+    margin-top: 10.5%;
     margin-bottom: 1px;
     margin-left: 1%;
 	text-align: center;
@@ -123,10 +124,10 @@ h1, h2, h3, h4, h5 {
 .header-img {
     display: inline-block;
     position: relative;
-    height: 300px;
-    margin-left: 36.1%;
+    margin-left: 30%;
     margin-bottom: 0;
-    margin-top: 6%;
+    margin-top: 4.5%;
+
 }
 
 /* Border Alignment */
