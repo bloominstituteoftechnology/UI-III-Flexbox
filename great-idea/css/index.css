@@ -63,4 +63,144 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.navbar {
+	margin-left: 12.5%;
+}
+.navbar a.nav {
+	position: relative;
+	text-align: center; 
+	font-size: 18px;
+	margin-left: 4%;
+	top: 20px; 
+	color:grey; 
+	text-decoration: none;
+	display: inline-block;
+	padding: 2px; 
+}
+
+.logo { 
+	position: absolute;
+	height: 40px;
+	width: 150px;
+	margin-left: 47px;
+	top: 12px; 
+}
+
+.content {
+    position: relative;
+    height: 60%;
+    width: 100%;
+	margin-left: 20%;
+	margin-bottom: 1%;
+ }
+
+ /* H1 Tag*/
+.content h1 {
+    position: absolute;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-bottom: 1px;
+    margin-left: 1%;
+	text-align: center;
+}
+
+/* Anchor Tag*/
+.content a {
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    padding: 5px 40px 5px 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid black;
+ }
+
+ /* Image Alignment	*/
+.header-img {
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    margin-left: 36.1%;
+    margin-bottom: 0;
+    margin-top: 6%;
+}
+
+/* Border Alignment */
+.border {
+    border-bottom: 1px solid black;
+    margin-top: 4%;
+    margin-left: 15.7%;
+    margin-right: 21.5%;
+}
+
+section.topleft-section {
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    text-align: justify;
+    margin-left: 16%;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+section.topright-section {
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+section.middle-img img {
+    width: 800px;
+    height: 175px;
+    margin-left: 205px;
+}
+
+.bottom-leftsection {
+    display: inline-block;
+    width: 20%;
+    text-align: justify;
+    margin-left: 15.7%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bottom-middlesection {
+    display: inline-block;
+    width: 20%;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 12px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bottom-rightsection {
+    display: inline-block;
+    width: 20%;
+    text-align: justify;
+}
+
+address {
+    display: inline-block;
+    width: 20%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15.7%;
+}
+
+address p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+}
