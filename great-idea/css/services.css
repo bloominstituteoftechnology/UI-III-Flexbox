@@ -64,158 +64,332 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-body {
-	width: 880px;
-	margin: 0 auto;
-	text-align: center;	
-}
-.container{
+
+header {
+
+	/* flex box properties */
 	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-    flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+
+	/* end of flexbox properties */ 
+
+	width: 1000px;
+	margin: auto;
+	background-color: rgb(148, 5, 5);
+	padding: 15px;
 	
-  }
-  header {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-top: 20px;
-  }
-  header nav a {
-	padding: 0 12px;
+	top: 0px;
+	z-index: 1;
+	font-family: 'Mountains of Christmas', cursive;
+
 }
 header nav {
-	padding: 0 45px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
 }
 
-.nav-item {
-	width: 50px;
-	margin: 5px; 
-	padding: 1px;
-	display: inline-block;
-	color: red;
-  }
-  .logo {
-	width: 200px;
-	margin: 10px;
-	float: right;
-  }
-  .group {
+
+header nav a {
+	text-decoration: none;
+	color: gray;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+
+header nav a:hover {
+	background: black;
+	padding: 5px 15px;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+
+
+p {
+	font-size: 14px;
+	margin: 10px auto;
+}
+.container {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid black; 
+	padding: 30px 50px 30px 50px;
+	margin-bottom: 50px;
+}
+
+
+.innovation{
 	display: flex;
-	flex-flow: column wrap;
-	align-items: stretch;
+	justify-content: space-around;
 	align-items: center;
-	width: 100%;
-  }
-.img {
-	width: 100%;
-	margin: 20px; 
-	padding: 1px 100px;	
-}
-.tcenter {
-    margin: 20px;
-    padding:  5px;
-    width: 88%;
-	font-size: 24px;
-	text-align: left;	
-}
-.hr1 {
-	margin: 5px; 
-	padding: 1px 100px;
-}
-button {
-	width: 120px;
-	height: 30px;
-	margin: 0 auto;
-	border: 1px solid black;
-	justify-content: center;
-}
-.main {
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-    flex-wrap: wrap;
-	margin-top: 40px;
-	
-}
-.ptop {
-	background-color: rgb(239, 240, 227);
-	height: 200px;
-	width: 42%;
-	border: 1px solid black;
-	padding: 20px;
-	margin: 15px;
-	text-align: left;
-}
-.pmiddle {
-	background-color: rgb(239, 240, 227);
-	height: 200px;
-	width: 42%;
-	border: 1px solid black;
-	padding: 20px;
-	margin: 15px;
-	text-align: left;
-}
-.pbottom {
-	background-color: rgb(239, 240, 227);
-	height: 200px;
-	width: 42%;
-	border: 1px solid black;
-	padding: 20px;
-	margin: 15px;
-	text-align: left;
-}
-.hr2 {
-	height: 10px;
-	margin: 20px; 
-	padding: 1px 80px;
-	color: 1px solid  black;
+	text-align: center;
+	padding: 20px 0px 0px 20px;
 }
 
-footer {
-	width: 100%%;
-	margin: 20px auto;
-	padding: 12px 0;
+.innovation h1 {
+	font-size: 80px;
 }
+
+.innovation button {
+	font-size: 25px;
+	padding: 10px 30px;
+	background: white;
+	border: 1px solid black;
+
+}
+
+.top-content {
+	border-top: 1px solid black;
+	margin-top: 50px;
+	padding: 30px 0px 30px 0px;
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.content-bottom {
+	display: flex; 
+	justify-content: space-evenly;
+	padding: 30px 0px 30px 0px;
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 30px;
+}
+
 footer p {
-	padding: 8px 0;
-}
-.box {
-	display: flex;
-	
-	margin: 0 auto;
-	width: 100%;
-	border-bottom: 1px solid black;
-	padding-bottom: 10px;
-	justify-content: flex-start;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
-.info1 {
-	margin: 1px;
-    padding: 10px;
-    width: 50%;
-	font-size: 50px;	
+/** Product Page **/
+
+.product {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid green;
+	text-align: center;
+	padding: 10px;
+	width: 33%;
 }
-.info2 {
-	margin: 20px;
-    padding-right: 5px;
-    width: 160px;
-	font-size: 20px;	
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 1em;
 }
+
+p {
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+.content {
+	padding-bottom: 20px;
+}
+
+/** End of Product Page **/
+
+/* beginning of service page */
+
+.top {
+	text-align: left;
+	padding: 30px 0px 30px 0px;
+}
+
+.top h1 {
+	text-align: left;
+}
+
+.main {
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main .main-box {
+	border: 1px solid black;
+	width: 48%;
+	padding: 15px;
+	margin: 2% 0px;
+	background: lightgray;;
+}
+
+.main .main-box button {
+	background: white;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 5px 20px; 
+	text-align: center;
+}
+
+.bottom {
+	padding: 30px 0px; 
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
 ul {
 	list-style-type: square;
+	list-style-position: inside;
 }
-.img2 {
-	
-    right: 100px;
-	margin: 10px; 
-	padding: 1px 10px;
+
+ul li {
+	padding: 5px;
+}
+
+
+/* Begining of the Feature page */
+
+.top-features {
+	background: url(../img/Technology.jpg);
+	height: 500px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 70px 20px 20px 20px;
+	color: white;
+}
+
+.animate-1 {
+	font-size: 80px;
+	padding: 15px;
+	animation-name: features;
+	animation-duration: 4s;
+	animation-direction: reverse;  
+}
+
+@keyframes features {
+
+	0%   {background-color:red; left:0px; top:0px;}
+	25%  {background-color:yellow; left:200px; top:0px;}
+	50%  {background-color:blue; left:200px; top:200px;}
+	75%  {background-color:green; left:0px; top:200px;}
+	100% {background-color:red; left:0px; top:0px;}
+
+}
+
+.animate-2 {
+	font-size: 25px;
+	font-style: italic;
+	animation-name: features-2;
+	animation-duration: 5s;
+	animation-delay: 4s;
+}
+
+@keyframes features-2 {
+	from { 
+			background-color: red;
+			font-weight: bold;
+			font-size: 40px;
+		}
+	to { 
+		background-color: blue;
+		font-style: italic;
+		font-size: 25px;
+	}
+}
+
+.features {
+	padding: 50px 0px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.features div {
+	border: 1px dashed red;
+	padding: 20px;
+	margin: 20px 0px;
+	height: 20%;
+}
+
+.features div.feature-box-1 {
+	background-color: lightblue;
+	border-radius: 10px 200px 20px 100px;
+}
+
+.features div.feature-box-2 {
+	background-color: rgb(124, 111, 196);
+	border-radius: 100px 30px 200px 100px;
+}
+
+.features div.feature-box-3 {
+	background-color: rgb(228, 119, 204);
+	border-radius: 10px 200px 20px 100px;
+}
+
+.bottom-features {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+
+.bottom-features .bottom-features-box {
 	width: 50%;
 }
 
-.copyright {
-	
-	text-align: center;
-	margin: 10px;
+.inner-box {
+	display: flex;
+	padding-top: 20px;	
+}
+
+@media only screen and (max-width: 768px) {
+
+	header {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	header nav {
+		order: 2;
+		flex-direction: column;
+		text-align: center;
+		padding: 20px;
+	}
+	header nav a {
+		font-size: 30px;
+		padding: 5px 15px;
+		font-family: 'Indie Flower', cursive;
+		}
+		
+	header nav a:hover {
+		padding: 5px 15px;
+		font-family: 'Indie Flower', cursive;	}
+
+
+	.container {
+		width: 100%;
+	}
+	.bottom-features {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+
+	.inner-box {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.features {
+		padding: 50px 0px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.product {
+		display: block;
+		width: 100%;
+	}
 }
