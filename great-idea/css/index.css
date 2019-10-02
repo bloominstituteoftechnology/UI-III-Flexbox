@@ -74,10 +74,25 @@ body, p {
 /* general styling */
 .container {
 	width: 875px;
+
 	display: flex;
 	flex-direction: column;
+
 	margin: 0px auto;
 }
+div.container.index {
+	height: 1600px;
+	justify-content: space-between;
+}
+div.container.services {
+	height: 2000px;
+	justify-content: space-between;
+}
+
+hr.services-hr {
+	margin: 20px 0px;
+}
+
 .content-row {
 	/* margin: 20px 0px; */
 	display: flex;
@@ -87,14 +102,11 @@ body, p {
 .box-spacing { /* goes on rows*/
 	justify-content: space-between;
 	align-content: space-between;
-
 }
 
 .content-block {
 	box-sizing: border-box;
-	/* display: inline-block; */
-	/* padding: 10px 0px; */
-	display: inline-block;
+
 	flex-direction: column;
 }
 
@@ -110,17 +122,12 @@ body, p {
 }
 .services-box-sizing {
 	width: 45%;
-	height: 282px;
+	/* height: 282px; */
 }  
 
- .services-block-margin {
 
-} 
 hr { 
-
-	/*having trouble with making the bottom hr show up*/
-
-	margin: 25px 0px;
+	margin: 2px 0px;
 	height: 2px;
 	color: darkgrey;
 	background: darkgrey;
@@ -197,7 +204,7 @@ nav a:active {
 
 /* Banner */
 section.banner {
-	margin-top: 50px;
+	/* margin-top: 50px; */
 	height: 400px;
 	/* position: relative; */
 	display: flex; /* parent to alignment div */
@@ -208,6 +215,13 @@ section.banner {
 	text-align: center;
 	display: flex;
 	justify-content: space-between;
+}
+div.services-banner {
+	display: flex;
+	flex-flow: column;
+
+	height: 430px;
+	justify-content: space-around;
 }
 
 .banner .banner-text {
@@ -299,6 +313,8 @@ footer {
 	padding: 7px;
 }
 
+
+
 footer .contact {
 	display: flex;
 	flex-direction: column;
@@ -306,6 +322,10 @@ footer .contact {
 	/* width: 20%; */ 
 	/* used <br> in html instead of making the width small */
 	height: 130px;
+}
+
+.footer .footer-img img {
+	max-width: 393.75px;
 }
 footer p.copyright {
 	text-align: center;
