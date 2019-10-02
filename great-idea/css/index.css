@@ -83,12 +83,23 @@ body, p {
 	display: flex;
 	flex-direction: row;
 }
+
+.box-spacing { /* goes on rows*/
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+
 .content-block {
 	box-sizing: border-box;
 	/* display: inline-block; */
 	/* padding: 10px 0px; */
-	display: flex;
+	display: inline-block;
 	flex-direction: column;
+}
+
+.inner-box {
+	padding: 20px;
 }
 
 .half-block {
@@ -97,12 +108,26 @@ body, p {
 .one-third-block {
 	width: 32%;
 }
-hr {
+.services-box-sizing {
+	width: 45%;
+	height: 282px;
+}  
+
+ .services-block-margin {
+
+} 
+hr { 
+
+	/*having trouble with making the bottom hr show up*/
+
 	margin: 25px 0px;
-	height: 1px;
+	height: 2px;
 	color: darkgrey;
 	background: darkgrey;
-
+	z-index: 200;
+	border: 1px solid darkgrey;
+	height: 1px;
+	display: block;
 }
 h2 {
 	font-size: 1.7rem;
@@ -225,18 +250,37 @@ section.banner {
 
 .main-section-vertical-align {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 550px;
+	flex-wrap: wrap;
+	/* justify-content: space-between; */
 } 
+.services-section-spacing {
+	height: 950px;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.services-content-box {
+	padding: 10px;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+.learn-button {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px 20px;
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	background: white;
+}
 
 /*flex alignment requires space within container for items to move around ie. height/width properties need to be adjusted on the container 
 
 individual content blocks have general styling applied further above*/
 
 .mid-page-accent-image {
-	height: 182px;
-	background-image: url('../img/mid-page-accent.jpg');
+	height: 190px;
+	/* background-image: url('/img/mid-page-accent.jpg'); */
 }
 
 /* footer */
@@ -245,6 +289,7 @@ footer {
 }
 .footer-facts {
 	display: flex;
+	justify-content: space-between;
 }
 .footer .footer-facts .content-block ul {
 	list-style: square inside;
@@ -264,5 +309,6 @@ footer .contact {
 }
 footer p.copyright {
 	text-align: center;
+	margin: 50px 0px;
 } 
 /*seems pointless to flex item the copyright as it is the last item on the page and display:block works just fine! */
