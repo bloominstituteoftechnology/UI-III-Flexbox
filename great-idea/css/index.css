@@ -241,8 +241,19 @@ individual content blocks have general styling applied further above*/
 
 /* footer */
 footer {
-	margin: 20px 0px;
+	margin-top: 20px;
 }
+.footer-facts {
+	display: flex;
+}
+.footer .footer-facts .content-block ul {
+	list-style: square inside;
+	margin-top: 10px;
+}
+.footer .footer-facts .content-block ul li {
+	padding: 7px;
+}
+
 footer .contact {
 	display: flex;
 	flex-direction: column;
