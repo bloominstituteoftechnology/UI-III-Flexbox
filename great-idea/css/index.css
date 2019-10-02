@@ -64,3 +64,160 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	/* border: 1px solid red; */
+	width: 950px;
+	margin: auto;
+}
+
+.header {
+	/* border: 1px solid red; */
+	display: flex;
+	margin-top: 20px
+
+}
+
+nav {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: ;
+	align-items: center;
+	margin-left: 50px
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+	padding: 20px
+}
+
+.logo {
+	/* border: 1px solid red; */
+	margin-left: 120px;
+
+}
+
+.getStarted {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: flex-end;
+	padding: 50px;
+	margin: 40px;
+	margin-right: 10px
+
+}
+
+.left {
+	/* border: 1px solid red; */
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	margin-top: 60px
+}
+
+button {
+	border: 1px solid black;
+	width: 35%;
+	margin-left: 125px;
+	padding: 5px 25px 5px 25px
+}
+
+.circle {
+	/* border: 1px solid red; */
+}
+
+.middle-section {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.middleDiv {
+	/* border: 1px solid red; */
+	display: flex;
+	margin: 20px;
+}
+
+.features {
+	/* border: 1px solid red; */
+	/* padding: 20px; */
+	font-size: 18px;
+	margin: 20px;
+}
+
+.about {
+	/* border: 1px solid red; */
+	/* padding: 20px; */
+	font-size: 18px;
+	margin: 20px;
+}
+
+.middle-img {
+	/* display: flex; */
+	/* flex-direction: center; */
+	margin-left: 30px;
+}
+
+.services {
+	/* border: 1px solid red; */
+	padding: 20px;
+	font-size: 18px;
+}
+
+.product {
+	/* border: 1px solid red; */
+	padding: 20px;
+	font-size: 18px;
+}
+
+.vision {
+	/* border: 1px solid red; */
+	padding: 20px;
+	font-size: 18px;
+}
+
+.bottomDiv {
+	/* border: 1px solid red; */
+	display: flex;
+	margin: 20px
+}
+
+/* .contactInfo {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+} */
+footer {
+	margin-top: 50px
+}
+
+.address {
+	margin: 15px;
+	margin-left: 0px;
+}
+
+.phone {
+	margin: 15px;
+	margin-left: 0px;
+}
+
+.web {
+	margin: 15px;
+	margin-left: 0px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.contactInfo {
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
