@@ -149,95 +149,74 @@ nav ul {
 nav ul li{
 	margin-left: 50px;
 }
+ h1 {
+     font-size: 30px;
 
-  span{
-	  margin: 50px;
-  }
-
-
-h1 {
-	font-size: 50px;
-	width:20%;
-}
-
-
-header {
+ }
+ header {
 	display: flex;
 	border-bottom: 1px solid black;
 	width: 800px;
-	margin: 0 auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.img-services-main {
+    width:850px;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
-header div img {
-	/* display: inline-block; */
-	width: 100%;
+section {
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+    flex-flow: row wrap;
+    height: 800px;
+}
+section div{
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+    flex-flow: row wrap;
+    width: 300px;
+    margin:15px;
+    background: lightgray;
+}
+section div button {
+    margin: 10px;
 }
 
-header img{
-	margin-left: 120px;
-	margin-top: 10px;
-	margin-bottom: 30px;
+section div h4 {
+    margin: 10px;
 }
 
-header div{
-	margin-top: 200px;
-	margin-left:120px;
-	margin-bottom: 60px;
+section div p {
+    margin: 10px;
 }
-
-.img-main{
-	width: 800px;
-	margin: 0 auto;
-}
-
-div .img-main {
-	object-fit: fill;
-	display: block;
-}
-
-.container {
-	display: flex;
-	width: 800px;
-	margin: 0 auto;
-}
-
-.container div{
-  /* display: inline-block; */
-  width: 310px;
-  margin-right: 80px;
-}
-
-.container2{
-	display: flex;
-	width: 800px;
-	margin: 0 auto;
-}
-
-.container2 div {
-	margin-bottom: 40px;
-	/* display: inline-block; */
-	width:170px;
-	margin-right: 70px;
-	margin-bottom: 20px;
-	
-}
-
 address{
-	border-top: 1px solid black;
-	padding-top: 20px;
-	width: 800px;
-	margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-footer p {
+
+address ul {
+display: flex;
+flex-direction: column;
+}
+
+address ul li {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+footer {
 	text-align: center;
-}
-
-/* additional code */
-
-footer div {
-	display: flex;
-}
-footer div p {
-
 }
