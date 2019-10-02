@@ -76,6 +76,7 @@ body, p {
 	width: 875px;
 	display: flex;
 	flex-direction: column;
+	margin: 0px auto;
 }
 .content-row {
 	/* margin: 20px 0px; */
@@ -107,6 +108,7 @@ h2, h3 {
 }
 p {
 	/* margin: 15px 0px; */
+	line-height: 1.45;
 }
 
 /* pieces */
@@ -219,7 +221,7 @@ section.banner {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 450px;
+	height: 550px;
 } 
 
 /*flex alignment requires space within container for items to move around ie. height/width properties need to be adjusted on the container 
