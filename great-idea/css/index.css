@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +63,134 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
+
+body, p {
+	font-family: 'Big Shoulders Text', cursive;
+}
+
+/* general */
+.container {
+	width: 875px;
+}
+.content-row {
+	margin: 20px 0px;
+}
+.content-block {
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px 0px;
+}
+.top-block {
+	width: 49%;
+}
+.bottom-block {
+	width: 32%;
+}
+hr {
+	margin: 25px 0px;
+}
+h2, h3 {
+	margin-top: 10px;
+}
+p {
+	margin: 15px 0px;
+}
+
+/* pieces */
+
+/* Nav */
+div.top-nav {
+	margin: 15px;
+	position: relative;
+}
+.top-nav nav {
+	background: #6f626d;
+	display: inline-block;
+	position: fixed;
+	z-index: 500;
+	text-align: left;
+	height: 30px;
+	padding: 3px;
+}
+.top-nav nav a {
+	padding: 15px;
+	text-decoration: none;
+	color: lightgrey;
+	position: relative;
+}
+.top-nav nav a:hover {
+	top: -3px;
+}
+.top-nav nav a:active {
+	top: 3px;
+	left: 1px;
+}
+
+.right-align {
+	text-align: right;
+}
+.logo {
+	position: relative;
+}
+
+/* Banner */
+section.banner {
+	margin: 70px 0px 70px 0px;
+	height: 400px;
+	position: relative;
+}
+.banner div.center {
+	width: 55%;
+	text-align: center;
+}
+.banner .banner-text {
+	display: inline-block;
+	width: 350px;
+	text-align: center;
+	padding: 80px 0px;
+}
+.banner .banner-text h1 {
+	font-size: 5rem;
+}
+.banner .banner-text p {
+	box-sizing: border-box;
+	font-size: 1.2rem;
+	border: 1px solid black;
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	margin: 2px;
+	padding: 10px;
+}
+.banner .banner-img {
+	position: absolute;
+	display: inline-block;
+	right: 0px;
+	top: 20px;
+	height: 380px;
+	width: 380px;
+	background-image: url('../img/header-img.png');
+	/* float: right; */
+}
+
+/* main section */
+
+.mid-page-accent-image {
+	height: 182px;
+	background-image: url('../img/mid-page-accent.jpg');
+}
+
+/* footer */
+footer {
+	margin: 20px 0px;
+}
+footer .contact {
+	display: inline-block;
+	width: 20%;
+}
+footer p.copyright {
+	text-align: center;
+}
