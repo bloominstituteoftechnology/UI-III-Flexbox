@@ -64,3 +64,85 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+ 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+ 
+header nav{
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+header .logo{
+    margin-left: 80px;
+}
+ 
+header nav a{
+    margin: 0 30px;
+    color: silver;
+    text-decoration: none;
+}
+ 
+.head2{
+    border-bottom: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+ 
+.head2 .div{
+    display: inline-block;
+    width: 48%;
+}
+.head2 .innovation p{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    border: 1px solid gray;
+    text-align: bottom;
+    margin-left: 120px;
+    
+ 
+}
+ 
+.innovation h1{
+    font-size: 80px;
+    text-align: center;
+}
+ 
+.innovation, .circlelogo{
+    display: inline-block;
+    width:48%;
+}
+.button{
+    display: inline-block;
+    text-align: center;
+}
+.content{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+ 
+.feature, .about{
+    display: inline-block;
+    width: 48%;
+ 
+}
+ 
+.services, .product, .vision{
+    display: inline-block;
+    width: 33%;
+}
+ 
+ 
+.contact{
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+ 
+footer{
+    text-align: center;
+}
