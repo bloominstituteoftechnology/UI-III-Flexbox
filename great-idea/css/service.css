@@ -164,13 +164,16 @@ h1{
     color: gray;
     font-size: .90em;
     padding: 15px;
-    margin: 1px;
-    width: 100%
-  
+    margin: 5px;
+    width: 100%;
+    
   }
+
 
   .nav-bar  {
     /* border: 2px solid red; */
+    align-items: flex-end;
+    /* align-content: center; */
     display: flex;    
     justify-content: space-around;
   }
