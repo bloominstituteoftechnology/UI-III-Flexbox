@@ -64,3 +64,72 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+{
+	margin-bottom: 15px
+}
+{
+	margin: 0 auto
+}
+#navigation-bar{
+	width: 100%
+}
+.navigation a{
+	padding-left: 20px
+}
+#navigation-bar{
+	border: 1px solid black;
+	background-color: plum;
+	display: flex;
+	justify-content: space-evenly;
+}
+#main-content{
+	margin-top: 75px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+#title{
+	text-align: center;
+	font-size: 70px;
+}
+#button{
+	border-radius: 10px;
+	height: 35px;
+}
+#button:hover{
+	color: blue;
+	background-color: white;
+}
+#titleimg{
+	display: flex;
+	vertical-align: middle;
+	width: 49%;
+}
+.top-content{
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
+}
+#featute, #about{
+	display: flex;
+	justify-content: space-between;
+}
+.middle-img{
+	text-align: center;
+	width: 100%;
+}
+.bottom-content{
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
+}
+#service, #product, #vision {
+	display: flex;
+	justify-content: space-between;
+}
+footer{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 75px;
+}
+
