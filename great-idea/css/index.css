@@ -63,4 +63,225 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
+
+
+.container {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+hr {
+	width: 60%;
+}
+/*HEADER*/
+
+header {
+	width: 80%;
+	padding: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav {
+	width: 80%;
+	margin-left: 25%;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+	padding: 0 15px;
+	transition: 0.2s;
+}
+
+nav a:hover {
+	color: black;
+}
+
+nav a:first-child {
+	padding-left: 0;
+}
+
+
+/*BANNER*/
+
+.banner {
+	width: 80%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.bannerText {
+	padding-left: 35%;
+	padding-right: 25%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.bannerText h1 {
+	font-size: 65px;
+	line-height: 50px;
+}
+
+.bannerText a {
+	border: 1px solid gray;
+	padding: 5%;
+	text-decoration: none;
+	color: gray;
+	transition: 0.3s;
+}
+
+.bannerText a:hover {
+	background-color: gray;
+	color: white;
+}
+
+.bannerImg {
+	width: 49%;
+	margin-right: 2%;
+}
+
+/*SECTION ABOVE IMAGE*/
+.sectionTwo, .sectionThree {
+	margin-top: 2%;
+	width: 80%;
+	padding-left: 20%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.features, .about {
+	width: 49%;
+}
+
+.features p, .about p, .services p, .product p, .vision p {
+	line-height: 19px;
+}
+
+.middle-img, .services-header-img {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+}
+/*SECTION BELOW IMAGE */
+
+.sectionThree {
+	margin-bottom: 2%;
+}
+
+.services, .product, .vision {
+	width: 33%;
+}
+
+/*FOOTER*/
+
+.sectionFour {
+	margin-left: 20%;
+  padding: 39px 10px 0;
+}
+
+.sectionFour p {
+	line-height: 19px;
+}
+
+address {
+	line-height: 19px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+}
+
+.bannerServices {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 100%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.bannerServices h1 {
+	font-size: 30px;
+	margin-top: 2%;
+}
+
+.bannerServices p {
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+.servicesBox {
+	padding-left: 19%;
+	padding-right: 19%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.box {
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 46%;
+	padding: 2%;
+	margin: 2%;
+}
+
+.box p {
+	line-height: 19px;
+	margin-bottom: 3%;
+}
+
+.servicesBox a {
+	padding: 7px 30px;
+	border: 1px solid black;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+}
+
+.servicesBox a:hover {
+	background-color: gray;
+	color: white;
+}
+
+.footer{
+	margin-top: 2%;
+	margin-left: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+	.facts {
+		width: 48%;
+	}
+	
+	.facts ul { 
+		list-style-type: disc; 
+		margin: 25px 0 0 15px;
+	}
+	
+	.facts ul li { 
+		padding: 5px 0;
+	}
+
+  .copy{
+    text-align: center;
+    padding: 25px 0;
+  }
