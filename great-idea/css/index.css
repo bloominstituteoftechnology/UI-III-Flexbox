@@ -79,6 +79,7 @@ nav{
 	justify-content: space-around;
 	align-items: center;
 	position: fixed;
+	
 	top: 0%;
 	background-color: white;
 	height: 10%
@@ -214,3 +215,4 @@ ol{
 	list-style-type: disc;
 	list-style-position: inside
 }
+ 
