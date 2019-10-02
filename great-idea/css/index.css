@@ -64,3 +64,201 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	margin: 0% 2%; 
+}
+
+/* The next segments customize the nav bar and logo*/
+#navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+#nav-text a {
+	text-decoration: none;
+	padding: 0 30px 0 30px;
+	color: gray;
+}
+
+#nav-icon {
+	padding-left: 15px;
+}
+
+/* The next five segments customize the big title and circular picture */
+#title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 35px 0;
+}
+
+#title-letter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#bold {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+#button {
+	border: 1px solid black;
+	padding: 5px 40px;
+	margin: 0px 50px;
+}
+
+#title-image {
+	margin-left: 40px;
+}
+
+/* The next three segments customize the five paragraphs and coding picture */
+#info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#upper-info {
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#upper-info div {
+	width: 48%;
+}
+
+#middle-img {
+	padding: 10px 0;
+}
+
+#lower-info {
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#lower-info div {
+	width: 32%;
+}
+
+/* The next three segments customize the contact info section */
+
+#contact {
+	display: flex;
+	flex-direction: column;
+}
+
+#contact-info {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.contact-item {
+	padding-bottom: 10px;
+}
+
+#contact-cyr {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+
+/* The following segment customizes the divider lines */
+hr {
+	width: 95%;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$    THE FOLLOWING IS FOR  service.html WEPAGE $$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+#service-top {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 25px 30px;
+}
+
+#service-top-image {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+#service-top-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#service-top-text h3 {
+	font-size: 28px;
+}
+
+#service-middle {
+	display: flex;
+	flex-direction: column;
+	margin: 0 25px 20px 25px;
+}
+
+.service-middle-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.service-item {
+	background: #F5F5F5;
+	margin: 25px 0 10px 0;
+	border: 1px solid black;
+	width: 48%;
+	padding: 15px;
+}
+
+.service-item h6 {
+	display: flex;
+	width: 45%;
+	justify-content: center;
+	border: 1px solid black;
+	margin-top: 15px;
+	padding: 10px 30px;
+	background: white;
+	border-radius: 10px;
+}
+
+#service-bottom {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 25px 50px 25px;
+}
+
+#service-bottom-text {
+	width: 48%;
+}
+
+#service-bottom-image {
+	width: 48%;
+}
+
+#list {
+	padding-top: 15px;
+	margin-left: 30px;
+}
+
+.hr2 {
+	border: 1px solid black;
+}
