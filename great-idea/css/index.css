@@ -65,151 +65,152 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 nav { 
-	display: inline-block;
+	display: flex;
 	background : white;
 	height: 30px; 
 	font-size: 20px;
 	margin-right: 5%;
 	text-align: center ;
 	width:100%;
+	justify-content: space-evenly;
 	}
 	 .container{
-		 display: inline-block;
+		 /*display: inline-block;
 		 height: 50px;
-		 width: 100%;
+		 width: 100%;*/
 		 position: relative;
-		 /*border: dashed red 1px; */s
-	 }
-	 nav a{
-		 display: inline-block;
-		
-		 color: grey;
-		 padding-inline-start: 5%;
-		 text-decoration: none;
-		 /*border: dashed red 1px;*/ 
-		 text-align: center;
-		 padding-top: 3mm;
-	 }
-	
-	 .logo{
-		 display: inline-block;
-		 /*padding-top: 18px;
-		 padding-left: 45px;
-		 padding-right: 3px; 
-		 /*float:top;
-		 float: right; */
-		 /*border: dashed red 1px; */
-		 position: absolute; 
-		 top: 1mm;
-		 right:2mm;
-		 }
-	
-	 header{
-		 position: relative;
-		 display: block;
-		 height:550px;
-		 width: 100%;
-		 /*border: dashed red 1px; */
-	}
-	
-	.hbox{
-		display:inline-block;
-		height: 500x;
-		width: 500px;
-		font-size: 100px;
-		/*float:left;
-		margin:15px 5px ;
-		margin:15px 5px ;*/
-		text-align: center;
-		/*border: dashed red 1px; */
-		position: absolute;
-		top:20mm;
-		left:5mm;
-	}
-	button{
-		border: 3px solid black; 
-		color:black;
-		font-size: 20px;
-		padding:5px 40px; 
-	}
-	.codeCircle{
-		height:500px;
-		width: 500px;
-		position: absolute;
-		top:5mm;
-		right:5mm;
-		/*border: dashed red 1px; */
-	}
-	.mainSection{
-		position: relative;
-		display: block;
-		height:700px;
-		width: 100%;
-		border: solid black 2px; 
-	}
-	.content-one{
-		display:inline-block;
-		height: 140px;
-		width: 48%;
-		/*border: dashed red 1px; */
-		position: absolute;
-		top:10mm;
-		right: 0mm;
-	
-	}
-	
-	.content-two{
-		display:inline-block;
-		height: 140px;
-		width: 48%;
-		/*border: dashed red 1px;*/
-		position: absolute;
-		top:10mm;
-		left:0mm;
-	}
-	
-	.middle-img{
-		width:100%;
-		position: absolute;
-		top:50mm;
-	}
-	
-	.content-three{
-		display:inline-block;
-		height: 140px;
-		width: 30%;
-		/*border: dashed red 1px;*/
-		position: absolute;
-		bottom :10mm;
-		right:0mm
-		
-	}
-	.content-four{
-		display:inline-block;
-		height: 140px;
-		width: 30%;
-		/*border: dashed red 1px;*/
-		position: absolute;
-		bottom :10mm;
-		
-	}
-	
-	.content-five{
-		display:inline-block;
-		height: 140px;
-		width: 30%;
-		/*border: dashed red 1px;*/
-		position: absolute;
-		bottom :10mm;
-		left:35%;
-	}
-	.content-bottom{
-		display:inline-block;
-		height: 160px;
-		width: 150px;
-		/*border: dashed red 1px;*/
-		margin: 5mm;
-	}
-	.copy{
-		text-align: center;
-	}
+		 border: dashed red 1px; */s
+		}
+		nav a{
+			display: inline-block;
+   
+			color: grey;
+			padding-inline-start: 5%;
+			text-decoration: none;
+			/*border: dashed red 1px;*/ 
+			text-align: center;
+			padding-top: 3mm;
+		}
+   
+		.logo{
+			display: inline-block;
+			/*padding-top: 18px;
+			padding-left: 45px;
+			padding-right: 3px; 
+			/*float:top;
+			float: right; */
+			/*border: dashed red 1px; */
+			position: absolute; 
+			top: 1mm;
+			right:2mm;
+			}
+   
+		header{
+			position: relative;
+			display: block;
+			height:550px;
+			width: 100%;
+			/*border: dashed red 1px; */
+	   }
+   
+	   .hbox{
+		   display:inline-block;
+		   height: 500x;
+		   width: 500px;
+		   font-size: 100px;
+		   /*float:left;
+		   margin:15px 5px ;
+		   margin:15px 5px ;*/
+		   text-align: center;
+		   /*border: dashed red 1px; */
+		   position: absolute;
+		   top:20mm;
+		   left:5mm;
+	   }
+	   button{
+		   border: 3px solid black; 
+		   color:black;
+		   font-size: 20px;
+		   padding:5px 40px; 
+	   }
+	   .codeCircle{
+		   height:500px;
+		   width: 500px;
+		   position: absolute;
+		   top:5mm;
+		   right:5mm;
+		   /*border: dashed red 1px; */
+	   }
+	   .mainSection{
+		   position: relative;
+		   display: block;
+		   height:700px;
+		   width: 100%;
+		   border: solid black 2px; 
+	   }
+	   .content-one{
+		   display:inline-block;
+		   height: 140px;
+		   width: 48%;
+		   /*border: dashed red 1px; */
+		   position: absolute;
+		   top:10mm;
+		   right: 0mm;
+   
+	   }
+   
+	   .content-two{
+		   display:inline-block;
+		   height: 140px;
+		   width: 48%;
+		   /*border: dashed red 1px;*/
+		   position: absolute;
+		   top:10mm;
+		   left:0mm;
+	   }
+   
+	   .middle-img{
+		   width:100%;
+		   position: absolute;
+		   top:50mm;
+	   }
+   
+	   .content-three{
+		   display:inline-block;
+		   height: 140px;
+		   width: 30%;
+		   /*border: dashed red 1px;*/
+		   position: absolute;
+		   bottom :10mm;
+		   right:0mm
+   
+	   }
+	   .content-four{
+		   display:inline-block;
+		   height: 140px;
+		   width: 30%;
+		   /*border: dashed red 1px;*/
+		   position: absolute;
+		   bottom :10mm;
+   
+	   }
+   
+	   .content-five{
+		   display:inline-block;
+		   height: 140px;
+		   width: 30%;
+		   /*border: dashed red 1px;*/
+		   position: absolute;
+		   bottom :10mm;
+		   left:35%;
+	   }
+	   .content-bottom{
+		   display:inline-block;
+		   height: 160px;
+		   width: 150px;
+		   /*border: dashed red 1px;*/
+		   margin: 5mm;
+	   }
+	   .copy{
+		   text-align: center;
+	   } 
