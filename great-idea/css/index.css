@@ -90,10 +90,11 @@ body, p {
 	display: flex;
 	flex-direction: column;
 }
-.top-block {
+
+.half-block {
 	width: 49%;
 }
-.bottom-block {
+.one-third-block {
 	width: 32%;
 }
 hr {
@@ -103,8 +104,13 @@ hr {
 	background: darkgrey;
 
 }
-h2, h3 {
-	/* margin-top: 10px; */
+h2 {
+	font-size: 1.7rem;
+	font-weight: 700;
+}
+
+h3 {
+	font-weight: 600;
 }
 p {
 	/* margin: 15px 0px; */
