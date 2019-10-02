@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	
 }
 blockquote, q {
 	quotes: none;
@@ -63,4 +63,110 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+* {
+border: 1px solid grey;	
+}
+
+body {
+	width: 850px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	
+	width: 65%;
+}
+
+a {
+	
+	color: grey;
+	text-decoration: none;
+
+}
+
+h1 {
+	
+	font-size: 72px;
+	left: 50px;
+}
+
+
+.welcome {
+	display: flex;
+	margin-left:40px;
+}
+
+button {
+	background:white;
+	width:40%;
+	border:1px solid grey;
+}
+
+.splashPage {
+	display: flex;
+	justify-content: center;
+	margin: 38px;
+}
+
+.left-splash-wrapper {
+	display:inline-block;
+	text-align:center;
+	margin-top:60px;
+	padding-bottom:20px;
+}
+
+.middle-img {
+	max-width:100%;
+}
+
+.topContent {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.featuresAbout {
+	width: 49%;
+
+}
+
+.serProViz {
+	display: inline-block;
+	width: 33%;
+}
+
+.midSection {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.gridBox {
+	width: 48%;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: pink;
+
+}
+
+.services-header-img {
+	max-width: 100%
+}
+
+.img-services-info {
+	display: flex;
+}
+
+
+
