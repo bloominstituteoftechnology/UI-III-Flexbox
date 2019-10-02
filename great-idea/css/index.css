@@ -64,3 +64,150 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1000px;
+}
+
+header {
+  display: flex;
+  height: 65px;
+  border: 0.5px solid rgb(55, 111, 131);
+  border-radius: 35px;
+  width: 1000px;
+  background-color: rgb(68, 152, 185);
+  opacity: .9;
+  z-index: 1;
+  position: fixed;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 665px;
+}
+
+header nav a {
+  color: white;
+  font-size: 13px;
+  font-weight: 800;
+  padding-top: 25px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: black;
+}
+
+header .logo {
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+.lg-logo {
+  width: 1000px;
+  height: 525px;
+  margin-top: 65px;;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lg-logo .lg-logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 65px;
+  font-size: 75px;
+  margin-left: 60px;
+  text-align: center;
+}
+
+.lg-logo .lg-logo-text button {
+  vertical-align: top;
+  margin-top: 6px;
+  transition-duration: 0.4s;
+  color: black;
+  border: 1px solid black;
+  font-size: 17px;
+  padding: 5px 25px;
+  border-radius: 35px;
+  box-shadow: 3px 3px grey;
+}
+
+.lg-logo .lg-logo-text button:hover {
+  background-color: rgb(68, 152, 185);
+  color: white;
+  cursor: pointer;
+}
+
+.lg-logo .lg-logo-text button:active {
+  transform: translateY(4px);
+}
+
+.lg-logo .round-img {
+  height: 375px;
+}
+
+.main-content {
+  border-top: 2px solid rgb(68, 152, 185);
+  padding: 39px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-content {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+
+.top-content .text-content {
+  width: 450px;
+  font-size: 17px;
+  line-height: 1.25;
+}
+
+.middle-img {
+  margin-top: 45px;
+  width: 1000px;
+  height: 250px;
+  border-radius: 35px;
+}
+
+.bottom-content {
+  margin-top: 40px;
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+
+.bottom-content .text-content {
+  width: 295px;
+  font-size: 17px;
+  line-height: 1.25
+}
+
+.contact {
+  margin-top: 10px;
+  border-top: 2px solid rgb(68, 152, 185);
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  line-height: 2;
+}
+
+footer {
+  margin: 60px 0;
+  text-align: center;
+  font-size: 15px;
+}
