@@ -74,14 +74,20 @@ body, p {
 /* general */
 .container {
 	width: 875px;
+	display: flex;
+	flex-direction: column;
 }
 .content-row {
-	margin: 20px 0px;
+	/* margin: 20px 0px; */
+	display: flex;
+	flex-direction: row;
 }
 .content-block {
 	box-sizing: border-box;
-	display: inline-block;
-	padding: 10px 0px;
+	/* display: inline-block; */
+	/* padding: 10px 0px; */
+	display: flex;
+	flex-direction: column;
 }
 .top-block {
 	width: 49%;
@@ -91,50 +97,68 @@ body, p {
 }
 hr {
 	margin: 25px 0px;
+	height: 1px;
+	color: darkgrey;
+	background: darkgrey;
+
 }
 h2, h3 {
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 p {
-	margin: 15px 0px;
+	/* margin: 15px 0px; */
 }
 
 /* pieces */
 
 /* Nav */
-div.top-nav {
+/* div.top-nav {
 	margin: 15px;
 	position: relative;
-}
-.top-nav nav {
-	background: #6f626d;
+	display: flex; 
+	flex-direction: row-reverse;
+} */
+nav.top-nav {
+	background: gainsboro;
 	display: inline-block;
 	position: fixed;
 	z-index: 500;
-	text-align: left;
-	height: 30px;
-	padding: 3px;
-}
-.top-nav nav a {
-	padding: 15px;
-	text-decoration: none;
-	color: lightgrey;
-	position: relative;
-}
-.top-nav nav a:hover {
-	top: -3px;
-}
-.top-nav nav a:active {
-	top: 3px;
-	left: 1px;
+	/* text-align: left; */
+	height: 40px;
+	padding: 10px; 
+	border-radius: 5px;
+	opacity: .3;
 }
 
-.right-align {
-	text-align: right;
-}
-.logo {
+nav.top-nav a {
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+	opacity: 1;
+
+	transition: top .02s; /* animation smoothing */
 	position: relative;
+} /* position rel^ necessary for top/left animation properties to take effect */
+
+nav a:hover {
+	top: -3px;
+	font-size: 1.05rem;
+	text-decoration: underline;
 }
+nav a:active {
+	top: .5px;
+	left: .2px;
+}
+
+.right-align { /*single item flex for simpler code layout*/
+	text-align: right;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+/* .logo {
+	position: relative;
+}  */
 
 /* Banner */
 section.banner {
@@ -175,7 +199,6 @@ section.banner {
 	background-image: url('../img/header-img.png');
 	/* float: right; */
 }
-
 /* main section */
 
 .mid-page-accent-image {
