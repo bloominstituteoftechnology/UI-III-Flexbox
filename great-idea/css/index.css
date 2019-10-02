@@ -72,42 +72,52 @@ h1, h2, h3, h4, h5 {
 	margin:auto;
 }
 
-.inlineHalf{
-	display:inline-block;
-	width:48%;
+header{
+	display:flex;
 }
 
-.logo{
-	z-index:999;
-	position:fixed;
-	left:65%;
-	top:25px;
-	background-color:white;
-	padding:20px 10px;
-	background-image: url("../img/logo.png");
-	background-repeat: no-repeat;
+header nav, div{
+	align-items:center;
 }
 
-.inlineThird{
-	display:inline-block;
-	width:33%;
+.cta{
+	display:flex;
+	margin:150px 0px 100px 0px;
+}
+
+.cta p{
+	text-align:center;
+	height:35px;
+	width:150px;
+	padding: 7px 30px 10px 30px;
+	border: 1px solid black;
+}
+
+#ctaDiv{
+	display:flex;
+	flex-direction:column;
 }
 
 nav{
 	top:0px;
 	z-index: 998;
 	background-color:white;
-	position:fixed;	
+	position:fixed;
+	width:60%;
+	display:flex;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-position:80% 85%;
 }
 
 a{
 	line-height:30px;
-	width:100px;
-	display:inline-block;
+	width:10%;
 	color:gray;
 	text-decoration:none;
 	text-align:center;
 	margin-top:35px;
+	justify-content: space-evenly;
 }	
 
 a:hover {
@@ -122,35 +132,35 @@ a:hover:after{
 	left:17px;
 }
 
-.cta img{
-	margin:40px 40px;
-}
-
 h1{
 	font-size:70px;
 	margin: 100px 100px 0 100px;
 	text-align:center;
 }
 
-.cta p{
-	position:relative;
-	top:20px;
-	left:140px;
-	text-align:center;
-	height:35px;
-	width:150px;
-	padding: 7px 30px 10px 30px;
-	border: 1px solid black;
+.content .double{
+	display:flex;
+	flex-direction:column;
+	width:20%;
+	height:10%
 }
 
-.iod{
-	position:relative;
-	bottom:120px;
-	margin-top:100px;
+.content .triple{
+	display:flex;
+	flex-direction:column;
+	width:30%;
+}
+
+.contentTop{
+	display:flex;
+}
+
+.contentBottom{
+	display:flex;
 }
 
 .content div{
-	margin:20px 0px;
+	flex-direction:row;
 }
 
 .contact h3{
@@ -161,10 +171,6 @@ footer{
 	text-align:center;
 }
 
-.cta{
-	margin-top:100px;
-}
-
 p{
 	font-family: 'Play', sans-serif;
 }
@@ -172,4 +178,83 @@ p{
 .middle-img{
 	padding:100px 100px;
 	background: url("../img/mid-page-accent.jpg");
+	background-repeat:no-repeat;
+	width:100%;
+}
+
+.headerImage{
+	padding:200px 200px;
+	background: url("../img/header-img.png");
+	background-repeat:no-repeat;
+}
+
+.serviceTop{
+	margin: 4%;
+}
+
+.serviceTop h2{
+	font-size: 25px;
+}
+
+.services-header-img{
+	margin-top:100px;
+	padding:100px 500px;
+	background: url("../img/services-header.jpg");
+	background-repeat: no-repeat;
+}
+
+.services{
+	margin-top:4%;
+	margin-bottom:4%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+
+.serviceDiv{
+	width:40%;
+	margin: 4% 4%;
+	padding:4% 4%;
+	
+	background: #f4f3f4;
+	border: 2px solid gray;
+}
+
+.serviceDiv p{
+	margin: 4%;
+}
+
+#topRow{
+	display:flex;
+	justify-content: space-between;
+}
+
+#midRow{
+	display:flex;
+	justify-content: space-between;
+}
+
+#botRow{
+	display:flex;
+	justify-content: space-between;
+}
+
+.facts{
+	margin-top:4%;
+	margin-bottom:4%;
+	display:flex;
+	justify-content: space-between;
+}
+
+ul{
+	margin:4%;
+	list-style-type: circle; 
+}
+
+button{
+	height: 40px;
+	width: 150px;
+	border-radius: 5px;
+	background:white;
+	border: 1px solid black;
 }
