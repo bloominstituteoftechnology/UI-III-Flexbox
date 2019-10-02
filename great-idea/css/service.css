@@ -222,4 +222,10 @@ h1{
   li{
       list-style-type: square;
   }
+
+  button{
+      border-radius: 12px;
+      padding: 16px 16px;
+  }
+
   
