@@ -178,13 +178,16 @@ h1{
   
 
   .content_3_inner {
+
+    border: 2px solid red;
     border-top: 1px solid black;
     flex-direction: row;
-    /* display: flex; */
+    display: flex;
     vertical-align: top;
     margin: 0%;
     min-height: 20%;
-    width: 85%;  justify-content: space-between;
+    width: 85%;  
+    justify-content: space-between;
     align-content: center;
     width: 100%
     
