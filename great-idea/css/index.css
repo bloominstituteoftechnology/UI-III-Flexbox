@@ -175,7 +175,7 @@ section.banner {
 	text-align: center;
 	display: flex;
 	justify-content: space-between;
-} 
+}
 
 .banner .banner-text {
 	/* display: inline-block; */
@@ -215,6 +215,17 @@ section.banner {
 }
 /* main section */
 
+.main-section-vertical-align {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 450px;
+} 
+
+/*flex alignment requires space within container for items to move around ie. height/width properties need to be adjusted on the container 
+
+individual content blocks have general styling applied further above*/
+
 .mid-page-accent-image {
 	height: 182px;
 	background-image: url('../img/mid-page-accent.jpg');
@@ -225,9 +236,14 @@ footer {
 	margin: 20px 0px;
 }
 footer .contact {
-	display: inline-block;
-	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* width: 20%; */ 
+	/* used <br> in html instead of making the width small */
+	height: 130px;
 }
 footer p.copyright {
 	text-align: center;
-}
+} 
+/*seems pointless to flex item the copyright as it is the last item on the page and display:block works just fine! */
