@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav{
+	position: fixed;
+	background-color: white;
+	z-index: 999;
+	display: flex;
+	justify-content: space-around;
+	width: 880px;
+	margin: 0 50px;
+}
+nav a{
+	padding: 5px 30px;
+	margin: 15px 5px;
+	text-decoration: none;
+	color: grey;
+}
+
+nav a:hover {
+	border: 1px solid grey;
+	transition: 0.3s;
+	color: white;
+	background-color: grey;
+}
+
+.button{
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 5px 30px;
+}
+
+.button:hover {
+	background: lightgrey;
+	color: white;
+	transition: 0.3s;
+	border: 1px solid grey;
+}
+
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding:100px 0;
+	width: 880px;
+	margin: 0 50px;
+	
+} 
+.Call-To-Action{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 100px;
+}
+h1{
+	font-size: 72px;
+	text-align: center;
+}
+
+.Upper-Content{
+	width: 880px;
+	margin: 0 50px;
+	padding-top: 50px;
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.Features{
+	width: 45%;
+}
+
+.About{
+	width: 45%;
+}
+
+.middle-img{
+	margin: 50px;
+}
+
+.Lower-Content{
+	width: 880px;
+	margin: 0 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.Services{
+	width: 30%;
+	padding: 5px;
+}
+
+.Product{
+	width: 30%;
+	padding: 5px;
+}
+
+.Vision{
+	width: 30%;
+	padding: 5px;
+}
+
+.Contact{
+	width: 880px;
+	margin: 50px;
+}
+
+footer{
+	width: 880px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 150px;
+}
