@@ -195,6 +195,7 @@ h1{
   .content_1_inner_right_box {
   
     border: 2px solid black;
+    align-items: center;
     background-color: rgba(242, 244, 246, 0.986);
     justify-content: center;
     min-height: 220px;
@@ -211,21 +212,23 @@ h1{
   }
 
   .content_2_box {
-    /* border: 2px solid black; */
-    vertical-align: top;
     margin: 1%;
-    height: auto;
+    padding: 5px;
     width: 47.5%;
-    min-width: 250px;
-    justify-content: space-between;
+    
   }
+
   li{
       list-style-type: square;
   }
 
   button{
       border-radius: 12px;
-      padding: 16px 16px;
+      padding: 12px 12px;
   }
-
-  
+  .footer-content p {
+      text-align: center;
+  }
+  *{
+    line-height: 20px;
+  }
