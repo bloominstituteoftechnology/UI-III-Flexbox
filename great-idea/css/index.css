@@ -122,7 +122,7 @@ p {
 
 nav.top-nav {
 	background: gainsboro;
-	display: inline-block;
+	/* display: inline-block; */
 	position: fixed;
 	z-index: 500;
 	/* text-align: left; */
@@ -198,14 +198,14 @@ section.banner {
 	border: 1px solid black;
 	width: 50%;
 	text-align: center;
-	display: inline-block;
+	/* display: inline-block; */
 	margin: 2px;
 	padding: 10px;
 }
 
 .banner .banner-img {
 	/* position: absolute; */
-	display: inline-block;
+	/* display: inline-block; */
 	right: 0px;
 	top: 20px;
 	height: 380px;
