@@ -173,9 +173,8 @@ h1{
   .nav-bar  {
     /* border: 2px solid red; */
     align-items: flex-end;
-    /* align-content: center; */
     display: flex;    
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   
