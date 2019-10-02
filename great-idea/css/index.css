@@ -64,3 +64,119 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.main {
+	width: 880px;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+  }
+
+  .main-header .main-nav {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .main-header .main-nav ul {
+	display: flex;
+	justify-content: center;
+	
+  }
+  
+  .main-header .main-nav ul li {
+	display: inline;
+	padding: 0 20px;
+  }
+  
+  .main-header .main-nav ul li a {
+	color: #ccc;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 20px;
+  }
+  
+  .logo {
+	margin-left: 5%;
+  }
+  
+  .main-header .slogan {
+	display: inline;
+	text-align: center;
+  }
+  
+  .main-header .slogan h1 {
+	font-size: 75px;
+	display: flex;
+	justify-content: flex-start;
+	padding: 5px;
+	margin: 10% 0 2% 10%;
+  }
+  
+  .main-header .slogan a {
+	padding: 0 20px 0 20px;
+	border: #333 1px solid;
+	color: #333;
+	text-decoration: none;
+	margin: 0 0 0 16%;
+	font-size: 20px;
+  }
+  
+  .main-header .header-img {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	margin: -25% 0 8% 70%;
+  }
+
+  .section1 {
+	  display: flex;
+	  justify-content: space-between;
+  }
+
+  .section2 {
+	  display: flex;
+	  justify-content: space-around;
+	  padding: 30px
+  }
+
+  .section3 {
+	  display: flex;
+	  justify-content: space-between;
+  }
+  
+  .content-section .content-div-top {
+	flex-basis: 48%;
+  }
+  
+  .content-section .content-div h1 {
+	font-size: 30px;
+  }
+  
+  .content-section .content-div p {
+	font-size: 18px;
+  }
+  
+  .content-section .content-div-bottom {
+	flex-basis: 48%
+  }
+  
+  footer h1 {
+	margin-top: 2%;
+  }
+  
+  footer p {
+	margin-bottom: 2%;
+  }
+  
+  footer {
+	text-align: left;
+  }
+
+  .copyright p {
+	  display: flex;
+	  justify-content: center;
+  }
