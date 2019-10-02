@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-repeat: no-repeat;
+	background-position: 65% 150px;
 }
 ol, ul {
 	list-style: none;
@@ -63,4 +65,196 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.wrapper{
+	max-width:900px;
+	margin:auto;
+}
+
+header{
+	display:flex;
+}
+
+header nav, div{
+	align-items:center;
+}
+
+.cta{
+	display:flex;
+	margin:150px 0px 100px 0px;
+}
+
+.cta p{
+	text-align:center;
+	height:35px;
+	width:150px;
+	padding: 7px 30px 10px 30px;
+	border: 1px solid black;
+}
+
+#ctaDiv{
+	display:flex;
+	flex-direction:column;
+}
+
+nav{
+	top:0px;
+	z-index: 998;
+	background-color:white;
+	position:fixed;
+	width:60%;
+	display:flex;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-position:80% 85%;
+}
+
+a{
+	line-height:30px;
+	width:10%;
+	color:gray;
+	text-decoration:none;
+	text-align:center;
+	margin-top:35px;
+	justify-content: space-evenly;
+}	
+
+a:hover {
+	position:relative;
+}
+
+a:hover:after{
+	content: url("https://lh3.googleusercontent.com/YOwDUtX8Q2dZYMhWiSwgINsr_yNl6ccqEiZ7TYRP6zho6HVeu_DyFJkY7PxWj-n43DAQf53_ndRO7WhOCVxlpr0UtqEejQ-ih97tYMmHYQceLh-oMIiuVqi51Cj9ba1ZilHexk4L2MePV3-x1cKEHaZAbwjGWkWt_RZcWDDntbfLwYs67LyLdbQGDkbRlRCWZsPKnE4hqty6cQYmEkyoJ4cEf-fNQdRqMXk-mdw3hthjiTb3JkUNjqHBIZWLZdDZzTHMUPgI57b9YmcFEY_r7CewpssRZW9r5dtVWkrBYLs1ibARWxpPcYN57JjL6mfdhpiMvO0sOW8yvfSm0a0HJLoOA6BQQEj7Y-PQU8ivMxxn4N-M3zodTV6FJlAldcxfeHQ-xEtzrzLRo2W6W6rhoWiCl5GnR2PJyEgSXuVFyAYbmvSMJq0XmGKtNCfv1d5VBJ2s6XXYbO8fSq8KpKhEbqRWgt20ouSpZXAfwGShhrCz2F2HDtCOjwGIRg0jq_Ez4yxSGpcL3gAzalmUAGcqv9e9iU5bp6xSrjExMRogJ1XP2BBPk8VJsOrzxlpRnl0ltAA3_xRZdLMNBzlaWdOca74d2b4kzcxUKduGw6Iq2lF3dgHXCUbGsX20SZUb4rS_cS9BtXXq0ZKLhLIK03N88pisz-sOBJ6pkgL7whQKL5SkAxiB1iaMYA=s60-no");
+	display:block;
+	position:absolute;
+	bottom:12px;
+	left:17px;
+}
+
+h1{
+	font-size:70px;
+	margin: 100px 100px 0 100px;
+	text-align:center;
+}
+
+.content .double{
+	display:flex;
+	flex-direction:column;
+	width:20%;
+	height:10%
+}
+
+.content .triple{
+	display:flex;
+	flex-direction:column;
+	width:30%;
+}
+
+.contentTop{
+	display:flex;
+}
+
+.contentBottom{
+	display:flex;
+}
+
+.content div{
+	flex-direction:row;
+}
+
+.contact h3{
+	margin-top:40px;
+}
+
+footer{
+	text-align:center;
+}
+
+p{
+	font-family: 'Play', sans-serif;
+}
+
+.middle-img{
+	padding:100px 100px;
+	background: url("../img/mid-page-accent.jpg");
+	background-repeat:no-repeat;
+	width:100%;
+}
+
+.headerImage{
+	padding:200px 200px;
+	background: url("../img/header-img.png");
+	background-repeat:no-repeat;
+}
+
+.serviceTop{
+	margin: 4%;
+}
+
+.serviceTop h2{
+	font-size: 25px;
+}
+
+.services-header-img{
+	margin-top:100px;
+	padding:100px 500px;
+	background: url("../img/services-header.jpg");
+	background-repeat: no-repeat;
+}
+
+.services{
+	margin-top:4%;
+	margin-bottom:4%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+
+.serviceDiv{
+	width:40%;
+	margin: 4% 4%;
+	padding:4% 4%;
+	
+	background: #f4f3f4;
+	border: 2px solid gray;
+}
+
+.serviceDiv p{
+	margin: 4%;
+}
+
+#topRow{
+	display:flex;
+	justify-content: space-between;
+}
+
+#midRow{
+	display:flex;
+	justify-content: space-between;
+}
+
+#botRow{
+	display:flex;
+	justify-content: space-between;
+}
+
+.facts{
+	margin-top:4%;
+	margin-bottom:4%;
+	display:flex;
+	justify-content: space-between;
+}
+
+ul{
+	margin:4%;
+	list-style-type: circle; 
+}
+
+button{
+	height: 40px;
+	width: 150px;
+	border-radius: 5px;
+	background:white;
+	border: 1px solid black;
+}
