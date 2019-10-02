@@ -63,7 +63,8 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* <----- INDEX PAGE STYLING ------>*/
+
 /* Body Margin Styling */
 body {
     margin: 0 5% 10% 5%;
@@ -158,11 +159,11 @@ nav a:hover {
 #contentblock1 {
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 #contentblock1 div {
     width: 45%;
-
     padding: 3% 1% 4% 1%;
 }
 
@@ -178,7 +179,7 @@ nav a:hover {
 }
 
 #contentblock2 div {
-    padding: 5% 0;
+    padding: 5% 3%;
 }
 
 /* Contact Section Stylings */
@@ -197,3 +198,6 @@ footer {
     text-align: center;
     margin: 5% 0 10% 0;
 }
+
+
+
