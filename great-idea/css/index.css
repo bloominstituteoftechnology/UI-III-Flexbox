@@ -64,3 +64,228 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+a {
+	color: inherit;
+	text-decoraton: none;
+  }
+  
+  .container{
+	width: 1024px;
+	min-height:1px;
+	margin: auto;
+	
+  }
+  
+  header {
+	margin-top: 27px;
+	display:flex;
+  }
+  
+  nav{
+	display:flex;
+	margin-left:75px;
+	vertical-align: top;
+	margin-top: 10px;
+  }
+  
+  nav a {
+	color :rgb(188,188,188);
+	font-size: 14px;
+	background-image: linear-gradient(to bottom, transparent 65%, #161616 10%);
+	background-size: 0% 100%;
+	background-repeat: no-repeat;
+	transition: background-size 0.4s ease;
+  }
+  
+  nav a:hover{
+	background-size: 100% 100%;
+  }
+  
+  #nav-services{
+	color: white;
+	font-weight: bold;
+  }
+  
+  nav-product{
+	margin-left: 62px;
+  }
+  
+  #nav-vision{
+	margin-left: 63px;
+	
+  }
+  
+  #nav-features {
+	margin-left: 64px;
+  }
+  
+  #nav-about{
+	margin-left: 63px;
+  }
+  
+  #nav-contact {
+	margin-left: 63px;
+  }
+  
+  #logo {
+	vertical-align: middle;
+	margin-left: 92px;
+	background-image: url("https://raw.githubusercontent.com/LambdaSchool/User-Interface/master/great-idea-website/img/logo.png");
+	width: 183px;
+	height: 36px;
+	
+  }
+  
+  #logo {
+	vertical-align: middle;
+	margin-left: 95px
+  }
+  
+  #Wowzer, #Wowzer2{
+	margin-top: 70x;
+	margin-bottom: 75px;
+	display: flex;
+  }
+  
+  .innovation {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 300px;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 65px;
+	vertical-align: top;
+	line-height: 0.85;
+  }
+  
+  #Wowzer2 .services{
+	display:inline-block;
+	text-align: center;
+	line-height: 0.85;
+	vertical-align: middle;
+	display: table-cell;
+	
+  }
+  
+  h1{
+	font-size: 70px;
+  }
+  
+  .get-started{
+	
+	border: 1px solid black;
+	padding: 10px 0px;
+	margin-top: 10px;
+	width:173 px
+  }
+  
+  .consulting{
+	display:inline-block;
+	margin-left:100px; 
+	overflow: hidden;
+	height: 260px;
+  }
+  
+  img.code{
+	width: 50px;
+	height: auto;
+  }
+  
+  .code-snippet {
+	display: flex;
+	margin-left: 120px;
+	width: 379px;
+	height: 379px;
+	background-image: url("https://raw.githubusercontent.com/LambdaSchool/User-Interface/master/great-idea-website/img/header-img.png")
+	 
+  }
+  
+  main, footer, #Wowzer2 {
+	margin-left: 75px;
+	margin-right: 75px;
+	
+  }
+  
+  section {
+	display: block;
+  }
+  
+  p, .features, .about, h2, .services, .product, .vision {
+	display: flex;
+	flex-direction: column;
+	vertical-align: top;
+  }
+  .features {
+	width: 425px;
+  }
+  
+  .about{
+	width: 425px;
+	margin-left: 22px;
+  }
+  
+  .top-section, .bottom-section {
+	display: flex;
+	flex-direction: row;
+  }
+  
+  section h2 {
+	display: block;
+  }
+  
+  div.text {
+	display:inline-block;
+	vertical-align: top;
+  }
+  
+  .text p {
+	width: 350px;
+  }
+  
+  .top-section .architecture .text {
+	margin-right: 50px;
+	
+  }
+  
+  .bottom-section .scaling .text {
+	margin-left: 50px;
+  }
+  
+  .top-section{
+	  border-top: 1px solid black;
+	  margin-bottom: 39px;
+	  padding-top: 39px;
+  }
+
+  .bottom-section {
+	margin-top: 41px;
+	padding-bottom: 48px;
+	border-bottom: 1px solid black;
+	margin-bottom: 39px;
+  }
+  
+  .services {
+	width: 275px;
+  }
+  
+  .product {
+	width: 275px;
+	margin-left: 23px;
+  }
+  
+  .vision {
+	width: 275px;
+	margin-left: 24px;
+  }
+  
+  small {
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	margin-top: 56px;
+	margin-bottom: 114px;
+	  
+  }
