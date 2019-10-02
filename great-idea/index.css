@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+
+/*header*/
+header{
+	display: flex;
+}
+nav {
+	display:flex;
+}
+header nav {
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+}
+  
+  header nav a{
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover{
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child{
+	margin-left: 0;
+  }
+  
+  header nav a:last-child{
+	margin-right: 0;
+  }
+  
+  header .logo{
+	align-self: flex-start;
+	margin-bottom: 20px;
+  }
+
+/*main content*/
+.top-services{
+	border-bottom: 2px solid black;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px 0;
+}
+h1{
+	font-weight: 400;
+	font-size: 30px;
+}
+.all{
+	display: flex;
+	flex-flow: row wrap;
+}
+.two-cubes{
+	display:flex;
+	align-content: space-around;
+	justify-content: space-evenly;
+
+}
+.cube{
+ border: 1px solid black;
+ padding:15px;
+ margin: 20px;
+ background-color: rgb(226, 226, 226);
+}
+button{
+	background: white;
+  vertical-align: top;
+  margin-top: 15px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/*footer*/
+footer{
+
+	margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
+.footer-box{
+	border-top:2px solid black;
+	display:flex;
+	padding-top:20px;
+	margin-top: 20px;
+}
+li:before{
+	content: '•';
+	padding-right:5px;
+}
+.facts{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+	
+
