@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+  height: 100%;
 	font-family: 'Titillium Web', sans-serif;
 }
 
@@ -65,19 +65,11 @@ h1, h2, h3, h4, h5 {
 .logo {
 	width: 120%; 
 }
-header nav {
-	display: flex;
-	justify-content:center;
-}
 nav a {
 	margin: 30px;
 	font-size: 15px;
 	text-decoration: none;
 	color:grey;
-}
-.innovation{
-	display: flex;
-	justify-content:center;
 }
 .image-header{
 	margin-left: 200px;
@@ -110,7 +102,6 @@ nav a {
 }
 .middle-img {
 	margin-top: 50px;
-	margin-left: 150px;
 	margin-bottom: 50px
 }
 #services {
@@ -140,6 +131,9 @@ hr {
 #contact{
 	margin-top: 50px;
 	margin-left: 100px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
 }
 footer{
 	display: flex;
@@ -148,7 +142,6 @@ footer{
 	margin-bottom: 20px;
 }
 .services-header-img {
-	margin-left: 150px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
