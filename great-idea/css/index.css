@@ -111,8 +111,14 @@ h1{
 	justify-content: end; 
 }
 
+
 .topText {
 	display: flex; 
-	width: 47%; 
-	/*where I left off.  Was about to make a row of two paragraphs on feature and about.*/
+	border: 2px black solid; 
+	border-style: solid hidden hidden hidden; 
+	border-spacing: 20px; 
+	justify-content: space-evenly; 
+	padding: 5px; 
+	width: 80%; 
+	margin: 20px;
 }
