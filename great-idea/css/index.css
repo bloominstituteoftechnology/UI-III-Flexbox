@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol {
 	list-style: none;
 }
 blockquote, q {
@@ -63,4 +63,130 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+
+.container {
+	width: 1100px;
+	margin: 40px auto;
+}
+nav a {
+	color: gray;
+	text-decoration: none;
+}
+
+.top__row {	
+	display: flex;
+	justify-content: space-around; 		
+}
+.Hero__left {
+	display: flex;
+	justify-content: space-around;
+	padding: 40px;	
+}
+.Hero__left h1 {
+	text-align: center;
+	font-size: 85px;
+}
+.Hero__left h3 {
+	border: 1px solid black;
+	width: 30%;
+	padding: 5px;
+	text-align: center;
+	margin-left: 120px;
+}
+.firstSection {
+	display: flex;
+	padding: 20px;
+	border-top: 1px solid black;
+}
+.middle-img {
+	width:100%
+}
+ .secondSection {
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+	border-bottom: 1px solid black;
+}
+
+.contact {
+	margin-top: 32px;
+}
+
+footer, .push {
+	text-align: center;
+	height: 50px;
+} 
+
+ /* === This is the second page === */
+
+.services-header-img {
+	width:100%;
+	padding-top: 20px;
+}
+.services h1 {
+	font-size: 30px;
+}
+.services{
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+	width: 100%;
+}
+.row {
+	display: flex; 
+	width: 100%;
+	justify-content: space-between;	
+	justify-content: space-around;
+	margin-top: 37px;
+	margin-bottom: 37px;		
+}
+.box {
+	width: 46%;
+	border: 1px solid black;
+	padding: 16px;
+	background-color: #f1eded;
+	height: 275px;
+}
+.button__1 {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 30%;
+	text-align: center;
+	padding: 8px 10px;
+	font-size: 13px;
+	background-color: white;
+	margin-top: 93px;	
+}
+
+.bottom__section {
+	width: 100%;
+	display: flex;
+	border-top: 1px solid black;
+	padding-top: 36px;
+}
+.SFAOS {
+	width: 46%;
+	margin: 0px 91px 0 21px;
+}
+
+.SFAOS h3 {
+	font-size: 19px;
+}
+footer {
+	padding-top: 50px; 
+}
+.list li {
+	margin-bottom: 14px;
+}
+
+.logo {
+	margin-right: -46px;
+}
+
+
+	
+		
+
