@@ -1,0 +1,48 @@
+.top-header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-header nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 0 10px;
+}
+
+.top-header nav a:hover {
+	text-decoration: none;
+	color: greenyellow;
+	
+}
+
+.services-header-img {
+	text-align: center;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.main-content .content {
+    width: 40%;
+    
+	border: 1px solid black;
+	margin: 15px 0;
+	background: lightgray;
+}
+
+
+.bottom-content{
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+.bottom-content section {
+	width: 40%;
+}
+
+footer {
+	text-align: center;
+	margin: 20px 0;
+}
