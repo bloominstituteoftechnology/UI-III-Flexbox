@@ -79,6 +79,7 @@ nav{
 	justify-content: space-around;
 	align-items: center;
 	position: fixed;
+	left: 0%;
 	
 	top: 0%;
 	background-color: white;
@@ -88,7 +89,9 @@ nav a{
 	text-decoration: none;
 	color: gray;
 	padding: 1%;
-	border-radius: 35%
+	border-radius: 35%;
+	
+	
 }
 nav a:hover{
 	background-color:gray;
