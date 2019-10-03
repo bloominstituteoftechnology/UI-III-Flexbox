@@ -196,25 +196,34 @@ address {
 /*--services--*/
 
 .p2wrapper {
-	border: 1px solid black;
-	margin: 0px;
+	/*border: 1px solid black;
+	margin: 0px;*/
 	display: flex;
+	/*justify-content:*/
+	width: 900px;
+	justify-content:wrap;
 
 }
-.p2wrapper .p2{
+/*.p2wrapper */
+.p2{
 	box-sizing: border-box;
 	border: 1px solid black;
 	width: 420px;
+	height:300px;
 	background-color: whitesmoke;
+	/*display: flex-wrap;*/
+	margin: 20
+	
 }
 
 .learn {
 	/*display: block;*/
 	background-color: white;
 	font-size: 12px;
-	padding: 3px 20px;
+	padding: 10px; 20px;
 	text-decoration: none;
 	border: 1px solid black;
-	margin: 20px auto;
+	margin: 20px;
+	border-radius: 5px;
 	/*font-family: 'Titillium Web';*/
 	
