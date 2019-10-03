@@ -76,12 +76,17 @@ nav {
 	align-content: flex-start;  
 }
 
+.firstSection{
+	display: flex; 
+	justify-content: space-evenly; 
+}
+
 .intro {
 	display: flex; 
 	font-size: 70px;  
 	align-items: center; 
 	justify-content: center; 
-	border: solid 5px red; 
+	flex-direction: column; 
 
 } 
 
@@ -90,14 +95,18 @@ h1{
 }
 
 .button {
-	border: solid 2px black;
+	border: solid 1px black;
 	padding: 2px; 
 	background: white; 
 	color: black; 
 	display: flex; 
-	align-content: flex-end; 
+	align-content: center; 
 	font-size: 24px; 
 	width: 170px; 
 	flex-flow: column wrap;  
 }
 
+.topImage {  
+	align-items: center; 
+	justify-content: end; 
+}
