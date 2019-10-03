@@ -196,14 +196,16 @@ h1{
 
   .content_1_inner_right_box {
   
-    border: 2px solid black;
-    align-items: center;
+    border: 2px solid red;
     background-color: rgba(242, 244, 246, 0.986);
     justify-content: center;
-    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 250px;
     margin: 1%;
     width: 47.8%;
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .content_2{
