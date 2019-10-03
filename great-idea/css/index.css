@@ -231,6 +231,7 @@ nav {
 .foot-item{
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 	height:400px;
 	width:45%;
 	padding: 15px;
@@ -240,4 +241,6 @@ nav {
 height: 400px;
 width: 48%;
 }
-
+ul{
+	list-style-type: square;
+}
