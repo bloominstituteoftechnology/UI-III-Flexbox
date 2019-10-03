@@ -64,3 +64,172 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+header nav{
+	display:inline-block;
+	margin-top: 35px;
+}
+
+header nav a{
+	margin: 0 20px;
+	text-decoration: none;
+	color: gray;
+}
+
+header .logo{
+	margin-left: 140px;
+}
+
+.iod{
+	display:inline-block;
+	margin-top: 30px;
+	position: relative;
+}
+
+.iod .code{
+	margin-left: 450px;
+	top:-70px;
+	position: relative;
+		top: 0px;
+}
+
+.iod-text{
+	text-align: center;
+	/* font-size: 52pt; */
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+}
+h1{
+	font-size: 52pt;
+}
+
+.iod .iod-text p#gslink{
+	border: 1px solid grey;
+    width: 109px;
+    padding: 3px;
+    color: lightslategrey;
+    margin-left: 84px;
+    margin-top: -5px;
+}
+.upper-content{
+	border-top: 1px solid gray;
+}
+
+.content{
+	display:inline-block;
+	position: relative;
+	margin: 13px;
+}
+.upper-content .ftext p{
+	width: 40%;
+}
+
+.upper-content .atext p{
+	width:40%;
+	position: absolute;
+	top:45px;
+	left: 450px;
+}
+
+.upper-content .atext h4{
+	position:absolute;
+	top:20px;
+	left: 450px;
+}
+
+.middle-img{
+	display:inline-block;
+	position: relative;
+
+}
+.upper-content div{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.lower-content{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.lower-content .text{
+	display:inline-block;
+	width:33%;
+
+}
+
+.contact{
+	display: inline-block;
+	width:95%;
+	border-top:1px solid grey;
+	margin: 10px;
+}
+
+.contact h4{
+	margin-top: 30px;
+}
+
+.contact p{
+	margin-bottom: 12px;
+}
+footer{
+	display:flex;
+	justify-content: center;
+}
+.services{
+	width: 95%;
+	margin:5px;
+}
+body .services-header-img{
+	display:flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left: 9px;
+
+}
+/* body{
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+} */
+.box{
+	width: 50%;
+	padding: 10px;
+	/* border: 2px solid darkgray;
+	background-color: grey; */
+	display:flex;
+	justify-content: space-evenly;
+	/* flex-wrap: wrap; */
+}
+.box1{
+	align-self:auto;
+	border: 2px solid darkgray;
+	background-color: lightgray;
+}
+.box2{
+	border: 2px solid darkgray;
+	background-color: lightgray;
+}
+.box3{
+	border: 2px solid darkgray;
+	background-color: lightgray;
+}
+.box4{
+	border: 2px solid darkgray;
+	background-color: lightgray;
+}
+.box5{
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	
+}
+.box6{
+	border: 2px solid darkgray;
+	background-color: lightgray;
+}
