@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -16,41 +16,39 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
+
 
 html, body {
     height: 100%;
@@ -63,4 +61,158 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 1300px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+header{
+  display: flex;
+  padding: 30px;
+ 
+  
+}
+
+header nav {
+
+ width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav a {
+  display: flex;
+  margin-right: 40px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: center;
+}
+
+header nav a:hover {
+  text-decoration: none;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  display: flex;
+  justify-content: end;
+  
+  
+}
+
+/* cta */
+.cta {
+  display: flex;
+  justify-content: center
+}
+
+.cta .cta-text {
+  display: flex;
+  flex-direction: column;
+  
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 25px;
+  width: 45%;
+}
+
+.cta .cta-text button {
+  display: flex;
+  justify-content: center;
+  background: white;
+  
+  
+  padding: 8px 200px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  display: flex;
+  padding: 100px;
+  width: 50%;
+  justify-content: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+  padding: 50px;
+  
+ 
+}
+
+.main-content .top-content {
+  display:flex;
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  display: flex;
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  display: flex;
+  margin: 32px 0;
+  justify-content: center;
+  font-size: 14px;
+}  
