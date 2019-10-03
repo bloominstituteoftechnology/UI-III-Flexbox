@@ -64,3 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* BEGIN CODE FROM PROJECT 2 */
+
+/* *{
+	box-sizing:border-box; 
+	padding:0;
+	margin:0;
+	max-width:100%; 
+  } */
+
+.container{
+
+	width: 800px;
+	padding: 20px;
+	margin: auto;
+}
+ 
+.navigation a
+{
+    text-decoration: none;
+	color: rgb(154,153,153);
+	padding: 20px; 
+	display: inline-flex;
+	text-align: center;
+
+	/* flex-direction: column;
+	justify-content:space-evenly;
+	text-align: center; */
+}
+
+/* .logo img{
+	max-width:100%; */
+
+header{
+
+	display:flex;
+	font-size: 60px;
+	padding: 20px;
+	font-size: 60px;
+	margin-left: 50px;
+	margin-top: 80px;
+	text-align: center; */
+}
+.header-img{
+
+    margin-left: 380px;
+	margin-top: -320px;
+}
+
+.btn{
+
+border: 1px solid black;
+width: 15%;
+margin-left: 125px;
+text-align: center;
+}
+
+.solidline{
+border-top: 2px solid black;
+}
+
+.top-a {
+
+	display:inline-block;
+	padding:10px;
+	width:49%;
+  }
+
+  .middle-img{
+	padding:25px;
+	margin-left: -20px;
+	width: 780px;
+	
+  }
+
+  .top-b {
+
+	display:inline-block;
+	padding:10px;
+	width:33%;
+  }
+.contact{
+	padding:10px;
+}
+  footer{
+	text-align: center;
+  }
+  
+  /* END CODE FROM PROJECT 2 */
