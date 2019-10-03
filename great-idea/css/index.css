@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
+
+
  
 .container{
     width: 1000px;
@@ -88,17 +91,18 @@ header nav a{
 }
  
 .head2{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid;
     margin-top: 50px;
     margin-bottom: 40px;
 }
  
 .head2 .div{
-    display: inline-block;
+    display: flex;
     width: 48%;
 }
 .head2 .innovation p{
-    display: inline-block;
+	display: flex;
+	justify-content:center;
     width: 150px;
     height: 40px;
     border: 1px solid gray;
@@ -114,27 +118,39 @@ header nav a{
 }
  
 .innovation, .circlelogo{
-    display: inline-block;
+	display: inline-block;
+	flex-direction:column;
     width:48%;
 }
 .button{
-    display: inline-block;
+    display: flex;
     text-align: center;
 }
-.content{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+.content{ 
+	display:flex;
+	flex-wrap:wrap;
+	
+		
 }
- 
-.feature, .about{
-    display: inline-block;
-    width: 48%;
- 
+
+.FeatureAbout  {
+	display:flex;
+	flex-direction: row;
+	
+	
 }
- 
-.services, .product, .vision{
-    display: inline-block;
-    width: 33%;
+
+.middle image{
+	margin-top: 500px;
+	padding: 10px 10px 10px 10px;
+}
+.ServiceProductVision{
+	display:flex;
+	justify-content: space-around;
+	width: 100;
+	height: auto;
+	margin-top: 50px;
+	padding: 10px 10px 10px 10px;
 }
  
  
