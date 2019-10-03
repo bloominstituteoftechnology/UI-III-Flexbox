@@ -162,6 +162,9 @@ body {
 	line-height: 35px;
 	width: 100%;
 	border: 4px solid white
+	display:flex;
+	justify-content: center;
+
 }
 
 /*.PageWrapper {
@@ -179,7 +182,7 @@ header {*/
 
 .Navbar {
 	display: flex;
-	position: fixed;
+
 
 
 	padding: 0px;
@@ -211,6 +214,7 @@ nav a {
 	margin-bottom: 0px;
 	padding-bottom: 15px;
 	padding-right: 30px;
+	
 
 }
 
@@ -238,6 +242,7 @@ header .logo {
 	display: flex;
 	font-size: 50px;
 	justify-content: space-between;
+	border-bottom: solid black;
 
 }
 
@@ -287,6 +292,11 @@ header .logo {
 	display: flex;
 	justify-content: space-between;
 	text-size: 16px;
+	
+	padding-bottom:20px;
+
+	
+
 }
 
 h3 {
@@ -296,12 +306,16 @@ h3 {
 	align-content: center;
 	margin-top: 40px;
 	flex-wrap: wrap;
+	
+	
 
 
 
 }
 
-.p {}
+.p {
+
+}
 
 /*.About1	.Feature1{*/
 
@@ -314,9 +328,11 @@ h3 {
 
 
 .middle-img {
-	margin-top: 50px;
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-top: solid black;
+
+	width:100%;
 }
 
 /*
@@ -335,7 +351,10 @@ h3 {
 .ContactUs {
 	margin-top: 60px;
 	padding: 40px 15px 0;
-	border-top: 57px;
+	border-top: solid black;
+	
+	
+
 }
 
 
