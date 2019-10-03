@@ -140,3 +140,39 @@ footer {
 	text-align: center;
 	margin: 20px 10px;
 }
+
+.box {
+	background-color: #e6e3e3;
+	padding: 10px 20px;
+	margin: 10px 20px;
+}
+
+.services-header-img {
+	margin: 20px 0;
+}
+
+.border-top {
+	display: block;
+		height: 1px;
+		border: 0;
+		border-top: 3px solid lightgray;
+		margin: 1em 0;
+		padding: 0;
+}
+
+.services-button {
+	margin: 10px 0;
+}
+
+.border-bottom {
+	display: block;
+		height: 1px;
+		border: 0;
+		border-top: 5px solid gray;
+		margin: 1em 0;
+		padding: 0;
+}
+
+.services-info-img {
+	height: 80%;
+}
