@@ -184,7 +184,8 @@ footer{
 }
 .services{
 	width: 95%;
-	margin:5px;
+	margin:10px;
+	/* border-bottom: 1px solid black;*/
 }
 body .services-header-img{
 	display:flex;
@@ -198,8 +199,28 @@ body .services-header-img{
 	margin: auto;
 	border: 1px solid red;
 } */
-.box{
-	width: 50%;
+.boxContainer{
+	/* width: 45%;*/
+	border-top: 1px solid gray;
+	border-width: 95%;
+	padding: 10px;
+	/* border: 2px solid darkgray;
+	background-color: grey; */
+	display:flex;
+	justify-content: space-evenly;
+	/* flex-wrap: wrap; */
+}
+.boxContainer2{
+	/* width: 45%; */
+	padding: 10px;
+	/* border: 2px solid darkgray;
+	background-color: grey; */
+	display:flex;
+	justify-content: space-evenly;
+	/* flex-wrap: wrap; */
+}
+.boxContainer3{
+	/* width: 45%;*/
 	padding: 10px;
 	/* border: 2px solid darkgray;
 	background-color: grey; */
@@ -209,27 +230,73 @@ body .services-header-img{
 }
 .box1{
 	align-self:auto;
+	flex-direction: column;
 	border: 2px solid darkgray;
 	background-color: lightgray;
+	margin:20px;
 }
 .box2{
+	flex-direction: column;
 	border: 2px solid darkgray;
 	background-color: lightgray;
+	margin:20px;
 }
 .box3{
+	flex-direction: column;
 	border: 2px solid darkgray;
 	background-color: lightgray;
+	margin:20px;
 }
 .box4{
+	flex-direction: column;
 	border: 2px solid darkgray;
 	background-color: lightgray;
+	margin: 20px;
 }
 .box5{
+	flex-direction: column;
 	border: 2px solid darkgray;
 	background-color: lightgray;
+	margin:20px;
 	
 }
 .box6{
+	flex-direction: column;
 	border: 2px solid darkgray;
 	background-color: lightgray;
+	margin:20px;
+}
+
+.learn{
+	border: 1px solid grey;
+	background-color: white;
+	text-align: center;
+	width: 100px;
+	margin-top:5px;
+    padding: 3px;
+	color: lightslategrey;
+	font-family: 'Lucida Sans', sans-serif;
+}
+.debrief{
+	display: flex;
+	justify-content: space-evenly;
+	border-top: 1px solid gray;
+}
+.closing{
+	margin: 10px;
+	flex-direction: column;
+	width: 38%;
+}
+#closelist{
+	margin: 10px;
+	list-style-type: disc;
+
+}
+
+.services-info-img{
+	justify-content: end;
+	max-width:80%;
+	height: auto;
+	margin-left: 85px;
+	margin-top: 10px;
 }
