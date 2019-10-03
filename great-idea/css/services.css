@@ -181,4 +181,41 @@ ul{
 	 margin: 50px;
 	 text-align: center;
 	
+
  }
+
+ .product-header{
+	 display: flex;
+	 flex-direction: row;
+	
+ }
+ .product-headerDiv{
+	 width: 45%;
+	 align-self: center;
+ }
+
+ .section__productDiv{
+	 overflow: hidden;
+	 margin-top: 20px;
+
+ }
+
+ 
+.product-img{
+    
+    transition: transform 0.5s;
+ 
+}
+
+.product-img:hover{
+    transform: scale(2.0);
+}
+
+.product-btn-2{
+	margin-top: 100px;
+}
+.product-footer{
+	overflow: hidden;
+	width: 40%;
+	height: 300px;
+}
