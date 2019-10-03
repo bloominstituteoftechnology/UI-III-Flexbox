@@ -46,14 +46,18 @@
 	display: flex;
 	padding-top: 40px;
 	margin-bottom: 100px;
+	justify-content: space-evenly;
+
 }
 
 .factsContainer {
 	padding-right: 40px;
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
 	margin-right: 55px;
 	line-height: 1.8;
+
 }
 
 .factsContainer ul {
