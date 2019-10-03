@@ -73,77 +73,79 @@ h1, h2, h3, h4, h5 {
 .headercss {
 	display: flex;
 	justify-content: space-around;
-	margin: 5vh;
+    margin: 5vh;
+    
 }
 
 .headercss nav {
 	display: flex;
 	justify-content: space-between;
 	width: 75%;
-	padding-right: 7%;
+    padding-right: 7%;
+    
 }
 
-header {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 8%;
-	align-items: center;
-	border-bottom: 1px solid grey;
-	padding-bottom: 15%;
+.top-content {
+    border-bottom: 1px solid grey;
+    margin-bottom: 5vh;
+}
+.top-content h2 {
+    font-size: 150%;
 }
 
-.innovation h1{
-	text-align: center;
-	font-size: 470%;
-	margin-top : 20%;
-	align-items: center;
-	
-}
-.innovation-img {
-	padding-left: 10%;
+.top-content div {
+    margin: 5% auto;
 }
 
-.start-button {
-	width: 45%;
-	font-size: 90%;
-	align-items: center;
-	margin: 0 25%;
-	border-radius: 10px;
+.body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-bottom: 5%;
+    
 }
-.start-button:hover {
-	background: dodgerblue;
-}
-
-.main-text{
-	display: flex;
-}
-
-.main-text .text-area {
-	margin: 5% auto;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	padding: 0.5%;
-	
+.body .button {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 75%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width:30%;
+    padding: 2%;
+    
 }
 
-.middle-img {
-	max-width: 100%;
+.body .box1 {
+    border: 2px solid grey;
+    margin: 20px;
+    padding: 25px;
+    width: 45%;
 }
 
-.main-text .text-area2 {
-	margin: 5% auto;
-	justify-content: space-around;
-	padding: 0.3%;
+.bottom-content {
+    margin: 5% 0;
+    padding: 5% 0;
+    border-top: 1px solid grey;
+    display: flex;
+
 }
 
-.contact-info {
-	padding-top: 10%;
-	border-top: 1px solid grey;
+.bottom-content .box2 {
+    display: flex;
+    flex-flow: column wrap;
+    width: 49%;
 }
 
-.phone {
-	line-height: 2;
+.bottom-text {
+    margin-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+ul {
+    list-style-type: circle;
+    margin: 15px;
 }
 
 footer {
