@@ -3,64 +3,322 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Your code starts here! */
+h1 {
+  font-size: 80px;
+}
+.container {
+  margin: 0 auto;
+  width: 980px;
+}
+.navig {
+  display: flex;
+}
+nav {
+  display: flex;
+  width: 650px;
+  margin-top: 35px;
+  justify-content: space-between;
+}
+.container nav a {
+  text-decoration: none;
+  color: lightgrey;
+}
+.logo {
+  align-items: baseline;
+  margin: 20px 0px 0px 70px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.title div {
+  text-align: center;
+}
+.title div h1 {
+  width: 150%;
+  margin-top: 20%;
+  padding-right: 100px;
+}
+.title div p {
+  width: 190px;
+  border: 1px solid black;
+  margin: 20px 30px 100px 150px;
+  padding: 7px 20px 7px 20px;
+}
+
+.features {
+  display: flex;
+  border-top: 1px solid black;
+
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer {
+  padding-top: 30px;
+}
+
+footer div p {
+  text-align: center;
+  margin: 100px 0px 150px 0px;
+}
+.services {
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  width: 90%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.services div {
+  width: 30%;
+}
+
+/* SERVICES */
+
+.services-header-img {
+  margin-top: 30px;
+}
+.service-title {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 91%;
+}
+.service-title h2 {
+  font-size: 25px;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  width: 91%;
+  margin-top: 35px;
+  border-top: 1px solid black;
+  padding-top: 35px;
+}
+.row1 div {
+  background: #f2eeed;
+  border: 1px solid black;
+  width: 48%;
+  padding: 24px;
+}
+.row1 div button {
+  background: white;
+  border: 1px solid black;
+  margin-top: 20px;
+  width: 37%;
+  padding: 8px 0px 8px 0px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  width: 91%;
+  margin-top: 35px;
+}
+.row2 div {
+  background: #f2eeed;
+  border: 1px solid black;
+  width: 48%;
+  padding: 24px;
+}
+.row2 div button {
+  background: white;
+  border: 1px solid black;
+  margin-top: 20px;
+  width: 37%;
+  padding: 8px 0px 8px 0px;
+}
+
+.row3 {
+  display: flex;
+  justify-content: space-between;
+  width: 91%;
+  margin-top: 35px;
+  border-bottom: 1px solid black;
+  padding-bottom: 35px;
+}
+.row3 div {
+  background: #f2eeed;
+  border: 1px solid black;
+  width: 48%;
+  padding: 24px;
+}
+.row3 div button {
+  background: white;
+  border: 1px solid black;
+  margin-top: 20px;
+  width: 37%;
+  padding: 8px 0px 8px 0px;
+}
+.facts {
+  display: flex;
+  width: 91%;
+  margin-top: 35px;
+}
+.facts ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 35px;
+  height: 40%;
+  list-style-type: square;
+  list-style-position: inside;
+}
+.bot p {
+  text-align: center;
+  margin: 100px 0px 150px 0px;
+}
