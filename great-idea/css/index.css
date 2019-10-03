@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: ;
 }
 blockquote, q {
 	quotes: none;
@@ -64,3 +64,385 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+a {
+	display: flex;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: gray;
+}
+
+.logo {
+	padding: 10px 0 10px 30px;
+    margin-left: 20px;
+}
+
+.services-top-image {
+	display: flex;
+	padding: 5px 0 30px 0;
+}
+
+.banner {
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 1px solid black;
+	padding: 25px 0px;
+	margin-top: 50px;
+}
+
+nav {
+	
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+h1 {
+	display: flex;
+	width: auto;
+	margin: 0px;
+	
+}
+
+.iod {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-size: 70px;
+	font-family: 'Bangers', cursive;
+
+	text-align: center;
+}
+
+.getstarted {
+	background-color: white;
+	display: flex;
+	padding: 5px 30px 5px 30px;
+	margin: 15px;
+	font-size: 14px;
+}
+
+.top-image {
+	display: flex;
+	padding: 20px;
+	width: auto;
+	height: 379px;
+	position: relative;
+    right: -60px;
+    bottom: 50px;
+}
+
+.top-section {
+	display: flex;
+	justify-content: center;
+	padding: 30px 0px 10px 0px;
+	
+}
+
+.features {
+	
+	display: flex;
+	flex-direction: column;
+	height: 140px;
+	width: 49%;
+}
+
+.about {
+	
+	display: flex;
+	flex-direction: column;
+	height: 140px;
+	width: 49%;
+}
+
+.middle-img {
+	display: flex;
+	width: 900px;
+	height: 180px;
+}
+
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	padding: 50px 0px 30px 0px;
+	border-bottom: 1px solid black;
+}
+
+.services {
+	
+	display: flex;
+	flex-direction: column;
+	height: 140px;
+	width: 33%;
+}
+
+.product {
+	
+	display: flex;
+	flex-direction: column;
+	height: 140px;
+	width: 33%;
+}
+
+.vision {
+	
+	display: flex;
+	flex-direction: column;
+	height: 140px;
+	width: 33%;
+}
+
+.contact {
+	padding: 40px 0px;
+}
+
+.subtitle {
+	font-size: 30px;
+}
+
+.services-header-img {
+	width: 900px;
+}
+
+.services-top-section {
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+}
+
+.services-main-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	padding: 40px 0;
+
+}
+
+.digital-design {
+	background-color: lavender;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 0px 15px 15px 0px;
+	height: 250px;
+	width: 430px;
+}
+
+.h3dd {
+	margin: 10px 0 0 10px;
+}
+
+.stext1 {
+	padding: 0 10px 25px 0;
+    margin: 10px;
+}
+
+.lm1 {
+	background-color: white;
+	display: flex;
+	text-align: center;
+	height: 35px;
+	width: 124px;
+	padding: 5px 30px 5px 30px;
+	margin: 10px 0 10px 5px;
+	font-size: 12px;
+	border-radius: 6px;
+	border: 1px solid black;
+}
+
+.ux {
+	background-color: lavender;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 0 0 15px 15px;
+	height: 250px;
+	width: 430px;
+}
+
+.h3ux {
+	margin: 10px 0 0 10px;
+}
+
+.stext2 {
+	padding: 0 10px 25px 0;
+    margin: 10px;
+}
+
+.lm2 {
+	background-color: white;
+	display: flex;
+	text-align: center;
+	height: 35px;
+	width: 124px;
+	padding: 5px 30px 5px 30px;
+	margin: 10px 0 10px 5px;
+	font-size: 12px;
+	border-radius: 6px;
+	border: 1px solid black;
+}
+
+.digital-marketing {
+	background-color: lavender;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 25px 15px 25px 0;
+	height: 250px;
+	width: 430px;
+}
+
+.h3dm {
+	margin: 10px 0 0 10px;
+}
+
+.stext3 {
+	padding: 0 10px 25px 0;
+    margin: 10px;
+}
+
+.lm3 {
+	background-color: white;
+	display: flex;
+	text-align: center;
+	height: 35px;
+	width: 124px;
+	padding: 5px 30px 5px 30px;
+	margin: 10px 0 10px 5px;
+	font-size: 12px;
+	border-radius: 6px;
+	border: 1px solid black;
+}
+
+.web-dev {
+	background-color: lavender;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 25px 0 25px 15px;
+	height: 250px;
+	width: 430px;
+}
+
+.h3wd {
+	margin: 10px 0 0 10px;
+}
+
+.stext4 {
+	padding: 0 10px 25px 0;
+    margin: 10px;
+}
+
+.lm4 {
+	background-color: white;
+	display: flex;
+	text-align: center;
+	height: 35px;
+	width: 124px;
+	padding: 5px 30px 5px 30px;
+	margin: 10px 0 10px 5px;
+	font-size: 12px;
+	border-radius: 6px;
+	border: 1px solid black;
+}
+
+.ios {
+	background-color: lavender;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 15px 15px 0 0;
+	height: 250px;
+	width: 430px;
+}
+
+.h3ios {
+	margin: 10px 0 0 10px;
+}
+
+.stext5 {
+	padding: 0 10px 25px 0;
+    margin: 10px;
+}
+
+.lm5 {
+	background-color: white;
+	display: flex;
+	text-align: center;
+	height: 35px;
+	width: 124px;
+	padding: 5px 30px 5px 30px;
+	margin: 10px 0 10px 5px;
+	font-size: 12px;
+	border-radius: 6px;
+	border: 1px solid black;
+}
+
+.android {
+	background-color: lavender;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 15px 0px 0px 15px;
+	height: 250px;
+	width: 430px;
+}
+
+.h3ad {
+	margin: 10px 0 0 10px;
+}
+
+.stext6 {
+	padding: 0 10px 25px 0;
+    margin: 10px;
+}
+
+.lm6 {
+	background-color: white;
+	display: flex;
+	text-align: center;
+	height: 35px;
+	width: 124px;
+	padding: 5px 30px 5px 30px;
+	margin: 10px 0 10px 5px;
+	font-size: 12px;
+	border-radius: 6px;
+	border: 1px solid black;
+}
+
+.services-bottom-section {
+	display: flex;
+	
+	justify-content: space-between;
+    margin: 40px 0 80px 0;
+	height: auto;
+}
+
+.test {
+	display: flex;
+	flex-direction: column;
+}
+
+.facts {
+	width: 430px;
+	margin-bottom: 10px;
+}
+.list {
+	
+	list-style-type: square;
+	align-items: space-between;
+}
+
+.services-info-img {
+	width: 430px;
+}
+
+footer {
+	text-align: center;
+	padding: 0px 0px 100px 0px;
+}
