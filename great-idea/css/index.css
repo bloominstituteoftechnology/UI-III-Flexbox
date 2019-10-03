@@ -159,122 +159,167 @@ h5 {
 
 /*Navbar*/
 body {
-	line-height: 3px;
+	line-height: 35px;
 	width: 100%;
+	border: 4px solid white
 }
 
-.PageWrapper {
+/*.PageWrapper {
+	width:50%;
+
+	
+}
+
+header {*/
+
+
+
+
+/*justify-content:space-around;*/
+
+.Navbar {
 	display: flex;
+	position: fixed;
+
+
+	padding: 0px;
+	height: 24px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
 }
-
-header {
-	display: flex;
-
-	width: 80%;
-
-	padding: 20px;
-}
-
-.Navbar {}
 
 nav a {
-	width: 50px;
-	height: 40px;
+	justify-content: flex-start;
+	width: 70px;
+	height: 20px;
 	background: white;
-	margin: 50px;
+	margin: 30px;
+
+	color: gray;
+	font-size: 16px margin-right:15px;
 }
 
 
 .GreatIdeaLogo {
 	display: flex;
 	justify-content: flex-end;
+	align-items: flex-start;
+	margin-top: 12px;
+	margin-left: px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+	padding-right: 30px;
+
 }
 
-margin-right:25vg;
-
-
-
+/*margin-right:25vg;*/
 
 .logo {
-	align-items: center;
+	align-items: flex-start;
 	width: 14%;
 	margin: 70vg;
 }
 
-
-
-
-.Navbar {
-	list-style-type: none;
-	padding: 0px;
-	height: 24px;
-	margin-top: 3px;
-	margin-bottom: 30px;
-	margin-right: 20px;
-
-}
-
-header nav a {
+/*header nav a {
 	color: gray;
 	font-size: 16px margin-right:15px;
-}
+}*/
 
 
-header .logo
-
-/*margin must align vertically*/
-	{
-	margin-top: 30px;
+header .logo {
+	margin-top: 0px;
 }
 
 
 .MainElement {
 	width: 100%;
 	display: flex;
-	
+	font-size: 50px;
+	justify-content: space-between;
 
-	.TopElement {
-		display:flex
-		font-size: 50px;
-		/*justify-content: space-around;*/
-	}
+}
 
-		 .MainElementButton {
-			justify-content:flex-end;
-			font-family: 'Bangers', cursive;
-			font-size: 16px;
-			background: white;
-			vertical-align: top;
-			border: 1px solid grey;
-			padding: 10px 50px;
+.TopElement {
+	display: flex height:65px;
+	margin: 60px;
+	margin-right: 40px;
+	padding: 60px;
+	text-align: center;
+
+}
 
 
 
 
+/*font-size: 50px;
+		background-color:green;*/
 
 
 
-			/*border bottom separator*/
-			.InfoRow1 {
-				border-top: 2px solid black;
-				padding-top: 40px;
-				margin-top: 75px;
-			}
 
-			.InfowRow1 .infobox {
-				padding: 0 10px;
-			}
+.StartButton {
+	font-family: 'Bangers', cursive;
+	font-size: 16px;
 
-			.InfowRow1 .infobox .infobox1 {
-				width: 500px;
-				margin-right: 40px;
-				display: inline-block;
-			}
+	border: 1px solid white;
+	height: 1px;
 
-			.InfowRow1 .middle-img {
-				margin-top: 50px;
-			}
 
+
+}
+
+
+.CirclePicture {
+	padding: 0 40px;
+	margin-top: 40px;
+
+}
+
+
+
+
+
+/*border bottom separator
+			flex-wrap: wrap;*/
+.container {
+	display: flex;
+	justify-content: space-between;
+	text-size: 16px;
+}
+
+h3 {
+
+	padding: 0 10px;
+	flex-direction: column;
+	align-content: center;
+	margin-top: 40px;
+	flex-wrap: wrap;
+
+
+
+}
+
+.p {}
+
+/*.About1	.Feature1{*/
+
+
+
+
+
+
+
+
+
+.middle-img {
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+/*
 			.InfoRow2 .infobox2 {
 				padding: 0 10px;
 				margin-top: 40px;
@@ -282,22 +327,22 @@ header .logo
 			}
 
 			.InfoRow2 .infobox2 .infobox {
-				display: inline-block;
+				
 				width: 300px;
-				margin-right: 15px;
-			}
+				margin-right: 15px;*/
 
-			address {
-				margin-top: 60px;
-				padding: 40px 15px 0;
-				border-top: 57px;
 
-				address p {
-					margin 25px 0;
-				}
+.ContactUs {
+	margin-top: 60px;
+	padding: 40px 15px 0;
+	border-top: 57px;
+}
 
-				footer {
-					margin: 35px 0;
-					font-size: 16px;
-					text-align: center;
-				}
+
+
+
+footer {
+	margin: 35px 0;
+	font-size: 16px;
+	text-align: center;
+}
