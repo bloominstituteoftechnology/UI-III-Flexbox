@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.firstContainer{
+	display:flex;
+	flex-direction: row;
+	width: 80%;
+	height: auto;
+	justify-content: center;
+	margin-top: 50px;
+	padding: 10px 10px 10px 10px;
+}
+.firstContainerSectionOne{
+	width: 400px;
+	height: auto
+	
+}
+.firstContainerSectionTwo{
+	width: 400px;
+	height: auto
+}
+.toptext{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.bottomtext{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	margin:30px;
+}
+.topTextOne{
+	width: 400px;
+	height: auto;
+}
+.bottomTextOne{
+	width: 400px;
+	height: auto;
+}
+a{
+	display: block;
+	color: grey;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	float: left;
+	margin-right: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	}
+	.middle-img{
+		width:90%;
+		height:auto;
+		margin: 40px; 
+	}
+.firstRow{
+	width: 50%;
+	height: auto;
+	font-size: 50px;
+	text-align: center;
+	float: left;
+}
+.container{
+	width: 100%;
+	height: 400px;
+
+}
+.features{
+	width: 50%;
+	height: auto;
+	text-align: center;
+	float: left;
+	margin-bottom: 20px;
+}
+.bottomContent{
+	width: 50%;
+	height: auto;
+	text-align: center;
+	float: right;
+	margin-bottom: 20px;
+}
+.middle-img{
+	width: 100%;
+	height: auto;
+}
+.bottomContent{
+	width: 100%;
+	height:auto;
+	display: block;
+	text-align: left;
+	padding: 16px;
+	float: left;
+}
+
+.services {
+		display: inline-block;
+		width: 33%;
+		height: auto;
+}
