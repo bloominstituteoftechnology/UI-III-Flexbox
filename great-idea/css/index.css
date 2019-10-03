@@ -109,9 +109,9 @@ body {
 	line-height: 1;
 }
 ol,
-ul {
+/* ul {
 	list-style: none;
-}
+} */
 blockquote,
 q {
 	quotes: none;
@@ -240,32 +240,28 @@ footer p {
 	align-items: center;
 	background-color: rgb(239, 240, 241);
 }
-.button {
+button {
 	display: flex;
 	align-content: left;
-
-	.finalpart {
-		width: 880px;
-		margin: auto;
-		justify-content: space-around;
-	}
+	border-radius: 5px;
 }
-.finalpart  {
+.finalpart {
 	display: flex;
-	width: 45%;
-
+	width: 100%;
 	flex-direction: row;
-	flex-wrap: wrap;
+
 	padding: 2%;
-	justify-content: left;
+	justify-content: space-between;
 }
 
-}
 .copyright {
 	display: flex;
 	justify-content: center;
 }
-.facts{
-	margin-top:5%
-	margin-bottom:5%;
+.facts {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+* {
+	border: 1px solid black;
 }
