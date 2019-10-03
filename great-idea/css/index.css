@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,22 +92,35 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
 	content: none;
 }
 table {
@@ -49,18 +130,142 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Bangers", cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 880px;
+	margin: auto;
+}
+header {
+	display: flex;
+	width: 100%;
+}
+header nav {
+	display: flex;
+	justify-content: space-between;
+	width: 600px;
+	margin-top: 15px;
+	margin-right: 100px;
+}
+a {
+	text-decoration: none;
+	color: gray;
+}
+/* This part is the second part with innovation*/
+.cta {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	width: 100%;
+	padding: 30px;
+}
+h1 {
+	font-size: 80px;
+	text-align: center;
+	margin-top: 30px;
+}
+button {
+	margin-left: 30%;
+}
+
+/*This is the main content with features and about*/
+.main-content .top-content {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*This part is the Service, Product and Vision*/
+.bottom-content {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	justify-content: left;
+}
+footer p {
+	text-align: center;
+}
+
+/*This starts the service design page*/
+.vessel {
+	width: 880px;
+	margin: auto;
+}
+
+.secondpage {
+	display: flex;
+	width: 880px;
+	justify-content: space-between;
+}
+.vessel .secondpage .links {
+	display: flex;
+	justify-content: space-between;
+	width: 600px;
+	margin-top: 15px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+.middle {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 2%;
+	justify-content: space-around;
+}
+.one {
+	border: 1px solid black;
+	padding: 2%;
+	height: 200px;
+	width: 45%;
+	margin-top: 5%;
+	align-items: center;
+	background-color: rgb(239, 240, 241);
+}
+.button {
+	display: flex;
+	align-content: left;
+
+	.finalpart {
+		width: 880px;
+		margin: auto;
+		justify-content: space-around;
+	}
+}
+.finalpart  {
+	display: flex;
+	width: 45%;
+
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 2%;
+	justify-content: left;
+}
+
+}
+.copyright {
+	display: flex;
+	justify-content: center;
+}
+.facts{
+	margin-top:5%
+	margin-bottom:5%;
+}
