@@ -1,0 +1,77 @@
+.container {
+    margin: 0px 100px;
+}
+.servicesHeader-img {
+    display: flex;
+    align-items: stretch;
+    margin: 35px 0;
+}
+
+.servicesHeader {
+	padding-bottom: 45px;
+	border-bottom: 1px solid black;
+}
+
+.servicesHeader h2 {
+	font-size: 28px;
+}
+
+.serviceContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 35px 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.serviceBlock {
+	width: 420px;
+	border: 1px solid black;
+	margin-bottom: 40px;
+	background-color: whitesmoke;
+	padding: 15px;
+}
+
+.serviceBlock button {
+	margin-top: 15px;
+	background-color: white;
+	padding: 8px 35px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+
+.serviceFacts {
+	display: flex;
+	padding-top: 40px;
+	margin-bottom: 100px;
+}
+
+.factsContainer {
+	padding-right: 40px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 55px;
+	line-height: 1.8;
+}
+
+.factsContainer ul {
+	margin-top: 25px;
+}
+
+.factsContainer ul li {
+	list-style-type: square;
+	padding-left: 20px;
+	margin-left: 15px;
+}
+
+.services-info-img {
+	width: 450px;
+	height: 350px;
+}
+
+.footer {
+  	text-align: center;
+	 font-size: 14px;
+}
