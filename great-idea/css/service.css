@@ -196,7 +196,7 @@ h1{
 
   .content_1_inner_right_box {
   
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: rgba(242, 244, 246, 0.986);
     justify-content: center;
     display: flex;
