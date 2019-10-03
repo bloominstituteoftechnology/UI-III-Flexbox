@@ -237,7 +237,6 @@ footer div p {
   margin-top: 30px;
   margin-bottom: 50px;
   width: 91%;
-  
 }
 .service-title h2 {
   font-size: 25px;
@@ -249,10 +248,9 @@ footer div p {
   margin-top: 35px;
   border-top: 1px solid black;
   padding-top: 35px;
-  
 }
 .row1 div {
-  background: #F2EEED;
+  background: #f2eeed;
   border: 1px solid black;
   width: 48%;
   padding: 24px;
@@ -272,7 +270,7 @@ footer div p {
   margin-top: 35px;
 }
 .row2 div {
-  background: #F2EEED;
+  background: #f2eeed;
   border: 1px solid black;
   width: 48%;
   padding: 24px;
@@ -294,7 +292,7 @@ footer div p {
   padding-bottom: 35px;
 }
 .row3 div {
-  background: #F2EEED;
+  background: #f2eeed;
   border: 1px solid black;
   width: 48%;
   padding: 24px;
@@ -307,24 +305,20 @@ footer div p {
   padding: 8px 0px 8px 0px;
 }
 .facts {
-	display: flex;
-	width: 91%;
-	margin-top: 35px;
-
+  display: flex;
+  width: 91%;
+  margin-top: 35px;
 }
 .facts ul {
-	display:flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin-top: 35px;
-	height: 40%;
-	list-style-type: square;
-	list-style-position: inside;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 35px;
+  height: 40%;
+  list-style-type: square;
+  list-style-position: inside;
 }
 .bot p {
-	text-align: center;
-
-	margin: 100px 0px 150px 0px;
-
+  text-align: center;
+  margin: 100px 0px 150px 0px;
 }
