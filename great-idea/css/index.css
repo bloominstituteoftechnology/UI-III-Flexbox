@@ -82,24 +82,22 @@ nav {
     header{
 			
 			display: flex;
-			height:550px;
+			height:700px;
 			width: 100%;
 			border: dashed red 1px;
 			align-items: center;
 			justify-content: space-between; 
 	   }
-   
+   .logo {
+	   display: flex;
+	   align-items: bottom;
+   }
 	   .hbox{
-		   /*display:inline-block;*/
+		   
 		   height: 500x;
 		   width: 500px;
 		   font-size: 100px;
-		   /*float:left;
-		   margin:15px 5px ;
-		   margin:15px 5px ;*/
 		   text-align: center;
-		   /*border: dashed red 1px; */
-		   /*position: absolute;*/
 		   top:20mm;
 		   left:5mm;
 	   }
@@ -111,76 +109,73 @@ nav {
 	   }
 	   .codeCircle{
 		   display:flex;
-		align-items: center; 
+		   flex-direction: column;
+		   justify-content: flex-end;
+		   align-items: center; 
 		   height:500px;
-		   width: 500px;
-		   position: absolute;
-		   top:5mm;
-		   right:5mm;
+		   width: 500px
 		   /*border: dashed red 1px; */
 	   }
-	   .mainSection{
-		   position: relative;
-		   display: block;
-		   height:700px;
+	   /*----------------------workbelow here above works-----------------*/
+	   .topSection{
+		   display: flex;
+		 flex-direction: row;
+		 justify-content: space-evenly;
+		   height:200px;
 		   width: 100%;
-		   border: solid black 2px; 
+		  border: solid black 2px; 
 	   }
 	   .content-one{
-		   display:inline-block;
+		   
 		   height: 140px;
 		   width: 48%;
-		   /*border: dashed red 1px; */
-		   position: absolute;
-		   top:10mm;
-		   right: 0mm;
-   
+		   
+		   border: dashed red 1px;
 	   }
    
 	   .content-two{
-		   display:inline-block;
 		   height: 140px;
 		   width: 48%;
-		   /*border: dashed red 1px;*/
-		   position: absolute;
-		   top:10mm;
-		   left:0mm;
+		   border: dashed red 1px;
+		  
 	   }
    
 	   .middle-img{
+		   height: 300px;
 		   width:100%;
-		   position: absolute;
-		   top:50mm;
+		   border: dashed red 1px;
 	   }
-   
+
+	   .bottomSection{
+		display: flex;
+		justify-content: space-evenly;
+		height:200px;
+		width: 100%;
+		border: solid black 2px;
+	   }
+	   
 	   .content-three{
-		   display:inline-block;
+		  
 		   height: 140px;
 		   width: 30%;
-		   /*border: dashed red 1px;*/
-		   position: absolute;
 		   bottom :10mm;
-		   right:0mm
-   
+		   right:0mm;
+		   border: dashed red 1px;
 	   }
 	   .content-four{
-		   display:inline-block;
+		  
 		   height: 140px;
 		   width: 30%;
 		   /*border: dashed red 1px;*/
-		   position: absolute;
-		   bottom :10mm;
-   
+		   border: dashed red 1px;
 	   }
    
 	   .content-five{
-		   display:inline-block;
+		   
 		   height: 140px;
 		   width: 30%;
-		   /*border: dashed red 1px;*/
-		   position: absolute;
-		   bottom :10mm;
-		   left:35%;
+		   border: dashed red 1px;
+		   
 	   }
 	   .content-bottom{
 		   display:inline-block;
