@@ -231,10 +231,34 @@ address{
 
 }
 
-/************* Services Page****************************************
-*********************************************************************/
-
+/* Navigation **********************/
+/*
 .ser-nav{
 	display: flex;
-	
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 310px;
+
 }
+
+.ser-nav__bars{
+	width: 50%;
+	margin-left: 20px;
+}
+
+.ser-nav__logo{
+	width: 30%;
+
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+	margin-top: 0;
+
+}
+.ser-nav__bars a{
+    text-decoration: none;
+    
+}
+*/
