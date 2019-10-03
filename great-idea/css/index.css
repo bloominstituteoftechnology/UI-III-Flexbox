@@ -84,7 +84,6 @@ nav {
 			display: flex;
 			height:700px;
 			width: 100%;
-			border: dashed red 1px;
 			align-items: center;
 			justify-content: space-between; 
 	   }
@@ -121,68 +120,63 @@ nav {
 		   display: flex;
 		 flex-direction: row;
 		 justify-content: space-evenly;
+		 align-items: center;
 		   height:200px;
 		   width: 100%;
-		  border: solid black 2px; 
+		  border-top: solid black 2px; 
 	   }
 	   .content-one{
-		   
-		   height: 140px;
+		   font-size: 20px;
 		   width: 48%;
-		   
-		   border: dashed red 1px;
-	   }
+		}
    
 	   .content-two{
-		   height: 140px;
+		   font-size: 20px;
 		   width: 48%;
-		   border: dashed red 1px;
-		  
-	   }
+		}
    
 	   .middle-img{
-		   height: 300px;
+		   height: 250px;
 		   width:100%;
-		   border: dashed red 1px;
-	   }
+		}
 
 	   .bottomSection{
 		display: flex;
 		justify-content: space-evenly;
+		align-items: center;
 		height:200px;
 		width: 100%;
-		border: solid black 2px;
+		border-bottom: solid black 2px;
 	   }
-	   
+
 	   .content-three{
-		  
+		   font-size: 20px;
 		   height: 140px;
 		   width: 30%;
 		   bottom :10mm;
 		   right:0mm;
-		   border: dashed red 1px;
-	   }
+		}
+
 	   .content-four{
-		  
+		font-size: 20px;
 		   height: 140px;
 		   width: 30%;
-		   /*border: dashed red 1px;*/
-		   border: dashed red 1px;
-	   }
+		}
    
 	   .content-five{
-		   
+		   font-size: 20px;
 		   height: 140px;
 		   width: 30%;
-		   border: dashed red 1px;
-		   
-	   }
+		}
+
 	   .content-bottom{
-		   display:inline-block;
+		   display:flex;
+		   justify-content: flex-start;
+		align-items: center;
 		   height: 160px;
 		   width: 150px;
 		   /*border: dashed red 1px;*/
-		   margin: 5mm;
+		  
 	   }
 	   .copy{
 		   text-align: center;
