@@ -1,0 +1,197 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* <----- SERVICES PAGE STYLING -----> */
+
+/* Body Margin Styling */
+body {
+    margin: 0 5% 10% 5%;
+}
+
+/* Horizontal Line Stylings */
+hr {
+    border: 1px solid black;
+}
+
+/* Header Nav And Logo Stylings */
+#headpiece {
+    width: 100%;
+    padding-top: 3%;
+    display: flex;
+}
+
+nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    font-size: 16px;
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+}
+
+#logocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Image Spanner Styling */
+.services-header-img {
+    display: block;
+    margin: 3% auto;
+    max-width: 100%;
+}
+
+/* Services Heading And Content Stylings */
+#serviceabout {
+    padding-bottom: 4%;
+}
+
+#serviceabout h1 {
+    font-size: 28px;
+}
+
+/* Main Content Section Stylings */
+#maincontentblock {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.contentboxes {
+    margin: 2% 0;
+    border: 1px solid black;
+    width: 45%;
+    background: #e4e6e8;
+    padding: 2%;
+}
+
+.contentboxes h3 {
+    background: #f1f1f1;
+    text-align: center;
+    margin: 15px 0 0 0;
+    width: 40%;
+    padding: 8px 10px 8px 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.contentboxes h3:hover {
+    cursor: pointer;
+}
+
+/* Ending Section Stylings */
+#closingblock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.finalboxes {
+    margin-top: 2%;
+    width: 47%;
+}
+
+.finalboxes img {
+    max-width: 100%;
+}
+
+.finalboxes h2 {
+    font-size: 20px;
+}
+
+.finalboxes p {
+    margin-bottom: 3%;
+}
+
+.finalboxes ul {
+    padding-top: 10px;
+}
+
+.finalboxes ul li {
+    margin-top: 10px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
