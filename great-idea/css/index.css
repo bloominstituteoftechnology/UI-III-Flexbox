@@ -116,9 +116,32 @@ h1{
 	display: flex; 
 	border: 2px black solid; 
 	border-style: solid hidden hidden hidden; 
-	border-spacing: 20px; 
-	justify-content: space-evenly; 
-	padding: 5px; 
+	border-spacing: 30px; 
+	justify-content: space-around; 
+	padding: 50px; 
 	width: 80%; 
-	margin: 20px;
+	margin: 30px 0px 10px 30px;
+}
+
+.centerImage{
+	display: flex; 
+	justify-content: center; 
+	align-content: flex-end;
+	margin: 30px;  
+	width: 1000px; 
+}
+
+.bottomText {
+	display: flex; 
+	padding: 30px; 
+	justify-content: space-around; 
+	border: 2px black solid; 
+	border-style: hidden hidden solid hidden; 
+	align-items: flex-end; 
+}
+
+address{
+	display: flex; 
+	flex-direction: column; 
+
 }
