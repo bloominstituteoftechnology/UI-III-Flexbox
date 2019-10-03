@@ -221,3 +221,80 @@ footer {
 	margin-left: 40px;
 }
 
+/* second page */
+
+.services-header-img {
+	margin-left: 25px;
+	margin-top: 20px
+}
+
+.underneath-img {
+	padding: 20px;
+}
+
+.serviceHeader {
+	font-size: 20px
+}
+
+.middle {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 20px
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+	border: 1px solid black;
+	padding: 20px;
+	margin: 20px;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: flex-start; */
+}
+
+.learn {
+	margin: 20px 10px 10px 0px
+}
+
+.boxes1 {
+	display: flex;
+}
+
+.boxes2 {
+	display: flex;
+}
+
+.boxes3 {
+	display: flex;
+}
+
+.bottomSection {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	padding-bottom: 20px
+}
+
+li {
+	padding: 8px;
+}
+
+.topLeft {
+	/* border: 1px solid red; */
+}
+
+.bottomLeft {
+	/* border: 1px solid red; */
+}
+
+.left {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
