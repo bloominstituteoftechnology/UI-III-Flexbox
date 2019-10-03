@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,314 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+	display: flex;
+	padding: 2% 0% 0% 5%;
+	width: 68%;
+	justify-content: space-around;
+}
+
+nav a {
+	 color: gray;
+	 text-decoration: none;
+ }
+
+ .logo {
+	 	position: absolute;
+	 	left: 70%;
+	 	top: 5%;
+	 	z-index: 1;
+}
+
+.header1 {
+	position: absolute;
+	font-size: 72px;
+	text-align: center;
+	left: 18%;
+	top: -23%;
+}
+
+.get-started {
+	position: absolute;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border-color: black;
+	font-size: 22px;
+	width: 13%;
+	left: 22%;
+	top: 55%;
+}
+
+
+.circular-img {
+	position: relative;
+	padding-top: 5%;
+	left: 60%;
+
+}
+
+.first-row {
+	padding: 3%;
+}
+
+.first-row-h3 {
+	display: flex;
+	padding-left: 3%;
+}
+
+.first-row-p {
+		display: flex;
+		justify-content: space-between;
+}
+
+.first {
+	padding-left: 2%;
+}
+
+.second {
+	padding-left: 52%;
+}
+
+.first-paragraph {
+	width: 25%;
+	padding-left: 5%;
+}
+
+.second-paragraph {
+	width: 41%;
+	padding-right: 22%;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.bottom-row-yo {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+.bottom-row-h3 {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.third {
+	padding-left: 6.25%;
+}
+
+.fourth {
+	padding-left: 27.5%;
+}
+
+.fifth {
+	padding-left: 27.25%;
+}
+
+.bottom-row-p {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.third-paragraph {
+	width: 25%;
+}
+
+.fourth-paragraph {
+	width: 25%;
+}
+
+.fifth-paragraph {
+	width: 25%;
+}
+
+.ending1 {
+	display: flex;
+	flex-direction: column;
+	text-space
+}
+
+.endo {
+	display:flex;
+	flex-direction: column;
+}
+
+.copyright {
+	margin-top: 5em;
+	margin-left: 45%;
+}
+
+h1 {
+	z-index: 1;
+	padding-top: 20%;
+	padding-left: 0%;
+}
+																							/* services.html*/
+
+
+.services {
+	display: flex;
+	align-content: left;
+}
+
+h2 {
+	position: absolute;
+	padding-left: 15%;
+	padding-top: 9%;
+}
+
+.service-text {
+	width: 82%;
+	padding-left: 15%;
+	padding-top: 11%;
+	margin-bottom: 3em;
+}
+
+.services-button {
+	position: absolute;
+	background-color: white;
+	background-repeat:no-repeat;
+	border-color: black;
+	font-size: 22px;
+	width: 13%;
+	margin-top: 1em;
+}
+
+.top-row {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.design {
+	width: 28%;
+	font-size: 15px;
+	background-color: lightgray;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 20px 65px 10px;
+	margin-top: 15px;
+}
+
+.ux-ui {
+	width: 28%;
+	font-size: 15px;
+	background-color: lightgray;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 20px 65px 10px;
+	margin-top: 15px;
+}
+
+.middle-row {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 5em;
+
+}
+
+.marketing {
+	width: 28%;
+	font-size: 15px;
+	background-color: lightgray;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 20px 65px 10px;
+	margin-top: 15px;
+}
+
+.web-dev {
+	width: 28%;
+	font-size: 15px;
+	background-color: lightgray;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 20px 65px 10px;
+	margin-top: 15px;
+}
+
+.bottom-row {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+.iphone {
+	width: 28%;
+	font-size: 15px;
+	background-color: lightgray;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 20px 65px 10px;
+	margin-top: 15px;
+}
+
+.android-dev {
+	width: 28%;
+	font-size: 15px;
+	background-color: lightgray;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 20px 65px 10px;
+	margin-top: 15px;
+}
+
+.ending {
+	position: absolute;
+	text-align: left;
+	width:50%;
+	margin-top: 5em;
+	padding-left: 15%;
+}
+
+.links {
+	margin-top: 2em;
+}
+
+.services-header-img {
+	width: 100%;
+	padding-top: 3em;
+}
+
+.girl-photo{
+	position: absolute;
+	padding-left: 57%;
+	padding-bottom: 50%;
+}
+
+footer {
+	padding-top: 6em;
+	display:flex;
+	justify-content: space-around;
+	width: 60%;
+}
+
+.happy-ending {
+	padding-left: 1%;
+	width: 50%;
+}
+
+.services-info-img {
+	position: absolute;
+	padding-bottom: 1em;
+	padding-left: 1em;
+}
+
+.links {
+	margin-top: 2em;
+	margin-left: 14em;
+
+}
+
+.copyright2 {
+	margin-top: 12em;
+	margin-left: 45%;
+
+}
