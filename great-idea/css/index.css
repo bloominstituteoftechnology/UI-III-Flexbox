@@ -110,3 +110,9 @@ h1{
 	align-items: center; 
 	justify-content: end; 
 }
+
+.topText {
+	display: flex; 
+	width: 47%; 
+	/*where I left off.  Was about to make a row of two paragraphs on feature and about.*/
+}
