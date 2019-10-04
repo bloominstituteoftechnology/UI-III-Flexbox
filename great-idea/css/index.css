@@ -28,8 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+body, hr {
 	line-height: 1;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +66,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+nav a{
+	text-decoration:none;
+	color:gray;
+	vertical-align: center;
+
+}
+
+.logo { 
+	 margin-top: -10px; 
+}
+ 
+/* ============ second segment================== */
+.second{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+
+.second img{
+	width: 400px;
+	height: auto;
+}
+
+.second_text{
+	text-align: center;
+	width: calc((100% - 40px)/2);
+	vertical-align: center;
+}
+.second_text button{
+	font-size: 50px;
+}
+.second_text h1{
+	font-size: 100px;
+}
+
+/* ============ third segment================== */
+
+.subcontent{
+	display:flex;
+	flex-direction: row;
+}
+
+.about {
+width: 49%;
+padding: 20px;
+
+}
+
+.features{
+width: 49%;
+padding: 20px;
+}
+
+/* ============ Fourth segment================== */
+.second-img{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: calc(100% - 40px);
+
+}
+
+/* ============ Fifth segment================== */
+.subsubcontent{
+	display: flex;
+	flex-direction: row;
+}
+
+.services{
+	width: 33%;
+	padding: 20px;
+}
+.product{
+	width: 33%;
+	padding: 20px;
+}
+.vision{
+	width: 33%;
+	padding: 20px;
+}
+
+/* ============ Sixth segment================== */
+.contact{
+	width: 33%;
+	padding: 20px;
+}
+
+/* ============ Seventh segment================== */
+footer{
+text-align: center;
+}
+
+
+/* =================== Services Page */
+.service-header{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.services-header-img{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: calc(100% - 40px);
+	margin-bottom: 20px;
+}
+.services-text{
+	display:flex;
+	flex-direction: row;
+}
