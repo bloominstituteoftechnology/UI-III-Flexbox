@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: disc;
 }
 blockquote, q {
 	quotes: none;
@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+    
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -69,36 +69,47 @@ h1, h2, h3, h4, h5 {
 
 
  
-.container{
+body{
     width: 1000px;
-    margin: 0 auto;
-    /* border: 1px solid red; */
+	margin: 0 auto;
+	
+
 }
- 
+
+ header{
+	 display:flex;
+	 justify-content:space-between;
+ }
 header nav{
-    display: inline-block;
+ 
     margin-top: 40px;
     margin-bottom: 40px;
 }
 header .logo{
-    margin-left: 80px;
+    margin-left: 70px;
 }
  
 header nav a{
     margin: 0 30px;
     color: silver;
-    text-decoration: none;
+	text-decoration: none;
+	
 }
- 
+ .services-header-img{
+	 padding:20px;
+	 width:1000px;
+ }
 .head2{
-    border-bottom: 1px solid;
+    
     margin-top: 50px;
-    margin-bottom: 40px;
+	margin-bottom: 40px;
+	
 }
  
 .head2 .div{
     display: flex;
-    width: 48%;
+	width: 48%;
+	
 }
 .head2 .innovation p{
 	display: flex;
@@ -122,37 +133,107 @@ header nav a{
 	flex-direction:column;
     width:48%;
 }
+
 .button{
     display: flex;
     text-align: center;
 }
-.content{ 
+
+#content{ 
 	display:flex;
 	flex-wrap:wrap;
+	width:999px;	
 	
-		
 }
-
-.FeatureAbout  {
+.TopService {
 	display:flex;
-	flex-direction: row;
+	padding:20px;
+	
+}
+.TopServiceText div{
+	padding:20px;
+
+	
+}
+.Boxes  {
+	display:flex;
+	flex-wrap:wrap;
+	align-content:space-between;
 	
 	
 }
 
-.middle image{
-	margin-top: 500px;
-	padding: 10px 10px 10px 10px;
+.BoxesText {
+	display: flex;
+	flex-wrap:wrap;
+	align-content:space-around;
+	width:452px;
+	height:200px;
+	padding:20px;
+	margin: 20px;
+	border: 1px solid gray;
+	background-color: lightgray;
 }
+.LearnMoreButton{
+
+	display: flex;
+	text-align: center;
+	justify-content:center;
+	padding:10px;
+	border: 1px solid black;
+	width:115px;
+	border-radius: 5px;
+	background-color: white;
+}
+.SomeFacts{
+	display:flex;
+	width: 1000px;
+	
+}
+
+.SomeFactsText {
+	display:flex;
+	flex-direction: 
+	margin: 20px;
+	padding:2px;
+	
+}
+
+.SomeFacts div{
+	display:flex;
+	width:200px;
+	
+}
+.ServiceFacts{
+	flex-direction:column;
+	width:535px;
+	
+	padding:20px;
+}
+
+
+#FeatureAbout  {
+	display:flex;
+	justify-content: space-around;
+	
+}
+.FeaturesAndAbout {
+	width: 49%;
+}
+.BulletPoints2 {
+	list-style-position:inside;
+}
+
+
+
 .ServiceProductVision{
 	display:flex;
 	justify-content: space-around;
 	width: 100;
 	height: auto;
 	margin-top: 50px;
-	padding: 10px 10px 10px 10px;
+	padding: 20px 20px 20px 10px;
 }
- 
  
 .contact{
     margin-top: 50px;
