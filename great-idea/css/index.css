@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 25px 0;
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
+	
+	
+}
+
+.top-content .tag {
+	margin-left: 50px;
+	margin-top: 30px;
+	font-size: 75px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.top-content .tag .start{
+	width:50%;
+	padding: 5px 4px;
+	font-size: 16px;	
+}
+
+.middle-content .featabt {
+	display: flex;
+	justify-content: space-between;
+	margin: 25px 0;
+}
+
+.middle-content .featabt .text1{
+	width: 48%
+}
+
+.middle-content .middle-img{
+	width: 800px;
+}
+
+.middle-content .serprovis{
+	display:flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.contact {
+	margin-top: 30px;
+}
+footer {
+	text-align: center;
+}
+
+/* Services CSS */
+
+.services {
+	width: 100%;
+}
+
+.services img {
+	width: 100%;
+}
+
+.services .services-text{
+	margin: 30px 0;
+}
+
+.middle {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+.middle .tile {
+	width: 48%;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 20px 0;
+	background-color: whitesmoke;
+}
+
+.middle .tile button{
+	padding: 8px 25px;
+	margin-top:15px;
+	border-radius:4px;
+	border: 1px solid black;
+}
+.bottom {
+	display: flex;
+	justify-content:space-between;
+	margin-top: 30px;
+}
+
+.bottom .facts{
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.bottom .facts ul{
+	list-style: disc;
+	padding-left: 20px;
+}
+
+.bottom .facts ul li{
+	line-height: 1.5;
+}
+.bottom img{
+	width:48%;
+}
+
+footer {
+	padding-top:80px;
+}
