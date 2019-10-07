@@ -166,8 +166,12 @@ text-align: center;
 }
 
 
-/* =================== Services Page */
-.service-header{
+/* =================== Services Page ======== */
+.service-container{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.service-header-text{
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
@@ -177,7 +181,50 @@ text-align: center;
 	width: calc(100% - 40px);
 	margin-bottom: 20px;
 }
-.services-text{
-	display:flex;
-	flex-direction: row;
+
+.services-main{
+	margin: 20px;
+}
+
+.service-item{
+	background-color: lightgray;
+	width: 48%;
+	height: 200px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 2px solid black;
+}
+
+.two-column-section{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.btn-learn{
+    margin-top: 20px;
+    width: 130px;
+    height: 35px;
+    border-radius: 10px; 
+    font-size: 100%;
+    border: 2px solid black;
+    /* text-align: center; */
+}
+.service-closing-text{
+	margin-top:40px;
+	width: 48%;
+	align-content: center;
+}
+.services-info-img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 48%;
+}
+.hr-with-margin{
+	margin-bottom: 20px;
+}
+ul.square{
+	list-style-type: square;
+	margin-left: 20px;
 }
