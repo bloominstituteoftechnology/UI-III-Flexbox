@@ -64,3 +64,194 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	max-width:880px;
+	margin: 0 auto;
+}
+
+header nav {
+	display: inline-block;
+	width:691px;
+	vertical-align:top;
+	margin-top: 35px;
+  }
+
+header nav a{
+ margin-right: 65px;
+ font-size:14px;
+ color:gray;
+ text-decoration: none;
+}
+
+header nav a:hover{
+ background-color: white;
+ text-decoration: underline;
+}
+
+header nav a:first-child{
+	margin-left:0;
+}
+
+header nav a:last-child{
+	margin-right:0;
+}
+
+header .logo{
+	margin-top:25px;
+}
+
+.intro .header{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 77px;
+	text-align: center;
+	padding: 0px 75px;
+	margin-top: 150px;
+}
+.intro .header button{
+ background-color: white;
+ vertical-align: top;
+ margin-top: 6px;
+ padding: 8px 44px;
+ font-size: 17px;
+ border: 1px solid black;
+ cursor: pointer;
+}
+
+.intro .header button:hover{
+	background: black;
+	color:white;
+}
+
+.intro img{
+	display:inline-block;
+	margin-top: 69px;
+}
+
+.main-content{
+	border-top:1px solid black;
+	margin-top: 76px;
+	padding-top:39px;
+}
+
+.main-content .top-content{
+ padding:0 10px;
+}
+
+.main-content .top-content .text-content{
+	width:45%;
+	display: inline-block;
+	margin-right: 34px;
+}
+
+.main-content .middle-img{
+	margin-top:45px;
+}
+.main-content .bottom-content{
+	margin-top:37px;
+	padding:0 10px;
+}
+.main-content .bottom-content .text-content{
+	width:275px;
+	display: inline-block;
+	margin-right:12px;
+}
+.main-content .bottom-content .text-content:last-child{
+margin-right: 0;
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+	margin-top: 57px;
+}
+
+.contact p{
+	margin:20px 0;
+}
+
+footer {
+	text-align: center; 
+	margin:32px 0;
+	font-size:14px;
+}
+
+/* -------------------------------------------------------------------- */
+
+.container1{
+	max-width:1000px;
+	margin: 0 auto;
+}
+header{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width:1000px;
+}
+.logo{
+	margin-left: 90px;
+}
+
+.services-header-img{
+	width:1000px;
+}
+
+.intro{
+	margin-top: 30px;
+	line-height: 1.5;
+}
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top:35px;
+	padding-top:30px;
+	
+}
+
+.main-content .box-content{
+	border:black 1px solid;
+	width: 480px;
+	padding:20px;
+	background-color:rgb(228, 225, 225);
+	line-height: 1.5;
+	margin: 20px 0;
+}
+
+button{
+	margin-top: 10px;
+	width:180px;
+	height:35px;
+	padding:10 20px;
+	border-radius: 5px;
+}
+
+.bottom-content{
+	border-top: black 2px solid;
+	display: flex;
+	justify-content: space-between;
+	margin-top:30px;	
+}
+
+.bottom-content .box-content{
+	width: 480px;
+	padding-top: 30px;
+	margin: 20px 0;
+}
+.bottom-content .box-content p{
+	line-height: 1.5;
+}
+
+.list{
+	margin-top:20px;
+	padding-left: 20px;
+	line-height: 2;
+}
+
+.services-info-img{
+	width:479px;
+}
+footer{
+	padding-top:30px;
+}
