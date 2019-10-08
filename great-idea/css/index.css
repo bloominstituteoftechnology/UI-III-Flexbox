@@ -11,7 +11,7 @@ html, body {
 .call-to-action-btn-holder{ margin: 0 auto; width: 100%; max-width:  200px; }
 .tagline-holder{ font-size: 3em; word-spacing: 100vw; text-align: center;}
 
-  	.splash-image-holder{ text-align: right; }
+  	.splash-image-holder{ text-align: right; padding-top: 25px; }
 
 
 /** container wrapper */
