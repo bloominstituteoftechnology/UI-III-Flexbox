@@ -162,3 +162,122 @@ section#copyright{
   text-align:center;
   padding: 50px;
 }
+
+
+
+
+/*** SECTION:: HEADER ***/
+section#header{
+  display: flex;
+}
+
+/** inner@section:header nav **/
+nav#primary-navigation{
+  display: flex;
+  flex-direction: row nowrap;
+  width: 75%;
+  margin: left;
+  padding-top: 10px;
+}
+
+nav#primary-navigation ul{
+  /** basic **/
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0; /** remove left padding ** only show space between */
+}
+
+/** branding **/
+.branding{
+  text-align: right;
+  width: 30%;
+}
+
+/** product img holder **/
+.product-img-holder{
+  margin-top: 25px;  
+}
+
+.product-img-holder img{
+  width: 100%;
+  text-align:center;
+}
+
+/** section::details **/
+section#details{
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-shrink: 1;
+}
+
+section#details .detail{
+  border: solid 1px darkgray;
+  background: lightgray;
+}
+
+section#details div.detail{
+  padding: 20px;
+  margin-bottom: 40px; /** this adds padding on the bottom **/
+}
+
+/** broadcast inner div position controls **/
+section#details > div.detail{
+  display: flex;
+  flex-basis: calc(48%); /** this makes the space between the colum row |[ ] -space- [ ]| **/
+  justify-content: center;
+  flex-direction: column; /** change to row see what happens **/
+}
+/*** end section ***/
+
+
+
+/**********************************************************************************************************************************
+********************************************************************************************************************************/
+/** section::reason **/
+section#reasons{
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-shrink: 1;
+}
+
+section#reasons .reason{
+  border: solid 1px darkgray;
+  background: lightgray;
+}
+
+section#reasons div.reason{
+  padding: 20px;
+  margin-bottom: 40px; /** this adds padding on the bottom **/
+}
+
+/** broadcast inner div position controls **/
+section#reasons > div.reason{
+  display: flex;
+  /** this makes the space between the colum row |[ ] -space- [ ]| adusting this allows you to add more in one row **/
+  flex-basis: calc(31%); 
+  justify-content: center;
+  flex-direction: column; /** change to row see what happens **/
+}
+/*** end section ***/
+
+
+
+
+/** button **/
+/** since we only have one button we can just define it **/
+button{ padding: 10px; width: 100%; max-width: 200px; margin: 25px auto; border-radius: 7px; background: #eee; border: solid 1px #000; }
+
+
+
+/** HR SPACING **SPACER** */
+hr{ margin: 25px 0; color: 000; border: solid 0.5px #000; }
+
+.copyright{ text-align: center; font-weight: bold; }
