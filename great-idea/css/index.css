@@ -1,66 +1,164 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+/** container wrapper */
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+section#navigation-header{
+  display: flex;
+  flex-direction: row;
+}
+
+nav{
+  display:flex;
+  flex-flow: row nowrap;
+  width:75%;
+  margin-left: 5px;
+}
+
+nav ul{
+  display: flex;
+
+  list-style: none;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  height: 3rem;
+  overflow: hidden;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+/** Navigation A Elements **/
+nav a{
+  text-decoration: none;
+  color: gray;
+}
+
+nav a:hover{
+  background-color:#eee;
+}
+
+/** Branding **/
+#branding{
+  text-align: right;
+  padding: 20px 0;
+  width: 40%;
+}
+
+/*** ss ****/
+#primary-header img{
+  width: 100%;
+  display: flex;
+  jusitfy-content: center;
+}
+
+
+/************* ************ *******************/
+#services{
+  margin-top: 10px; /** to break even **/
+  display: flex;
+  flex-direction: row;
+  justify-text: spacing-between;
+  flex-shrink: 1;
+}
+
+section#services div{
+  width: 50%;
+}
+
+hr.top-break{
+  border: solid 0.5px #000;
+  margin-top: 20px;
+}
+
+/*** grid hacks ***/
+#services {
+  padding-top: 25px;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#services > div {
+  display: flex;
+  flex-basis: calc(43.5%); /**  math for % calculation **/
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/*
+#services > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 15px;
+}*/
+
+
+/** service holder div **/
+#services div{
+  background-color:#F4F3F4;
+  padding: 20px;
+  margin-bottom: 40px;
+  border: solid 1px black;
+}
+/* button **/
+button{ width: 200px; margin-top: 20px; padding: 10px; border-radius: 10px; }
+
+/* header styles **/
+h2,h3{ font-weight: 900; font-family:"Bangers"; }
+#services div h3{ margin-top: 0px;}
+
+hr.hrBottom{
+  border: solid 1px #000;
+  margin: 15px 0 41px 0;
+}
+
+/* more **************************************/
+section#more{
+  display: flex;
+  flex-basis: calc(43.5%);
+  justify-content: space-between;
+  flex-direction: row;
+  flex-shrink: 1;
+}
+
+section#more > div{
+  display: flex;
+  width: calc(48.3%);
+  flex-direction: column;
+}
+
+div.imageHolder{
+  text-align: right;
+}
+
+div.imageHolder img{
+  width: 100%;
+}
+
+
+section#more ul li{
+  list-style-type: square;
+}
+
+
+/** footer **/
+section#copyright{
+  text-align:center;
+  padding: 50px;
+}
