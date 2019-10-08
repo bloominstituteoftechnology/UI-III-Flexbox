@@ -292,3 +292,21 @@ button{ padding: 10px; width: 100%; max-width: 200px; margin: 25px auto; border-
 hr{ margin: 25px 0; color: 000; border: solid 0.5px #000; }
 
 .copyright{ text-align: center; font-weight: bold; }
+
+/** responsive **/
+	@media screen and (max-width: 500px) /* Mobile */ {
+	  
+		/* nav */
+		nav{ display: none; }
+	  .service{ width: 100%; }
+	  section#services > div{ flex-basis: 100%; }
+	 
+	  section#more{ width: 100% ;
+	  	justify-content: normal;
+    	flex-direction: column; }	  
+	  section#more > div{     flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} }
+	}
