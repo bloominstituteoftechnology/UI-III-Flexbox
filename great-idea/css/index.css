@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5 {
 	  font-size: 60px;
 	  font-weight: bold;
 	  text-align: center;
-	  margin-right: 1%;  
+	  margin-right: 5%;  
   }
   
   /* New CSS content start end */
@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5 {
   }
   
   .middle-img {
-  display: block;
+   display: flex;
 	width: 80%;
 	margin: 0 auto;
 }
