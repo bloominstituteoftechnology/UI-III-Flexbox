@@ -129,6 +129,31 @@ h1, h2, h3, h4, h5 {
 	padding-left: 20%;
   }
 
+  .contact-details {
+    /* width: 20%; */
+    /* height: 300px;  */
+	display: flex;
+	width: 80%;
+    /* align-items: center; */
+	flex-direction: row;
+	padding-left: 20%;
+	margin-top: 3%;
+	/* margin-top:auto; */
+    /* border: solid 1px; */
+  }
+
+  .ct-border {
+	  padding: 10px;
+  }
+
+  .cf p {
+	  padding: 15px;
+  }
+
+  #input-message {
+	  height: 100px;
+  }
+
   /* New CSS content start end */
   
   .top-info {
@@ -175,7 +200,7 @@ h1, h2, h3, h4, h5 {
 	margin-top: 20px;
 	text-align: center;
   }
-  
+
 	
   
   }
