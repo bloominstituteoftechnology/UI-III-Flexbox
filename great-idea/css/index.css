@@ -75,7 +75,7 @@ nav{
 nav a{
 	color: gray;
 }
-#main-content{
+.main-content{
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
