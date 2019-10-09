@@ -122,10 +122,13 @@ a {
 
 .contact {
 	margin: 3% 1%;
+	padding-top: 2%;
+	border-top: 1px solid black;
   }
   
 .contact p {
 	margin: 5px 0;
+	
 }
 
 nav {
@@ -164,7 +167,7 @@ button {
   }
 
 .button:hover {
-	background: black;
+	background: darkgray;
 	color: white;
   }
 
@@ -187,10 +190,9 @@ button {
 
   .pageMid div {
 	width: 48%;
-	height: 250px;
+	height: 225px;
 	margin-bottom: 30px;
-	padding-left: 2%;
-	padding-top: 1%;
+	padding: 2%;
 	background-color: #F4F3F4;
 	border: 1px solid black;
 	display: flex;
