@@ -64,3 +64,208 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 900px;
+}
+
+header {
+	margin-top: 10px;
+	display: flex;
+	width: 876px;
+	height: 40px;
+	flex-direction: row;
+	justify-content: space-around;
+	/* border: 1px solid green; */
+	margin-bottom: 20px;
+	align-items: center;
+}
+
+/* a {
+	padding: 32px;
+	text-decoration: none;
+	color: lightgray;
+	font-size: 85%;
+} */
+
+.top-links {
+	color: lightgray;
+	text-decoration: none;
+	font-size: 85%;
+	width: 120px;
+	height: auto;
+	/* border: 1px solid blue; */
+	margin: 30px;
+}
+
+h1 {
+	font-size: 75px;
+	margin-top: 70px;
+}
+
+button {
+	background-color: white;
+	font-size: 110%;
+	border: 1px black solid;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 48px;
+	padding-left: 48px;
+}
+
+header nav {
+	/* display: inline-block; */
+	/* float: left; */
+	/* margin-top: 14px; */
+	height: 36px;
+
+}
+
+.logo {
+	/* display: inline-block; */
+	padding-left: 50px;
+	margin-bottom: 25px;
+	/* align-self: flex-end; */
+	/* border: 1px solid red; */
+	
+}
+
+section {
+	height: 379px;
+}
+
+
+
+.mid-left {
+	float: left;
+	width: 438px;
+	text-align: center;
+
+}
+
+#snippet {
+	float: right;
+	width: 379px;
+	margin-top: 30px;
+}
+
+
+
+h3 {
+	font-size: 105%;
+}
+article {
+	margin-top: 75px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	font-size: 105%;
+}
+
+#features {
+	width: 379px;
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+#about {
+	width: 379px;
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 50px;
+}
+
+.middle-img {
+	text-align: center;
+	padding-top: 22px;
+	padding-bottom: 12px;
+}
+
+#services {
+	width: 292px;
+	display: inline-block;
+	padding: 10px;
+}
+
+#product {
+	width: 292px;
+	display: inline-block;
+	padding: 10px;
+}
+
+#vision {
+	width: 292px;
+	display: inline-block;
+	padding: 10px;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+footer div {
+	text-align: center;
+	padding: 40px;
+	font-size: 85%;
+}
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	width: 900px;
+	height: 850px;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	margin-bottom: 30px;
+}
+
+.content-block {
+	border: 1px solid black;
+	background-color: rgb(247, 247, 247);
+	width: 400px;
+	height: 250px;
+	padding: 30px;
+}
+
+.services-header-img {
+	/* text-align: center; */
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+h2 {
+	font-size: 175%;
+}
+
+#services-blurb {
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+
+.facts {
+	display: flex;
+	width: 876px;
+	height: 300px;
+	justify-content: space-between;
+}
+
+ul {
+	list-style-type: square;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px; 
+}
+
+.learn-more {
+	font-size: 70%;
+	border: 1px solid black rounded;
+	border-radius: 5px;
+	margin-top: 20px;
+}
