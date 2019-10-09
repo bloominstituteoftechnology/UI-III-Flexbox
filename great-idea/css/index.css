@@ -129,6 +129,8 @@ a {
 }
 
 nav {
+	display: flex;
+	justify-content: space-between;
 	font-size: 14px;
 }
 
@@ -179,12 +181,12 @@ button {
 .pageMid {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-evenly;
-	padding-top: 4%;  
+	justify-content: space-between;
+	padding-top: 4%; 
 }
 
   .pageMid div {
-	width: 45%;
+	width: 48%;
 	height: 250px;
 	margin-bottom: 30px;
 	padding-left: 2%;
@@ -208,6 +210,15 @@ button {
   .pageBot {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	border-top: 2px solid black;
 	padding-top: 5%;
+  }
+
+  .pageBot div {
+	  width: 47%;
+	    }
+
+  .biggerText {
+	  font-size: 20px;
   }
