@@ -154,4 +154,42 @@ margin: 10px;
 	box-sizing: border-box;
 	display: flex;
 	align-items: baseline;
+	justify-content: space-around;
+}
+	/*Styling of services page*/
+
+	.services-header-img {
+width: 90%;
+margin: 5%;
+	}
+
+	.top-paragraph, h1 {
+		width: 90%;
+		margin: 5%;
+	}
+
+#container span.box {
+width: 40%;
+margin: 5%;
+border: 1px solid gray;
+flex-direction: row;
+background: rgb(245, 239, 239);
+}
+#container{
+	width: 90%;
+	margin: 2%;
+	display: flex;
+    flex-wrap: wrap;
+	align-content: space-between;
+	align-items: center;
+	align-self: baseline;
+	flex-direction: row;
+}
+.botton-section, hr{
+display: flex;
+width: 90%;
+margin: 5%;
+}
+.content-section h1{
+margin: 5%;
 }
