@@ -64,3 +64,84 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*Designing the navigation tab*/
+nav {
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	justify-content: space-around;
+}
+ nav  a {
+display: flex;
+flex-diretion: row;
+text-decoration: none;
+color: gray;
+}
+/* Designing the picture below the navigation bar*/
+#top-img {
+	display: flex;
+	flex-direction: row;
+	height: 150px;
+	margin: auto;
+
+	
+
+}
+/*dsigning the img container to control the size of the image */
+.cross-section .container{
+	flex-container: flex-start;
+	
+}
+
+#container1{
+	width: 400px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 90px;
+	
+	
+}
+#container2 {
+	flex-container: flex-end;
+	width: 400px;
+	height: 150px;
+	
+}
+
+
+#above-pic {
+	display: flex;
+	justify-content: space between;
+	margin: 20px;
+}
+
+.cross-section .middle-img {
+	margin: 20px;
+	width: 96%;
+}
+
+#below-pic {
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+}
+
+.cross-section address {
+	margin: 20px;
+}
+footer {
+	text-align: center;
+}
+
+
+#button {
+	margin-top: 20px;
+}
+
+#innovation{
+	font-size: 25px;
+}
+.cross-section .container{
+margin: 20px;
+}
