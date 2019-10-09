@@ -86,7 +86,7 @@ h1{
 }
 
 h3{
-	font-size 16px;
+	font-size: 16px;
 }
 
 footer{
@@ -180,6 +180,7 @@ footer{
 }
 
 .bottom {
+	display: flex;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -263,6 +264,7 @@ h2 {
 	/* justify-content: center; */
 	/* /* flex-wrap: wrap; */
 	align-content: flex-start;
+	width: 100%;
 }
 
 .bottom-content-box{
@@ -289,3 +291,7 @@ li {
 	margin-left:5%;
 }
 
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
