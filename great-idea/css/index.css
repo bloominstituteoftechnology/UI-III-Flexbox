@@ -68,22 +68,20 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 58%; /* 880px */
-	margin: auto;  
-	border: 1px solid red;
+	margin: auto;  	
 }
 
 header {
 	display: flex;
 	justify-content: space-between;	
 	align-items: center;
-	border: 1px solid red;
 }
 
 nav a:first-child {
 	padding-left: 20px;
 }
 
-header nav a{	
+header nav a {	
 	padding-left: 50px;	
 	color: #A9A9A9;
 	font-weight: bold;
@@ -94,8 +92,7 @@ header nav a{
 .cta {
 	display: flex;
 	justify-content: space-between;	
-	align-items: center;
-	border: 1px solid red;
+	align-items: center;	
 	margin-top: 3em; 
 }
 
@@ -103,8 +100,7 @@ header nav a{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	align-content: center;
-	border: 1px solid red;	
+	align-content: center;		
 }
 
 .cta .cta-text h1 {
@@ -121,49 +117,156 @@ header nav a{
 }
 
 hr {         
-    margin-top: 5em;    
+    margin-top: 40px;    
 }
 
 .main-content .top-content {
-	
+	display: flex;
+	justify-content: space-between;	
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 30px;	
 }
 
-.main-content .top-content .text-content1 {
-	width: 48%;
-	display: inline-block;
+.main-content .top-content div:last-child {
+	margin-left: 30px;
 }
 
-.main-content .top-content .text-content2 {
-	width: 48%;
-	display: inline-block;
-	margin-left: 14px;
-}
 
+
+.main-content .bottom-content {	
+	display: flex;
+	justify-content: space-between;
+	margin: 25px 0px;
+}
 
 .main-content .bottom-content .text-content {
-	width: 32%;
-	display: inline-block;
-	margin: 25px 0px 25px 5px;
+	width: 32%;	
 }
-
-
 
 .gray-line hr {
 	
 	margin: 2em 0em;
-	color: #ccc;
-	margin-right: 20px;
-	
+	color: #ccc;	
 }
 
-.contact .cell-contact
-{
+.main-content .bottom-content div:first-child {
+	margin-right: 25px;
+}
+
+.main-content .bottom-content div:last-child {
+	margin-left: 25px;
+}
+
+.contact .cell-contact {
 	line-height: 3;
 }
 
 footer p {
  text-align: center;
- margin-top: 35px;
+ margin-top: 60px;
+}
+
+.service-cta {	
+	margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.service-cta .services-header-img {
+    margin-bottom: 20px; 
+}
+
+.service-cta .service-cta-text h1 {
+   font-size: 23px;
+}
+
+.main-content .content-row1 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;   	
+}
+
+.main-content .content-row1 .digital-design {
+	background: #f4f3f4;
+	border: 1px solid black;	
+	padding: 20px 20px;
+	width: 47%;
+}
+
+.main-content .content-row1 .ux-ui {
+	background: #f4f3f4;
+	border: 1px solid black;	
+	padding: 20px 20px;
+	width: 47%;
+}
+
+.main-content .content-row2 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.main-content .content-row2 .digital-marketing {
+	background: #f4f3f4;
+	border: 1px solid black;	
+	padding: 20px 20px;
+	width: 47%;
+}
+
+.main-content .content-row2 .web-develop {
+	background: #f4f3f4;
+	border: 1px solid black;	
+	padding: 20px 20px;
+	width: 47%;
+}
+
+.main-content .content-row3 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.main-content .content-row3 .ios-develop {
+	background: #f4f3f4;
+	border: 1px solid black;	
+	padding: 20px 20px;
+	width: 47%;
+}
+
+.main-content .content-row3 .android-develop {
+	background: #f4f3f4;
+	border: 1px solid black;	
+	padding: 20px 20px;
+	width: 47%;
+}
+
+.main-content .content-row4 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.main-content .content-row4 .about-services {		
+	width: 47%;	
+}
+
+.main-content .content-row4 .about-services p {	
+	margin-bottom: 15px;
+}	
+
+ul.ls-square {
+	list-style-type: square;
+	padding-left: 16px;
+}
+
+ul.ls-square li {
+	padding: 5px;
+}
+
+.learn-btn {
+	margin-top: 22px;
+	border-radius: 4px;
+	padding: 8px 32px;
+	border: 1px solid black;			
+	width: 134px;	
+	background: white;
 }
