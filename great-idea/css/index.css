@@ -65,156 +65,38 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
 .navigation {
+	display: flex;
+	font-display: gray;
+	justify-content: space-evenly;
+	width: 900px;
+	margin: 50px;
 	border: solid black 2px;
+	}
+
+.services-header {
 	display: flex;
-	justify-content: center;
-	}	
-
-a {
-	margin: 20px;
-	padding: 12px;
-	}
-	
-div h1 {
-	border: solid white 2px;
-	margin: 100px 300px 10px 260px;
-	width: 250px;
-	height: 230px;
-	font-size: 65px;
-	text-align: center;
-	}
-
-/*p barimage {
-	border: green solid 2px;
-	margin: 200px;
-	padding: 20px;
-	}*/
-
-button {
-	margin-left: 310px;
-	margin-top: -680px;
-	width: 120px;
-	height: 30px;
-	}
-
-div h2 img{
-	border: solid white 2px;
-	margin-left: 730px;
-	margin-top: -300px;
-	}
-
-p img {
-	margin-left: 250px;
-	margin-top: -40px;
-}
-
-/*.solid-line{
-	border: black 1px;
-	width: 650px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}*/
-
-.container {
-	display: flex;
-	border-top: solid black 2px;
-	padding-top: 20px;
-	margin: 270px;
-	margin-top: 10px;
-	margin-bottom: 20px;
+	justify-content: stretch;
+	border: solid salmon 3px;
+	margin: 250px;
+	width: 900px;
+	margin-top: 30px;
 	}
 
 .container1 {
-	margin: 270px;
-	margin-top: 10px;
-	}
-
-.container2 {
 	display: flex;
+	}
+
+.company-services {
+	border: solid grey 2px;
+	width: 650px;
 	justify-content: space-between;
-	margin: 270px;
-	margin-top: -250px;
+	margin: 10px;
 	}
 
-/*.Services {
-	border: solid salmon 2px;
-	margin-top: 10px;
-	margin-bottom: 100px;
-	margin-left: 250px;
-	width: 280px;
-	height: 150px;
+.button {
+	border: solid grey 2px;
+	margin-top: 65px;
+	padding-top: 10px;
 	}
-
-.Product {
-	border: solid salmon 2px;
-	margin-top: -200px;
-	margin-bottom: 100px;
-	margin-left: 555px;
-	width: 280px;
-	height: 150px;
-	}
-
-.Vision {
-	border: solid salmon 2px;
-	margin-top: -200px;
-	margin-bottom: 100px;
-	margin-left: 850px;
-	width: 280px;
-	height: 150px;
-	}*/
-
-.bottom-container {
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 15px;
-	border-top: solid 2px #000;
-	padding-top: 20px;
-	width: 880px;
-	margin-left: 270px;
-	margin-top: -230px;
-	}
-
-/*
-.Contact h3 {
-	border: solid salmon 2px;
-	padding-bottom: 15px;
-	border-top: solid 2px #000;
-	padding-top: 20px;
-	width: 880px;
-	margin-left: 270px;
-	margin-top: -230px;
-}
-
-.address p {
-	margin-left: 250px;
-	margin-bottom: 1px;
-	}	
-	
-.city p {
-	margin-left: 250px;
-	margin-bottom: 10px;
-	}	
-
-.phone p {
-	margin-left: 250px;
-	margin-bottom: 10px;
-	}	
-
-.email p {
-	margin-left: 250px;
-	margin-bottom: 10px;
-	}	
-
-.business p {
-	margin-left: 250px;
-	margin-bottom: 10px;
-	}
-*/
-
-footer {
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	}
-
