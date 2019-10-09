@@ -74,6 +74,7 @@ nav{
 }
 nav a{
 	color: gray;
+	text-decoration: none;
 }
 .main-content{
 	width: 100%;
