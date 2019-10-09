@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Your code starts here! */
+body{
+	display:flex;
+	justify-content:center;
+
+}	
+
+.nav{
+	margin:40px;
+	padding:40px;
+	display:flex;
+	 justify-content:space-evenly;
+	
+}
+
+nav a{
+	margin:30px;
+	padding:px;
+	text-decoration: none;
+	background:lightgray;
+	border-radius: 5px;
+	color: black;
+	
+}
+nav a:hover{
+	background: gold;
+	color:white;
+}
+.logo{
+	width:90px;
+}
+header{
+	
+	margin:50px;
+	display:flex;	
+	 justify-content:center;
+
+
+}
+.inn{
+	text-align:center;
+	width:200px;
+	margin:70px;
+	
+}
+h1{
+
+	font-size:60px;
+	
+}
+.header-img{
+	width:300px;
+	height:300px;
+
+	
+}
+.top-content{
+	display:flex;
+	justify-content:space-between;
+}
+.feature{
+	width: 400px;
+	text-align: start;
+	/* display: inline-block; */
+	margin:20px;
+}
+.about{
+	width: 400px;
+	text-align: start;
+	/* display: inline-block; */
+	margin:20px;
+}
+
+.bottom-content{
+display:flex;
+justify-content:space-between;
+
+
+}
+.Services{
+	width:250px;
+	text-align: start;
+	/* display:inline-block; */
+	margin:30px;
+}
+.Product{
+	width:250px;
+	text-align: start;	
+	/* display:inline-block; */
+	margin:30px;
+}
+.Vision{
+	width:250px;
+	text-align: start;
+	/* display:inline-block; */
+	margin:30px;
+}
+.footer{
+text-align: start;
+display:flex;
+justify-content:start;
+}
+.copyright{
+	display:flex;
+	justify-content: center;
+}
