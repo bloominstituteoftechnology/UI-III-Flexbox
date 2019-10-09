@@ -116,6 +116,19 @@ h1, h2, h3, h4, h5 {
 	  margin-right: 5%;  
   }
   
+  .contact-header-img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.contact-desc {
+	width: 80%;
+	margin-top: 3%;
+	padding-left: 20%;
+  }
+
   /* New CSS content start end */
   
   .top-info {
