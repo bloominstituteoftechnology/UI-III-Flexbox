@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	width: 58%; /* 880px */
+	margin: auto;  
+	border: 1px solid red;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+	border: 1px solid red;
+}
+
+nav a:first-child {
+	padding-left: 20px;
+}
+
+header nav a{	
+	padding-left: 50px;	
+	color: #A9A9A9;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+	border: 1px solid red;
+	margin-top: 3em; 
+}
+
+.cta .cta-text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-content: center;
+	border: 1px solid red;	
+}
+
+.cta .cta-text h1 {
+	font-size: 75px;
+	margin: 0px 60px;
+}
+
+.cta-text button {	
+	background-color: white;
+	padding: 5px 32px;
+	border: 1px solid black;	
+	margin: 0px 136px;	
+	width: 150px;	
+}
+
+hr {         
+    margin-top: 5em;    
+}
+
+.main-content .top-content {
+	
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.main-content .top-content .text-content1 {
+	width: 48%;
+	display: inline-block;
+}
+
+.main-content .top-content .text-content2 {
+	width: 48%;
+	display: inline-block;
+	margin-left: 14px;
+}
+
+
+.main-content .bottom-content .text-content {
+	width: 32%;
+	display: inline-block;
+	margin: 25px 0px 25px 5px;
+}
+
+
+
+.gray-line hr {
+	
+	margin: 2em 0em;
+	color: #ccc;
+	margin-right: 20px;
+	
+}
+
+.contact .cell-contact
+{
+	line-height: 3;
+}
+
+footer p {
+ text-align: center;
+ margin-top: 35px;
+}
