@@ -76,14 +76,12 @@ h1, h2, h3, h4, h5 {
 
 .services-header {
 	display: flex;
-	border: solid salmon 3px;
-	width: 62%;
-	
+	width: 65%;
 	}
 
 .wrapper {
 	display: flex;
-	width: 65%;
+	width: 60%;
 	margin-top:1%;
 	margin-left: 2%;
 	}
@@ -100,18 +98,22 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	width: 65%;
+	width: 66%;
+	}
+
+.h3 {
+	margin: 2%;
 	}
 
 .company-services {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	background: lightgrey;
 	width: 45%;
 	height: 60%;
 	padding: 3%;
 	border: solid grey 2px;
-	margin: 2%;
 	margin-bottom: 2%;
 	}
 
@@ -126,6 +128,7 @@ h1, h2, h3, h4, h5 {
 	flex-wrap: wrap;
 	border: solid white 1%;
 	width: 30%;
+	margin-top: 3%;
 	margin: 2%;
 	}
 
@@ -139,8 +142,8 @@ h1, h2, h3, h4, h5 {
 	margin-top: -16%;
 	}
 
-.footer {
-	display: flex;
-	margin: 50%;
+footer {
+	margin-left: 360px;
+	padding-top: 25px; 
 	}
 
