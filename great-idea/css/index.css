@@ -69,14 +69,33 @@ h1, h2, h3, h4, h5 {
   width: 80%;
   margin: 0 auto;
 }
+@media (max-width: 500px){
+	.container{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
 .top-text a{
 	 margin: 25px;
   color: black;
 text-decoration: none;
 }
+@media (max-width: 500px){
+	.top-text nav{
+		margin-bottom: 80px 0;
+	}
+	.top-text a{
+		display: flex;
+		justify-content: center;
+	}
+}
 .top-text nav:hover{
-	background: lightgreen;
-	
+	background: transparent;	
+}
+@media (max-width: 500px){
+	.top-text nav a:hover{
+		background: hidden;
+	}
 }
 .top-text a:hover{
 color:  darkslategrey;
@@ -116,6 +135,11 @@ font-weight: bold;
 	background-color: skyblue;
 	height: 60px;
 	z-index: 300;
+}
+@media (max-width: 500px){
+	.top-text nav{
+		background-color: transparent;
+	}
 }
 	
 .idea{
@@ -238,6 +262,10 @@ margin-top: 40px;
 			width: 100%;	
 			margin-top: 100px;
 			align-content: center;
+	}
+	@media (max-width: 500px){
+		.services-header-img{
+			margin-top: 320px;
 	}
 	.block{
 		margin-top: 40px;
