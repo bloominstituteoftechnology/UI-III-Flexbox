@@ -78,8 +78,12 @@ h1, h2, h3, h4, h5 {
 	padding: 14px 16px; 
 	text-decoration: none;
 	font-size: 17px;
-	box-sizing: border-box;
 	width: 100%;
+
+}
+
+.logo{
+	text-align: right;
 }
 .header {
 	border-bottom: 1px solid black;
@@ -158,10 +162,15 @@ padding: 10px 15px;
 
 .content {
 	display:flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
-.first-grid {
+.grid {
+	width: 400px
+}
+
+/* .first-grid {
 	display:flex;
 }
 
@@ -171,6 +180,12 @@ padding: 10px 15px;
 
 .third-grid {
 	display:flex;
+} */
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	
 }
 
 .grid {
