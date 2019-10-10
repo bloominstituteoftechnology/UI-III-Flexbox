@@ -69,34 +69,78 @@ h1, h2, h3, h4, h5 {
 .navigation {
 	display: flex;
 	font-display: gray;
-	justify-content: space-evenly;
-	width: 900px;
-	margin: 50px;
-	border: solid black 2px;
+	justify-content: space-between;
+	width: 62%;
+	margin: 2%;
 	}
 
 .services-header {
 	display: flex;
-	justify-content: stretch;
 	border: solid salmon 3px;
-	margin: 250px;
-	width: 900px;
-	margin-top: 30px;
+	width: 62%;
+	
+	}
+
+.wrapper {
+	display: flex;
+	width: 65%;
+	margin-top:1%;
+	margin-left: 2%;
+	}
+
+.container {
+	display: flex;
+	width: 61%;
+	margin: 2%;
+	padding-bottom: 2%;
+	border-bottom: solid black 2px;
 	}
 
 .container1 {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 65%;
 	}
 
 .company-services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 45%;
+	height: 60%;
+	padding: 3%;
 	border: solid grey 2px;
-	width: 650px;
-	justify-content: space-between;
-	margin: 10px;
+	margin: 2%;
+	margin-bottom: 2%;
 	}
 
 .button {
 	border: solid grey 2px;
-	margin-top: 65px;
-	padding-top: 10px;
+	margin-top: 10%;
+	padding-top: 30%;
 	}
+
+.lower-content {
+	display: flex;
+	flex-wrap: wrap;
+	border: solid white 1%;
+	width: 30%;
+	margin: 2%;
+	}
+
+.things {
+	margin: 2%;
+	}
+
+.services-info-img {
+	display: flex;
+	margin-left: 34%;
+	margin-top: -16%;
+	}
+
+.footer {
+	display: flex;
+	margin: 50%;
+	}
+
