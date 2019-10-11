@@ -64,3 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.navigation {
+	display: flex;
+	font-display: gray;
+	justify-content: space-between;
+	width: 62%;
+	margin: 2%;
+	}
+
+.services-header {
+	display: flex;
+	width: 65%;
+	}
+
+.wrapper {
+	display: flex;
+	width: 60%;
+	margin-top:1%;
+	margin-left: 2%;
+	}
+
+.container {
+	display: flex;
+	width: 61%;
+	margin: 2%;
+	padding-bottom: 2%;
+	border-bottom: solid black 2px;
+	}
+
+.container1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 66%;
+	}
+
+.h3 {
+	margin: 2%;
+	}
+
+.company-services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background: lightgrey;
+	width: 45%;
+	height: 60%;
+	padding: 3%;
+	border: solid grey 2px;
+	margin-bottom: 2%;
+	}
+
+.button {
+	border: solid grey 2px;
+	margin-top: 10%;
+	padding-top: 30%;
+	}
+
+.lower-content {
+	display: flex;
+	flex-wrap: wrap;
+	border: solid white 1%;
+	width: 30%;
+	margin-top: 3%;
+	margin: 2%;
+	}
+
+div ul {
+	list-style-type: square;
+	margin: 2%;
+	}
+
+.things {
+	list-style-position: inside;
+	margin: 2%;
+	}
+
+.services-info-img {
+	display: flex;
+	margin-left: 34%;
+	margin-top: -16%;
+	}
+
+footer {
+	margin-left: 360px;
+	padding-top: 25px; 
+	}
+
