@@ -163,12 +163,9 @@ padding: 10px 15px;
 .content {
 	display:flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 }
 
-.grid {
-	width: 400px
-}
 
 /* .first-grid {
 	display:flex;
@@ -182,11 +179,6 @@ padding: 10px 15px;
 	display:flex;
 } */
 
-.content {
-	display: flex;
-	flex-wrap: wrap;
-	
-}
 
 .grid {
 	background-color:#e8e6e4;
@@ -195,6 +187,7 @@ padding: 10px 15px;
 	border-color: black;
 	margin: 25px;
 	padding: 25px;
+	width: 400px
 }
 
 .learn-more {
