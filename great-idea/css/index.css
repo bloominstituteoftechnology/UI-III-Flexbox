@@ -1,21 +1,89 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+	/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,44 +91,323 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
+
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
+
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	box-sizing: content-box;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+nav a {
+	padding: 10px;
+	text-decoration: none;
+	color: gray;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+
+nav {
+	font-size: 20px;
+	margin: 20px;
+	max-width: 100%;
+	display: flex;
+}
+
+.thelogo {
+	text-align: right;
+	max-width: 200px;
+	display: flex;
+	padding-left: 100px;
+}
+
+header {
+	display: flex;
+}
+
+.thetitle {
+	font-size: 60px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.inovation {
+	width: 50%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.start {
+	font-size: 20px;
+	text-align: center;
+	border: 2px solid black;
+	max-width: 120px;
+	padding-top: 16px;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: flex;
+	margin: 50px;
+}
+
+.headerimg {
+	display: flex;
+	width: 50%;
+	margin-left: 0px;
+	justify-content: center;
+	margin-bottom:
+}
+
+.top-content {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.features {
+	max-width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about {
+	max-width: 48%;
+	display: flex;
+	margin-left: 100px;
+	flex-wrap: wrap;
+}
+
+.middle-img {
+	margin-bottom: 40px;
+}
+
+.bottom-content {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.first {
+	max-width: 32.4%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.second {
+	max-width: 32.4%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.third {
+	max-width: 32.4%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+.copyright {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+h3 {
+	height: 15px;
+	margin-bottom: 10px;
+}
+
+
+/* SERVICES */
+
+.navbar {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.first-logo {
+	padding: 20px;
+	margin-left: 121px;
+}
+
+.navbar a {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h1 {
+	padding-top: 20px;
+}
+
+.first-hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.button {
+	margin: 20px 20px 20px 0px;
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 10px 40px 10px 40px;
+	width: 22%;
+}
+
+.services-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.digital-design {
+	width: 40%;
+	margin-bottom: 30px;
+	padding: 15px;
+	outline: 2px solid black;
+	background-color: #f5f5f5;
+}
+
+.ux-ui {
+	width: 40%;
+	margin-bottom: 30px;
+	padding: 15px;
+	outline: 2px solid black;
+	background-color: #f5f5f5;
+}
+
+.digital-marketing {
+	width: 40%;
+	margin-bottom: 30px;
+	padding: 15px;
+	outline: 2px solid black;
+	background-color: #f5f5f5;
+}
+
+.web-development {
+	width: 40%;
+	margin-bottom: 30px;
+	padding: 15px;
+	outline: 2px solid black;
+	background-color: #f5f5f5;
+}
+
+.ios-development {
+	width: 40%;
+	margin-bottom: 30px;
+	padding: 15px;
+	outline: 2px solid black;
+	background-color: #f5f5f5;
+}
+
+.android-development {
+	width: 40%;
+	margin-bottom: 30px;
+	padding: 15px;
+	outline: 2px solid black;
+	background-color: #f5f5f5;
+}
+
+.facts {
+	display: flex;
+}
+
+.about-services {
+	width: 400px;
+	text
+}
+
+.thelist {
+	list-style-type: circle;
+	padding: 10px;
+	margin: 10px;
+}
+
+.services-info-img {
+	padding-left: 100px;
+}
+
+li {
+	margin-bottom: 13px;
+    list-style-type: square;
+}
+
+.copyright {
+    margin-top: 50px;
+    }
