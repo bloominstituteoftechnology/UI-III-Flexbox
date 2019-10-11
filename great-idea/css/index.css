@@ -166,6 +166,8 @@ footer p {
  margin-top: 60px;
 }
 
+/* Service Page */
+
 .service-cta {	
 	margin-top: 20px; 
     margin-bottom: 20px; 
@@ -179,64 +181,19 @@ footer p {
    font-size: 23px;
 }
 
-.main-content .content-row1 {
+.main-content .services-content {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 40px;   	
+	margin-top: 40px;   
+	flex-wrap: wrap;	
 }
 
-.main-content .content-row1 .digital-design {
+.main-content .services-content .text-content {
 	background: #f4f3f4;
 	border: 1px solid black;	
 	padding: 20px 20px;
 	width: 47%;
-}
-
-.main-content .content-row1 .ux-ui {
-	background: #f4f3f4;
-	border: 1px solid black;	
-	padding: 20px 20px;
-	width: 47%;
-}
-
-.main-content .content-row2 {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 40px;
-}
-
-.main-content .content-row2 .digital-marketing {
-	background: #f4f3f4;
-	border: 1px solid black;	
-	padding: 20px 20px;
-	width: 47%;
-}
-
-.main-content .content-row2 .web-develop {
-	background: #f4f3f4;
-	border: 1px solid black;	
-	padding: 20px 20px;
-	width: 47%;
-}
-
-.main-content .content-row3 {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 40px;
-}
-
-.main-content .content-row3 .ios-develop {
-	background: #f4f3f4;
-	border: 1px solid black;	
-	padding: 20px 20px;
-	width: 47%;
-}
-
-.main-content .content-row3 .android-develop {
-	background: #f4f3f4;
-	border: 1px solid black;	
-	padding: 20px 20px;
-	width: 47%;
+	margin-bottom: 40px;
 }
 
 .main-content .content-row4 {
@@ -269,6 +226,10 @@ ul.ls-square li {
 	border: 1px solid black;			
 	width: 134px;	
 	background: white;
+}
+
+.general-line hr {
+   margin-top: 0px;
 }
 
 /* Product Page */
