@@ -64,3 +64,252 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+body, html {
+    font-family: 'Titillium';
+    font-size:24px;
+}
+
+
+/*reusable */
+.container {
+    width:900px;
+    margin: 0 auto;
+}
+
+/* links*/
+a {
+    text-decoration: none;
+    color:#8d8888;
+}
+
+/*section*/ 
+section {
+    padding: 40px 0
+}
+/*paragraph*/
+ p {
+    font-size: 50%;
+}
+em{
+    font-size: 50%;
+}
+h2,h3 {
+    font-size: 80%
+}
+/*------------------------------*/
+
+/*------------------nav----------------*/
+nav {
+    width:100%;
+    height:80px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 70%;
+}
+
+
+/*----------------------------------*/
+/*------------------header ------------------*/
+
+
+header {
+    width:100%;
+    height:400px;
+    display:flex;
+    justify-content: space-between;
+    margin-top:80px;
+    align-items: center;
+    padding-bottom:40px
+    
+}
+header div:first-of-type{
+    margin-left: 15%;
+}
+
+header h1 {
+    font-size:350%;
+    text-align: center;
+    
+}
+
+header a{
+    padding:10px 50px;
+    border: 1px solid black;
+    color:black;
+    font-size: 60%;
+    letter-spacing: 1px;
+    border-radius:2px;
+    margin-left:20%
+}
+
+
+/*---------------------------------------*/
+/*-------------section info --------------*/
+
+.info {
+    width:100%;
+    border-top:2px solid #9a9999;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.info div {
+/*    margin-top:60px;*/
+    width:45%;
+}
+
+
+
+
+section .middle-img {
+    width:100%;
+}
+
+
+
+
+/*---------------------------------------*/
+/*-------------section other-info --------------*/
+
+.other-info {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.other-info div {
+    width:30%;
+}
+
+/*---------------------------------------*/
+/*-------------footor --------------*/
+
+
+
+footer {
+    line-height: 90%;
+    border-top:2px solid #9a9999;
+}
+
+footer h3 {
+    margin-top:80px
+}
+footer div {
+    line-height: 50%;
+    margin-bottom: 10px;
+}
+footer a {
+    font-size: 50%;
+    color:#000;
+}
+.copy-right{
+    width:200px;
+    margin: 40px auto;
+    text-align: center;
+    padding-bottom: 100px
+}
+
+
+
+
+.services-header-img {
+    width:100%;
+}
+
+.services h2 {
+    font-size:120%;
+    line-height:160%;
+    letter-spacing: 2px
+}
+
+.services p   {
+    font-size:70%
+} 
+
+.list-services {
+    border-top: 2px solid black;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    border-bottom:2px solid black
+}
+
+
+
+.list-services .box {
+    width:47%;
+    height:180px;
+    background-color:#e5e5e5;
+    border:1px solid black;
+    border-radius:3px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding:15px 0
+    
+}
+.list-services .box h3 {
+    margin:5px
+}
+.list-services .box p {
+    font-size:15px;
+    margin:5px;
+}
+
+
+.list-services .box a {
+    border:1px solid black;
+    margin-top:10px;
+    margin-left:20px;
+    padding: 5px 20px;
+    color:black;
+    font-size:70%;
+    background: #fff;
+}
+
+
+
+
+.facts {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.facts div {
+    width: 48%;
+}
+
+
+.facts ul {
+    margin-top:20px;
+    font-size: 60%;
+    margin-left:20px
+}
+
+.facts ul li {
+    list-style:disc;
+    margin-bottom: 5px
+    
+}
+
+
+
+
+
+
+
