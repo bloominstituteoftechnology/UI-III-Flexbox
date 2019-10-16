@@ -68,13 +68,102 @@ h1, h2, h3, h4, h5 {
 * {
 	box-sizing: border-box;
 }	
+.Great-Idea{
+	width: 800px;	
+	margin:0 auto;
+}
+.Great-Idea header{
+	border-bottom: 1px dashed gray;
+}
+.nav{
+	margin: 2%;
+	display:flex;
+	justify-content:space-between;
+
+}
+.nav nav a{
+	margin:20px;
+	text-decoration: none;
+	color: gray;
+}
+.innovt{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+
+}
+.innovt .inn{
+	width:70px;
+	font-size: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header-img{
+	width: 200px;
+	margin: 0 auto;
+
+}
+.top-content{
+	margin-top:  20px;
+	display:flex;
+	justify-content:space-between;
+
+}
+.top-content .feature {
+
+padding-right: 20px;
+
+}
+.top-content .about{
+	
+	padding-left: 20px;
+
+}
+.middle-img{
+	
+	padding-top: 20px;
+}
+.bottom-content{
+	display:flex;
+	justify-content:center;
+	margin-top: 40px;
+	border-bottom: 1px dashed gray;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+footer{
+	 margin-top: 20px;
+
+}
+footer h5{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
 body{
 	
 
-	width: 900px;
+	 width: 900px;
 	height: 1200px;
 	margin: 10%;
-}
+} 
 
 
 .nav{
@@ -83,12 +172,12 @@ display:flex;
 margin-bottom: 20px;
 justify-content: space-between;
 
- }
- .nav nav a{
+ } 
+  .nav nav a{
 	 color:gray;
 	 text-decoration:none;
 	 margin:20px;
- }
+ } 
 .nav nav a:hover{
 	
 	background: gold;
@@ -100,10 +189,10 @@ justify-content: space-between;
 	display:flex;
 	flex-direction:column;
 	border-bottom: 1px solid black;
-}
-.header .ervices-header-img{
+} 
+ .header .ervices-header-img{
 
-}
+
 .btn{
 	margin:20px;
 	border: 1px solid black;
@@ -111,12 +200,12 @@ justify-content: space-between;
 	height:30px;
 	border-radius: 5px;
 	
-}
+}  */
 
 .h1{
 margin-top: 20px;
 margin-bottom: 20px;
-}
+
 .content{
 	
     width:100%;
