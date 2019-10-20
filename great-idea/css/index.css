@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -60,7 +60,274 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	  margin-bottom: 15px;
+	
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.top-text a{
+	 margin: 33px;
+  color: black;
+text-decoration: none;
+
+}
+
+.top-text nav:hover{
+	background: lightgreen;	
+}
+
+.top-text a:hover{
+color:  darkslategrey;
+font-weight: bold;
+
+}
+	
+.square button:hover{
+	background: lightgreen;
+	color: darkslategrey;
+	font-weight: bold;	
+}
+.sphere{
+	display: inline;
+}
+.sphere #spinning-circle{
+		animation-name: spinning-circle;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		width: 350px;
+		height: 350px;
+		animation: rotation 2s infinite linear;
+}
+@media (max-width: 500px){
+	.sphere	#spinning-circle{
+			  display: none;
+		  }
+		  .top-text a:hover{
+			color:  lightseagreen;
+			font-weight: bold;
+			
+			}
+	}
+@keyframes rotation {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(359deg);
+	}
+  }
+ 
+
+
+.top-text nav{
+	display: flex;
+	position: fixed;
+	background-color: skyblue;
+	z-index: 300;
+}	
+.idea{
+	margin-left: 180px;	
+}
+
+.square{
+	display: inline-block;
+	margin: 40px 80px;	
+	padding: 40px 50px;	
+}
+	
+h1{	
+	font-size: 80px;
+	width: 300px;
+	text-align: center;	
+	margin-right: 50px;	
+	margin-top: 150px;	
+}
+.square img{
+	margin-top: 100px;
+	width: 400px;
+}
+.orbit{
+	border-bottom: 1px solid darkslategrey;
+}
+	button{
+	width: 200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.main-content {
+display: flex;
+justify-content: space-between;
+}
+@media(max-width: 500px){
+	.main-content{
+	flex-direction: column;	
+	justify-content: center;
+	}
+}
+.middle-text{	
+width: 460px;
+float: left;
+padding: 0;
+margin-top: 40px;
+margin-right: 40px;
+margin-bottom: 40px;
+}
+.mac{
+   width: 98%;
+	margin-bottom: 40px;
+}
+.bottom-content{
+	display: flex;
+	justify-content: space-between;
+	padding: 0;	
+}
+@media(max-width: 500px){
+	.bottom-content{
+	flex-direction: column;	
+	
+	}
+}
+.text-orbit{
+width: 350px;
+margin-bottom: 40px;
+}
+.word-orbit{
+width: 350px;
+margin-bottom: 40px;
+}
+.last-orbit{
+margin-bottom: 40px;
+width: 350px;
+}
+
+
+.contact{
+margin-top: 40px;
+}
+.copy{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+  }	 
+		
+	.middle-content button {
+		 width: 12.5rem;
+		 height: 40px;
+		 margin-top: 1.25rem;
+	 }
+	 .facts{
+		 display: flex;
+		 justify-content: space-between;
+		 margin-top: 40px;
+	 }
+	 
+   .facts p {
+	   width: 25rem;
+	   line-height: 25px;
+	   margin-bottom: 20px;
+   }
+   .facts h4{
+	   margin-top: 1.25rem;
+   }
+   .bottom-img{
+	   margin-top: 1.25rem; 
+   }
+   
+	ul{
+		Padding: 1.25rem;
+		
+	}
+	li{
+		padding: .625rem;
+	}
+	.copyright{
+		text-align: center;
+		margin-top: 5rem;
+	}
+		
+	
+	 .square img{
+	   display: hidden;  
+	 }
+	 
+    .services-header-img{
+	    	height: 150px;
+			width: 104.3%;	
+			margin-top: 80px;
+			align-content: center;
+	}
+	@media(max-width: 500px){
+		.facts{
+			flex-direction: column;
+		}
+		.idea{
+			text-align: top;
+		}
+	}
+
+	
+	.block{
+		margin-top: 40px;
+		margin-bottom: 40px;
+		
+	}
+	.block h2{
+		font-size: 30px;
+		
+	}
+	.mid-content{
+		display: flex;
+		justify-content: space-between;	
+		flex-wrap: wrap;
+		margin-bottom: 40px;
+		border-top: 2px solid darkslategrey;
+		border-bottom: 2px solid darkslategrey;
+	}
+	.border{
+		border: 1px solid black;
+		width: 475px;
+		height: 250px;
+		padding: 20px;
+		line-height: 20px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		background-color: lightgray;
+	}
+	.border button{
+		margin-top: 25px;
+	}
+	
+
+
+@media (max-width: 500px){
+		html,body{
+			max-width:100%;
+			overflow-x: hidden;
+		}
+	  }
+	 
+	 @media (max-width: 500px){
+		.container{
+			width: 100%;
+			margin: 0 auto;
+		}	
+	}
+	@media (max-width: 500px){
+	.top-text nav{
+		background: none !important;
+		position: static;
+	  }
+	}
+	@media (max-width: 500px){
+	.top-text nav{
+		flex-direction: column;
+	}
+	.top-text a{	
+		text-align: center;
+	}
+}
