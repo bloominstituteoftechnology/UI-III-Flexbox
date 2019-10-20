@@ -70,31 +70,17 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
 }
 
-  
-
 .top-text a{
 	 margin: 33px;
   color: black;
 text-decoration: none;
 
 }
-@media (max-width: 500px){
-	.top-text nav{
-		margin-bottom: 80px 0;
-	}
-	.top-text a{
-		display: flex;
-		justify-content: center;
-	}
-}
+
 .top-text nav:hover{
 	background: lightgreen;	
 }
-@media (max-width: 500px){
-	.top-text nav a:hover{
-		background: transparent;
-	}
-}
+
 .top-text a:hover{
 color:  darkslategrey;
 font-weight: bold;
@@ -117,6 +103,16 @@ font-weight: bold;
 		height: 350px;
 		animation: rotation 2s infinite linear;
 }
+@media (max-width: 500px){
+	.sphere	#spinning-circle{
+			  display: none;
+		  }
+		  .top-text a:hover{
+			color:  lightseagreen;
+			font-weight: bold;
+			
+			}
+	}
 @keyframes rotation {
 	from {
 	  transform: rotate(0deg);
@@ -129,18 +125,11 @@ font-weight: bold;
 
 
 .top-text nav{
+	display: flex;
 	position: fixed;
 	background-color: skyblue;
-	height: 60px;
 	z-index: 300;
-}
-@media (max-width: 500px){
-	.top-text nav{
-		background-color: transparent;
-		position: static;
-	}
-}
-	
+}	
 .idea{
 	margin-left: 180px;	
 }
@@ -174,6 +163,12 @@ h1{
 display: flex;
 justify-content: space-between;
 }
+@media(max-width: 500px){
+	.main-content{
+	flex-direction: column;	
+	justify-content: center;
+	}
+}
 .middle-text{	
 width: 460px;
 float: left;
@@ -189,8 +184,13 @@ margin-bottom: 40px;
 .bottom-content{
 	display: flex;
 	justify-content: space-between;
-	padding: 0;
+	padding: 0;	
+}
+@media(max-width: 500px){
+	.bottom-content{
+	flex-direction: column;	
 	
+	}
 }
 .text-orbit{
 width: 350px;
@@ -199,7 +199,6 @@ margin-bottom: 40px;
 .word-orbit{
 width: 350px;
 margin-bottom: 40px;
-padding: 0 20px;
 }
 .last-orbit{
 margin-bottom: 40px;
@@ -258,10 +257,19 @@ margin-top: 40px;
 	 
     .services-header-img{
 	    	height: 150px;
-			width: 100%;	
-			margin-top: 100px;
+			width: 104.3%;	
+			margin-top: 80px;
 			align-content: center;
 	}
+	@media(max-width: 500px){
+		.facts{
+			flex-direction: column;
+		}
+		.idea{
+			text-align: top;
+		}
+	}
+
 	
 	.block{
 		margin-top: 40px;
@@ -310,17 +318,16 @@ margin-top: 40px;
 		}	
 	}
 	@media (max-width: 500px){
-		.services-header-img{
-			margin-top: 320px;
+	.top-text nav{
+		background: none !important;
+		position: static;
 	  }
 	}
 	@media (max-width: 500px){
-		.services-header-img{
-			margin-top: 320px;
-	  }
-	} 
-	@media (max-width: 500px){
-		.services-header-img{
-			margin-top: 320px;
-	  }
-	 } 
+	.top-text nav{
+		flex-direction: column;
+	}
+	.top-text a{	
+		text-align: center;
+	}
+}
