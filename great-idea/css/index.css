@@ -73,9 +73,10 @@ h1, h2, h3, h4, h5 {
   
 
 .top-text a{
-	 margin: 25px;
+	 margin: 33px;
   color: black;
 text-decoration: none;
+
 }
 @media (max-width: 500px){
 	.top-text nav{
@@ -141,7 +142,7 @@ font-weight: bold;
 }
 	
 .idea{
-	margin-left: 160px;	
+	margin-left: 180px;	
 }
 
 .square{
