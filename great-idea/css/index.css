@@ -64,3 +64,206 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  .container2 {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  
+  /* header */
+  /*Firealem :commented out the inline block and made the header flex*/
+  /*Firealem: removed nav width and added justify content */
+  header{
+	  display:flex;
+	  justify-content: space-between;
+	  
+  }
+  
+  header nav {
+	/*display: inline-block;*/
+	/*width: 691px;*/
+	/*vertical-align: top;*/
+	margin-top: 35px;
+  }
+  
+  header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	margin-top: 25px;
+  }
+  
+  /* cta */
+  /*add flex to cta */
+
+  .cta{
+	  display: flex;
+	  margin-top:80px;
+	  align-items:center;
+  }
+  /*removed display inline block from cta text and cta img and made cta flex
+  removed top margins from cta text and cta img. Instead used align-items
+  */
+  
+  .cta .cta-text {
+	/*display: inline-block;*/
+	vertical-align: top;
+	font-size: 77px;
+	/*margin-top: 120px;*/
+	text-align: center;
+	padding: 0px 75px;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .cta img {
+	/*display: inline-block;*/
+	/*margin-top: 69px;*/
+  }
+  
+  .main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
+
+  .top-content{
+	  display:flex;
+	  
+  }
+  
+  .main-content .top-content {
+	padding: 0 10px;
+  }
+  
+  .main-content .top-content .text-content {
+	/*width: 410px;*/
+	/*display: inline-block;*/
+	margin-right: 34px;
+  }
+  
+  .main-content .top-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+  /*Firealem: added flex display to bottom content, removed inline-block and width from text content*/
+  .bottom-content{
+	  display:flex;
+  }
+  .main-content .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .main-content .bottom-content .text-content {
+	/*width: 275px;*/
+	/*display: inline-block;*/
+	margin-right: 12px;
+  }
+  
+  .main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
+
+  /* Services 
+  */
+
+  .services-header-img{
+	  margin-top:20px;
+	  margin-bottom: 30px;
+	  }
+.middle-content{
+	  border-bottom: 1px solid black;
+	  padding-bottom: 30px;
+	  margin-bottom: 30px;
+}
+
+.list-content
+{
+display: flex;
+justify-content: space-between;
+flex-wrap:wrap;
+
+}
+.list-item{
+	/*margin:20px ;*/
+	padding:20px;
+	border: 1px solid black;
+	width: 420px;
+	height: 200px;
+	margin-bottom: 35px;
+	background: lightgray;
+	
+	
+}
+.last-section
+{
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+
+.last-section-text
+{
+	margin-right: 30px;
+}
+.last-section-text ul
+{
+margin-left:30px;
+
+}
