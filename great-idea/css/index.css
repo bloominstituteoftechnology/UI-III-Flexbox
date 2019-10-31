@@ -74,32 +74,29 @@ nav a{
 	color:gray;
 	text-decoration: none;
 }
-h1 {
-	Display:block;
-	color:black;
-	font-size: 30px;
-	margin:10%;
-	justify-content: center;
-}
 
 .top {
 	display:flex;
-	
 	justify-content:space-around;
+	flex-direction:column;
+	text-align:center;
+	align-items:center;
+	margin:10%;
+
 }
-.top h1 {flex-direction:column;}
-.top img {}
+v
  .top a {
 	border-style: solid;
 	border-width:1px;
 	border-color:black;
 	padding:5px;
+	width:100px;
 }
 
 .one {
-	margin:3%;
 	display:flex;
-	width:20%;
+	flex-wrap:wrap;
+	flex-direction:row;
 }
 .middle-img {
 	margin:3%;
@@ -108,7 +105,7 @@ h1 {
 .two{ 
 	margin:3%;
 	display:flex;
-	width:20%;
+
 }
 section {
 	margin:3%;
