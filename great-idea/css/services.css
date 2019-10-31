@@ -1,0 +1,73 @@
+/* landing section styleing */
+.services_landing {
+}
+
+.services_landing img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.services_landing div {
+  margin-bottom: 40px;
+}
+
+.services_landing div h2 {
+  font-size: 26px;
+}
+
+/* service card styleing */
+.action_card {
+  width: 425px;
+  padding: 20px;
+  border: 1px solid #000;
+  background-color: rgb(236, 236, 236);
+  margin-bottom: 40px;
+}
+
+.action_card button {
+  margin-top: 15px;
+  padding: 7px 30px;
+  border-radius: 5px;
+  border: solid 1px #000;
+}
+
+/* service cards section styleing */
+hr {
+  margin-bottom: 40px;
+}
+
+.card_view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+
+/* facts card style */
+.facts_card {
+  width: 425px;
+}
+
+.facts_card > * {
+  margin-bottom: 20px;
+}
+
+.facts_card ul {
+  list-style: circle;
+  padding-left: 18px;
+}
+
+.facts_card ul li {
+  margin-bottom: 10px;
+}
+
+/* facts section styleing */
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.facts img {
+  width: 425px;
+}

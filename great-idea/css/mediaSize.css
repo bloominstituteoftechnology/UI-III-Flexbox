@@ -1,0 +1,65 @@
+/* style for smaller screens */
+@media only screen and (max-width: 890px) {
+  /* container style */
+  .container:nth-of-type(2) {
+    padding-top: 110px;
+  }
+
+  /* header styleing */
+  header {
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 30px 0 0 0;
+  }
+
+  header img {
+    margin-bottom: 20px;
+    height: 20px;
+  }
+
+  header nav {
+    text-align: center;
+  }
+
+  header nav a {
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    display: inline-block;
+    margin: 0 5px 20px 5px;
+  }
+
+  header nav a:hover {
+    color: rgb(0, 255, 115);
+  }
+
+  /* INDEX.HTML SECTION */
+  /* landing section img styleing */
+  .landing {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .landing span {
+    height: 100px;
+    width: 100px;
+  }
+
+  /* SERVICES.HTML SECTION */
+  /* landing section styleing */
+  .services_landing div {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  /* card view section styleing */
+  .card_view {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* fatcs section styleing */
+  .facts {
+    flex-direction: column;
+    align-items: center;
+  }
+}

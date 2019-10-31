@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Great Idea! - Product</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/mediaSize.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <style>
+      .product {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+      }
+
+      .product b {
+        font-size: 50px;
+        margin-bottom: 50px;
+        display: inline-block;
+      }
+
+      .product img {
+        max-width: 500px;
+      }
+
+      .product p {
+        margin-bottom: 70px;
+        color: rgba(0, 0, 0, 0.384);
+      }
+
+      .product span {
+        font-size: 30px;
+        letter-spacing: 5px;
+        transition: 0.2s;
+      }
+
+      .product span:hover {
+        color: rgb(0, 255, 115);
+        cursor: pointer;
+        background-color: #000;
+      }
+
+      footer {
+        left: 0;
+        right: 0;
+        position: absolute;
+        bottom: 0;
+      }
+    </style>
+
+    <div class="container">
+      <!-- fixed-to-top navigation bar -->
+      <header>
+        <nav>
+          <a href="services.html">Services</a>
+          <a href="product.html">Product</a>
+          <a href="#">Vision</a>
+          <a href="#">Features</a>
+          <a href="index.html">About</a>
+          <a href="#">Contact</a>
+        </nav>
+        <div>
+          <img
+            class="logo"
+            src="img/logo.png"
+            alt="Great Idea! Company logo."
+          />
+        </div>
+      </header>
+
+      <!-- Landing Page Main Section | Call to Action -->
+      <section class="product">
+        <div>
+          <b>
+            Our Cool Tech Bike
+          </b>
+
+          <img
+            src="https://ebiketips.road.cc/sites/default/files/styles/970wide/public/thumbnails/image/Gazelle%20e-bike%20No1%20-%20bike.PNG?itok=r2QbDm6v"
+            alt="Image of a code snippet."
+          />
+          <p>
+            Aliquam elementum magna eros, ac posuere elvit tempus et.
+            Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu
+            ornare nisl. Nullam convallis augue justo, at imperdiet metus
+            scelerisque quis.
+          </p>
+          <div>
+            <span>ORDER NOW</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer section | contains copyright information -->
+      <footer>Copyright Great Idea! 2018</footer>
+    </div>
+  </body>
+</html>
