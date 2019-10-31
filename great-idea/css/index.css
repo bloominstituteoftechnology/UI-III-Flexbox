@@ -76,39 +76,43 @@ nav a{
 }
 
 .top {
-	display:flex;
-	justify-content:space-around;
-	flex-direction:column;
-	text-align:center;
-	align-items:center;
-	margin:10%;
-
+	display: flex;
+	justify-content: space-around;
+	margin:7px;
 }
-v
+.right {
+flex-direction:column;
+}
+.top h1{
+	font-size:35px;
+	text-align:center;
+}
  .top a {
 	border-style: solid;
 	border-width:1px;
 	border-color:black;
-	padding:5px;
+	padding:1px;
 	width:100px;
+	margin:px;
 }
 
-.one {
+.first {
 	display:flex;
-	flex-wrap:wrap;
-	flex-direction:row;
+	margin:3%;
 }
+
 .middle-img {
 	margin:3%;
 	width:auto;
 }
-.two{ 
+
+.second{ 
 	margin:3%;
 	display:flex;
-
 }
+
 section {
-	margin:3%;
+	margin:20px;
 }
 
 footer{
