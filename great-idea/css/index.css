@@ -82,7 +82,8 @@ nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	padding: 0px 0px 30px 0px;
+	padding-bottom: 30px;
+	align-items: center;
   }
  
 .links {
@@ -108,8 +109,9 @@ nav a:link {
 	  display: flex;
 	  flex-direction: row;
 	  justify-content: space-evenly;
-	  padding: 0px 0px 50px 0px;
+	  padding-bottom: 50px;
   }
+  
   .header-content {
 	width: 48%;
 	display: flex;
@@ -156,21 +158,14 @@ nav a:link {
 
   /* Code for top content */
 
-  .top-content {
+  .top-content-cont {
 	  display: flex;
 	  flex-direction: row;
 	  justify-content: space-around;
 	  margin: 20px 50px;
   }
 
-  .features {
-	font-size: 20px;
-	flex-direction: row;
-	justify-content: space-around;
-	margin: 0px 5px;
-  }
-
-  .about {
+  .top-content {
 	font-size: 20px;
 	flex-direction: row;
 	justify-content: space-around;
@@ -179,37 +174,22 @@ nav a:link {
 
     /* Code for middle image */
 
-  .middle-img-section{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	  align-items:center;
-	  margin: 15px 0px 15px 0px;
-  }
 
   .middle-img{
-	width: 93%;
+	width: 1300px;
+	margin: 0px 60px;
   }
 
     /* Code for bottom content */
 	
-	.bottom-content {
+	.bottom-content-cont {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		margin: 20px 50px;
 	}
 
-  .services {
-	font-size: 20px;
-  }
-
-  .product {
-
-	font-size: 20px;
-  }
-
-  .vision {
+  .bottom-content {
 	font-size: 20px;
   }
 
@@ -219,9 +199,66 @@ nav a:link {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	height: 250px;
+	height: 300px;
+	margin-left: 50px;
  }
 
-  .copyright {
+ .contact h3 {
+	 margin: 0px;
+ }
+
+ address {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 150px;
+ }
+
+
+  footer p {
 	  text-align: center;
   }
+
+/* Code for Services Page*/
+  /* Code for Services header*/
+
+  .services-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+
+
+.services-header img{
+	max-width: 100%;
+	display: flex;
+	min-height: 290px;
+	padding: 20px 0px;
+}
+
+.services-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 10px 0px;
+}
+
+.services-description h2 {
+	font-size: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: left;
+
+}
+
+.services-description p {
+	line-height: 1.4;
+	margin: 10px 70px;
+}
+
+.hr-services-page {
+	border: black 1px solid;
+	margin: 0px 70px;
+}
