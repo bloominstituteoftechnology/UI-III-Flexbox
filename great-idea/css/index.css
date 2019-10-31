@@ -49,7 +49,10 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
 }
 
 html, body {
@@ -64,3 +67,56 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+text-decoration
+header{
+	height: 20vh;
+	color: grey;
+
+}
+header nav{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	color: grey;
+	
+}
+.navlinks {
+	width: 60%;
+	display:flex;
+	justify-content:space-between;
+	align-content: flex-start;
+	color: grey;
+
+}
+
+.services-header-img {
+	width: 100%;
+	display: flex;
+	
+}
+ 
+/* End navigation code, begin call to action code */
+.title-container {
+	font-size: 100px;
+	
+}
+p{
+	font-size: 12px;
+}
+#main{
+	display:flex;
+	justify-content: space-around;
+	
+
+
+	
+}
+li {
+	list-style-type: circle;
+}
+
+ .legal {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 75px;
+} 
