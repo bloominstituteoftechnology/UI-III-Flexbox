@@ -65,13 +65,17 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
+
+
+
+
+
+
+
 /* ----- Navigation below ----- */
 nav {
-	width: 90%;
-	margin: 2%;
-	background-color:white;
-	padding:4px;
-	vertical-align: top;
+	/* width: 61.5%; */
 	display:flex;
 	justify-content:space-around;
 }
@@ -80,21 +84,18 @@ nav a {
 	padding:7px;
 	color:grey;
 	text-decoration:none;
-	vertical-align: top;
 }
 
 
 
 /* ----- Header below ------ */
 header{
-	vertical-align:top;
 	display:flex;
-	margin-top: 5%;
 	justify-content:center;
 	align-items:center;
-	padding-bottom:2%;
-	margin-bottom:2%;
+	/* width: 61.5%; */
 	border-bottom:1px solid black;
+	padding:5%;
 }
 
 .innovation{
@@ -110,63 +111,72 @@ button{
 	border:2px solid black;
 }
 #header-image{
-	margin-left:50px;
+	margin-left:14%;
 }
 
 /* ----- all content ------ */
 .all{
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap;
-	justify-content:center;
+	/* display:flex;
+	justify-content:space-between; */
+	/* flex-wrap:wrap; */
+	/* width: 61.5%; */
 }
 
-p {
+/* p {
 	font-size:12px;
-}
+} */
 
+#main-image{
+	padding-bottom:5%;
+	width: 100%;
+
+}
 
 /* ------ top-content below ------ */
-.top-content{
-	margin-bottom: 5%;
-	margin-top:5%;
+#top-content{
+	display:flex;
+	justify-content:space-between;
+	padding:5% 0;
 }
+
 
 .top{
-	width:45%;
-	margin:2%;
+	width:48%;
 }
-
 
 
 /* ----- bottom below ----- */
-.bottom-content{
-	margin:0%;
+#bottom-content{
+	display:flex;
+	justify-content:space-between;
 	border-bottom:1px solid black;
 }
+
 .bottom{
-	width:28%;
-	margin:5% 2.5%
+	padding-bottom:5%;
+	width:31%;
 }
 
 #contact{
-	margin:30px;
+	padding: 5% 0;
 }
 /* ----- footer below ----- */
 footer{
 	text-align:center;
-	margin:40px;
 	color:grey;
+	/* width: 61.5%; */
 }
 /* ----- universal below ----- */
 *{
 	box-sizing:border-box;
-	margin:0%;
-	padding:0%;
-	max-width:100%;
+	max-width:61.5%%;
 }
 
+body{
+	/* background-color:pink; */
+	padding:0 15%;
 
+}
 
 
 /* ------- SERVICES PAGE ------- */
@@ -185,6 +195,7 @@ footer{
 
 .services-bottom{
 	display:flex;
+	justify-content:center;
 }
 
 .services-bottom div{
