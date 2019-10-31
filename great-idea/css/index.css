@@ -134,9 +134,19 @@ h2{
 	width: 47%;
 }
 
-
-
-
+/* Product starts here */
+.contact-div{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.code-banner{
+	width: 100%;
+}
+.contact-img{
+	width: 45%;
+}
 
 
 
