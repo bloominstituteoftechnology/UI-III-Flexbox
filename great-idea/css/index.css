@@ -1,66 +1,179 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* *{
+	 border: 2px red solid !important; 
+} */
+body{
+	padding: 5%;
+}
+h1, h2{
+	font-family: 'Bangers', cursive;
+	letter-spacing: 0.2vh;
+}
+p, li{
+	font-size: 20px;
+	font-family: 'Staatliches', cursive;	
+	/* font-family: 'Titillium Web'; */
+}
+/* Header */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+a{
+	color:lightgrey;
+	text-decoration: none;
+    font-size: 20px;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+nav{
+    display: flex;
+    justify-content: space-around;
 }
-body {
-	line-height: 1;
+.title-div{
+    margin: 45px;
+    display: flex;
+    justify-content: space-around;
 }
-ol, ul {
-	list-style: none;
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    text-align: center;
 }
-blockquote, q {
-	quotes: none;
+.header-img{
+	width: 38%;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.title h1 {
+	font-size: 100px;
+	text-align: center;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.title-div h3{
+	width: 25%;
+	text-align: center;
+	border: 1px gray solid;
+	font-size: 20px;
+    padding: 1%;
+	align-self: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* Text Area */
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h2{
+	justify-self: flex-start;
+	font-size: 30px;
+	margin: 5% 0;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.text-area{
+	border-top: 2px gray solid;
+	border-bottom: 2px gray solid;
+	display: flex;
+	flex-wrap: wrap;
+}
+.textOne{
+	margin: 15px 0 30px;
+	display: flex;
+	justify-content: flex-start;
+}
+.about{
+	margin-left: 15%;
+}
+.middle-img{
+	width: 100%;
+}
+.textTwo{
+	padding-bottom: 25px;
+	display: flex;
+	justify-content: flex-start;
+}
+.product{
+	margin-left: 5%;
+}
+.vision{
+	margin-left: 5%;
+}
+.copyright{
+	margin-top: 20px;
+	text-align: center;
+}
+
+/* Services Starts here */
+.services-header-img{
+	width: 100%;
+	margin: 3% 0;
+}
+.box{
+	height: 28%;
+	width: 46.5%;
+	border: 2px solid black;
+	background-color: lightgrey;
+	box-sizing: border-box;
+	padding: 2%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.text-srv{
+	padding-top: 5%;
+	height: 1400px;
+	justify-content: space-between;
+}
+.learn{
+	width: 35%;
+	border: 1px black solid;
+	text-align: center;
+	padding: 1.5%;
+	background-color: white;
+}
+.bigFacts{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin: 4% 0;
+}
+.facts{
+	width: 47%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.services-info-img{
+	width: 47%;
+}
+
+/* Product starts here */
+.contact-div{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.code-banner{
+	width: 100%;
+	margin: 3% 0;
+}
+.contact-img{
+	width: 45%;
+}
+.prod-text{
+	display: flex;
+	justify-content: space-around;
+	margin: 4% 0;
+}
+.prod-text .box{
+	width: 40%;
+}
+.prods{
+	border-top: 2px gray solid;
+	border-bottom: 2px gray solid;
+	margin: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
