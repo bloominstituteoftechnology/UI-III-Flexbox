@@ -70,6 +70,9 @@ h1 {
 	font-size: 57pt;
 }
 
+h2 {
+	font-size: 21pt;
+}
 a {
 	text-decoration: none;
 	color: darkslategrey;
@@ -91,6 +94,21 @@ nav a:hover {
 	color: black;
 }
 
+.half {
+	width: 50%;
+}
+
+.shortBtn {
+	padding: 2%;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.shortBtn:hover {
+	background-color: black;
+	color: greenyellow;
+}
+
 .contentWidth{
 	/* width: 65%; */
 	width: 876px;
@@ -99,6 +117,10 @@ nav a:hover {
 .contentFlex {
 	display: flex;
 	justify-content: center;
+}
+
+.roundedRectangle {
+	border-radius: 7%;
 }
 
 .btn {
@@ -118,6 +140,19 @@ nav a:hover {
 	text-align: center;
 	width: 175px;
 	margin: auto;
+}
+
+.detailsAboveBtn{
+	border: 1px solid black;
+	background-color: lightgrey;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	/* align-content: space-between; */
+	width: 420px;
+	/* margin: auto; */
+	padding: 1.5%;
+	justify-content: left;
 }
 
 .contactInfoParent {
@@ -142,6 +177,13 @@ nav a:hover {
 	display: flex;
 	align-content: space-between;
 	margin: 4em;
+	font-size: 11pt;
+}
+
+.flexSimpleOne {
+	display: flex;
+	align-content: space-between;
+	margin: 1em;
 	font-size: 11pt;
 }
 
