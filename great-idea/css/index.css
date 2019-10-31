@@ -67,22 +67,12 @@ h1, h2, h3, h4, h5 {
 
 
 h1 {
-	font-size: 40pt;
+	font-size: 57pt;
 }
 
 a {
 	text-decoration: none;
 	color: darkslategrey;
-}
-
-.contentWidth{
-	/* width: 65%; */
-	width: 876px;
-}
-
-.contentFlex {
-	display: flex;
-	justify-content: center;
 }
 
 nav {
@@ -101,8 +91,18 @@ nav a:hover {
 	color: black;
 }
 
+.contentWidth{
+	/* width: 65%; */
+	width: 876px;
+}
+
+.contentFlex {
+	display: flex;
+	justify-content: center;
+}
+
 .btn {
-	padding: 5% 20% 5%;
+	padding: 5%;
 	background-color: white;
 	border: 1px solid black;
 }
@@ -116,7 +116,7 @@ nav a:hover {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	width: 200px;
+	width: 175px;
 	margin: auto;
 }
 
