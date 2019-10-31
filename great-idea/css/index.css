@@ -49,7 +49,11 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	border: 3px solid black; 
 }
 
 html, body {
@@ -64,3 +68,61 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.navigation section {
+	position: relative;
+	right: 40px;
+	bottom: 10px;
+}
+header {
+
+}
+h1{
+	
+}
+header span {
+
+}
+header section {
+
+}
+.top-content {
+
+}
+.bottom-content{
+
+}
+.features {
+
+}
+.about {
+
+}
+.services {
+
+}
+.product {
+
+}
+.vision {
+
+}
+.contact {
+
+}
+.contact div {
+
+}
+.contact section {
+
+}
+footer {
+
+}
