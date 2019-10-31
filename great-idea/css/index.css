@@ -75,29 +75,66 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 30px;
+	max-width: 880px;
+	padding-left: 20px;
 }
 .navigation section {
 	position: relative;
-	right: 40px;
+	right: 20px;
 	bottom: 10px;
+	max-width: 880px;
 }
 header {
-
+	display:flex;
+	justify-content: center;
+	padding-top: 50px;
 }
+
 h1{
-	
+	display: flex;
+	justify-content: center;
+	font-size: 75px;
+	position: relative;
+	left: 100px;
 }
-header span {
-
+button {
+	position: relative;
+	height: 35px;
+	width: 150px;
+	top: 250px;
+	right: 160px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding-top: 5px;
 }
 header section {
-
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	padding-bottom: 0px;
+	max-width: 880px;
+	position: relative;
+	bottom: 20px;
+	left: 50px;
 }
 .top-content {
+	display: flex;
+	justify-content: center;
+	max-width: 880px;
+	padding-bottom: 100px;
+	padding-top: 30px;
+	border-top: 1px solid black;
+	padding-left: 20px;
 
 }
 .bottom-content{
-
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	width: 880px;
+	padding-left: 20px;
 }
 .features {
 
@@ -115,14 +152,27 @@ header section {
 
 }
 .contact {
-
+	border-top: 1px solid black;
+	margin-top: 10px;
+	padding-top: 30px;
+	max-width: 880px;
+	padding-left: 20px;
 }
-.contact div {
-
+.contact h2 {
+	max-width: 880px;
 }
 .contact section {
-
+	display:flex;
+	align-content: column;
 }
 footer {
-
+	display:flex;
+	justify-content: center;
+	max-width: 880px;
+}
+.middle-img {
+	position: relative;
+	right: 220px;
+	top: 50px;
+	transform: scale(2)
 }
