@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+h1 {
+	font-size: 40pt;
+}
+
+a {
+	text-decoration: none;
+	color: darkslategrey;
+}
+
+.contentWidth{
+	/* width: 65%; */
+	width: 876px;
+}
+
+.contentFlex {
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a{
+	color:#00CED1;
+	text-decoration:none;
+	letter-spacing:3px;
+  }
+
+nav a:hover {
+	color: black;
+}
+
+.btn {
+	padding: 5% 20% 5%;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.btn:hover {
+	background-color: black;
+	color: greenyellow;
+}
+
+.textAboveBtn{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 200px;
+	margin: auto;
+}
+
+.contactInfoParent {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: left;
+	margin: auto;
+}
+.contactInfoBlock{
+	display: flex;
+	/* border: 1px solid blue; */
+	justify-content: left;
+	flex-direction: column;
+	width: 200px;
+}
+
+.codeSnippet {
+	margin: auto;
+}
+
+.flexSimple {
+	display: flex;
+	align-content: space-between;
+	margin: 4em;
+	font-size: 11pt;
+}
+
+.verticalFlexCenter {
+	flex-direction: column;
+	align-items: center;
+}
+
+.verticalFlex {
+	display: flex;
+	flex-direction: column;
+}
+
+.footerText {
+	text-align: center;
+	margin: 2em;
+}
+
+.copyright {
+	letter-spacing: 2px;
+}
