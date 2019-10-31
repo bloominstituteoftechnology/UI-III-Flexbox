@@ -49,10 +49,10 @@ table {
 	border-spacing: 0;
 }
 
+
 /* Set every element's box-sizing to border-box */
-div, p, h1, img, span, nav, header, h2, h3, button {
+* {
 	border: 5px solid black;
-	box-sizing: border-box;
 }
 
 html, body {
@@ -66,71 +66,73 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
 
+h3 {
+	font-size: 25px;
+	font-family: "Source Sans Pro";
+}
+
+  p {
+	  line-height: 1.4;
+  }
+
+/* Code for Nav */
 
 nav {
-	margin: 0px 0px 0px 0px;
-	background: dimgray;
-	overflow: hidden;
-	background-color: #333;
-	position: fixed;
-	top: 0;
-	width: 100%
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0px 0px 30px 0px;
   }
  
 .links {
-	width: 70%;
-	display: inline-block;
-	padding: 0px 5px;
-	margin: 0px 0px 0px 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 60%;
 }
-  nav a:link {
+  
+nav a:link {
 	  color: silver;
 	  text-decoration: none;
 	  font-size: 18px;
   }
-  
-  nav a {
-	display: inline-block;
-	width: 120px;
-	float: left;
-  	display: block;
-	margin: 12px ;
-	font-size: 18px;
-  }
 
   nav img {
 	  width: 250px;
-	  margin: 0px 0px 0px 120px;
-	  display: inline-block;
   }
 
+  /* Code for header */
+
+  header {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: space-evenly;
+	  padding: 0px 0px 50px 0px;
+  }
   .header-content {
 	width: 48%;
-	display: inline-block; 
-	margin: 0px 0px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+  	align-items:center;
   }
 
   h1 {
 	  font-size: 70px;
 	  width: 370px;
 	  text-align: center;
-	  margin: 0px 0px 60px 170px;
-  }
-
-  .header-picture {
-	  width: 350px;
-	  margin: 20px 0px 0px 200px;
   }
 
   .get-started {
 	font-size: 20px;
 	width: 150px;
 	text-align: center;
-	margin: 0px 0px 0px 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+  	align-items:center;
 	border: black 2px solid;
-	padding: 5px;
 	cursor: pointer;
   }
 
@@ -139,61 +141,87 @@ nav {
 	color: white;
   }
 
+  .header-picture {
+	width: 350px;
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+  	align-items:center;
+  }
+
+  .horizontal-separator {
+	border: 1px solid gray;
+	margin: 0px 50px;
+  }
+
+  /* Code for top content */
+
+  .top-content {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: space-around;
+	  margin: 20px 50px;
+  }
+
   .features {
-	display: inline-block; 
-	width: 48%;
-	margin: 10px 0px 12px 10px;
 	font-size: 20px;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0px 5px;
   }
 
   .about {
-	display: inline-block; 
-	width: 48%;
-	margin: 10px 0px 12px 10px;
 	font-size: 20px;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0px 5px;
+  }
+
+    /* Code for middle image */
+
+  .middle-img-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	  align-items:center;
+	  margin: 15px 0px 15px 0px;
   }
 
   .middle-img{
-	  width: 97%;
-	  margin: 10px 12px 10px 12px;
+	width: 93%;
   }
 
+    /* Code for bottom content */
+	
+	.bottom-content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 20px 50px;
+	}
+
   .services {
-	display: inline-block; 
-	width: 31.5%;
-	margin: 10px 0px 12px 10px;
 	font-size: 20px;
   }
 
   .product {
-	display: inline-block; 
-	width: 31.5%;
-	margin: 10px 0px 12px 10px;
+
 	font-size: 20px;
   }
 
   .vision {
-	display: inline-block; 
-	width: 31.5%;
-	margin: 10px 0px 12px 10px;
 	font-size: 20px;
   }
 
+    /* Code for contact*/
+
   .contact {
-	width: 97%;
-	margin: 10px 0px 12px 12px;
-  }
-
-
-  h3 {
-	  font-size: 25px;
-	  font-family: "Source Sans Pro";
-  }
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 250px;
+ }
 
   .copyright {
 	  text-align: center;
-  }
-
-  p {
-	  line-height: 1.4;
   }
