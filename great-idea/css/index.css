@@ -64,3 +64,137 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+div{
+	display:flex;
+	justify-content: center;
+}
+
+header{
+	font-size: 18px;
+	margin: 20px;
+	display:flex;
+	width: 100%;
+	height:5%;
+	padding:1%;
+	vertical-align: middle;
+	justify-content: space-around;
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+}
+img{
+}
+
+nav{
+	display:flex;
+	justify-content: space-around;
+	width:70%;
+	color: lightgrey;
+	word-spacing: 6vw;
+	vertical-align: middle;
+}
+
+.firsteyes{
+	width:90%;
+	height:35%;
+	display: flex;
+	flex-direction: column;
+	vertical-align: middle;
+	border-bottom: 1px solid;
+	margin:15% 200px 3% 3%;
+	padding:1%;
+	flex-wrap: wrap;
+}
+
+.firsteyes h1{
+	width:38%;
+	font-size: 60px;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	word-spacing: 1000px;
+	text-align: center;
+	margin:2%;
+	padding:2%;
+	border: 5px;
+	vertical-align: middle;
+	margin-right: 5%
+}
+
+.firsteyes img{
+	display: flex;
+	margin:2%;
+	height: 400px;
+	margin-left: 6%;
+	margin-bottom: 1px;
+	
+}
+.firsteyes button{
+	display:flex;
+	justify-content: center;
+	margin: auto 11%;
+	width:175px;
+	height: 40px;
+	background-color: white; /* Green */
+	border: 1px solid black;
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	padding:0;
+}
+
+.mid{ 
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	border-bottom: 1px solid;
+	margin:3% 200px 3% 3%;
+	padding:1%;
+	width: 90%
+}
+
+.mid img{
+	margin: 5%;
+}
+
+.fa{
+	display: flex;
+	flex-direction: column;
+	width:45%;
+	height:100%;
+	display:flex;
+	margin:auto 2%;
+}
+
+.spv{
+	display: flex;
+	flex-direction: column;
+	width:25%;
+	display:flex;
+	margin: 2% 2%;
+}
+
+.bot{
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+}
+
+.contact{
+	display: flex;
+	flex-direction: column;
+	width:200px;
+	margin:auto 2%;
+	padding:1%
+}
+
+.copyright{
+	width: 100%;
+	margin: 5%;
+	padding: 2%;
+	text-align:center
+}
+
