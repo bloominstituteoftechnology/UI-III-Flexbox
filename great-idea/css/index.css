@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+	}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	display: flex;
+	justify-content: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+}
+
+/* header */
+
+header {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	justify-content: space-evenly;
+	
+}
+.cta {
+	display: flex;
+	flex-direction: row;
+
+}
+header nav {
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+}
+
+.cta-text {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+}
+
+header img {
+	display: flex;
+	justify-content: center;
+
+}
