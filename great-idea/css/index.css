@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,8 +50,9 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+div, p, h1, img, span, nav, header, h2, h3, button {
+	border: 5px solid black;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -63,4 +66,134 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+
+nav {
+	margin: 0px 0px 0px 0px;
+	background: dimgray;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%
+  }
+ 
+.links {
+	width: 70%;
+	display: inline-block;
+	padding: 0px 5px;
+	margin: 0px 0px 0px 40px;
+}
+  nav a:link {
+	  color: silver;
+	  text-decoration: none;
+	  font-size: 18px;
+  }
+  
+  nav a {
+	display: inline-block;
+	width: 120px;
+	float: left;
+  	display: block;
+	margin: 12px ;
+	font-size: 18px;
+  }
+
+  nav img {
+	  width: 250px;
+	  margin: 0px 0px 0px 120px;
+	  display: inline-block;
+  }
+
+  .header-content {
+	width: 48%;
+	display: inline-block; 
+	margin: 0px 0px 0px 0px;
+  }
+
+  h1 {
+	  font-size: 70px;
+	  width: 370px;
+	  text-align: center;
+	  margin: 0px 0px 60px 170px;
+  }
+
+  .header-picture {
+	  width: 350px;
+	  margin: 20px 0px 0px 200px;
+  }
+
+  .get-started {
+	font-size: 20px;
+	width: 150px;
+	text-align: center;
+	margin: 0px 0px 0px 280px;
+	border: black 2px solid;
+	padding: 5px;
+	cursor: pointer;
+  }
+
+  .get-started:hover {
+	background: darkgray;
+	color: white;
+  }
+
+  .features {
+	display: inline-block; 
+	width: 48%;
+	margin: 10px 0px 12px 10px;
+	font-size: 20px;
+  }
+
+  .about {
+	display: inline-block; 
+	width: 48%;
+	margin: 10px 0px 12px 10px;
+	font-size: 20px;
+  }
+
+  .middle-img{
+	  width: 97%;
+	  margin: 10px 12px 10px 12px;
+  }
+
+  .services {
+	display: inline-block; 
+	width: 31.5%;
+	margin: 10px 0px 12px 10px;
+	font-size: 20px;
+  }
+
+  .product {
+	display: inline-block; 
+	width: 31.5%;
+	margin: 10px 0px 12px 10px;
+	font-size: 20px;
+  }
+
+  .vision {
+	display: inline-block; 
+	width: 31.5%;
+	margin: 10px 0px 12px 10px;
+	font-size: 20px;
+  }
+
+  .contact {
+	width: 97%;
+	margin: 10px 0px 12px 12px;
+  }
+
+
+  h3 {
+	  font-size: 25px;
+	  font-family: "Source Sans Pro";
+  }
+
+  .copyright {
+	  text-align: center;
+  }
+
+  p {
+	  line-height: 1.4;
+  }
