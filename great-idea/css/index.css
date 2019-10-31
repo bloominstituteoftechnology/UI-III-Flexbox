@@ -229,7 +229,6 @@ nav a:link {
 	align-items: center;
   }
 
-
 .services-header img{
 	max-width: 100%;
 	display: flex;
@@ -241,7 +240,7 @@ nav a:link {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	margin: 10px 0px;
+	margin: 30px 0px 10px 0px;
 }
 
 .services-description h2 {
@@ -250,15 +249,93 @@ nav a:link {
 	flex-direction: column;
 	justify-content: flex-start;
 	text-align: left;
-
 }
 
 .services-description p {
 	line-height: 1.4;
-	margin: 10px 70px;
+	margin: 0px 70px;
 }
 
 .hr-services-page {
 	border: black 1px solid;
 	margin: 0px 70px;
+}
+
+/* Code for main section*/
+
+
+.main-content-container-1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items:flex-start;
+	margin: 20px;
+  }
+}
+
+.main-content-container-1 div {
+	display: flex;
+	justify-content:space-around;
+	margin: 100px;
+	padding:
+	border: black 1px solid;
+	background: gray;
+}
+
+.main-content-serv {
+	border: black 2px solid;
+	background: whitesmoke;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	margin: 20px 65px;
+	height: 350px;
+
+}
+
+.main-content-serv h3 {
+	margin-left: 10px;
+}
+
+.main-content-serv p {
+	width: 100%;
+	margin: 10px 0px;
+	margin-left: 10px;
+}
+
+.main-content-serv button {
+	margin-left: 10px;
+	width: 35%;
+	height:15%;
+	border: 2px black solid;
+	border-radius: 10px;
+}
+
+.hr-services-page-2 {
+	border: black 2px solid;
+	margin: 30px 70px;
+}
+
+/* Code for final section*/
+.final-content-container-services {
+	display: flex;
+	justify-content:space-around;
+	align-items:flex-start;
+	margin: 0px 70px;
+  }
+}
+
+.additional-facts {
+	margin: 50px 0px;
+}
+
+.additional-facts h3 {
+}
+
+.services-info-img {
+	width: 100%;
 }
