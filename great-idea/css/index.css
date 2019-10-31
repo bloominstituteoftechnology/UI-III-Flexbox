@@ -65,16 +65,32 @@ h1, h2, h3, h4, h5 {
 
 /* Start of My CSS */
 
-header {
-	display: inline-flex;
-	justify-content: center;
+/* Navigation */
+
+nav {
+	display: flex;
 	align-items: center;
 	align-content: center;
-	padding: 15px 0 0 20px;
 }
 
-header nav a {
-	align-items: space-around;
-	margin-right: 30px;
-	padding
+.links {
+	display: flex;
+	justify-content: space-around;
+	width: 70%
+}
+
+.image {
+	display: flex;
+	width: 30%;
+	justify-content: space-around;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: black;
 }
