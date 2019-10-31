@@ -80,9 +80,9 @@ body {
 }
 .navigation section {
 	position: relative;
-	right: 20px;
 	bottom: 10px;
 	max-width: 880px;
+	color:black;
 }
 header {
 	display:flex;
@@ -93,20 +93,24 @@ header {
 h1{
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	font-size: 75px;
 	position: relative;
 	left: 100px;
+	top: 40px;
 }
 button {
 	position: relative;
 	height: 35px;
 	width: 150px;
-	top: 250px;
-	right: 160px;
+	top: 280px;
+	right: 130px;
 	display: flex;
 	text-align: center;
 	justify-content: center;
 	padding-top: 5px;
+	color: black;
+	background-color:white;
 }
 header section {
 	display: flex;
@@ -157,18 +161,26 @@ header section {
 	padding-top: 30px;
 	max-width: 880px;
 	padding-left: 20px;
+	padding-bottom: 20px;
+	line-height: 20px;
+	font-size: 14px;
 }
 .contact h2 {
 	max-width: 880px;
+	font-size: 16px;
 }
 .contact section {
 	display:flex;
 	align-content: column;
+	padding-bottom: 4px;
+	line-height: 15px;
 }
 footer {
 	display:flex;
 	justify-content: center;
 	max-width: 880px;
+	padding-bottom: 100px;
+	padding-top: 50px;
 }
 .middle-img {
 	position: relative;
