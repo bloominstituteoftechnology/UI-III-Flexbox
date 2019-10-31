@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	border: 1px solid lightcyan;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -48,8 +49,13 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+html {
+	box-sizing: border-box;
+	margin: 50px;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
 html, body {
@@ -64,3 +70,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* ***STYLE HOME PAGE*** */
+
+
+/* Style the nav bar */
+.navigation {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navItem {
+	color: darkgray;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navItem:hover {
+	font-weight: bolder;
+}
+
+.logo {
+	margin-left: 3%;
+	width: 19%;
+}
+
+/* Style the header */
+header {
+	text-align: center;
+}
+
+.headContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 6% 0 6% 0;
+}
+
+.title h1 {
+	font-size: 6em;
+}
+
+#headerSection {
+	margin-left: 12.5%;
+}
+
+#headerImage {
+	height: 500px;
+}
+
+#headerButton {
+	font-size: 1.4em;
+	border: 1px solid #141a15;
+	margin-left: 25%;
+	margin-right: 25%;
+	line-height: 1.5;
+
+}
+#headerButton a {
+	text-decoration: none;
+	color: #141a15;
+}
+
+/* Style the first section */
+hr {
+	border: 1px solid black;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+#doubleSection {
+	display: flex;
+	justify-content: space-between;
+}
+
+.twin {
+	width: 49%;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+p {
+	font-size: 1.1em;
+	color: #141a15;
+}
+
+.navSec {
+	text-decoration: none;
+	color: black;
+}
+
+.navSec:hover {
+	font-weight: bolder;
+}
+
+/* Style the middle image */
+.middle-img {
+	width: 100%;
+	margin-top: 3.5%;
+	margin-bottom: 3.5%;
+}
+
+/* Style the bottom section */
+#tripleSection {
+	display: flex;
+	justify-content: space-between;
+}
+
+.triplet {
+	width: 32%;
+}
+
+/* Style the contact section */
+address {
+	height: 115px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Style the footer */
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+
+
+/* ***STYLE SERVICES PAGE*** */
+
+
+
+
+
+
+
+
+
+
+
+/* Animations! */
+@keyframes lightbulb {
+	/* from {background: #e0ffff;}
+	to {background: yellow;} */
+	0% {opacity: 1;}
+	50% {opacity: 0.95;}
+	100% {opacity: 1;}
+}
+
+@keyframes flicker{}
