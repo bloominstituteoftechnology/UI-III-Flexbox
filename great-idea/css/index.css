@@ -82,7 +82,13 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-between;
 }
 
-.navItem {
+a {
+	color: darkgray;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navItem:visited {
 	color: darkgray;
 	text-decoration: none;
 	font-size: 17px;
@@ -91,6 +97,7 @@ h1, h2, h3, h4, h5 {
 .navItem:hover {
 	font-weight: bolder;
 }
+
 
 .logo {
 	margin-left: 3%;
