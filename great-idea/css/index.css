@@ -143,9 +143,23 @@ h2{
 }
 .code-banner{
 	width: 100%;
+	margin: 3% 0;
 }
 .contact-img{
 	width: 45%;
+}
+.prod-text{
+	display: flex;
+	justify-content: space-around;
+	margin: 4% 0;
+}
+.prod-text .box{
+	width: 40%;
+}
+.prods{
+	border-top: 2px gray solid;
+	border-bottom: 2px gray solid;
+	margin: 3%;
 }
 
 
