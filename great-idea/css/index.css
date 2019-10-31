@@ -79,6 +79,7 @@ nav a{
 	display: flex;
 	justify-content: space-around;
 	margin:7px;
+	border-bottom:1px solid black;
 }
 .right {
 flex-direction:column;
@@ -87,13 +88,8 @@ flex-direction:column;
 	font-size:35px;
 	text-align:center;
 }
- .top a {
-	border-style: solid;
-	border-width:1px;
-	border-color:black;
-	padding:1px;
-	width:100px;
-	margin:px;
+button {
+
 }
 
 .first {
@@ -107,8 +103,8 @@ flex-direction:column;
 }
 
 .second{ 
-	margin:3%;
 	display:flex;
+	border-bottom: 1px solid black;
 }
 
 section {
@@ -117,4 +113,49 @@ section {
 
 footer{
 	text-align:center;
+}
+
+
+/* services css */
+.top2{
+	border-bottom: 1px solid black;
+	margin:5px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+}
+.services-header-img {
+	justify-content: center;
+	margin-left: 250px;
+}
+.middle {
+	display:flex;
+	flex-direction:column;
+	margin-left: 30px;
+}
+.middle topSide {
+	flex-direction:row;
+	border: 1px solid black;
+}
+.middle middleSide {
+	flex-direction:row;
+	border: 1px solid black;
+}
+.middle bottomSide {
+	flex-direction:row;
+	border: 1px solid black;
+}
+
+.bottom {
+	margin-top: 20px;
+	display:flex;
+	margin-left: 30px;
+
+}
+.bottomRight{ 
+width:50%;}
+.bottomLeft{ 
+	width:50%;}
+.list ul{
+	list-style-type: disc;
+	margin-left: 30px;
 }
