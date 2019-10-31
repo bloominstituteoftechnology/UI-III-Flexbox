@@ -129,8 +129,9 @@ footer{
 }
 .middle {
 	display:flex;
-	
 	margin-left: 30px;
+	width:80%
+	justify-content:space-around;
 }
 
  middleone {
@@ -140,40 +141,38 @@ footer{
 middletwo {
 	width: 10%;
 	display:flex;
-}
-middlethree {
-	width: 10%;
-	display:flex;
+
 }
 
  .TopSide {
 	
 	border: 1px solid black;
 	margin: 5px;
+	background-color: lightgray;
 }
  .middleSide {
 	border: 1px solid black;
-	
+	background-color: lightgray;
 	margin: 5px;
 }
  .bottomSide {
 	border: 1px solid black;
-	
+	background-color: lightgray;
 	margin: 5px;
 }
 .TopSide2 {
 	border: 1px solid black;
-	
+	background-color: lightgray;
 	margin: 5px;
 }
  .middleSide2 {
 	border: 1px solid black;
-	
+	background-color: lightgray;
 	margin: 5px;
 }
  .bottomSide2 {
 	border: 1px solid black;
-	
+	background-color: lightgray;
 	margin: 5px;
 }
 
