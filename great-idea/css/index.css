@@ -29,9 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
+
 }
-ol, ul {
+ol, ul{
 	list-style: none;
 }
 blockquote, q {
@@ -54,7 +55,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 2%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/************* HEADER *************/
+
+.container {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+}
+
+a {
+	font-size: 20px;
+	padding: 65px;
+	color: grey;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+a:first-child {
+	padding-left: 0;
+}
+
+.logo-header {
+	max-width: 300px;
+	width: 100%;
+}
+
+.hero {
+	margin-bottom: 45px;
+}
+
+.hero-image {
+	width: 100%;
+}
+
+/************* SERVICES *************/
+
+.section-services {
+	width: 100%;
+	margin-bottom: 45px;
+	line-height: 20px;
+}
+
+.section-services h3 {
+	font-size: 30px;
+}
+
+/************* LISTS *************/
+
+.section-lists {
+	padding: 20px 0;
+	padding-left: 0;
+	margin-top: 45px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.fields {
+	border: 1px solid black;
+	width: 48%;
+	padding: 30px;
+	background-color: rgb(235, 235, 235);
+	margin: 10px 0;
+}
+
+.btn {
+	width: 20%;
+	height: 30px;
+	margin: 20px auto 0 auto;
+	font-size: 15px;
+}
+
+.break {
+	border: 1px solid black;
+}
+
+/************* LAST *************/
+
+.section-last {
+	display: flex;
+	margin: 20px 0;
+}
+
+.facts {
+	width: 50%;
+	padding: 45px;
+}
+
+.details {
+	margin: 20px;
+	line-height: 2;
+}
+
+ul {
+	list-style: square;
+}
+
+.logo-info {
+	max-width: 1000px;
+	width: 100%;
+}
+
+/************* FOOTER *************/
+
+footer {
+	text-align: center;
+	margin: 60px auto 120px auto;
+}
