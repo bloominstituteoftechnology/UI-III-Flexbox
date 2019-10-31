@@ -204,3 +204,11 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/*For services page*/
+
+.top-container {
+	display: flex;
+	margin-top: 50px;
+}
+
