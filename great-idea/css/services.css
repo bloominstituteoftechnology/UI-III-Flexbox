@@ -108,7 +108,7 @@ header .logo {
 }
 
 .services-header-img {
-	margin: 5% 0;	
+	margin: 2% 0 5%;	
 }
 
 h1 {
@@ -159,7 +159,11 @@ h1 {
 	width: 45%;
 }
 
-.bottomText ul {
+.bottomText div p {
+	margin-bottom: 4%;
+}
+
+.bottomText div ul {
 	list-style: square;
 	line-height: 200%;
 	position: relative;	
@@ -167,7 +171,7 @@ h1 {
 }
 
 footer {
-  margin: 32px 0;
+  margin: 94px 0 32px;
   text-align: center;
   font-size: 14px;
 }
