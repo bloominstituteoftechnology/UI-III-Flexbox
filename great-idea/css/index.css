@@ -9,8 +9,8 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
+dl, dt, dd, ol, ul, li,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
@@ -85,7 +85,11 @@ header{
 	top: 0; 
 	width: 100%; 
 }
-img{
+
+.logo{
+height: 85%;
+width: 20%;
+margin-right: 3%;
 }
 
 nav{
@@ -198,3 +202,71 @@ nav{
 	text-align:center
 }
 
+
+.serviceh {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 5%;
+	padding: 2%;
+	font-size: 16px;
+	font-style: bold;
+	border-bottom: 1px solid;
+}
+
+.serviceh img{
+	margin: 5%;
+	width: 90%;
+	justify-content: center;
+}
+
+.serviceh h1{
+	font-size: 26px;
+}
+
+.service-content{
+	height: 60%;
+	margin: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-bottom: 1px solid;
+	padding: 0;
+}
+
+.info-card{
+	display: flex;
+	flex-wrap: wrap;
+	width: 45%;
+	height: 30%;
+	background: lightgray;
+	border: 1px solid black;
+	justify-content: left;
+	/* margin: 3%; */
+	padding: 3%;
+}
+
+.facts{
+	margin: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.facts-text{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+ol{
+	margin: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+li{
+	margin: 2%;
+	list-style: square;
+	list-style-position: outside;
+}
