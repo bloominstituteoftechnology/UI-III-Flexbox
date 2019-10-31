@@ -63,4 +63,18 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Start of My CSS */
+
+header {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding: 15px 0 0 20px;
+}
+
+header nav a {
+	align-items: space-around;
+	margin-right: 30px;
+	padding
+}
