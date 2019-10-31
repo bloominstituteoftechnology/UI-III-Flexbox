@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Universal Styling */
+/* Header */
+header{
+	display: inline;
+
+}
+header.section{
+	height: 10%;
+	width: 100%;
+	border: 2px solid silver;
+}
+
+/* Navigation Section */
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header nav a{
+	text-decoration: none;
+	color: gray;
+}
+/*footer*/
+footer{
+	display: flex;
+	justify-content: center;
+
+}
+
+/* Index */
+/* Innovation Section */
+
+.innovation-section{
+	display: flex;
+	width: 88%;
+	height: 40%;
+	padding: 1%;
+	border-bottom: .5px solid black;
+	margin-left: 3%;
+}
+.innovation-section h1{
+	font-weight: bold;
+	font-size: 70px;
+	letter-spacing: 2px;
+}
+.innovation-section img{
+	float: right;
+}
+.innovation-section .get-started{
+	border: .5px solid black;
+	color: gray;
+	padding: 1.5% 17%;
+}
+.box{
+	width: 50%;
+	padding: 5%;
+	text-align: center;
+}
+ .box2{
+	width: 50%;
+	
+} 
+.box2 img{
+	max-width:100%;
+	max-height:100%;
+
+}
+/* Features and About sections above the second picture */
+.features-about{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	width: 88%;
+	height: 21.5%;
+	font-size: 20px;
+}
+.features-about h3{
+	font-weight: bold;
+}
+.box3{
+	width: 50%;
+	padding: 4%;
+	margin: auto;
+
+}
+.box4{
+	width: 50%;
+	padding: 4%;
+	margin: auto;
+}
+/* Second Picture */
+.banner-img{
+	width: 88.5%;
+	display: flex;
+	margin-left: 3%;
+	margin-right: 7%;
+}
+.banner-img img{
+	width: 100%;
+}
+/* Three sections below the second picture*/
+.big-service-section{
+	margin: 4% 8.5% 2.9% 2.9%;
+	border-bottom: .5px solid black;
+	display: flex;
+}
+.services{
+	height: 22%;
+	width: 23%;
+	margin: 2.9%;
+	font-size: 20px;
+}
+.services h3{
+	font-weight: bold;
+}
+/* Contact section */
+.contact{
+	width: 88%;
+	margin: 2.9%;
+	font-size: 20px;
+}
+/* End of Index*/
+/* Services Page*/
+.services-header{
+	display: flex;
+	flex-direction: column;
+
+}
