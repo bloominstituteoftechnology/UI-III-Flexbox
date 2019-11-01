@@ -64,3 +64,238 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+
+
+
+
+
+/* ----- Navigation below ----- */
+nav {
+	/* width: 61.5%; */
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin: 1% 0;
+}
+
+nav a {
+	padding:7px;
+	color:grey;
+	text-decoration:none;
+}
+
+
+
+/* ----- Header below ------ */
+header{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	/* width: 61.5%; */
+	border-bottom:1px solid black;
+	padding:5%;
+}
+
+.innovation{
+	text-align:center;
+}
+
+h1{
+	font-size:60px;
+}
+
+button{
+	padding:5px 9px;
+	border:2px solid black;
+}
+#header-image{
+	margin-left:14%;
+}
+
+/* ----- all content ------ */
+.all{
+	/* display:flex;
+	justify-content:space-between; */
+	/* flex-wrap:wrap; */
+	/* width: 61.5%; */
+}
+
+/* p {
+	font-size:12px;
+} */
+
+#main-image{
+	padding-bottom:5%;
+	width: 100%;
+
+}
+
+/* ------ top-content below ------ */
+#top-content{
+	display:flex;
+	justify-content:space-between;
+	padding:5% 0;
+}
+
+
+.top{
+	width:48%;
+}
+
+
+/* ----- bottom below ----- */
+#bottom-content{
+	display:flex;
+	justify-content:space-between;
+	border-bottom:1px solid black;
+}
+
+.bottom{
+	padding-bottom:5%;
+	width:31%;
+}
+
+#contact{
+	padding: 5% 0;
+}
+/* ----- footer below ----- */
+footer{
+	text-align:center;
+	color:grey;
+	margin-bottom:5%;
+	/* width: 61.5%; */
+}
+/* ----- universal below ----- */
+*{
+	box-sizing:border-box;
+	/* max-width:61.5%%; */
+}
+
+body{
+	/* background-color:pink; */
+	padding:0 15%;
+
+}
+
+/* ------------------------------- */
+/* ------------------------------ */
+/* ------- SERVICES PAGE ------- */
+
+
+/* ---- Header image below ---- */
+.services-header-img{
+	width:100%;
+	margin-top:2%;
+}
+
+h2{
+	font-size:25px;
+}
+
+div #services-para{
+	width:100%;
+	padding-bottom:4%;
+	margin:4% 0%;
+	border-bottom: 1px solid black;
+}
+
+/* .services-all{
+	display:flex;
+	justify-content: space-between;
+} */
+
+
+/* ------ Boxes below -------- */
+.boxes{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	padding-bottom:4%;
+	margin:4% 0%;
+	border-bottom: 1px solid black;
+}
+
+.boxes div{
+	background-color: #F0F0F0;
+	border:1px solid black;
+	padding:3%;
+	width:47.5%;
+	margin:2% 0%;
+
+}
+
+
+/* ------ Services Bottom below ----- */
+
+.services-bottom{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:4%;
+}
+
+.services-bottom div{
+	width:40%;
+}
+
+ul {  
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+li{
+	margin:2%;
+}
+
+/* ------------------------------- */
+/* ------------------------------ */
+/*  ----- PRODUCT BELOW ------- */
+
+.product-header-img{
+	width:100%;
+}
+
+.product-boxes{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items:center;
+	border-bottom: 1px solid black;
+	padding-bottom:5%;
+	margin-bottom:5%;
+}
+
+.product-boxes div{
+	width:28%;
+	padding:2%;
+	text-align:center;
+}
+
+.commit-pic{
+	width:28%;
+	margin: 2% 0%;
+	opacity:1;
+	transition: .5s ease;
+  	backface-visibility: hidden;
+}
+
+/* ----hovers----- */
+.come:hover{
+	opacity: 0.3;
+}
+
+.lead:hover{
+	opacity: 0.3;
+}
+
+.leader:hover{
+	opacity: 0.3;
+}
+
+.product-bottom{
+	width:100%;
+	margin-bottom:5%;
+}
