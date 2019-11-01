@@ -64,3 +64,376 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+.container {
+	width: 900px;
+	margin: auto;	
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+header nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+
+header nav a{
+	
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+
+nav a:hover {
+	background: skyblue;
+	border-radius: 50%;
+}
+
+
+
+.stuff img{
+	display: flex;
+	width:50%;
+}
+
+.stuff{
+	width:100%;
+	padding: 60px;
+	margin-bottom: 50px;
+	margin-top: 15px;;
+	
+}
+
+.stuff div{
+	display: flex;
+	
+	}
+
+
+.titleButton{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+
+.titleButton{
+	width: 50%;
+	margin-right:100px;
+}
+	
+
+.button {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+
+.button{
+	text-decoration: underline;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-shadow: 0 1px 0px #7cacde;
+	width: 50%;
+	text-align: center;
+	}
+
+.button:hover {
+	background: skyblue;
+}
+
+
+
+
+.middle-img {
+  width: 896px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+.title {	
+	font-family: 'Bangers';
+	font-size: 450%;
+	
+	
+}
+
+
+
+
+.firstSect{
+	display: flex;
+}
+
+.firstSect {
+	width: 100%;
+}
+
+
+
+
+.copyright {
+	text-align: center;
+	
+}
+
+.contact {
+	margin-bottom: 50px;
+	margin-top: 20px;
+	
+}
+
+.phoneEmail {
+	line-height: 40px;
+	margin-top: 10px;
+}
+
+header {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+
+
+
+
+.secondSect{
+	display: flex;
+	justify-content: space-between;
+}
+
+.secondSect{
+	width: 100%;
+}
+
+.h2Services{
+	display: flex;
+	flex-direction: column;
+}
+
+.secondSect p{
+	width: 95%;
+}
+
+
+
+
+
+header nav a{
+	display: flex;
+	justify-content: space-around;
+	width: 15%
+}
+
+
+.titleButtonImg {
+	display: flex;
+	align-items: center;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	margin-bottom:30px;
+}
+
+
+h1{
+	font-size: 90px;
+}
+
+h3{
+	font-size:30px;
+}
+
+.gridSection p{
+	padding: 5%;
+
+
+}
+
+
+.gridSection .buttonLearn{
+	border: 2px solid black;
+	padding:1%;
+	width:50%;
+	font-size: 18px;
+	justify-content: center;
+	text-decoration: underline;
+	background-color: #3866a3;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 10%;
+
+	
+		
+}
+
+.buttonLearn:hover{
+	border: 2px solid black;
+	padding:1%;
+	width:50%;
+	font-size: 18px;
+	justify-content: center;
+	text-decoration: underline;
+	background-color: skyblue;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 10%;
+}
+
+.services-header-img{
+	margin-top:10px;
+	margin-bottom: 30px;
+	width:900px;
+}
+
+.titleServices{
+	font-size: 500px;
+}
+
+.servicesSection{
+	margin-bottom: 30px;
+	font-size: 17px;
+}
+
+.firstGrid{
+
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+	
+}
+
+.secondGrid{
+display: flex;
+justify-content: space-between;
+margin-bottom: 30px;
+}
+
+.thirdGrid{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+}
+
+
+.gridSection{
+	display: flex;
+	flex-wrap: wrap;
+
+	
+	
+}
+
+
+
+ul{
+	list-style-type: square;
+	line-height: 40px;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+.thingPic{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+	margin-top:30px;
+}
+.someFacts{
+	margin-top:50px;
+}
+
+.digitalDesign{
+	border: black 1px solid;
+	width:48%;
+
+}
+
+.uxui {
+	border: black 1px solid;
+	width:48%;
+}
+
+.digitalMarketing{
+	border: black 1px solid;
+	width:48%;
+}
+
+.webDev{
+	border: black 1px solid;
+	width:48%;
+}
+
+.ios{
+	border: black 1px solid;
+	width:48%;
+}
+
+.android{
+	border: black 1px solid;
+	width:48%;
+}
+
+.gridSection h2{
+	margin-top:20px;
+	margin-left:20px;
+	margin-bottom:-4px;
+}
+
+.someFacts{
+	display: flex;
+
+}
+
+.someFacts p{
+	width:85%;
+}
+
+.copyright{
+	margin-top: 100px;
+}
