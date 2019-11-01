@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,54 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.anchors {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 25px;
+	width: 100%;
+}	
+
+.middleimage {
+	display:flex;
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.notessidebyside  {
+	color: black;
+	padding: 5px;
+	padding-top: 50px;
+	padding-bottom:50px;	
+}
+
+.notessidebyside div {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 50px;
+	padding-bottom:50px;
+	border: solid black;	
+}
+.notessidebyside div div {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	padding: 10px;
+	width: 50%;
+}
+
+
+
+	
+.all {
+    display: flex;
+    flex-direction: column;
+    width: 890px;
+}
