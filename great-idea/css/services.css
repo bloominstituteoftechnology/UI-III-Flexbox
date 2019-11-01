@@ -78,6 +78,50 @@ h1, h2, h3, h4, h5 {
     padding-left: 20px;
     padding-bottom: 20px;
 }
+.firstpara {
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.row1 {
+    display: flex;
+}
+.row1 div{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    max-width: 440px;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    background-color: grey;
+}
+.row2 {
+    display: flex;
+}
+.row2 div {
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    max-width: 440px;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    background-color: grey;
+}
+.row3 {
+    display:flex;
+}
+.row3 div{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    max-width: 440px;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    background-color: grey;
+}
 .logo {
     position: relative;
 }
