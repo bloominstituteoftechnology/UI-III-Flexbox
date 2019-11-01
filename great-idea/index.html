@@ -17,7 +17,100 @@
   <body>
 
     <!-- Copy and paste your HTML from the first UI project here -->
+    <div id="container"> 
+      <header>
+        <nav id="nav">
+          <div class="menu">
+            <a href="services.html">Services</a> 
+            <a href="#product">Product</a> 
+            <a href="#vision">Vision</a> 
+            <a href="#features">Features</a> 
+            <a href="#about">About</a> 
+            <a href="#contact">Contact</a> 
+          </div> 
+          <div class="logo">
+            <img src="img/logo.png" alt="Great Idea! Company logo."/>
+          </div>
+        </nav>
+    <div class="main">
+      <div class="title">
+        <h1>Innovation</h1>
+        <h1>On</h1>
+        <h1>Demand</h1>
+        <h6>Get Started</h6>
+      </div>
+      <div class="firstImage">
+        <img src="img/header-img.png" alt="Image of a code snippet.">
+         </div>
+       </div>
+       <hr>
+
+      </header>
+      <div class="info-one">
+        <div id="features">
+         <h3>Features</h3>
+         <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </div>
+        <div id="about">
+          <h3>About</h3>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        </div>
+      </div>
+
+
+       <div class="middle-img">  
+          <img  src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+       </div>
+      <div class="info-two">
+        <div id="services">
+          <h3>Services</h3>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>
+      <div id="product">
+          <h3>Product</h3>
+          <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>
+    <div id="vision">
       
+        <h3>Vision</h3>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+    
+    </div>
+  </div>
+    </section>
+    <hr>
+
+    <footer>
+      
+      <address class="copy">123 Way 456 Street
+      Somewhere, USA</address>
+    
+      <p class="copy">1 (888) 888-8888</p>
+      <p class="copy">sales@greatidea.io</p>
+    
+      <p class="copy">Copyright Great Idea! 2018</p>
+    </footer>
+    
+    </div>
+    <script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+    
+    // Get the navbar
+    var nav = document.getElementById("nav");
+    
+    // Get the offset position of the navbar
+    var sticky = nav.offsetTop;
+    
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        nav.classList.add("sticky")
+      } else {
+        nav.classList.remove("sticky");
+      }
+    }
+      </script>
     
   </body>
 </html>
