@@ -77,7 +77,8 @@ h1, h2, h3, h4, h5 {
 nav {
 	/* width: 61.5%; */
 	display:flex;
-	justify-content:space-around;
+	justify-content:space-between;
+	margin: 1% 0;
 }
 
 nav a {
@@ -164,6 +165,7 @@ button{
 footer{
 	text-align:center;
 	color:grey;
+	margin-bottom:5%;
 	/* width: 61.5%; */
 }
 /* ----- universal below ----- */
@@ -178,27 +180,72 @@ body{
 
 }
 
-
+/* ------------------------------- */
+/* ------------------------------ */
 /* ------- SERVICES PAGE ------- */
 
+
+/* ---- Header image below ---- */
+.services-header-img{
+	width:100%;
+	margin-top:2%;
+}
+
+h2{
+	font-size:25px;
+}
+
+div #services-para{
+	width:100%;
+	padding-bottom:4%;
+	margin:4% 0%;
+	border-bottom: 1px solid black;
+}
+
+/* .services-all{
+	display:flex;
+	justify-content: space-between;
+} */
+
+
+/* ------ Boxes below -------- */
 .boxes{
 	display:flex;
-	justify-content:space-around;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	padding-bottom:4%;
+	margin:4% 0%;
+	border-bottom: 1px solid black;
 }
 
 .boxes div{
-	background-color:lightgrey;
+	background-color: #F0F0F0;
 	border:1px solid black;
-	margin:2px;
-	padding: 5px;
+	padding:3%;
+	width:47.5%;
+	margin:2% 0%;
+
 }
+
+
+/* ------ Services Bottom below ----- */
 
 .services-bottom{
 	display:flex;
-	justify-content:center;
+	justify-content:space-between;
+	margin-bottom:4%;
 }
 
 .services-bottom div{
-	width:45%;
+	width:40%;
+}
+
+ul {  
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+li{
+	margin:2%;
 }
 
