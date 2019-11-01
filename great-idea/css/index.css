@@ -92,7 +92,7 @@ body {
 	display: flex;
   }
   nav a {
-	margin: 20px 10px;
+	margin: 10px 10px;
 	padding: 15px;
 	color: white;
 	text-decoration: none;
@@ -100,7 +100,7 @@ body {
   }
   .main {
 	display: flex;
-	align-items: baseline;
+	align-items: center;
 	justify-content: space-evenly;
 	flex-direction: row;
 	width: 100%;
@@ -171,48 +171,88 @@ body {
 /* This is where the annimation code starts: */
  #myScroll {
 	padding: 10px 16px;
-	background: blue;
+	background: lightgray;
 	color: white;
 	position: fixed;
 	top; 0;
 	width: 70%;
  }
- #myScroll:hover {
+ /*#myScroll:hover {
     border: 6px dotted red;
 	box-sizing: border-box;
 	color: yellow;
- }
-h2:hover {
-font-size: 30px;
-font-color: red;
-}
+ }*/
+    h2:hover {
+		font-size: 30px;
+	}
 /* This code is for Services Page: */
 .servicesAbout h1 {
 	font-size: 35px;
 	padding: 1%;
+	margin-top: 2%;
+	margin-left: 20px;
+}
+.topPic img {
+	margin-left: 1%;
+	
 }
 .servicesAbout p {
 	padding: 1%;
 	margin-bottom: 4%;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .container a {
 	margin: 100px 10px;
-	padding: 20px;
+	padding: 19px;
 	color: grey;
 	text-decoration: none;
 	border: 3px;
 }
+.container .tagsPic {
+	padding: 16px;
+}
+
 #serviceBox .mainBoxes {
 	display: flex;
 	padding: 5%;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-content: center;
+	
 }
 .mainBoxes div {
-	width: 40%;
+	width: 47%;
 	height: 10%;
 	padding: 2%;
 	background-color: lightgray;
 	border:1px solid grey; 
+	margin-bottom: 4%;
+}
+.mainBoxes p {
+	margin-bottom: 20px;
+}
+.bottomPart {
+	display: flex;
+}
+ul {
+	list-style: disc !important;
+	padding: 20px;
+}
+.bottomPart div {
+width: 40%;
+margin-left: 6%;
+margin-top: 28px;
+}
+footer {
+	
+	margin-top: 83px;
+	margin-bottom: 20px;
+}
+.buttonService {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	padding: 2px 10px;
 }
