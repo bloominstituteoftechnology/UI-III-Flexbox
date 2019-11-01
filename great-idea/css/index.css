@@ -78,6 +78,7 @@ nav {
 	/* width: 61.5%; */
 	display:flex;
 	justify-content:space-between;
+	align-items:center;
 	margin: 1% 0;
 }
 
@@ -171,7 +172,7 @@ footer{
 /* ----- universal below ----- */
 *{
 	box-sizing:border-box;
-	max-width:61.5%%;
+	/* max-width:61.5%%; */
 }
 
 body{
@@ -249,3 +250,38 @@ li{
 	margin:2%;
 }
 
+/* ------------------------------- */
+/* ------------------------------ */
+/*  ----- PRODUCT BELOW ------- */
+
+.product-header-img{
+	width:100%;
+}
+
+.product-boxes{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items:center;
+	border-bottom: 1px solid black;
+	padding-bottom:5%;
+	margin-bottom:5%;
+}
+
+.product-boxes div{
+	width:28%;
+	padding:2%;
+	text-align:center;
+}
+
+.commit-pic{
+	width:28%;
+	margin: 2% 0%;
+	opacity:1;
+	transition: .5s ease;
+  	backface-visibility: hidden;
+}
+
+.product-boxes:hover .commit-pic{
+	opacity: 0.3;
+}
