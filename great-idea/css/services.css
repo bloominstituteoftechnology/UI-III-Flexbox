@@ -179,7 +179,10 @@ footer {
     left: 470px;
     bottom: 300px;
 }
-
+.backdrop {
+    position: relative;
+    left: 10px;
+}
 ul {
     color: black; 
     position: relative;
