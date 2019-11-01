@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* #### first class elements #####*/
 
 h1 {
 	font-size: 57pt;
@@ -77,6 +78,8 @@ a {
 	text-decoration: none;
 	color: darkslategrey;
 }
+
+/* ########### NAVIGATION MENU ############*/
 
 nav {
 	display: flex;
@@ -94,33 +97,20 @@ nav a:hover {
 	color: black;
 }
 
-.half {
-	width: 50%;
-}
+/*############  buttons  ###################### */
+
 
 .shortBtn {
 	padding: 2%;
 	background-color: white;
 	border: 1px solid black;
+	text-align: center;
+	width: 40%;
 }
 
 .shortBtn:hover {
 	background-color: black;
 	color: greenyellow;
-}
-
-.contentWidth{
-	/* width: 65%; */
-	width: 876px;
-}
-
-.contentFlex {
-	display: flex;
-	justify-content: center;
-}
-
-.roundedRectangle {
-	border-radius: 7%;
 }
 
 .btn {
@@ -143,16 +133,36 @@ nav a:hover {
 }
 
 .detailsAboveBtn{
-	border: 1px solid black;
-	background-color: lightgrey;
 	display: flex;
-	flex-direction: column;
-	text-align: center;
-	/* align-content: space-between; */
-	width: 420px;
-	/* margin: auto; */
-	padding: 1.5%;
-	justify-content: left;
+	flex-flow: row wrap;
+	border: 1px solid black;
+	background-color: #f4f3f4;
+	align-items: center;
+	width: 48%;
+	height: 18em;
+	padding: 1.0em;
+	margin-top: 1.1em;
+	margin-bottom: 1.1em;
+}
+
+
+
+.contentWidth{
+	/* width: 65%; */
+	width: 876px;
+}
+
+.contentFlex {
+	display: flex;
+	justify-content: center;
+}
+
+.contentFlexVanilla {
+	display: flex;
+}
+
+.roundedRectangle {
+	border-radius: 12%;
 }
 
 .contactInfoParent {
@@ -169,6 +179,13 @@ nav a:hover {
 	width: 200px;
 }
 
+.aboutServices {
+	display: flex;
+	justify-content: left;
+	margin: auto;
+	width: 45%;
+}
+
 .codeSnippet {
 	margin: auto;
 }
@@ -176,14 +193,21 @@ nav a:hover {
 .flexSimple {
 	display: flex;
 	align-content: space-between;
-	margin: 4em;
+	/* margin: auto; */
+	margin: 1% 1%;
 	font-size: 11pt;
+}
+
+.flexWrapped {
+	display: flex;
+	flex-wrap: wrap;
+	width: 868px;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .flexSimpleOne {
 	display: flex;
-	align-content: space-between;
-	margin: 1em;
 	font-size: 11pt;
 }
 
@@ -196,6 +220,9 @@ nav a:hover {
 	display: flex;
 	flex-direction: column;
 }
+
+
+/* END OF PAGE */
 
 .footerText {
 	text-align: center;
