@@ -48,6 +48,44 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Media queries for mobile view */
+
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+	/* For tablets: */
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+	/* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+  }
 
 
 /* Set every element's box-sizing to border-box */
@@ -293,7 +331,7 @@ nav a:link {
 	justify-content: space-evenly;
 	align-items: flex-start;
 	margin: 20px 65px;
-	height: 350px;
+	height: 300px;
 
 }
 
@@ -302,9 +340,11 @@ nav a:link {
 }
 
 .main-content-serv p {
-	width: 100%;
+	width: 93%;
 	margin: 10px 0px;
 	margin-left: 10px;
+	font-size: 18px;
+	text-align: justify;
 }
 
 .main-content-serv button {
@@ -313,6 +353,7 @@ nav a:link {
 	height:15%;
 	border: 2px black solid;
 	border-radius: 10px;
+	font-size: 16px;
 }
 
 .hr-services-page-2 {
@@ -330,12 +371,38 @@ nav a:link {
 }
 
 .additional-facts {
-	margin: 50px 0px;
+	margin: 50px 30px 50px 0px;
+	display: flex;
+	flex-direction: column;3
+	justify-content: space-evenly;
 }
 
 .additional-facts h3 {
+	margin-bottom: 30px;
+}
+
+.additional-facts ul {
+	width: 76%;
+	font-size: 18px;
+	line-height: 1.4;
+	margin: 10px 0px;
+	text-align: justify;
+	padding: 10px 0px 10px 0px;
+}
+
+.additional-facts li {
+	font-size: 18px;
+	line-height: 2;
 }
 
 .services-info-img {
-	width: 100%;
+	width: 120%;
+}
+
+footer p {
+	margin: 120px 0px 40px 0px;
+}
+
+p {
+	font-size; 20px;;
 }
