@@ -282,6 +282,20 @@ li{
   	backface-visibility: hidden;
 }
 
-.product-boxes:hover .commit-pic{
+/* ----hovers----- */
+.come:hover{
 	opacity: 0.3;
+}
+
+.lead:hover{
+	opacity: 0.3;
+}
+
+.leader:hover{
+	opacity: 0.3;
+}
+
+.product-bottom{
+	width:100%;
+	margin-bottom:5%;
 }
