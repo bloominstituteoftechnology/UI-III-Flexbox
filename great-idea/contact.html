@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Great Idea! - Contact</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+
+<!-- Add normalize css -->
+  <link href="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="services.html" target="_blank class="navItem">Services</a>
+            <a href="#" class="navItem">Product</a>
+            <a href="#" class="navItem">Vision</a>
+            <a href="#" class="navItem">Features</a>
+            <a href="#" class="navItem">About</a>
+            <a href="#" class="navItem">Contact</a>
+        
+            <a id="servicesLogoLink" href="index.html" target="_blank"><img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a>
+            </nav>
+        
+            <div class=contactAdjust>
+
+            </div>
+            <div class="contact">
+                <img class="contact-header-img" src="img/contact-header.jpg" alt="Our contact header image">
+
+                <!-- NOT responsive -->
+                <div id="contactLinkContainer">
+                    <a href="#" class="contactBox" id ="phoneBox"><div>1 (888) 888-8888</div></a>
+                    <a href="#" class="contactBox" id="mailBox"><div>123 Way 456 Street<br>Somewhere, USA</div></a>
+                    <a href="#" class="contactBox" id="emailBox"><div>sales@<br>greatidea.io</div></a>
+                    <a href="#" class="contactBox" id="mobileBox"><div>Coming Soon!</div></a>
+                </div>
+            </div>     
+    </header>
+
+    <main>
+        <section>
+            <h1 id="contactHeader">
+                Contact
+            </h1>
+
+            <p id="contactDescription">
+                Please fill out our form, or hover over the icons above for specific information.
+            </p>
+        </section>
+
+        <form action="#" method="post">
+            <div id="formContainer">
+                <fieldset class="arrangeForm">
+                    <legend>Contact us!</legend>
+                    <div>
+                        <label for="firstName">First Name:</label><br>
+                        <input type="text"name="name" id="firstName" autocomplete="on" placeholder="Enter your first name." required>
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last Name:</label><br>
+                        <input type="text" name="name" id="lastName" autocomplete="on" placeholder="Enter your last name." required>
+                    </div>
+                    
+                    <div>
+                        <label for="phoneNumber">Phone Number:</label><br>
+                        <input type="tel" name="number" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autocomplete="on" placeholder="Enter your phone number.">
+                    </div>
+                    
+                    <div>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" name="email" id="email" autocomplete="on" placeholder="Enter your email address." required>
+                    </div>
+                        <div class="textArea">
+                        <label for="comment">Comments:</label><br>
+                        <textarea name="comment" id="comment" rows="5" wrap="soft" maxlength="500" placeholder="Enter a note."></textarea>
+                    </div>
+                    <button type="submit" formaction="#" formmethod="post" name="submit">Send</button>
+                </fieldset>
+            </div>
+        </form>
+
+
+    </main>
+
+    <footer>
+    <p>&copy; Copyright Great Idea! 2018</p>
+    </footer>
+
+
+
+
+
+
+
+</body>
+</html>

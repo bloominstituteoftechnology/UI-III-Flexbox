@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	/* border: 1px solid lightcyan; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -48,8 +49,13 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+html {
+	box-sizing: border-box;
+	margin: 50px;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
 html, body {
@@ -64,3 +70,392 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+/* ***STYLE HOME PAGE*** */
+
+
+/* Style the nav bar */
+.navigation {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+a {
+	color: darkgray;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* .navItem:visited {
+	color: darkgray;
+	text-decoration: none;
+	font-size: 17px;
+} */
+
+.navItem:hover {
+	font-weight: bolder;
+}
+
+/* Style the header */
+header {
+	text-align: center;
+}
+
+.headContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 6% 0 10% 0;
+}
+
+.title h1 {
+	font-size: 6em;
+}
+
+#headerSection {
+	margin-left: 12.5%;
+}
+
+#headerImage {
+	height: 500px;
+}
+
+#headerButton {
+	font-size: 1.4em;
+	border: 1px solid #141a15;
+	margin-left: 25%;
+	margin-right: 25%;
+	line-height: 1.5;
+
+}
+#headerButton a {
+	text-decoration: none;
+	color: #141a15;
+}
+
+/* Style the first section */
+hr {
+	border: 1px solid black;
+	background: black;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#doubleSection {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4%;
+}
+
+.twin {
+	width: 49%;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+p {
+	font-size: 1.1em;
+	color: #141a15;
+}
+
+.navSec {
+	/* text-decoration: none; */
+	color: black;
+}
+
+.navSec:hover {
+	font-weight: bolder;
+}
+
+/* Style the middle image */
+.middle-img {
+	width: 100%;
+	margin-top: 3.5%;
+	margin-bottom: 3.5%;
+}
+
+/* Style the bottom section */
+#tripleSection {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 4%;
+}
+
+.triplet {
+	width: 32%;
+}
+
+/* Style the contact section */
+#contactSection {
+	margin-top: 4%;
+}
+
+address {
+	height: 115px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Style the footer */
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+
+
+/* ***STYLE SERVICES PAGE*** */
+
+/* Style the services image */
+.services-header-img {
+	width: 100%;
+	margin: 2.75% 0;
+}
+
+/* Style introduction */
+.intro {
+	margin-bottom: 5%;
+}
+.intro h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.intro p{
+	font-size: 1.1em;
+}
+
+/* Style main content */
+.serviceBoxes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: space-between;
+	margin-top: 5%;
+}
+
+.box {
+	padding: 2%;
+	border: 1px solid black;
+	background: #f4f3f4;
+	width: 47.75%;
+	margin-bottom: 4%;
+}
+
+.learnButton {
+	font-size: 0.95em;
+	color: #141a15;
+	background: #ffffff;
+	border: 1px solid black;
+	border-radius: 3px;
+	line-height: 2.5;
+	width: 40%;
+	margin-top: 4%;
+	text-align: center;
+}
+
+.facts {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	width; 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.factBox {
+	width: 45%;
+}
+
+.services-info-img {
+	width: 48%;
+}
+
+ul {
+	margin-top: 3%;
+	font-size: 1.1em;
+	color: #141a15;
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 2;
+}
+
+
+/* ***STYLE CONTACT PAGE*** */
+
+/* Style the contact image and information */
+.contact {
+	position: relative;
+}
+
+
+#contactLinkContainer {
+	/* border: 5px solid black; */
+	width: 100%;
+	height: 365px;
+	position: absolute;
+	z-index: 999;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0%;
+	padding: 4%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+#contactLinkContainer > * {
+	/* border: 5px solid black; */
+	border-radius: 50%;
+	height: 125px;
+	width: 125px;
+	color: black;
+	font-weight: bolder;
+	opacity: 0;
+}
+
+#contactLinkContainer > *:hover {
+	opacity: 1;
+}
+
+#phoneBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bolder;
+	padding: 2%;
+	line-height: 1.5;
+}
+
+#mailBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3%;
+	margin-left: -7%;
+	color: white;
+	font-weight: bolder;
+	padding: 2%;
+	line-height: 1.5;
+}
+
+#emailBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-self: center;
+	margin-right: -8%;
+	margin-left: -6%;
+	margin-bottom: 1.5%;
+	color: white;
+	font-weight: bolder;
+	padding: 2%;
+	line-height: 1.5;
+}
+
+#mobileBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2%;
+	margin-right: 16%;
+	color: white;
+	font-weight: bolder;
+	padding: 2%;
+	line-height: 1.5;
+}
+
+
+.contactBox div {
+	background: black;
+	opacity: .9;
+	border-radius: 15px;
+	width; 75px;
+}
+
+.contact-header-img {
+	width: 100%;
+}
+
+/* Style the contact section */
+#contactHeader {
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 6%;
+}
+
+#contactDescription {
+	font-size: 1.1em;
+	color: #141a15;
+	margin-bottom: 6%;
+}
+
+
+/* Style the form */
+form {
+	display: flex;
+	justify-content: center;
+}
+
+#formContainer {
+	border: 3px solid grey;
+	padding: 3% 4%;
+	width: 50%;
+	background: #f4f3f4;
+}
+
+.arrangeForm {
+	display: flex;
+}
+
+legend {
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-bottom: 7%;
+}
+
+input {
+	width: 100%;
+	margin: 2% 0 5% 0;
+}
+
+textarea {
+	width: 100%;
+	margin: 2% 0 5% 0;
+}
+
+label {
+	font-weight: bold;
+}
+
+button {
+	border: 1.5px solid grey;
+	font-weight: bolder;
+	font-size: 1.
+}
+
+
+/* Animations! */
+/* @keyframes lightbulb { */
+	/* from {background: #e0ffff;}
+	to {background: yellow;} */
+	/* 0% {opacity: 1;}
+	50% {opacity: 0.95;}
+	100% {opacity: 1;}
+}
+
+@keyframes flicker{} */
