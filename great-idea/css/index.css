@@ -298,7 +298,6 @@ ul {
 /* Style the contact image and information */
 .contact {
 	position: relative;
-	display: inline-block;
 }
 
 
@@ -319,7 +318,7 @@ ul {
 }
 
 #contactLinkContainer > * {
-	border: 5px solid black;
+	/* border: 5px solid black; */
 	border-radius: 50%;
 	height: 125px;
 	width: 125px;
@@ -336,7 +335,6 @@ ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: %;
 	color: white;
 	font-weight: bolder;
 	padding: 2%;
@@ -447,7 +445,7 @@ label {
 button {
 	border: 1.5px solid grey;
 	font-weight: bolder;
-	font-size: 1.1em;
+	font-size: 1.
 }
 
 
