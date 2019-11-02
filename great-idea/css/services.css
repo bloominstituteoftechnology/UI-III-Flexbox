@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* css reset is the code above. My code is below */
+
+/*copy and pasted fonts from index.css */
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+header {
+    display: flex; /* Lines up nav bar with image */
+    padding: 30px;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    display: flex;
+    margin-right: 40px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: center;
+}
+
+header nav a:hover {
+    text-decoration: none;
+  }
+
+  header nav a:first-child {
+    margin-left: 0;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+
+  header .logo {
+      display: flex;
+      justify-content: end;
+  }
+
+  header img .services-header {
+      padding: 50px;
+  }
+
+  section.services-header {
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+  }
+
+  img.services-header-img {
+      margin-bottom: 50px;
+  }
+
+  section.middle-page {
+      border-top: 1px solid black;
+      padding: 50px;
+  }
+
+  .mid-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+  }
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid black;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  
+  button {
+      display: flex;
+      justify-content: center;
+      background: white;
+
+      width: auto;
+      padding: 8px 200px;
+      margin: 20px;
+      font-size: 17px;
+      border: 1px solid black;
+      cursor: pointer;
+      position: static;
+  }
+
+  button:hover {
+      background: black;
+      color: white;
+  }
+
+  .facts {
+    border-top: 1px solid black;
+    padding: 50px;
+    display: flex;
+    
+  }
+  
+  .facts-text {
+      display: flex;
+      flex-direction: column;
+      width: 85%;
+      margin-bottom: 25px;
+  }
+
+  ul {
+      display: flex;
+      flex-direction: column;
+      padding-left: 23px;
+      list-style: square;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    font-size: 14px;
+  }
