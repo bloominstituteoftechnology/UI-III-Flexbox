@@ -173,8 +173,6 @@ header .logo {
   justify-content: flex-end;
 }
 .cta .cta-text {
-  font-size: 72px;
-  text-align: center;
   letter-spacing: 5px;
   display: flex;
   justify-content: center;
@@ -182,7 +180,12 @@ header .logo {
   align-items: center;
   margin: 0 82px 0 0;
 }
-.cta .cta-text button {
+.txt-left {
+  font-size: 72px;
+  text-align: center;
+  margin-right: 6rem;
+}
+button {
   border: 1px double black;
   font-size: 16px;
   background: white;
