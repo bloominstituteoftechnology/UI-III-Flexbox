@@ -64,3 +64,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{
+	width: 876px;
+	margin: auto;
+	border: 1px solid silver;
+	background: linear-gradient(50deg, rgb(170, 169, 169), rgb(76, 129, 131), rgb(157, 253, 253), rgb(170, 169, 169));
+	
+}
+header nav{
+	display: inline-block;
+	margin-top: 30px;
+	
+
+}
+header nav a{
+	margin: 15px;
+	background-color: rgb(161, 168, 190);
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+header .logo{
+	margin-left: 20px;
+}
+
+.IOD{
+	text-align: center;
+	margin: 15px;
+	border:1px solid teal;
+	background: linear-gradient(50deg, Silver, SlateGrey, DarkSlateGrey, Silver);
+	;
+}
+
+.IODtxt{
+	font-size: 60px;
+	color:black;
+	float:left;
+	margin-top: 70px;
+	margin-left: 90px;
+	padding-bottom:50px;
+}
+.IOD button{
+	font-size: 27px;
+}
+
+
+
+.SectionContent{
+	display: inline-block;
+	border:1px solid silver;
+	background-color:silver;
+	width: 840px;
+	margin: 3px 15px 15px 15px;
+	border:1px solid teal;
+	background: linear-gradient(50deg, Silver, LightGrey, DarkGrey, Silver);
+	
+}
+
+h4{
+	font-size: 20px;
+}
+.F{
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: left;
+	margin: auto;
+	position: relative;
+	width: 47%;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.A{
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: left;
+	margin: auto;
+	position: relative;
+	width: 47%;
+	float: right;
+	margin-right: 20px;
+}
+.middle-img{
+	width: 830px;
+	margin: 3px;
+}
+
+.S{
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: left;
+	margin: auto;
+	position: relative;
+	width: 30%;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+.P{
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: left;
+	margin: auto;
+	position: relative;
+	width: 30%;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+.V{
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: left;
+	margin: auto;
+	position: relative;
+	width: 30%;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.Contact{
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: left;
+	width: 30%;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	
+}
+h3{
+	font-size: 20px;
+	margin-left: 20px;
+	width: 20%;
+}
+p{
+	margin: 10px 10px 5px 20px;
+}
+
+span{
+	margin: 1px;
+	
+}
+
+footer{
+	text-align: center;
+}
+
