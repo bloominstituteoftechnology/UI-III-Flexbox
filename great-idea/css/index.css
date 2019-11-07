@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -62,5 +63,276 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+.container{
+  width: 1000px;
+  margin: 180px auto 10px auto;
+}
+
+}
+nav{
+  background: #737373;
+  border: 2px solid black;
+  width: 1000px;
+  margin: 25px auto;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  display: inline-block;
+  padding: 12px;
+  color: gray;
+}
+nav a{
+  background-color: white;
+  color: #737373;
+  text-align: left;
+  text-decoration: none;
+  margin-right: 61px;
+  margin-left: 5px;
+  transition: .04s;
+}
+nav a:hover{
+  background: white;
+  color: #737373;
+  padding: 12px 12px;
+  border: 5px double black;
+  animation-name: slide;
+  animation-duration: .5s;
+}
+.navigation{
+  vertical-align: top;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.GreatIdea{
+  position: static;
+  margin-top: -5px;
+  margin-left: -40px;
+}
+header{
+  margin-top: 50px;
+}
+.IOD{
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+h1{
+  font-size: 80px;
+}
+.Img1Div{
+  display: inline-block;
+  width: 49%;
+  position: absolute;
+  margin-top: -30px;  
+}
+.GetS{
+  background-color: white;
+  color: #737373;
+  width: 200px;
+  margin: 0 auto;
+  border-style: inset;
+  padding: 5px 20px 5px;
+  display:block;
+}
+.GetS:hover{
+  background-color: white;
+  color: #737373;
+  border: 2px double black;
+  animation-name: slide;
+  animation-duration: .3s;
+  padding: 10px 30px 10px;
+  transition: .02s;
+}
+p{
+  font-size: 110%;
+}
+.Content1{
+  margin-top: 100px;
+  border-top: 1px solid black;
+  padding-top: 60px;
+}
+h2{
+  font-weight: bold;
+}
+#features{
+  display: inline-block;
+  width: 35%;
+  margin-right: 28px;
+  margin-bottom: 25px;
+}
+#about{
+  display: inline-block;
+  width: 35%;
+}
+.Content2{
+  margin-top: 5px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid black;
+}
+#services, #product, #vision{
+  display: inline-block;
+  width: 30%;
+}
+#services, #product{
+  margin-right: 38px;
+}
+footer{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.copyright{
+  text-align: center;
+  font-size: 75%;
+}
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Service Page */
+.container {
+	width: 900px;
+	margin: auto;
+  }
+  
+  header nav {
+	  display: flex;
+	flex-wrap: wrap;
+  }
+  
+  header nav a {
+	  margin: 52px 15px 0 40px;
+	color: grey;
+	font-size: 14px;
+	text-decoration: none;
+  }
+  
+  img {
+	max-width: 100%;  
+  }
+  
+  p {
+	line-height: 18px;
+  }
+  
+  .nav {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 30px;
+	margin-top: 20px;
+  }
+  
+  .logo {
+	  margin: 20px 0 0 100px;
+	padding-top: 20px;
+  }
+  
+  .hero {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: 50px 0 50px 0;
+  }
+  .cta {
+	text-align: center; 
+	line-height: 60px;
+  }
+  
+  .cta h1 {
+	  font-size: 72px;
+  }
+  
+  .about-services {
+	margin: 30px 0 0 30px;
+  }
+  
+  .about-services h1 {
+	  font-size: 24px;  
+  }
+  
+  button {
+	font-size: 16px;
+	padding: 5px 40px 5px 40px;
+	border: 1px solid black;
+  }
+  
+  .content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;  
+	margin: 30px; 
+  }
+  
+  .services-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;  
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;  
+	margin: 30px;
+	padding-bottom: 40px;
+  }
+  
+  .service-item {
+	margin: 40px 0 0 0;
+	padding: 20px;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 400px;
+  }
+  
+  .service-item p {
+	line-height: 18px;
+  }
+  .service-item button {
+	margin-top: 20px;
+	font-size: 12px;
+	padding: 7px 20px 7px 20px;
+	border: 1px solid black;  
+	border-radius: 5px;
+  }
+  
+  .two-col {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0 40px 0;
+  }
+  
+  .upper-items {
+   width: 400px;
+  }
+  
+  .three-col {
+	display: flex;
+	justify-content: space-between;  
+	margin: 40px 0 40px 0;
+  }
+  
+  .lower-items {
+	width: 250px;
+  }
+  
+  footer {
+	margin: 20px 30px 90px 30px;
+  }
+  
+  .copyright {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 50px;
+  }
+  
+  address {
+	margin-bottom: 20px;
+  }
+  
+  .service-facts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;   
+	margin: 30px;
+  }
+  
+  .service-facts-item {
+	width: 400px;
+  }
