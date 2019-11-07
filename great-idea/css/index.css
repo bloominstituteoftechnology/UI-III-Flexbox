@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
   margin: 180px auto 10px auto;
 }
 
-}
+
 nav{
   background: #737373;
   border: 2px solid black;
@@ -81,7 +81,7 @@ nav{
   color: gray;
 }
 nav a{
-  background-color: white;
+  background-color: blue;
   color: #737373;
   text-align: left;
   text-decoration: none;
@@ -94,8 +94,7 @@ nav a:hover{
   color: #737373;
   padding: 12px 12px;
   border: 5px double black;
-  animation-name: slide;
-  animation-duration: .5s;
+  
 }
 .navigation{
   vertical-align: top;
