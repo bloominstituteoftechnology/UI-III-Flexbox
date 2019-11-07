@@ -167,18 +167,7 @@ header {
 	padding-top: 60px;
 }
 
-/* header nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background: linear-gradient(#eee, #ccc);
-	width: 100%;
-	z-index: 1;
-	border-bottom: 1px solid #ccc;
-	transition-property: padding;
-	transition-duration: 0.5s;
-	padding: 0px 0;
-} */
+
 
 
 nav{
@@ -217,14 +206,6 @@ nav a:hover {
 	vertical-align: middle;
 }
 
-header .iov {
-	display: inline-block;
-	font-size: 75px;
-	text-align: center;
-	vertical-align: middle;
-	margin-top: 50px;
-	margin-right: 60px;
-}
 
 
 
@@ -244,18 +225,8 @@ header .iov {
 }
 
 
-.button {
-	display: block;
-	width: 180px;
-	height: 30px;
-	font-size: 20px;
-	border: 1px solid black;
-	padding: 5px 20px;
-	margin: 0 auto;
-	margin-top: 30px;
-}
 
-.button:hover {
+.btn:hover {
 	cursor: pointer;
 }
 
@@ -279,7 +250,7 @@ header .iov {
 }
 
 .top-section {
-	/* padding: 40px 0; */
+	
 	font-size: 18px;
 	display: flex;
 	flex-direction: column;
@@ -301,16 +272,7 @@ header .iov {
 	height: 30%;
 }
 
-/* .top-section div {
-	display: inline-block;
-	width: 500px;
-	margin: 0 auto;
-	margin-right: 10px;
-} */
 
-/* .top-section div:last-child {
-	margin-right: 0;
-} */
 
 .middle-section img {
 	width: 100%;
