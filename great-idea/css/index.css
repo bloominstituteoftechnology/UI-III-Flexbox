@@ -3,64 +3,372 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+body {
+  margin: 0 auto;
+  width: 900px;
+  height: 1500px;
+}
+
+.body2 {
+  margin: 0 auto;
+  width: 900px;
+  height: 2000px;
+}
+
+a {
+  justify-content: space-around;
+  text-decoration: none;
+  padding-right: 10%;
+  color: lightgrey;
+  font-size: 14px;
+}
+
+.top-nav1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  text-align: center;
+  min-height: 200px;
+  align-items: center;
+  padding: 40px 40px, 40px, 0;
+  word-spacing: 50px;
+  width: 100%;
+}
+
+.top-nav2 {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  text-align: center;
+  min-height: 200px;
+  align-items: center;
+  /* padding: 40px 40px, 40px, 0; */
+  word-spacing: 50px;
+}
+
+.logo {
+  padding-left: 1%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+  width: 30%;
+  text-align: center;
+}
+
+h1 {
+  justify-content: center;
+  text-align: center;
+  font-size: 75px;
+  margin-top: 60px;
+}
+
+.headerwithbutton {
+  width: 420px;
+}
+
+.right {
+  width: 420px;
+  margin-left: 6%;
+  vertical-align: top;
+}
+
+.getstarted {
+  display: flex;
+  background-color: white;
+  font-size: 18px;
+  padding: 3px 45px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin: 0 auto;
+  font-family: 'Titillium Web';
+}
+
+hr {
+  color: black;
+  background-color: black;
+  height: 2px;
+  width: 100%;
+  margin: 60px 0 0 0;
+}
+
+h2 {
+  font-size: 17px;
+  display: block;
+  margin: 25px 0;
+}
+
+.middle-img {
+  margin: 4% auto;
+}
+
+.parent1,
+.parent2 {
+  display: flex;
+}
+
+.child1 {
+  width: 45%;
+}
+.child2 {
+  width: 48%;
+}
+.child3 {
+  width: 30%;
+}
+.child4 {
+  width: 30%;
+}
+.child5 {
+  width: 30%;
+}
+
+.parent3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.parent4 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.bChild {
+  width: 46%;
+  padding: 2%;
+  align-items: flex-start;
+  margin: 2%;
+  background: #f8f8ff;
+}
+.bChild:nth-child(1) {
+  border-top: 1px solid #000;
+}
+.bChild:nth-child(2) {
+  border-top: 1px solid #000;
+}
+.bChild:nth-child(5) {
+  border-bottom: 1px solid #000;
+}
+.bChild:nth-child(6) {
+  border-bottom: 1px solid #000;
+}
+p {
+  line-height: 1.2;
+}
+
+footer {
+  text-align: center;
+  height: 100px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.hr2 {
+  color: black;
+  background-color: black;
+  height: 1px;
+  width: 100%;
+  margin: 40px 0 0 0;
+}
+
+address {
+  line-height: 1.2;
+}
+
+.parent4 .facts {
+  padding: 1em;
+  flex: 1;
+}
+ul {
+  margin-top: 3%;
+  margin-left: 4%;
+}
+ul li {
+  line-height: 2;
+  list-style: square;
+}
+.parent4 .image {
+  flex: 1;
+}
+.image .services-info-img {
+  display: block;
+  margin-top: 8%;
+  max-width: 100%;
+  height: auto;
+}
+
+.lrn {
+  padding: 8px 40px;
+  margin: 15px 10px 0px;
+  color: #000;
+  display: inline-block;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.copy-1 {
+  display: flex;
+  justify-content: center;
+  padding: 10% 0;
+}
+
+.copy-2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 12%;
+}
