@@ -195,4 +195,14 @@ p {
 	margin: 10 50 20 20;
 }
 
- 
+ /* Address and Footer Section */
+
+
+.bottom-content {
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	align-self: center;
+}
