@@ -315,12 +315,13 @@ span{
 }
 
 
-.facts{
-	display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 3px;
-    padding-top: 3px;
+#facts-container{
+	display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+	margin:auto;
+	justify-content: space-evenly;
+	
 }
 .facts h2{
 	font-size: 20px;
@@ -331,34 +332,38 @@ span{
 	width: 50%
 }
 .facts2{
-	
-	display: inline-block;
+	display:flex;
 	font-size: 20px;
 	text-align: center;
 	vertical-align: left;
-	margin-top: 50px;
-	margin-right: 60px;
+	margin-top: 20px;
+	margin-right: 20px;
+	
   	
 }
 .facts2 p{
-	width: 45%;
+	width: 300px;
 	border:2px solid orange;
 	margin: 20px 0px 2px 20px;
-	position: relative;
 }
-li{
+ul li{
 	color: red;
-	margin: 0px 0px 2px 30px;
+	margin: 0px 0px 2px 10px;
 	padding: 2px;
 	text-align: left;
+
+}
+.facts-img{
+	display:flex;
+	
 }
 .services-info-img{
-	display: inline-block;
 	vertical-align: right;
 	width: 379px;
 	height: 379px;
 	margin-left: 400px;
 	margin-top: 0px;
+	
 
 
 
