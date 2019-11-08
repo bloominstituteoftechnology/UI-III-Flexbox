@@ -49,12 +49,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+    display: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Boogaloo', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,6 +71,8 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+/* Navigation Section */
+
 nav  {
 	display: flex;
 	flex-direction: row;
@@ -78,6 +80,8 @@ nav  {
 	justify-content: space-around;
 	align-items: center;
 	margin: 20px 0;
+	font-family: Lobster;
+	font-size: 20px;
 }
 
 a {
@@ -90,3 +94,62 @@ a:hover {
 	font-weight: bold;
 	text-shadow: 2px 2px lightskyblue;
 }
+
+/* Call to Action Section  */
+.call-to-action {
+	display: flex;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	margin: 20px auto;
+
+}
+
+.cta-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 75px;
+	text-align: center;
+	
+}
+
+h1 {
+	font-family: rock salt;
+	font-weight: bold;
+	font-size: 64px
+	
+}
+
+button {
+	
+	background-color: whitesmoke; 
+	color: black; 
+	font-weight: bold;
+	font-family: montserrat;
+	border: 2px solid rgb(8, 147, 233);
+	border-radius: 10px;
+	padding: 16px 32px;
+	margin: 0 auto;
+ 	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	
+  
+}
+
+button:hover {
+	background-color:rgb(8, 147, 233);
+ 	color: black;
+ 	padding: 10px 30px;
+}
+
+
