@@ -130,9 +130,7 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
     padding: 40px 0;
-    border: solid blue;
     border-bottom: 2px solid black;
 
 }
@@ -159,21 +157,21 @@ header nav a {
         display: flex;
         text-align: left;
         width: 100%;
-        margin: 5px 0;
+        margin: 5px 0px;
         padding: 30px 0;
-        border: solid green;
+}
+
+.services-bottom-section div {
+	margin: 0 10px 30px 0;	
 }
 
 ul { 
-    
-    background-color: yellow;
-    /* margin: 5px; */
     padding: 0 30px;
 }
 
-/* il { 
-    list-style-type: dot;
-} */
+.services-bottom-section div ul {
+    list-style-type: disc;
+}
 
 footer {
 	text-align: center;
