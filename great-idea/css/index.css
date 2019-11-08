@@ -241,7 +241,7 @@ span{
 
 #footer{
 	text-align: center;
-	margin-top: 225px;
+	margin-top: 40px;
 	margin-bottom: 25px;
 }
 
@@ -264,7 +264,7 @@ span{
 	font-size: 16px;
 	text-align: left;
 	letter-spacing: 2px;
-	line-height: 20px;
+	line-height: 30px;
 	font-family: 'big shoulders text', cursive;
 	margin-bottom: 25px;
 }
@@ -288,7 +288,7 @@ span{
 }
 
 .paragraphs{
-	border: 2px solid blue;
+	border: 10px outset rgb(30, 139, 63);
 	width: 45%;
 	margin: 20px 25px 20px 18px;
 	padding: 25px;
@@ -314,57 +314,36 @@ span{
 	color: white;
 }
 
+.facts h2{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	margin: 0px 5px 30px 25px;
+}
 
 #facts-container{
 	display:flex;
-    flex-wrap:wrap;
-    text-align:center;
-	margin:auto;
 	justify-content: space-evenly;
 	
 }
-.facts h2{
-	font-size: 20px;
-	font-weight: bold;
-	margin: 0px 5px 5px 25px;
-	border: 3px solid red;
-	height: 30px;
-	width: 50%
-}
-.facts2{
-	display:flex;
-	font-size: 20px;
-	text-align: center;
-	vertical-align: left;
-	margin-top: 20px;
-	margin-right: 20px;
-	
-  	
-}
+
 .facts2 p{
-	width: 300px;
-	border:2px solid orange;
-	margin: 20px 0px 2px 20px;
+	font-size: 20px;
+	margin: 0px 5px 15px 25px;
+	letter-spacing: .5px;
+	
 }
-ul li{
-	color: red;
-	margin: 0px 0px 2px 10px;
-	padding: 2px;
+
+li{
+	margin: 0px 5px 0px 40px;
+	padding: 5px;
 	text-align: left;
+}
 
-}
-.facts-img{
-	display:flex;
-	
-}
 .services-info-img{
-	vertical-align: right;
-	width: 379px;
-	height: 379px;
-	margin-left: 400px;
-	margin-top: 0px;
-	
-
+	margin: 0px 20px 0px 40px;
+	width: 400px;
+}
 
 
 	
