@@ -210,3 +210,18 @@ footer {
 
 /* Services Page */
 
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: space-evenly;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	
+}
+
+.services_h1 {
+	font-family: bangers;
+	font-size: 30px;
+	margin: 20px;
+}
