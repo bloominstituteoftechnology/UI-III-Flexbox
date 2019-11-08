@@ -63,4 +63,104 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.container {
+	box-sizing: border-box;
+	margin: auto;
+	width: 80%;
+	
+}
+
+.navbar {
+	margin: 30px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #afafaf;
+	padding: 20px 60px 50px 10px;
+}
+
+.logo {
+	margin: auto;
+	vertical-align: middle;	
+}
+
+header {
+	float: left;
+	text-align: center;
+	margin: 10%;
+}
+h1 {
+	display: inline-block;
+	font-size: 76px;
+}
+
+button {
+	display: block;
+  	max-width: 300px;
+  	margin: auto;
+}
+
+
+.header-img {
+	margin: 10px 10px 30px 10px;
+	
+}
+
+hr {
+	width: 90%
+}
+
+h2 {
+	font-size: 35px;
+}
+
+p {
+	font-size: 18px;
+}
+
+.section-one {
+	margin: 5%;
+	text-align: left;
+
+}
+
+div .features {
+	display: inline-block;
+	width: 48%;
+	padding: 0px 20px 30px;
+	margin: auto;
+}
+
+
+.middle-img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 80%;
+
+}
+
+.section-two {
+	margin: 5%;
+	text-align: left;
+}
+
+div .services {
+	margin: auto;
+	display: inline-block;
+	width: 33%;
+	padding: 0px 20px 30px
+}
+
+.contact-info {
+	text-align: left;
+	padding: 10px 20px 30px
+
+}
+
+footer {
+	text-align: center;
+}
