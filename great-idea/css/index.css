@@ -155,20 +155,44 @@ button:hover {
 
 /* Top Section with Features and About information */
 
+p {
+	font-family: montserrat;
+}
+.content-wrap {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: no-wrap;
+	align-content: space-evenly;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
 .topsection {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	align-content: center;
 	align-items: center;
-	justify-content: space-evenly;
-}
-
-.topsection-one {
-	
+	justify-content: space-around;
+	margin: 10px 50px;
 }
 
 .middle-img {
-	align-self: center;
+	align-self: auto;
+	margin: 30px;
 }
 
+.topsection-one .bottomsection-one {
+	padding: 20px;
+}
+
+.bottomsection {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10 50 20 20;
+}
+
+ 
