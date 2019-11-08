@@ -63,18 +63,16 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* My code starts here */
+
 #wrapper {
 	width: 1024px;
 	margin: 0 auto;
 }
 
 header {
-	/* width: 100%;
-	padding: 10px 20px 60px 20px; */
 	text-align: center; 
-	border-bottom: 1px solid #000;
-	padding-top: 60px;
+	/* border-bottom: 1px solid #000; */
 }
 
 header nav {
@@ -82,23 +80,23 @@ header nav {
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
-	position: fixed;
+	/* position: fixed; */
 	top: 0;
 	left: 0;
 	background: linear-gradient(#eee, #ccc);
 	width: 100%;
-	z-index: 1;
-	border-bottom: 1px solid #ccc;
+	/* z-index: 1; */
+	/* border-bottom: 1px solid #ccc; */
 	transition-property: padding;
 	transition-duration: 0.5s;
 	padding: 0px 0;
 }
 
-nav:hover {
+/* nav:hover {
 	transition-property: padding;
 	transition-duration: 0.5s;
 	padding: 10px 0;
-}
+} */
 
 header nav a {
 	/* display: inline-block; */
@@ -108,117 +106,73 @@ header nav a {
 	padding: 30px;
 }
 
-nav a:hover {
+/* nav a:hover {
 	transition-property: color, font-weight;
 	transition-duration: 0.5s, 0.5s;
 	color: #fff;
 	font-weight: bold;
-}
-
-.logo {
-	/* display: flex; 
-	align-items: center; */
-	background: url("https://i.imgur.com/RoKbjZH.png");
-	width: 183px;
-	height: 36px;
-	/* margin-left: 100px; */
-	/* vertical-align: middle; */
-}
-
-header .iov {
-	display: flex;
-	flex-direction: end;
-	justify-content: space-evenly;
-	align-items: center;
-	/* display: inline-block; */
-	font-size: 75px;
-	/* text-align: center; */
-	/* vertical-align: middle; */
-	/* margin-top: 50px; */
-	/* margin-right: 60px; */
-	margin: 60px 0;
-}
-
-.header-image {
-	/* display: inline-block;  */
-	background: url("https://i.imgur.com/Hw8avII.png");
-	/* vertical-align: middle; */
-	width: 379px;
-	height: 379px;
-	margin-left: 60px;
-	/* margin-top: 50px; */
-}
-
-.button {
-	/* width: 180px;
-	height: 30px; */
-	font-size: 20px;
-	border: 1px solid black;
-	padding: 5px 40px;
-	/* margin: 0 auto; */
-	/* margin-top: 30px; */
-}
-
-.button:hover {
-	cursor: pointer;
-}
-
-.top-section {
-	display: flex;
-	justify-content: space-evenly;
-	padding: 40px 0;
-	font-size: 18px;
-}
-
-.top-section div {
-	/* display: inline-block; */
-	width: 450px;
-	/* margin: 0 auto*/
-	 /* margin-right: 20px;  */
-}
-
-/* .top-section div:last-child {
-	margin-right: 0;
 } */
 
-.middle-section img {
-	width: 100%;
-}
-
-.middle-img {
-	background: url("https://i.imgur.com/FGkeFT2.jpg");
+.services-header-img {
 	height: 182px;
-	width: 100%;
+    width: 100%;
 }
 
-.bottom-section {
-	display: flex;
-	justify-content: space-around;
-	padding: 40px 0;
-	font-size: 18px;
-	border-bottom: 1px solid black;
+.services {
+    text-align: left;
+    width: 100%;
+    margin: 5px 0;
+    border-bottom: 1px solid black;
+    padding: 30px 0;
 }
 
-.bottom-section div {
-	/* display: inline-block; */
-	width: 320px;
-	/* margin: 0 auto; */
-	/* margin-right: 10px; */
+.services-main-section { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 2px solid black;
+
 }
 
-.bottom-section div:last-child {
-	/* margin-right: 0; */
+.services-main-section div { 
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 475px;
+    height: 225px;
+    margin: 10px 0;
+    padding: 30px 15px;
+    background: lightgrey;
+    border: solid black;
 }
 
-.contact {
-	padding: 40px 0;
+.services-button { 
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px 20px;
+        background-color: white;      
+}
+
+.services-bottom-section { 
+        display: flex;
+        text-align: left;
+        width: 100%;
+        margin: 5px 0px;
+        padding: 30px 0;
+}
+
+.services-bottom-section div {
+	margin: 0 10px 30px 0;	
+}
+
+ul { 
+    padding: 0 30px;
+}
+
+.services-bottom-section div ul {
+    list-style-type: disc;
 }
 
 footer {
-	padding: 40px 0;
-	height: 150px;
-}
-
-footer h6 {
 	text-align: center;
 }
