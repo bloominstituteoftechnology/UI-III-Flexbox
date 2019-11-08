@@ -54,11 +54,11 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Pacifico', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Supermercado One', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -73,17 +73,27 @@ h1, h2, h3, h4, h5 {
 	
 }
 header nav{
-	display: inline-block;
+	display: flex;
 	margin-top: 30px;
+	justify-content: space-evenly;
 	
 
 }
+
+
 header nav a{
 	margin: 15px;
 	background-color: rgb(161, 168, 190);
 	font-size: 20px;
-	border-radius: 10px;
-	padding: 5px;
+	border-radius: 15px;
+	padding: 10px 5.2px 10px 5.2px;
+	border: 2px outset snow;
+
+}
+header nav a:hover{
+	background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
+	border: 7px inset snow;
+	color: snow;
 }
 
 header .logo{
@@ -108,25 +118,34 @@ header .logo{
 }
 .IOD button{
 	font-size: 27px;
+	border: 7px outset snow;
+	border-radius: 20px;
+}
+
+.IOD button:hover{
+	background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
+	border: 7px inset snow;
+	color: snow;
+
 }
 
 
-
 .SectionContent{
-	display: inline-block;
+	display: flex;
 	border:1px solid silver;
 	background-color:silver;
 	width: 840px;
 	margin: 3px 15px 15px 15px;
 	border:1px solid teal;
 	background: linear-gradient(50deg, Silver, LightGrey, DarkGrey, Silver);
-	
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 h4{
 	font-size: 20px;
 }
-.F{
+.F, .A{
 	font-size: 15px;
 	letter-spacing: 2px;
 	text-align: left;
@@ -136,24 +155,22 @@ h4{
 	float: left;
 	margin-left: 20px;
 	margin-bottom: 10px;
+	border: 5px dotted silver;
 }
 
-.A{
-	font-size: 15px;
-	letter-spacing: 2px;
-	text-align: left;
-	margin: auto;
-	position: relative;
-	width: 47%;
-	float: right;
-	margin-right: 20px;
+.F:hover, .A:hover{
+	background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
+	border: 7px groove snow;
+	color: snow;
+	padding: 3px;
 }
+
 .middle-img{
 	width: 830px;
 	margin: 3px;
 }
 
-.S{
+.S, .P, .V {
 	font-size: 15px;
 	letter-spacing: 2px;
 	text-align: left;
@@ -163,31 +180,18 @@ h4{
 	float: left;
 	margin-left: 20px;
 	margin-bottom: 5px;
+	border: 5px dotted silver;
 }
 
-.P{
-	font-size: 15px;
-	letter-spacing: 2px;
-	text-align: left;
-	margin: auto;
-	position: relative;
-	width: 30%;
-	float: left;
-	margin-left: 20px;
-	margin-bottom: 5px;
+.S:hover, .P:hover, .V:hover{
+	box-sizing: border-box;
+	background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
+	border: 7px groove snow;
+	color: snow;
+	padding: 3px;
 }
 
-.V{
-	font-size: 15px;
-	letter-spacing: 2px;
-	text-align: left;
-	margin: auto;
-	position: relative;
-	width: 30%;
-	float: left;
-	margin-left: 20px;
-	margin-bottom: 5px;
-}
+
 .Contact{
 	font-size: 15px;
 	letter-spacing: 2px;
@@ -196,7 +200,17 @@ h4{
 	float: left;
 	margin-left: 20px;
 	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	border: 1px outset snow;
+	color: black;
 	
+}
+.contact:hover{
+	background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
+	border: 7px inset snow;
+	color: snow;
 }
 h3{
 	font-size: 20px;
@@ -212,7 +226,8 @@ span{
 	
 }
 
-footer{
+#footer{
 	text-align: center;
+	margin-top: 225px;
+	margin-bottom: 25px;
 }
-
