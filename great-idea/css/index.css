@@ -93,11 +93,11 @@ header {
 }
 .navLink {
 	text-decoration: none;
-	color: black;
+	color: gray;
 }
 .navLink:hover {
-	color: lightgray;
-	text-shadow: 1px 1px rgb(109, 109, 109);
+	color: rgb(92, 92, 92);
+	text-shadow: 2px 2px 3px rgb(61, 110, 184);
 }
 .titleBox {
 	display: flex;
@@ -121,12 +121,15 @@ h1 {
 }
 #getStarted {
 	text-decoration: none;
+	background-color: white;
 	color: gray;
-	border: solid gray 1px;
+	border: solid rgb(160, 160, 160) 1px;
 	padding:10px;
 	width:100px;
 	border-radius: 40px;
-	
+}
+#getStarted:hover {
+	box-shadow: 5px 5px 10px rgb(51, 51, 51);
 }
 .mainContTextSec {
 	display: flex;
@@ -141,7 +144,7 @@ h1 {
 }
 .middle-img{
 	width: 100%;
-	
+	padding-right: 2%;
 	margin:1%;
 }
 footer {
