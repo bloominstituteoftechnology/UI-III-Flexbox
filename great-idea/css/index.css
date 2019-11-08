@@ -63,4 +63,360 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+hr {
+	border: 1px solid black
+}
+.container,
+.header-container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+
+/* Header */
+header {
+	margin-bottom: 50px;
+	padding: 20px 0 20px 0;
+	background-color: lightgrey;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+
+header nav a {
+	text-decoration: none;
+	color: black;
+	/* padding: 0 20px 0 20px; */
+	margin: 0 70px 0 0;
+	/* border-right: .5px solid black; */
+	/* margin: 0 70px 0 0; */
+}
+
+
+@keyframes navAnimation {
+	from { 
+		font-size: 100%;
+	}
+
+	to { 
+		font-size: 110%; 
+	}
+}
+
+
+header nav a:hover {
+	color: blue;
+	text-decoration: underline;
+	
+	animation-name: navAnimation;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+
+
+
+/* BANNER */
+
+.banner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 90%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	/* border: 1px solid black; */
+}
+
+.banner-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* border: 1px solid black; */
+	max-width: 80%;
+}
+
+.banner .banner-title h1 {
+	font-size: 80px;
+}
+
+.banner .banner-title button {
+	padding: 10px 20px;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.banner img {
+	margin-left: 50px;
+}
+
+
+
+
+
+/*  CONTENT  */
+
+.top-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-item {
+	max-width: 45%;
+	line-height: 1.3;
+}
+
+
+.middle-img,
+.services-header-img,
+.services-info-img {
+	margin: 0 auto;
+	width: 100%;
+	object-fit: fill;
+	padding-bottom: 5px;
+	margin-bottom: 50px;
+	
+}
+
+
+.bottom-container {
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-item {
+	width: 30%;
+	
+}
+
+.contact-container {
+	margin-top: 50px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin
+}
+
+.address,
+.contact p {
+	margin-bottom: 20px;
+}
+
+
+.copyright {
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+
+/* -- SERVICE PAGE STYLES -- */
+
+.services-top-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; 
+	margin-bottom: 50px;
+}
+
+.services-top-container h2 {
+	font-size: 40px;
+}
+
+/* middle styles */
+
+.services-middle-container {
+	display: flex;
+	flex-direction: row;
+	margin: 50px 0 50px 0;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+	
+
+}
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	margin: 10px 0 20px 0;
+	
+	background: lightgrey;
+	border: 1px solid black;
+	box-shadow: 3px 7px 13px -3px rgba(0,0,0,0.43);
+	padding: 30px;
+	
+}
+
+.card-container h2 {
+	font-size: 20px;
+}
+
+.learn-btn {
+	border-radius: 5px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	width: 150px;
+	height: 40px;
+	margin-top: 30px;
+}
+
+
+/* bottom half styles */
+
+.services-bottom-container {
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+}
+
+.services-bottom-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-right: 50px;
+}
+.services-bottom-content h3 {
+	font-size: 20px;
+}
+.services-bottom-content p {
+	margin-bottom: 30px;
+}
+
+.services-bottom-content ul li {
+	list-style-type: disc;
+	padding-left: 10px;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+
+/* --- SERVICES PAGE MEDIA QUERIES --- */
+
+
+@media (max-width: 860px) {
+	
+	/* Header */
+	.header-container {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	header nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		
+		
+	}
+
+	.header-container nav a {
+		margin: 10px 0 10px 0;
+		padding: 5px 0 5px 0;
+	}
+
+	.services-top-container h2 {
+		text-align: center;
+	}
+
+
+	/* Middle */
+
+	.services-middle-container {
+		display: flex;
+		flex-direction: column;
+		/* margin: 50px 0 50px 0; */
+		justify-content: center;
+		align-items: center;
+		/* flex-wrap: wrap; */
+	}
+
+	.card-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin: 20px auto;
+		
+		background: lightgrey;
+		border: 1px solid black;
+		box-shadow: 3px 7px 13px -3px rgba(0,0,0,0.43);
+		padding: 30px;
+		
+	}
+
+
+	/* Bottom */
+
+
+	.services-bottom-container {
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.services-bottom-content {
+		display: flex;
+		flex-direction: column; 
+		align-items: flex-start;
+		
+	}
+
+
+	.services-bottom-content ul  {
+		display: flex;
+		flex-direction: column;		
+		text-decoration: disc;
+	}
+
+	.services-bottom-content h3 {
+		font-size: 17px;
+	}
+
+	
+
+}
+
+
+
+@media (max-width: 560px) {
+	.card-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin: 20px auto;
+		
+		background: lightgrey;
+		border: 1px solid black;
+		box-shadow: 3px 7px 13px -3px rgba(0,0,0,0.43);
+		padding: 30px;
+
+		text-align: center;
+		
+	}
+}
