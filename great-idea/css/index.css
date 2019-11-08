@@ -241,7 +241,7 @@ span{
 
 #footer{
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 225px;
 	margin-bottom: 25px;
 }
 
@@ -252,6 +252,12 @@ span{
 	width: 880px;
 	margin: auto;
 	
+}
+
+#services-container #footer{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 25px;
 }
 
 .services h1{
@@ -277,9 +283,7 @@ span{
 	align-content: space-between;
 	border-top: 1.5px solid black;
 	border-bottom: 1.5px solid black;
-	margin: 25px 0px 25px 0px;
-	
-	
+	margin: 25px 0px 25px 0px;	
 }
 .options h2{
 	font-size: 20px;
@@ -353,6 +357,11 @@ li{
 	width: 880px;
 	margin: auto;
 	
+}
+#products-container #footer{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 25px;
 }
 
 .products h1{
@@ -431,13 +440,26 @@ li{
 
 
 /*Vision CSS Below this point*/
+#Construction-container{
+	background-image: linear-gradient(50deg, #1d1c1f 0%, #646a6b 100%);
+	width: 880px;
+	margin: auto;
+}
+
+#Construction-container #footer{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.Under-Construction-img{
+	margin: auto;
+	padding: 18px;
+}
 
 /*Features CSS Below this point*/
 
 /*About CSS Below this point*/
-
-
-
 
 /*Contact CSS Below this point*/
 
