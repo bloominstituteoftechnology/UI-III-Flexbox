@@ -346,11 +346,88 @@ li{
 }
 
 
-	
-
 
 /*Product CSS Below this point*/
+#products-container {
+	background-image: linear-gradient(50deg, #3e0a61 0%, #84d7eb 100%);
+	width: 880px;
+	margin: auto;
+	
+}
 
+.products h1{
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.products p{
+	font-size: 16px;
+	text-align: left;
+	letter-spacing: 2px;
+	line-height: 30px;
+	font-family: 'big shoulders text', cursive;
+	margin-bottom: 25px;
+}
+
+.choices{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: evenly;
+	align-content: space-between;
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+	margin: 25px 0px 25px 0px;
+	
+	
+}
+.choices h2{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.info{
+	border: 10px outset rgb(30, 55, 139);
+	width: 45%;
+	margin: 20px 25px 20px 18px;
+	padding: 25px;
+	
+}
+.choices img{
+	margin: auto;
+	width: 300px;
+	
+}
+
+.choices button{
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 15px;
+	margin: 15px 10px 5px 10px;
+	background: linear-gradient(-225deg, rgb(205, 233, 255) 0%, rgb(44, 118, 202) 48%, rgb(92, 111, 196) 100%);
+	border: 5px outset rgb(0, 9, 128);
+}
+
+.choices button:hover{
+	background: linear-gradient(-225deg, #769117 0%, rgb(187, 66, 30) 29%, rgb(67, 185, 20) 67%, rgb(184, 19, 19) 100%);
+	border: 5px inset rgb(194, 54, 77);
+	color: white;
+}
+
+#purchase-container{
+	display:flex;
+	justify-content: center;
+	
+}
+
+.product-info-img{
+	margin: 20px 10px 20px 10px;
+	padding: 10ox;
+	width: 400px;
+	border-radius: 15px;
+}
 
 
 /*Vision CSS Below this point*/
