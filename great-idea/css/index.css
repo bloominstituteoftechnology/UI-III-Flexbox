@@ -79,11 +79,7 @@ body {
 	margin: 5%;
 	display: flex;
 	flex-direction: column;
-	flex:;
 	justify-content: safe space-evenly ;
-}
-header {
-	
 }
 .navMain {
 	flex-flow: row;
@@ -110,14 +106,11 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 }
 h1 {
 	font-size: 72px;
-	
 	text-align: center;
 	margin-top:25%;
-	
 }
 #getStarted {
 	text-decoration: none;
@@ -149,11 +142,9 @@ h1 {
 }
 footer {
 	flex-direction: column;
-	
 }
 .inf {
 	margin: 10px 0px 10px 0px;
-	
 }
 .cr {
 	text-align: center;
