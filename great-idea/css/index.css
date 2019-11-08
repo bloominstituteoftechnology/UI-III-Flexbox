@@ -74,7 +74,6 @@ h1, h2, h3, h4, h5 {
 }
 header nav{
 	display: flex;
-	
 	justify-content: space-evenly;
 	
 
@@ -100,10 +99,11 @@ header nav a:hover{
 }
 header nav p a{
 	background: none;
+	border: none;
 
 
 }
-header nav p a:hover{
+header nav p a:hover {
 	background: none;
 	border: 3px dotted yellow;
 }
@@ -311,4 +311,76 @@ span{
 .options button:hover{
 	background: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
 	border: 5px inset pink;
+	color: white;
 }
+
+
+.facts{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    padding-top: 3px;
+}
+.facts h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 5px 5px 25px;
+	border: 3px solid red;
+	height: 30px;
+	width: 50%
+}
+.facts2{
+	
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: left;
+	margin-top: 50px;
+	margin-right: 60px;
+  	
+}
+.facts2 p{
+	width: 45%;
+	border:2px solid orange;
+	margin: 20px 0px 2px 20px;
+	position: relative;
+}
+li{
+	color: red;
+	margin: 0px 0px 2px 30px;
+	padding: 2px;
+	text-align: left;
+}
+.services-info-img{
+	display: inline-block;
+	vertical-align: right;
+	width: 379px;
+	height: 379px;
+	margin-left: 400px;
+	margin-top: 0px;
+
+
+
+	
+
+
+/*Product CSS Below this point*/
+
+
+
+/*Vision CSS Below this point*/
+
+/*Features CSS Below this point*/
+
+/*About CSS Below this point*/
+
+
+
+
+/*Contact CSS Below this point*/
+
+
+
+
+
