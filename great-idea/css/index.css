@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 1120px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+header {
+	/* position: fixed; */
+	/* top: 0; */
+	/* width: 1120px; */
+	padding: 30px 20px;
+	background-color: #ddd;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	margin: 0 30px;
+	text-decoration: none;
+	color: gray;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	line-height: 36px;
+}
+
+nav a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+nav .logo {
+	margin-left: 80px;
+}
+
+.main-banner {
+	display: flex;
+	margin-top: 60px;
+	padding-bottom: 75px;
+	border-bottom: 1px solid #000;
+}
+
+.main-banner div {
+	height: 379px;
+	width: 50%;
+	padding: 0 40px;
+}
+
+.main-banner h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.main-banner div a {
+	display: block;
+	margin: 40px auto;
+	width: 174px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #000;
+	text-decoration: none;
+	color: #000;
+}
+
+.main-banner div a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.content-half, .content-third {
+	display: flex;
+	padding: 40px 0;
+}
+
+.content-half article {
+	width: 50%;
+	padding: 10px;
+}
+
+.middle-img {
+	min-width: 100%;
+}
+
+.content-third article {
+	width: 32%;
+	padding: 10px;
+}
+
+footer {
+	padding: 30px 0;
+	position: relative;
+}
+
+footer address {
+	margin: 10px 0;
+}
+
+footer small {
+	font-size: 15px;
+}
