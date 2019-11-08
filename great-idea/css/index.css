@@ -93,8 +93,11 @@ header {
 }
 .navLink {
 	text-decoration: none;
-	color: gray;
-	
+	color: black;
+}
+.navLink:hover {
+	color: lightgray;
+	text-shadow: 1px 1px rgb(109, 109, 109);
 }
 .titleBox {
 	display: flex;
