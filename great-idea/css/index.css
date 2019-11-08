@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 }
 header nav{
 	display: flex;
-	margin-top: 30px;
+	
 	justify-content: space-evenly;
 	
 
@@ -82,7 +82,8 @@ header nav{
 
 
 header nav a{
-	margin: 15px;
+	margin-top: 30px;
+	margin: 12px;
 	background-color: rgb(161, 168, 190);
 	font-size: 20px;
 	border-radius: 15px;
@@ -96,6 +97,15 @@ header nav a:hover{
 	background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
 	border: 5px inset snow;
 	color: snow;
+}
+header nav p a{
+	background: none;
+
+
+}
+header nav p a:hover{
+	background: none;
+	border: 3px dotted yellow;
 }
 
 header .logo{
