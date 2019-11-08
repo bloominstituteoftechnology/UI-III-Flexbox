@@ -65,3 +65,28 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+#wrapper {
+	min-width:900px;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+nav  {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #5f5f5f;
+}
+
+a:hover {
+	color: black;
+	font-weight: bold;
+	text-shadow: 2px 2px lightskyblue;
+}
