@@ -64,3 +64,151 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	 /* border: 2px solid red; */
+	width: 900px;
+	height: 1512px;
+	margin: auto;
+}
+hr {
+	width: 817px;
+	margin: 24px 51px;
+}
+
+button {
+	margin-top:20px;
+	padding: 5px;
+	width: 130px;
+}
+
+.button1 {
+	margin-left: 95px;
+}
+
+.main-heading {
+	margin: 30px;
+}
+
+header nav a {
+	text-decoration: none;
+	padding: 20px;
+	margin-top: 10px;
+	color: gray;
+}
+
+header nav a:hover {
+	color: black;
+}
+
+.logo {
+		float: right;
+		margin-top: -25px;
+}
+
+.services-header-img {
+	width: 818px;
+	margin-left: 50px;
+}
+
+.services {
+	width: 829px;
+	margin-left: 51px;
+	margin-top: 22px;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* border: 2px solid green; */
+	width: 853px;
+	height: 725px;
+	align-items: center;
+	margin-left: 30px;
+	justify-content: space-around;
+	margin-top: -16px;
+}
+
+.columns {
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 394px;
+	height: 208px;
+	padding: 15px;
+}
+
+.services1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 843px;
+	margin-left: 56px;
+}
+
+.bottom-content {
+	/* border: 1px solid red; */
+	width: 394px;
+	height: 269px;
+	margin-left: -42px;
+}
+
+.lists {
+	list-style-type: circle;
+	margin-left: 20px;
+	margin-top: 39px;
+}
+
+.services-info-img {
+	width: 394px;
+	height: 269px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 65px;
+}
+
+.heading1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.section2 {
+	display: flex;
+	justify-content: space-around;
+	width: 869px;
+}
+
+.content2 {
+	/* border: 1px solid red; */
+	width: 383px;
+	height: 120px;
+	margin-left: 50px;
+}
+
+.middle-img {
+	width: 817px;
+	margin-left: 50px;
+}
+
+.section3 {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 49px;
+	width: 818px;
+}
+
+.content3 {
+	margin-top: 30px;
+
+}
+
+.contact {
+	margin-left: 50px;
+	margin-top: 28px;
+}
+
+.content1 {
+	margin-top: 40px;
+}
