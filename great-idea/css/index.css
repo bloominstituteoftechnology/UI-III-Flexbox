@@ -153,3 +153,22 @@ button:hover {
 }
 
 
+/* Top Section with Features and About information */
+
+.topsection {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.topsection-one {
+	
+}
+
+.middle-img {
+	align-self: center;
+}
+
