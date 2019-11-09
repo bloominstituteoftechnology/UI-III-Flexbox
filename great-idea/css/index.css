@@ -3,64 +3,452 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* General */
+:root {
+  --bg-color: rgb(255, 255, 255);
+  --nav-text: rgb(175, 175, 175);
+  --text-color: rgb (0, 0, 0);
+  --cell-bg: rgb(244, 243, 244);
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+  background: var(--bg-color);
+}
+
+/* header, nav, sections, divs, etc. */
+header {
+  padding: 5px;
+  padding-bottom: 15px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+header nav {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  /* flexbox */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .two-divs {
+  display: flex;
+  /* flexbox */
+  flex: 2;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .two-divs div {
+  flex: 1;
+}
+
+header .two-divs div:nth-child(1) {
+  max-width: 500px;
+}
+
+header .two-divs div:nth-child(2) {
+  max-width: 300px;
+}
+
+#heading-div {
+  max-width: 225px;
+  margin: auto;
+}
+
+/* Header: fluid containers */
+.equal-height {
+  max-width: 900px;
+  max-height: 450px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.first {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-a {
+  flex: 1;
+  max-height: 230px;
+}
+
+.first-b {
+  flex: 1;
+  min-height: 80px;
+  max-height: 120px;
+}
+
+.second {
+  padding: 15px;
+  flex: 1;
+}
+
+/* Header: Centering */
+.banner {
+  margin: 40px auto 40px auto;
+}
+
+.center-me {
+  margin: auto;
+  max-width: 226.5px;
+}
+
+.cir-banner {
+  max-width: 350px;
+  margin: 10px auto 10px auto;
+}
+
+.cir-img {
+  max-height: 350px;
+}
+
+/* Services.html */
+.services-header-img {
+  margin-top: -10px;
+}
+
+/* Sections & Divs */
+section {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.one-div div, .two-divs div, .three-divs div {
+  /*
+  border: 1px solid black;
+  */
+  padding: 10px;
+}
+
+.one-div, .two-divs, .three-divs {
+  max-width: 900px;
+  max-height: 450px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.two-divs {
+  display: flex;
+  /* flexbox */
+  flex: 2;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.three-divs {
+  display: flex;
+  /* flexbox */
+  flex: 3;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.two-divs div {
+  max-width: 450px;
+}
+
+.three-divs div {
+  max-width: 300px;
+}
+
+/* contact & footer */
+.contact-div {
+  max-width: 900px;
+  flex-direction: row;
+  align-items: left;
+  line-height: 1.1rem;
+}
+
+.contact-div > div {
+  max-width: 235px;
+  padding: 10px;
+}
+
+footer {
+  padding: 2.5px;
+  margin: 3px;
+}
+
+/*
+OTHER ITEMS
+*/
+
+/* Button */
+.get-started {
+  background-color: var(--bg-color);
+  border: 0.1px solid black;
+  color: black;
+  padding: 7.5px 35px;
+  margin-top: -20px;
+  font-size: 0.85rem;
+}
+
+.get-started:hover {
+  background-color: black;
+  color: white;
+}
+
+/* HR */
+.hr-light, .hr-dark {
+  border: 1px solid var(--nav-text);
+  background-color: var(--nav-text);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.hr-light {
+  border: 1px solid var(--nav-text);
+  background-color: var(--nav-text);
+}
+
+.hr-dark {
+  border: 1px solid black;
+  background-color: black;
+}
+
+/* text */
+header nav a {
+  font-size: 0.8rem;
+  color: var(--nav-text);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.85rem;
+  text-align: center;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+p {
+  max-width: 800px;
+  font-size: 0.75rem;
+  line-height: 1.15rem;
+  letter-spacing: 0.03rem;
+}
+
+ul {
+  font-size: 0.75rem;
+}
+
+/* contact & footer */
+.contact-div p {
+  font-size: 0.7rem;
+  padding: 5.25px 0 5.25px 0;
+  max-width: 250px;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+  padding-top: 5px;
+}
+
+footer p {
+  font-size: 0.75rem;
+}
+
+/*
+Service Grid Layout
+*/
+.grid-layout {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -8px;
+  width: 700px;
+  /* */
+  margin: 40px auto 0 auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+  /* */
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.flex-cell {
+  min-height: 150px;
+  max-width: 300px;
+  padding: 20px;
+  margin: 20px 15px;
+  /* gray bg */
+  border: 0.15px solid black;
+  background-color: var(--cell-bg);
+}
+
+.flex-cell h3 {
+  font-size: 0.95rem;
+}
+
+.flex-cell p {
+  font-size: 0.75rem;
+}
+
+.flex-cell .learn-more {
+  background-color: var(--bg-color);
+  border: 0.75px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 6.5px 35px;
+  margin-top: 7.5px;
+  font-size: 0.5rem;
+}
