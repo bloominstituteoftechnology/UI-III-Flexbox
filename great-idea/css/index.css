@@ -53,6 +53,7 @@ table {
 }
 
 html, body {
+		width: 100%;
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -69,20 +70,21 @@ h1, h2, h3, h4, h5 {
 } */
 
 .navigation{
-	background-color: blue;
+	/* background-color: blue; */
 	display: flex;
 	justify-content: space-around;
 	justify-content: center;
 	justify-content: space-between;
+	align-items: center;
 	height: 75px;
-	
+	margin: 25px;
 	
 }
 a {
 	
 	/* margin: 50px; */
 	padding: 15px;
-	background-color: crimson;
+	/* background-color: crimson; */
 color: darkgray;
 justify-content: space-between;
 justify-content: center;
@@ -94,7 +96,7 @@ justify-content: center;
 	align-items: center;
 	justify-content: space-between;
 	justify-content: space-evenly;
-	background-color: yellow;
+	/* background-color: yellow; */
 }
 h1{
 	text-align: center;
@@ -107,12 +109,12 @@ h1{
 	/* display: inline-block; */
 	
 }
-/* .button{
+.button{
 	display:flex;
-	justify-content: center;
-	justify-content:space-around;
-
-} */
+	align-items: center;
+	margin-left: 350px;
+	width: px;
+}
 /* .button{
 	margin-left: 350px;
 	height: 50px;
@@ -121,21 +123,28 @@ h1{
 	
 } */
 
-.half{
-	display:flex;
-	justify-content: center;
-	justify-content: space-around;
-	justify-content: space-evenly;
 	
-}
+
 .half{
-	margin: 5px 235px 5px 235px;
-	background-color: red;
-	height: 130px;
+	margin: 15px px 5px 100px;
+	/* background-color: red; */
+	 height: 130px; 
+	width: 100%; 
+	}
+
+	.half div{
+		display:flex;
 	
-}
+		}
+		.p {
+			display: flex;
+			flex-flow: column;
+			justify-content: space-between;
+			justify-content: space-evenly;
+		}
+
 .col-1{
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .middle-img{
@@ -149,11 +158,29 @@ h1{
 }
 .cols{
 	margin: 5px 235px 5px 235px;
-	background-color: red;
+	/* background-color: red; */
 	height: 125px;
 }
 
 .contact{
 flex-direction: column;
 }
+.footer{
+	display: flex;
+	justify-content: center;
+	
+	
+	
+}
+footer{
+	/* background-color: burlywood; */
+	width: 200px;
+	height: 25px;
+	margin: 5px;
+}
+
+.contact{
+	margin-left: 25px;
+}
+
 /* (content, padding, margin, border) and display:inline-block. */
