@@ -3,64 +3,548 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Pacifico", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Supermercado One", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flex box */
+
+.container {
+  width: 880px;
+  margin: auto;
+  border: 1px solid silver;
+  background: linear-gradient(
+    50deg,
+    rgb(170, 169, 169),
+    rgb(76, 129, 131),
+    rgb(157, 253, 253),
+    rgb(170, 169, 169)
+  );
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav a {
+  margin-top: 30px;
+  margin: 12px;
+  background-color: rgb(161, 168, 190);
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 10px 5.2px 10px 5.2px;
+  border: 2px outset snow;
+  color: black;
+  background: linear-gradient(50deg, #325163 0%, #8ddbd2 100%);
+}
+header nav a:hover {
+  background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
+  border: 5px inset snow;
+  color: snow;
+}
+header nav p a {
+  background: none;
+  border: none;
+}
+header nav p a:hover {
+  background: none;
+  border: 3px dotted yellow;
+}
+
+header .logo {
+  margin-left: 20px;
+}
+
+.IOD {
+  text-align: center;
+  margin: 15px;
+  border: 1px solid teal;
+  background: linear-gradient(50deg, Silver, SlateGrey, DarkSlateGrey, Silver);
+}
+
+.IOD-text {
+  font-size: 60px;
+  color: black;
+  float: left;
+  margin-top: 70px;
+  margin-left: 90px;
+  padding-bottom: 50px;
+}
+.IOD button {
+  font-size: 27px;
+  border: 7px outset snow;
+  border-radius: 20px;
+  background: linear-gradient(50deg, #325163 0%, #8ddbd2 100%);
+}
+
+.IOD button:hover {
+  background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
+  border: 7px inset snow;
+  color: snow;
+}
+
+.SectionContent {
+  display: flex;
+  border: 1px solid silver;
+  background-color: silver;
+  width: 840px;
+  margin: 3px 15px 15px 15px;
+  border: 1px solid teal;
+  background: linear-gradient(50deg, Silver, LightGrey, DarkGrey, Silver);
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h4 {
+  font-size: 20px;
+}
+.F,
+.A {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin: auto;
+  position: relative;
+  width: 47%;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border: 5px dotted silver;
+}
+
+.F:hover,
+.A:hover {
+  background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
+  border: 7px groove snow;
+  color: snow;
+  padding: 3px;
+}
+
+.middle-img {
+  width: 830px;
+  margin: 3px;
+}
+
+.S,
+.P,
+.V {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin: auto;
+  position: relative;
+  width: 30%;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  border: 5px dotted silver;
+}
+
+.S:hover,
+.P:hover,
+.V:hover {
+  box-sizing: border-box;
+  background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
+  border: 7px groove snow;
+  color: snow;
+  padding: 3px;
+}
+
+.Contact {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: left;
+  width: 30%;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border: 1px outset snow;
+  color: black;
+}
+.contact:hover {
+  background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
+  border: 7px inset snow;
+  color: snow;
+}
+h3 {
+  font-size: 20px;
+  margin-left: 20px;
+  width: 20%;
+}
+p {
+  margin: 10px 10px 5px 20px;
+}
+
+span {
+  margin: 1px;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 225px;
+  margin-bottom: 25px;
+}
+
+/*Services CSS Below this point*/
+
+#services-container {
+  background-image: linear-gradient(50deg, #0fd850 0%, #f9f047 100%);
+  width: 880px;
+  margin: auto;
+}
+
+#services-container #footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.services h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.services p {
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-family: "big shoulders text", cursive;
+  margin-bottom: 25px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: evenly;
+  align-content: space-between;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+  margin: 25px 0px 25px 0px;
+}
+.options h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.paragraphs {
+  border: 10px outset rgb(30, 139, 63);
+  width: 45%;
+  margin: 20px 25px 20px 18px;
+  padding: 25px;
+}
+.options p {
+  margin: auto;
+}
+
+.options button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 15px 10px 5px 10px;
+  background: linear-gradient(-225deg, #dfffcd 0%, #90f9c4 48%, #39f3bb 100%);
+  border: 5px outset green;
+}
+
+.options button:hover {
+  background: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  border: 5px inset pink;
+  color: white;
+}
+
+.facts h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0px 5px 30px 25px;
+}
+
+#facts-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.facts2 p {
+  font-size: 20px;
+  margin: 0px 5px 15px 25px;
+  letter-spacing: 0.5px;
+}
+
+li {
+  margin: 0px 5px 0px 40px;
+  padding: 5px;
+  text-align: left;
+}
+
+.services-info-img {
+  margin: 0px 20px 0px 40px;
+  width: 400px;
+}
+
+/*Product CSS Below this point*/
+#products-container {
+  background-image: linear-gradient(50deg, #3e0a61 0%, #84d7eb 100%);
+  width: 880px;
+  margin: auto;
+}
+#products-container #footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.products h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.products p {
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-family: "big shoulders text", cursive;
+  margin-bottom: 25px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: evenly;
+  align-content: space-between;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+  margin: 25px 0px 25px 0px;
+}
+.choices h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info {
+  border: 10px outset rgb(30, 55, 139);
+  width: 45%;
+  margin: 20px 25px 20px 18px;
+  padding: 25px;
+}
+.choices img {
+  margin: auto;
+  width: 300px;
+}
+
+.choices button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 15px 10px 5px 10px;
+  background: linear-gradient(
+    -225deg,
+    rgb(205, 233, 255) 0%,
+    rgb(44, 118, 202) 48%,
+    rgb(92, 111, 196) 100%
+  );
+  border: 5px outset rgb(0, 9, 128);
+}
+
+.choices button:hover {
+  background: linear-gradient(
+    -225deg,
+    #769117 0%,
+    rgb(187, 66, 30) 29%,
+    rgb(67, 185, 20) 67%,
+    rgb(184, 19, 19) 100%
+  );
+  border: 5px inset rgb(194, 54, 77);
+  color: white;
+}
+
+#purchase-container {
+  display: flex;
+  justify-content: center;
+}
+
+.product-info-img {
+  margin: 20px 10px 20px 10px;
+  padding: 10ox;
+  width: 400px;
+  border-radius: 15px;
+}
+
+/*Vision CSS Below this point*/
+#Construction-container {
+  background-image: linear-gradient(50deg, #1d1c1f 0%, #646a6b 100%);
+  width: 880px;
+  margin: auto;
+}
+
+#Construction-container #footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.Under-Construction-img {
+  margin: auto;
+  padding: 18px;
+}
+
+/*Features CSS Below this point*/
+
+/*About CSS Below this point*/
+
+/*Contact CSS Below this point*/
