@@ -256,5 +256,38 @@ hr {
 	background-color: #F4F3F4;
 	
 }
+
+.service-facts {
+	display: flex;
+	flex-direction: row;
+	flex-wrap:  wrap;
+	justify-content: space-evenly;
+	align-content: flex-start;
+	width: 50%;
+	
+}
+
+.facts-content {
+	margin: 20px; 
+	padding: 10px;
+}
  
+.service-facts p {
+	padding: 5px;
+}
+.service-facts li {
+	list-style-type: square;
+	padding: 5px;
+}
  
+ .services-info-img {
+	 align-self: flex-end;
+ }
+
+ .footer-services {
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 justify-content: center;
+	 margin: 30px;
+ }
