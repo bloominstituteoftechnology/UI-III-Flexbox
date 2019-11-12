@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between;
+    background-color: #e0e2e4;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    padding-top:30px;
+    width:70%;
+}
+
+a {
+    padding:40px;
+    color: grey;
+    text-decoration:none;
+}
+a:hover {
+    color: purple;
+}
+
+.section-two {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0px;
+    margin-top:90px;
+}
+
+.section-three {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px 0px;
+    border-top: 1px solid black;
+    padding-top:30px;
+}
+
+.section-three-left, .section-three-right {
+    width: 48%;
+}
+
+
+.middle-image{
+    text-align: center;
+    width: 100%;
+    background-size: 100%;
+}
+
+
+
+.section-four {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px 0px;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.section-four-left, .section-four-middle, .section-four-right {
+    width: 30%
+}
+
+
+
+.text-mod {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top:20px;
+    margin-left:90px;
+    font-size:50px;
+}
+.text-mod2{
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left:100px;
+    margin-right:50px;
+    padding:10px;
+    text-align: center;
+}
+
+.adress-style {
+    margin-top: 20px;
+}
+
+.paragraph-center {
+    text-align: center;
+    margin: 80px 200px;
+    font-family: Brush Script MT;
+}
