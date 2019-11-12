@@ -106,8 +106,8 @@ section {
     display: block;
 }
 body {
-	line-height: 1;
-	margin: 30px;
+    line-height: 1;
+    margin: 30px;
 }
 ol,
 ul {
@@ -137,8 +137,8 @@ table {
 html,
 body {
     height: 100%;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.2rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.2rem;
 }
 
 h1,
@@ -148,114 +148,132 @@ h4,
 h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Base Styles
+============================*/
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
 
 /* Navbar
 ============================*/
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1rem;
+    position: relative;
 }
 
-nav > a:hover {
-    color: black;
-}
-
-a {
+nav > a {
     text-decoration: none;
+    margin-right: 2rem;
+    padding: 1rem 1rem 1rem 0;
     color: grey;
 }
 
-/* Default styles
-============================*/
+nav > a:hover,
+a:focus {
+    color: black;
+}
 
-section {
-    padding: 30px;
+.logo {
+    position: absolute;
+    right: 0;
 }
 
 /* Header
 ============================*/
 
-.one {
-    display: flex;
-    justify-content: space-around;
-    margin: 80px auto;
+.services-header-img {
+    width: 100%;
+    margin: 2rem 0;
 }
 
-.big-text > button {
-    width: 250px;
-    height: 50px;
-    background: #fff;
+/* line breaks
+============================*/
+
+hr {
+    margin: 2rem 0;
+}
+
+/* Card Section
+============================*/
+
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2.5rem;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    background-color: lightgrey;
     border: 1px solid black;
-    font-size: 1.1rem;
+    margin: 1rem 2rem 1rem 0;
+    padding: 1rem;
+    display: inline-block;
 }
 
-.big-text > button:hover {
-    background-color: black;
-    color: white;
+.card > button {
+    width: 8rem;
+    height: 2rem;
+    border: 1px solid black;
+    margin-top: 1rem;
+    background: #fff;
 }
 
-.big-text {
-    width: 400px;
-    text-align: center;
+.card > button:hover,
+button:focus {
+    background-color: #111;
+    color: #fff;
 }
 
-#big-text {
-    font-size: 6rem;
-    text-align: center;
-}
-
-/* Middle section
+/* Bottom Section
 ============================*/
 
-.two {
-    display: flex;
-    padding: 50px 0px;
-    justify-content: space-around;
+.bottom-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20rem;
+    grid-gap: 2.5rem;
 }
 
-/* Middle image
-============================*/
+.left {
+    grid-column: 1 / 2;
+}
 
-#mid {
+ul {
+    list-style-type: square;
+    margin: 2rem 0 0 1.2rem;
+}
+
+ul > li {
+    padding: 1rem;
+}
+
+.services-info-img {
+    grid-column: 2 / 3;
     width: 100%;
 }
 
-/* Bottom section
-============================*/
-
-.three {
-    display: flex;
-    padding: 50px 0px;
-    justify-content: space-around;
-}
-
-/* Contact section
-============================*/
-
-.contact {
-    max-width: 300px;
-    margin-top: 50px;
-}
-
-.contact > a {
-    color: black;
-}
-
-address {
-    margin: 20px 0;
-}
-
-/* Copyright section
+/* Copyright
 ============================*/
 
 #copyright {
-    margin: 150px auto;
+    width: 100%;
     text-align: center;
+    margin: 10rem 0 1rem; 
+    bottom: 0;
 }
