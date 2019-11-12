@@ -66,8 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 #wrapper {
-	min-width:900px;
-	width: 1080px;
+	max-width:900px;
 	margin: 0 auto;
 }
 
@@ -201,27 +200,61 @@ p {
 .bottom-content {
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
 }
 
-footer {
-	align-self: center;
-}
+
 
 
 /* Services Page */
 
 .container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
-	align-content: space-evenly;
-	justify-content: space-between;
-	margin-bottom: 20px;
+	 
 	
+}
+
+.services {
+	margin-bottom: 10px;
 }
 
 .services_h1 {
 	font-family: bangers;
 	font-size: 30px;
-	margin: 20px;
+	font-style: bold;
+	margin-top: 25px;
+	margin-bottom: 15px;
 }
+
+hr {
+	margin: 10px;
+}
+
+.multi-box-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 40px 10px;
+	
+	
+}
+
+.boxes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    width: 40%;
+    padding: 10px;
+	margin: 20px;
+	border: 2px solid black;
+	background-color: #F4F3F4;
+	
+}
+ 
+ 
