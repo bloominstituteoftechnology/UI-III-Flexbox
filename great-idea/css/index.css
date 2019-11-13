@@ -111,14 +111,17 @@ nav .logo {
 .main-banner {
 	display: flex;
 	margin-top: 60px;
-	padding-bottom: 75px;
-	border-bottom: 1px solid #000;
+	padding-bottom: 30px;
 }
 
 .main-banner div {
 	height: 379px;
 	width: 50%;
 	padding: 0 40px;
+}
+
+.main-banner > img {
+	min-width: 100%;
 }
 
 .main-banner h1 {
@@ -143,9 +146,78 @@ nav .logo {
 	color: #fff;
 }
 
+.content-half-services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.content-half-services-plain {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 0;
+	border-top: 1px solid #000;
+}
+
+.content-half-services article {
+	width: 48%;
+	border: 1px solid #000;
+	padding: 30px;
+	background: #eee;
+	margin-bottom: 30px;
+}
+
+.content-half-services-plain article {
+	width: 45%;
+	padding: 30px 0;
+	margin-bottom: 30px;
+}
+
+article ul {
+	margin: 15px 0 15px 20px;
+	list-style: square;
+}
+
+article ul li {
+	margin: 5px 0;
+}
+
+article img {
+	min-width: 100%;
+}
+
+.content-half-services article a {
+	display: block;
+	width: 174px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #000;
+	text-decoration: none;
+	color: #000;
+	margin-top: 30px;
+	background: #fff;
+}
+
+.content-half-services article a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
 .content-half, .content-third {
 	display: flex;
 	padding: 40px 0;
+}
+
+.content-half {
+	border-top: 1px solid #000;
+}
+
+.content-full {
+	border-bottom: 1px solid #000;
+	padding-bottom: 30px;
 }
 
 .content-half article {
@@ -173,4 +245,6 @@ footer address {
 
 footer small {
 	font-size: 15px;
+	text-align: center;
+	display: block;
 }
