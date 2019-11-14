@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.page-container{
+	margin: 40px 75px 40px 75px;
+}
+
+.top-container{
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.nav-container{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav-items{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 80px 0px 0px;
+}
+
+.items{
+	display: flex;
+	justify-content: left;
+	color: gray;
+	text-decoration: none;
+}
+
+.logo{
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+}
+
+.slogan{
+	margin: 100px 0px 0px 0px;
+}
+.slogan-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.slogan-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 5em;
+	padding: 0px 0px 0px 75px;
+	margin: 60px 0px 0px;
+}
+
+.slogan-text h1{
+	margin: 0px;
+}
+
+.slogan-text button{
+	border: 1px solid black;
+	padding: 10px 50px 10px 50px;
+	background-color: white;
+}
+
+.content{
+	border-top: 1px solid black;
+}
+.two-columns-container{
+	display: flex;
+	flex-direction: row;
+	margin: 40px 0px 40px 0px;
+}
+
+.mid-image{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.three-columns-container{
+	display: flex;
+	flex-direction: row;
+	margin: 40px 0px 40px 0px;
+}
+
+.footer{
+	border-top: 1px solid black;
+}
+
+.contact{
+	margin: 40px 0px 0px 0px;
+}
+
+.copyright{
+	text-align: center;
+}
+
