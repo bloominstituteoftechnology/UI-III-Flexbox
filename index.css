@@ -1,0 +1,60 @@
+ 
+   
+
+ .links {
+	width:60%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+  header .logo {
+	display: block;
+    margin-left: 50%;
+    margin-right: auto;
+  }
+  .services-header-img {
+	  display:flex;
+	 align-content:center;
+	 }
+	 
+	 #inform .containerOne {		
+	  display: flex;
+	  width: 90%;
+	  text-align:center;
+	  justify-content:space-around;
+	  }
+
+     #inform .containerOne div{
+	border:1px solid black;
+	flex-direction:column-reverse;
+
+   }
+      #inform .containerTwo{
+	display: flex;
+	width: 90%;
+	text-align:center;
+	justify-content:space-around;
+   }
+	
+	 #inform .containerTwo div{
+		border:1px solid black;
+		flex-direction:column-reverse;
+	}
+	 #inform .containerOne div{
+	 justify-content:space-between;
+	
+  }
+  .About {
+	  display: flex;
+  }
+ .services-info-img {
+	display: flex;
+	
+	
+  }
+   h5{
+	align-content:center; 
+  }
+  
+    
+  
