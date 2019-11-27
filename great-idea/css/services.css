@@ -35,7 +35,8 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: disc;
+    list-style: disc;
+    list-style-position: inside;
 }
 blockquote, q {
 	quotes: none;
@@ -70,7 +71,7 @@ h1{
     font-size: 25px;
 }
 .container {
-  width: 880px;
+  width: 800px;
   /* TB LR */
   margin: 0 auto;
 }
@@ -121,18 +122,14 @@ header .logo {
   margin-top: 25px;
 }
 
+.services-header-img{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .text-content{
     
     line-height: 20px;
-}
-
-/* service menu */
-
-.service-content{
-    border: 1px solid red;
-
-    
 }
 
 /* service about */
@@ -151,45 +148,68 @@ header .logo {
 }
 
 /* service box menu*/
-.service-content .service-menu{
-    border: 1px solid black;
 
-    display:flex;
-    
+.service-content .service-menu{
+    /* border: 1px solid black; */
+    display:flex;  
+    border-bottom: 1px solid black;
 }
 
 .service-menu .subbox{
-    border: 1px solid orange;
+     /*border: 1px solid orange; */
     display:flex;
-}
-
-.service-menu .subbox div{
+    flex-flow: wrap; 
+    justify-content: space-between;
+    align-content: space-between
+    }
+  
+  .service-menu .subbox div{
     border: 1px solid black;
     background-color: #f4f3f4;
-    margin: 50px 0;
+    width: 48%;
+    margin: 20px 0; 
     padding: 20px;
-    display:flex;
-    flex-flow: wrap;
+
+
+    
+}
+
+.service-menu .subbox div p{
+  margin-bottom: 20px;
 }
 
 .service-menu .subbox button{
-    text-decoration: none;
+    padding: 3px 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+
+    font: inherit;
+    color: inherit;
+    background-color:white;
+    cursor: pointer;
+    
+    
 }
 
 .some-facts{
-    border:1px solid purple;
+    /*border:1px solid purple; */
+
     display:flex;
     margin: 35px 0;
 }
 
 .some-facts .fact-text{
-    border:1px solid blue;
+   /* border:1px solid blue;*/
 
     margin: 0 auto;
     padding: 20px 0;
 }
 
-.
+.some-facts .fact-text ul{
+  /*  border:1px solid green;*/
+
+
+}
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
