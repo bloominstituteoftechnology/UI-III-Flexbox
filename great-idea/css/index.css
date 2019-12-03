@@ -84,13 +84,14 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
+  margin        : 0;
+  padding       : 0;
+  border        : 0;
+  font-size     : 100%;
+  font          : inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +106,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,9 +128,10 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing : 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -135,7 +141,7 @@ table {
 
 html,
 body {
-  height: 100%;
+  height     : 100%;
   font-family: "Titillium Web", sans-serif;
 }
 
@@ -144,9 +150,9 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Bangers", cursive;
+  font-family   : "Bangers", cursive;
   letter-spacing: 1px;
-  margin-bottom: 15px;
+  margin-bottom : 15px;
 }
 
 .container {
@@ -158,11 +164,11 @@ h5 {
 /* header */
 
 header nav {
-  display: flex;
-  flex-flow: row nowrap;
-  width: 691px;
+  display       : flex;
+  flex-flow     : row nowrap;
+  width         : 691px;
   vertical-align: top;
-  margin-top: 35px;
+  margin-top    : 35px;
 }
 
 header {
@@ -170,9 +176,9 @@ header {
 }
 
 header nav a {
-  margin-right: 65px;
-  font-size: 14px;
-  color: gray;
+  margin-right   : 65px;
+  font-size      : 14px;
+  color          : gray;
   text-decoration: none;
 }
 
@@ -198,38 +204,38 @@ header .logo {
 }
 
 .cta .cta-text {
-  display: flex;
-  flex-flow: column nowrap;
+  display       : flex;
+  flex-flow     : column nowrap;
   vertical-align: top;
-  font-size: 77px;
-  margin-top: 120px;
-  text-align: center;
-  padding: 0px 75px;
+  font-size     : 77px;
+  margin-top    : 120px;
+  text-align    : center;
+  padding       : 0px 75px;
 }
 
 .cta .cta-text button {
-  background: white;
+  background    : white;
   vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px;
-  font-size: 17px;
-  border: 1px solid black;
-  cursor: pointer;
+  margin-top    : 6px;
+  padding       : 8px 44px;
+  font-size     : 17px;
+  border        : 1px solid black;
+  cursor        : pointer;
 }
 
 .cta .cta-text button:hover {
   background: black;
-  color: white;
+  color     : white;
 }
 
 .cta img {
-  display: flex;
+  display   : flex;
   margin-top: 69px;
 }
 
 .main-content {
-  border-top: 1px solid black;
-  margin-top: 76px;
+  border-top : 1px solid black;
+  margin-top : 76px;
   padding-top: 39px;
 }
 
@@ -239,7 +245,7 @@ header .logo {
 }
 
 .main-content .top-content .text-content {
-  width: 410px;
+  width       : 410px;
   margin-right: 34px;
 }
 
@@ -253,12 +259,12 @@ header .logo {
 
 .main-content .bottom-content {
   margin-top: 37px;
-  padding: 0 10px;
-  display: flex;
+  padding   : 0 10px;
+  display   : flex;
 }
 
 .main-content .bottom-content .text-content {
-  width: 275px;
+  width       : 275px;
   margin-right: 12px;
 }
 
@@ -269,7 +275,7 @@ header .logo {
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
-  padding: 39px 10px 0;
+  padding   : 39px 10px 0;
 }
 
 .contact p {
@@ -277,12 +283,13 @@ header .logo {
 }
 
 footer {
-  margin: 32px 0;
+  margin    : 32px 0;
   text-align: center;
-  font-size: 14px;
+  font-size : 14px;
 }
+
 @media (min-width: 600px) and (max-width: 800px) {
   html {
- font: 68.25% }
+    font: 68.25%
   }
 }
