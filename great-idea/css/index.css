@@ -64,3 +64,124 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	margin: 0 300px;
+}
+/*header {
+	width:100px;
+	height:40px;
+	margin-bottom:50px;
+}*/
+
+header {
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	top:0
+}
+
+header nav {
+	display:flex;
+	line-height: 1;
+}
+
+header nav a {
+	padding:1px 5px;
+	margin:5px 60px 0 0;
+	text-decoration: none;
+	color: gray;
+	background-color: #DAF7A6;
+}
+.header img {
+	position:absolute;
+	display:inline-block;
+	left:1000px;
+	top:0px;
+}
+article {
+	position:top;
+	width:100%;
+	height:379px;
+	margin-bottom:40px;
+	margin-top: 60px;
+	display:flex;
+}
+article h1 {
+	display:inline-block;
+	text-align:center;
+	margin-right: 45px;
+	font-size:96px;
+	padding:40px;
+	width:100%;
+	font-size:87px;
+
+}
+button {
+	color: black;
+	background-color:white;
+	border:1px solid black;
+	width:200px;
+	font-size:24px;
+	position:absolute;
+	margin-top: 350px;
+	left:450px;
+	
+}
+hr {
+	/* width:130%;
+	margin-top: 50px; */
+}
+section {
+	width:calc(50%-10px);
+	display: flex;
+	justify-content:space-between
+
+}
+section div {
+	padding-right: 10px;
+	display: inline-block;
+	margin-right: 36px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}	
+section div h3{
+	font-weight: bold;
+	margin-bottom: 30px;
+	width:calc(50%-10px)
+}
+
+
+section div p {
+	margin-bottom: 10px;
+	width: 250px;
+}
+/* p.about-paragraph {
+	width: 350px;
+	margin-left: 40px; */
+
+img.middle-img {
+	width: 900px;
+	background-image: url(http://img/mid-page-accent.jpg)
+}
+footer {
+	display: inline-block;
+	width: 100%;
+	padding-left: 10px;
+	height: 200px;
+	font-weight: bold;
+}
+footer h3 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+footer address {
+	font-family: "courier New", 'Courier New', Courier, monospace;
+}
+footer small {
+	text-align: center;
+	margin-top: 5px;
+	display: inline-block;
+	margin-left: 310px;
+
+}
+
