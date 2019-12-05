@@ -89,3 +89,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+* {
+	box-sizing:border-box;
+	border: 10px solid black;
+}
