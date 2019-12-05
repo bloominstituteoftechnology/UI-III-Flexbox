@@ -28,8 +28,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html{
+	display: table;
+	margin: auto;
+}
 body {
 	line-height: 1;
+	width: 876px;
+	display: table-cell;
+    vertical-align: middle;
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +56,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +71,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+
+/* border: 1px dotted gray!important; */
