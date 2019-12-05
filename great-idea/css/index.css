@@ -63,4 +63,82 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* navigation design */
+nav {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	justify-content: space-around;
+	
+}
+
+a {
+	text-decoration:none;
+	color: grey;
+	padding: 5px;
+	
+}
+nav a:hover{
+	color: goldenrod;
+}
+/* ...................Middle Section.......................... */
+.middleSection{
+	display:flex;
+	width:100%;
+	justify-content: space-around;}
+
+span{
+	font-size: 30px;
+	border: 1px solid black;
+	padding: 10px;
+
+}
+
+.class{
+	font-size: 80px;
+	text-align: center;
+}
+/* __________________________________________________________________ */
+
+.featuresAbout {
+display:flex;
+width:100%;
+justify-content: space-around
+
+}
+.features{
+	font-size: 20px;
+	font-weight: bold;
+	border:none;
+}
+/* ---------------------------------------------------------------------- */
+
+.middle-img{
+	width:100%;
+}
+/* -------------------------------------------------------------------------- */
+
+
+.services{
+	font-size: 20px;
+	font-weight: bold;
+	border:none;
+}
+.serviceProductVision{
+	display:flex;
+	justify-content: space-around
+}
+/* ----------------------------------Contact----------------------------------------------- */
+
+.contact{
+	font-size: 20px;
+	font-weight: bold;
+	border:none;
+
+}
+
+footer{
+	font-size: 15px;
+	text-align: center;
+}
