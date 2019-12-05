@@ -71,9 +71,77 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-
-
-
-
 /* border: 1px dotted gray!important; */
+.line{
+	border: 1px solid black;
+	margin: 40px 0; 
+}
+
+/* Navbar CSS */
+.navbar{
+	display: flex;
+	margin-bottom: 40px;
+	align-items: center;
+}
+.navbar a{
+	margin-right: 7%;
+	text-decoration: none;
+	color: grey;
+}
+.navbar a:hover{
+	color: white;
+}
+
+
+/* Title CSS */
+.title{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: 55px;
+}
+#leftTitle{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#leftTitle h1{
+	margin-right: 0.1%;
+	font-size: 70px;
+	margin-top: 40px;
+}
+#leftTitle button{
+	margin-bottom: 60px;
+	background-color: white;
+	width: 40%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* Intro CSS */
+.intro{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+
+/* Info CSS */
+.info{
+	display: flex;
+	margin-top: 30px;
+}
+
+.info #info1,#info2{
+	padding-right: 3%;
+}
+
+
+/*Contact and footer CSS*/
+footer{
+	text-align: center;
+}
