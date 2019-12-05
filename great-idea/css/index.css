@@ -63,4 +63,226 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+* {
+	display: inline-block;
+}
+
+#contact {
+	margin: 40px 0;
+	text-align: justify;
+}
+
+#content {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 990px;
+	min-width: 990px;
+}
+
+#feature-about {
+	width: 100%;
+	height: 100%;
+	margin: 40px 0;
+	text-align: justify;	
+}
+
+#feature-about #fa-left {
+	width: 50%;
+	float: left;	
+	height: 100%;
+}
+
+#feature-about #fa-right {
+	width: 50%;
+	float: left;	
+	height: 100%;
+	padding-left: 25px;
+}
+
+#innovation-on-demand {
+	width: 100%;
+	height: 100%;
+	margin: 110px auto 50px auto;
+}
+
+#innovation-on-demand #iod-left {
+	width: 50%;
+	float: left;	
+	height: 100%;
+	margin-top: 50px;
+}
+
+#innovation-on-demand #iod-right {
+	width: 50%;
+	float: right;	
+	height: 100%;
+}
+
+#innovation-on-demand a {
+	color: black;
+	padding: 5px 40px;
+	text-decoration: none;
+	border: solid 1px black;
+	transition: color 0.3s, font-weight 0.3s, border 0.3s;
+}
+
+#innovation-on-demand a:hover {
+	color: grey;
+	font-weight: bold;
+	border: solid 2px grey;
+	transition: color 0.3s, font-weight 0.3s, border 0.3s;
+}
+
+#innovation-on-demand h1 {
+	font-size: 80px;
+}
+
+#service-product-vision {
+	width: 100%;
+	height: 100%;
+	margin: 40px 0;
+	text-align: justify;
+	display: inline-block;
+}
+
+#spv-left {
+	float: left;	
+	height: 100%;
+	width: 33.3333333333%;
+}
+
+#spv-middle {
+	float: left;
+	height: 100%;
+	padding-left: 25px;
+	width: 33.3333333333%;
+}
+
+#spv-right {
+	float: left;	
+	height: 100%;
+	padding-left: 25px;
+	width: 33.3333333333%;
+}
+
+body {
+	width: 100vw;
+	text-align: center;
+}
+
+footer > p {
+	margin-bottom: 100px;
+}
+
+hr {
+	width: 0;
+	margin: 0;
+	width: 100%;
+}
+
+html {
+	
+	overflow-x: hidden;
+}
+
+nav {
+	top: 0;
+	width: 100vw;
+	position: fixed;
+	min-width: 990px;
+	background: #E9E9E9;
+}
+
+nav a {
+	color: grey;
+	font-size: 14px;
+	padding: 15px 30px;
+	text-decoration: none;
+	vertical-align: middle;
+	transition: color 0.6s;
+}
+
+nav a:hover {
+	color: black;
+	font-weight: bold;
+	transition: color 0.6s;
+}
+
+span {
+	font-weight: bold;
+}
+
+title {
+	display: none;
+}
+
+.middle-img {
+	width: 100%;
+}
