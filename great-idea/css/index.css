@@ -69,11 +69,11 @@ body {
 	width:60%;
 }
 nav {
+	display:flex;
+	justify-content:space-between;
 	margin-top:2%;
 }
 nav a {
-	display:inline-block;
-	padding-right:7%;
 	text-decoration:none;
 	color:grey;
 }
@@ -86,16 +86,36 @@ nav a:hover {
 
 
 .container {
-	margin-top:5%;
+	display:flex;
 	width:100%;
-	vertical-align:top;
+	justify-content:center;
+}
+.titlestuff {
+	width:50%;
+	margin-right:5%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.boxes {
+	display:flex;
+	justify-content:center;
+}
+.container h1 {
+	font-size:65pt;
 }
 .container .button {
-	border:solid lightgrey 3px;
-	width:27%;
-	margin-left:20%;
-	box-sizing:content-box;
-	padding:15px 50px;
+	font-size:25px;
+	border:solid black 3px;
+	width:35%;
+	height:10%;
+	box-sizing:border-box;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	padding:10px;
 }
 .container .button:hover {
 	border:red solid 3px;
@@ -104,25 +124,15 @@ nav a:hover {
 }
 .boxes {
 	width:100%;
-	text-align:center;
-	
+	text-align:center;	
 }
-
-.box-a {
-	display:inline-block;
-	vertical-align:top;
-	height: 400px;
-	width:30%;
-	text-align:center;
-	padding-top:65px;
-	
-}
-.box-a h1 {
-	font-size: 75px;
-	
+.wrapper {
+	display:flex;
+ }
+.wrapper #about {
+	margin-left:8%;
 }
 .img-box {
-	display:inline-block;
 	padding-left:12%;
 }
 .section-a {
@@ -132,14 +142,17 @@ nav a:hover {
 #features, #about, #services, #product, #vision, #contact {
 	font-size:25px;
 }
+.section-c {
+	display:flex;
+	justify-content:space-between;
+	border-bottom:1px solid black;
+}
 #features {
-	display:inline-block;
 	width:49%;
 	height:200px;
 	vertical-align:top;
 }
 #about {
-	display:inline-block;
 	width:49%;
 	margin-left:1.51%;
 }
@@ -156,17 +169,14 @@ nav a:hover {
 	padding-bottom:2%;
 }
 #services {
-	display:inline-block;
 	width:30%;
 	margin-right:4.75%;
 }
 #product {
-	display:inline-block;
 	width:30%;
 	margin-right:4.25%;
 }
 #vision {
-	display:inline-block;
 	width:30%;
 }
 #contact {
