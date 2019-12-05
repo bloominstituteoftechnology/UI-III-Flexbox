@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,3 +64,176 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	position:absolute;
+	top:0;
+	left:0;
+	min-width:100%;
+	min-height:100%;
+	display:flex;
+	flex-direction:column;
+	padding:5%;
+	flex-wrap:nowrap;
+}
+
+h2{
+
+	font-weight:bolder;
+}
+
+p{
+
+	font-weight:bold;
+}
+
+/*STYLE FOR EVERYTHING IN THE HEADER [nav,a,figure,img]*/
+header{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+header nav{
+	flex:5;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}header nav a{
+	flex:1;
+	font-weight:bolder;
+	-webkit-text-fill-color:rgba(0,0,0,.4);
+	font-family: 'Titillium Web', sans-serif;
+	cursor:pointer;
+}
+
+
+header figure{
+	flex:1;
+}
+/*STYLE FOR EVERYTHING IN THE HEADER [nav,a,figure,img]*/
+
+
+
+/*BIG PHOTO AT THE TOP
+*/
+
+.headImg{
+	display:flex;
+}.headImg img{
+	flex:1;
+}
+
+/*BIG PHOTO AT THE TOP
+*/
+
+
+/*SERVICE SECTION*/
+h1{
+	font-weight:bolder;
+	font-size:1.5rem;
+}
+.serv{
+	display:flex;
+	border-bottom:solid 1.5px;
+	padding:5% 0%;
+}.serv section{
+	flex:1;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	word-break:keep-all;
+}.serv section p,.serv section h1,{
+	flex:1;
+}
+
+
+
+
+
+/*SERVICE SECTION*/
+
+
+/*CENTER OF THE PAGE WITH FLEX GRID*/
+.cen{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	grid-gap:200px;
+	padding:5% 0%;
+	border-bottom:solid 2px;
+}.sec1,.sec2{
+	
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	grid-gap:50px;
+
+
+}.sec1 section,.sec2 section{
+	flex:1;
+	background-color:#efefef;
+	display:flex;
+	flex-direction:column;
+	padding:5%;
+	border:solid 2px;
+	grid-gap:20px;
+}button{
+	width:150px;
+	height:35px;
+	display:flex;
+	flex-wrap:wrap;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	border:solid 2px;
+	background-color:#fff;
+	border-radius:5px;
+	font-weight:bold;
+}
+
+
+
+/*CENTER OF THE PAGE WITH FLEX GRID*/
+
+
+/*MY FOOTER STYLES*/
+footer{
+	display:flex;
+	flex-direction:column;
+	grid-gap:10px;
+	padding:5% 0%;
+
+}.foot_t{
+		flex:1;
+		display:flex;
+		flex-direction:row;
+		grid-gap:200px;
+		justify-content:space-between;
+		padding-bottom:5%;
+}footer address{
+	text-align:center;
+	font-weight:bolder;
+	flex:1;
+}
+
+.foot_l,.foot_r{
+	flex:1;
+	display:flex;
+
+}.foot_l{
+	grid-gap:30px;
+	flex-direction:column;
+}.foot_l ul {
+	flex:1;
+	list-style-type:square;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}.foot_r img{
+	flex:1;
+}
+
+
+
+/*MY FOOTER STYLES*/
