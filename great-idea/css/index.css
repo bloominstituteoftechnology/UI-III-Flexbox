@@ -136,6 +136,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -158,13 +159,18 @@ h5 {
 .container {
   width: 880px;
   /* TB LR */
-  margin: 0 auto;
+  margin: 0auto;
 }
 
 /* header */
 
 header nav {
+  display       : -webkit-box;
+  display       : -ms-flexbox;
   display       : flex;
+  -webkit-box-orient     : horizontal;
+  -webkit-box-direction     : normal;
+  -ms-flex-flow     : row nowrap;
   flex-flow     : row nowrap;
   width         : 691px;
   vertical-align: top;
@@ -172,6 +178,8 @@ header nav {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -200,11 +208,18 @@ header .logo {
 
 /* cta */
 .cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .cta .cta-text {
+  display       : -webkit-box;
+  display       : -ms-flexbox;
   display       : flex;
+  -webkit-box-orient     : vertical;
+  -webkit-box-direction     : normal;
+  -ms-flex-flow     : column nowrap;
   flex-flow     : column nowrap;
   vertical-align: top;
   font-size     : 77px;
@@ -229,6 +244,8 @@ header .logo {
 }
 
 .cta img {
+  display   : -webkit-box;
+  display   : -ms-flexbox;
   display   : flex;
   margin-top: 69px;
 }
@@ -241,6 +258,8 @@ header .logo {
 
 .main-content .top-content {
   padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -260,6 +279,8 @@ header .logo {
 .main-content .bottom-content {
   margin-top: 37px;
   padding   : 0 10px;
+  display   : -webkit-box;
+  display   : -ms-flexbox;
   display   : flex;
 }
 
