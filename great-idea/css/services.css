@@ -1,69 +1,11 @@
 *{
 	box-sizing: border-box;
 	padding: 0;
-	margin: 0;
+	margin: 40%;
 	max-width: 100%;
-	border: 1px solid black;
 
 }
-.overall{
-	width: 100%;
-	margin: 0 auto;
-	flex-flow: row wrap;
-	height: 20px;
-	background-color: grey;
-	display:flex;
-}
-.container1 {
-	margin: 0 auto;
-	flex-direction: column;
-}
-.services-header-img {
-	height: 50px;
-	width: 100%;
-}
-.container1 #sec1 {
 
-}
-.boxes {
-	width: 100px;
-	Height:100px;
-	background-color: grey;
-	display:flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	margin: 40px;
-	padding-bottom:50px;
-	justify-content: space-around;
-
-}
-.boxes #design {
-	height: 100px;
-	width: 100px;
-	background-color: black;
-	flex-flow: row wrap;
-}
-.boxes #ux {
-
-}
-.boxes #market {
-
-}
-.boxes #web {
-
-}
-.boxes #ios {
-
-}
-.boxes #android {
-
-}
-.container2 {
-
-}
-.container2 #bottomimg {
-
-}
 header nav {
 	display:flex;
 	flex-direction: row;
@@ -75,6 +17,25 @@ header nav {
 header nav a {
 	display:flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-evenly;
 	margin: 0 auto;
+}
+.container1 {
+	display:flex;
+}
+.container #sec1{
+	align-content: flex-start;
+}
+.boxes div{
+
+	width:300px;
+	height: 150px;
+	background-color: black;
+
+}
+#design {
+	width:400px;
+	height: 30px;
+	border: 1px solid black;
+	
 }
