@@ -63,9 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-.outerDiv{
-	width:80%;
-	margin: 0 auto;
+
 }
 /* navigation design */
 nav {
@@ -147,92 +145,115 @@ text-align: left;
 	font-size: 20px;
 	font-weight: bold;
 	border:none;
-
 }
+/* --------------------------------------------------------------- */
 
 
-{
-	/* display:flex; */
-	/* width:100%; */
-	/* border:1px solid black; */
-	/* align-items: center; */
-	
-}
-
- 
-
- .smallContainer {
-	
-	display:flex;
+.navContainer{
+	display: flex;
 	width: 100%;
-	height:20vh;
-	flex-wrap:wrap;
+	height: 50px;
 	justify-content: space-between;
-	padding-top:1.5%
-	
-	
- }
-
-	.smallContainer2{
-		
-	   display:flex;
-	   width: 100%;
-	   flex-wrap:wrap;
-	   justify-content: space-between;
-	   height:20vh;
-	   
-	   
-	}
-	
-	   .smallContainer3{
-		
-	   display:flex;
-	   width: 100%;
-		flex-wrap:wrap;
-		justify-content: space-between;
-		height:20vh;
-		
-	}
-	
+}
 
 
-.blocks{
-	font-size: 15px;
+.serviceStyle{
+	font-size:25px;
+	align-content:left;
+	padding:0;
+	border:none;
+}
+
+
+
+
+
+
+
+
+.outerDiv{
+	width:80%;
+	margin: 0 auto;
+}
+
+
+.container1{
+	display:flex;
+	justify-content:space-between;
 	
-	border: 1px solid black;
-	height: 15vh;
+}
+
+
+.box{
+border:1px solid gray;
 	width:40%;
-	background-color:lightgrey;
-}
-.blocks P{
-	text-align: center;
-	font-size:13px;
-}
-h5{
-	text-align:justify;
-
+	padding:20px;
+	padding:20px;
+	margin-bottom:10%;
+	margin-top:15%;
 }
 
-.link{
-
-	border: 1px solid black;
-	width: 100px;
-	text-align:center;
-	margin-left: 30%;
-	margin-top:10px;}
-
-#factsLast{
+.box2{
+	border: 1px solid gray;
+	width:40%;
+	padding:20px;
+	padding:20px;
+	margin-bottom:10%;
+	margin-top:15%;
+	
+}
+.container2{
 	display:flex;
-	width:100%;
-	flex-wrap:wrap;
+	justify-content:space-between;
+	
 }
+.box3{
+	border:1px solid gray;
+	width:40%;padding:20px;
+	margin-bottom:2%;
 
-.containerService{
+}
+.box4{
+	width:40%;
+	border: 1px solid gray;
+	padding:20px;
+	margin-bottom:2%;
+}
+.container3{
 	display:flex;
-	width:100%;
-	flex-wrap:wrap;
+	justify-content:space-between;
 }
 
-footer{
-	text-align:center;
-} 
+.box5{
+	border:1px solid gray;
+	width:40%;
+	padding:20px;
+	padding:20px;
+	margin-bottom:10%;
+	margin-top:15%;
+	
+}
+.box6{
+	border:1px solid gray;
+	width:40%;
+	padding:20px;
+	padding:20px;
+	margin-bottom:10%;
+	margin-top:15%;
+	
+}
+
+.aboutServices{
+	
+	width:40%;
+}
+.Last{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.buttons{
+	border:2px solid gray;
+	width: 50%;
+	
+}
