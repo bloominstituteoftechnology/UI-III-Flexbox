@@ -79,14 +79,14 @@ header	{
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 25px;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 
 }
 
 nav	{
 	display: flex;
-	justify-content: space-around;
-	width: 75%;
+	justify-content: space-between;
+	width: 70%;
 }
 
 h1	{
@@ -96,11 +96,17 @@ h1	{
 
 .get-started	{
 	text-align: center;
+	margin-left: 80px;
 }
 
-.first-sub a	{
-	border: 1px solid yellow;
+a.get-started 	{
+	display: flex;
+	border: 1px solid #444444;
+	width: 130px;
+	justify-items: center;
+	padding: 5px 25px;
 }
+
 
 
 
@@ -108,7 +114,6 @@ h1	{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid brown;
 
 
 }
@@ -118,7 +123,7 @@ h1	{
 	flex-direction: column;
 	align-content: center;
 	margin-left: 100px;
-	border: 1px solid green;
+
 
 }
 
@@ -128,14 +133,13 @@ h1	{
 
 hr	{
 	margin-bottom: 30px;
-	margin-top: 50px;
+	margin-top: 40px;
 	width: 100%;
 }
 
 .content-one	{
 	display: flex;
 	width: 100%;
-	border: 1px solid green;
 	margin-bottom: 20px;
 
 }
@@ -146,7 +150,6 @@ hr	{
 
 .middle-img	{
 	width: 100%;
-	border: 1px solid green;
 	margin-bottom: 30px;
 }
 
@@ -155,9 +158,103 @@ hr	{
 	width: 100%;
 }
 
+
+#services p, #product p, #vision p	{
+	display: flex;
+	padding-right: 8px;
+} 
+
 .content-two p	{
-	border: 1px solid yellow;
 	justify-content: center;
 
 
 }
+
+#services-header-img	{
+	width: 100%;
+	border: 1px solid green;
+	margin-bottom: 30px;	
+
+}
+
+/* service.html CSS Style Sheet*/
+
+.firstLevelService, .secondLevelService, .thirdLevelService, .fourthLevelService	{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.services-header-img	{
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.digitalDesign, .uxui, .digitalMarketing,
+.webDev, .iosDev, .androidDev {
+	padding-left: 15px;
+	margin-bottom: 30px;
+	margin-left: 7px;
+	margin-right: 7px;
+	background-color: #ececec;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	border: 1px solid #444444;
+}
+.faqs{
+
+	/* padding-left: 15px; */
+	margin-bottom: 30px;
+	margin-right: 7px;
+	width: 48%;
+}
+
+
+.services-info-img		{
+	margin-bottom: 20px;
+}
+
+
+.digitalDesign h2, .uxui h2, .digitalMarketing h2,
+.webDev h2, .iosDev h2, .androidDev h2, .faqs h2{ 
+	margin-top: 15px;
+}
+
+.digitalDesign p, .uxui p, .digitalMarketing p,
+.webDev p, .iosDev p, .androidDev p, .faqs p{
+	margin-bottom: 20px;
+}
+
+
+.digitalDesign a, .uxui a, .digitalMarketing a,
+.webDev a, .iosDev a, .androidDev a{
+	margin-bottom: 25px;
+	border: 1px solid grey;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 20px;
+
+}
+.bottomLinks a	{
+	margin-bottom: 30px;
+	background-color: white;
+	font-size: 14px;
+	border-radius: 7px;
+	padding: 3px 20px;
+}
+
+li	{
+	list-style-type: square;
+	margin-left: 20px;
+	margin-bottom:15px;
+	
+}
+
+footer p {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+
