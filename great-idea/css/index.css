@@ -28,8 +28,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html{
+	display: table;
+	margin: auto;
+}
 body {
 	line-height: 1;
+	width: 876px;
+	display: table-cell;
+    vertical-align: middle;
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +56,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +71,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* border: 1px dotted gray!important; */
+.line{
+	border: 1px solid black;
+	margin-bottom: 40px; 
+}
+
+/* Navbar CSS */
+.navbar{
+	display: flex;
+	margin-bottom: 40px;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar a{
+	text-decoration: none;
+	color: grey;
+}
+.navbar a:hover{
+	color: blue;
+}
+
+
+/* Title CSS */
+.title{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: 55px;
+}
+#leftTitle{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#leftTitle h1{
+	margin-right: 0.1%;
+	font-size: 70px;
+	margin-top: 40px;
+}
+#leftTitle button{
+	margin-bottom: 60px;
+	background-color: white;
+	width: 40%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* Intro CSS */
+.intro{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+
+/* Info CSS */
+.info{
+	display: flex;
+	margin-top: 30px;
+}
+
+.info #info1,#info2{
+	padding-right: 3%;
+}
+
+
+/*Contact and footer CSS*/
+footer{
+	text-align: center;
+}
+
+/* Services CSS */
+/* Intro Services CSS */
+.introServices{
+	margin-bottom: 40px;
+}
+.introServices h2{
+	font-size: 26px;
+	margin-top: 30px;
+}
+
+
+/* Main content CSS */
+.mainContent{
+	display: flex;
+	flex-direction: column;
+}
+
+.mainContent .classOne,.classTwo,.classThree{
+	display: flex;
+	padding-bottom: 5%;
+	
+}
+
+.mainContent div div{
+	border: 1px solid black;
+	background-color: rgb(236, 236, 236);
+	padding: 2%;
+	width: 45%;
+}
+
+.mainContent div div button{
+	margin-top: 15px;
+	border-radius: 3px;
+	background-color: white;
+	padding: 8px 24px;
+	border: 1px solid black;
+	font-size: 11px;
+}
+
+.mainContent div .digDesign,.digMarketing,.iosDev{
+	margin-right: 10%;
+}
