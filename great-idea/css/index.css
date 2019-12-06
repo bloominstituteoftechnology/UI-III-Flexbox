@@ -69,18 +69,13 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 }
 .page-container {
-	margin: 0 auto;
-	width: 1000px;
-	display:flex;
-	justify-content:flex-start;
+	display: flex;
+	width: 800px; 
 	flex-direction:column;
-	
+	align-content: center;
 }
 .info {
-	width: 800px;
-	display: inline-block;
-	margin: 20px;
-	
+	margin:20px;	
 	color: gray;
 }
 .info a {
@@ -118,7 +113,6 @@ h1, h2, h3, h4, h5 {
  .gtBtn {
 	display: inline-block;
 	margin: 0 auto;
-
 }
 /* img {
 	margin: 0;
