@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 /* border: 1px dotted gray!important; */
 .line{
 	border: 1px solid black;
-	margin: 40px 0; 
+	margin-bottom: 40px; 
 }
 
 /* Navbar CSS */
@@ -148,6 +148,9 @@ footer{
 
 /* Services CSS */
 /* Intro Services CSS */
+.introServices{
+	margin-bottom: 40px;
+}
 .introServices h2{
 	font-size: 26px;
 	margin-top: 30px;
@@ -157,13 +160,31 @@ footer{
 /* Main content CSS */
 .mainContent{
 	display: flex;
-	flex-wrap: wrap;
-}
-
-.mainContent section{
-	background-color: lightgray;
-	border: 1px solid black;
-	margin-right: 65%;
 	flex-direction: column;
 }
 
+.mainContent .classOne,.classTwo,.classThree{
+	display: flex;
+	padding-bottom: 5%;
+	
+}
+
+.mainContent div div{
+	border: 1px solid black;
+	background-color: rgb(236, 236, 236);
+	padding: 2%;
+	width: 45%;
+}
+
+.mainContent div div button{
+	margin-top: 15px;
+	border-radius: 3px;
+	background-color: white;
+	padding: 8px 24px;
+	border: 1px solid black;
+	font-size: 11px;
+}
+
+.mainContent div .digDesign,.digMarketing,.iosDev{
+	margin-right: 10%;
+}
