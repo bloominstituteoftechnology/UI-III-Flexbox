@@ -1,12 +1,19 @@
 *{
 	box-sizing: border-box;
 	padding: 0;
-	margin: 40%;
+	margin: 0%;
 	max-width: 100%;
 
 }
+.all {
+	
+}
+.container1 {
 
-header nav {
+
+
+}
+.all header nav {
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -14,28 +21,22 @@ header nav {
 	height: 40px;
 	width: 100%;
 }
-header nav a {
+.all header nav a {
 	display:flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	margin: 0 auto;
+	text-decoration: none;
 }
 .container1 {
-	display:flex;
+
 }
 .container #sec1{
-	align-content: flex-start;
+
 }
 .boxes div{
 
-	width:300px;
-	height: 150px;
-	background-color: black;
-
 }
 #design {
-	width:400px;
-	height: 30px;
-	border: 1px solid black;
 	
 }
