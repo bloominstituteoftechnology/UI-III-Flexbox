@@ -191,6 +191,7 @@ border:1px solid gray;
 	padding:20px;
 	margin-bottom:10%;
 	margin-top:15%;
+	background-color:lightgrey;
 }
 
 .box2{
@@ -200,6 +201,7 @@ border:1px solid gray;
 	padding:20px;
 	margin-bottom:10%;
 	margin-top:15%;
+	background-color:lightgrey;
 	
 }
 .container2{
@@ -211,6 +213,7 @@ border:1px solid gray;
 	border:1px solid gray;
 	width:40%;padding:20px;
 	margin-bottom:2%;
+	background-color: lightgrey;
 
 }
 .box4{
@@ -218,6 +221,7 @@ border:1px solid gray;
 	border: 1px solid gray;
 	padding:20px;
 	margin-bottom:2%;
+	background-color: lightgrey;
 }
 .container3{
 	display:flex;
@@ -231,7 +235,7 @@ border:1px solid gray;
 	padding:20px;
 	margin-bottom:10%;
 	margin-top:15%;
-	
+	background-color: lightgrey;
 }
 .box6{
 	border:1px solid gray;
@@ -240,12 +244,15 @@ border:1px solid gray;
 	padding:20px;
 	margin-bottom:10%;
 	margin-top:15%;
+	background-color: lightgrey;
+	
 	
 }
 
 .aboutServices{
 	
 	width:40%;
+	padding-top:5%;
 }
 .Last{
 	display:flex;
@@ -254,6 +261,19 @@ border:1px solid gray;
 }
 .buttons{
 	border:2px solid gray;
-	width: 50%;
+	width: 100px;
+	background-color: white;
 	
+
+	
+}
+
+.copyright{
+	text-align:center;
+	font-size:15px;
+	padding-top:10%;
+}
+
+.services-info-img{
+	padding-top:5%;
 }
