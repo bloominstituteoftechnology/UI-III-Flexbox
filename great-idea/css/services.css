@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0%;
+	max-width: 100%;
+	/*border: 1px solid black;*/
+
+}
+.all {
+	display: flex;
+	flex-direction:column;
+	margin: 0px 30% 10px 30%;
+}
+.container1 {
+}
+.all header{
+	flex-flow: row nowrap;
+	width: 100%;
+	
+	
+}
+.services-header-img {
+	display:flex;
+	align-content: center;
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;}
+.container #sec1{
+	margin: 5px 0 5px 0;;
+}
+.boxes {
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top:30px;
+}
+.boxes p {
+	margin: 15px 5px 15px 5px;
+}
+h1 {
+	margin: 15px 0 15px 0;
+}
+h2 {
+	margin: 15px 5px 15px 5px;
+}
+.boxes #design {
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes #ux {
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes #market {
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes #web {
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes #ios {
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes #android {
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes button {
+	border-radius: 5px 5px 5px 5px;
+	background-color: white;
+	padding: 10px 40px 10px 40px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+.container2 {
+	
+}
+.container2 #facts {
+	width 45%;
+	flex-direction: row;
+}
+.footer {
+	justify-content: center;
+}
