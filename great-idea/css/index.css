@@ -6,7 +6,6 @@
 	margin: 0;
 	max-width: 100%;
 	border: 1px solid black;
-	display:flex;
 }
 
 html, body {
@@ -22,7 +21,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 * {
-	display: inline-block;
+	border: 1px solid black;
+	box-size:border-box;
+}
+
+.all{
+
 }
 
 #contact {

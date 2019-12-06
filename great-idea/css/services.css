@@ -4,7 +4,6 @@
 	margin: 0;
 	max-width: 100%;
 	border: 1px solid black;
-	display: flex;
 
 }
 .overall{
@@ -13,6 +12,7 @@
 	flex-flow: row wrap;
 	height: 20px;
 	background-color: grey;
+	display:flex;
 }
 .container1 {
 	margin: 0 auto;
