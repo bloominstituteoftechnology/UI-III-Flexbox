@@ -135,5 +135,37 @@ h1 {
 	border-radius: 6%;
 }
 
+#servicesBottomSec {
+	display:flex;
+	border-top: 2px solid black;
+	padding-top:4%;
+}
 
+.someFactsBox {
+	display:flex;
+	flex-direction: column;
+	line-height: 22px;
+	
+}
+
+
+.list {
+	list-style-type: square;
+	margin: 4%;
+	
+}
+
+li { 
+	padding-bottom: 2%;
+	
+}
+
+.services-info-img {
+	padding-right: 9%;
+}
+
+.copyright {
+	padding: 10%;
+	text-align: center;
+}
 
