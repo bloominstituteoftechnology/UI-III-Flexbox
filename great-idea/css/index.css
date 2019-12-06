@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol, ul,li
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -63,7 +63,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-
+.outerDiv{
+	width:80%;
+	margin: 0 auto;
+}
 /* navigation design */
 nav {
 	display: flex;
@@ -86,11 +89,12 @@ nav a:hover{
 .middleSection{
 	display:flex;
 	width:100%;
+	margin: 5%;
 	justify-content: space-around;}
 
 span{
 	font-size: 30px;
-	border: 1px solid black;
+	border: 1px solid black; 
 	padding: 10px;
 
 }
@@ -103,16 +107,21 @@ span{
 
 .featuresAbout {
 display:flex;
+
 width:100%;
-justify-content: space-around;
+align-items: stretch;
+margin: 5%;
+text-align: left;
+
 
 }
 .features{
 	font-size: 20px;
 	font-weight: bold;
 	border:none;
-	text-align: justify;
+	
 }
+
 /* ---------------------------------------------------------------------- */
 
 .middle-img{
@@ -129,6 +138,8 @@ justify-content: space-around;
 .serviceProductVision{
 	display:flex;
 	justify-content: space-around;
+	margin:5%;
+	width:100%;
 }
 /* ----------------------------------Contact----------------------------------------------- */
 
@@ -139,74 +150,89 @@ justify-content: space-around;
 
 }
 
-footer{
-	font-size: 15px;
-	text-align: center;
-}
 
-
-
-
-.services-header-img{
-	width:100%;
-	height: 20vh;
-}
-
-/* .digitalDesign{
-	display:flex;
-	justify-content: space-around;
-	width:25%;
-}
-.digitalDesign p{
-	display:flex;
-}
-.UX{
-	display:flex;
-	justify-content: space-around;
-	width:25%;
-}
-.digitalMarketing{
-	display:flex;
-	justify-content: space-around;
-	width:25%;
-}
-.webDev{
-	display:flex;
-	justify-content: space-around;
-	width:25%;
-}
-.ios{
-	display:flex;
-	justify-content:center;
-	width:25%;
-}
-.android{
-	display:flex;
-	justify-content: space-around;
-	width:25%;
-}
-
- */
-
-
-.blocks{
-	display:flex;
-	width:50%;
-	justify-content:space-evenly;
-	border: 1px solid black;
-	flex-wrap: wrap;
-}
-
-
-.big-container{
-	display:flex;
-	margin: 0 auto;
+{
+	/* display:flex; */
+	/* width:100%; */
+	/* border:1px solid black; */
+	/* align-items: center; */
 	
 }
 
+ 
 
-.outerDiv{
-	width:90%;
-	margin: 0 auto;
+ .smallContainer {
+	
+	display:flex;
+	width: 100%;
+	height:20vh;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	padding-top:1.5%
+	
+	
+ }
+
+	.smallContainer2{
+		
+	   display:flex;
+	   width: 100%;
+	   flex-wrap:wrap;
+	   justify-content: space-between;
+	   height:20vh;
+	   
+	   
+	}
+	
+	   .smallContainer3{
+		
+	   display:flex;
+	   width: 100%;
+		flex-wrap:wrap;
+		justify-content: space-between;
+		height:20vh;
+		
+	}
+	
+
+
+.blocks{
+	font-size: 15px;
+	
+	border: 1px solid black;
+	height: 15vh;
+	width:40%;
+	background-color:lightgrey;
+}
+.blocks P{
+	text-align: center;
+	font-size:13px;
+}
+h5{
+	text-align:justify;
+
 }
 
+.link{
+
+	border: 1px solid black;
+	width: 100px;
+	text-align:center;
+	margin-left: 30%;
+	margin-top:10px;}
+
+#factsLast{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+
+.containerService{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+
+footer{
+	text-align:center;
+} 
