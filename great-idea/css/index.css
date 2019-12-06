@@ -103,11 +103,13 @@ h1{
 .content{
 	display: flex;
 	justify-content: space-between;
-	margin: 20px 0 20px;
+	margin: 20px;
 }
-
-.footer{
+.contact{
+	width: 150px;
+}
+footer{
 	display: flex;
-	align-items:center;
-	margin: 20px 0 20px;
+	justify-content: center;
+	margin: auto;
 }

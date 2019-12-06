@@ -9,32 +9,25 @@
 	width: 900px;
 	margin:0 auto;
 }
-nav a{
-	display: flex;
-	justify-content: space-evenly;
-    width:70%;
-    margin: 15px 5px;
-}
 .navigation{
-	display: flex;
-    justify-content: space-evenly;
-    width:900px; 
-    margin: 0 auto;
+	display:flex;
+	justify-content:space-around;
+	width:100%;
     align-items: center;
-
+    margin: 20px 0;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	width:70%;
 }
 .logo{
-    width:25%;
+	width:30%;
+}
+.header div{
+    margin: 20px 0px;
 }
 
-.header{
-    display: flex;
-    flex-direction: column;
-
-}
-.header h2{
-    font-size: 20px;
-}
 .boxes div{
     width:430px;
     background-color: lightgray;
@@ -53,9 +46,10 @@ nav a{
 .facts{
     display: flex;
     width: 95%;
+    margin: 25px 0;
 }
 
-.facts ul {
+.facts ul{
     list-style: disc;
-
+    margin: 0 20px;
 }
