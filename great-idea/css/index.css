@@ -79,13 +79,6 @@ nav{
  
 
 /* header*/
-header{
-	display: flex;
-	align-content: center;
-}
-h1{
-	font-size: 50px;
-}
 
 
 /*middle*/
@@ -153,5 +146,70 @@ h2{
 	font-size: 40px;
 }
 .h2services{
-	
+	margin: 10%;
 }
+
+/* Section Middle*/
+
+.first{
+	display:flex;
+	justify-content:center;
+	margin: 5%;
+}
+.first div{
+	width: 500px;
+	height: 300px;
+}
+.left{
+	background-color: grey;
+	border: solid;
+	padding: 3%;
+	margin-right: 10%;
+}
+.right{
+	background-color:grey;
+	border:solid;
+	padding: 3%;
+	margin-left: 10%;
+
+}
+
+.learn{
+	border: solid 1px;
+	margin-top: 5%;
+	width: 100px;
+	background-color: white;
+	padding:1%;
+}
+
+#line1{
+	border-top: solid;
+	border-bottom: solid;
+}
+
+
+/*Bottom*/
+.facts{
+	margin-left:10%;
+}
+ul {
+	list-style-type: square;
+	margin-top: 5%;
+  }
+  li{
+	  margin-bottom: 10px;
+  }
+
+  .factsbottom{
+	  display: flex;
+	  justify-content:center;
+	  margin: 5%;
+  }
+
+  .services-info-img{
+	  margin-left:10%;
+  }
+  .leftfacts{
+	  margin-right: 10%;
+  }
+  
