@@ -104,13 +104,14 @@ span{
 .featuresAbout {
 display:flex;
 width:100%;
-justify-content: space-around
+justify-content: space-around;
 
 }
 .features{
 	font-size: 20px;
 	font-weight: bold;
 	border:none;
+	text-align: justify;
 }
 /* ---------------------------------------------------------------------- */
 
@@ -127,7 +128,7 @@ justify-content: space-around
 }
 .serviceProductVision{
 	display:flex;
-	justify-content: space-around
+	justify-content: space-around;
 }
 /* ----------------------------------Contact----------------------------------------------- */
 
@@ -142,3 +143,70 @@ footer{
 	font-size: 15px;
 	text-align: center;
 }
+
+
+
+
+.services-header-img{
+	width:100%;
+	height: 20vh;
+}
+
+/* .digitalDesign{
+	display:flex;
+	justify-content: space-around;
+	width:25%;
+}
+.digitalDesign p{
+	display:flex;
+}
+.UX{
+	display:flex;
+	justify-content: space-around;
+	width:25%;
+}
+.digitalMarketing{
+	display:flex;
+	justify-content: space-around;
+	width:25%;
+}
+.webDev{
+	display:flex;
+	justify-content: space-around;
+	width:25%;
+}
+.ios{
+	display:flex;
+	justify-content:center;
+	width:25%;
+}
+.android{
+	display:flex;
+	justify-content: space-around;
+	width:25%;
+}
+
+ */
+
+
+.blocks{
+	display:flex;
+	width:50%;
+	justify-content:space-evenly;
+	border: 1px solid black;
+	flex-wrap: wrap;
+}
+
+
+.big-container{
+	display:flex;
+	margin: 0 auto;
+	
+}
+
+
+.outerDiv{
+	width:90%;
+	margin: 0 auto;
+}
+
