@@ -64,3 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+	margin: 0; 
+	box-sizing: border-box;
+}
+.page-container {
+	display: flex;
+	width: 800px; 
+	flex-direction:column;
+	align-content: center;
+}
+.info {
+	margin:20px;	
+	color: gray;
+}
+.info a {
+	margin: 20px; 
+	width: 150px; 
+	color: gray;
+	text-decoration: none;
+}
+
+.contain {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	margin: 0;
+}
+.head-contain {
+	width: 100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.head-container {
+	display: inline-block;
+	width: 200px;
+	font-size: 50px;  
+	 margin-left: 250px;
+}
+.head-container img {
+	display: inline-block;
+	margin-left: 240px;
+	margin-top: -155px;
+}
+ .gtBtn {
+	display: inline-block;
+	margin: 0 auto;
+}
+/* img {
+	margin: 0;
+	width: 15%;
+	display: inline-block;
+	margin-left: 700px; 
+	margin-top: -50px;
+	border: 2px solid black;
+} */
+.contain-two {
+	margin: 0 auto;
+	width: 100%;
+	display: inline-block;
+	column-count: 2;
+	
+	padding: 5px; 
+}
+.contain .middle-img {
+	margin: 0 auto;
+	width: 100%;
+}
+.contain-three {
+	margin: 0 auto;
+	display: inline-block;
+	width: 100%;
+	column-count: 3;
+	
+	padding: 5px;
+}
+.footnote {
+	display: inline-block;
+	width:800px;
+}
+.footnote p h5 {
+	margin: 0 ;
+	margin-left: 20px;
+}
+.footnote .Rights {
+	text-align:center;
+}
