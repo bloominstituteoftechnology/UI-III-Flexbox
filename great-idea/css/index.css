@@ -82,14 +82,14 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	margin-bottom: 40px;
 	align-items: center;
+	justify-content: space-between;
 }
 .navbar a{
-	margin-right: 7%;
 	text-decoration: none;
 	color: grey;
 }
 .navbar a:hover{
-	color: white;
+	color: blue;
 }
 
 
@@ -145,3 +145,25 @@ h1, h2, h3, h4, h5 {
 footer{
 	text-align: center;
 }
+
+/* Services CSS */
+/* Intro Services CSS */
+.introServices h2{
+	font-size: 26px;
+	margin-top: 30px;
+}
+
+
+/* Main content CSS */
+.mainContent{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mainContent section{
+	background-color: lightgray;
+	border: 1px solid black;
+	margin-right: 65%;
+	flex-direction: column;
+}
+
