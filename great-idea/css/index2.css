@@ -297,6 +297,10 @@ h5 {
 
 
 
+	-webkit-box-sizing: border-box;
+
+
+
 	box-sizing: border-box;
 
 
@@ -309,7 +313,7 @@ h5 {
 
 
 
-	margin: 0 auto;
+	margin: 0 au;
 
 
 
@@ -329,7 +333,27 @@ h5 {
 
 
 
+	display: -webkit-box;
+
+
+
+	display: -ms-flexbox;
+
+
+
 	display: flex;
+
+
+
+	-webkit-box-orient: horizontal;
+
+
+
+	-webkit-box-direction: normal;
+
+
+
+	-ms-flex-direction: row;
 
 
 
@@ -337,7 +361,23 @@ h5 {
 
 
 
+	-webkit-box-pack: justify;
+
+
+
+	-ms-flex-pack: justify;
+
+
+
 	justify-content: space-between;
+
+
+
+	-webkit-box-align: center;
+
+
+
+	-ms-flex-align: center;
 
 
 
@@ -357,7 +397,19 @@ h5 {
 
 
 
+	display: -webkit-box;
+
+
+
+	display: -ms-flexbox;
+
+
+
 	display: flex;
+
+
+
+	-ms-flex-pack: distribute;
 
 
 
@@ -461,6 +513,10 @@ h5 {
 
 
 
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(90%, white), color-stop(10%, yellow));
+
+
+
 	background-image: linear-gradient(to right, white 90%, yellow 10%);
 
 
@@ -473,7 +529,23 @@ h5 {
 
 
 
+	display: -webkit-box;
+
+
+
+	display: -ms-flexbox;
+
+
+
 	display: flex;
+
+
+
+	-webkit-box-pack: justify;
+
+
+
+	-ms-flex-pack: justify;
 
 
 
@@ -495,8 +567,17 @@ h5 {
 
 .container-home .headline .h1-and-button {
 
+	display        : -webkit-box;
+
+	display        : -ms-flexbox;
+
 	display        : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	-ms-flex-direction : column;
 	flex-direction : column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
 	margin-top     : 10px;
 	padding-left   : 170px;
@@ -581,7 +662,13 @@ h5 {
 
 	line-height: 1.15rem;
 
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
 	display: flex;
+
+	-ms-flex-pack: distribute;
 
 	justify-content: space-around;
 
@@ -616,7 +703,11 @@ h5 {
 	margin         : 34px 7px 20px 42px;
 	padding-right  : 4px;
 	line-height    : 1.15;
+	display        : -webkit-box;
+	display        : -ms-flexbox;
 	display        : flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
 
 }
@@ -729,12 +820,24 @@ If Nav Bar should be 600px and screen size is 880px
 
 		width: 100%;
 
+		-webkit-box-orient : horizontal;
+
+		-webkit-box-direction : normal;
+
+		-ms-flex-direction : row;
+
 		flex-direction : row;
+		-ms-flex-wrap      : wrap;
 		flex-wrap      : wrap;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
 		justify-content: center;
+		-ms-flex-line-pack  : start;
 		align-content  : flex-start;
 		margin         : 0px 0px 0px 0px;
 		padding        : 0px 0px 0px 0px;
+		-webkit-box-align    : center;
+		-ms-flex-align    : center;
 		align-items    : center;
 	}
 
@@ -745,13 +848,20 @@ If Nav Bar should be 600px and screen size is 880px
 
 		height: auto;
 
+		-webkit-box-ordinal-group: 0;
+
+		-ms-flex-order: -1;
+
 		order: -1;
 	}
 
 	.container-home .navigation-bar img:hover {
 		width           : 182.5px;
 		height          : auto;
+		-webkit-box-ordinal-group           : 0;
+		-ms-flex-order           : -1;
 		order           : -1;
+		background-image: -webkit-gradient(linear, left top, right top, color-stop(90%, white), color-stop(10%, yellow));
 		background-image: linear-gradient(to right, white 90%, yellow 10%);
 
 	}
@@ -806,6 +916,18 @@ If Nav Bar should be 600px and screen size is 880px
 
 
 		margin: 72px 0px 0px 0px;
+
+
+
+		-webkit-box-orient: vertical;
+
+
+
+		-webkit-box-direction: normal;
+
+
+
+		-ms-flex-direction: column;
 
 
 
@@ -898,6 +1020,14 @@ If Nav Bar should be 600px and screen size is 880px
 
 
 		padding: 35px 0px 0px 0px;
+
+
+
+		-webkit-box-pack: justify;
+
+
+
+		-ms-flex-pack: justify;
 
 
 
@@ -1137,7 +1267,27 @@ If Nav Bar should be 600px and screen size is 880px
 
 
 
+		-webkit-box-orient: vertical;
+
+
+
+		-webkit-box-direction: normal;
+
+
+
+		-ms-flex-direction: column;
+
+
+
 		flex-direction: column;
+
+
+
+		-webkit-box-pack: justify;
+
+
+
+		-ms-flex-pack: justify;
 
 
 
@@ -1177,6 +1327,14 @@ If Nav Bar should be 600px and screen size is 880px
 
 
 
+		-webkit-box-ordinal-group: 0;
+
+
+
+		-ms-flex-order: -1;
+
+
+
 		order: -1;
 
 
@@ -1190,9 +1348,18 @@ If Nav Bar should be 600px and screen size is 880px
 		width          : 100%;
 		margin         : 12px 0px 0px 0px;
 		padding        : 0px 0px 0px 0px;
+		display        : -webkit-box;
+		display        : -ms-flexbox;
 		display        : flex;
+		-webkit-box-orient : vertical;
+		-webkit-box-direction : normal;
+		-ms-flex-direction : column;
 		flex-direction : column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
 		justify-content: center;
+		-webkit-box-align    : center;
+		-ms-flex-align    : center;
 		align-items    : center;
 		border-bottom  : 1px solid black;
 
