@@ -3,40 +3,52 @@
 	padding: 0;
 	margin: 0%;
 	max-width: 100%;
+	/*border: 1px solid black;*/
 
 }
 .all {
-	
+	display: flex;
+	flex-direction:column;
+	margin: 0px 30% 10px 30%;
 }
 .container1 {
-
-
-
 }
 .all header nav {
-	display:flex;
-	flex-direction: row;
-	justify-content: space-around;
-	margin: 0 auto;
-	height: 40px;
-	width: 100%;
-}
-.all header nav a {
-	display:flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin: 0 auto;
-	text-decoration: none;
-}
-.container1 {
-
-}
-.container #sec1{
-
-}
-.boxes div{
-
-}
-#design {
 	
+}
+.services-header-img {
+	display:flex;
+	align-content: center;
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;}
+.container #sec1{
+	margin: 5px 0 5px 0;;
+}
+.boxes {
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-top:30px;
+}
+.boxes p {
+	margin: 15px 5px 15px 5px;
+}
+h1 {
+	margin: 15px 0 15px 0;
+}
+h2 {
+	margin: 15px 5px 15px 5px;
+}
+.boxes #design {
+	width: 50%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes button {
+	border-radius: 5px 5px 5px 5px;
+	background-color: white;
+	padding: 10px 40px 10px 40px;
+	margin-left: 5px;
+	margin-bottom: 20px;
 }
