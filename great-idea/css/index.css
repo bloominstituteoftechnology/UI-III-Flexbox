@@ -71,7 +71,10 @@ h1, h2, h3, h4, h5 {
 .page-container {
 	margin: 0 auto;
 	width: 1000px;
-	display: inline-block;
+	display:flex;
+	justify-content:flex-start ;
+	flex-direction:column;
+	
 }
 .info {
 	width: 800px;
@@ -88,14 +91,18 @@ h1, h2, h3, h4, h5 {
 }
 
 .contain {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	width: 100%;
 	margin: 0;
 }
 .head-contain {
 	width: 100%;
 	margin: 0 auto;
-	display: inline-block;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
 }
 .head-container {
 	display: inline-block;
