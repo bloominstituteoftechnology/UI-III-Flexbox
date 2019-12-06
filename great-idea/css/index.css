@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body	{
+	width: 900px;
+	margin: 0 auto;
+}
 
 a	{
 	text-decoration: none;
@@ -71,15 +75,89 @@ a	{
 }
 
 header	{
-	border: 1px solid green;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 25px;
+	margin-bottom: 50px;
+
 }
 
 nav	{
+	display: flex;
+	justify-content: space-around;
 	width: 75%;
+}
+
+h1	{
+	font-size: 80px;
+	text-align: center;
+}
+
+.get-started	{
+	text-align: center;
+}
+
+.first-sub a	{
+	border: 1px solid yellow;
+}
+
+
+
+.sub-header	{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	border: 1px solid brown;
+
+
+}
+
+.first-sub	{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	margin-left: 100px;
+	border: 1px solid green;
+
+}
+
+.code-snippet	{
+	display: flex;
+}
+
+hr	{
+	margin-bottom: 30px;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.content-one	{
+	display: flex;
+	width: 100%;
+	border: 1px solid green;
+	margin-bottom: 20px;
+
+}
+
+.content p	{
+	justify-content: center;
+}
+
+.middle-img	{
+	width: 100%;
+	border: 1px solid green;
+	margin-bottom: 30px;
+}
+
+.content-two	{
+	display: flex;
+	width: 100%;
+}
+
+.content-two p	{
+	border: 1px solid yellow;
+	justify-content: center;
+
+
 }
