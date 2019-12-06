@@ -84,11 +84,12 @@ h1, h2, h3, h4, h5 {
 	justify-content: center;
 	width: 100%;
 	color: gray;
+	margin: 10px;
 }
 .info a {
 	width: 150px;
 	color: gray;
-	margin: 0px;
+	margin: 10px;
 }
 
 .contain {
@@ -97,22 +98,12 @@ h1, h2, h3, h4, h5 {
 	
 }
 .head-container {
-	display: inline-block;
-	width: 200px;
+	display: flex;
+	
+	width: 300px;
 	font-size: 50px;  
 	
 	margin-left: 250px;
-}
-
-.gtBtn {
-	display: inline-block;
-	margin-left: 50px; 
-	
-}
-
-.logo {
-	margin-left: 1050px;
-	display: inline-block;
 	
 }
 .contain-two {
@@ -120,7 +111,6 @@ h1, h2, h3, h4, h5 {
 	width: 100%;
 	display: inline-block;
 	column-count: 2;
-	
 	padding: 5px; 
 }
 .contain .middle-img {
@@ -136,22 +126,31 @@ h1, h2, h3, h4, h5 {
 	padding: 5px;
 }
 .head-contain {
+	display: flex;
+    flex-flow: column;
 	width: 100%;
 	margin: 0;
-	display: inline-block;
+	
 	
 }
 .head-contain img {
-	display: inline-block;
-	margin-left: 350px;
-	margin-top: -160px;
+	align-content: right;
+	justify-self: right;
+	width: 300px;
+	height: 300px; 
+    margin: 0;
+	margin-left: 300px;
 }
-
+.footnote {
+	display: flex;
+	justify-content: right;
+	flex-flow: column;
+}
 .footnote p h5 {
 	margin: 0 ;
 	margin-left: 20px;
-	display: block; 
+	justify-content: left; 
 }
 .footnote .Rights {
-	text-align:center;
+    text-align: center;
 }
