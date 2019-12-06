@@ -1,0 +1,61 @@
+
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+.container{
+	width: 900px;
+	margin:0 auto;
+}
+nav a{
+	display: flex;
+	justify-content: space-evenly;
+    width:70%;
+    margin: 15px 5px;
+}
+.navigation{
+	display: flex;
+    justify-content: space-evenly;
+    width:900px; 
+    margin: 0 auto;
+    align-items: center;
+
+}
+.logo{
+    width:25%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+
+}
+.header h2{
+    font-size: 20px;
+}
+.boxes div{
+    width:430px;
+    background-color: lightgray;
+    border: grey 2px solid;
+    padding:20px;
+    margin: 10px;
+    
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.facts{
+    display: flex;
+    width: 95%;
+}
+
+.facts ul {
+    list-style: disc;
+
+}
