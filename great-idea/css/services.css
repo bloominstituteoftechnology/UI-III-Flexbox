@@ -13,7 +13,10 @@
 }
 .container1 {
 }
-.all header nav {
+.all header{
+	flex-flow: row nowrap;
+	width: 100%;
+	
 	
 }
 .services-header-img {
@@ -26,8 +29,8 @@
 	margin: 5px 0 5px 0;;
 }
 .boxes {
-	flex-flow: row wrap;
-	justify-content: space-between;
+	flex-direction: row;
+	justify-content: space-around;
 	margin-top:30px;
 }
 .boxes p {
@@ -40,7 +43,37 @@ h2 {
 	margin: 15px 5px 15px 5px;
 }
 .boxes #design {
-	width: 50%;
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes #ux {
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes #market {
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes #web {
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes #ios {
+	width: 45%;
+	height: 10%;
+	border:1px solid grey;
+	background-color: #f2f2f2;
+}
+.boxes #android {
+	width: 45%;
 	height: 10%;
 	border:1px solid grey;
 	background-color: #f2f2f2;
@@ -51,4 +84,14 @@ h2 {
 	padding: 10px 40px 10px 40px;
 	margin-left: 5px;
 	margin-bottom: 20px;
+}
+.container2 {
+	
+}
+.container2 #facts {
+	width 45%;
+	flex-direction: row;
+}
+.footer {
+	justify-content: center;
 }
