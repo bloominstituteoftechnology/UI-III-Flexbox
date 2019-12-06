@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol, ul,li
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -63,4 +63,225 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+}
+/* navigation design */
+nav {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	justify-content: space-around;
+	
+}
+
+a {
+	text-decoration:none;
+	color: grey;
+	padding: 5px;
+	
+}
+nav a:hover{
+	color: goldenrod;
+}
+/* ...................Middle Section.......................... */
+.middleSection{
+	display:flex;
+	width:100%;
+	margin: 5%;
+	justify-content: space-around;}
+
+span{
+	font-size: 30px;
+	border: 1px solid black; 
+	padding: 10px;
+
+}
+
+.class{
+	font-size: 80px;
+	text-align: center;
+}
+/* __________________________________________________________________ */
+
+.featuresAbout {
+display:flex;
+
+width:100%;
+align-items: stretch;
+margin-bottom:5%;
+text-align: left;
+
+
+}
+.features{
+	font-size: 20px;
+	font-weight: bold;
+	border:none;
+	
+}
+.features,p{
+	margin-right:2%;
+}
+.services,p{
+	margin-right:2%;
+}
+.product,p{
+	margin-right:2%;
+}
+/* ---------------------------------------------------------------------- */
+
+.middle-img{
+	width:100%;
+}
+/* -------------------------------------------------------------------------- */
+
+
+.services{
+	font-size: 20px;
+	font-weight: bold;
+	border:none;
+}
+.serviceProductVision{
+	display:flex;
+	justify-content: space-between;
+	margin-top:4%;
+	width:100%;
+}
+/* ----------------------------------Contact----------------------------------------------- */
+
+.contact{
+	font-size: 20px;
+	font-weight: bold;
+	border:none;
+}
+/* --------------------------------------------------------------- */
+
+
+.navContainer{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	justify-content: space-between;
+}
+
+
+.serviceStyle{
+	font-size:25px;
+	align-content:left;
+	padding:0;
+	border:none;
+}
+
+
+
+
+
+
+
+
+.outerDiv{
+	width:80%;
+	margin: 0 auto;
+}
+
+
+.container1{
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+
+.box{
+border:1px solid gray;
+	width:40%;
+	padding:20px;
+	padding:20px;
+	margin-bottom:10%;
+	margin-top:15%;
+	background-color:lightgrey;
+}
+
+.box2{
+	border: 1px solid gray;
+	width:40%;
+	padding:20px;
+	padding:20px;
+	margin-bottom:10%;
+	margin-top:15%;
+	background-color:lightgrey;
+	
+}
+.container2{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.box3{
+	border:1px solid gray;
+	width:40%;padding:20px;
+	margin-bottom:2%;
+	background-color: lightgrey;
+
+}
+.box4{
+	width:40%;
+	border: 1px solid gray;
+	padding:20px;
+	margin-bottom:2%;
+	background-color: lightgrey;
+}
+.container3{
+	display:flex;
+	justify-content:space-between;
+}
+
+.box5{
+	border:1px solid gray;
+	width:40%;
+	padding:20px;
+	padding:20px;
+	margin-bottom:10%;
+	margin-top:15%;
+	background-color: lightgrey;
+}
+.box6{
+	border:1px solid gray;
+	width:40%;
+	padding:20px;
+	padding:20px;
+	margin-bottom:10%;
+	margin-top:15%;
+	background-color: lightgrey;
+	
+	
+}
+
+.aboutServices{
+	
+	width:40%;
+	padding-top:5%;
+}
+.Last{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.buttons{
+	border:2px solid gray;
+	width: 100px;
+	background-color: white;
+	
+
+	
+}
+
+.copyright{
+	text-align:center;
+	font-size:15px;
+	padding-top:10%;
+}
+
+.services-info-img{
+	padding-top:5%;
+}
