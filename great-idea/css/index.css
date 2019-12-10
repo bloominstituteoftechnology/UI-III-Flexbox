@@ -1,8 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/*testing*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+	header nav {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding-bottom: 20px;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	header nav a {
+		margin-left: 100px;
+		margin-top: 25px;
+		color: grey; 
+		text-decoration: none;		
+	}
+
+	header nav a img {
+		padding-right: 50px;
+	}
+	
+	hr {
+		width: 90%;
+	}
+	
+	.front {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		margin-bottom: 50px;
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	
+	.title{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+		margin-left: 50px; 
+		width: 45%;
+	}
+	
+	.title h3 {
+		font-size: 80px;
+		text-align: center;
+		padding: 1px;
+		font-family: Indie Flower;
+	}
+	
+	.title button {
+		font-size: 20px;
+		padding-top:5px;
+		padding-bottom: 5px;
+		padding-left: 40px;
+		padding-right: 40px;
+		border-radius: 2px;
+		border: 1px solid black;
+	}
+	
+	.title button:hover {
+		animation-name: wonder;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+	
+	@keyframes wonder {
+		0% {background-color: white;}
+		13% {background-color: lightgreen;}
+		25% {background-color: green;}
+		50% {background-color: deepskyblue;}
+		75% {background-color: dodgerblue}
+		100% {background-color: lightcyan;}
+	}
+	
+	.top {
+		display: flex;
+		justify-content: space-between;
+		margin-right: 20px;
+
+	}
+
+	.top .content {
+		width: 45%;
+		margin-left: 10px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 25px;
+	}
+	
+	.middle {
+		padding: 30px;
+		
+	}
+	
+	.middle img {
+		width: 100%;
+	}
+	
+	.bottom {
+		display: flex;
+		justify-content: space-between;
+		margin-right: 20px;
+	}
+
+	.bottom .content {
+		width: 30%;
+		margin: 10px;
+		padding-left: 25px;
+		padding-bottom: 40px;
+	}
+	
+	hr {
+		width: 95%;
+		padding-right: 20px;
+	}
+	
+	footer {
+		padding-left: 25px;
+		margin: 10px;
+		margin-top: 25px;
+	}
+	
+	footer p {
+		padding-top: 25px;
+	}
+	
+	footer .copyright {
+		text-align: center;
+		padding-bottom: 60px;
+	}
