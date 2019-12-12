@@ -63,4 +63,139 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+body {
+	font-family: 'Rajdhani', sans-serif;
+}
+
+div.logo, 
+div.logo img,
+nav,
+nav a,
+section.call-to-action div,
+section.call-to-action img,
+section.first-section div,
+section.first-section div h2,
+section.first-section div p,
+section.second-section div,
+section.second-section div h2,
+section.second-section div p,
+h1,
+span {
+	display: inline-block;
+}
+
+div.container {
+	margin: 0 auto;
+	width: 876px;
+}
+
+header {
+	border-bottom: 1px solid black;
+	width: 100%;
+	padding: 0 calc((100% - 876px) / 2);
+	position: fixed;
+	top: 0;
+	background: white;
+}
+
+nav a {
+	color: #888;
+	font-size: 14px;
+	padding: 20px 30px 20px 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	animation: pulse 1s linear infinite;
+}
+
+div.logo {
+	float: right;
+	padding-top: 8px;
+}
+
+section.call-to-action {
+	height: 460px;
+	border-bottom: 1px solid black;
+	text-align: right;
+	margin: 100px 0 40px 0;
+}
+
+section.call-to-action div {
+	text-align: center;
+	vertical-align: top;
+	padding: 60px 80px 0 0;
+}
+
+section.call-to-action div a {
+	text-decoration: none;
+	font-size: 16px;
+	border: 1px solid black;
+	padding: 8px 40px;
+	color: black;
+}
+
+h1 {
+	font-size: 76px;
+}
+
+section.first-section div {
+	width: 49%;
+}
+
+img.middle-img {
+	margin: 40px 0;
+}
+
+section.second-section {
+	margin-bottom: 40px;
+}
+
+section.second-section div {
+	width: 33%
+}
+
+section.contact {
+	border-top: 1px solid black;
+}
+
+section.contact h2 {
+	margin-top: 40px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	font-size: 14px;
+	padding: 60px;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}
+
+@-webkit-keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
