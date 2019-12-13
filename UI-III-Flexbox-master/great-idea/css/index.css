@@ -1,0 +1,146 @@
+body {
+	margin: 0
+	padding 0
+  }
+  
+  
+  
+  .navigation {
+		display:flex;
+	   justify-content: space-around;
+		flex-direction: row;
+	align-items: center;
+	
+	
+	
+	}
+	
+  
+  
+	  a.nav {
+	  color: grey;
+	}
+  
+	
+  
+	.lower-img {
+	  display: flex;
+	  justify-content: center;
+	  justify-content: 
+  
+  }
+
+  .top-part {
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	justify-content: space-around;
+	font-size: 200%;
+	border-bottom: 5px solid grey;
+	  
+   }
+  
+  
+  
+  
+  
+  .left-part {
+	width: 420px;
+	 
+  }
+  
+
+  .right-part {
+	width: 420px;
+	
+	
+  }
+  
+  
+  .toptext {
+	display: flex;
+	justify-content: center
+  }
+  
+  .upper {
+	display: flex;
+	justify-content: center;
+	  padding: 20px
+  }
+  
+  .IOD {
+	font-size: 120%;
+	text-align: center;
+	font: bangers;
+  }
+  .get-started {
+	  color: grey;
+	  border: 1px solid grey;
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+font-size: 40%;	
+	  
+  
+  }
+  
+  
+  .bottom-left {
+	width: 300px;
+	  
+  
+  
+  }
+  
+  .bottom-middle {
+		width: 300px;
+  
+  
+  
+  }
+  
+  .bottom-right {
+		width: 300px;
+  
+  
+  
+  }
+  .topjunk {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .contact {
+	border: 1px red solid
+	  display: flex;
+  }
+  
+ 
+  
+  footer {
+	display: flex;
+	  justify-content: center;
+	} 
+  .contact {
+	margin-left: 300px;
+  }
+
+
+.all {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100px;
+	height: 100px;
+}
+
+.iOS  {
+	width: 100px;
+	height: 100px;
+}
+, webdev, droid, digital design, UX, digital-marketing, digital-design, Services
