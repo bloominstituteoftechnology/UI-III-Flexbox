@@ -192,13 +192,82 @@ footer p {
 
 /* Services Styles */
 
+section.first-service {
+	margin-bottom: 35px;
+}
+
 section.first-service div h1 {
 	font-size: 26px;
 }
 
 div.services-header-img img {
 	width: 100%;
+	margin-bottom: 25px;
 }
+
+section.second-service {
+	border-top: 1px solid black;
+	padding-top: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+section.second-service div {
+	background: #f4f3f4;
+	width: 48%;
+	height: 250px;
+	border: 1px solid black;
+	margin-bottom: 40px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+section.second-service div a {
+	background: white;
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	width: 145px;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 5px;
+}
+
+section.third-service {
+	display: flex;
+	border-top: 2px solid black;
+	padding-top: 45px;
+	justify-content: space-between;
+}
+
+section.third-service div {
+	width: 48%;
+}
+
+section.third-service ul {
+	list-style: square;
+	list-style-position: inside;
+	margin-top: 20px;
+}
+
+section.third-service ul li {
+	margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
