@@ -158,42 +158,9 @@ License: none (public domain)
                 
                 @keyframes imgSlide {
                     0% {
-                        display: none;
-                    }
-                    12.5% {
-                        width: 45px;
-                        height: 45px;
-                        opacity: .8%;
-                    }
-                    25% {
-                        width: 95px;
-                        height: 95px;
-                        opacity: 8%;
-                    }
-                    37.5% {
-                        width: 142px;
-                        height: 142px;
-                        opacity: 28%;
-                    }
-                    50% {
-                        width: 190px;
-                        height: 190px;
-                        opacity: 48%;
-                    }
-                    62.5% {
-                        width: 237px;
-                        height: 237px;
-                        opacity: 56%;
-                    }
-                    75% {
-                        width: 284px;
-                        height: 284px;
-                        opacity: 70%;
-                    }
-                    87.5% {
-                        width: 332px;
-                        height: 332px;
-                        opacity: 84%;
+                        width: 0px;
+                        height: 0px;
+                        opacity: 0%;
                     }
                     100% {
                         width: 379px;
@@ -207,18 +174,23 @@ License: none (public domain)
                     flex-direction: column;
                     justify-content: space-between;
                     box-sizing: border-box;
-                    width: 100%;
-                    height: 100%;
                     margin: 2rem;
-                    background-color: lightyellow;
                 }
                 
                 .topCont {
                     display: flex;
                     flex-flow: column;
+                    justify-content: space-between;
                     box-sizing: border-box;
                     margin-bottom: 10%;
-                    background-color: paleturquoise;
+                }
+                
+                .h1Cont {
+                    margin: 4rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-content: space-around;
                 }
                 
                 header {
@@ -231,7 +203,6 @@ License: none (public domain)
                     justify-content: space-around;
                     align-content: center;
                     width: 100%;
-                    background-color: lightgreen;
                 }
                 
                 header:hover {
@@ -242,23 +213,19 @@ License: none (public domain)
                     box-sizing: border-box;
                     display: flex;
                     justify-content: space-between;
-                    width: 70%;
-                    background-color: rebeccapurple;
                 }
                 
                 a {
                     box-sizing: border-box;
+                    justify-content: space-between;
                     font-size: 2rem;
-                    width: 11%;
                     margin-left: 5%;
-                    background-color: gray;
                 }
                 
-                header .logo {
+                .logo {
                     box-sizing: border-box;
                     width: 20%;
                     opacity: 1.0;
-                    background-color: yellow;
                 }
                 /*lower Top section*/
                 
@@ -268,17 +235,13 @@ License: none (public domain)
                     width: 100%;
                     height: 30%;
                     margin-top: 5rem;
-                    justify-content: space-between;
-                    background-color: white;
+                    justify-content: space-around;
                 }
                 
                 .headButt {
                     box-sizing: border-box;
                     display: flex;
                     flex-direction: column;
-                    width: 48%;
-                    margin-left: 10%;
-                    background-color: red;
                 }
                 
                 .lowerTop h1 {
@@ -291,20 +254,15 @@ License: none (public domain)
                     margin-bottom: 4%;
                     align-content: center;
                     font-size: 60px;
-                    background-color: palevioletred;
                 }
                 
                 .lowerTop .button {
                     box-sizing: border-box;
                     display: flex;
                     flex-wrap: wrap;
-                    height: 60%;
-                    text-align: center;
-                    margin-left: 10%;
-                    margin-right: 30%;
+                    justify-content: center;
                     border: 2px solid black;
                     text-decoration: none;
-                    background-color: white;
                 }
                 
                 .lowerTop .button:hover {
@@ -318,10 +276,7 @@ License: none (public domain)
                     display: flex;
                     width: 379px;
                     height: 379px;
-                    margin-left: 10%;
-                    margin-top: 5%;
                     animation: imgSlide 4s;
-                    background-color: pink;
                 }
                 /*middle section*/
                 
@@ -332,21 +287,22 @@ License: none (public domain)
                 
                 .topMid,
                 .bottomMid {
-                    box-sizing: border-box;
-                    width: 30%;
-                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
                 }
                 
                 .text-content,
                 .text-content2 p {
                     font-size: 1.2rem;
-                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
                 }
                 
                 #features,
                 #services {
-                    margin-left: .7%;
-                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
                 }
                 
                 .middle-img {
@@ -367,8 +323,8 @@ License: none (public domain)
                 }
                 
                 .toTop {
-                    display: block;
-                    text-align: center;
+                    display: flex;
+                    justify-content: center;
                     width: 10%;
                     height: 4.5rem;
                     margin-left: 45%;
@@ -378,14 +334,14 @@ License: none (public domain)
                     border-bottom: 1px solid rgb(255, 253, 112);
                     border-right: 3px solid rgb(255, 255, 130);
                     border-top: 3px solid rgb(255, 255, 130);
-                    ;
                     border-radius: 1rem;
                 }
                 
                 .toTop:hover {
+                    display: flex;
                     width: 9.99%;
-                    height: 4.49%;
-                    text-align: center;
+                    height: 4.49rem;
+                    justify-content: center;
                     border-right: 3px solid blue;
                     border-top: 3px solid blue;
                     border-bottom: 1px solid blue;
@@ -404,19 +360,6 @@ License: none (public domain)
                 .topButt:hover {
                     color: silver;
                 }
-                /* Vision page css */
-                
-                h1 {
-                    font-size: 2rem;
-                }
-                
-                p .bgImg {
-                    display: block;
-                    width: 50%;
-                    background-image: url(img/profilePic.png);
-                    text-align: center;
-                    text-justify: auto;
-                }
                 
                 footer p {
                     display: flex;
@@ -424,4 +367,64 @@ License: none (public domain)
                 
                 footer p.Copyright {
                     justify-content: center;
+                }
+                /* Services page CSS */
+                
+                .services.topContServ {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                }
+                
+                .services header.headerServ {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                
+                .services nav.navServ {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .services .bottomh1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                /* middle content Services */
+                
+                .services .midContServ {
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    border-top: 2px solid gray;
+                    border-bottom: 2px solid gray;
+                }
+                
+                .services .midContServCont {
+                    width: 48%;
+                    justify-content: flex-start;
+                }
+                /* bottom content Services */
+                
+                .services .footServ {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                
+                .services .footContServ {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .services .h3Cont {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                
+                .services .pServ {
+                    text-align: center;
                 }
