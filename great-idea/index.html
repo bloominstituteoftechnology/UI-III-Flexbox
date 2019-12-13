@@ -17,7 +17,430 @@
   <body>
 
     <!-- Copy and paste your HTML from the first UI project here -->
-      
+    .container {
+      /*border: 1px solid red;*/
+      width: 800px;
+      margin: auto;
+    }
+   
+    header {
+      /*border: 5px solid red;*/
+   
+    }
+   
+    nav {
+      display: flex;
+        justify-content: space-evenly;
+      margin: 30px 10px 20px 10px;
+    }
+   
+    header nav a {
+      /*border: 1px solid blue;*/
+      margin: 0 auto;
+    }
+   
+    header .logo {
+      /*border: 1px solid blue;*/
+      position: relative;
+        bottom: 10px;
+    }
+   
+    .services-header-img {
+      /*border: 1px solid red;*/
+      position: relative;
+      display: flex;
+        justify-content: center;
+        align-items: center;
+      margin: 0 auto;
+    margin-bottom: 30px;
+      width: 90%;
+    }
+   
+    .top-content {
+        /*border: 5px solid red;*/
+        width: 100%;
+    }
+     .top-content .text {
+      /*border: 1px solid red;*/
+        width: 80%;
+        padding-left: 70px;
+    }
+   
+   
+    hr {
+      width: 90%;
+        border-width: 1px;
+        border-color: black;
+      margin-top: 30px;
+    }
+   
+    .middle-content {
+      border-bottom: 5px solid black;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+    }
+   
+   
+    .middle-content .box1 {
+      border: 1px solid red;
+      width: 500px;
+      height: 250px;
+      margin: 20px 60px 20px 0px;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+   
+    .middle-content .box2 {
+      border: 1px solid red;
+      width: 500px;
+      height: 250px;
+      margin-left: 150px;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+   
+    .middle-content .box3 {
+      border: 1px solid red;
+      width: 500px;
+      height: 250px;
+      margin: 20px 60px 20px 0px;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+   
+   
+    .middle-content .box4 {
+      border: 1px solid red;
+      width: 500px;
+      height: 250px;
+      margin-left: 150px;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+   
+    .middle-content .box5 {
+      border: 1px solid red;
+      width: 500px;
+      height: 250px;
+      margin: 20px 60px 20px 0px;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+   
+    .middle-content .box6 {
+      border: 1px solid red;
+      width: 500px;
+      height: 250px;
+      margin-left: 150px;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+   
+   
+    button {   
+      color: black;
+        width: 130px;
+        height: 35px;
+        padding-left: 10px;
+      border-radius: 3px;
+      margin-top: 40px;
+        background-color: white;
+        border: 1px solid black;
+    }
+   
+   
+    .services-info-img {
+      position: relative;
+        border: 1px solid red;
+    }
+   
+   
+    .facts {
+      display: flex;
+      flex-direction: row;
+        justify-content: space-evenly;
+        margin: 20px 0px 0px 65px;
+      border-top: 3px solid black;
+      border: 1px solid red;
+      padding: 30px;
+      width: 90%;
+        margin: 20px 0px 0px 70px;
+    }
+   
+    .facts h2 {
+      margin-top: 20px;
+    }
+   
+    ul {
+      list-style-type: square;
+   
+   
+   
+   
+      .copyright {
+        text-align: center;
+      } 
+    /* Copy and paste your work from yesterday here and start to refactor into flexbox */ 
+     69  great-idea/index.html 
+   
+    @@ -17,76 +17,7 @@
+      <body>
+   
+        <!-- Copy and paste your HTML from the first UI project here -->
+        <div class="container">
+   
+            <header>
+              <nav>
+                <a href="services.html">Services</a>
+                <a href="#">Product</a>
+                <a href="#">Vision</a>
+                <a href="#">Features</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+              </nav>
+   
+              <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+            </header>
+   
+            <section class="cta">
+              <div class="cta-text">
+                <h1>Innovation<br> On<br> Demand</h1>
+                <button>Get Started</button>
+              </div>
+              <img class="circle" src="img/header-img.png" alt="Image of a code snippet.">
+            </section>
+   
+            <section class="main-content">
+   
+              <div class="top-content">
+                <div class="text-content">
+                  <h4>Features</h4>
+                  <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+                </div>
+                <div class="text-content">
+                  <h4>About</h4>
+                  <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+                </div>
+              </div>
+   
+              <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+   
+              <div class="bottom-content">
+                <div class="text-content">
+                  <h4>Services</h4>
+                  <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+                </div>
+                <div class="text-content">
+                  <h4>Product</h4>
+                  <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+                </div>
+                <div class="text-content">
+                  <h4>Vision</h4>
+                  <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+                </div>
+              </div>
+   
+            </section>
+   
+            <section class="contact">
+   
+              <h4>Contact</h4>
+   
+              <p>123 Way 456 Street<br> Somewhere, USA</p>
+   
+              <p>1 (888) 888-8888</p>
+   
+              <p>sales@greatidea.io</p>
+   
+            </section>
+   
+            <footer>
+              <p>Copyright Great Idea! 2018</p>
+            </footer>
+   
+      </body>
+    </html> 
+     136  great-idea/services.html 
+   
+    @@ -4,7 +4,7 @@
+    <head>
+      <meta charset="utf-8">
+   
+      <title>Great Idea!- Services</title>
+      <title>Great Idea!</title>
+   
+      <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+      <link rel="stylesheet" href="css/index.css">
+    @@ -14,102 +14,94 @@
+      <![endif]-->
+    </head>
+   
+    <header>
+    <body>
+   
+    <nav>
+    <a href="#">Services</a>
+    <a href="#">Product</a>
+    <a href="#">Vision</a>
+    <a href="#">Features</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="index.html"><img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a>
+    </nav>
+    </header>
+   
+    Services
+    Product
+    Vision
+    Features
+    About
+    Contact
+   
+    <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+   
+   
+    <img class="services-header-img" src="img/services-header.jpg" alt="Our services header image">
+    <section class=top-content>
+      <div class="text">
+    <h1>Services</h1>
+   
+    <p>Our services provide the best digital value in nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque eleifend. Mauris euismod facilisis iaculis.</p>
+    </div>
+    <hr/>
+    </section>
+    <section class="middle-content">
+      <div class="box1">
+    <h2>Digital Design</h2>
+    Services
+   
+    Our services provide the best digital value in nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque eleifend. Mauris euismod facilisis iaculis.
+   
+   
+    Digital Design
+   
+    Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.
+   
+    Learn More
+   
+   
+   
+    <p>Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.</p> 
+    UX / UI
+   
+    <button>Learn More</button>  
+    </div>
+    Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.
+   
+    <div class="box2">
+    <h2>UX / UI</h2>
+    Learn More
+   
+    <p>  Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.</p>
+   
+    <button>Learn More</button>  
+    </div>
+   
+    <div class="box3">
+    <h2>Digital Marketing</h2>
+    Digital Marketing
+   
+    <p>Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.</p> 
+    Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.
+   
+    <button>Learn More</button> 
+    </div>
+    Learn More
+   
+    <div class="box4">
+    <h2>Web Development</h2>
+   
+    <p>Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.</p>
+   
+    <button>Learn More</button> 
+    </div>
+    Web Development
+   
+    <div class="box5">
+    <h2>iOS Development</h2>
+    Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.
+   
+    <p>Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.</p>
+    Learn More
+   
+    <button>Learn More</button>  
+    </div>
+   
+    <div class="box6">
+    <h2>Android Development</h2>
+   
+    <p>Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.</p> 
+    iOS Development
+   
+    <button>Learn More</button> 
+    </div>
+    </section>
+    Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.
+   
+      <section class="facts">
+    <h2>Some Facts About Our Services</h2>
+    Learn More
+   
+   
+   
+    Android Development
+   
+    Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.
+   
+    Learn More
+   
+   
+    Some Facts About Our Services
+   
+    Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.
+   
+   
+    Awesome thing
+    Amazing thing
+    Cool thing
+    Great thing
+   
+    <p> suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
+    eleifend. Mauris euismod facilisis iaculis.</p><br>
+    <ul>
+    <li>Awesome thing</li><br>
+    <li>Amazing thing</li><br>
+    <li>Cool thing</li><br> 
+    <li>Great thing</li><br> 
+    </ul>
+    <img class="services-info-img" src="img/services-info.png" alt="one of our employees hard at work">
+    </div>
+    </section>
+   
+    <footer>
+    <p> class="copyright"> Great Idea! 2018</p>
+    </footer>
+    Copyright Great Idea! 2018
+   
+    </body>
+   
+    </html>  
     
   </body>
 </html>
