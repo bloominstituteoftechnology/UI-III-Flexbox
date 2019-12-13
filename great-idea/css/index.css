@@ -1,66 +1,430 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+                /* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
 */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+                
+                html,
+                body,
+                div,
+                span,
+                applet,
+                object,
+                iframe,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6,
+                p,
+                blockquote,
+                pre,
+                a,
+                abbr,
+                acronym,
+                address,
+                z big,
+                cite,
+                code,
+                del,
+                dfn,
+                em,
+                img,
+                ins,
+                kbd,
+                q,
+                s,
+                samp,
+                small,
+                strike,
+                strong,
+                sub,
+                sup,
+                tt,
+                var,
+                b,
+                u,
+                i,
+                center,
+                dl,
+                dt,
+                dd,
+                ol,
+                ul,
+                li,
+                fieldset,
+                form,
+                label,
+                legend,
+                table,
+                caption,
+                tbody,
+                tfoot,
+                thead,
+                tr,
+                th,
+                td,
+                article,
+                aside,
+                canvas,
+                details,
+                embed,
+                figure,
+                figcaption,
+                footer,
+                header,
+                hgroup,
+                menu,
+                nav,
+                output,
+                ruby,
+                section,
+                summary,
+                time,
+                mark,
+                audio,
+                video {
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font-size: 100%;
+                    font: inherit;
+                    vertical-align: baseline;
+                }
+                /* HTML5 display-role reset for older browsers */
+                
+                article,
+                aside,
+                details,
+                figcaption,
+                figure,
+                footer,
+                header,
+                hgroup,
+                menu,
+                nav,
+                section {
+                    display: block;
+                }
+                
+                body {
+                    line-height: 1;
+                }
+                
+                ol,
+                ul {
+                    list-style: none;
+                }
+                
+                blockquote,
+                q {
+                    quotes: none;
+                }
+                
+                blockquote:before,
+                blockquote:after,
+                q:before,
+                q:after {
+                    content: '';
+                    content: none;
+                }
+                
+                table {
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                }
+                /* Set every element's box-sizing to border-box */
+                
+                * {
+                    box-sizing: border-box;
+                }
+                
+                html,
+                body {
+                    height: 100%;
+                    font-family: 'Titillium Web', sans-serif;
+                }
+                
+                h1,
+                h2,
+                h3,
+                h4,
+                h5 {
+                    font-family: 'Bangers', cursive;
+                    letter-spacing: 1px;
+                    margin-bottom: 15px;
+                }
+                /* Your code starts here! */
+                
+                @keyframes imgSlide {
+                    0% {
+                        width: 0px;
+                        height: 0px;
+                        opacity: 0%;
+                    }
+                    100% {
+                        width: 379px;
+                        height: 379px;
+                        opacity: 100%;
+                    }
+                }
+                
+                body {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    box-sizing: border-box;
+                    margin: 2rem;
+                }
+                
+                .topCont {
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    box-sizing: border-box;
+                    margin-bottom: 10%;
+                }
+                
+                .h1Cont {
+                    margin: 4rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-content: space-around;
+                }
+                
+                header {
+                    box-sizing: border-box;
+                    background: lavender;
+                    opacity: .3;
+                    top: .35rem;
+                    display: flex;
+                    position: fixed;
+                    justify-content: space-around;
+                    align-content: center;
+                    width: 100%;
+                }
+                
+                header:hover {
+                    opacity: 1.0;
+                }
+                
+                nav {
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                a {
+                    box-sizing: border-box;
+                    justify-content: space-between;
+                    font-size: 2rem;
+                    margin-left: 5%;
+                }
+                
+                .logo {
+                    box-sizing: border-box;
+                    width: 20%;
+                    opacity: 1.0;
+                }
+                /*lower Top section*/
+                
+                .lowerTop {
+                    box-sizing: border-box;
+                    display: flex;
+                    width: 100%;
+                    height: 30%;
+                    margin-top: 5rem;
+                    justify-content: space-around;
+                }
+                
+                .headButt {
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                .lowerTop h1 {
+                    box-sizing: border-box;
+                    display: flex;
+                    width: 35%;
+                    height: 25%;
+                    margin: 6%;
+                    margin-top: 2%;
+                    margin-bottom: 4%;
+                    align-content: center;
+                    font-size: 60px;
+                }
+                
+                .lowerTop .button {
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    border: 2px solid black;
+                    text-decoration: none;
+                }
+                
+                .lowerTop .button:hover {
+                    box-sizing: border-box;
+                    background: gray;
+                    border: 1px solid slategray;
+                }
+                
+                .lowerTop img {
+                    box-sizing: border-box;
+                    display: flex;
+                    width: 379px;
+                    height: 379px;
+                    animation: imgSlide 4s;
+                }
+                /*middle section*/
+                
+                h2 {
+                    font-size: 1.8rem;
+                    box-sizing: border-box;
+                }
+                
+                .topMid,
+                .bottomMid {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .text-content,
+                .text-content2 p {
+                    font-size: 1.2rem;
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                #features,
+                #services {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                }
+                
+                .middle-img {
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+                
+                #about,
+                #product {
+                    box-sizing: border-box;
+                    margin-right: .7%;
+                }
+                
+                footer {
+                    margin-top: 10%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                .toTop {
+                    display: flex;
+                    justify-content: center;
+                    width: 10%;
+                    height: 4.5rem;
+                    margin-left: 45%;
+                    background: rgb(240, 240, 130);
+                    text-decoration: none;
+                    border-left: 1px solid rgb(255, 253, 112);
+                    border-bottom: 1px solid rgb(255, 253, 112);
+                    border-right: 3px solid rgb(255, 255, 130);
+                    border-top: 3px solid rgb(255, 255, 130);
+                    border-radius: 1rem;
+                }
+                
+                .toTop:hover {
+                    display: flex;
+                    width: 9.99%;
+                    height: 4.49rem;
+                    justify-content: center;
+                    border-right: 3px solid blue;
+                    border-top: 3px solid blue;
+                    border-bottom: 1px solid blue;
+                    border-left: 1px solid blue;
+                    border-radius: .99rem;
+                    background: darkblue;
+                    text-decoration: none;
+                }
+                
+                .topButt {
+                    width: 100%;
+                    color: black;
+                    text-decoration: none;
+                }
+                
+                .topButt:hover {
+                    color: silver;
+                }
+                
+                footer p {
+                    display: flex;
+                }
+                
+                footer p.Copyright {
+                    justify-content: center;
+                }
+                /* Services page CSS */
+                
+                .services.topContServ {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                }
+                
+                .services header.headerServ {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                
+                .services nav.navServ {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .services .bottomh1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                /* middle content Services */
+                
+                .services .midContServ {
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    border-top: 2px solid gray;
+                    border-bottom: 2px solid gray;
+                }
+                
+                .services .midContServCont {
+                    width: 48%;
+                    justify-content: flex-start;
+                }
+                /* bottom content Services */
+                
+                .services .footServ {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                
+                .services .footContServ {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .services .h3Cont {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                
+                .services .pServ {
+                    text-align: center;
+                }
