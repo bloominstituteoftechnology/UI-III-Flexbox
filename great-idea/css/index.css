@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav{
+	margin:20px 0 40px 0;
+	display:flex;
+	justify-content:space-around;
+	width:55%;
+	font-size:13px;
+	margin-left:20px;
+}
+
+
+nav a{
+	display:flex;
+	text-decoration:none;
+	color:#C0C3C6;
+	align-items:center;
+	flex-wrap:wrap;
+	
+}
+
+.index-logo{
+	display:flex;
+	justify-content:flex-end;
+	width:19%;
+	margin-left:20px;
+
+}
+
+.index-heading{
+	display:flex;
+	justify-content:flex-start;
+	margin-left:170px;
+	flex-wrap: nowrap;
+
+}
+
+.index-h1{
+	display:flex;
+	font-size:70px;
+	flex-direction:column;
+	flex-wrap: nowrap
+
+}
+
+.index-headerimage{
+	display:flex;
+	flex-wrap:wrap;
+	width:20%;
+	justify-content:flex-start;
+	margin-left:170px;
+}
+
+#get-started{
+	display:flex;
+	font-size:16px;
+	color:black;
+	border:1px solid black;
+	padding: 7px 20px;
+	text-decoration:none;
+}
+
+/* hr{
+	display:block;
+	width:80%;
+	color:#F000;
+	float:left;
+} */
+
+.row-1{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	margin:50px 10px 20px 30px;
+	width:70%;
+}
+
+.middle-img{
+	display:flex;
+align-items: stretch;
+	width:70%;
+	margin-left:30px;
+}
+
+.row-2{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	width:70%;
+	margin:50px 10px 20px 30px;
+}
+
+address{
+	/* display:flex;
+	justify-content:flex-start; */
+	display:block;
+	margin:20px 10px 50px 50px;
+
+}
+
+.contact{
+ font-size:18px;
+ font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	line-height:30px;
+}
+
+footer{
+	display:flex;
+	justify-content:center;
+	margin-bottom:80px;
+
+}
