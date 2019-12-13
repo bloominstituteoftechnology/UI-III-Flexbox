@@ -64,3 +64,195 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.topPage {
+	display:flex;
+	justify-content: space-evenly;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.topPage nav {
+	padding-left: 100px;
+	font-family: 'Titillium Web';
+	word-break: break-all;
+	word-spacing:4vw;
+}
+
+#navBtn {
+	color: black;
+	margin-left: 30px;
+	font-size: 10px;
+	border:solid lightblue;
+	border-radius: 7px;
+	border-width: 1px;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+#navBtn:hover {
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.7s;
+	color: white;
+	background-color: blue;
+	border-color:blue;
+}
+
+.midPage {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.midPage img {
+	margin-top: -255px;
+	margin-bottom: 80px;	
+}
+
+.midPage h1 {
+	text-align: center;
+	font-size: 65px;
+	margin-left: -340px;
+	margin-right: 125px;
+	word-spacing: 100vw;
+}
+
+.midPage {
+	border-bottom: solid black;
+	width: 75%;
+	margin-left: 150px;
+	margin-top: 100px;
+}
+
+#startBtn {
+	display: flex;
+	flex-flow: wrap;
+	align-items: baseline;
+	padding: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: black;
+	font-size: 10px;
+	border:solid lightblue;
+	border-width: 1px;
+	text-decoration: none;
+}
+
+/*button needs to be under Innovation*/
+
+#startBtn:hover {
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.7s;
+	color: white;
+	background-color: blue;
+	border-color:blue;
+}
+
+.midBottom {
+	display: flex;
+}
+
+.features {
+	font-size: 35px;
+	margin-top: 60px;
+	margin-left: 150px;
+}
+
+.fParagraph {
+	display: flex;
+	font-size: 17px;
+}
+
+.about {
+	
+	font-size: 35px;
+	margin-left: 650px;
+	margin-top: -50px;
+}
+
+.aParagraph {
+	margin-left: 650px;
+	margin-top: -5px;
+	font-size:17px;
+}
+
+.bottomHalf {
+	display: flex;
+	flex-flow: row ;
+}
+
+.bottomHalf {
+	border-bottom: solid black 2px;
+	width: 85%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+/*fix border*/
+
+.middlePic {
+	margin-top: 55px;
+	margin-left: 150px;
+	width: 75%;
+}
+
+.services {
+	font-size: 35px;
+	margin-left: 150px;
+	margin-top: 55px;
+}
+
+.servicesParagraph {
+	font-size: 13px;
+	margin-left:150px;
+	margin-top: - 45px;;
+}
+
+.product {
+	
+	margin-top: -122px;
+	font-size: 35px;
+	margin-left: 500px;	
+}
+
+.productParagraph {
+	font-size: 13px;
+	margin-left: 500px;
+	margin-top: -8px;
+}
+
+.vision {
+	margin-left: 806px;
+	margin-top: -117px;
+	font-size: 35px;
+
+}
+
+.visionParagraph {
+	margin-left: 806px;
+	margin-top: -7px;
+	font-size: 13px;
+
+}
+
+.bottom h3 {
+	font-family: 'Bangers';
+	margin-left: 60px;;
+	font-size: 35px;
+	margin-top: 60px;
+}
+
+.bottom p {
+	margin-left: 60px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.copy {
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
