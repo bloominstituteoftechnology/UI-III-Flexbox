@@ -65,29 +65,94 @@ h1, h2, h3, h4, h5 {
 
 /* My code starts here */
 
-
-.header-container {
-
+html {
+	margin: 25px 120px;
 }
 
-.nav-container {
-    display: flex;
-    flex-direction: column;
+header nav{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
 }
 
-.logo {
-    display: flex;
+nav .logo {
+  display: flex;
 }
 
-.links {
-    text-decoration: none;
-    color: gray;
+nav .links {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a{
+  color:rgb(81, 107, 107);
+  text-decoration:none;
+  letter-spacing: 3px;
+  padding: 0 2%;
+}
+nav a:hover{
+  color:rgb(21, 206, 206);
+}
+
+#services {
+	margin: 5%;
+}
+
+#services h1 {
+	font-size: 25px;
 }
 
 .header-img {
+	margin:  5% 10%;
+}
+/* Main Section Styles */
 
+#text-container1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.services {
+#text-container1 .text-area{
+  text-align: justify;
+  padding: 5%;
+  border: 1px solid black;
+  flex: 1 0 41%; /* expl */
+  margin: 10px;
+  height: 250px;
+  background-color:#d1cec5;
+}
 
+#text-container2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#text-container2 .text-area2 {
+  padding: 2%;
+  flex: 1 0 49%;
+  text-align: justify;
+}
+
+.services-info-img {
+	margin: 3% 8%;
+}
+
+ul {
+  list-style-type: square; 
+  margin: 5%;
+  padding: 5%;
+  line-height: 2;
+}
+
+button {
+  margin: 7% 2%;
+  width: 120px;
+}
+
+.copyright {
+	text-align: center;
 }
