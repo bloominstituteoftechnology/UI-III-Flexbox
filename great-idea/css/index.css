@@ -63,4 +63,151 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+body {
+	font-family: 'Rajdhani', sans-serif;
+}
+
+div.container {
+	margin: 70px auto;
+	width: 876px;
+}
+
+header {
+	width: 100%;
+	padding: 0 calc((100% - 876px) / 2);
+	position: fixed;
+	top: 0;
+	background: white;
+	opacity: 0.95;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+header:after {
+	content: "";
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+nav {
+	width: 65%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav a {
+	color: #888;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	animation: pulse 1s linear infinite;
+}
+
+div.logo {
+	display: flex;
+	padding: 15px 0;
+}
+
+section.call-to-action {
+	padding: 80px 0;
+	border-bottom: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+section.call-to-action div {
+	text-align: center;
+	vertical-align: top;
+}
+
+section.call-to-action div a {
+	text-decoration: none;
+	font-size: 16px;
+	border: 1px solid black;
+	padding: 8px 40px;
+	color: black;
+}
+
+section.call-to-action div h1 {
+	font-size: 76px;
+}
+
+section.first-section {
+	display: flex;
+	margin-top: 40px;
+}
+
+section.first-section div {
+	width: 49%;
+}
+
+img.middle-img {
+	margin: 40px 0;
+}
+
+section.second-section {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+section.second-section div {
+	width: 32%
+}
+
+section.contact {
+	border-top: 1px solid black;
+}
+
+section.contact h2 {
+	margin-top: 40px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	font-size: 14px;
+	padding: 60px;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}
+
+@-webkit-keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}
+
+/* Services Styles */
+
+section.first-service div h1 {
+	font-size: 26px;
+}
+
+div.services-header-img img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
