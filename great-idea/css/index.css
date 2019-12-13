@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -63,4 +64,110 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+  .header {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+  }
+  
+  nav {
+	display: inline-block;
+	padding: 3%;
+	width: 90%;
+  }
+  
+  nav a {
+	padding-right: 9%;
+	text-decoration: none;
+	color: gray;
+  }
+  
+  /* NEXT SECTION */ 
+  
+  .wrapper {
+	display: flex;
+	width: 90%;
+	justify-content: center;
+	margin-top: 5%;
+	align-items: center;
+  }
+ .innovation-text h1 {
+	font-size: 72px;
+	padding-bottom: 4%;
+	
+  }
+
+  .innovation-text {
+	display: flex;
+	flex-direction: column;
+	height: 60%;
+	padding-right: 5%;
+	
+		
+  }
+  
+  .button a {
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid black;
+	width: 150px;
+	color: black;
+	font-size: 22px;
+	margin-top: 30px;
+
+	
+   
+  }
+  
+  .button {
+	height: 29px;
+	width: 50%;
+	padding: 4%;
+	margin-left: 23%;
+  }
+  
+  .innovation {
+	height: 175px;
+	margin-right: 3%;
+  }
+  
+  /* NEXT SECTION */
+  .circle {
+	  margin-left: 5%;
+  }
+  
+  .two-paragraphs {
+	display: flex;
+	width: 90%;
+	margin-top: 6%;
+	margin-bottom: 4%;
+	border-top: 1px gray solid;
+	padding-top: 2%;
+  }
+  
+  .image-container {
+	width: 90%;
+	margin-bottom: 5%;
+
+  }
+  
+  .three-paragraphs {
+	display: flex;
+	width: 90%;
+	margin-bottom: 5%;
+	padding-bottom: 2%;
+	border-bottom: 1px gray solid;
+  }
+  
+  .p-head {
+	  font-size: 19px;
+	  font-weight: bold;
+  }
+  
+  body {
+	width: 80%;
+	margin: 0% 6% 0% 6%;
+  }
+
+ 
