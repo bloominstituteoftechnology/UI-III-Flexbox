@@ -1,66 +1,427 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+                /* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
 */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+                
+                html,
+                body,
+                div,
+                span,
+                applet,
+                object,
+                iframe,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6,
+                p,
+                blockquote,
+                pre,
+                a,
+                abbr,
+                acronym,
+                address,
+                z big,
+                cite,
+                code,
+                del,
+                dfn,
+                em,
+                img,
+                ins,
+                kbd,
+                q,
+                s,
+                samp,
+                small,
+                strike,
+                strong,
+                sub,
+                sup,
+                tt,
+                var,
+                b,
+                u,
+                i,
+                center,
+                dl,
+                dt,
+                dd,
+                ol,
+                ul,
+                li,
+                fieldset,
+                form,
+                label,
+                legend,
+                table,
+                caption,
+                tbody,
+                tfoot,
+                thead,
+                tr,
+                th,
+                td,
+                article,
+                aside,
+                canvas,
+                details,
+                embed,
+                figure,
+                figcaption,
+                footer,
+                header,
+                hgroup,
+                menu,
+                nav,
+                output,
+                ruby,
+                section,
+                summary,
+                time,
+                mark,
+                audio,
+                video {
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font-size: 100%;
+                    font: inherit;
+                    vertical-align: baseline;
+                }
+                /* HTML5 display-role reset for older browsers */
+                
+                article,
+                aside,
+                details,
+                figcaption,
+                figure,
+                footer,
+                header,
+                hgroup,
+                menu,
+                nav,
+                section {
+                    display: block;
+                }
+                
+                body {
+                    line-height: 1;
+                }
+                
+                ol,
+                ul {
+                    list-style: none;
+                }
+                
+                blockquote,
+                q {
+                    quotes: none;
+                }
+                
+                blockquote:before,
+                blockquote:after,
+                q:before,
+                q:after {
+                    content: '';
+                    content: none;
+                }
+                
+                table {
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                }
+                /* Set every element's box-sizing to border-box */
+                
+                * {
+                    box-sizing: border-box;
+                }
+                
+                html,
+                body {
+                    height: 100%;
+                    font-family: 'Titillium Web', sans-serif;
+                }
+                
+                h1,
+                h2,
+                h3,
+                h4,
+                h5 {
+                    font-family: 'Bangers', cursive;
+                    letter-spacing: 1px;
+                    margin-bottom: 15px;
+                }
+                /* Your code starts here! */
+                
+                @keyframes imgSlide {
+                    0% {
+                        display: none;
+                    }
+                    12.5% {
+                        width: 45px;
+                        height: 45px;
+                        opacity: .8%;
+                    }
+                    25% {
+                        width: 95px;
+                        height: 95px;
+                        opacity: 8%;
+                    }
+                    37.5% {
+                        width: 142px;
+                        height: 142px;
+                        opacity: 28%;
+                    }
+                    50% {
+                        width: 190px;
+                        height: 190px;
+                        opacity: 48%;
+                    }
+                    62.5% {
+                        width: 237px;
+                        height: 237px;
+                        opacity: 56%;
+                    }
+                    75% {
+                        width: 284px;
+                        height: 284px;
+                        opacity: 70%;
+                    }
+                    87.5% {
+                        width: 332px;
+                        height: 332px;
+                        opacity: 84%;
+                    }
+                    100% {
+                        width: 379px;
+                        height: 379px;
+                        opacity: 100%;
+                    }
+                }
+                
+                body {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 100%;
+                    margin: 2rem;
+                    background-color: lightyellow;
+                }
+                
+                .topCont {
+                    display: flex;
+                    flex-flow: column;
+                    box-sizing: border-box;
+                    margin-bottom: 10%;
+                    background-color: paleturquoise;
+                }
+                
+                header {
+                    box-sizing: border-box;
+                    background: lavender;
+                    opacity: .3;
+                    top: .35rem;
+                    display: flex;
+                    position: fixed;
+                    justify-content: space-around;
+                    align-content: center;
+                    width: 100%;
+                    background-color: lightgreen;
+                }
+                
+                header:hover {
+                    opacity: 1.0;
+                }
+                
+                nav {
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 70%;
+                    background-color: rebeccapurple;
+                }
+                
+                a {
+                    box-sizing: border-box;
+                    font-size: 2rem;
+                    width: 11%;
+                    margin-left: 5%;
+                    background-color: gray;
+                }
+                
+                header .logo {
+                    box-sizing: border-box;
+                    width: 20%;
+                    opacity: 1.0;
+                    background-color: yellow;
+                }
+                /*lower Top section*/
+                
+                .lowerTop {
+                    box-sizing: border-box;
+                    display: flex;
+                    width: 100%;
+                    height: 30%;
+                    margin-top: 5rem;
+                    justify-content: space-between;
+                    background-color: white;
+                }
+                
+                .headButt {
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    width: 48%;
+                    margin-left: 10%;
+                    background-color: red;
+                }
+                
+                .lowerTop h1 {
+                    box-sizing: border-box;
+                    display: flex;
+                    width: 35%;
+                    height: 25%;
+                    margin: 6%;
+                    margin-top: 2%;
+                    margin-bottom: 4%;
+                    align-content: center;
+                    font-size: 60px;
+                    background-color: palevioletred;
+                }
+                
+                .lowerTop .button {
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-wrap: wrap;
+                    height: 60%;
+                    text-align: center;
+                    margin-left: 10%;
+                    margin-right: 30%;
+                    border: 2px solid black;
+                    text-decoration: none;
+                    background-color: white;
+                }
+                
+                .lowerTop .button:hover {
+                    box-sizing: border-box;
+                    background: gray;
+                    border: 1px solid slategray;
+                }
+                
+                .lowerTop img {
+                    box-sizing: border-box;
+                    display: flex;
+                    width: 379px;
+                    height: 379px;
+                    margin-left: 10%;
+                    margin-top: 5%;
+                    animation: imgSlide 4s;
+                    background-color: pink;
+                }
+                /*middle section*/
+                
+                h2 {
+                    font-size: 1.8rem;
+                    box-sizing: border-box;
+                }
+                
+                .topMid,
+                .bottomMid {
+                    box-sizing: border-box;
+                    width: 30%;
+                    box-sizing: border-box;
+                }
+                
+                .text-content,
+                .text-content2 p {
+                    font-size: 1.2rem;
+                    box-sizing: border-box;
+                }
+                
+                #features,
+                #services {
+                    margin-left: .7%;
+                    box-sizing: border-box;
+                }
+                
+                .middle-img {
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+                
+                #about,
+                #product {
+                    box-sizing: border-box;
+                    margin-right: .7%;
+                }
+                
+                footer {
+                    margin-top: 10%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                .toTop {
+                    display: block;
+                    text-align: center;
+                    width: 10%;
+                    height: 4.5rem;
+                    margin-left: 45%;
+                    background: rgb(240, 240, 130);
+                    text-decoration: none;
+                    border-left: 1px solid rgb(255, 253, 112);
+                    border-bottom: 1px solid rgb(255, 253, 112);
+                    border-right: 3px solid rgb(255, 255, 130);
+                    border-top: 3px solid rgb(255, 255, 130);
+                    ;
+                    border-radius: 1rem;
+                }
+                
+                .toTop:hover {
+                    width: 9.99%;
+                    height: 4.49%;
+                    text-align: center;
+                    border-right: 3px solid blue;
+                    border-top: 3px solid blue;
+                    border-bottom: 1px solid blue;
+                    border-left: 1px solid blue;
+                    border-radius: .99rem;
+                    background: darkblue;
+                    text-decoration: none;
+                }
+                
+                .topButt {
+                    width: 100%;
+                    color: black;
+                    text-decoration: none;
+                }
+                
+                .topButt:hover {
+                    color: silver;
+                }
+                /* Vision page css */
+                
+                h1 {
+                    font-size: 2rem;
+                }
+                
+                p .bgImg {
+                    display: block;
+                    width: 50%;
+                    background-image: url(img/profilePic.png);
+                    text-align: center;
+                    text-justify: auto;
+                }
+                
+                footer p {
+                    display: flex;
+                }
+                
+                footer p.Copyright {
+                    justify-content: center;
+                }
