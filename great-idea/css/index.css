@@ -127,8 +127,6 @@ h1, h2, h3, h4, h5 {
 
 #startBtn {
 	display: flex;
-	flex-flow: wrap;
-	align-items: baseline;
 	padding: 10px;
 	padding-top: 7px;
 	padding-bottom: 7px;
@@ -139,9 +137,9 @@ h1, h2, h3, h4, h5 {
 	border:solid lightblue;
 	border-width: 1px;
 	text-decoration: none;
+	margin-top: -115px;
+	margin-left: 170px;
 }
-
-/*button needs to be under Innovation*/
 
 #startBtn:hover {
 	-webkit-transition-duration: 0.4s; /* Safari */
@@ -151,107 +149,69 @@ h1, h2, h3, h4, h5 {
 	border-color:blue;
 }
 
-.midBottom {
-	display: flex;
-}
+/**/
 
 .features {
-	font-size: 35px;
-	margin-top: 60px;
+	display: flexbox;
+	flex-direction: row;
+	float: left;
 	margin-left: 150px;
-}
-
-.fParagraph {
-	display: flex;
-	font-size: 17px;
+	margin-top: 50px;
+	font-size:18px;
 }
 
 .about {
-	
-	font-size: 35px;
-	margin-left: 650px;
-	margin-top: -50px;
+	display: flexbox;
+	flex-direction: row;
+	margin-top: 50px;
+	font-size: 18px;
 }
 
-.aParagraph {
-	margin-left: 650px;
-	margin-top: -5px;
-	font-size:17px;
+.middlePic {
+	display: flexbox;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-left: 170px;
+}
+
+.services {
+	display: flexbox;
+	flex-direction: row;
+	float: left;
+	margin-left: 150px;
+	font-size: 15px;
+}
+
+.product {
+	display: flexbox;
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+.vision {
+	display: flexbox;
+	float: right;
+	margin-top: -117px;
+	margin-right: 190px;
+	font-size: 15px;
 }
 
 .bottomHalf {
-	display: flex;
-	flex-flow: row ;
+	border-bottom: .5px black solid;
 }
 
-.bottomHalf {
-	border-bottom: solid black 2px;
-	width: 85%;
-	display: flex;
-	flex-flow: row wrap;
+.bottom {
+	display: flexbox;
+	margin-left: 60px;
+	font-size: 15px;
+	line-height: 1.5;
+	margin-top: 60px;
 }
 
 /*fix border*/
 
-.middlePic {
-	margin-top: 55px;
-	margin-left: 150px;
-	width: 75%;
-}
-
-.services {
-	font-size: 35px;
-	margin-left: 150px;
-	margin-top: 55px;
-}
-
-.servicesParagraph {
-	font-size: 13px;
-	margin-left:150px;
-	margin-top: - 45px;;
-}
-
-.product {
-	
-	margin-top: -122px;
-	font-size: 35px;
-	margin-left: 500px;	
-}
-
-.productParagraph {
-	font-size: 13px;
-	margin-left: 500px;
-	margin-top: -8px;
-}
-
-.vision {
-	margin-left: 806px;
-	margin-top: -117px;
-	font-size: 35px;
-
-}
-
-.visionParagraph {
-	margin-left: 806px;
-	margin-top: -7px;
-	font-size: 13px;
-
-}
-
-.bottom h3 {
-	font-family: 'Bangers';
-	margin-left: 60px;;
-	font-size: 35px;
-	margin-top: 60px;
-}
-
-.bottom p {
-	margin-left: 60px;
-	font-size: 15px;
-	line-height: 1.5;
-}
-
 .copy {
+	display: flexbox;
 	text-align: center;
 	margin-top: 45px;
 	margin-bottom: 45px;
