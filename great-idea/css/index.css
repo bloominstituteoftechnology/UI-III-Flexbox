@@ -64,3 +64,218 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: ;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	display: flex;
+	font-weight: 800px;
+}
+/* Your code starts here! */
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+.container .header {
+	display: flex;
+	justify-content: space-around;
+}
+.header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: black;
+}
+h1 {
+	font-family: 'Bangers', cursive;
+	font-size: 80px;
+	box-sizing: border-box;
+	margin: 10%;
+	height: 200px;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 8%;
+}
+.hero {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 10%;
+		margin-bottom: 10%;
+}	
+.hero-left{
+	 align-content: center;
+	 margin: 5%;
+}
+.hero-right {
+	align-content: center;
+}
+
+.button{
+	border: black 1px solid;
+	text-decoration: none;
+	width: 60%;
+	padding: 10px;
+	margin-top: 30%;
+	margin-left: 30%;
+	color: black;
+	text-align: center;
+}
+.roundimage {
+	width: 70%;
+	height: 60%;
+	transform: scale(1.5);
+	margin-top: 20%;
+	margin-right: 10%;
+	margin-left: 25%;
+	align-self: right;
+	flex: 3;
+
+}
+.middle-img {
+	width: 100%;
+	z-index: 0;
+	height: 100%;
+}
+.col-container{
+	display: flex;
+	margin-top: 2%;
+}
+.Features, .About {
+	width: 49%;
+	justify-content: space-around;
+	margin: 2%;
+}
+.col-3-container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+p {
+	display: flex;
+	font-family: 'Titillium Web', sans-serif;
+	width: 100%;
+}	
+ .Services, .Product, .Vision{
+	font-family: 'Bangers', cursive;
+	width: 30%;
+}
+.contact {
+	margin-top: 4%;
+	font-family: 'Bangers', cursive;
+	display: block;
+}
+address, phone, email {
+	display: block;
+	font-family: 'Titillium Web', sans-serif;
+}
+footer {
+	text-align: center;
+	margin-bottom: 5%;
+}
+.services-header-img {
+	margin-top: 5%;
+	margin-left: 3%;
+	margin-right: 20%;
+	width: 90%;
+}
+.Services2 {
+	margin-top: 2%;
+	margin-left: 3%;
+	margin-right: 20%;
+	width: 90%;
+}
+.learnMoreButton {
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	width: 45%;
+	text-align: center;
+	margin: 5%;
+}
+.middle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-items: space-between;
+}	
+.digitalDesign, .UX, .digitalMarketing, .webDev, .iOS, .androidDevelopment {
+	border: 2px solid black;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 45%;
+	padding: 5px;
+	margin: 2%;	
+}
+
+.list {
+	list-style-type: square;
+	 margin: 5%;
+	 line-height: 1.7em;
+	
+}
+.bottom {
+	display: flex;
+	flex-wrap: wrap;
+}
