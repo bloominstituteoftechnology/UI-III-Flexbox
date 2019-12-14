@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	margin: 5% 10% 10% 10%;
+	border: 5%
+	padding: 5%;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px; 
+	margin: 30px;
+	color: gray;
+}
+
+.GreatIdea {
+	text-align: right;
+	margin-left: 680px;
+	margin-top: -30px;
+}
+
+.GetStarted {
+	font-size: 20px;
+	border: .5px solid black;
+	display: inline-block;
+	padding: 10px 50px 10px 50px;
+	text-align: center;
+	margin-left: 250px;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	margin-right: 300px;
+	margin-top: 100px;
+}
+
+.Circle {
+	text-align: right;
+	margin-right: -50px;
+	margin-top: -350px;
+
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.Border1 {
+	border: 10px solid black;
+}
+
+.Column1 {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	border-top: 1px solid black;
+	margin-top: 80px;
+}
+
+.Column2 {
+	display: flex;
+	flex-direction: column;
+	column-count: 3;
+	column-width: 5px;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.Features {
+	display: flex;
+	flex-direction: column;
+	align-content: start;
+	margin: 10px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.About {
+	display: flex;
+	flex-direction: column;
+	align-content: end;
+	margin: 10px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.Services {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin: 10px;
+}
+
+.Product {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin: 10px;
+}
+
+.Vision {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin: 10px;
+}
+
+#Contact {
+	margin-bottom: 10px;
+}
+
+#Phone {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
