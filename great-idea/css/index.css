@@ -74,7 +74,6 @@ h1, h2, h3, h4, h5 {
     display: flex;
 	justify-content: space-between;
     align-items: center;
-    margin:30px;
 }
 nav a{
     padding: 15px;
@@ -101,18 +100,17 @@ nav a{
 	left: 25%;
 	top: 20%;
 }
-
-.round-image{
 	
-}
-.button{
+.main-button{
 	border: 1px solid black;
-	width: 100px;
+	width: 125px;
 	text-align: center;
 	position: relative;
-	top:20%;
-	left:37%
+	top: 80px;
+	left: 100px;
+
 }
+
  img{
 	 width: 100%;
  }
@@ -166,15 +164,29 @@ nav a{
 	background-color: lightgray;
 	margin: 15px 15px;
 	padding: 15px 15px;
+	border: 1px solid black;
 }
 
 
 .footer-container{
 	margin: 10px 1px;
 	padding: 10px 10px;
+	width: 400px;
 }
 .services-container{
 	margin: 10px 10px;
 	padding: 10px 10px;
 	border-bottom: 1px solid black;
+}
+
+.end-container{
+	border-top: 2px solid black;
+}
+.service-button{
+	border: 1px solid black;
+	width: 125px;
+	text-align: center;
+	padding:10px;
+	margin: 10px;
+	border-radius: 8px;
 }
