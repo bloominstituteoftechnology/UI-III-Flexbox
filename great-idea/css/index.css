@@ -91,28 +91,45 @@ a {
 	margin-top: -10px;
 }
 
-.GetStarted {
-	font-size: 20px;
-	border: .5px solid black;
-	display: inline-block;
-	padding: 10px 50px 10px 50px;
-	text-align: center;
-	margin-left: 250px;
+.Header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 50px;
+	/* border: 10px solid red; */
+
+}
+
+.HeaderText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* border: 10px solid red; */
 }
 
 h1 {
 	font-size: 80px;
-	text-align: center;
-	margin-right: 300px;
-	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* border: 10px solid red; */
 }
 
 .Circle {
-	text-align: right;
-	margin-right: -50px;
-	margin-top: -350px;
-
+	/* border: 10px solid red; */
 }
+
+.GetStarted {
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+	padding: 10px 15px 10px 15px;
+	width: 190px;
+	/* border: 10px solid red; */
+}
+	
 
 h2 {
 	font-size: 20px;
@@ -124,30 +141,18 @@ h2 {
 
 .Column1 {
 	display: flex;
-	justify-content: flex-end;
 	column-count: 2;
 	column-width: 5px;
 	border-top: 1px solid black;
 	margin-top: 80px;
-}
-
-.Column2 {
-	display: flex;
-	justify-content: flex-end;
-	column-count: 3;
-	column-width: 5px;
-	border-bottom: 1px solid black;
-	margin-top: 10px;
-	padding: 20px;
-	margin-bottom: 30px;
+	/* border: 10px solid red; */
 }
 
 .Features {
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
-	margin: 10px;
-	margin-top: 30px;
+	margin-top: 80px;
 	margin-bottom: 50px;
 }
 
@@ -155,40 +160,62 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	align-content: end;
-	margin: 10px;
-	margin-top: 30px;
+	margin-top: 80px;
 	margin-bottom: 50px;
+	padding-left: 30px;
+}
+
+.MiddlePhoto {
+	display: flex;
+	justify-content: center;
+	/* border: 10px solid red; */
+}
+
+.Column2 {
+	display: flex;
+	align-items: flex-start;
+	column-count: 3;
+	column-width: 5px;
+	border-bottom: 1px solid black;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	padding-bottom: 15px;
+	/* border: 10px solid red; */
 }
 
 .Services {
 	margin-top: 10px;
 	margin-bottom: 50px;
-	margin: 10px;
 }
 
 .Product {
 	margin-top: 10px;
 	margin-bottom: 50px;
-	margin: 10px;
+	padding-left: 30px;
 }
 
 .Vision {
 	margin-top: 10px;
 	margin-bottom: 50px;
-	margin: 10px;
+	padding-left: 30px;
 }
 
 #Contact {
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 10px;
+	/* border: 10px solid red; */
 }
 
 #Phone {
 	margin-bottom: 10px;
 	margin-top: 10px;
+	/* border: 10px solid red; */
 }
 
 footer {
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	/* border: 10px solid red; */
 }
