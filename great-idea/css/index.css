@@ -23,25 +23,31 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -64,3 +70,230 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 80%;
+	margin: auto;
+	justify-content: flex-start;
+}
+
+.header-content {
+	display: flex;
+	width: 100%;
+	margin-top: 5%;
+	align-content: center;
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.nav-bar {
+	margin-bottom: 15px;
+	padding-top: 15px;
+	align-content: center;
+}
+
+nav ul {
+	justify-content: flex-start;
+}
+
+nav ul li {
+	display: inline-flex;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+	margin: auto;
+}
+
+
+.logo {
+	align-self: center;
+	justify-content: flex-end;
+	margin-bottom: 75px;
+	padding-top: 20px;
+	margin-left: auto;
+}
+
+.main-content h1 {
+	font-size: 85px;
+	text-align: center;
+}
+
+.main-content-container p {
+	font-family: 'Montserrat', sans-serif;	
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 75px;
+}
+
+.content-left {
+	flex-direction: column;
+	text-align: center;
+}
+
+.button {
+	padding: 10px 50px;
+	text-decoration: none;
+	text-align: center;
+	border: 2px solid black;
+	color: black;
+	font-size: 20px;
+}
+
+.button span {
+	display: inline-block;
+	position: relative;
+}
+
+.content1 {
+	display: flex;
+	border-top: 1px solid black;
+	padding: 50px 0px 50px 0px;
+	justify-content: center;
+}
+
+.child {
+  padding-right: 50px;
+}
+
+.image-stretch img {
+	width: 100%;
+}
+
+.content2 {
+	display: flex;
+	border-bottom: 1px solid black;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	font-size: 0;
+}
+
+h2 {
+	ont-size: 20px;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.content3 {
+	padding: 5px;
+}
+
+.services-header-img {
+	width: 100%;
+	margin-top: -120px;
+}
+
+.services {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px black solid;
+  padding-bottom: 30px;
+}
+
+.services h1 {
+	font-size: 30px;
+}
+
+.full-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-content {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.topic-content {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	width: 47%;
+	padding: 15px;
+	margin-bottom: 50px;
+	background-color: lightgrey;
+}
+
+.learn-button {
+  text-decoration: none;
+  border: 1px solid black; 
+  border-radius: 3px;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+  color: black;
+}
+
+.info {
+  width: 425px;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+footer p {
+	text-align: center;
+	font-size: 14px;
+	margin: 80px auto;
+}
+
+address {
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+.phone {
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.footercontainer {
+  display: flex;
+  border-top: 2px black solid;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.footercontainer h2 {
+  font-size: 16px;
+}
+
+.footercontainer p {
+  margin-bottom: 20px;
+}
+
+.footercontainer ul li {
+	list-style-type: square;
+	list-style-position: inside;
+	padding-top: 15px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 40px;
+} 
