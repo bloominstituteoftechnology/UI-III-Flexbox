@@ -117,7 +117,7 @@ h1 {
 }
 
 .Circle {
-	/* border: 10px solid red; */
+	width: 100%;
 }
 
 .GetStarted {
@@ -165,9 +165,11 @@ h2 {
 	padding-left: 30px;
 }
 
-.MiddlePhoto {
+.middle-img {
 	display: flex;
-	justify-content: center;
+	width: 100%;
+
+	
 	/* border: 10px solid red; */
 }
 
