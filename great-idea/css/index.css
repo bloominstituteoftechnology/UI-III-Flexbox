@@ -76,8 +76,6 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	align-content: flex-start;
-	width: 800px;
-
 }
 
 a {
@@ -89,11 +87,8 @@ a {
 .GreatIdea {
 	display: flex;
 	flex-direction: row-reverse;
-	margin-top: -30px;
 	justify-content: space-between;
-	
-
-	
+	margin-top: -10px;
 }
 
 .GetStarted {
