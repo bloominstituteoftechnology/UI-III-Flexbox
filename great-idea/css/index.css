@@ -273,6 +273,15 @@ a {
 	flex-wrap: wrap;
 }
 
+.LearnMore {
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 15px 20px 15px 20px;
+	width: 60%;
+	background-color: rgb(255, 255, 255);
+
+}
+
 .Row1Boxes {
 	display: flex;
 	flex-direction: row;
@@ -280,13 +289,19 @@ a {
 
 .DigitalDesign {
 	border: 2px solid black;
-	padding: 50px;
+	padding: 20px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	background-color: rgb(241, 241, 241);
 }
 
 .UX-UI {
 	
 	border: 2px solid black;
-	padding: 50px;
+	padding: 20px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	background-color: rgb(241, 241, 241);
 }
 
 .Row2Boxes {
@@ -297,13 +312,19 @@ a {
 .DigitalMarketing {
 
 	border: 2px solid black;
-	padding: 50px;
+	padding: 20px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	background-color: rgb(241, 241, 241);
 }
 
 .WebDev {
 	
 	border: 2px solid black;
-	padding: 50px;
+	padding: 20px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	background-color: rgb(241, 241, 241);
 }
 
 .Row3Boxes {
@@ -314,13 +335,20 @@ a {
 .iOSDev {
 
 	border: 2px solid black;
-	padding: 50px;
+	padding: 20px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	background-color: rgb(241, 241, 241);
+
 }
 
 .Android {
 	
 	border: 2px solid black;
-	padding: 50px;
+	padding: 20px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	background-color: rgb(241, 241, 241);
 }
 
 .BulletList {
