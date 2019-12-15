@@ -64,3 +64,449 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.topPage {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;	
+}
+
+.logo {
+	margin-top: 25px;
+}
+
+/*fix border*/
+
+.topPage nav {
+	margin-top: 30px;
+	flex-flow: wrap;
+	padding-left: 100px;
+	font-family: 'Titillium Web';
+	word-break: break-all;
+	word-spacing:4vw;
+}
+
+#navBtn {
+	color: black;
+	margin-left: 30px;
+	font-size: 10px;
+	border:solid lightblue;
+	border-radius: 7px;
+	border-width: 1px;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+#navBtn:hover {
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.7s;
+	color: white;
+	background-color: blue;
+	border-color:blue;
+}
+
+.midPage {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.midPage img {
+	margin-top: -255px;
+	margin-bottom: 80px;	
+}
+
+.midPage h1 {
+	text-align: center;
+	font-size: 65px;
+	margin-left: -340px;
+	margin-right: 125px;
+	word-spacing: 100vw;
+}
+
+.midPage {
+	border-bottom: solid black;
+	width: 75%;
+	margin-left: 150px;
+	margin-top: 100px;
+}
+
+#startBtn {
+	display: flex;
+	padding: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: black;
+	font-size: 10px;
+	border:solid lightblue;
+	border-width: 1px;
+	text-decoration: none;
+	margin-top: -115px;
+	margin-left: 170px;
+}
+
+#startBtn:hover {
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.7s;
+	color: white;
+	background-color: blue;
+	border-color:blue;
+}
+
+/**/
+
+.container-1 {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 30px;
+	font-size: 15px;
+}
+
+
+.middlePic {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.container-2 {
+	font-size: 15px;
+	border-bottom: .5px black solid;
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.bottom {
+	display: flexbox;
+	margin-left: 60px;
+	font-size: 15px;
+	line-height: 1.5;
+	margin-top: 60px;
+}
+
+/*fix border*/
+
+.copy {
+	display: flexbox;
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+/*new page*/
+ 
+.container-1a {
+	display:flex;
+	justify-content: space-evenly;	
+	margin-top: 30px;
+}
+
+.logoB {
+	margin-right: 150px;
+	margin-top: -10px;
+	width: 180px;
+}
+
+ .myNav {
+	padding-left: 100px;
+	font-family: 'Titillium Web';
+	word-break: break-all;
+	word-spacing:4vw;
+ }
+
+ .buttons {
+	color: black;
+	font-size: 12px;
+	border:solid #8EBE78;
+	border-radius: 7px;
+	border-width: 1px;
+	text-decoration: none;
+	padding: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+ }
+
+ 
+.buttons:hover {
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.7s;
+	color: #734932;
+	border-color:#8EBE78;
+}
+
+.servicesImg {
+	display: flex;
+	margin-left: 165px;
+	padding-top: 30px;
+}
+
+.serviceHead {
+	display: flexbox;
+	margin-top: 30px;
+	margin-left: 165px;
+	border-width: 75%;
+	margin-right: 210px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid;
+	padding-bottom: 30px;
+}
+
+.serviceH {
+	font-size:30px;
+	margin-bottom: 20px;
+	
+}
+
+.serviceP {
+	line-height: 1.2;
+	
+}
+
+.container-topTwo {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	margin-left: 35px;
+}
+
+.digital {
+	border: 1px solid black;
+	padding: 40px;
+	margin-right: 80px;
+	background-color: #E2DDDB;
+}
+
+.digital h1 {
+	font-size: 17px;
+}
+
+.digital p {
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.digitalLearn {
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 6px;
+	background-color: white;
+}
+
+.ux {
+	border: 1px black solid;
+	padding: 40px;
+	margin-right:80px;
+	background-color: #E2DDDB
+}
+
+.ux h1 {
+	font-size: 17px;
+}
+
+.ux p {
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.uxLearn {
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 6px;
+	background-color: white;
+}
+
+.container-midTwo {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	margin-left: 35px;
+}
+
+.marketing {
+	border: 1px solid black;
+	padding: 40px;
+	margin-right: 80px;
+	background-color: #E2DDDB;
+}
+
+.marketing h1 {
+	font-size: 17px;
+}
+
+.marketing p {
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.marketingLearn {
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 6px;
+	background-color: white;
+}
+
+
+.webDev {
+	border: 1px black solid;
+	padding: 40px;
+	margin-right:80px;
+	background-color: #E2DDDB
+}
+
+.webDev h1 {
+	font-size: 17px;
+}
+
+.webDev p {
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.webDevLearn {
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 6px;
+	background-color: white;
+}
+
+.container-bottomTwo {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	margin-left: 35px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid;
+	padding-bottom: 30px;
+}
+
+.ios {
+	border: 1px solid black;
+	padding: 40px;
+	margin-right: 80px;
+	background-color: #E2DDDB;
+}
+
+.ios h1 {
+	font-size: 17px;
+}
+
+.ios p {
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.iosLearn {
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 6px;
+	background-color: white;
+}
+
+
+.android {
+	border: 1px black solid;
+	padding: 40px;
+	margin-right:80px;
+	background-color: #E2DDDB
+}
+
+.android h1 {
+	font-size: 17px;
+}
+
+.android p {
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.androidLearn {
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 6px;
+	background-color: white;
+}
+
+.foot {
+	display: flexbox;
+	margin-left: 170px;
+}
+
+.foot h1 {
+	font-size: 20px;
+}
+
+.foot p {
+	font-size: 14px;
+	line-height: 1.8;
+	margin-bottom: 23px;
+}
+
+.foot li {
+	line-height: 1.8;
+}
+
+.services-info-img {
+	float: right;
+	margin-right: 210px;
+	margin-top: -295px;
+}
+
+.copy {
+	margin-top: 180px;
+	text-align: center;
+}
