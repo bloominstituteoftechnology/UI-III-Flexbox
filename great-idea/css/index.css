@@ -72,18 +72,28 @@ body {
 }
 
 nav {
-	text-decoration: none;
-	font-size: 20px; 
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-content: flex-start;
+	width: 800px;
+
+}
+
+a {
+	font-size: 20px; 
 	color: gray;
+	text-decoration: none;
 }
 
 .GreatIdea {
-	text-align: right;
-	margin-left: 680px;
+	display: flex;
+	flex-direction: row-reverse;
 	margin-top: -30px;
+	justify-content: space-between;
+	
+
+	
 }
 
 .GetStarted {
