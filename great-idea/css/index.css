@@ -268,6 +268,61 @@ a {
 	margin: 40px 0px 40px 0px;
 }
 
+.ServiceItems {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Row1Boxes {
+	display: flex;
+	flex-direction: row;
+}
+
+.DigitalDesign {
+	border: 2px solid black;
+	padding: 50px;
+}
+
+.UX-UI {
+	
+	border: 2px solid black;
+	padding: 50px;
+}
+
+.Row2Boxes {
+	display: flex;
+	flex-direction: row;
+}
+
+.DigitalMarketing {
+
+	border: 2px solid black;
+	padding: 50px;
+}
+
+.WebDev {
+	
+	border: 2px solid black;
+	padding: 50px;
+}
+
+.Row3Boxes {
+	display: flex;
+	flex-direction: row;
+}
+
+.iOSDev {
+
+	border: 2px solid black;
+	padding: 50px;
+}
+
+.Android {
+	
+	border: 2px solid black;
+	padding: 50px;
+}
+
 .BulletList {
 	list-style-type: square;
 	margin-left: 30px;
