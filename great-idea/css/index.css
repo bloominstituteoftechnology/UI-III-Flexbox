@@ -64,3 +64,311 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	margin: 5% 10% 10% 10%;
+	border: 5%
+	padding: 5%;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+a {
+	font-size: 20px; 
+	color: gray;
+	text-decoration: none;
+}
+
+.GreatIdea {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-top: -10px;
+}
+
+.Header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 50px;
+	/* border: 10px solid red; */
+
+}
+
+.HeaderText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* border: 10px solid red; */
+}
+
+h1 {
+	font-size: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* border: 10px solid red; */
+}
+
+.Circle {
+	width: 100%;
+}
+
+.GetStarted {
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+	padding: 10px 15px 10px 15px;
+	width: 190px;
+	/* border: 10px solid red; */
+}
+	
+
+h2 {
+	font-size: 20px;
+}
+
+.Border1 {
+	border: 10px solid black;
+}
+
+.Column1 {
+	display: flex;
+	column-count: 2;
+	column-width: 5px;
+	border-top: 1px solid black;
+	margin-top: 80px;
+	/* border: 10px solid red; */
+}
+
+.Features {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.About {
+	display: flex;
+	flex-direction: column;
+	align-content: end;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	padding-left: 30px;
+}
+
+.middle-img {
+	display: flex;
+	width: 100%;
+
+	
+	/* border: 10px solid red; */
+}
+
+.Column2 {
+	display: flex;
+	align-items: flex-start;
+	column-count: 3;
+	column-width: 5px;
+	border-bottom: 1px solid black;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	padding-bottom: 15px;
+	/* border: 10px solid red; */
+}
+
+.Services {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.Product {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding-left: 30px;
+}
+
+.Vision {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding-left: 30px;
+}
+
+#Contact {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+	/* border: 10px solid red; */
+}
+
+#Phone {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/* border: 10px solid red; */
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/* border: 10px solid red; */
+}
+
+/* Services Page CSS */
+
+body {
+	margin: 5% 10% 10% 10%;
+	border: 5%
+	padding: 5%;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-start;
+	margin: 25px 25px 25px 0px;
+}
+
+a {
+	font-size: 20px; 
+	color: gray;
+	text-decoration: none;
+}
+
+.GreatIdea {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-top: -10px;
+	margin-left: 40px;
+	margin-right: -30px;
+}
+
+.services-header-img {
+	display: flex;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#Services {
+	font-size: 30px;
+}
+
+.Border {
+	border: .5px solid darkgray;
+	margin: 40px 0px 40px 0px;
+}
+
+.ServiceItems {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.LearnMore {
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 15px 20px 15px 20px;
+	width: 45%;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+
+}
+
+.Row1Boxes {
+	display: flex;
+	flex-direction: row;
+}
+
+.DigitalDesign {
+	border: 2px solid black;
+	padding: 20px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	background-color: rgb(241, 241, 241);
+}
+
+.UX-UI {
+	
+	border: 2px solid black;
+	padding: 20px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	background-color: rgb(241, 241, 241);
+}
+
+.Row2Boxes {
+	display: flex;
+	flex-direction: row;
+}
+
+.DigitalMarketing {
+
+	border: 2px solid black;
+	padding: 20px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	background-color: rgb(241, 241, 241);
+}
+
+.WebDev {
+	
+	border: 2px solid black;
+	padding: 20px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	background-color: rgb(241, 241, 241);
+}
+
+.Row3Boxes {
+	display: flex;
+	flex-direction: row;
+}
+
+.iOSDev {
+
+	border: 2px solid black;
+	padding: 20px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	background-color: rgb(241, 241, 241);
+
+}
+
+.Android {
+	
+	border: 2px solid black;
+	padding: 20px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	background-color: rgb(241, 241, 241);
+}
+
+.BulletList {
+	list-style-type: square;
+	margin-left: 30px;
+}
+
+.ServicesFacts {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 80px;
+}
+
+.ServiceFactsText {
+	padding-right: 50px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
