@@ -221,3 +221,49 @@ footer {
 	margin-bottom: 50px;
 	/* border: 10px solid red; */
 }
+
+/* Services Page CSS */
+
+body {
+	margin: 5% 10% 10% 10%;
+	border: 5%
+	padding: 5%;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-start;
+	margin: 25px 25px 25px 0px;
+}
+
+a {
+	font-size: 20px; 
+	color: gray;
+	text-decoration: none;
+}
+
+.GreatIdea {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-top: -10px;
+	margin-left: 40px;
+	margin-right: -30px;
+}
+
+.services-header-img {
+	display: flex;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#Services {
+	font-size: 30px;
+}
+
+.Border {
+	border: .5px solid darkgray;
+	margin: 40px 0px 40px 0px;
+}
