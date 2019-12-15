@@ -267,3 +267,24 @@ a {
 	border: .5px solid darkgray;
 	margin: 40px 0px 40px 0px;
 }
+
+.BulletList {
+	list-style-type: square;
+	margin-left: 30px;
+}
+
+.ServicesFacts {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 80px;
+}
+
+.ServiceFactsText {
+	padding-right: 50px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
