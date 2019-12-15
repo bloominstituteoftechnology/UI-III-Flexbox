@@ -189,7 +189,6 @@ h1 {
 	margin-left: 25%;
 	align-self: right;
 	flex: 3;
-
 }
 .middle-img {
 	width: 100%;
@@ -231,7 +230,7 @@ address, phone, email {
 }
 footer {
 	text-align: center;
-	margin-bottom: 5%;
+	margin: 5%;
 }
 .services-header-img {
 	margin-top: 5%;
@@ -268,14 +267,28 @@ footer {
 	padding: 5px;
 	margin: 2%;	
 }
-
 .list {
 	list-style-type: square;
-	 margin: 5%;
 	 line-height: 1.7em;
-	
+	 margin-left: 10%;
+	 margin-top: 2%;		
+}
+.someFacts {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 45%;
+	margin: 2%;	
+}
+.services-info-img {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 45%;	
+	align-items: stretch;
 }
 .bottom {
 	display: flex;
 	flex-wrap: wrap;
-}
+	justify-items: space-between;
+}	
