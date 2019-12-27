@@ -64,3 +64,495 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+/* Your code starts here! */
+
+
+
+/* Makes Everything Centered */
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+ }
+ 
+ 
+ 
+ 
+
+
+ /* SERVICES PAGE */
+
+
+ /* Header, Nav, and Logo */
+ 
+
+ header {
+	 display: flex;
+	 /* border: 1px solid black; */
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 20px;
+ }
+
+ header nav {
+	 /* border: 1px solid red;	 */
+	 display:flex;
+	 
+ }
+
+ header nav a {
+	 margin-right: 40px;
+	 text-decoration: none;
+	 color: black;
+	 padding: 10px 20px;
+	 border: 1px solid gray;
+	 border-radius: 5px;
+	 transition: 0.2s ease-in;	
+	 /* border: 1px solid blue; */
+ }
+
+
+ header nav a:hover {
+	background-color: aquamarine;
+	border: 1px solid black;
+	font-weight: bold;
+	
+ }
+
+
+
+ /* SERVICES IMAGE */
+
+ .services-header-img {
+	 width: 100%;
+	
+ }
+
+p {
+	line-height: 1.5;
+}
+
+
+ /* Services section */
+
+.services {
+ margin: 40px 0;
+ padding-bottom: 40px;
+ border-bottom: 2px solid black;
+}
+
+
+
+/* Wrapper section */
+
+
+.wrapper {
+	
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
+}
+
+.box {
+	border: 2px solid black;
+	background: whitesmoke;
+	flex-basis: 48%;
+	
+	padding: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 280px;
+	
+
+}
+
+.learn {
+	color: black;
+	margin-top: 40px; 
+	width: 30%;
+	text-align: center;
+
+}
+
+.learn:hover{
+	background: aquamarine;
+}
+
+
+.learn a {
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	background: white;
+	border: 1px solid black;
+	padding: 10px 40px;
+	
+}
+
+.learn a:hover{
+	font-weight: bold;
+
+}
+
+
+/* BOTTOM OF SERVICES */
+
+.bottom {
+	display: flex;
+
+	justify-content: space-between;
+	border-top: 2px solid black;
+	margin: 30px 0;
+
+}
+
+.bottom .b_box {
+	flex-basis: 50%;
+	margin-top: 30px;
+	
+}
+
+.bottom .facts {
+	padding:  20px;
+}
+
+.bottom .list {
+	list-style-type: square;
+	margin-left: 30px;
+}
+
+.bottom .list li {
+	padding: 10px;
+}
+
+.bottom .bottomImg {
+	margin-left: 60px;
+}
+
+
+
+.bottom .bottomImg .services-btm-img {
+    width: 500px;
+	height: 320px; 
+} 
+
+/* Footer */
+ 
+footer {
+	text-align: center;
+	margin: 100px 0;
+
+}
+
+
+
+
+
+
+	/* ===== About Page =======*/
+
+
+
+
+	 /* Main and  First Image */
+	 
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	padding-bottom: 100px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid black;
+
+}
+
+.main .inner {
+	flex: 1;
+	flex-basis: 50%;
+
+	
+
+}
+
+.main .inner .inno {
+	width: 50%;
+	height: 400px;
+	margin-left: 120px;
+	
+}
+
+.main .inner .inno h1 {
+	font-size: 90px;
+	padding: 20px;
+	text-align: center;
+}
+
+#main-p {
+	text-align: center;
+	font-family: 'Text Me One', sans-serif;
+		 
+}
+
+#main-p a {
+	color: black;
+	text-decoration: none;
+	border: 1px solid gray;
+	padding: 10px 40px;
+	transition: 0.2s ease-in;
+	
+}
+
+#main-p a:hover {
+	color: black;
+	background-color: aquamarine;
+	font-weight: bold;
+}
+
+.main .inner .main-img {
+	margin-left: 100px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+
+
+
+ /* Features and About  */
+
+ .secondContent {
+	 display: flex;
+ }
+
+
+
+  /* Full Width Img */
+ 
+  .middle-img {
+	width: 100%;
+	margin: 50px 0;
+}
+
+
+
+ /* Services, Product, Vision */
+
+ .thirdContent {
+	 display: flex;
+ }
+
+
+ .third {
+	width: 95%;
+}
+ 
+
+
+ /* Contact */
+
+ .contact {
+	margin-top: 40px;
+	border-top: 1px solid black;
+	padding: 40px 0;
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= OLD CODE ========= */
+
+
+
+ /* header {
+	 position: relative;
+	 margin-top: 20px;
+	 height: 120px;
+	
+	
+	 
+ }
+ 
+ header nav {
+	 display: inline-block;
+	 /* position: absolute; 
+	 line-height: 40px;
+	 position: fixed;
+	 
+	
+	 
+ }
+ 
+ header nav a {
+	 text-decoration: none;
+	 color: black;
+	 margin: 20px;
+	 border: 1px solid gray;
+	 border-radius: 5px;
+	 padding: 10px 20px;
+	 font-family: 'Text Me One', sans-serif;
+	 transition: 0.2s ease-in;	
+ }
+ 
+ header nav a:hover {
+	background-color: aquamarine;
+	border: 1px solid black;
+	font-weight: bold;
+	
+ }
+ 
+ header .logo {
+	 position: absolute;
+	 right: 0;  
+	 
+ }
+  */
+ 
+
+
+
+
+
+
+ 
+ /* Main and  First Image */
+ 
+ 
+ /* .main .inner {
+	 display:inline-block;
+	 width: 50%;	
+ }
+	
+ .main .inner .inno {
+	 padding: 60px;
+	 
+ }
+ 
+ 
+ .main .inner h1 {
+	 font-size: 100px;
+	 text-align: center;  
+	 font-weight: bold;
+	 line-height: 1.5  
+	
+ }
+ 
+  
+ #main-p {
+	 text-align: center;
+	 width: 200px;
+	 padding: 10px 15px;
+	 margin-left: 120px;
+	 font-family: 'Text Me One', sans-serif;
+	 	 
+ }
+
+ #main-p a {
+	 color: black;
+	 text-decoration: none;
+	 border: 1px solid gray;
+	 padding: 10px 40px;
+	 transition: 0.2s ease-in;
+	 
+ }
+
+ #main-p a:hover {
+	 color: black;
+	 background-color: aquamarine;
+	 font-weight: bold;
+ }
+
+ 
+
+ 
+ .main .inner .main-img {
+	 margin-left: 100px
+	 
+ } */
+ 
+ 
+ 
+ 
+ /* Features and About  */
+
+
+ 
+
+ 
+ /* .secondContent {
+	 margin-top: 50px;
+	 padding: 30px 0;
+	 border-top: 1px solid black;
+	 
+ }
+ 
+ .secondContent .middle {
+	 display: inline-block;
+	 width: 50%;
+	 margin-top: 20px;
+ }
+  */
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ /* Services, Product, Vision */
+ 
+ /* .thirdContent {
+ margin-bottom: 60px;
+ }
+ 
+ .thirdContent .final {
+	 display: inline-block;
+	 width: 33%;
+ }
+ 
+
+ 
+ .third {
+	 width: 95%;
+ }
+  */
+ 
+/*  
+ Contact
+
+ .contact {
+ margin-top: 40px;
+ border-top: 1px solid black;
+ padding: 40px 0;
+ 
+ } */
+ 
+ 
+ 
+ 
+
+
+
