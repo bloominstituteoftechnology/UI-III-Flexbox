@@ -110,7 +110,9 @@ body {
 }
 ol,
 ul {
-  list-style: none;
+  list-style: circle;
+  font-size: 17px;
+  justify-content: space-evenly;
 }
 blockquote,
 q {
@@ -143,7 +145,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Bangers", cursive;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: "Bangers", cursive; */
   letter-spacing: 1px;
   margin-bottom: 15px;
   letter-spacing: 1px;
@@ -205,11 +208,14 @@ section img {
 button {
   justify-content: center;
   align-items: center;
+  padding: 12px 27px;
 }
 
 .top-content {
   display: flex;
   justify-content: space-between;
+  line-height: 1.5;
+  height: 170px;
 }
 .boxes {
   display: flex;
@@ -229,11 +235,17 @@ button {
 
 .middle-img {
   width: 100%;
+  max-width: 100%;
+  /* height: auto; */
+  height: 160px;
+  border-radius: 6px;
 }
 
 .middle-content {
   display: flex;
   justify-content: space-between;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact {
@@ -245,7 +257,7 @@ button {
   /* border-top: 1px solid black; */
   padding: 39px 10px 0;
   /* font-size: 100%; */
-  margin-right: 85%;
+  margin-right: 5%;
 }
 
 .contact p {
@@ -254,7 +266,11 @@ button {
   justify-content: space-between;
   /* margin: 20px ; */
   position: relative;
-  margin-right: 45%;
+  margin-right: -5%;
+}
+
+a {
+  color: black;
 }
 
 footer {
@@ -262,6 +278,7 @@ footer {
   text-align: center;
   font-size: 14px;
   display: flex;
+  margin-left: -35px;
 }
 
 .copyright {
@@ -272,9 +289,14 @@ footer {
 section img {
   margin: 20px 0;
 }
+/* .services-info-img { */
+/* display: flex; */
+/* position: absolute; */
+/* } */
 section p {
   margin-top: 35px;
   margin-bottom: 35px;
+  line-height: 2;
   /* font-size: 15px; */
 }
 section h2 {
@@ -285,7 +307,7 @@ section h2 {
   border: 1px solid black;
   border-radius: 3px;
   padding: 18px 34px;
-  margin-right: 248px;
+  margin-right: 140px;
   margin-top: 40px;
 }
 .boxes {
