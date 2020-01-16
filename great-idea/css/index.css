@@ -94,11 +94,10 @@ p {
 }
 
 .navigation {
-	background-color: #66ccff;
+	background-color: white;
 	position: fixed;
 	width: 47%;
 	padding-bottom: 1%;
-	padding-left: 1%;
 }
 
 a:hover, a:active {
