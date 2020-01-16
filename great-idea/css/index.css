@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	margin: 5% 10% 5% 10%;
+	/* border: 1px solid black; */
+}
+
+div{
+	/* border: 1px solid black; */
+}
+
+nav {
+	/* border: 1px solid black; */
+	}
+
+nav a{
+	/* border: 1px solid black; */
+	color: gray;
+	}
+
+.links{
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.title{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	max-width: 100%;
+}
+
+.title-box{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 49%;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.title-box h1{
+	font-size: 70px;
+	/* border: 1px solid black; */
+	text-align: center;
+}
+
+.title-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:50%;
+}
+
+.row1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.features{
+	width:49.5%;
+	padding-right: 1%;
+}
+
+.about{
+	width:49.5%;
+	padding-right: 1%;
+}
+
+.middle-img, .mid-img{
+	width:100%;
+}
+
+.row2{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.services{
+	width:33%;	
+	padding-right: 2%;
+}
+.product{
+	width:33%;
+	padding-right: 2%;
+}
+.vision{
+	width:33%;
+	padding-right: 2%;
+}
+
+.contact{
+	width:100%;
+	text-align: left;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.copyright{
+	width:100%;
+	text-align: center;
+}
+
+footer{
+	height: 10%;
+}
