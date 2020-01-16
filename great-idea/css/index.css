@@ -48,13 +48,16 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+* {width:100%;
     box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,33 +67,35 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
- /*{border:2px solid black;}*/
+/* {border:2px solid black;}*/
+
 
 .parent {
 	display: flex;
-	border: 3px solid blue;
-	justify-content: space-evenly;
+	
+	justify-content: space-between;
 	
 }
 .navigation {
-	width:70%
+	width:70%;
 	display:flex;
 	justify-content: space-evenly;
 	
 	font-size: 27px;
 	word-spacing: 40px;
-	margin: 5%;
+	margin-top: 2%;
+	
 
 }
 a {color:grey;
 text-decoration: none;}
 
 .logo1 {height: 10%;
-	width:30%;
+	width:15%;
 	display:flex;
 	justify-content: right;
 	
-	margin-top: 5%;
+	margin-top: 2%;
 	
 	
 	
@@ -99,10 +104,11 @@ text-decoration: none;}
 	
 }
 
-.innovator {width: 100%;
-	
+.innovator {
+	width: 100%;
+	height: 65%;
 	word-spacing: 20px;
-	
+	margin-top:5%;
 	color:black;
 	font-size: xx-large;
 	display: flex;
@@ -122,6 +128,7 @@ text-decoration: none;}
 	
 }
  #demand {
+	 margin-top: 15%;
 	width:100% ;
 	display: flex;
 	justify-content: center;
@@ -139,17 +146,20 @@ h1 {width:150%;
 	 border:1px solid grey;
 	 font-size: 15px;
 	 text-align: center;
-	 width: 15%;
-	 height: 25%;
-	 
+	 width: 25%;
+	 height: 8%;
 		padding: 1% 1% 1% 1%;
 		letter-spacing: 1px;
 		word-spacing: 3px;
 		display: flex;
 		align-self: baseline;
  }
+ #get-started {width: 100%;
+	 margin-left: 0 auto%;
+ }
 
 #picc {width:49%;
+	height:100;
 	display: flex;
 	
 	
@@ -167,42 +177,51 @@ h1 {width:150%;
 	
 	
 	
+
+.top-section {
+	width: 100%;
+    word-spacing: 20px;
+    
+    font-size: xx-large;
+    display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-evenly;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-top:2px solid black;
+	
+}
+h3 {
+	font-size: 30px;
 }
 
-/*#features {
-	width:49%;
-	display:inline-block;
+#features {
+	width:45%;
+	
 	text-align: left;
-	font-size: 25px;
+	font-size: 20px;
+	
+
 }	
 #about {
-	width: 49%;
-	display:inline-block;
+	width: 45%;
+	
 	text-align:left;
-	font-size: 25px;
-	margin-top: 5%;
+	font-size: 20px;
+	
 	
 }
-.top-section {
-	width: 70%;
-	display: inline-block;
-	margin: 0 auto;
-	position: relative;
-	top: -300px;
-	right: -70px;
-	text-align: center;
-	border-top: 2px solid black;
-	
-}
-.pic2 {
-	width: 50%;
-	display: inline-block;
-	margin-top: -220%;
-	padding: 2% 10%;
+
+.pic2 img{
+	width: 95%;
+	display: flex;
+	margin-left: 1.5%;
+
 }
 
 
-
+/*
 .bottom-content {
 	width: 70%;
 	display: inline-block;
