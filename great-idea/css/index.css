@@ -64,3 +64,166 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+*{
+	max-width:100%;
+	font-family: "Cuprum";
+  }
+
+
+p {
+	font-family: "Cuprum";
+}
+
+h4 {
+	font-family: "Cuprum";
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.container {
+	width: 46%;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 2%;
+}
+
+#anchorlinks {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+}
+
+nav div a {
+	color: gray;
+	font-family: "Cuprum";
+}
+
+a:hover, a:active {
+	color: blue;
+}
+
+.leftside {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 70px;
+
+}
+
+.button {
+	color: black;
+	border: 2px solid #555555;
+	padding: 2% 10%;
+	margin-top: 3%;
+}
+
+.rightside {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 8% 0;
+}
+
+#top-content {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	padding: 5% 0;
+}
+
+#bottom-content {
+	display: flex;
+	border-bottom: 1px solid black;
+	padding: 5% 0;
+	justify-content: space-between;
+}
+
+#bottom-content div {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+#contact {
+	padding: 5% 0;
+}
+
+#homepage {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10%;
+}
+
+/* Services page css begins here */
+
+.services-header-img {
+	padding: 3% 0;
+}
+
+header {
+	padding-bottom: 3%;
+}
+
+h2 {
+	font-family: "Cuprum";
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#middlesix {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1% 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	justify-content: space-evenly;
+}
+
+#middlesix div {
+	display: flex;
+	width: 40%;
+	flex-direction: column;
+	border: 1px solid black;
+	margin: 4%;
+	background-color: #F0F0F0;
+	padding: 3%;
+}
+
+.learnmore {
+	color: black;
+	border: 1px solid #555555;
+	padding: 2% 10%;
+	margin-top: 3%;
+	width: 48%;
+	background-color: white;
+}
+
+.servicesleft, .list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	line-height: 1.5;
+	padding-right: 5%;
+}
+
+.servicesright {
+	display: flex;
+	padding: 5% 0;
+}
+
+#services {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10%;
+}
