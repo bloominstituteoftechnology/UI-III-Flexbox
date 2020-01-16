@@ -49,12 +49,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+		box-sizing: border-box;
 }
 
 html, body{
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5 {
 /* Not sure if I need this */
 body{
 	width: auto;
-	font-size: 20px;
+	font-size: 25px;
 	/* padding:2% 5% 2% 5%; */
 }
 
@@ -215,8 +215,15 @@ footer{
 
 /* Questions */
 /* My nav bar was overlapping my header. How do I prevent that from happing? I added padding to the top of the header to prevent the overlapping. Is there another solution? */
+*{
+	border: 2px solid black !important;
+}
 
+.services-header-img{
+	display: flex;
+	flex-grow: 1;
+}
 
-/* CSS for SERVICES page */
-
-
+.servicesHeader{
+	margin: 0% 5% 0% 5%;
+}
