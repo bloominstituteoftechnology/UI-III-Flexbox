@@ -52,7 +52,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body{
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -80,7 +80,7 @@ body{
 }
 
 header, section, footer{
-	margin: 0 2% 0% 2%;
+	margin: 0 10% 0% 10%;
 }
 
 /* Navigation Bar */
@@ -128,14 +128,14 @@ header{
 	display: flex;
 	justify-content: center;
 	/* Added padding to the top to keep the nav bar from overlapping with the header */
-	padding-top: 2%;
-	padding-bottom: .5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	align-items: center;
 }
 
 .container1{
 	text-align: center;
-	font-size: 75px;
+	font-size: 100px;
 	margin-right: 8%;
 }
 
@@ -151,25 +151,29 @@ header{
 
 .button{
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
+	align-items: center;
 }
 
+.button button{
+	background-color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	border: 2px solid black;
+	width: 200px;
+}
 
 /*Features & About*/
 .firstBlock{
 	display: flex;
+	border-top: 1px solid black;
 	justify-content: space-between;
 }
 
-.firstBlock div{	
-	width: auto;
+.firstBlock div{
 	margin-top: 2%;
-	padding-left: 0%; 	
 }
 
-.firstBlock{
-	border-top: 1px solid black;
-}
 
 /* Middle Image */
 .middleContainer{
@@ -211,3 +215,8 @@ footer{
 
 /* Questions */
 /* My nav bar was overlapping my header. How do I prevent that from happing? I added padding to the top of the header to prevent the overlapping. Is there another solution? */
+
+
+/* CSS for SERVICES page */
+
+
