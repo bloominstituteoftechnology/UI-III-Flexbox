@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +64,176 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+ {border:2px solid black;}
+
+.parent {
+	display: flex;
+	border: 3px solid blue;
+	justify-content: space-evenly;
+	
+}
+.navigation {
+	width:70%
+	display:flex;
+	justify-content: space-evenly;
+	
+	font-size: 27px;
+	word-spacing: 40px;
+	margin: 5%;
+
+}
+a {color:grey;
+text-decoration: none;}
+
+.logo1 {height: 10%;
+	width:30%;
+	display:flex;
+	justify-content: right;
+	
+	margin-top: 5%;
+	
+	
+	
+	
+	
+	
+}
+
+.innovator {width: 100%;
+	
+	word-spacing: 20px;
+	
+	color:black;
+	font-size: xx-large;
+	display: flex;
+	justify-content: space-around;
+	
+	
+
+	
+}
+ 
+
+
+#innovation {
+	width:60%;
+	font-size: 80px;
+	display:flex;
+	
+}
+ #demand {
+	width:100% ;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+h1 {width:150%;
+	height:65%;
+	widows: 50%;
+	text-align: center;
+	display:flex;
+	justify-content: center;
+}
+#started {
+	 
+	 border:1px solid grey;
+	 font-size: 15px;
+	 text-align: center;
+	 width: 15%;
+	 height: 25%;
+	 
+		padding: 1% 1% 1% 1%;
+		letter-spacing: 1px;
+		word-spacing: 3px;
+		display: flex;
+		align-self: baseline;
+ }
+
+#picc {width:49%;
+	display: flex;
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+	
+	
+	
+}
+
+/*#features {
+	width:49%;
+	display:inline-block;
+	text-align: left;
+	font-size: 25px;
+}	
+#about {
+	width: 49%;
+	display:inline-block;
+	text-align:left;
+	font-size: 25px;
+	margin-top: 5%;
+	
+}
+.top-section {
+	width: 70%;
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	top: -300px;
+	right: -70px;
+	text-align: center;
+	border-top: 2px solid black;
+	
+}
+.pic2 {
+	width: 50%;
+	display: inline-block;
+	margin-top: -220%;
+	padding: 2% 10%;
+}
+
+
+
+.bottom-content {
+	width: 70%;
+	display: inline-block;
+	margin-left: 10%;
+	position: relative;
+	top: 5%;
+	right: 70px;
+	
+	
+}
+
+#services {
+	width: 33%;
+	display: inline-block;
+	font-size: 25px;
+	
+}
+#product {
+	width:33%;
+	display: inline-block;
+	font-size: 25px;
+}
+#vision {
+	width: 33%;
+	display: inline-block;
+	font-size: 25px;
+}
+.contact {
+	font-size: 25px;
+}
+#footer {
+	text-align: center;
+	Margin: 10% 10%;
+}*/
