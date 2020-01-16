@@ -95,11 +95,12 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	margin:15px;
+	margin-bottom: 10px;
 }
 nav a {
 	text-decoration: none;
 	color:grey;
-	font-size: 120%;
+	font-size: 100%;
 }
 
 /* Hero image styling */
@@ -120,7 +121,7 @@ nav a {
 h1 {
 	font-size: 500%;
 	text-align: center;
-	margin:10% 0 0 0;
+	margin:15% 0 0 0;
 	
 }
 h2 {
@@ -141,16 +142,22 @@ main {
 	justify-content: space-around;
 }
 
-#feats {
+#features {
 	width: 90%;
 	border-top: black 1px solid;
 	display: flex;
 	justify-content: space-between;
-	margin:20px;
+	margin: 20px;
+	padding-top: 20px;
+	
 }
-#feats div {
+#features div {
 	width: 45%;
 	
+}
+
+.largeimg{
+	width: 90%;
 }
 #services {
 	width: 90%;
@@ -158,13 +165,14 @@ main {
 	display: flex;
 	justify-content: space-between;
 	margin:30px;
+	padding-bottom: 20px;
 
 }
-#below div {
+#services div {
 	width: 29%;
 }
 
-/* Footer styling */
+/* Footer  */
 
 footer {
 	width: 90%;
