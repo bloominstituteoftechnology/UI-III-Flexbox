@@ -116,11 +116,6 @@ header, section, footer{
 	text-align: center;
 }
 
-#link1{
-	/* margin-right: .25%; */
-	/* fixed missing gap between "servies" and "product" */
-}
-
 /* Nav bar image*/
 .logo{	
 	width: 8%;
@@ -135,37 +130,30 @@ header{
 	/* Added padding to the top to keep the nav bar from overlapping with the header */
 	padding-top: 2%;
 	padding-bottom: .5%;
-}
-
-.container1 p{
-	font-size: 15px;
-	height: 10%;
-	border: 1px solid black;
-	display: flex;
 	align-items: center;
-	/* flex-direction: column;	 */
 }
 
 .container1{
 	text-align: center;
 	font-size: 75px;
-	width: 20%;
-	display: flex;
-}
-
-.container1 h1{
-	width: 100%;
-	height: 75%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* flex-direction: column;	 */
+	margin-right: 8%;
 }
 
 .container2{ 
-	width:auto;
-	display: flex;
+	margin-left: 8%;
+	margin-top: .8%;
 }
+
+.container1 div{
+	display: flex;
+	flex-direction: column;
+}
+
+.button{
+	display: flex;
+	flex-direction: column;	
+}
+
 
 /*Features & About*/
 .firstBlock{
