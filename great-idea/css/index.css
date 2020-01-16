@@ -67,11 +67,11 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 /* Not sure if I need this */
-/* body{
+body{
 	width: auto;
 	font-size: 20px;
 	padding:2% 5% 2% 5%;
-} */
+}
 
 /* Navigation Bar */
 .navigation {
@@ -89,6 +89,12 @@ h1, h2, h3, h4, h5 {
 	border-right: 1px solid black;
 	font-family: 'Lobster', cursive;
 	background-image: url(https://images.unsplash.com/photo-1579063300556-dc4d0ae930cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2594&q=80);
+	text-decoration: none;
+}
+
+/* Keeps the text color pink after being visited */
+.navigation a:visited{
+	color: pink;
 }
 
 .navigation a:hover{
