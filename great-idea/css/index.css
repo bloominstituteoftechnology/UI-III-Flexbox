@@ -79,6 +79,10 @@ body{
 	/* padding:2% 5% 2% 5%; */
 }
 
+header, section, footer{
+	margin: 0 2% 0% 2%;
+}
+
 /* Navigation Bar */
 .navigation {
 	color: gray;
@@ -102,9 +106,9 @@ body{
 	justify-content: center;
 }
 
-/* Keeps the text color pink after being visited */
-.navigation a:visited{
-	color: pink;
+/* Keeps the text color gray after being visited */
+.navigation a:visited, .navigation a:visited	{
+	color: gray;
 }
 
 .navigation a:hover{
@@ -118,29 +122,57 @@ body{
 }
 
 /* Nav bar image*/
-.logo{
-	
+.logo{	
 	width: 8%;
 	position: relative; 
 }
+
 /* Header */
 /*Innovation On Demand & image*/
+header{
+	display: flex;
+	justify-content: center;
+	/* Added padding to the top to keep the nav bar from overlapping with the header */
+	padding-top: 2%;
+	padding-bottom: .5%;
+}
+
+.container1 p{
+	font-size: 15px;
+	height: 10%;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	/* flex-direction: column;	 */
+}
+
 .container1{
-	width: 50%;
 	text-align: center;
-	font-size: 90px;
+	font-size: 75px;
+	width: 20%;
+	display: flex;
+}
+
+.container1 h1{
+	width: 100%;
+	height: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* flex-direction: column;	 */
 }
 
 .container2{ 
-	width: auto;	
-	margin-top: 5%;
+	width:auto;
+	display: flex;
 }
 
-
 /*Features & About*/
-/* WHY DO I HAVE TO SET WIDTH TO 49.8% TO GET EVERYTHING EVEN?*/
-.firstBlock div{
-	
+.firstBlock{
+	display: flex;
+}
+
+.firstBlock div{	
 	width: 49.8%;
 	margin-top: 4%;
 	padding-left: 3%; 
@@ -151,16 +183,22 @@ body{
 }
 
 /* Middle Image */
+.middleContainer{
+	display: flex;
+	justify-content: center;
+}
+
 .middle-img{
-	
-	width: 80%;
-	height: 150px;
 	margin: 2% 10% 2% 10%;
+	flex-grow: 1;
 }
 
 /*Services, product & vision*/
+.secondBlock{
+	display: flex;
+}
+
 .secondBlock div{
-	
 	width: 33%;
 	margin-bottom: 4%;
 	padding: 0% 1% 0% 1%;
@@ -178,3 +216,8 @@ body{
 footer{
 	text-align: center;
 }
+
+
+
+/* Questions */
+/* My nav bar was overlapping my header. How do I prevent that from happing? I added padding to the top of the header to prevent the overlapping. Is there another solution? */
