@@ -3,64 +3,344 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 
 /* Set every element's box-sizing to border-box */
+
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* max-width: 100%;*/
+    border: 1px solid grey;
 }
 
-html, body {
+html,
+body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: "Titillium Web", sans-serif; */
+
+    font-family: 'Gayathri', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    /* font-family: "Bangers", cursive;*/
+    font-family: 'Gayathri', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Your code starts here! */
+
+
+
+/* nav {
+    display: inline-block;
+    border: 3px dashed aqua;
+    width: auto%;
+    padding: 0;
+    margin: 0;
+    background-color: darkgreen;
+} */
+
+
+section {
+    padding: 2% 5%;
+}
+
+/*
+nav #navlogo {
+    width: 20%;
+    display: inline-block;
+
+}
+*/
+
+#navLogo img {
+    display: inline-block;
+    width: 20%;
+
+}
+
+#links {
+    display: inline-block;
+    width: 100%;
+
+}
+
+#home nav {
+    width: 100%;
+/*    margin: 20px;*/
+/*    padding: 20px;*/
+    font-size: 32px;
+    position: fixed;
+
+    background-color: greenyellow;
+}
+
+#links a {
+    padding: 0 5%;
+}
+
+
+#innoQuote {
+    width: 49%;
+    height: 280px;
+    display: inline-block;
+
+
+}
+
+.word {
+    font-size: 95px;
+}
+
+#circleImg {
+    widows: 49%;
+    display: inline-block;
+
+}
+
+#topSection {
+
+    text-align: center;
+    /* display: inline-block; 
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    padding-top: 20%*/
+
+
+}
+
+/*#innoQuote, #circleImg {
+    display: inline-block;
+}
+*/
+
+/*.doubleSection div {
+    background-color: gray;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    display: inline;
+
+}
+*/
+
+/*
+.tripleSection div {
+    background-color: khaki;
+    width: 30%;
+}
+*/
+
+a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: grey;
+}
+
+div {
+    padding: 20px;
+}
+
+.button {
+    display: block;
+    margin: 0 39%;
+    font-size: 55px;
+}
+
+
+.button:hover {
+    background-color: grey;
+    color: deepskyblue;
+}
+
+#innoQuote h1 {
+    color: black;
+
+}
+
+#doubleSection #features {
+
+    display: inline-block;
+    width: 49%;
+    font-size: 33px;
+
+}
+
+#doubleSection #about {
+
+    display: inline-block;
+    width: 49%;
+    font-size: 33px;
+}
+
+.middle-img {
+    width: 100%;
+    display: inline-block;
+
+}
+
+.middle-img img {
+
+    padding: 0;
+    width: 100%;
+}
+
+#container div {
+    display: inline-block;
+    width: 33%;
+    font-size: 33px;
+}
+
+address {
+    padding: 2% 5%;
+    margin-left: 2em;
+}
+
+footer {
+    padding: 2% 5%;
+    text-align: center;
+
+}
