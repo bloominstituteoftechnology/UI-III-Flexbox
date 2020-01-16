@@ -63,6 +63,12 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* Your code starts here! */
 
@@ -70,26 +76,30 @@ h1, h2, h3, h4, h5 {
 body{
 	width: auto;
 	font-size: 20px;
-	padding:2% 5% 2% 5%;
+	/* padding:2% 5% 2% 5%; */
 }
 
 /* Navigation Bar */
 .navigation {
 	color: gray;
-	width: 89.8%;
+	width: 100%;
 	background-color: #F5F5F5;
+	/* Allows the nav bar to scroll with the page */
 	position: fixed;
-	border: 1px solid black;	
+	border: 1px solid black;
+	display: flex;
+	height: 1.5em;	
 }
 
 .navigation a{
-	display: inline-block;
-	width: 14%;
+	width: 18%;
 	border-top: 1px solid black;
 	border-right: 1px solid black;
 	font-family: 'Lobster', cursive;
 	background-image: url(https://images.unsplash.com/photo-1579063300556-dc4d0ae930cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2594&q=80);
 	text-decoration: none;
+	display: flex;
+	justify-content: center;
 }
 
 /* Keeps the text color pink after being visited */
@@ -103,30 +113,26 @@ body{
 }
 
 #link1{
-	margin-right: .25%;
+	/* margin-right: .25%; */
 	/* fixed missing gap between "servies" and "product" */
 }
 
 /* Nav bar image*/
 .logo{
-	display: inline-block;
+	
 	width: 8%;
-	margin-left: 4%;
 	position: relative; 
-	top: 7px;
 }
-
-/* Header "Innovation On Demand & image*/
+/* Header */
+/*Innovation On Demand & image*/
 .container1{
-	width: 50%	;
-	display: inline-block;
+	width: 50%;
 	text-align: center;
 	font-size: 90px;
 }
 
 .container2{ 
-	width: auto;
-	display: inline-block;
+	width: auto;	
 	margin-top: 5%;
 }
 
@@ -134,7 +140,7 @@ body{
 /*Features & About*/
 /* WHY DO I HAVE TO SET WIDTH TO 49.8% TO GET EVERYTHING EVEN?*/
 .firstBlock div{
-	display: inline-block;
+	
 	width: 49.8%;
 	margin-top: 4%;
 	padding-left: 3%; 
@@ -146,7 +152,7 @@ body{
 
 /* Middle Image */
 .middle-img{
-	display: inline-block;
+	
 	width: 80%;
 	height: 150px;
 	margin: 2% 10% 2% 10%;
@@ -154,7 +160,7 @@ body{
 
 /*Services, product & vision*/
 .secondBlock div{
-	display: inline-block;
+	
 	width: 33%;
 	margin-bottom: 4%;
 	padding: 0% 1% 0% 1%;
