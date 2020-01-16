@@ -85,7 +85,7 @@ header {
 	justify-content: space-between;
 }
 
-/* Navbar styling */
+/* Navbar */
 
 nav {
 	
@@ -96,6 +96,7 @@ nav {
 	align-items: center;
 	margin:15px;
 	margin-bottom: 10px;
+	padding-top:15px; ;
 }
 nav a {
 	text-decoration: none;
