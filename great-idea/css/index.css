@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -64,3 +65,122 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/**{
+	border: 2px solid red;
+}
+/* Body styling */
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Header styling  */
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Navbar */
+
+nav {
+	
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin:15px;
+	margin-bottom: 10px;
+	padding-top:15px; ;
+}
+nav a {
+	text-decoration: none;
+	color:grey;
+	font-size: 100%;
+}
+
+/* Hero image styling */
+
+#hero {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+;
+}
+
+#hero div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	font-size: 500%;
+	text-align: center;
+	margin:15% 0 0 0;
+	
+}
+h2 {
+	border: solid black 3px;
+	font-family: 'Titillium Web', sans-serif;
+	width: 55%;
+	padding: 3% 5%;
+	text-align: center;
+	margin: 25px;
+}
+
+/* Main content area styling */
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#features {
+	width: 90%;
+	border-top: black 1px solid;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	padding-top: 20px;
+	
+}
+#features div {
+	width: 45%;
+	
+}
+
+.largeimg{
+	width: 90%;
+}
+#services {
+	width: 90%;
+	border-bottom: black 1px solid;
+	display: flex;
+	justify-content: space-between;
+	margin:30px;
+	padding-bottom: 20px;
+
+}
+#services div {
+	width: 29%;
+}
+
+/* Footer  */
+
+footer {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+}
+
+#copyright {
+	align-self: center;	
+}
