@@ -268,4 +268,21 @@ footer{
 
 .containerThree{
 	padding-top: 3%;
+	display: flex;
+}
+
+#list{
+	list-style-type: square;
+}
+
+#list li{
+	line-height: 1.5;
+}
+
+.listContainer{
+	padding-left: 2.5%;
+}
+
+.subContainerThree{
+	width: 65%;
 }
