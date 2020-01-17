@@ -64,3 +64,340 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Header*/
+
+
+
+Header{
+	text-align: left;
+	display:flex;
+	align-items: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	
+}
+
+	.links{
+		display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  width:60%;
+	}
+	
+	a{
+		margin-right:0;
+		color: grey;
+		margin-left: 7%;
+	}
+	
+	
+	h1{
+		font-size: 80px;
+		text-align: left;
+		margin-left: 20%;
+	}
+	
+	button{
+		text-align:center;
+		  padding:2% 1%;
+		  display: flex;
+		  justify-items: right;
+		  font-size: 30%;
+		  margin-left: 10%;
+		}
+	
+	
+	#Top .container{
+		display:flex;
+		justify-content: space-around;
+		align-items: center;
+		padding-top: 3%;
+		}
+	#Top .container div p{
+			text-align: left;
+			width: 40%;
+			
+			 }
+	
+	#Bottom .container{
+		display:flex;
+		justify-content: space-around;
+		align-items: center;
+
+			}
+	
+	#Bottom .container div p{
+		text-align:left;
+		width: 40%;
+		padding-bottom: 10%;
+		
+	}
+	
+	
+	
+	#Contact .container{
+		display:flex;
+		justify-content:left;
+
+
+		}
+	#Contact .container div p{
+		text-align:left;
+		width: 70%;
+	  }
+	
+	footer{
+		padding: 10%;
+		text-align: center;
+	}
+	
+	
+	.logo{
+		margin-left: 15%;
+		margin-top: 1%;
+		padding:1%;
+	
+	}
+	.middle-img{
+		display: flex;
+		margin-left: 10%;
+		margin-right: auto;
+		width: 50%;
+		padding: 3%;
+	}
+	.code-img{
+		display: flex;
+		justify-items: right;
+		padding-left: 10%;
+	}
+	/*-------------------------------------------------------------------------------------------------*/
+	
+	.links a{
+		display:flex;
+  		justify-content:space-evenly;
+  		text-align:center;
+		  width:90%;
+		  text-decoration: none;
+		  margin-left: 20%;
+	}
+
+	h1  {
+	shape-margin: 6%;
+	font-size: 120%;
+
+	}
+
+	.container-1 {
+		text-align:center;
+		width:100%;
+		
+	}
+	
+	#services .header{
+		display:flex;
+		  justify-content:space-around;
+		  padding: 2%;
+		
+
+	}
+	#services .header p{
+		display:flex;
+		  justify-content:space-around;
+	}
+	#services .header div{
+		text-align:left;
+		
+		width:50%;
+		
+	}
+
+
+
+	.container-1 p{
+		text-align: left;
+		width: 50%;
+		max-width: 100%;
+	}
+
+
+
+
+	#Product h3{
+		text-align: justify;
+		padding:0;
+	}
+
+	#Product h4{
+		text-align: justify;
+		padding: 0%;
+	}
+	
+	#Product .container-2{
+		display:flex;
+		  justify-content:space-around;
+		  padding: 3%;
+	}
+	
+	#Product .container-2 div{
+		text-align:left;
+		width:25%;
+		
+	}
+
+	#Product .container-2 div p{
+		text-align:justify;
+		
+	}
+
+
+	#vision h3{
+		text-align: justify;
+		padding:0;
+	}
+	#vision h4{
+		text-align: justify;
+		padding:0;
+	}
+
+	#vision .container-3{
+		display:flex;
+		  justify-content:space-around;
+		  padding: 3%;
+	}
+	#vision .container-3 div{
+		text-align:left;
+		width:25%;
+	}
+	#vision .container-3 div p{
+		text-align:justify;
+	}
+
+	#feaures h3{
+		text-align: justify;
+		padding:0;
+		}
+
+	#features h4{
+		text-align: justify;
+		padding:0;
+	}
+
+	#features .container-4{
+		display:flex;
+		justify-content:space-around;
+		padding: 2%;
+		margin:0 auto;
+	}
+			
+	#features .container-4 div{
+		text-align:left;
+		width:25%;
+	}	
+	#features .container-4 div p{
+		text-align:justify;
+	}	
+
+	#about h3{
+		text-align: left;
+	}
+	#about .container-5{
+		display:flex;
+		justify-content: space-between;
+}
+	#about .container-5 div{
+		margin-right: 50%;
+		margin: 0% 20%;
+		width:20%;
+}
+
+	#contact .contact{
+		display:flex;
+		justify-content: space-evenly;
+		margin: 0 auto;
+	}
+
+	
+	#contact .contact div{
+		margin: 0% 10%;
+		margin-right: 50%;
+		margin-top: -20%;
+		width:10%;
+}
+
+.box-header h1{
+	margin: 0 auto;
+}
+
+
+
+
+ul {
+	list-style: square inside url("sqpurple.gif");
+  }
+
+  img .service-header-img{
+	  object-position: right;
+  }
+
+
+
+.container-2-1{
+	border: 2px solid grey;
+	padding: 2%;
+}
+.container-2-2{
+	border: 2px solid grey;
+	padding: 2%;
+}
+.container-3-1{
+	border: 2px solid grey;
+	padding: 2%;
+}
+.container-3-2{
+	border: 2px solid grey;
+	padding: 2%;
+}
+.container-4-1{
+	border: 2px solid grey;
+	padding: 2%;
+}
+.container-4-2{
+	border: 2px solid grey;
+	padding: 2%;
+}
+
+button{
+	font-size: 100%;
+	margin-top: 5%;
+}
+#services.container-1.service-header-img {
+	max-width:50%;
+	height: auto;
+  }
+  .box{
+	width: 80%;
+	  margin: 0 auto;
+  }
+  .box2{
+	  width: 80%;
+	  margin: 0 auto;
+
+  }
+
+.box3{
+	width: 20%;
+	margin: 0 auto;
+
+}
+
+  footer p{
+	  margin-top: 10%;
+  }
+
+
+
+
+
+
+
+
