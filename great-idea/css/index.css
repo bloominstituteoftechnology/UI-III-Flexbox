@@ -64,3 +64,219 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	margin: 5% 10% 5% 10%;
+	background-color: white;
+}
+
+div{
+	/* border: 1px solid black; */
+}
+
+nav {
+	/* border: 1px solid black; */
+	}
+
+nav a{
+	/* border: 1px solid black; */
+	color: gray;
+	}
+
+.links{
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.links2{
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+
+.title{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	max-width: 100%;
+}
+
+.title-box{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 49%;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.title-box h1{
+	font-size: 70px;
+	/* border: 1px solid black; */
+	text-align: center;
+}
+
+.title-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:50%;
+}
+
+.row1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.features{
+	width:49.5%;
+	padding-right: 1%;
+}
+
+.about{
+	width:49.5%;
+	padding-right: 1%;
+}
+
+.middle-img, .mid-img{
+	width:100%;
+}
+
+.row2{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.services{
+	width:33%;	
+	padding-right: 2%;
+}
+
+.product{
+	width:33%;
+	padding-right: 2%;
+}
+.vision{
+	width:33%;
+	padding-right: 2%;
+}
+
+.contact{
+	width:100%;
+	text-align: left;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.copyright{
+	width:100%;
+	text-align: center;
+}
+
+footer{
+	height: 10%;
+}
+
+
+/* SERVICES style sheet */
+
+.services2{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.middle-img2, .mid-img2{
+	width:100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.blocks{
+	display:flex;	
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: center;
+	height: 700px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.digital-design{
+	width:47%;
+	background-color:lightgrey;
+	border:1px solid black;
+	padding: 2%;
+}
+
+.ux{
+	width:47%;
+	background-color:lightgrey;
+	border:1px solid black;
+	padding: 2%;
+}
+
+.digital-marketing{
+	width:47%;
+	background-color:lightgrey;
+	border:1px solid black;
+	padding: 2%;
+}
+
+.web-development{
+	width:47%;
+	background-color:lightgrey;
+	border:1px solid black;
+	padding: 2%;
+}
+	
+.ios-development{
+	width:47%;
+	background-color:lightgrey;
+	border:1px solid black;
+	padding: 2%;
+}
+
+.android-development{
+	width:47%;
+	background-color:lightgrey;
+	border:1px solid black;
+	padding: 2%;
+}
+
+button{
+	border:1px solid black;
+	background-color: white;
+	padding: 2%;
+	border-radius: 10px;
+}
+
+.facts{
+	display:flex;
+	justify-content: space-between;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+.facts-text{
+	width:47%;
+	/* border:1px solid black; */
+}
+.facts-image{
+	width:47%;
+	/* border:1px solid black; */
+}
+
+.services-info-img{
+	width:100%;
+}
