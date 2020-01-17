@@ -221,32 +221,36 @@ h3 {
 }
 
 
-/*
+
 .bottom-content {
-	width: 70%;
-	display: inline-block;
-	margin-left: 10%;
-	position: relative;
-	top: 5%;
-	right: 70px;
+	width: 100%;
+    word-spacing: 20px;
+    
+    font-size: xx-large;
+    display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-evenly;
+	margin-top: 5%;
+	margin-bottom: 5%;
 	
 	
 }
 
 #services {
 	width: 33%;
-	display: inline-block;
+	
 	font-size: 25px;
 	
 }
 #product {
 	width:33%;
-	display: inline-block;
+	
 	font-size: 25px;
 }
 #vision {
 	width: 33%;
-	display: inline-block;
+	
 	font-size: 25px;
 }
 .contact {
@@ -255,4 +259,4 @@ h3 {
 #footer {
 	text-align: center;
 	Margin: 10% 10%;
-}*/
+}
