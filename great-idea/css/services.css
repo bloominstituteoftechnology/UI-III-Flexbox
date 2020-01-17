@@ -66,35 +66,105 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	max-width: 900px;
-	margin: 20px auto;
+	background: black;
+}
+
+.page_content {
+	max-width: 1000px;
+	margin: 0px auto;
+	padding: 0px 60px;
+	font-weight: 500;
+	background: white;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: 500px;
 }
 
+h3 {
+	font-size: 18px;
+}
+
+/* nav */
 .navigation {
+	padding-top: 40px;
 	display: flex;
 	justify-content: space-around;
-	border: 1px red solid;
-	height: 100px;
-	display: fixed;
 }
 
 .navigation .box {
-	
-
+	width: 12.5%;
 }
 
 .navigation .box a {
 	text-decoration: none;
 	color: grey;
-	font-weight: 500;
+}
+
+.navigation .box img {
+	height: 80px;
 }
 
 .services-header-img {
 	width: 100%;
-	padding: 20px 0px;
+	padding: 15px 0px 30px 0px;
+}
+
+/* Header */
+header {
+	line-height: 1.25;
+}
+
+/* top */
+.top-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.top-content .box {
+	border: 1px black solid;
+	width: 46%;
+	background: rgba(0,0,0,0.05);
+	margin: 20px 0px;
+	padding: 20px 18px;
+	line-height: 1.25;
+}
+
+.top-content .box button {
+	background: white;
+	color: black;
+	margin: 12.5px 0px 5px 0px;
+	padding: 10px 40px;
+	font-size: 11px;
+	box-shadow: none;
+	border-radius: 10px;
+	border: 1px black solid;
+}
+
+/* bottom */
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-content .box {
+	height: 300px;
+	width: 40%;
+}
+
+.services-info-img {
+	width: 100%;
+}
+
+.bottom-content .box ul {
+	margin-left: 20px;
+	list-style-type: square;
+	line-height: 1.5;
+}
+
+footer {
+	text-align: center;
+	padding: 100px 0px 15px 0px;
 }
