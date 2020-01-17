@@ -219,11 +219,37 @@ footer{
 	/* border: 2px solid black !important; */
 }
 
+/* header, section, footer{
+	margin: 0% 5% 0% 5%;
+} */
+
 .services-header-img{
 	display: flex;
 	flex-grow: 1;
+	
 }
 
-.servicesHeader{
-	margin: 0% 5% 0% 5%;
+.containerOne{
+	padding-bottom: 2%;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+} 
+
+.containerOne h1{
+	font-size: 25px;
+}
+
+.containerTwo{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	padding: 2% 0% 2% 0%;
+	border-bottom: 1px solid black;
+}
+
+.containerTwo div{
+	border: 1px solid black;
+	background-color: snow;
+	flex-basis: 49%;
 }
