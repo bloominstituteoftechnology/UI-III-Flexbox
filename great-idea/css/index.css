@@ -337,15 +337,22 @@ div {
     display: flex;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
-    justify-content: flex-start;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
 }
 
 #features {
-    width: 49%;
+    -ms-flex-preferred-size: 49%;
+    flex-basis: 100%;
     font-size: 33px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-items: space-between;
 
 }
 
@@ -355,8 +362,8 @@ div {
     font-size: 33px;
 }
 
-.middle-img {
-    width: 100%;
+.middle-img  img{
+       width: 100%;
 }
 
 /*
@@ -378,8 +385,10 @@ div {
 }
 
 address {
+/*
     padding: 2% 5%;
     margin-left: 2em;
+*/
 }
 
 footer {
