@@ -240,6 +240,7 @@ footer{
 	font-size: 25px;
 }
 
+/* Main Container for all services */
 .containerTwo{
 	display: flex;
 	flex-flow: wrap;
@@ -250,6 +251,9 @@ footer{
 
 .containerTwo div{
 	border: 1px solid black;
-	background-color: snow;
-	flex-basis: 49%;
+	background-color: #DCDCDC;
+	flex-basis: 48%;
+	padding: 1%;
+	margin: 1% 0% 1% 0%;
+	height: 300px;	
 }
