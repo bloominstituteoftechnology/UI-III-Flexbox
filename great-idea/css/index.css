@@ -27,7 +27,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+}   
 body {
 	line-height: 1;
 }
@@ -64,3 +64,152 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*Nav */
+a {
+	text-decoration: none;
+	color: grey;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+ 
+
+/* header*/
+
+
+/*middle*/
+.top{
+	display: flex;
+	margin: 10%;
+	border-top: solid;
+}
+.features{
+	margin:5%;
+}
+.about{
+	margin:5%;
+}
+
+.middle-img{
+	display:flex;
+	align-items: center;
+	margin-left: 20%;
+}
+.bottom{
+	display: flex;
+	border-bottom: solid;
+	margin: 5%;
+}
+.services{
+	margin:5%;
+}
+.product{
+	margin:5%;
+}
+.vision{
+	margin:5%;
+}
+
+
+/*contact*/
+ address{
+	display: flex;
+	margin: 5%;
+}
+.contact{
+	margin: 5%;
+}
+
+
+
+/*Footer*/
+
+footer{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+
+/* Services CSS*/
+
+/*header*/
+.services-header-img{
+	display:flex;
+	align-items: center;
+	margin-left: 20%;
+}
+h2{
+	font-size: 40px;
+}
+.h2services{
+	margin: 10%;
+}
+
+/* Section Middle*/
+
+.first{
+	display:flex;
+	justify-content:center;
+	margin: 5%;
+}
+.first div{
+	width: 500px;
+	height: 300px;
+}
+.left{
+	background-color: grey;
+	border: solid;
+	padding: 3%;
+	margin-right: 10%;
+}
+.right{
+	background-color:grey;
+	border:solid;
+	padding: 3%;
+	margin-left: 10%;
+
+}
+
+.learn{
+	border: solid 1px;
+	margin-top: 5%;
+	width: 100px;
+	background-color: white;
+	padding:1%;
+}
+
+#line1{
+	border-top: solid;
+	border-bottom: solid;
+}
+
+
+/*Bottom*/
+.facts{
+	margin-left:10%;
+}
+ul {
+	list-style-type: square;
+	margin-top: 5%;
+  }
+  li{
+	  margin-bottom: 10px;
+  }
+
+  .factsbottom{
+	  display: flex;
+	  justify-content:center;
+	  margin: 5%;
+  }
+
+  .services-info-img{
+	  margin-left:10%;
+  }
+  .leftfacts{
+	  margin-right: 10%;
+  }
+  
