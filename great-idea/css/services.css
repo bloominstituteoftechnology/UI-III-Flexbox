@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+/*	vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+h2{
+    font-size: 60px;
+    margin: 30px 0px;
+}
+
+p1{
+    font-size: 30px;
+    margin: 30px 0px;
+    
+}
+
+h3{
+    font-size:35px;
+}
+
+p2{
+    font-size:30px;
+}
+
+p3{
+    font-size:30px;
+}
+
+
+header{
+    margin: 50px;
+    border-bottom: 2px solid black;
+}
+
+header nav{
+	display:flex;
+	justify-content: space-around;
+	justify-items: space-around;
+    width: 100%;
+    margin:20px;
+}
+
+
+header nav a{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	font-size: 30px;
+	color:cadetblue;
+
+}
+
+header div{
+    display:flex;
+    flex-direction:column;
+}
+
+.center{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-content: space-around;
+    justify-items: center;
+    margin: 30px;
+    
+}
+
+button{
+    font-size: 20px;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+
+}
+
+.digital{
+    display:flex;
+    border:2px solid black;
+    width: 40%;
+    flex-direction:column;
+    align-items: center;
+    margin: 40px;
+    background-color: azure;
+
+    
+    
+}
+
+.ux{
+    display:flex;
+    border:2px solid black;
+    width: 40%;
+    flex-direction:column;
+    align-items: center;
+    background-color: azure;
+    margin: 40px;
+}
+
+
+.marketing{
+    display:flex;
+    border:2px solid black;
+    width: 40%;
+    flex-direction:column;
+    align-items: center;
+    background-color: azure;
+    margin: 40px;
+}
+
+.web{
+    display:flex;
+    border:2px solid black;
+    width: 40%;
+    flex-direction:column;
+    align-items: center;
+    background-color: azure;
+    margin: 40px;
+}
+
+.ios{
+    display:flex;
+    border:2px solid black;
+    width: 40%;
+    flex-direction:column;
+    align-items: center;
+    background-color: azure;
+    margin: 40px;
+}
+
+
+.android{
+    display:flex;
+    border:2px solid black;
+    width: 40%;
+    flex-direction:column;
+    align-items: center;
+    background-color: azure;
+    margin: 40px;
+}
+
+
+.foot{
+    border-top: 2px solid black;
+    margin:60px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.foot div{
+    display:flex;
+    flex-direction:column;
+    width:45%;
+}
+
+.foot img{
+    display:flex;
+
+}
+
+.foot ul{
+    list-style: disc;
+    margin: 30px;
+    font-size: 30px;
+}
