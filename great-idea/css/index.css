@@ -3,64 +3,469 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {}
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 
 /* Set every element's box-sizing to border-box */
+
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* max-width: 100%;*/
+    border: 1px solid grey;
 }
 
-html, body {
+html,
+body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: "Titillium Web", sans-serif; */
+
+    font-family: 'Gayathri', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    /* font-family: "Bangers", cursive;*/
+    font-family: 'Gayathri', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Your code starts here! */
+
+
+
+/* nav {
+    display: inline-block;
+    border: 3px dashed aqua;
+    width: auto%;
+    padding: 0;
+    margin: 0;
+    background-color: darkgreen;
+} */
+
+
+/*
+section {
+    padding: 2% 5%;
+}
+*/
+
+/*
+nav #navlogo {
+    width: 20%;
+    display: inline-block;
+
+}
+*/
+
+#navLogo img {
+    width: 20%;
+
+}
+
+
+
+/*
+
+#links {
+    display: inline-block;
+    width: 100%;
+
+}
+*/
+
+#navBar {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: inline-block;
+    flex-basis: 100%;
+    margin: 0px;
+    padding: 10px;
+    font-size: 28px;
+    position: fixed;
+    background-color: greenyellow;
+}
+
+/*
+
+#innoQuote {
+    width: 49%;
+    height: 280px;
+}
+
+.word {
+    font-size: 95px;
+}
+
+#circleImg {
+    widows: 49%;
+}
+*/
+
+#demand {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+
+    -ms-flex-preferred-size: 60%;
+
+    flex-basis: 60%;
+
+}
+
+/*
+
+#topSection {
+
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: space-between;
+    
+*/
+
+/* display: inline-block; 
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    padding-top: 20%*/
+
+
+/*#innoQuote, #circleImg {
+    display: inline-block;
+}
+*/
+
+/*.doubleSection div {
+    background-color: gray;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    display: inline;
+
+}
+*/
+
+/*
+.tripleSection div {
+    background-color: khaki;
+    width: 30%;
+}
+*/
+/*
+
+a {
+    padding: 15px;
+    text-decoration: none;
+    color: grey;
+}
+*/
+
+/*
+div {
+    padding: 20px;
+}
+*/
+
+.button {
+    display: block;
+    margin: 0 25%;
+    font-size: 40px;
+}
+
+
+.button:hover {
+    background-color: grey;
+    color: deepskyblue;
+}
+
+#innoQuote h1 {
+    color: black;
+}
+
+#demand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+#doubleSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+#features {
+    -ms-flex-preferred-size: 49%;
+    flex-basis: 100%;
+    font-size: 33px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-items: space-between;
+
+}
+
+#about {
+
+    width: 49%;
+    font-size: 33px;
+}
+
+.middle-img img {
+    width: 100%;
+}
+
+/*
+
+.middle-img img {
+
+    padding: 0;
+    width: 100%;
+}
+*/
+
+#container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    font-size: 33px;
+}
+
+address {
+    /*
+    padding: 2% 5%;
+    margin-left: 2em;
+*/
+}
+
+footer {
+    padding: 2% 5%;
+    text-align: center;
+
+}
+
+
+/*
+
+SERVICES PAGE
+
+
+*/
+
+
+
+#servHeadImg {
+    flex-basis: 100%;
+
+}
+
+#servDigUI {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: black 3px dashed;
+
+}
+
+#servDigUI div {
+    flex-basis: 50%;
+    border: 3px aqua outset;
+    align-content: space-around;
+}
+
+/* 
+#servDigUI  div {
+    display: flex;
+    border: 3px solid aqua;
+    padding: 0;
+    margin: 0;
+    /* align-items: center;
+    justify-items: center; */
+}
+
+*/ #servDigWeb {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: black 3px dashed;
+
+}
+
+#servIOSAnd {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: black 3px dashed;
+
+}
+
+#servFacts {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: black 3px dashed;
+}
+
+#servDigMark div {
+    display: flex;
+    border: 3px outset royalblue;
+
+
+}
