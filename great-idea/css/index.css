@@ -199,6 +199,8 @@ nav #navlogo {
 
 }
 
+
+
 /*
 
 #links {
@@ -209,14 +211,16 @@ nav #navlogo {
 */
 
 #navBar {
+
     display: -webkit-box;
+
     display: -ms-flexbox;
-    display: flex;
-    -ms-flex-preferred-size: 100%;
+
+    display: inline-block;
     flex-basis: 100%;
-    margin: 20px;
-    padding: 20px;
-    font-size: 35px;
+    margin: 0px;
+    padding: 10px;
+    font-size: 28px;
     position: fixed;
     background-color: greenyellow;
 }
@@ -340,10 +344,10 @@ div {
     -webkit-box-align: center;
     -ms-flex-align: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
 }
 
 #features {
@@ -351,8 +355,8 @@ div {
     flex-basis: 100%;
     font-size: 33px;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-items: space-between;
+    -ms-flex-pack: center;
+    justify-items: space-between;
 
 }
 
@@ -362,8 +366,8 @@ div {
     font-size: 33px;
 }
 
-.middle-img  img{
-       width: 100%;
+.middle-img img {
+    width: 100%;
 }
 
 /*
@@ -385,7 +389,7 @@ div {
 }
 
 address {
-/*
+    /*
     padding: 2% 5%;
     margin-left: 2em;
 */
@@ -394,5 +398,74 @@ address {
 footer {
     padding: 2% 5%;
     text-align: center;
+
+}
+
+
+/*
+
+SERVICES PAGE
+
+
+*/
+
+
+
+#servHeadImg {
+    flex-basis: 100%;
+
+}
+
+#servDigUI {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: black 3px dashed;
+
+}
+
+#servDigUI div {
+    flex-basis: 50%;
+    border: 3px aqua outset;
+    align-content: space-around;
+}
+
+/* 
+#servDigUI  div {
+    display: flex;
+    border: 3px solid aqua;
+    padding: 0;
+    margin: 0;
+    /* align-items: center;
+    justify-items: center; */
+}
+
+*/ #servDigWeb {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: black 3px dashed;
+
+}
+
+#servIOSAnd {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: black 3px dashed;
+
+}
+
+#servFacts {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: black 3px dashed;
+}
+
+#servDigMark div {
+    display: flex;
+    border: 3px outset royalblue;
+
 
 }
