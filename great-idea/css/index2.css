@@ -1,0 +1,343 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Home page */
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.nav-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box {
+    margin: 2em auto;
+    width: 20%;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+.box img {
+    margin-top: -10px;
+}
+
+
+@keyframes opacityFlash {
+    0%      {opacity: 1;}
+    25%     {opacity: 0.8;}
+    50%     {opacity: 0.6;}
+    75%     {opacity: 0.4;}
+    100%    {opacity: 0.2;}
+
+}
+
+.nav-wrapper a:hover {
+    opacity: 1;
+    animation: opacityFlash 1s infinite linear alternate;
+    animation-delay: 1s;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ h1 {
+    font-size: 80px;
+    padding: 0em;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+header a {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 5em;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width: 12%;
+    text-align: center;
+}
+
+header a:hover {
+    background-color: grey;
+    animation: opacityFlash 1s infinite linear alternate;
+    animation-delay: 1s;
+}
+
+.top-content {
+    display: flex;
+    margin-top: 2em;
+    border-top: 1px solid black;
+    justify-content: space-between;
+    letter-spacing: 1.5px;
+
+}
+
+.left {
+    margin: 2em auto;
+    width: 50%;
+    height: 20%;
+}
+
+.right {
+    margin: 2em auto;
+    width: 50%;
+    height: 20%;
+}
+
+.middle-img {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 1px;
+}
+
+.bottom-c {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    justify-content: space-between;
+    letter-spacing: 1.5px;
+}
+
+.middle {
+    margin: 0em auto;
+    width: 33%;
+    height: 20%;
+}
+ 
+.bleft {
+    margin: 0em auto;
+    width: 33%;
+}
+
+.bright {
+    margin: 0em auto;
+    width: 33%;
+}
+
+.contact {
+    border-top: 1px solid black;
+}
+
+.contact h2 {
+    margin-top: 2em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 10em;
+}
+
+/*
+
+Services page
+
+----------------------------------------*/
+
+
+
+.services-header-img {
+    width: 100%;
+}
+
+.serviceheader h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+.serviceheader {
+    display: flex;
+    margin: 2em auto;
+}
+
+.serviceheader p {
+    letter-spacing: 1.5px;
+}
+
+
+.middle-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    border-top: 1px solid black;
+    letter-spacing: 1.5px;
+    margin-bottom: 3em;
+}
+
+.box1 {
+    margin-top: 2em;
+    width: 515px;
+    height: 250px;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #f0f0f0;
+}
+
+.box2 {
+    margin-top: 2em;
+    border: 1px solid black; 
+    width: 515px;
+    height: 250px;  
+    padding: 30px;
+    background-color: #f0f0f0;
+}
+
+.box3 {
+    margin-top: 2em;
+    width: 515px;
+    height: 250px;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #f0f0f0;
+}
+
+.box4 {
+    margin-top: 2em;
+    width: 515px;
+    height: 250px;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #f0f0f0;
+}
+
+.box5 {
+    margin-top: 2em;
+    width: 515px;
+    height: 250px;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #f0f0f0;
+}
+
+.box6 {
+    margin-top: 2em;
+    width: 515px;
+    height: 250px;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #f0f0f0;
+}
+
+.button  {
+    padding: 1em;
+    font-size: 12px;
+    border: 1px solid black;
+    width: 130px;
+    margin-top: 2em;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: grey;
+    color: white;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid black;
+}
+
+
+
+.bottom-text {
+    margin-top: 2em;
+    width: 515px;
+    height: 250px;
+    padding: 30px;
+}
+
+.services-info-img {
+    margin-top: 2em;
+}
