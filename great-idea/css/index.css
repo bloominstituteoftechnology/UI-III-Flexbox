@@ -171,7 +171,7 @@ img {
 	text-align: center;
 }
 /* button css settings */
-.content50 button {
+button {
 	background-color: white; 
 	border: 1px solid gray;
 	color: #355ba3;
@@ -181,7 +181,7 @@ img {
 	display: inline-block;
 	font-size: 16px;
 }
-.content50 button:hover {
+button:hover {
 	color: white;
 	background-color: #355ba3;
 }
