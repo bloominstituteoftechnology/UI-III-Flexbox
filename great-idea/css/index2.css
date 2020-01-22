@@ -67,12 +67,11 @@ h1, h2, h3, h4, h5 {
 
 .container {
     width: 80%;
-    height: auto;
     margin: 0 auto;
 }
 
 .nav-wrapper {
-    width: 100%;
+    width: 98%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -87,7 +86,12 @@ h1, h2, h3, h4, h5 {
 .box a {
     text-decoration: none;
     color: black;
-    opacity: 0.5;
+    opacity: 0.3;
+}
+
+#logo {
+    opacity: 1;
+    animation: none;
 }
 
 .box img {
@@ -112,32 +116,42 @@ h1, h2, h3, h4, h5 {
 
 
 
-header {
+.header-wrapper {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
 }
 
- h1 {
+.boxH {
+    width: 40%;
+    margin: 20px;
+    padding: 40px;
+}
+
+.boxH h1 {
     font-size: 80px;
-    padding: 0em;
-    margin: 0 auto;
-    position: relative;
     text-align: center;
 }
 
-header a {
+
+.buttonBox a {
+    margin-left: 220px;
+    margin-top: 160px;
+    border: 1px solid black;
+    width: 170px;
+    height: 35px;
+    padding: 8px 30px;
     position: absolute;
-    margin-top: 1em;
-    margin-left: 5em;
-    padding: 0.5em;
+    left: 7%;
+    top: 40%;
+    display: inline-block;
+    text-align: center;
     text-decoration: none;
     color: black;
-    border: 1px solid black;
-    width: 12%;
-    text-align: center;
 }
+
 
 header a:hover {
     background-color: grey;
@@ -154,7 +168,7 @@ header a:hover {
 
 }
 
-.left {
+.tcbox {
     margin: 2em auto;
     width: 50%;
     height: 20%;
@@ -180,21 +194,18 @@ header a:hover {
     letter-spacing: 1.5px;
 }
 
-.middle {
+.bcbox {
+    margin: 0em auto;
+    width: 33%;
+}
+
+.mbox {
     margin: 0em auto;
     width: 33%;
     height: 20%;
 }
  
-.bleft {
-    margin: 0em auto;
-    width: 33%;
-}
 
-.bright {
-    margin: 0em auto;
-    width: 33%;
-}
 
 .contact {
     border-top: 1px solid black;
@@ -202,6 +213,10 @@ header a:hover {
 
 .contact h2 {
     margin-top: 2em;
+}
+
+.contact a {
+    color: black;
 }
 
 footer {
@@ -216,10 +231,29 @@ Services page
 
 ----------------------------------------*/
 
+.nav-wrapper2 {
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.nav-wrapper2 a:hover {
+    opacity: 1;
+    animation: opacityFlash 1s infinite linear alternate;
+    animation-delay: 1s;
+}
 
 
 .services-header-img {
     width: 100%;
+}
+
+.serviceheader {
+    display: flex;
+    margin: 2em auto;
 }
 
 .serviceheader h1 {
@@ -228,17 +262,12 @@ Services page
     margin-bottom: 0.5em;
 }
 
-.serviceheader {
-    display: flex;
-    margin: 2em auto;
-}
-
 .serviceheader p {
     letter-spacing: 1.5px;
 }
 
 
-.middle-content {
+.mcWrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -249,7 +278,7 @@ Services page
     margin-bottom: 3em;
 }
 
-.box1 {
+.mcbox {
     margin-top: 2em;
     width: 515px;
     height: 250px;
@@ -258,57 +287,13 @@ Services page
     background-color: #f0f0f0;
 }
 
-.box2 {
-    margin-top: 2em;
-    border: 1px solid black; 
-    width: 515px;
-    height: 250px;  
-    padding: 30px;
-    background-color: #f0f0f0;
-}
-
-.box3 {
-    margin-top: 2em;
-    width: 515px;
-    height: 250px;
-    border: 1px solid black;
-    padding: 30px;
-    background-color: #f0f0f0;
-}
-
-.box4 {
-    margin-top: 2em;
-    width: 515px;
-    height: 250px;
-    border: 1px solid black;
-    padding: 30px;
-    background-color: #f0f0f0;
-}
-
-.box5 {
-    margin-top: 2em;
-    width: 515px;
-    height: 250px;
-    border: 1px solid black;
-    padding: 30px;
-    background-color: #f0f0f0;
-}
-
-.box6 {
-    margin-top: 2em;
-    width: 515px;
-    height: 250px;
-    border: 1px solid black;
-    padding: 30px;
-    background-color: #f0f0f0;
-}
 
 .button  {
     padding: 1em;
     font-size: 12px;
     border: 1px solid black;
-    width: 130px;
-    margin-top: 2em;
+    width: 140px;
+    margin-top: 2.5em;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
@@ -327,17 +312,43 @@ Services page
     flex-direction: row;
     justify-content: space-between;
     border-top: 2px solid black;
+    display: relative;
+    align-items: left;
 }
 
 
 
-.bottom-text {
+.bcbox2 {
+    width: 50%;
     margin-top: 2em;
     width: 515px;
     height: 250px;
-    padding: 30px;
+    letter-spacing: 1.5px;
+}
+
+
+.list {
+    width: 20%;
+    position: absolute;
+    top: 248%;
+    line-height: 2;
+    left: 11%;
 }
 
 .services-info-img {
-    margin-top: 2em;
+    display: block;
+    width: 100%;
+    height: 100%;
+    
 }
+
+.servicesFooter {
+    text-align: center;
+    margin: 1em;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: square;
+}
+
