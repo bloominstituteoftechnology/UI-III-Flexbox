@@ -132,7 +132,9 @@ img {
 /*Content holder */
 .content {
 	width: 100%;
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 /* divider line */
 .lineBottom {
@@ -144,7 +146,7 @@ img {
     vertical-align: middle;
     margin: 3%;
     width: 40%;
-    min-width: 150px;
+    min-width: 200px;
 }
 /* large lettering for website */
 .content50 header{
@@ -185,14 +187,19 @@ img {
 .content33 {
 	display: inline-block;
 	margin: 2.5%;
-	width: 31%
+	width: 25%;
+	min-width: 120px;
 }
 /* css for contact infor */
 .contact {
+	display: flex;
+	justify-content: flex-start;
 	margin: 2%;
+	
 }
 .contact p {
 	font-size: 14px;
+	min-width: 200px;
 }
 /*footer css */
 .footer {
