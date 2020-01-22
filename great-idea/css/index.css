@@ -86,7 +86,8 @@ img {
 	z-index: 1;
 	top: 0;
     margin: 0;
-    padding-top: 0;
+	padding-top: 0;
+	height: 60px;
 	width: 100%;
 	background-image: radial-gradient(farthest-corner at 20px 40px,
 	#355ba3 50%, #4c84b9 100%);
@@ -95,9 +96,9 @@ img {
 	list-style-type: none; 
 	margin: 0;
 	padding: 0;
-}
-.navBar li {
+	display: flex;
 	float: left;
+	align-items: flex-end;
 }
 .nav80 {
 	display: inline-block;
@@ -127,12 +128,13 @@ img {
 
 /*Main box to contain content behind navbar*/
 .main {
-	margin-top: 9%;
+	margin-top: 60px;
 }
 /*Content holder */
 .content {
 	width: 100%;
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
@@ -146,7 +148,6 @@ img {
     vertical-align: middle;
     margin: 3%;
     width: 90%;
-    min-width: 400px;
 }
 /* Content divider for 50% */
 .content50 {
@@ -154,7 +155,6 @@ img {
     vertical-align: middle;
     margin: 3%;
     width: 40%;
-    min-width: 200px;
 }
 /* large lettering for website */
 .content50 header{
@@ -199,7 +199,6 @@ button:hover {
 	display: inline-block;
 	margin: 2.5%;
 	width: 25%;
-	min-width: 120px;
 }
 /* Css for services boxes */
 .services {
@@ -210,7 +209,6 @@ button:hover {
 	display: inline-block;
 	margin: 2.5%;
 	width: 40%;
-	min-width: 120px;
 	border:  solid #355ba3;
 	border-width: 2px 4px 7px 3px;
 }
@@ -231,3 +229,20 @@ button:hover {
 	text-align: center;
 	font-size: 12px;
 }
+@media (max-width: 500px) {
+    .content {
+      flex-direction: column;
+	}
+	.content50 {
+		width: 100%;
+	}
+	.content100 {
+		width: 100%;
+	}
+	.content33 {
+		width: 100%;
+	}
+	.services {
+		width: 90%;
+	}
+  }
