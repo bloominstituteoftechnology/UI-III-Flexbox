@@ -127,7 +127,7 @@ img {
 
 /*Main box to contain content behind navbar*/
 .main {
-	margin-top: 80px;
+	margin-top: 9%;
 }
 /*Content holder */
 .content {
@@ -139,6 +139,14 @@ img {
 /* divider line */
 .lineBottom {
 	border-bottom: 1px solid black;
+}
+/* Content divider for 100% */
+.content100 {
+	display: inline-block;
+    vertical-align: middle;
+    margin: 3%;
+    width: 90%;
+    min-width: 400px;
 }
 /* Content divider for 50% */
 .content50 {
@@ -178,10 +186,13 @@ img {
 	background-color: #355ba3;
 }
 /* image with attached animation */
-.content50 img {
-	display: inline-block;
+.content50 logo {
 	border-radius: 50%;
 	width: 75%;
+}
+.content50 img {
+	display: inline-block;
+	width: 100%;
 }
 /* Content divider for 1/3 chunk */
 .content33 {
@@ -189,6 +200,19 @@ img {
 	margin: 2.5%;
 	width: 25%;
 	min-width: 120px;
+}
+/* Css for services boxes */
+.services {
+	background-color: #94b2eb;
+	border-radius: 3%;
+	box-sizing: border-box;
+	padding: 3%;
+	display: inline-block;
+	margin: 2.5%;
+	width: 40%;
+	min-width: 120px;
+	border:  solid #355ba3;
+	border-width: 2px 4px 7px 3px;
 }
 /* css for contact infor */
 .contact {
