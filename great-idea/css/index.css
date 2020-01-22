@@ -63,4 +63,251 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+#container{
+	width: 800px;
+	margin: 0 auto;
+}
+ 
+hr {
+	width: 100%;
+	border: 1px solid black;
+}
+
+ header {
+	display: flex;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	background: white;
+ }
+
+ nav {
+	 display: flex;
+	 width: 100%;
+	 height: 80px;
+	 background: white;
+	 z-index: 100;
+ }
+
+ nav a {
+	 text-decoration: none;
+	 padding: 25px;
+	 padding-top: 40px;
+	 color: gray;
+	 width: 100%;
+ }
+
+ nav a:first-child{
+	 margin-left: -15px;
+ }
+
+ .logo {
+	 margin-left: 31px;
+ }
+
+ /* INNOVATION SECTION */
+
+ .innovation {
+	 display: flex;
+	 width: 100%;
+	 margin-top: 120px;
+	 margin-bottom: 70px;
+ }
+
+ .retainer, .ondemand {
+	width: 50%;
+	margin-left: 90px;
+ }
+
+ .ondemand {
+	margin-top: 80px;
+ }
+
+ .button {
+	background: white;
+	width: 150px;
+	margin-top: 25px;
+	margin-left: 30px;
+	text-align: center;
+	padding: 10px 0;
+	border: 1px solid gray;
+ }
+
+ .retainer {
+	 margin-top: 80px;
+	 margin-left: 100px;
+	 display: flex;
+	 flex-direction: column;
+ }
+
+
+ h2 {
+	 font-size: 55px;
+	 line-height: 40px;
+ }
+
+ .on {
+	 margin-left: 70px;
+ }
+
+ .demand {
+	margin-left: 30px;
+ }
+
+ button {
+	 width: 140px;
+	 padding: 5px 30px;
+	 margin-left: 20px;
+	 margin-top: 20px;
+ }
+
+ /* INFORMATION SECTION */
+ .moreinfo {
+	display: flex;
+	justify-content: right;
+}
+
+.information {
+	width: 100%;
+}
+
+ .features, .about {
+	 width: 50%;
+	 padding-right: 10px; 
+	 padding-top: 20px;
+	 padding-bottom: 20px;
+ }
+
+/* MIDDLE IMAGE */
+ .middle-img {
+	 width: 100%;
+	 margin: 20px 0;
+ }
+
+ 
+ /* SERVICES PRODUCT AND VISION SECTION */
+
+ .services, .product, .vision {
+	 padding: 20px 0;
+ }
+ 
+ /* FOOTER SECTION */
+ footer {
+	 width: 100%;
+ }
+ address {
+	 margin-top: 30px;
+ }
+
+ .copyright {
+	 text-align: center;
+	 padding: 30px 0;
+ }
+
+/*end of HOME PAGE*/
+
+
+  /* CSS FOR MY SERVICES page s*/
+
+  nav .services-a-child {
+	margin-right: 20px;
+  }
+
+  .services-header-img {
+	  width: 100%;
+	  margin-top: 50px;
+  }
+
+  .services1 {
+	  width: 100%;
+	  padding: 40px 0px;
+	  border-bottom: 1px solid black;
+  }
+
+  .services1 h1 {
+	  font-size: 30px;
+  }
+
+  /* SERVICES INFORMATION */
+
+
+  .services-header-img {
+	  width: 100%;
+	  margin-top: 80px;
+  }
+
+  .information1	{
+	  width: 100%;
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-between;
+	  border-bottom: 3px solid black;
+	  margin-top: 40px;
+	  margin-bottom: 40px;
+  }
+
+  .box {
+	  width: 48%;
+	  border: 1px solid black;
+	  padding: 10px 10px;
+	  margin-bottom: 40px;
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-content: space-around;
+  }
+
+  .box > p {
+	  padding: 10px;
+  }
+
+.box > h2 {
+	padding-left: 10px;
+	font-size: 20px;
+}
+  .box button {
+	margin: 0;
+	padding: 5px 0;
+	border: 1px solid black;
+  }
+
+  .box button:hover {
+	background: gray;
+	color: white;
+	cursor: pointer;
+  }
+
+  /* SECTION FACTS */
+  .facts {
+	  width: 100%;
+	  display: flex;
+	  justify-content: space-between;
+	  margin-top: -20px;
+  }
+
+  ul li {
+	  list-style-type: square;
+	  list-style-position: inside;
+	  margin-bottom: 10px;
+  }
+
+  .box7 {
+	width: 48%;
+	padding: 20px 10px;
+	margin-bottom: 40px;
+}
+
+.box7 .services-info-img {
+	display: block;
+	width: 100%;
+}
+
+.box7 p {
+	margin-bottom: 30px;
+}
+
+.footer-services {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
