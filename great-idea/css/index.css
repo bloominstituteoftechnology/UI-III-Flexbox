@@ -116,6 +116,7 @@ nav a {
     text-transform: none; 
 }
  
+
 /* Main Box Section */ 
 .services-header-img {
     padding-top: 20px; 
@@ -136,6 +137,26 @@ nav a {
     border-top: none; 
 }
 
+.container {
+    width: 1135px;
+    height: 800px; 
+    display: flex!important; 
+    display: block;
+    flex-flow: row wrap;
+    justify content: center; 
+    align-items: flex-end; 
+    align-content: space-evenly; 
+}
+
+.item {
+    width: 600px; 
+    padding: 5px;
+    border: 1px solid black; 
+    background: grey; 
+    
+}
+
+/* 
 .flexgrid {
     padding: 20px;
     margin: 20px; 
@@ -190,6 +211,9 @@ li {
     padding: 5px; 
     text-align: left;
 }
+*/ 
+
+/* 
 
 .services-info-img {
     margin: 0px 20px 0px 40px;
