@@ -136,6 +136,12 @@ img {
 /*Main box to contain content behind navbar*/
 .main {
 	margin-top: 60px;
+	margin-right: 10%;
+	margin-left: 10%;
+	border-radius: 60px;
+	border: 25px solid #27447a;
+	box-shadow: 3px 5px 10px #111e36;
+
 }
 /*Content holder */
 .content {
@@ -159,8 +165,8 @@ img {
 /* Content divider for 50% */
 .content50 {
 	display: inline-block;
-    vertical-align: middle;
-    margin: 3%;
+	margin: auto;
+	padding: 3%;
     width: 40%;
 }
 /* large lettering for website */
@@ -193,19 +199,18 @@ button:hover {
 	color: white;
 	background-color: #355ba3;
 }
-/* image with attached animation */
-.content50 logo {
-	border-radius: 50%;
-	width: 75%;
-}
+/* image */
+
 .content50 img {
 	display: inline-block;
+	margin: auto;
+	border-radius:  50%;
 	width: 95%;
 }
 /* Content divider for 1/3 chunk */
 .content33 {
 	display: inline-block;
-	margin: 2.5%;
+    margin: 2.5px;
 	width: 25%;
 }
 /* Css for services boxes */
@@ -236,6 +241,11 @@ button:hover {
 	display: block;
 	text-align: center;
 	font-size: 18px;
+	margin-top: 10px;
+}
+/* services header image */
+.services-header-img {
+	border-radius: 50px 50px 0 0;
 }
 
 /* css media queries */
@@ -255,6 +265,17 @@ button:hover {
 	.footer {
 		font-size: 12px;
 	}
+	.main {
+		margin-top: 60px;
+		margin-left: 0;
+		margin-right: 0;
+		border: 0;
+		border-radius: 0;
+		box-shadow: 0 0 0 0;
+	}
+	.services-header-img {
+		border-radius: 0 0 0 0;
+	}
 
 }
 @media (max-width: 650px) {
@@ -266,25 +287,37 @@ button:hover {
 	}
 	.logo {
 		margin-top: 40px;
-
 	}
 	.main {
 		margin-top: 120px;
+		margin-left: 0;
+		margin-right: 0;
+		border: 0;
+		border-radius: 0;
+		box-shadow: 0;
 	}
 	.navBar {
 		height: 120px;
 	}
     .content {
-      flex-direction: column;
+	  flex-direction: column;
+	  padding-bottom: 10%;
 	}
 	.content50 {
-		width: 90%;
+		width: 80%;
+		margin-left: 10%;
+
+	}
+	.content50 img {
+		width: 80%;
+		margin-left: 10%;
 	}
 	.content100 {
 		width: 95%;
 	}
 	.content33 {
-		width: 90%;
+		width: 80%;
+		margin: 5% 10% 0% 10%;
 	}
 	.services {
 		width: 90%;
@@ -292,5 +325,7 @@ button:hover {
 	.content50 header{
 		font-size: 80px;
 	}
-  }
-
+  	.services-header-img {
+	border-radius: 0 0 0 0;
+	}
+}
