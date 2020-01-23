@@ -60,7 +60,8 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 24px;
 }
 
 /* Your code starts here! */
@@ -94,16 +95,25 @@ img {
 }
 .navBar ul {
 	list-style-type: none; 
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: stretch;
 	margin: 0;
 	padding: 0;
-	display: flex;
-	float: left;
-	align-items: flex-end;
+}
+.navBar li {
+	display: inline;
 }
 .nav80 {
 	display: inline-block;
 	margin: 1%;
 	width: 78%;
+}
+.nav20 {
+	display: block;
+	margin: 0%;
+	width: 18%;
+	float: right;
 }
 .navItem {
 	color: #ebe2e2;
@@ -116,14 +126,11 @@ img {
 .navItem:hover {
 	color: rgb(241, 245, 17);
 }
-.nav20 {
-	display: block;
-	margin: 1%;
-	width: 18%;
-	float: right;
-}
 .logo {
-	margin: 2%;
+	padding: 2px;
+	margin-top: 10px;
+	transform: rotate(3deg);
+
 }
 
 /*Main box to contain content behind navbar*/
@@ -161,7 +168,7 @@ img {
 	font-family: 'Bangers', cursive;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
-	font-size: 70px;
+	font-size: 120px;
 	text-align: center;
 	transform: rotate(-5deg);
 	text-shadow: 10px 5px 20px #536380;
@@ -174,12 +181,13 @@ img {
 button {
 	background-color: white; 
 	border: 1px solid gray;
+	border-radius: 5px;
 	color: #355ba3;
 	padding: 5px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 24px;
 }
 button:hover {
 	color: white;
@@ -227,34 +235,62 @@ button:hover {
 .footer {
 	display: block;
 	text-align: center;
-	font-size: 12px;
+	font-size: 18px;
 }
-@media (max-width: 630px) {
+
+/* css media queries */
+@media (max-width: 1000px) {
+	h1, h2, h3, h4, h5 {
+		font-size: 22px;
+	}
+	.content50 header{
+		font-size: 70px;
+	}
+	button {
+		font-size: 16px;
+	}
+	.contact p {
+		font-size: 14px;
+	}
+	.footer {
+		font-size: 12px;
+	}
+
+}
+@media (max-width: 650px) {
+	.nav80{
+		width: 60%;
+	}
+	.nav20 {
+		width: 35%;
+	}
+	.logo {
+		margin-top: 40px;
+
+	}
+	.main {
+		margin-top: 120px;
+	}
+	.navBar {
+		height: 120px;
+	}
     .content {
       flex-direction: column;
 	}
 	.content50 {
-		width: 100%;
+		width: 90%;
 	}
 	.content100 {
-		width: 100%;
+		width: 95%;
 	}
 	.content33 {
-		width: 100%;
+		width: 90%;
 	}
 	.services {
 		width: 90%;
 	}
+	.content50 header{
+		font-size: 80px;
+	}
   }
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
