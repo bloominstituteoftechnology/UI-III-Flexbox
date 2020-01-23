@@ -135,10 +135,10 @@ img {
 
 /*Main box to contain content behind navbar*/
 .main {
-	margin-top: 60px;
+	margin-top: 75px;
 	margin-right: 10%;
 	margin-left: 10%;
-	border-radius: 60px;
+	border-radius: 75px;
 	border: 25px solid #27447a;
 	box-shadow: 3px 5px 10px #111e36;
 
@@ -201,7 +201,7 @@ button:hover {
 }
 /* image */
 
-.content50 img {
+.content50 .splashImg {
 	display: inline-block;
 	margin: auto;
 	border-radius:  50%;
