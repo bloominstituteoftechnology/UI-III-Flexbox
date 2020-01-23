@@ -192,7 +192,7 @@ button:hover {
 }
 .content50 img {
 	display: inline-block;
-	width: 100%;
+	width: 95%;
 }
 /* Content divider for 1/3 chunk */
 .content33 {
@@ -229,7 +229,7 @@ button:hover {
 	text-align: center;
 	font-size: 12px;
 }
-@media (max-width: 500px) {
+@media (max-width: 630px) {
     .content {
       flex-direction: column;
 	}
@@ -246,3 +246,15 @@ button:hover {
 		width: 90%;
 	}
   }
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
