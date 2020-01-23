@@ -150,6 +150,7 @@ img {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	font-size: 22px;
 }
 /* divider line */
 .lineBottom {
@@ -233,7 +234,7 @@ button:hover {
 	
 }
 .contact p {
-	font-size: 14px;
+	font-size: 18px;
 	min-width: 200px;
 }
 /*footer css */
@@ -259,11 +260,14 @@ button:hover {
 	button {
 		font-size: 16px;
 	}
+	.content {
+		font-size: 16px;
+	}
 	.contact p {
 		font-size: 14px;
 	}
 	.footer {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.main {
 		margin-top: 60px;
@@ -302,6 +306,7 @@ button:hover {
     .content {
 	  flex-direction: column;
 	  padding-bottom: 10%;
+	  font-size: 16px;
 	}
 	.content50 {
 		width: 80%;
@@ -327,5 +332,8 @@ button:hover {
 	}
   	.services-header-img {
 	border-radius: 0 0 0 0;
+	}
+	.footer {
+		font-size: 12px;
 	}
 }
