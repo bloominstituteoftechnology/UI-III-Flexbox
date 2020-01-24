@@ -65,5 +65,69 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-    
+    width: 50%;
+    margin: auto;
 }
+
+nav {
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+ nav  a {
+     color: grey;
+     text-decoration: none;
+     margin: 3%;
+   
+     
+  
+ }
+
+ .services h1 {
+     padding-top: 20px;
+     font-size: 25px;
+ }
+ 
+ .services p {
+     width: 90%;
+ }
+
+.content {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space between;
+
+ }
+
+ .contentbox {
+  border: 1px solid black;
+  margin: 3%;
+  width: 40%;
+  padding: 5%;
+ }
+
+ footer {
+     border: 1px solid blue;
+     display: flex;
+     flex-flow: row wrap;
+	 justify-content: space-between;
+    padding-top: 30px;
+    width: 100%;
+ }
+
+ footer ul {
+    margin: 35px;
+    list-style-type: square;
+    line-height: 2;
+ }
+
+ footer p {
+    font-size: 20px; 
+    
+ }
+
+ .copy p {
+     text-align: center;
+
+ }
