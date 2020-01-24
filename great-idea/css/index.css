@@ -60,14 +60,15 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /*Small frame styling main Page Styling*/
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:1100px){
 	.bodycontainer{
 		width: 0 auto;
 	}
@@ -86,13 +87,51 @@ h1, h2, h3, h4, h5 {
 
 	.innovsecdiv{
 		align-items: center;
+		padding-top: 1.3%;
 	}
 
 	.innovsecdiv h1 pre{
 		font-size: 90%;
 		
 	}
+
+
+	.middle-div img{
+		
+		width: 100%;
+		height: auto;
+	}
+
+
+
+	
 }
+
+@media only screen and (max-width:720px){
+	.indexsec1{
+		flex-direction: column;
+		min-width: 350px;
+		justify-content: space-evenly;
+	}
+
+	.indexsec1 p{
+		padding-bottom: 10px;
+	}
+
+	.indexsec2{
+		flex-direction: column;
+		min-width: 350px;
+		justify-content: space-evenly;
+	}
+
+	.indexsec2 p{
+		padding-bottom: 10px;
+	}
+}
+
+
+
+
 
 /**************Regular Desktop styling - Main Page ******************/
 .innovsec{
@@ -118,6 +157,33 @@ h1, h2, h3, h4, h5 {
 .innovsec button{
 	width: 50%;
 	
+}
+
+.indexsec1{
+	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+.indexsec1 section{
+	width: 50%;
+}
+
+.indexsec2{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.indexsec2 section{
+	width: 30%;
+}
+
+.middle-div{
+	display: flex;
+	justify-content: space-around;
 }
 
 
@@ -168,6 +234,7 @@ h1, h2, h3, h4, h5 {
 	.nav_bar a{
 		font-size: 70%;
 		padding: 1% ;
+		font-weight: bolder;
 	}
 
 	#imgbanner img{
@@ -188,8 +255,8 @@ h1, h2, h3, h4, h5 {
 	}
 	.maindiv{
 		margin: 0 auto;
-		width: auto;
-		min-width: 470px;
+		width: 100%;
+		min-width: 400px;
 		height: auto;
 	}
 
