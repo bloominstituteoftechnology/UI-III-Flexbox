@@ -92,7 +92,6 @@ nav {
  }
 
 .content {
-    border: 1px solid red;
     display: flex;
     flex-flow: row wrap;
     width: 100%;
@@ -108,7 +107,6 @@ nav {
  }
 
  footer {
-     border: 1px solid blue;
      display: flex;
      flex-flow: row wrap;
 	 justify-content: space-between;
