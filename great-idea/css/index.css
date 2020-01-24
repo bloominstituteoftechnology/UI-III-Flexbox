@@ -72,11 +72,9 @@ h1, h2, h3, h4, h5 {
 
 nav{
 	display: flex;
-	border: 1px solid red;
 	width: 100%;
 }
 .links{
-	border: 1px solid red;
 	width:100%;
 	display: flex;
 	justify-content: space-evenly;
@@ -89,7 +87,6 @@ header{
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
-	border: 1px solid red;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	margin-left: 10%;
@@ -97,7 +94,6 @@ header{
 }
 
 .innovation{
-	border: 1px solid red;
 	width: 50%;
 	display: flex;
     justify-items: center;
@@ -110,13 +106,8 @@ header{
 }
 
 
-.headimg{
-border: 1px solid red;
 
-
-}
 .first-content{
-	border: 1px solid red;
 	display:flex;
 	justify-content: space-between;
 	align-items: stretch;
@@ -127,7 +118,6 @@ border: 1px solid red;
 	font-size: 28px;
 }
 .top{
-	border: 1px solid red;
 	width: 49%;
 	padding-bottom: 3%;
 }
@@ -147,20 +137,17 @@ p {
 	justify-content: space-between;
 	text-align: center;
 	padding-bottom: 20px;
-	border: 1px solid red;
 	margin-left: 9%;
 }
 .second-content p{
 	font-size: 28px;
 }
 .bottom{
-	border: 1px solid red;
 	width: 30%;
 	padding-top: 3%;;
 }
 
 .midimg{
-	border: 1px solid red;
 	width: 80%;	
 	margin-left: 9%;	
 }
@@ -178,9 +165,10 @@ h3 {
 .contact {
 	border-top: 2px solid grey;;
 	width: 80%;
-	margin-bottom: 3%;
-	
+	margin-bottom: 3%;	
 	margin-left: 9%;
+	padding-top: 2%;
+	margin-top: 2%;
 }
 .services-content{
 	width: 80%;
@@ -188,21 +176,21 @@ h3 {
 }
 
 .top2{
-	border: 1px solid red;
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
 	margin-left: 10%;
+	border-top: 2px solid black;
+	margin-top: 3%;
 }
 
 .top2 div{
 	width: 49%;
 	border: 1px solid black;
-	margin-bottom: 3%;
+	margin-top: 3%;
 }
 
 .mid2{
-	border: 1px solid red;
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
@@ -215,11 +203,12 @@ h3 {
 }
 
 .bottom2{
-	border: 1px solid red;
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
 	margin-left: 10%;
+	border-bottom: 2px solid black;;
+	margin-bottom: 3%;
 }
 
 .bottom2 div{
@@ -230,7 +219,6 @@ h3 {
 button{
 	margin-right: 80%;
 	margin-top: 3%;
-	border: 1px solid red;
 	width: 20%;
 	height: 30px;
 }
@@ -241,13 +229,12 @@ button{
 	flex-direction: column;
 	justify-content: flex-start;
 	margin-bottom: 3%;
-	border: 1px solid red;
 }
 .services h2{
 	margin-right: 100%;
 }
 .services-header-img{
-	width: 80%;
+	width: 100%;
 }
 .services p{
 	font-size: 28px;
@@ -258,19 +245,16 @@ button{
 .facts{
 	display: flex;
 	width: 80%;
-	border: 1px solid red;
 	margin-left: 10%;
 }
 .factsBottom{
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
-	border: 1px solid red;
 	margin-left: 10%;
 	margin-bottom: 3%;
 }
 .factsBottom div{
-	border: 1px solid red;
 	width: 49%;
 }
 .services-info-img{
