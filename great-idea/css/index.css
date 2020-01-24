@@ -184,3 +184,69 @@ footer{
 	font-size: 12px;
 	margin: 20px 0px 0px 0px;
 }
+
+
+
+
+
+.info {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+
+.h3sect {
+	background-color: #e6e6e6
+}
+
+.design {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	height: 200px;
+	width: 500px;
+	margin: 5px;
+	padding: 5px;
+	background-color: #e6e6e6
+}
+
+.ux {
+	border: 1px solid black;
+	height: 200px;
+	width: 500px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.marketing {
+	border: 1px solid black;
+	height: 200px;
+	width: 500px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.webdev{
+	border: 1px solid black;
+	height: 200px;
+	width: 500px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.ios {
+	border: 1px solid black;
+	height: 200px;
+	width: 500px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.droid {
+	border: 1px solid black;
+	height: 200px;
+	width: 500px;
+	margin: 5px;
+	padding: 5px;
+}
