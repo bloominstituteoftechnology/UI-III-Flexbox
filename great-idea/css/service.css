@@ -79,6 +79,9 @@ body{
 }
 
 .logo{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
     width:20%;
 
 }
@@ -238,6 +241,9 @@ h2{
     justify-content: space-between;
 }
 
+h4{
+    font-size: 25px;
+}
 .ending{
     padding-top:35px;
     border-top: 2px solid black;
@@ -253,17 +259,17 @@ h2{
 .computer{
     display:flex;
     justify-content: flex-end;
-    border:2px solid black;
+    width:45%;
 
 }
 
 .services-info-img{
-    padding:30px;
     width:100%;
 
 }
 .list{
     padding-top:30px;
+    
 }
 
 .copyright{
