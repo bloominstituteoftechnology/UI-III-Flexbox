@@ -81,6 +81,9 @@ h1, h2, h3, h4, h5 {
 	text-decoration: none;
 	font-family: 'Fredoka One', cursive;
 }
+.top-nav a:hover {
+	color: black;
+}
 .sec-1 {
 border-bottom: 2px solid black;
 margin-left:  9% ;
@@ -193,13 +196,17 @@ footer {
 
 }
 .under-img {
-	width: 800px;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	
+	margin: 0% auto;
 	margin-top: 30px;
-	margin-left: 20%;
-	margin-right: 20%;
+	/*margin-left: 20%;
+	margin-right: 20%;*/
 }
 .under-img h1 {
 font-size: 25px;
