@@ -3,48 +3,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -52,12 +139,18 @@ table {
     box-sizing: border-box;
 }
 
-html, body, p {
+html,
+body,
+p {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -66,94 +159,96 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
-.content {
-    width: 1135px; 
-} 
+.body {
+    width: 1135px;
+    margin: 0 auto;
+}
 
 
 .navLogo {
     width: 100%;
-    height: 10px; 
-    margin: 0 auto; 
+    height: 10px;
+    margin: 0 auto;
 }
 
- 
-/* NAV BAR AND LOGO-GREAT IDEA */ 
+
+/* NAV BAR AND LOGO-GREAT IDEA */
 
 
 .logo {
-    display: flex; 
-    padding: 10px 10px 10px 10px; 
+    display: flex;
+    padding: 10px 10px 10px 10px;
     margin-left: 20px;
-    align-items: right; 
+    align-items: right;
 }
-/* HEADER PHOTO AND "Services" HEADER SECTION */ 
 
-/* nav section */ 
-nav { 
-    float: left; 
-    justify-content: space-around; 
-    align-items: center; 
-    margin-left: 20px; 
+/* HEADER PHOTO AND "Services" HEADER SECTION */
+
+/* nav section */
+nav {
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
     padding: 15px;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
-    list-style: none; 
+    list-style: none;
 }
 
 nav li {
-    display: inline-block; 
+    display: inline-block;
     margin-left: 70px;
-    padding-top: 25px; 
+    padding-top: 25px;
 }
 
 nav a {
     color: black;
-    text-decoration: none; 
-    text-transform: none; 
+    text-decoration: none;
+    text-transform: none;
 }
- 
 
-/* Main Box Section */ 
+
+/* Main Box Section */
 .services-header-img {
-    padding-top: 20px; 
-    padding-left: 40px; 
-    margin-top: 16px; 
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-top: 16px;
     margin-right: 16px;
     margin-left: 30px;
-    margin: 16px; 
-    top: 200%; 
-    margin: 0 auto; 
+    margin: 16px;
+    top: 200%;
+    margin: 0 auto;
 
 }
 
 .Header {
-    width: 100%; 
+    width: 100%;
     margin: 20px 20px 20px 20px;
     padding: 10px 10px 10px 10px;
-    border-top: none; 
+    border-top: none;
 }
 
 .container {
     width: 1135px;
-    height: 800px; 
-    display: flex!important; 
+    height: 800px;
+    display: flex !important;
     display: block;
     flex-flow: row wrap;
-    justify content: center; 
-    align-items: flex-end; 
-    align-content: space-evenly; 
+    justify content: center;
+    align-items: flex-end;
+    align-content: space-evenly;
 }
 
 .item {
-    width: 600px; 
+    width: 600px;
     padding: 5px;
-    border: 1px solid black; 
-    background: grey; 
-    
+    border: 1px solid black;
+    background: grey;
+
 }
 
 /* 
@@ -183,11 +278,12 @@ nav a {
     text
 }
 
- /* button, h2, p, tags etc go here */ 
+ /* button, h2, p, tags etc go here */
 
-  
 
-/* Lower Section */ /* this Part is ALL SET */ 
+
+/* Lower Section */
+/* this Part is ALL SET */
 /* .facts h2 {
     font-size: 18px;
     font-weight: bold;  
@@ -211,7 +307,7 @@ li {
     padding: 5px; 
     text-align: left;
 }
-*/ 
+*/
 
 /* 
 
@@ -220,12 +316,11 @@ li {
     width:515px; 
     padding: 0px 20px 20px 10px;
 }
-/* Footer part- this part is perfect */ 
- 
+/* Footer part- this part is perfect */
+
 
 footer {
-    text-align: center; 
-    margin: 40px 0px; 
-    padding-bottom: 40px; 
+    text-align: center;
+    margin: 40px 0px;
+    padding-bottom: 40px;
 }
- 
