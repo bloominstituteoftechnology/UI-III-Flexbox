@@ -92,6 +92,7 @@ header nav .logo {
 
 .container {
 	display:flex;
+	flex-wrap: wrap;
 }
 
 header div {
@@ -122,7 +123,7 @@ header div img {
 /* Section Content */
 h2 {
 	font-size: 30px;
-	
+
 }
 
 .column {
