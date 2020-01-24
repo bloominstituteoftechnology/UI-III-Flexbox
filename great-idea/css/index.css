@@ -64,3 +64,150 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+body{
+	padding:10% 10% 10% 10%;
+	margin:auto;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+
+}
+
+nav a{
+	color:grey;
+	width: 10%;
+	margin: 2%;
+	text-align: center;
+}
+
+.logo{
+	width:20%;
+
+
+
+	
+}
+
+.inovateimg{
+	display:flex;
+	justify-content: space-around;
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.innovate{
+	display:flex;
+	justify-content: space-around;
+	flex-direction: column;
+	font-size: 80px;
+	width: 30%;
+	text-align: center;
+	padding-bottom:60px;
+	padding-top:60px;
+	
+
+}
+
+
+.start{
+	
+	border:2px solid black;
+	color:black;
+	text-align: center;
+	font-size:16px;
+	padding: 0px 12px 0px 12px;
+}
+
+.start:hover{
+	background-color: grey;
+}
+
+.circle{
+	padding-top:25px;
+	padding-bottom:25px;
+
+}
+
+.innercircle{
+	display:flex;
+	width:100%;
+	
+}
+
+.paragraph{
+	display:flex;
+	border-top: 2px solid black;
+	padding-top: 45px;
+}	
+
+
+.paragraph .paragraphone {
+	width:49%;
+	margin:auto;
+
+}
+
+.paragraph .paragraphtwo{
+	width:49%;
+	margin:auto; 
+}
+
+.middle-img{
+	display:flex;
+	justify-content: center;
+	padding-top:30px;
+	padding-bottom:30px;
+	width:100%;
+	
+
+}
+
+
+.finalparagraph{
+	display:flex;
+	justify-content:flex-start;
+	border-bottom: 2px solid black;
+	padding-bottom: 30px;
+
+}
+
+
+.finalparagraph .finalone{
+	width:30%;
+	margin:auto;
+	padding-top:30px;
+}
+
+.finalparagraph .finaltwo{
+	width:30%;
+	margin:auto;
+}
+
+.finalparagraph .finalthree{
+	width:30%;
+	margin:auto;
+}
+.ending{
+	padding-top:30px;
+}
+
+
+.info{
+	border:2px solid black;
+	display: flex;
+	width: 25%;
+	padding:30px;
+}
+
+.copyright{
+	text-align: center;
+	padding-bottom: 150px;
+	padding-top:45px;
+	;
+}
