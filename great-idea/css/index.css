@@ -63,4 +63,93 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+.nav_bar {
+   width: 100%;
+   
+}
+
+.nav_bar a {
+    border: 2 grey;
+	margin: 3%;
+	color: grey;
+	text-decoration: none;
+}
+
+.contentbox1 {
+	display: flex;
+	align-items: center;
+	align-content: space-evenly;
+	/* display: inline-block;*/
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	border-bottom: 1px solid; 
+}
+.contentbox1 h1 {
+	font-size: 75px;
+	
+}
+.contentbox1_ {
+
+	/* display: inline-block; */
+	padding-left: 100px;
+}
+.contentbox1_content{
+	/* display: inline-block; */
+	padding: 2%;
+	text-align: center; 
+
+	
+}
+ .contentbox1_content p{
+	border: 2px solid black;
+	text-align: center;
+	width: 50%;
+	margin: 15%;
+	font-size: 20px;
+	color: grey;
+	
+}
+
+
+.contentbox2 {
+	display: flex;
+	flex: nowrap;
+	 /* display: inline-block;  */
+	margin: 0%;
+	/* width: 46%;	 */
+	padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+	text-align: left;
+}
+.contentbox3 {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	/* display: inline-block; */
+	margin: 0%;
+	/* width: 31%;	 */
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+	
+}
+
+.contact {
+	border-top: 1px solid;
+	padding: 20px 0;	
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	font-size: 12px;
+}
