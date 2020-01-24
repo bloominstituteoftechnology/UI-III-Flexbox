@@ -175,6 +175,7 @@ footer {
 	padding-bottom: 30px;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 
 
 	
@@ -189,6 +190,19 @@ footer {
 .sec-1-img {
 	display: flex;
 	justify-content: center;
+
+}
+.under-img {
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.under-img h1 {
+font-size: 25px;
 }
 .sec-2-pg2 {
 	border-bottom: 2px solid black;
@@ -208,7 +222,7 @@ footer {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	padding: 15px;
-	background-color: grey;
+	background-color: #e6e6e6;
 
 
 }
@@ -219,25 +233,34 @@ button {
 	width: 150px;
 	margin-top: 15px;
 }
-footer div {
+
+.footer2 div {
 	height: 50% ;
 	width: 40% ;
 		display: flex;
 
 	flex-flow: row wrap;
+	flex-direction: column;
+	justify-content: space-between;
 	
 }
-footer li {
+.footer2 li {
 	list-style-type: circle;
 }
-footer {
+.footer2 {
 			display: flex;
 
 	flex-flow: row wrap;
 	justify-content: space-around;
 }
-footer p {
+
+.footer2 p {
+	margin-bottom: 30px;
 	display: flex;
 	
 	justify-content: center;
+	margin-top: 30px;
+}
+.footer2 li {
+	padding: 5px;
 }
