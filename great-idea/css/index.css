@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body{
-    width: 876px;
+    width: 890px;
     margin-left:30%;
 }
 
@@ -81,33 +81,31 @@ h1{
 .nav_bar{
 
     margin-bottom: 30px;
-
+    display: flex;
     width: 100%;
     text-align:center;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap:wrap;
 }
-.nav_bar a{
-    display: inline-block;
+
+a{
     font-size: 20px;
     text-decoration: none;
-    vertical-align: middle;
+    /*min-width:150px;*/
 }
-.logo{
-    padding-top:20px;
-}
+
 /* Top Content Section */
 .top-content {
     margin-top: 80px;
     padding-bottom: 80px;
-    display: inline-block;
+    display:flex;
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid #000;
 }
 
 .top-content-box {
-    display: inline-block;
     width: 40%;
-    vertical-align: middle;
 }
 
 .top-content img {
@@ -124,12 +122,12 @@ button{
     width: 100%;
     margin: 1%;
    text-align: center;
-   border-bottom: 1px solid #000;
+
+   display:flex;
 }
 
 .bot-content1 {
     text-align: left;
-    display: inline-block;
     width:49%;
     margin-bottom: 30px;
 
@@ -137,28 +135,101 @@ button{
 
 
 .middlecenter{
-    display: inline-block;
     width:100%;
-    text-align: left;
+    text-align: center;
     margin-bottom: 30px;
 }
 .bot-content2 {
     margin-top: 30px;
     text-align:left;
-    display: inline-block;
     width: 33%;
-    padding-bottom: 20px;
     margin-bottom: 30px;
 }
 
 /*footer*/
-
-.footer {
-    vertical-align: middle;
+.footer{
+    text-align: left;
 }
+
 address{
     text-align: left;
 }
 footer{
+    margin-top: 30px;
     text-align:center;
+}
+.line {
+    border-bottom: 1px solid #000;
+}
+
+/*Services Page*/
+
+/*top section*/
+
+.services-header{
+    border-bottom: 1px solid black;
+    padding-bottom:30px;
+    margin-bottom: 20px;
+}
+
+.service-section{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+
+.service-item{
+    background:#f4f3f4;
+    border:2px black solid;
+    margin:20px 10px 20px 10px;
+    width: 45%;
+    padding: 15px;
+}
+
+.service-item p{
+    margin:5px;
+}
+
+.service-footer{
+    margin:20px;
+}
+
+.service-footer-section{
+    display:inline-block;
+    width:49%;
+    vertical-align: top;
+}
+
+.service-footer-section ul{
+    list-style-type: square;
+    margin: 15px;
+}
+
+.service-footer-section li{
+    margin: 5px;
+}
+
+.services-page {
+    font: verdana;
+    /*font-weight:bold;*/
+}
+.service-footer-footer{
+    margin-top:30px;
+    text-align:center;
+}
+
+.services-page button{
+    border-radius:5px 5px;
+    border: 1px solid black;
+}
+
+.services-page h2{
+    font-size: 40px;
+}
+
+.services-header-img{
+    margin-top 20px;
+    margin-bottom: 10px;
 }
