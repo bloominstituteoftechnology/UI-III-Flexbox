@@ -66,31 +66,11 @@ h1, h2, h3, h4, h5 {
 nav a {
 	color: gray;
 	box-sizing: content-box;
-    padding: 10pt;
-    flex-wrap: wrap;
-
+	padding: 10pt;
+	justify-content: space-evenly;
+	
 }
 
-.services-flex {
-    height: 300px;
-    width: 300px;
-    background: lightgray;
-    border: lightslategray;
-    }
 
-    .services-flex {
-        display: inline-flexbox;
-        justify-content: stretch;
-    }
-    
-    .digital-design-flex {
-        height: 300px;
-        width: 300px;
-        background: lightgray;
-        border: lightslategray;
-    }
 
-    .digital-design-flex {
-      display: inline-table;
-      justify-content: space-around;
-    }
+
