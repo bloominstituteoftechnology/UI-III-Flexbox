@@ -65,8 +65,60 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+.bodycontainer{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width:800px){
+	body{
+		background-color: yellow;
+	}
+
+	.nav_bar{
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		
+	}
+
+
+
+	.nav_bar a{
+		font-size: 70%;
+		padding: 1% ;
+	}
+
+	#imgbanner img{
+	height: auto;
+    width: 100%;
+    max-width: 700px;
+	}
+
+	.serdiv p{
+		font-size: 10px;
+
+	}
+
+	.mainsec{
+		display: flex;
+		
+
+	}
+	.maindiv{
+		margin: 0 auto;
+		width: auto;
+		min-width: 470px;
+		height: auto;
+	}
+
+	.secdiv{
+		width: 100%;
+	}
+	
+}
 body{
-	width: 75%;
+	max-width: 75%;
 	margin: 0 auto;
 }
 
@@ -80,28 +132,60 @@ button{
 	margin-top: 8%;
 }
 
+.nav_bar{
+	padding: 1%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	background-color: cornflowerblue;
+	margin-bottom: 2%;
+	
+}
 
+.nav_bar a{
+	text-decoration: none;
+	color: coral;
+}
 
-.sersec{
+.nav_bar a:hover{
+	text-decoration: underline black;
+}
+
+#imgbanner{
+
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	
+}
+
+#imgbanner img{
+	height: auto;
+    width: auto;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.mainsec{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 
 }
 
-#serdiv{
+.serdiv{
 	padding: 3% 0 3% 0;
 }
 
-#serdiv p{
+.serdiv p{
 	font-size: 20px;
 }
 
-#serdiv h3{
+.serdiv h3{
 	font-size: 24px;
 }
 
-.secdiv{
+.maindiv{
 	background-color: rgb(194, 194, 194);
 	border: solid 2px black;
 	width: 47%;
