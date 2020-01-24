@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	background: transparent;
 	position: fixed;
 	color: black;
 	width: 95%;
@@ -81,7 +82,7 @@ h1, h2, h3, h4, h5 {
 .navflex a {
 	color: black;	
 	border-radius: 22px;
-	background-color: transparent;
+	background-color:  #EEEEEE;
 	font-size: 24px;
 	text-align: center;
 	text-decoration: none;
@@ -124,12 +125,14 @@ header img {
 }
 
 h3 {
-  	font-size: 20px;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 hr {
 	margin: 30px;
 	width: 95%;
+	border: 2px solid black;
 }
 
 .section1 {
@@ -185,15 +188,50 @@ footer{
 	margin: 20px 0px 0px 0px;
 }
 
+/* CSS for Sections page */
+
+.servicesnav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background: transparent;
+	position: fixed;
+	color: black;
+	width: 95%;
+}
+
+.servicesnav a{
+	color: black;	
+	border-radius: 22px;
+	background-color:  #EEEEEE;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+	height: 10px;
+	padding: 10px 20px 40px 20px;
+}
+
+.services-header-img {
+	display: inline-block;
+	margin: 60px 20px 20px 20px;
+	width: 95%;
+}
 
 
+.serveinfo {
+	width: 95%;
+	margin: 30px;
 
+}
 
 .info {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-
+	justify-content: space-evenly;
+	width: 95%;
+	margin: 30px;
 }
 
 .h3sect {
@@ -207,52 +245,73 @@ footer{
 .design {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 	border: 1px solid black;
-	height: 200px;
-	width: 500px;
+	height: 250px;
+	width: 600px;
 	margin: 5px;
 	padding: 5px;
 	background-color: #e6e6e6
 }
 
 .ux {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	border: 1px solid black;
-	height: 200px;
-	width: 500px;
+	height: 250px;
+	width: 600px;
 	margin: 5px;
 	padding: 5px;
+	background-color: #e6e6e6
 }
 
 .marketing {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	border: 1px solid black;
-	height: 200px;
-	width: 500px;
+	height: 250px;
+	width: 600px;
 	margin: 5px;
 	padding: 5px;
+	background-color: #e6e6e6
 }
 
 .webdev{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	border: 1px solid black;
-	height: 200px;
-	width: 500px;
+	height: 250px;
+	width: 600px;
 	margin: 5px;
 	padding: 5px;
+	background-color: #e6e6e6
 }
 
 .ios {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	border: 1px solid black;
-	height: 200px;
-	width: 500px;
+	height: 250px;
+	width: 600px;
 	margin: 5px;
 	padding: 5px;
+	background-color: #e6e6e6
 }
 
 .droid {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	border: 1px solid black;
-	height: 200px;
-	width: 500px;
+	height: 250px;
+	width: 600px;
 	margin: 5px;
 	padding: 5px;
+	background-color: #e6e6e6
 }
 
 .servefact {
@@ -260,11 +319,29 @@ footer{
 	
 }
 
-.facts {
-	border: 1px solid black;
-	height: 200px;
-	width: 500px;
+.servfact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 250px;
+	width: 600px;
 	margin: 5px;
 	padding: 5px;
+}
 
+.lastsection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 50px;
+}
+ul {
+	list-style-type: square;
+	margin: 10px;
+	padding: 5px;
+}
+
+.services-info-img {
+	width: 45%;
+	height: 45%
 }
