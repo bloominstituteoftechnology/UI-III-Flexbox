@@ -76,8 +76,9 @@ width: 100%;
 	padding-left: 20px;
 }
 .navigation{
-	display: inline-block;
-	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 	margin-left: 15%;
 	margin-right:15%
 }
@@ -92,15 +93,12 @@ width: 100%;
 	height: 45px;
 	margin: 0 auto;
 }
-#navlogo {
-display: inline-block;
-vertical-align: middle;
-margin-left: 20%;
-}
-.logo{
-
- }
-
+.logo {
+	display: flex;
+	justify-content: right; 
+	margin-left: 30%;
+	}
+	
  #midTop {
 margin-top: 75px;
 margin-bottom: 20px;
