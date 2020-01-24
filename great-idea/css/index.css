@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Body Code */
+
+body {
+	max-width: 900px;
+	margin: 25px auto;
+}
+
+/* Header Code */
+header h1 {
+	font-size: 65px;
+}
+
+header nav a {
+	color: #DCDCDC;
+	text-decoration: none;
+	padding: 25px;
+	
+}
+
+header nav .logo {
+	display: inline-flex;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+.container {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+header div {
+	align-content: center;
+}
+
+header div h1 {
+	max-width: 200px;
+	text-align: center;
+	margin: 50px 30px;
+
+}
+
+header div p {
+	border: 1px black solid;
+	padding: 5px 25px;
+	max-width: 130px;
+	margin: 0px auto;
+}
+
+header div img {
+	margin: 45px 100px;
+}
+.services-header-img {
+	margin-top: 25px;
+}
+
+/* Section Content */
+h2 {
+	font-size: 30px;
+
+}
+
+.column {
+	width: 100%;
+}
+.flexxer {
+	display: flex;
+	flex-wrap: wrap;
+}
+.sec-flex {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 400px;
+	border: 1px black solid;
+	background-color: #F8F8FF;
+	padding:25px;
+}
+.learn-button {
+	display: flex;
+	border: 1px black solid;
+	border-radius: 5px;
+	padding: 10px 40px;
+	font-size: 10px;
+	justify-content: center;
+	margin-top: 15px;
+
+}
+.sec-flex-2 {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 400px;
+	padding:25px;
+}
+.sec-flex-2 ul li {
+		list-style: square;
+		line-height: 2;
+}
+
+div section {
+	display: flex;
+	margin: 25px 25px;
+}
+
+div section div {
+	width: 33%;
+
+}
+
+div section .fifty {
+	width: 50%;
+}
+
+/* Footer Section */
+
+footer div p {
+	text-align: center;
+}
