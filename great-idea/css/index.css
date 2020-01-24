@@ -63,4 +63,173 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+body{
+    width: 890px;
+    margin-left:30%;
+}
+
+a{
+    color: gray;
+    margin: 20px;
+    font-size: 20px;
+}
+h1{
+    font-size: 80px;
+}
+/*Nav bar*/
+.nav_bar{
+
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+    text-align:center;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    /*min-width:150px;*/
+}
+
+/* Top Content Section */
+.top-content {
+    margin-top: 80px;
+    padding-bottom: 80px;
+    display:flex;
+    width: 100%;
+    text-align: center;
+}
+
+.top-content-box {
+    width: 40%;
+}
+
+.top-content img {
+    width: 350px;
+}
+
+button{
+    padding:5px 65px 5px 65px;
+}
+
+/*Bottom boxes*/
+.bottomBox{
+
+    width: 100%;
+    margin: 1%;
+   text-align: center;
+
+   display:flex;
+}
+
+.bot-content1 {
+    text-align: left;
+    width:49%;
+    margin-bottom: 30px;
+
+}
+
+
+.middlecenter{
+    width:100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bot-content2 {
+    margin-top: 30px;
+    text-align:left;
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+/*footer*/
+.footer{
+    text-align: left;
+}
+
+address{
+    text-align: left;
+}
+footer{
+    margin-top: 30px;
+    text-align:center;
+}
+.line {
+    border-bottom: 1px solid #000;
+}
+
+/*Services Page*/
+
+/*top section*/
+
+.services-header{
+    border-bottom: 1px solid black;
+    padding-bottom:30px;
+    margin-bottom: 20px;
+}
+
+.service-section{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+
+.service-item{
+    background:#f4f3f4;
+    border:2px black solid;
+    margin:20px 10px 20px 10px;
+    width: 45%;
+    padding: 15px;
+}
+
+.service-item p{
+    margin:5px;
+}
+
+.service-footer{
+    margin:20px;
+}
+
+.service-footer-section{
+    display:inline-block;
+    width:49%;
+    vertical-align: top;
+}
+
+.service-footer-section ul{
+    list-style-type: square;
+    margin: 15px;
+}
+
+.service-footer-section li{
+    margin: 5px;
+}
+
+.services-page {
+    font: verdana;
+    /*font-weight:bold;*/
+}
+.service-footer-footer{
+    margin-top:30px;
+    text-align:center;
+}
+
+.services-page button{
+    border-radius:5px 5px;
+    border: 1px solid black;
+}
+
+.services-page h2{
+    font-size: 40px;
+}
+
+.services-header-img{
+    margin-top 20px;
+    margin-bottom: 10px;
+}
