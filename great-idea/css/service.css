@@ -233,12 +233,15 @@ h2{
     background-color: white;
 }
 
-
+.footnote{
+    display:flex;
+    justify-content: space-between;
+}
 
 .ending{
     padding-top:35px;
     border-top: 2px solid black;
-  
+    
 }
 
 .final{
@@ -246,11 +249,23 @@ h2{
     width:48%;
 }
 
+
 .computer{
     display:flex;
     justify-content: flex-end;
+    border:2px solid black;
 
 }
+
+.services-info-img{
+    padding:30px;
+    width:100%;
+
+}
+.list{
+    padding-top:30px;
+}
+
 .copyright{
     padding-top:60px;
     padding-bottom:60px;
