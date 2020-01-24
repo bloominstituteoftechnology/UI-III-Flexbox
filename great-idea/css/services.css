@@ -64,94 +64,68 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
 body {
     width: 50%;
     margin: auto;
 }
 
-.nav_bar {
-   width: 100%;
+nav {
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+ nav  a {
+     color: grey;
+     text-decoration: none;
+     margin: 3%;
    
-}
+     
+  
+ }
 
-.nav_bar a {
-    border: 2 grey;
-	margin: 3%;
-	color: grey;
-	text-decoration: none;
-}
+ .services h1 {
+     padding-top: 20px;
+     font-size: 25px;
+ }
+ 
+ .services p {
+     width: 90%;
+ }
 
-.contentbox1 {
-	display: flex;
-	align-items: center;
-	/* display: inline-block;*/
-	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 50px; 
-	border-bottom: 1px solid; 
-}
-.contentbox1 h1 {
-	font-size: 75px;
-	
-}
-.contentbox1_ {
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space between;
 
-	/* display: inline-block; */
-	padding-left: 100px;
-}
-.contentbox1_content{
-	/* display: inline-block; */
-	padding: 2%;
-	text-align: center; 
+ }
 
-	
-}
- .contentbox1_content p{
-	border: 2px solid black;
-	text-align: center;
-	width: 50%;
-	margin: 15%;
-	font-size: 20px;
-	color: grey;
-	
-}
+ .contentbox {
+  border: 1px solid black;
+  margin: 3%;
+  width: 40%;
+  padding: 5%;
+ }
 
+ footer {
+     display: flex;
+     flex-flow: row wrap;
+	 justify-content: space-between;
+    padding-top: 30px;
+    width: 100%;
+ }
 
-.contentbox2 {
-	display: flex;
-	flex: nowrap;
-	 /* display: inline-block;  */
-	margin: 0%;
-	/* width: 46%;	 */
-	padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-	text-align: left;
-	font-size: 16px;
-}
-.contentbox3 {
-	align-items: flex-start;
-	display: flex;
-	flex-direction: row;
-	/* display: inline-block; */
-	margin: 0%;
-	/* width: 31%;	 */
-	padding-top: 50px;
-    padding-right: 30px;
-	padding-bottom: 50px;
-	font-size: 16px;
-	
-}
+ footer ul {
+    margin: 35px;
+    list-style-type: square;
+    line-height: 2;
+ }
 
-.contact {
-	border-top: 1px solid;
-	padding: 20px 0;	
-}
+ footer p {
+    font-size: 20px; 
+    
+ }
 
-footer {
-	display: flex;
-	justify-content: center;
-	font-size: 12px;
-}
+ .copy p {
+     text-align: center;
 
+ }
