@@ -115,8 +115,16 @@ header div p {
 header div img {
 	margin: 45px 100px;
 }
+.services-header-img {
+	margin-top: 25px;
+}
 
 /* Section Content */
+h2 {
+	font-size: 30px;
+	
+}
+
 .column {
 	width: 100%;
 }
@@ -129,7 +137,28 @@ header div img {
 	flex-wrap: wrap;
 	max-width: 400px;
 	border: 1px black solid;
-	background-color: lightgrey;
+	background-color: #F8F8FF;
+	padding:25px;
+}
+.learn-button {
+	display: flex;
+	border: 1px black solid;
+	border-radius: 5px;
+	padding: 10px 40px;
+	font-size: 10px;
+	justify-content: center;
+	margin-top: 15px;
+
+}
+.sec-flex-2 {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 400px;
+	padding:25px;
+}
+.sec-flex-2 ul li {
+		list-style: square;
+		line-height: 2;
 }
 
 div section {
