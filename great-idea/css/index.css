@@ -200,6 +200,10 @@ footer{
 	background-color: #e6e6e6
 }
 
+.sectbutton {
+	width: 150px;	
+}
+
 .design {
 	display: flex;
 	flex-direction: column;
@@ -249,4 +253,17 @@ footer{
 	width: 500px;
 	margin: 5px;
 	padding: 5px;
+}
+
+.servefact {
+	display: flex;
+}
+
+.facts {
+	border: 1px solid black;
+	height: 200px;
+	width: 500px;
+	margin: 5px;
+	padding: 5px;
+
 }
