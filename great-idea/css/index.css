@@ -65,14 +65,95 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.bodycontainer{
-	max-width: 1100px;
-	margin: 0 auto;
-}
+/*Small frame styling main Page Styling*/
 
 @media only screen and (max-width:800px){
+	.bodycontainer{
+		width: 0 auto;
+	}
+	
+	.innovsec{
+		align-items: center;
+		flex-flow: column-reverse;
+		
+	}
+
+	.innovsec img{
+		width: 100%;
+		height: auto;
+		max-width: 479px;
+	}
+
+	.innovsecdiv{
+		align-items: center;
+	}
+
+	.innovsecdiv h1 pre{
+		font-size: 90%;
+		
+	}
+}
+
+/**************Regular Desktop styling - Main Page ******************/
+.innovsec{
+	display: flex;
+	max-width: 1100px;
+	justify-content: center;
+
+}
+
+.innovsecdiv{
+	display: flex;
+	flex-flow: column;
+	width: 50%;
+	align-items: center;
+	margin-right: 1%;
+}
+
+.innovsecdiv h1{
+	
+	font-size: 92px;
+}
+
+.innovsec button{
+	width: 50%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************Services CSS Styling*****************/
+
+
+/****************Small frame media styling*************************/
+@media only screen and (max-width:800px){
 	body{
-		background-color: yellow;
+		background-color: white;
 	}
 
 	.nav_bar{
@@ -117,6 +198,19 @@ h1, h2, h3, h4, h5 {
 	}
 	
 }
+
+
+
+
+
+
+/*******************Regular Desktop Styling - Services Page********************/
+
+.bodycontainer{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
 body{
 	max-width: 75%;
 	margin: 0 auto;
@@ -128,7 +222,7 @@ hr{
 	margin-bottom: 4%;
 }
 
-button{
+.serbutt{
 	margin-top: 8%;
 }
 
@@ -149,6 +243,7 @@ button{
 
 .nav_bar a:hover{
 	text-decoration: underline black;
+	color: whitesmoke;
 }
 
 #imgbanner{
@@ -178,11 +273,11 @@ button{
 }
 
 .serdiv p{
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .serdiv h3{
-	font-size: 24px;
+	font-size: 22px;
 }
 
 .maindiv{
