@@ -203,11 +203,12 @@ nav a{
 	display: flex;
 	width: 25%;
 	padding:30px;
+	letter-spacing: 2px;
 }
 
 .copyright{
 	text-align: center;
 	padding-bottom: 150px;
 	padding-top:45px;
-	;
+
 }
