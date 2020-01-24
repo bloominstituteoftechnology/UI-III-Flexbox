@@ -263,6 +263,11 @@ h1, h2, h3, h4, h5 {
 	.secdiv{
 		width: 100%;
 	}
+
+	.nextsec{
+		flex-direction: column-reverse;
+		align-items: center;
+	}
 	
 }
 
@@ -358,6 +363,15 @@ hr{
 .nextsec{
 	display: flex;
 	justify-content: wrap;
+}
+
+.nextsecdiv{
+	display: flex;
+	flex-direction: column;
+}
+.nextsec img{
+	width: 50%;
+	height: auto;
 }
 
 #nextlist{
