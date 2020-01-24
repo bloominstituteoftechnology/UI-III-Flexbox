@@ -45,7 +45,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} 
 
 /* Set every element's box-sizing to border-box */
 * {
@@ -64,3 +64,216 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Nav bar CSS*/
+
+
+
+
+
+nav{
+	display: flex;
+	width: 100%;
+}
+.links{
+	width:100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.links a{
+	text-decoration: none;
+	color: grey;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	
+}
+
+.innovation{
+	width: 50%;
+	display: flex;
+    justify-items: center;
+	align-items: center;
+	flex-direction: column;	
+}
+.start{
+	width: 100%;
+	margin-left: 80%;
+}
+
+
+
+.first-content{
+	display:flex;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 80%;
+	margin-left: 10%;
+}
+.first-content p{
+	font-size: 28px;
+}
+.top{
+	width: 49%;
+	padding-bottom: 3%;
+}
+
+
+body{	
+	text-align: center;
+	width: 100%;
+}
+p {
+	text-align: left;
+}
+
+.second-content{
+	width: 80%;
+	display: flex;	
+	justify-content: space-between;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-left: 9%;
+}
+.second-content p{
+	font-size: 28px;
+}
+.bottom{
+	width: 30%;
+	padding-top: 3%;;
+}
+
+.midimg{
+	width: 80%;	
+	margin-left: 9%;	
+}
+.middle-img{
+	width: 100%;
+}
+
+h1 {
+	font-size: 90px;
+}
+h3 {
+	text-align: left;
+}
+
+.contact {
+	border-top: 2px solid grey;;
+	width: 80%;
+	margin-bottom: 3%;	
+	margin-left: 9%;
+	padding-top: 2%;
+	margin-top: 2%;
+}
+.services-content{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.top2{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: 10%;
+	border-top: 2px solid black;
+	margin-top: 3%;
+}
+
+.top2 div{
+	width: 49%;
+	border: 1px solid black;
+	margin-top: 3%;
+}
+
+.mid2{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: 10%;
+}
+.mid2 div{
+	width: 49%;
+	border: 1px solid black;
+	margin-bottom: 3%;
+}
+
+.bottom2{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: 10%;
+	border-bottom: 2px solid black;;
+	margin-bottom: 3%;
+}
+
+.bottom2 div{
+	width: 49%;
+	border: 1px solid black;
+	margin-bottom: 3%;
+}
+button{
+	margin-right: 80%;
+	margin-top: 3%;
+	width: 20%;
+	height: 30px;
+}
+.services{
+	width: 80%;
+	margin-left: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-bottom: 3%;
+}
+.services h2{
+	margin-right: 100%;
+}
+.services-header-img{
+	width: 100%;
+}
+.services p{
+	font-size: 28px;
+}
+.services-content p{
+	font-size: 28px;
+}
+.facts{
+	display: flex;
+	width: 80%;
+	margin-left: 10%;
+}
+.factsBottom{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+}
+.factsBottom div{
+	width: 49%;
+}
+.services-info-img{
+	width: 100%;
+
+}
+.list{
+	text-align: left;	
+	margin-top: 3%;
+}
+ul li{
+	list-style-type: square;
+	margin-left: 7%;
+	padding-top: 5%;
+	font-size: 20px;
+}
+.factsBottom p{
+	font-size: 28px;
+}
+.footer{
+	margin-bottom: 3%;
+}
