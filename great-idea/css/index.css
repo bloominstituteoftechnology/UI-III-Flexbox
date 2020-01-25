@@ -407,10 +407,11 @@ hr{
 
 .maindiv{
 	background-color: rgb(194, 194, 194);
-	border: solid 2px black;
+	border: solid 2px coral;
 	width: 47%;
 	margin-bottom: 4%;
 	padding: 3%;
+	box-shadow: 10px 5px;
 }
 
 .nextsec{
