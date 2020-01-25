@@ -83,8 +83,8 @@ button {
 }
 
 
-.container .item {
-	display: inline-flex;
+.container {
+	display: flex;
 
 	
 }
