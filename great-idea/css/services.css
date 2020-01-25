@@ -69,7 +69,26 @@ nav a {
 	padding: 10pt;
 	justify-content: space-evenly;
 	
+} .container .item {
+	height: 300px;
+	width: 300px;
+	margin: 50px;
+	border: 100px;
+	background: lightgray;
+	font-size: medium;
+}	
+
+button {
+	
 }
+
+
+.container .item {
+	display: inline-flex;
+
+	
+}
+
 
 
 
