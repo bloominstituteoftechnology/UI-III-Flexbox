@@ -66,6 +66,18 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
+.allh3{
+	font-size: 18px;
+
+}
+
+.allh3:hover{
+	text-decoration: underline coral;
+
+}
+
+
 /*Small frame styling main Page Styling*/
 
 @media only screen and (max-width:1100px){
@@ -113,6 +125,7 @@ h1, h2, h3, h4, h5 {
 		min-width: 350px;
 		justify-content: space-evenly;
 	}
+	
 
 	.indexsec1 p{
 		padding-bottom: 10px;
@@ -302,11 +315,6 @@ address{
     max-width: 700px;
 	}
 
-	.serdiv p{
-		font-size: 10px;
-
-	}
-
 	.mainsec{
 		display: flex;
 		
@@ -434,3 +442,87 @@ hr{
 	color: coral;
 }
 
+/*********************Product Desktop Page*********************/
+
+.prosec{
+	position: relative;
+	text-align: center;
+
+	width: 100% ;
+	height: auto;
+}
+
+.prosec img{
+	height: 90%;
+	width: 90%;
+
+}
+
+.centered{
+	position: absolute;
+	top: 57%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 40px ;
+}
+
+#productid{
+	font-size: 22px;
+}
+
+.pagep{
+	font-size: 16pxs;
+}
+
+.midprosec{
+	margin-top: 2%;
+	
+	max-width: 1400px;
+	width: 100% ;
+	height: 600px;
+	padding: 1.3%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.midprodivz{
+	border: 2px solid coral;
+	width: 28%;
+	padding: 2%;
+	background: darkgrey;
+	box-shadow: 10px 5px;
+}
+
+.midprodivz img{
+	height: 50%;
+	width: auto;
+}
+
+
+/*********************Product small frame page*********************/
+
+@media only screen and (max-width:1300px){
+	.midprosec{
+		flex-direction: column;
+		max-width:1200px;
+		height: 1200px;
+		justify-content: space-between;
+	}
+
+	.midprodivz{
+		width: 80%;
+		margin: 0 auto;
+		height: 700px;
+		max-height: 1000px;
+		margin-bottom: 3%;
+	}
+
+	
+}
+
+@media only screen and (max-width:850px){
+	.centered{
+		font-size: larger;
+	}
+}
