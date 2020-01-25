@@ -487,6 +487,7 @@ hr{
 }
 
 .midprodivz{
+	position: relative;
 	border: 2px solid coral;
 	width: 28%;
 	padding: 2%;
@@ -495,8 +496,12 @@ hr{
 }
 
 .midprodivz img{
-	height: 50%;
+	position: absolute;
+	height: 30%;
 	width: auto;
+	bottom: 10%;
+	left: 15%;
+
 }
 
 
@@ -518,6 +523,11 @@ hr{
 		margin-bottom: 3%;
 	}
 
+	.midprodivz img{
+		height: 50%;
+		right: 55%;
+	}
+
 	
 }
 
@@ -525,4 +535,11 @@ hr{
 	.centered{
 		font-size: larger;
 	}
+
+
+	.midprodivz img{
+		height: 40%;
+		right: 55%;
+	}
+
 }
