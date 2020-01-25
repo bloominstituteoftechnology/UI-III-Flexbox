@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 
 body{
-    padding: 20% 20% 20% 20%;
+    padding: 25%;
     margin: auto;
 }
 
@@ -76,13 +76,15 @@ body{
     display: flex;
     justify-content: space-between;
     padding-bottom: 35px;
+
 }
 
 .logo{
     display:flex;
-    flex-direction: column;
-    align-content: center;
-    width:20%;
+    justify-content: flex-end;
+    align-items: baseline;
+    width:100%;
+
 
 }
 

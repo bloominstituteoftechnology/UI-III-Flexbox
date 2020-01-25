@@ -76,10 +76,10 @@ body{
 	flex-direction: row;
 	justify-content: space-between;
 
-
 }
 
 nav a{
+	text-decoration: none;
 	color:grey;
 	width: 10%;
 	margin: 2%;
@@ -118,7 +118,7 @@ nav a{
 	color:black;
 	text-align: center;
 	font-size:16px;
-	padding: 0px 12px 0px 12px;
+	padding: 0px 5px 0px 5px;
 }
 
 .start:hover{
@@ -133,6 +133,7 @@ nav a{
 
 .innercircle{
 	display:flex;
+	justify-content: space-evenly;
 	width:100%;
 	
 }
