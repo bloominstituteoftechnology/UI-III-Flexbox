@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* My CSS is below*/
+.container {
+  width: 880px;
+  margin: auto;
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+   margin: 20px;
+   align-items: center;
+   justify-content: center;
+
+   font-family: "Gotham", sans-serif;
+}
+
+nav a:link {
+    text-decoration: none;
+  }
+  
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+.logo{
+    margin-left: 130px;
+}
+
+.img1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+p {
+    font-family: "Gotham", san-serif;
+    font-weight: lighter;
+}
+
+
+hr {
+	border: 2px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.service-offering {
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    border: 1px solid black;
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.offerings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.service-offering a {
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 12px;
+  
+}
