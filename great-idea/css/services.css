@@ -63,95 +63,79 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
 nav a {
 	color: gray;
 	box-sizing: content-box;
 	padding: 10pt;
+	justify-content: space-evenly;
+	
+} 
 
-}
-
-.logo {
+nav .logo {
 	float: right;
 }
 
-.header-left {
-	display: inline-block;
-	padding: 75px;
-	text-align: center;
-	width: 49%;
-	font-size: 75px;
-}
 
-.header-left button:hover {
-	color: blueviolet;
-	border: 1.5px solid gold;
-}
-
-.header-left button {
-	margin: auto;
-	padding: 8px;
-}
-
-.header-right {
-	float: right;
-	position: relative;
-}
-
-
-
-button {
-	box-sizing: content-box;
-}
+	.container .item {
+	height: 45%;
+	width: 45%;
+	border: 1px solid black;
+	background: lightgray;
+	font-size: medium;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	padding: 25px;
+	
+}	
 
 
 
 
-.middle-img {
-	position: relative;
-	center: -70px;
-	left: 200px;
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 
-}
-
-.main-content {
-	border: 25px;
-	padding: 75px;
-	margin: 25px;
-	display: inline-flex;
-	text-align: start;
 	
 }
 
-h2 {
-	padding: 20px;
-	margin: 10px;
-}
 
-.other-content {
-	border: 25px;
-	padding: 75px;
+
+footer .container-facts ul {
 	margin: 25px;
-	display: inline-flex;
-	text-align: start;
+	list-style: disc;
+	line-height: 50px;
 
 }
 
-body {
-	border: transparent;
+footer .container-facts p {
+
+		margin: 20px;
 }
 
+footer .container-facts h3 {
 
+	margin:  20px;
+}
 
-footer {
+footer .closing {
+
 	text-align: center;
-}
+	justify-content: end;
 
-.contact {
-	padding: 10px;
-	display: inline-block;
-	margin: 25px;
-	width: 180px;
 
 }
+
+.woman-coding {
+
+	float: right;
+	margin-left: 50%;
+	
+
+}
+
+
+
+
+
