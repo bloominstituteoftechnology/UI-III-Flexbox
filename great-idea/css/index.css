@@ -159,10 +159,12 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
-.body {
-    width: 1135px;
+
+body {
+    width: 1100px;
     margin: 0 auto;
 }
+
 
 
 .navLogo {
