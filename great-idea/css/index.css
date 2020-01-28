@@ -429,6 +429,8 @@ a  > span{
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 5rem;
+  border-bottom: 2px solid grey;
+
   
 }
 
@@ -463,6 +465,8 @@ border-radius: 5px;
   border-radius: 5px;
   margin-bottom: 2rem;
   padding: 1rem;
+  font-size: 1.2rem;
+
 }
 
 .UX {
@@ -472,6 +476,8 @@ border-radius: 5px;
   border-radius: 5px;
   margin-bottom: 2rem;
   padding: 1rem;
+  font-size: 1.2rem;
+
 
 }
 
@@ -482,6 +488,8 @@ border-radius: 5px;
   border-radius: 5px;
   margin-bottom: 2rem;
   padding: 1rem;
+  font-size: 1.2rem;
+
 
 }
 
@@ -492,6 +500,8 @@ border-radius: 5px;
   border-radius: 5px;
   margin-bottom: 2rem;
   padding: 1rem;
+  font-size: 1.2rem;
+
 
 }
 
@@ -502,6 +512,8 @@ border-radius: 5px;
   border-radius: 5px;
   margin-bottom: 2rem;
   padding: 1rem;
+  font-size: 1.2rem;
+
 
 }
 
@@ -512,6 +524,8 @@ border-radius: 5px;
   border-radius: 5px;
   margin-bottom: 2rem;
   padding: 1rem;
+  font-size: 1.2rem;
+
 
 }
 
@@ -532,23 +546,28 @@ padding: 0;
 
 .someFacts {
   font-size: 1.2rem;
-  width: 40%;
-  border: 2px solid red;
+  width: 120%;
   margin-bottom: 8rem;
+  
 }
 
 .services-bottom{
   display: flex;
   justify-content: space-between;
   
-  border: 2px solid red;
 }
 
 .things {
   margin-top: 11.5rem;
   
-  border: 2px solid red;
-  margin-right: 8rem;
+  
 }
 
+.services-bottom .things {
+  margin-left: -35.6rem;
+}
+
+.copyright {
+  text-align: center;
+}
 
