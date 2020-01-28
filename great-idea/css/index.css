@@ -191,6 +191,20 @@ nav a:hover{
 	background-color: lavender;
 }
 
+.service-item button {
+	padding: 5px 35px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 6px;
+	transition: 0.4s;
+}
+
+.service-item button:hover {
+	background-color: rgb(173, 173, 173);
+	color: white;
+	transition: 0.5s;
+}
+
 .first-section{ 
 	display:flex;
 	justify-content: center;
