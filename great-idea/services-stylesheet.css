@@ -125,7 +125,7 @@ hr {
 
 
 .service-offering {
-    height: 400px;
+    height: 260px;
     width: 400px;
     margin: 20px;
     border: 1px solid black;
@@ -154,3 +154,46 @@ hr {
     font-size: 12px;
   
 }
+.service-offering h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.service-offering p {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 360px;
+}
+
+.lm-button {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.fun-facts {
+    display: flex;
+}
+
+.ff-div {
+    width: 460px
+}
+
+p {
+    font-size: 15px;
+}
+
+.ff-div p{
+    margin-bottom: 40px;
+}
+
+.ff-div  ul {
+    list-style-type: square;
+    font-family: "Gotham", san-serif;
+  }
+
+  footer {
+    text-align: center;
+    margin: 100px;
+    font-family: "Gotham", san-serif;
+  }
