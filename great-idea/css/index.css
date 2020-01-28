@@ -145,7 +145,7 @@ margin-right: 5rem;
 
 .iod {
 	margin-top: 2rem;
-
+  margin-left: 4rem;
 }
 
 
@@ -180,29 +180,34 @@ width: 100%;
 .middle-lower {
 	border-bottom: 1px dotted grey;
 	padding-top: 2rem;
-	padding-bottom: 4rem;
+  padding-bottom: 4rem;
+  display:flex;
+  justify-content: space-between;
 }
 
 .services {
-	margin-right: 51rem;
-	padding-bottom: 2rem;
-	font-size: 1.5rem;
+	/* margin-right: 51rem;
+	padding-bottom: 2rem; */
+  font-size: 1.5rem;
+  margin-right: 2rem;
 }
 
 .product {
-	font-size: 1.5rem;
-	margin-right: 25rem;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+
+	/* margin-right: 25rem;
 	margin-left: 25rem;
 	margin-top: -15rem;
-	padding-bottom: 2rem;
+	padding-bottom: 2rem; */
 }
 
 .vision {
-	float: right;
+	/* float: right; */
 	font-size: 1.5rem;
-	margin-left: 51rem;
+	/* margin-left: 51rem;
 	margin-top: -15.2rem;
-	padding-bottom: 1.6rem;
+	padding-bottom: 1.6rem; */
 }
 
 footer {
