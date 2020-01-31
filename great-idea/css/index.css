@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+/* 	list-style: none; */
 }
 blockquote, q {
 	quotes: none;
@@ -63,4 +63,407 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+header {
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  width: 100%;
+  background: #f5f6f7;
+  position: fixed;
+  border-bottom: 2px solid rgba(0, 0, 0, .3);
+  z-index: 10;
+  min-width: 850px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 70%;
+  white-space: nowrap;
+  min-width: 400px;
+}
+
+nav a {
+	width: 16%;
+  padding: 4% 1% 0% 1%;
+  text-align: center;
+  text-decoration: none;
+  color: #76777a;
+  background: #f5f6f7;
+  font-size: 1.2em;
+}
+
+nav a:hover{
+  border: 1px solid black;
+  background: white;
+}
+
+nav a:active{
+  color: black;
+  border: 2px solid black;
+}
+
+section {
+  margin: 2%;
+  padding: 4% 2%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+footer{
+  margin: 2% 4%;
+}
+
+.lower {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+}
+
+h1{
+  font-size: 80px;
+  text-align: center;
+}
+
+.innovation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 45%;
+}
+
+#img-container {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-container img {
+  width: 75%;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+button {
+  background: white;
+  border: 1px solid black;
+  height: 35px;
+  width: 120px;
+  font-size: 14px;
+  font-family: 'Source Code Pro', monospace;
+  margin: 20px 100px;
+}
+
+button:hover {
+  box-shadow: -3px 3px rgba(0, 0, 0, .4);
+}
+
+button:active {
+  transform: translateY(3px) translateX(-1px);
+  box-shadow: -1px 1px rgba(0, 0, 0, .8);
+}
+
+.abovePic {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.features {
+  width: 49%;
+}
+
+.about {
+  width: 49%;
+}
+
+.main img {
+  display: block;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  margin: 25px 0px;
+}
+
+.belowPic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services {
+  width: 32%;
+}
+
+.product {
+  width: 32%;
+}
+
+.vision {
+  width: 32%;
+}
+
+footer p {
+  margin: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  line-height: 1.2;
+}
+
+
+/* Services Styles */
+.lowerServices {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.h1andText {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+#servicesh1 {
+  font-size: 32px;
+}
+
+.services-header-img {
+  display: block;
+  margin: auto;
+  width: 95%;
+}
+
+.lowerServices p {
+  /* margin: 0px 25px; */
+}
+
+#contain {
+  width: 100%;
+}
+
+.mainServices {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  width: 97%;
+  padding: 3%;
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+.mainServices h2{
+  font-size: 25px;
+}
+
+.box {
+  width: 42%;
+  border: 1px solid black;
+  padding: 3%;
+  margin: 30px;
+  background: #f5f6f7
+}
+
+.mainServices button{
+  margin: 15px 15px 0px 0px;
+  border-radius: 7%;
+  width: 150px;
+}
+
+#servicesFoot {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+#someFacts {
+  width: 40%;
+  margin-top: 25px;
+}
+
+#someFacts p {
+  text-align: left;
+  margin: 15px 30px 15px 0px;
+}
+
+#containFoot {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+  width: 48%;
+}
+
+ul {
+  line-height: 2;
+  list-style-type: square;
+  margin: 15px;
+}
+
+.logo {
+  height: 57px;
+}
+
+
+/* Products page styling */
+.lowerProduct {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.h1contain {
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.h1contain h1 {
+  font-size: 32px;
+}
+
+.lowerProduct p {
+  width: 95%;
+}
+
+.lowerProduct img {
+  width: 95%;
+  height: 200px;
+  opacity: .6;
+  margin: 20px 0px;
+  padding: 2px;
+}
+
+.mainProduct {
+  width: 98%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+
+.productBox {
+  width: 22%;
+  border: 1px solid black;
+  background: #f5f6f7;
+  margin: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4px;
+  min-width: 200px;
+}
+
+.productBox img {
+  height: 150px;
+  width: 150px;
+  opacity: .8;
+}
+
+.productBox button {
+  border-radius: 7%;
+}
+
+footer p {
+  text-align: left;
+}
+
+.copy {
+  text-align: center;
+}
+
+
+
+/* Mobile reconfiguring */
+
+@Media (max-width: 600px){
+  .top {
+    height: 60px;
+    min-width: 200px;
+  }
+
+  nav {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    min-width: 200px;
+  }
+  
+  nav a {
+    width: 25%;
+    font-size: 13px;
+    padding: 1%;
+    margin: 2px;
+    border: 1px solid lightgray;
+  }
+
+  a img {
+    margin: 8px;
+  }
+
+  .logo {
+    height: 35px;
+  }
+
+  .box {
+  width: 85%;
+  }
+
+  .servicesFoot{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #someFacts {
+    width: 85%;
+  }
+
+  #containFoot {
+    width: 85%;
+  }
+
+  /* Mobile reconfig for Home page */
+  .lower {
+    padding-top: 80px;
+  }
+
+  .innovation {
+    width: 85%;
+  }
+
+  #img-container {
+    width: 85%;
+  }
+
+  h1 {
+    margin-bottom: 15px;
+  }
+
+  /* Mobile reconfig for Products */
+  .productBox {
+    width: 45%;
+  }
+}
