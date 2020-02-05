@@ -53,6 +53,10 @@ table {
     box-sizing: border-box;
 }
 
+p {
+	line-height: 1.4;
+}
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -64,99 +68,94 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-
 .container {
-	width: 880px;
-	margin: 0 auto;
+    width: 880px;
+    /* TB LR */
+    margin: 0 auto;
 }
 
 header nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 35px;
+	margin: 35px 0 15px;
 }
 
 header nav a {
-	text-decoration: none;
-	color: gray;
-	font-size: 14px
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
 }
 
 header nav a:hover {
-	font-size: 17px;
-	transition: 200ms;
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
-.cta {
-	display: flex;
-	justify-content: space-evenly;
+.services-header {
+	margin-bottom: 20px;
 }
 
-.cta-text {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	font-size: 77px;
-	text-align: center;
-	align-items: center;
-	margin-top: 95px;
-}
-
-.cta-text button {
-	background: white;
-	vertical-align: top;
-	margin-top: 6px;
-	padding: 8px 44px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
-}
-
-.cta-text button:hover {
-	background-color: black;
-	color: white;
-	transition: 400ms;
-}
-
-.cta img {
-	margin-top: 69px;
-}
-
-.main-top-content {
-	display: flex;
-	justify-content: space-between;
-	border-top: 1px solid black;
-	padding: 40px 0;
-	margin-top: 40px;
-}
-
-.bottom-content {
-	display: flex;
-	justify-content: space-between;
-	border-top: 1px solid black;
+.services-top-content {
+	height: 150px;
 	border-bottom: 1px solid black;
-	padding: 40px 0;
-	margin-top: 40px;
+	padding: 26px 0 15px;
+	font-size: 15px;
+}
+
+.services-middle-content {
+	padding-bottom: 35px;
+	border-bottom: 1px solid black;
+}
+
+.services-title {
+	font-size: 26px;
+}
+
+.box-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text-box {
+	border: 1px solid black;
+	padding: 20px;
+	width: 420px;
+	margin-top: 45px;
+	background-color: rgb(240, 240, 240);
 	
 }
-.bottom-content .middle-text-content{
-	padding: 0px 5px;
+
+.box-info {
+	padding-bottom: 20px;
 }
 
-.contact div {
-	padding: 20px 0 0 ;
+.box-button {
+	padding: 12px 35px;
+	border-radius: 4px;
+	border: 1px solid black;
 }
 
-.contact p {
-	padding-bottom: 14px;
+.services-bottom-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 0;
+}
+
+.bottom-text-box {
+	width: 420px;
+}
+.bottom-text-box p{
+	padding-bottom: 10px;
+}
+.bottom-text-box li{
+	padding-top: 15px;
+}
+.bottom-image {
+	width: 420px;
 }
 
 footer {
 	display: flex;
 	justify-content: center;
-	padding-bottom: 30px;
+	padding: 30px 0;
 }
