@@ -509,15 +509,29 @@ h6 {
 .flexed .flexedHeading {
   display: flex;
 }
-.flexed .flexedHeading .heading1 {
+.flexed .flexedHeading .heading1,
+.flexed .flexedHeading .circle {
   border: 1px solid purple;
   width: 50%;
   text-align: center;
+  align-self: center;
 }
-.flexed .flexedHeading .circle {
-  border: 1px solid green;
-  width: 50%;
-  text-align: center;
+.flexed .flexedHeading .heading1 h1,
+.flexed .flexedHeading .circle h1 {
+  font-size: 5rem;
+}
+.flexed .flexedTopSection {
+  display: flex;
+  justify-content: space-between;
+}
+.flexed .flexedTopSection div {
+  width: 45%;
+}
+.banner {
+  margin: 0;
+}
+.banner img {
+  width: 110%;
 }
 @font-face {
   font-family: 'Bangers';

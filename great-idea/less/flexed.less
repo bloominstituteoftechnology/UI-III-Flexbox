@@ -5,15 +5,28 @@
     .container();
     .flexedHeading {
         display: flex;
-        .heading1 {
+        .heading1,
+        .circle {
             .bCheck(purple);
             width: 50%;
             text-align: center;
+            align-self: center;
+            h1 {
+                font-size: 5rem;
+            }
         }
-        .circle {
-            .bCheck(green);
-            width: 50%;
-            text-align: center;
+    }
+    .flexedTopSection {
+        display: flex;
+        justify-content: space-between;
+        div {
+            width: 45%;
         }
+    }
+}
+.banner {
+    margin: 0;
+    img {
+        width: 110%;
     }
 }
