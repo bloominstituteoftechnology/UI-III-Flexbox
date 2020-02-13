@@ -8,6 +8,8 @@
 @heading: "Bangers", cursive;
 @import url("https://fonts.googleapis.com/css?family=Bangers|Prompt&display=swap");
 
+@phone: ~"(max-width: 500px)";
+@tablet: ~"(max-width: 800px)";
 .ani1() {
     transition: 0.2s ease-in-out;
     &:hover {
@@ -20,4 +22,14 @@
             transform: scaleX(0.8);
         }
     }
+}
+.padding {
+    padding: 2% 0;
+}
+.grid() {
+    display: grid;
+}
+.container() {
+    width: 90%;
+    margin: 0 5%;
 }

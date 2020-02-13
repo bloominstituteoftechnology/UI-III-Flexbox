@@ -325,6 +325,23 @@ nav .navSeparation a {
 nav .navSeparation a:hover {
   text-shadow: black 0 0 10px;
 }
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .navSeparation {
+    flex-direction: column;
+    display: flex;
+    border: 1px solid magenta;
+  }
+  nav .navSeparation a {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border: 1px solid green;
+  }
+}
 h1,
 h2,
 h3,
@@ -418,9 +435,6 @@ h6 {
   font-family: "Prompt", sans-serif;
   padding: 2% 0 3%;
   font-size: 0.8rem;
-}
-.padding {
-  padding: 2% 0;
 }
 .page {
   width: 90%;
@@ -582,4 +596,7 @@ h6 {
   font-weight: 400;
   font-display: swap;
   src: local('Prompt'), local('Prompt-Regular'), url(https://fonts.gstatic.com/s/prompt/v4/-W__XJnvUD7dzB2KYNoY.ttf) format('truetype');
+}
+.padding {
+  padding: 2% 0;
 }
