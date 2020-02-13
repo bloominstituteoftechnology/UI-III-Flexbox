@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -31,9 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -63,4 +62,147 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 1200px;
+	margin: 50px;
+}
+header {
+	width: 100%;
+	display: flex;
+}
+header nav {
+	display: flex;
+	width: 80%;
+	justify-content: space-evenly;
+	
+}
+
+a{
+	font-size:15px;
+	color: grey;
+	text-decoration: none;
+}
+img {
+	clear: right;
+}
+
+
+
+/*code for the section: innovations*/
+.innovation {
+	width: 100%;
+
+}
+
+.innovation div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 60%;
+}
+h1 {
+	
+	font-size: 80px;
+}
+
+.getstarted{
+	display: flex;
+	width: 20%;
+	
+	justify-content: center;
+	color: black;
+	font-size: 17px;
+}
+
+.innovation img {
+	display: flex;
+	justify-content: flex-end;
+	
+
+}
+
+
+
+/*Sections featureAbout*/
+
+.featureabout{
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.featureabout div{
+	width: 45%;
+	height: 20vh;
+}
+
+.featureabout p{
+	font-size: 17px;
+
+}
+	
+.featureabout img{
+	width: 100%;
+}
+
+
+
+/*Working on section four with service, product, and vision*/
+.sectionf div {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+#secservice {
+	display: flex;
+	flex-direction: column;
+}
+
+#secproduct {
+	display: flex;
+	flex-direction: column;
+}
+
+#secvision {
+	display: flex;
+	flex-direction: column;
+}
+
+.four div{
+	display: flex;
+	width: 30%;
+	flex-wrap: nowrap;
+}
+
+
+
+/*Footer information*/
+footer {
+	width: 100%;
+}
+
+footer h4{
+	font-weight: bold;
+}
+address{
+	display: flex;
+	flex-direction: column;
+}
+footer p{
+	text-align: center;
+	font-size: 15px;
+}
+
+/*This is where we edit everything for the second page. Do take note that you
+may refrence code from page one. becareful not to do that as to not affect 
+code written before*/
+
