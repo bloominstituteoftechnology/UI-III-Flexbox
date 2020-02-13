@@ -372,6 +372,11 @@ p {
   font-size: 5.5rem;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .heading .heading1 h1 {
+    font-size: 3rem;
+  }
+}
 .heading .heading1 button {
   justify-self: center;
   width: 54%;
@@ -395,6 +400,18 @@ p {
   background-repeat: no-repeat;
   background-size: fit-content;
   background-position: center;
+}
+@media (max-width: 500px) {
+  .heading {
+    display: flex;
+  }
+  .heading .circle {
+    display: none;
+  }
+  .heading .heading1 {
+    border: 1px solid red;
+    width: 100%;
+  }
 }
 .top-section {
   display: grid;
@@ -426,6 +443,13 @@ p {
 }
 .banner img {
   width: 100%;
+}
+@media (max-width: 500px) {
+  .banner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
 }
 .triSection {
   display: grid;

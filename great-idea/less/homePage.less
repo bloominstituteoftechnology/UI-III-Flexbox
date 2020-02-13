@@ -23,6 +23,9 @@ p {
         h1 {
             font-size: 5.5rem;
             text-align: center;
+            @media @phone {
+                font-size: 3rem;
+            }
         }
         button {
             justify-self: center;
@@ -34,11 +37,22 @@ p {
             .ani1();
         }
     }
+
     .circle {
         background-image: url(../img/header-img.png);
         background-repeat: no-repeat;
         background-size: fit-content;
         background-position: center;
+    }
+    @media @phone {
+        display: flex;
+        .circle {
+            display: none;
+        }
+        .heading1 {
+            .bCheck(red);
+            width: 100%;
+        }
     }
 }
 
@@ -63,6 +77,10 @@ p {
 .banner {
     .container();
     img {
+        width: 100%;
+    }
+    @media @phone {
+        .nothing();
         width: 100%;
     }
 }
