@@ -6,3 +6,17 @@
 @font: "Prompt", sans-serif;
 @heading: "Bangers", cursive;
 @import url("https://fonts.googleapis.com/css?family=Bangers|Prompt&display=swap");
+
+.ani1() {
+    transition: 0.2s ease-in-out;
+    &:hover {
+        cursor: pointer;
+        color: white;
+        background: black;
+        transform: scaleX(1.2);
+        transition: 0.2s ease-in-out;
+        p {
+            transform: scaleX(0.8);
+        }
+    }
+}

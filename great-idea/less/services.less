@@ -1,4 +1,9 @@
 .page {
+    p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
     .container();
     .banner {
         margin: 0;
@@ -6,18 +11,66 @@
             width: 110%;
         }
     }
+    .padding {
+        padding: 2% 0;
+    }
     .services {
+        h2 {
+            font-size: 2rem;
+        }
+        .padding();
     }
     .tiles {
+        border: 1px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .padding();
         div {
+            background: rgba(211, 211, 211, 0.246);
+            margin: 2% 0;
+            width: 40%;
+            padding: 0.5% 1%;
+            border: 1px solid black;
+            border-radius: 6px;
+            h3 {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+            button {
+                padding: 1.5% 6%;
+                margin: 2% 0 3% 2%;
+                border-radius: 6px;
+                border: 1px solid black;
+                background: white;
+                .ani1();
+            }
         }
     }
     .bottom {
+        .padding();
+        display: flex;
         .left {
+            width: 50%;
+            h4 {
+                font-size: 1.4rem;
+            }
+            p {
+                line-height: 2rem;
+            }
             ul {
+                font-size: 1.1rem;
+                line-height: 2.2rem;
             }
         }
         .right {
+            img {
+                padding: 5%;
+                width: 90%;
+            }
+            width: 50%;
         }
     }
 }

@@ -306,7 +306,7 @@ template {
 nav {
   display: grid;
   grid-template-columns: 5fr 1fr;
-  padding-top: 1%;
+  padding: 1.5%;
 }
 nav .logo {
   padding: 10% 0 0;
@@ -319,6 +319,8 @@ nav .navSeparation {
 nav .navSeparation a {
   width: 30%;
   margin-left: 30%;
+  color: grey;
+  text-decoration: none;
 }
 h1,
 h2,
@@ -353,6 +355,17 @@ p {
   background: white;
   border: black 1px solid;
   border-radius: 6px;
+  transition: 0.2s ease-in-out;
+}
+.heading .heading1 button:hover {
+  cursor: pointer;
+  color: white;
+  background: black;
+  transform: scaleX(1.2);
+  transition: 0.2s ease-in-out;
+}
+.heading .heading1 button:hover p {
+  transform: scaleX(0.8);
 }
 .heading .circle {
   background-image: url(../img/header-img.png);
@@ -403,11 +416,87 @@ h6 {
   width: 90%;
   margin: 0 5%;
 }
+.page p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
 .page .banner {
   margin: 0;
 }
 .page .banner img {
   width: 110%;
+}
+.page .padding {
+  padding: 2% 0;
+}
+.page .services {
+  padding: 2% 0;
+}
+.page .services h2 {
+  font-size: 2rem;
+}
+.page .tiles {
+  border: 1px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+.page .tiles div {
+  background: rgba(211, 211, 211, 0.246);
+  margin: 2% 0;
+  width: 40%;
+  padding: 0.5% 1%;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.page .tiles div h3 {
+  font-size: 1.8rem;
+}
+.page .tiles div p {
+  font-size: 1.2rem;
+}
+.page .tiles div button {
+  padding: 1.5% 6%;
+  margin: 2% 0 3% 2%;
+  border-radius: 6px;
+  border: 1px solid black;
+  background: white;
+  transition: 0.2s ease-in-out;
+}
+.page .tiles div button:hover {
+  cursor: pointer;
+  color: white;
+  background: black;
+  transform: scaleX(1.2);
+  transition: 0.2s ease-in-out;
+}
+.page .tiles div button:hover p {
+  transform: scaleX(0.8);
+}
+.page .bottom {
+  padding: 2% 0;
+  display: flex;
+}
+.page .bottom .left {
+  width: 50%;
+}
+.page .bottom .left h4 {
+  font-size: 1.4rem;
+}
+.page .bottom .left p {
+  line-height: 2rem;
+}
+.page .bottom .left ul {
+  font-size: 1.1rem;
+  line-height: 2.2rem;
+}
+.page .bottom .right {
+  width: 50%;
+}
+.page .bottom .right img {
+  padding: 5%;
+  width: 90%;
 }
 @font-face {
   font-family: 'Bangers';
