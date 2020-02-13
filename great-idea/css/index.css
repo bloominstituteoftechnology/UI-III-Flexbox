@@ -328,7 +328,7 @@ nav .navSeparation a:hover {
 @media (max-width: 500px) {
   nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   nav .navSeparation {
     flex-direction: column;
@@ -336,9 +336,10 @@ nav .navSeparation a:hover {
     border: 1px solid magenta;
   }
   nav .navSeparation a {
-    margin: 0;
+    margin: 1% 0;
     width: 100%;
     text-align: center;
+    padding: 4% 0;
     border: 1px solid green;
   }
 }
