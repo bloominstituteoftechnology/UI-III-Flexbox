@@ -341,7 +341,7 @@ p {
   width: 90%;
   margin: 0 5%;
   grid-template-columns: repeat(2, 1fr);
-  margin: 5%;
+  margin: 0 5% 3%;
 }
 .heading .heading1 {
   display: grid;
@@ -354,7 +354,7 @@ p {
 }
 .heading .heading1 button {
   justify-self: center;
-  width: 50%;
+  width: 54%;
   background: white;
   border: black 1px solid;
   border-radius: 6px;
@@ -449,7 +449,7 @@ h6 {
 .page .tiles div {
   background: rgba(211, 211, 211, 0.246);
   margin: 2% 0;
-  width: 40%;
+  width: 45.5%;
   padding: 0.5% 1%;
   border: 1px solid black;
   border-radius: 6px;
@@ -517,7 +517,7 @@ h6 {
 }
 .flexed .flexedHeading .heading1 h1,
 .flexed .flexedHeading .circle h1 {
-  font-size: 5rem;
+  font-size: 5.5rem;
 }
 .flexed .flexedHeading button {
   width: 35%;
@@ -525,7 +525,7 @@ h6 {
   border: black 1px solid;
   border-radius: 6px;
   transition: 0.2s ease-in-out;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 .flexed .flexedHeading button:hover {
   cursor: pointer;
