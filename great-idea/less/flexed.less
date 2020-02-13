@@ -1,0 +1,19 @@
+.bCheck(@color) {
+    border: 1px solid @color;
+}
+.flexed {
+    .container();
+    .flexedHeading {
+        display: flex;
+        .heading1 {
+            .bCheck(purple);
+            width: 50%;
+            text-align: center;
+        }
+        .circle {
+            .bCheck(green);
+            width: 50%;
+            text-align: center;
+        }
+    }
+}
