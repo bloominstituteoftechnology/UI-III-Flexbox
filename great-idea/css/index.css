@@ -64,3 +64,206 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	
+}
+
+html, body {
+	margin: 0 auto;
+	width:80%;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.navbar{
+	margin-right: 2px;
+	padding: 2%; 
+	display: inline-block;
+	width: 85%;
+	/*
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	background-color: deepskyblue;
+	*/
+}
+
+
+
+div a{
+	width: 60%;
+}
+.logo{
+	display: inline-block;
+	width:10%;
+	margin-left: 4%;
+}
+
+.IOD{
+	display: inline-block;
+	width:50%;
+	font-size: 80px;
+	padding: 80px 80px 0px 80px;
+	text-align: center;
+
+}
+.circlecode{
+	display: inline-block;
+	width:30%;
+	margin: 70px 0px;
+}
+.navbar .links a{
+	color: lightgray;
+	margin-left: 5%;
+	text-decoration: none;
+	
+}
+.gs{
+	width: 230px;
+	height: 30px;
+	color: black;
+	background: white;
+	font-size: 12px;
+}
+.gs:hover{
+	animation: fontbulger 1s infinite;
+	background-color: lawngreen;
+	color: forestgreen;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+.top{
+	border-bottom: 1px solid black;
+}
+
+.features{
+	display: inline-block;
+	width: 48%;
+	margin: 5% 3% 3% 0%;
+}
+
+.about{
+	display: inline-block;
+	width: 48%;
+}
+.middle-img{
+	width: 100%;
+}
+
+.services{
+	display: inline-block;
+	width: 30%;
+	font-family: 'Concert One', cursive;
+}
+
+.product{
+	display: inline-block;
+	width: 30%;
+	margin: 0 4.40%;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.vision{
+	display: inline-block;
+	width: 30%;
+	font-family: 'Parisienne', cursive;
+}
+
+.contact{
+	margin-top: 5%;
+	display: inline-block;
+	line-height: 1.5;
+	width: 20%;
+}
+.contact a{
+	line-height: 1;
+}
+
+.cr{
+	display: block;
+	text-align: center;
+	font-size: 10px;
+}
+
+.codeblock{
+	margin-bottom: 3%;
+}
+
+.con2{
+	padding-bottom: 5%;
+	border-bottom: 1px solid black;
+}
+
+@keyframes fontbulger{
+	0%{
+		font-size: 12px;
+	}
+	50%{
+		font-size: 20px;
+	}
+	100%{
+		font-size: 12px;
+	}
+}
+
