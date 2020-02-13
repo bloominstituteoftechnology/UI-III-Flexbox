@@ -146,3 +146,18 @@ h1, h2, h3, h4, h5 {
 	margin: 20px;
 	padding: 20px;
   }
+
+  /* Services CSS */
+
+  #header2{
+	padding: 35px;
+	border-bottom: 1px solid black;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-around;
+
+  }
+
+  #header2 h3{
+	  font-size: 30px;
+  }
