@@ -23,15 +23,22 @@
             margin-bottom: 7%;
         }
         @media @phone {
+            button {
+                align-self: center;
+                justify-self: center;
+                .nothing();
+            }
             .heading1 {
                 .nothing();
-                width: 100%;
+                width: 90%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-content: center;
                 position: absolute;
-                color: red;
+                color: white;
+                text-shadow: black 0 0 10px, white 0 0 9px, black 0 0 8px,
+                    white 0 0 7px, black 0 0 6px, black 0 0 5px, black 0 0 2px;
                 z-index: 99;
                 h1 {
                     font-size: 2.5rem;
@@ -41,12 +48,12 @@
             }
             .circle {
                 img {
-                    width: 100%;
+                    width: 90%;
                 }
                 position: relative;
                 width: 100%;
                 height: 100%;
-                .bCheck(purple);
+                .nothing();
             }
         }
     }
@@ -79,5 +86,8 @@
     }
     .contact {
         margin: 0;
+    }
+    @media @phone {
+        .nothing();
     }
 }
