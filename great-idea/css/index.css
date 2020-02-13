@@ -81,7 +81,8 @@ a{
 
 .first-title-section{
 	display: flex;
-	justify-content: space-evenly
+	justify-content: space-evenly;
+	margin: 10% 0;
 }
 .main-title{
 	display: flex;
