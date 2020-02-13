@@ -2,7 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+*{
+	box-sizing: border-box;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,7 +20,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +50,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -63,4 +64,166 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+/* *{
+	border: 1px solid gray;
+} */
+/* Navigation*/
+.navigation{
+	width: 100%;
+}
+.nav{
+	padding: 10px;
+	width: 100%;
+	height: 1vh;
+	display: inline-block;
+	margin-bottom: 10%;
+}
+ul{
+	padding: 10px;
+	list-style-type: none;
+	text-align: center;
+}
+li{
+	color: black;
+	display: inline-block;
+	width: 14%;
+	border-right: 1px solid black;
+
+}
+li:last-child{
+	border-right: none;
+}
+li a:hover{
+	background-color: black;
+	color: white;
+	transition: 0.5s ease-in;
+}
+#contact1{
+	padding-right: 3%;
+}
+a{
+	color: black;
+	text-decoration: none;
+	width: 100%;
+}
+
+.logo{
+	display: inline-block;
+	float: right;    
+	width: 86%;
+	
+
+}
+/*End Nav Bar*/
+/*Header*/
+header{
+	text-align: center;
+}
+.innovation{
+	display: inline-block;
+	width: 40%;
+	border-right: 1px solid black;
+	font-size: 100px;
+	text-align: center;
+
+}
+.innovation button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: -4%;
+    width: 36%;
+	border-radius: 10px 0 10px 0px;
+	box-shadow: 2px 2px 8px black;
+}
+.innovation button:hover{
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	transition: 0.6s ease-in;
+	box-shadow: 2px 2px 20px black;
+}
+.img{
+	display: inline-block;
+	width: 40%;
+	align-items: right;
+	margin-left: 5%;
+}
+/*End Header*/
+/*Top-Content*/
+.top-content{
+	text-align: center;
+	margin-top: 4%;
+	margin-right: 5%;
+	margin-bottom: 4%;
+	line-height: 1.5rem;
+
+}
+.top-content h2{
+	font-size: 45px;
+}
+.features{
+	display: inline-block;
+	width: 40%;
+	border-right: 1px solid black;
+}
+.about{
+	display: inline-block;
+	width: 40%;
+}
+/*End Top-Content*/
+/*Center Image*/
+.middle-img{
+	width: 100%;
+}
+/*End Center-Img*/
+/*Bottom-content*/
+
+.bottom-content div{
+	border-right: 1px solid black;
+	margin-top: 4%;
+}
+.bottom-content div:last-child{
+	border-right: none;
+}
+.services{
+	display: inline-block;
+	width: 33%;
+
+}
+.product{
+	display: inline-block;
+	width: 33%;
+}
+.vision{
+	display: inline-block;
+	width: 33%;
+	border-right: 1px solid white;
+}
+.bottom-content h2{
+	text-align: center;
+	font-size: 32px;
+}
+.bottom-content p {
+	line-height: 1.5rem;
+	margin-left: 1.5%;
+	padding: 0 1%;
+}
+.bottom-content{
+	margin-bottom: 4%;
+}
+/*End Bottom-content*/
+/*Conact*/
+.contact{
+	border-top: 1px solid black;
+	text-align: center;
+	padding-top: 2%;
+}
+footer{
+	text-align: center;
+}
+
+
