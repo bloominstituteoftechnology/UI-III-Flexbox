@@ -314,7 +314,7 @@ nav .logo {
 }
 nav .navSeparation {
   display: grid;
-  grid-template-columns: repeat(6, minmax(30px, 1fr));
+  grid-template-columns: repeat(6, minmax(10%, 1fr));
 }
 nav .navSeparation a {
   width: 30%;
@@ -398,6 +398,16 @@ h6 {
   font-family: "Prompt", sans-serif;
   padding: 2% 0 3%;
   font-size: 0.8rem;
+}
+.page {
+  width: 90%;
+  margin: 0 5%;
+}
+.page .banner {
+  margin: 0;
+}
+.page .banner img {
+  width: 110%;
 }
 @font-face {
   font-family: 'Bangers';
