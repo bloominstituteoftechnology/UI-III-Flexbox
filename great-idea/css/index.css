@@ -379,12 +379,16 @@ p {
 .top-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 7%;
   border-top: 2px solid gray;
   width: 90%;
   margin: 0 5%;
 }
+.top-section div h2 {
+  padding-top: 3%;
+}
 .top-section div p {
-  padding: 3% 10% 3% 0;
+  padding: 3% 0 3%;
   margin-bottom: 10%;
 }
 .banner {
