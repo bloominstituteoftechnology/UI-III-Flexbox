@@ -511,7 +511,6 @@ h6 {
 }
 .flexed .flexedHeading .heading1,
 .flexed .flexedHeading .circle {
-  border: 1px solid purple;
   width: 50%;
   text-align: center;
   align-self: center;
@@ -519,6 +518,24 @@ h6 {
 .flexed .flexedHeading .heading1 h1,
 .flexed .flexedHeading .circle h1 {
   font-size: 5rem;
+}
+.flexed .flexedHeading button {
+  width: 35%;
+  background: white;
+  border: black 1px solid;
+  border-radius: 6px;
+  transition: 0.2s ease-in-out;
+  margin-bottom: 5%;
+}
+.flexed .flexedHeading button:hover {
+  cursor: pointer;
+  color: white;
+  background: black;
+  transform: scaleX(1.2);
+  transition: 0.2s ease-in-out;
+}
+.flexed .flexedHeading button:hover p {
+  transform: scaleX(0.8);
 }
 .flexed .flexedTopSection {
   padding: 2% 0;
