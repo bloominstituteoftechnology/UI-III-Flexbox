@@ -5,33 +5,85 @@
     width: 90%;
     margin: 0 5%;
 }
+h1,
+h2,
+h3,
+h5,
+h4 {
+    font-family: @heading;
+}
+p {
+    line-height: 1.5rem;
+    font-family: @font;
+}
+
+.heading {
+    .grid();
+    .container;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5%;
+    .heading1 {
+        display: grid;
+        justify-self: center;
+        align-self: center;
+        h1 {
+            font-size: 5.5rem;
+            text-align: center;
+        }
+        button {
+            justify-self: center;
+            width: 50%;
+            background: white;
+            border: black 1px solid;
+            border-radius: 6px;
+        }
+    }
+    .circle {
+        background-image: url(../img/header-img.png);
+        background-repeat: no-repeat;
+        background-size: fit-content;
+        background-position: center;
+    }
+}
 
 .top-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border-top: 2px solid gray;
     .container();
     div {
         p {
             padding: 3% 10% 3% 0;
+            margin-bottom: 10%;
         }
     }
 }
+
 .banner {
     .container();
     img {
         width: 100%;
     }
 }
+
 .triSection {
     .grid();
     .container();
     margin-top: 2%;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 5%;
+    padding-bottom: 3%;
+    border-bottom: 2px solid gray;
 }
+
 .contact {
     .container();
+    margin-top: 3%;
 }
+
 h6 {
     text-align: center;
+    font-family: @font;
+    padding: 2% 0 3%;
+    font-size: 0.8rem;
 }
