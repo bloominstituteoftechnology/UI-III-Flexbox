@@ -64,3 +64,85 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.nav-top {
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content:space-between;
+  }
+  .nav-top a {
+	text-decoration: none;
+	color: black;
+	padding: 20px 60px 20px 20px;
+  }
+  .text-button {
+	width: 50%;
+  }
+  .text {
+	font-size: 80px;
+	width: 100%;
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+  }
+  button {
+	background: white;
+	padding: 10px 33px;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 220px;
+	margin-bottom: 40px;
+  }
+  .header-img {
+	width: 45%;
+  }
+  header {
+	padding: 35px;
+	border-bottom: 1px solid black;
+	display:flex;
+	justify-content: space-evenly;
+  }
+  .middle-img {
+	padding: 30px;
+	width: 97%;
+	height: 50%;
+	margin: 0 auto;
+  }
+  .first-row{
+	display:flex;
+	padding: 20px;
+  }
+  .container-one {
+	width: 45%;
+  }
+  .container-two {
+	width: 45%;
+  }
+  .second-text {
+	display: flex;
+	padding: 20px;
+	border-bottom: 1px solid black;
+  }
+  .one-row {
+	width: 32%;
+  }
+  .two-row {
+	width: 32%;
+  }
+  .three-row {
+	width: 32%;
+  }
+  address {
+	margin: 20px;
+	padding: 20px;
+  }
+  .phone {
+	line-height: 3.5;
+  }
+  footer {
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+  }
