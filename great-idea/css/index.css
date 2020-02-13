@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5 {
 	padding: 35px;
 	border-bottom: 1px solid black;
 	display:flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
   }
   .middle-img {
 	padding: 30px;
