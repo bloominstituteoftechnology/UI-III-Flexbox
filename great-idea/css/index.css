@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid gray;
 }
 
 html, body {
@@ -64,3 +65,174 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	margin: 0 auto;
+	max-width: 70%;
+	
+}
+
+p{
+	font-family: "Lemonada", cursive;
+	flex-flow: row wrap;
+	align-items: flex-start;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a {
+	color: lightGrey;
+}
+
+.logo {
+	box-sizing:border-box;
+	padding: 0% 2% 0% 0%;
+}
+
+#center {
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+h1 {
+	font-size: 100px;
+	width:450px;
+	height:300px;
+	display: flex;
+	justify-content: center;
+	margin: 8% 0% 0% 10%;
+	
+}
+
+.getStarted {
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid black;
+	color:black;
+	text-align: center;
+	margin: 0% 7% 2% 20%;
+}
+
+#codeSnip {
+	display: flex;
+	margin: 0%;
+	justify-content: center; 
+	margin: 7% 12% 0% 10%;
+}
+
+h2 {
+	font-size: 25px;
+	justify-content: center;
+	padding: 1%;
+}
+
+#third {
+	display:flex;
+	flex-wrap: wrap;
+	padding: 1%;
+}
+
+#one {
+	width: 49%;
+	justify-content: space-between;
+	padding: 0px 0px 5px 20px;
+}
+
+#two {
+	width: 49%;
+	justify-content: space-between;
+	padding: 0px 0px 5px 20px;
+}
+
+.middle-img {
+	width: 90%;
+	justify-content: space-between;
+	padding: 10px 0px 0px 100px;
+}
+
+#three {
+	width: 33%;
+	justify-content: space-between;
+	padding: 10px 0px 0px 20px;
+}
+
+#four {
+	width: 33%;
+	justify-content: space-between;
+	padding: 10px 0px 0px 20px;
+}
+
+#five {
+	width: 33%;
+	justify-content: space-between;
+	padding: 10px 0px 0px 20px;
+}
+address {
+	font-size: 15px;
+	line-height: 2;
+	font-family: "Lemonada", cursive;
+}
+
+#copyright {
+	font-size: 15px;
+	text-align: center;
+}
+
+hr {
+	display: flex;
+	border-top: 3px solid black;
+	border-radius: 3px;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+/* Services */
+
+.services-header-img {
+	width: 100%;
+	padding: 20px 0px 0px 0px;
+}
+
+#sTitle {
+	font-size:40px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+#sP {
+	display: flex;
+	line-height: 1.5;
+}
+
+#sBox {
+	display: flex;
+	flex-direction: row;
+	width: 35%;
+	height: auto;
+	background-color: rgb(240, 240, 240);
+	border-radius: 5px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  
+}
