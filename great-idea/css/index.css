@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 .nav-top {
 	padding: 20px;
 	text-align: center;
@@ -160,6 +161,11 @@ h1, h2, h3, h4, h5 {
 
   #header2 h3{
 	  font-size: 30px;
+	  padding-top: 2%;
+  }
+
+  .nav-top img{
+	padding-left: 300px;
   }
 
   .top{
@@ -174,6 +180,7 @@ h1, h2, h3, h4, h5 {
 	  border: 1px solid black;
 	  background: lightgrey;
   }
+
 
   .middle{
 	  display: flex;
@@ -205,7 +212,11 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-evenly;
 	padding: 5%;
-	text-align: left;
+	border-top: 1px solid black;
+}
+
+.end p{
+	width: 70%;
 }
 
 ul{
