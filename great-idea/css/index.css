@@ -1,67 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -115,12 +51,13 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
+	border: 1px solid gray;
 	
 }
 
 html, body {
-	margin: 0 auto;
-	width:80%;
+	/* margin: 0 auto;
+	width:80%; */
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -133,43 +70,39 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
 .navbar{
-	margin-right: 2px;
-	padding: 2%; 
-	display: inline-block;
-	width: 85%;
-	/*
-	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/* position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 9999;
 	width: 100%;
 	height: 50px;
-	background-color: deepskyblue;
-	*/
+	background-color: deepskyblue; */
+	
 }
+ body{
+	 margin: 0 15% 0;
+	
+ }
 
 
-
-div a{
+div.links{
 	width: 60%;
-}
-.logo{
-	display: inline-block;
-	width:10%;
-	margin-left: 4%;
 }
 
 .IOD{
-	display: inline-block;
 	width:50%;
 	font-size: 80px;
 	padding: 80px 80px 0px 80px;
 	text-align: center;
-
+	
 }
 .circlecode{
-	display: inline-block;
 	width:30%;
 	margin: 70px 0px;
 }
@@ -185,6 +118,7 @@ div a{
 	color: black;
 	background: white;
 	font-size: 12px;
+	margin:0 24px 100px;
 }
 .gs:hover{
 	animation: fontbulger 1s infinite;
@@ -195,44 +129,57 @@ div a{
 
 .top{
 	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
 }
 
+.con1{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
 .features{
-	display: inline-block;
+
 	width: 48%;
 	margin: 5% 3% 3% 0%;
 }
 
 .about{
-	display: inline-block;
+	margin: 5% 0% 3% 0%;
 	width: 48%;
 }
 .middle-img{
 	width: 100%;
 }
 
+.con2{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5%;
+	border-bottom: 1px solid black;
+}
 .services{
-	display: inline-block;
+
 	width: 30%;
 	font-family: 'Concert One', cursive;
 }
 
 .product{
-	display: inline-block;
+
 	width: 30%;
-	margin: 0 4.40%;
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
 .vision{
-	display: inline-block;
+
 	width: 30%;
 	font-family: 'Parisienne', cursive;
 }
 
 .contact{
-	margin-top: 5%;
-	display: inline-block;
+	/* margin-top: 5%; */
+
 	line-height: 1.5;
 	width: 20%;
 }
@@ -241,7 +188,6 @@ div a{
 }
 
 .cr{
-	display: block;
 	text-align: center;
 	font-size: 10px;
 }
@@ -250,10 +196,9 @@ div a{
 	margin-bottom: 3%;
 }
 
-.con2{
-	padding-bottom: 5%;
-	border-bottom: 1px solid black;
-}
+
+
+
 
 @keyframes fontbulger{
 	0%{
