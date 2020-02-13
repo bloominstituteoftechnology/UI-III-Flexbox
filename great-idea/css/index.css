@@ -161,3 +161,55 @@ h1, h2, h3, h4, h5 {
   #header2 h3{
 	  font-size: 30px;
   }
+
+  .top{
+	  display: flex;
+	  justify-content: space-around;
+	  padding: 5%;
+  }
+  
+  .top div{
+	  padding: 2%;
+	  margin: 2%; 
+	  border: 1px solid black;
+	  background: lightgrey;
+  }
+
+  .middle{
+	  display: flex;
+	  justify-content: space-around;
+	  padding: 0 5%;
+  }
+
+  .middle div{
+	  padding: 2%;
+	  margin: 2%;
+	  border: 1px solid black;
+	  background: lightgrey;
+  }
+
+  .bottom{
+	  display: flex;
+	  justify-content: space-around;
+	  padding: 5%;
+  }
+
+.bottom div{
+	padding: 2%;
+	margin: 2%;
+	border: 1px solid black;
+	background: lightgrey;
+}
+
+.end{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 5%;
+	text-align: left;
+}
+
+ul{
+	padding: 0 0 0 2%;
+	list-style-type: circle;
+	line-height: normal;
+}
