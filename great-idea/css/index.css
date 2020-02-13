@@ -415,6 +415,9 @@ h6 {
   padding: 2% 0 3%;
   font-size: 0.8rem;
 }
+.padding {
+  padding: 2% 0;
+}
 .page {
   width: 90%;
   margin: 0 5%;
@@ -428,9 +431,6 @@ h6 {
 }
 .page .banner img {
   width: 110%;
-}
-.page .padding {
-  padding: 2% 0;
 }
 .page .services {
   padding: 2% 0;
@@ -521,17 +521,32 @@ h6 {
   font-size: 5rem;
 }
 .flexed .flexedTopSection {
+  padding: 2% 0;
   display: flex;
   justify-content: space-between;
+  border-top: 2px solid gray;
 }
 .flexed .flexedTopSection div {
   width: 45%;
 }
-.banner {
+.flexed .banner {
   margin: 0;
+  padding: 2% 0;
 }
-.banner img {
+.flexed .banner img {
   width: 110%;
+}
+.flexed .flexedTriSection {
+  padding: 2% 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+}
+.flexed .flexedTriSection div {
+  width: 30%;
+}
+.flexed .contact {
+  margin: 0;
 }
 @font-face {
   font-family: 'Bangers';
