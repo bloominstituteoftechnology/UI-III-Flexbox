@@ -33,3 +33,16 @@
     width: 90%;
     margin: 0 5%;
 }
+.nothing {
+    margin: 0;
+    padding: 0;
+}
+.divOnPhones() {
+    @media @phone {
+        display: flex;
+        flex-direction: column;
+        div {
+            width: 100%;
+        }
+    }
+}

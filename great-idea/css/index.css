@@ -327,6 +327,8 @@ nav .navSeparation a:hover {
 }
 @media (max-width: 500px) {
   nav {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -409,6 +411,15 @@ p {
   padding: 3% 0 3%;
   margin-bottom: 10%;
 }
+@media (max-width: 500px) {
+  .top-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-section div {
+    width: 100%;
+  }
+}
 .banner {
   width: 90%;
   margin: 0 5%;
@@ -425,6 +436,15 @@ p {
   column-gap: 5%;
   padding-bottom: 3%;
   border-bottom: 2px solid gray;
+}
+@media (max-width: 500px) {
+  .triSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .triSection div {
+    width: 100%;
+  }
 }
 .contact {
   width: 90%;
@@ -556,6 +576,34 @@ h6 {
 .flexed .flexedHeading button:hover p {
   transform: scaleX(0.8);
 }
+@media (max-width: 500px) {
+  .flexed .flexedHeading .heading1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    color: red;
+    z-index: 99;
+  }
+  .flexed .flexedHeading .heading1 h1 {
+    font-size: 2.5rem;
+    justify-self: center;
+    align-self: center;
+  }
+  .flexed .flexedHeading .circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid purple;
+  }
+  .flexed .flexedHeading .circle img {
+    width: 100%;
+  }
+}
 .flexed .flexedTopSection {
   padding: 2% 0;
   display: flex;
@@ -564,6 +612,15 @@ h6 {
 }
 .flexed .flexedTopSection div {
   width: 45%;
+}
+@media (max-width: 500px) {
+  .flexed .flexedTopSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .flexed .flexedTopSection div {
+    width: 100%;
+  }
 }
 .flexed .banner {
   margin: 0;
@@ -580,6 +637,15 @@ h6 {
 }
 .flexed .flexedTriSection div {
   width: 30%;
+}
+@media (max-width: 500px) {
+  .flexed .flexedTriSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .flexed .flexedTriSection div {
+    width: 100%;
+  }
 }
 .flexed .contact {
   margin: 0;
@@ -600,4 +666,8 @@ h6 {
 }
 .padding {
   padding: 2% 0;
+}
+.nothing {
+  margin: 0;
+  padding: 0;
 }

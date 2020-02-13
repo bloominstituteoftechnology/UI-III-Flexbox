@@ -22,6 +22,33 @@
             .ani1();
             margin-bottom: 7%;
         }
+        @media @phone {
+            .heading1 {
+                .nothing();
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                position: absolute;
+                color: red;
+                z-index: 99;
+                h1 {
+                    font-size: 2.5rem;
+                    justify-self: center;
+                    align-self: center;
+                }
+            }
+            .circle {
+                img {
+                    width: 100%;
+                }
+                position: relative;
+                width: 100%;
+                height: 100%;
+                .bCheck(purple);
+            }
+        }
     }
     .flexedTopSection {
         .padding();
@@ -31,6 +58,7 @@
             width: 45%;
         }
         border-top: 2px solid gray;
+        .divOnPhones();
     }
     .banner {
         margin: 0;
@@ -47,6 +75,7 @@
             width: 30%;
         }
         border-bottom: 2px solid gray;
+        .divOnPhones();
     }
     .contact {
         margin: 0;
