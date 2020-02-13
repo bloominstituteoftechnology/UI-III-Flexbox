@@ -2,9 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-*{
-	box-sizing: border-box;
-}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,6 +49,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
+	border: 1xp solid gray;
 }
 
 html, body {
@@ -71,12 +70,22 @@ h1, h2, h3, h4, h5 {
 /* Navigation*/
 .navigation{
 	width: 100%;
+	border-right: 1px solid black;
+	background-color: white;
+	max-height: 9%;
+	border: 1px solid gray;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 4px 4px 10px black;
+	z-index: 0;
+}
+.navigation:last-child{
+	border-right: none;
 }
 .nav{
 	padding: 10px;
 	width: 100%;
 	height: 1vh;
-	display: inline-block;
+	display: flex;
 	margin-bottom: 10%;
 }
 ul{
@@ -86,10 +95,8 @@ ul{
 }
 li{
 	color: black;
-	display: inline-block;
-	width: 14%;
-	border-right: 1px solid black;
-
+	/* display: inline-block; */
+	width: 100%;
 }
 li:last-child{
 	border-right: none;
@@ -98,6 +105,7 @@ li a:hover{
 	background-color: black;
 	color: white;
 	transition: 0.5s ease-in;
+	
 }
 #contact1{
 	padding-right: 3%;
@@ -109,7 +117,7 @@ a{
 }
 
 .logo{
-	display: inline-block;
+	/* display: inline-block; */
 	float: right;    
 	width: 86%;
 	
@@ -118,10 +126,25 @@ a{
 /*End Nav Bar*/
 /*Header*/
 header{
+	display: flex;
+	justify-content: center;
 	text-align: center;
+	z-index: 0;
+	width: 100%;
+	border: 1px solid black;
+
+}
+.header-img{
+	display: flex;
+	justify-content: center;
+	z-index: -1;
+}
+header .header-img img {
+	width: 100%;
+	object-fit: contain;
 }
 .innovation{
-	display: inline-block;
+	/* display: inline-block; */
 	width: 40%;
 	border-right: 1px solid black;
 	font-size: 100px;
@@ -147,7 +170,7 @@ header{
 	box-shadow: 2px 2px 20px black;
 }
 .img{
-	display: inline-block;
+	/* display: inline-block; */
 	width: 40%;
 	align-items: right;
 	margin-left: 5%;
@@ -156,22 +179,26 @@ header{
 /*Top-Content*/
 .top-content{
 	text-align: center;
-	margin-top: 4%;
+	margin-top: 7%;
 	margin-right: 5%;
-	margin-bottom: 4%;
+	margin-bottom: 6%;
 	line-height: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 
 }
 .top-content h2{
 	font-size: 45px;
 }
 .features{
-	display: inline-block;
+
+	/* display: inline-block; */
 	width: 40%;
 	border-right: 1px solid black;
 }
 .about{
-	display: inline-block;
+	/* display: inline-block; */
 	width: 40%;
 }
 /*End Top-Content*/
@@ -181,7 +208,12 @@ header{
 }
 /*End Center-Img*/
 /*Bottom-content*/
+.bottom-content{
+	display: flex;
+	margin-bottom: 6%;
+	margin-top: 5%;
 
+}
 .bottom-content div{
 	border-right: 1px solid black;
 	margin-top: 4%;
@@ -190,18 +222,18 @@ header{
 	border-right: none;
 }
 .services{
-	display: inline-block;
+	/* display: inline-block; */
 	width: 33%;
 
 }
 .product{
-	display: inline-block;
+	/* display: inline-block; */
 	width: 33%;
 }
 .vision{
-	display: inline-block;
+	/* display: inline-block; */
 	width: 33%;
-	border-right: 1px solid white;
+	/* border-right: 1px solid white; */
 }
 .bottom-content h2{
 	text-align: center;
@@ -212,15 +244,16 @@ header{
 	margin-left: 1.5%;
 	padding: 0 1%;
 }
-.bottom-content{
-	margin-bottom: 4%;
-}
+
 /*End Bottom-content*/
 /*Conact*/
 .contact{
 	border-top: 1px solid black;
-	text-align: center;
+	text-align: left;
 	padding-top: 2%;
+}
+.h3Text{
+	margin-left: 5%;
 }
 footer{
 	text-align: center;
