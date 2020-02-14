@@ -64,3 +64,237 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color:purple;
+	font-size:15px;
+	margin:20px;
+}
+
+.head_text{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align:center;
+	font-size: 50px;
+}
+
+h1, br .heading  {
+	text-align:center;
+}
+
+.header_img{
+	display:flex;
+	flex-direction: row;
+	margin: 30px 125px 30px 30px;
+}
+
+.word_button{
+	display:flex;
+	flex-direction:column;
+	margin: 0 30px 0 500px;
+}
+
+.innov8 {
+	font-size: 80px;
+	margin: 50px 0 50px;
+}
+
+.button {
+	text-align:center;
+	border: 1px solid black;
+	width:140px;
+	font-size: 20px;
+	margin:-30px 40px 20px 90px;
+	line-height:25px;
+}
+
+
+.top-content{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	
+}
+
+
+
+
+.middle-img{
+	width: 100vw;
+}
+
+.bottom-content{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.contact{
+	display:flex;
+	flex-direction:column;
+	
+}
+
+
+
+
+/* Service page below*/
+
+.nav_2{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.services-header-img{
+	width:100vw;
+}
+
+.toppy{
+
+}
+
+h2 .toppy{
+	/*font-size:50px;*/
+}
+
+hr{
+	border:1px solid black;
+}
+
+
+
+.first_pair{
+	display:flex;
+	flex-direction:row;
+
+}
+
+.first_pair{
+	box-sizing:border-box;
+}
+
+.first_sect{
+	background-color:gray;
+}
+
+.button_1{
+	background-color:white;
+	text-align:center;
+	padding: 20x 10px 10px 10px;
+	border: 1px solid black;
+	width:100px;
+	margin: 20px;
+
+}
+
+.button_2{
+	background-color:white;
+	text-align:center;
+	padding: 15x 30px 10px 30px;
+	border: 1px solid black;
+	width:100px;
+	margin: 20px;
+
+}
+
+/*continue adding padding for top right bottom and left along with changes to other pair*/
+
+.second_pair{
+	display:flex;
+	flex-direction:row;
+}
+
+.second_sect{
+	background-color:gray;
+}
+}
+
+.button_3{
+	background-color:white;
+	text-align:center;
+	padding: 15x 30px 10px 30px;
+	border: 1px solid black;
+	width:100px;
+	margin: 20px;
+}
+
+.button_4{
+		background-color:white;
+		text-align:center;
+		padding: 15x 30px 10px 30px;
+		border: 1px solid black;
+		width:100px;
+		margin: 20px;
+}
+
+.third_pair{
+	display:flex;
+	flex-direction:row;
+}
+
+.button_5{
+	background-color:white;
+	text-align:center;
+	padding: 15x 30px 10px 30px;
+	border: 1px solid black;
+	width:100px;
+	margin: 20px;
+}
+
+.button_6{
+	background-color:white;
+	text-align:center;
+	padding: 15x 30px 10px 30px;
+	border: 1px solid black;
+	width:100px;
+	margin: 20px;
+	
+
+}
+
+hr {
+	border: 1px solid black;
+}
+
+.services-info-img {
+	display:flex;
+	justify-content:flex-end;
+	
+}
+
+/*
+	background-color: grey;
+	border: 1px solid black;
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	margin:2%
+	justify-content:space-evenly;
+	padding:10px;
+}
+*/
+
+.facts{
+	margin:0 800px 0 20px;
+
+}
+
+.list{
+	margin: 0 0 0 20px;
+	line-height: 2em;
+}
+.img_3{
+	display:flex;
+	justify-content:flex-end;
+	margin:0px;
+}
+
+.v_bottom {
+	text-align:center;
+}
+
