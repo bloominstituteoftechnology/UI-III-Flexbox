@@ -103,11 +103,7 @@ h1{
 	font-size: 80px;
 	text-align: center;
 }
-/* #button1{
-	font-size: 15px;
-	width: 40%;
-	margin: 3% 10%;
-} */
+
 
 .first-section{
 	display: flex;
@@ -247,5 +243,61 @@ li {
 	}
 	.services-info-img{
 		margin: 3% 0;
+	}
+
+	nav.navigation{
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-end;
+		margin: 3% 0;
+		
+	}
+	a{
+		text-decoration: none;
+	}
+	
+	.first-title-section{
+		display: block;
+		margin: 10% 0;
+		width: 100%
+	}
+	.main-title{
+		display: block;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+	}
+	.header-image-section{
+		display: block;
+		align-items: center;
+		width:100%;
+	}
+	h1{
+		font-size: 80px;
+		text-align: center;
+	}
+	
+	#button1{
+		margin-left: 30%;
+	}
+	.paragraph{
+		margin: 3%;
+	}
+	.first-section{
+		display: block;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.second-section{
+		display: block;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-right: 30px;
+		line-height: 1.2;
+	}
+	
+	footer{
+		text-align:center;
+		margin: 10% 0;
 	}
 }
