@@ -48,7 +48,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px solid gray;
+	
 }
 
 html, body {
@@ -259,7 +259,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	width: 300px;
-	height: 50px;
+	
 	list-style-type: square;
   	font-size: 20px;
 	margin: 1% 0% 0% 3%;
