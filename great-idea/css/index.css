@@ -136,7 +136,7 @@ footer{
 }
 
 h2 {
-	font-size:25px;
+	font-size:4rem;
 }
 
 .blocks{
@@ -148,8 +148,31 @@ h2 {
 }
 
 .box{
-	border: 1px solid blue;
 	background-color: lightgray;
-	width:40%;
+	width:45%;
+	padding: 30px 10px;
+	margin: 20px 10px;
+}
+
+button{
 
 }
+li {
+	line-height: 2rem;
+}
+.last-section{
+	display: flex;
+	flex-wrap: wrap;
+	width:90%
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.about{
+	width:45%;
+	padding: 30px 10px;
+	margin: 0 30px;
+}
+.services-info-img{
+	
+}
+/* media query */
