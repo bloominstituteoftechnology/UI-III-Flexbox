@@ -188,3 +188,36 @@ footer{
 	text-align: center;
 	font-size: 12px;
 }
+
+/* Services CSS*/
+
+
+
+nav2{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo2{
+	margin: 0 0 25px 0;
+}
+.services2 p{
+	text-align: left;
+}
+
+.services2 {
+	margin: 5% 0;
+}
+
+h3{
+	font-size: 25px;
+}
+
+.topLine{
+	border: 1px solid black;
+}
+
+
+.bottomLine{
+	border: 1px solid black;
+}
