@@ -125,12 +125,20 @@ h1, br .heading  {
 
 .middle-img{
 	width: 100vw;
+	margin:20px;
 }
 
 .bottom-content{
 	display:flex;
 	flex-direction:row;
 	justify-content: space-between;
+}
+
+.service_word{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+
 }
 
 .contact{
@@ -155,10 +163,16 @@ h1, br .heading  {
 }
 
 .toppy{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
 
 }
 
 h2 .toppy{
+	margin: 20px;
+	display:flex;
+	flex-direction:column;
 	/*font-size:50px;*/
 }
 
@@ -179,7 +193,9 @@ hr{
 }
 
 .first_sect{
-	background-color:gray;
+	background-color:lightgray;
+	margin: 10px 10px 10px 20px;
+	padding:20px;
 }
 
 .button_1{
@@ -210,8 +226,10 @@ hr{
 }
 
 .second_sect{
-	background-color:gray;
-}
+	background-color:lightgray;
+	margin: 10px 10px 10px 20px;
+	padding:20px;
+
 }
 
 .button_3{
@@ -223,6 +241,12 @@ hr{
 	margin: 20px;
 }
 
+.third_sect{
+	background-color:lightgray;
+	margin: 10px 10px 10px 20px;
+	padding:20px;
+}
+
 .button_4{
 		background-color:white;
 		text-align:center;
@@ -232,10 +256,18 @@ hr{
 		margin: 20px;
 }
 
+.fourth_sect{
+	background-color:lightgray;
+	margin: 10px 10px 10px 20px;
+	padding:20px;
+}
+
 .third_pair{
 	display:flex;
 	flex-direction:row;
 }
+
+
 
 .button_5{
 	background-color:white;
@@ -246,6 +278,12 @@ hr{
 	margin: 20px;
 }
 
+.fifth_sect{
+	background-color:lightgray;
+	margin: 10px 10px 10px 20px;
+	padding:20px;
+}
+
 .button_6{
 	background-color:white;
 	text-align:center;
@@ -253,8 +291,12 @@ hr{
 	border: 1px solid black;
 	width:100px;
 	margin: 20px;
-	
+}
 
+.sixth_sect{
+	background-color:lightgray;
+	margin: 10px 10px 10px 20px;
+	padding:20px;
 }
 
 hr {
@@ -291,7 +333,20 @@ hr {
 .img_3{
 	display:flex;
 	justify-content:flex-end;
-	margin:0px;
+	margin:100px 300px 200px 0;
+	
+}
+
+.contact{
+	display:flex;
+	flex-direction: row;
+
+}
+
+
+.contact_info{
+	display:flex;
+	flex-direction: column;
 }
 
 .v_bottom {
