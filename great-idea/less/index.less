@@ -1,4 +1,5 @@
 @import "normalize";
+@import "MixinsVars";
 @import "header";
 @import "homePage";
 @import "services";
@@ -6,43 +7,3 @@
 
 @font: "Prompt", sans-serif;
 @heading: "Bangers", cursive;
-@import url("https://fonts.googleapis.com/css?family=Bangers|Prompt&display=swap");
-
-@phone: ~"(max-width: 500px)";
-@tablet: ~"(max-width: 800px)";
-.ani1() {
-    transition: 0.2s ease-in-out;
-    &:hover {
-        cursor: pointer;
-        color: white;
-        background: black;
-        transform: scaleX(1.2);
-        transition: 0.2s ease-in-out;
-        p {
-            transform: scaleX(0.8);
-        }
-    }
-}
-.padding {
-    padding: 2% 0;
-}
-.grid() {
-    display: grid;
-}
-.container() {
-    width: 90%;
-    margin: 0 5%;
-}
-.nothing {
-    margin: 0;
-    padding: 0;
-}
-.divOnPhones() {
-    @media @phone {
-        display: flex;
-        flex-direction: column;
-        div {
-            width: 100%;
-        }
-    }
-}

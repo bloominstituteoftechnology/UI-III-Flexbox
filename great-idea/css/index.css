@@ -303,6 +303,42 @@ template {
 [hidden] {
   display: none;
 }
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Bangers Regular'), local('Bangers-Regular'), url(https://fonts.gstatic.com/s/bangers/v12/FeVQS0BTqb0h60ACH55Q3Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Prompt'), local('Prompt-Regular'), url(https://fonts.gstatic.com/s/prompt/v4/-W__XJnvUD7dzB2KYNoY.ttf) format('truetype');
+}
+@media (max-width: 500px) {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h5,
+h4 {
+  font-family: "Bangers", cursive;
+}
+p {
+  line-height: 1.5rem;
+  font-family: "Prompt", sans-serif;
+}
+.padding {
+  padding: 2% 0;
+}
+.nothing {
+  margin: 0;
+  padding: 0;
+}
 nav {
   display: grid;
   grid-template-columns: 5fr 1fr;
@@ -347,17 +383,6 @@ nav .navSeparation a:hover {
     border: 1px solid grey;
     border-radius: 6px;
   }
-}
-h1,
-h2,
-h3,
-h5,
-h4 {
-  font-family: "Bangers", cursive;
-}
-p {
-  line-height: 1.5rem;
-  font-family: "Prompt", sans-serif;
 }
 .heading {
   display: grid;
@@ -684,29 +709,4 @@ h6 {
 }
 .flexed .contact {
   margin: 0;
-}
-@media (max-width: 500px) {
-  margin: 0;
-  padding: 0;
-}
-@font-face {
-  font-family: 'Bangers';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Bangers Regular'), local('Bangers-Regular'), url(https://fonts.gstatic.com/s/bangers/v12/FeVQS0BTqb0h60ACH55Q3Q.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Prompt';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Prompt'), local('Prompt-Regular'), url(https://fonts.gstatic.com/s/prompt/v4/-W__XJnvUD7dzB2KYNoY.ttf) format('truetype');
-}
-.padding {
-  padding: 2% 0;
-}
-.nothing {
-  margin: 0;
-  padding: 0;
 }
