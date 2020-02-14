@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,10 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding:0;
+    margin:0;
+    max-width:100%;
 }
 
 html, body {
@@ -64,3 +67,164 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	
+	border: 50px solid white;
+	font-size: 20px;
+
+}
+
+header {
+    
+	border: 1px solid white;
+	
+}
+header nav{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+	align-items: center;
+  }
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+.a {
+
+padding: 20px 100px;
+
+}
+
+a {
+	padding:10px 50px ;
+}
+.b{
+padding: 10px;
+
+}
+
+.container2 {
+	display: flex;
+	padding: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.c{
+	
+	width: 49%;
+	
+	text-align: center;
+	
+	
+}
+
+.d{
+	
+	width: 45%;
+
+}
+
+h1{
+	font-size: 60px;
+	
+}
+
+
+
+.container3 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px;
+}
+.e {
+
+width: 40%;
+}
+
+.f {
+
+width: 40%;
+}
+
+.middle-pic {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	padding: 10px;
+}
+.middle-img {
+	width: 90%;
+}
+
+.container4 {
+	display: flex;
+	justify-content: space-between;
+	padding:10px 75px;
+	height: 200px;
+}
+
+.middle {
+	padding:0px 20px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+button {
+	font-size: 15px;
+	padding: 5px 35px;
+}
+
+h1 {
+	padding: 10px;
+}
+
+.lastflex {
+	display: flex;
+	padding: 10px 75px;
+	flex-direction: column;
+}
+
+/*second page (services)*/
+
+
+
+.service-img{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.service-header-img {
+	width: 100%;
+}
+
+.servicespart2 {
+	display: flex;
+	justify-content: space-evenly;
+	padding:10px 75px;
+	height: 200px;
+	flex-wrap: wrap;
+}
+
+.ser2 {
+	width: 49%;
+	padding: 20px;
+	background-color: gray;	
+	border: 2px solid black;
+	padding:20px;	
+	margin: 5px;
+}
+
+.copyright2 {
+	text-align: center;
+}
