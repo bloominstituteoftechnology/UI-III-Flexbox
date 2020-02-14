@@ -191,8 +191,11 @@ footer{
 
 /* Services CSS*/
 
-
-
+/* .container2{
+	display: flex;
+	width: 900px;
+	margin: 50px auto 100px auto;
+} */
 nav2{
 	display: flex;
 	justify-content: space-between;
@@ -244,8 +247,16 @@ h4{
 }
 
 
-
+buttons{
+	text-align: left;
+}
 
 .listItems{
 	text-align: left;
+}
+
+
+footer{
+	text-align: center;
+	margin: 10% 0;
 }
