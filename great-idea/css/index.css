@@ -87,10 +87,9 @@ a{
 	color: grey;
 	text-decoration: none;
 }
-img {
+.logo {
 	clear: right;
 }
-
 
 
 /*code for the section: innovations*/
@@ -106,8 +105,7 @@ img {
 	text-align: center;
 	width: 60%;
 }
-h1 {
-	
+.innovation div h1 {
 	font-size: 80px;
 }
 
@@ -197,6 +195,12 @@ address{
 	display: flex;
 	flex-direction: column;
 }
+
+.address {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 footer p{
 	text-align: center;
 	font-size: 15px;
@@ -204,5 +208,95 @@ footer p{
 
 /*This is where we edit everything for the second page. Do take note that you
 may refrence code from page one. becareful not to do that as to not affect 
-code written before*/
+code written before 
+the Header was already edited on top*/
+
+
+.services-header-img{
+	width: 95%;
+}
+
+.serpageone p{
+	width: 95%;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+/*This is were we start work on the six */
+
+.sevicesprovided {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.sevicesprovided button{
+	width: 30%;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.twodd {
+	width: 45%;
+	padding: 2%;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+.twoux {
+	width: 45%;
+	padding: 2%;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+.twodm {
+	width: 45%;
+	padding: 2%;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+.twoweb{
+	width:45%;
+	padding: 2%;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+.twoios{
+	width:45%;
+	padding: 2%;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+.twoad{
+	width:45%;
+	padding: 2%;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+/*This is were we work on the final section*/
+
+.twoimg {
+	display: flex;
+	
+}
+
+}
+
+ul {
+	line-height: 2;
+}
+ .cr{
+	 text-align: center;
+
+	 
+
+ }
 
