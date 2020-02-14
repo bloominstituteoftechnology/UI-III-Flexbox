@@ -285,7 +285,7 @@ div.links{
 	text-align: center;
 }
 ul{
-	list-style-type: disc;
+	list-style-type: square;
 	line-height: 1.5;
 	margin-left: 20px;
 }
@@ -375,5 +375,5 @@ ul{
 	list-style-type: square;
 	line-height: 1.5;
 	margin-left: 20px;
-	margin-top: 65px;
+	margin-top: 35px;
 }
