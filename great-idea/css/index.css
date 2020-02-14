@@ -306,8 +306,19 @@ hr {
 .services-info-img {
 	display:flex;
 	justify-content:flex-end;
+
 	
 }
+
+.j_bottom{ 
+	display: flex; 
+	flex-direction:column;
+  }
+
+  /*.facts_bottom{
+	  display:flex;
+	  flex-direction:column;
+  }*/
 
 /*
 	background-color: grey;
@@ -323,17 +334,22 @@ hr {
 
 .facts{
 	margin:0 800px 0 20px;
+	display:flex;
+	flex-direction:column;
 
 }
 
 .list{
 	margin: 0 0 0 20px;
 	line-height: 2em;
+	display:flex;
+	flex-direction:column;
 }
 .img_3{
 	display:flex;
 	justify-content:flex-end;
-	margin:100px 300px 200px 0;
+	margin:0px 300px 200px 0;
+	flex-direction:content;
 	
 }
 
