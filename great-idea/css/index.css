@@ -1,3 +1,5 @@
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -6,7 +8,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -14,11 +16,10 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,10 +50,14 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	/* border: 1px solid blue; */
+	
 }
 
 html, body {
+	/* margin: 0 auto;
+	width:80%; */
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -63,4 +68,312 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/* position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	background-color: deepskyblue; */
+	
+}
+ body{
+	 margin: 0 15% 0;
+	
+ }
+
+
+div.links{
+	width: 60%;
+}
+
+.IOD{
+	width:50%;
+	font-size: 80px;
+	padding: 80px 80px 0px 80px;
+	text-align: center;
+	
+}
+.circlecode{
+	width:30%;
+	margin: 70px 0px;
+}
+.navbar .links a{
+	color: lightgray;
+	margin-left: 5%;
+	text-decoration: none;
+	
+}
+.gs{
+	width: 230px;
+	height: 30px;
+	color: black;
+	background: white;
+	font-size: 12px;
+	margin:0 24px 100px;
+}
+.gs:hover{
+	animation: fontbulger 1s infinite;
+	background-color: lawngreen;
+	color: forestgreen;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+.top{
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+}
+
+.con1{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.features{
+
+	width: 48%;
+	margin: 5% 3% 3% 0%;
+}
+
+.about{
+	margin: 5% 0% 3% 0%;
+	width: 48%;
+}
+.middle-img{
+	width: 100%;
+}
+
+.con2{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5%;
+	border-bottom: 1px solid black;
+}
+.services{
+
+	width: 30%;
+	font-family: 'Concert One', cursive;
+}
+
+.product{
+
+	width: 30%;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.vision{
+
+	width: 30%;
+	font-family: 'Parisienne', cursive;
+}
+
+.contact{
+	/* margin-top: 5%; */
+
+	line-height: 1.5;
+	width: 20%;
+}
+.contact a{
+	line-height: 1;
+}
+
+.cr{
+	text-align: center;
+	font-size: 10px;
+}
+
+.codeblock{
+	margin-bottom: 3%;
+}
+
+
+
+
+
+@keyframes fontbulger{
+	0%{
+		font-size: 12px;
+	}
+	50%{
+		font-size: 20px;
+	}
+	100%{
+		font-size: 12px;
+	}
+}
+
+/* code for services page below*/
+
+.services-header-img{
+	margin-top: 3%;
+	width: 100%;
+}
+
+.sect0{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-bottom: 20px;
+}
+.sect0 p  {
+	padding-bottom: 20px;
+	
+
+}
+.sect0 .topp{
+	border-bottom: 1px solid black;
+}
+.graybox{
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 40%;
+}
+
+.graybox h3 {
+	margin:2%;
+	
+}
+.graybox p {
+	margin:2%;
+	
+}
+.graybox button {
+	margin:2%;
+	
+}
+.sect{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 5%;
+	justify-content: space-between;
+	padding-top: 5%;
+}
+
+.lm{
+	width: 45%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+.bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-top: 1px solid black;
+}
+.bottomsect{
+	margin-top: 5%;
+	width: 49%;
+}
+.services-info-img{
+	margin-top: 5%;
+}
+.CR{
+	margin-top: 3%;
+	text-align: center;
+}
+ul{
+	list-style-type: square;
+	line-height: 1.5;
+	margin-left: 20px;
+}
+
+/* code for vision page */
+
+.vision-header-img{
+	margin-top: 3%;
+	width: 100%;
+	height: 40%;
+	border-radius: 10px;
+}
+
+.sect0{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-bottom: 20px;
+}
+.sect0 p  {
+	padding-bottom: 20px;
+	
+
+}
+.sect0 .topp{
+	border-bottom: 1px solid black;
+}
+.bluebox{
+	border: 1px solid black;
+	background-color: lightblue;
+	width: 40%;
+	border-radius: 10px;
+}
+
+.bluebox h3 {
+	margin:2%;
+	
+}
+.bluebox p {
+	margin:2%;
+	
+}
+.bluebox button {
+	margin: 0 0 2% 27%;
+	
+}
+.sect{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 5%;
+	justify-content: space-between;
+	padding-top: 5%;
+}
+
+.cm{
+	width: 45%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+	border-radius: 10px;
+
+}
+.cm:hover{
+	color: white;
+	background-color: midnightblue;
+}
+
+.bottomv{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	border-top: 1px solid black;
+}
+.bottomsectv{
+	margin-top: 5%;
+	width: 49%;
+}
+.Vision-info-img{
+	margin-top: 5%;
+	width: 45%;
+	border-radius: 50%;
+}
+.CR{
+	margin-top: 3%;
+	text-align: center;
+}
+ul{
+	list-style-type: square;
+	line-height: 1.5;
+	margin-left: 20px;
+	margin-top: 35px;
+}
