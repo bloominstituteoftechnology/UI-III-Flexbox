@@ -169,3 +169,24 @@ button {
     height: 25px;
     margin-top: 3%;
 }
+
+.servicesbottomsection {
+    display: flex;
+    margin: 2% 14%;
+    justify-content: space-between;
+}
+
+.some-facts {
+    width: 400px;
+}
+
+li {
+    margin-top: 3%;
+    margin-left: 5%;
+    list-style-type: disc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+}
