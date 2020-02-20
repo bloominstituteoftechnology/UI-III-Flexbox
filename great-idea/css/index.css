@@ -63,40 +63,16 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-body {
 
-	margin: 20px;
-
+.navtop {
+	display: flex;
+	flex-direction: row;
 }
 
- .navtop {
-
-	padding:10px;
-
+.services-header-img {
 	display: flex;
-	justify-content: center;
-	flex-wrap: nowrap;
-	 
-	align-items: center;
 
-	 box-sizing:border-box;
-
-	 word-spacing: 75px;
-
-	 width:
-
-	 }
-
-
-
-.logo {
-
-	display: inline-block;
-
-	position: right;
-
-	 }
-
+}
 
 
 .top-left {
@@ -195,3 +171,8 @@ h4 {
 	text-decoration: none;
 	color: darkslategrey;
 }
+
+/*services page*/
+
+.services-header-img {
+	margin-bottom: 150px;
