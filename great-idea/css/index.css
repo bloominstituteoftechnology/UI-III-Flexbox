@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 	
 nav {
-	display: inline-block;
+	display: ;
 	width: 80%;
 	text-align: center;
 
@@ -81,7 +81,7 @@ nav img {
 	margin-top: 2%;
 }
 .first-section {
-	display: inline-block;
+	display:flex;
 	margin: 5%;
 	width: 80%;
 	height: 40%;
@@ -92,6 +92,9 @@ nav img {
 	font-size: 3rem;
 	text-align: center;
 	margin-left: 15%;
+	display: flex;
+	justify-content: space-between;
+
 }
 
 .button {
@@ -104,19 +107,23 @@ nav img {
 .img1 {
 	width: 40%;
 	margin-left: 12%;
-	display: inline-block;
-	height: 40%;
+	display: flex;
+	height: 90%;
+	margin-top: 10%;
+	justify-content: space-between;
 	
 }
 
 .second-section {
-	display:inline-block;
+	display: flex;
+	justify-content: space-around;
+	padding: 5%;
 }
 
 .sec1-article {
 	width: 30%;
 	height: 40%;
-	display: inline-block;
+	display: 
 	margin: 5%;
 }
 
@@ -124,7 +131,7 @@ nav img {
 	text-align: center;
 	width: 80%;
 	margin-left: 5%;
-	display: inline-block;
+	
 
 }
 
@@ -132,11 +139,11 @@ nav img {
 	width: 20%;
 	height: 30%;
 	margin: 5%;
-	display: inline-block;
+	
 }
 
-.call-to-action {
-	display: inline-block;
+.third-section {
+	display: flex;
 }
 
 .contact-section span {
