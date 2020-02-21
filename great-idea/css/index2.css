@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -30,9 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-}
-ol, ul {
-	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -61,6 +58,9 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+h1 {
+	font-size: 25px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
@@ -178,4 +178,50 @@ hr{
 }
 .copy {
 	text-align: center;
+}
+.service-img{
+	display: flex;
+	justify-content: center;
+	padding-top: 2%;
+	padding-right: 2%;
+}
+.header-txt {
+	margin: 5%;
+	width: 70%;
+}
+.main-txt {
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+	margin-left: 10%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	flex-wrap: wrap;
+	margin-bottom: 5%;
+}
+.dig, .ux, .market, .web-dev, .ios, .android {
+	width: 40%;
+	border: solid 1px;
+	background-color: lightgray;
+	padding: 2%;
+}
+#button {
+	display: flex;
+	justify-content: center;
+	padding-top: 2%;
+}
+.bottom {
+	display: flex;
+	justify-content: space-evenly;
+	width: 60%;
+	margin-left: 10%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.bottom-txt, .bottom-img {
+	line-height: 2;
+}
+.foot {
+	display: flex;
+	justify-content: center;
 }
