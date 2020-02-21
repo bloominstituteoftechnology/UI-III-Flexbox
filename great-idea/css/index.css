@@ -77,6 +77,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-items: space-between;
+	align-items: center;
 	padding-top: 20px;
 	max-width: 100%;
 
@@ -84,7 +85,8 @@ h1, h2, h3, h4, h5 {
 
 .logo{
 	max-width: 100%;
-	justify-content: flex-end;
+	margin: auto;
+	text-align: right;
 }
 
 nav{
@@ -96,6 +98,8 @@ nav a{
 	text-decoration: none;
 	color: lightgrey;
 	padding-right: 60px;
+	align-items: baseline;
+
 }
 
 
@@ -119,7 +123,7 @@ header h1{
 header img{
 	padding-left: 10%;
 	margin: auto;
-	max-width: 45%;
+	max-width: 100%;
 }
 
 button{
@@ -182,37 +186,91 @@ hr{
 /* Services Page >>>>>>>>>>>>>*/
 
 
-
+/*header..........*/
 .services-header{
 	display: flex;
-	flex-direction:  column;
+	flex-direction: column;
 	margin: auto;
 	padding: 20px;
-
 }
+
+.services-header-img{
+	max-width: 100%;
+	justify-self: center;
+	padding: 20px 0;
+}
+
+.services-header h2{
+	font-size: 1.5em;
+}
+
+.services-header p{
+	line-height: 1.25em;
+}
+
+
+/*middle..........*/
 
 .middle-section{
 	display: flex;
 	max-width: 100%;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	padding: 10px 0 20px 0;
 
 }
 
 article{
 	border: 1px solid grey;
-	max-width: 40%;
+	max-width: 45%;
 	margin: 15px;
 	padding: 20px;
 	background-color: whitesmoke;
+
 }
 
-.services-header-img{
+article p{
+	line-height: 1.25em;
+	
+}
+
+article button{
+	margin: 20px 0;
+	text-align: left;
+	font-size: .75em;
+	padding: 10px 40px;
+}
+
+/* bottom section............*/
+.facts-section{
+	padding: 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.facts-section h2{
+	font-size: 1em;
+	padding: 20px 0 5px 0 ;
+}
+.facts-section-text{
+	line-height: 1.5em;
+	max-width: 45%;
+}
+.services-info-img{
 	max-width: 100%;
-	justify-content: center;
+	padding: 20px 0 20px 40px;
+	display: flex}
+
+.services-info-img img{
+	justify-self: flex-end;
 }
-
-
+.facts-section-text ul{
+	padding: 15px 20px;
+	list-style-type: square;
+	line-height: 1.75em;;
+}
+.facts-section-text ul{
+	text-decoration: square;
+}
 
 
 
