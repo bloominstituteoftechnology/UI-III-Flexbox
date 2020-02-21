@@ -63,4 +63,161 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* NAVIGATION */
+/* NAVIGATION */
+
+nav{
+	display: flex;
+	justify-content: space-around;
+    margin-bottom: 100px;
+    background-color: greenyellow;
+    padding: 10px 5px 10px 100px;
+    width: auto;
+    font-weight: bolder;
+    position: sticky;
+
+}
+
+nav a:hover {
+    color: blueviolet;
+    padding: 5px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 60px;
+    font-size: 20px
+}
+
+/* HEADER INDEX PAGE*/
+
+
+#intro {
+    display: inline-block;
+    margin-left: 15%;
+    margin-bottom: 100px;
+ 
+}
+
+#intro h1 {
+    font-size: 75px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 100px;
+    
+}
+
+#intro p {
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 19%;
+    width: 150px;
+    height: 30px;
+    padding: 7px;  
+    border: 1px solid black;
+}
+
+/* FIRST SECTION INDEX PAGE*/
+
+#top-part {
+    margin: 20px 0 20px 115px;
+}
+
+.two-col{
+    width: 43%;
+    display: inline-block;
+    margin: 5px;
+}
+
+hr {
+    width: 78%;
+}
+
+.middle-img {
+    margin-left: 120px;
+}
+
+
+/* SECOND SECTION INDEX PAGE*/
+
+#bottom-part {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.three-col{
+    width: 29%;
+    display: inline-block;
+    margin-left: 2px;
+    padding: 1px;
+}
+
+/* CONTACT INDEX PAGE */
+
+.contact {
+    margin-left: 120px;
+    margin-top: 25px;
+}
+
+.contact p {
+    margin-top: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* SERVICES PAGE */
+
+.services-header-img {
+	margin-left: 100px;
+	margin-top: -80px;
+}
+
+#services {
+	margin: 20px 123px 0 100px;
+	font-weight: bold;
+	line-height: 1.3em;
+}
+
+#services .serv-line {
+	margin: 35px 0;
+	width: 100%;
+	
+}
+.serv-col {
+	display: block;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	width: 85%;
+	font-size: 110%;
+}
+
+.serv-content {
+	padding: 20px;
+	border: 1px solid black;
+	font-weight: bold;
+	line-height: 1.3em;
+	width: 48%;
+	margin-right: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	border: 1px solid black;
+	border-radius: 6%;
+}
+
+.bottom-line {
+	
+}
