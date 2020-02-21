@@ -171,7 +171,6 @@ h5 {
   margin-bottom: 15px;
 }
 
-/* Your code starts here! */
 * {
   display: border-box;
 }
@@ -182,21 +181,16 @@ html {
 }
 .navImg {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  background: skyblue;
 }
-
 header {
-  /* border: 5px solid red; */
   width: 100%;
   padding: 18px;
-  /* margin: 10px; */
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 20px;
-
-  /*width: 600px;*/
-  /* display: flex; */
   font-size: 20px;
 }
 a {
@@ -204,83 +198,50 @@ a {
   padding: 10px;
 }
 
-.topc {
-  /* border: 2px solid green; */
-  display: flex;
-  justify-content: center;
-
-  padding-bottom: 10px;
-  border-bottom: 2px dotted black;
-  margin-bottom: 20px;
-
-  /* width: 43%;
-  margin: 1%;
-  padding: 5%; */
-
-  /* text-align: center; */
-  /* vertical-align: middle;
-  padding: 50px; */
-}
-.top {
-  width: 46%;
-  display: flex;
-  justify-items: right;
-  text-align: center;
-  align-items: center;
-}
-
-.title {
-  margin: 20px 0;
-  margin-bottom: 20px;
-  align-items: center;
-}
-h1 {
-  font-size: 50px;
-}
-
-.content {
-  display: flex;
-  /* border: 3px dotted blue; */
-  justify-content: space-around;
-  text-align: justify;
-  width: 100%;
-  /* margin: 10px;
-  padding: 10px; */
-  line-height: 1.5;
-}
-.c1 {
-  padding: 10px 0px 10px 0px;
-  margin: 10px;
-}
-.c2 {
-  padding: 10px;
-  margin: 10px;
-}
-.middle-img {
+.services-header-img {
   width: 100%;
   margin: 10px 0;
 }
-.line {
-  /* margin: 20px; */
-  padding: 10px;
-  border-top: 2px dotted black;
-  border-bottom: 2px dotted black;
-}
-.spv {
-  /* border: 2px solid blue; */
-  display: flex;
-  padding: 2px;
-  /* margin: 10px; */
-  width: 100%;
-  text-align: center;
-}
-.l {
-  padding: 10px;
+.service {
   text-align: justify;
+  padding: 15px 0;
+  font-size: 18px;
+  border-bottom: 2px solid black;
 }
-.copy {
-  text-align: center;
+.parent {
+  display: flex;
+
+   flex-wrap: wrap;
+   padding-bottom:15px;
+   border-bottom:2px solid black;
+  /* width: 100%; */ */
 }
-footer h2 {
+.child {
+    border:1px solid blue;
+    
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   padding: 10px;
+  margin:20px;
+  width: 46%;
+  height:200px;
+  background-color:skyblue;
+  border-radius:10px;
+}
+
+.bottomc{
+    padding:15px;
+    display:flex;
+
+}
+p.bottom{
+    display:flex;
+    flex-direction:column;
+}
+.image,.text{
+    width:48%;
+   
 }
