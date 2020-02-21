@@ -1,66 +1,564 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
+
    v2.0 | 20110126
+
    License: none (public domain)
+
 */
 
+
+
 html, body, div, span, applet, object, iframe,
+
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
 a, abbr, acronym, address, big, cite, code,
+
 del, dfn, em, img, ins, kbd, q, s, samp,
+
 small, strike, strong, sub, sup, tt, var,
+
 b, u, i, center,
+
 dl, dt, dd, ol, ul, li,
+
 fieldset, form, label, legend,
+
 table, caption, tbody, tfoot, thead, tr, th, td,
+
 article, aside, canvas, details, embed, 
+
 figure, figcaption, footer, header, hgroup, 
+
 menu, nav, output, ruby, section, summary,
+
 time, mark, audio, video {
+
 	margin: 0;
+
 	padding: 0;
+
 	border: 0;
+
 	font-size: 100%;
+
 	font: inherit;
+
 	vertical-align: baseline;
+
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
+
 footer, header, hgroup, menu, nav, section {
+
 	display: block;
+
 }
+
 body {
+
 	line-height: 1;
+
 }
+
 ol, ul {
+
 	list-style: none;
+
 }
+
 blockquote, q {
+
 	quotes: none;
+
 }
+
 blockquote:before, blockquote:after,
+
 q:before, q:after {
+
 	content: '';
+
 	content: none;
+
 }
+
 table {
+
 	border-collapse: collapse;
+
 	border-spacing: 0;
+
 }
+
+
 
 /* Set every element's box-sizing to border-box */
+
 * {
+
     box-sizing: border-box;
+
 }
+
+
 
 html, body {
+
     height: 100%;
+
     font-family: 'Titillium Web', sans-serif;
+
 }
+
+
 
 h1, h2, h3, h4, h5 {
+
     font-family: 'Bangers', cursive;
+
     letter-spacing: 1px;
+
     margin-bottom: 15px;
+
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+
+	margin: 0px auto;
+
+}
+
+
+
+ .navtop {
+
+	width: 1200px;
+
+	display: flex;
+
+	column-count:7;
+
+	flex-direction: row;
+
+	justify-content: center;
+
+	word-spacing: 100px;
+
+	margin: 0px auto;
+
+
+
+ }
+
+
+
+ 
+
+ .logo {
+
+	margin-left: 30px;
+
+ }
+
+
+
+
+
+
+
+
+
+.top-left {
+
+
+
+	width: 40%;
+
+
+
+	margin: 40px;
+
+
+
+	display: inline-block;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+h1 {
+
+
+
+	font-size: 40px;
+
+
+
+	padding-top:50px;
+
+
+
+	padding-bottom:100px;
+
+
+
+	text-align: left;
+
+
+
+	vertical-align: top;
+
+
+
+	display: inline-block;
+
+
+
+}
+
+
+
+button {
+
+
+
+	display: block;
+
+
+
+	margin-left: 90px;
+
+
+
+	width: 125px;
+
+
+
+	background-color: white;
+
+
+
+	border: 1px solid black;
+
+
+
+}
+
+
+
+
+
+
+
+img {
+
+
+
+	padding-top: 50px;
+
+
+
+	position: center;
+
+
+
+}
+
+
+
+.About {
+
+
+
+	column-count: 2;
+
+
+
+	border-top: 1px solid black;
+
+
+
+}
+
+
+
+h4 {
+
+
+
+	padding-top: 50px;
+
+
+
+}
+
+
+
+
+
+
+
+.middle-img {
+
+
+
+	width: 100%;
+
+
+
+}
+
+
+
+.bottom-text {
+
+
+
+	column-count: 3;
+
+
+
+	border-bottom: 1px solid black;
+
+
+
+	padding-bottom: 30px;
+
+
+
+}
+
+
+
+.CR {
+
+
+
+	margin-left: 50%;
+
+
+
+}
+
+
+
+.no-link {
+
+	pointer-events: none;
+
+	cursor: text;
+
+	text-decoration: none;
+
+	color: darkslategrey;
+
+}
+
+
+
+/*services page*/
+
+
+
+.services-header-img {
+
+	margin-bottom: 1px;
+
+	justify-items: stretch;
+
+	margin-top: 0px;
+
+	width: 1250px; 
+
+	display: flex;
+
+	align-items: flex-start;
+
+	margin-left: 10px;
+
+
+
+}
+
+
+
+.top-services {
+
+	margin-top: 0 auto;
+
+	margin-left: 30px;
+
+	margin-bottom: 15px;
+
+	border-bottom: 1px solid;
+
+	width: 1250px;
+
+}
+
+
+
+#services {
+
+	padding:5px;
+
+	margin-top: 30px;
+
+	margin-bottom: 0 auto;
+
+}
+
+
+
+p {
+
+	line-height: 1.5;
+
+	padding-bottom: 15px;
+
+}
+
+
+
+.first-p {
+
+	padding-bottom:30px;
+
+}
+
+
+
+.container .item {
+
+	width: 450px;
+
+	height: 400px;
+
+	margin: 70px;
+
+	border: 1px solid;
+
+	background: lightgray;
+
+	padding: 40px;
+
+	text-align: justify;
+
+	justify-content: space-around;
+
+}
+
+
+
+.container {
+
+	width: 1300px;
+
+	margin-left: 0px;
+
+	margin-right: 0px;
+
+	display: flex;
+
+	flex-flow: row wrap;
+
+	column-count: 2;
+
+	justify-content: space-between;
+
+	margin: 0 auto;
+
+	padding: 0 auto;
+
+
+
+}
+
+
+
+.flex-buttons {
+
+	margin-top: 15px;
+
+	margin-left: 0px;
+
+	padding: 10px;
+
+	border-radius: 5px;
+
+}
+
+
+
+.bottom-section {
+
+	margin-top: 20px;
+
+	margin-left: 20px;
+
+	margin-right: 30px;
+
+	display: flex;
+
+	flex-direction: row;
+
+	justify-content: space-evenly;
+
+	border-top: 2px solid;
+
+
+
+}
+
+
+
+.services-info-img {
+
+	width: 50%;
+
+	margin-left: 20px;
+
+	margin-right: 20px;
+
+	margin-top: 20px;
+
+	padding: 10px;
+
+}
+
+
+
+.square {
+
+	list-style-type: square;
+
+	line-height: 2;
+
+	margin-left: 10px;
+
+}
+
+
+
+footer {
+
+	text-align: center;
+
+	margin-top: 50px;;
+
+}
