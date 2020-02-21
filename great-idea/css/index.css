@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -49,18 +136,338 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*navigation*/
+.nav {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.nav a:hover {
+	background: #ddd;
+	color: black;
+	cursor: pointer;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.nav a {
+	display: flex;
+	align-content: space-around;
+}
+
+
+/*great idea logo*/
+.logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 25rem;
+	margin-top: 5rem;
+}
+
+/*Innovation on demand*/
+.highlight {
+	margin-left: 20rem;
+	margin-top: 1rem;
+}
+
+/*logo, name, and top right img*/
+.new {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 5rem;
+	text-align: center;
+	margin-right: 70rem;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+}
+
+/*button style*/
+.btn {
+	display: flex;
+	align-items: center;
+	margin-left: 24rem;
+	margin-right: 8rem;
+}
+
+button {
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	border: solid 3px black;
+}
+
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	background-color: #4CAF50;
+	/* Green */
+	color: white;
+	cursor: pointer;
+	border: solid 3px white;
+}
+
+button:focus,
+input[type="button"]:focus {
+	outline: none;
+}
+
+/*Top right image*/
+.picture {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: -15rem 20rem 8rem 0;
+
+}
+
+.container1 {
+	display: flex;
+	justify-content: center;
+	margin: 4rem 0 5rem 2rem;
+	justify-content: space-between
+}
+
+/*middle image*/
+.middle-img {
+	display: flex;
+	justify-content: center;
+	transition: 1s;
+}
+
+.middle-img:hover {
+	filter: grayscale(20%);
+	transform: scale(1.1);
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	margin: 4rem 0 5rem 2rem;
+	justify-content: space-between;
+	flex-direction: row
+}
+
+/*container 1*/
+.box1 {
+	margin: 0 2rem 0 18rem;
+}
+
+.box2 {
+	margin: 0 20rem 0 0;
+}
+
+/* container 2*/
+.box3 {
+	margin: 0 2rem 0 18rem;
+}
+
+.box4 {
+	margin: 0 2rem 0 0;
+}
+
+.box5 {
+	margin: 0 19.5rem 0 0;
+}
+
+/*lines*/
+hr {
+	margin: 0 20rem 0 20rem;
+
+}
+
+/*Address and contact*/
+.contact {
+	margin: 2rem 0 0 20rem;
+	padding: 5px 0 5px 0;
+}
+
+.number {
+	margin-top: 1rem;
+}
+
+/*copy rights*/
+.copy {
+	display: flex;
+	justify-content: center;
+
+	margin: 5rem 0 5rem 0;
+}
+
+/*SERVICES PAGE*/
+
+/*top image*/
+
+.contian1 {
+	display: flex;
+	margin: 2rem 0 5rem 0;
+	flex-direction: column;
+}
+
+.services-header-img {
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+}
+
+.services-header-img:hover {
+	filter: grayscale(20%);
+	transform: scale(1.1);
+}
+
+.serve1 {
+	margin: 2rem 26rem;
+}
+
+.contian2 {
+	display: flex;
+	justify-content: space-between;
+	width: 55rem;
+	margin: 2rem 0 5rem 26rem;
+}
+
+.serve2 {
+	margin-right: 10rem;
+	background: lightgray;
+	padding: 3rem;
+	border: solid 2px black;
+
+}
+
+.serve3 {
+	background: lightgray;
+	padding: 3rem;
+	border: solid 2px black;
+
+}
+
+.contian3 {
+	display: flex;
+	justify-content: space-between;
+	width: 55rem;
+	margin: 2rem 0 5rem 26rem;
+}
+
+.serve4 {
+	margin-right: 10rem;
+	background: lightgray;
+	padding: 3rem;
+	border: solid 2px black;
+}
+
+.serve5 {
+	background: lightgray;
+	padding: 3rem;
+	border: solid 2px black;
+}
+
+.contian4 {
+	display: flex;
+	justify-content: space-between;
+	width: 55rem;
+	margin: 2rem 0 5rem 26rem;
+}
+
+.serve6 {
+	margin-right: 10rem;
+	background: lightgray;
+	padding: 3rem;
+	border: solid 2px black;
+}
+
+.serve7 {
+	background: lightgray;
+	padding: 3rem;
+	border: solid 2px black;
+}
+
+.contain5 {
+	display: flex;
+	margin: 2rem 0 5rem 0;
+	flex-direction: row;
+	width: 70rem;
+	margin: 2rem 20rem 0 20rem;
+}
+
+.serve8 {
+	margin: 2rem 5rem 13rem 5rem;
+}
+
+.learn {
+	padding: 10px;
+	margin: 2rem 5rem;
+	background: white;
+	border: solid 1px black;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.learn:hover {
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.services-info-img {
+	margin: 2rem 10rem 0 0;
+	transition: 1s;
+}
+
+.services-info-img:hover {
+	filter: grayscale(20%);
+	transform: scale(1.1);
+}
+
+ul {
+	margin: -10rem 0 10rem 25rem;
+
+}
+
+li {
+	list-style-type: disc;
+	padding: 5px 0 5px 0;
+}
