@@ -77,29 +77,30 @@ h1, h2, h3, h4, h5 {
 	justify-content: flex-end;
 }
 
-.Big-content .heading h1 {
+.Big-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Big-content .heading .main-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	font-size: 45px;
-	text-align: center;
+	padding-right: 55%;
 }
-.Big-content .heading {
-	display: inline-block;
-	width: 10%;
-	padding-left: 15%;
-	padding-right: 20%;
-	padding-bottom: 10%;
-	/* text-align: center; */
-	/* font-size: 45px; */
-}
+
 h5 {
-	border: solid;
-}
-.Big-content img {
 	display: inline-block;
-	padding-left: 15%;
-	align-content: center;
-	padding-right: 10%;
-	padding-top: 150px;
-	/* width: 45%; */
+	margin-left: 8%;
+	border: solid;
+	padding-top: 0%;
+	padding: 1%;
+}
+.Big-content .snippet {
+	display: flex;
+	margin-right: 15%;
 }
 .content {
 	display: inline-block;
