@@ -219,5 +219,6 @@ button {
 }
 
 .bottom-line {
-	
+	display: flex;
+	justify-content: space-between;
 }
