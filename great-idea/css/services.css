@@ -177,8 +177,11 @@ button {
 
 .services-info-img {
 	position: none;
-	margin-left: 800px;
-	margin-top: -250px;
+	margin-left: 765px;
+	margin-top: -285px;
+	border-top: 2px solid black; 
+	padding-top: 30px; 
+	width: 525px;
 }
 
 p {
