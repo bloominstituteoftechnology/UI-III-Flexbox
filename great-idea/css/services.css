@@ -72,9 +72,13 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 }
 
+body {
+	background-color: DarkCyan;
+}
+
 nav a {
 	text-decoration: none;
-	color: gray;
+	color: black;
 	padding: 5px;
 	margin-top: 30px;
 	margin-left: 110px;
@@ -85,14 +89,19 @@ nav a {
 nav {
 	display: flex;
 }
+header nav a:hover {
+	text-decoration: underline;
+	color: PowderBlue;
+	background: black;
+}
 
 .logo {
-	 float: right;
-	 height: 50px;
-	 display: inline-block;
-	 margin-top: 8px;
-	 margin-left: 10px;
-	 padding: 5px;
+	float: right;
+	height: 50px;
+	display: inline-block;
+	margin-top: 8px;
+	margin-left: 10px;
+	padding: 5px;
 }
 
 .services-header-img {
@@ -152,9 +161,10 @@ button {
 }
 
 .bottomSectionOne {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
     flex-wrap: wrap;
-    border-top: 2px solid black; 
+    
 	padding-top: 30px; 
 	width: 550px;
 	margin-left: 110px;
@@ -178,8 +188,8 @@ button {
 .services-info-img {
 	position: none;
 	margin-left: 765px;
-	margin-top: -285px;
-	border-top: 2px solid black; 
+	margin-top: -300px;
+	 
 	padding-top: 30px; 
 	width: 525px;
 }
@@ -197,4 +207,12 @@ ul li {
 	padding: 5px;
 	margin-left: 20px;
 	line-height: 1;
+}
+hr {
+	width: 80%;
+	background-color: black;
+	border: none;
+	height: 3px;
+	margin-right: 13.75%;
+	
 }
