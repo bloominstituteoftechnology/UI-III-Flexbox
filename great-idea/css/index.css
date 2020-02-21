@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+
 }
 blockquote, q {
 	quotes: none;
@@ -72,8 +72,7 @@ nav{
 	display: flex;
 	justify-content: space-around;
     margin-bottom: 100px;
-    background-color: greenyellow;
-    padding: 10px 5px 10px 100px;
+    padding: 40px 5px 5px 100px;
     width: auto;
     font-weight: bolder;
     position: sticky;
@@ -88,7 +87,7 @@ nav a:hover {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(126, 121, 121);
     margin-right: 60px;
     font-size: 20px
 }
@@ -179,7 +178,8 @@ footer {
 
 .services-header-img {
 	margin-left: 100px;
-	margin-top: -80px;
+    margin-top: -80px;
+    width: 82%;
 }
 
 #services {
@@ -209,7 +209,8 @@ footer {
 	font-weight: bold;
 	line-height: 1.3em;
 	width: 48%;
-	margin-right: 20px;
+    margin-right: 20px;
+    background-color: rgb(237, 241, 237);
 }
 
 button {
@@ -218,7 +219,43 @@ button {
 	border-radius: 6%;
 }
 
-.bottom-line {
+#bottom-line {
+    display: block;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+
+	width: 85%;
+	font-size: 110%;
+}
+
+.bottom-cont  {
+    padding: 15px;
+	font-weight: bold;
+	line-height: 1.5em;
+	width: 48%;
+    margin-right: 20px;
+    
+}
+
+.services-info-img {
+    width: 100%;
+}
+
+.second-line {
+   height: 3px;
+   background-color: black;
+   width: 80%;
+}
+
+#unordered-li {
+    margin: 20px 0 20px 20px;
+}
+
+.li-item {
+    line-height: 2em;
+}
+
+ul {
+    list-style-type: square;
 }
