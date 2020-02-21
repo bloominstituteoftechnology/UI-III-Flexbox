@@ -76,41 +76,42 @@ h1, h2, h3, h4, h5 {
 	justify-content: flex-end;
 	margin-right: 5%;
 }
-.start {
+/*.start {
+	width: 25%;
+    height: 5%;
+	margin: 0 auto;
+	flex-direction: row;
+}*/
+.tag{
 	display: flex;
-	width: 25%;
-	height: 25%;
-	margin: 5%;
-	padding: 5%;
-	margin-top: 0%;
-	padding-top: 0%;
+	width: 30%;
+	flex-direction: column;
+	height: 100%; 
+	align-self: flex-end;
+	justify-content: center;
+	margin-left: 10%;
+	margin-top: 10%;
 }
-section.img{
-	display: inline-block;
-	width: 25%;
-	height: 25%;
-	margin: 5%;
-	padding: 5%;
-	margin-top: 0%;
-	padding-top: 0%;
+.img-2{
+	display: flex;
+	flex-grow: 1;
+	height: 200px;
+	justify-content: flex-end;
+	margin-right: 10%;
+	margin-bottom: 10%;
 }
 		#id{
-	margin-bottom: 20px;
 	font-size: 100px;
-	text-align: center;
 }
 button {
 	font-size: 20px;
 	box-align: center;
-}
-.two {
-	border-top: solid gray 67px;
-	border-bottom: solid gray 67px;
+	width: 30%
 }
 hr{
 	width: 85%;
 }
-.intro {
+/*.intro {
 	display: inline-block;
 	width: 35%;
 	height: 25%;
@@ -140,12 +141,39 @@ hr{
 	width: 28%;
 	padding: 2%;
 	padding-left: 15%;
+}*/
+.text {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.intro, .about{
+	width: 25%;
+}
+.middle-img {
+	display: flex;
+	justify-content: center;
+}
+.text-2{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.services, .product, .vision {
+	width: 25%;
 }
 .footer {
-	text-align: left;
-    width: 60%;
-	margin-left: 20%;
-	padding-bottom: 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-left: 5%;
+	width: 65%;
 	 
 }
 .copy {
