@@ -69,18 +69,15 @@ h1, h2, h3, h4, h5 {
     display:flexbox;
     margin:1%;
     padding:0%;
-    border:1px solid;
 }
 
 .top {
     display: inline-flex;
-    border:1px solid;
     margin: 1%;
     width: 100%
 }
 
 #nav {
-    border: 1px solid;
 	width: 70%;
 	padding: 2%;
     margin: 0px;
@@ -95,18 +92,26 @@ a{
 
 
 .great2{
-    border: 1px solid;
     margin: 1%;
     padding-left:11%;
 }
 
-.services{
-    border: 1px solid;
+#services img{
     margin: 1%;
-    height: auto;
-    width: 100%;
+    padding-left:60px;
+    height: 230px;
+    max-width: 1340px;
+    width:100%;
+}
+/* currently here */
+ 
+h1.svs{
+    margin: 1%;
+    padding-left:60px;
 }
 
-.img services-header-img {
-    border: 1px solid;
+p {
+    margin-bottom: 3%;
+    padding-left:5%;
+    padding-right:3%;
 }
