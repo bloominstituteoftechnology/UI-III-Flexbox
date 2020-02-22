@@ -103,15 +103,88 @@ a{
     max-width: 1340px;
     width:100%;
 }
-/* currently here */
+
  
 h1.svs{
+    display:flex;
+    flex-wrap:wrap;
     margin: 1%;
     padding-left:60px;
 }
+/* done to here */
 
-p {
-    margin-bottom: 3%;
-    padding-left:5%;
-    padding-right:3%;
+
+.cont3 {
+    display:flex;
+    border: 1px solid;
+}
+
+p.digital {
+    border: 1px solid;
+    margin: 1%;
+}
+
+.cont2 {
+    border: 1px solid;
+    margin:1%;
+}
+
+.design {
+    border: 1px solid;
+    width:50%;
+}
+
+.digital {
+    border: 1px solid;
+    width:50%;
+}
+
+h2.ux {
+    border: 1px solid;
+    width:50%
+}
+
+p.ui {
+    border: 1px solid;
+    width:50%;
+}
+
+h3.mark {
+    border: 1px solid;
+    width:50%:
+}
+
+p.marketing {
+    border: 1px solid;
+    width: 50%;
+}
+
+h4.web {
+    border: 1px solid;
+    width: 50%;
+}
+
+p.dev {
+    border:1px solid;
+    width: 50%;
+}
+
+h5.ios {
+    border:1px solid;
+    width: 50%;
+}
+
+p.development {
+    border:1px solid;
+    width: 50%;
+}
+
+h6.android {
+    border:1px solid;
+    width: 50%;
+}
+
+p.develop {
+    border:1px solid;
+    width: 50%;
 }
