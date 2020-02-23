@@ -118,7 +118,7 @@ nav a {
 
 	button {
 		background-color: azure;
-		border-radius: 25%;
+		border-radius: 10px;
 		border: 1px solid black;
 		height: 35px;
 		width: 200px;
@@ -153,4 +153,55 @@ nav a {
 .copyright {
 	text-align: center;
 	margin-top: 20px;
+}
+
+/* Service exclusive starting*/
+
+.pair1, .pair2, .pair3, .pair4 {
+	display: flex;
+	
+}
+
+.serborder {
+	border: 1px solid black;
+	margin: 10px 15px 20px 10px;
+	background-color: hsla(0, 0%, 87%, 0.89);
+}
+
+.serviceList {
+	list-style-type: square;
+	list-style-position: inside;
+	margin-top: 10px;
+}
+
+ body {
+	max-width: 890px;
+	margin:auto;
+	
+}
+
+section button {
+	margin: 20px 10px;
+}
+
+.serborder h3 {
+	margin: 10px
+}
+
+.serborder p {
+	margin: 10px
+}
+
+.pair4 {
+	margin: 35px 0px 100px 0px;
+}
+
+.serviceList li {
+	margin-top: 20px;
+}
+
+.serviceimg {
+	
+	margin-bottom: 35px;
+	
 }
