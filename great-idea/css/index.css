@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* Header */
+
+header {
+	text-align: center;
+	box-sizing: border-box;
+	/*border: 1px solid black;*/
+	display: flex;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+	margin: 30px 0px;
+	width: 75%;
+}
+
+
+
+nav a {
+	
+	width: 9%;
+	text-decoration: none;
+	color: grey
+}
+
+/* Content1 section*/
+
+.content1 {
+	display: flex;
+	justify-content: center;
+
+}
+
+.content1 .left-content1 {
+	text-align: center;
+	margin-bottom: 20px;
+	justify-content: ;
+	
+}
+
+.content1 .left-content1 h1 {
+	font-size: 80px;
+	margin-top: 10%;
+}
+
+.content1 img {
+	width: 25%;
+	height:25%;
+}
+
+	button {
+		background-color: azure;
+		border-radius: 10px;
+		border: 1px solid black;
+		height: 35px;
+		width: 200px;
+		font-size: 20px;
+	}
+
+/* Content2 */
+
+.content2 {
+	text-align: left;
+	/*margin: 50%; */
+	margin: 20px 30px 20px 30px;
+	display: flex;
+}
+
+
+
+
+.bigimage {
+	text-align: center;
+}
+
+.content3 {
+	display: flex;
+	margin: 20px 20px 20px 20px;
+}
+
+.contact-section {
+	margin: 10px 30px 0px 30px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* Service exclusive starting*/
+
+.pair1, .pair2, .pair3, .pair4 {
+	display: flex;
+	
+}
+
+.serborder {
+	border: 1px solid black;
+	margin: 10px 15px 20px 10px;
+	background-color: hsla(0, 0%, 87%, 0.89);
+}
+
+.serviceList {
+	list-style-type: square;
+	list-style-position: inside;
+	margin-top: 10px;
+}
+
+ body {
+	max-width: 890px;
+	margin:auto;
+	
+}
+
+section button {
+	margin: 20px 10px;
+}
+
+.serborder h3 {
+	margin: 10px
+}
+
+.serborder p {
+	margin: 10px
+}
+
+.pair4 {
+	margin: 35px 0px 100px 0px;
+}
+
+.serviceList li {
+	margin-top: 20px;
+}
+
+.serviceimg {
+	
+	margin-bottom: 35px;
+	
+}
