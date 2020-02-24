@@ -126,3 +126,15 @@ button{
 .services-info-img{
 	width: 100%;
 }
+
+
+@media only screen and (max-width: 600px) {
+	body {
+	  background-color: lightblue;
+	}
+	.AllServices, .service, .mediaquery{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+  }
