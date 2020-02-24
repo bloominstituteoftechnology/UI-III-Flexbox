@@ -1,0 +1,7 @@
+{
+  "[markdown]": {
+    "editor.quickSuggestions": false,
+    "editor.autoClosingBrackets": false,
+"editor.suggestOnTriggerCharacters": false,
+  }
+}
