@@ -51,7 +51,7 @@ border-spacing: 0;
 /* Set every element's box-sizing to border-box */
 * {
 box-sizing: border-box;
-border: 1px solid grey !important;
+/* border: 1px solid grey !important; */
 }
 
 html, body {
@@ -70,7 +70,7 @@ margin-bottom: 15px; */
 
 /* Your code starts here! */
 .container {
-width: 900px;
+width: 66%;
 margin: 0 auto;
 }
 
@@ -197,7 +197,9 @@ margin-right: 100px;
 }
 
 .middle-content {
-/* display: inline-block; */
+display: flex;
+justify-content: space-between;
+	/* display: inline-block; */
 width: 100%;
 padding-top: 3%;
 }
@@ -215,37 +217,42 @@ margin: 2%; */
 }
 
 .middle-img {
+/* align-self: auto; */
+/* margin: 0 auto; */
 /* margin: 1%; */
+padding-bottom: 5%;
+padding-top: 5%;
 }
 
 .bottom-content {
 /* display: inline-block; */
 /* margin-left: 7%; */
-padding-top: 5%;
+/* padding-top: 2%; */
 padding-bottom: 5%;
 /* color: red; */
 /* margin: 0 auto; */
 display: flex;
-flex-direction: row;
+justify-content: space-between;
 /* justify-content: space-evenly; */
 }
 
 .services {
 /* display: inline-block; */
 /* color: red; */
-width: 25%;
+width: 30%;
 /* margin-left: 1%; */
 }
 
 .product {
 /* display: inline-block; */
 /* color: red; */
-width: 25%;
+width: 30%;
 }
+
 .vision {
 /* display: inline-block; */
 /* color: red; */
-width: 25%;
+width: 30%; */
 }
 
 .contact {
@@ -256,7 +263,8 @@ padding-bottom: 5%;
 }
 .address {
 width: 18%;
-/* margin-bottom: 2%; */
+margin-top: 2%;
+margin-bottom: 2%;
 /* margin-left: 1%; */
 }
 .phone {
@@ -265,7 +273,8 @@ width: 18%;
 /* margin-left: 1%; */
 
 }.email {
-width: 18%;
+margin-top: 2%;
+	width: 18%;
 /* margin-bottom: 2%; */
 /* margin-left: 1%; */
 }
