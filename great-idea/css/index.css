@@ -51,7 +51,7 @@ border-spacing: 0;
 /* Set every element's box-sizing to border-box */
 * {
 box-sizing: border-box;
-/* border: 1px solid grey !important; */
+border: 1px solid grey !important;
 }
 
 html, body {
@@ -64,8 +64,8 @@ font-family: 'Cedarville Cursive', cursive;}
 h1, h2, h3, h4, h5 {
 /* font-family: 'Bellota', cursive; */
 font-family: 'Bangers', cursive;
-letter-spacing: 1px;
-margin-bottom: 15px;
+/* letter-spacing: 1px;
+margin-bottom: 15px; */
 }
 
 /* Your code starts here! */
@@ -74,31 +74,43 @@ width: 900px;
 margin: 0 auto;
 }
 
-header a {
-width: 5%;
+header nav{
+/* width: 5%; */
+/* height: 10%; */
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 border: 0%;
-padding: 1%;
-margin: 0 2%;
-display: inline-block;
+padding: 2%;
+/* margin: 0 2%; */
+/* display: inline-block; */
 color: grey;
 /* letter-spacing: ; */
 /* text-align: justify; */
+/* vertical-align: middle; */
 }
 
 .logo {
-margin-left: 15%;
-vertical-align: middle;
+/* margin-left: 15%; */
+/* vertical-align: middle; */
+/* border: 1px solid red; */
+/* justify-content: space-between; */
 }
 
 
 
 nav {
-padding-top: 2%; 
+/* padding-top: 2%;  */
+/* align-items: flex-start; */
 }
 
 .top-content {
-display: inline-block;
-margin: 0 auto;
+/* display: inline-block;
+margin: 0 auto; */
+display: flex;
+justify-content: center;
+justify-content: space-around;
+align-content: center;
 width: 100%;
 border-bottom: 1px solid grey;
 padding-top: 5%;
@@ -106,9 +118,10 @@ padding-bottom: 7%;
 }
 
 .top-content-text {
-display: inline-block;
-margin: 60px 9%;
-vertical-align: text-bottom;
+/* display: inline-block;
+margin: 60px 9%; */
+/* display: flex; */
+align-items: center;
 text-align: center;
 padding: 2%;
 }
@@ -179,77 +192,81 @@ margin-right: 100px;
 
 .circle-image {
 /* align-items:  */
-margin-left: 1%;
-display: inline-block;
+/* margin-left: 1%; */
+/* display: inline-block; */
 }
 
 .middle-content {
-display: inline-block;
+/* display: inline-block; */
 width: 100%;
 padding-top: 3%;
 }
 
 .left-paragraph {  
 width: 45%;
-display: inline-block;
-margin: 2%;
+/* display: inline-block; */
+/* margin: 2%; */
 }
 
 .right-paragraph {
 width: 45%;
-display: inline-block;
-margin: 2%;
+/* display: inline-block;
+margin: 2%; */
 }
 
 .middle-img {
-margin: 1%;
+/* margin: 1%; */
 }
 
 .bottom-content {
-display: inline-block;
+/* display: inline-block; */
 /* margin-left: 7%; */
 padding-top: 5%;
 padding-bottom: 5%;
 /* color: red; */
-margin: 0 auto;
+/* margin: 0 auto; */
+display: flex;
+flex-direction: row;
+/* justify-content: space-evenly; */
 }
 
 .services {
-display: inline-block;
+/* display: inline-block; */
 /* color: red; */
-width: 32%;
-margin-left: 1%;
+width: 25%;
+/* margin-left: 1%; */
 }
 
 .product {
-display: inline-block;
+/* display: inline-block; */
 /* color: red; */
-width: 32%;
+width: 25%;
 }
 .vision {
-display: inline-block;
+/* display: inline-block; */
 /* color: red; */
-width: 32%;
+width: 25%;
 }
 
 .contact {
 border-top: 1px solid grey;
 padding-top: 5%;
 padding-bottom: 5%;
-margin-left: 1%;
+/* margin-left: 1%; */
 }
 .address {
 width: 18%;
-margin-bottom: 2%;
+/* margin-bottom: 2%; */
 /* margin-left: 1%; */
 }
 .phone {
 width: 18%;
-margin-bottom: 2%;
+/* margin-bottom: 2%; */
 /* margin-left: 1%; */
+
 }.email {
 width: 18%;
-margin-bottom: 2%;
+/* margin-bottom: 2%; */
 /* margin-left: 1%; */
 }
 
