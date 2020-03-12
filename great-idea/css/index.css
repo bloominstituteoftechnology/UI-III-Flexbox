@@ -164,6 +164,7 @@ margin-bottom: 15px; */
 header {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 3%;
 }
 nav {
   width: 100%;
@@ -182,6 +183,7 @@ nav {
 }
 
 .logo {
+  margin-top: 3%;
   margin-left: 1%;
   vertical-align: middle;
   /* border: 1px solid red; */
@@ -396,6 +398,7 @@ margin: 2%; */
   align-content: center;
   padding: 2%;
   border: 1px solid black;
+  margin-top: 3%;
 }
 
 .box h2 {
@@ -415,21 +418,25 @@ button {
 }
 
 .bottom-chunk {
+  border-top: 2px solid black;
   display: flex;
+  margin-top: 3%;
+  padding-top: 3%;
 }
 
 .left-bottom-chunk {
   /* color: red; */
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-right: 5%;
+  margin-bottom: 3%;
 }
 
 .left-bottom-chunk h2 {
   /* color: red; */
   font-size: 1.2rem;
-  margin-bottom: -4%;
+  /* margin-bottom: -4%; */
 }
 
 ul {
