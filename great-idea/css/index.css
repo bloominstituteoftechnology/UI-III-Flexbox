@@ -170,9 +170,9 @@ nav {
   width: 100%;
   /* height: 10%; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   /* border: 2px solid red; */
-  padding: 2%;
+  padding-top: 3%;
   /* margin: 0 2%; */
   /* display: inline-block; */
   color: grey;
@@ -180,9 +180,11 @@ nav {
   /* text-align: justify; */
   vertical-align: middle;
   margin-right: 10%;
+  text-align: left;
 }
 
 .logo {
+  padding-top: 10%;
   margin-top: 3%;
   margin-left: 1%;
   vertical-align: middle;
@@ -449,4 +451,9 @@ footer {
   width: 100%;
   margin-top: 5%;
   text-align: center;
+}
+
+.services-header-img {
+  /* border: 2px solid red; */
+  width: 100%;
 }
