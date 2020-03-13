@@ -64,3 +64,55 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.top{
+    width:880px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: brown;
+}
+
+.links{
+  width:60%;
+  align-items:center;
+}
+
+.title{
+  height:70vh;
+  
+  
+}
+
+.logo{
+  
+
+  
+}
+
+.textOne{
+  display: flex;
+
+  
+}
+
+.textOne div{
+  
+  border: 2px solid black;
+}
+
+.textTwo{
+  
+  
+  
+}
+
+
+
+.textTwo div{
+  border: 2px solid black;
+}
+
+
+  
+
