@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px solid grey;
+	border: 1px solid black;
 }
 
 html, body {
@@ -90,7 +90,7 @@ nav {
 	font-size: 22px;
 }
 
-nav a {
+nav span {
 	display: flex;
 	align-items: center;
 	width: 16%;
@@ -102,6 +102,31 @@ nav a:hover {
 .links {
 	display: flex;
 	justify-content: space-between;
+}
+
+.image1 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.h2 {
+	display: flex;
+	width: 50%;
+	font-size: 550%;
+}
+
+.content {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+.about, .feature {
+	justify-content: space-evenly;
+}
+
+.h3 {
+	display: flex;
 }
 
 .logo {
