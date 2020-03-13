@@ -1,3 +1,5 @@
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -49,7 +51,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid grey;
 }
 
 html, body {
@@ -63,4 +66,132 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.container{
+	width: 880px;
+	margin: auto;
+}
+
+.top-nav {
+	display: flex;
+	flex-direction: row;
+	margin-top: 35px;
+	width: 690px;
+	vertical-align: top;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	margin-right: 60px;
+	font-size: 14px;
+	color: grey;
+}
+
+nav a {
+	margin: 20px;
+	color: lightgrey;
+	text-decoration: none;
+}
+nav a:hover {
+	color: yellow;
+}
+
+.logo {
+	display: inline-block;
+	margin: 20px 0 -11px 50px;
+}
+
+.header-content {
+	display: block;
+}
+
+.section1 {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.main-heading {
+	text-align: center;
+	width: 400px;
+	margin: 5px;
+	display: flex;
+}
+
+.main-heading h1 {
+	margin: 80px;
+	padding: 0px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.main-heading button {
+	margin: -29px 78px 54px 100px; 
+	padding: 10px px;
+	font-size: 13px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.main-img {
+	width: 400px;
+	display: inline-black;
+}
+
+.section2 {
+	width: 800px;
+	border-top: 1px solid black;
+	margin-top: 20px;
+}
+
+.top-left {
+	width: 380px;
+	margin: 20px 0;
+	display: inline-block;
+}
+
+.top-right {
+	width: 380px;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.section3 {
+	width: 800px;
+	margin-top: 20px;
+}
+
+.bottom-left {
+	width: 250px;
+	margin-right: 13px;
+	display: inline-block;
+}
+
+.bottom-middle {
+	width: 250px;
+	margin-right: 13px;
+	display: inline-block;
+}
+
+.bottom-right {
+	width: 250px;
+	margin-right: 0;
+	display: flex;
+}
+
+address h4 {
+	top: -130px;
+	position: relative;
+}
+
+footer p {
+	margin: 30px 0;
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+	top: -120px;
+}
