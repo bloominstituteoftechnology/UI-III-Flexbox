@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/*
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,10 +22,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers 
+HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -46,14 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*/
-/* Set every element's box-sizing to border-box 
+
+/* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
 	border: 1px solid black;
+	max-width:100%;
 }
 
 html, body {
+	
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -66,143 +68,67 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/*
-body{
-	width:100%;
-	text-align:center;
-	line-height:1.5;
-	Border: 25px solid white;
-}
-
-	/*styling for the Header*/
-
-/*
-
-header{
-	display:flex;
-	margin-bottom:5%;
-	
-}
-.logo{
-	display: flex;
-	width: 10%;
-	justify-content: flex-end;
-}
-nav{
-	font-size: 22px;
-	display: flex;
-	width: 70%;
-	justify-content:center;
-	
-	
-}
-nav span{
-	display: flex;
-	width: 16%;
-	align-items: center;
-	
-	
-
-}
-.image1{
-	display: flex;
-	justify-content:flex-end;
-}
-/*
-
-/*End of Heading styling*/
-/*start of styling for section1*/
-
-/*
-h1{
-	display: flex;
-	font-size:550%;
-	width: 50%;
-}
-.section1{
-	display: flex;
-	justify-content:space-evenly;
-}
-
-*/
 
 
-/*end of section1 styling*/
-/*top-container syling*/
-
-
-/*
-.top-container {
-	display:flex;
-	width: 100%;
-	margin-top:5%;	
-}
-.about, .feature{
-	justify-content: space-evenly;
-}
-h2{
-	display:flex;
-}
-
-
-
-.middle-img{
-	display: flex; 
-	width: 100%;
-	position: center;
-	padding: 5% 0;
-	
-	*/
-}
-/*Bottom-container styling*/
-
-/*
-.services, .product, .vision {
-	display: flex;
-	width: 33%;
-	text-align: justify;
-	padding-top: 5%;
-	flex-direction:column;
-}
-.services, .product{
-	padding-right: 3%;
-}
-.bottom-container{
-	display:flex;
-	border-top: 1px solid black;
-	margin-bottom:5%;
-	
-}
-
-
-.contacts{
-	text-align: justify;
-	padding-top: 4%;
-	line-height: 2;
-	border-top: 1px solid black;	
-}
-
-
-footer{
-	display: flex;
-	justify-content: center;
-	margin-top: 5%;
-	margin-bottom:3%;
-*/
-}
-/*end of page 1*/
 
 
 
 /*start of page 2*/
+
+
 /*nav styling*/
+body{
+	border:45px solid white;
+}
 *{
+	box-sizing: border-box;
+	padding:0;
+	max-width:100%;
 	border:1px solid black;
 }
+.top-container{
+	display: flex;
+	width:100%;
+	justify-content: center;
+	margin-top:20px;
+	margin:auto;
+}
+	
+
+nav{
+	width:80%;
+	display: flex;
+	justify-content: space-between;
+	margin:0 auto;
+}
+
 .links{
+	width:65%;
 	display:flex;
 	justify-content: space-between;
-
+	padding-top: 8px;
+	
 }
+
+.services-img{
+	width:80%;
+	display:flex;
+	margin:0 auto;
+	padding-top: 25px
+}
+.services{
+	display:flex;
+	flex-direction: column;
+	margin:0 10%;
+}
+
+.main-content{
+	
+	display:flex;
+	justify-content: center;
+	
+}
+
+
 
 
