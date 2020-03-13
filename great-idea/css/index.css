@@ -64,3 +64,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+	
+
+	
+	h2 {
+		font-size: 30px;
+		margin: 1% 13% ;
+	}
+	
+	
+
+	.navigation {
+	color: grey;
+	word-spacing: 80px;
+	font-family: 'Titillium Web';
+	display: flex;
+	justify-content: space-between;
+	margin: 1% 13%;
+	
+	}
+	
+	.service {
+		margin: 1% 13%;
+		line-height: 20px;
+		border-bottom: 1px solid black;
+	}
+
+	.image1 {
+	
+	display:flex;
+	justify-content: center;
+	margin: 0% auto;
+	width: 75%;
+	}
+	
+	.MainContent {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 40%;
+	max-height: 100%;
+	margin: 0% 0% 0% 10%;
+	line-height: 20px;
+	}
+	
+	
+	
+	.DigitalDesign {
+		border:	1px solid black;
+		margin: 3%;
+		background-color: lightgrey;
+		
+		
+	}
+
+	.DigitalMarketing {
+		border:	1px solid black;
+		margin: 3%;
+		background-color: lightgrey;
+		
+	}
+
+
+	.IOS {
+		border:	1px solid black;
+		margin: 3%;
+		background-color: lightgrey;
+		
+	}
+
+	.UXUI {
+		border: 1px solid black;
+		margin: 3%;
+		background-color: lightgrey;
+		
+	}
+
+	.WebDev {
+		border: 1px solid black;
+		margin: 3%;
+		background-color: lightgrey;
+		
+	}
+
+	.Android {
+		border: 1px solid black;
+		margin: 3%;
+		background-color: lightgrey;
+		
+	}
+
+
+	.button {
+		background-color:white;
+		border: 1px solid black;
+		border-radius: 5px;
+		color: black;
+		padding: 3% 11%;
+		text-align: center;
+		font-size: 11px;
+		margin: 5%;
+	  }
+
+#finalP {
+	
+	border-top:1px solid black;
+	
+	max-width: 43%;
+	margin-left: 13%;
+	height:50%;
+}
+.image2 {
+
+	margin-right: -15%; 
+
+	margin-left: 20%;
+	
+}
+
+
+	
+.bottomContent {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 78%;
+	height: 70%
+	
+} 	
+
+
+
+
+#list {
+	list-style-type: square;
+	height:80%;
+	width:30%;
+	margin-top: -6%;
+	margin-right:45%;
+}
+
+#border{
+	
+}
+
+.footer {
+	
+	text-align: center;
+	}
+
+.number: {
+	
+}
