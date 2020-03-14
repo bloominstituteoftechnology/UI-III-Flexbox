@@ -18,18 +18,18 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -49,10 +49,13 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	/*border: 1px solid black;*/
+	max-width:100%;
 }
 
 html, body {
+	
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -63,4 +66,112 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+
+
+
+
+
+/*start of page 2*/
+
+
+/*nav styling*/
+body{
+	/*border:45px solid white;*/
+}
+.container{
+	width:90%;
+	margin: 0 auto;
+}
+*{
+	box-sizing: border-box;
+	padding:0;
+	max-width:100%;
+	/*border:1px solid black;*/
+}
+.top-container{
+	display: flex;
+	width:100%;
+	justify-content: center;
+	margin-top:20px;
+	margin:auto;
+}
+	
+
+nav{
+	width:80%;
+	display: flex;
+	justify-content: space-between;
+	margin:0 auto;
+}
+
+.links{
+	width:65%;
+	display:flex;
+	justify-content: space-between;
+	padding-top: 8px;
+	
+}
+
+.services-img{
+	width:80%;
+	display:flex;
+	margin:0 auto;
+	padding: 25px 0;
+}
+.services{
+	display:flex;
+	flex-direction: column;
+	margin:0 10%;
+	padding: 25px 0;
+}
+
+.main-content{
+	width: 80%;
+	display:flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content:space-between;	
+	padding-top: 25px;
+}
+
+.dig{
+	width:48%;
+	padding:20px;
+	margin-bottom:15px;
+}
+.dig p{
+	margin-bottom: 10px;
+}
+.bottom{
+	display:flex;
+	width:80%;
+	margin: 0 auto;
+}
+ul li{
+	list-style-type: disc;
+	list-style-position: inside;
+}
+.facts{
+	width:50%;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.info-img{
+	display:flex;
+	flex-flow:row-reverse;
+	width: 260px;
+	height: 200px;
+	margin-left: 5%;
+	
+}
+footer{
+	display:flex;
+	justify-content: center;
+	margin-top:5%;
+}
+
+
+
