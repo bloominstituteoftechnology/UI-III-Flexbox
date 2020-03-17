@@ -63,4 +63,299 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+
+
+
+
+
+/* Your code starts here! */
+
+
+
+
+
+
+
+
+
+
+body {
+	max-width: 875px;
+	width: 90vw;
+	margin: 0 auto;
+}
+
+
+
+/*header-start*/
+header {
+	margin: 20px 0 0 0;
+	border-bottom: 1px solid black;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+nav .nav{
+	text-decoration: none;
+	color: rgb(173, 173, 173);
+	font-size: 14px;
+	padding: 0 5px;
+	transition: .1s ease-in;
+	display: flex;
+	align-items: center;
+	margin: 5px 0 0 0;
+}
+nav .nav:hover {
+	border-radius: 2px;
+}
+nav img {
+	width: 150px;
+}
+section {
+	display: flex;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.txtNbtn {
+	width: 50%;
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+	display: block;
+}
+.txtNbtn h1 {
+	margin: 70px 0 10px 0;
+}
+.centered a {
+	display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border: 1px solid rgb(175, 175, 175);
+    width: 150px;
+    padding: 7px 0;
+    margin: auto;
+    transition: .1s ease-in;
+}
+.centered a:hover, nav .nav:hover {
+	color: white;
+	background-color: rgb(97, 97, 97);
+	transform: scale(1.1);
+	border-radius: 5px;
+}
+.rnd-img {
+	width: 400px;
+	text-align: center;
+	display: block;
+}
+.rnd-img img {
+	width: 310px;
+	padding: 30px 0 0 0;
+}
+/* end header */
+
+/*main start */
+main, footer {
+	font-size: 100%;
+	border-bottom: 1px solid black;
+}
+.sec1, .sec2 {
+	text-align: left;
+	margin-top: 20px;
+}
+.cont, .cont2 {
+	width: 50%;
+	position: relative;
+	padding: 0 10px 0 0;
+}
+main img {
+	width: 100%;
+}
+.cont2 {
+	width: 33.33%;
+}
+/*main end*/
+
+/*footer start*/
+footer {
+	border: none;
+	text-align: center;
+}
+footer section {
+	text-align: left;
+	margin-top: 20px;
+	flex-direction: column;
+}
+/*footer end*/
+
+
+
+/* services stylesheet start */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+nav, .services-header-img, header h1, header p {
+    margin-bottom: 30px;
+}
+header h1 {
+    font-size: 70px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.services-sec, .facts-sec {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+.cont-1, .cont-2, .cont3, .cont4{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    justify-content: space-evenly;
+}
+
+.item {
+    border: 1px solid grey;
+    height: auto;
+    margin-top: 30px;
+    background-color: rgb(248, 248, 255);
+}
+.item div {
+    padding: 20px;
+    text-align: left;
+}
+.cont3 h2, .cont3 p, .cont3 ul{
+    text-align: left;
+}
+.cont-1 p, .cont-2 p{
+    margin-bottom: 20px;
+}
+li {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.copy {
+    text-align: center;
+}
+.lrn-btn {
+    display: block;
+	text-decoration: none;
+    color: black;
+    background-color: white;
+	font-size: 14px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    width: 125px;
+	padding: 5px 0;
+    transition: .1s ease-in;
+    text-align: center;
+}
+.lrn-btn:hover {
+    background-color: rgb(185, 185, 185);
+    border: 1px solid grey;
+    box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.418);
+}
+
+
+
+
+/*product css */
+
+.prod-img {
+    content: "";
+    border: 1px solid rgb(139, 139, 139);
+    width: 200px;
+    height: 200px;
+}
+.item {
+    border: none;
+    background-color: white;
+}
+.prod-cont-1 div, .prod-cont-1 a {
+    text-align: center;
+    margin: auto;
+}
+div .item {
+    margin: none;
+}
+.item .prod-img {
+    margin-bottom: 20px;
+    background-color: rgb(182, 182, 182);
+}
+.prod-img h1 {
+    font-family: sans-serif;
+    color: white;
+    margin-top: 40%;
+}
+
+
+/* contact css */
+
+.flex-form {
+	flex-flow: row wrap;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.flex-form div {
+	height: 30px;
+	width: 500px;
+	margin: 20px 0;
+}
+.flex-form div input, .flex-form div textarea {
+	height: 40px;
+	width: 500px;
+	text-align: center;
+}
+.flex-form div textarea {
+	height: 60px;
+}
+#snd-btn {
+	height: 30px;
+	width: 300px;
+	background-color: white;
+	border: 1px solid black;
+	transition: .1s ease-in-out;
+}
+#snd-btn:hover{
+	background-color: grey;
+	color: white;
+}
+.form-sec {
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+#extra-sec {
+	display: block;
+}
+#extra-sec h1 {
+	font-size: 20px;
+}
+.active {
+	color: white;
+	border-bottom: 2px solid black;
+}
+.works::before {
+	content: "WORKS!";
+	font-size: 8px;
+	transform: rotate(20deg);
+	color: rgb(122, 122, 255);
+	font-family: sans-serif;
+	font-weight: bolder;
+}
