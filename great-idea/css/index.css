@@ -103,6 +103,21 @@ h1{
 	width:40%;
 }
 .middle-img{
-	width:80%;
-	margin:0 10%;
+	width:90%;
+	margin:0 5%;
+}
+.bottomtext{
+	border-bottom:1px solid black;
+	display:flex;
+	justify-content: space-evenly;
+	padding:2%;
+}
+.serv{
+	width:30%;
+}
+.prod{
+	width:30%;
+}
+.vis{
+	width:30%;
 }
