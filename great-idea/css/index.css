@@ -98,9 +98,11 @@ h1{
 }
 .feat{
 	width:40%;
+	font-weight: bold;
 }
 .about{
 	width:40%;
+	font-weight: bold;
 }
 .middle-img{
 	width:90%;
@@ -114,10 +116,23 @@ h1{
 }
 .serv{
 	width:30%;
+	font-weight: bold;
 }
 .prod{
 	width:30%;
+	font-weight: bold;
 }
 .vis{
 	width:30%;
+	font-weight: bold;
+}
+h2{
+	padding-top:2%;
+}
+p{
+	font-weight: bold;
+}
+footer{
+	text-align: center;
+	font-weight: bold;
 }
