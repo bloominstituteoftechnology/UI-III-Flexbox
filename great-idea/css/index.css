@@ -64,3 +64,127 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* top line navigation and logo */
+.capsule{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+}
+.topPeak nav a{
+	padding-top: 15px;
+	color: gray;
+	text-decoration: none;
+	text-align: left;
+	margin-left: 50px;
+}
+.logo{
+	justify-content: flex-end;
+	height: auto;
+	width: auto;
+}
+/* middle with round picture and button */
+.centerBox{
+	width: 80%;
+	display: flex;
+	margin-bottom: 25px;
+}
+.centerText{
+	width: 60%;
+	color: black;
+	font-size: 60px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-top: 95px;
+	margin-left: 95px;
+}
+.clicker{
+	border: 1px solid black;
+	padding: 8px 38px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+.roundPic{
+	margin-top: 65px;
+	margin-right: 55px;
+}
+/* text and rectangle picture*/
+.hr1{
+	display: flex;
+	width: 68%;
+	margin-left: 89px;
+}
+.belly{
+	width: 80%;
+	display: flex;
+	margin-left: 89px;
+}
+.features {
+	width: 44%;
+	margin-top: 30px;
+}
+.about {
+	width: 44%;
+	margin-top: 30px;
+}
+.middlePic {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 35px;
+	margin-left: 89px;
+	width: 96%;
+}
+.gut{
+	display: flex;
+	margin-left: 89px;
+	margin-top: 25px;
+}
+.services{
+	width: 24%;
+	height: 100px;
+	margin-top: 20px;
+	margin-right: 10px;
+
+}
+.product{
+	width: 24%;
+	height: 100px;
+	margin-top: 20px;
+	margin-right: 10px;
+
+}
+.vision{
+	width: 24%;
+	height: 100px;
+	margin-top: 20px;
+	margin-right: 0px;
+}
+.hr2{
+	display: block;
+	width: 68%;
+	margin-top: 60px;
+	margin-left: 89px;
+}
+
+/* bottom part*/
+.contact{
+	margin-top: 40px;
+	margin-left: 89px;
+	text-align: left;
+}
+.copyright{
+	width: 68%;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-left: 8%;
+	margin-bottom: 30px;
+}
+
+
