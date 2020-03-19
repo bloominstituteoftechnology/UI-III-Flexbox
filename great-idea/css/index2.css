@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.services-header-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.flex-Box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: none;
+  width: 1280px;
+  margin: auto;
+  border-style: none;
+  width: 1280px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.servcies {
+  margin-bottom: 30px;
+}
+
+.flex-Box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-style: solid none none none;
+  border-color: black;
+  border-width: 1px;
+  width: 1280px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.flex-Box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 1280px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.flex-Box4 {
+  display: flex;
+  flex-direction: row;
+  border-style: none none solid none;
+  border-color: black;
+  border-width: 1px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 1280px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.digitalDesign,
+.ux,
+.digitalMarket {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 350px;
+  margin: auto;
+}
+
+.webDev,
+.ios,
+.android {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 350px;
+  margin-top: 15px;
+  margin: auto;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.flex-title {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.flex-para {
+  margin-left: 20px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 5px 15px 5px 15px;
+  border-style: ridge;
+  border-width: 3px;
+}
+
+.lastFlex {
+  border-style: none;
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.factsTitle {
+  margin-top: 30px;
+}
+
+.facts {
+  padding-bottom: 20px;
+  border-style: none;
+  width: 400px;
+}
+
+li {
+  list-style-type: square;
+  margin: 10px;
+}
+
+.flexing {
+  display: flex;
+  flex-direction: column;
+}
+
+.annoyingIMG {
+  margin-top: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
