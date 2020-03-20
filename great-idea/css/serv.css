@@ -62,11 +62,12 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-.top{
+.head{
 	display:flex;
+	justify-content: space-evenly;
+	margin:2%;
 }
-.topNav{
+.navigation{
 	width:80%;
 	display:flex;
 	justify-content:space-evenly;
@@ -75,64 +76,128 @@ h1, h2, h3, h4, h5 {
 nav a{
 	color:black;
 }
-.topcontent{
-	border-bottom:1px solid black;
+.top{
 	display:flex;
-	justify-content: space-evenly;
-	align-items: center;
-	padding:5% 0;
+	flex-direction: column;
+	padding:2%;
+	margin:2%;
 }
-button{
-	width: 150px;
+.services-header-img{
+	width:80%;
+	margin:0 auto;
+}
+.top p{
+	width:80%;
+	margin:1% auto;
+}
+.top h2{
+	margin:1% 10% 0;
+}
+.middlecontent{
+	border-top:1px solid black;
+	border-bottom: 1px solid black;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content: space-evenly;
+	margin:2%;
+}
+.middlecontent div{
+	margin:2% auto;
+}
+.DD{
+	width:40%;
+	background:lightgray;
+	border:1px solid black;
+	padding:1%;
+	font-weight: bold;
+}
+.DD button{
+	border:1px solid black;
+	margin-top:2%;
 	font-size: medium;
 }
-h1{
-	font-size:60px;
-	text-align: center;
-}
-.toptext{
-	display:flex;
-	justify-content: space-evenly;
-	align-items: center;
-	padding:2%;
-}
-.feat{
+
+.UX-UI{
 	width:40%;
+	background:lightgray;
+	border:1px solid black;
+	padding:1%;
 	font-weight: bold;
 }
-.about{
+.UX-UI button{
+	border:1px solid black;
+	margin-top:2%;
+	font-size: medium;
+}
+.DM {
 	width:40%;
+	background:lightgray;
+	border:1px solid black;
+	padding:1%;
 	font-weight: bold;
 }
-.middle-img{
-	width:90%;
-	margin:0 5%;
+.DM button{
+	border:1px solid black;
+	margin-top:2%;
+	font-size: medium;
 }
-.bottomtext{
-	border-bottom:1px solid black;
+.webdev{
+	width:40%;
+	background:lightgray;
+	border:1px solid black;
+	padding:1%;
+	font-weight: bold;
+}
+.webdev button{
+	border:1px solid black;
+	margin-top:2%;
+	font-size: medium;
+}
+.ios{
+	width:40%;
+	background:lightgray;
+	border:1px solid black;
+	padding:1%;
+	font-weight: bold;
+}
+.ios button{
+	border:1px solid black;
+	margin-top:2%;
+	font-size: medium;
+}
+.andr{
+	width:40%;
+	background:lightgray;
+	border:1px solid black;
+	padding:1%;
+	font-weight: bold;
+}
+.andr button{
+	border:1px solid black;
+	margin-top:2%;
+	font-size: medium;
+}
+.bottomcontent{
 	display:flex;
-	justify-content: space-evenly;
 	padding:2%;
+	margin:2%;
 }
-.serv{
-	width:30%;
+.bottomcontent .bottomtext{
+	width:50%;
 	font-weight: bold;
+
 }
-.prod{
-	width:30%;
-	font-weight: bold;
+.bottomcontent img{
+	width:50%;
 }
-.vis{
-	width:30%;
-	font-weight: bold;
+.bottomcontent ul{
+	margin:5%;
 }
-h2{
-	padding-top:2%;
-}
-p{
-	font-weight: bold;
+ul li {
+	margin-bottom:1%;
 }
 footer{
 	text-align: center;
 	font-weight: bold;
+	margin:2%;
 }
