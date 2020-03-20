@@ -62,3 +62,73 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+nav{
+	margin: 20px;
+	padding: 20px;
+	word-spacing: 50px;
+	display: flex;
+	justify-content: space-evenly;
+  }
+  
+  a{
+	text-decoration: none;
+	color: darkgrey;
+  }
+
+.nav-links{
+	margin: 20px;
+}
+
+.services-header-img{
+	margin-left: 215px;
+	margin-right: 215px;
+}
+
+header{
+	margin: 50px 215px; 
+	font-size: 20px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+.blocks{
+	border: 1px solid black;
+	height: 250px;
+	width: 425px;
+	margin: 25px;
+	padding: 15px;
+	font-size: 20px;
+}
+
+content{
+	margin: 25px 190px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section{
+	margin: 25px 190px;
+	font-size: 20px;
+	display: flex;
+}
+
+section .text{
+	margin: 25px;
+	width: 400px;
+}
+
+.services-info-img{
+	margin: 25px;
+}
+
+ul{
+	list-style-type: square;
+	margin-left: 20px;
+}
+
+footer{
+	text-align: center;
+}
