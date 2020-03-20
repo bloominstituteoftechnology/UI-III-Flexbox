@@ -154,6 +154,8 @@ h5 {
 nav {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 auto;
+  width: 980px;
 }
 
 a {
@@ -167,15 +169,14 @@ a {
   margin-bottom: 30px;
 }
 
-.flex-Box1 {
+.flex-Box-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   border-style: none;
-  width: 1280px;
-  margin: auto;
+  width: 980px;
+  margin: 0 auto;
   border-style: none;
-  width: 1280px;
   margin-bottom: 20px;
 }
 
@@ -187,63 +188,38 @@ a {
   margin-bottom: 30px;
 }
 
-.flex-Box2 {
+.flex-Box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-  border-style: solid none none none;
+  width: 980px;
+  border-style: solid none solid none;
   border-color: black;
+  margin: 0 auto;
   border-width: 1px;
-  width: 1280px;
-  margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
+.flex-Box1,
+.flex-Box2,
 .flex-Box3 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 1280px;
-  margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.flex-Box4 {
-  display: flex;
-  flex-direction: row;
-  border-style: none none solid none;
-  border-color: black;
-  border-width: 1px;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 1280px;
-  margin: auto;
+  justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .digitalDesign,
 .ux,
-.digitalMarket {
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  width: 350px;
-  margin: auto;
-}
-
+.digitalMarket,
 .webDev,
 .ios,
 .android {
   border-style: solid;
   border-color: black;
   border-width: 1px;
+  background-color: rgb(172, 172, 172);
   width: 350px;
-  margin-top: 15px;
   margin: auto;
 }
 
@@ -271,7 +247,7 @@ button {
 
 .lastFlex {
   border-style: none;
-  width: 1280px;
+  width: 980px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -305,4 +281,5 @@ li {
 .copyright {
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
