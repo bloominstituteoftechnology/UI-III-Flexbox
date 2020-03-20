@@ -62,3 +62,29 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+.head{
+	display:flex;
+	justify-content: space-evenly;
+}
+.navigation{
+	width:80%;
+	display:flex;
+	justify-content:space-evenly;
+	align-items: center;
+}
+nav a{
+	color:black;
+}
+.top{
+	border:1px solid black;
+	display:flex;
+	flex-direction: column;
+	padding:2%;
+}
+.services-header-img{
+	width:80%;
+	margin:0 auto;
+}
+.serv p{
+	width:80%;
+}
