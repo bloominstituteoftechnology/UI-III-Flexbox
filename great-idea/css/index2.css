@@ -151,86 +151,135 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
-
-
-nav{
+nav {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 auto;
+  width: 980px;
 }
 
-a{
+a {
   color: grey;
   text-decoration: none;
   font-size: 15px;
 }
-.top{
+
+.services-header-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.flex-Box-header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-
-}
-
-.title{
-  font-size: 80px;
-  text-align: center;
-}
-
-#start{
-  font-size: 20px;
-  margin-left: 90px;
-}
-
-.circle{
-  padding-left: 50px;
-}
-
-.middle{
-  border-style: solid none solid;
-  border-color: black;
-  border-width: 2px;
-  width: 1280px;
-  margin: auto;
-}
-
-h3{
-  font-size: 20px;
-}
-
-.midTop{
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 25px;
-  padding-top: 25px;
-}
-.middle-image{
-  display: flex;
-  justify-content: center;
-}
-
-.fucss{
-  display: flex;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding-left: 25px;
-}
-
-
-.contact{
   border-style: none;
-  width: 1280px;
+  width: 980px;
+  margin: 0 auto;
+  border-style: none;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.servcies {
+  margin-bottom: 30px;
+}
+
+.flex-Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 980px;
+  border-style: solid none solid none;
+  border-color: black;
+  margin: 0 auto;
+  border-width: 1px;
+}
+
+.flex-Box1,
+.flex-Box2,
+.flex-Box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.digitalDesign,
+.ux,
+.digitalMarket,
+.webDev,
+.ios,
+.android {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: rgb(172, 172, 172);
+  width: 350px;
   margin: auto;
 }
 
-#contact-Title{
-  padding-top: 25px;
+h3 {
+  font-size: 20px;
 }
 
-adress{
-  line-height: 30px;
+.flex-title {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-#copyright{
+.flex-para {
+  margin-left: 20px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 5px 15px 5px 15px;
+  border-style: ridge;
+  border-width: 3px;
+}
+
+.lastFlex {
+  border-style: none;
+  width: 980px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.factsTitle {
+  margin-top: 30px;
+}
+
+.facts {
+  padding-bottom: 20px;
+  border-style: none;
+  width: 400px;
+}
+
+li {
+  list-style-type: square;
+  margin: 10px;
+}
+
+.flexing {
+  display: flex;
+  flex-direction: column;
+}
+
+.annoyingIMG {
+  margin-top: 20px;
+}
+
+.copyright {
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
-
