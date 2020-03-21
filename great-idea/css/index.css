@@ -64,3 +64,224 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.nav-bar {
+	/* border: 2px solid red; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: radial-gradient(circle, #00d4ff, #090979);
+	height: 45px;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+}
+
+nav {
+	text-align: center;
+	width: 100%;
+}
+
+nav a {
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	margin-right: 5%;
+	padding: 20px;
+	color: #000000;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+
+.header {
+	/* border: 2px solid blue; */
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 70%;
+}
+
+h1 {
+	/* border: 2px solid red; */
+	font-size: 72px;
+	text-align: center;
+}
+
+.h1-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 700px;
+	height: 500px;
+}
+
+#header-image {
+	/* border: 2px solid red; */
+	display: flex;
+	margin: auto;
+	vertical-align: bottom;
+	padding: 4%;
+}
+
+button {
+	border: 2px solid black;
+	color: black;
+	width: 150px;
+	height: 35px;
+	background-color: white;
+}
+
+button:hover {
+	cursor: pointer;
+	background: black;
+	color: white;
+}
+
+hr {
+	border-top: 5px solid lightgray;
+	border-radius: 5px;
+	margin: auto;
+	padding: 0;
+	width: 66%;
+}
+
+h2 {
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 16px;
+	margin: auto;
+}
+#content {
+	/* border: 2px solid blue; */
+	width: 70%;
+	margin: auto;
+	padding: 40px;
+}
+
+.top-content {
+	/* border: 2px solid red; */
+	display: flex;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+.top-content article {
+	width: 49%;
+}
+
+.middle-img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.bottom-content {
+	/* border: 2px solid red; */
+	display: flex;
+	width: 100%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.bottom-content article {
+	width: 33%;
+}
+
+.contact {
+	/*border: 2px solid blue;*/
+	width: 66%;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* Services.css starts here */
+
+.service-header {
+	/* border: 2px solid red; */
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 60%;
+	margin-right: 10%;
+	margin-left: 19%;
+	padding-bottom: 30px;
+}
+
+.services-header-img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+#services-content {
+	/*border: 2px solid red;*/
+    border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	height: 930px;
+	width: 60%;
+	margin-left: 19%;
+	margin-right: 20%;
+	padding-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.services-box {
+    width: 47%;
+    height: 250px;
+    background: #D8D8D8;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.services-button{
+	border-radius: 8px;
+}
+
+.facts {
+	display: flex;
+	flex-direction: row;
+	/*border: 2px solid red; */
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 19%;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.service-list {
+	width: 57%;
+	/*border: 2px solid blue; */
+}
+
+ul {
+	text-indent: 20px;
+	list-style-type: square;
+}
+
+.services-info-img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 2px solid blue; */
+}
