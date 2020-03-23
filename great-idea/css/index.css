@@ -3,64 +3,257 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
+* 
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+nav {
+	position: relative;
+	right: 30px;
+	padding:20px;
+  }
+  nav ul {
+	margin: 0;
+	padding:0;
+	list-style: none;
+  }
+  footer{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 300px;
+  }
+  
+  nav li {
+	 display:inline-block;
+	 margin-left:70px; 
+  }
+  
+  
+  nav a {
+	color: grey;
+	text-decoration: none;
+	text-transform: uppercase;
+  
+  }
+  
+  .box1{
+	background-color: lightgrey;
+	width: 300px;
+	padding: 30px;
+	margin: 10px;
+	border:1px solid black;
+	
+  }
+  .box11{
+	background-color: lightgrey;
+	width: 300px;
+	padding: 30px;
+	margin: 10px;
+	border:1px solid black;
+  }
+  
+  .box2{
+	background-color: lightgrey;
+	width: 300px;
+	padding: 30px;
+	margin: 10px;
+	border:1px solid black;
+  
+  }
+  .box22{
+	background-color: lightgrey;
+	width: 300px;
+	padding: 30px;
+	margin: 10px;
+	border:1px solid black;
+  }
+  .box3{
+	background-color: lightgrey;
+	width: 300px;
+	padding: 30px;
+	margin: 10px;
+	border:1px solid black;
+  }
+  .box33{
+	background-color: lightgrey;
+	width: 300px;
+	padding: 30px;
+	margin: 10px;
+	border:1px solid black;
+  }
+  .flex1  {
+	display: flex;
+	flex-direction: row-reverse;
+  justify-content: space-around;
+  width:1200px;
+	  margin: 0 auto;
+  height:30% ;
+  }
+  .logo{
+	position: relative;
+	bottom:8px;
+  }
+  
+  .services-header-img{
+	display:flex;
+	justify-content: center;
+	width:1000px;
+	margin: 0 auto;
+	height:30%;
+	
+  }
+  
+  .flex2 {
+	  position: relative;
+	  right:50px;
+	display:flex;
+	flex-direction: column;
+	width:1000px;
+	  margin: 0 auto;
+	padding-left: 5%;
+	height: 30%;
+  }
+  
+  .para1{
+	position: relative;
+	bottom:20px ;
+	padding-top:10px;
+  }
+  .flex3{
+	display: flex;
+	flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: space-between;
+	  width:1000px;
+	  margin: 0 auto;
+	  border-top:1px solid black ;
+	  border-bottom:1px solid black ;
+	
+	
+  }
+  
+  .flex4{
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-start ;
+	width:500px;
+	  margin: 0 auto;
+	position: relative;
+	right:240px;
+  }
+  li{
+	  padding: 10px;
+	  position: relative;
+	  left:130px;
+  }
+  
+  .info-img{
+	position: relative;
+	left:1000px;
+	bottom:330px ;
+  }
+
+  .copy{
+	  position: relative;
+	  top: 100px;
+	  text-align: center;
+  }
+  
+  .newnav{
+	display:flex ;
+	flex-direction:row-reverse;
+	justify-content: space-evenly;
+	width: 1700px;
+	margin:0 auto ;
+  
+  }
+  
+  .inno{
+	display:flex ;
+	flex-direction:column;
+	width: 5%;
+	padding:10px;
+  }
+  .size{
+	font-size: 500%;
+	text-align: center;
+  
+  }
+  .inno2{
+	display:flex ;
+	justify-content:space-evenly ;
+	padding-bottom: 80px;
+  }
+  .start{
+	width:200px;
+	font-size: 100%;
+	position: relative;
+	bottom: 50px;
+	left:30px;
+  
+  }
+  .feat{
+	width: 500px;
+	padding: 30px;
+	margin: 10px;
+  }
+  .About{
+	width: 500px;
+	padding: 30px;
+	margin: 10px;
+  }
+  .cont1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	border-top:1px solid black ;
+	width: 1000px;
+	margin:0 auto ;
+  }
+  
+  .midpic{
+	position:relative;
+	left:450px;
+	width: 1000px;
+	margin:0 auto ;
+  }
+  .cont2{
+	display:flex ;
+	flex-direction: row;
+	justify-content: space-evenly;
+	border-bottom: 1px solid black;
+	width: 1000px;
+	margin:0 auto ;
+  }
+  .ser{
+	width: 300px;
+	padding: 30px;
+	margin: 10px;
+  }
+  .pro{
+	width: 300px;
+	padding: 30px;
+	margin: 10px;
+  }
+  .vis{
+	width: 300px;
+	padding: 30px;
+	margin: 10px;
+  }
+  .cont3{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 1000px;
+	margin:0 auto ;
+	position: relative;
+	right:270px;
+  }
