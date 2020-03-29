@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	
 	line-height: 1;
 }
 ol, ul {
@@ -64,3 +65,162 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav{
+	margin-right:80px;
+   display: inline-block;
+   font-size: 16px;
+   width: 100%;
+   padding-top:30px;
+   display:flex;
+   justify-content:center;
+   
+ }
+
+  .items{
+	 width:350px;
+	 border: 1px solid black;
+	 background-color:gainsboro;
+	
+ }
+ 
+ .flex-container{
+	 display:flex;
+  flex-flow:row wrap;
+  width: 800px;
+  justify-content: space-evenly;
+   margin: 0 auto;
+ }
+
+ .items-p{
+   padding:20px;
+   
+ }
+
+#Head-pic{
+	display:flex;
+	justify-content:center;
+}
+ 
+#Ser-pic{
+	display:flex;
+	justify-content:flex-end;
+}
+
+
+.services{
+	margin: 0 auto;
+	width:690px;
+	padding-bottom:20px;
+	display:flex;
+	
+}
+
+
+
+
+
+
+
+
+ nav a{
+   color:gray;
+	 line-height: 30px;
+   padding-right:40px;
+   padding-left:40px;
+ }
+ 
+ img{
+   
+   padding-left:0px;
+ }
+ 
+ 
+ #on{
+   
+   padding-left:350px;
+   padding-bottom:30px;
+   width:30px;
+   font-size:60px;
+   margin-top:0px;
+   display:inline-block;
+   
+ }
+ 
+ 
+ .logo1{
+   margin-right:0px;
+   padding-left:300px;
+   display:inline-block;
+   
+ }
+ 
+ .middle-img{
+   padding-left:350px;
+   display:block;
+   
+   
+   
+   
+ }
+ .top-section{
+ 
+ }
+ 
+ .Features{
+   display:inline-block;
+   margin-left: 1%;
+   width: 600px;
+   min-width: 150px;
+   padding-left:335px;
+ }
+ 
+ .About{
+   display:inline-block;
+   margin-left: 1%;
+   width: 600px;
+   min-width: 150px;
+   padding-left:250px;
+ }
+ 
+  
+   
+   
+	 
+ .Services{
+   display:inline-block;
+   box-sizing: border-box;
+   width:750px;
+   padding-left:350px;
+ 
+  }
+ 
+  .Product{
+   display:inline-block;
+   box-sizing: border-box;
+   width:450px;
+ 
+ 
+  }
+ 
+  .Vision{
+   display:inline-block;
+   box-sizing: border-box;
+   width:350px;
+   
+  }
+ 
+ 
+ h6{
+   font-size:20px; 
+   border:2px solid black;
+   width:110px;
+   height:30px;
+ }
+ 
+ hr{
+   color:black;
+ }
+ 
+ footer{
+   text-align:center;
+ }
