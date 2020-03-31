@@ -65,22 +65,137 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*  Interface 2 css */
+.navbar{
+	padding-left:30%;
+	padding-bottom:80px;
+	background-color:khaki ;
+}
+
 nav{
 	margin-right:80px;
-   display: inline-block;
+	font-size: 16px;
+	width: 100%;
+	display:inline-block;
+}
+
+nav a{
+	color:gray;
+	line-height: 30px;
+	padding-right:40px;
+	padding-left:40px;
+}
+
+.logo{
+	display:inline-block;
+	margin-left:
+}
+
+.centertop{
+	padding-left:13%;
+}
+.inno{
+	display:inline-block;
+	text-align:center;
+	font-size:60px;
+	padding-left:30%;
+	padding-bottom:5%;
+	
+}
+
+button{
+	margin:10px;
+}
+
+.img{
+	display:inline-block;
+	padding-left:65px;
+}
+
+.middle-img_v1{
+	display:block;
+}
+
+.Bottom-content{
+padding-left:30%;
+padding-top:20px;
+}
+
+.features{
+	display:inline-block;
+	width:450px;
+	margin-left:20px;
+	padding-bottom:40px;
+
+}
+
+.about{
+	display:inline-block;
+	width:450px;
+	padding-bottom: 40px;
+
+}
+
+.services_v1{
+display:inline-block;
+width: 300px;
+padding-left:20px;
+padding-top:20px;
+}
+
+.product{
+display:inline-block;
+width: 300px;
+padding-left:20px;
+padding-top:20px;
+}
+
+.vision{
+display:inline-block;
+width: 300px;
+padding-left:20px;
+padding-top:20px;
+padding-bottom:20px;
+
+}
+
+address{
+padding-top:22px;
+padding-left:31%;
+}
+
+footer{
+	text-align:center;
+}
+
+/* Interface 2 css*/
+
+
+/* Interface 3 flexbox*/
+nav{
+	margin-right:80px;
    font-size: 16px;
    width: 100%;
    padding-top:30px;
+   padding-bottom:30px;
    display:flex;
    justify-content:center;
-   
- }
+   background-color:khaki;
+   }
+
+   nav a{
+    color:gray;
+    line-height: 30px;
+    padding-right:40px;
+    padding-left:40px;
+  }
+  
 
   .items{
 	 width:350px;
 	 border: 1px solid black;
 	 background-color:gainsboro;
-	
+	margin-bottom:30px;
  }
  
  .flex-container{
@@ -98,7 +213,8 @@ nav{
 
 #Head-pic{
 	display:flex;
-	justify-content:center;
+  justify-content:center;
+  padding-top:30px;
 }
  
 #Ser-pic{
@@ -109,118 +225,23 @@ nav{
 
 .services{
 	margin: 0 auto;
-	width:690px;
-	padding-bottom:20px;
-	display:flex;
-	
+  width:690px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.facts{
+  width:500px;
+  padding:20px;
+  
 }
 
 
-
-
-
-
-
-
- nav a{
-   color:gray;
-	 line-height: 30px;
-   padding-right:40px;
-   padding-left:40px;
- }
- 
- img{
-   
-   padding-left:0px;
- }
- 
- 
- #on{
-   
-   padding-left:350px;
-   padding-bottom:30px;
-   width:30px;
-   font-size:60px;
-   margin-top:0px;
-   display:inline-block;
-   
- }
- 
- 
- .logo1{
-   margin-right:0px;
-   padding-left:300px;
-   display:inline-block;
-   
- }
- 
- .middle-img{
-   padding-left:350px;
-   display:block;
-   
-   
-   
-   
- }
- .top-section{
- 
- }
- 
- .Features{
-   display:inline-block;
-   margin-left: 1%;
-   width: 600px;
-   min-width: 150px;
-   padding-left:335px;
- }
- 
- .About{
-   display:inline-block;
-   margin-left: 1%;
-   width: 600px;
-   min-width: 150px;
-   padding-left:250px;
- }
- 
-  
-   
-   
-	 
- .Services{
-   display:inline-block;
-   box-sizing: border-box;
-   width:750px;
-   padding-left:350px;
- 
-  }
- 
-  .Product{
-   display:inline-block;
-   box-sizing: border-box;
-   width:450px;
- 
- 
-  }
- 
-  .Vision{
-   display:inline-block;
-   box-sizing: border-box;
-   width:350px;
-   
-  }
- 
- 
- h6{
-   font-size:20px; 
-   border:2px solid black;
-   width:110px;
-   height:30px;
- }
- 
- hr{
-   color:black;
- }
- 
- footer{
-   text-align:center;
- }
+.facts_container{
+	display:flex;
+	justify-content:center;
+	padding:30px;
+	margin:20px;
+	
+}
+ /* Interface 3 flexbox*/
