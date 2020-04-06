@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	
 	line-height: 1;
 }
 ol, ul {
@@ -64,3 +65,205 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*  Interface 2 css */
+.navbar{
+	
+	padding-bottom:20px;
+	background-color:khaki ;
+}
+
+nav{
+	margin-right:80px;
+	font-size: 16px;
+	width: 100%;
+	display:inline-block;
+}
+
+nav a{
+	color:gray;
+	line-height: 30px;
+	padding-right:40px;
+	padding-left:40px;
+}
+
+.logo{
+	display:inline-block;
+	margin-left:
+}
+
+.centertop{
+	padding-top:70px;
+	padding-left:9%;
+}
+.inno{
+	display:inline-block;
+	text-align:center;
+	font-size:60px;
+	padding-left:30%;
+	padding-bottom:5%;
+	
+}
+
+button{
+	margin:10px;
+}
+
+.img{
+	display:inline-block;
+	padding-left:65px;
+}
+
+.middle-img_v1{
+	display:block;
+}
+
+.Bottom-content{
+padding-left:30%;
+padding-top:20px;
+}
+
+.features{
+	display:inline-block;
+	width:450px;
+	margin-left:20px;
+	padding-bottom:40px;
+
+}
+
+.about{
+	display:inline-block;
+	width:450px;
+	padding-bottom: 40px;
+
+}
+
+.services_v1{
+display:inline-block;
+width: 300px;
+padding-left:20px;
+padding-top:20px;
+}
+
+.product{
+display:inline-block;
+width: 300px;
+padding-left:20px;
+padding-top:20px;
+}
+
+.vision{
+display:inline-block;
+width: 300px;
+padding-left:20px;
+padding-top:20px;
+padding-bottom:20px;
+
+}
+
+address{
+padding-top:22px;
+padding-left:31%;
+}
+
+footer{
+	text-align:center;
+}
+
+/* Interface 2 css*/
+
+
+/* Interface 3 flexbox*/
+nav{
+	margin-right:80px;
+   font-size: 16px;
+   width: 100%;
+   padding-top:30px;
+   padding-bottom:30px;
+   display:flex;
+   justify-content:center;
+   background-color:khaki;
+   }
+
+   nav a{
+    color:gray;
+    line-height: 30px;
+    padding-right:40px;
+    padding-left:40px;
+  }
+  
+
+  .items{
+	 width:350px;
+	 border: 1px solid black;
+	 background-color:gainsboro;
+	margin-bottom:30px;
+ }
+ 
+ .flex-container{
+	 display:flex;
+  flex-flow:row wrap;
+  width: 800px;
+  justify-content: space-evenly;
+   margin: 0 auto;
+   padding-top:35px;
+ }
+
+ .items-p{
+   padding:20px;
+   
+ }
+
+#Head-pic{
+	display:flex;
+  justify-content:center;
+  padding-top:30px;
+}
+ 
+#Ser-pic{
+	display:flex;
+	justify-content:flex-end;
+}
+
+
+.services{
+	margin: 0 auto;
+  width:690px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.facts{
+  width:500px;
+  padding:20px;
+  
+}
+
+
+.facts_container{
+	display:flex;
+	justify-content:center;
+	padding:30px;
+	margin:20px;
+	
+}
+
+
+li{
+	padding-top:10px;
+	display: list-item;
+
+}
+
+button{
+	background-color:whitesmoke;
+	color:black;
+	padding: 10px 20px;
+	text-align:center;
+	border-radius:20px;
+	cursor: pointer;
+}
+
+footer{
+	padding-top:35px;
+}
+ /* Interface 3 flexbox*/
