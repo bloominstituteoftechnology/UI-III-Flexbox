@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /*  Interface 2 css */
 .navbar{
-	padding-left:30%;
-	padding-bottom:80px;
+	
+	padding-bottom:20px;
 	background-color:khaki ;
 }
 
@@ -92,7 +92,8 @@ nav a{
 }
 
 .centertop{
-	padding-left:13%;
+	padding-top:70px;
+	padding-left:9%;
 }
 .inno{
 	display:inline-block;
@@ -204,6 +205,7 @@ nav{
   width: 800px;
   justify-content: space-evenly;
    margin: 0 auto;
+   padding-top:35px;
  }
 
  .items-p{
@@ -243,5 +245,25 @@ nav{
 	padding:30px;
 	margin:20px;
 	
+}
+
+
+li{
+	padding-top:10px;
+	display: list-item;
+
+}
+
+button{
+	background-color:whitesmoke;
+	color:black;
+	padding: 10px 20px;
+	text-align:center;
+	border-radius:20px;
+	cursor: pointer;
+}
+
+footer{
+	padding-top:35px;
 }
  /* Interface 3 flexbox*/
