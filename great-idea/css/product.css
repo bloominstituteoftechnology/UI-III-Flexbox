@@ -54,13 +54,15 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	color: whitesmoke;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	color: whitesmoke;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
@@ -68,6 +70,8 @@ h1, h2, h3, h4, h5 {
 .container {
 	margin: 0 auto;
 	max-width: 960px;
+	background-image: url("https://s.cdpn.io/3/blurry-blue.jpg")
+	
 }
 
 /* Nav bar & Logo */
@@ -87,7 +91,7 @@ h1, h2, h3, h4, h5 {
 .buttons a {
 	justify-content: space-between;
 	text-decoration: none;
-	color: lightgray;
+	color: white;
 	/* border: 1px solid blue; */
 }
 
@@ -104,6 +108,7 @@ a:hover {
 	display: flex;
 	width: 25%;
 	justify-content: flex-end;
+	color: whitesmoke;
 	/* border: 1px solid blue; */
 }
 /* Nav bar & Logo */
@@ -174,7 +179,7 @@ span {
 	margin-top: 30px;
 	padding-top: 50px;
 	display: flex;
-	border-top: solid 1px black;
+	/* border-top: solid 1px black; */
 	align-items: center;
 }
 
@@ -223,13 +228,60 @@ span {
 	width: 33.5%;
 }
 
+.lower-content {
+    /* padding-top: 150px; */
+    display: flex;
+    width: 100%;
+    /* border: 1px red solid; */
+    /* height: 250px; */
+    margin-top: 165px;
+    justify-content: space-between;
+}
+
+.lower-content .services {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    /* border: 1px red solid; */
+    flex-direction: row;
+}
+
+.lower-content .product {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    /* border: 1px red solid;     */
+}
+
+.reviews {
+    display: flex;
+    /* border: 1px blue solid; */
+    justify-content: center;
+    position: relative;
+    left: 90px;
+}
+
+.p2-reviews {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    /* border: 1px blue solid; */
+    position: relative;
+    left: 240px;
+}
 
 .p2 {
 	display: flex;
 	margin-bottom: 50px;
 	padding-bottom: 50px;
-	border-bottom: solid 1px black;
+	/* border-bottom: solid 1px black; */
 }
+
+
 
 p {
 	justify-content: space-evenly;
