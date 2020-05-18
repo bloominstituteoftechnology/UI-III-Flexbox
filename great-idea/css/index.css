@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	/* list-style: none; */
 }
 blockquote, q {
 	quotes: none;
@@ -62,5 +62,184 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* Your code starts */
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+
+header {
+    display: flex;
+	flex-direction: column;
+	padding-bottom: 30px;    
+}
+
+.nav-holder {
+    background: white;
+    border-bottom: 1px solid black;
+    width: 54%;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.nav-container {
+    width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-self: flex-start;
+	align-items: center;
+}
+
+.nav-container a {
+	color: #F4F3F4;
+    font-size: 16px;
+    line-height: 2;
+	text-decoration: none;
+}
+
+.logo {
+	width: 20%;
+}
+
+.cta {
+  border-bottom: 1px solid black;  
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+button {
+    background: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 10px 70px;
+}
+
+.header-logo {
+    width: 100%
+}
+
+.top-section {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-overlay {
+    width: 50%;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    padding-right: 0px;
+}
+
+.middle-img {
+    margin: 30px 0;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom-overlay {
+    border-bottom: 1px solid black;
+    width: 33%;
+    padding-bottom: 50px
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/* STRETCH vision.html section */
+
+.vision-container {
+    height: 500px;
+    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.vision-header {
+    padding: 100px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vision-logo {
+    border: 1px solid black;
+    height: 400px;
+    width: 100%
+}
+
+.tech-logo {
+    border: 1px solid black;
+    height: 300px;
+    margin: 20px 0;
+    width: 90%;
+}
+
+.future-img {
+    width: 100%
+}
+
+.border-bot {
+    border-bottom: 1px solid black;
+    margin-top: 100px;
+}
+
+.design {
+    margin: 80px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.design p {
+    text-align: center;
+}
+
+.design-img {
+    border: 1px solid black;
+    height: 400px;
+    margin-bottom: 50px;
+    width: 100%;
+
+}
