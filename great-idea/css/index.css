@@ -63,4 +63,252 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.index-container {
+	margin: 20px 150px;
+	/* border: solid black 2px; */
+	width: 876px;
+	
+	line-height: 1.25;
+}
+
+.services-container{
+	margin: 20px 150px;
+	/* border: solid black 2px; */
+	width: 876px;
+	line-height: 1.25;
+	
+}
+
+.services-container h2{
+	margin: inherit;
+}
+
+}
+p {
+	margin: 20px 0;
+	line-height: 1.25;
+}
+
+h1, h2, h3{
+	margin: 20px 0;
+	
+}
+
+.services-header h1{
+	font-size: 28px;
+	text-align: left;
+	margin-top: 40px;
+}
+
+.services-header{
+	border-bottom: 2px solid black;
+	padding-bottom: 40px;
+}
+
+header nav a{
+	margin-right: 50px;
+	font-weight: bold;
+	color: grey;
+	text-decoration: none;
+	
+}
+.nav-links{
+	/* width: 60%; */
+	/* vertical-align: middle; */
+	
+
+}
+
+.nav-img{
+	/* width: 30%; */
+	/* vertical-align: middle; */
+}
+/* .nav-content-container section{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between; */
+
+.nav-bar{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 50px;
+}	
+	
+
+
+header h1{
+	font-size: 84px;
+	text-align: center;
+	
+	
+}
+
+/* .header-title{
+	
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	padding-left: 5%
+	
+	
+}
+
+.header-img{
+	
+	display: inline-block;
+	width: 30%;
+	padding-left:20%;
+} */
+
+/* .header-content-container div{
+	display: inline-block;
+		
+
+}
+.header-content-container{
+	width: ;
+	vertical-align: top;
+	margin-bottom: 20px;
+	padding-bottom: 100px;
+	border-bottom: solid black 2px;
+
+} */
+
+.header-content{
+	display: flex;
+	justify-content: space-evenly;
+	/* border: 1px solid red; */
+}
+
+.header-title{
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid red; */
+	align-items: center;
+	
+	
+}
+
+.get-started{
+	background: white;
+	border: solid black 2px;
+	padding: 10px 55px;
+	font-size: 16px;
+	width: 200px;
+		
+}
+
+
+
+
+/* .top-content-container section{
+	display: inline-block;
+	width:49%;
+	vertical-align: top;
+	margin-bottom: 30px;
+	
+}
+
+.top-content{
+	width: 1%;
+	padding-right: 1%;
+}
+
+.top-content-2{
+	padding-left: 1%;
+	
+} */
+
+.top-content-container{
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid black;
+}
+
+.flex-services{
+	background: lightgrey;
+	width: 420px;
+	height: 250px;
+	margin: 20px 0px;
+	border: 1px solid black;
+	padding: 20px;
+	display:flex;
+	align-items: center;
+			
+}
+
+.learn-more{
+	background:white;
+	border: 1px solid black;
+	padding:10px 40px;
+	margin-top: 20px;
+	border-radius: 8px;
+}
+.services-top-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	padding: 30px 0px;
+	margin: 30px 0px;
+}
+
+/* .bottom-content-container section{
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	margin-top: 30px;
+	
+	
+}
+
+.bottom-content-container{
+	border-bottom: solid black 2px;
+	padding-bottom: 100px;
+	margin-bottom: 40px;
+} */
+
+.bottom-content-container{
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border-bottom: 2px solid black;
+}
+
+
+.bottom-content{
+	padding-right: 5px;
+}
+
+.services-bottom-content{
+	display: flex;
+	justify-content: space-between;
+
+	
+}
+
+.bottom-1{
+	padding-right: 20px;
+}
+
+.bottom-1 h2{
+	margin-bottom: 20px;
+}
+
+.services-list{
+	list-style-type: square;
+	margin: 20px 0px 0px 20px;
+	
+
+}
+
+footer p{
+	margin-top: 40px;
+	text-align: center;
+}
