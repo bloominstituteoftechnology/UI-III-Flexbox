@@ -63,136 +63,105 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* My code starts here */
 
-.flexPositionFix
+.h1Services
 {
-	/* z-index: 1;
-	position: fixed; */
+    font-size: 150%;
+    margin-top:20px;
 }
 
 nav
 {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	margin:20px 0px;
 	height: 40px;
-	/* background-color: darkgray; */
+	
 	z-index: 1;
 }
-
 
 nav a
 {
 	text-decoration: none;
-	color: lightgrey;
-	margin: 25px;
+	color: gray;
+	/* margin: 25px; */
 }
 
-nav img
+.pageColumn
 {
-	margin-left: 50px;
+    /* display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around; */
+    /* width:1000px; */
+    /* align-items: center; */
+    margin: 0px 100px;
 }
 
-nav a:first-child
+.services-header-img
 {
-	margin-left: 0px;
+    width: 100%;
 }
 
-nav a:hover
+.serviceRow
 {
-	color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
 }
 
-body
+.service
 {
-	
-	margin-left: 50px;
+    display: block;
+    /* flex-flow: column nowrap; */
+    width: 425px;
+    height: 225px;
+    border: 1px solid black;
+    background-color: #F4F3F4;
+    padding: 30px;
 }
 
-.innovOD
+.service button
 {
-	display: flex;
-	flex-flow: column nowrap;
-	align-items: center;
+    margin: 10px 0px;
+    background-color: #FFFFFF;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
-.massiveH1
+.footerRow
 {
-	font-size: 450%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
 }
 
-
-.attnGrabber
+.serviceFactsCol
 {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	margin-left: 100px;
-	margin-top: 100px;
-	margin-bottom: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    width: 400px;
 }
 
-.attnGrabber.innovOD
+.serviceFactsUL
 {
-	padding-bottom: 50px;
+    list-style-type: square;
+    margin: 5px 20px;
 }
 
-
-.attnGrabber div img
+.serviceFactsUL li
 {
-	margin-left: 200px;
+    margin: 5px 0px;
 }
 
-.getStartedBtn
+.copyInfo
 {
-	background-color: white;
-	font-size: 16px;
-	padding: 8px 30px;
-	border: 1px solid black;
-	margin-left: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top:20px;
 }
-
-.sideBySideTextSections
-{
-	padding: 0px 25px;
-}
-
-.featuresAbout
-{
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	margin-bottom: 50px;
-	margin-top: 50px;
-}
-
-.bottomContent
-{
-	display: flex;
-	flex-flow: column nowrap;
-	align-items: center;
-}
-
-.srvProVis
-{
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	margin-top:50px;
-	margin-bottom: 20px;
-}
-
-.sbsTS2
-{
-	padding: 0px 25px;
-}
-
-.copyrightInfo
-{
-	margin-top: 30px;
-	text-align: center;
-}
-
 
