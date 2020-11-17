@@ -65,20 +65,17 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 90%;
-	margin: 2rem auto;
+	width: 1024px;
+	margin: 40px auto;
 }
 
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 90%;
+	width: 1024px;
 	height: 100px;
-	padding: 2rem 4.5rem;
+	padding: 40px 72px;
 	position: fixed;
 	top: 0;
 	z-index: 2;
@@ -91,7 +88,7 @@ header nav {
 }
 
 header nav a {
-  margin: 0 3.75rem 0 0;
+  margin: 0 60px 0 0;
 	text-decoration: none;
 	font-size: .95rem;
 	font-weight: bold;
@@ -102,40 +99,44 @@ header nav a:hover {
 	text-decoration: underline;
 }
 
-
-section {
- margin: 3.125rem auto;
- width: 85%;
- line-height: 1.5;
+header .logo {
+	margin-right: 0;
 }
 
-.middle-image-wrapper {
-	width: 85%;
+header, nav, .logo {
+	height: 40px;
+}
+
+section {
+ margin: 50px auto;
+ width: 876px;
+ line-height: 1.5;
 }
 
 .banner {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	padding: 4rem 0;
+	height: 450px;
+	margin-top: 120px;
 	border-bottom: 1px solid black;
-	
 }
 
-.banner-column {
-	flex: 0 0 50%;
+.banner .banner-column {
+	width: 50%;
 }
 
 .banner #headline {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 75px 0;
 	text-align: center;
 	line-height: 1;
 }
 
 .banner #headline h1 {
-	font-size: 4rem;	
+	font-size: 4rem;
 }
 
 .banner #headline .button {
@@ -145,18 +146,12 @@ section {
 	cursor: pointer;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .introduction {
 	display: flex;
 }
 
 .introduction .intro-column {
-	flex: 0 0 50%;
-	padding: 1rem 1rem 1rem 0;
+	width: 50%;
 }
 
 .middle-image-wrapper {
@@ -165,16 +160,13 @@ img {
 
 .product-and-services {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 0 0 2.5rem 0;
+	padding: 0 0 40px 0;
 	border-bottom: 1px solid black;
 	
 }
 
 .product-and-services .p-and-s-column {
-	flex: 0 0 33%;
-	padding: 1rem 1rem 1rem 0;
+	width: 33%;
 }
 
 .contact-info {
@@ -191,18 +183,21 @@ img {
 }
 
 .footer {
-	margin-top: 4rem;
-	padding-bottom: 9rem;
+	padding-bottom: 150px;
 	bottom: 0;
 	text-align: center;
 	font-size: .85rem;
 }
 
 /* Services Page */
+.svc-section {
+	/* width: 1024px; */
+	/* margin: 0 auto; */
+}
+
 .services-intro {
 	display: flex;
 	flex-direction: column;
-	padding-top: 4rem;
 }
 
 .services-list {
@@ -239,6 +234,7 @@ img {
 }
 
 .about-services-text ul {
+	width: 420px;
 	list-style-type: disc;
 	margin: 1.15rem;
 }
@@ -249,76 +245,3 @@ img {
 }
 
 
-/* Responsive Design */
-/* Medium Size Screens (Tablets) */
-@media only screen and (max-width: 991px) {
-	section {
-		margin: 2rem auto;
-	}
-
-	header {
-		justify-content: center;
-	}
-
-	header nav a {
-		margin: 0 2rem 0 0;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	header {
-			flex-direction: column-reverse;
-			padding: 0;
-	}
-
-	section {
-		margin: 1.5rem auto;
-	}
-	.banner {
-		flex-direction: column-reverse;
-		padding: 2rem 0;
-		padding-top: 4rem;
-	}
-
-	.banner #hero-image-wrapper {
-		width: 75%;
-		margin-bottom: 2rem;
-	}
-
-	.banner #headline h1 {
-		font-size: 3rem;
-	}
-	.services-list {
-		flex-direction: column;
-	}
-
-	.product-and-services .p-and-s-column {
-		flex: 0 0 48%;
-	}
-
-	.about-services {
-		flex-direction: column-reverse;
-		align-items: center;
-	}
-}
-
-/* Small Screens (Mobile Phones) */
-@media only screen and (max-width: 568px) {
-	header nav a {
-		margin: 0 0.5rem 0 0;
-		font-size: .75rem;
-	}
-
-	section {
-		margin: 1rem auto;
-	}	
-
-	.introduction, .product-and-services {
-		flex-direction: column;
-	}
-
-	.footer {
-		margin-top: 2rem;
-		padding-bottom: 3rem;
-	}
-}
