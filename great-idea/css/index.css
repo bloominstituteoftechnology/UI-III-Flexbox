@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,211 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.head {
+	display: flex;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.nav a{
+	color: grey;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+
+h1{
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.code1 {
+	display: flex;
+	justify-content: end; 
+	flex-direction: column;
+	align-items: center;
+}
+
+.container-1 {
+	display: flex;
+	
+	
+}
+
+.middle-img {
+	height: 150px;
+	width: 95%;
+	margin-top: 15px;
+	margin-left: 50px;
+	margin-bottom: 15px;
+}
+
+
+.container-2 {
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+}
+
+.container-3 {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	margin-right: 50px;
+}
+
+.container-3 div{
+	display: flex;
+	justify-content: center;
+	height: 250px;
+	flex-direction: column;
+	background-color:lightgrey;
+}
+
+.container-4 {
+	display: flex;
+	justify-content: center;
+}
+
+.container-4 div {
+	margin-left: 50px;
+
+}
+
+.services1 {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+li {
+	padding: 10px;
+}
+button {
+	margin-top: 15px;
+	width: 200px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+button p:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+
+
+.copyright {
+	display: flex;
+	justify-content: center;
+}
+
+.services-info-img {
+	margin-right: 50px;
+}
+
+@media (max-width: 880px) {
+	
+	.nav {
+		display: flex;
+		position: relative;
+		margin-top: 80px;
+
+	}
+
+	.nav a:hover {
+		color: blue;
+	}
+
+
+	.logo  {
+		position: absolute;
+		top: -70px;
+	}
+
+	.logo1 {
+		position: absolute;
+		top: -60px;
+		left: 300px;
+		
+	}
+
+
+	.code {
+		display: none;
+	}
+
+	.head {
+		display: flex;
+		justify-content: center;
+	}
+
+	.services-header-img{
+		display: flex;
+		justify-content: center;
+		margin-left: 0;
+	}
+
+	@media (max-width: 560px) {
+
+		.nav {
+			font-size: 25px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			position: relative;
+			margin-top: 80px;
+			border-bottom: 1px solid black;
+		}
+
+		.nav a {
+			width: 100%;
+			padding: 20px;
+			text-align: center;
+			border-top: 1px solid black;
+		}
+	
+		.nav a:hover {
+			color: blue;
+		}
+
+		.logo  {
+			width: 40%;
+			position: absolute;
+			top: -70px;
+		}
+
+
+		.container-1 {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.container-1 #about {
+			position: relative;
+			margin-left: 50px;
+			padding-top: 25px;
+		}
+
+		.container-2 {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.container-2 #product, #vision{
+			padding-top: 25px;
+		}
+		
+	}
