@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+   
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*Navbar*/
+body {
+    line-height: 35px;
+	width: 100%;
+    padding:10%;
+   
+    /*display: flex;
+    justify-content: flex-end;
+   width:100%;
+    margin-top: 120px;
+    margin-left: 120px;
+    padding-bottom: 150px;
+    padding-right: 300px;
+    background-color:red;*/
+}
+
+
+
+
+
+/*justify-content:space-around;*/
+
+.Navbar {
+        display: flex;
+      
+    /*display: flex;
+    position: fixed;
+    padding: 0px;
+    height: 24px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    background-color:orange;*/
+}
+
+nav a {
+    justify-content: flex-start;
+	width: 70px;
+	height: 20px;
+	background: white;
+	margin: 20px;
+	color: gray;
+	font-size: 16px margin-right:15px;
+    /*justify-content: flex-start;
+    width: 70px;
+    height: 20px;
+    background: white;
+    margin: 52px 15px 0 40px;
+    color: gray;
+    font-size: 16px;*/
+}
+
+
+.GreatIdeaLogo {
+    display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	/*margin-top: 25px;*/
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-bottom: 35px;
+	padding-bottom: 25px;
+    padding-right: 30px;
+    width:25%;
+   /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 120px;
+    margin-left:120 px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 150px;
+    padding-right: 30px;
+    background-color:red;*/
+
+}
+
+/*margin-right:25vg;*/
+
+.logo {align-items: flex-start;
+	width: 45%;
+	margin: 70vg;
+   /* align-items: flex-start;
+    width: 140%;
+    margin: 70%;*/
+}
+
+/*header nav a {
+	color: gray;
+	font-size: 16px margin-right:15px;
+}*/
+
+
+header .logo {
+    margin-top: 0px;
+
+}
+
+.underheader {
+    margin: 30px 0 0 30px;
+    width: 100%;
+}
+
+
+/*h2 {
+    padding: 10px 10px;
+    width:50px;
+    border:3px solid black;
+	flex-direction: column;
+	align-content: center;
+	margin-top: 40px;
+	flex-wrap: wrap;
+}*/
+.lowertextcontainer{
+    display:flex;
+    flex-wrap: wrap;
+    border-top:solid black;
+}
+.textbox{
+    
+    padding: 30px;
+    width:40%;
+    border:1px solid black;
+    background-color:
+    rgb(153, 152, 152);
+	flex-direction: column;
+	align-content: flex-start;
+	margin: 40px;
+	flex-wrap: wrap;
+}
+.FooterFactsPhoto{
+    display:flex;
+    flex-wrap: wrap;
+    border-top:solid black;
+    padding-top: 20vg;
+}
+.facts{
+    padding: 20px;
+    width:40%;
+    border:1px solid black;
+    background-color:
+    rgb(196, 193, 193);
+	flex-direction: column;
+	align-content: flex-start;
+	margin: 30px;
+	flex-wrap: wrap;
+}
+.services-info-img{
+    padding: 40px;
+    width:30vg;
+    padding-top:10vg;
+    display:flex;
+    
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+}
+h4{
+    margin-left:40%;
+    align-items: center;
+}
+}
