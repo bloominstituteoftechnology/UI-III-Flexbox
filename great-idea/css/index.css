@@ -64,3 +64,214 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	width: 58%; /* 880px */
+	margin: auto;  	
+}
+
+header {
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+}
+
+nav a:first-child {
+	padding-left: 20px;
+}
+
+header nav a {	
+	padding-left: 50px;	
+	color: #A9A9A9;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;	
+	margin-top: 3em; 
+}
+
+.cta .cta-text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-content: center;		
+}
+
+.cta .cta-text h1 {
+	font-size: 75px;
+	margin: 0px 60px;
+}
+
+.cta-text button {	
+	background-color: white;
+	padding: 5px 32px;
+	border: 1px solid black;	
+	margin: 0px 136px;	
+	width: 150px;	
+}
+
+hr {         
+    margin-top: 40px;    
+}
+
+.main-content .top-content {
+	display: flex;
+	justify-content: space-between;	
+	margin-top: 30px;
+	margin-bottom: 30px;	
+}
+
+.main-content .top-content div:last-child {
+	margin-left: 30px;
+}
+
+
+
+.main-content .bottom-content {	
+	display: flex;
+	justify-content: space-between;
+	margin: 25px 0px;
+}
+
+.main-content .bottom-content .text-content {
+	width: 32%;	
+}
+
+.gray-line hr {
+	
+	margin: 2em 0em;
+	color: #ccc;	
+}
+
+.main-content .bottom-content div:first-child {
+	margin-right: 25px;
+}
+
+.main-content .bottom-content div:last-child {
+	margin-left: 25px;
+}
+
+.contact .cell-contact {
+	line-height: 3;
+}
+
+footer p {
+ text-align: center;
+ margin-top: 60px;
+}
+
+/* Service Page */
+
+.service-cta {	
+	margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.service-cta .services-header-img {
+    margin-bottom: 20px; 
+}
+
+.service-cta .service-cta-text h1 {
+   font-size: 23px;
+}
+
+.main-content .services-content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;   
+	flex-wrap: wrap;	
+}
+
+.main-content .services-content .text-content {
+	background: #f4f3f4;
+	border: 1px solid black;	
+	padding: 20px 20px;
+	width: 47%;
+	margin-bottom: 40px;
+}
+
+.main-content .content-row4 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.main-content .content-row4 .about-services {		
+	width: 47%;	
+}
+
+.main-content .content-row4 .about-services p {	
+	margin-bottom: 15px;
+}	
+
+ul.ls-square {
+	list-style-type: square;
+	padding-left: 16px;
+}
+
+ul.ls-square li {
+	padding: 5px;
+}
+
+.learn-btn {
+	margin-top: 22px;
+	border-radius: 4px;
+	padding: 8px 32px;
+	border: 1px solid black;			
+	width: 134px;	
+	background: white;
+}
+
+.general-line hr {
+   margin-top: 0px;
+}
+
+/* Product Page */
+
+.main-content .product-content {
+	display: flex;
+	justify-content: space-between;	
+	flex-wrap: wrap;
+	margin-top: 40px; 	
+}
+
+.main-content .product-content .text-content {
+	background: white;
+	border: 1px solid black;	
+	padding: 20px 20px;
+	width: 30%;
+	border-radius: 8px;
+	margin-bottom: 40px;
+}
+
+.main-content .product-content .text-content h4 {
+	text-align: center;
+}
+
+.main-content .product-content .text-content img {
+	padding-left: 28px;
+	/*max-width: 580px;*/
+	max-width: 215px;
+	height: 170px;
+}
+
+.main-content .product-content .text-content .price {
+	display: flex;
+	justify-content: space-between;	
+	margin-top: 30px;
+}
+
+.main-content .product-content .text-content .price .cart-btn {
+	margin-top: -9px;
+	border-radius: 4px;
+	padding: 8px 32px;
+	border: 1px solid black;			
+	width: 134px;	
+	background: white;
+}
