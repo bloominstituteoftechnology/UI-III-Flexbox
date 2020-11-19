@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+body {
+	width: 80%;
+	/* max-width: 880px; */
+	margin: 0 auto;
+}
+
+header {
+	padding: 3em 0;
+	border-bottom: 1px solid black;
+}
+
+header .services-header-img {
+    padding-bottom: 3em;
+    width: 100%;
+}
+
+#section1 {
+    display: flex;
+    justify-content: space-between;
+    /* align-content: space-between; */
+    flex-wrap: wrap;
+    /* padding: 3em 0; */
+    padding-top: 2em;
+    border-bottom: 1px solid black;
+    height: 50em;
+}
+
+#section1 div {
+    width: 48%;
+    height: 29%;
+    border: 1px black solid;
+    background-color: rgba(211, 211, 211, 0.61);
+    padding: 1em;
+}
+
+#section1 div button {
+    margin-top: 1em;
+    padding: 0.3em 1em;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+#section2 {
+    padding: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#section2 div {
+    width: 49%;
+}
+
+footer p {
+    text-align: center;
+}
+
+#section2 .services-info-img {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    #section1 div{
+        font-size: 0.8em;
+        width: 100%;
+        /* margin-bottom: 1em; */
+        height: 15%;
+    }
+
+    #section1 {
+        height: 70em;
+        /* justify-content: space-around; */
+        /* align-content: space-between; */
+        /* padding: 0; */
+        /* padding: 1em 0 0 0; */
+        padding-top: 1em;
+    } 
+
+    #section2 {
+        /* margin-top: 35em; */
+        padding: 1em 0;
+    }
+
+    #section2 div {
+        font-size: 0.8em;
+        width: 100%;
+        padding: 0;
+    }
+
+    #section2 .services-info-img {
+        width: 50%;
+        padding-top: 1em;
+    }
+
+    nav a {
+        font-size: 0.5em;
+    }
+
+    nav .logo {
+        width: 5em;
+    }
+}
+
+@media (max-width: 900px) {
+     #section1 div, #section1 div {
+        /* margin-bottom: 20px; */
+        font-size: 0.8em;
+    }
+
+    nav a {
+        font-size: 0.8em;
+    }
+
+    nav .logo {
+        width: 7em;
+    }
+}
