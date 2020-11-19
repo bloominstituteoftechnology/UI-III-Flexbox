@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +62,148 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	margin: auto;
+	border: 2px solid lightblue;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+header nav a {
+	margin: 0px 20px;
+}
+
+header .logo {
+	display: inline-flex;
+	justify-content: right;
+	margin-left: 60px;
+}
+
+.cta img {
+	margin-left: 480px;
+    margin: 80px 20px;
+}
+
+.cta-text {
+	display: inline-block;
+	text-align: center;
+}
+
+.cta-text button {
+	margin: 0px 130px;
+    font-size: 22px;
+}
+
+.cta-text h1 {
+	font-size: 80px;
+	margin: 150px 60px;
+}
+
+.main-content .top-content {
+	border-top: 1px solid black;
+    padding: 20px;
+}
+
+.text-content1 {
+	width: 370px;
+    height: 120px;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-indent: 25px;
+}
+
+.text-content2 {
+	width: 270px;
+    height: 120px;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-indent: 25px;
+}
+
+.contact {
+	padding: 20px;
+}
+
+.contact p {
+	margin: 20px;
+}
+
+footer p {
+	display: flex;
+	justify-content: center;
+}
+
+.top-content img {
+	width: 100%;
+}
+
+.services h2 {
+	margin: 25px;
+	font-size: 25px;
+}
+
+.services p {
+	margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid black;
+}
+
+.courses {
+	background: lightgray;
+    padding: 20px;
+    margin: 20px;
+    width: 380px;
+    border: 1px solid black;
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+.courses button {
+	padding: 5px 20px 5px 20px;
+	margin-top: 20px;
+}
+
+.facts h4 {
+	margin: 25px;
+	border-top: 2px solid black;
+	padding-top: 25px;
+}
+
+.facts p {
+	margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    width: 400px;
+}
+
+.others ul {
+	margin:25px;
+	padding: 10px 25px;
+}
+
+.others ul li {
+	padding: 10px;
+}
+
+.others img {
+	width: 47%;
+	margin-left: 438px;
+	margin-top: -320px;
+	margin-bottom: 40px;
+}
+
+footer {
+	margin: 20px;
+	padding: 20px;
+}
