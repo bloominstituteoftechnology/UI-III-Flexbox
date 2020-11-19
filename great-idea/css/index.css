@@ -64,3 +64,385 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+header .header {
+  display: flex;
+  padding: 5px;
+}
+.fact {
+  padding: 5px;
+}
+.header nav {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  /* margin-left: 85px; */
+  align-items: center;
+  padding-left: 11%;
+  padding-right: 6%;
+}
+
+header nav a {
+  margin-right: 60px;
+  text-decoration: none;
+  color: grey;
+}
+hr {
+  width: 90%;
+}
+.logo {
+  text-align: right;
+  margin-left: 220px;
+  margin-top: 20px;
+}
+.first-section {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* .first-section > div {
+  
+  width: 440px;
+  height: 300px;
+} */
+#content {
+  display: flex;
+  width: 440px;
+  height: 300px;
+  left: 10px;
+  vertical-align: bottom;
+}
+
+#sub-content {
+  display: flex;
+  flex-direction: column;
+}
+#content * {
+  text-align: center;
+}
+
+#content h2 {
+  font-size: 70px;
+}
+
+sub-content {
+  text-align: center;
+  left: 10px;
+}
+.get {
+  border: 1px solid black;
+  height: 30px;
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 5px;
+}
+
+.content-right img {
+  padding-left: 60px;
+}
+
+.second-section * {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+section.second-section {
+  display: flex;
+  flex-direction: column;
+}
+.about-sec {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 5px;
+  padding: 0% 10%;
+}
+.second-section > div {
+  display: flex;
+  justify-content: center;
+}
+.act-img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 50px;
+}
+.about-tet * {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.act-img img {
+  margin-top: 5px;
+  width: 70%;
+}
+
+.third-section {
+  margin-top: 30px;
+  display: flex;
+  /* width: 100%; */
+}
+
+.third-section > div {
+  width: 280px;
+  height: 200px;
+  margin-left: 30px;
+  padding: 0 2%;
+  margin-left: 90px;
+}
+
+img.middle-img {
+  margin-left: 25px;
+  width: 100%;
+  padding: 0 10%;
+  margin-left: -20px;
+}
+footer {
+  margin-left: 90px;
+  height: 200px;
+}
+.copy {
+  text-align: center;
+}
+.text {
+  margin-top: 25px;
+}
+
+/* SERVICES PAGE STYLE */
+.services {
+  padding-left: 9%;
+  padding-right: 6%;
+  padding-top: 2%;
+}
+.services-header-img {
+  padding-left: 11%;
+  padding-right: 6%;
+  text-align: center;
+  width: 95%;
+  padding-top: 1%;
+}
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-left: 7%;
+  padding-right: 6%;
+  padding-top: 25px;
+}
+
+.services-container > div {
+  border: 1px solid grey;
+  flex-direction: row;
+  width: 500px;
+  height: 200px;
+  margin-bottom: 4%;
+  background: gainsboro;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.more {
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 20px;
+  background: white;
+}
+.fact {
+  display: flex;
+  padding: 2% 8%;
+  margin-bottom: 50px;
+}
+.last-section {
+  display: flex;
+  flex-direction: column;
+}
+.services-info-img {
+  width: 80%;
+}
+.last-section {
+  width: 90%;
+}
+.last-text {
+  /* padding-left: -30px; */
+  width: 90%;
+  line-height: 23px;
+}
+
+ul {
+  margin-top: 15px;
+  padding-left: 13px;
+}
+ul li {
+  list-style-type: square;
+  padding-top: 14px;
+}
+.new-footer {
+  height: 40px;
+  text-align: center;
+}
+.newline {
+  height: 4px;
+  background: black;
+  width: 85%;
+  margin-left: 9%;
+  margin-top: 20px;
+}
