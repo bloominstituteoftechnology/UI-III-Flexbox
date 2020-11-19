@@ -64,3 +64,293 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 960px;
+  margin: auto;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0px -10px 25px;
+}
+
+#navigation a {
+  color: gray;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center; 
+}
+
+#logo {
+  margin: -10px 0px 0px 0px;
+}
+
+#main-image {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 20px 0px;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 15px 20px 20px 50px; 
+}
+
+#image {
+  background-image: url ("img/services-header.jpg");
+}
+
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.header_div {
+  width: 800px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 100px;  
+}
+
+#innovation {
+  display: flex;
+  flex-direction: wrap;
+  margin: 60px 0px 60px 0px;
+}
+
+#Get Started {
+  display: flex;
+  vertical-align: left;
+  margin: 0px 25px 0px 0px;
+}
+
+#old-button {
+  font-size: 14px;
+  display: flex;
+  text-align: center;
+  border: 1px solid grey; 
+  background: white;
+  border: 1px solid;
+	padding: 5px 40px 5px 40px;
+  font-family: inherit;
+	font-size: 20px;
+	border-radius: 3px;
+  margin: 15px 0px 0px 250px;
+}
+
+#old-button:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+#image-div {
+  display: inline-block;  
+  margin: auto;
+}
+
+h1 {
+  vertical-align: right;
+  text-align: center;
+  font-size: 70px;
+  margin: 60px 0px 0px 200px 
+}
+
+button {
+  display: inline;
+  text-align: center;
+  font-size: 14px;
+  text-align: left;
+  border: 1px solid grey; 
+  background: white;
+	padding: 5px 40px 5px 40px;
+  font-family: inherit;
+  border-radius: 3px;
+  margin: 10px 0px 0px 0px;
+}
+
+button:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+#image {
+  vertical-align: text-top;
+  margin: 0 0 0 0px;
+}
+
+.header-image {
+  box-sizing: border-box;
+  float: left;
+}
+
+.h3 { 
+  width: 500px;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.section-2p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: -40px 0px 0px 0px;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid black;
+  background-color: #F5F5F5;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 15px 20px 20px 20px; 
+  margin: 25px 0px 25px 20px;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid black;
+  background-color: #F5F5F5;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 15px 20px 20px 20px; 
+  margin: 25px 0px 25px 20px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.blocks2 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 15px 20px 20px 20px; 
+  margin: -12px 0px 25px 0px;
+}
+
+.blocks3 {
+  display: flex;
+  flex-direction: column;
+  width: 415px;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 15px 20px 20px 20px; 
+  margin: 25px 0px 25px -20px;
+}
+
+.section-3p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: -10px 0px 0px 0px;
+}
+
+.blocks4 {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 15px 20px 20px 20px; 
+  margin: 25px 0px 25px 0px;
+}
+
+#ul {
+  text-align: left;
+  list-style-type:square
+}
+
+li {
+  margin: 10px 0px 0px 22px;
+}
+
+#body-image {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 20px 0px; 
+}
+
+.h3_2 {
+  width: 330px;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.p2 {
+  width: 330px;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#hr-bottom{
+  border-top: 1px solid black;
+  margin: 25px 0px 40px 0px;
+}
+
+#hr-oldtop{
+  margin: 40px 38px 20px 40px; 
+  border-top: 1px solid grey;
+}
+
+#hr-old{
+  margin: 10px 38px 30px 40px; 
+  border-top: 1px solid grey;
+}
+
+#hr-top2{
+  border: none;
+  height: 1px;
+  color: grey; 
+  background-color: grey;
+  margin: 10px 30px 30px 50px;  
+}
+#hr-bottom2 {
+  border: none;
+  height: 2px;
+  color: black; 
+  background-color: black;
+  margin: 10px 30px 30px 50px;  
+}
+
+.bottom-image {
+  display: flex;
+  margin-top: 150px;
+  margin: 0px 0px 0px 0px; 
+}
+
+#address {
+  margin: 0px 0px 0px 45px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 80px 0px 40px 0px;
+}
