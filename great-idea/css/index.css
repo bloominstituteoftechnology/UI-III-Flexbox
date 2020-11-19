@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	box-sizing: border-box;
+	
+}
+
+/* NAVIGATION STYLES */
+nav{
+	display:flex;
+	justify-content: space-evenly;
+	margin: 20px;
+}
+
+nav a{
+	color:lightgray;
+	text-decoration: none;
+}
+
+.logo{
+	margin:-10px;
+}
+/* HEADER STYLES */
+
+header {
+	display:flex;
+	width: 100px;
+	text-align: center;
+	align-items: center;
+}
+.title h1{
+	font-size: 60px;
+	justify-content: space-evenly;
+}
+.title button {
+	width: 150px;
+	
+}
+.title{
+	display: flex;
+	flex-direction: column;
+	align-content:center; 
+}
+header img {
+	padding: 0 100px 0;
+}
+/* TOP CONTENT STYLES */
+.topContent {
+   	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+} 
+
+.middle-img {
+	display: flex;
+	margin:50px;
+}
+
+/* BOTTOM CONTENT */
+.bottomContent {
+	display: flex;
+	justify-content: space-between;
+	margin:50px;
+}
+
+.contact {
+	margin: 50px;
+}
+/* FOOTER */
+footer {
+	text-align: center;
+}
+
+
+/* SERVICES CSS */
+
+
+.services-header-img {
+	display: flex;
+	margin:50px;
+}
+
+.services {
+	display: flex;
+ 	justify-items: ;
+ 	margin: 50px;
+} 
+
+/* CENTER CONTENT */
+.topRow {
+	display:flex;
+}
+.centerRow {
+	display:flex;
+}
+.bottomRow{
+	display:flex;
+}
+
+.boxContent{
+	width:50%;
+	background-color:lightgrey;
+	line-height: 1.5em;
+	padding:20px;
+	margin:20px;
+	border:1px solid black;
+}
+
+
+button {
+	width: 150px;
+	height: 30px;
+	background-color:white;
+}
