@@ -64,3 +64,225 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: goldenrod;
+	margin-bottom: 15px;
+	color: transparent;
+}
+
+nav a {
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 25px;
+	color: black;
+	text-decoration: none;
+	
+}
+
+ a:hover{
+	color: red;
+}
+
+nav .logo{
+	display:inline-block;
+	height:80px;
+	width:180px;
+	float:right;
+	background-image: url("../img/logo.png");
+	background-repeat:no-repeat;
+	vertical-align: bottom;
+	background-position: center;
+	padding-right: 10px;
+	margin-right: 15px;
+
+}
+
+#headerCta{
+	display: block;
+	margin-top: 30%;
+	margin-right:10px;
+	font-size: 75px;
+}
+
+button{
+	display: block;
+	width: 175px;
+	height: 35px;
+	margin: 0 auto;
+	background: white;
+	border: 1px solid black;
+	font-size: 1em;
+	font-family: 'Titillium Web', sans-serif;
+}
+button:hover{
+	color:red;
+	background-color:goldenrod;
+}
+
+.leftSide{
+float: left;
+text-align: center;
+margin: 15px;
+margin-left: 250px;
+}
+
+.rightSide{
+	float: right;
+	margin:30px;
+	margin-top: 30px;
+	margin-right: 50px;
+
+}
+
+.topSect{
+	display: inline-block;
+	margin-top:70px;
+	
+}
+.contentTop{
+	max-width: 1024px;
+	margin:0 auto;
+	padding: 35px 5px;
+}
+.twoCol{
+	display: inline-block;
+	max-width: 49%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 2px solid black;
+	
+
+}
+.middle-img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 83%;
+	max-height: 250px;
+}
+.threeCol{
+	
+	max-width: 90%;
+	
+
+}
+.contentBottom{
+	column-count: 3;
+	margin: 0 auto;
+	padding: 35px 5px;
+	margin-left: 90px;
+	margin-right: 35px;
+	display: block;
+	border-bottom: 2px solid black;
+}
+footer{
+	text-align: center;
+	display: block;
+}
+.bottomcontact{
+	margin-left: 90px;
+	margin-top: 25px;
+}
+
+.mainImg{
+	
+	/* display:flex;
+	justify-content: center;
+	align-items: center; */
+	margin-top: 80px;
+	background-image: url("/Users/lambda_school_loaner_143/UI-III-Flexbox/great-idea/img/services-header.jpg");
+	width:100%;
+	height:35%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	
+
+	
+}
+h1{
+	font-size: 35px;
+	margin: 30px;
+	margin-left: 130px;
+}
+.boxTitle{
+	text-align: left;
+	font-size: 20px;
+}
+.boxOneL{
+	
+	border: 2px solid black;
+	background-color:#c7c2c4;
+	margin: 10px;
+	padding: 5px;
+	
+}
+.boxOneR{
+	border: 2px solid black;
+	background-color:#c7c2c4;
+	margin:10px;
+	padding: 5px;
+}
+
+ .topRowBox{
+	display:flex;
+	justify-content: center;
+	max-width: 75%;
+	align-items: center;
+	flex-direction: row;
+	
+} 
+.boxBtn{
+	text-align: center;
+	float: left;
+	margin: 5px;
+}
+.boxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-width: 80%; */
+	
+	
+}
+
+.bottomList{
+	display: list-item;
+	padding: 15px;
+	margin:25px;
+	list-style-type: disc;
+}
+.services-info-img{
+	display:flex;
+	justify-content: right;
+}
+
+.bottomContent{
+float: left;
+display: block;
+width: 40%;
+}
+
+.bottomRow{
+display: flex;
+justify-content: center;
+margin-top: 25px;
+margin-bottom: 15px;
+}
+hr{
+max-width: 80%;
+height: 2px;
+}
+.top{
+	max-width: 80%;
+	margin: 15px;
+	margin-left: 130px;
+}
