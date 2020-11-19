@@ -70,8 +70,6 @@ h1, h2, h3, h4, h5 {
 	max-width: 1300px;
 	height: 100vh;
 	margin: auto;
-	/* border: 10px solid black;
-	border-width: 10px; */
 	display: flex;
 	flex-direction: column;
 	overflow: auto;	 
@@ -84,8 +82,6 @@ h1, h2, h3, h4, h5 {
 .container {
 	max-width: 1300px;
 	height: 100vh;
-	/* border: 10px solid black;
-	border-width: 10px; */
 	display: flex;
 	flex-direction: column; 
 }
@@ -108,7 +104,6 @@ nav {
 	flex: 3;
 	align-items: center;
 	justify-content: space-around;
-
 }
 
 nav > a {
@@ -134,86 +129,110 @@ figure {
 	align-items: center;
 	justify-content: space-evenly;
 	text-align: center;
-	max-width: 1200px;
+    max-width: 1200px;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
 }
 
 .section1 div {
-	flex: 6;
+    justify-content: space-evenly;
+    margin: 40px 20px;
 }
 
-.section1 p {
-	max-width: 500px;
+h2 {
+   font-size: 32px; 
+}
+
+p {	
 	margin:  auto;
-	padding: 40px;
-	font: italic bold small-caps normal 75px Arial, Helvetica, sans-serif;
-	line-height: 1;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.section1 button {
-	width: 200px;
-	height: 35px;
-	margin-top: -50px;
-	font-size: 20px;
+	font: bold normal 19px Arial, Helvetica, sans-serif;
+	line-height: 1.4;
+	text-align: left;
 }
 
 .section1 figure {
-	flex: 4;
+    flex: 1;
+    width: 1160px;
 	text-align: center;
 }
 
 .section1 figure img {
-	width: 100%;
+  	width: 100%;
 	height: auto;
+} 
+
+main {
+	max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
-.main1, .main2, .main3 aside {
+.main1, .main2, .main3, .aside1 {
 	max-width: 1200px;
+    display: flex;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+main article {
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+main button {
+	width: 170px;
+	height: 45px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.aside1 article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    margin: 20px;
+    padding: 25px;
+}
+
+ul {    
+    list-style-type:square;
+    font-size:  18px;
+    font-weight: bold;
+    line-height: 1.8;
+    margin-left : 20px;
+    margin-top: 15px;
+}
+
+.aside1 figure {
 	display: flex;
+	text-align: right;
 }
 
-.main1 > article {
-	margin: 15px 0 15px 40px; 
-}
-
-.main1 article p {
-	max-width: 600px;
-	margin-right: -20px;
-	font: normal  small-caps normal 16px Arial, Helvetica, sans-serif;
-	text-align: left;
-}
-
-.main2 figure {
-	margin: 15px 0 15px 40px;	
-}
-.main2 figure img {
-	max-width: 1200px;
-	width: 100%;
+.aside1 figure img {
+    width: 100%;
 	height: auto;
-}
-.main3 aside > article {
-	margin: 15px 0 15px 40px; 
-}
-
-.main3 aside p {
-	margin-right: -20px;
-	font: normal  small-caps normal 16px Arial, Helvetica, sans-serif;
-	text-align: left;
+	text-align: right;
 }
 
 footer {
 	margin-left: 40px;
-	margin-top: -20px;
 }
 
 footer p {
-	margin-top: 20px;
+	margin-top: 40px;
 	text-align: center;
 }
 
 hr {
-	margin: 60px 40px 20px 40px;
+	margin: 10px 40px 40px 40px;
 }
 
 .hr2 {
