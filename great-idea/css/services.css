@@ -62,83 +62,101 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+.main-parent {
+    width: 975px;
+}
 nav {
-	margin: auto;
-	width: 876px;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 nav a {
 	text-decoration: none;
 	color: grey;
-	padding: 25px;
+    padding: 25px;
 }
 
 nav .logo {
 	padding-left: 50px;
 }
 
+.services-header-img {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 975px;
+
+}
 header {
-	line-height: 0.75;
-	margin: 50px 0px 50px 100px;
-	width: 876px;
-	display: flex;
-	align-items: center;
+    width: 975px;
+}
+.services-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 975px;
+   
 
 }
 
-header .title {
-	font-size: 68px;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 70px;
-	
+.service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-between;
+    width: 975px;
+  
 }
 
-header .title button {
-	border: 1px solid black;
-	margin-top: 0px;
-	padding: 6px 40px;
+.service-boxes div {
+    display: flex;
+    flex-wrap: wrap;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    width: 46%;
+    background-color: rgb(248, 248, 248);
+    margin: 15px;
 }
 
-.top-content {
-	width: 876px;
-	display: flex;
+button {
+        padding: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+   
+h2 {
+    font-size: 12px;
 }
-.top-content div {
 
-	flex-wrap: wrap;
-	padding: 10px;
-	justify-content: flex-start;
-	width: 48%;
-}
-
-.middle-img {
-	margin: 30px 0px;
+p {
+font-size: 12px;
+line-height: 15px;
 }
 
 .bottom-content {
-	width: 876px;
-	display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 975px;
+    height: auto;
+    justify-content: space-between;
+    
 }
 
-.bottom-content div {
-	
-	width: 33%;
-	padding: 10px;
+.facts {
+    width: 46%;
 }
 
-.contact {
-	margin-top: 30px;
-}
-
-body { /* centers the website */
-	width: 876px;
-	margin: 0 auto;
+.facts li {
+    line-height: 20px;
 }
 
 footer {
-	margin-top: 50px;
-	text-align: center;
+    text-align: center;
 }
