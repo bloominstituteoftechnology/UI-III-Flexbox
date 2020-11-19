@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container2 {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    width: 1070px;
+    
+    
+    
+}
+.parent2 {
+    border: 1px solid black;
+    background-color: #F0F0F0;
+    margin-right: 30px;
+    height: 200px;
+    width: 410px
+
+    
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-bottom: 30px;
+    width: 900px;
+}
+    
+.border1 {
+    margin-left: 500px;
+    margin-right: 554px;
+    border: 1px solid black;
+    margin-top: 30px
+}
+.p1 {
+    margin-bottom: 20px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    width: 370px;
+}
+.b1 {
+    margin-bottom: 10px;
+    position: relative;
+    left: 10px;
+    color: black;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    top: 8px;
+    
+}
+.h1 {
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.container3 {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    width: 1070px;
+}
+.parent3 {
+    border: 1px solid black;
+    background-color: #F0F0F0;
+    margin-right: 30px;
+    height: 200px;
+    width: 410px
+}
+.container4 {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    width: 1070px;
+}
+.parent4 {
+    border: 1px solid black;
+    background-color: #F0F0F0;
+    margin-right: 30px;
+    height: 200px;
+    width: 410px
+}
+.p2 {
+    width: 870px
+}
+.container5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.p3 {
+    width: 400px;
+    margin-bottom: 30px
+}
+.services-info-img {
+    width: 420px;
+    height: 300px;
+    position: relative;
+    left: 930px;
+    bottom: 200px;
+    
+    
+}
+.copyright {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 500px;
+    margin-right: 790px;
+    margin-top: 30px;
+    
+       
+}
+.services-header-img {
+    position: relative;
+    left: 315px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 850px
+}
+.bullets {
+    position: relative;
+    left: 10px;
+    width: 300px;
+}
+nav a {
+    color: darkgrey;
+    text-decoration: none;
+}
+.great-idea {
+    position: relative;
+    bottom: 249px;
+    left: 1150px
+}
