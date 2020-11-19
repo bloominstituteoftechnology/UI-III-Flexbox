@@ -64,3 +64,242 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.wrapper{
+	width: 55%;
+	height: auto;
+	padding: 1%;
+	margin: auto;
+	position: relative;
+}
+
+
+a.navLink:hover{ 
+	border-top: 3px outset #000000;
+	border-bottom: 3px outset #000000;
+	color:black;
+}
+
+a.navLink {
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 14px;
+	width: 10%;
+	height: auto;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+	transition: 0.5s ease;
+}
+
+.navLinks {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+img.logo{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	margin: 10px;
+}
+
+.sloganCode {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+h1{
+	display: flex;
+	flex-direction: column;
+	font-size:72px;
+	text-align: center;
+}
+
+h3{
+	font-size: 28px;
+}
+
+.slogan{
+	display: flex;
+	width: 55%;
+	height: 55%;
+	align-content: center;
+	justify-content: space-between;
+	padding: 50px;
+	margin: 50px;
+	width: 375px;
+	height: 300px;
+	text-align: center;
+}
+
+img.starting-logo {
+	top: 8%;
+	right: 15%;
+	margin: 5%;
+	padding: 2%;
+	height: auto;
+	width: auto;
+	
+}
+
+.button {
+	position: absolute;
+	top: 32%;
+	right: 66%;
+	width: 15%;
+	height: auto;
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.button2{
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 50%;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	font-size: 12px;
+}
+
+.servicesContent{
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: flex-start;
+	width: 85%;
+	padding: 10px;
+	margin: 35px;
+	
+}
+
+.centerItems{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	
+}
+
+a.buttonText{
+	text-decoration: none;
+	color: black;
+	transition: 0.5s ease;
+}
+
+a.buttonText:hover{
+	border-top: 1px outset #000000;
+	border-bottom: 1px outset #000000;
+	text-decoration: none;
+	color: grey;
+}
+
+.topContentWrapper {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	width: 100%;
+	padding: 1%;
+	margin: 0;
+}
+
+.bottomContentWrapper {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	width: 100%;
+	padding: 1%;
+	margin: 0;
+}
+
+.top-content{
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	padding: 10px;
+	margin: 15px;
+}
+
+.bottom-content{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 10px;
+	margin: 15px;
+}
+
+.middleContentWrapper {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 2px;
+	margin: 2px;
+
+}
+
+.middleContentItem{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;;
+	align-content: space-around;
+	border: 1px solid black;
+	width: 35%;
+	padding: 15px;
+	margin: 10px 5px 25px 5px;
+	background-color: #f4f3f4;
+}
+
+.bottomContentWrapper2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 100%;
+	padding: 2px;
+	margin: 2px;
+}
+
+.bottomContentWrapper3{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	padding: 5px;
+	margin: 10px;
+}
+
+.bottomContentItem{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: space-between;
+	width: 45%;
+	padding: 15px;
+	margin: 15px;
+}
+
+img.middle-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.services-header-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.copyright{
+	width: auto;
+	padding: 20px;
+	margin: 5px;
+	text-align: center;
+	font-size: 12px;
+}
