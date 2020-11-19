@@ -3,64 +3,343 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 880px;
+  margin: 0 auto;
+}
+
+header nav {
+  /* display:inline-block;  */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header nav a:first-child {
+  margin-left: 0;
+}
+header nav a:last-child {
+  margin-right: 0;
+}
+
+.logo {
+  display: flex;
+  margin-top: 25px;
+}
+
+.code-img {
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.jumbo {
+  display: flex;
+  /* justify-content: space-around;*/
+}
+
+.jumbo-copy {
+  /*display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 77px;
+  border: solid blue;
+  width: 50%;*/
+  /*display: inline-block;*/
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-end;*/
+  align-items: center;
+  /*border: 1px solid;*/
+  width: 50%;
+}
+
+button {
+  /* background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  margin-left: 40px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid back;
+  cursor: pointer;
+  width: 200px;*/
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  /*margin-right: 50%;*/
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+button:hover {
+  background: black;
+  color: white;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+  padding: 0 10px;
+  width: 880px;
+  margin: 0 auto;
+}
+.top-content {
+  display: flex;
+  margin-top: 57px;
+}
+.middle-img {
+  margin: 30px 0;
+}
+.bottom-content {
+  display: flex;
+  margin-bottom: 57px;
+}
+.contact-section {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px;
+  width: 880px;
+  margin: 0 auto;
+}
+.contact-section p {
+  margin: 20px 0;
+}
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
+/* service page ccs */
+
+.container2 {
+  width: 900px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.services-header-img {
+  margin-top: 40px;
+  padding: 30px;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 30px;
+  border-bottom: 1px solid black;
+}
+button {
+  border-radius: 8px;
+  font-size: 10;
+}
+
+.cats {
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 40px;
+  width: 45%;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list {
+  display: flex;
+  /* margin-top: 30px; */
+  /* border: 1px solid blue; */
+  border-top: 1px solid black;
+  padding: 10px;
+}
+.side {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.list1 {
+  margin-top: 20px;
+  padding: 20px;
+  /* border: 1px solid blue; */
+}
+.services-info-img {
+  padding: 30px;
+}
