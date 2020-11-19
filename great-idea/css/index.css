@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,7 +51,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid green;
 }
 
 html, body {
@@ -64,3 +67,124 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* Your code starts here! */
+
+.navLinks {
+	
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+nav {
+
+
+}
+nav a {
+	color: grey;
+	display: flex;
+}
+nav .links {
+	display: flex;
+	justify-content: center;
+}
+.intro-container {
+	display: flex;
+	align-content: center;
+
+}
+.intro  {
+	display: inline-block;
+	width: 450px;
+	text-align: center;
+	padding: 0px 0px 40px;
+}
+
+ .intro h1 {
+	font-size: 50pt;
+	
+}  
+
+
+.introimg {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.intro button {
+	padding: 5px 40px 5px;
+	border: 1px solid black;
+	font-family: 'Titillium Web';
+}
+
+header p {
+	border: 1px solid black;
+	width: 150px;
+	display: flex;
+
+}
+.codeimg {
+	width: 30%;
+	height: 30%;
+	padding: 0 20px 20px 100px;
+}
+
+.top-content {
+	border-top: 1px solid black;
+	padding: 30px 0 30px;
+	display: flex;
+	flex-direction: row;
+	width: 80%
+}
+
+
+.top-content .features {
+	display: inline-block;
+	width: 49%;
+	margin-right: 5px;
+}
+
+.top-content .about {
+	display: inline-block;
+	width: 49%;
+}
+
+.middle-img {
+	display: block;
+	width: 100%;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	padding: 20px 0 30px;
+	display: flex;
+	width: 50%;
+}
+
+.bottom-content .services {
+	display: inline-block;
+	width: 32%;
+}
+
+.bottom-content .product {
+	display: inline-block;
+	width: 32%;
+	margin: 0px 10px 0px;
+}
+
+.bottom-content .vision {
+	display: inline-block;
+	width: 32%;
+}
+
+.contact-content {
+	margin-top: 30px;
+}
+footer p {
+	text-align: center;
+}
