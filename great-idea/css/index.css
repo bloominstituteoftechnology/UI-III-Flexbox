@@ -64,3 +64,168 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.top-nav .a-nav {
+	text-decoration: none;
+	color: gray;
+}
+
+.top-nav {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 90px;
+	padding-top:20px;
+	text-align: center;
+}
+
+.el-button{
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	/* padding-left: 100px;
+	padding-right: 100px; */
+	margin-left: 140px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	margin-right: 195px;
+	margin-left: 195px;
+	margin-bottom: 20px;
+	border-top: 1px solid black;	
+}
+
+.middle-img {
+	width: 1130px;
+	margin-left: 195px;
+}
+
+.heading {
+	margin-top: 50px;
+}
+
+.container2 {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	margin-right: 195px;
+	margin-left: 195px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+p {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.number {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.contact {
+	margin-left: 195px;
+}
+
+.copyright{
+	margin-left: 700px;
+}
+
+.content-width {
+	width: 910px;
+	margin:auto;
+}
+
+.all-container {
+	display: flex;
+}
+
+.service-container{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid black;
+	margin-bottom: 5%;
+}
+
+.buttons {
+	text-decoration: none;
+	color: black;
+}
+
+.service-boxes {
+	border: 1px solid black;
+	background-color: rgb(224, 223, 223);
+	margin: 10px;
+	padding: 20px;
+}
+
+.el-button2 {
+	margin-left: 5%;
+	border: 1px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 100px;
+}
+
+.a-link {
+	text-decoration: none;
+	color: black;
+}
+
+.ending-div {
+	border-top: 1px solid black;
+	margin-top: 30px;
+}
+
+.square-here{
+	list-style-type: square;
+}
+
+.endingdiv {
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+}
+
+.list-div {
+	width: 45%;
+	margin: 10px;
+	padding: 10px;
+}
+
+.service-container2 {
+	display: flex;
+	border-top: 1px solid black;
+	margin-bottom: 5%;
+	margin-top: 20px;
+}
+.service-img {
+	width: 48%;
+}
+.service-container2 img {
+	width: 470px;
+	height: 350px;
+	padding-left: 37px;
+	margin-top: 60px;
+}
+
+.service-copyright {
+	text-align: center;
+	margin-top: 100px;
+}
