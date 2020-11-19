@@ -1,0 +1,115 @@
+/* Global styles */
+
+body hr {
+    width: 92%;
+    background-color: black;
+    height: 2.5px;
+    border-radius: 0.5rem;
+}
+
+/* Navigation styles */
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar a,
+.navbar a:visited,
+.navbar a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+/* Header styles */
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    margin: 1rem auto 1rem;
+}
+
+.heading__intro {
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.heading__intro h1 {
+    font-size: 1.5rem;
+}
+
+/* Main content styles */
+
+.main__content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.class__content {
+    width: 43%;
+    border: 1px solid black;
+    background: lightgrey;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.class__content button {
+    margin-top: 1rem;
+    border: 1px solid black;
+    background: white;
+    border-radius: 0.2rem;
+    padding: 0.5rem 2.3rem;
+}
+
+.class__content h2 {
+    font-size: 1.1rem
+}
+
+/* Service Facts styles */
+
+.service__facts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    width: 95%;
+    margin: 0 auto;
+}
+
+.service__facts>div {
+    display: flex;
+    flex-flow: column nowrap;
+
+    margin-top: 2rem;
+}
+
+.service__facts>div>p {
+    width: 45rem;
+}
+
+.service__facts>div>ul {
+    margin-top: 1rem;
+}
+
+.service__facts>div>ul>li {
+    display: list-item;
+    list-style-type: square;
+    line-height: 1.8rem;
+}
+
+.service__img {
+    max-width: 100%;
+}
+
+/* Footer styles */
+
+body>footer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 4.5rem;
+}
