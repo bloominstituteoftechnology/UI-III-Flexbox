@@ -64,3 +64,173 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.parts nav{
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+	padding: 20px;
+	background-color:#E0FFFF
+}
+
+.logo {
+	display:flex;
+	position: absolute;
+	right: 0px;
+	width: 150px;
+}
+
+.head{
+	display:flex;
+	font-size:75px;
+	justify-content:center;
+	flex-wrap:wrap;
+	margin-top:10px;
+}
+
+.head2{
+	display:flex;
+	font-size:40px;
+	margin:10px;
+}
+
+.head3{
+	display:flex;
+	font-size:25px;
+}
+
+.p{
+	letter-spacing:2px;
+
+}
+.border{
+	border: 2px solid #5f5f5f;
+	background-color:#f1f1f1;
+}
+
+.sec1{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	width:48%;
+	float:left;
+	margin:10px;
+}
+
+.sec2{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	width:48%;
+	float:right;
+	margin:10px;
+}
+
+.list{
+	display:flex;
+	align:left;
+	align-content:flex-end;
+
+}
+button{
+	background: #fff;
+	color: black;
+	margin-left:25%;
+	flex-grow: 1;
+	padding:1%;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.above{
+	display:flex;
+	justify-content:flex-end;
+	margin-top:10px;
+	margin-bottom:10px;
+	letter-spacing:2px; 
+}
+
+.left { 
+	display:flex;
+	justify-content:left;
+	width:50%;
+	margin-left:47px;
+}
+
+.right{
+	display:flex;
+	justify-content:right;
+	width:50%;
+	margin-left:27px;
+}
+
+.para1{
+	margin-top:15px;
+	margin-left:-57px;
+}
+
+.para2{
+	margin-top:15px;
+	margin-left:-37px;
+}
+.middle-img{
+	display:flex;
+	align-self:center;
+	width:90%;
+	margin-left:5%;
+	
+}
+
+.bottom{
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:10px;
+	margin-bottom:10px;
+	letter-spacing:2px;
+
+}
+.lb { 
+	display:flex;
+	justify-content:left;
+	width:30%;
+	margin-left:47px;
+}
+
+.cb{
+	display:flex;
+	justify-content:center;
+	width: 30%
+}
+.rb{
+	display:flex;
+	justify-content:right;
+	width:30%;
+	margin-left:47px;
+}
+.para3{
+	margin-top:15px;
+	margin-left:-50px;
+}
+
+.para4{
+	margin-top:15px;
+	margin-left:-50px;
+}
+
+.para5{
+	margin-top:15px;
+	margin-left:-40px;
+}
+
+.info{
+	display:flex;
+	justify-content:center;
+	margin-top: 5%;
+}
+
+.foot{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-self:center;
+	margin-top: 10%;
+}
