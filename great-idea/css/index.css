@@ -64,3 +64,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 90%;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+nav {
+	display: flex;
+}
+
+header nav a {
+	color: silver;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+nav a:hover {
+	color: black;
+}
+
+.getStarted {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.getStarted h2 {
+	font-size: 80px;
+	/* text-align: center; */
+}
+
+.leftSide {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 10%;
+}
+
+.startButton {
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	padding: 5px 30px 5px 30px;
+	width: 150px;
+	border-radius: 20px;
+}
+
+.startButton:hover {
+	color: white;
+	background-color: black;
+}
+
+.mainTextTop {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.mainTextBottom {
+	display: flex;
+	padding-right: 30px;
+	margin-bottom: 40px;
+}
+
+.mainTextTop h2, .mainTextBottom h2, .contactInfo {
+	font-size: 20px;
+	font-family: 'Bangers', cursive;
+	padding-top: 30px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* ---------- SERVICES PAGE CSS ---------- */
+
+.servPageServices h1 {
+	font-size: 25px;
+	font-family: 'Bangers', cursive;
+	padding-top: 30px;
+}
+
+.servPageServices p {
+	max-width: 100%;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+.services-header-img {
+	min-width: 100%;
+}
+
+.proServicesOffered {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.proService {
+	width: 48%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 26px;
+	margin-bottom: 30px;
+	background-color: rgb(230, 230, 230);
+}
+
+.proService h1, .facts h1 {
+	font-size: 20px;
+	font-family: 'Bangers', cursive;
+}
+
+.learnButton {
+	text-align: center;
+	font-size: 75%;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	padding: 5px 30px 5px 30px;
+	width: 150px;
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.learnButton:hover {
+	color: white;
+	background-color: black;
+}
+
+.facts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.factDetails {
+	width: 48%;
+	box-sizing: border-box;
+	padding: 0px 15px 15px 0px;
+}
+
+.factDetails ul {
+	list-style-type: square;
+	padding: 20px 0px 0px 20px;
+	line-height: 2;
+}
