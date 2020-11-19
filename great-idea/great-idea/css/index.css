@@ -99,8 +99,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .header-img{
-	/* updated from absolute to fixed position for responsivity */
-	position: fixed;
+	position: absolute;
 	top: 50px;
 	right: 50px;
 	padding: 10px;
@@ -151,6 +150,7 @@ header {
 	overflow: hidden;
 	animation-duration: 3s;
 	animation-name: slidein;
+	z-index: 1;
 }
 
 /* Keyframe for sliding animation */
@@ -189,8 +189,6 @@ header {
 
 	.container-1{
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
 	margin: 0 auto;
 	width: 50%;
 	padding: 20px;
@@ -200,7 +198,7 @@ header {
 		.features{
 		text-align: left;
 		height: 50px;
-		width: 450px;
+		width: 500px;
 		padding: 50px;
 		
 		
@@ -209,7 +207,7 @@ header {
 		.about{
 		text-align: left;
 		height: 50px;
-		width: 450px;
+		width: 500px;
 		padding: 50px;
 		
 	
@@ -224,6 +222,7 @@ header {
 	.container-2{
 		display: flex;
 		justify-content: center;
+		align-content: space-around;
 		width: 1650px;
 		border-bottom: 1px solid black;
 		margin: 0 auto;
@@ -278,6 +277,192 @@ display: flex;
 justify-content: center;
 padding: 40px;
 margin: 0 auto;
+	}
 
+
+.service-head{
+	font-size: 25px;
+	text-align: left;
+	position: relative;
+	left: 300px;
 
 }
+
+ header p{
+	 display: block;
+	 width: 62%;
+	 position: relative;
+	 left: 300px;
+	 
+
+
+ }
+ 
+
+	.service-content1{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		left: 400px;
+		padding: 30px;
+		
+	}
+
+	
+	.digital-design{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+	}
+
+
+	.digital-marketing{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+	}
+
+	.ios-development{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+	}
+
+
+
+.service-content2{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 1000px;
+	bottom: 810px;
+	height: 800px;
+	
+}
+
+	.ux{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+		
+	}
+
+
+	
+
+
+	.web-development{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+	}
+
+
+	
+
+
+	.android-development{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 3px;
+		height: 220px;
+		width: 500px;
+		margin: 20px;
+		padding: 20px;
+	}
+
+
+	.learn-box{
+		box-sizing: border-box;
+		border: 1px solid black;
+		background-color: white;
+		border-radius: 5px;
+		width: 150px;
+		height: 35px;
+		padding: 7px;
+		text-align: center;
+		position: relative;
+		top: 40px;
+		
+
+	}
+
+	
+	.learn-box a{
+		text-decoration: none;
+	
+	}
+
+
+	.learn-box a:visited{
+		color: black;
+	}
+
+
+
+
+	.facts{
+	border-top: 1px solid black;
+	padding: 40px ;
+	width: 80%;
+	margin: auto;
+	position: relative;
+	bottom: 750px;	
+	}
+
+
+
+	.fact-box{
+		display: block;
+		width: 400px;
+		position: relative;
+		left:225px;
+		
+	}
+		
+	.services-info-img{
+	
+	left: 790px;
+	bottom: 310px;
+	position: relative;
+
+	
+	}
+
+	ul{
+		padding: 20px;
+
+	}
+
+	.service-footer{
+		text-align: center;
+		position: relative;
+		bottom: 1px;
+	}
+
