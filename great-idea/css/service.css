@@ -1,0 +1,286 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 1040px;
+  margin: 0 auto;
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.container {
+    width: 880px;
+    margin: 0 auto;
+}
+.container header nav a {
+    text-decoration: none;
+    color: gray;
+    font-size: .90em;
+    padding: 15px;
+    margin: 5px;
+    width: 100%;
+    
+  }
+
+
+  .nav-bar  {
+    /* border: 2px solid red; */
+    align-items: flex-end;
+    display: flex;    
+    justify-content: space-evenly;
+  }
+
+  
+
+  .content_1_inner {
+    /* border: 2px solid red; */
+    border-top: 1px solid black;
+    flex-direction: row;
+    display: flex;
+    vertical-align: top;
+    margin: 0%;
+    min-height: 20%;
+    width: 85%;  
+    justify-content: space-between;
+    align-content: center;
+    width: 100%
+    
+  }
+
+  .content_1_inner_right_box {
+  
+    border: 2px solid black;
+    background-color: rgba(242, 244, 246, 0.986);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 250px;
+    margin: 1%;
+    width: 47.8%;
+    font-size: 1em;
+  }
+
+  .content_2{
+      border-top: 2px solid black;
+      margin: 1%;
+      width: 98%;
+      display: flex;
+  }
+
+  .content_2_box {
+    margin: 1%;
+    padding: 5px;
+    width: 47.5%;
+    
+  }
+
+  li{
+      list-style-type: square;
+  }
+
+  button{
+      border-radius: 12px;
+      padding: 12px 12px;
+  }
+  .footer-content p {
+      text-align: center;
+  }
+  *{
+    line-height: 20px;
+  }
+/* Stretch Goal Media Query */
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .content_1_inner {
+        /* border: 2px solid red; */
+        border-top: 1px solid black;
+        flex-direction: column;
+        display: flex;
+        vertical-align: top;
+        margin: 0%;
+        min-height: 20%;
+        width: 600px;  
+        justify-content: space-between;
+        align-content: center;
+        width: 100%
+        
+      }
+    
+      .content_1_inner_right_box {
+      
+        border: 2px solid black;
+        align-items: center;
+        background-color: rgba(242, 244, 246, 0.986);
+        justify-content: center;
+        min-height: 220px;
+        margin: 1%;
+        width: 47.8%;
+        font-size: 1.3em;
+      }
+    
+      .content_2{
+          border-top: 2px solid black;
+          margin: 1%;
+          max-width: 600px;
+          display: flex;
+          flex-direction: column;
+      }
+    
+      .content_2_box {
+        margin: 1%;
+        padding: 5px;
+        width: 47.5%;
+        
+      }
+  }

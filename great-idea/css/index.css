@@ -3,64 +3,261 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  /* be sure to use this for alignment */
+  width: 880px;
+  margin: 0 auto;
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+h2 {
+	font-size: 3.5em;
+	text-align: center;
+	margin: 10px 35px 10px 20px;
+  }
+  
+  .nav {
+	background-color:rgb(211,211,211, .5);
+	position: fixed;
+  }
+  
+  .container header nav a {
+	text-decoration: none;
+	color: gray;
+	font-size: .90em;
+	padding: 10px;
+	margin: 4px;
+	text-align: center;
+	
+	
+  }
+  .nav li {
+	display: inline-block;
+	font-size: 22px;
+	padding: 10px;
+	justify-content: space-between;
+  }
+  
+  .content_1 {
+	border-top: 1px solid black;
+	margin: 1%;
+	width: 100%;
+  }
+  
+  .content_1_box {
+	display: inline-block;
+	margin: 1%;
+	width: 270px;
+	height: 160px;
+	min-width: 150px;
+  }
+  
+  .content_3 {
+   
+	border-top: 1px solid black;
+	margin: 0%;
+	width: 100%;
+	
+  }
+  
+  .content_3_box {
+	 display: inline-block;	  
+	  margin: 1%;
+	  width: 410px;
+	  height: 130px; 
+  }
+  
+  .contact-section {
+	border-top: px solid black;
+	padding: 20px 0;
+	margin: 1%;
+	width: 100%;
+  }
+  
+  .image-div {
+	background: url('https://github.com/LambdaSchool/User-Interface/blob/master/great-idea-website/img/mid-page-accent.jpg?raw=true" alt="Image of code snippets across the screen');
+	background-repeat: no-repeat;
+	margin: 0px 0px 0px 200px;
+	margin: 1%;
+	width: 100%;
+  }
+  
+  address {
+	line-height: 1;
+	display: flex;
+	justify-content: left;
+	font-size: 15px;
+	color: black;
+  }
+  
+  .footer-content p {
+	text-align: center;
+  }
+  
+  .box {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	display: inline-block;
+  }
+  
+  .box1 {
+	display: inline-block; 
+	vertical-align: 90px;
+	margin: 80px;
+	width: 310px;
+	height: 250px;
+  }
+  .box2{
+	margin: 20px
+  }
+  
+  .button1 {
+	background-color: white;
+	color: black;
+	border: 1px solid #555555;
+	padding: 5px 30px;
+  }
