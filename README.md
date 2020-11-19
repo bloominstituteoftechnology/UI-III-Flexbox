@@ -1,5 +1,7 @@
 # User Interface Project III: Great Idea Web Page With Flexbox
 
+Tommy Conner
+
 Now that you have experienced building a layout using `inline-block`.  Lets revisit the same HTML structure and refactor our first page with flex box module.  If you didn't finish yesterday's assignment, just start from scratch or use the solution code provided to you.
 
 Once you have finished the home page using flex box module, go build the services page based on the [design file](design-files/services-desktop-design.png) provided to you.  This time you will need to structure your own HTML in addition to using flex box module.  You have been provided all the necessary images in the `img` folder.

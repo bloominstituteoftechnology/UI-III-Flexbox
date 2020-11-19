@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 1000px;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -43,6 +45,7 @@ q:before, q:after {
 	content: none;
 }
 table {
+	border: 10px solid black; 
 	border-collapse: collapse;
 	border-spacing: 0;
 }
@@ -63,4 +66,156 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+.navbar a{
+	color: gray;
+	text-align: center;
+	padding: 14px 16px; 
+	text-decoration: none;
+	font-size: 17px;
+	width: 100%;
+
+}
+
+.logo{
+	text-align: right;
+}
+.header {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 60px;
+	margin-top: 40px;
+}
+h1{
+	font-size: 59px;
+}
+.header-left {
+
+text-align: center;
+font-family: 'Bangers', cursive;
+letter-spacing: 3px;
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+width: 50%;
+
+}
+.header-right{
+
+	width: 50%;
+} 
+
+.top {
+	display:flex;
+}
+
+.top .left1 {
+
+	vertical-align: baseline;
+}
+
+.top .right1 {
+
+	vertical-align: baseline;
+}
+
+.middle-img {
+	width:100%;
+}
+
+.bottom {
+display:flex;
+}
+
+.bottom .left2 {
+
+	vertical-align: baseline;
+	width: 33%;
+}
+
+.bottom .middle2 {
+
+	vertical-align: baseline;
+	width: 33%;
+}
+
+.bottom .right2 {
+
+	vertical-align: baseline;
+	width: 33%;
+}
+.copyright {
+	text-align: center;
+	width: 100%;
+}
+button {
+background-color:white;
+padding: 10px 15px;
+}
+
+.content {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+/* .first-grid {
+	display:flex;
+}
+
+.second-grid {
+	display:flex;
+}
+
+.third-grid {
+	display:flex;
+} */
+
+
+.grid {
+	background-color:#e8e6e4;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	margin: 25px;
+	padding: 25px;
+	width: 400px
+}
+
+.learn-more {
+	margin-top: 20px;
+	background-color: whitesmoke;
+	padding: 6px 35px;
+	border-style: solid;
+	border width: 1px;
+	border-color:black;
+	border-radius: 5px;
+}
+
+.services-footer {
+	display: flex;
+}
+
+li {
+	margin:5px;
+	margin-left: 20px;
+}
+
+.services-header-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.logo {
+	text-align: right;
+}
