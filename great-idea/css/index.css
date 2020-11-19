@@ -49,8 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
-}
+	box-sizing: border-box;
+	}
 
 html, body {
     height: 100%;
@@ -64,3 +64,259 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav {
+	margin: 15px;
+	/*width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-between;
+	word-spacing: 50px;
+	align-items: flex-start;
+	margin: 20px auto;
+	color: lightgrey;
+	font-size: 15px;
+	*/	
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+}
+
+.navlink {
+	display: flex;
+	padding: 50px;
+}
+.top_header h1 {
+	display: flex;
+	font-size: 60px;
+	text-align: center;
+}
+
+.top_header {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+	
+}
+
+.logo {
+	width: auto;
+	height: 30px;
+	position: relative;
+	top: 40px;
+	left: 20px;
+}
+.header_img { 
+	display: flex;
+	position: relative;
+	left: 70px;
+	bottom: 50px;
+}
+hr {
+	display: flex;
+	justify-content: center;
+	width: 65%;
+	color: black;
+	border: .5px solid black;
+}
+.get_started_button {
+	display: flex;
+	border: 1px solid black;
+	width: 80px;
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	left: 80px;
+	top: 20px;
+
+}
+h2 {
+	font-weight: bold;
+}
+.features_about {
+	display: flex;
+	justify-content: center;
+	width: 65%;
+	position: relative;
+	left: 350px;
+	padding: 20px;
+}
+
+.middle-img{
+	padding: 20px;
+	
+}
+
+.middle_image {
+	display: flex;
+	justify-content: center;
+}
+.bottom_section {
+	 display: flex;
+	 justify-content: center;
+	 width: 50%;
+	 position: relative;
+	 left: 450px;
+	 top: 40px;
+}
+.services {
+	padding: 10px;
+}
+
+.product {
+	padding: 10px;
+}
+
+.vision {
+	padding: 10px;
+}
+
+.contact_section {
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+	left: 280px;
+	bottom: 50px;
+}
+.contact_header {
+	display: flex;
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+.address {
+	display: flex;
+	position: relative;
+	top: 40px;
+}
+.copyright_section {
+	display: flex;
+	justify-content: center;
+}
+/*.wholepage{
+	display: flex;
+}
+
+
+*/
+a {
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 15px;
+}
+/* header formatting */
+/* old header {
+	position: relative;
+	font-size: 60px;
+	top: 200px;
+	left: 500px;
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	width: 100px;
+	vertical-align: center;
+
+}
+*/
+/*
+header {
+	display: flex;
+	width: 70%;
+	flex-direction: row;
+	justify-content: center;
+	
+	
+}
+.iod {
+	display: flex;
+}
+h1{
+	text-align: center;
+	font-size: 85px;
+
+}
+
+/*.top_page {
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #000000;
+}*/
+
+/* adjust imagine position */
+
+
+/* make it a button */
+/*.button {
+	display: flex;
+	
+	border: 1px solid black;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.content1 {
+	position:relative;
+	vertical-align:center;
+	left: 450px;
+	width: 350px;
+	top: 40px;
+}
+
+.content2 {
+	position: relative;
+	left: 900px;
+	width: 350px;
+	bottom: 80px;
+}
+
+.middle-img {
+	position:relative;
+	left: 450px;
+}
+
+.content3 {
+	position: relative;
+	left: 450px;
+	width: 250px;
+	top: 30px;
+
+}
+
+.content4 {
+	position: relative;
+	left: 750px;
+	width: 250px;
+	bottom: 115px;
+}
+
+.content5 {
+	position: relative;
+	left: 1050px;
+	width: 250px;
+	bottom: 260px;
+	
+}
+/* wasn't exactly sure how to do another line without redoing all my code
+so made this */
+/*hr { 
+	position: relative;
+	bottom: 250px;
+	height: 1px;
+	color: black;
+	background-color:black;
+	border: none;
+  }
+  .contact {
+	  position: relative;
+	  bottom: 200px;
+	  width: 150px;
+	  left: 450px;
+	  
+  }
+  .copyright {
+	  position: relative;
+	  text-align: center;
+	  bottom: 150px;
+  }*/
