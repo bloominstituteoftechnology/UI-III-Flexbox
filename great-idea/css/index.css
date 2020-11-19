@@ -64,3 +64,302 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{ 
+	margin: 0 auto;
+	width:880px;
+
+	
+
+}
+
+header{ 
+	 
+	 margin-top: 10px;
+	 text-decoration-color: black;
+		color: black;
+		display:flex;
+		align-items: center;
+		justify-content: space-between;
+			
+					
+}
+
+
+	
+
+nav{
+
+	display: flex;
+	margin-left: 40px; 
+}
+
+a{
+
+	color: gray;
+    text-decoration: none;
+		
+		margin-left: 40px;
+}
+
+.cta{
+
+	display:flex;
+	margin-top: 80px;
+	justify-content: space-evenly;
+}	
+
+header h3{
+
+border-spacing: 10px; 
+
+}
+.topparagraph .text-content1 p{
+
+	width: 400px; 
+
+}
+
+
+ .topparagraph .text-content2 p{
+
+	width: 400px; 
+		
+ }
+	.topparagraph{
+		display:flex; 
+		justify-content: space-evenly;
+		margin-bottom: 50px;
+
+	}	
+  
+	.bottomparagraph{
+		width: 950px;
+		display:flex; 
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+		
+	
+	.bottomparagraph .text-content3{
+		width: 400px; 
+
+	}	
+
+	.bottomparagraph .text-content4{
+
+		width: 400px; 
+	}	
+	.bottomparagraph .text-content5{
+
+		width: 400px; 
+	}	
+	
+.main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
+
+
+
+
+
+
+
+.middle-img{
+
+	size: 100%;
+	margin-left: 0px; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+
+
+
+
+
+
+
+
+.copyright{
+
+margin-left: 320px;
+
+
+}
+.topgraphic1{
+	
+	
+	width: 100%;
+	
+}
+.cta-text{
+	
+	font-size: 75px;
+	
+	text-align: center; 
+}
+header p{
+		
+		font-size: 27px;
+		border: solid;
+		position: relative; 
+		top: 150px;
+		left: 245px; 
+		padding:8px; 
+}
+	.cta .cta-text button {
+
+		font-size: 27px;
+		border: solid;
+		background-color: white;
+	}
+}
+
+}
+.contact{
+	margin-left: 75px; 
+
+}.header-img{
+	margin-left: 42%; 
+	margin-bottom: -127px; 
+	height:400px;
+	width:400px;
+	
+	bottom: 200px;
+	left: 0px; 
+	}
+	 
+
+
+	/* SERVICES PAGE GOES UNDER HERE */ 
+.services-header-img{
+	margin-top: 25px;
+}
+
+.text-content1-services h4{
+	font-size: 25px;
+}
+.text-content1-services p{
+	margin-bottom: 35px;
+}
+	.container-services{ 
+		margin: 0 auto;
+		width:880px;
+	}
+
+	.text-content1-services{
+		width: 896px;
+
+	}
+	.text-content2-services{
+		border:solid 1px black;
+		background-color: gainsboro;
+		margin-top: 35px;
+		margin-right: 35px;
+		padding: 10px;s
+	}
+	.text-content3-services{
+		border:solid 1px black;
+		background-color: gainsboro;
+		margin-top: 35px;
+		
+		padding: 10px;s
+	}
+	.text-content4-services{
+		border:solid 1px black;
+		background-color: gainsboro;
+		margin-top: 35px;
+		margin-right: 35px;
+		padding: 10px;s
+	}
+	.text-content5-services{
+		border:solid 1px black;
+		background-color: gainsboro;
+		margin-top: 35px;
+		
+		padding: 10px;s
+	}
+	.text-content6-services{
+		border:solid 1px black;
+		background-color: gainsboro;
+		margin-top: 35px;
+		margin-right: 35px;
+		padding: 10px;
+		margin-bottom:24px;
+
+	}
+	.text-content7-services{
+		border:solid 1px black;
+		background-color: gainsboro;
+		margin-top: 35px;
+		margin-bottom:24px;
+		padding: 10px;
+	}
+	.main-content-services{
+		flex-wrap: wrap;
+
+
+	}
+	.text-content2-servioes{
+		width:440px;
+
+	}
+	.first-row{
+display:flex;
+
+	}
+	.second-row{
+		display:flex;
+	}
+	.third-row{
+		display:flex;
+	}
+	ul {
+		list-style-type: square;
+		line-height: 2;
+	  }
+	  .bottom-content-services{
+		  display: flex;
+	  }
+	  .paralist{
+		  display: flex;
+		flex-direction: column;
+	  }
+	  .main-content-services button{
+		  text-align: center;
+
+	  }
+	  .button{
+		width: 105px;
+		border: solid black 1px;
+		height: 40px;
+		text-align: center;
+		margin-top:15px;
+		margin-bottom: 15px;
+		padding-top:8px;
+		border-radius: 10%;f
+		background: white;
+	  }
+	  .paralist h4{
+		  margin-top:25px;
+	  }
+	  .services-info-img{
+		margin-top:25px;
+	  }
+	  .paralist p{
+		width:400px;
+		margin-right: 57px;
+		margin-bottom: 24px;
+
+	  }
+	  .services-header-img{
+		  margin-bottom: 24px;
+	  }
+	  .footer{
+		  margin-top: 20px;
+		  text-align: center;
+	  }
