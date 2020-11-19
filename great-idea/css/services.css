@@ -63,22 +63,21 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* start here*/
 body{
 	width: 1200px;
 }
 .container{
-	max-width: 78%;
+	max-width: 77%;
 	margin: 0px auto;
 }
 .navigation{
 	color: gray;
-	display: flex;
-	top: 10px;
-	margin-bottom: 15px;
-	background-color: rebeccapurple;
-	position: fixed;
-	z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+    align-items: center;
+    width: 100%;
 }
 
 a{
@@ -88,76 +87,71 @@ a{
 }
 
 .logo{
-	display:flex;
+    display:flex;
 }
-
-header{
-	margin-top: 125px;
-	text-align: center;
-	width: 400px;
-}
-.header-container{
-	display: flex;
-	justify-content: center;
-	align-content: space-between;
-	flex-direction: column;
-	
+.services-header-img{
+    width:100%;
 }
 h1{
-	font-size: 70px;
-	display: flex;
-	justify-content: center;
+    font-size: 29px;
+    margin-top: 4%;
+}
+.main-content{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 50%;
+}
+
+.main-content div{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    border: 1px solid black;
+    height: 200px;
+    width: 454px;
+    margin-top: 40px;
+}
+
+.main-content h2{
+    margin-top:4%;
+    margin-left:4%;
+}
+.main-content div p{
+    margin-left: 4%;
+    margin-bottom:4%;
 }
 button{
-	background-color: white;
-	display: flex;
-	padding: 5px 38px;
-	border: 1px solid black;
-	width: 150px;
-	margin-left: 125px;
-}
-.code-circle{
-	display: flex;
-	position: absolute;
-	top: 110px;
-	left: 620px;
-}
-.top-content{
-	display: flex;
-	justify-content: space-between;
-	margin: 25px 0px 25px 0px;
-}
-.features{
-	max-width:48%;
-}
-.about{
-	max-width:48%;
-}
-.bottom-content{
-	display: flex;
-	justify-content: space-between;
-	margin: 25px 0px 25px 0px;
-}
-.services{
-	max-width: 32%
-}
-.product{
-	max-width: 32%;
-}
-.vision{
-	max-width: 32%;
-}
-p{
-	margin-bottom: 15px;
-}
-footer{
-	text-align: center;
-	margin: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 6%;
+    margin-left: 4%;
 }
 hr{
-	margin-top:150px;
+    margin-top:40px;
 }
-.hr-2{
-	margin-top:40px;
-	margin-bottom:40px;
+.bottom-content{
+    display: flex;
+    margin-top: 5%;
+}
+.bottom-content p{
+    width: 83%;
+}
+ul{
+    margin-top: 10px;
+}
+li{
+    list-style-type: square;
+    padding: 1%;
+    margin-left:4%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }
