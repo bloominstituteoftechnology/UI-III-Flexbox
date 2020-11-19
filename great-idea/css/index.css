@@ -64,3 +64,292 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container-main{
+	display: flex;
+	width: 1000px;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: auto;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between; 
+	flex-direction: row;
+}
+
+ nav{
+	display:flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	width:1000px;
+	
+} 
+
+a{
+	text-decoration: none;
+	color: gray;
+}
+
+.logo{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+
+#title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* outline: 2px solid blue; */
+	width:300px;
+	height:300px;
+	font-size: 70px;
+	margin-left: 130px;
+	margin-top: 50px;
+}
+
+/* p {
+	text-align:center;
+} */
+
+.get-started{
+	display: flex;
+	width: 100px;
+	outline: 2px solid black;
+	justify-content: center;
+	margin-left: 220px;
+}
+
+ .head-main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/* outline: 2px solid yellow; */
+	align-items: stretch;
+} 
+
+.header-img{
+	display: flex;
+	/* justify-content: flex-end; */
+	/* outline: 2px solid brown; */
+	width: 400px;
+	height: 400px;
+}
+
+.h-img{
+	display: flex;
+	justify-content: flex-end;
+	/* outline: 2px solid purple; */
+}
+
+/* .head-title{
+	display: flex;
+	flex-direction: column;
+	outline: 2px solid red;
+	height: 200px;
+	margin-top: 50px;
+
+} */
+
+.top-content{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.features{
+	width: 490px;
+}
+
+.about{
+		width: 490px;
+}
+
+.bottom-content{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.services{
+	width: 325px;
+}
+
+.product{
+	width: 325px;
+}
+
+.vision{
+	width: 325px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+
+
+/* service page styling */
+
+.service-container{
+	width: 1000px;
+	margin: auto;
+}
+
+.service-top{
+	
+	display: flex;
+	justify-content: flex-start;
+	margin-top:30px;
+	
+	
+}
+
+.services-header-img{
+	display: flex;
+	margin: auto;
+	width: 1000px;
+}
+
+
+.services-detail{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.digital-design{
+	background-color: rgb(226, 224, 224);
+	display: inline-flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	
+	border: 2px solid black;
+}
+
+.ux-ui{
+	background-color: rgb(226, 224, 224);
+	display: inline-flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+.digital-marketing{
+	background-color: rgb(226, 224, 224);
+	display: flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+.web-dev{
+	background-color: rgb(226, 224, 224);
+	display: flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+.ios{
+	background-color: rgb(226, 224, 224);
+	display: flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+.android{
+	background-color: rgb(226, 224, 224);
+	display: flex;
+	width: 480px;
+	height: 190px;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+
+.digital-ui{
+	margin-top:20px;
+	margin-bottom:40px;
+	display: inline-flex;
+	flex-direction: row;
+	width:1000px;
+	height: 160px;
+	justify-content: space-between;
+	align-content: space-between;
+	
+}
+
+.marketing-web{
+	margin-bottom:40px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: space-between;
+	width:1000px;
+	height: 160px;
+	margin-top: 30px;
+}
+
+.ios-android{
+	display: inline-flex;
+	flex-direction: row;
+	width:1000px;
+	justify-content: space-between;
+	align-content: space-between;
+	height: 160px;
+	align-items:center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.learn-more{
+	border: 1px solid black;
+	text-align: center;
+	width: 120px;
+	margin-left: 60px;
+	margin-top:30px;
+}
+
+.services-facts{
+		display: flex;
+		width: 500px;
+		flex-direction:column;
+}
+
+.services-content-bottom{
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 30px;
+}
+
+ul{
+	margin-top: 20px;
+	margin-left:20px;
+	list-style-type: square;
+}
+
+.service-menu{
+	display: flex;
+	justify-content: flex-start;
+	width: 1000px;
+	margin-bottom: 20px;
+}
+
+.service-menu nav{
+	display:flex;
+	justify-content: flex-start;
+	/* justify-content: space-between; */
+	justify-content: space-evenly;
+	margin-left: -84px;
+}
