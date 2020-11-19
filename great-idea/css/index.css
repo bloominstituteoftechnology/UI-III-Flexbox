@@ -64,3 +64,331 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+p{
+	font-weight: bold;
+	
+}
+.container{
+	margin: 0 auto;
+	width: 900px;
+	
+
+	
+}
+
+
+
+
+	
+.main{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	
+}
+
+
+.iod{
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 48%;
+	vertical-align: middle;
+	padding: 3px;
+	text-align: center;
+	order: 0;
+	font-size: 80px;
+	align-content: space-around;
+	font-family: 'Bangers';
+	padding: 5%;
+}
+
+.img{
+	height: 59%;
+	width: 48%;
+	padding-left: 5%;
+
+}
+	
+
+.iod button{
+	padding: 0 25px;
+	width: 199px;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 19px;
+	border-radius: 0px;
+	
+
+	
+	
+}
+
+.middle-img{
+width: 94%;
+margin: 4% 0;
+margin-left: 2%;
+}
+
+hr{
+	width: 94%;
+	
+}
+
+.feature{
+	display: flex;
+	justify-content: space-evenly;
+	width: 95%;
+	margin-left: 2%;
+}
+
+.features{
+	
+	
+	width: 49%;
+	
+	
+	
+}
+
+.service{
+	display: flex;
+	justify-content: space-evenly;
+	width: 95%;
+	margin-left: 2%;
+}
+
+.services{
+	width: 33%;
+	
+	
+}
+
+.contact{
+	text-align: left;
+	margin-top: 5%;
+}
+
+footer{
+	text-align: center;
+	margin: 5%;
+}
+
+
+
+.container2{
+	margin: 0 auto;
+	width: 900px;
+	
+	
+	
+	
+}
+
+  
+
+.links { 
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+
+ a{
+	color:lightslategrey;
+	font-weight: bold; 
+	text-decoration: none;
+	margin-left: 9%;
+	margin: 6%;
+	padding: 2%;
+
+}
+
+.services-header-img{
+	width: 850px;
+	margin-left: 3%;
+	
+}
+
+.q{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.links img{
+	width: 21%;
+	height: 40%;
+	position: absolute;
+	bottom: 27px; right: 0;
+	
+}
+
+
+.first{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+
+
+
+.box{ 
+	display: flex;
+	flex-direction: column;
+	margin: 3%;
+	border: 1px solid black;
+	padding: 2%;
+	background-color: whitesmoke;
+
+	
+}
+
+button{
+	width:  120px;
+	height: 40px;
+	font-size: 12px;
+	position: relative;
+	right: 1px;
+	border-radius: 5px;
+}
+
+.last-box{
+	display: flex;
+	flex-direction: column;
+	margin: 3%;
+	
+
+}
+
+.services-info-img{
+	margin-top: 25px;
+	margin: 3%;
+	position: relative;
+
+	width: 395px;
+	
+}
+
+ul{
+	margin: 3%;
+	font-weight: bold;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
+hr{
+	margin: 3%;
+	border: 1px solid black;
+}
+
+
+.two-images{
+	display: flex;
+	justify-content: center;
+}
+
+.product-image1{
+	
+	width: 48%;
+	padding-right:
+	float: left;
+	margin-left: 1%;
+	border: 5px solid black;
+}
+
+.product-image2{
+	
+	width: 48%;
+	
+	border: 5px solid black;
+}
+
+.big{
+	display: flex;
+	justify-content:  center;
+}
+
+.first-column{
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
+	width: 47%;
+	margin-right: 1%;
+	background-color: whitesmoke;
+	padding-left: 1%;
+}
+
+.second-column{
+		display: flex;
+		flex-direction: column;
+		border: 3px solid black;
+		width: 47%;
+		margin-left: 1%;
+		background-color: whitesmoke;
+		padding-left: 1%;
+}
+
+.triangleup{
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 40px solid black;
+margin-left:40%;
+}
+		.triangledown{
+			width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+	  border-top: 40px solid black;
+	  margin-left: 40%;
+		}
+/***Media Queries***/
+@media screen and (max-width: 500px){body{
+  
+  margin: 0;
+  padding: 0;
+  
+  }  
+  
+  
+  .container2{
+    width: 100%;
+    display: flex;
+    
+    flex-wrap: wrap;
+  }
+  
+  header .links .q{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    
+      
+  }
+  
+  header .links img{
+    
+      display: none;
+  }
+  
+  .services-header-img {
+    width: 95%;
+  }
+  .first{
+    display: flex;
+    flex-direction: column;
+  } 
+}
