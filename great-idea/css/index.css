@@ -64,3 +64,242 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+title{
+	display:none;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.hook{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 40px 0 0 40px;
+}
+
+.start{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+/* nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	justify-items: center;
+} */
+
+a {
+	color: silver;
+	font-size: 23px;
+	text-decoration: none;
+	padding-left: 20px;
+}
+
+.logo{
+	z-index: 2;
+	padding: 20px 0 0 40px;
+	margin-top: -26px;
+}
+
+
+h1{
+	
+	font-size: 380%;
+	text-align: center;
+}
+
+.butn{
+	border: solid gray 2px;
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	margin-left: 45px;
+	border-radius: 9%;
+}
+
+.middle{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	border-top: solid silver 2px;
+	border-bottom: solid black 2px;
+	margin: 100px 130px 100px 130px;
+	padding: 50px 10px 50px 10px;
+	width: 80%;
+
+}
+
+.topMid{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+}
+
+.bottomMid{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+}
+
+#features, #about{
+	width: 48%;
+}
+
+
+#services, #product, #vision{
+	width:32%;
+}
+
+h2{
+	font-size: 18px;
+}
+
+p{
+	font-size: 18px;
+}
+
+#contact{
+	display: flex;
+	flex-direction: column;
+	margin-left: 145px;
+}
+
+address p{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;
+}
+
+.middle-img{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.copyright{
+	display: flex;
+	justify-content: center;
+	justify-items: end;
+	font-size: 15px;
+	padding: 200px; 
+}
+
+
+header{
+	display: flex;
+	justify-content: start;
+}
+.bar{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	margin: 30px 160px 160px 60px;
+}
+
+.navi{
+	margin-right: 50px;
+}
+
+/* SERVICES.HTML STYLING */
+
+
+
+.bod{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 60px 130px 60px 80px;
+}
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.intro h2{
+	padding-top: 30px; 
+}
+
+.mid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	border-top: solid black 1px;
+	border-bottom: solid black 2px;
+	/* margin: 60px 130px 60px 80px; */
+	padding: 20px 0 80px 0;
+	/* width: 85%; */
+	
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-items: center;
+	border: solid black 1px;
+	width: 46%;
+	height: 32%;
+	margin: 15px 0 15px 0;
+	padding: 20px;
+}
+
+
+#more{
+	border: solid black 1px;
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	border-radius: 9%;
+	margin-top: 20px;
+}
+
+.end{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.last{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 40%;
+
+}
+.copy{
+	display: flex;
+	justify-content: center;
+	justify-items: end;
+	font-size: 15px;
+	padding-top: 100px; 
+	margin-bottom: 10px;
+}
+
+#nab a{
+	color: gray;
+	font-size: 20px;
+	padding-right: 20px;
+}
+
+
+#servBar{
+	justify-content: space-evenly;
+}
