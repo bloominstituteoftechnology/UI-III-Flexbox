@@ -64,3 +64,209 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+	
+}
+
+.logo {
+	vertical-align: middle;
+	margin-left: 50px;
+	
+}
+
+.h1 {
+padding-top: 12px;
+
+
+}
+.top-content {
+	width: 975px;
+	margin: 0 auto;
+	padding: 10px 0px;
+	border-bottom: 1px solid #000;
+}
+
+.top-content nav {
+	color: lightgray;
+	padding: 50px 0;
+}
+
+.top-content nav a {
+	display: inline-block;
+	color: lightgray;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 60px;
+	
+}
+
+.main-content  {
+	width: 975px;
+	margin: 0 auto;
+	border-style: 1px solid #000;
+	
+}
+
+.main-content div {
+	display: flex;
+	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid #000;
+	padding: 20px 0;
+}
+
+.box1 .column {
+	width: 40%;
+	margin: 30px 10px 10px 10px; 
+	padding: 20px 0;
+	border: 1px solid #000;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.box2 {
+	display: flex;
+	width: 40%;
+	margin: 30px 10px 10px;
+	padding: 20px 0;
+	border: 1px solid #000;
+}
+
+.box3 {
+	width: 40%;
+	margin: 30px 10px 10px;
+	padding: 20px 0;
+	border: 1px solid #000;
+}
+
+.box4 {
+	width: 40%;
+	margin: 30px 10px 10px;
+	padding: 20px 0;
+	border: 1px solid #000;
+}
+
+.box5 {
+	width: 40%;
+	margin: 30px 10px 10px;
+	padding: 20px 0;
+	border: 1px solid #000;
+}
+
+.box6 {
+	width: 40%;
+	margin: 30px 10px;
+	padding: 20px 0;
+	border: 1px solid #000;
+}
+
+.column button {
+	width: 110px;
+	font-size: 12px;
+	padding: 10px auto;
+	margin: 10px;
+	float: left;
+	height: 30px;
+		
+}
+
+.box2 button {
+	width: 110px;
+	font-size: 12px;
+	padding: 10px auto;
+	margin: 10px;
+	float: left;
+	height: 30px;
+}
+
+.box3 button {
+	width: 110px;
+	font-size: 12px;
+	padding: 10px auto;
+	margin: 10px;
+	float: left;
+	height: 30px;
+}
+
+.box4 button {
+	width: 110px;
+	font-size: 12px;
+	padding: 10px auto;
+	margin: 10px;
+	float: left;
+	height: 30px;
+}
+ 
+.box5 button {
+	width: 110px;
+	font-size: 12px;
+	padding: 10px auto;
+	margin: 10px;
+	float: left;
+	height: 30px;
+}
+
+.box6 button {
+	width: 110px;
+	font-size: 12px;
+	padding: 10px auto;
+	margin: 10px;
+	float: left;
+	height: 30px;
+}
+
+.bottom-section {
+	width: 40%;
+	margin: 30px 10px;
+	padding: 20px 0;
+	margin-top: 10px;
+}
+
+
+.bottom-section div{
+	width: 500px;
+	padding: 10px 10px;
+	margin: 150px 150px;
+	height: 20px;
+}
+
+
+
+.bottom-section .ul {
+	list-style-type: ;
+}
+
+.services-info-img {
+	float: top-right;
+	top: 50%;
+	
+	
+}
+
+footer {
+	text-align: center;
+	width: 100%;
+	padding: 40px 0;
+}
