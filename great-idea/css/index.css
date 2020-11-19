@@ -64,3 +64,323 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+
+header{
+	display: flex;
+}
+header nav {
+  display: flex;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+/* cta */
+
+.cta{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.cta .cta-text {
+  display: flex;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+  flex-direction: column;
+}
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  display: flex;
+  margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+  display: flex;
+  
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+  display: flex;
+ 
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+/*$$$$$$$$$SERVICES CSS$$$$$$$$$$*/
+
+.container2 {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+  
+}
+
+/* header */
+
+header{
+	display: flex;
+}
+.header{
+  display: flex;
+  width: 880px;
+  margin: 0 auto;
+  
+}
+header nav {
+  display: flex;
+  width: 691px;
+  vertical-align: top;
+  margin: 35px 0px 0px 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+link{
+  padding:20x;
+}
+
+
+
+.link{
+  padding: 20px;
+}
+
+.container3 {
+  padding: 35px 35px 0px 35px;
+}
+
+.services-header-img {
+  padding: 0px 0px 20px 0px;
+  width: 100%; 
+      
+}
+
+.top{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.box1{
+  border: 1px black solid;
+  background: #EFEEEE;
+  color: black;
+  margin: 15px 15px 15px 0px;
+  padding: 20px;
+}
+.box2{
+  border: 1px black solid;
+  background: #EFEEEE;
+  color: black;
+  margin: 15px 0px 15px 15px;
+  padding: 20px;
+}
+
+.middle{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.box3{
+  border: 1px black solid;
+  background: #EFEEEE;
+  color: black;
+  margin: 15px 15px 15px 0px;
+  padding: 20px;
+}
+.box4{
+  border: 1px black solid;
+  background: #EFEEEE;
+  color: black;
+  margin: 15px 0px 15px 15px;
+  padding: 20px;
+}
+
+.bottom{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.box5{
+  border: 1px black solid;
+  background: #EFEEEE;
+  color: black;
+  margin: 15px 15px 15px 0px;
+  padding: 20px;
+}
+.box6{
+  border: 1px black solid;
+  background: #EFEEEE;
+  color: black;
+  margin: 15px 0px 15px 15px;
+  padding: 20px;
+}
+
+.learn{
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+    border: 1px black solid;
+}
+
+.learn:hover{
+  background: black;
+  color: white;
+}
+
+hr{
+  margin: 20px 0px 20px 0px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.facts {
+  flex-direction: row;
+  display: flex;
+  padding: 15px 35px 35px 35px
+}
+.text{
+      justify-content: space-around;
+    padding: 0px 20px 0px 0px;
+}
+ul{
+  padding: 30px;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 15px 0;
+  text-align: center;
+  font-size: 14px;
+}
