@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,40 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
+
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -49,18 +132,278 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+/*header*/
+
+header {
+	width: 100%;
+	text-align: right;
+	margin-bottom: 50px;
+}
+
+header nav {
+	display: inline-block;
+}
+
+header nav a {
+	display: inline-block;
+	margin: 25px;
+}
+
+header nav a:first-child {
+	margin-left: 20px;
+}
+
+header nav .logo {
+	vertical-align: middle;
+	padding-right: 60px;
+	margin-left: 80px;
+}
+
+section {
+	margin: 24px 0;
+
+}
+
+/* Innovation */
+
+section.section-banner {
+	border-bottom: 1px double black;
+	padding-bottom: 50px;
+}
+
+section div.innovation {
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	height: 100%;
+	padding: 40px;
+	margin-right: 70px;
+}
+
+div.innovation h1 span {
+	font-size: 60px;
+	display: block;
+}
+
+div.innovation button {
+	width: 160px;
+	padding: 4px;
+}
+
+section .hero-image {
+	width: 35%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* top content */
+
+.content-top {
+	width: 100%;
+	display: inline-flex;
+}
+
+section div p {
+	text-align: justify;
+
+}
+
+section.content-top div {
+	width: 48%;
+
+}
+
+section.content-top div:first-child {
+	margin-right: 40px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+/* bottom content */
+section.content-bottom {
+	width: 100%;
+	border-bottom: 1px double black;
+	padding-bottom: 30px;
+	display: inline-flex;
+}
+
+.content-bottom div {
+	width: 30%;
+	margin-right: 22px;
+
+}
+
+section.content-bottom div:last-child {
+	margin-right: 40px;
+}
+
+/* footer */
+
+/* services.html */
+* {
+	box-sizing: border-box;
+}
+
+
+.services-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height: 1.5;
+}
+
+.services-content .services-header-img {
+	margin: 20px 0;
+}
+
+.services-content h1 {
+	font-size: 30px;
+	margin: 10px;
+}
+
+.services-content .services-text {
+	border-bottom: 2px solid black;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.services-content .card-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.services-content .card-row .card {
+	padding: 20px;
+	border: 2px solid black;
+	width: 420px;
+	background: seashell;
+	margin: 40px
+}
+
+.services-content .card-row .card button {
+	padding: 10px 40px;
+	margin-top: 20px;
+	background: seashell;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+.services-content .card-row .card button:hover {
+	background: black;
+	color: seashell;
+}
+
+.services-content .services-info ul {
+	margin: 20px;
+}
+
+.services-content .services-info ul li {
+	list-style: square;
+	padding: 5px
+}
+
+.services-content .services-info {
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 2px solid black;
+	margin: 20px 0 30px 0;
+	padding-top: 40px;
+}
+
+.services-content .services-info .facts p {
+	margin: 20px;
+}
+
+.services-content .services-info .services-info-img {
+	width: 420px;
+	height: 250px;
+}
+
+.card {
+	display:flex;
+	flex-direction:column;
+	border: solid 1px black;
+	border-radius: 5px;
+	margin: 10px;
+	width: 45%;
+	padding: 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	font-style: bold;
+	text-align: center;	
+}
+
+p{
+	margin:10px 0;
+}
+.btn{
+    padding: 10px;
+    width: 150px;
+    margin: 10 px;
+    border: .5px solid grey;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.awesome {
+	display: flex;
+
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: space-around;
+	margin-left: 10%;
+}
+
+.facts {
+	display: flex;
+	flex-direction: column;
+}
