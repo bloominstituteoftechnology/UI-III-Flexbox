@@ -63,4 +63,160 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	margin: 4%;
+	margin-top: 10%
+}
+/* Navigation Menu */
+header{
+	height: 10%vh;
+	width: 100%;
+	
+}
+nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	left: 0%;
+	
+	top: 0%;
+	background-color: white;
+	height: 10%
+}
+nav a{
+	text-decoration: none;
+	color: gray;
+	padding: 1%;
+	border-radius: 35%;
+	
+	
+}
+nav a:hover{
+	background-color:gray;
+	color: white ;
+}
+/* Column Left Pic Right */
+.colPic{
+	display: flex;
+}
+.colPic2{
+	margin-top: 3%;
+	display: flex;
+}
+.colPic div{
+	width:55%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.colPic2 div{
+	width:50%;
+	display: flex;
+	justify-content: center;
+	
+	flex-direction: column;
+}
+.colPic2 p{
+	padding-bottom: 2%
+}
+.colPic2 li{
+	padding-top: 1%;
+	padding-bottom: 1%
+}
+.colPic h1{
+	text-align: center;
+	font-size: 400%
+}
+.colPic h2{
+	width: 25%;
+	
+	
+	text-align: center;
+	border: 1px solid grey;
+}
+/* Twin Columns */
+
+.twoCol{
+	display: flex;
+	border-top: 1px solid black;
+	padding-top: 3%;
+	margin-top: 3%;
+	padding-bottom: 3%;
+	
+}
+.twoCol div{ 
+	width: 45%
+}
+/* Banner Image */
+.services-header-img{
+	width: 100%
+}
+.middle-img{
+	width: 100%
+}
+/* Three Columns */
+.threeCol{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3%;
+	padding-bottom: 3%;
+	border-bottom: 1px solid black
+
+}
+.threeCol div{
+	width: 30%;
+}
+/* Contact Section */
+.contact address{
+	padding: 1%
+}
+.contact p{
+	padding: 1%
+}
+.contact h4{
+	padding: 1%
+}
+
+footer{
+	padding: 3%;
+	text-align: center
+}
+
+/* One Column */
+.oneCol div{
+	margin-top: 3%;
+	padding-bottom: 3%;
+	border-bottom: 1px solid black
+}
+
+/* Grid Layout */
+.sixBox{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3%;
+	padding-bottom: 3%;
+	border-bottom: 1px solid black;
+	flex-wrap: wrap;
+}
+.sixBox div{
+	width: 48%;
+	border: 1px solid black;
+	padding: 3%;
+	margin-top: 3%;
+	padding-bottom: 3%;
+	background-color: whitesmoke
+
+}
+.learnButton{
+	text-align: center;
+	background-color: white
+}
+
+ol{
+	list-style-type: disc;
+	list-style-position: inside
+}
+ 
