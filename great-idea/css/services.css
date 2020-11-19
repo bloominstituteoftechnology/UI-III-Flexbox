@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+    width: 880px;
+    margin: auto;
+}
+
+.service-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-section h1 {
+    font-size: 22
+
+}
+
+
+.masterdiv .boxlayout {
+    padding: 20px;
+    border: 1px solid black;
+    width: 420px;
+    background: whitesmoke;
+    margin: 20px 0;
+}
+
+.masterdiv .boxlayout button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.masterdiv .boxlayout button:hover {
+    background:black;
+    color:white;
+}
+
+.spaceoutheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.boxlayout p {
+    
+}
+
+.boxlayout h2 {
+
+}
+
+.masterdiv {
+
+}
+
+.flexpower1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexpower2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexpower3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+}
