@@ -63,4 +63,101 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+nav {
+    display: flex;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 25px;
+}
+
+nav .logo {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+	padding-left: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+	margin: 30px 0px 80px 0px;
+}
+
+header .title {
+	font-size: 68px;
+	text-align: center;
+	display: inline-block;
+	margin: 0px 15px;
+	margin-right: 100px;
+}
+
+header .title button {
+	border: 1px solid black;
+	margin-top: 0px;
+	padding: 6px 40px;
+}
+
+header img {
+	display: inline-block;
+	width: 35%;
+}
+
+.top-content{
+    display: flex;
+    padding-top: 4%;
+    border-top: 1px solid black;
+	/* display: inline-block;
+	width: 49%;
+	text-align: justify;
+	padding: 10px; */
+}
+
+.services{
+    margin-right: 1%;
+}
+
+.product{
+    margin-right: 1%;
+}
+
+.middle-img {
+	margin: 30px 0px;
+}
+
+/* .bottom-content {
+	width: 876px;
+} */
+.bottom-content{
+    display: flex;
+    padding-bottom: 4%;
+    border-bottom: 1px solid black;
+}
+/* .bottom-content div {
+	display: inline-block;
+	width: 33%;
+	text-align: justify;
+	padding: 10px;
+} */
+
+.contact {
+	margin-top: 30px;
+}
+
+body { /* centers the website */
+    display: flex;
+    flex-direction: column;
+    margin-left: 21%;
+    margin-right: 21%;
+	/* width: 876px;
+	margin: 0 auto; */
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+}
