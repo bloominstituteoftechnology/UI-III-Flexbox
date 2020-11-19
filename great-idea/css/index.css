@@ -63,4 +63,224 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.navbar {
+	margin-left: 14.5%;
+}
+
+.navbar a.nav {
+	position: relative;
+	text-align: center; 
+	font-size: 18px;
+	margin-left: 4%;
+	top: 20px; 
+	color:grey; 
+	text-decoration: none;
+	display: inline-block;
+}
+
+.logo { 
+	position: absolute;
+	height: 40px;
+	width: 150px;
+	margin-left: 8%;
+	top: 2%;
+}
+
+.services-header-img {
+    display: inline-block;
+    width: 62.1%;
+    height: 20%;
+    margin-top: 4%;
+    margin-left: 16%;
+}
+
+.services {
+    width: 62.2%;
+    margin-left: 16%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.services h1 {
+    font-size: 25px;
+}
+
+.services p {
+    text-align: justify;
+}
+
+.top-border .section-border {
+    border-bottom: 1px solid black;
+    margin-top: 2%;
+    margin-left: 16%;
+    margin-right: 21.9%;
+}
+
+.middle-section-flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 16%;
+    margin-bottom: 5%;
+    height: 110%;
+    width: 62.1%;
+}
+
+.middle-section-flexbox .content-box {
+    padding: 20px;
+    margin-top: 4%;
+    border: 1px solid black;
+    width: 48%;
+    height: 30%;
+    background-color: lightgrey;
+}
+
+.middle-section-flexbox .content-box h1, p, a {
+    text-align: justify;
+}
+
+.bottom-border .section-border {
+    border-bottom: 2px solid black;
+    margin-top: 3%;
+    margin-left: 16%;
+    margin-right: 21.9%;
+}
+
+.learn-more {
+    /*this is the learn more button. it needs to link to an anchor and be gray with like a box around it with the round corners, with a background color white*/
+}
+
+.facts-services {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 62.1%;
+    height: 70%;
+    margin-left: 16%;
+}
+
+.bottom-content {
+    margin-top: 4%;
+    width: 48%;
+}
+
+.bottom-content ul li {
+    list-style-type: square;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.bottom-content .service-info-image {
+    width: 402px;
+}
+
+
+
+.content {
+    position: relative;
+    height: 60%;
+    width: 100%;
+	margin-left: 20%;
+    margin-bottom: 1%;
+ }
+
+ /* H1 Tag*/
+.content h1 {
+    position: absolute;
+    display: inline-block;
+    font-size: 60px;
+    margin-top: 10.5%;
+    margin-bottom: 1px;
+    margin-left: 1%;
+	text-align: center;
+}
+
+/* Anchor Tag*/
+.content a {
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    padding: 5px 40px 5px 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid black;
+ }
+
+ /* Image Alignment	*/
+.header-img {
+    display: inline-block;
+    position: relative;
+    margin-left: 30%;
+    margin-bottom: 0;
+    margin-top: 4.5%;
+
+}
+
+/* Border Alignment */
+.border {
+    border-bottom: 1px solid black;
+    margin-left: 16%;
+    margin-right: 21%;
+}
+
+section.topleft-section {
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    text-align: justify;
+    margin-left: 16%;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+section.topright-section {
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+section.middle-img img {
+    width: 910px;
+    height: 175px;
+    margin-left: 225px;
+}
+
+.index-bottom-content {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 16%;
+    margin-right: 20.9%;
+
+}
+
+.index-bottom {
+    width: 30%;
+    text-align: justify;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+address {
+    display: inline-block;
+    width: 20%;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 16%;
+}
+
+address p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 10px;
+    text-align: center;
+}
