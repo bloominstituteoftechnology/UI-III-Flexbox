@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/*test*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,3 +64,239 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+header nav{
+	display:inline-block;
+	margin-top: 35px;
+}
+
+header nav a{
+	margin: 0 20px;
+	text-decoration: none;
+	color: gray;
+}
+
+header .logo{
+	margin-left: 140px;
+}
+
+.iod{
+	display:inline-block;
+	margin-top: 30px;
+	position: relative;
+}
+
+.iod .code{
+	margin-left: 450px;
+	top:-70px;
+	position: relative;
+		top: 0px;
+}
+
+.iod-text{
+	text-align: center;
+	/* font-size: 52pt; */
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+}
+h1{
+	font-size: 52pt;
+}
+
+.iod .iod-text p#gslink{
+	border: 1px solid grey;
+    width: 109px;
+    padding: 3px;
+    color: lightslategrey;
+    margin-left: 84px;
+    margin-top: -5px;
+}
+.upper-content{
+	border-top: 1px solid gray;
+}
+
+.content{
+	display:inline-block;
+	position: relative;
+	margin: 13px;
+}
+.upper-content .ftext p{
+	width: 40%;
+}
+
+.upper-content .atext p{
+	width:40%;
+	position: absolute;
+	top:45px;
+	left: 450px;
+}
+
+.upper-content .atext h4{
+	position:absolute;
+	top:20px;
+	left: 450px;
+}
+
+.middle-img{
+	display:inline-block;
+	position: relative;
+
+}
+.upper-content div{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.lower-content{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.lower-content .text{
+	display:inline-block;
+	width:33%;
+
+}
+
+.contact{
+	display: inline-block;
+	width:95%;
+	border-top:1px solid grey;
+	margin: 10px;
+}
+
+.contact h4{
+	margin-top: 30px;
+}
+
+.contact p{
+	margin-bottom: 12px;
+}
+footer{
+	display:flex;
+	justify-content: center;
+}
+.services{
+	width: 95%;
+	margin:10px;
+	/* border-bottom: 1px solid black;*/
+}
+body .services-header-img{
+	display:flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left: 9px;
+
+}
+/* body{
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+} */
+.boxContainer{
+	/* width: 45%;*/
+	border-top: 1px solid gray;
+	border-width: 95%;
+	padding: 10px;
+	/* border: 2px solid darkgray;
+	background-color: grey; */
+	display:flex;
+	justify-content: space-evenly;
+	/* flex-wrap: wrap; */
+}
+.boxContainer2{
+	/* width: 45%; */
+	padding: 10px;
+	/* border: 2px solid darkgray;
+	background-color: grey; */
+	display:flex;
+	justify-content: space-evenly;
+	/* flex-wrap: wrap; */
+}
+.boxContainer3{
+	/* width: 45%;*/
+	padding: 10px;
+	/* border: 2px solid darkgray;
+	background-color: grey; */
+	display:flex;
+	justify-content: space-evenly;
+	/* flex-wrap: wrap; */
+}
+.box1{
+	align-self:auto;
+	flex-direction: column;
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	margin:20px;
+}
+.box2{
+	flex-direction: column;
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	margin:20px;
+}
+.box3{
+	flex-direction: column;
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	margin:20px;
+}
+.box4{
+	flex-direction: column;
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	margin: 20px;
+}
+.box5{
+	flex-direction: column;
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	margin:20px;
+	
+}
+.box6{
+	flex-direction: column;
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	margin:20px;
+}
+
+.learn{
+	border: 1px solid grey;
+	background-color: white;
+	text-align: center;
+	width: 100px;
+	margin-top:5px;
+    padding: 3px;
+	color: lightslategrey;
+	font-family: 'Lucida Sans', sans-serif;
+}
+.debrief{
+	display: flex;
+	justify-content: space-evenly;
+	border-top: 1px solid gray;
+}
+.closing{
+	margin: 10px;
+	flex-direction: column;
+	width: 38%;
+}
+#closelist{
+	margin: 10px;
+	list-style-type: disc;
+
+}
+
+.services-info-img{
+	justify-content: end;
+	max-width:80%;
+	height: auto;
+	margin-left: 85px;
+	margin-top: 10px;
+}
