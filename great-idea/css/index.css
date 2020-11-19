@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,217 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+  width: 920px;
+  margin: auto;
+}
+
+header {
+  background: rgb(12, 91, 139);
+  width: 920px;
+  height: 80px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header nav a {
+  margin: 0 20px;
+  padding: 5px;
+  text-decoration: none;
+  color: lightgray;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+header nav a:hover {
+  color: yellow;
+}
+
+.cta {
+  margin: 30px auto;
+  padding: 120px 30px 70px 30px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.cta-text {
+	/* display: inline-block; */
+	/* display: flex; */
+  /* margin: 57px; */
+  text-align: center;
+}
+
+.cta-text h1 {
+  font-size: 75px;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 40px;
+  background-color: transparent;
+  border-color: black;
+}
+
+.top-content {
+	/* display: inline-block; */
+	display: flex;
+  margin-bottom: 45px;
+}
+
+.middle-content {
+  margin-bottom: 45px;
+}
+
+.bottom-content {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding-bottom: 35px;
+}
+
+.bottom-text-content {
+  padding: 10px;
+}
+
+.contact {
+  margin: 40px 0;
+}
+
+.contact p {
+  padding: 10px 0;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.services-info {
+	margin: 100px auto;
+	height: 375px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	border-bottom: 1px solid  black;
+}
+
+.services-text, .product-text {
+	margin-top: 30px;
+}
+
+.services-text h1, .product-info h1 {
+	font-size: 26px;
+}
+
+.services-content {
+  margin-top: -60px;
+  margin-bottom: 100px;
+  padding-bottom: 40px;
+	height: 850px;
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.service-block {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 440px;
+  height: 250px;
+  padding: 20px;
+  background-color: rgb(243, 244, 245);
+	border: 1px solid black;
+}
+
+
+.service-block button {
+  font-size: 12px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+.service-block button:hover {
+  background:  rgb(12, 91, 139);
+  color: white;
+  border: none;
+}
+
+.services-faq {
+  margin-top: -60px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-faq-block {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: square;
+  padding: 20px;
+}
+
+li {
+  padding: 10px;
+}
+
+.product-info {
+	margin: 100px auto;
+	height: 610px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	border-bottom: 1px solid  black;
+}
+
+.product-image {
+  border-radius: 50%;
+}
+
+.product-content {
+  margin-top: -50px;
+  padding-bottom: 50px;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  /* border: 1px solid red; */
+}
+
+.product-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-text {
+  margin-bottom: 80px;
+  padding: 20px;
+}
+
+.product-faq {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-faq-block {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+}
