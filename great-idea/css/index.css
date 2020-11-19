@@ -64,3 +64,157 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 878px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+nav {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	padding: 10px;
+	align-items: baseline;
+}
+
+nav a {
+	text-decoration:none;
+	color: gray;
+	margin: 0 30px;
+	margin-top: 50px;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid black;
+	align-content: center;
+}
+
+.box1 {
+	font-size: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.topContent {
+	border: 1px solid black;
+	align-content: center;
+	display: flex;
+	
+}
+
+.bottomContent {
+	border: 1px solid black;
+	align-content: center;
+	display: flex;
+}
+
+.boxes1 {
+	width: 50%;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+.boxes2 {
+	
+	width: 50%;
+	border: 1px solid black;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.boxes3 {
+	border: 1px solid black;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.boxes4 {
+	border: 1px solid black;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.middle-img {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.boxes5 {
+	border: 1px solid black;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact h3{
+	margin-top: 25px;
+}
+
+.spacer {
+	margin: 25px 0 25px;
+}
+
+.sectionFooter {
+	border: 1px solid black;
+	text-align: center;
+	margin: 25px;
+	
+}
+
+/* services.html code here*/
+
+.nav-services {
+	display: flex;
+	flex-direction: space-between;
+	
+}
+
+.container-services {
+	border: 1px solid red;
+}
+
+.services-top-bar {
+	display: flex;
+}
+
+
+.logo {
+	display: flex;
+	float: right;
+}
+
+.service-image-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.service-image-wrapper img {
+	width: 100%;
+}
+
+
+,mid-content {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid black;
+}
+
