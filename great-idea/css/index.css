@@ -53,8 +53,8 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,5 +62,119 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.logo {
+	width: 120%; 
+}
+nav a {
+	margin: 30px;
+	font-size: 15px;
+	text-decoration: none;
+	color:grey;
+}
+.image-header{
+	margin-left: 200px;
+}
+#innovation {
+	font-size: 70px;
+	width: 10px;
+	text-transform: uppercase;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+}
+.button{
+	border: 1px solid black;
+	padding: 10px 35px 10px 35px;
+	width: 160px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+#features {
+	width: 40%;
+}
+#about {
+	width: 40%;
+}
+.container {
+	display: flex;
+	justify-content:center;
+}
+.middle-img {
+	margin-top: 50px;
+	margin-bottom: 50px
+}
+#services {
+	margin-left: 100px;
+	margin-bottom: 50px;
+	width: 30%;
+	padding: 10px;
+}
+#product {
+	width: 30%;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+#vision {
+	width: 30%;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+hr { 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-style: inset;
+  border-width: 1px;
+} 
+#contact{
+	margin-top: 50px;
+	margin-left: 100px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.services-header-img {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+h1 {
+	font-size: 35px;
+}
+#services-header {
+	margin-left: 100px;
+	margin-bottom: 50px;
+	margin-right: 100px;
+}
+.radius {
+	border-radius: 10px;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.item {
+	width: 40%;
+	background-color:Snow;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 20px;
+}
+.list {
+	list-style-type: square;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.services-info {
+	display: flex;
+	justify-content: space-around;
+}
+.about-services{
+	width: 30%;
+}
