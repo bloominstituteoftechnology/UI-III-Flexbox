@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -63,4 +63,220 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0 0 1%;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  justify-content: space-between;
+}
+
+/* cta */
+.cta {
+	display: flex;
+	justify-content: space-around;
+}
+
+.cta-text {
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+}
+
+/* .cta .cta-text {
+  display: flex;
+  font-size: 77px;
+  margin-top: 120px;
+  padding: 0px 75px;
+} */
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  display: flex;
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  /* width: 410px; */
+  /* display: inline-block; */
+  /* margin-right: 34px; */
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  display: flex;
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  /* display: inline-block; */
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.buttons{
+  font-size: 30px;
+}
+
+.services-header-img{
+  width: 800px;
+  margin-bottom: 20px;
+}
+
+/* .digital-design, .uxui, .digital-marketing, .web-development, .ios-development, .android-development{
+  border: solid;
+  border-width: 2px;
+  margin: 5%;
+  background-color: lightgrey;
+} */
+
+/* .services-facts{
+ display: flex;
+ flex-flow: column;
+} */
+
+nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 20px 0px 20x 0px;
+}
+
+.top {
+  margin: 20 px 0px 20px 0px;
+  padding-bottom: 5%;
+  border-bottom: 1px solid;
+}
+
+.parent-flex{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 20px 0px;
+  padding-top: 3%;
+}
+
+.content-container{
+  background-color: lightgrey;
+  width: 49%;
+  padding: 20px;
+}
+
+.card-text{
+  margin-bottom: 20px;
+}
+
+.card-button{
+ background-color: white;
+ border: 1px solid black;
+ padding: 10px;
+ width: 150px;
+ border-radius: 5px;
+}
+
+.whole-container{
+ width: 800px;
+ margin: 0 auto;
+}
+
+.services-facts-container{
+ display: flex;
+ justify-content: space-between;
+ align-content: center;
+ border-top: 2px solid black;
+ padding-top: 3%;
+}
+
+.list{
+ padding-bottom: 5%;
+}
+
+.ul{
+ list-style-type: square;
+ list-style-position: inside;
+}
+
+.services-info-img{
+  display: flex;
+  justify-content: flex-end;
+  width: 392px;
+}
