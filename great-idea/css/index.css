@@ -64,3 +64,189 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.navbar{
+	height: 50px;
+	width: 90%;
+	margin-top: 30px;
+	align-items: baseline;
+}
+
+nav{
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.logo{
+	display: flex;
+}
+
+a{
+	text-decoration: none; 
+	color: lightgray;
+	width: 50px;
+	height: 50px;
+	
+}
+
+a:hover{
+	border-top: 2px solid dodgerblue;
+}
+
+header{
+	display: flex;
+	justify-items: center;
+	width:100%;
+	text-align: center;
+	margin-top: 50px;
+	border-bottom: 1px solid black;
+}
+
+.header-image {
+	width:49%;
+	justify-items: center;
+	margin-top: 30px;
+}
+
+.text{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	margin-bottom:75px;
+}
+
+.slogan {
+	font-size: 6em;
+	margin-top: 15px;
+}
+
+button{
+	background: white;
+	border: 1px solid black;
+	font-size: 1em;
+	margin: 20px 200px;
+}
+
+h3{
+	font-size: 1.3em;
+}
+
+.top-content{
+	display: flex;
+	line-height: 1.5;
+	margin-left: 1%;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.services{
+	width: 47%;
+}
+
+.about{
+	width: 47%;
+	padding-left: 2%;
+}
+
+.bottom-content{
+	display: flex;
+	flex-flow: row wrap;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	line-height: 1.5;
+	width: 100%;
+}
+
+.product{
+	width: 30%;
+	padding-right: 3%;
+}
+
+.features{
+	width: 30%;
+	padding-right: 3%;
+}
+
+.vision{
+	width:30%;
+}
+
+.middle-img{
+	width: 100%;
+	height: 12%;
+}
+
+.contact{
+	line-height: 1.3;
+	margin-top: 30px;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+}
+
+/*Services page*/
+.servicePageHeader{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+.services-header-img{
+	display: flex;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.box{
+	width: 45%;
+	border: 1px solid black;
+	background: #DCDCDC;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.box:nth-of-type(odd){
+	margin-right: 80px;
+	margin-left: 5px;
+}
+
+ul{
+	list-style-type: square;
+	padding-left: 10px;
+	line-height: 1.5;
+}
+
+.roundedbutt{
+	padding: 5px 20px;
+	margin: 5px auto;
+	border-radius: 5px;
+	font-size: 0.7em;
+}
+
+.servicesPageBottom{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottomfacts, .bottomimg{
+	margin: 5px;
+}
