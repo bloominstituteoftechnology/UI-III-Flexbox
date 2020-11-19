@@ -1,0 +1,133 @@
+body {
+	line-height: 1;
+}
+
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container{
+  width: 880px;
+  margin: 0 auto;
+
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+nav{
+
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.services{
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobs{
+  border: 1px solid black;
+  background-color: hsl(43, 4%, 95%);
+  padding: 15px;
+  margin: 20px 15px;
+  margin-bottom: 30px;
+
+}
+
+@media screen and (max-width: 800px){
+
+.headerImg{
+	display: none;
+}
+nav{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+nav a{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+}
+
+.Facts{
+	display: flex;
+	flex-direction: column;
+}
+
+.container{
+	width: 100%;
+}
+
+}
+
+.jobs p{
+	padding-bottom: 10px;
+}
+
+.jobs a{
+  padding: 5px 30px;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.Facts{
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid black;
+  padding-top: 30px;
+}
+ul{
+  list-style-type: square;
+}
+li{
+  padding: 5px 0;
+}
+
+.copyRight{
+  margin-top: 90px;
+  text-align: center;
+}
