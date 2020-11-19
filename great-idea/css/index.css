@@ -64,3 +64,122 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.parent-container{
+	display: flex;
+	width: 900px;
+	margin: auto;
+	align-items: center;
+	align-content: center;
+	padding: 50px;
+	flex-direction: column;
+
+}
+.header{
+	display: flex;
+	flex-direction: row;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.nav{
+	display: flex;
+    flex-flow: row wrap;
+	justify-content: space-between;
+	display: block;
+    text-align: center;
+    padding: 10px 12px;
+	text-decoration: none;
+	font-size: 25px;
+}
+.header-image{
+display: flexbox;
+align-items: flex-end;
+}
+.container1{
+	display: flexbox;
+	flex-direction: row;
+}
+.image1{
+	width: 100%;
+	margin: 5px;
+}
+	
+.container2{
+	display: flex;
+	flex-direction: row;
+	border-bottom: solid black;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: left and right;
+	
+}
+.section1{
+margin: 5px;
+width: 45%;	
+border: solid black;
+padding: 5px;
+}
+.section2{
+	margin: 5px;
+	width: 45%;	
+	border: solid black;
+	padding: 5px;
+	}
+	.section3{
+		margin: 5px;
+		width: 45%;
+		border: solid black;
+		padding: 5px;	
+		}
+		.section4{
+			margin: 5px;
+			width: 45%;	
+			border: solid black;
+			padding: 5px;
+			}
+			.section5{
+				margin: 5px;
+				width: 45%;
+				border: solid black;
+				padding: 5px;	
+				}
+				.section6{
+					margin: 5px;
+					width: 45%;
+					border: solid black;
+					padding: 5px;
+						
+
+					}
+					.container3{
+						display: flex;
+						flex-direction: row;
+						flex-wrap: nowrap;
+						justify-content: space-between;
+						margin: 5px;
+					}
+					.section7{
+						margin: 5px;
+						width: 45%;
+						padding: 5px;
+					
+				
+					}
+					}
+					.section8{
+						display: flex;
+						justify-content: flex-end;
+				
+						margin: 5px;
+						width: 45%;
+						padding: 5px;
+					}
+					footer{
+						display: flex;
+						justify-content: center;
+					}
+					
+						
+					
+
