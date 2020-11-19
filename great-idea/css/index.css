@@ -64,3 +64,173 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{
+	width: 80%;
+	margin: 0% auto;
+}
+.navigation{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.navlinks{
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
+	flex-direction: row;
+}
+a{
+	color: grey;
+	font-size: 20px;
+	font-style: bold;
+	text-decoration: none;
+}
+#logo{
+	
+}
+
+.intro{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+	}
+	#title{
+		position: absolute;
+		font-size: 84px;
+		text-align: center;
+		padding-left: 15%;
+		
+	}
+	.headimg{
+		position: relative;
+		padding-left: 60%;
+		
+	}
+	.startbutton{
+		border: 1px solid black;
+		color: black;
+		padding: .25% 2%;
+		
+	}
+
+.textOne{
+	padding-top: 3%;
+	padding-bottom: 3.5%;
+	display: inline-block;
+	border-top: 1px solid black;
+	font-size: 1.5em;
+	display:flex;
+  	flex-direction:row;
+	}
+	}
+	.features, .about {
+		display: inline-block;
+		line-height: 17px;
+		font-size: 1.2rem;
+		width: 35%;
+	}
+
+.middle-img{
+	display: flex;
+	width: 80%;
+	margin: 50px auto;
+}
+
+.textTwo{
+	padding-top: 3%;
+	padding-bottom: 3.5%;
+	display: inline-block;
+	border-bottom: 1px solid black;
+	font-size: 1.2em;
+	display:flex;
+	flex-direction:row;
+	}
+	.services, .product, .vision {
+		display: inline-block;
+		line-height: 17px;
+		width: 30%
+	}
+
+.footer{
+	margin-top: 2%;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.copyright{
+	display: flex;
+	justify-content: center;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+
+/* Serices Page */
+
+.services-header-img{
+	display: flex;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.serviceText{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid black;
+	width: 80%;
+	margin: 50px auto;
+	padding-bottom: 30px;
+}
+.stext{
+
+}
+
+
+.boxes{
+	margin-top: 3%;
+	margin-bottom: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.infobox{
+	border: 1px solid black;
+	padding: 2% 3%;
+	background-color: lightgray;
+	max-width: 37%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+}.learnbuttons{
+	border: 1px solid lightgray;
+	border-radius: 7px;
+	padding: 3px 18px;
+	background-color: white;
+	color: black;
+	font-size: 17px;
+}
+
+
+.end{
+	border-top: 1px solid black;
+	padding-top: 16px;
+	max-width: 80%;
+	display:flex;
+	padding: 0px 30px:
+}
+.endtext{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+ul{
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+li{
+	  list-style-type: square;
+	  padding: 5px;
+}
+.copyright{
+	display: flex;
+	flex-wrap: wrap;
+}
