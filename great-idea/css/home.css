@@ -159,7 +159,9 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
+* {
+    margin: 40px;
+}
 body {
     margin: 0 auto;
 }
@@ -180,8 +182,6 @@ header nav a {
     text-decoration: none;
     color: gray;
     align-self: center;
-
-    /* display: flex; */
 }
 
 header nav .logo {
@@ -189,68 +189,58 @@ header nav .logo {
 
 }
 
-
-.service-section {
+.first-section{
     display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    /* justify-content: center; */
+    margin-left: 30px;
+    padding: 20px;
     /* align-self: center; */
-    width: 930px;
-    padding: 20px;
+    width: 100%;
 }
-
-.middle-section {
-
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-    width: 990px;
-    /* margin-left: 60px; */
+.first-section .column{
+    justify-content: space-between;
+    width: 330px;
+    box-sizing: border-box;
+    margin-left: 80px;
 }
-
-.middle-section .boxes {
-
-    background-color: #f1f1f1;
-    width: 420px;
-    height: 220px;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid black;
-    background-color: rgb(249, 239, 230);
-    font-size: 1rem;
-
+.first-row{
+    padding: 10px;
 }
-
-.learn-more {
+.firstrow-left-column{
+    padding: 10px;
+}
+h1{
+        font-size: 60px;
+        top: 0;
+    }
+.get-start{
     text-align: center;
     width: 140px;
     height: 40px;
     padding: 10px;
-    border-radius: 10px;
     border: 1px solid black;
     background-color: white;
 }
+.second-section{
+    width: 920px;
+    margin-left: 60px;
+}
 
-footer {
-    
+.second-section .first-row{
     display: flex;
-    width: 950px;
+}
+.middle-img{
     margin-left: 20px;
-    padding: 20px;
 }
-
-footer div {
-    align-items: center;
+.third-section{
+    display: flex;
+    padding: 40px;
+    margin-left: -20px;
 }
-
-ul li {
-    list-style-type: square;
-    margin-left: 20px;
-    line-height: 30px;
+footer{
+    margin-left: 80px;
 }
+.copyright{
+    margin-left: 313px;
+    padding: 40px;
 
-.copyright {
-    margin-left: 400px;
-    padding: 35px;
 }
