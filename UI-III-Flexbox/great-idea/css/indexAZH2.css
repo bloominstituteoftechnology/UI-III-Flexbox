@@ -64,11 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
 .container {
 	width: 1000px;
-	margin: 2.5% auto;
-	line-height: 1.3;
+	margin: 0 auto;
 	}
 	/* style for logo/nav bar ===============*/
 	
@@ -84,12 +82,12 @@ h1, h2, h3, h4, h5 {
 	}
 
 	.logo { 
-		/* max-width: 10%; */
+		max-width: 10%;
 		height: auto;
 		/* flex-shrink: 1; */
 	}
 	
-	#links { 
+	  #links { 
 		display:flex;
 	}
 
@@ -98,6 +96,7 @@ h1, h2, h3, h4, h5 {
 		width: 16%;
 		color: lightgray;
 		text-decoration: none;
+		font-size: 10px;
 	}
 	/*style for "Innovation on Demand" section ==============*/
 	
@@ -123,15 +122,23 @@ h1, h2, h3, h4, h5 {
 		text-align: center;
 	}
 	
+	/* #innovation {
+		position: relative;
+		text-align: center;
+		top: 37%;
+		height: 379px;
+		width: 379px;
+		font-size: 80px;
+	} */
+	
 	#round{
 		height: 320px;
 		width: 320px;
 		right:-25%;
 		top: 25%;
-		margin: 40px 0px;
 	}
 	
-	#getStarted {
+	button {
 		width:120px;
 		height:25px;
 		text-align:center;
@@ -142,13 +149,10 @@ h1, h2, h3, h4, h5 {
 		background-color: white;
 		border: 1px solid black; 
 	}
-
-
-		
+	
 	/*for lines across screen*/
 	hr{
-		border-top: 0.5px solid black;
-		margin: 20px 0px;
+		border: 0.5px solid black;
 	}
 	
 	.topSections {
@@ -194,125 +198,8 @@ h1, h2, h3, h4, h5 {
 	footer{
 		font-size: 10px;
 		text-align: center;
-	
-	}
-
-	/* ====Below is styling for services.html======== */
-	
-	
-	
-	.servicesTopNavBar { 
-		/* servicesTopNavBar = parent	 */
-		display:flex;
-		justify-content: space-around;
-		align-items: center;
-		margin: 2% 0%;
-	}
-
-	.servicesTopNavBar div { 
-		width: 66%;
-	}
-
-	.servicesTopNavBar a { 
-		font-size: 15px;
-	}
-	
-
-	/* stlye for banner and Services section*/
-	.servicesTop {
-		display:flex;
-		flex-flow: column nowrap;
-		margin: 20px 0px 0px 0xp;
-	}
-
-	.servicesTop h2 {
-		font-size: 30px;
-		text-align: left;
-		margin: 0px 0px 20px 0px;
-	}
-
-	.servicesTop img , .servicesTop p {
-		margin: 0px 0px 20px 0px;
-	}
-
-	/* stlye for boxes */
-
-	.serviceBoxes {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-around;
-	} 
-
-	.boxes {
-		width: 47%;
-		border: 1px solid black; 
-		background-color: #f2f2f2;
-		margin: 0px 0px 20px 0px;
-	}
-
-	.serviceBoxes h2, .serviceBoxes p {
-		margin: 20px;
-		box-sizing: border-box;
-	}
-	
-	button {
-		width:120px;
-		height:25px;
-		text-align:center;
-		padding: 0px;
-		margin: 0px 0px 20px 20px;
-		font-family: 'Titillium Web', sans-serif;
-		font-size: 12px;
-		background-color: white;
-		border: 1px solid black; 
-		border-radius: 4px;
-	}
-
-	/* stlye for bottom "Some Facts..." part */
-
-	.servicesBottom {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-around;
-		margin: 40px 0px 40px 0px;
-	} 
-
-	.servicesBottom div {
-		display: flex;
-		width: 47%;
-	}
-
-	.words {
-		display: flex;
-		flex-flow: row wrap;
-		align-items: flex start;
-	} 
-	
-	.child-h2 {
-		margin-bottom: 0px;
-		align-content: flex start;
-	}
-
-	.child-p {
-		margin-bottom: 0px;
-		align-content: flex start;
-	}
-
-	.child-ul{
-		list-style: square inside;
-		align-content: flex start;
-		}
-
-	li {
-		padding: 7px;
+		
 	}
 	
 	
-	
-	
-	
-	
-	/* ul {
-		list-style-type: disc;
-	} */
-
+	   
