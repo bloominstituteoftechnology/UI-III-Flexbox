@@ -141,31 +141,29 @@ hr {
 }
 
 .top-info {
-  display: block;
+  display: flex;
   width: 900px;
   margin: auto;
 }
 
 .col-2 {
-  display: inline-block;
   width: 425px;
   margin: 35px 10px;
 }
 
 .mid-img {
-  display: block;
+  display: flex;
   width: 900px;
   margin: auto;
 }
 
 .btm-info {
-  display: block;
+  display: flex;
   width: 900px;
   margin: auto;
 }
 
 .col-3 {
-  display: inline-block;
   width: 280px;
   margin: 35px 8px;
 }
