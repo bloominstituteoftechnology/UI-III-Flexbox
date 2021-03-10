@@ -169,13 +169,14 @@ hr {
 }
 
 footer {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 900px;
   margin: auto;
 }
 
 .contact {
-  margin: 30px 10px;
+  padding: 18px 5px;
 }
 
 .copr {
