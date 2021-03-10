@@ -90,25 +90,27 @@ header nav a:hover {
 
 .logo {
   margin-top: 15px;
+  margin-bottom: 15px;
   margin-left: 50px;
-  height: 35px;
 }
 
 .main-sec {
-  display: block;
+  display: flex;
   width: 900px;
   margin: auto;
 }
 
 .main-sec .main-text {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 320px;
   margin: 80px;
   text-align: center;
 }
 
 h1 {
-  display: inline-block;
   width: 320px;
   font-size: 70px;
 }
@@ -124,14 +126,13 @@ button {
 }
 
 button:hover {
-  background-color: black;
   color: white;
   cursor: pointer;
 }
 
 .main-img {
-  position: absolute;
-  margin-top: 45px;
+  margin-top: 35px;
+  margin-bottom: 25px;
 }
 
 hr {
