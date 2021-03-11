@@ -64,6 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Nav bar */
 header {
   display: flex;
   width: 900px;
@@ -94,6 +96,7 @@ header nav a:hover {
   margin-left: 50px;
 }
 
+/* index.html */
 .main-sec {
   display: flex;
   width: 900px;
@@ -182,4 +185,58 @@ footer {
 .copr {
   text-align: center;
   font-size: 14px;
+}
+
+/* services.html */
+.services {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: auto;
+}
+
+.services-header-img {
+  /* border: 1px solid red; */
+}
+
+.services-cta {
+  /* border: 1px solid cyan; */
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.services-cta p {
+  text-align: justify;
+}
+
+.services-info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 900px;
+  margin: auto;
+}
+
+.info-cta {
+  border: 1px solid black;
+  width: 400px;
+  margin: 28px 0;
+  padding: 15px;
+  line-height: 18px;
+}
+
+.btn-info {
+  background-color: #EFEFEF;
+  width: 100px;
+  font-size: 12px;
+}
+
+.btn-info:hover {
+  color: grey;
 }
