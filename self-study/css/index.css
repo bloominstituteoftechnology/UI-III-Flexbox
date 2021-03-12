@@ -240,3 +240,41 @@ h2 {
 .btn-info:hover {
   color: grey;
 }
+
+.footer {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-facts {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: row;
+}
+
+.facts-info {
+  width: 420px;
+}
+
+.facts-info p {
+  line-height: 18px;
+}
+
+ul {
+  padding-left: 20px;
+  padding-top: 20px;
+  list-style-type: circle;
+}
+
+.services-info-img {
+  display: flex;
+  margin-left: 60px;
+}
+
+.services-copr {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 25px;
+}
