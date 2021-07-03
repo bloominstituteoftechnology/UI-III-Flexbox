@@ -63,15 +63,18 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* .header-tabs{
+	display:flex;
+	justify-content:space-between;
+} */
 .container{
-	
 	margin:0 auto;
 	width:880px;
 }
 
 header{
 	display:flex;
+	padding-bottom:20px;
 }
 header nav {
 	
@@ -103,100 +106,87 @@ header nav {
 	 
 	margin-top: 25px;
   }
-  
-  /* cta */
-  .cta{
-	  display:flex;
-  }
 
-  .cta .cta-text {
-	
-	vertical-align: top;
-	font-size: 77px;
-	margin-top: 120px;
-	text-align: center;
-	padding: 0px 75px;
-  }
-  
-  .cta .cta-text button {
-	background: white;
-	vertical-align: top;
-	margin-top: 6px;
-	padding: 8px 44px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
-  }
-  
-  .cta .cta-text button:hover {
-	background: black;
-	color: white;
-  }
-  
-  .cta img {
-	
-	margin-top: 69px;
-  }
-  
-  .main-content {
-	border-top: 1px solid black;
-	margin-top: 76px;
-	padding-top: 39px;
-	
-  }
   .top-content{
-	  display:flex;
-  }
-  
-  .main-content .top-content {
-	padding: 0 10px;
-  }
-  
-  .main-content .top-content .text-content {
-	width: 410px;
-	
-	margin-right: 34px;
-  }
-  
-  .main-content .top-content .text-content:last-child {
-	margin-right: 0;
-  }
-  
-  .main-content .middle-img {
-	margin-top: 45px;
-  }
-  
-  .bottom-content{
-	  display:flex;
+
+	  margin-top:20px;
+	  padding-bottom:35px;
+	  border-bottom:1px solid black;
   }
 
-  .main-content .bottom-content {
-	margin-top: 37px;
-	padding: 0 10px;
+  .top-content h2{
+	  font-size:25px;
   }
+
+  .top-content p{
+	  margin-bottom:20px;
+	  line-height:1.25;
+  }
+
+  .main-content{
+	  display:flex;
+	  flex-wrap:wrap;
+	  margin:40px 0; 
+	  justify-content: space-between;
+	  /* align-items:baseline; */
+  }
+
+  .content-1{
+	  border:1px solid black;
+	  width:400px;
+	  height:250px;
+	  padding:20px;
+	  margin:20px 0;
+	  background:#f0efef;
+
+	  
+  }
+
+  .content-1 p{
+	  line-height: 1.25;
+  }
+
+  .button{
+	  border:1px solid black;
+	  border-radius: 5px;
+	  width:140px;
+	  height:35px;
+	  padding:10px;
+	  margin-top:25px;
+  }
+
+  .bottom-content{
+	  border-top:2px solid black;
+	  display:flex;
+	  margin-top:30px;
+	  margin-bottom: 80px;
+	  padding:40px;
+  }
+  .bottom-content-1{
+	  		
+	  width:430px;
+	  height:300px;
+	  margin-right:30px;
+  }
+
+  .bottom-content-1 p{
+	  margin-bottom:20px;
+	  line-height: 1.25;
+  }
+
   
-  .main-content .bottom-content .text-content {
-	width: 275px;
-	display: inline-block;
-	margin-right: 12px;
+
+  ul{
+	  
+	  line-height: 2;
+	  width:200px;
+	  height:140px;
+	  padding-left:30px;
+	  list-style-type: square;
   }
+
+  footer p{
+	  text-align: center;
+  }
+
   
-  .main-content .bottom-content .text-content:last-child {
-	margin-right: 0;
-  }
-  
-  .contact {
-	margin-top: 57px;
-	border-top: 1px solid black;
-	padding: 39px 10px 0;
-  }
-  
-  .contact p {
-	margin: 20px 0;
-  }
-  
-  footer {
-	margin: 32px 0;
-	text-align: center;
-	font-size: 14px;
-  }
