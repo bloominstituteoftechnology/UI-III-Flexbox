@@ -1,10 +1,10 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, quote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,9 +24,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: ;
 }
 body {
 	line-height: 1;
@@ -34,10 +34,10 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
+quote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
+quote:before, quote:after,
 q:before, q:after {
 	content: '';
 	content: none;
@@ -63,4 +63,371 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body {
+	margin: 1em 3em;
+	padding-top: 70px; /*pushes all content down below sticky nav*/
+}
+
+img {
+	max-width: 100%;
+
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+.navigation {
+	height: 3em;
+	margin-bottom: 3em;
+	background-color: darkgray;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1000;
+	opacity: .98;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
+}
+
+ nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.logo {
+	align-self: center;
+}
+
+nav a,
+footer a {
+	text-decoration: none;
+	color: #DDDDDD;
+	padding: 5px;
+	margin: 0 27px;
+	transition: all .3s;
+	margin: 0 5px;
+}
+
+nav a:hover,
+.contact a:hover {
+	color: #028603;
+}
+
+
+header {
+	height: 35em;
+	border-bottom: 1px solid #171717;
+	margin: 3em 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+}
+
+button {
+	margin: 0 auto;
+	display: ;
+	background: none;
+	border: 1px solid #171717;
+	color: #171717;
+	padding: 5px 30px;
+}
+
+header img,
+.header-img {
+
+	float: right;
+}
+
+main img,
+main .mid-page-accent {
+	display: ;
+	margin: 0 auto;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.section-top,
+.section-bottom {
+	display: flex;
+	justify-content: space;
+	justify-content: space-evenly;
+	margin: 3em 0;
+	flex-wrap: wrap;
+}
+
+.section-bottom::after {
+	border-bottom: 1px solid black;
+}
+
+.section-top-content,
+.section-bottom-content {
+
+	margin: 10px;
+
+}
+.section-top-content {
+	width: 40%;
+
+}
+
+.section-bottom-content {
+	width: 31%;
+}
+
+.contact {
+	border-top: 1px solid black;
+	text-align: center;
+}
+
+.contact a,
+.contact p {
+	display: ;
+	line-height: 1.2;
+	margin: 1em 0px;
+}
+
+.contact a{
+	text-decoration: none;
+	color: black;
+}
+
+.contact h2 {
+	margin-top: 3em;
+}
+
+footer {
+	margin-top: 3em;
+	height: 3em;
+
+}
+footer p {
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+}
+
+/*Stretch goal stylings*/
+.services-content {
+	display: flex ;
+
+	margin-top: 2em;
+}
+
+.services-content h1{
+	font-size: 3em;
+
+}
+.services-content h2{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.header-img {
+	width: 379px;
+	height: 379px;
+	background-image: url("../img/header-img.png");
+}
+
+.mid-page-accent {
+	width: 876px;
+	height: 182px;
+	background-image: url("../img/mid-page-accent.jpg");
+}
+
+.about-img {
+	width: 640px;
+	height: 389px;
+	background-image: url("../img/about.jpg");
+}
+
+/*Services page styles*/
+
+.services-header,
+.about-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-top: 0px;
+}
+
+.services-header h1,
+.about-header h1 {
+	font-size: 2em;
+}
+
+
+.services-intro p,
+.services-intro h1,
+.about-intro p,
+.about-intro h1 {
+	text-align: left;
+	width: 100%;
+}
+
+.services-intro {
+	max-width: 880px
+}
+.services-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	padding-bottom: 3em;
+}
+
+.content-box {
+	border: 1px solid black;
+	background-color: #D1D0D1;
+	padding: 1em;
+	width: 500px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 25px 0px;
+
+}
+
+.content-box h2,
+.content-box p {
+	text-align: left;
+	margin: 0;
+}
+
+.content-box button {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	height: 3em;
+	align-self: flex-start;
+	margin: 0; /*Turns off default button centering*/
+}
+
+.facts {
+	display: flex;
+	justify-content: space-between;
+	margin: 3em 0;
+	flex-wrap: wrap-reverse;
+
+}
+
+.facts-content {
+		width: 45%;
+		display: flex;
+		flex-direction: column;
+}
+
+.facts-image {
+	margin-bottom: 2em;
+	margin-left: 1em;
+}
+
+.facts-content p {
+		margin-bottom: 1em;
+}
+
+.facts-content ul {
+	list-style-type: square;
+	padding-left: 20px;
+
+	line-height: 1.5;
+}
+
+.about-content {
+	 display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+.about-content p {
+	width: relative;
+	margin: 0 auto;
+	padding-top: 1em;
+}
+
+/**media query **/
+
+@media only screen and (max-width: 1095px) {
+  .services-content,
+	.facts {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 604px) {
+  .navigation {
+    height: 5em;
+		justify-content: center;
+  }
+
+}
+
+@media only screen and (max-width: 421px) {
+  .navigation {
+    height: 7em;
+		justify-content: center;
+  }
+
+}
+
+@media only screen and (max-width: 952px) {
+  .section-bottom-content,
+	.section-top-content {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 815px) {
+  body {
+		padding-top: 260px;
+	}
+.heading {
+	margin: 3em 0;
+ }
+}
+
+@media only screen and (max-width: 750px) {
+.index-header {
+	transform: scale(.7);
+ }
+ body {
+	 padding-top: 125px;
+ }
+ main {
+	 transform: translateY(-110px);
+ }
+}
+
+
+@media only screen and (max-width: 880px) {
+	.facts-content {
+		width: 90%;
+		text-align: center;
+	}
+	.facts-content ul li {
+		width: fit-content;
+		margin: 0 auto;
+	}
+}
