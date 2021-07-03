@@ -63,7 +63,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* The Codes */
+
+
 
 section {
 	display: flex;
@@ -72,20 +74,27 @@ section {
 	justify-content: center;
 }
 
-h1 {
-	font-size: 50pt;
-	text-align: center;
-	margin-top: 25%;
+button {
+	background: white;
+	border-radius: 5px;
+	width: 150px;
+	height: 25px;
+	border: 1px solid black;
 }
 
-a {
-	color: grey;
-	text-decoration: none;
+ul {
+	font-weight: 400;
+	list-style-type: disc;
+	margin: 20px 20px;
+}
+
+li {
+	margin: 10px auto;
 }
 
 footer {
 	text-align: center;
-	margin: 20px;
+	margin: 80px auto 20px;
 }
 
 nav {
@@ -93,45 +102,48 @@ nav {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 600px;
+	width: 500px;
 }
 
-button {
-	height: 25px;
-	width: 150 px;
+a {
+	text-decoration: none;
 	color: grey;
-	background: white;
-	border: 1px solid grey;
-	margin-left: 38%;
 }
 
 
+
+.box {
+	border: 1px solid black;
+	padding: 20px;
+	width: 420px;
+	height: 250px;
+	background: cyan;
+	margin: 20px 0;
+}
 
 .boxes {
-	display: flex;
 	justify-content: space-between;
 	width: 880px;
 	margin: 20px auto;
 }
 
-.contHalf {
-	width: 50%;
-	margin: 20px 0;
+header.boxes {
+	display: flex;
 }
 
-.contThird {
-	width: 33%;
-	margin: 20px 0;
+.boxes.mid {
+
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
-.landLink {
+.services {
+	width: 800px;
+	margin: 10px;
 	padding: 10px;
-	height: 379px;
-	width: 379px;
 }
 
-.toTheLeft {
-	justify-content: left;
-	margin-left: 275px;
-	margin-bottom: 50px;
+.facts {
+	width: 400px;
 }
+
