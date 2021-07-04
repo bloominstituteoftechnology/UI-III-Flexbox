@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 880px;
+	margin: auto;
+}
+/* .container {
+	width: 880px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+} */
+
+/*
+***HEADER*** 
+*/
+
+header {
+	width: 880px;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	/* position: fixed; */
+	z-index: 10;
+	
+}
+
+header nav {
+	display: flex;
+	background: radial-gradient(ellipse closest-side, white 10%, lightgray 50%, white);
+	}
+
+header nav a {
+	text-decoration: none;
+	margin: 0px 15px;
+	display: flex;
+	justify-content: space-around;
+	border: none;
+	color: black;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	transition: all 500ms ease; 
+}
+
+header nav a:hover {
+	color: Black;
+	box-shadow: inset 0 0 0 3px #0d0d0e;
+}
+
+.logo {
+	display: flex;
+}
+
+.titles {
+	display: flex;
+	font-size: 20px;
+}
+
+/*
+***TIER 2***
+*/
+
+.T2 {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0px;
+	
+	
+}
+
+.IODImg {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 350px;
+	height: 350px;
+} 
+
+#getSt {
+	display: flex;
+	justify-content: center;
+	width: 175px;
+	border: 1px solid grey;
+	padding: 5px;
+	font-size: 28px;
+	color: black;
+}
+ 
+.circle {
+	display: flex;
+	width: 350px;
+	height: 350px;
+} 
+
+#IOD {
+	font-size: 70px;
+	
+}
+
+
+.hr1 {
+    display: flex;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 20px 0px;
+    padding: 0;
+}
+
+/*
+***TIER 3***
+*/
+
+.T3 {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0px;
+	
+}
+
+.features {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+}
+
+.middle-img {
+	
+	
+}
+
+/*
+***TIER 4***
+*/
+
+.T4 {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0px;
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.vision {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.hr2 {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid grey;
+    margin: 20px 0px;
+    padding: 0;
+}
+
+/*
+***FOOTER***
+*/
+
+.contact {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 20px 0px;
+	font-style: italic;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0px 30px 0px;
+}
