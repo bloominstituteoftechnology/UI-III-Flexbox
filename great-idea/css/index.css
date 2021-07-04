@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +64,219 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+p {
+	line-height: 1.25;
+}
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+/* Header styles */
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav {
+	margin-top: 35px;
+	width: 690px;
+}
+
+header nav a {
+	margin-right: 65px;
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+header .logo {
+	margin-top: 25px;
+}
+
+/* Top content styles */
+
+.banner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 50px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.banner .banner-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+	text-align: center;
+}
+
+/* .banner img {
+  margin-top: 69px;
+} */
+
+.banner .banner-text button {
+	background: white;
+	
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.banner .banner-text button:hover {
+  background: black;
+  color: white;
+}
+
+
+
+.top-banner {
+	margin: 30px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.top-banner img {
+	margin-bottom: 20px;
+}
+
+/* Main content styles */
+
+.main-content {
+	margin: 30px 0 20px 0;
+	border-bottom: 1px solid black;
+}
+
+.main-content .top-content {
+	display: flex;
+	justify-content: space-around;
+	
+	margin: 10px 0 30px 0;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0 30px 0;
+}
+
+/* Mid-content styles */
+
+.mid-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+.mid-content .card {
+	width: 48%;
+	height: 200px;
+	border: 1px solid black;
+	background: rgb(243, 241, 241);
+	padding: 15px 10px 10px 10px;
+	margin-bottom: 30px;
+}
+
+.card button {
+	background: white;
+  margin-top: 8px;
+  padding: 8px 40px;
+  font-size: 12px;
+	border: 1px solid black;
+	border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Bottom content styles */
+
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0 50px 0;
+}
+
+.bottom-content .text-content {
+	width: 48%;
+}
+
+.bottom-content .image-content {
+	width: 48%;
+}
+
+.bottom-content ul {
+	margin: 20px 0 0 0;
+	list-style-position: inside;
+}
+
+.bottom-content li {
+	padding: 5px;
+}
+
+/* contact section */
+
+.contact-section address {
+	line-height: 1.15;
+	margin-bottom: 5px;
+}
+
+.contact-section info {
+	line-height: 2;
+}
+
+/* footer section */
+
+footer {
+	width: 100%;
+	margin: 0 0 50px 0;
+}
+
+footer .footer-content {
+	text-align: center;
+}
+
+/* Media queries */
+
+@media(max-width: 580px) {
+	.container {
+		width: 100%;
+	}
+	.mid-content, .bottom-content {
+		flex-direction: column;
+		align-items: center;
+	}
+	.bottom-content .text-content {
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.mid-content .card {
+		width: 100%;
+	}
+	.bottom-content .image-content {
+		width: 100%;
+	}
+	header nav {
+		margin-top: 15px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 50px;
+	}
+}
+
+/* .test {
+	border: 1px solid black;
+} */
