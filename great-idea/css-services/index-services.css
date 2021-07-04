@@ -128,7 +128,8 @@ table {
   border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
+/* My Code */
+
 * {
   box-sizing: border-box;
 }
@@ -147,6 +148,15 @@ h5 {
   font-family: "Bangers", cursive;
   letter-spacing: 1px;
   margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 15px;
 }
 
 .container {
@@ -190,89 +200,64 @@ header .logo {
   margin-top: 25px;
 }
 
-/* cta */
+.services-header-img {
+  margin-top: 20px;
+}
 
-.cta {
+/* main content */
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 40px;
+  padding-top: 39px;
   display: flex;
+  flex-wrap: wrap;
 }
 
-.cta .cta-text {
-  vertical-align: top;
-  font-size: 77px;
-  margin-top: 120px;
-  text-align: center;
-  padding: 0px 75px;
-}
-
-.cta .cta-text button {
+button {
   background: white;
   vertical-align: top;
-  margin-top: 6px;
+  margin-top: 20px;
   padding: 8px 44px;
-  font-size: 17px;
+  font-size: 10px;
   border: 1px solid black;
   cursor: pointer;
 }
 
-.cta .cta-text button:hover {
-  background: black;
-  color: white;
+.top-content {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.cta img {
-  margin-top: 69px;
+.text-content {
+  border: 1px solid;
+  width: 400px;
+  padding: 25px;
+  margin: 15px;
+  background-color: #e8e7e7;
 }
 
-.main-content {
+/* footer */
+.foot-content {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
 
-.main-content .top-content {
-  padding: 0 10px;
+.bottom-content {
   display: flex;
+  justify-content: space-between;
 }
 
-.main-content .top-content .text-content {
-  width: 410px;
-  margin-right: 34px;
+.foot-text-content {
+  width: 400px;
+  padding: 20px;
 }
 
-.main-content .top-content .text-content:last-child {
-  margin-right: 0;
-}
-
-.main-content .middle-img {
-  margin-top: 45px;
-}
-
-.main-content .bottom-content {
-  display: flex;
-}
-
-.main-content .bottom-content .text-content {
-  margin-top: 37px;
-  padding: 0 10px;
-}
-
-.main-content .bottom-content .text-content {
-  width: 350px;
-  margin-right: 12px;
-}
-
-.main-content .bottom-content .text-content:last-child {
-  margin-right: 0;
-}
-
-.contact {
-  margin-top: 57px;
-  border-top: 1px solid black;
-  padding: 39px 10px 0;
-}
-
-.contact p {
-  margin: 20px 0;
+ul {
+  margin-top: 10px;
+  margin-left: 20px;
+  list-style-type: disc;
 }
 
 footer {
