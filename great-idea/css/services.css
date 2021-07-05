@@ -63,11 +63,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* General */
-
-nav,header,#section1,#middle,.section2,.container4, address,footer{
-margin: auto;
-width: 95%;
+/* MEDIA QUERY */
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
 }
 
 /* NAV */
@@ -92,108 +91,162 @@ nav a:hover{
 	text-decoration: underline;
 }
 
-/* HEADER */
-.container2{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	margin-top: 2.5em;
+/* Header img */
+header{
+margin-top: 2em;
+margin-bottom: 2em;
+width: 95%;
+width: auto;
+}
+.headerimg img{
+	width: 110%;
 }
 
-#demand{
-	width: 30%;
-	margin-top: 2em;
-	margin-left: 7em;
-	margin-bottom: 5em;
-} 
-
-#button{
-	border: black 1px solid;
-	background-color: white;
-	padding: 4px;
-	padding-left: 35px;
-	padding-right: 35px;
-	font-size: 19px;
-margin-left: 22%;
-text-decoration: none;
-color: black;
-}
-
-#button:hover{
-	display: inline-block;
-	transition-duration: 0.6s;
-	transition-property: transform;
-	transform: scale(1.5);
+/* Services */
+.services{
+width: 95%;
+	margin: auto;
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+	border-bottom: black 1px solid;
 }
 
 h1{
-	font-size:5.3em;
-	text-align: center;
-	margin-bottom: 30px;
+	font-size:1em;
 }
 
-#ball{
-	margin-left: 5em;
-	margin-right: 3em;
-}
-
-.title{
-	width: 40%;
-}
-
-/* FEATURES/ABOUT */
-#section1{
-	margin-top: 3em;
-	border-top: black 1px solid;
-}
-
-.container3{
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-}
-
-.blurb1{
-	margin-top: 2em;
+/* All Boxes */
+.box{
+	background-color:	#DFDFDF;
+	padding: .5em;
+	border: black 1px solid;
+	
 	margin-bottom: 2em;
-	width: 48%;
-	font-size: 1.2em;
+	height: 190px;
 }
 
-/* Middle IMG */
-.middle-img{
-	width: 100%;
+
+/* row1 */
+.container2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+	height: 200px;
+}
+
+.digital{
+	width: 49%;
+	
 } 
 
-/* SERVICE/PRODUCT/VISION */
-#section2{
-	margin-bottom: 2em;
-	padding-top: 15px;
+.ux{
+	width: 49%;
+
 }
 
+/* row2 */
+.container3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+	margin-top: 1.5em;
+	height: 200px;
+}
+
+.digitalm{
+	width: 49%;
+	
+} 
+
+.webdev{
+	width: 49%;
+}
+
+/* row3 */
 .container4{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+	margin-top: 1.5em;
 }
 
-.blurb2{
-	width: 30%;
-	font-size: 1.2em;
+.ios{
+	width: 49%;
+} 
+
+.android{
+	width: 49%;
 }
 
-/* ADDRESS */
-address{
-
-	border-top: black 1px solid;
+/* row4 */
+.container5{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+	margin-top: 1em;
 	padding-top: 2em;
+	border-top: black 1px solid;
+	height: 300px;
 }
-#addy{
-	font-size: 1.2em;
+
+.facts{
+	width: 49%;
+} 
+
+.bottomimg{
+	width:49%;
+}
+
+.services-info-img{
+width: 99%;
+}
+
+p a{
+	border: black 1px solid;
+	border-radius: 5%;
+	background-color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+}
+
+p a:hover{
+	display: inline-block;
+	transition-duration: 0.6s;
+	transition-property: transform;
+	transform: scale(1.2);
+}
+
+.button{
+	margin-top: 1.5em;
+	margin-left: 1em;
 }
 
 /* FOOTER */
 footer{
 	text-align: center;
 	margin: 4em;
+}
+
+ul li{
+	list-style-type: disc;
+	line-height: 2em;
+}
+
+.list{
+	margin-left: 1.5em;
+	margin-top: .5em;
 }
