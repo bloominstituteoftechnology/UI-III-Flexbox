@@ -1,0 +1,271 @@
+/*  http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*  HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+	margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	
+	margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+}
+
+/* Your code starts here */
+
+/* ************************************************
+*                    CONTAINER                    *
+***************************************************/ 
+.container {
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+/* ************************************************
+*                       NAV                       *
+***************************************************/ 
+nav {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+nav > a {
+	font-size: 14px;
+	color: #B3B3B3;
+	text-decoration: none;
+}
+
+/* ************************************************
+*                  SERVICES HEADER                *
+***************************************************/ 
+.service-header-container {
+    border-bottom: 1px solid black;
+}
+
+.services-header {
+    padding: 30px 20px 50px 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+/* ************************************************
+*               SERVICES (MAIN CONTENT)           *
+***************************************************/ 
+.services-container {
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-between;
+    align-content: space-evenly;
+
+    min-height: 920px;
+    border-bottom: 2px solid black;
+}
+
+.services-container section {
+    width: 48%;
+
+    border: 1px solid black;
+    padding: 20px;
+
+    background-color: #F2F1F2;
+}
+
+.services-container section p {
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.services-container section a {
+    display: inline-block; /* opted out of flex module to center the link text, seemed uneccessary */
+    width: 140px;
+    height: 35px;
+
+    margin-top: 20px;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    font-family: inherit;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+    background-color: white;
+}
+
+/* ************************************************
+*                  INFO CONTAINER                 *
+***************************************************/ 
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.info-container section {
+    width: 48%;
+    padding-right: 4px;
+
+    line-height: 20px;
+}
+
+.info-container ul {
+    margin-top: 35px;
+    
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.info-container ul li {
+    margin-bottom: 9px;
+}
+
+.info-container ul li:last-of-type {
+    margin-bottom: none;
+}
+
+.info-container img {
+    width: 48%;
+    height: 100%;
+}
+
+/* ************************************************
+*                 COPYRIGHT (FOOTER)              *
+***************************************************/ 
+.copyright {
+    margin-top: 90px;
+    margin-bottom: 35px;
+    text-align: center;    
+}
+
+/* **************************************************************************************************************
+*                                                   MEDIA QUERIES                                               *
+*****************************************************************************************************************/ 
+
+@media (max-width: 700px)
+{
+    /* ************************************************
+    *                       NAV                       *
+    ***************************************************/ 
+    nav {
+        justify-content: space-around;
+    }
+
+    /* ************************************************
+    *                  SERVICES HEADER                *
+    ***************************************************/ 
+    .services-header-img {
+        min-width: 700px;
+    }
+    
+    .services-header {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* ************************************************
+    *               SERVICES (MAIN CONTENT)           *
+    ***************************************************/ 
+    .services-container {
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    .services-container section {
+        width: 80%;
+        margin: 20px 0;
+
+        text-align: center;
+    }
+
+    /* ************************************************
+    *                  INFO CONTAINER                 *
+    ***************************************************/ 
+    .info-container {
+        flex-direction: column-reverse;
+
+        min-height: 600px;
+        margin-top: 0px;
+    }
+
+    .info-container section {
+        align-self: center;
+        text-align: center;
+
+        width: 80%;
+        margin-top: 20px;
+        padding: 0 40px;
+    }
+
+    .info-container ul {
+        text-align: left;
+    }
+
+    .info-container img {
+        width: initial;
+
+        object-fit: cover;
+        object-position: 50% 60%;
+    }
+}
