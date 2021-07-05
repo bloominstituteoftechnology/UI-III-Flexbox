@@ -64,3 +64,260 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	width: 880px;
+	margin: 20px auto;
+	padding:20px 0px 20px 0px;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+	height: 72px;
+}
+
+footer.footer {
+	display:flex;
+	width:880px;
+	justify-content: center;
+	padding-top: 75px;
+}
+
+.logo {
+	margin-left:20px;
+}
+
+
+header nav a:link {
+	text-decoration: none;
+	color:lightgray;
+}
+  
+header nav a:visited {
+	text-decoration: none;
+	color:lightgray;
+
+}
+  
+header nav a:hover {
+	text-decoration: underline;
+	color:lightgray;
+
+}
+  
+header nav a:active {
+	text-decoration: underline;
+	color:lightgray;
+
+}
+
+header nav a {
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	color:lightgray;
+}
+
+.headerTOP {
+	width:880px;
+	display:flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.headerTEXT {
+	width:475px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.article2 {
+	width:33%;
+	padding:10px 0px;
+	margin-bottom:20px;
+	vertical-align: top;
+}
+
+header .divNAV {
+	align-items: center;
+	justify-content: flex-start;
+	width:688px;
+}
+
+.middle-img {
+	text-align:center;
+}
+
+.codeSNIP {
+	margin-top: 55px;
+}
+
+.IOD {
+	line-height: 1;
+	font-size: 72px;
+}
+.button {
+	display:flex;
+	align-items:flex-start;
+	flex-flow: row;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+
+#button {
+	font-family: 'Titillium Web', sans-serif;
+	background-color:white;
+	text-align:center;
+	padding:5px;
+	border: .75px solid black;
+	width:150px;
+	margin:0px auto;
+	font-size:16px;
+}
+
+.section1 {
+	border-top: 2px solid grey;
+	width:100%;
+	text-align:center;
+	display:flex;
+}
+
+#special1 {
+	margin-top:95px;
+}
+
+.article {
+	width:435px;
+	padding:0px;
+	margin-bottom:20px;
+	box-sizing:border-box;
+	text-align:left;
+}
+
+
+.section2 {
+	border-bottom: 2px solid grey;
+	display:flex;
+}
+
+
+.copyright {
+	text-decoration:none;
+}
+
+.electronic {
+	line-height:.5;
+}
+
+
+section .text {
+	line-height: 1;
+	font-size:14;
+	text-align:left;
+}
+
+.navID {
+	display:flex;
+	justify-content: space-around;
+}
+
+nav {
+	display:flex;	
+	justify-content:space-around; 
+}
+
+.header1 {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.services-header-img {
+	margin-top:20px;
+}
+
+h2 {
+	font-size:24px;
+}
+
+.sectionSERV {
+	width:880px;
+	display:flex;
+
+}
+
+.servicesFACTS {
+	width:460px;
+	padding-right:50px;
+}
+
+.learnMORE {
+	font-family: 'Titillium Web', sans-serif;
+	background-color:white;
+	text-align:center;
+	padding:5px;
+	border: .75px solid black;
+	width:150px;
+	margin:0px auto;
+	font-size:14px;
+	border-radius: 5px;
+	margin-top:15px;
+}
+
+.boxes {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+	border-bottom: 2px solid grey;
+	border-top: 2px solid grey;
+	margin:40px 0px;
+	padding:20px 0px;
+}
+
+.box {
+	background-color:whitesmoke;
+	width:420px;
+	box-sizing: border-box;
+	padding: 17.5px;
+	border: 1px solid black;
+	margin: 20px 0px;
+	
+}
+
+.ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.li {
+	padding:5px;
+	margin-top:5px;
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		width:100%;
+		}
+	.container {
+		width:100%;
+		display:flex;
+		align-items: flex-start;
+		align-content: center;
+		flex-flow: column;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.boxes {
+		width:100%
+		display:flex;
+		align-content:center;
+		align-items:flex-start;
+		flex-flow: column;
+		justify-content:center;
+		flex-wrap:wrap;
+	}
+  }
