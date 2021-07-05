@@ -63,4 +63,154 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+.mid-above-pic {
+	/* border: 1px solid green; */
+	margin: 120px 0px 0px 0px;
+}
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	margin: 0px 388px 0px 388px;
+	height: 1430px;
+	/* border: 1px solid red; */
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 12px;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+}
+
+.top {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 83px;
+}
+
+.top-title {
+	font-size: 80px;
+	margin: 60px 0px 0px 58px;
+}
+
+.button {
+	margin: 2px 0px 0px 148px;
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+	width: 183px;
+	height: 34px;
+	font-size: 16px;
+  }
+
+.mid-above-pic, .mid-below-pic, .footer {
+	display: flex;
+}
+
+.mid-img {
+	margin: 40px 0px 0px 0px;
+}
+
+.mid-below-pic {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px 0px 0px;
+}
+
+.top-left-section, .mid-above-pic-left, .mid-above-pic-right, .mid-below-pic-left, .mid-below-pic-middle, .mid-below-pic-right {
+	display: flex;
+	flex-direction: column; 
+}
+
+.top-left-section {
+	text-align: center;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.below-text-content {
+	width: 280px;
+}
+
+
+
+.address {
+	margin: 95px 0px 0px 0px;
+}
+
+.copyright {
+	display: flex;
+	margin: 0px 194px 5px 194px;
+	justify-content: center;
+	align-items: flex-end;
+	width: 200px;
+	font-size: 14px;
+}
+
+.text-content {
+	line-height: 1.1;
+}
+
+.footer {
+	height: 312px;
+}
+
+/* services.html */
+.services-container {
+	margin: 0px 392px 0px 392px;
+	height: 1630px;
+	border: 1px solid orange;
+}
+
+.services-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 85px;
+	/* border: 1px solid red; */
+}
+
+.services-header-img {
+	margin-bottom: 30px;
+}
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.2;
+	border-bottom: 1px solid black;
+}
+
+.services-header-content {
+	margin-bottom: 38px;
+}
+
+.services-header-title {
+	font-size: 25px;
+}
+
+.top-row, .middle-row, .bottom-row, .footer-row 
+{
+	display: flex;
+	margin-top: 40px;
+	height: 253px;
+	/* justify-content: space-between; */
+}
+
+.first-box-row-left, .first-box-row-right, 
+.second-box-row-left, .second-box-row-right,
+.third-box-row-left, .third-box-row-right  
+{
+	border: 1px solid black;
+	width: 500px;
+}
+
+
