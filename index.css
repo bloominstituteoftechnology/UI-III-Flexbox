@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
 
 p{
 	color: #212121;
@@ -78,7 +78,7 @@ h2{
 }
 
 .container {
-	max-width: 1100px;
+	width: 1100px;
 	margin: 0 auto;
 }
 
@@ -89,9 +89,7 @@ header{
 }
 
 nav{
-	display: flex;
-	justify-content: center;
-	padding: 0px 0;
+	padding: 20px 0;
 	margin-bottom:35px;
 	position: fixed;
 	left: 0px;
@@ -119,9 +117,8 @@ address{
 
 nav a{
 	text-decoration: none;
-	padding: 8px 0;
 	color: lightslategray;
-	line-height: 2;
+	margin: 0px 90px 0px 0px;
 	border-bottom: 3px solid transparent;
 	transition: border-color 0.2s ease;
 }
@@ -131,28 +128,24 @@ nav a:hover{
 }
 
 .nav-cont{
+	position: relative;
 	width: 1100px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.logo-anchor{
-	padding: 0px;
-	display: flex;
+	margin: 0 auto;
 }
 
 .logo{
-	align-self: center;
-}
-
-.header-flex-cont{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	padding-top: 100px;
+	position: absolute;
+	top: -12px;
+	right: 0px;
 }
 
 .header-cont-left{
+	margin-top: 100px;
+	display: inline-block;
+	width: 49%;
+	height: 379px;
+	overflow: hidden;
+	padding: 100px 0;
 	text-align: center;
 }
 
@@ -171,16 +164,21 @@ nav a:hover{
 }
 
 .header-cont-right{
+	display: inline-block;
+	width: 49%;
+	height: 379px;
+	overflow: hidden;
 	text-align: center;
 }
 
-.flex-cont{
-	display: flex;
-}
-
 .info-blocks{
+	display: inline-block;
 	padding-right: 20px;
 	text-align: left;
+}
+
+.above-image{
+	width: 548px;
 }
 
 .middle-img{
@@ -189,78 +187,10 @@ nav a:hover{
 
 }
 
+.below-image{
+	width: 364px;
+}
+
 .copyright{
 	margin-top: 45px;
-}
-
-/* Services Page Styling */
-
-.services header{
-	padding-bottom: 40px;
-}
-
-.services-header-img{
-	width: 100%;
-	margin: 90px 0 20px 0;
-}
-
-.services .main-content-flexcont{
-	display: flex;
-	flex-wrap: wrap;
-	align-content: space-between;
-	justify-content: space-between;
-	height: 800px;
-}
-
-.info-card{
-	background-color: #f4f3f4;
-	text-align: left;
-	max-width: 530px;
-	flex-shrink:8;
-	padding: 20px;
-	border: 1px solid #212121;
-	/* margin-bottom: 40px; */
-}
-
-.info-card p{
-	line-height: 1.2;
-}
-
-.info-card-learnbtn{
-	display: inline-block;
-	padding: 10px 30px;
-	background-color: white;
-	border: 1px solid #212121;
-	margin-top: 25px;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-.footer-flex-cont{
-	display: flex;
-	justify-content: space-between;
-}
-
-.footer-info-block{
-	width: 500px;
-	text-align: left;
-	
-}
-
-.footer-info-block p{
-	margin-bottom: 25px;
-}
-
-.footer-info-block ul{
-	list-style-type: square;
-	position: relative;
-	left: 19px;
-}
-
-.footer-info-block li{
-	margin: 10px 0;
-}
-
-.services .copyright{
-	margin-top: 80px;
 }
