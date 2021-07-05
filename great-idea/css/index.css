@@ -64,3 +64,77 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+	display: flex;
+	justify-content: space-around;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.main  {
+	margin: auto;
+	padding: 60px 60px;
+	display: flex;
+}
+
+.text {
+	font-size: 80px;
+	text-align: center;
+}
+
+.text button {
+	width: 160px;
+	height: 30px;
+}
+
+.top-content {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	display: flex;
+	width: 80%
+}
+
+.text-content {
+	padding: 10px;
+}
+
+.middle-img {
+	width: 80%;
+	padding: 10px;
+	
+}
+
+.middle-content {
+	margin-top: 27px;
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: center;
+	width: 80%
+}
+
+.main-content {
+	justify-content: space-around;
+}
+
+
+
+
+
+.contact-section{
+	line-height: 1.6;
+}
+
+footer {
+	text-align: center;
+ }
