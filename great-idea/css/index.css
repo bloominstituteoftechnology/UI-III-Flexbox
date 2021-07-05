@@ -64,3 +64,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* MY INDEX PAGE STYLE */
+.container {
+width: 880px;
+margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  letter-spacing: .1em;
+}
+
+nav a {
+  margin-right: 45px;
+}
+
+.titleButton {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.section{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.section h1 {
+  font-size: 70px;
+}
+
+button {
+  padding: 10px 35px;
+  background: white;
+  border: 1px solid black;
+}
+
+
+.upperContent div {
+  display: inline-block;
+  width: 49.5%;
+  vertical-align: top;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.middle-img {
+  display: block;
+}
+
+.lowerContent div {
+  display: inline-block;
+  width: 32.3%;
+  vertical-align: top;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+
+.contact {
+  margin-top: 50px;
+}
+
+.contact .phone {
+  margin: 20px 0px;
+}
+
+footer {
+  text-align: center;
+  margin-top:60px;
+  margin-bottom: 80px;
+}
+
+/*  MY SERVICES STYLE  */
+.services {
+  display: block;
+  border-bottom: 1px solid black;
+  margin: 20px 0px;
+  padding-bottom: 40px;
+}
+
+.serviceContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 3%;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background: #e6e6e6;
+}
+
+.card button {
+  margin-top: 20px;
+}
+
+.b {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bottomService {
+  text-align: left;
+}
+
+.bottomService p {
+  margin: 40px 40px 40px 0px;
+}
+
+.bottomService ul {
+  font-size: 15px;
+  line-height: 1.6;
+  list-style-type: square;
+  padding: 0 0 0 20px;
+}
