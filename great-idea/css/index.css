@@ -3,64 +3,362 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: var(--main-font);
+  --main-font: 'Titillium Web', sans-serif;
+  --top-nav-height: 5rem;
+  --main-width: 876px;
+  --main-color: black;
+  --gray: rgba(0, 0, 0, 0.5);
+  --lightgray: rgba(127, 127, 127, 0.05);
+  color: var(--main-color);
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/*******/
+
+/* NAV */
+
+/*******/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: var(--top-nav-height);
+  background: #fffffff6;
+}
+
+.top-nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: var(--main-width);
+}
+
+.top-nav nav {
+  display: flex;
+  justify-content: space-around;
+  width: calc(100% - 14rem);
+}
+
+.top-nav nav a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.top-nav nav a:hover {
+  color: var(--main-color);
+  text-shadow: white 0 0 2px;
+}
+
+/**********/
+
+/* HEADER */
+
+/**********/
+
+main {
+  padding-top: var(--top-nav-height);
+  width: var(--main-width);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+header.secondary {
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+.header-inner {
+  flex-grow: 2;
+  display: inline-block;
+  text-align: center;
+}
+
+header button {
+  font-family: var(--main-font);
+  font-size: 1.2rem;
+  width: 11rem;
+  border: 1px solid var(--main-color);
+  background: none;
+}
+
+.summary {
+  padding: 1.5rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.secondary h1 {
+  font-size: 2rem;
+}
+
+/***********/
+
+/* CONTENT */
+
+/***********/
+
+section {
+  display: flex;
+  padding: 3rem 0;
+}
+
+section div {
+  margin: 0.5rem;
+}
+
+section div p {
+  line-height: 1.2;
+}
+
+.top-content {
+  border-top: 1px solid var(--main-color);
+}
+
+.bottom-content {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.contact {
+  margin-top: 1rem;
+  display: block;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  justify-content: space-between;
+}
+
+.cards section {
+  display: block;
+  padding: 1rem;
+  outline: 1px solid var(--main-color);
+  margin: 1rem 0;
+  background: var(--lightgray);
+  width: calc((100% / 2) - 1rem);
+}
+
+.cards button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  background: white;
+}
+
+.cards button:hover {
+  transition: 200ms;
+  color: white;
+  background: var(--main-color);
+}
+
+.facts {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px solid var(--main-color);
+}
+
+.facts section {
+  flex-direction: column;
+  padding-top: 0;
+  width: calc((100% / 2) - 1rem);
+}
+
+ul {
+  list-style: disc;
+  margin: 1rem;
+}
+
+ul li {
+  padding: 0.5rem 0;
+}
+
+/**********/
+
+/* FOOTER */
+
+/**********/
+
+footer p {
+  margin: 2rem;
+  text-align: center;
+}
