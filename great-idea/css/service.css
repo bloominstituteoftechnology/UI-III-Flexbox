@@ -63,16 +63,20 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*MY CODE BEGINS HERE*/
+
 
 .container {
-	margin: auto;
+	display: flex;
+	flex-direction: column;
 	width: 800px;
+	margin: auto;
 }
 
 header {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	background: white;
 }
 
 nav {
@@ -92,84 +96,81 @@ nav a {
 	display: flex;
 }
 
-.cta {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	align-content: center;
-	height: 500px;
-	width: 800px;
-	border-bottom: 1px solid black;
+.services-header-img {
+	padding-top: 20px;
 }
 
-.cta-text {
+.services {
 	display: flex;
-	font-size: 80px;
-	text-align: center;
+	height: 100px;
 	flex-direction: column;
 	justify-content: center;
-	width: 500px;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-button {
-	background: white;
-	width: 125px;
-	align-self: center;
+.servicesContent {
+	height: 90px;
 }
 
 .main-content {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-self: center;
-	height: 600px;
-	width: 100%;
-	border-bottom: 1px solid black;
-	padding-top: 10px;
-}
-
-.top-content {
-	display: flex;
-	width: 100%;
-	align-self: center;
-	justify-content: space-between;
-}
-
-.top-content .text-content {
-	display: flex;
 	flex-wrap: wrap;
-	width: 500px;
-}
-
-.middle-img {
-	display: flex;
-	width: 100%;
-	align-self: center;
-}
-
-.bottom-content {
-	display: flex;
 	justify-content: space-between;
-	width: 100%;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	height: 800px;
+	padding-top: 20px;
 }
 
-.bottom-content .text-content {
+.infoBox {
+	border: 1px solid black;
 	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	width: 380px;
+	height: 200px;
+	background-color: rgb(240, 240, 240);
+}
+
+.infoBoxContent {
+	width: 365px;
+}
+
+.learn {
+	border: 1px solid black;
 	width: 30%;
-	flex-wrap: wrap;
+	background: white;
+	margin-top: 15px;
+	text-align: center;
+	padding: 4px;
+	border-radius: 4px;
 }
 
-.contact {
+.facts {
 	display: flex;
-	flex-wrap: wrap;
-	height: 175px;
-	width: 175px;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-content: space-around;
+	flex-direction: row;
+	padding-top: 15px;
+	justify-content: space-between;
 }
 
-footer {
+.listBlurb {
+	display: flex;
+	flex-direction: column;
+	width: 42%;
+}
+
+.list {
+	list-style-position: inside;
+}
+
+.services-info-img {
+	width: 50%;
+}
+
+.copyright {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
