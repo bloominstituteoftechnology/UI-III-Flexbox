@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	margin: 10px 25px;
+}
+
+
+
+
+header div.header-content, header.services-header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+div.header-content nav, header.services-header nav{
+	display:flex;
+}
+
+div.header-content nav a, nav.header-nav a{
+	color: grey;
+	margin:0 90px 0 0;
+}
+
+section.container1{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 50px;
+}
+ div.container1left{
+	 font-size:80px;
+	 margin-left:100px;
+	 flex-grow:1;
+	 display:flex;
+	 flex-direction: column;
+	 align-items: center;
+	 margin-top:30px;
+ }
+
+ section.container2{
+	 display: flex;
+	 flex-wrap: nowrap;
+	 justify-content: space-evenly;
+	 padding:40px 0;
+	 font-size:22px;
+	 border-top: 2px solid black;
+ }
+
+ div.container2left{
+	 margin-right: 25px;
+
+ }
+
+ div.container2right{
+	 margin-left:25px;
+ }
+
+ img.middle-img{
+	 width:100%;
+ }
+
+ section.container3{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	padding:40px 0;
+	font-size:22px;
+	border-bottom: 2px solid black;
+
+ }
+
+ div.container3middle{
+	 margin: 0 5px;
+ }
+
+ footer{
+	font-size:22px;
+	padding-top:40px;
+ }
+ 
+ footer li{
+	margin: 20px 0;
+ }
+
+ #copyright{
+	 text-align: center;
+ }
+
+ /*Services page CSS code begins here*/
+
+img.services-header-img{
+	width:100%;
+	padding-top:30px;
+}
+
+section.containerA, section.containerC{
+	font-size: 22px;
+	margin-top:20px;
+	border-top:2px solid black;
+	padding-top:20px 0;
+}
+
+section.containerA h1{
+	font-size: 30px;
+}
+
+section.containerB{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+div.box{
+	width:600px;
+	height: 300px;
+	padding:10px;
+	font-size:22px;
+	margin:10px;
+	border: 2px solid black;
+}
+div.box p{
+	padding-bottom:40px ;
+}
+
+button{
+	font-size: 30px;
+}
+
+section.containerC{
+	display:flex;
+}
+
+ol#factsList{
+	list-style: circle;
+	padding-left:30px;
+}
