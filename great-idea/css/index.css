@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 25px;
+
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	
+	
+}
+
+header nav a {
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 50px;
+	color: gray;
+
+}
+
+header nav a:hover {
+	text-decoration: underline;
+  }
+
+.cta {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 50px 0;
+
+}	
+  .cta .cta-text {
+	display: flex;
+	font-size: 77px;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+  }
+
+  .cta .cta-text h1{
+	text-align: center;
+  }
+
+  .cta .cta-text button {
+	background: white;
+	font-size: 17px;
+	cursor: pointer;
+	height: 50px;
+	width: 75%;
+	margin-left: 40px;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .cta img {
+	display: flex;
+	
+  }
+
+  .main-content { 
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+	display: flex;
+	flex-direction: column
+  }
+  
+  .main-content .top-content {
+	display: flex;
+	padding: 0 10px;
+
+  }
+  
+  .main-content .top-content .text-content {
+	display: flex;
+	width: 410px;
+	display: flex;
+	margin-right: 34px;
+  }
+  
+  .main-content .top-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main-content .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .main-content .bottom-content .text-content {
+	width: 275px;
+	display: flex;
+	margin-right: 12px;
+  }
+  
+  .main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
