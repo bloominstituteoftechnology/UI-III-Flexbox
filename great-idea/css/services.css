@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 880px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.navigation a {
+    color: gray;
+    text-decoration: none;
+}
+
+.services-header-img {
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.services h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digital-design {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+.digital-design h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.digital-design p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+button {
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 15px;
+    width: 150px;
+    height: 30px;
+}
+
+.ux-ui {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.ux-ui h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.ux-ui p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+.digital-marketing {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+.digital-marketing h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.digital-marketing p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+.web-development {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.web-development h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.web-development p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+.ios-development {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+.ios-development h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.ios-development p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+.android-development {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 420px;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.android-development h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.android-development p {
+    align-content: flex-start;
+    padding: 0 15px;
+}
+
+.footer-header {
+    margin-top: 25px;
+    margin-bottom: -50px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-content-left {
+    border-top: 2px solid black;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 880px;
+    flex-wrap: nowrap;
+}
+
+.services-info-img {
+    justify-content: flex-end;
+    width: 420px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-header .footer-text {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 420px;
+    margin-top: 25px;
+}
+
+.footer-text {
+    padding-top: 25px;
+}
+
+.header3-p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -25px;
+}
+
+.list {
+    list-style-type: square;
+    padding-left: 25px;
+    line-height: 2;
+}
+
+.copyright {
+    width: 880px;
+    display: flex;
+    justify-content: center;
+}
