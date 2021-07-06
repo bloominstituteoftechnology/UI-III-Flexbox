@@ -64,3 +64,175 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* HOME PAGE */
+ 
+.container {
+	border: 1px solid red;
+  	width: 70%;
+	margin: 40px 40px;
+}
+	
+.main-title {
+	padding: 0 10px 0 10px;
+}
+
+.main-title .top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+	width: 100%;
+}	
+
+header nav a {
+	color: darkgrey;
+	text-decoration: none;
+	padding: 10px 40px 0 10px;
+}
+  
+header nav a:hover {
+	background: white;
+	color: black;
+}
+  
+header .logo {
+	width: 180px;
+	padding: 0 0 0 20px;
+}
+  
+.text {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 2%;
+	width: 96%;
+}
+  
+.text .title-button {
+	border: 1px solid blue;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2%;
+
+}
+
+.text .title {
+	border: 1px solid red;
+	font-weight: 550;
+	font-size: 230%;
+	width: 92%;
+	margin:10px;
+	padding: 5px;
+	text-align: center;
+}
+  
+.text .button {
+	border: 1px solid black;
+	padding: 2px 1px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	margin: 10px 65px;
+
+}
+  
+.text .top-img {
+	border: 1px solid red;
+	margin: 10px;
+	width: 50%;
+	align-items: flex-start;
+}
+  
+.middle {
+	border-top: 1px solid black;
+	display: inline-flex; 
+	flex-direction: row;
+	margin: 10px;
+	padding-top: 30px;
+}
+   
+.middle-img {
+	width: 100%;
+	padding: 10px;
+}
+  
+.bottom {
+	display: inline-flex;
+	flex-direction: row;
+	margin: 10px;
+}
+  
+.contact {
+	border-top: 1px solid black;
+	line-height: 2;
+	margin: 10px;
+	padding-top: 20px;
+}
+  
+footer {
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 20%;
+}
+
+/* SERVICES PAGE */
+
+.services-header-img {
+  	margin: 10px;
+  	padding: 10px;
+}
+
+.main {
+  	margin: 10px 0 0 20px;
+  	padding: 0 0 40px;
+  	border-bottom: 1px solid black;
+}
+
+.main h2 {
+	font-size: 26px;
+}
+
+.main-top {
+  	margin: 10px;
+  	padding: 10px;
+  	display: flex;
+	 flex-direction: row;
+}
+
+.main-middle {
+  	margin: 10px;
+  	padding: 10px;
+  	display: flex;
+  	flex-direction: row;
+}
+
+.main-bottom {
+  	margin: 10px;
+  	padding: 10px 0;
+}
+
+.end {
+  	border: 1px solid black;
+  	margin: 10px;
+}
+
+.end .bottom {
+  	border: 1px solid green;
+  	padding: 10px 0;
+}
+
+.services-info-img {
+  	border: 1px solid red;
+  
+}
+
+footer {
+   	text-align: center;
+  	margin: 10px;
+  	padding: 10px;
+}
