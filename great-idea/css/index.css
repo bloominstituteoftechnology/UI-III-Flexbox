@@ -16,9 +16,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin: 10px;
+	padding: 10px;
+	border: 10px;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -30,9 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-}
-ol, ul {
-	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -62,5 +59,100 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+head {
+	display: flex;
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+}
+header {
+	display: flex;
+}
+.header2 {
+	display: flex;
+	justify-content: space-evenly;
+}
+h1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 40pt;
+}
+.htext {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 200px;
+	margin-left: 100px;
+}
+.image1 {
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 100px;
+}
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+button {
+	padding: 5px;
+	background-color: white;
+	border: 1px solid #666;
+	width: 150px;
+}
+body1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.image2 {
+	display: flex;
+	justify-content: center;
+}
+body2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.box4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: #f2f4f2;
+	width: 400px;
+	border: 1px solid black;
+}
+.Copyr {
+	display: flex;
+	justify-content: center;
+	
+}
+footer {
+	display: flex;
+	flex-direction: column;
+}
+
+address {
+	line-height: 2;
+}
+.body3 {
+	display: flex;
+	flex-direction: row;
+}
+ul {
+	list-style-type: square;
+	line-height: .25;
+}
+.body4 {
+	display: flex;
+}
+.box5 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+h3 {
+	font-size: 20pt;
+}
