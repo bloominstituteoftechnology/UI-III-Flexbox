@@ -155,13 +155,13 @@ body {
 }
 
 p {
-  line-height: 1.15;
+  line-height: 1.25;
 }
 
 .container {
-  width: 1020px;
+  width: 1000px;
   margin: 0 auto;
-  padding: 0 75px;
+  padding: 0px 60px;
 }
 
 header {
@@ -180,7 +180,7 @@ header {
 nav {
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 15px;
   vertical-align: 100%;
 }
 
@@ -190,77 +190,60 @@ nav a {
   color: white;
 }
 
-.cta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 45px 0;
-  margin-top: 70px;
-  padding-bottom: 30px;
-  vertical-align: 100%;
-}
-
-.cta-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  vertical-align: 170%;
-  margin: 0px 75px;
-  font-size: 75px;
-  text-align: center;
+.services-header-img {
+  margin-bottom: 30px;
 }
 
 h1 {
-  letter-spacing: 4px;
+  font-size: 26px;
 }
 
-button {
-  display: flex;
-  font-size: 18px;
-  padding: 5px 39.5px;
+.service-intro {
+  border-bottom: 0.5px solid black;
+  padding-bottom: 40px;
 }
 
-.top-descriptions {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 45px;
-}
-
-.top-describe {
-  width: 48.5%;
-  margin-bottom: 35px;
-}
-
-.bottom-descriptions {
+.services {
+  border-bottom: 0.5px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 35px 0;
-  border-bottom: 1px solid black;
+  margin: 40px 0;
 }
 
-.bottom-describe {
-  width: 32%;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
+.service {
+  border: 0.5px solid black;
+  width: 47.6%;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+button {
+  margin-top: 25px;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.services-facts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facts {
+  width: 45%;
+  /* border: 2px solid red; */
+}
+
+ul {
+  margin-top: 30px;
+  margin-left: 20px;
+  line-height: 29px;
+  list-style-type: square;
 }
 
 footer {
-  margin-top: 40px;
-}
-
-address {
-  margin-bottom: 20px;
-}
-
-footer p {
-  margin-bottom: 20px;
-}
-
-.copyright {
+  margin-top: 90px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
-  margin-top: 55px;
-  font-size: 14px;
-  letter-spacing: -0.25px;
 }
