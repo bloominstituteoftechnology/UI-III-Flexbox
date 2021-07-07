@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,4 +63,183 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.container {
+	margin: 0 auto;
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.border {
+	height: 100px;
+	width: 90%;
+	border-bottom: 1px solid #000;
+}
+
+.header {
+ 	height: 30%;
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-nav {
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+.header-nav-items {
+		width: 65%;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+.header-nav-items a {
+	color: grey;
+	text-decoration: none;
+	}
+
+.logo {
+		padding: 1rem 0 0 4.5rem;
+	}
+
+.header-title {
+		width: 85%;
+		height: 70%;
+		padding: 2rem 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+.header-title-1, .header-title-2 {
+		width: 50%;
+		margin: 5%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+.header-title-1-contents h1 {
+		text-align: center;
+		margin: 0 20%;
+		font-size: 4.5rem;
+	}
+
+.button {
+		background-color: #fff;
+		text-align: center;
+		padding: 0.5rem 2rem;
+		margin-top: 25px;
+		border: 1px solid #000;
+		font-size: 15px;
+	}
+
+.main {
+	height: 30%;
+	width: 85%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main div{
+	width: 85%;
+	height: 30%;
+	margin: 20px 10px;
+}
+
+.top {
+	display: flex;
+	flex-direction: row;
+}
+
+.main-item {
+	background-color: #fff;
+	width: 50%;
+	height: 10px;
+}
+
+.middle {
+	display: flex;
+	flex-direction: row;
+	background-image: url("img/mid-page-accent.jpg");
+}
+
+.middle img {
+		width: 100%;
+
+}
+
+.bottom {
+	display: flex;
+	flex-direction: row;
+	padding: 0 0 2rem 0;
+
+}
+
+.main-bottom-item {
+	background-color: #fff;
+	width: 33%;
+	height: 10px;
+}
+
+.footer {
+	height: 30%;
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.contact {
+	width: 50%;
+	margin: 2% 5%;
+}
+
+.Copyright {
+	text-align: center;
+	width: 50%;
+	height: 10px;
+	margin: 2%;
+	align-self: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Services page */
+
+.box {
+	padding: 2%;
+	border: 1px solid #000;
+	background-color: #ddd;
+}
+
+.header-title-column {
+	flex-direction: column;
+}
+
+.header-title-text {
+	padding-top: 1.5rem;
+}
+
+.footer-left {
+	padding-bottom: 3.5rem;
+}
+
+.footer-list {
+	list-style-type: square;
+	margin: 5%;
+}
+
+.footer-list li {
+	line-height: 1.5;
+}
