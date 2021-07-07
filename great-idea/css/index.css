@@ -3,64 +3,248 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+  max-width: 900px;
+  /* border-bottom: 1px solid black; */
+  margin-bottom: 20px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  word-spacing: 100px;
+  margin-left: 100px;
+  width: 900px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.bottom-img {
+  margin-left: 200px;
+  width: 3500px;
+}
+.header-middle {
+  width: 900px;
+  margin: 15px 15px 15px 200px;
+}
+.parent-content {
+  margin-left: 200px;
+  margin-bottom: 30px;
+  display: flex;
+  
+}
+.first-content {
+  border: 1px groove silver;
+  margin-bottom: 10px;
+  width: 400px;
+  padding: 15px 15px 15px 15px;
+}
+
+.second-content {
+  border: 1px groove silver;
+  width: 400px;
+  margin-left: 75px;
+  padding: 15px 15px 15px 15px;
+}
+.parent2-content {
+	display: flex;
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+.third-content {
+  border: 1px groove silver;
+  width: 400px;
+  padding: 15px 15px 15px 15px;
+}
+.fourth-content {
+  border: 1px groove silver;
+  width: 400px;
+  margin-left: 75px;
+  padding: 15px 15px 15px 15px;
+}
+.parent3-content {
+	display: flex;
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+.fifth-content {
+  border: 1px groove silver;
+  width: 400px;
+  padding: 15px 15px 15px 15px;
+}
+.six-content {
+  border: 1px groove silver;
+  width: 400px;
+  margin-left: 75px;
+  padding: 15px 15px 15px 15px;
+  max-height: 900px;
+}
+
+.bottom-content {
+  max-width: 900px;
+  justify-items: center;
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+.inner-content {
+	margin-top: 40px;
+	width: 400px;
+	margin-bottom: 20px;
+	word-spacing: 5px;
+}
+.footer-img {
+	justify-content: right;
+	margin-left: 460px;
+	margin-top: -280px;
+}
+.list {
+	margin-top: 100px;
+	word-spacing: 5px;
+	line-height: 25px;
+}
