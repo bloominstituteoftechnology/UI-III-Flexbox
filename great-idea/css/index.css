@@ -64,3 +64,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	margin: 0 auto;
+	width: 880px;
+	/* display: inline-block; */
+}
+.top-navigation{
+	margin-top: 30px;
+	display: flex;
+    align-items: center;
+}
+/* .top-navigation nav {
+	display: inline-block;
+} */
+
+.top-navigation nav a {
+	margin-left: 40px;
+	color: grey;
+	text-decoration: none;
+	/* display: inline-block; */
+}
+
+.logo {
+	/* position: relative;
+	top: 10px; */
+	margin-left: 100px;
+	/* display: inline-block; */
+}
+
+.header {
+	/* display: inline-block; */
+	display: flex;
+	align-items: center;
+	margin: 50px 0 30px;
+	padding-bottom: 60px;
+	/* height: 600px; */
+	border-bottom: 1px solid black;
+}
+
+.left-header {
+	margin: 0 auto;
+	width: 379px;
+	text-align: center;
+	font-size: 80px;
+	/* display: flex;
+    align-items: center;*/
+	/* display: inline-block;  */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	/* justify-content: center; */
+}
+
+.left-header button {
+	
+	height: 30px;
+	width: 140px;
+	/* position: absolute;
+	left: 8%; */
+	background-color: white;
+	border: 1px solid black;
+	font-size: 15px;
+	/* display: inline-block; */
+}
+
+.upper-content {
+	margin: 30px 0 30px;
+	/* display: inline-block; */
+	display: flex;
+    flex-flow: row wrap;
+  	justify-content: space-between;
+}
+
+.upper-content div {
+	width: 436px;
+	/* display: inline-block; */
+}
+
+.lower-content {
+	margin: 30px 0 30px;
+	/* display: inline-block; */
+	display: flex;
+    flex-flow: row wrap;
+  	justify-content: space-between;
+}
+
+ .lower-content div {
+	width: 290px;
+	/*padding-right: 10px;
+	display: inline-block; */
+}
+/* .middle-img {
+	margin-left: 0px; 
+	display: inline-block; 
+} */
+ul li{
+	margin-top: 20px;
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+footer {
+	margin-top: 10px;
+	border-top: 1px solid black;
+	/* display: flex;
+    flex-flow: column wrap;
+  	justify-content: space-between; */
+}
+
+.copyright {
+	margin: 60px;
+	/*======= center the text here */
+	text-align: center;
+}
+
+.footer-content {
+	margin-top: 30px;
+}
+
+.footer-content a {
+	color: black;
+	text-decoration: none;
+}
+
+.footer-content p {
+	margin: 12px 0 12px;
+	
+}
