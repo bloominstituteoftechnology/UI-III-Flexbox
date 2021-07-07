@@ -53,14 +53,208 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 0;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+	body {
+		padding: 0 100px;
+	}
+  
+	*,
+	*:before,
+	*:after {
+	  box-sizing: inherit;
+	}
+	
+	.container {
+	  width: 100% !important;
+		margin: 0 auto;
+		padding: 0 !important;
+	}
+	
+	header {
+	  margin-bottom: 67px;
+	}
+	
+	nav,
+	nav a,
+	.logo,
+	.highlight {
+	  display: inline-block;
+	}
+	
+	nav a {
+	  text-decoration: none;
+	  color: silver;
+	  margin: 30px 0 0 60px;
+	  vertical-align: middle;
+	  font-size: 17px;
+	}
+	
+	nav a:first-child {
+	  margin-left: 10px;
+	}
+	
+	.highlight {
+	  vertical-align: top;
+	  margin: 104px 104px 104px 140px;
+	  text-align: center;
+	}
+	
+	.highlight-img {
+	  padding: 64px 64px 64px 100px;
+	  line-height: 55px;
+	  margin: 0 0 120px 120px;
+	}
+	
+	.logo {
+		padding: 20px;
+		margin-left: auto;
+	  /* margin: 25px 20px 0 300px; */
+	  /* vertical-align: middle; */
+	}
+	
+	h1 {
+	  font-size: 70px;
+	}
+	
+	button {
+	  border-color: black;
+	  width: 155px;
+	  height: 29px;
+	  font-size: 15px;
+	}
+	
+	.first-row,
+	.second-row {
+	  padding: 40px;
+	}
+  
+	.first-row p {
+	 padding: 20px 20px 20px 0;
+	}
+  
+	.second-row p {
+	  padding: 20px 20px 20px 0;
+	 }
+	
+  
+	.features,
+	.about {
+	  display: inline-block;
+	  width: 49.5%;
+	}
+  
+	.middle-img {
+	  padding: 40px;
+	  width: 1200px;
+	}
+	
+	.services,
+	.product,
+	.vision {
+	  display: inline-block;
+	  width: 33%;
+	}
+	
+	footer {
+	  margin-top: 40px;
+	  margin-left: 40px;
+	}
+	
+	.copyright p {
+	  text-align: center;
+	  padding: 30px;
+	  margin-left: 450px;
+	}
+
+	/* services css starts here */
+
+
+.digital-design , .ux-ui , .digital-marketing, .web-development, .ios, .android {
+ border: 1px solid black;
+ background-color: #EDEDED;
+ height: 100%;}
+
+.digital-design , .ux-ui , .digital-marketing, .web-development, .ios, .android, p  {
+	padding: 10px 25px 20px 20px;
+	margin: 20px 40px 20px 40px;
+	margin: 25px 15px;
+	width: 580px;
+}
+
+ h4   {
+	padding: 25px 20px 0 20px;
+}
+
+li {
+	font-size: 20px;
+	margin-left: 10px;
+	list-style-type: square;
+}
+
+.services {
+	width: 100%;
+	padding: 30px 0 30px 0;
+}
+
+.header {
+	display: flex;
+}
+
+.services-header-img {
+	width: 100%;
+  height: 250px;
+}
+
+.services h2  {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.services p {
+	font-size: 18px;
+	width: 100%;
+	padding: 0;
+}
+
+.copywright {
+	margin-top: 100px;
+	text-align: center;
+}
+
+hr {
+  border: 1px solid black !important;
+}
+
+.box-row1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.last-section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.last-section h4 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.digital-design h4{
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+
