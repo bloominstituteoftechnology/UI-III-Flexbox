@@ -64,3 +64,228 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* nav bar */
+
+body {
+	margin: 0 auto;
+	width: 876px;
+	display: block;
+	position: relative;
+}
+
+body nav {
+	position: fixed;
+	padding: 2rem 0;
+	top: 0;
+	background-color: white;
+	z-index: 500;
+	border-bottom: 1px solid grey;
+	width: 876px;
+}
+
+.navcontainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navmenu {
+	
+}
+
+.navmenu a {
+	padding: 0 3rem 0 0;
+	text-decoration: none;
+	color: grey;
+}
+
+.navmenu a:hover {
+	text-decoration: underline;
+
+}
+
+.navcontainer img {
+}
+
+/* .navmenu a:hover{
+
+} */
+
+/* header */
+
+.headermain {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5rem 0 2rem 0;
+	margin: 5rem 0 2.5rem 0;
+}
+
+.headertext {
+	flex: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-left: 70px;
+}
+
+.headertext h1 {
+	font-size: 5rem;
+}
+
+.headertext span {
+	border: 1px solid black;
+	display:inline-block;
+	padding: .6rem;
+	margin-top: 5px;
+	width: auto;
+}
+
+.headertext span:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+.headermain img {
+	flex: 0;
+}
+
+/* above image section */
+
+.above-img {
+	margin-top: 2.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.features {
+	width: 50%;
+}
+
+.about {
+	width: 50%;
+}
+
+.middle-img {
+	margin-top: 2.5rem;
+}
+
+address {
+	margin-top: 2rem;
+}
+
+.below-img {
+	margin: 2.5rem 0;
+	display: flex;
+	justify-content: space-between
+}
+
+.below-item {
+	width: 32%;
+}
+
+
+footer {
+	margin: 3rem 0 8rem 0;
+	text-align: center;
+}
+
+/* services page */
+
+.services-header-img {
+	width: 100%;
+	margin-top: 5rem;
+}
+
+.headerservices {
+	margin: 2rem 0;
+}
+
+.headerservices h1 {
+	font-size: 1.5rem;
+}
+
+.flexcontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.flexitems a {
+	text-decoration: none;
+	color: black;
+}
+
+.flexitems {
+	padding: 1rem;
+	width: 48%;
+	margin-top: 2rem;
+	padding-bottom: 1.5rem;
+	border: 1px solid black;
+	background: #f5f5f5;
+}
+
+.flexitems p {
+	margin-bottom: 1.5rem;
+}
+
+.learnmore {
+	font-size: .75rem;
+	margin-top: 1rem;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: .3rem 2.4rem;
+}
+
+.flexsection {
+	margin-bottom: 2rem;
+}
+
+.hrthird {
+	height: 3px;
+	background-color: black;
+}
+
+.last-section {
+	margin: 2rem 0 7rem 0;
+	display: flex;
+}
+
+ol {
+	list-style: square inside;
+
+}
+
+ol li {
+	margin-bottom: 1rem;
+}
