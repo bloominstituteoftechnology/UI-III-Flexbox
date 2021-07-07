@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+main header {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 75px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    line-height: 90px;
+}
+h2 {
+    font-size: 20px;
+}
+header {
+	position: fixed;
+	top: 0;
+}
+nav {
+	width: 68%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: white;
+}
+nav a {
+	display: inline-block;
+	padding: 10px;
+	margin-top: 5px;
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+.button {
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px 0px;
+    text-align: center;
+    border: 2px solid black;
+}
+section.block {
+    width: 100%;
+	display: flex;
+	align-content: flex-end;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 75px;
+}
+section.top {
+    vertical-align: middle;
+}
+hr {
+    margin: 50px;
+}
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: baseline;
+} 
+.container .middle-img {
+	margin: 30px 70px;
+}
+.content {
+	width: 430px;
+}
+.content2 {
+	width: 280px
+}
+p {
+    margin-top: 0;
+}
+.contact {
+    margin-left: 100px;
+}
+.contact address {
+    display: block;
+    width: 170px;
+    margin-bottom: 10px;
+}
+.contact a {
+    display: block;
+    margin-bottom: 10px;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+@keyframes myButton {
+	0% {
+		background: white;
+		color: black;
+	}
+	50% {
+		background: black;
+		color: white;
+	}
+	100% {
+		background: white;
+		color: black;
+	}
+}
+.button:hover, .button2:hover {
+	animation: myButton ease-in-out 1s;
+}
+@keyframes myNav {
+	0% {
+		background: none;
+		color: grey;
+	}
+	50% {
+		background: black;
+		color: white;
+	}
+	100% {
+		background:none;
+		color: grey;
+	}
+}
+nav a.hover:hover {
+	animation: myNav ease-in-out 1s;
+	cursor: pointer;
+}
+.services-top {
+	border: 1px solid red;
+	width: 80%;
+	margin-top: 75px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-content: flex-end;
+}
+h3 {
+	font-size: 18px;
+}
+.services-content {
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+.services-item {
+	background: lightgrey;
+	width: 450px;
+	height: 230px;
+	margin: 15px;
+	padding: 15px;
+}
+.button2 {
+	width: 150px;
+	border-radius: 10px;
+	background: white;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px 0;
+	margin: 25px 5px;
+}
