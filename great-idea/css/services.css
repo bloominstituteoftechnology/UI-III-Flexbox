@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+
+
+.container-home {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 50px
+	
+}
+
+header {
+	width: 100%;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.services-header-img {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	width: 100%;
+	margin-top: 20px;
+
+}
+
+header nav a {
+	color: gray;
+	text-decoration: none;
+
+}
+
+.services {
+	margin-top: 20px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+	
+}
+
+.main-content {
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	
+
+
+}
+
+.content {
+	background-color: lightgray;
+	border: 1px solid black;
+	height: 200px;
+	width: 420px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+button {
+	vertical-align: top;
+	border: 1px solid black;
+	font-size: 10px;
+	padding: 5px 20px;
+	border-radius: 5px;
+	margin: 10px;
+
+}
+
+.bottom-section {
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid black;
+	padding-top: 40px;
+	padding-right: 30px;
+	margin: 20px;
+}
+
+.facts-text {
+	margin-right: 40px;
+}
+
+ul {
+	
+	list-style-type: square;
+	margin: 20px;
+}
+
+li {
+	letter-spacing: .2rem;
+	line-height: 2;
+}
+
+
