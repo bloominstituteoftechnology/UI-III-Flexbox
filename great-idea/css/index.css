@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,228 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+html, header, body, nav, h1, h3, p, div, section, address, footer {
+	/* border: 1px dashed red; */
+}
+
+nav {
+	width: 93%;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 25px 100px 10px 50px;
+	padding: 0 0 0 25px;
+}
+
+nav a {
+	width: 12%;
+	padding: 5px 5px 30px;
+	text-decoration: none;
+	color: lightgrey;
+	/* margin: 0 auto; */
+	text-align: center;
+}
+
+nav a:hover {
+	color: black;
+}
+
+.logo {
+	width: 30%;
+	/* margin: 0px auto 10px; */
+	object-fit: scale-down;
+	padding: 5px 5px 20px;
+}
+
+section {
+	width: 85%;
+	display: flex;
+	margin: 0 50px 0 100px;
+}
+
+header {
+	width: 90%;
+	display: flex;
+	margin: 10px 50px 10px 100px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+	margin: 5px auto 15px;
+	padding: 2px;
+}
+
+.lefttopheader {
+	width: 55%;
+	display: block;
+	margin: 0 auto;
+	/* justify-content: center;
+	flex-wrap: wrap;
+	align-items: center; */
+}
+
+.headerbutton {
+	text-align: center;
+	border: 1px solid black;
+	width: 160px;
+	margin: 15px auto 5px;
+	font-size: 18px;
+	color: black;
+	padding: 7px 30px;
+}
+
+.headerimage {
+	width: 50%;
+	object-fit: contain;
+	padding: 10px 55px 10px 10px;
+}
+
+section.first-in-line {
+	border-top: 1px solid black;
+	margin: 50px 80px 20px 100px;
+	width: 85%;
+	justify-content: space-between;
+}
+
+.first-in-line div {
+	display: inline-block;
+	width: 50%;
+	margin: 25px 0px;
+	padding: 2px;
+}
+
+.middle-img {
+	width: 88%;
+	margin: 10px 100px 20px 50px;
+	display: block;
+	object-fit: contain;
+	padding-left: 50px;
+}
+
+section.second-in-line {
+	margin-top: 20px;
+	justify-content: space-between;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+.second-in-line div {
+	display: inline-block;
+	width: 33%;
+	padding: 2px 5px;
+}
+
+address {
+	margin: 20px 50px 20px 100px;
+}
+
+address p {
+	margin: 15px 0;
+}
+
+small {
+	display: block;
+	text-align: center;
+	font-size: smaller;
+	margin-top: 75px;
+	margin-bottom: 20px;
+}
+
+/* services.html specific */
+h2 {
+	font-size: 20px;
+}
+
+main {
+	width: 88%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+@media only screen and (max-width: 760px) {
+	.flowcontrol {
+		width: 88%;
+		display: flex;
+		justify-content: space-between;
+		flex-flow: column nowrap;
+		align-items: space-between;
+		margin: 0 auto;
+		padding: 5px;
+	}
+	section.flowblock {
+		width: 86%;
+	}
+}
+
+.flowblock {
+	width: 46%;
+	display: block;
+	border: 1px solid black;
+	padding: 25px;
+	margin: 20px 10px;
+	background-color: #F5F5F5;
+}
+
+.buttonLearnMore {
+	border: 1px solid black;
+	width: 150px;
+	margin: 20px 2px 2px 0;
+	font-size: 14px;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: #FFFFF0;
+}
+
+.servicesheader {
+	width: 85%;
+	display: block;
+	margin: 30px auto 20px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+.services-header-img {
+	width: 85%;
+	display: block;
+	margin: 0 auto;
+}
+
+footer {
+	width: 85%;
+	margin: 30px auto 20px;
+	padding-top: 50px;
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+footer p {
+	margin: 5px 20px 5px 0px
+	padding: 5px 10px 5px 0;
+}
+footer div {
+	margin: 5px 40px 5px 0px
+	padding: 5px 15px 5px 0;
+}
+
+ul {
+	margin: 10px 0px;
+	list-style: square inside;
+	padding: 10px 0;
+}
+ul li {
+	padding: 5px 0;
+}
+
+footer img {
+	margin-left: 20px;
+	object-fit: contain;
+}
