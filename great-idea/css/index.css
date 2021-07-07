@@ -64,3 +64,220 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 880px;
+	margin: auto;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: column;
+	width: 876px;
+	margin: auto;
+}
+
+.nav-bar1 {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+	width: 876px;
+	background: rgba(255, 255, 255, 0.75);
+	padding:10px 10px;
+}
+
+.nav-bar {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+	width: 880px;
+	background: rgba(255, 255, 255, 0.75);
+	padding:10px 10px;
+}
+
+.logo {
+	display: flex;
+}
+
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+
+nav {
+	display: flex;
+	width: 80%;
+}
+
+a {
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	align-content: center;
+	color: black;
+	padding: 10px 40px 10px 0;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 100px 0 50px 0;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+	height: 400px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+	height: 800px;
+}
+
+.box {
+	background: lightgray;
+	display: flex;
+	flex-direction: column;
+	width: 420px;
+	height: 240px;
+	border: 1px solid black;
+	justify-content: space-between;
+}
+
+.bh2 {
+	font-size: 20px;
+	margin: 10px 0 0 10px;
+}
+
+.bp {
+	margin: 0 10px 0 10px;
+}
+
+.butn {
+	background: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 2.5px;
+	display: flex;
+	justify-content: space-around;
+	height: 30px;
+	width: 200px;
+	margin: 0 0 10px 10px;;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding-top: 50px;
+	border-top: 1px solid black;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.fdiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 420px;
+	height: 300px;
+}
+
+ul {
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+li {
+	margin: 10px 0;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+}
+
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.tr {
+	width: 45%;
+}
+
+.tl {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	width: 45%
+}
+
+.h1t {
+	text-align: center;
+	font-size: 100px;
+}
+
+.tb {
+	margin: auto;
+	margin-top: 10px;
+	background: white;
+	border: 1px solid black;
+	width: 150px;
+	height: 50px;
+}
+
+.ts {
+	padding: 50px 0;
+	border-top: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.s1 {
+	width: 45%;
+}
+
+.bs {
+	margin-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.s2 {
+	width: 30%
+}
+
+.vbs {
+	margin: 50px 0;
+}
+
+
