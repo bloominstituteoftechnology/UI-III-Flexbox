@@ -64,3 +64,199 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav{
+	display: inline-block;
+    height: 20px;
+    margin-left: 15px;
+}
+
+header nav a{
+	margin: 0 20px;
+	/* border: 1px solid red; */
+	color: gray;
+	text-decoration: none;
+}
+
+.logo {
+	margin-top: 35px;
+    margin-left: 90px;
+}
+
+
+.title h1{
+	font-size: 70px;
+}
+
+h1 {
+    width: 350px;
+    height: 250px;
+    margin: 110px 0 0 60px;
+    padding: 15px 20px 0 20px;
+}
+
+.title, button {
+	text-align: center;
+	display: inline-block;
+}
+
+button {
+	border: 1px black solid;
+    background: white;
+    width: 160px;
+    height: 40px;
+    margin: 0 0 0 50px;
+    font-size: 16px;
+}
+
+/* circular photo */
+.complex {
+	display: inline-block;
+	margin-left: 85px;
+	width: 350px;
+	height: 350px;
+}
+
+.border {
+	border-top: 1px solid black;
+    margin: 75px 20px 25px 20px;
+    padding: 0 0 0 0;
+
+}
+
+.borderpart2 {
+	border-top: 1px solid black;
+    margin: 15px 20px 25px 20px;
+    padding: 0 0 0 0;
+}
+
+h2 {
+	font-size: 20px;	
+}
+
+.first {
+    height: 110px;
+    width: 405px;
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+}
+
+.second {
+	height: 150px;
+	width: 256px;
+	display: inline-block;
+	margin: 20px 20px 20px 20px;
+}
+
+p{
+font-size: 95%;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 858px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.finishline {
+	margin-left: 20px;
+}
+
+
+
+/* NEW CODE BEGINS HEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+.container {
+	margin: auto;
+	width: 880px;
+}
+
+.container .top {
+	display: flex;
+	flex-direction: row;
+	height: 90px;
+	flex-wrap: wrap;	
+	justify-content: space-between;
+	align-items: center;
+	/* width: absolute; */
+}
+
+.top a {
+	text-decoration: none;
+	color: gray;
+}
+
+.services {
+	margin: 40px 0 40px 0;
+}
+
+.services h2 {
+	font-size: 25px;
+}
+
+.container .middle {
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	height: 900px;
+	width: 878px;
+	margin: auto;
+}
+
+.para {
+	height: 250px;
+	width: 425px;
+	background:#DCDCDC;
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	
+}
+
+.para h2 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+
+}
+
+.para p,{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.para button {
+	margin-top: 20px;
+	height: 30px;
+	width: 100px;
+	background: white;
+	border-radius: 5px;
+}
+
+ footer {
+	border: 1px solid red;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
