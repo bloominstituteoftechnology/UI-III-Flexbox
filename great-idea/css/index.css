@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.section.head{
+	display: flex;
+	flex-wrap: wrap;
+	width: 1100px;
+	height: 50px;
+	background: white;
+	border: 1px;
+	margin: 10px;
+}
+.section.top{
+	  width: 875px;
+	  height: 300px;
+	  background: white;
+	  border: 1px;
+	  margin: 10px;
+  }
+  .section.mid {
+	  display: flex;
+	  flex-wrap: wrap;
+	  width: 1100px;
+	  height: 600px;
+	  background:white;
+	  border: 1px;
+	  margin: 10px;
+	 }
+	 .section.bottom{
+		display: flex;
+		flex-wrap: wrap;
+		width: 1100px;
+		height: 400px;
+		background: white;
+		border: 1px;
+	 }
+	 nav a{
+		 text-align: left;
+		 color: black;
+		 border: 1px;
+		 padding-right: 60px;
+
+	 }
+	 .logo{
+		 text-align: right;
+	 }
+		.box {
+	width: 400px;
+	height: 190px;
+	background: whitesmoke;
+	border: 1px solid black;
+	font-size: 15px;
+	color: black;
+	margin: 10px;
+	padding: 15px;
+  }
+  .box.a {
+	order: 1;
+	align-self: flex-start;
+  }
+  
+  .box.b {
+	order: 1;
+	align-self: baseline;
+  }
+  .box.c {
+	order: 1;
+	align-self: center;
+  }
+  
+  .box.d {
+	order: 1;
+	align-self: center;
+  }
+  .box.e {
+	order: 1;
+	align-self: flex-end;
+  }
+  .box.f {
+	order: 1;
+	align-self: flex-end;
+  }
+  footer{
+	padding: 20px 0;
+	 text-align: center;
+  }
+  .services-info-img{padding: 20px 0;
+  text-align: right;
+}
+ul  {
+	list-style: square inside;
+	margin: 15px 0px;
+
+  }
+  .sub {
+	width: 400px;
+	height: 170px;
+	background: white;
+	border: 1px;
+	font-size: 15px;
+	color: black;
+	margin: 10px;
+	padding: 20px;
+  }
+  .button {
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	background: white;
+	border: 1px solid black;
+	font-size: 15px;
+	color: black;
+	margin: 10px;
+  }
