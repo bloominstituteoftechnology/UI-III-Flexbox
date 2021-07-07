@@ -1,66 +1,127 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.container{
+	width: 880px;
+	margin: 0 auto;
+  }
+  /* header*/
+  header nav{
+	display: flex;
+	margin-top: 35px;
+  }
+  header nav a{
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  header nav a:hover{
+	text-decoration: underline;
+  }
+  .logo2{
+	display: flex;
+	margin-left: 750px;
+	margin-top: -25px;
+  }
+  /* pagetop-content */
+.services-header-img{
+	display: flex;
+	margin-left: 20px;
+	margin-top: 20px;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+.pagetop-content h5{
+	display: flex;
+	margin-top: 40px;
+	font-size: 180%;
 }
-body {
-	line-height: 1;
+.pagetop-content p{
+	display: flex;
+	margin-bottom: 30px;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+/*mainpage-content*/
+.mainpage-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+.mainpage-content{
+    margin: 20px 0;
+}
+.mainpage-content .card button:hover {
+    background: black;
+    color: white;
+} 
+.services-content .services-info {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid black; 
+    margin: 20px 0 35px 0;
+    padding-top: 40px; 
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+.services-content .services-info .facts {
+  width: 400px;
+  margin: 0 60px 20px 0;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.services-content .services-info .facts p {
+  margin-bottom: 20px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.services-content .services-info .services-info-img {
+  width: 420px;
+  height: 300px;
+}
+button{
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 24px;
+	font-size: 12px;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 10%;
+}
+.card{
+	border: 1px solid black;
+	background: rgba(161, 161, 161, 0.747);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 44%;
+	padding: 20px;
+}
+/*endpage*/
+.endpage-content{
+	border-top: 1px solid black;
+	padding-top: 39px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.endpage-content ul li{
+    list-style: square;
+    padding: 5px;
+}
+.endpage-content ul {
+    margin: 20px;
+}
+
+.endpage-content h3{
+	display: flex;
+	margin-top: 40px;
+	font-size: 130%;
+}
+.endpage-content p{
+	display: flex;
+	margin-bottom: 30px;
+}
+.endpage-content .services-info-img{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 450px;
+  margin-top: -200px
+}
+.end{
+	display: flex;
+	justify-content: center;
+}
