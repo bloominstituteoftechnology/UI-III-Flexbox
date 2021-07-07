@@ -3,64 +3,350 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+ol,
+ul {
+  list-style: none;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.25;
+}
+.navigation {
+  list-style: none;
+  margin: 0;
+  background-image: radial-gradient(
+    circle,
+    #00c5f7,
+    #00eeff,
+    #00ffea,
+    #00ff7b,
+    #0eff00
+  );
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.navigation a:hover {
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', sans-serif;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.parent-container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  padding-top: 30px;
+  font-family: 'Bangers', sans-serif;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 5px;
+  padding: 10px 48px;
+  border-radius: 5px;
+  font-size: 0.5em;
+  background: white;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+.headerImage {
+  width: 250px;
+  margin: 40px;
+}
+
+.row {
+  display: flex;
+}
+
+.para {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  margin: 30px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.contact-area {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.main-footer {
+  display: flex;
+  min-height: 80px;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(
+    circle,
+    #00fcff,
+    #00ffe5,
+    #00ffb9,
+    #00ff7b,
+    #0eff00
+  );
+}
+
+/* Services Page */
+.services-header-img {
+  margin: 10px 20px;
+}
+
+.headerArticle {
+  margin: 10px 20px;
+}
+
+.infoBox {
+  background: #dfdfdf;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.servicesBtn {
+  margin-top: 10px;
+  padding: 10px 48px;
+  border-radius: 5px;
+  font-size: 1em;
+  background: white;
+  cursor: pointer;
+}
+
+.servicesBtn:hover {
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+.rowLast {
+  display: flex;
+  margin: 20px;
+}
+
+.rowLast li {
+  list-style-type: disc;
+  margin: 8px 0px 0px 20px;
+}
+
+.rowLast li:first-child {
+  list-style-type: disc;
+  margin-top: 20px;
+}
+
+.infoBoxLast {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+/* Media Queries */
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+  }
+
+  .navigation li:nth-of-type(1) {
+    order: 2;
+  }
+  .navigation li:nth-of-type(2) {
+    order: 3;
+  }
+  .navigation li:nth-of-type(3) {
+    order: 4;
+  }
+  .navigation li:nth-of-type(4) {
+    order: 5;
+  }
+  .navigation li:nth-of-type(5) {
+    order: 6;
+  }
+  .navigation li:nth-of-type(6) {
+    order: 7;
+  }
+  .navigation li:nth-of-type(7) {
+    order: 1;
+  }
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+
+  .parent-container {
+    width: auto;
+    margin: 0;
+  }
+
+  .headerImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rowLast {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
