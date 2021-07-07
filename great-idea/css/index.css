@@ -64,3 +64,211 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/*CSS for index*/
+.header-container {
+	/* border: 1px solid blue; */
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-menu a {
+	font-family: 'Titillium Web';
+	color: #bfbfbf;
+	text-decoration: none;
+	/* border: 1px solid red; */
+	padding: 50px;
+	width: 160px;
+}
+
+.logo {
+	/* border: 1px solid red; */
+	padding: 50px;
+}
+
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+
+.body-container {
+	display:flex;
+	flex-direction: column;
+	/* border: 1px solid red; */
+	justify-content: center;
+	align-items: center;
+}
+
+.header1 {
+	font-size: 100px;
+	text-align: center;
+	/* border: 1px solid red; */
+	width: 500px;
+	height: 300px;
+}
+
+.get-started {
+	border: 1px solid black;
+	width: 160px;
+	padding: 10px 40px 10px 40px;
+	margin-left: 170px;
+}
+
+.circle-logo {
+	/* border: 1px solid red; */
+}
+
+.features-about {
+	display: flex;
+	justify-content: center;
+}
+
+.info {
+	border-top: 1px solid black;
+	width: 430px;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+.info2 {
+	border-bottom: 1px solid black;
+	width: 280px;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.middle-img {
+	/* border: 1px solid red; */
+	width: 820px;
+}
+
+.copyright {
+	/* border: 1px solid red; */
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+.contact {
+	margin-right: 650px;
+}
+
+
+
+
+
+
+/*CSS for services*/
+
+.header-container2 {
+	/* border: 1px solid blue; */
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-menu2 a {
+	font-family: 'Titillium Web';
+	color: #bfbfbf;
+	text-decoration: none;
+	/* border: 1px solid red; */
+	padding: 25px;
+}
+
+.logo2 {
+	/* border: 1px solid red; */
+	padding-left: 110px
+}
+
+.new-services {
+	/* border-bottom: 1px solid black; */
+	width: 880px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	margin-left: 30px;
+}
+
+.info-box {
+	border: 1px solid black;
+	width: 400px;
+	padding: 20px;
+	margin: 30px;
+}
+
+.learn-more {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 180px;
+	padding: 10px 50px 10px 50px;
+	margin-top: 20px;
+}
+
+.new-header1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.new-header2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.two-box {
+	display: flex;
+}
+
+.bar {
+	border-top: 1px solid black;
+	width: 860px;
+	margin-left: 30px;
+	height: 30px;
+}
+
+.facts {
+	/* border: 1px solid red; */
+	width: 420px;
+	padding-bottom: 20px;
+}
+
+.list {
+	list-style-type: square;
+	margin-left: 20px;
+}
+
+.services-header-img {
+	/* border: 1px solid red; */
+	width: 880px;
+	margin: 30px;
+}
+
+.fact-and-image {
+	border-top: 3px solid black;
+	display: flex;
+	padding-top: 30px;
+	width: 860px;
+	margin-left: 30px;
+}
+
+.new-body-container {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	width: 940px;
+	align-self: center;
+}
+
+.everything {
+	display: flex;
+	flex-direction: column;
+}
+
+.services-info-img {
+	/* border: 1px solid red; */
+	padding-left: 20px;
+}
