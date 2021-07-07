@@ -64,3 +64,149 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+nav a {
+	padding: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	font-size: 75px;
+	padding: 10px;
+	margin: 10px;
+}
+
+button {
+	display: block;
+	width: 100px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+
+p {
+	font-size: 18px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 900px;
+}
+
+.top-nav {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin: 20px;
+}
+
+.logo {
+	padding: 0 20px;
+}
+
+.top-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.middle-stuff {
+	display: flex;
+	justify-content: space-evenly;
+	border-top: 1px solid black;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.mid {
+	padding: 20px 0;
+	width: 49%;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.bottom-stuff {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	padding: 40px 0;
+	border-bottom: 1px solid black;
+}
+
+.bot {
+	padding: 10px;
+}
+
+.contact {
+	padding: 40px 0;
+}
+
+.address {
+	padding-bottom: 15px;
+}
+
+.phone-number {
+	padding-bottom: 15px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-page2 {
+	margin: 20px 10px;
+}
+
+.services-header-img {
+	display: block;
+	margin: 20px auto;
+}
+
+.bigger-h2 {
+	font-size: 30px;
+}
+
+.service-options {
+	width: 910px;
+	margin-bottom: 35px;
+}
+
+.middle-meat {
+	display: flex;
+	flex-wrap: wrap;
+	border-top:  1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.meat-piece {
+	padding: 10px;
+	margin: 10px;
+	background-color: lightgray;
+	border: 1px solid black;
+	width: 400px;
+}
+
+.bottom-facts {
+	display: flex;
+	padding: 20px;
+}
+
+
