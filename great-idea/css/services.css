@@ -63,33 +63,18 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-header h1 {
-	font-size: 100px;
-	text-align: center;
-}
-
 .container {
-	width: 900px;
+	width: 880px;
 	margin: auto;
-
 }
 
 nav {
-	margin-top: 2%;
+	margin: 1.5% auto;
 	background-size: cover;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
     align-items: center;
 	flex-wrap: wrap;
-}
-nav section{
-	padding: .5%;
-}
-
-.logo{
-	
 }
 
 nav a {
@@ -99,68 +84,42 @@ nav a {
 }
 
 header{
-	border-bottom: 1px solid black;
-	padding-top: 5%;
-    padding-bottom: 5%;
-	width: 100%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	
-}
-header .cta{
-	display: flex;
+    display: flex;
     flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 3%;
 }
 
-header .cta button{
-	background: none;
+header section{
+    padding-top: 3%;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.main-content{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-content section{
+    width: 45%;
+    background-color: rgb(244, 244, 248);
     border: 1px solid black;
-	padding: 1% 3%;
-	font-family: 'Titillium Web', sans-serif;
-	cursor: pointer;
+    padding: 2%;
+    margin: 2% auto;
 }
 
-.top-content{
-	width: 100%;
-	margin: 5% auto;
-	display: flex;
-	justify-content: space-evenly;
-	align-content: center;
+.main-content section button{
+    margin-top: 5%;
+    padding: 2% 7%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6%;
 }
-
-.top-content section{
-	text-align: left;
-}
-
-.container .middle-img{
-	
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-}
-
-
-.bottom-content{
-	width: 100%;
-	margin: 5% auto;
-	display: flex;
-	justify-content: space-evenly;
-	align-content: center;
-	border-bottom: 1px solid black;
-	padding-bottom: 5%;
-}
-
-.bottom-content section{
-	margin: 0 1%;
-}
-address{
-	width: 40%;
-	margin-top: 5%;
-}
-
-footer{
-	margin: 5% 43%;
 }
