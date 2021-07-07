@@ -64,3 +64,160 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  
+  /* header */
+
+  header {
+	  width: 880px;
+	  margin: 0 auto;
+	  display: flex;
+	  justify-content: space-evenly;
+  }
+  
+  header nav {
+	vertical-align: top;
+	margin-top: 35px;
+  }
+  
+  header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header .logo {
+	margin-top: 25px;
+  }
+  
+  /* cta */
+
+  .cta {
+	  display: flex;
+	  justify-content: space-evenly;
+  }
+  
+  .cta .cta-text {
+	font-size: 77px;
+	align-self: center;
+	text-align: center;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .cta img {
+	margin-top: 69px;
+  }
+  
+  .main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
+  
+  .top-content {
+	display: flex;
+	justify-content: space-evenly;
+  }
+  
+  .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+.bottom-content {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+  .main-content .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
+
+  .services-header-img {
+	  margin-top: 10px;
+  }
+
+h1 {
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+.maincontent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	border-top: 1px solid black;
+	margin-top: 35px;
+	margin-right: 30px;
+	padding-top: 35px;
+  }
+
+  .textcontent {
+	  border: 1px solid black;
+	  background: lavender;
+	  width: 400px;
+	  height: 230px;
+	  margin-bottom: 40px;
+	  padding: 10px;
+  }
+
+  button {
+	background: white;
+	vertical-align: top;
+	margin-top: 8px;
+	padding: 8px 40px;
+	font-size: 13px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+
+  .bottomcontent {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	border-top: 3px solid black;
+	margin-top: 10px;
+	margin-right: 30px;
+	padding-top: 35px;
+  }
+
