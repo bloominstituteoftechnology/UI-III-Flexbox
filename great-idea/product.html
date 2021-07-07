@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Great Idea!</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="css/product.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+  <body>
+
+    <!-- Copy and paste your HTML from the first UI project here -->
+    <header>
+      <nav class="navbar">
+        <a href="services.html">Services</a>
+        <a href="product.html">Product</a>
+        <a href="#">Vision</a>
+        <a href="#">Features</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="index.html"><img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a>
+      </nav>
+    </header>
+
+    <!-- Title -->
+    <div class="title">
+        <h1>Basketball HORSE Simulator</h1>
+        <p>I APOLOGIZE FOR THE STYLING THIS IS PURELY FOCUSED ON FUNCTIONALITY LOL</p>
+        <p>---CURRENTLY UNFINISHED---</p>
+    </div>
+
+    <!-- Players -->
+    <div class="game">
+        <div class="player">
+            <h2>Player One</h2>
+            <h4>Letters</h4>
+            <p id="playerOneLetters">None</p>
+            <p>Turn(<span id="playerOneTurn"></span>)</p>
+        </div>
+
+        <div class="gameplay">
+                <button id="layup">Layup</button>
+                <button id="freeThrow">Free Throw</button>
+                <button id="threePointer">3pt Shot</button>
+                <button id="newGame">New Game</button>
+                <button id="changeTurn">Change Turn</button>
+        </div>
+    
+        <div class="player">
+            <h2>Player Two</h2>
+            <h4>Letters</h4>
+            <p id="playerTwoLetters">None</p>
+            <p>Turn(<span id="playerTwoTurn"></span>)</p>
+        </div>
+    </div>
+
+    <div class="plays">
+        <h1 id="endGame"></h1>
+        <p id="playerOnePlay">Play 1</p>
+        <p id="playerTwoPlay">Play 2</p>
+        <p id="resultPlay">Result</p>
+    </div>
+    
+    
+    <script src="product.js"></script>
+  </body>
+</html>
