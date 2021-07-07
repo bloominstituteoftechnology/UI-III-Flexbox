@@ -64,3 +64,180 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	display:flex;
+
+  }
+  
+  /* header */
+  
+  header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  }
+  
+  header nav a {
+	display: flex;
+	  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	display: flex;
+	margin-top: 25px;
+  }
+  
+  /* cta */
+  
+  .cta .cta-text {
+	display: flex;
+	vertical-align: top;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 75px;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .cta img {
+	display: flex;
+	margin-top: 69px;
+  }
+  
+  .main-content {
+	display: flex;
+  }
+  
+  .main-content .top-content {
+	padding: 0 10px;
+  }
+  
+  .main-content .top-content .text-content {
+	width: 410px;
+	display: flex;
+	margin-right: 34px;
+  }
+  
+  .main-content .top-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main-content .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .main-content .bottom-content .text-content {
+	width: 275px;
+	display: flex;
+	margin-right: 12px;
+  }
+  
+  .main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
+
+  /*item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}*/
+  .item{
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+	border: 1px solid red; 
+	justify-content: space-evenly;
+}
+
+/* flex-direction: row | row-reverse | column | column-reverse;*/
+.container1{
+	display: flex;
+	flex-direction: column;
+	border:  1px solid red;
+}
+
+.container2{
+	display: flex;
+	flex-direction: column;
+	border:  1px solid red;
+}
+.container3{
+	display: flex;
+	flex-direction: column;
+	border:  1px solid red;
+}
+.container4{
+	display: flex;
+	flex-direction: column;
+	border:  1px solid red;
+}
+.container5{
+	display: flex;
+	flex-direction: column;
+	border:  1px solid red;
+}
+.container6{
+	display: flex;
+	flex-direction: column;
+	border:  1px solid red;
+
+}
+
+.container7{
+	display: flex;
+	flex-direction: column;
+	border:  1px solid red;
+}
+	
+.container8{
+	display: flex;
+	justify-content: flex-end;
+	border:  1px solid red;
+}
