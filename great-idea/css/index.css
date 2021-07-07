@@ -64,3 +64,323 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	 margin: 0 auto;
+	 width: 1000px;
+ }
+
+.main-header {
+
+	
+	
+	text-align: center;
+   margin: 100px 40px 0px 20px;
+	font-size: 90px;
+   
+   
+   
+ }
+ 
+ .nav {
+   border-radius: 50px;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin: 0 20px 90px 20px;
+   padding: 0;
+   width: auto;
+   text-decoration:  none;
+   background: whitesmoke;
+   color: black;
+
+ }
+ .nav:hover{
+	 color: aqua ;
+	 background-color: black;
+	 
+ }
+ .logo{
+	 flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+	 width: auto;
+	 padding: 20px;
+
+	 margin: 0 20px;
+ }
+ .image{
+display: flex;
+ }
+
+ img{
+	width: 300px;
+	height: auto;
+ }
+
+ 
+ 
+ .button{
+	
+	 vertical-align: top; 
+	 margin-left: 40px;
+	 border-radius: 30px;
+	 width: 200px;
+	 background: whitesmoke;
+	 font: black;
+	 font-size: 25px;
+	 border: black;
+   
+
+	 }
+
+ button:hover{
+	 background: black;
+	 color: aqua;
+ }
+
+ .top{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+justify-self: right;
+justify-content: space-evenly;
+ }
+
+ .features{
+flex-wrap: wrap;
+	 padding: .5%;
+
+	 
+	 width: 40%*
+	 justify-content: space-around;
+	 justify-content: space-evenly;
+	}
+
+
+ .about{
+	 flex-wrap: wrap;
+	padding: .5%;
+	
+	width: 40%*
+ }
+
+ .FB{
+	 display: flex;
+justify-content: space-around;
+justify-content: space-evenly;
+
+ }
+
+
+   .SPV{
+		display: flex;
+		justify-content: space-around;
+		justify-content: space-evenly;
+   }
+
+
+ .services-section{
+	 flex-wrap: wrap;
+	 margin: 2%;
+   width:33%;
+	
+	 
+
+ }
+ .product-section{
+	flex-wrap: wrap;
+	margin: 2%;
+	 width: 33%;
+	 justify-content: center;
+
+	 
+ }
+ .vision-section{
+	flex-wrap: wrap;
+	margin: 2%;
+  width: 33%;
+	
+
+ }
+
+
+ .middle-img{
+   margin-right: 0 70px 0 0;
+   margin-left: 0;
+   width: 1000px;
+   
+
+ }
+
+ .contact{
+	 
+ }
+
+ .copyright{
+	 width: auto;
+	 text-align: center;
+	 
+ }
+hr{
+	display: block;
+	margin-before: 0.5em;
+	margin-after: 0.5em;
+	margin-start: auto;
+	margin-end: auto;
+	overflow: hidden;
+	border-style: inset;
+	border-width: 1px;
+}
+.services-header-img{
+	width: 100%;
+	height: auto;
+}
+
+.dui{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 2%;
+	margin: 2% 2% 2% 2%;
+
+}
+.d{
+
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	width: 40%;
+	height: auto;
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+
+}
+.ui{
+	width: 40%;
+	height: auto;
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+}
+
+.dmwd{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+	justify-content: space-evenly;
+	padding: 2%;
+	margin: 2% 2% 2% 2%;
+}
+
+.dm{
+	width: 40%;
+	height: auto;
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+
+}
+.wd{
+	width: 40%;
+	height: auto;
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+
+}
+
+.ioa{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+	justify-content: space-evenly;
+	padding: 2%;
+	margin: 2% 2% 2% 2%;
+}
+
+.i{
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	width: 40%;
+	height: auto;
+	padding: 20px
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+}
+
+.oa{
+	background: rgb(205, 194, 209);
+	border: solid  black 1px;
+	width: 40%;
+	height: auto;
+	padding: 20px;
+	flex-wrap: wrap;
+	margin: 2%;
+	padding: 5%;
+}
+
+.information{
+
+	justify-content: space-around;
+	justify-content: space-between;
+	justify-content: space-evenly;
+	flex-flow: <‘flex-direction’> || <‘flex-wrap’>
+
+	
+}
+
+.services{
+	border-radius: 50px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0 20px 90px 20px;
+	padding: 0;
+	width: auto;
+	text-decoration:  none;
+	background: whitesmoke;
+	color: black;
+}
+.services:hover{
+	color: aqua ;
+	 background-color: black;
+}
+
+.facts {
+	display: flex;
+	
+}
+.services-copy{
+	width: auto;
+	text-align: center;
+}
+	.learn{
+		margin: 5%;
+		border-radius: 10%;
+		padding: 2% 6% 2% 6%;
+		width: 55%;
+	}
+.services-info-img{
+	width: auto;
+	height: auto;
+	padding: 20px;
+	margin: 40px 20px 30px 0;
+}
+.sm{
+	margin: 40px 0px 30px 20px;
+	padding: 30px;
+	width: 50%;
+	height: 50%;
+	
+}
