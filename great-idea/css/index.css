@@ -64,3 +64,226 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	background-color: darkblue;
+}
+.pic {
+	margin-left: 900px;
+	margin-top: 70px;
+	
+}
+
+img.logo {
+	margin-left: 1080px;
+	margin-top: 25px;
+}
+h1 {
+	font-size: 445%;
+	position: absolute;
+	left: 475px;
+	top: 211px;
+	text-align: center;
+}
+.tricky {
+	position: absolute;
+	left: 554px;
+	top: 445px;
+	font-size: 16px;
+	padding: 10px 25px;
+	background-color: white;
+	color: black;
+}
+.one {
+	margin-top: 25px;
+	
+	margin-left: 250px;
+
+}
+a {
+	font-size: 150%;
+	text-decoration: none;
+	margin-left: 40px;
+	color: grey;
+
+}
+.second {
+	border-bottom: 5px dotted black;
+	padding-bottom: 100px;
+}
+.fstpara {
+	display: flex;
+	justify-content: space-around;	
+	margin-bottom: 100px;
+	margin-top: 100px;
+	
+}
+.fstpara p {
+	width: 400px;
+}
+.fstpara h3{
+	text-align: center;
+}
+
+.nxtpara h3 {
+	text-align: center;
+}
+img.middle-img {
+	margin-left: 200px;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+.smpara {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.smpara h3 {
+	text-align: center;
+}
+
+.lastx {
+	border-bottom: 5px dotted black;
+	margin-bottom: 50px;
+}
+.add {
+	margin-bottom: 5px;
+}
+.no2 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.c {
+	text-align: center;
+}
+
+/*********************************ServicesUnderHere*/
+
+.top {
+	display: flex;
+	align-content: center;
+	flex-direction: row;
+	margin-bottom: 30px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 75px;
+}	
+ 
+.toppic img {
+	width: 300px;
+}
+
+.serhead {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.serhead img {
+	width: 1200px;
+}
+.service {
+	display: flex;
+	margin-left: 73px;
+	margin-right: 53px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	font-size: 25px;
+}
+
+
+.big_flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+
+.big_flex div {
+	display: flex;
+	flex-direction: column;
+	width: 575px;
+	height: 233px;
+	font-size: 25px;
+	border: 1px solid grey;
+	margin-left: 73px;
+	background-color: white;
+	margin-top: 30px;
+
+}
+.big_flex p {
+	background-color:white;
+}
+
+.big_flex h5 {
+	background-color: white;
+}
+.fin1, .fin2, .fin3, .fin4, .fin5, .fin6 {
+	width: 125px;
+	border-radius: 26px;
+	background-color: grey;
+	
+
+} 
+.final {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	justify-content: space-around;
+	margin-right: 54px;
+}
+.final div {
+	width: 500px;
+	height: 300px;
+	font-size: 25px;
+
+}
+.foot {
+	text-align: center;
+}
+.services-info-img {
+	width: 575px;
+	height: 352px;
+
+}
+.laslis {
+	margin-top: 25px;
+	list-style-type: square;
+	margin-left: 50px;
+}
+.lorum {
+	font-size: 25px;
+	margin-left: auto;
+}
+.allstretch {
+	background-color: greenyellow;
+}
+.newlogo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+
+}
+.newlogo div {
+	margin-left: 73px;
+	width: 575px;
+	height: 300px;
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 2px solid black;
+	
+
+}
+.newlogo p {
+	font-size: 25px;
+	background-color: white;
+}
+.newlogo h5 {
+	font-size: 25px; 
+	background-color: white;
+}
