@@ -64,3 +64,274 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+html {
+	width: 900px;
+	margin: auto;
+}
+html h4 {
+	font-size: 1.25em;
+}
+
+.container header {
+	display: flex; 
+	justify-content: space-around;
+	align-content: center;
+	margin: 50px;
+	align-items: center;
+}
+.container header nav {
+	display: flex;
+	justify-content: space-around; 
+	align-content: center; 
+	width: 715px;
+}
+
+.container header nav a {
+	text-decoration: none;
+	color: grey;
+}
+
+.container header nav a:hover {
+	animation: pulse 3s infinite;
+    
+}
+
+@keyframes pulse {
+	0% {
+	color: cyan;
+	}
+	50% {
+	  color: limegreen;
+	}
+	100% {
+		color: grey;
+	}
+  }
+
+.container header .logo {
+	display: flex;
+	margin-left: 50px;
+}
+
+.container .firstHalf {
+	border-bottom: 1px solid black;
+	padding: 75px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.container .firstSection {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	width: 49.5%;
+	
+	}
+
+.container .firstSection h1 {
+	font-size: 75px;
+	display: flex;
+	
+}
+
+.container .image1 {
+	width: 49.5%;
+}
+
+.container .firstSection button {
+	background: white;
+	color: black;
+	border: 1px solid black;
+	width: 150px;
+	height: 30px;
+	font-size: 1em;
+}
+
+.container .firstSection button:hover{
+	animation: pulse 3s infinite;
+	background-color: black;
+} 
+
+.container .featAbout {
+	display: flex;
+	width: 900px;
+}
+
+.container .featuresSection {
+	display: flex;
+	flex-direction: column;
+	width: 49.5%;
+	padding: 50px 0;
+}
+
+.container .aboutSection {
+	display: flex;
+	flex-direction: column;
+	width: 49.5%;
+	padding: 50px 0;
+}
+
+.container .servicesSection {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 50px 0;
+}
+
+.container .productSection {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 50px 0;
+}
+
+.container .visionSection {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 50px 0;
+}
+
+.container .threeSections {
+	border-bottom: 1px solid black;
+	display: flex;
+}
+
+.container footer .contactSection {
+	padding-top: 50px;
+	display: flex;
+}
+
+.container footer address {
+	padding: 20px 0;
+}
+
+.container footer div {
+	padding-bottom: 20px;
+}
+
+.container footer .copyrightSection {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.container .servicesSection2 h2 {
+	font-size: 30px;
+}
+
+.container .servicesSection2 {
+	border-bottom: 1px solid black;
+	padding: 30px 0;
+}
+
+.container .boxes {
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 0;
+	justify-content: space-around;
+	align-content: space-between;
+}
+
+.container .boxes button {
+	width: 175px;
+	background-color: white;
+	height: 40px;
+	margin: 20px 0;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+.container .boxes .digitalDesign {
+	border: 1px solid black;
+	width: 45%;
+	margin-bottom: 30px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.container .boxes .uiux {
+	border: 1px solid black;
+	width: 45%;
+	margin-bottom: 30px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.container .boxes .digitalMarketing {
+	border: 1px solid black;
+	width: 45%;
+	margin-bottom: 30px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.container .boxes .webDev {
+	border: 1px solid black;
+	width: 45%;
+	margin-bottom: 30px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.container .boxes .ios {
+	border: 1px solid black;
+	width: 45%;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.container .boxes .android {
+	border: 1px solid black;
+	width: 45%;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.container .factsDiv {
+	display: flex;
+	padding-top: 30px;
+}
+
+.container .factsDiv .factsSection {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	margin-right: 50px;
+	margin-left: 20px;
+}
+
+.container .factsDiv .image {
+	display: flex;
+	width: 45%;
+}
+
+.container .factsDiv .factsSection ul {
+	margin: 10px;
+}
