@@ -63,4 +63,100 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container { 
+	width: 900px; 
+	margin: 0 auto; 
+}
+
+.container nav { 
+	/* border: 1px solid red;  */
+	display: flex; 
+	justify-content: space-between; 
+	padding: 15px; 
+	align-items: center; 
+}
+
+.container .logo { 
+	align-self: flex-end; 
+}
+
+.container nav a { 
+	padding: 10px; 
+	text-decoration: none; 
+	color: lightgray; 
+}
+
+.container .main-heading { 
+	/* border: 1px solid blue;  */
+	display: flex; 
+	width: 100%;
+	margin: 0 auto; 
+	align-items: center; 
+	justify-content: space-between; 
+	border-bottom: 2px solid black; 
+}
+
+.container .main-heading .main-text h1 { 
+	font-size: 4.5em; 
+	text-align: center; 
+}
+
+.container .main-heading .main-text { 
+	margin: 40px; 
+}
+
+.container .main-heading .main-image { 
+	margin: 40px; 
+}
+
+.container .main-heading .main-text .button { 
+	border: 1px solid black; 
+	width: 160px;
+	height: 30px;  
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px; 
+	padding-right: 30px; 
+	margin: 0 auto; 
+	text-align: center; 
+}
+
+.container .top-rows { 
+	display: flex; 
+	justify-content: space-between; 
+	padding-top: 30px; 
+}
+
+.container .content-row { 
+	/* border: 1px solid green;  */
+	height: 130px; 
+	width: 50%; 
+}
+
+.container .content-boxes { 
+	display: flex; 
+	width: 100%; 
+	margin: 0 auto; 
+	align-items: center; 
+	justify-content: space-between; 
+	padding-bottom: 55px; 
+	border-bottom: 2px solid black; 
+}
+
+.container .content-box { 
+	width: 33%;
+	padding-top: 30px; 
+	margin: 5px; 
+}
+
+.container .contact-box {
+	/* border: 1px solid pink;  */
+	padding-top: 30px; 
+	width: 17%; 
+}
+
+.container .copyright { 
+	margin: 0 auto; 
+	text-align: center; 
+	padding-bottom: 50px; 
+}
