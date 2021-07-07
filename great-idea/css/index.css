@@ -63,4 +63,194 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+
+header nav {
+  display: flex;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+/* cta */
+
+.cta .cta-text {
+  display: flex;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  display: flex;
+  margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: flex;
+  margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: flex;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*Psuedo Code Time */
+
+/* List of Items I Have
+Box 1A - The Navigation Bar needs to be grey color. 
+Box 1B - To the right of the Nav Bar is the logo Great Idea Picture
+Box 2AB - Below both of that is the banner image. 
+Box 3AB - The word Services is bolded to the left position of the page
+Box 4AB - This is the description of services. In a smaller text.
+Box 5AB - This is a solid black line, 	maybe 3px width. Or could be an image?
+Box 6A - Digital Design bolded to the left, in a 3px width border box. 
+			The box has a grey fill color with a different font text?
+			The word digital design is smaller than services. 
+			Beneath that name is the paragraph.
+			Beneath that is a button with a white background in the bot left space.
+Box 6B - Ux / Vi is bolded to the right, in a 3px width border box.
+			The box has a grey fill color with a different font text?
+			The word digital design is smaller than services. 
+			Beneath that name is the paragraph.
+			Beneath that is a button with a white background in the bot left space.
+Box 7A - Digital Marketing ~ left side 
+			~
+			~
+			~
+			~
+Box 7B - Web Development ~ Right Side
+			~
+			~
+			~
+			~
+Box 8A - IOS Development ~ Left Side
+			~
+			~
+			~
+			~
+Box 8B - Andriod Development ~ Right Side
+			~
+			~
+			~
+			~
+Box 9AB - This is a solid black line, maybe 3px width. Or could be an image?
+Box 10A - Some Facts About Our Services is bold text
+			Beneath that is the paragraph.
+			Beneath that is an unordered, bulleted list.
+			*This does not have a border, and is white background
+Box 10B - This is an image. 
+Box 11AB - This is a cenetered Copyright Great Idea! 2018 sentence, small size.
+-Complete-
+Notes: There is a margin? padding? buffer? space between box 5A through 10B. 
+/*
+
+/* Objective! Convert the psuedo code into actual CSS code using Flex Box for 
+positioning and/or using the box model method and coloring. 
+
+/* Objective! Wrap the Great Idea Logo (Box 1B) in an Anchor Tag 
+	and point the `href` to `index.html`
+
+	The Anchor syntax is 
+		<a href="index.html" img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a>
+*/
+
+/* Important note!! For Boxes like 3A and 3B, instead, make it all just 3. 
+		then use flexbox with the position layout to set them as a row. 
+		with proper padding, it should be able to replicate for the 3 other rows.
+
+
