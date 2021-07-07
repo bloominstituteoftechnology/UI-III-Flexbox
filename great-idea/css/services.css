@@ -65,69 +65,144 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 nav,
-header,
-.top-content,
-.bottom-content {
+.services,
+.services-faq {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-flow: row wrap;
 }
 
 nav {
     padding: 20px 0;
+    justify-content: center;
 }
 
-nav,
-.bottom-content,
-.contact,
+.nav-links {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    order: 1;
+    margin-top: 30px;
+}
+
+.nav-links a,
 footer {
-    margin-bottom: 50px;
+    text-align: center;
 }
 
-nav a {
+.nav-links a {
     color: grey;
     text-decoration: none;
-    margin-right: 40px;
+    border: 1px solid black;
+    padding: 10px 0;
+    margin-bottom: 5px;
 }
 
-header {
-    border-bottom: 1px solid black;
-    padding-bottom: 50px;
+header img,
+.faq-img img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.5em;
 }
 
 button {
-    background: none;
     border: 1px solid black;
     padding: 10px 40px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+ul {
+    list-style: square;
+    list-style-position: inside;
 }
 
-.cta {
-    width: 48%;
-    font-size: 4rem;
-    text-align: center;
-}
-
-.cta img,
-.middle-img {
-    width: 100%;
-}
-.top-content,
-.bottom-content {
-    padding: 50px 0;
-}
-.top-content div {
-    width: 48%;
-}
-
-.bottom-content {
-    border-bottom: 1px solid black;
+ul li {
+    margin-bottom: 10px;
 }
 
 footer {
-    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.header-copy,
+.services {
+    border-bottom: 1px solid black;
+    margin-bottom: 35px;
+}
+
+.header-copy {
+    padding: 50px 0;
+}
+
+.service-cards,
+.faq-copy,
+.faq-img {
+    width: 100%;
+}
+
+.service-cards {
+    border: 1px solid black;
+    padding: 20px;
+    background: rgb(243, 241, 241);
+    margin-bottom: 35px;
+}
+
+.faq-copy p {
+    margin-bottom: 30px;
+}
+
+.faq-img {
+    order: -1;
+    margin-bottom: 50px;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 0;
+    }
+
+    nav {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        flex-flow: row wrap;
+        order: 0;
+        width: auto;
+        margin-top: 0;
+    }
+
+    .nav-links a {
+        border: none;
+        margin-right: 35px;
+        margin-bottom: 0;
+        padding: 0 0;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .service-cards,
+    .faq-copy,
+    .faq-img {
+    width: 48%;
+    }
+    
+    .faq-img {
+        order: 0;
+    }
 }
