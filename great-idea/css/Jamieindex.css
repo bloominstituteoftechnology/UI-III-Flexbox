@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)ff 
+   License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -185,7 +185,7 @@ display: flex;
 }
 
 footer {
-    margin: 32px 0;
+  margin: 32px 0;
   text-align: center;
   font-size: 14px;
 }
@@ -220,19 +220,14 @@ footer {
 }
 
 .bs {
- background:white;
+ background: white;
  width: 120px;
  height: 30px;
  border-radius: 10px;
- margin: 20px;
+ margin: 10px;
 }
 
-.footer {
-  display: flex;
-  padding: 15px;
-}
-
-.footerServ {w
+.footerServ {
   display: flex;
   padding-top: 15px;
 }
@@ -246,8 +241,12 @@ ul li {
  padding-top: 15px;
 }
 
+.services-info-image {
+
+margin-left: 0;
+}
+
  .copy {
  margin-top: 50px;
 text-align: center;
 }
-
