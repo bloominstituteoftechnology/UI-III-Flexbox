@@ -1,4 +1,4 @@
-* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -63,103 +63,62 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-nav li{
-    display: inline-block;
-    margin: 4%;
+.wrapper{
+width: 75%;
+ margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin:2%;
     color: gainsboro;
-  
 }
-.hero{
+
+.services-header-img{
+    width: 95%;
+    margin-bottom: 4%
+}
+.hero-header{
+    margin-bottom:3%;
+}
+.main-content{
+  background-color: white;
   display: flex;
-    margin: 3%;
-    width: 100%;
-    justify-content: space-evenly;
-}
-.button{
-  margin-top: 33%;
-  width:300px;
-  padding: 5%;
-border: 1px solid black;
+  flex-wrap: wrap;
+  }
+hr{
+    border:1px solid grey;
+    margin-bottom: 3%
 }
 .content{
-    display: inline-block;
-    margin:4%;
-    background-color: white;
-  text-align: center
+  border: 1px solid black;
+  background: #eee;
+  width: 400px;
+  height:300px ;
+  line-height: 25px;
+  padding: 2%;
+  margin:5%;
 }
-.content p{
-    border: 1px solid black;
-    width: 45%;
-    padding: 2%;
-    margin-left: 25%
-}
-.content h1{
-    font-size: 70px;
-    height: 47%;
-    padding:3%;
+button{
+  margin-top:5%;
+  padding: 3%;
+  width: 35%;
 }
 
-.img-content{
-    margin-left: 15%;  
-}
-    
-hr{
-    border: 1px solid black;
-    width: 96%;
-    margin-bottom: 2%
-}
-.features{
-  
-    width: 35%;
-    margin-left: 1%;
-    padding:2%;
-}
-
-.about{
-
-width: 35%;
-margin-left: 10%;
-padding: 2%;
-}
-
-.section-A{
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 4%;
-}
-
-.middle-img{
-   width: 100%;
-       margin-bottom: 4%
-}
-.section-B{
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 4%
-}
-
-.services{
-   
-    width: 25%;
-    margin-left: 5%;
-    padding:2%
-}
-
-.product{
- 
-width: 25%;
-margin-left: 8%;
-padding: 2%
-}
-
-.vision{
-
-width: 25%;
-margin-left: 8%;
-padding: 1%;
+footer{
+   display: flex;
+    margin-bottom: 3%
 }
 footer p{
-    text-align: center;
+    width:85%
+}
+footer ul{
+    margin-top: 10%;
+    list-style-type: square;
+}
+.copy-right {
+    text-align: center
 }
