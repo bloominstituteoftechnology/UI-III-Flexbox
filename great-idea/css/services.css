@@ -89,7 +89,7 @@ nav {
 }
 
 nav a {
-	margin: 20px 20px;
+	margin: 20px 0px;
 	text-decoration: none;
 	color: gray;
 	/* border: 2px solid red; */
@@ -101,23 +101,42 @@ nav a {
 
 header {
 	border-bottom: 2px solid gray;
-	margin: 100px 0 0 0;
-	display: flex;
-	justify-content: space-evenly;
-    align-items: center;
+	margin: 80px 0 0 0;
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 0 30px 0;
 }
 
-.header-left {
-	text-align: center;
+header img {
 	/* border: 2px solid red; */
 }
 
 header h1 {
-	width: 100%;
-	font-size: 65px;
-	text-align: center;
-	padding: 0 70px 0 70px;
+    font-size: 25px;
+    margin: 20px 0 20px 0;
 	/* border: 2px solid red; */
+}
+
+header p {
+    margin: 0 0 20px 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+	height: 830px;
+}
+
+main div {
+	width: 411px;
+	height: 220px;
+    padding: 20px;
+    border: 1px solid black; 
 }
 
 button {
@@ -125,68 +144,38 @@ button {
 	height: 30px;
 	font-size: 15px;
 	background: white;
-	border: 1px solid black;
-}
-
-header img {
-	padding: 70px;
-	/* border: 2px solid red; */
-}
-
-.top-section {
-	padding: 30px 0;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-}
-
-.top-section .left {
-	margin-right: 20px;
-	/* border: 2px solid red; */
-}
-
-.top-section .right {
-	/* border: 2px solid red; */
-}
-
-.middle-img {
-	width: 100%;
+    border: 1px solid black;
+    border-radius: 7%;
+    margin: 20px 0 0 0;
 }
 
 .bottom-section {
-	border-bottom: 2px solid gray;
-	padding: 30px 0;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px 0 0 0;
+    /* border: 2px solid red;  */
 }
 
 .bottom-left {
-	/* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 20px 0 0 0; 
+	margin: 0 30px 0 0;
+	width: 400px;
 }
 
-.bottom-middle {
-	margin: 0 20px;
-	/* border: 2px solid red; */
+.bottom-left ul {
+    list-style-type: square;
+    padding: 20px; 
+    line-height: 2;
 }
 
-.bottom-right {
-	/* border: 2px solid red; */
-}
-
-.contact {
-	display: flex;
-	justify-items: space-evenly;
-	align-items: flex-start;
-	flex-direction: column;
-	width: 150px;
-	margin: 30px 0 0 0;
-	/* border: 2px solid red; */
-}
-
-.contact p {
-	padding: 5px 0 10px 0;
-	/* border: 2px solid red; */
+.bottom-section img {
+	margin-top: 20px;
+	padding: 0 0 20px 0;
+	height: 300px;
 }
 
 footer {
