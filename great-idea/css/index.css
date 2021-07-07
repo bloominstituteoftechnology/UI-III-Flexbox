@@ -63,4 +63,467 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+
+body{
+	display: block;
+	width: 900px;
+	margin: 0px auto;
+}
+
+@keyframes textColorChange {
+	0%   {color: green;}
+	25%  {color: blue;}
+	50%  {color: purple;}
+	100% {color: red;}
+  }
+
+.navigationBar{
+	position: fixed;
+	background: white;
+	display: inline-flex;
+	justify-content: space-between;
+	width: 900px;
+	height: 75px;
+	z-index: +1;
+	top: 0px;
+}
+
+.mobileHomeNav{
+	display: none;
+}
+
+.navigationBar a{
+	position: relative;
+	color: grey;
+	text-decoration: none;
+	top: 30px;
+}
+.navigationBar a:hover{
+	animation-name: textColorChange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.navigationBar .logo{
+	position: relative;
+	top: 20px;
+	display: inline-flex;
+	justify-content: space-between;
+	z-index: +1;
+	background-image: url(../img/logo.png);
+	width: 183px;
+	height: 36px;
+	cursor: pointer;
+
+}
+
+#topContent{
+	display: inline-flex;
+	width: 900px;
+	margin: 0px auto;
+	margin-bottom: 55px;
+	margin-top: 125px;
+	justify-content: space-between;
+}
+
+#motto{
+	position: relative;
+	font-size: 64px;
+	width: 345px;
+	left: 50px;
+	top: 50px;
+	text-align: center;
+}
+
+#motto h1{
+	font-family: 'Sigmar One', cursive;
+}
+
+#headerIMG{
+	float: right;
+	margin-right: 10px;
+	background-image: url(../img/header-img.png);
+	width: 379px;
+	height: 379px;
+}
+
+#getStartedBtn{
+	position: relative;
+	width: 155px;
+	height: 25px;
+	top: 275px;
+	left: -195px;
+	text-decoration: none;
+	background: white;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+#getStartedBtn:hover{
+	animation-name: textColorChange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+#middleInfoTopSection{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 900px;
+	margin: 25px auto;
+}
+
+#middleInfoTopSection div{
+	width: 48%;
+	font-size: 16px;
+}
+
+.middle-img{
+	background-image: url(../img/mid-page-accent.jpg);
+	width: 900px;
+	margin-top: 10px;
+	height: 181px
+}
+
+#middleInfoBottomSection{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 900px;
+	margin: 35px auto;
+	font-size: 16px;
+}
+
+#servicesInfo{
+	width: 32%;
+}
+
+#productInfo{
+	width: 32%;
+}
+
+#visionInfo{
+	width: 32%;
+}
+
+footer{
+	display: flex;
+	width: 900px;
+	flex-direction: column;
+}
+
+footer address{
+	width: 120px;
+	font-size: 14px;
+}
+
+footer #contactInfo{
+	margin: 25px 0px;
+	width: 125px;
+}
+
+footer #emailAddress{
+	margin-top: 20px;
+}
+
+#copyright{
+	font-size: 14px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+/* Services Page */
+
+#servicesTopSection{
+	display: inline-flex;
+	flex-direction: column;
+	width: 900px;
+	margin-top: 75px;
+}
+#servicesTopSection h1{
+	font-size: 28px;
+}
+
+.services-header-img{
+	margin-bottom: 25px;
+}
+
+#hrTopSection{
+	width: 900px;
+	margin: 35px auto;
+	border: 1px solid grey;
+}
+
+.midSection{
+	width: 900px;
+	margin: 0px auto;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.serviceCardDesign{
+	background: rgb(244, 243, 244);
+	border: 1px solid black;
+	width: 430px;
+	padding: 20px;
+	margin-bottom: 45px;
+}
+
+.serviceCardDesign h2{
+	font-size: 21px;
+	margin: 15px 0px;
+	width: 375px;
+}
+
+.serviceCardDesign p{
+	width: 375px;
+	margin: 20px 0px;
+	padding-right: 5px;
+}
+
+.serviceCardDesign button{
+	width: 125px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+	cursor: pointer;
+}
+
+.serviceCardDesign button:hover{
+	animation-name: textColorChange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+#hrBottom{
+	margin: 0px auto;
+	margin-top: 5px;
+	margin-bottom: 45px;
+	width: 900px;
+	border: 1px solid black
+}
+
+#bottomSectionServices{
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+#factsSection h2{
+	font-size: 18px;
+}
+
+#factsSection p{
+	margin: 15px 0px;
+	width: 400px;
+	margin-bottom: 25px;
+}
+
+#keyFeaturesBullets{
+	position: relative;
+	list-style-type: square;
+	left: 20px;
+}
+
+#keyFeaturesbullets li{
+	margin:0 0 10px 0;   
+}
+
+#copyrightSection{
+	width: 900px;
+	margin: 0px auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+
+
+/* Features page */
+
+#feautesTopImg{
+	position: relative;
+	max-width: 900px;
+	top: -55px;
+}
+
+#featuresTopSection{
+	margin-top: -25px;
+}
+#featuresTopSection h1{
+	font-size: 28px;
+}
+
+#topDivider{
+	width: 900px;
+	margin: 25px auto;
+	border: 1px solid grey;
+}
+
+#featureMiddleSeaction{
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.featuresIMGs{
+	width: 250px;
+	height: 250px;
+	z-index: -1;
+}
+
+.freaturesCards{
+	display: inline-flex;
+	justify-content: center;
+	align-self: center;
+	align-content: center;
+	width: 900px;
+	margin: 20px auto;
+	border: 2px solid black;
+	height: 253px;
+}
+
+.freaturesCards h2{
+	font-size: 22px;
+	text-align: center;
+	margin: 15px auto;
+}
+
+.freaturesCards p{
+	padding: 20px;
+	margin-top: 5px;
+	text-align: left;
+
+}
+
+.featuresLearnMoreBtn{
+	position: relative;
+	border: 1px solid black;
+	background: white;
+	border-radius: 4px;
+	width: 150px;
+	height: 25px;
+	margin: 10px auto;
+	left: 225px;
+	cursor: pointer;
+}
+
+.featuresLearnMoreBtn:hover{
+	animation-name: textColorChange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+#featuresBottomDivider{
+	width: 900px;
+	margin: 20px auto;
+	border: 1px solid black;
+}
+
+
+@media (max-width: 600px){
+	img{
+		width: 600px;
+	}
+	hr{
+		width: 600px;
+	}
+	p{
+		width: 600px;
+	}
+	body{
+		width: 600px;
+	}
+	footer{
+		width: 600px;
+		align-content: center;
+	}
+	#freaturesCards{
+		width: 600px;
+	}
+	#hrBottom{
+		width: 600px;
+	}
+	#hrTopSection{
+		width: 600px;
+	}
+	#servicesTopSection{
+		width: 600px;
+		flex-direction: column;
+		margin-left: -10px;
+		align-content: center;
+	}
+	#servicesTopSection h1{
+		text-align: center;
+	}
+	#servicesTopSection p{
+		text-align: center;
+		widows: 600px;
+	}
+	.navigationBar{
+		position: relative;
+		flex-direction: column;
+		text-align: center;
+		width: 600px;
+		margin-bottom: 240px;
+	}
+	.mobileHomeNav{
+		display: block;
+	}
+
+	.navigationBar a{
+		font-size: 18px;
+		margin: 0px auto;
+		margin-bottom: 10px;
+		border: 1px solid black;
+		padding: 10px;
+		width: 150px;
+		
+	}
+
+	.midSection{
+		color: blue;
+		display: inline-flex;
+		max-width: 600px;
+		width: 600px;
+		height: 1800px;
+		flex-direction: column;
+		align-content: center;
+
+	}
+	
+	#bottomSectionServices{
+		width: 600px;
+		flex-direction: column;
+		align-content: center;
+		}
+
+
+	#factsSection{
+
+	}
+
+	#factsSection h2{
+		text-align: center;
+	}
+
+	#factsSection p{
+		margin: 0px auto;
+		text-align: center;
+	}
+
+	#factsSection ul{
+		position: relative;
+		margin: 25px auto;
+		left: 250px;
+	}
+	#factsSection ul li{
+		margin: 0px auto;
+
+	}
+	#copyrightSection{
+		width: 600px;
+		flex-direction: column;
+	}
+}
