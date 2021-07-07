@@ -57,10 +57,74 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	font: inherit;
+	display: flex;
+	flex-direction: row;
+
+}
+
+header {
+	display: block;
+	font: inherit;
+}
+
+.cta {
+	display: block;
+	font: inherit;
+}
+
+.main-content {
+	font: inherit;
+	font-family: 'Titillium Web', sans-serif;
+	display: flex;
+	width: 100px;
+}
+
+p {
+	width: 100px;
+	
+}
+
+.some-fact {
+	display: block;
+	font: inherit;
+}
+
+.cta2 {
+	display: block;
+	font: inherit;
+}
+
+nav a {
+	width: 100px;
+	height: 50px;
+	margin: 20px;
+  font-size: 22px;
+  color: grey;
+}
+
+nav {
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+img {
+  width: 300px;
+  justify-content: flex-end;
+}
+
+ul {
+	list-style-type: circle;
+}
