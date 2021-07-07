@@ -31,9 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -63,4 +60,318 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	/* border: 1px solid red; */
+	width: 876px;
+	margin: 0 auto;
+}
+
+.container header {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 70px;
+	/* margin-bottom: 10px; */
+	/* background-color: teal; */
+	position: flex;
+	width: 876px;
+	/* z-index: 1;  */
+}
+
+.container header nav {
+	/* border: 1px solid red; */
+	align-self: center;
+}
+
+.container header nav a {
+	/* border: 1px solid red; */
+	color: lightgray;
+	margin-right: 30px;
+}
+.container	header .logo {
+	/* border: 1px solid red; */
+	align-self: flex-start;
+	margin-top: 5px;
+}
+
+.container section  {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-wrap: nowrap;
+	margin-bottom: 20px;
+}
+
+.container section .mainheading-left {
+	/* border: 1px solid red; */
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container section .mainheading-left h1{
+	font-size: 70px;
+	text-align: center;
+	color: black;
+}
+.container section .mainheading-left a {
+	border: 2px solid black;
+	padding: 5px 20px;
+	text-decoration: none;
+}
+
+.container section .logo2 {
+	/* border: 1px solid red; */
+	width: 50%;
+}
+.containerFirstSection {
+	display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+	border-top: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.containerFirstSection .FirstSectionItems {
+	width: 50%;
+}
+.middle-img {
+	display: flex;
+}
+
+.containerThirdSection {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 30px; 
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.ThirdSectionItems {
+	/* border: 1px solid red; */
+	width: 32%;
+}
+footer .footer-index-container {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+
+footer .Copyright {
+	/* border: 1px solid red; */
+	text-align: center;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.container header a .logo {
+	/* border: 1px solid red; */
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.services-header-img {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: row;	
+}
+
+.services-heading {
+	margin: 20px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.services-section1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	/* border: 1px solid red; */
+}
+
+.services-section1 .digitaldesign {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	padding: 15px 25px 0 15px;
+	background-color: snow;
+	margin-right: 40px;
+}
+.services-section1 .learnmore {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 140px;
+	text-align: center;
+	padding: 5px 20px;
+	align-self: flex-start;
+	margin: 10px 0;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.services-section1 .uxui {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 200px;
+	border: 1px solid black;
+	padding: 15px 25px 0 15px;
+	background-color: snow;
+}
+
+.services-section2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	/* border: 1px solid red; */
+}
+
+.services-section2 .digitalmarketing {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	padding: 15px 25px 0 15px;
+	background-color: snow;
+	margin-right: 40px;
+}
+
+.services-section2 .learnmore {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px 20px;
+	align-self: flex-start;
+	margin: 10px 0;
+	text-decoration: none;
+	font-size: 12px;	
+	width: 140px;
+	text-align: center;
+}
+
+.services-section2 .webdevelopment {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 200px;
+	border: 1px solid black;
+	padding: 15px 25px 0 15px;
+	background-color: snow;
+}
+
+.services-section3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	padding-bottom: 40px;
+	/* border: 1px solid red; */
+}
+
+.services-section3 .iosdevelopment {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	padding: 15px 25px 0 15px;
+	background-color: snow;
+	margin-right: 40px;
+}
+
+.services-section3 .learnmore {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px 20px;
+	align-self: flex-start;
+	margin: 10px 0;
+	text-decoration: none;
+	font-size: 12px;
+	width: 140px;
+	text-align: center;
+}
+
+.services-section3 .androiddevelopment {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 200px;
+	border: 1px solid black;
+	padding: 15px 25px 0 15px;
+	background-color: snow;
+}
+
+.footer-services-container {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-left {
+	/* border: 1px solid red; */
+	width: 415px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-around; */
+
+	margin-right: 40px;
+}
+
+.footer-left p {
+	/* border: 1px solid red; */
+	margin-bottom: 10px;
+}
+
+.services-copyright {
+	display: flex;
+	justify-content: center;
+	margin: 80px 0;
+	font-size: 14px;
+}
+
+ul {
+	/* border: 1px solid red; */
+	margin-left: 20px;
+	list-style-type: square
+}
+
+li {
+	/* border: 1px solid red; */
+	padding: 10px 0 5px 2px;
+}
+
+.aboutus-header-img {
+	margin-bottom: 30px;
+}
+
+.aboutus-heading h2 {
+	font-size: 30px;
+}
+
+.aboutus-footer-container {
+	/* border: 1px solid red; */
+	display: flex;
+	height: 300px;
+}
+
+.aboutus-footer-left {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.aboutus-footer-left h2 {
+	text-align: center;
+}
+
+.aboutus-footer-img {
+	width: 49%;
+	height: 
+}
