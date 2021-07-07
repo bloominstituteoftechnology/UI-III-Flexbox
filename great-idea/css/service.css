@@ -68,15 +68,13 @@ h1, h2, h3, h4, h5 {
 	width: 61.25em;
 	margin: 0 auto;
 }
-
 header{
-	background: #BEBEBE;
-	margin: 5em 0 0 0;
- 
- }
+   background: #BEBEBE;
+   margin: 5em 0 0 0;
+}
 
 header nav{
-	width: 61.25em;
+    width: 61.25em;
 	display: flex;
 	justify-content: flex-start;
     align-items: center;
@@ -85,123 +83,109 @@ header nav{
     top: 0px;
     background-color: white;
     border-bottom: 1px #000000 solid;
-	
 }
+
+
 header nav a{
 	text-decoration: none;
-	margin: 1em;
-	color:black;
+    margin: 1em;
+    color:black;
 	padding: 10px;
 	text-align: center;
 	transition: 0.1s;
-	border-radius: 20px;  
+    border-radius: 20px;  
 }
 header nav  a:hover{
-	background: grey;
+    background: grey;
 	color: aliceblue;
 	transition: .8s;
 }
 nav :last-child{
-	margin-left: auto
+    margin-left: auto;
 }
-.container section{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-flow: row wrap;
-	margin: 2em 0em;	 
-}
-	
-section .main-title{
-	width: 450px;
-	text-align: center;
-	font-size: 3.75em;
+ .container section .sec-info-card{
+justify-content: space-between;
+align-items: center;
+width: 45%;
+flex-flow: row wrap;
+border: 2px black solid;
+background: #f4f3f4;
+height: 2%; 
+padding: 1.25em;
+line-height: 1.4;
 }
 
-section .main-title .get-started{
-	padding: 5px 10px;
-	width: 180px;
-	height: 40px;
-	border-radius: 5px;
-	font-weight: bold
+.container .services-header-img{
+    width: 100%;
+    margin: 1em 0em 1.5em 0em;
 }
-  .mid-page-image{
-	width: 100%; 
-	margin: 10px 0px;
-} 
-.mid-page-image img{
-	width: 98%;
-	margin: 0 auto;
-}
-.main-section{
-	display: flex; 
-	flex-flow: row wrap;
-	justify-content: flex-end;
 
-}
-.main-section section .features{
-	width:45%; 
-	line-height: 20px;
-
-}
-.main-section section .about{
-	width:45%; 
-	line-height: 20px;
+section .section-info{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
 
 }
 
+.sec-info-card:nth-child(even){
+    /* color: blue; */
+    margin: 2em 0em 0em 9px;
 
-.second-section{
-	width: 33%;
-	line-height: 20px;
 }
-address nav a {
-	text-decoration: none;
-	line-height: 1.6 ;
-	color: black;
-	font-weight: bold;
+.sec-info-card:nth-child(odd){
+    /* color: red;/ */      
+    margin: 2em 1px 2em 0em;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin: 30px 0px 0px 0px;
+
 }
 
-footer  h4{
-	text-align: center;
-	padding: 50px;
+footer .footer-text{
+    width:45%;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+footer h4{
+    margin: 0 auto;
+    padding: 50px;
+    bottom: 0px;
+}
+footer .footer-text ul{
+    display: list-item;
+    margin: 30px 0px 0px 0px; 
+    list-style-type: circle; 
+    list-style-position: inside;
+}
+footer address{
+    display: inline;
 }
 
 @media only screen and (max-width: 750px){
-	.container{
-		width: 99vw;
-		padding: 5px;
-
-	}
- 	 header{
-		position: fixed;
-		top: 0px;
-		margin-bottom: 0.3125;
-	}
-	.container header nav{
-		flex-flow: row wrap-reverse;
-		width: 100vw;
-		margin-bottom: 1.56em;
-		justify-content: center;
-	}
-	header nav img{
-		margin: 0px auto;
-		align-items: flex-end
-	}
-
-	.container .main-section-header{
-		display: flex;
-		flex-flow: row wrap;
-		margin: 10em 0em 0em 0em;
-		justify-content: center
-	}
-	.main-section-header .main-title{
-		width: 45%;
-		align-items: center;
-	}
-	.container section .header-image{
-		width: 45%;
-		align-items: center;
-	}
+   .container{
+       width: 98vw;
+       margin: 2px auto;
+   }
+   header nav {
+      width: 100vw;
+      flex-flow: row wrap-reverse;
+      justify-content: center;
+   }
+   header nav :last-child{
+       margin: 0px;
+   }
+   .container .services-header-img{
+       margin: 4em 0em 2em 0em;
+   }
+   footer .footer-text{
+        width: 45vw;
+   }
+   footer .footer-img .services-info-img{
+       width: 45vw;
+   }
 }
-
