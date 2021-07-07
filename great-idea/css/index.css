@@ -53,7 +53,6 @@ table {
 }
 
 html, body {
-    height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +63,159 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+header{
+	width: 80%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+nav {
+	width: 65%;
+	height: 200px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+nav img{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	width: 10%;
+	display: inline-block;
+	font-size: 16px;
+}
+nav a:hover {
+	animation-name: skale;
+	animation-duration: 3000000s;
+}
+@keyframes skale {
+	0% {transform: scale3d(1.2, 1.2, 1.2);}
+	100% {transform: scale3d(1.2, 1.2, 1.2);}
+}
+.main-banner{
+	width: 80%;
+	height: 49%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 60px;
+}
+.title{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.title h1{
+	font-size: 80px;
+	justify-self: center;
+}
+.title p {
+	border: 1px solid black;
+	border-radius: 40px;
+	background: black;
+	color: white;
+	font-weight: 800;
+	padding: 18px 20px 20px 20px;
+	cursor: pointer;
+}
+	
+.article{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Paragraph-1{
+	border-top: 1px black solid;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.Paragraph-1 .Features{
+	width: 600px;
+	height: 100%;
+	padding-right: 100px;
+}
+.Paragraph-1 .Features h2{
+ font-size: 36px;
+}
+.Paragraph-1 .Features p{
+font-size: 18px;
+font-weight: 500;
+}
+.Paragraph-1 .About {
+	width: 600px;
+	height: 100%;
+	text-align: left;
+}
+.Paragraph-1 .About h2{
+font-size: 36px;
+}
+.Paragraph-1 .About p {
+	font-size: 18px;
+	font-weight: 500;
+}
+.big-image {
+	width: 100%;
+	padding-top: 20px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.big-image img{
+	width: 80%;
+	text-align: center;
+}
+
+.Paragraph-2{
+	width: 80%;
+	height: 200px;
+	display: flex;
+	border-bottom: 1px black solid;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	justify-content: space-between;
+}
+.Paragraph-2 .box{
+	height: 200px;
+	width: 350px;
+}
+.Paragraph-2 h2 {
+	font-size: 36px;
+}
+.Paragraph-2 p {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.address {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	line-height: 2;
+}
+footer {
+	width: 63%;
+	padding-top: 20px;
+}
+footer .Copyright{
+	display: flex;
+	justify-content: center;
+}
