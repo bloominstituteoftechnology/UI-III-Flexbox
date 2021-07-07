@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+	
+
+header {
+	color:grey;
+
+}
+header nav a {
+	display: flex;
+	margin: 0 20px;
+	padding: 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+.links {
+	display:flex;
+	justify-content: space-around;
+	
+
+}
+
+.logo {
+	display: flex;
+	text-align: right;
+	justify-content: space-evenly;
+	
+	}
+
+.services-header-img {
+	display: flex;
+
+}
+
+
+
+
+
+.text {
+	align-content: flex-start;
+	
+}
+
+
+
+
+
+.box {
+    display:flex;
+	align-content: flex-start;
+	justify-content: space-evenly;
+	
+}
+
+.box11 {
+	align-content: flex-start;
+	border: 1px solid grey;
+}
+
+
+.box1 {
+	align-content: flex-start;
+	border: 1px solid grey;
+}
+
+
+.box2 {
+    display:flex;
+	align-content: flex-start;
+	justify-content: space-between;
+	border: 1px solid grey;
+}
+
+.box12 {
+	align-content: flex-start;
+	border: 1px solid grey;
+}
+
+
+.box3 {
+	align-content: flex-start;
+	border: 1px solid grey;
+}
+
+.box4 {
+	display:flex;
+	align-content: flex-start;
+	justify-content: space-between;
+	border: 1px solid grey;
+}
+
+.box14 {
+	align-content: flex-start;
+	border: 1px solid grey;
+}
+
+.box5 {
+	align-content: flex-start;
+	border: 1px solid grey;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.box6 {
+	display:flex;
+	align-content: flex-start;
+	justify-content: space-between;
+	
+	
+	
+}
+
+#contant {
+	
+
+	
+}
+
+
+.the {
+	display:flex;
+	flex-direction: row-reverse;
+}
+
+
+
+
+footer {
+	text-align: center;
+}
