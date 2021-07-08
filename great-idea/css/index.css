@@ -64,3 +64,218 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+	width: 877px;
+	margin: 0 auto;
+}
+
+p {
+	line-height: 1.25em;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	height: 80px;
+	width: 100%;
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 877px;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+width: 600px;
+
+}
+nav a {
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 16px;
+	width: 16%;
+
+}
+
+.logo{
+	display: flex;
+	justify-content: flex-end;
+	width: 277px;
+}
+.hero {
+	margin: 125px 0 75px;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-top: 65px;
+	
+}
+
+.title h1 {
+	font-size: 80px;
+}
+.title a {
+	border: 1px solid black;
+	padding: 0px 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+
+
+}
+
+/* main section */
+main {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+main, .middle-img {
+	padding: 40px 0;
+
+}
+.services-header-img {
+	height: 200px;
+	margin-top: 80px;
+}
+
+.overview {
+	margin: 40px 0;
+}
+
+.overview h1 {
+	font-size: 26px;
+	font-weight: 900;
+}
+
+.overview p {
+	line-height: 1.25em;
+}
+.half div, .thirds div {
+	white-space: normal;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* height: 100%; */
+	vertical-align: top;
+}
+
+.half {
+	white-space: nowrap;
+	
+}
+
+.half div   {
+	width: 50%;
+}
+
+.thirds div {
+	width: 33%;
+}
+
+.services {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+}
+
+.card {
+	width: 417px;
+	border: 1px solid black;
+	background: #F4F3F4;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.card a {
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	background: #FFFFFF;
+	color: black;
+	padding: 10px 40px;
+	font-size: 12px;
+	margin-top: 20px;
+	
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+ul {
+	list-style: square;
+	margin-top: 30px;
+	list-style-position: inside;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
+
+.facts {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.facts div {
+	width: 417px;
+}
+
+/* footer */
+footer {
+	margin-top: 40px;
+}
+
+footer a {
+	display: flex;
+	text-decoration: none;
+	color: black;
+}
+
+.phone {
+	margin: 24px 0;
+	
+}
+
+#copyright {
+	text-align: center;
+	margin: 48px 0 108px;
+	font-size: 14px;
+}
