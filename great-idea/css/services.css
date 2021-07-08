@@ -1,3 +1,5 @@
+/*	Services CSS	*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -65,70 +67,100 @@ h1, h2, h3, h4, h5 {
 
 
 
-/* Your code starts here! */
+/* Beginning of my code 	*/
+
+body {
+	/*background-color: #B0B0B0;*/
+}
+
+h1 {
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+
+button {
+	width: 100px;
+	padding: 4px;
+}
+
+hr {
+	height: 5px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 2% 20px 2%;
+	width: 800px;
+	margin: 0 auto;
+}
 
 nav {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	margin: 40px 0 60px 0;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 20px 0 30px 0;
 }
 
 nav a {
 	text-decoration: none;
-	position: relative;
-	bottom: -10px;
 }
 
 header {
 	display: flex;
-	justify-content: space-around;
-	margin-bottom: 50px;
-}
-
-#h1-div {
-	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
 }
 
-header h1 {
-	text-align: center;
-	font-size: 70px;
-	width: 380px;
-}
-
-header button {
-	width: 100px;
-	padding: 5px;
+header p {
+	margin-bottom: 20px;
 }
 
 section {
 	display: flex;
-	justify-content: space-around;
-	margin: 30px 0;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+	margin; ;
 }
 
-.three-div {
-	margin-right: 10px;
+article {
+	padding: 10px;
+	width: 250px;
+	height: 250px;
+	border: 1px solid black;
+
+	margin-bottom: 20px;
+	background-color: #E8E8E8;
 }
 
-.margin-right {
-	margin-right: 30px;
-}
-
-.container {
-	width: 876px;
-	height: 100%;
-	margin: 0 auto;
+ul li {
+	list-style-type: square;
 }
 
 footer {
-	margin-top: 50px;
+	display: flex;
+}
+
+footer div {
+	display: flex;
+	flex-direction: column;
+}
+
+footer p {
+	margin-right: 20px;
+}
+
+ul {
+	margin: 20px 0 0 20px;
+}
+
+li {
+	margin-bottom: 10px;
 }
 
 #copyright {
-	text-align: center;
-	margin: 50px auto;
+	display: flex;
+	justify-content: center;
+	margin: 40px 0 40px 0;
 }
