@@ -1,66 +1,337 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  margin: 0 auto;
+  width: 880px;
+}
+
+/* Font / Text related classes */
+.f1 {
+  font-size: 5rem;
+}
+.f2 {
+  font-size: 2.25rem;
+}
+.f3 {
+  font-size: 1.5rem;
+}
+.f4 {
+  font-size: 1.25rem;
+}
+.f7 {
+  font-size: 0.75rem;
+}
+.fw-l {
+  font-weight: lighter;
+}
+.center-text {
+  text-align: center;
+}
+.no-underline {
+  text-decoration: none;
+}
+
+.list-style-square {
+  list-style-type: square;
+}
+
+/* Cursor */
+.pointer {
+  cursor: pointer;
+}
+
+/* Color related classes */
+.light-gray {
+  color: #f4f3f4;
+}
+.medium-gray {
+  color: #9c9c9c;
+}
+
+.black {
+  color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+.bg-light-gray {
+  background-color: #f4f3f4;
+}
+
+/* Margin related classes */
+/* Pixel */
+.mt30px {
+  margin-top: 30px;
+}
+.mt40px {
+  margin-top: 40px;
+}
+.mt80px {
+  margin-top: 80px;
+}
+
+.mb15px {
+  margin-bottom: 15px;
+}
+.mb30px {
+  margin-bottom: 30px;
+}
+.mb40px {
+  margin-bottom: 40px;
+}
+
+/* Rem */
+.mb1 {
+  margin-bottom: 1rem;
+}
+.ml3 {
+  margin-left: 3rem;
+}
+
+/* Padding related classes */
+/* Pixel */
+.pt30px {
+  padding-top: 30px;
+}
+
+.pb30px {
+  padding-bottom: 30px;
+}
+
+/* Rem */
+.pa1 {
+  padding: 1rem;
+}
+
+.pt025 {
+  padding-top: 0.25rem;
+}
+.pt5 {
+  padding-top: 5rem;
+}
+
+.pr025 {
+  padding-right: 0.25rem;
+}
+
+.pb025 {
+  padding-bottom: 0.25rem;
+}
+
+.pb1 {
+  padding-bottom: 1rem;
+}
+.pb5 {
+  padding-bottom: 5rem;
+}
+
+.pl025 {
+  padding-left: 0.25rem;
+}
+.pl1 {
+  padding-left: 1rem;
+}
+
+/* Width related classes */
+.w11 {
+  width: 11rem;
+}
+.w-33 {
+  width: 33.33%;
+}
+.w-47-75 {
+  width: 47.75%;
+}
+.w-50 {
+  width: 50%;
+}
+
+/* Border related classes */
+.ba {
+  border: 1px solid black;
+}
+.bb {
+  border-bottom: 1px solid black;
+}
+.bt {
+  border-top: 1px solid black;
+}
+
+.br2 {
+  border-radius: 0.25rem;
+}
+
+.bw2 {
+  border-width: 2px;
+}
+
+/* Flex related classes */
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
