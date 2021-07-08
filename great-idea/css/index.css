@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +64,170 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+h2 {
+	font-size: 2.0rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+address {
+	font-size: 1.5rem;
+}
+
+footer {
+	font-size: 1.5rem;
+}
+
+
+
+/* Your code starts here! */
+
+.container {
+	/* border: 1px solid gold; */
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	/* border: 1px solid forestgreen; */
+	margin-top: 20px;
+	display: flex;
+}
+
+header nav {
+	/* border: 1px solid red; */
+	/* display: inline-block; */
+	align-content: center;
+	vertical-align: top;
+}
+
+nav a {
+	padding: 0 30px;
+	color: grey;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+a:first-child {
+	padding: 0 30px 0 0;
+}
+
+.logo {
+	/* border: 1px solid red; */
+	margin-left: 167px;
+}
+
+.h1-image-content {
+	/* border: 1px solid green; */
+	display: flex;
+}
+
+.h1-button {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+
+button {
+	margin-left: 148px;
+}
+
+
+h1 {
+	/* border: 1px solid red; */
+	font-size: 6.0rem;
+	/* display: inline-block; */
+	text-align: center;
+	width: 300px;
+	vertical-align: top;
+	margin-left: 150px;
+	margin-top: 100px;
+}
+
+.code-image {
+	/* border: 1px solid red; */
+	/* display: inline-block; */
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+button {
+	border: 1px solid black;
+	width: 150px;
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 60px;
+}
+
+.top-paragraphs {
+	display: flex;
+	/* border: 1px solid red; */
+}
+
+.top-content {
+	/* border: 1px solid green; */
+	width: 450px;
+	/* display: inline-block; */
+	margin-top: 30px;
+}
+
+.top-content.about {
+	margin-left: 80px;
+	line-height: 1.2
+}
+
+.top-content.features {
+	line-height: 1.2;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 30px 0;
+}
+
+.bottom-paragraphs {
+	display: flex;
+}
+
+.bottom-content {
+	width: 300px;
+	/* display: inline-block; */
+	margin-bottom: 30px;
+}
+
+.bottom-content.product {
+	margin-left: 40px;
+	line-height: 1.2;
+}
+
+.bottom-content.vision {
+	margin-left: 40px;
+	line-height: 1.2;
+}
+
+.bottom-content.services {
+	line-height: 1.2;
+}
+
+.contact-info {
+	margin-top: 30px;
+	width: 150px;
+	line-height: 1.5;
+}
+
+footer {
+	margin-bottom: 100px;
+	margin-top: 50px;
+	margin-left: 400px;
+}
